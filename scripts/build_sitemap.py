@@ -8,10 +8,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = 'https://morimachi.enshu-lifehack.com'
+PUBLISHABLE_STATUSES = ('ai-checked', 'machine-verified', 'human-verified', 'published')
 
 def main():
     ledger = json.loads((ROOT / 'data/topics_master.json').read_text(encoding='utf-8'))
-    urls = ['/', '/terms/'] + sorted(t['href'] for t in ledger)
+    published = [t for t in ledger if t.get('status') in PUBLISHABLE_STATUSES]
+    urls = ['/', '/terms/'] + sorted(t['href'] for t in published)
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:

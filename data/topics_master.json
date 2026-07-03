@@ -189,14 +189,20 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/",
+    "label": "森町公式サイト",
+    "confidence": "high"
+   }
+  ],
   "facts": {
    "note": "確認中（森町の該当ページ未確認）"
   },
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
   "ai_checked_date": null,
-  "ai_notes": "個別項目（学校一覧・学童・就学援助等）に情報を集約したため、本カテゴリトップは各項目へのハブとして扱う。専用の総合案内ページは公式サイト上に確認できず。",
+  "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
   "verified_by": null,
   "title": "🎒 学ぶ・育つ"
  },
@@ -2047,14 +2053,20 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/",
+    "label": "森町公式サイト",
+    "confidence": "high"
+   }
+  ],
   "facts": {
    "note": "確認中（森町の該当ページ未確認）"
   },
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
   "ai_checked_date": null,
-  "ai_notes": "カテゴリ表紙のため個別ページなし。「子どものすこやかな育ち」https://www.town.morimachi.shizuoka.jp/morikko/sodachi/index.html 等のポータルをトップリンク候補として大石確認を推奨。",
+  "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
   "verified_by": null,
   "title": "👶 家族が増える"
  },
@@ -3309,14 +3321,20 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/",
+    "label": "森町公式サイト",
+    "confidence": "high"
+   }
+  ],
   "facts": {
    "note": "確認中（森町の該当ページ未確認）"
   },
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
   "ai_checked_date": null,
-  "ai_notes": "",
+  "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
   "verified_by": null,
   "title": "🏠 家・住まい（森町版）"
  },
@@ -4155,14 +4173,20 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/",
+    "label": "森町公式サイト",
+    "confidence": "high"
+   }
+  ],
   "facts": {
    "note": "確認中（森町の該当ページ未確認。転出関連の個別手続きページ「転出届」「水道廃止」「ごみ」「保育園・学校」は各項目で個別に確認済みのため、まとめページはそれらへのリンク集として構成する想定）"
   },
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
   "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
   "verified_by": null,
   "title": "📦 新しい場所へ（転出時の手続きまとめ）"
  },
@@ -7508,14 +7532,20 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/",
+    "label": "森町公式サイト",
+    "confidence": "high"
+   }
+  ],
   "facts": {
    "note": "確認中（森町の該当ページ未確認・カテゴリ一覧ページのため個別ページなし）"
   },
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
   "ai_checked_date": null,
-  "ai_notes": "",
+  "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
   "verified_by": null,
   "title": "💴 働く・暮らす（森町版）"
  },

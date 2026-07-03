@@ -172,7 +172,8 @@ def sources_html(sources, city_name):
 
 
 def related_links_html(item, category_items):
-    others = [i for i in category_items if i["href"] != item["href"]][:8]
+    others = [i for i in category_items
+              if i["href"] != item["href"] and i.get("status") in PUBLISHABLE_STATUSES][:8]
     if not others:
         return ""
     links = []

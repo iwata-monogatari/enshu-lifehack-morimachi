@@ -29,7 +29,7 @@ function pageFilePath(href) {
 function extractLead(href) {
   const filePath = pageFilePath(href);
   if (!fs.existsSync(filePath)) {
-    throw new Error(`ページファイルが見つかりません: ${href} -> ${filePath}`);
+    return null; // life/未公開（draft・_staging行き）のため検索対象外
   }
   const html = fs.readFileSync(filePath, 'utf8');
   const m = html.match(/<p class="lead">([\s\S]*?)<\/p>/);
@@ -42,14 +42,20 @@ function extractLead(href) {
 
 function main() {
   const topicsMaster = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/topics_master.json'), 'utf8'));
-  const searchIndex = topicsMaster.map((topic) => ({
-    href: topic.href,
-    icon: topic.icon,
-    title: topic.title,
-    category: topic.category,
-    synonyms: topic.synonyms || [],
-    lead: extractLead(topic.href),
-  }));
+  const searchIndex = topicsMaster
+    .map((topic) => {
+      const lead = extractLead(topic.href);
+      if (lead === null) return null; // 未公開ページは検索インデックスから除外
+      return {
+        href: topic.href,
+        icon: topic.icon,
+        title: topic.title,
+        category: topic.category,
+        synonyms: topic.synonyms || [],
+        lead,
+      };
+    })
+    .filter(Boolean);
 
   const outPath = path.join(ROOT, 'search-index.json');
   const json = JSON.stringify(searchIndex);
