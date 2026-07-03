@@ -56,11 +56,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -119,11 +119,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -182,11 +182,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -273,11 +273,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -335,11 +335,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -398,11 +398,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -455,11 +455,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -500,11 +500,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -563,11 +563,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -634,11 +634,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -709,11 +709,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -800,11 +800,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -851,11 +851,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -921,11 +921,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -979,11 +979,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1054,11 +1054,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1133,11 +1133,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1239,11 +1239,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1322,11 +1322,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1405,11 +1405,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1449,11 +1449,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1507,11 +1507,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1552,11 +1552,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1692,11 +1692,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1768,11 +1768,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1822,11 +1822,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1876,11 +1876,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -1937,11 +1937,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2007,11 +2007,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2077,11 +2077,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2151,11 +2151,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2222,11 +2222,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2312,11 +2312,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2374,11 +2374,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2432,11 +2432,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2492,11 +2492,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2550,11 +2550,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2620,11 +2620,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2683,11 +2683,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2745,11 +2745,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2788,11 +2788,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2877,11 +2877,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -2956,11 +2956,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3018,11 +3018,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3102,11 +3102,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3192,11 +3192,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3238,11 +3238,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3293,11 +3293,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3355,11 +3355,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3417,11 +3417,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3467,11 +3467,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3511,11 +3511,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3589,11 +3589,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3650,11 +3650,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3787,11 +3787,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3849,11 +3849,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3892,11 +3892,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -3945,11 +3945,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4019,11 +4019,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4111,11 +4111,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4177,11 +4177,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4247,11 +4247,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4309,11 +4309,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4389,11 +4389,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4473,11 +4473,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4531,11 +4531,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4589,11 +4589,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4647,11 +4647,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4695,11 +4695,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4760,11 +4760,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4825,11 +4825,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4885,11 +4885,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4920,11 +4920,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -4994,11 +4994,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5060,11 +5060,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5138,11 +5138,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5239,11 +5239,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5302,11 +5302,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5363,11 +5363,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5424,11 +5424,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5551,11 +5551,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5613,11 +5613,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5676,11 +5676,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5737,11 +5737,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5798,11 +5798,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5864,11 +5864,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5944,11 +5944,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5989,11 +5989,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6049,11 +6049,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6102,11 +6102,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6161,11 +6161,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6230,11 +6230,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6327,11 +6327,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6397,11 +6397,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6467,11 +6467,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6542,11 +6542,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6613,11 +6613,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6682,11 +6682,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6760,11 +6760,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6842,11 +6842,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6912,11 +6912,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -6982,11 +6982,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7051,11 +7051,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7128,11 +7128,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7202,11 +7202,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7279,11 +7279,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7406,11 +7406,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7485,11 +7485,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7558,11 +7558,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7659,11 +7659,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7720,11 +7720,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7770,11 +7770,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7847,11 +7847,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8004,11 +8004,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8065,11 +8065,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8155,11 +8155,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8217,11 +8217,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8278,11 +8278,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8335,11 +8335,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8397,11 +8397,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8455,11 +8455,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8516,11 +8516,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8578,11 +8578,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8699,11 +8699,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -8761,11 +8761,11 @@
    }
   ],
   "facts": {},
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
