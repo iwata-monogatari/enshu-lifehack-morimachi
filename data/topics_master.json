@@ -29,12 +29,37 @@
     "label": "子育て・教育"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/index.html",
+    "label": "放課後児童クラブ／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/houkagozidou/index.html",
+    "label": "放課後児童クラブ／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6616.html",
+    "label": "放課後児童クラブ利用料の変更について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6230.html",
+    "label": "令和8年度放課後児童クラブの利用申込みについて／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -67,12 +92,37 @@
     "label": "小学校・中学校・高校"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/shomugakari/1/1/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/gakkokanrigakari/1/1/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/kyoikuiinkai/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/5/5_1/index.html",
+    "label": "森町小中学校跡地利活用検討委員会／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -105,12 +155,37 @@
     "label": "学校・園情報"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/gakkokanrigakari/1/1/4815.html",
+    "label": "季節性インフルエンザと新型コロナウイルス感染症の感染による小中学校の出席停止に関する手続きの変更について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/4816.html",
+    "label": "季節性インフルエンザと新型コロナウイルス感染症の感染による小中学校の出席停止に関する手続きの変更について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/5/index.html",
+    "label": "小中学校跡地利活用／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/5/5_1/index.html",
+    "label": "森町小中学校跡地利活用検討委員会／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -132,7 +207,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -169,12 +246,37 @@
     "label": "子育てに関する悩み・相談"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/shomugakari/1/1/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/gakkokanrigakari/1/1/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/kyoikuiinkai/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/shomugakari/1/1/6811.html",
+    "label": "令和8年度 森町教育委員会定例会会議録／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -206,12 +308,37 @@
     "label": "体験入学願い・保護者変更届"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/2/6610.html",
+    "label": "【森町体験の里アクティ森】指定管理者変更に伴う一時休業と体験メニュー終了のお知らせ／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/gakkokanrigakari/1/1/4815.html",
+    "label": "季節性インフルエンザと新型コロナウイルス感染症の感染による小中学校の出席停止に関する手続きの変更について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/index.html",
+    "label": "小・中学校／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/4816.html",
+    "label": "季節性インフルエンザと新型コロナウイルス感染症の感染による小中学校の出席停止に関する手続きの変更について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -244,12 +371,37 @@
     "label": "教育委員会"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/shomugakari/1/1/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/gakkokanrigakari/1/1/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/kyoikuiinkai/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/shomugakari/1/1/6811.html",
+    "label": "令和8年度 森町教育委員会定例会会議録／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -282,12 +434,31 @@
     "label": "子育て・教育"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/shomugakari/1/1/373.html",
+    "label": "森町立小中学校での教育実習について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/index.html",
+    "label": "小・中学校／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/kyoikuiinkai/1227.html",
+    "label": "森町立小中学校での教育実習について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -320,12 +491,19 @@
     "label": "相談・手続き"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/index.html",
+    "label": "小・中学校／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -358,12 +536,37 @@
     "label": "教育委員会"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/shomugakari/1/1/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/gakkokanrigakari/1/1/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/kyoikuiinkai/index.html",
+    "label": "教育委員会／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/4660.html",
+    "label": "東遠地域障がい児者福祉施設ガイドブック／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -404,12 +607,37 @@
     "label": "申請書ダウンロード"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/1/4711.html",
+    "label": "災害による被害を受けた場合の町・県民税、国民健康保険税の軽減免除について／静岡県森町",
+    "match_score": 12,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/kojinchokemminzei/4712.html",
+    "label": "災害による被害を受けた場合の町・県民税、国民健康保険税の軽減免除について／静岡県森町",
+    "match_score": 12,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/2/1/index.html",
+    "label": "国民健康保険税／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/2/1/742.html",
+    "label": "国民健康保険税とは／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -454,12 +682,37 @@
     "label": "防災（総合案内）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/8/3750.html",
+    "label": "森町LINE公式アカウント／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/SNS_chattomail/3751.html",
+    "label": "森町LINE公式アカウント／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/420.html",
+    "label": "鉄道・民間路線バス・タクシー リンク集／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/2/sonota/484.html",
+    "label": "スマホアプリによる広報紙の配信について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -520,12 +773,37 @@
     "label": "防災（総合案内）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/6838.html",
+    "label": "感震ブレーカー設置費補助制度のご案内／静岡県森町",
+    "match_score": 12,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/6839.html",
+    "label": "感震ブレーカー設置費補助制度のご案内／静岡県森町",
+    "match_score": 12,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
+    "label": "住宅・建築物の耐震補助制度／静岡県森町",
+    "match_score": 11,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/blockbeinoanzentenken_wagayanotaishinkanohojoseido/1555.html",
+    "label": "住宅・建築物の耐震補助制度／静岡県森町",
+    "match_score": 11,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -558,12 +836,25 @@
     "label": "救急（静岡県の救急医療・相談窓口）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/2/7119.html",
+    "label": "救急安心電話相談窓口♯7119について／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/kyukyu/5695.html",
+    "label": "救急安心電話相談窓口♯7119について／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -603,12 +894,37 @@
     "label": "防災（総合案内）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/1255.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/4528.html",
+    "label": "ため池ハザードマップ／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/index.html",
+    "label": "ハザードマップ／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -648,12 +964,25 @@
     "label": "防災（総合案内）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/3/6812.html",
+    "label": "森町ツキノワグマ出没等初動対応マニュアル／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/johokokai/kojinjohofairu.html",
+    "label": "個人情報ファイル簿の公表について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -698,12 +1027,37 @@
     "label": "磐田市消防本部（施設案内）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/shoubou/3966.html",
+    "label": "【袋井消防本部】住宅用火災警報器の交換について／静岡県森町",
+    "match_score": 11,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/shoubou/3963.html",
+    "label": "【袋井消防本部】住宅用火災警報器の取り付け支援について／静岡県森町",
+    "match_score": 11,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/syoubou/3984.html",
+    "label": "【袋井消防本部】住宅用火災警報器の交換について／静岡県森町",
+    "match_score": 11,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/syoubou/3983.html",
+    "label": "【袋井消防本部】住宅用火災警報器の取り付け支援について／静岡県森町",
+    "match_score": 11,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -752,12 +1106,37 @@
     "label": "防災（総合案内）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/1255.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/4528.html",
+    "label": "ため池ハザードマップ／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/index.html",
+    "label": "ハザードマップ／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -779,7 +1158,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -831,12 +1212,37 @@
     "label": "人とペットの災害対策ガイドライン"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/3469.html",
+    "label": "「新型コロナウイルス感染症を踏まえた避難所運営ガイドライン」を策定しました／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/3475.html",
+    "label": "「新型コロナウイルス感染症を踏まえた避難所運営ガイドライン」を策定しました／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/4/3342.html",
+    "label": "森林内での活動における新型コロナウイルス感染者が発生した時の対応及び活動再開に関する基本的なガイドラインについて／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4110.html",
+    "label": "森町太陽光発電設備の適正導入に向けたガイドライン／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -889,12 +1295,37 @@
     "label": "道路情報（工事・通行規制）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/nyusatsu_keiyaku/6748.html",
+    "label": "森町オンライン施設予約システム導入業務委託に係る公募型プロポーザルの実施について（終了しました。）／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/6740.html",
+    "label": "森町オンライン施設予約システム導入業務委託に係る公募型プロポーザルの実施について（終了しました。）／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/systemkanrigakari/index.html",
+    "label": "システム管理係／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/420.html",
+    "label": "鉄道・民間路線バス・タクシー リンク集／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -947,12 +1378,37 @@
     "label": "防災（総合案内）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/1255.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/4528.html",
+    "label": "ため池ハザードマップ／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/index.html",
+    "label": "ハザードマップ／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -984,12 +1440,19 @@
     "label": "相続人代表者届"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2/2896.html",
+    "label": "死亡届／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1017,12 +1480,37 @@
     "label": "戸籍・住民票の届出"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/index.html",
+    "label": "戸籍謄本抄本・住民票の写し等の請求／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
+    "label": "戸籍・住民票・印鑑証明／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/index.html",
+    "label": "戸籍・住民異動の届出と証明／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html",
+    "label": "住民票の写しの申請／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1055,12 +1543,19 @@
     "label": "墓地・火葬場"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2/2896.html",
+    "label": "死亡届／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1090,7 +1585,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -1123,7 +1620,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -1149,7 +1648,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -1182,12 +1683,19 @@
     "label": "空き家"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2/2896.html",
+    "label": "死亡届／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1217,7 +1725,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -1249,12 +1759,19 @@
     "label": "家屋または土地を譲渡した場合の優遇税制"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/akiyabank/index.html",
+    "label": "空き家バンク／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1278,12 +1795,37 @@
     "label": "国保・後期高齢者医療・年金"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/koukikoureishairyouseido/kouki_syoubyouteate.html",
+    "label": "後期高齢者医療保険の傷病手当金の支給について（新型コロナウイルス感染症関連）／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/koukikoureisyairyouseido/3367.html",
+    "label": "後期高齢者医療保険の傷病手当金の支給について（新型コロナウイルス感染症関連）／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/index.html",
+    "label": "国民健康保険・後期高齢者医療制度／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/3371.html",
+    "label": "後期高齢者医療保険の傷病手当金の支給について（新型コロナウイルス感染症関連）／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -1307,12 +1849,37 @@
     "label": "固定資産税・都市計画税"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "label": "固定資産税・都市計画税の納付について／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/koteishisanzei/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/index.html",
+    "label": "固定資産税・都市計画税全般／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -1343,12 +1910,37 @@
     "label": "こども未来課のご案内"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1/3033.html",
+    "label": "児童手当について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1/2537.html",
+    "label": "ご自宅で児童手当の申請ができます／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/5316.html",
+    "label": "児童手当について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/2538.html",
+    "label": "ご自宅で児童手当の申請ができます／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1388,12 +1980,37 @@
     "label": "子どもの健診・教室"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1_1/index.html",
+    "label": "こども医療費助成／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1_1/2637.html",
+    "label": "こども医療費助成／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/shussan_ikuji/6132.html",
+    "label": "こども医療費助成／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/kodomoiryohinojosei/2639.html",
+    "label": "こども医療費助成／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -1433,12 +2050,37 @@
     "label": "転出・転入された方へ"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/4/5435.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/8/sogokeikaku/hachiji/434.html",
+    "label": "策定のスケジュール／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html",
+    "label": "風しん予防接種の費用を助成します／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1482,12 +2124,37 @@
     "label": "子育てに関する手当・助成（一覧）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/4/5435.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/8/sogokeikaku/hachiji/434.html",
+    "label": "策定のスケジュール／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1/3033.html",
+    "label": "児童手当について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1528,12 +2195,37 @@
     "label": "こども相談"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/1068.html",
+    "label": "森町児童館・森町子育て支援センター／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/gakkokyoikukakari/5312.html",
+    "label": "森町教育支援センター「わかば」／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/5313.html",
+    "label": "森町教育支援センター「わかば」／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1555,7 +2247,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -1591,12 +2285,37 @@
     "label": "子どもの予防接種"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html",
+    "label": "風しん予防接種の費用を助成します／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/4/5435.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
+    "label": "施設の予約方法及び申請書ダウンロード／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1628,12 +2347,37 @@
     "label": "結婚新生活支援事業補助金"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/4392.html",
+    "label": "結婚新生活支援補助金／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/index.html",
+    "label": "戸籍・住民異動の届出と証明／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2/2893.html",
+    "label": "戸籍・住民異動に関する届出／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/2940.html",
+    "label": "戸籍・住民異動の届出と証明／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -1661,12 +2405,37 @@
     "label": "一時的な子どもの預け先"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/nyuen_nyugaku/5608.html",
+    "label": "保育園・幼稚園／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/index.html",
+    "label": "保育園・幼稚園／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sonodayochien/hoikuen_yochiennado/index.html",
+    "label": "保育園・幼稚園等／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/moriyochien/hoikuen_yochiennado/index.html",
+    "label": "保育園・幼稚園等／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -1696,12 +2465,37 @@
     "label": "幼児教育・保育無償化"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/nyuen_nyugaku/5608.html",
+    "label": "保育園・幼稚園／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/index.html",
+    "label": "保育園・幼稚園／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sonodayochien/hoikuen_yochiennado/index.html",
+    "label": "保育園・幼稚園等／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/moriyochien/hoikuen_yochiennado/index.html",
+    "label": "保育園・幼稚園等／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -1729,12 +2523,37 @@
     "label": "いわた子育てアプリ"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/837.html",
+    "label": "森町こども家庭センターをご利用ください。／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kosodateshien_sodammadoguchi/1318.html",
+    "label": "森町こども家庭センターをご利用ください。／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/3/4881.html",
+    "label": "もりまち子育て応援アプリ／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/1068.html",
+    "label": "森町児童館・森町子育て支援センター／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1774,12 +2593,37 @@
     "label": "妊娠・出産に関する支援（一覧）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/3457.html",
+    "label": "農地等の賃貸借に係る家賃支援給付金事業について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/3/5914.html",
+    "label": "妊婦のための支援給付／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/2/821.html",
+    "label": "令和8年度 森町健康診査（総合検診）／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/bukka_koutou/index.html",
+    "label": "物価高騰対応重点支援給付金／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1812,12 +2656,37 @@
     "label": "ひとり親家庭養育費確保支援助成金"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3034.html",
+    "label": "ひとり親家庭等医療費助成事業について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/3035.html",
+    "label": "ひとり親家庭等医療費助成事業について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3031.html",
+    "label": "児童扶養手当について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/3032.html",
+    "label": "児童扶養手当について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -1849,12 +2718,37 @@
     "label": "健康・医療"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/4/5435.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html",
+    "label": "風しん予防接種の費用を助成します／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/index.html",
+    "label": "国民健康保険・後期高齢者医療制度／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1885,12 +2779,19 @@
     "label": "健康・医療"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/4/3238.html",
+    "label": "森町がん患者医療用補整具購入費助成について／静岡県森町",
+    "match_score": 13,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -1923,7 +2824,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -1959,12 +2862,25 @@
     "label": "障がい児に関する通所サービス・助成"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html",
+    "label": "高齢者の在宅福祉サービスについて／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/koreishashien/4004.html",
+    "label": "高齢者の在宅福祉サービスについて／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -1997,7 +2913,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -2029,12 +2947,19 @@
     "label": "医療情報ネット"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/index.html",
+    "label": "医療機関／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2066,12 +2991,37 @@
     "label": "健康・医療"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html",
+    "label": "風しん予防接種の費用を助成します／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/5697.html",
+    "label": "国民健康保険特定健診について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/5698.html",
+    "label": "国民健康保険特定健診について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/5713.html",
+    "label": "国民健康保険特定健診について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2103,7 +3053,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -2135,12 +3087,25 @@
     "label": "健康・医療"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/8/526.html",
+    "label": "森町役場電話番号表(直通ダイヤル)／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/1239.html",
+    "label": "森町役場電話番号表(直通ダイヤル)／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2162,7 +3127,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -2198,12 +3165,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/1/3891.html",
+    "label": "静岡県ライフスタイル情報ポータルサイト「SHIZUKURU（シズクル）」／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3343.html",
+    "label": "新型コロナウイルス感染症に関連する人権への配慮のお願いと相談窓口のご案内について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
+    "label": "施設の予約方法及び申請書ダウンロード／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/3346.html",
+    "label": "新型コロナウイルス感染症に関連する人権への配慮のお願いと相談窓口のご案内について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2231,12 +3223,25 @@
     "label": "健康・医療"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/8/526.html",
+    "label": "森町役場電話番号表(直通ダイヤル)／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/1239.html",
+    "label": "森町役場電話番号表(直通ダイヤル)／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2267,12 +3272,31 @@
     "label": "おとなの健診・予防接種・相談"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html",
+    "label": "風しん予防接種の費用を助成します／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/4/5435.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2304,12 +3328,37 @@
     "label": "耐震"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/4853.html",
+    "label": "【令和4年台風15号】被災中小企業再建支援事業費補助金（静岡県補助金）／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/1471.html",
+    "label": "森町産業立地奨励事業費補助金について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/1272.html",
+    "label": "森町産業立地事業費補助金について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
+    "label": "住宅・建築物の耐震補助制度／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2341,12 +3390,37 @@
     "label": "耐震"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/4853.html",
+    "label": "【令和4年台風15号】被災中小企業再建支援事業費補助金（静岡県補助金）／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/1471.html",
+    "label": "森町産業立地奨励事業費補助金について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/1272.html",
+    "label": "森町産業立地事業費補助金について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/4673.html",
+    "label": "森町住家災害復旧事業費補助金／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2378,12 +3452,25 @@
     "label": "住宅"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
+    "label": "森町家庭ごみ分別表、収集日カレンダー、分別ガイドブック（保存版）／静岡県森町",
+    "match_score": 13,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/gomi/1491.html",
+    "label": "森町家庭ごみ分別表、収集日カレンダー、分別ガイドブック（保存版）／静岡県森町",
+    "match_score": 13,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -2415,12 +3502,19 @@
     "label": "住まいの確保にお困りの方へ"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/4685.html",
+    "label": "住宅の応急修理／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -2442,7 +3536,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -2478,12 +3574,25 @@
     "label": "悩み・相談"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/nyusatsu_keiyaku/1226.html",
+    "label": "【森町との契約時必要書類】暴力団と関係を有しない旨の誓約書及び役員等名簿の提出について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/2/458.html",
+    "label": "【森町との契約時必要書類】暴力団と関係を有しない旨の誓約書及び役員等名簿の提出について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2514,12 +3623,37 @@
     "label": "納税通知書等の送付先変更"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "label": "固定資産税・都市計画税の納付について／静岡県森町",
+    "match_score": 11,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/koteishisanzei/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/index.html",
+    "label": "固定資産税・都市計画税全般／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -2551,7 +3685,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -2584,7 +3720,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -2622,12 +3760,37 @@
     "label": "住宅カテゴリ"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "label": "固定資産税・都市計画税の納付について／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/koteishisanzei/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/index.html",
+    "label": "固定資産税・都市計画税全般／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -2659,12 +3822,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "label": "固定資産税・都市計画税の納付について／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/koteishisanzei/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/index.html",
+    "label": "固定資産税・都市計画税全般／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -2695,12 +3883,19 @@
     "label": "磐田市公式ウェブサイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/1/index.html",
+    "label": "移住定住相談／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2735,12 +3930,25 @@
     "label": "運転免許自主返納者等サポート事業"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html",
+    "label": "高齢者の在宅福祉サービスについて／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/koreishashien/4004.html",
+    "label": "高齢者の在宅福祉サービスについて／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -2784,12 +3992,37 @@
     "label": "防災（総合案内）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/1255.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/4528.html",
+    "label": "ため池ハザードマップ／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/index.html",
+    "label": "ハザードマップ／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -2810,7 +4043,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -2849,12 +4084,37 @@
     "label": "住民異動届の事前申請"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/index.html",
+    "label": "戸籍・住民異動の届出と証明／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2/2893.html",
+    "label": "戸籍・住民異動に関する届出／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/2940.html",
+    "label": "戸籍・住民異動の届出と証明／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/index.html",
+    "label": "住民異動の届出／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2890,12 +4150,37 @@
     "label": "磐田市立小中学校通学区域規則"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/shomugakari/1/1/373.html",
+    "label": "森町立小中学校での教育実習について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/gakkokanrigakari/1/1/4815.html",
+    "label": "季節性インフルエンザと新型コロナウイルス感染症の感染による小中学校の出席停止に関する手続きの変更について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/4816.html",
+    "label": "季節性インフルエンザと新型コロナウイルス感染症の感染による小中学校の出席停止に関する手続きの変更について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/kyoikuiinkai/1227.html",
+    "label": "森町立小中学校での教育実習について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -2935,12 +4220,37 @@
     "label": "磐田市地域公共交通計画"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/420.html",
+    "label": "鉄道・民間路線バス・タクシー リンク集／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/kokyokotsu/1580.html",
+    "label": "鉄道・民間路線バス・タクシー リンク集／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/450.html",
+    "label": "森町地域公共交通法定計画／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinokeikaku_torikumi/1504.html",
+    "label": "森町地域公共交通法定計画／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -2972,12 +4282,37 @@
     "label": "移住・定住支援情報一覧"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/shushokushien/2709.html",
+    "label": "移住・就業支援補助金に係る法人登録のご案内／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/2708.html",
+    "label": "移住・就業支援補助金に係る法人登録のご案内／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/5/2710.html",
+    "label": "移住・就業支援補助金に係る法人登録のご案内／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/3/2704.html",
+    "label": "移住・就業支援補助金に係る法人登録のご案内／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -3006,7 +4341,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -3037,12 +4374,25 @@
     "label": "ペット"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/4303.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -3063,7 +4413,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -3094,12 +4446,37 @@
     "label": "窓口業務案内"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/index.html",
+    "label": "戸籍・住民異動の届出と証明／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/index.html",
+    "label": "住民異動の届出／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html",
+    "label": "転出届／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/index.html",
+    "label": "戸籍謄本抄本・住民票の写し等の請求／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3127,12 +4504,37 @@
     "label": "粗大ごみの戸別収集"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/komukakari/1/index.html",
+    "label": "上下水道／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/index.html",
+    "label": "上下水道／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/index.html",
+    "label": "上下水道／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html",
+    "label": "転出届／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3160,12 +4562,37 @@
     "label": "公立保育園・幼稚園・こども園一覧"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/nyuen_nyugaku/5608.html",
+    "label": "保育園・幼稚園／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/index.html",
+    "label": "保育園・幼稚園／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sonodayochien/hoikuen_yochiennado/index.html",
+    "label": "保育園・幼稚園等／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/moriyochien/hoikuen_yochiennado/index.html",
+    "label": "保育園・幼稚園等／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -3193,12 +4620,37 @@
     "label": "上下水道料金など"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/655.html",
+    "label": "インターネット消費者トラブルの防止について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/shohiseikatsu/1263.html",
+    "label": "インターネット消費者トラブルの防止について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/komukakari/1/index.html",
+    "label": "上下水道／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/index.html",
+    "label": "上下水道／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3234,12 +4686,19 @@
     "label": "静岡家庭裁判所 浜松支部の所在地"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -3274,12 +4733,37 @@
     "label": "高齢者支援課のご案内"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/index.html",
+    "label": "要介護認定申請・介護保険サービスの利用について／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/3/index.html",
+    "label": "介護保険被保険者証等の再交付・送付先の変更／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/3/4731.html",
+    "label": "介護保険被保険者証等の再交付について／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/1/4187.html",
+    "label": "要介護認定申請・介護保険サービスの利用等について／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -3314,12 +4798,37 @@
     "label": "介護保険のよくある質問"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/1/4897.html",
+    "label": "ケアプランの作成について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/index.html",
+    "label": "要介護認定申請・介護保険サービスの利用について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/2/index.html",
+    "label": "介護保険サービスの利用／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3355,12 +4864,31 @@
     "label": "高齢者に関する支援（一覧）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html",
+    "label": "高齢者の在宅福祉サービスについて／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/koreishashien/4004.html",
+    "label": "高齢者の在宅福祉サービスについて／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -3383,12 +4911,19 @@
     "label": "高齢者に関する支援"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -3432,12 +4967,37 @@
     "label": "高齢者等見守りネットワーク事業"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
+    "label": "森町家庭ごみ分別表、収集日カレンダー、分別ガイドブック（保存版）／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/4660.html",
+    "label": "東遠地域障がい児者福祉施設ガイドブック／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/gomi/1491.html",
+    "label": "森町家庭ごみ分別表、収集日カレンダー、分別ガイドブック（保存版）／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3473,12 +5033,37 @@
     "label": "交通（バス・タクシー）案内"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html",
+    "label": "高齢者の在宅福祉サービスについて／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/koreishashien/4004.html",
+    "label": "高齢者の在宅福祉サービスについて／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/420.html",
+    "label": "鉄道・民間路線バス・タクシー リンク集／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/kokyokotsu/1580.html",
+    "label": "鉄道・民間路線バス・タクシー リンク集／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3526,12 +5111,37 @@
     "label": "介護サービス情報公表システム（静岡県）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/3843.html",
+    "label": "森町高齢者保健福祉計画・第9期介護保険事業計画を策定しました／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/5462.html",
+    "label": "森町高齢者保健福祉計画・第9期介護保険事業計画を策定しました／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/1/4143.html",
+    "label": "介護保険サービス事業者の皆様へ／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kaigohoken/4148.html",
+    "label": "介護保険サービス事業者の皆様へ／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -3552,7 +5162,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -3600,12 +5212,37 @@
     "label": "高額介護サービス費"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/index.html",
+    "label": "要介護認定申請・介護保険サービスの利用について／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/1/4187.html",
+    "label": "要介護認定申請・介護保険サービスの利用等について／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kaigohoken/4204.html",
+    "label": "要介護認定申請・介護保険サービスの利用等について／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/4189.html",
+    "label": "要介護認定申請・介護保険サービスの利用等について／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -3638,12 +5275,37 @@
     "label": "観光"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/8/524.html",
+    "label": "森町役場までのアクセス／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/4660.html",
+    "label": "東遠地域障がい児者福祉施設ガイドブック／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/901.html",
+    "label": "アクセス／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/shogaishashien/4682.html",
+    "label": "東遠地域障がい児者福祉施設ガイドブック／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3674,12 +5336,37 @@
     "label": "地図から探す"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html",
+    "label": "公共施設の予約情報確認について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/4660.html",
+    "label": "東遠地域障がい児者福祉施設ガイドブック／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/shogaishashien/4682.html",
+    "label": "東遠地域障がい児者福祉施設ガイドブック／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1456.html",
+    "label": "公共施設の予約情報確認について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3710,12 +5397,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/8/524.html",
+    "label": "森町役場までのアクセス／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/901.html",
+    "label": "アクセス／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunkakaikan/1110.html",
+    "label": "アクセス／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunka/1110.html",
+    "label": "アクセス／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3737,7 +5449,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -3773,7 +5487,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -3808,12 +5524,37 @@
     "label": "公園"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/index.html",
+    "label": "公共交通／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/422.html",
+    "label": "森町の公共交通について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/4660.html",
+    "label": "東遠地域障がい児者福祉施設ガイドブック／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/kokyokotsu/index.html",
+    "label": "公共交通／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3845,12 +5586,37 @@
     "label": "図書館・文化関連施設"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html",
+    "label": "公共施設の予約情報確認について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1456.html",
+    "label": "公共施設の予約情報確認について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/4660.html",
+    "label": "東遠地域障がい児者福祉施設ガイドブック／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
+    "label": "施設の予約方法及び申請書ダウンロード／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3883,12 +5649,37 @@
     "label": "地図から探す"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/2/index.html",
+    "label": "イベント情報／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/singatakoronauirusukannsennsyoutaisaku/kankouibenntojyouhou/index.html",
+    "label": "観光イベント情報／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/singatakoronauirusukannsennsyoutaisaku/kankouibenntojyouhou/4317.html",
+    "label": "新型コロナウイルス感染拡大に伴う観光イベント等中止・延期情報について【3月8日更新】／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/singatakoronauirusukannsennsyoutaisaku/kankouibenntojyouhou/3060.html",
+    "label": "新型コロナウイルス感染拡大に伴う観光イベント等中止・延期情報について【10月1日更新】／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3919,12 +5710,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/2/index.html",
+    "label": "イベント情報／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/singatakoronauirusukannsennsyoutaisaku/kankouibenntojyouhou/index.html",
+    "label": "観光イベント情報／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/singatakoronauirusukannsennsyoutaisaku/kankouibenntojyouhou/4317.html",
+    "label": "新型コロナウイルス感染拡大に伴う観光イベント等中止・延期情報について【3月8日更新】／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/singatakoronauirusukannsennsyoutaisaku/kankouibenntojyouhou/3060.html",
+    "label": "新型コロナウイルス感染拡大に伴う観光イベント等中止・延期情報について【10月1日更新】／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3955,12 +5771,37 @@
     "label": "地図から探す"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/4660.html",
+    "label": "東遠地域障がい児者福祉施設ガイドブック／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/shogaishashien/4682.html",
+    "label": "東遠地域障がい児者福祉施設ガイドブック／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/index.html",
+    "label": "図書館／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html",
+    "label": "森町立図書館(施設案内)／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -3996,12 +5837,37 @@
     "label": "施設ガイド 磐田市クリーンセンター"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html",
+    "label": "中遠クリーンセンターリユーズ事業について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4363.html",
+    "label": "中遠クリーンセンターへの可燃ごみ搬入について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4294.html",
+    "label": "中遠クリーンセンター可燃ごみ受入状況について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/recycle/4526.html",
+    "label": "中遠クリーンセンターリユーズ事業について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4051,12 +5917,37 @@
     "label": "郵便請求制度"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
+    "label": "証明書のコンビニ交付サービスについて／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/4817.html",
+    "label": "税証明のコンビニ交付サービスについて／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/index.html",
+    "label": "戸籍謄本抄本・住民票の写し等の請求／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/shomeisho/4818.html",
+    "label": "税証明のコンビニ交付サービスについて／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4089,12 +5980,19 @@
     "label": "リアルタイム窓口混雑情報"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/systemkanrigakari/1/6435.html",
+    "label": "情報セキュリティに関する統一的な窓口の連絡先（PoC）の設置について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -4130,12 +6028,31 @@
     "label": "環境課のご案内"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/4303.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/index.html",
+    "label": "環境・住宅・ペット・生活／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -4170,12 +6087,25 @@
     "label": "ペットの手続き一覧"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/4303.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4216,12 +6146,25 @@
     "label": "カレンダー・ガイドブックの入手方法（よくある質問）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
+    "label": "森町家庭ごみ分別表、収集日カレンダー、分別ガイドブック（保存版）／静岡県森町",
+    "match_score": 13,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/gomi/1491.html",
+    "label": "森町家庭ごみ分別表、収集日カレンダー、分別ガイドブック（保存版）／静岡県森町",
+    "match_score": 13,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4260,12 +6203,37 @@
     "label": "粗大ごみの戸別収集"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
+    "label": "森町家庭ごみ分別表、収集日カレンダー、分別ガイドブック（保存版）／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/gomi/1491.html",
+    "label": "森町家庭ごみ分別表、収集日カレンダー、分別ガイドブック（保存版）／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/tabunkakyousei/6821.html",
+    "label": "外国人（がいこくじん）町民（ちょうみん）のための生活（せいかつ）ガイドブック／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/886.html",
+    "label": "防災ガイドブック【30ページ】／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4286,7 +6254,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -4330,12 +6300,37 @@
     "label": "飼い犬の登録・狂犬病予防注射"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/4303.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/1/index.html",
+    "label": "マイナンバー／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/1/4657.html",
+    "label": "マイナンバーカード普及促進に関する総務大臣・デジタル大臣メッセージ動画／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4375,12 +6370,37 @@
     "label": "上下水道の手続き"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/1/index.html",
+    "label": "マイナンバー／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/1/4657.html",
+    "label": "マイナンバーカード普及促進に関する総務大臣・デジタル大臣メッセージ動画／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/5817.html",
+    "label": "マイナンバーカードの健康保険証利用登録（マイナ保険証）解除について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/5059.html",
+    "label": "マイナンバーカードの健康保険証利用について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4420,12 +6440,37 @@
     "label": "電子証明書の更新"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/1/index.html",
+    "label": "マイナンバー／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/1/4657.html",
+    "label": "マイナンバーカード普及促進に関する総務大臣・デジタル大臣メッセージ動画／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/5817.html",
+    "label": "マイナンバーカードの健康保険証利用登録（マイナ保険証）解除について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/5059.html",
+    "label": "マイナンバーカードの健康保険証利用について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4470,12 +6515,37 @@
     "label": "よくある質問（住宅・ペット）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/4303.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/3554.html",
+    "label": "飼い主のいない猫の不妊・去勢手術の補助制度／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/3555.html",
+    "label": "飼い主のいない猫の不妊・去勢手術の補助制度／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4516,12 +6586,37 @@
     "label": "磐田市地域公共交通計画"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/420.html",
+    "label": "鉄道・民間路線バス・タクシー リンク集／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/kokyokotsu/1580.html",
+    "label": "鉄道・民間路線バス・タクシー リンク集／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/450.html",
+    "label": "森町地域公共交通法定計画／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinokeikaku_torikumi/1504.html",
+    "label": "森町地域公共交通法定計画／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4560,12 +6655,37 @@
     "label": "戸籍の附票"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
+    "label": "証明書のコンビニ交付サービスについて／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/4817.html",
+    "label": "税証明のコンビニ交付サービスについて／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/shomeisho/4818.html",
+    "label": "税証明のコンビニ交付サービスについて／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
+    "label": "戸籍・住民票・印鑑証明／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4613,12 +6733,37 @@
     "label": "上下水道に関する届け出"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html",
+    "label": "漏水のみつけ方と水道料金の減免について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/gesuidokanrigakari/gappeishorijyoukasou/index.html",
+    "label": "合併処理浄化槽／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/gesuidokanrigakari/1/1/394.html",
+    "label": "下水道使用料について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1208.html",
+    "label": "下水道使用料について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4670,12 +6815,37 @@
     "label": "上下水道（総合案内）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/gesuidokanrigakari/1/1/394.html",
+    "label": "下水道使用料について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1208.html",
+    "label": "下水道使用料について／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/655.html",
+    "label": "インターネット消費者トラブルの防止について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/shohiseikatsu/1263.html",
+    "label": "インターネット消費者トラブルの防止について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4715,12 +6885,37 @@
     "label": "譲渡動物情報"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/index.html",
+    "label": "環境・住宅・ペット・生活／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/3554.html",
+    "label": "飼い主のいない猫の不妊・去勢手術の補助制度／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/index.html",
+    "label": "住宅・ペット・生活／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/index.html",
+    "label": "住宅・ペット・生活／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4760,12 +6955,37 @@
     "label": "収納課のご案内"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1373.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/shoubyouteate.html",
+    "label": "国民健康保険の傷病手当金の支給について（新型コロナウイルス感染症関連）／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html",
+    "label": "国民健康保険／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4804,12 +7024,37 @@
     "label": "認知症の相談・支援"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/3843.html",
+    "label": "森町高齢者保健福祉計画・第9期介護保険事業計画を策定しました／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/1/4205.html",
+    "label": "介護保険制度について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/5462.html",
+    "label": "森町高齢者保健福祉計画・第9期介護保険事業計画を策定しました／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4856,12 +7101,37 @@
     "label": "ヤングケアラーの相談窓口"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/4543.html",
+    "label": "ヤングケアラーについて／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/837.html",
+    "label": "森町こども家庭センターをご利用ください。／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kosodateshien_sodammadoguchi/1318.html",
+    "label": "森町こども家庭センターをご利用ください。／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/1068.html",
+    "label": "森町児童館・森町子育て支援センター／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4905,12 +7175,37 @@
     "label": "特殊詐欺対策（ストップ、オレオレ詐欺）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/655.html",
+    "label": "インターネット消費者トラブルの防止について／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/shohiseikatsu/1263.html",
+    "label": "インターネット消費者トラブルの防止について／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/singatakoronauirusukannsennsyoutaisaku/syouhiseikatusoudann/3100.html",
+    "label": "新型コロナウイルス感染症に関連した消費者トラブル・詐欺にご注意ください／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/shohiseikatsu/3108.html",
+    "label": "新型コロナウイルス感染症に関連した消費者トラブル・詐欺にご注意ください／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -4957,12 +7252,37 @@
     "label": "精神保健福祉総合相談（予約制）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/4/1/1067.html",
+    "label": "森町保健福祉センター／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1156.html",
+    "label": "森町保健福祉センター／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/7/522.html",
+    "label": "犯罪被害者等総合相談窓口を設置しました。／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/1068.html",
+    "label": "森町児童館・森町子育て支援センター／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -4986,7 +7306,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -5019,7 +7341,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -5055,12 +7379,37 @@
     "label": "農振除外（農用地区域からの除外）"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/5759.html",
+    "label": "耕作目的での農地の売買・貸借について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/7/index.html",
+    "label": "駐車場・車両／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/7/1085.html",
+    "label": "太田川桜堤の駐車場について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/3461.html",
+    "label": "耕作目的での農地の売買・貸借について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5109,12 +7458,37 @@
     "label": "磐田市農業委員会"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/6757.html",
+    "label": "【森町農業委員会】サイバーセキュリティを確保するための基本方針について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1324.html",
+    "label": "森町農業委員会事務の実施状況について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html",
+    "label": "森町農業委員会事務の実施状況について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/6656.html",
+    "label": "【森町農業委員会】サイバーセキュリティを確保するための基本方針について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5157,12 +7531,37 @@
     "label": "相続土地国庫帰属制度の概要"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/6757.html",
+    "label": "【森町農業委員会】サイバーセキュリティを確保するための基本方針について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1324.html",
+    "label": "森町農業委員会事務の実施状況について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html",
+    "label": "森町農業委員会事務の実施状況について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/6656.html",
+    "label": "【森町農業委員会】サイバーセキュリティを確保するための基本方針について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5187,7 +7586,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -5231,12 +7632,37 @@
     "label": "農地バンク事業"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/6757.html",
+    "label": "【森町農業委員会】サイバーセキュリティを確保するための基本方針について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1324.html",
+    "label": "森町農業委員会事務の実施状況について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html",
+    "label": "森町農業委員会事務の実施状況について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/6656.html",
+    "label": "【森町農業委員会】サイバーセキュリティを確保するための基本方針について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5267,12 +7693,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/shoubou/3939.html",
+    "label": "外国人住民のための防火防災のてびき／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
+    "label": "戸籍・住民票・印鑑証明／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/3940.html",
+    "label": "外国人住民のための防火防災のてびき／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bohan/3941.html",
+    "label": "外国人住民のための防火防災のてびき／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -5292,12 +7743,37 @@
     "label": "磐田市公式サイトを確認する"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/singatakoronauirusukannsennsyoutaisaku/syouhiseikatusoudann/3100.html",
+    "label": "新型コロナウイルス感染症に関連した消費者トラブル・詐欺にご注意ください／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/655.html",
+    "label": "インターネット消費者トラブルの防止について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/5879.html",
+    "label": "ガスの契約トラブルに気を付けましょう（注意喚起）／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/shohiseikatsu/5880.html",
+    "label": "ガスの契約トラブルに気を付けましょう（注意喚起）／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5344,12 +7820,37 @@
     "label": "市役所以外で行っている法的相談"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/1066.html",
+    "label": "森町町民生活センター／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1155.html",
+    "label": "森町町民生活センター／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/singatakoronauirusukannsennsyoutaisaku/syouhiseikatusoudann/index.html",
+    "label": "消費生活相談情報／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/index.html",
+    "label": "消費生活／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5386,7 +7887,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -5424,7 +7927,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -5472,12 +7977,37 @@
     "label": "固定資産税・都市計画税"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "label": "固定資産税・都市計画税の納付について／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/koteishisanzei/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "match_score": 10,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/index.html",
+    "label": "固定資産税・都市計画税全般／静岡県森町",
+    "match_score": 9,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -5508,12 +8038,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1373.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/5742.html",
+    "label": "【重要】口座振替不能通知の送付中止について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/5743.html",
+    "label": "【重要】口座振替不能通知の送付中止について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5535,7 +8090,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -5571,12 +8128,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/shokuingakari/1/6496.html",
+    "label": "町職員採用情報の掲載先について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/jinji_shokuimboshu/6497.html",
+    "label": "町職員採用情報の掲載先について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/shushokushien/index.html",
+    "label": "就職支援／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/5216.html",
+    "label": "森町企業立地・雇用促進特設サイト 企業情報登録のお願い／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5608,12 +8190,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/shokuingakari/1/6496.html",
+    "label": "町職員採用情報の掲載先について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/jinji_shokuimboshu/6497.html",
+    "label": "町職員採用情報の掲載先について／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/5216.html",
+    "label": "森町企業立地・雇用促進特設サイト 企業情報登録のお願い／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/1385.html",
+    "label": "森町企業立地・雇用促進特設サイト公開について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5644,12 +8251,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/index.html",
+    "label": "軽自動車税／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/715.html",
+    "label": "軽自動車税について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/5293.html",
+    "label": "軽自動車税（種別割）の減免制度について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/1057.html",
+    "label": "軽自動車税のよくある質問／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -5676,12 +8308,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/1/index.html",
+    "label": "マイナンバー／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/1/4657.html",
+    "label": "マイナンバーカード普及促進に関する総務大臣・デジタル大臣メッセージ動画／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/5817.html",
+    "label": "マイナンバーカードの健康保険証利用登録（マイナ保険証）解除について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/5059.html",
+    "label": "マイナンバーカードの健康保険証利用について／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -5713,12 +8370,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/1/4711.html",
+    "label": "災害による被害を受けた場合の町・県民税、国民健康保険税の軽減免除について／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/kojinchokemminzei/4712.html",
+    "label": "災害による被害を受けた場合の町・県民税、国民健康保険税の軽減免除について／静岡県森町",
+    "match_score": 8,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/2/1/index.html",
+    "label": "国民健康保険税／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/2/1/742.html",
+    "label": "国民健康保険税とは／静岡県森町",
+    "match_score": 7,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -5746,12 +8428,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/shoubyouteate.html",
+    "label": "国民健康保険の傷病手当金の支給について（新型コロナウイルス感染症関連）／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html",
+    "label": "国民健康保険／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/528.html",
+    "label": "国民健康保険／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/index.html",
+    "label": "国民健康保険／静岡県森町",
+    "match_score": 6,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -5782,12 +8489,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1373.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/5/6558.html",
+    "label": "個人住民税の電子申告について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/1/716.html",
+    "label": "退職所得に対する住民税(個人町県民税)の特別徴収について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5819,12 +8551,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/5216.html",
+    "label": "森町企業立地・雇用促進特設サイト 企業情報登録のお願い／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/1385.html",
+    "label": "森町企業立地・雇用促進特設サイト公開について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/3/649.html",
+    "label": "森町企業立地・雇用促進特設サイト公開について／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/3/5215.html",
+    "label": "森町企業立地・雇用促進特設サイト 企業情報登録のお願い／静岡県森町",
+    "match_score": 3,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5856,7 +8613,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -5888,7 +8647,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
@@ -5923,12 +8684,25 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1373.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "match_score": 4,
+    "confidence": "low"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。【低信頼候補を含む・チャット側レビュー必須】",
   "verified_by": null,
   "title": null
  },
@@ -5960,12 +8734,37 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/4860.html",
+    "label": "車検用の納税証明書は原則不要です／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/2456.html",
+    "label": "申請書（所得証明書、課税(非課税)証明書、納税証明書、軽自動車税納税証明書、営業証明書）／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/shomeisho/4102.html",
+    "label": "申請書（所得証明書、課税(非課税)証明書、納税証明書、軽自動車税納税証明書、営業証明書）／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/keijidoshazei/4864.html",
+    "label": "車検用の納税証明書は原則不要です／静岡県森町",
+    "match_score": 5,
+    "confidence": "high"
+   }
+  ],
   "facts": {},
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
+  "ai_checked_date": "2026-07-03",
+  "ai_notes": "自動マッチング候補。verify_sources.pyで本文突合すること。",
   "verified_by": null,
   "title": null
  },
@@ -5998,7 +8797,9 @@
    }
   ],
   "sources_morimachi": [],
-  "facts": {},
+  "facts": {
+   "taiou_page": "確認中（対応ページ候補なし・チャット側で個別調査）"
+  },
   "status": "draft",
   "verified_date": null,
   "ai_checked_date": null,
