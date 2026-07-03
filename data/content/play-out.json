@@ -1,0 +1,378 @@
+[
+ {
+  "href": "/life/play-out/cultural-facilities/",
+  "lead": "森町文化会館（ミキホール）は、大ホール・小ホールに加え、和室や音楽室、工作室まで揃う森町の文化拠点です。コンサートやサークル活動、発表会の会場としても利用でき、ロビーのストリートピアノは自由に弾くこともできます。",
+  "note": "予約は「空き状況の確認」だけでは完了しません。申請書を提出し、使用料を支払って初めて正式予約となります。余裕を持って準備しましょう。",
+  "real_cards": [
+    {"icon": "🎭", "title": "大ホールは早め予約", "body": "大ホールの申請は使用日の12か月前から30日前まで受け付けています。発表会やコンサートなど本格利用を考えている人は、早めに空き状況を確認して動くと安心です。"},
+    {"icon": "🎨", "title": "小さな部屋も充実", "body": "和室・音楽室・工作室など、サークル活動や趣味の集まりにちょうどよい部屋も揃っています。小ホールやその他施設は使用日の直前まで申請できるので、急な集まりにも対応しやすいです。"},
+    {"icon": "🚗", "title": "駐車場は270台完備", "body": "文化会館には270台分の駐車場が用意されています。天竜浜名湖鉄道の森町病院前駅からは徒歩約1分と、電車で来館する人にもアクセスしやすい立地です。"},
+    {"icon": "🎹", "title": "ロビーで気軽に一曲", "body": "ロビーにはストリートピアノが設置されていて、来館者が自由に演奏を楽しめます。イベントの合間や待ち時間にも気軽に立ち寄れる、開かれた文化施設です。"}
+  ],
+  "qa": [
+    {"question": "予約はいつから申し込めますか", "answer": "施設によって受付期間が異なります。大ホールは使用日の<b>12か月前～30日前</b>、小ホールは<b>6か月前～5日前</b>、その他の部屋は<b>3か月前～5日前</b>に申請書を提出します。まずは電話またはホームページで空き状況を確認しましょう。"},
+    {"question": "予約の流れを教えてください", "answer": "まず電話やホームページで空き状況を確認し、次に使用許可申請書を文化会館へ提出します。その後発行される納付書で使用料を支払って、はじめて正式予約が完了します。空き状況確認だけでは仮の状態です。"},
+    {"question": "料金はいくらですか", "answer": "利用する部屋や時間帯によって使用料が異なります。具体的な料金は文化会館（0538-85-1111）へ直接お問い合わせいただくか、公式サイトの使用料ページでご確認ください。"}
+  ],
+  "tabs": [
+    {"id": "type-hall", "label": "大ホールを使いたい", "heading": "早めの申請がカギ", "bullets": ["使用日の12か月前～30日前に申請書を提出", "まずは電話かホームページで空き状況を確認", "発表会・コンサートなど本格利用に向いている"], "actions": [
+      {"label": "森町文化会館の施設紹介を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/912.html", "source": "森町公式"},
+      {"label": "予約方法・申請書をダウンロードする", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html", "source": "森町公式"}
+    ]},
+    {"id": "type-small", "label": "小部屋・サークル利用", "heading": "直前でも申請しやすい", "bullets": ["小ホールは6か月前～5日前に申請", "和室・音楽室・工作室などその他施設は3か月前～5日前", "サークル活動や趣味の集まりに向いている"], "actions": [
+      {"label": "予約方法・申請書をダウンロードする", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html", "source": "森町公式"},
+      {"label": "文化会館に電話する", "href": "tel:0538-85-1111", "source": "0538-85-1111"}
+    ]},
+    {"id": "type-access", "label": "アクセスを確認したい", "heading": "駐車場・電車のどちらも便利", "bullets": ["駐車場270台完備", "天竜浜名湖鉄道・森町病院前駅から徒歩約1分", "新東名・森掛川ICから約5分"], "actions": [
+      {"label": "アクセス情報を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/901.html", "source": "森町公式"},
+      {"label": "他の公共施設も見る", "href": "/life/play-out/facilities-library-parks/", "source": "森町ライフハック"}
+    ]}
+  ],
+  "steps": {
+    "today": ["文化会館（0538-85-1111）に電話するかホームページで空き状況を確認する", "利用したい部屋と日時の候補をいくつか考えておく"],
+    "this_week": ["使用許可申請書をダウンロードして必要事項を記入する", "文化会館の窓口に申請書を提出する"],
+    "outside": ["発行された納付書で使用料を指定金融機関に支払う（使用日前日まで）", "支払いが完了して正式予約が確定する"]
+  },
+  "action_grid": [
+    {"label": "森町文化会館の施設紹介を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/912.html"},
+    {"label": "アクセス情報を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/901.html"},
+    {"label": "予約方法・申請書をダウンロードする", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html"},
+    {"label": "文化会館に電話する", "href": "tel:0538-85-1111"},
+    {"label": "他の公共施設一覧を見る", "href": "/life/play-out/facilities-library-parks/"},
+    {"label": "遊ぶ・使う・出かけるトップに戻る", "href": "/life/play-out/"}
+  ]
+ },
+ {
+  "href": "/life/play-out/facilities-library-parks/",
+  "lead": "森町には役場や図書館、体育館、保健福祉施設など、暮らしに関わる公共施設が数多くあります。目的の施設を探すときは、まず主要施設・諸団体一覧で連絡先を確認し、空き状況は専用の予約情報サイトでチェックするのが近道です。",
+  "note": "営業時間・休館日は施設ごとに異なります。一覧ページには電話番号・所在地の情報が中心なので、詳しい利用時間は各施設のページで個別に確認してください。",
+  "real_cards": [
+    {"icon": "🏛️", "title": "施設は分野ごとに分類", "body": "役場・図書館・体育館・文化会館・保育園幼稚園学校・保健福祉・消防警察・観光商工・金融機関など、150件以上の施設・団体の電話番号と住所が分野別に整理されています。"},
+    {"icon": "📖", "title": "教育・文化系施設", "body": "図書館や文化会館、学校、保育園・幼稚園など教育に関わる施設がまとまっています。子どもの学びや文化活動の場を探すときに便利です。"},
+    {"icon": "🏥", "title": "保健・福祉・医療系施設", "body": "保健福祉センターや地域包括支援センター、児童館、公立森町病院などが分類されています。子育てや介護、健康に関する相談先を探すときに役立ちます。"},
+    {"icon": "💻", "title": "予約状況はネットで確認", "body": "町民生活センターや総合体育館などの予約状況は、外部サイト「施設予約情報確認」で確認できます。具体的な予約方法は各施設へ直接お問い合わせください。"}
+  ],
+  "qa": [
+    {"question": "施設の電話番号や住所はどこで確認できますか", "answer": "「主要施設・諸団体一覧」のページに、役場・図書館・体育館・保健福祉・消防警察など分野ごとに整理された電話番号・所在地が掲載されています。目的の施設名で探してみてください。"},
+    {"question": "施設の空き状況はどこで確認しますか", "answer": "町民生活センターや総合体育館などの予約状況は、外部サイト（task-asp.net）の「施設予約情報確認」で確認できます。ただし正式な予約方法は施設ごとに異なるため、詳細は各施設へお問い合わせください。"},
+    {"question": "営業時間や休館日も一覧でわかりますか", "answer": "一覧ページは主に電話番号・所在地の案内が中心です。営業時間や休館日は施設によって異なるため、各施設の個別ページや電話でご確認ください。"}
+  ],
+  "tabs": [
+    {"id": "type-search", "label": "施設を探したい", "heading": "分野別の一覧から探す", "bullets": ["役場・図書館・体育館・保健福祉・消防警察など分野別に整理", "150件以上の施設・団体の電話番号と住所を掲載", "目的の施設名やジャンルで探すとスムーズ"], "actions": [
+      {"label": "主要施設・諸団体一覧を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1164.html", "source": "森町公式"}
+    ]},
+    {"id": "type-reserve", "label": "空き状況を確認したい", "heading": "外部サイトでチェック", "bullets": ["町民生活センター・総合体育館などの予約状況を確認できる", "確認は外部サイト（task-asp.net）経由", "正式な予約方法は施設ごとに窓口へ確認"], "actions": [
+      {"label": "公共施設の予約情報確認について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html", "source": "森町公式"},
+      {"label": "財政課 契約管財係に電話する", "href": "tel:0538-85-6306", "source": "0538-85-6306"}
+    ]},
+    {"id": "type-family", "label": "子ども連れで使いたい", "heading": "図書館・公園・児童館もあわせて", "bullets": ["図書館は児童図書コーナーも充実", "公園は町内15施設程度で選択肢が豊富", "児童館は無料・保護者同伴で利用できる"], "actions": [
+      {"label": "図書館を利用するを見る", "href": "/life/play-out/visit-library/", "source": "森町ライフハック"},
+      {"label": "公園を探すを見る", "href": "/life/play-out/find-parks/", "source": "森町ライフハック"}
+    ]}
+  ],
+  "steps": {
+    "today": ["主要施設・諸団体一覧で目的の施設の連絡先を調べる", "利用したい施設のジャンル（教育・保健福祉など）を絞り込む"],
+    "this_week": ["外部の施設予約情報確認サイトで空き状況をチェックする", "予約方法が不明な場合は施設へ電話で問い合わせる"],
+    "outside": ["各施設の営業時間・休館日を個別ページで確認する", "必要に応じて申請書や予約手続きを進める"]
+  },
+  "action_grid": [
+    {"label": "主要施設・諸団体一覧を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1164.html"},
+    {"label": "公共施設の予約情報確認について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html"},
+    {"label": "財政課 契約管財係に電話する", "href": "tel:0538-85-6306"},
+    {"label": "公園を探すを見る", "href": "/life/play-out/find-parks/"},
+    {"label": "図書館を利用するを見る", "href": "/life/play-out/visit-library/"},
+    {"label": "遊ぶ・使う・出かけるトップに戻る", "href": "/life/play-out/"}
+  ]
+ },
+ {
+  "href": "/life/play-out/find-parks/",
+  "lead": "森町には天宮公園や太田川親水公園など、町内に15施設程度の公園があります。駐車場や遊具の有無が公園ごとに違うので、目的に合わせて選ぶと親子でのお出かけがぐっと楽になります。",
+  "note": "公園マップは遠江総合高校の生徒が作成したもので、各公園の特徴を確認しながらお出かけ先を選べます。",
+  "real_cards": [
+    {"icon": "🌳", "title": "町内に15施設程度", "body": "天宮公園、大門東公園、太田川親水公園、森第一～三公園、北見公園、南町公園など、町内には15施設程度の公園があります。駐車場や遊具の違いを見比べて選べます。"},
+    {"icon": "🚗", "title": "駐車場ありの天宮公園", "body": "天宮公園（森町天宮815-6）は駐車場ありで、車でのお出かけにも便利です。家族連れでゆっくり過ごしたいときに選びやすい公園です。"},
+    {"icon": "🧗", "title": "アスレチックが人気の大門東公園", "body": "大門東公園（森町森2166-5）には木製アスレチックがあります。ただし駐車場はないため、徒歩や自転車での来園が基本になります。"},
+    {"icon": "🌱", "title": "芝生広場の太田川親水公園", "body": "太田川親水公園（森町森1105-2）には芝生広場があり、駐車場も用意されています。のびのび遊ばせたいときにおすすめです。"}
+  ],
+  "qa": [
+    {"question": "どの公園に駐車場がありますか", "answer": "天宮公園や太田川親水公園には駐車場があります。一方で大門東公園には駐車場がないなど、公園ごとに設備が異なります。お出かけ前に公園マップで確認しておくと安心です。"},
+    {"question": "遊具がある公園を知りたいです", "answer": "大門東公園には木製アスレチックがあります。ほかにも公園ごとに異なる遊具が設置されているため、詳しくは森町公園マップでご確認ください。"},
+    {"question": "公園についての問い合わせ先はどこですか", "answer": "公園に関することは<b>健康こども課こども家庭係（0538-86-6330）</b>にお問い合わせいただけます。子育て応援サイト「もりっこ」のおでかけページでも情報を確認できます。"}
+  ],
+  "tabs": [
+    {"id": "type-car", "label": "車でお出かけしたい", "heading": "駐車場ありの公園を選ぶ", "bullets": ["天宮公園は駐車場あり、調整池も設置", "太田川親水公園も駐車場・芝生広場あり", "遠方から車で行く場合はこの2公園が候補"], "actions": [
+      {"label": "森町公園マップを見る", "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/27/morimachi_koen_map.pdf", "source": "森町公式"},
+      {"label": "おでかけページを見る", "href": "https://www.town.morimachi.shizuoka.jp/morikko/odekake/4808.html", "source": "森町公式"}
+    ]},
+    {"id": "type-play", "label": "遊具で遊ばせたい", "heading": "アスレチックのある公園へ", "bullets": ["大門東公園には木製アスレチックがある", "駐車場はないので徒歩・自転車での来園が基本", "近隣から気軽に立ち寄りやすい"], "actions": [
+      {"label": "森町公園マップを見る", "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/27/morimachi_koen_map.pdf", "source": "森町公式"},
+      {"label": "健康こども課こども家庭係に電話する", "href": "tel:0538-86-6330", "source": "0538-86-6330"}
+    ]},
+    {"id": "type-indoor", "label": "雨の日も遊びたい", "heading": "屋内の子どもの遊び場もチェック", "bullets": ["森町児童館・子育て支援センターは無料で利用できる", "未就学児は保護者同伴が必須", "図書館の児童図書コーナーもおすすめ"], "actions": [
+      {"label": "子どもの遊び場を見る", "href": "/life/play-out/kids-playgrounds/", "source": "森町ライフハック"},
+      {"label": "図書館を利用するを見る", "href": "/life/play-out/visit-library/", "source": "森町ライフハック"}
+    ]}
+  ],
+  "steps": {
+    "today": ["森町公園マップで近くの公園と設備（駐車場・遊具の有無）を確認する", "行きたい公園の候補を家族で決める"],
+    "this_week": ["天気の良い日にお出かけの予定を立てる", "駐車場がない公園は徒歩・自転車でのアクセスを確認する"],
+    "outside": ["不明点があれば健康こども課こども家庭係に問い合わせる", "雨天時は児童館や図書館など屋内施設に切り替える"]
+  },
+  "action_grid": [
+    {"label": "森町公園マップを見る", "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/27/morimachi_koen_map.pdf"},
+    {"label": "おでかけページを見る", "href": "https://www.town.morimachi.shizuoka.jp/morikko/odekake/4808.html"},
+    {"label": "健康こども課こども家庭係に電話する", "href": "tel:0538-86-6330"},
+    {"label": "子どもの遊び場を見る", "href": "/life/play-out/kids-playgrounds/"},
+    {"label": "遊ぶ・使う・出かけるトップに戻る", "href": "/life/play-out/"}
+  ]
+ },
+ {
+  "href": "/life/play-out/",
+  "lead": "森町で「遊ぶ・使う・出かける」を考えるときに知っておきたい施設情報をまとめました。公園や図書館、体育施設、児童館など、目的別に整理しているので、お出かけ先探しの入口としてご活用ください。",
+  "note": "各ページの詳しい料金・営業時間は変わることがあるため、最新情報は必ず森町公式サイトでご確認ください。",
+  "real_cards": [
+    {"icon": "🌳", "title": "公園でのびのび遊ぶ", "body": "町内には15施設程度の公園があります。駐車場や遊具の有無が違うので、天宮公園や太田川親水公園など目的に合わせて選べます。"},
+    {"icon": "📚", "title": "図書館でゆったり過ごす", "body": "森町立図書館は児童図書コーナーも充実していて、水曜日は19時まで開館しています。蔵書検索・予約は専用ホームページからできます。"},
+    {"icon": "🏟️", "title": "体育施設でスポーツを楽しむ", "body": "森アリーナ（森町総合体育館）や町営グランド、学校の夜間照明施設でスポーツができます。町外利用者は料金が1.5倍になる点に注意しましょう。"},
+    {"icon": "🧸", "title": "児童館で親子の時間を", "body": "森町児童館・子育て支援センターは無料で利用でき、生まれたての赤ちゃんから18歳未満まで対象です。未就学児は保護者同伴が必須です。"}
+  ],
+  "qa": [
+    {"question": "森町でお出かけ先を探すには何を見ればいいですか", "answer": "公園・図書館・体育施設・児童館など目的別のページを見ると、それぞれの施設情報がまとまっています。子育て応援サイト「もりっこ」の<b>おでかけページ</b>もあわせてチェックすると便利です。"},
+    {"question": "公共施設全般の連絡先を調べたいです", "answer": "「主要施設・諸団体一覧」に、役場・図書館・体育館・保健福祉など分野ごとの電話番号・所在地がまとまっています。目的の施設が決まっていない場合はこちらから探せます。"},
+    {"question": "施設の予約はどこで確認できますか", "answer": "町民生活センターや総合体育館などの予約状況は、外部サイト「施設予約情報確認」で確認できます。正式な予約方法は施設ごとに異なるため、各施設へ直接お問い合わせください。"}
+  ],
+  "tabs": [
+    {"id": "type-kids", "label": "子どもと出かけたい", "heading": "公園・児童館・図書館をチェック", "bullets": ["公園は町内15施設程度、駐車場や遊具の有無で選べる", "児童館は無料、未就学児は保護者同伴", "図書館には児童図書コーナーもある"], "actions": [
+      {"label": "公園を探すを見る", "href": "/life/play-out/find-parks/", "source": "森町ライフハック"},
+      {"label": "子どもの遊び場を見る", "href": "/life/play-out/kids-playgrounds/", "source": "森町ライフハック"}
+    ]},
+    {"id": "type-sports", "label": "スポーツ・文化活動をしたい", "heading": "体育施設・文化会館を確認", "bullets": ["森アリーナや町営グランドでスポーツができる", "森町文化会館ではホールや音楽室が使える", "町外利用者は料金が1.5倍になる場合がある"], "actions": [
+      {"label": "スポーツ施設を見る", "href": "/life/play-out/sports-facilities/", "source": "森町ライフハック"},
+      {"label": "文化施設を見る", "href": "/life/play-out/cultural-facilities/", "source": "森町ライフハック"}
+    ]},
+    {"id": "type-general", "label": "施設を借りたい・調べたい", "heading": "公共施設一覧と予約情報", "bullets": ["主要施設・諸団体一覧で連絡先を確認", "空き状況は外部サイトで確認できる", "駐車場やアクセス情報もあわせて確認"], "actions": [
+      {"label": "公共施設一覧を見る", "href": "/life/play-out/facilities-library-parks/", "source": "森町ライフハック"},
+      {"label": "公共施設を借りるを見る", "href": "/life/play-out/rent-public-facilities/", "source": "森町ライフハック"}
+    ]}
+  ],
+  "steps": {
+    "today": ["目的（子ども連れ・スポーツ・文化活動など）を決める", "該当する個別ページで施設情報を確認する"],
+    "this_week": ["候補の施設に電話やホームページで空き状況を確認する", "必要な申請書があれば準備する"],
+    "outside": ["最新の料金・営業時間は森町公式サイトで確認する", "不明点は各施設の窓口へ問い合わせる"]
+  },
+  "action_grid": [
+    {"label": "おでかけページを見る", "href": "https://www.town.morimachi.shizuoka.jp/morikko/odekake/4808.html"},
+    {"label": "主要施設・諸団体一覧を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1164.html"},
+    {"label": "公園を探すを見る", "href": "/life/play-out/find-parks/"},
+    {"label": "図書館を利用するを見る", "href": "/life/play-out/visit-library/"},
+    {"label": "スポーツ施設を見る", "href": "/life/play-out/sports-facilities/"},
+    {"label": "文化施設を見る", "href": "/life/play-out/cultural-facilities/"}
+  ]
+ },
+ {
+  "href": "/life/play-out/kids-playgrounds/",
+  "lead": "森町児童館・子育て支援センターは、赤ちゃんから18歳未満までが無料で利用できる屋内の遊び場です。滑り台や木製遊具、畳スペースなどが揃っているので、雨の日や暑い日のお出かけ先にも重宝します。",
+  "note": "未就学児は保護者同伴が必須です。館内での食事・おやつは控えるルールになっているので、事前に確認しておきましょう。",
+  "real_cards": [
+    {"icon": "👶", "title": "赤ちゃんから利用OK", "body": "生まれたての赤ちゃんから18歳未満まで、幅広い年齢の子どもが利用できます。町内外を問わず利用できるのも嬉しいポイントです。"},
+    {"icon": "🆓", "title": "利用料は無料", "body": "森町児童館・子育て支援センターの利用は無料です。気軽に立ち寄れるので、雨の日のお出かけ先としても使いやすい施設です。"},
+    {"icon": "🛝", "title": "遊具や畳スペースが充実", "body": "滑り台や木製遊具、のりもの玩具のほか、赤ちゃん連れでも安心な畳スペースも用意されています。年齢に応じた遊び方ができます。"},
+    {"icon": "👪", "title": "未就学児は保護者同伴で", "body": "未就学児が利用する場合は、保護者の同伴が必須です。子育て支援センターも併設されているので、子育ての相談先としても利用できます。"}
+  ],
+  "qa": [
+    {"question": "利用時間と休館日を教えてください", "answer": "利用時間は<b>9時～13時、13時30分～17時</b>です（11月～1月は16時30分閉館）。休館日は<b>月曜・祝日・年末年始</b>です。お出かけ前に確認しておくと安心です。"},
+    {"question": "町外に住んでいても利用できますか", "answer": "町内外を問わず利用できます。ただし未就学児は保護者同伴が必須なので、小さなお子さんと行く場合は大人が付き添ってください。"},
+    {"question": "館内で飲食はできますか", "answer": "館内での食事・おやつはご遠慮いただくルールになっています。飲料の持参は可能です。詳しいルールは施設に直接お問い合わせください。"}
+  ],
+  "tabs": [
+    {"id": "type-baby", "label": "赤ちゃん・未就学児と", "heading": "畳スペースで安心して過ごせる", "bullets": ["赤ちゃんから利用でき、畳スペースもある", "未就学児は保護者同伴が必須", "子育て支援センターで相談もできる"], "actions": [
+      {"label": "森町児童館・子育て支援センターを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/1068.html", "source": "森町公式"},
+      {"label": "おでかけページを見る", "href": "https://www.town.morimachi.shizuoka.jp/morikko/odekake/4808.html", "source": "森町公式"}
+    ]},
+    {"id": "type-rainy", "label": "雨の日の遊び場を探したい", "heading": "屋内でしっかり遊べる", "bullets": ["滑り台や木製遊具、のりもの玩具が揃う", "無料で利用できる", "9時～17時（時期により16時30分まで）で開館"], "actions": [
+      {"label": "森町児童館・子育て支援センターを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/1068.html", "source": "森町公式"},
+      {"label": "図書館を利用するを見る", "href": "/life/play-out/visit-library/", "source": "森町ライフハック"}
+    ]},
+    {"id": "type-outdoor", "label": "外遊びもあわせて探したい", "heading": "公園もチェック", "bullets": ["町内には15施設程度の公園がある", "天気の良い日は公園、雨の日は児童館と使い分けできる", "駐車場の有無は公園ごとに異なる"], "actions": [
+      {"label": "公園を探すを見る", "href": "/life/play-out/find-parks/", "source": "森町ライフハック"}
+    ]}
+  ],
+  "steps": {
+    "today": ["利用時間（9時～17時、11月～1月は16時30分まで）を確認する", "休館日（月曜・祝日・年末年始）でないか確認する"],
+    "this_week": ["未就学児と行く場合は保護者同伴で予定を立てる", "飲料など持ち物を準備する"],
+    "outside": ["混雑状況や詳しいルールは施設へ電話で確認する", "子育て相談があれば子育て支援センターも活用する"]
+  },
+  "action_grid": [
+    {"label": "森町児童館・子育て支援センターを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/1068.html"},
+    {"label": "おでかけページを見る", "href": "https://www.town.morimachi.shizuoka.jp/morikko/odekake/4808.html"},
+    {"label": "健康こども課こども家庭係に電話する", "href": "tel:0538-86-6330"},
+    {"label": "公園を探すを見る", "href": "/life/play-out/find-parks/"},
+    {"label": "遊ぶ・使う・出かけるトップに戻る", "href": "/life/play-out/"}
+  ]
+ },
+ {
+  "href": "/life/play-out/parking-access/",
+  "lead": "森町内を移動するときは、森町営バスや一宮地区・園田地区の地域タクシー、天竜浜名湖鉄道（遠州森駅・森町病院前駅）が使えます。路線・時刻表の詳細は公式ページで別途確認するのが確実です。",
+  "note": "路線や時刻表は変更されることがあります。お出かけ前に「森町営バスのご案内」ページで最新情報を確認しましょう。",
+  "real_cards": [
+    {"icon": "🚌", "title": "森町営バスで移動", "body": "森町では町営バスが運行しています。路線や時刻表の詳細は「森町営バスのご案内」ページで確認できるので、お出かけ前にチェックしておくと安心です。"},
+    {"icon": "🚕", "title": "一宮・園田地区は地域タクシー", "body": "一宮地区・園田地区では地域タクシーが利用できます。町営バスの路線がカバーしにくいエリアでの移動手段として便利です。"},
+    {"icon": "🚃", "title": "天竜浜名湖鉄道も利用可能", "body": "遠州森駅・森町病院前駅から天竜浜名湖鉄道を利用できます。文化会館へは森町病院前駅から徒歩約1分と、電車でのアクセスもしやすい立地です。"},
+    {"icon": "🗺️", "title": "町全体マップで位置確認", "body": "森町全体マップ・中心部拡大マップで、施設やエリアの位置関係を確認できます。土地勘がない人は事前に見ておくと迷いにくくなります。"}
+  ],
+  "qa": [
+    {"question": "森町営バスの時刻表はどこで見られますか", "answer": "「森町営バスのご案内」ページで路線・時刻表の詳細を確認できます。公共交通全体については政策企画課政策企画係（0538-85-6305）にもお問い合わせいただけます。"},
+    {"question": "地域タクシーはどこで使えますか", "answer": "一宮地区・園田地区で地域タクシーが利用できます。詳しい利用方法は森町の公共交通についてのページ、または政策企画課にご確認ください。"},
+    {"question": "駐車場の場所を知りたいときはどうすればいいですか", "answer": "各施設の駐車場情報は施設ごとのページで確認できます。町全体の位置関係を知りたい場合は「森町全体マップ・中心部拡大マップ」も参考になります。"}
+  ],
+  "tabs": [
+    {"id": "type-bus", "label": "バス・鉄道で移動したい", "heading": "町営バスと天竜浜名湖鉄道を確認", "bullets": ["森町営バスの路線・時刻表は公式ページで確認", "天竜浜名湖鉄道は遠州森駅・森町病院前駅が利用できる", "文化会館へは森町病院前駅から徒歩約1分"], "actions": [
+      {"label": "森町の公共交通について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/422.html", "source": "森町公式"},
+      {"label": "政策企画課 政策企画係に電話する", "href": "tel:0538-85-6305", "source": "0538-85-6305"}
+    ]},
+    {"id": "type-taxi", "label": "地域タクシーを使いたい", "heading": "一宮・園田地区で利用できる", "bullets": ["一宮地区・園田地区で地域タクシーが利用可能", "町営バスがカバーしにくいエリアの移動に便利", "詳細は政策企画課へ問い合わせる"], "actions": [
+      {"label": "森町の公共交通について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/422.html", "source": "森町公式"}
+    ]},
+    {"id": "type-map", "label": "町の位置関係を知りたい", "heading": "全体マップで確認", "bullets": ["森町全体マップ・中心部拡大マップで位置関係を確認", "土地勘がない人でもエリアを把握しやすい", "施設ごとのアクセス情報とあわせて確認するとよい"], "actions": [
+      {"label": "森町全体マップ・中心部拡大マップを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/8/525.html", "source": "森町公式"},
+      {"label": "公共施設一覧を見る", "href": "/life/play-out/facilities-library-parks/", "source": "森町ライフハック"}
+    ]}
+  ],
+  "steps": {
+    "today": ["移動手段（バス・地域タクシー・鉄道）の候補を決める", "森町営バスのご案内ページで路線・時刻表を確認する"],
+    "this_week": ["一宮・園田地区であれば地域タクシーの利用方法を確認する", "目的地までのアクセスを全体マップで確認する"],
+    "outside": ["不明点は政策企画課政策企画係（0538-85-6305）に問い合わせる", "利用当日は最新の時刻表を再確認する"]
+  },
+  "action_grid": [
+    {"label": "森町の公共交通について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/422.html"},
+    {"label": "森町全体マップ・中心部拡大マップを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/8/525.html"},
+    {"label": "政策企画課 政策企画係に電話する", "href": "tel:0538-85-6305"},
+    {"label": "公共施設一覧を見る", "href": "/life/play-out/facilities-library-parks/"},
+    {"label": "遊ぶ・使う・出かけるトップに戻る", "href": "/life/play-out/"}
+  ]
+ },
+ {
+  "href": "/life/play-out/rent-public-facilities/",
+  "lead": "森町の公共施設を借りるときは、施設ごとに窓口や予約方法が異なります。体育施設は社会教育課、町民生活センターは住民生活課、それ以外の多くは財政課契約管財係が窓口です。空き状況はまず外部サイトで確認しましょう。",
+  "note": "予約方法は「各施設にお問い合わせください」と案内されています。借りたい施設が決まったら、まず窓口に電話で確認するのが確実です。",
+  "real_cards": [
+    {"icon": "🏢", "title": "多くの施設は財政課が窓口", "body": "公共施設の予約に関する全般的な問い合わせ先は財政課契約管財係です。どこに問い合わせればいいか迷ったら、まずこちらに相談するとよいでしょう。"},
+    {"icon": "🏟️", "title": "体育施設は社会教育課", "body": "森アリーナなどの体育施設を借りたい場合は、社会教育課社会体育係（0538-85-4191）が窓口になります。予約受付期間や料金もあわせて確認しましょう。"},
+    {"icon": "🏘️", "title": "町民生活センターは住民生活課", "body": "町民生活センターを利用したい場合は、住民生活課住民係（0538-85-6312）にお問い合わせください。地域の集まりなどで利用されることが多い施設です。"},
+    {"icon": "💻", "title": "空き状況はネットで先に確認", "body": "予約の前に、外部サイト（task-asp.net）の「施設予約情報確認」で空き状況をチェックできます。予約方法自体は施設ごとに異なるため、最終的には窓口への確認が必要です。"}
+  ],
+  "qa": [
+    {"question": "公共施設を借りたいときはどこに問い合わせればいいですか", "answer": "施設によって窓口が異なります。多くの施設は<b>財政課契約管財係（0538-85-6306）</b>ですが、体育施設は<b>社会教育課社会体育係（0538-85-4191）</b>、町民生活センターは<b>住民生活課住民係（0538-85-6312）</b>が窓口です。"},
+    {"question": "予約前に空き状況を確認できますか", "answer": "はい、外部サイト（task-asp.net）の「施設予約情報確認」で空き状況を確認できます。ただし正式な予約の申し込み方法は施設ごとに異なるため、最終的には各施設へ直接お問い合わせください。"},
+    {"question": "文化会館を借りるときも同じ窓口ですか", "answer": "森町文化会館（ミキホール）は独自の申請方法があり、文化会館（0538-85-1111）が窓口です。使用許可申請書の提出と使用料の支払いで正式予約となります。"}
+  ],
+  "tabs": [
+    {"id": "type-sports2", "label": "体育施設を借りたい", "heading": "社会教育課が窓口", "bullets": ["森アリーナなど体育施設は社会教育課社会体育係が担当", "電話番号は0538-85-4191", "空き状況は外部サイトでも確認できる"], "actions": [
+      {"label": "スポーツ施設を見る", "href": "/life/play-out/sports-facilities/", "source": "森町ライフハック"},
+      {"label": "社会教育課 社会体育係に電話する", "href": "tel:0538-85-4191", "source": "0538-85-4191"}
+    ]},
+    {"id": "type-hall2", "label": "文化会館を借りたい", "heading": "独自の申請方法がある", "bullets": ["文化会館（0538-85-1111）が窓口", "使用許可申請書の提出と使用料の支払いが必要", "申請期間は部屋によって異なる"], "actions": [
+      {"label": "文化施設を見る", "href": "/life/play-out/cultural-facilities/", "source": "森町ライフハック"},
+      {"label": "予約方法・申請書をダウンロードする", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html", "source": "森町公式"}
+    ]},
+    {"id": "type-other", "label": "その他の施設を借りたい", "heading": "まず財政課へ相談", "bullets": ["財政課契約管財係（0538-85-6306）が全般的な窓口", "町民生活センターは住民生活課住民係（0538-85-6312）", "空き状況は外部サイトで先に確認できる"], "actions": [
+      {"label": "公共施設の予約情報確認について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html", "source": "森町公式"},
+      {"label": "財政課 契約管財係に電話する", "href": "tel:0538-85-6306", "source": "0538-85-6306"}
+    ]}
+  ],
+  "steps": {
+    "today": ["借りたい施設の種類（体育施設・文化会館・その他）を決める", "外部サイトで空き状況を確認する"],
+    "this_week": ["該当する窓口（財政課・社会教育課・住民生活課など）へ電話する", "必要な申請書があれば準備する"],
+    "outside": ["申請書を窓口に提出し、使用料の支払い方法を確認する", "予約完了の連絡を待つ"]
+  },
+  "action_grid": [
+    {"label": "公共施設の予約情報確認について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html"},
+    {"label": "財政課 契約管財係に電話する", "href": "tel:0538-85-6306"},
+    {"label": "社会教育課 社会体育係に電話する", "href": "tel:0538-85-4191"},
+    {"label": "スポーツ施設を見る", "href": "/life/play-out/sports-facilities/"},
+    {"label": "文化施設を見る", "href": "/life/play-out/cultural-facilities/"},
+    {"label": "遊ぶ・使う・出かけるトップに戻る", "href": "/life/play-out/"}
+  ]
+ },
+ {
+  "href": "/life/play-out/sports-facilities/",
+  "lead": "森町でスポーツを楽しむなら、森アリーナ（森町総合体育館）や森町営グランド、学校の夜間照明施設が利用できます。予約は使用日の直前から2か月前までの受付なので、計画的に申し込みましょう。",
+  "note": "森町民以外が利用する場合は使用料が1.5倍になります。町外から利用する場合は事前に料金を確認しておくと安心です。",
+  "real_cards": [
+    {"icon": "🏀", "title": "森アリーナで室内スポーツ", "body": "森町総合体育館（森アリーナ）は8時30分～21時30分まで利用できます。休館日は火曜日（祝日の場合は翌日）と年末年始（12/28～1/4）です。"},
+    {"icon": "⚽", "title": "町営グランドや夜間照明施設も", "body": "天方小学校・森中学校・旭が丘中学校の夜間照明施設や、森町営グランドでも運動ができます。夜間利用したいときの選択肢として便利です。"},
+    {"icon": "🅿️", "title": "駐車場は100台・無料", "body": "森アリーナには無料の駐車場が100台分用意されています。車で来館しやすい環境が整っています。"},
+    {"icon": "💰", "title": "町外利用は1.5倍の料金", "body": "アマチュアスポーツ・入場無料の専用利用で1,650円～4,950円が目安ですが、森町民以外が利用する場合は1.5倍の料金になります。事前に確認しておきましょう。"}
+  ],
+  "qa": [
+    {"question": "予約はいつからできますか", "answer": "予約受付は使用日の5日前から2か月前までです。夜間照明施設を使いたい場合は1か月前からの受付となります。早めに社会教育課社会体育係（0538-85-4191）へ確認しましょう。"},
+    {"question": "料金はどのくらいかかりますか", "answer": "アマチュアスポーツで入場無料の専用利用の場合、目安として1,650円～4,950円程度です。ただし森町外から利用する場合は1.5倍の料金がかかります。正確な金額は窓口でご確認ください。"},
+    {"question": "休館日はいつですか", "answer": "森アリーナの休館日は<b>火曜日</b>（祝日の場合は翌日）と<b>年末年始（12月28日～1月4日）</b>です。利用予定日が休館日にあたらないか事前に確認しましょう。"}
+  ],
+  "tabs": [
+    {"id": "type-indoor2", "label": "室内スポーツをしたい", "heading": "森アリーナを利用する", "bullets": ["営業時間は8時30分～21時30分", "駐車場は100台・無料", "休館日は火曜日と年末年始"], "actions": [
+      {"label": "森町の体育施設について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/shakaitaiikugakari/1/1072.html", "source": "森町公式"},
+      {"label": "社会教育課 社会体育係に電話する", "href": "tel:0538-85-4191", "source": "0538-85-4191"}
+    ]},
+    {"id": "type-outdoor2", "label": "屋外・夜間に運動したい", "heading": "町営グランドと夜間照明施設", "bullets": ["森町営グランドや学校の夜間照明施設が使える", "夜間照明施設の予約は1か月前から", "昼間の予約は2か月前から可能"], "actions": [
+      {"label": "森町の体育施設について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/shakaitaiikugakari/1/1072.html", "source": "森町公式"}
+    ]},
+    {"id": "type-outside2", "label": "町外から利用したい", "heading": "料金は1.5倍になる点に注意", "bullets": ["森町民以外は使用料が1.5倍になる", "事前に社会教育課社会体育係へ料金を確認する", "予約は使用日の5日前から2か月前まで"], "actions": [
+      {"label": "社会教育課 社会体育係に電話する", "href": "tel:0538-85-4191", "source": "0538-85-4191"},
+      {"label": "公共施設を借りるを見る", "href": "/life/play-out/rent-public-facilities/", "source": "森町ライフハック"}
+    ]}
+  ],
+  "steps": {
+    "today": ["利用したい施設（森アリーナ・町営グランド・夜間照明施設）を決める", "希望日の空き状況を社会教育課社会体育係に確認する"],
+    "this_week": ["予約受付期間内に申し込み手続きを行う", "料金（町外利用は1.5倍）を確認しておく"],
+    "outside": ["利用当日は駐車場（100台・無料）を利用する", "休館日（火曜・年末年始）にあたっていないか再確認する"]
+  },
+  "action_grid": [
+    {"label": "森町の体育施設について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/shakaitaiikugakari/1/1072.html"},
+    {"label": "社会教育課 社会体育係に電話する", "href": "tel:0538-85-4191"},
+    {"label": "公共施設を借りるを見る", "href": "/life/play-out/rent-public-facilities/"},
+    {"label": "遊ぶ・使う・出かけるトップに戻る", "href": "/life/play-out/"}
+  ]
+ },
+ {
+  "href": "/life/play-out/visit-library/",
+  "lead": "森町立図書館は9時～17時（水曜日のみ19時まで）の開館で、児童図書コーナーや絵本コーナーもあり、子どもとゆっくり本を楽しめます。蔵書検索や予約は図書館専用ホームページから利用できます。",
+  "note": "本の貸出は原則、森町に在住・在勤・在学する人が対象です。館内での利用はどなたでもできるので、詳しい貸出条件は図書館へお問い合わせください。",
+  "real_cards": [
+    {"icon": "📚", "title": "水曜日は19時まで開館", "body": "通常は9時～17時ですが、水曜日のみ19時まで開館しています。仕事帰りにも立ち寄りやすい曜日です。"},
+    {"icon": "👶", "title": "児童図書・絵本コーナーあり", "body": "児童図書コーナーと絵本コーナーが用意されているので、お子さんと一緒にゆっくり絵本を楽しめます。子どものお出かけ先としてもおすすめです。"},
+    {"icon": "💻", "title": "蔵書検索・予約はネットで", "body": "図書館専用ホームページ（toshosv.town.morimachi.shizuoka.jp）で蔵書検索や予約ができます。事前に調べてから来館するとスムーズです。"},
+    {"icon": "🪪", "title": "貸出は在住・在勤・在学が対象", "body": "館内利用はどなたでも可能ですが、本の持ち出し（貸出）は原則として森町に在住・在勤・在学する人が対象です。詳細は図書館へご確認ください。"}
+  ],
+  "qa": [
+    {"question": "開館時間と休館日を教えてください", "answer": "開館時間は<b>9時～17時</b>（水曜日のみ19時まで）です。休館日は<b>月曜日</b>（祝日の場合は翌日）、<b>年末年始（12月28日～1月4日）</b>、特別整理期間です。"},
+    {"question": "町外に住んでいても本を借りられますか", "answer": "館内での利用はどなたでも可能ですが、本の貸出（持ち出し）は原則として森町に在住・在勤・在学する人が対象です。詳しい条件は図書館（0538-85-1113）へお問い合わせください。"},
+    {"question": "読みたい本を事前に予約できますか", "answer": "はい、蔵書検索・予約は図書館専用ホームページから可能です。事前にオンラインで確認しておくと、来館時にスムーズに借りられます。"}
+  ],
+  "tabs": [
+    {"id": "type-kids2", "label": "子どもと利用したい", "heading": "児童図書・絵本コーナーを活用", "bullets": ["児童図書コーナーと絵本コーナーがある", "館内利用はどなたでも可能", "雨の日のお出かけ先としてもおすすめ"], "actions": [
+      {"label": "森町立図書館(施設案内)を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html", "source": "森町公式"},
+      {"label": "子どもの遊び場を見る", "href": "/life/play-out/kids-playgrounds/", "source": "森町ライフハック"}
+    ]},
+    {"id": "type-borrow", "label": "本を借りたい", "heading": "在住・在勤・在学が貸出対象", "bullets": ["貸出は原則、森町に在住・在勤・在学する人が対象", "詳しい条件は図書館へ直接確認", "蔵書検索・予約はネットで事前にできる"], "actions": [
+      {"label": "図書館ページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/index.html", "source": "森町公式"},
+      {"label": "図書館に電話する", "href": "tel:0538-85-1113", "source": "0538-85-1113"}
+    ]},
+    {"id": "type-evening", "label": "仕事帰りに寄りたい", "heading": "水曜日は19時まで開館", "bullets": ["水曜日のみ19時まで開館している", "その他の曜日は17時閉館", "月曜・祝日翌日・年末年始は休館"], "actions": [
+      {"label": "森町立図書館(施設案内)を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html", "source": "森町公式"}
+    ]}
+  ],
+  "steps": {
+    "today": ["開館時間（9時～17時、水曜は19時まで）を確認する", "休館日でないか（月曜・祝日翌日・年末年始）確認する"],
+    "this_week": ["読みたい本があれば専用ホームページで蔵書検索する", "必要に応じてオンラインで予約する"],
+    "outside": ["貸出条件（在住・在勤・在学）を図書館へ確認する", "子ども連れの場合は児童図書コーナーもあわせて利用する"]
+  },
+  "action_grid": [
+    {"label": "森町立図書館(施設案内)を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html"},
+    {"label": "図書館ページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/index.html"},
+    {"label": "図書館に電話する", "href": "tel:0538-85-1113"},
+    {"label": "子どもの遊び場を見る", "href": "/life/play-out/kids-playgrounds/"},
+    {"label": "遊ぶ・使う・出かけるトップに戻る", "href": "/life/play-out/"}
+  ]
+ }
+]

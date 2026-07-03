@@ -1,0 +1,379 @@
+[
+ {
+  "href": "/life/health-medical/adult-vaccination/",
+  "lead": "森町でおとなの予防接種を受けるときは、まず自分がどの助成の対象になるかを確認しましょう。高齢者の肺炎球菌予防接種と、妊娠を予定・希望する女性とその同居家族向けの風しん予防接種費用助成があり、対象年齢や期間、自己負担額がそれぞれ異なります。",
+  "note": "令和8年度から高齢者肺炎球菌予防接種は20価ワクチンに変更されています。対象年齢や自己負担額は年度により変わることがあるため、申請前に健康こども課へ確認すると安心です。",
+  "real_cards": [
+   {"icon": "💉", "title": "肺炎球菌は年度で対象確認", "body": "令和8年度は接種当日65歳の方等が対象で、自己負担5,000円です。対象は66歳の誕生日前日までとなっており、20価ワクチンに変更されています。"},
+   {"icon": "🤰", "title": "風しんは対象者が限定的", "body": "妊娠を予定・希望する女性とその同居家族等が対象です。令和8年4月1日から令和9年3月31日までの期間限定で、生年月日により助成額が全額から一部まで異なります。"},
+   {"icon": "📞", "title": "迷ったら健康こども課へ", "body": "対象条件や自己負担額は年度で変わることがあります。健康づくり係（0538-85-6330）に電話すれば、自分が対象かどうかをその場で確認できます。"}
+  ],
+  "qa": [
+   {"question": "自分が高齢者肺炎球菌予防接種の対象かどうか、どう確認しますか", "answer": "令和8年度は接種当日65歳の方等が対象で、自己負担は5,000円、66歳の誕生日前日までが期限です。詳しい条件は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"},
+   {"question": "風しん予防接種費用助成は誰が対象になりますか", "answer": "妊娠を予定・希望する女性とその同居家族等が対象です。期間は令和8年4月1日から令和9年3月31日までで、生年月日により助成額が変わります。詳細は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認できます。"}
+  ],
+  "tabs": [
+   {"id": "type-elderly", "label": "高齢者の方", "heading": "肺炎球菌予防接種の対象を確認", "bullets": ["接種当日65歳の方等が対象で自己負担は5,000円", "66歳の誕生日前日までに接種する必要がある", "令和8年度から20価肺炎球菌ワクチンに変更されている"], "actions": [{"label": "肺炎球菌予防接種の助成を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html", "source": "森町公式"}, {"label": "健康こども課に電話する", "href": "tel:0538-85-6330", "source": "0538-85-6330"}]},
+   {"id": "type-pregnancy", "label": "妊娠を考えている方", "heading": "風しん予防接種の助成を確認", "bullets": ["妊娠を予定・希望する女性とその同居家族等が対象", "対象期間は令和8年4月1日から令和9年3月31日まで", "生年月日により助成額が全額から一部まで異なる"], "actions": [{"label": "風しん予防接種の助成を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html", "source": "森町公式"}, {"label": "健康こども課に電話する", "href": "tel:0538-85-6330", "source": "0538-85-6330"}]}
+  ],
+  "steps": {
+   "today": ["自分が対象年齢・対象者にあてはまるか確認する", "健康こども課（0538-85-6330）に電話で問い合わせる"],
+   "this_week": ["対象なら助成の申請方法・必要書類を確認する", "指定医療機関や接種可能な時期を調べる"],
+   "outside": ["接種は町内の医療機関で受ける（事前予約が必要な場合あり）", "町外医療機関での接種は事前申請と償還払いの手続きが必要になることがある"]
+  },
+  "action_grid": [
+   {"label": "高齢者肺炎球菌予防接種の助成を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html"},
+   {"label": "風しん予防接種の助成を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html"},
+   {"label": "健康こども課に電話する", "href": "tel:0538-85-6330"},
+   {"label": "健康・医療トップに戻る", "href": "/life/health-medical/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/cancer-specific-checkups/",
+  "lead": "森町のがん検診は、20歳以上を対象とした総合検診の中に組み込まれています。あわせて、がん治療にともなう見た目のケアを支える医療用補整具の購入費助成制度もあるので、検診と患者支援は分けて確認しましょう。",
+  "note": "総合検診の申込期限は例年4月20日頃までですが、年度により変動します。医療用補整具の助成は購入年度末までの申請が基本で、1〜3月購入分は90日以内に申請する必要があります。",
+  "real_cards": [
+   {"icon": "🩺", "title": "がん検診は総合検診の中に", "body": "20歳以上が対象の総合検診の中で、がん検診・胸部検診・骨粗しょう症検診等をまとめて受けられます。申込期限は例年4月20日頃までです。"},
+   {"icon": "💇", "title": "医療用補整具に助成あり", "body": "がん患者向けの医療用補整具（ウイッグ全頭用・乳房補整具は各上限2万円、人工乳房は上限10万円）の購入費助成があります。"},
+   {"icon": "📅", "title": "申請期限に注意", "body": "医療用補整具の助成は購入年度末までの申請が原則です。1〜3月に購入した場合は90日以内の申請が必要になるため、早めに準備しましょう。"}
+  ],
+  "qa": [
+   {"question": "がん検診だけを単独で申し込めますか", "answer": "森町のがん検診は20歳以上対象の総合検診に含まれる形で実施されています。申込方法や期限は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/2/821.html\" target=\"_blank\" rel=\"noopener\">森町公式の総合検診ページ</a>で確認してください。"},
+   {"question": "医療用補整具の助成はどんなものが対象ですか", "answer": "ウイッグ（全頭用）や乳房補整具は各上限2万円、人工乳房は上限10万円の助成があります。購入年度末までの申請が基本で、詳細は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/4/3238.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認できます。"}
+  ],
+  "tabs": [
+   {"id": "type-checkup", "label": "検診を受けたい方", "heading": "総合検診でがん検診を受ける", "bullets": ["対象は20歳以上の森町住民", "がん検診・胸部検診・骨粗しょう症検診等を総合検診でまとめて実施", "申込期限は例年4月20日頃まで（年度により変動）"], "actions": [{"label": "総合検診の案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/2/821.html", "source": "森町公式"}, {"label": "健康こども課に電話する", "href": "tel:0538-85-6330", "source": "0538-85-6330"}]},
+   {"id": "type-support", "label": "がん治療中の方", "heading": "医療用補整具の助成を申請する", "bullets": ["ウイッグ全頭用・乳房補整具は各上限2万円の助成", "人工乳房は上限10万円の助成", "購入年度末までに申請（1〜3月購入分は90日以内）"], "actions": [{"label": "医療用補整具助成の案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/4/3238.html", "source": "森町公式"}, {"label": "健康こども課に電話する", "href": "tel:0538-85-6330", "source": "0538-85-6330"}]}
+  ],
+  "steps": {
+   "today": ["総合検診の対象・申込期限を確認する", "医療用補整具の助成が使えるか健康こども課に問い合わせる"],
+   "this_week": ["総合検診の申込書を郵送・QRコード・電話で申し込む", "医療用補整具を購入する場合は助成の必要書類を確認する"],
+   "outside": ["総合検診は指定の実施機関で受診する", "医療用補整具は購入店舗の領収書等を保管しておく"]
+  },
+  "action_grid": [
+   {"label": "総合検診の案内を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/2/821.html"},
+   {"label": "医療用補整具助成の案内を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/4/3238.html"},
+   {"label": "健康こども課に電話する", "href": "tel:0538-85-6330"},
+   {"label": "健康診断・特定健診も確認する", "href": "/life/health-medical/health-checkups/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/dental-care/",
+  "lead": "森町の歯と口の健康は、節目年齢が対象の歯周病検診と、町内の歯科医院探しを分けて考えるとわかりやすいです。公立森町病院の歯科口腔外科は一般歯科診療ではなく、抜歯や口腔外傷などの専門対応が中心になっている点にも注意しましょう。",
+  "note": "歯周病検診は実施医療機関への事前予約が必要です。実施期間は例年5月から12月頃までとなっています。",
+  "real_cards": [
+   {"icon": "🦷", "title": "歯周病検診は節目年齢が対象", "body": "20・30・40・50・60・70歳の森町住民が対象で、自己負担は500円（1人1回限り）です。実施医療機関への事前予約が必要です。"},
+   {"icon": "🏥", "title": "町内の歯科医院は複数あり", "body": "森町内には宇藤歯科医院・仲町歯科医院・松田歯科医院・山本歯科医院・渡辺歯科医院など複数の歯科医院があります。"},
+   {"icon": "⚠️", "title": "病院の歯科は専門対応中心", "body": "公立森町病院の歯科口腔外科は、一般的な歯科診療は原則行っていません。抜歯や口腔外傷など専門的な対応が中心です。"}
+  ],
+  "qa": [
+   {"question": "歯周病検診は誰でも受けられますか", "answer": "20・30・40・50・60・70歳の節目年齢にあたる森町住民が対象です。自己負担500円で1人1回限りとなっており、実施医療機関への事前予約が必要です。詳細は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/2937.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"},
+   {"question": "むし歯の治療は公立森町病院でできますか", "answer": "公立森町病院の歯科口腔外科は、抜歯や口腔外傷など専門的な対応が中心で、一般的な歯科診療は原則行っていません。むし歯の治療などは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html\" target=\"_blank\" rel=\"noopener\">町内の歯科医院</a>に相談してください。"}
+  ],
+  "tabs": [
+   {"id": "type-checkup", "label": "歯周病検診を受けたい方", "heading": "節目年齢なら歯周病検診を確認", "bullets": ["対象は20・30・40・50・60・70歳の森町住民", "自己負担500円（1人1回限り）", "実施医療機関に事前予約が必要（実施期間は例年5月〜12月頃）"], "actions": [{"label": "歯周病検診の案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/2937.html", "source": "森町公式"}, {"label": "健康こども課に電話する", "href": "tel:0538-85-6330", "source": "0538-85-6330"}]},
+   {"id": "type-clinic", "label": "歯科医院を探したい方", "heading": "町内の歯科医院を確認", "bullets": ["町内には宇藤歯科医院・仲町歯科医院・松田歯科医院等の歯科医院がある", "公立森町病院の歯科口腔外科は一般歯科診療は原則行わない", "抜歯や口腔外傷等の専門対応が必要な場合は病院の歯科口腔外科へ"], "actions": [{"label": "町内歯科医院の案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html", "source": "森町公式"}, {"label": "公立森町病院の情報を見る", "href": "/life/health-medical/find-hospitals/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["自分・家族が節目年齢にあたるか確認する", "町内の歯科医院を確認する"],
+   "this_week": ["歯周病検診の実施医療機関に事前予約する", "むし歯等の治療が必要なら町内歯科医院に相談する"],
+   "outside": ["歯周病検診は実施医療機関（歯科医院）で受診する", "抜歯や口腔外傷等は公立森町病院の歯科口腔外科に相談する"]
+  },
+  "action_grid": [
+   {"label": "歯周病検診の案内を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/2937.html"},
+   {"label": "町内歯科医院の案内を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html"},
+   {"label": "健康こども課に電話する", "href": "tel:0538-85-6330"},
+   {"label": "医療機関を探すページも見る", "href": "/life/health-medical/find-hospitals/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/disability-services/",
+  "lead": "森町の障がい福祉サービスは、福祉課 地域福祉係が窓口です。自立支援医療や重度障害者医療費助成、補装具の交付、日常生活用具の支給、タクシー券の交付など内容が幅広いので、まず窓口に相談して自分に合う制度を絞り込みましょう。",
+  "note": "タクシー券は年間18枚（1枚600円）交付されます。制度ごとに対象条件が異なるため、詳細は福祉課に確認してください。",
+  "real_cards": [
+   {"icon": "🏛️", "title": "窓口は福祉課 地域福祉係", "body": "自立支援医療（精神通院・育成医療）や重度障害者医療費助成など、障がい福祉サービス全般の相談は福祉課 地域福祉係（0538-85-1800）で受け付けています。"},
+   {"icon": "🚕", "title": "タクシー券の交付もある", "body": "対象者にはタクシー券が年間18枚（1枚600円）交付されます。外出の負担を減らしたい方は窓口で対象条件を確認してください。"},
+   {"icon": "🦽", "title": "補装具・日常生活用具も相談可", "body": "補装具の交付や日常生活用具の支給についても福祉課で相談できます。必要な用具や条件は個別に異なるため窓口確認が確実です。"}
+  ],
+  "qa": [
+   {"question": "どんな障がい福祉サービスがありますか", "answer": "自立支援医療（精神通院・育成医療）、重度障害者医療費助成、補装具の交付、日常生活用具の支給、タクシー券の交付（年間18枚、1枚600円）などがあります。詳細は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/665.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"},
+   {"question": "どこに相談すればいいですか", "answer": "福祉課 地域福祉係（0538-85-1800）が窓口です。制度ごとに対象条件が異なるため、まず電話や窓口で自分の状況を伝えて相談することをおすすめします。"}
+  ],
+  "tabs": [
+   {"id": "type-medical", "label": "医療費の助成を知りたい方", "heading": "自立支援医療・重度障害者医療費助成を確認", "bullets": ["自立支援医療は精神通院・育成医療が対象", "重度障害者医療費助成もあわせて確認できる", "対象条件は個別に異なるため窓口相談が確実"], "actions": [{"label": "障がい福祉サービスの案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/665.html", "source": "森町公式"}, {"label": "福祉課に電話する", "href": "tel:0538-85-1800", "source": "0538-85-1800"}]},
+   {"id": "type-daily", "label": "日常生活の支援を知りたい方", "heading": "補装具・日常生活用具・タクシー券を確認", "bullets": ["補装具の交付や日常生活用具の支給を相談できる", "タクシー券は年間18枚（1枚600円）交付", "詳しい対象条件は福祉課窓口で確認する"], "actions": [{"label": "福祉課 地域福祉係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/index.html", "source": "森町公式"}, {"label": "福祉課に電話する", "href": "tel:0538-85-1800", "source": "0538-85-1800"}]}
+  ],
+  "steps": {
+   "today": ["自分・家族が対象になりそうな制度を確認する", "福祉課 地域福祉係（0538-85-1800）に電話する"],
+   "this_week": ["必要書類や申請方法を窓口で確認する", "対象になる制度があれば申請手続きを進める"],
+   "outside": ["医療機関での自立支援医療の利用は指定医療機関を確認する", "補装具や日常生活用具は業者を通じて手続きすることがある"]
+  },
+  "action_grid": [
+   {"label": "障がい福祉サービスの案内を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/665.html"},
+   {"label": "福祉課 地域福祉係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/index.html"},
+   {"label": "福祉課に電話する", "href": "tel:0538-85-1800"},
+   {"label": "障がい者手帳のページも見る", "href": "/life/health-medical/disability-welfare/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/disability-welfare/",
+  "lead": "森町で障がい者手帳を取得するときは、まずどの手帳が自分に該当するかを確認しましょう。身体障害者手帳・療育手帳・精神障害者保健福祉手帳の3種類があり、それぞれ対象や判定方法が異なります。",
+  "note": "手帳の種類によって受けられる控除やサービスが変わります。申請窓口は福祉課 地域福祉係です。",
+  "real_cards": [
+   {"icon": "🪪", "title": "身体障害者手帳は1〜6級", "body": "身体障害者手帳は1〜6級に区分され、県指定医師の診断により等級が決定します。障がいの種類・程度によって等級が変わります。"},
+   {"icon": "🧒", "title": "療育手帳は知的障がいが対象", "body": "療育手帳は知的障がい児者向けの手帳で、A1・A2・B1・B2の区分があります。判定は児童相談所や更生相談所等で行われます。"},
+   {"icon": "💊", "title": "精神障害者保健福祉手帳もある", "body": "精神疾患のある方向けの手帳で、税控除やタクシー券の交付など各種サービスの対象になります。"}
+  ],
+  "qa": [
+   {"question": "障がい者手帳にはどんな種類がありますか", "answer": "身体障害者手帳（1〜6級、県指定医師の診断で決定）、療育手帳（知的障がい児者向け、A1・A2・B1・B2）、精神障害者保健福祉手帳（精神疾患のある方向け）の3種類があります。詳細は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/665.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"},
+   {"question": "手帳を取得するとどんなサービスが受けられますか", "answer": "手帳の種類・等級により、税控除やタクシー券の交付など受けられる支援が異なります。詳しい内容は福祉課 地域福祉係（0538-85-1800）に相談してください。"}
+  ],
+  "tabs": [
+   {"id": "type-physical", "label": "身体障がいの方", "heading": "身体障害者手帳を確認", "bullets": ["1〜6級に区分される", "県指定医師の診断により等級が決定する", "申請窓口は福祉課 地域福祉係"], "actions": [{"label": "障がい者手帳の案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/665.html", "source": "森町公式"}, {"label": "福祉課に電話する", "href": "tel:0538-85-1800", "source": "0538-85-1800"}]},
+   {"id": "type-mental", "label": "知的・精神障がいの方", "heading": "療育手帳・精神障害者保健福祉手帳を確認", "bullets": ["療育手帳はA1・A2・B1・B2に区分される知的障がい児者向けの手帳", "精神障害者保健福祉手帳は精神疾患のある方が対象", "税控除やタクシー券の交付等の対象になる"], "actions": [{"label": "障がい者手帳の案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/665.html", "source": "森町公式"}, {"label": "福祉課に電話する", "href": "tel:0538-85-1800", "source": "0538-85-1800"}]}
+  ],
+  "steps": {
+   "today": ["どの手帳が該当しそうか確認する", "福祉課 地域福祉係（0538-85-1800）に電話で相談する"],
+   "this_week": ["必要書類（診断書等）を確認する", "申請の流れを窓口で確認する"],
+   "outside": ["身体障害者手帳の診断は県指定医師の医療機関で受ける", "療育手帳の判定は児童相談所・更生相談所等で行われる"]
+  },
+  "action_grid": [
+   {"label": "障がい者手帳の案内を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/1/665.html"},
+   {"label": "福祉課に電話する", "href": "tel:0538-85-1800"},
+   {"label": "障がい福祉サービスのページも見る", "href": "/life/health-medical/disability-services/"},
+   {"label": "健康・医療トップに戻る", "href": "/life/health-medical/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/find-hospitals/",
+  "lead": "森町で医療機関を探すときは、公立森町病院と町内の診療所・歯科医院、そして広域の医療情報検索サイトを分けて考えるとわかりやすいです。県内の医療機関の外来診療状況は「医療ネット・ナビィ」で検索でき、夜間・休日は磐周医師会の救急当番医制度もあります。",
+  "note": "公立森町病院の外来予約専用番号は代表番号と異なります。用件に応じて番号を使い分けてください。",
+  "real_cards": [
+   {"icon": "🏥", "title": "公立森町病院が地域の拠点", "body": "所在地は森町草ヶ谷391-1（〒437-0293）。代表電話0538-85-2181、外来予約専用は0538-85-0270です。"},
+   {"icon": "🩺", "title": "町内には診療所・歯科医院も複数", "body": "岩谷医院・西村医院・森の家クリニック・森町家庭医療クリニック・山崎医院などの診療所、宇藤歯科医院など複数の歯科医院があります。"},
+   {"icon": "🔍", "title": "広域の医療機関は医療ネットで検索", "body": "静岡県内の医療機関の外来診療状況は「医療ネット・ナビィ」で検索できます。磐周医師会は毎月の救急当番医を設定し、夜間・休日診療にも対応しています。"}
+  ],
+  "qa": [
+   {"question": "森町にはどんな医療機関がありますか", "answer": "公立森町病院のほか、岩谷医院・西村医院・森の家クリニック・森町家庭医療クリニック・山崎医院などの診療所、宇藤歯科医院・仲町歯科医院など複数の歯科医院があります。詳細は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"},
+   {"question": "県内の他の医療機関を探すにはどうすればいいですか", "answer": "静岡県内の医療機関の外来診療状況は「医療ネット・ナビィ」で検索できます。診療科や地域から医療機関を絞り込めます。"}
+  ],
+  "tabs": [
+   {"id": "type-hospital", "label": "公立森町病院を利用したい方", "heading": "公立森町病院の連絡先を確認", "bullets": ["所在地は〒437-0293 森町草ヶ谷391-1", "代表電話0538-85-2181、外来予約専用0538-85-0270", "夜間・休日の救急受診は事前の電話連絡が必要"], "actions": [{"label": "公立森町病院ホームページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/morimachi_hospital/5810.html", "source": "森町公式"}, {"label": "外来予約専用に電話する", "href": "tel:0538-85-0270", "source": "0538-85-0270"}]},
+   {"id": "type-clinic", "label": "町内の診療所・歯科医院を探す方", "heading": "町内の医療機関一覧を確認", "bullets": ["町内には内科・歯科等の診療所が複数ある", "県内の医療機関は医療ネット・ナビィで検索できる", "夜間・休日は磐周医師会の救急当番医が対応"], "actions": [{"label": "町内医療機関の案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html", "source": "森町公式"}, {"label": "健康こども課に電話する", "href": "tel:0538-85-6330", "source": "0538-85-6330"}]}
+  ],
+  "steps": {
+   "today": ["症状に応じて町内診療所か公立森町病院かを判断する", "電話で受診できるか確認する"],
+   "this_week": ["かかりつけ医を町内診療所の中から検討する", "県内の他医療機関は医療ネット・ナビィで調べる"],
+   "outside": ["夜間・休日の急患は事前に病院へ電話連絡する", "救急当番医の情報は磐周医師会のページで確認する"]
+  },
+  "action_grid": [
+   {"label": "町内医療機関の案内を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html"},
+   {"label": "公立森町病院ホームページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/morimachi_hospital/5810.html"},
+   {"label": "公立森町病院に電話する", "href": "tel:0538-85-2181"},
+   {"label": "休日夜間の急患も確認する", "href": "/life/health-medical/holiday-night-emergency-care/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/health-checkups/",
+  "lead": "森町の健康診断は、20歳以上を対象とした総合検診と、国保加入の40〜74歳を対象とした特定健診の2つに分かれています。窓口も総合検診は健康こども課、特定健診は住民生活課 国保年金係と異なるので、まず自分がどちらに該当するか確認しましょう。",
+  "note": "75歳以上の方は後期高齢者医療の健診が対象になります。特定健診の自己負担は1,500円（通常1万円相当）です。",
+  "real_cards": [
+   {"icon": "📋", "title": "総合検診は20歳以上が対象", "body": "基本健康診査・特定健康診査・がん検診・胸部検診・骨粗しょう症検診等をまとめて実施しています。申込期限は例年4月20日頃までです。"},
+   {"icon": "🩺", "title": "特定健診は国保加入の40〜74歳", "body": "自己負担1,500円（通常1万円相当）で受けられます。75歳以上は後期高齢者医療の健診が対象です。例年6月から翌年2月頃まで予約制で実施されます。"},
+   {"icon": "📮", "title": "申込方法は複数用意されている", "body": "総合検診の申込は郵送の確認書兼申込書返送・QRコード・電話のいずれかで行えます。自分に合う方法を選んでください。"}
+  ],
+  "qa": [
+   {"question": "総合検診と特定健診は両方受けられますか", "answer": "対象条件を満たしていればどちらも受けられます。総合検診は20歳以上、特定健診は国保加入の40〜74歳が対象です。窓口が異なるため、詳細は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/2/821.html\" target=\"_blank\" rel=\"noopener\">総合検診の案内</a>と<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/5713.html\" target=\"_blank\" rel=\"noopener\">特定健診の案内</a>をそれぞれ確認してください。"},
+   {"question": "75歳以上は健診を受けられませんか", "answer": "75歳以上の方は特定健診ではなく、後期高齢者医療制度の健診が対象になります。詳しくは住民生活課 国保年金係（0538-85-6313）に確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-general", "label": "総合検診を受けたい方", "heading": "総合検診の申込方法を確認", "bullets": ["対象は20歳以上の森町住民", "基本健康診査・がん検診・胸部検診等をまとめて実施", "申込は郵送・QRコード・電話。期限は例年4月20日頃まで"], "actions": [{"label": "総合検診の案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/2/821.html", "source": "森町公式"}, {"label": "健康こども課に電話する", "href": "tel:0538-85-6330", "source": "0538-85-6330"}]},
+   {"id": "type-specific", "label": "国保加入40〜74歳の方", "heading": "特定健診の申込方法を確認", "bullets": ["対象は国保加入の40〜74歳", "自己負担1,500円（通常1万円相当）", "例年6月〜翌年2月頃実施、予約制"], "actions": [{"label": "特定健診の案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/5713.html", "source": "森町公式"}, {"label": "住民生活課 国保年金係に電話する", "href": "tel:0538-85-6313", "source": "0538-85-6313"}]}
+  ],
+  "steps": {
+   "today": ["自分が総合検診・特定健診どちらの対象か確認する", "申込期限をそれぞれ確認する"],
+   "this_week": ["総合検診は郵送・QRコード・電話のいずれかで申し込む", "特定健診は住民生活課 国保年金係に予約の連絡をする"],
+   "outside": ["健診は指定の実施医療機関で受診する", "結果を受けて必要なら医療機関を受診する"]
+  },
+  "action_grid": [
+   {"label": "総合検診の案内を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/2/821.html"},
+   {"label": "特定健診の案内を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/5713.html"},
+   {"label": "住民生活課 国保年金係に電話する", "href": "tel:0538-85-6313"},
+   {"label": "がん検診・患者支援も確認する", "href": "/life/health-medical/cancer-specific-checkups/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/health-promotion/",
+  "lead": "森町の健康づくりは、健康こども課による生活習慣相談と、健康マイレージ事業や各種検診の案内をあわせて知っておくと活用しやすくなります。まずは自分の状況に合わせて相談窓口を確認しましょう。",
+  "note": "健康相談は保健師・栄養士による生活習慣相談です。電話または窓口で受け付けています。",
+  "real_cards": [
+   {"icon": "🥗", "title": "健康相談は保健師・栄養士が対応", "body": "生活習慣に関する相談は電話または窓口で受け付けています。連絡先は0538-85-1800（暮らしの相談窓口ページに記載）です。"},
+   {"icon": "🏃", "title": "健康マイレージ事業もある", "body": "健康・福祉トップページに健康マイレージ事業の案内がまとまっています。日々の健康づくりの取り組みを支援する制度です。"},
+   {"icon": "📝", "title": "各種検診の案内もまとめて確認", "body": "がん検診・歯周病検診等の案内も健康・福祉トップページに集約されています。まとめて確認すると自分に必要な検診が見つけやすくなります。"}
+  ],
+  "qa": [
+   {"question": "生活習慣について相談したいときはどこに連絡すればいいですか", "answer": "保健師・栄養士による健康相談を電話または窓口で受け付けています。連絡先は0538-85-1800です。詳細は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html\" target=\"_blank\" rel=\"noopener\">暮らしの相談窓口ページ</a>で確認してください。"},
+   {"question": "健康マイレージ事業とは何ですか", "answer": "森町が実施している健康づくりを支援する事業です。詳しい内容は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html\" target=\"_blank\" rel=\"noopener\">健康・福祉トップページ</a>で確認できます。"}
+  ],
+  "tabs": [
+   {"id": "type-consult", "label": "生活習慣を相談したい方", "heading": "健康相談の利用方法を確認", "bullets": ["保健師・栄養士による生活習慣相談が受けられる", "電話または窓口で受付", "連絡先は0538-85-1800"], "actions": [{"label": "暮らしの相談窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html", "source": "森町公式"}, {"label": "健康相談窓口に電話する", "href": "tel:0538-85-1800", "source": "0538-85-1800"}]},
+   {"id": "type-mileage", "label": "健康づくりに取り組みたい方", "heading": "健康マイレージ事業・検診案内を確認", "bullets": ["健康・福祉トップページに健康マイレージ事業の案内がある", "がん検診・歯周病検診等の案内もまとまっている", "自分に必要な検診をあわせて確認できる"], "actions": [{"label": "健康・福祉トップページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html", "source": "森町公式"}, {"label": "健康こども課に電話する", "href": "tel:0538-85-6330", "source": "0538-85-6330"}]}
+  ],
+  "steps": {
+   "today": ["生活習慣で気になることを整理する", "健康相談窓口（0538-85-1800）に連絡する"],
+   "this_week": ["健康マイレージ事業の内容を確認する", "自分に必要な検診があれば申込方法を確認する"],
+   "outside": ["生活習慣の改善は医療機関の指導とあわせて進めることもできる", "検診結果で異常があれば医療機関を受診する"]
+  },
+  "action_grid": [
+   {"label": "暮らしの相談窓口を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html"},
+   {"label": "健康・福祉トップページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html"},
+   {"label": "健康こども課に電話する", "href": "tel:0538-85-6330"},
+   {"label": "健康診断・特定健診も確認する", "href": "/life/health-medical/health-checkups/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/holiday-night-emergency-care/",
+  "lead": "森町には独自の急患診療所がなく、休日・夜間の急患は公立森町病院が窓口になります。受診の前には必ず電話連絡が必要で、深夜帯は原則として救急受診ができない点も知っておきましょう。",
+  "note": "磐周医師会・磐周歯科医師会が毎月の救急当番医を設定し、夜間・日祝の診療も実施しています。中学生以下は静岡こども救急電話相談#8000（24時間）も利用できます。",
+  "real_cards": [
+   {"icon": "☎️", "title": "受診前に必ず電話連絡", "body": "公立森町病院（0538-85-2181）へ事前に電話し、氏名・生年月日・症状・来院方法・来院予定時間を伝える必要があります。"},
+   {"icon": "🕕", "title": "受診できる時間帯が決まっている", "body": "平日6-8時・17-22時、休日（土日祝・年末年始）は6-22時が対応時間です。深夜22時〜翌6時は原則救急受診ができません。"},
+   {"icon": "👶", "title": "子どもの急な症状には#8000", "body": "中学生以下の子どもの症状で迷ったときは、静岡こども救急電話相談#8000（24時間）に電話で相談できます。"}
+  ],
+  "qa": [
+   {"question": "森町に急患診療所はありますか", "answer": "森町独自の急患診療所はなく、公立森町病院が休日・夜間の急患受診の窓口になっています。受診前に必ず0538-85-2181へ電話連絡してください。詳細は<a href=\"https://hospital.town.morimachi.shizuoka.jp/guide/outpatient/kyukyujushin/\" target=\"_blank\" rel=\"noopener\">公立森町病院の救急受診ページ</a>で確認できます。"},
+   {"question": "深夜に具合が悪くなったらどうすればいいですか", "answer": "深夜22時〜翌6時は原則として救急受診ができません。症状により他の医療機関へ案内されることもあるため、まず公立森町病院（0538-85-2181）に電話して相談してください。"}
+  ],
+  "tabs": [
+   {"id": "type-adult", "label": "大人の急な体調不良", "heading": "公立森町病院への連絡方法を確認", "bullets": ["受診前に0538-85-2181へ必ず電話連絡する", "氏名・生年月日・症状・来院方法・来院予定時間を伝える", "深夜22時〜翌6時は原則救急受診ができない"], "actions": [{"label": "救急受診についてを見る", "href": "https://hospital.town.morimachi.shizuoka.jp/guide/outpatient/kyukyujushin/", "source": "森町公式"}, {"label": "公立森町病院に電話する", "href": "tel:0538-85-2181", "source": "0538-85-2181"}]},
+   {"id": "type-child", "label": "子どもの急な体調不良", "heading": "子ども向けの相談先も確認", "bullets": ["公立森町病院への電話連絡が基本の流れ", "中学生以下は静岡こども救急電話相談#8000（24時間）も利用できる", "磐周医師会の救急当番医が夜間・日祝の診療にも対応"], "actions": [{"label": "病気になったときの案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html", "source": "森町公式"}, {"label": "こども救急電話相談 #8000", "href": "tel:8000", "source": "#8000"}]}
+  ],
+  "steps": {
+   "today": ["公立森町病院の電話番号（0538-85-2181）を控えておく", "受診時に伝える氏名・生年月日・症状等を整理しておく"],
+   "this_week": ["夜間・休日の受診可能時間帯を家族で共有しておく", "子どもがいる家庭は#8000の番号も控えておく"],
+   "outside": ["症状によっては磐周医師会の救急当番医が案内されることがある", "深夜帯は電話で看護師に相談し指示を仰ぐ"]
+  },
+  "action_grid": [
+   {"label": "公立森町病院に電話する", "href": "tel:0538-85-2181"},
+   {"label": "救急受診についてを確認する", "href": "https://hospital.town.morimachi.shizuoka.jp/guide/outpatient/kyukyujushin/"},
+   {"label": "病気になったときの案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html"},
+   {"label": "医療機関を探すページも見る", "href": "/life/health-medical/find-hospitals/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/",
+  "lead": "森町の健康・医療に関する手続きは、健診・予防接種は健康こども課、障がい福祉は福祉課、国保・特定健診は住民生活課、診療・救急は公立森町病院と、担当が分かれています。まず自分の用件がどの窓口にあたるかを確認しましょう。",
+  "note": "森町には独自の急患診療所はなく、休日・夜間の急患は公立森町病院が窓口です。",
+  "real_cards": [
+   {"icon": "🏥", "title": "健診・予防接種は健康こども課", "body": "総合検診・がん検診・予防接種・健康相談などは健康こども課 健康づくり係（0538-85-6330）が窓口です。"},
+   {"icon": "♿", "title": "障がい福祉は福祉課", "body": "障がい者手帳や自立支援医療、補装具の交付など障がい福祉サービス全般は福祉課 地域福祉係（0538-85-1800）が窓口です。"},
+   {"icon": "📋", "title": "国保・特定健診は住民生活課", "body": "国民健康保険や特定健診に関することは住民生活課 国保年金係（0538-85-6313）が窓口です。"}
+  ],
+  "qa": [
+   {"question": "森町の健康・医療の窓口はどこにありますか", "answer": "健診・予防接種は健康こども課、障がい福祉は福祉課、国保・特定健診は住民生活課、診療・救急は公立森町病院に分かれています。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html\" target=\"_blank\" rel=\"noopener\">森町公式の健康・福祉ページ</a>で確認してください。"},
+   {"question": "森町には急患診療所がありますか", "answer": "森町独自の急患診療所はなく、休日・夜間の急患は公立森町病院が窓口です。受診前には必ず電話連絡が必要です。詳細は<a href=\"/life/health-medical/holiday-night-emergency-care/\">休日夜間の急患ページ</a>で確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-checkup", "label": "健診・予防接種を知りたい方", "heading": "健康こども課の手続きを確認", "bullets": ["総合検診・がん検診・予防接種の案内がまとまっている", "健康マイレージ事業もあわせて確認できる", "窓口は健康こども課 健康づくり係（0538-85-6330）"], "actions": [{"label": "健康診断・がん検診を見る", "href": "/life/health-medical/health-checkups/", "source": "森町ライフハック"}, {"label": "予防接種を見る", "href": "/life/health-medical/vaccinations/", "source": "森町ライフハック"}]},
+   {"id": "type-emergency", "label": "急な体調不良のとき", "heading": "医療機関・救急の窓口を確認", "bullets": ["休日・夜間の急患は公立森町病院が窓口", "受診前に電話連絡が必要", "町内には診療所・歯科医院も複数ある"], "actions": [{"label": "医療機関を探すページを見る", "href": "/life/health-medical/find-hospitals/", "source": "森町ライフハック"}, {"label": "休日夜間の急患ページを見る", "href": "/life/health-medical/holiday-night-emergency-care/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["自分の用件がどの窓口にあたるか確認する", "各窓口の電話番号を控えておく"],
+   "this_week": ["必要な手続きの申込期限を確認する", "健康・福祉トップページで関連情報をまとめて確認する"],
+   "outside": ["診療・救急は公立森町病院や町内診療所を利用する", "こころの相談は県の窓口も利用できる"]
+  },
+  "action_grid": [
+   {"label": "健康・福祉トップページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html"},
+   {"label": "健康こども課に電話する", "href": "tel:0538-85-6330"},
+   {"label": "医療機関を探す", "href": "/life/health-medical/find-hospitals/"},
+   {"label": "休日夜間の急患を確認する", "href": "/life/health-medical/holiday-night-emergency-care/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/mental-health-consulting/",
+  "lead": "森町のこころの相談は、町の健康相談と、静岡県が設けている「心の電話」「精神科救急情報ダイヤル」を分けて知っておくと使いやすくなります。緊急度や相談内容に応じて窓口を選びましょう。",
+  "note": "「心の電話」は心の健康に関する相談全般、「精神科救急情報ダイヤル」は緊急に精神科医療機関への受診が必要なときの相談窓口です。",
+  "real_cards": [
+   {"icon": "☎️", "title": "町の健康相談", "body": "保健師・栄養士による健康相談を電話・窓口で受け付けています。連絡先は0538-85-1800です。"},
+   {"icon": "💬", "title": "静岡県「心の電話」", "body": "心の健康に関する相談ができる窓口です。番号は0538-37-5560です。"},
+   {"icon": "🚨", "title": "精神科救急情報ダイヤル", "body": "緊急に精神科医療機関へ受診したいときの相談窓口です。番号は054-253-9905（県立こころの医療センター）です。"}
+  ],
+  "qa": [
+   {"question": "心の健康について相談したいときはどこに連絡すればいいですか", "answer": "町の健康相談（0538-85-1800）のほか、静岡県の「心の電話」（0538-37-5560）が利用できます。詳細は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html\" target=\"_blank\" rel=\"noopener\">暮らしの相談窓口ページ</a>で確認してください。"},
+   {"question": "緊急に精神科を受診させたいときはどうすればいいですか", "answer": "精神科救急情報ダイヤル（054-253-9905、県立こころの医療センター）に相談してください。緊急に精神科医療機関への受診が必要な場合の窓口です。"}
+  ],
+  "tabs": [
+   {"id": "type-general", "label": "気持ちの落ち込みを相談したい方", "heading": "町の健康相談・心の電話を確認", "bullets": ["町の健康相談は保健師・栄養士が対応（0538-85-1800）", "静岡県「心の電話」は0538-37-5560", "電話または窓口で相談できる"], "actions": [{"label": "暮らしの相談窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html", "source": "森町公式"}, {"label": "心の電話に電話する", "href": "tel:0538-37-5560", "source": "0538-37-5560"}]},
+   {"id": "type-emergency", "label": "緊急性が高いとき", "heading": "精神科救急情報ダイヤルを確認", "bullets": ["緊急に精神科医療機関への受診が必要なときの窓口", "番号は054-253-9905（県立こころの医療センター）", "町の健康相談窓口（0538-85-1800）にも状況を伝えられる"], "actions": [{"label": "精神科救急情報ダイヤルに電話する", "href": "tel:054-253-9905", "source": "054-253-9905"}, {"label": "健康相談窓口に電話する", "href": "tel:0538-85-1800", "source": "0538-85-1800"}]}
+  ],
+  "steps": {
+   "today": ["相談したい内容の緊急度を整理する", "該当する相談窓口の番号を控えておく"],
+   "this_week": ["継続的な相談が必要なら町の健康相談を利用する", "必要に応じて医療機関の受診も検討する"],
+   "outside": ["精神科の受診が必要な場合は医療機関を探す", "家族が心配なときも同じ窓口に相談できる"]
+  },
+  "action_grid": [
+   {"label": "暮らしの相談窓口を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html"},
+   {"label": "心の電話に電話する", "href": "tel:0538-37-5560"},
+   {"label": "精神科救急情報ダイヤルに電話する", "href": "tel:054-253-9905"},
+   {"label": "健康・医療トップに戻る", "href": "/life/health-medical/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/night-holiday-medical/",
+  "lead": "森町には独自の急患診療所がなく、夜間・休日の急患は公立森町病院が窓口になります。受診の前には必ず電話連絡が必要で、深夜帯は原則として救急受診ができない点を先に押さえておきましょう。",
+  "note": "磐周医師会・磐周歯科医師会が毎月の救急当番医を設定し、夜間・日祝の診療も実施しています。子ども対象の静岡こども救急電話相談#8000（24時間）も利用できます。",
+  "real_cards": [
+   {"icon": "☎️", "title": "受診前に必ず電話連絡", "body": "公立森町病院（0538-85-2181）へ事前に電話することが必要です。氏名・生年月日・症状・来院方法・来院予定時間を伝えましょう。"},
+   {"icon": "🕕", "title": "受診できる時間帯に注意", "body": "平日6-8時・17-22時、休日（土日祝・年末年始）は6-22時が対応時間です。深夜22時〜翌6時は原則救急受診ができません（トリアージあり）。"},
+   {"icon": "🩺", "title": "救急当番医制度もある", "body": "磐周医師会・磐周歯科医師会が毎月の救急当番医を設定し、夜間・日祝の診療にも対応しています。"}
+  ],
+  "qa": [
+   {"question": "夜間や休日に急に具合が悪くなったらどうすればいいですか", "answer": "まず公立森町病院（0538-85-2181）へ電話連絡してください。氏名・生年月日・症状・来院方法・来院予定時間を伝える必要があります。詳細は<a href=\"https://hospital.town.morimachi.shizuoka.jp/guide/outpatient/kyukyujushin/\" target=\"_blank\" rel=\"noopener\">公立森町病院の救急受診ページ</a>で確認できます。"},
+   {"question": "子どもが夜中に発熱したときはどうすればいいですか", "answer": "静岡こども救急電話相談#8000（24時間）に電話して相談できます。あわせて公立森町病院（0538-85-2181）にも電話連絡してください。"}
+  ],
+  "tabs": [
+   {"id": "type-adult", "label": "大人の急な体調不良", "heading": "公立森町病院への連絡方法を確認", "bullets": ["受診前に0538-85-2181へ必ず電話連絡する", "氏名・生年月日・症状・来院方法・来院予定時間を伝える", "深夜22時〜翌6時は原則救急受診ができない（トリアージあり）"], "actions": [{"label": "救急受診についてを見る", "href": "https://hospital.town.morimachi.shizuoka.jp/guide/outpatient/kyukyujushin/", "source": "森町公式"}, {"label": "公立森町病院に電話する", "href": "tel:0538-85-2181", "source": "0538-85-2181"}]},
+   {"id": "type-child", "label": "子どもの急な体調不良", "heading": "子ども向けの相談先も確認", "bullets": ["静岡こども救急電話相談#8000は24時間利用できる", "公立森町病院への電話連絡もあわせて行う", "磐周医師会の救急当番医が夜間・日祝の診療に対応"], "actions": [{"label": "病気になったときの案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html", "source": "森町公式"}, {"label": "こども救急電話相談 #8000", "href": "tel:8000", "source": "#8000"}]}
+  ],
+  "steps": {
+   "today": ["公立森町病院の電話番号（0538-85-2181）を控えておく", "夜間・休日の受診可能時間帯を確認する"],
+   "this_week": ["子どもがいる家庭は#8000の番号も共有しておく", "受診時に伝える情報（氏名・生年月日・症状等）を整理しておく"],
+   "outside": ["症状によっては磐周医師会の救急当番医が案内されることがある", "深夜帯は電話で看護師に相談し指示を仰ぐ"]
+  },
+  "action_grid": [
+   {"label": "公立森町病院に電話する", "href": "tel:0538-85-2181"},
+   {"label": "救急受診についてを確認する", "href": "https://hospital.town.morimachi.shizuoka.jp/guide/outpatient/kyukyujushin/"},
+   {"label": "こども救急電話相談 #8000", "href": "tel:8000"},
+   {"label": "医療機関を探すページも見る", "href": "/life/health-medical/find-hospitals/"}
+  ]
+ },
+ {
+  "href": "/life/health-medical/vaccinations/",
+  "lead": "森町の予防接種は、対象年齢・接種時期・助成内容が制度ごとに異なります。高齢者の肺炎球菌予防接種と、風しん予防接種費用助成では手続きの流れも違うので、対象になるものを先に確認しましょう。",
+  "note": "風しん予防接種は、指定医療機関では事前申請してから予約・接種、町外医療機関では事前申請してから接種し、あとで償還払いを受ける流れになります。",
+  "real_cards": [
+   {"icon": "💉", "title": "肺炎球菌予防接種の対象を確認", "body": "対象は接種当日65歳の方等で、自己負担5,000円、66歳の誕生日前日までです。令和8年度から20価肺炎球菌ワクチンに変更されています。"},
+   {"icon": "🤰", "title": "風しん予防接種は対象・期間が限定的", "body": "妊娠を予定・希望する女性とその同居家族等が対象です。令和8年4月1日から令和9年3月31日までの期間で、生年月日により助成額が異なります。"},
+   {"icon": "📝", "title": "手続きの流れは医療機関で異なる", "body": "指定医療機関では事前申請→予約→接種の流れ、町外医療機関では事前申請→接種→償還払いの流れになります。"}
+  ],
+  "qa": [
+   {"question": "予防接種の助成にはどんな種類がありますか", "answer": "高齢者肺炎球菌予防接種の助成と、風しん予防接種費用助成があります。対象年齢・期間・自己負担額がそれぞれ異なるため、<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"},
+   {"question": "町外の医療機関でも助成を受けられますか", "answer": "風しん予防接種については、町外医療機関の場合は事前申請してから接種し、あとで償還払いを受ける流れになります。詳細は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-elderly", "label": "高齢者の方", "heading": "肺炎球菌予防接種の対象を確認", "bullets": ["接種当日65歳の方等が対象で自己負担は5,000円", "66歳の誕生日前日までに接種する必要がある", "令和8年度から20価肺炎球菌ワクチンに変更されている"], "actions": [{"label": "肺炎球菌予防接種の助成を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html", "source": "森町公式"}, {"label": "健康こども課に電話する", "href": "tel:0538-85-6330", "source": "0538-85-6330"}]},
+   {"id": "type-rubella", "label": "妊娠を考えている方", "heading": "風しん予防接種の手続きを確認", "bullets": ["対象は妊娠を予定・希望する女性とその同居家族等", "指定医療機関は事前申請→予約→接種の流れ", "町外医療機関は事前申請→接種→償還払いの流れ"], "actions": [{"label": "風しん予防接種の助成を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html", "source": "森町公式"}, {"label": "健康こども課に電話する", "href": "tel:0538-85-6330", "source": "0538-85-6330"}]}
+  ],
+  "steps": {
+   "today": ["自分が対象年齢・対象者にあてはまるか確認する", "健康こども課（0538-85-6330）に電話で問い合わせる"],
+   "this_week": ["対象なら申請書類・手続きの流れを確認する", "指定医療機関か町外医療機関かで手続きが変わる点を確認する"],
+   "outside": ["接種は町内の指定医療機関または町外医療機関で受ける", "町外医療機関の場合は領収書等を保管し償還払いの申請をする"]
+  },
+  "action_grid": [
+   {"label": "高齢者肺炎球菌予防接種の助成を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html"},
+   {"label": "風しん予防接種の助成を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html"},
+   {"label": "健康こども課に電話する", "href": "tel:0538-85-6330"},
+   {"label": "健康・医療トップに戻る", "href": "/life/health-medical/"}
+  ]
+ }
+]

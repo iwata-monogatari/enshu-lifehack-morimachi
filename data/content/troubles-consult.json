@@ -1,0 +1,521 @@
+[
+ {
+  "href": "/life/troubles-consult/animal-pet-consultation/",
+  "lead": "犬や猫のことで困ったときは、森町役場「住民生活課 生活環境係」が窓口です。飼い方の相談から、飼い主のいない猫の不妊・去勢手術の補助制度、狂犬病予防注射の案内まで幅広く対応してもらえます。まずは電話で状況を伝えるところから始めてください。",
+  "note": "「犬・猫適正飼養等相談会」が実施されているほか、蜂の駆除や道路上の動物の死骸処理についての相談も生活環境係で受け付けています。",
+  "real_cards": [
+   {"icon": "🐾", "title": "飼い方の相談", "body": "犬や猫の適正な飼い方について迷ったときは、生活環境係に相談できます。近隣トラブルになる前に、早めの相談が安心につながります。"},
+   {"icon": "💉", "title": "狂犬病予防注射", "body": "犬を飼っている場合は、狂犬病予防注射の案内に沿って毎年の接種が必要です。時期や会場は係の案内で確認できます。"},
+   {"icon": "🐱", "title": "野良猫の不妊・去勢", "body": "飼い主のいない猫について、不妊・去勢手術にかかる費用の補助制度があります。地域での増えすぎを防ぐための制度です。"},
+   {"icon": "🐝", "title": "蜂・動物の死骸の相談", "body": "蜂の巣ができて困っている、道路上に動物の死骸がある、といった相談も生活環境係で受け付けています。まず電話で状況を伝えてください。"}
+  ],
+  "qa": [
+   {"question": "野良猫の手術費用はどこに相談すればいいですか", "answer": "住民生活課 生活環境係が窓口です。飼い主のいない猫の不妊・去勢手術補助制度の対象や手続きについて、電話で確認してください。"},
+   {"question": "犬の狂犬病予防注射はいつ受ければいいですか", "answer": "毎年の接種が必要です。時期や案内の詳細は生活環境係のページ、または電話で確認できます。"},
+   {"question": "近所の犬・猫のことで困っています。どこに言えばいいですか", "answer": "住民生活課 生活環境係に相談してください。「犬・猫適正飼養等相談会」なども実施されているので、まずは電話で状況を伝えるとよいです。"}
+  ],
+  "tabs": [
+   {"id": "type-owner", "label": "飼い主として困っている", "heading": "飼い方・注射・手術の相談", "bullets": ["犬・猫の適正な飼い方について生活環境係に相談する", "狂犬病予防注射の時期・会場を確認する", "飼い主のいない猫の不妊・去勢手術補助制度を確認する"], "actions": [{"label": "生活環境係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/index.html", "source": "森町公式"}, {"label": "住民生活課に電話する", "href": "tel:0538-85-2111", "source": "0538-85-2111"}]},
+   {"id": "type-trouble", "label": "近隣のことで困っている", "heading": "動物トラブル・死骸処理の相談", "bullets": ["近隣の飼い方や蜂の巣について生活環境係に相談する", "道路上の動物の死骸は生活環境係へ連絡する", "困りごと全般の相談窓口も確認しておく"], "actions": [{"label": "生活環境係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/index.html", "source": "森町公式"}, {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["困っている内容（飼い方・野良猫・死骸処理など）を整理する", "住民生活課 生活環境係へ電話で相談する"],
+   "this_week": ["補助制度の対象かどうか、必要書類を確認する", "狂犬病予防注射の時期を確認し予定を立てる"],
+   "outside": ["動物病院での手術・治療は医療機関で行う"]
+  },
+  "action_grid": [
+   {"label": "生活環境係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/index.html"},
+   {"label": "住民生活課に電話する", "href": "tel:0538-85-2111"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/cannot-pay-tax/",
+  "lead": "町税や国保税の支払いが難しいときは、滞納のまま放っておかず、早めに森町「税務課 納税係」へ相談してください。口座振替や分割納付など、状況に応じた対応を一緒に考えてもらえます。連絡が遅れるほど選べる手段が減っていきます。",
+  "note": "納期限を過ぎるとコンビニ納付ができなくなる場合があります。納付が難しいとわかった時点で早めに連絡することが大切です。",
+  "real_cards": [
+   {"icon": "📅", "title": "納期限は月末が基本", "body": "町県民税・固定資産税・軽自動車税・国民健康保険税など、税目ごとに納期が決まっています。12月は25日など例外もあるため確認が必要です。"},
+   {"icon": "💳", "title": "納付方法はいろいろ選べる", "body": "口座振替、コンビニ、スマホアプリ、クレジットカード、金融機関窓口など複数の方法があります。口座振替が最も手間がかからないとされています。"},
+   {"icon": "☎️", "title": "払えないときこそ早めの連絡", "body": "支払いが難しい事情があるときは、滞納のまま放置せず税務課納税係に相談してください。分割納付などの相談に応じてもらえます。"},
+   {"icon": "🏥", "title": "国保税も窓口が別にある", "body": "国民健康保険税については住民生活課 国保年金係が担当です。税と保険で窓口が分かれている点に注意してください。"}
+  ],
+  "qa": [
+   {"question": "今月の町税が払えそうにありません。どうすればいいですか", "answer": "滞納のまま放置せず、早めに税務課納税係（電話0538-85-2111）へ相談してください。分割納付など状況に応じた対応を相談できます。"},
+   {"question": "納期限を過ぎてしまいました。コンビニで払えますか", "answer": "納期限を過ぎると、手元の納付書ではコンビニ納付ができなくなる場合があります。まずは税務課納税係に連絡し、納付方法を確認してください。"},
+   {"question": "国民健康保険税の支払いはどこに相談すればいいですか", "answer": "国民健康保険税については住民生活課 国保年金係が窓口です。税務課とあわせて、状況を伝えて相談してください。"}
+  ],
+  "tabs": [
+   {"id": "type-tax", "label": "町税が払えない", "heading": "町県民税・固定資産税などの相談", "bullets": ["納期限と税目ごとの納付スケジュールを確認する", "口座振替・コンビニ・アプリなど納付方法を確認する", "支払いが難しい場合は税務課納税係に早めに相談する"], "actions": [{"label": "納期限と納付方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html", "source": "森町公式"}, {"label": "税務課納税係に電話する", "href": "tel:0538-85-2111", "source": "0538-85-2111"}]},
+   {"id": "type-kokuho", "label": "国保税が払えない", "heading": "国民健康保険税の相談", "bullets": ["国民健康保険税は住民生活課 国保年金係が窓口", "納付が難しい場合は早めに相談する", "税務課とあわせて状況を伝えておくと安心"], "actions": [{"label": "国民健康保険のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html", "source": "森町公式"}, {"label": "住民生活課に電話する", "href": "tel:0538-85-2111", "source": "0538-85-2111"}]}
+  ],
+  "steps": {
+   "today": ["納付書や督促状を手元に用意する", "税務課納税係へ電話し、支払いが難しい旨を伝える"],
+   "this_week": ["分割納付など可能な対応を相談する", "国保税については国保年金係にもあわせて確認する"],
+   "outside": []
+  },
+  "action_grid": [
+   {"label": "納期限と納付方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html"},
+   {"label": "国民健康保険のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html"},
+   {"label": "税務課に電話する", "href": "tel:0538-85-2111"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/care-consultation/",
+  "lead": "親や自分自身の介護のことで迷ったら、森町「地域包括支援センター係」が高齢者のための総合相談窓口です。介護保険の申請の仕方から、介護予防や日常の困りごとまで幅広く相談できます。ひとりで抱え込む前に、まず電話してみてください。",
+  "note": "介護保険は40歳以上が加入する制度で、65歳以上は原因を問わず、40〜64歳は特定の疾病が原因の場合に対象となります。",
+  "real_cards": [
+   {"icon": "📞", "title": "まず電話で相談", "body": "地域包括支援センター係は高齢者のための総合相談窓口です。何をどう相談すればいいか分からなくても、まず電話で状況を伝えれば整理を手伝ってもらえます。"},
+   {"icon": "🪪", "title": "介護保険の仕組みを知る", "body": "介護保険は65歳以上（第1号被保険者）と40〜64歳（第2号被保険者）で対象になる原因が異なります。65歳になるとピンク色の被保険者証が届きます。"},
+   {"icon": "🏃", "title": "介護予防の相談もできる", "body": "まだ介護が必要な状態でなくても、介護予防についての相談ができます。早めに相談することで、その後の生活の見通しを立てやすくなります。"},
+   {"icon": "🤝", "title": "家族の代わりの相談も可能", "body": "本人が動けない場合でも、家族が代わりに地域包括支援センター係へ相談できます。離れて暮らす親のことでも相談してかまいません。"}
+  ],
+  "qa": [
+   {"question": "介護保険の申請はどこにすればいいですか", "answer": "地域包括支援センター係に相談してください。申請の進め方や必要なものについて案内してもらえます。"},
+   {"question": "まだ介護が必要な状態ではありませんが相談できますか", "answer": "できます。介護予防に関する相談も受け付けているので、将来に備えて早めに相談しておくと安心です。"},
+   {"question": "本人ではなく家族が相談してもいいですか", "answer": "問題ありません。離れて暮らす親のことなど、家族からの相談も受け付けています。"}
+  ],
+  "tabs": [
+   {"id": "type-start", "label": "介護保険を申請したい", "heading": "申請から相談までの流れ", "bullets": ["地域包括支援センター係へ電話し状況を伝える", "介護保険の被保険者区分（第1号・第2号）を確認する", "申請に必要なものを案内してもらう"], "actions": [{"label": "地域包括支援センター係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html", "source": "森町公式"}, {"label": "介護保険制度について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/1/4205.html", "source": "森町公式"}]},
+   {"id": "type-family", "label": "家族の介護で悩んでいる", "heading": "家族としてできる相談", "bullets": ["本人が動けなくても家族が代わりに相談できる", "離れて暮らす親の様子についても相談できる", "介護予防の情報もあわせて確認する"], "actions": [{"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-2111", "source": "0538-85-2111"}, {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["困っている状況を簡単にメモする", "地域包括支援センター係へ電話する"],
+   "this_week": ["介護保険の申請が必要か相談する", "必要な書類・持ち物を確認する"],
+   "outside": ["主治医意見書などはかかりつけ医が対応する"]
+  },
+  "action_grid": [
+   {"label": "地域包括支援センター係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html"},
+   {"label": "介護保険制度について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/1/4205.html"},
+   {"label": "保健福祉課に電話する", "href": "tel:0538-85-2111"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/child-consultation/",
+  "lead": "子育ての不安や子どものことで気になることがあれば、森町「こども家庭センター」（健康こども課 こども家庭係）へ相談してください。妊娠期から学齢期まで、子育て支援専門員や保健師が幅広く相談に応じてくれます。",
+  "note": "ヤングケアラーについての相談も同じ窓口で受け付けています。家族の世話で困っている子ども自身からの相談も対象です。",
+  "real_cards": [
+   {"icon": "🤰", "title": "妊娠期から相談できる", "body": "妊娠中の不安や出産についての悩みも、こども家庭センターの相談対象です。早い段階から関わることで、その後の子育てにもつながります。"},
+   {"icon": "👶", "title": "乳幼児期の育児相談", "body": "授乳や発達、育児ストレスについての相談ができます。子育て支援専門員や保健師が対応してくれるので、ひとりで悩まず相談してください。"},
+   {"icon": "🎒", "title": "学齢期以降の相談も対応", "body": "学校生活や進路、親子関係の悩みについても相談できます。子どもの年齢が上がっても窓口は変わらず利用できます。"},
+   {"icon": "🧒", "title": "ヤングケアラーの相談", "body": "家族の世話で学業や友人関係に影響が出ている子どもについての相談も受け付けています。子ども本人からの相談も可能です。"}
+  ],
+  "qa": [
+   {"question": "子育てで不安なことがあります。誰に相談すればいいですか", "answer": "健康こども課 こども家庭係（こども家庭センター）に相談してください。妊娠期から学齢期まで幅広く対応しています。"},
+   {"question": "子どもが家族の世話をしていて心配です（ヤングケアラー）", "answer": "こども家庭係で相談を受け付けています。学業や友人関係への影響が気になる場合は、早めに相談してください。"},
+   {"question": "子ども本人からの相談も受け付けていますか", "answer": "受け付けています。ヤングケアラーに関する相談などは子ども本人からの相談も想定されています。"}
+  ],
+  "tabs": [
+   {"id": "type-parent", "label": "子育てで悩んでいる", "heading": "妊娠期・乳幼児期の相談", "bullets": ["妊娠・出産の不安をこども家庭係に相談する", "授乳・発達・育児ストレスについて相談する", "保健師や子育て支援専門員が対応してくれる"], "actions": [{"label": "こども家庭センターのページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/837.html", "source": "森町公式"}, {"label": "こども家庭係に電話する", "href": "tel:0538-85-2111", "source": "0538-85-2111"}]},
+   {"id": "type-school", "label": "学齢期の子どものことで悩んでいる", "heading": "学校生活・ヤングケアラーの相談", "bullets": ["学校生活や進路、親子関係の悩みを相談する", "家族の世話で困っている子どもについて相談する", "子ども本人からの相談も受け付けている"], "actions": [{"label": "ヤングケアラーについて見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/4543.html", "source": "森町公式"}, {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["困っている内容を簡単に整理する", "健康こども課 こども家庭係へ電話する"],
+   "this_week": ["必要に応じて継続的な相談の予定を立てる"],
+   "outside": ["学校生活の悩みは学校とも情報を共有すると相談がスムーズ"]
+  },
+  "action_grid": [
+   {"label": "こども家庭センターのページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/837.html"},
+   {"label": "ヤングケアラーについて見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/4543.html"},
+   {"label": "健康こども課に電話する", "href": "tel:0538-85-2111"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/consumer-fraud/",
+  "lead": "身に覚えのない請求や、契約してしまってから不安になった契約トラブルは、森町「町民生活センター」の消費生活相談へ早めに相談してください。特にインターネット関連の架空請求は、慌てて連絡・支払いをしないことが大切です。",
+  "note": "利用した覚えのない請求メールが届いても、相手に連絡せず支払わずに放置し、まず消費生活相談窓口に確認するのが基本です。",
+  "real_cards": [
+   {"icon": "📧", "title": "身に覚えのない請求メール", "body": "インターネット運営者や通信会社、債権回収業者などを名乗り、有料サイト利用料金を請求するメールが報告されています。連絡せず放置し、まず相談してください。"},
+   {"icon": "⚠️", "title": "法的手段をちらつかせる脅し文句", "body": "「連絡がなければ法的手段をとる」といった文言で不安をあおる手口があります。慌てて振込んだり連絡したりせず、落ち着いて窓口に相談してください。"},
+   {"icon": "📝", "title": "契約してしまった後でも相談できる", "body": "すでに契約してしまった、支払ってしまった場合でも、消費生活相談窓口に相談することで対応の可能性があります。早めの相談が肝心です。"},
+   {"icon": "☎️", "title": "消費者相談窓口に直接連絡", "body": "森町消費者相談窓口（産業課内）で相談を受け付けています。不安を感じたらまず電話してみてください。"}
+  ],
+  "qa": [
+   {"question": "身に覚えのない請求メールが届きました。どうすればいいですか", "answer": "相手に連絡せず、支払わずに放置してください。不安な場合は森町消費者相談窓口（電話0538-85-6319）に相談できます。"},
+   {"question": "うっかり契約してしまいました。もう遅いですか", "answer": "契約後でも相談は可能です。早めに町民生活センターの消費生活相談へ連絡し、状況を伝えてください。"},
+   {"question": "相談すると個人情報や費用がかかりますか", "answer": "詳しい取り扱いは窓口に確認する必要がありますが、まずは電話で相談することから始められます。"}
+  ],
+  "tabs": [
+   {"id": "type-mail", "label": "身に覚えのない請求が来た", "heading": "架空請求への対処", "bullets": ["相手に連絡せず、支払わずに放置する", "メールの内容や送信元をメモしておく", "不安な場合は消費者相談窓口に相談する"], "actions": [{"label": "インターネット消費者トラブルの防止を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/655.html", "source": "森町公式"}, {"label": "消費者相談窓口に電話する", "href": "tel:0538-85-6319", "source": "0538-85-6319"}]},
+   {"id": "type-contract", "label": "契約してしまった・支払った", "heading": "契約トラブルの相談", "bullets": ["契約書や領収書など関係書類を手元に用意する", "町民生活センターの消費生活相談に連絡する", "早めの相談が対応の選択肢を広げる"], "actions": [{"label": "森町町民生活センターのページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/1066.html", "source": "森町公式"}, {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["請求メールや契約書などの証拠を保存する", "相手に連絡・支払いをせず様子を見る"],
+   "this_week": ["森町消費者相談窓口に電話し状況を伝える"],
+   "outside": ["悪質性が高い場合は警察への相談も選択肢になる"]
+  },
+  "action_grid": [
+   {"label": "インターネット消費者トラブルの防止を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/655.html"},
+   {"label": "森町町民生活センターのページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/1066.html"},
+   {"label": "消費者相談窓口に電話する", "href": "tel:0538-85-6319"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/disability-consultation/",
+  "lead": "障害のことでどこに相談すればいいか分からないときは、森町「保健福祉課 障害福祉係」がまずの窓口です。障害者手帳や医療費助成、日常生活用具の支給など、生活に関わる制度をまとめて相談できます。",
+  "note": "身体障害者手帳・療育手帳・精神障害者保健福祉手帳のほか、自立支援医療や補装具の交付・修理費助成など、複数の制度があります。",
+  "real_cards": [
+   {"icon": "🪪", "title": "障害者手帳の相談", "body": "身体障害者手帳、療育手帳、精神障害者保健福祉手帳など、手帳の種類や取得の仕方について障害福祉係に相談できます。"},
+   {"icon": "💊", "title": "医療費の助成制度", "body": "自立支援医療（精神通院・育成医療）や重度障害者医療費助成など、医療費の自己負担を軽くする制度があります。対象になるか確認してください。"},
+   {"icon": "🛠️", "title": "補装具・日常生活用具", "body": "補装具の交付・修理費助成や日常生活用具の支給についても相談できます。生活の中で困っている道具のことも遠慮せず伝えてください。"},
+   {"icon": "🚕", "title": "外出の支援", "body": "重度障害者向けにタクシー券（年間18枚）が交付される制度もあります。外出の負担を減らしたいときに相談してみてください。"}
+  ],
+  "qa": [
+   {"question": "障害者手帳を取りたいのですが、どこに相談すればいいですか", "answer": "保健福祉課 障害福祉係に相談してください。手帳の種類や申請の流れを案内してもらえます。"},
+   {"question": "医療費の負担を軽くする制度はありますか", "answer": "自立支援医療や重度障害者医療費助成など、対象に応じた医療費助成制度があります。障害福祉係に確認してください。"},
+   {"question": "外出のための支援はありますか", "answer": "重度障害者向けにタクシー券が交付される制度があります。対象や枚数について障害福祉係に相談してください。"}
+  ],
+  "tabs": [
+   {"id": "type-first", "label": "初めて相談する", "heading": "手帳・制度の全体像を知る", "bullets": ["障害の状況を簡単に整理して障害福祉係に相談する", "手帳の種類（身体・療育・精神）を確認する", "利用できそうな助成制度を案内してもらう"], "actions": [{"label": "障害福祉係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/index.html", "source": "森町公式"}, {"label": "心身に障害のある人のためにを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/shogaishashien/1136.html", "source": "森町公式"}]},
+   {"id": "type-support", "label": "生活の負担を減らしたい", "heading": "医療費助成・生活支援の相談", "bullets": ["医療費助成の対象になるか確認する", "補装具・日常生活用具の支給を相談する", "外出支援（タクシー券等）も確認する"], "actions": [{"label": "保健福祉課に電話する", "href": "tel:0538-85-2111", "source": "0538-85-2111"}, {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["困っている内容や必要な制度を簡単に整理する", "保健福祉課 障害福祉係へ電話する"],
+   "this_week": ["手帳や助成制度の申請に必要な書類を確認する"],
+   "outside": ["診断書が必要な制度は医療機関での取得が必要になる"]
+  },
+  "action_grid": [
+   {"label": "障害福祉係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/index.html"},
+   {"label": "心身に障害のある人のためにを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/shogaishashien/1136.html"},
+   {"label": "保健福祉課に電話する", "href": "tel:0538-85-2111"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/farmland/certificates/",
+  "lead": "耕作証明や非農地証明など、農地に関する証明が必要なときは、森町「農林政策課 農地管理係」（農業委員会事務局）に確認してください。証明の種類によって発行できるかどうかや必要な手続きが異なるため、まず用途を伝えて相談するのが近道です。",
+  "note": "農地証明書そのものの専用ページは確認できていません。まずは電話で必要な証明の種類と用途を伝え、窓口で案内を受けてください。",
+  "real_cards": [
+   {"icon": "📄", "title": "証明が必要な場面はさまざま", "body": "融資や各種手続きで、耕作している事実や農地でないことの証明が求められる場合があります。まず何のための証明かを整理してください。"},
+   {"icon": "🏛️", "title": "窓口は農業委員会事務局", "body": "証明の発行に関する相談は、農林政策課 農地管理係（森町農業委員会事務局）が担当です。電話で用途を伝えて確認してください。"},
+   {"icon": "🗺️", "title": "土地の場所と地番を用意する", "body": "相談の際は、対象となる土地の所在地や地番が分かる資料があるとスムーズです。登記簿や固定資産税の通知書などを手元に用意しておきましょう。"}
+  ],
+  "qa": [
+   {"question": "耕作証明が必要になりました。どこに申請すればいいですか", "answer": "農林政策課 農地管理係（森町農業委員会事務局）に相談してください。用途を伝えると必要な手続きを案内してもらえます。"},
+   {"question": "非農地証明とはどんなときに必要ですか", "answer": "農地として扱われていた土地が実際には農地でないことを証明する場合などに使われます。詳しくは農地管理係に確認してください。"},
+   {"question": "証明の発行にはどのくらい時間がかかりますか", "answer": "内容によって異なるため、事前に農地管理係へ相談し、必要な期間や書類を確認しておくと安心です。"}
+  ],
+  "tabs": [
+   {"id": "type-cert", "label": "証明が必要になった", "heading": "証明の相談から始める", "bullets": ["何のための証明か（融資・手続き等）を整理する", "土地の所在地・地番が分かる資料を用意する", "農地管理係へ電話し必要な証明を確認する"], "actions": [{"label": "農地管理係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html", "source": "森町公式"}, {"label": "農地管理係に電話する", "href": "tel:0538-85-6315", "source": "0538-85-6315"}]},
+   {"id": "type-other", "label": "他の農地手続きも気になる", "heading": "あわせて確認したい農地の相談", "bullets": ["相続した農地の扱いに迷っている場合はまとめページを見る", "農地の売買・貸借を考えている場合も同じ窓口で相談できる", "農地を宅地等に変える場合は事前相談が必要"], "actions": [{"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/", "source": "森町ライフハック"}, {"label": "農地を宅地・駐車場にする相談を見る", "href": "/life/troubles-consult/farmland/conversion/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["何のための証明か整理する", "農地管理係へ電話で相談する"],
+   "this_week": ["土地の資料（登記簿・地番等）を用意する"],
+   "outside": ["融資先など証明の提出先に必要な様式を確認しておく"]
+  },
+  "action_grid": [
+   {"label": "農地管理係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html"},
+   {"label": "農地管理係に電話する", "href": "tel:0538-85-6315"},
+   {"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/farmland/change-use/",
+  "lead": "農地を別の用途に使いたいと考えたときは、まず森町「農林政策課 農地管理係」（農業委員会）へ相談してください。宅地にする、駐車場にするなど目的によって必要な手続きが変わるため、着手前の相談が欠かせません。",
+  "note": "農地を農地以外のもの（宅地等）にする場合の手続きは、役場の農林業ページにまとめられています。",
+  "real_cards": [
+   {"icon": "🌾", "title": "まず目的を整理する", "body": "農地をどう使いたいか（自宅の敷地拡張、駐車場、資材置き場等）を整理してから相談すると、必要な手続きが分かりやすくなります。"},
+   {"icon": "🏛️", "title": "農業委員会への事前相談が必要", "body": "農地を農地以外の用途にする場合は、農業委員会（農地管理係）への事前相談が必要です。着工前に必ず相談してください。"},
+   {"icon": "📋", "title": "手続きは規模によって異なる", "body": "転用する面積や場所によって、必要な手続きや審査の流れが異なります。詳細は窓口で確認してください。"}
+  ],
+  "qa": [
+   {"question": "自分の農地を駐車場にしたいのですが、何をすればいいですか", "answer": "まず農林政策課 農地管理係（農業委員会）へ相談してください。目的や面積によって必要な手続きが案内されます。"},
+   {"question": "地目変更だけすればいいのでしょうか", "answer": "地目変更の前に、農地転用の手続きが必要になる場合があります。自己判断せず、まず農地管理係に相談してください。"},
+   {"question": "相談してからどのくらいで使えるようになりますか", "answer": "規模や内容によって審査にかかる期間が異なります。早めに相談し、見通しを確認しておくと安心です。"}
+  ],
+  "tabs": [
+   {"id": "type-plan", "label": "用途変更を考え始めた", "heading": "事前相談から始める", "bullets": ["農地をどう使いたいか目的を整理する", "農地管理係へ事前に相談する", "面積や場所によって手続きが変わることを理解する"], "actions": [{"label": "農林業（用途変更）のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html", "source": "森町公式"}, {"label": "農地管理係に電話する", "href": "tel:0538-85-6315", "source": "0538-85-6315"}]},
+   {"id": "type-conversion", "label": "具体的に宅地・駐車場にしたい", "heading": "農地法4条・5条の転用相談", "bullets": ["30アールを超える転用は県との協議が必要になる場合がある", "農地法4条・5条の該当を農地管理係で確認する", "事前相談を必ず行ってから進める"], "actions": [{"label": "農地の転用相談（4条・5条）を見る", "href": "/life/troubles-consult/farmland/conversion/", "source": "森町ライフハック"}, {"label": "農地管理係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html", "source": "森町公式"}]}
+  ],
+  "steps": {
+   "today": ["農地をどう使いたいか目的を整理する", "農地管理係へ電話で相談する"],
+   "this_week": ["必要な手続き（転用許可等）を確認する"],
+   "outside": ["造成や建築を伴う場合は施工業者とも並行して相談する"]
+  },
+  "action_grid": [
+   {"label": "農林業（用途変更）のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html"},
+   {"label": "農地管理係に電話する", "href": "tel:0538-85-6315"},
+   {"label": "農地の転用相談（4条・5条）を見る", "href": "/life/troubles-consult/farmland/conversion/"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/farmland/conversion/",
+  "lead": "農地を宅地や駐車場にする農地法4条・5条の転用は、森町「農林政策課 農地管理係」（農業委員会）への事前相談が欠かせません。特に30アールを超える転用は農業委員会総会のあと県農業会議への協議が必要になるため、早めの相談が重要です。",
+  "note": "30アールを超える転用は農業委員会総会後に県農業会議への協議案件となるため、時間に余裕を持って事前相談することが大切です。",
+  "real_cards": [
+   {"icon": "🏠", "title": "自分の農地を転用する場合（4条）", "body": "自分の農地を自分で宅地等に転用する場合は農地法4条の許可・届出が関係します。まず農地管理係に相談してください。"},
+   {"icon": "🤝", "title": "売買・貸借を伴う転用の場合（5条）", "body": "農地を売買・貸借してから宅地等にする場合は農地法5条が関係します。契約前の相談が特に重要です。"},
+   {"icon": "📏", "title": "30アール超は県協議が必要", "body": "転用面積が30アールを超える場合、農業委員会総会での審議のあと、県農業会議への協議が必要になり、時間がかかります。"},
+   {"icon": "⏰", "title": "着工前の事前相談が必須", "body": "工事や契約を始める前に、必ず農地管理係へ事前相談してください。着工後では手続きが複雑になる場合があります。"}
+  ],
+  "qa": [
+   {"question": "農地法4条と5条の違いは何ですか", "answer": "自分の農地を自分で転用する場合が4条、農地を売買・貸借してから転用する場合が5条にあたります。詳しくは農地管理係に確認してください。"},
+   {"question": "転用の許可にはどのくらい時間がかかりますか", "answer": "面積や内容によって異なりますが、30アールを超える場合は農業委員会総会後に県農業会議への協議が必要となり、時間がかかります。早めの相談が大切です。"},
+   {"question": "契約前に相談したほうがいいですか", "answer": "はい。売買や貸借の契約を結ぶ前に農地管理係へ事前相談することをおすすめします。契約後だと手続きが難しくなる場合があります。"}
+  ],
+  "tabs": [
+   {"id": "type-own", "label": "自分の農地を転用したい（4条）", "heading": "自己転用の相談", "bullets": ["転用したい農地の場所・面積を整理する", "農地管理係へ事前相談する", "30アール超なら県協議も見込んでおく"], "actions": [{"label": "農林業（転用手続き）のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html", "source": "森町公式"}, {"label": "農地管理係に電話する", "href": "tel:0538-85-6315", "source": "0538-85-6315"}]},
+   {"id": "type-trade", "label": "売買・貸借してから転用したい（5条）", "heading": "契約前の事前相談", "bullets": ["契約を結ぶ前に農地管理係へ相談する", "相手方（買主・借主）の利用目的も明確にしておく", "農地の売買・貸借の相談もあわせて確認する"], "actions": [{"label": "農地の売買・貸借の相談を見る", "href": "/life/troubles-consult/farmland/sell-or-rent/", "source": "森町ライフハック"}, {"label": "農地管理係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html", "source": "森町公式"}]}
+  ],
+  "steps": {
+   "today": ["転用したい土地の場所・面積・目的を整理する", "農地管理係へ事前相談の電話をする"],
+   "this_week": ["必要書類（申請書・図面等）を確認する", "30アール超の場合はスケジュールに余裕を持たせる"],
+   "outside": ["造成・建築工事は施工業者と並行して打ち合わせる"]
+  },
+  "action_grid": [
+   {"label": "農林業（転用手続き）のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html"},
+   {"label": "農地管理係に電話する", "href": "tel:0538-85-6315"},
+   {"label": "農地の売買・貸借の相談を見る", "href": "/life/troubles-consult/farmland/sell-or-rent/"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/farmland/",
+  "lead": "相続した田んぼや畑をどうすればいいか分からないときは、まず森町「農林政策課 農地管理係」（農業委員会）に相談することから始めてください。証明の取得、相続の届出、転用、売買・貸借など、状況に応じた相談先はすべてこの窓口につながっています。",
+  "note": "農地に関する相談は内容ごとにページが分かれていますが、最初の相談先はどの場合も同じ農地管理係です。迷ったらまずここに電話してください。",
+  "real_cards": [
+   {"icon": "🌾", "title": "農地は届出・許可が必要な財産", "body": "農地は自由に売ったり使い道を変えたりできるわけではなく、農業委員会への届出や許可が必要な場合が多くあります。まず窓口に相談してください。"},
+   {"icon": "📞", "title": "迷ったらまず1本の電話", "body": "証明・相続・転用・売買貸借など内容は様々ですが、最初の相談先はどれも農林政策課 農地管理係です。状況を話せば必要な手続きを案内してもらえます。"},
+   {"icon": "👪", "title": "相続した農地への対応", "body": "農地を相続した場合は、農業委員会への届出（農地法第3条の3）が必要です。何から手をつければいいか分からない場合もまず相談してください。"},
+   {"icon": "🏗️", "title": "使わない農地の選択肢", "body": "耕作しない農地は、売る・貸す・転用するなど複数の選択肢があります。どれが合っているかも農地管理係で相談できます。"}
+  ],
+  "qa": [
+   {"question": "相続した農地をどうすればいいか全く分かりません", "answer": "まず農林政策課 農地管理係へ電話してください。相続届出や、その後の活用方法（耕作・貸す・売る等）まで相談に乗ってもらえます。"},
+   {"question": "農地の証明・転用・相続、どれから調べればいいですか", "answer": "どれも同じ窓口（農地管理係）が相談先です。まず状況を電話で伝え、必要な手続きの順番を案内してもらうのが早道です。"},
+   {"question": "農地を使わないまま放置したらどうなりますか", "answer": "放置すると管理が難しくなる場合があります。売る・貸す・転用するなどの選択肢について、早めに農地管理係へ相談することをおすすめします。"}
+  ],
+  "tabs": [
+   {"id": "type-inherit", "label": "相続した農地がある", "heading": "相続後の手続きを整理する", "bullets": ["相続の届出（農地法第3条の3）が必要か確認する", "農地管理係へ電話し状況を伝える", "その後の活用方法もあわせて相談する"], "actions": [{"label": "農地の相続について見る", "href": "/life/troubles-consult/farmland/inheritance/", "source": "森町ライフハック"}, {"label": "農地管理係に電話する", "href": "tel:0538-85-6315", "source": "0538-85-6315"}]},
+   {"id": "type-unused", "label": "使っていない農地がある", "heading": "売る・貸す・転用するの選択肢", "bullets": ["使っていない農地を売りたい・貸したい場合を相談する", "宅地等への転用を考えている場合も相談できる", "証明が必要な場合の相談先も同じ窓口"], "actions": [{"label": "農地の売買・貸借の相談を見る", "href": "/life/troubles-consult/farmland/sell-or-rent/", "source": "森町ライフハック"}, {"label": "農地の証明の相談を見る", "href": "/life/troubles-consult/farmland/certificates/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["農地の場所・広さ・現状を簡単に整理する", "農林政策課 農地管理係へ電話する"],
+   "this_week": ["必要な手続き（届出・許可等）を確認する", "活用方法（耕作・貸す・売る・転用）を検討し始める"],
+   "outside": ["相続登記などは司法書士等の専門家への相談が必要な場合がある"]
+  },
+  "action_grid": [
+   {"label": "農地管理係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html"},
+   {"label": "農地管理係に電話する", "href": "tel:0538-85-6315"},
+   {"label": "農地の相続について見る", "href": "/life/troubles-consult/farmland/inheritance/"},
+   {"label": "農地の売買・貸借の相談を見る", "href": "/life/troubles-consult/farmland/sell-or-rent/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/farmland/inheritance/",
+  "lead": "農地を相続したら、森町「農林政策課 農地管理係」（農業委員会）への届出から整理を始めてください。相続後は農業委員会への相続届出（農地法第3条の3）が必要で、その後の活用方法もあわせて相談できます。",
+  "note": "相続届出の様式が掲載された専用ページは確認できていません。まずは電話で相続した旨を伝え、必要な書類を案内してもらってください。",
+  "real_cards": [
+   {"icon": "📋", "title": "相続届出（農地法第3条の3）が必要", "body": "農地を相続した場合、農業委員会への届出が法律で定められています。相続を知った日から一定期間内の届出が必要とされているため、早めに動いてください。"},
+   {"icon": "📞", "title": "まず農地管理係へ連絡", "body": "届出の様式や必要書類は農地管理係で案内してもらえます。相続が発生したら、まず電話で状況を伝えてください。"},
+   {"icon": "🌾", "title": "相続後の活用も相談できる", "body": "届出だけでなく、相続した農地を今後どうするか（耕作・貸す・売る等）についても同じ窓口で相談できます。"}
+  ],
+  "qa": [
+   {"question": "農地を相続しました。まず何をすればいいですか", "answer": "農林政策課 農地管理係へ連絡し、相続届出（農地法第3条の3）に必要な書類を確認してください。"},
+   {"question": "届出をしないとどうなりますか", "answer": "法律で定められた届出のため、忘れずに行う必要があります。詳しい取り扱いは農地管理係に確認してください。"},
+   {"question": "相続した農地は耕作しなければいけませんか", "answer": "必ずしも自分で耕作する必要はありません。貸す・売る・転用するなどの選択肢もあるため、農地管理係に相談してください。"}
+  ],
+  "tabs": [
+   {"id": "type-notify", "label": "相続の届出をしたい", "heading": "相続届出の相談", "bullets": ["相続が発生したら早めに農地管理係へ連絡する", "農地法第3条の3の届出に必要な書類を確認する", "相続した土地の場所・面積を整理しておく"], "actions": [{"label": "農業委員会事務の実施状況を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html", "source": "森町公式"}, {"label": "農地管理係に電話する", "href": "tel:0538-85-6315", "source": "0538-85-6315"}]},
+   {"id": "type-after", "label": "相続後どうするか決めたい", "heading": "耕作・売却・貸借の検討", "bullets": ["自分で耕作を続けるかを検討する", "使わない場合は売る・貸すことも相談できる", "農地全体の相談まとめもあわせて確認する"], "actions": [{"label": "農地の売買・貸借の相談を見る", "href": "/life/troubles-consult/farmland/sell-or-rent/", "source": "森町ライフハック"}, {"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["相続した農地の場所・面積を確認する", "農地管理係へ電話し相続の旨を伝える"],
+   "this_week": ["相続届出に必要な書類を準備する"],
+   "outside": ["相続登記や遺産分割は司法書士等の専門家に相談する場合がある"]
+  },
+  "action_grid": [
+   {"label": "農業委員会事務の実施状況を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html"},
+   {"label": "農地管理係に電話する", "href": "tel:0538-85-6315"},
+   {"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/farmland/noshin-exclusion/",
+  "lead": "農振農用地区域からの除外を考えているときは、まず森町「農林政策課 農地管理係」に土地の場所と目的を伝えて相談してください。農業振興地域整備計画の見直しの時期など、進め方は土地の状況によって異なります。",
+  "note": "除外申出の専用ページは確認できていませんが、窓口が農地管理係であることは確認できています。まずは電話での相談から始めてください。",
+  "real_cards": [
+   {"icon": "🗾", "title": "農振農用地区域とは", "body": "農業振興地域の中で、特に農地として利用することが決められている区域です。区域内では原則として農地以外への転用が制限されています。"},
+   {"icon": "📞", "title": "まず土地の場所と目的を伝える", "body": "除外を考えている場合、まず対象の土地がどこにあり、何のために除外したいのかを農地管理係に伝えて相談してください。"},
+   {"icon": "🗓️", "title": "計画の見直し時期がある", "body": "農業振興地域整備計画は定期的に見直しが行われます。除外の申出ができるタイミングが限られる場合があるため、早めの相談が重要です。"}
+  ],
+  "qa": [
+   {"question": "農振除外はどこに相談すればいいですか", "answer": "農林政策課 農地管理係が窓口です。まず対象の土地の場所と目的を伝えて相談してください。"},
+   {"question": "いつでも除外の申出はできますか", "answer": "農業振興地域整備計画の見直しの時期に合わせて申出を行う必要がある場合があります。詳しくは農地管理係に確認してください。"},
+   {"question": "除外が認められるとすぐに転用できますか", "answer": "除外はあくまで前提条件の一つで、その後に農地転用の手続きが別途必要になります。あわせて農地管理係に確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-check", "label": "農振区域かどうか確認したい", "heading": "まず区域の確認から", "bullets": ["対象の土地が農振農用地区域に該当するか確認する", "農地管理係へ土地の場所を伝えて相談する", "除外の可否や時期の見通しを聞く"], "actions": [{"label": "農地管理係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html", "source": "森町公式"}, {"label": "農地管理係に電話する", "href": "tel:0538-85-6315", "source": "0538-85-6315"}]},
+   {"id": "type-after", "label": "除外後の転用も考えている", "heading": "転用まで見据えて相談する", "bullets": ["除外後に必要となる農地転用の手続きも確認する", "農地法4条・5条の転用相談もあわせて確認する", "スケジュールに余裕を持って進める"], "actions": [{"label": "農地の転用相談（4条・5条）を見る", "href": "/life/troubles-consult/farmland/conversion/", "source": "森町ライフハック"}, {"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["対象の土地の場所・目的を整理する", "農地管理係へ電話で相談する"],
+   "this_week": ["計画見直しの時期や必要な申出手続きを確認する"],
+   "outside": ["除外後の転用手続きは別途、時間を要する場合がある"]
+  },
+  "action_grid": [
+   {"label": "農地管理係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html"},
+   {"label": "農地管理係に電話する", "href": "tel:0538-85-6315"},
+   {"label": "農地の転用相談（4条・5条）を見る", "href": "/life/troubles-consult/farmland/conversion/"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/farmland/sell-or-rent/",
+  "lead": "使っていない農地を売りたい、貸したいと考えたときは、森町「農林政策課 農地管理係」（農業委員会）へ相談してください。耕作目的での売買・貸借には農業委員会での手続きが必要です。",
+  "note": "耕作目的での農地の売買・貸借については、農林業のページに専用の案内があります。",
+  "real_cards": [
+   {"icon": "🤝", "title": "耕作目的の売買・貸借には手続きが必要", "body": "農地を耕作目的で売買・貸借する場合、農業委員会での許可が必要です。相手が決まっていても、まず農地管理係に相談してください。"},
+   {"icon": "🔍", "title": "借り手・買い手を探す相談もできる", "body": "貸したい・売りたい農地について、担い手を探す相談も窓口で受け付けています。地域の農地バンク的な仕組みも確認できます。"},
+   {"icon": "📄", "title": "契約前の事前相談が安心", "body": "契約を結んでしまってから手続きの不備が分かると手間が増えます。契約前に農地管理係へ相談しておくと安心です。"}
+  ],
+  "qa": [
+   {"question": "耕作していない農地を貸したいのですが、どうすればいいですか", "answer": "農林政策課 農地管理係に相談してください。耕作目的での貸借には農業委員会の手続きが必要です。"},
+   {"question": "借りてくれる人が見つかりません", "answer": "借り手を探す相談も農地管理係で受け付けています。まず相談し、地域での情報提供の可能性を確認してください。"},
+   {"question": "売却先が決まっている場合も相談が必要ですか", "answer": "はい。売却先が決まっていても、農地法上の手続きが必要になるため、契約前に農地管理係へ相談してください。"}
+  ],
+  "tabs": [
+   {"id": "type-rent", "label": "貸したい", "heading": "農地の貸借の相談", "bullets": ["貸したい農地の場所・面積を整理する", "農地管理係へ相談し必要な手続きを確認する", "借り手が未定でも相談できる"], "actions": [{"label": "農林業（売買・貸借）のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html", "source": "森町公式"}, {"label": "農地管理係に電話する", "href": "tel:0538-85-6315", "source": "0538-85-6315"}]},
+   {"id": "type-sell", "label": "売りたい", "heading": "農地の売買の相談", "bullets": ["売りたい農地の場所・面積を整理する", "契約前に農地管理係へ事前相談する", "転用も検討している場合はあわせて相談する"], "actions": [{"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/", "source": "森町ライフハック"}, {"label": "農地の転用相談（4条・5条）を見る", "href": "/life/troubles-consult/farmland/conversion/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["対象の農地の場所・面積を整理する", "農地管理係へ電話で相談する"],
+   "this_week": ["必要な手続き（許可申請等）を確認する"],
+   "outside": ["契約書の作成は必要に応じて専門家にも相談する"]
+  },
+  "action_grid": [
+   {"label": "農林業（売買・貸借）のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html"},
+   {"label": "農地管理係に電話する", "href": "tel:0538-85-6315"},
+   {"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/foreign-resident-consultation/",
+  "lead": "外国人住民の手続きは、まず森町「住民生活課 住民係」で住民登録に関する届出を確認し、そのうえで相談内容ごとの窓口を分けて考えると整理しやすくなります。防火防災など生活に関わる情報も多言語で用意されています。",
+  "note": "外国人住民のための防火防災のてびきは、やさしい日本語・ベトナム語・ポルトガル語・中国語・英語の5言語で用意されています。",
+  "real_cards": [
+   {"icon": "🪪", "title": "住民登録は住民係で", "body": "転入・転出などの住民登録の届出は住民生活課 住民係が窓口です。戸籍・住民票・印鑑証明などもあわせて確認できます。"},
+   {"icon": "🌏", "title": "多言語の防災情報がある", "body": "外国人住民のための防火防災のてびきが5言語（やさしい日本語・ベトナム語・ポルトガル語・中国語・英語）で用意されています。日頃の備えに役立ててください。"},
+   {"icon": "📞", "title": "困りごとは内容ごとに相談先が分かれる", "body": "税金・子育て・介護など、困りごとの内容によって担当窓口が異なります。まず住民係や代表電話に相談し、適切な窓口につないでもらってください。"}
+  ],
+  "qa": [
+   {"question": "住民登録の手続きはどこでしますか", "answer": "住民生活課 住民係（電話0538-85-6312）が窓口です。戸籍・住民票・印鑑証明などもあわせて確認できます。"},
+   {"question": "災害時の情報は日本語以外でも手に入りますか", "answer": "外国人住民のための防火防災のてびきが、やさしい日本語・ベトナム語・ポルトガル語・中国語・英語の5言語で用意されています。"},
+   {"question": "生活全般の困りごとはどこに相談すればいいですか", "answer": "内容によって窓口が異なります。まず住民生活課 住民係や役場代表（0538-85-2111）に相談し、適切な担当につないでもらってください。"}
+  ],
+  "tabs": [
+   {"id": "type-register", "label": "住民登録の手続きをしたい", "heading": "戸籍・住民票の窓口を確認", "bullets": ["転入・転出等の届出は住民生活課 住民係で行う", "戸籍・住民票・印鑑証明もあわせて確認する", "必要書類は事前に電話で確認しておく"], "actions": [{"label": "戸籍・住民票・印鑑証明のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html", "source": "森町公式"}, {"label": "住民生活課に電話する", "href": "tel:0538-85-6312", "source": "0538-85-6312"}]},
+   {"id": "type-disaster", "label": "災害時の備えを知りたい", "heading": "多言語の防災情報", "bullets": ["外国人住民のための防火防災のてびきを確認する", "やさしい日本語を含む5言語で用意されている", "日頃からの備えに役立てる"], "actions": [{"label": "防火防災のてびきを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/shoubou/3939.html", "source": "森町公式"}, {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["何の手続きが必要か整理する", "住民生活課 住民係へ電話または来庁で確認する"],
+   "this_week": ["必要書類を確認し、揃える"],
+   "outside": ["在留資格に関する手続きは出入国在留管理局が窓口になる"]
+  },
+  "action_grid": [
+   {"label": "戸籍・住民票・印鑑証明のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html"},
+   {"label": "防火防災のてびきを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/shoubou/3939.html"},
+   {"label": "住民生活課に電話する", "href": "tel:0538-85-6312"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/",
+  "lead": "森町での困りごとや相談したいことは、内容によって窓口が分かれています。このページでは、人権・税金・介護・子育て・消費生活・障害・農地・空き家など、よくある困りごと別の相談窓口をまとめてご案内します。まずどこに相談すればいいか、ここから探してください。",
+  "note": "「暮らしの相談窓口」ページには、人権相談・行政相談・無料法律相談・年金相談・健康相談・消費生活相談など、月替わりで実施される相談会の情報がまとまっています。県の相談窓口案内（054-221-2292）もあわせて紹介されています。",
+  "real_cards": [
+   {"icon": "🧩", "title": "内容ごとに窓口が分かれている", "body": "税金・介護・子育て・農地など、困りごとの種類によって担当課が異なります。まず内容を整理して、該当するページを探してください。"},
+   {"icon": "📅", "title": "定期的な相談会もある", "body": "無料法律相談（弁護士による予約制）や年金相談、行政相談など、月1回程度実施される相談会があります。予約が必要なものもあるため早めの確認が安心です。"},
+   {"icon": "☎️", "title": "迷ったら住民生活課へ", "body": "どこに相談すればいいか分からないときは、住民生活課 住民係（電話0538-85-6312）に電話すれば、適切な窓口を案内してもらえます。"},
+   {"icon": "🏢", "title": "町民生活センターも相談拠点", "body": "消費生活相談などを扱う森町町民生活センターも、暮らしの困りごとの相談拠点のひとつです。"}
+  ],
+  "qa": [
+   {"question": "何に困っているか自分でもよく分かりません。どこに相談すればいいですか", "answer": "住民生活課 住民係（電話0538-85-6312）にまず電話してください。内容を伝えれば、適切な担当窓口を案内してもらえます。"},
+   {"question": "無料の法律相談はありますか", "answer": "森町では弁護士による無料法律相談が予約制・先着順で実施されています。相続や離婚、借金など幅広い相談に対応しています。詳しくは暮らしの相談窓口のページで確認してください。"},
+   {"question": "森町の窓口で解決しない場合はどうすればいいですか", "answer": "静岡県の相談窓口案内（054-221-2292）も紹介されています。町の窓口とあわせて活用してください。"}
+  ],
+  "tabs": [
+   {"id": "type-money", "label": "お金・税金のこと", "heading": "税金・消費生活の相談", "bullets": ["町税・国保税が払えないときは税務課へ相談する", "契約トラブルや架空請求は町民生活センターへ相談する", "生活費のことで困っている場合も早めに相談する"], "actions": [{"label": "町税が払えないときの相談を見る", "href": "/life/troubles-consult/cannot-pay-tax/", "source": "森町ライフハック"}, {"label": "消費者トラブルの相談を見る", "href": "/life/troubles-consult/consumer-fraud/", "source": "森町ライフハック"}]},
+   {"id": "type-family", "label": "家族・暮らしのこと", "heading": "介護・子育て・障害の相談", "bullets": ["介護のことは地域包括支援センター係へ相談する", "子育てのことはこども家庭センターへ相談する", "障害のことは障害福祉係へ相談する"], "actions": [{"label": "介護の相談を見る", "href": "/life/troubles-consult/care-consultation/", "source": "森町ライフハック"}, {"label": "子どもの相談を見る", "href": "/life/troubles-consult/child-consultation/", "source": "森町ライフハック"}]},
+   {"id": "type-land", "label": "土地・家のこと", "heading": "農地・空き家の相談", "bullets": ["相続した農地は農地管理係へ相談する", "実家・空き家のことは税務課から整理を始める", "農地の証明・転用・売買貸借もまとめて相談できる"], "actions": [{"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/", "source": "森町ライフハック"}, {"label": "空き家・実家の相談を見る", "href": "/life/troubles-consult/vacant-house-consultation/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["困っている内容を簡単に整理する", "該当する窓口が分からない場合は住民生活課へ電話する"],
+   "this_week": ["該当する相談ページ・窓口を確認し連絡する"],
+   "outside": ["専門的な内容は弁護士等の無料相談会も活用できる"]
+  },
+  "action_grid": [
+   {"label": "暮らしの相談窓口のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html"},
+   {"label": "住民生活課に電話する", "href": "tel:0538-85-6312"},
+   {"label": "森町町民生活センターのページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/1066.html"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/legal-general-consultation/",
+  "lead": "誰に相談すればいいか分からない悩みは、森町「暮らしの相談窓口」につないでみてください。無料法律相談をはじめ、人権・行政・年金・健康など、月替わりで実施される相談会の情報がまとまっています。",
+  "note": "無料法律相談は弁護士による予約制・先着6名程度で実施されています。相続・離婚・借金など幅広い内容に対応しています。",
+  "real_cards": [
+   {"icon": "⚖️", "title": "無料法律相談（弁護士）", "body": "相続、離婚、借金など、法律的な悩みについて弁護士に無料で相談できます。予約制で先着順のため、早めの申し込みが必要です。"},
+   {"icon": "🗳️", "title": "行政相談", "body": "国の行政機関に対する苦情や要望は行政相談で扱われます。役所の対応に納得がいかない場合などに利用できます。"},
+   {"icon": "🧑‍🤝‍🧑", "title": "人権相談", "body": "いじめ、プライバシーの侵害、誹謗中傷などの人権問題についての相談が月1回程度実施されています。"},
+   {"icon": "💰", "title": "年金相談", "body": "掛川年金事務所による年金相談が月1回程度実施されています。年金のことで分からないことがあれば利用できます。"}
+  ],
+  "qa": [
+   {"question": "相続や離婚のことを弁護士に相談したいのですが", "answer": "森町の無料法律相談（予約制・先着順）が利用できます。住民生活課 住民係に予約方法を確認してください。"},
+   {"question": "役所の対応に納得できないときはどうすればいいですか", "answer": "行政相談を利用できます。国の行政機関への苦情・要望を受け付ける制度です。詳しくは暮らしの相談窓口のページで確認してください。"},
+   {"question": "年金のことがよく分かりません", "answer": "掛川年金事務所による年金相談が月1回程度実施されています。日程は暮らしの相談窓口のページで確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-legal", "label": "法律的な悩みがある", "heading": "無料法律相談の利用", "bullets": ["相続・離婚・借金など内容を整理する", "予約制・先着順のため早めに申し込む", "住民生活課 住民係で予約方法を確認する"], "actions": [{"label": "暮らしの相談窓口のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html", "source": "森町公式"}, {"label": "住民生活課に電話する", "href": "tel:0538-85-6312", "source": "0538-85-6312"}]},
+   {"id": "type-other", "label": "何に困っているか分からない", "heading": "まず窓口につないでもらう", "bullets": ["困っている内容を簡単な言葉で整理してみる", "住民生活課へ電話し状況を伝える", "内容に応じた担当窓口を案内してもらう"], "actions": [{"label": "森町町民生活センターのページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/1066.html", "source": "森町公式"}, {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["困っている内容を簡単に整理する", "住民生活課へ電話し相談内容を伝える"],
+   "this_week": ["該当する相談会（法律・年金・行政等）の予約状況を確認する"],
+   "outside": ["専門的な手続き（登記・訴訟等）は弁護士・司法書士へ依頼する場合がある"]
+  },
+  "action_grid": [
+   {"label": "暮らしの相談窓口のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html"},
+   {"label": "森町町民生活センターのページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/1066.html"},
+   {"label": "住民生活課に電話する", "href": "tel:0538-85-6312"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ },
+ {
+  "href": "/life/troubles-consult/vacant-house-consultation/",
+  "lead": "親の家や実家をどうするか迷ったときは、まず固定資産税の窓口である森町「税務課 資産税係」から整理を始めてみてください。所有者や税額の状況を確認することで、その後の相続・売却・解体などの検討がしやすくなります。",
+  "note": "固定資産税・都市計画税は、土地・建物・償却資産についてそれぞれ案内があります。空き家そのものの相談窓口は明確でない部分もあるため、まず資産税係に状況を伝えてください。",
+  "real_cards": [
+   {"icon": "🏠", "title": "まず固定資産税の状況を確認", "body": "実家の固定資産税・都市計画税がどうなっているかを税務課 資産税係で確認すると、今後の検討材料になります。納税通知書の内容と合わせて相談してください。"},
+   {"icon": "📜", "title": "名義（相続登記）の確認も必要", "body": "実家の名義が亡くなった親のままになっていないか確認が必要です。名義変更の詳しい手続きは資産税係に確認し、必要に応じて専門家への相談も検討してください。"},
+   {"icon": "🧭", "title": "空き家をどうするかは早めに検討", "body": "住む予定がない実家をそのままにしておくか、売る・貸す・解体するか、選択肢は複数あります。放置すると管理の負担が増えるため、早めに方向性を考え始めることが大切です。"}
+  ],
+  "qa": [
+   {"question": "実家の固定資産税はどこで確認できますか", "answer": "税務課 資産税係（電話0538-85-2111）で確認できます。納税通知書の内容と合わせて相談してください。"},
+   {"question": "名義変更（相続登記）はどうすればいいですか", "answer": "詳しい手続きは法務局や司法書士への相談が必要になる場合があります。まず税務課で固定資産税の状況を確認したうえで検討してください。"},
+   {"question": "空き家をそのままにしておくとどうなりますか", "answer": "管理されないまま放置すると、老朽化や近隣トラブルにつながる可能性があります。早めに売る・貸す・解体するなどの方向性を検討することをおすすめします。"}
+  ],
+  "tabs": [
+   {"id": "type-tax", "label": "固定資産税を確認したい", "heading": "税金の状況から整理する", "bullets": ["納税通知書の内容を確認する", "税務課 資産税係へ電話し状況を確認する", "名義（相続登記）の状況もあわせて確認する"], "actions": [{"label": "固定資産税・都市計画税のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/index.html", "source": "森町公式"}, {"label": "税務課に電話する", "href": "tel:0538-85-2111", "source": "0538-85-2111"}]},
+   {"id": "type-decide", "label": "実家をどうするか決めたい", "heading": "空き家の今後を考える", "bullets": ["住む予定があるかどうかを整理する", "売る・貸す・解体するなどの選択肢を検討する", "土地に農地が含まれる場合は農地管理係にも相談する"], "actions": [{"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/", "source": "森町ライフハック"}, {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["納税通知書など実家の税金関連の書類を確認する", "税務課 資産税係へ電話する"],
+   "this_week": ["名義（相続登記）の状況を確認する", "今後の方向性（住む・売る・貸す・解体）を家族で話し合う"],
+   "outside": ["相続登記や売却の契約は司法書士・不動産会社等の専門家に相談する"]
+  },
+  "action_grid": [
+   {"label": "固定資産税・都市計画税の納付について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html"},
+   {"label": "固定資産税・都市計画税のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/index.html"},
+   {"label": "税務課に電話する", "href": "tel:0538-85-2111"},
+   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
+  ]
+ }
+]

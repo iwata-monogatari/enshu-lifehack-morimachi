@@ -1,0 +1,355 @@
+[
+ {
+  "href": "/life/parents-care/adult-guardianship/",
+  "lead": "身寄りのない高齢者の財産管理や契約行為が難しくなってきたとき、森町では成年後見制度の利用を支援する独自の助成があります。申立費用の助成のほか、必要に応じて町長が申立てを行う仕組みも用意されています。",
+  "note": "森町には成年後見制度専用のページはなく、「高齢者の在宅福祉サービスについて」のページ内の一項目として案内されています。まずは地域包括支援センター係に相談してください。",
+  "real_cards": [
+   {"icon": "🧾", "title": "申立費用を助成", "body": "身寄りのない認知症高齢者や財産管理が困難な高齢者について、家庭裁判所への申立てにかかる経費の全部または一部を町が助成します。"},
+   {"icon": "🏛️", "title": "町長申立ても可能", "body": "本人に申立てをする親族がいない場合などは、町長が代わって家庭裁判所に後見開始の申立てを行う仕組みがあります。"},
+   {"icon": "📞", "title": "まず電話で相談", "body": "利用できるかどうかは状況によって異なります。福祉課地域包括支援センター係へ電話で相談することから始めてください。"}
+  ],
+  "qa": [
+   {"question": "成年後見制度とはどんな制度ですか", "answer": "判断能力が十分でない方の財産管理や契約行為を、家庭裁判所が選ぶ後見人等が支援する制度です。詳しい制度の仕組みは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"},
+   {"question": "誰でも助成を受けられますか", "answer": "森町独自の「成年後見制度利用支援事業」は、身寄りがなく財産管理が困難な高齢者等を主な対象としています。対象になるかは個別事情によるため、まず地域包括支援センター係に相談してください。"},
+   {"question": "家族が申立てをする場合も助成の対象ですか", "answer": "事業の趣旨は身寄りのない方への支援が中心ですが、詳細な要件は公式ページに明記されていない部分もあります。家族が申立てを検討している場合も、まずは窓口へ問い合わせるのが確実です。"},
+   {"question": "町長申立てとはどんな場合に行われますか", "answer": "本人に申立てをする親族がいない、または親族が申立てを行わない場合などに、町長が家庭裁判所へ申立てを行う仕組みです。該当するかどうかは福祉課地域包括支援センター係で確認してください。"},
+   {"question": "相談窓口はどこですか", "answer": "福祉課地域包括支援センター係（電話0538-85-6341）です。<a href=\"/life/parents-care/community-support-center/\">地域包括支援センター</a>は高齢者の総合相談窓口も兼ねています。"},
+   {"question": "認知症の親のことも一緒に相談できますか", "answer": "できます。同じ窓口で<a href=\"/life/parents-care/dementia-consultation/\">認知症の相談</a>も受け付けています。財産管理と認知症の心配が重なる場合はまとめて伝えると相談がスムーズです。"}
+  ],
+  "tabs": [
+   {"id": "type-first", "label": "初めて検討", "heading": "まず制度の仕組みを知る", "bullets": ["成年後見制度がどんな制度か公式ページで確認する", "身寄りの有無や財産管理の状況を整理しておく", "利用できそうか地域包括支援センター係に電話で相談する"], "actions": [{"label": "高齢者の在宅福祉サービスを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html", "source": "森町公式"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-family", "label": "家族が動く", "heading": "家族として手続きを進める", "bullets": ["本人の判断能力や財産の状況を確認する", "家庭裁判所への申立てが必要になる見通しを立てる", "助成が使えるか窓口に確認してから手続きを進める"], "actions": [{"label": "地域包括支援センターに相談する", "href": "/life/parents-care/community-support-center/", "source": "森町ライフハック"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-noone", "label": "身寄りがない", "heading": "町長申立ての対象になり得るケース", "bullets": ["申立てをする親族がいない場合は町長申立てを検討できる", "申立て費用の助成も合わせて確認する", "民生委員や地域包括支援センターが把握しているケースもある"], "actions": [{"label": "成年後見制度利用支援事業を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html", "source": "森町公式"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-worried", "label": "認知症も心配", "heading": "財産管理と認知症の相談を合わせて", "bullets": ["もの忘れや判断力の低下が気になる場合は認知症相談も検討する", "同じ窓口でまとめて相談できる", "早めの相談が選択肢を広げる"], "actions": [{"label": "認知症の相談を見る", "href": "/life/parents-care/dementia-consultation/", "source": "森町ライフハック"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]}
+  ],
+  "steps": {
+   "today": ["福祉課地域包括支援センター係（0538-85-6341）に電話で相談する", "本人の財産管理や契約に関する困りごとを整理しておく"],
+   "this_week": ["助成の対象になるか窓口で確認する", "必要に応じて家庭裁判所への申立て準備について案内を受ける"],
+   "outside": ["申立て自体は家庭裁判所への手続きが必要", "後見人候補者がいない場合は家庭裁判所が選任する"]
+  },
+  "action_grid": [
+   {"label": "高齢者の在宅福祉サービスを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html"},
+   {"label": "地域包括支援センター係を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html"},
+   {"label": "地域包括支援センターの詳細を見る", "href": "/life/parents-care/community-support-center/"},
+   {"label": "福祉課地域包括支援センター係に電話する", "href": "tel:0538-85-6341"}
+  ]
+ },
+ {
+  "href": "/life/parents-care/care-certification-support-center/",
+  "lead": "親が介護サービスを使い始めるには、まず要介護（要支援）認定の申請が必要です。森町では福祉課介護保険係が申請窓口となり、被保険者証の再交付や送付先変更もあわせて担当しています。",
+  "note": "",
+  "real_cards": [
+   {"icon": "📝", "title": "申請窓口は介護保険係", "body": "要介護・要支援認定の申請は福祉課介護保険係で受け付けています。本人のほか家族による代理申請も可能です。"},
+   {"icon": "💳", "title": "被保険者証の再交付も同じ窓口", "body": "介護保険被保険者証や負担割合証、負担限度額認定証などを紛失・破損した場合も、同じ介護保険係で再交付申請ができます。"},
+   {"icon": "📮", "title": "送付先変更も対応", "body": "施設入所や住所変更などで被保険者証等の送付先を変えたい場合も、介護保険係に届け出ることで変更できます。"}
+  ],
+  "qa": [
+   {"question": "申請は本人でないとできませんか", "answer": "家族による代理申請も可能です。本人が窓口に行けない場合は、家族や地域包括支援センター、ケアマネジャーに相談して手続きを進めることができます。"},
+   {"question": "申請に必要なものは何ですか", "answer": "介護保険被保険者証などが必要になります。正確な持ち物は事前に<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kaigohoken/4204.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>や窓口で確認してください。"},
+   {"question": "認定されるまでどれくらいかかりますか", "answer": "認定調査や主治医意見書がそろってから審査されるため、申請から結果通知まで一定の日数がかかります。詳しくは<a href=\"/life/parents-care/care-started/\">介護が始まったらの流れ</a>もあわせて確認してください。"},
+   {"question": "被保険者証をなくしてしまいました。どうすればいいですか", "answer": "福祉課介護保険係（0538-86-6341）で再交付申請書に必要事項を記入し提出することで再発行を受けられます。申請書は森町公式サイトからダウンロードもできます。"},
+   {"question": "引っ越しや入所で送付先を変えたい場合は", "answer": "介護保険係へ届け出ることで、被保険者証等の送付先変更ができます。詳しくは窓口に電話で確認してください。"},
+   {"question": "認定を受けたあとの相談先はどこですか", "answer": "要支援は<a href=\"/life/parents-care/community-support-center/\">地域包括支援センター</a>、要介護はケアマネジャーが窓口になります。あわせて<a href=\"/life/parents-care/long-term-care-insurance/\">介護保険のしくみ</a>も確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-first", "label": "初めて申請", "heading": "まず申請の窓口を確認", "bullets": ["福祉課介護保険係で要介護・要支援認定を申請する", "介護保険被保険者証など必要なものを確認する", "申請後は認定調査・主治医意見書を経て結果が通知される"], "actions": [{"label": "要介護認定申請について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kaigohoken/4204.html", "source": "森町公式"}, {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}]},
+   {"id": "type-lost", "label": "証を紛失", "heading": "被保険者証の再交付を申請", "bullets": ["再交付申請書に必要事項を記入して福祉課へ提出する", "申請書は森町公式サイトからダウンロードできる", "メールでの問い合わせにも対応している"], "actions": [{"label": "被保険者証等の再交付について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/3/4731.html", "source": "森町公式"}, {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}]},
+   {"id": "type-move", "label": "送付先変更", "heading": "住所変更・施設入所時の届け出", "bullets": ["送付先を変える場合は介護保険係へ届け出る", "施設入所のタイミングで変更が必要になることが多い", "変更手続きの詳細は窓口で確認する"], "actions": [{"label": "介護保険係のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/index.html", "source": "森町公式"}, {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}]},
+   {"id": "type-after", "label": "認定後の相談", "heading": "認定後はケアプランへ", "bullets": ["要支援は地域包括支援センターが担当する", "要介護はケアマネジャーとケアプランを作成する", "認定の仕組み全体は介護保険のページで確認する"], "actions": [{"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/", "source": "森町ライフハック"}, {"label": "介護保険のしくみを見る", "href": "/life/parents-care/long-term-care-insurance/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["介護保険被保険者証など必要なものを確認する", "福祉課介護保険係（0538-86-6341）で要介護認定を申請する"],
+   "this_week": ["認定調査の日程や主治医意見書の状況を確認する", "被保険者証の再交付・送付先変更が必要な場合はあわせて手続きする"],
+   "outside": ["主治医意見書はかかりつけ医療機関が作成", "認定後のケアプラン作成は地域包括支援センターまたはケアマネジャーと行う"]
+  },
+  "action_grid": [
+   {"label": "要介護認定申請について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kaigohoken/4204.html"},
+   {"label": "被保険者証の再交付について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/3/4731.html"},
+   {"label": "介護が始まったらやることを見る", "href": "/life/parents-care/care-started/"},
+   {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341"}
+  ]
+ },
+ {
+  "href": "/life/parents-care/care-started/",
+  "lead": "要介護・要支援の認定を受けたら、次はケアプラン（サービス計画）を作ってサービスを利用する段階に進みます。森町では認定区分によって作成の依頼先が分かれます。",
+  "note": "ケアプランの作成費用は自己負担がありません。まずは相談窓口に連絡することから始めましょう。",
+  "real_cards": [
+   {"icon": "🧑‍⚕️", "title": "要支援は地域包括支援センター", "body": "要支援1・2の方は、町直営の地域包括支援センターの保健師等が介護予防サービス計画を作成します。まずは相談窓口に連絡します。"},
+   {"icon": "🏢", "title": "要介護は居宅介護支援事業所へ", "body": "要介護1〜5の方は、居宅介護支援事業所のケアマネジャーにケアプラン作成を依頼します。事業所選びに迷う場合は窓口で相談できます。"},
+   {"icon": "💰", "title": "作成費用は自己負担なし", "body": "ケアプランの作成そのものには利用者負担が発生しません。安心して相談から始めてください。"}
+  ],
+  "qa": [
+   {"question": "認定結果が届いたら何をすればいいですか", "answer": "要支援1・2なら地域包括支援センター係、要介護1〜5なら居宅介護支援事業所のケアマネジャーに連絡し、ケアプラン作成を依頼します。迷う場合は<a href=\"/life/parents-care/community-support-center/\">地域包括支援センター</a>にまず相談してください。"},
+   {"question": "ケアマネジャーはどうやって探せばいいですか", "answer": "居宅介護支援事業所の一覧や選び方については、福祉課介護保険係（0538-86-6341）または地域包括支援センター係（0538-85-6341）に相談すると案内を受けられます。"},
+   {"question": "ケアプランの作成にお金はかかりますか", "answer": "かかりません。要支援・要介護いずれの場合も、ケアプラン作成費用の自己負担はありません。"},
+   {"question": "施設に入所する場合もケアプランは必要ですか", "answer": "施設を利用する場合は、施設のケアマネジャーがケアプランを作成します。<a href=\"/life/parents-care/find-nursing-home/\">介護施設の探し方</a>もあわせて確認してください。"},
+   {"question": "認定を待っている間にできることはありますか", "answer": "認定結果が出る前でも、地域包括支援センター係に生活面の相談をすることができます。詳しくは公式ページや窓口で確認してください。"},
+   {"question": "相談窓口の連絡先を教えてください", "answer": "地域包括支援センター係は0538-85-6341、介護保険係は0538-86-6341です。いずれも森町保健福祉センター（森50-1）内にあります。"}
+  ],
+  "tabs": [
+   {"id": "type-yoshien", "label": "要支援の方", "heading": "地域包括支援センターに相談", "bullets": ["要支援1・2は町直営の地域包括支援センターが窓口", "保健師等が介護予防サービス計画を作成する", "作成費用の自己負担はない"], "actions": [{"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}, {"label": "地域包括支援センターの詳細を見る", "href": "/life/parents-care/community-support-center/", "source": "森町ライフハック"}]},
+   {"id": "type-yokaigo", "label": "要介護の方", "heading": "居宅介護支援事業所へ依頼", "bullets": ["要介護1〜5はケアマネジャーにケアプラン作成を依頼する", "事業所選びに迷う場合は窓口に相談できる", "作成費用の自己負担はない"], "actions": [{"label": "ケアプランの作成について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/1/4897.html", "source": "森町公式"}, {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}]},
+   {"id": "type-facility", "label": "施設を検討", "heading": "施設利用時はケアマネも施設側", "bullets": ["施設に直接申し込む場合は施設のケアマネジャーが担当", "施設の探し方は別途確認が必要", "在宅か施設かで動き方が変わる"], "actions": [{"label": "介護施設の探し方を見る", "href": "/life/parents-care/find-nursing-home/", "source": "森町ライフハック"}, {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}]},
+   {"id": "type-worried", "label": "何から相談", "heading": "迷ったらまず総合相談窓口へ", "bullets": ["区分ごとの窓口が分からない場合はまず地域包括支援センターへ", "生活や健康の困りごとも一緒に相談できる", "電話一本から始められる"], "actions": [{"label": "高齢者のための相談窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html", "source": "森町公式"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]}
+  ],
+  "steps": {
+   "today": ["認定結果（要支援・要介護の区分）を確認する", "区分に応じた相談先（地域包括支援センターまたはケアマネジャー）に連絡する"],
+   "this_week": ["ケアプラン（サービス計画）の作成を依頼する", "利用したいサービスの希望を伝えておく"],
+   "outside": ["ケアマネジャーは居宅介護支援事業所に所属", "施設利用の場合は施設のケアマネジャーが担当"]
+  },
+  "action_grid": [
+   {"label": "ケアプランの作成について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/1/4897.html"},
+   {"label": "高齢者のための相談窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html"},
+   {"label": "地域包括支援センターの詳細を見る", "href": "/life/parents-care/community-support-center/"},
+   {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341"}
+  ]
+ },
+ {
+  "href": "/life/parents-care/check-parents/",
+  "lead": "離れて暮らす親のことが心配になったとき、森町では地域包括支援センター係が総合相談窓口として生活・健康・財産管理などの困りごとを受け付けています。緊急通報システムの設置補助や救急医療情報キットの配布もあります。",
+  "note": "",
+  "real_cards": [
+   {"icon": "☎️", "title": "総合相談窓口がある", "body": "生活や健康、財産管理等の困りごと、近くの高齢者に関する心配ごとを地域包括支援センター係が受け付けています。まずは電話で相談できます。"},
+   {"icon": "🚨", "title": "緊急通報システムの設置補助", "body": "65歳以上のひとり暮らし高齢者や高齢者のみの世帯などを対象に、緊急通報装置の設置・撤去費用を補助しています（レンタル料は自己負担）。"},
+   {"icon": "🧊", "title": "救急医療情報キットの配布", "body": "75歳以上の単身者や高齢者世帯などを対象に、緊急連絡先やかかりつけ医、持病・服薬情報を冷蔵庫に保管しておく救急医療情報キットを無償配布しています。"}
+  ],
+  "qa": [
+   {"question": "離れて暮らしていても相談できますか", "answer": "できます。地域包括支援センター係（0538-85-6341）は本人だけでなく家族からの相談も受け付けています。心配な様子があれば電話してみてください。"},
+   {"question": "緊急通報システムは誰でも使えますか", "answer": "65歳以上のひとり暮らし高齢者・高齢者のみの世帯、ひとり暮らし障がい者・障がい者のみの世帯、町長が必要と認める町民税非課税世帯などが対象です。詳しい条件は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"},
+   {"question": "救急医療情報キットとは何ですか", "answer": "緊急連絡先やかかりつけ医、持病・服薬情報などをまとめて冷蔵庫に保管しておくキットです。75歳以上の単身者・高齢者世帯や避難行動要支援者などが対象で、無償配布されています。"},
+   {"question": "緊急通報システムの費用はかかりますか", "answer": "機器の設置・撤去費用は補助の対象ですが、レンタル料は自己負担になります。詳しい費用は窓口で確認してください。"},
+   {"question": "親が認知症かもしれないと感じたら", "answer": "地域包括支援センター係で認知症の相談も受け付けています。あわせて<a href=\"/life/parents-care/dementia-consultation/\">認知症の相談</a>のページも確認してください。"},
+   {"question": "夜間や休日に緊急の連絡をしたいときは", "answer": "地域包括支援センター係の受付時間外は、森町役場宿日直（0538-85-2111）が対応します。"}
+  ],
+  "tabs": [
+   {"id": "type-worried", "label": "様子が心配", "heading": "まず総合相談窓口に連絡", "bullets": ["生活・健康・財産管理の困りごとを相談できる", "近くの高齢者についての心配ごとも受け付けている", "電話一本からで大丈夫"], "actions": [{"label": "高齢者のための相談窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html", "source": "森町公式"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-alone", "label": "ひとり暮らし", "heading": "緊急通報システムを検討", "bullets": ["65歳以上のひとり暮らし高齢者などが対象", "緊急通報装置の設置・撤去費用を補助", "レンタル料は自己負担になる点に注意"], "actions": [{"label": "在宅福祉サービスについて見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html", "source": "森町公式"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-emergency", "label": "もしもに備える", "heading": "救急医療情報キットを用意", "bullets": ["75歳以上の単身者・高齢者世帯などが対象", "かかりつけ医や持病・服薬情報を冷蔵庫に保管する", "無償で配布されている"], "actions": [{"label": "在宅福祉サービスについて見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html", "source": "森町公式"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-dementia", "label": "認知症が心配", "heading": "もの忘れの相談もできる", "bullets": ["気づきチェックリストで初期の状態を確認できる", "もの忘れ相談シートで専門家に相談できる", "同じ地域包括支援センター係の窓口で対応"], "actions": [{"label": "認知症の相談を見る", "href": "/life/parents-care/dementia-consultation/", "source": "森町ライフハック"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]}
+  ],
+  "steps": {
+   "today": ["気になる様子があれば地域包括支援センター係（0538-85-6341）に電話する", "緊急通報システムや救急医療情報キットの対象になるか確認する"],
+   "this_week": ["必要な補助・配布の申請手続きを進める", "認知症の心配がある場合はあわせて相談する"],
+   "outside": ["緊急通報装置のレンタル契約は町とは別に事業者と行う場合がある", "夜間・休日は森町役場宿日直（0538-85-2111）が窓口"]
+  },
+  "action_grid": [
+   {"label": "高齢者のための相談窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html"},
+   {"label": "在宅福祉サービスについて見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html"},
+   {"label": "認知症の相談を見る", "href": "/life/parents-care/dementia-consultation/"},
+   {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341"}
+  ]
+ },
+ {
+  "href": "/life/parents-care/community-support-center/",
+  "lead": "森町の地域包括支援センターは町の直営です。福祉課地域包括支援センター係が、介護予防・高齢者支援・健康づくりなど幅広い相談を受け付けています。森町保健福祉センター内にあります。",
+  "note": "受付時間は平日8時30分〜17時15分までです。時間外は森町役場宿日直（0538-85-2111）が対応します。",
+  "real_cards": [
+   {"icon": "🏢", "title": "町直営のセンター", "body": "民間委託ではなく森町が直接運営しています。福祉課地域包括支援センター係が窓口となり、森町保健福祉センター（森50-1）内にあります。"},
+   {"icon": "🗣️", "title": "高齢者の総合相談窓口", "body": "生活・健康・財産管理の困りごとや、介護の悩み・疲れ、近くの高齢者に関する心配ごとまで幅広く相談できます。"},
+   {"icon": "🕒", "title": "受付時間は平日のみ", "body": "受付は月曜日から金曜日8時30分〜17時15分（祝日・年末年始を除く）。時間外は森町役場宿日直が対応します。"}
+  ],
+  "qa": [
+   {"question": "地域包括支援センターとは何をするところですか", "answer": "介護・福祉・健康・医療などさまざまな面から高齢者やその家族を支える総合相談窓口です。森町では福祉課地域包括支援センター係がこの役割を担っています。"},
+   {"question": "電話番号とファックス番号を教えてください", "answer": "電話は0538-85-6341、ファックスは0538-85-1294です。受付時間は平日8時30分〜17時15分です。"},
+   {"question": "夜間や休日に相談したいときはどうすればいいですか", "answer": "受付時間外は森町役場宿日直（0538-85-2111）が対応します。急を要する相談の場合はそちらに連絡してください。"},
+   {"question": "本人以外でも相談できますか", "answer": "できます。家族や近隣の方からの、高齢者に関する心配ごとの相談も受け付けています。<a href=\"/life/parents-care/check-parents/\">離れて暮らす親の見守り</a>のページもあわせて確認してください。"},
+   {"question": "介護保険の申請もここでできますか", "answer": "要介護認定の申請自体は福祉課介護保険係（0538-86-6341）が窓口です。地域包括支援センター係は主に相談・介護予防を担当しています。詳しくは<a href=\"/life/parents-care/care-certification-support-center/\">要介護認定の申請窓口</a>を確認してください。"},
+   {"question": "どこにありますか", "answer": "森町保健福祉センター内（静岡県周智郡森町森50-1）にあります。"}
+  ],
+  "tabs": [
+   {"id": "type-first", "label": "初めて相談", "heading": "まず電話で困りごとを伝える", "bullets": ["生活・健康・財産管理などどんな内容でもまず相談してみる", "電話0538-85-6341で受け付けている", "受付時間は平日8時30分〜17時15分"], "actions": [{"label": "地域包括支援センター係を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html", "source": "森町公式"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-family", "label": "家族が相談", "heading": "本人以外からの相談も受け付け", "bullets": ["離れて暮らす親の様子が心配なときも相談できる", "近隣の高齢者についての心配ごとも対象", "相談内容によって適切な窓口や制度を案内してもらえる"], "actions": [{"label": "離れて暮らす親の見守りを見る", "href": "/life/parents-care/check-parents/", "source": "森町ライフハック"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-urgent", "label": "急いでいる", "heading": "時間外は宿日直へ", "bullets": ["受付時間外は森町役場宿日直（0538-85-2111）が対応する", "緊急性が高い場合はためらわず連絡する", "平日日中は改めてセンターに相談する"], "actions": [{"label": "森町役場宿日直に電話する", "href": "tel:0538-85-2111", "source": "0538-85-2111"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-care", "label": "介護の手続き", "heading": "認定申請は介護保険係と連携", "bullets": ["要介護認定の申請窓口は福祉課介護保険係", "地域包括支援センターは介護予防や相談が中心", "どちらに聞けばいいか迷ったらまずセンターに電話する"], "actions": [{"label": "要介護認定の申請窓口を見る", "href": "/life/parents-care/care-certification-support-center/", "source": "森町ライフハック"}, {"label": "介護保険のしくみを見る", "href": "/life/parents-care/long-term-care-insurance/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["困りごとの内容を簡単に整理する", "地域包括支援センター係（0538-85-6341）に電話する"],
+   "this_week": ["相談内容に応じた制度や窓口の案内を受ける", "必要な申請書類があれば準備する"],
+   "outside": ["緊急時の医療対応は医療機関が担当", "介護サービスの提供自体は介護事業所が担当"]
+  },
+  "action_grid": [
+   {"label": "地域包括支援センター係を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html"},
+   {"label": "離れて暮らす親の見守りを見る", "href": "/life/parents-care/check-parents/"},
+   {"label": "要介護認定の申請窓口を見る", "href": "/life/parents-care/care-certification-support-center/"},
+   {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341"},
+   {"label": "時間外は宿日直に電話する", "href": "tel:0538-85-2111"}
+  ]
+ },
+ {
+  "href": "/life/parents-care/dementia-consultation/",
+  "lead": "親のもの忘れが気になり始めたら、森町の福祉課地域包括支援センター係に相談できます。町は「認知症ケアパス」を整備し、気づきチェックリストやもの忘れ相談シートなどの相談ツールも用意しています。",
+  "note": "",
+  "real_cards": [
+   {"icon": "🧭", "title": "認知症ケアパスがある", "body": "認知症の状態に応じた相談先や医療・介護サービスの流れをまとめた「認知症ケアパス」を森町が作成しています。まず自分で状態を確認する手がかりになります。"},
+   {"icon": "✅", "title": "気づきチェックリストで確認", "body": "自分や家族が認知症かもしれないと感じたとき、初期の気づきを得るための「気づきチェックリスト」が用意されています。"},
+   {"icon": "📋", "title": "もの忘れ相談シートで専門家へ", "body": "チェックリストの結果、相談が必要と判断された場合は「もの忘れ相談シート」を使って専門家に相談する流れになっています。"}
+  ],
+  "qa": [
+   {"question": "もの忘れが心配なとき、まず何をすればいいですか", "answer": "「気づきチェックリスト」で状態を確認し、必要に応じて「もの忘れ相談シート」を使って福祉課地域包括支援センター係（0538-85-6341）に相談する流れになっています。"},
+   {"question": "認知症ケアパスとは何ですか", "answer": "認知症の人の状態に応じた適切なサービス提供の流れをまとめたものです。初期段階での相談方法から、進行段階に応じた支援の流れ、相談機関・医療機関の一覧までが整理されています。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4002.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"},
+   {"question": "専門の相談員はいますか", "answer": "福祉課には認知症支援に関する研修を受けた「認知症地域支援推進員」が配置されています。「認知症にやさしいまちづくり」を目標に体制整備が進められています。"},
+   {"question": "本人が受診を嫌がる場合はどうすればいいですか", "answer": "本人が抵抗を感じることは珍しくありません。まずは家族だけで地域包括支援センター係に相談し、進め方についてアドバイスを受けることができます。"},
+   {"question": "離れて暮らす親が心配な場合も相談できますか", "answer": "できます。<a href=\"/life/parents-care/check-parents/\">離れて暮らす親の見守り</a>のページと合わせて、地域包括支援センター係に連絡してください。"},
+   {"question": "認定や介護サービスにつなげる必要はありますか", "answer": "状態によっては要介護認定の申請が必要になる場合があります。<a href=\"/life/parents-care/care-certification-support-center/\">要介護認定の申請窓口</a>もあわせて確認してください。"}
+  ],
+  "tabs": [
+   {"id": "type-first", "label": "気になり始めた", "heading": "気づきチェックリストから始める", "bullets": ["自分や家族の状態をチェックリストで確認する", "必要に応じてもの忘れ相談シートを使う", "気になったら早めに相談するほうが選択肢が広がる"], "actions": [{"label": "地域包括ケアシステムの推進を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4002.html", "source": "森町公式"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-family", "label": "家族が心配", "heading": "本人が動けなくても家族から相談", "bullets": ["本人が受診に消極的でも家族だけで相談できる", "ふだんの様子をメモしておくと相談しやすい", "地域包括支援センター係が進め方を案内してくれる"], "actions": [{"label": "離れて暮らす親の見守りを見る", "href": "/life/parents-care/check-parents/", "source": "森町ライフハック"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-diagnosed", "label": "診断された", "heading": "認知症ケアパスで今後を確認", "bullets": ["進行段階に応じた支援の流れを把握しておく", "相談機関・医療機関の一覧も整理されている", "介護サービスにつなげる必要があれば認定申請も検討する"], "actions": [{"label": "要介護認定の申請窓口を見る", "href": "/life/parents-care/care-certification-support-center/", "source": "森町ライフハック"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-guardian", "label": "財産管理も心配", "heading": "成年後見制度も選択肢に", "bullets": ["判断能力の低下で財産管理が難しくなる場合がある", "森町独自の申立費用助成がある", "早めに地域包括支援センター係に相談しておく"], "actions": [{"label": "成年後見制度を見る", "href": "/life/parents-care/adult-guardianship/", "source": "森町ライフハック"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]}
+  ],
+  "steps": {
+   "today": ["気づきチェックリストで様子を確認する", "気になる点があれば地域包括支援センター係（0538-85-6341）に電話する"],
+   "this_week": ["必要に応じてもの忘れ相談シートを使って相談する", "医療機関の受診が必要か窓口の案内を確認する"],
+   "outside": ["診断や治療は医療機関が担当", "介護サービスの利用には要介護認定の申請が別途必要"]
+  },
+  "action_grid": [
+   {"label": "地域包括ケアシステムの推進を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4002.html"},
+   {"label": "離れて暮らす親の見守りを見る", "href": "/life/parents-care/check-parents/"},
+   {"label": "成年後見制度を見る", "href": "/life/parents-care/adult-guardianship/"},
+   {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341"}
+  ]
+ },
+ {
+  "href": "/life/parents-care/elderly-transportation/",
+  "lead": "通院や買い物のための移動が難しくなってきた高齢者に向けて、森町では「公共交通利用券助成事業」を実施しています。専用の送迎サービスではなく、路線バスやタクシーの利用券購入費の一部を助成する仕組みです。",
+  "note": "",
+  "real_cards": [
+   {"icon": "🚌", "title": "対象は75歳以上など", "body": "75歳以上の町民、または65歳以上で運転経歴証明書の交付を受けた町民が対象です。同一年度に別のタクシー運賃助成を受けた方は対象外になります。"},
+   {"icon": "💴", "title": "年間上限3,000円の助成", "body": "1人につき1年度（4月1日〜翌年3月31日）あたり上限3,000円まで助成されます。購入額が3,000円未満ならその全額が助成されます。"},
+   {"icon": "🧾", "title": "購入後3か月以内に申請", "body": "公共交通利用券を購入して領収証を取得したら、購入日から3か月以内に申請書と必要書類を福祉課地域福祉係に提出します。"}
+  ],
+  "qa": [
+   {"question": "通院の送迎をしてもらえるサービスですか", "answer": "いいえ、森町のこの事業は個別の送迎サービスではなく、路線バスやタクシーの利用券を購入する際の費用の一部を助成する仕組みです。購入は自分で行う必要があります。"},
+   {"question": "対象になるのはどんな人ですか", "answer": "75歳以上の町民、または65歳以上で運転経歴証明書（運転免許の返納証明）の交付を受けた町民です。ただし同一年度に別のタクシー運賃助成を受けている場合は対象外です。"},
+   {"question": "助成額はいくらですか", "answer": "1人につき1年度あたり上限3,000円です。購入額が3,000円未満であればその全額が、3,000円以上であれば上限の3,000円が助成されます。"},
+   {"question": "申請はいつまでにすればいいですか", "answer": "公共交通利用券を購入した日から起算して3か月以内に申請する必要があります。領収証を保管しておき、早めに手続きしてください。"},
+   {"question": "申請には何が必要ですか", "answer": "申請書のほか、利用券購入時の領収証、振込先の預金通帳の写しなどが必要です。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/8/2533.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>で確認してください。"},
+   {"question": "問い合わせ先はどこですか", "answer": "福祉課地域福祉係（0538-85-1800）です。対象条件や必要書類について確認できます。"}
+  ],
+  "tabs": [
+   {"id": "type-first", "label": "初めて申請", "heading": "対象かどうかをまず確認", "bullets": ["75歳以上、または65歳以上で運転経歴証明書がある町民が対象", "他のタクシー運賃助成と併用できない点に注意", "対象か迷ったら地域福祉係に確認する"], "actions": [{"label": "公共交通利用券助成事業を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/8/2533.html", "source": "森町公式"}, {"label": "福祉課地域福祉係に電話する", "href": "tel:0538-85-1800", "source": "0538-85-1800"}]},
+   {"id": "type-buy", "label": "利用券を購入", "heading": "購入後は領収証を保管", "bullets": ["路線バスやタクシーの利用券を購入する", "領収証を必ず保管しておく", "購入日から3か月以内に申請する"], "actions": [{"label": "公共交通利用券助成事業を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/8/2533.html", "source": "森町公式"}, {"label": "福祉課地域福祉係に電話する", "href": "tel:0538-85-1800", "source": "0538-85-1800"}]},
+   {"id": "type-returned", "label": "免許を返納した", "heading": "運転経歴証明書があれば65歳から対象", "bullets": ["65歳以上で運転経歴証明書の交付を受けていれば対象になる", "証明書は運転免許を返納した際に交付される", "証明書を持って申請の準備をする"], "actions": [{"label": "公共交通利用券助成事業を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/8/2533.html", "source": "森町公式"}, {"label": "福祉課地域福祉係に電話する", "href": "tel:0538-85-1800", "source": "0538-85-1800"}]},
+   {"id": "type-worried", "label": "他の支援も知りたい", "heading": "移動以外の心配ごとも相談", "bullets": ["生活全般の心配ごとは地域包括支援センターへ", "介護が必要な状態なら要介護認定の申請も検討", "まとめて相談すると案内がスムーズ"], "actions": [{"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/", "source": "森町ライフハック"}, {"label": "離れて暮らす親の見守りを見る", "href": "/life/parents-care/check-parents/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["対象条件（75歳以上、または65歳以上＋運転経歴証明書）に当てはまるか確認する", "福祉課地域福祉係（0538-85-1800）に電話で確認する"],
+   "this_week": ["路線バスやタクシーの利用券を購入し領収証を保管する", "購入日から3か月以内に申請書を提出する"],
+   "outside": ["利用券自体はバス・タクシー事業者の窓口等で購入する", "運転経歴証明書は警察・運転免許センターで交付される"]
+  },
+  "action_grid": [
+   {"label": "公共交通利用券助成事業を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/8/2533.html"},
+   {"label": "地域包括支援センターを見る", "href": "/life/parents-care/community-support-center/"},
+   {"label": "離れて暮らす親の見守りを見る", "href": "/life/parents-care/check-parents/"},
+   {"label": "福祉課地域福祉係に電話する", "href": "tel:0538-85-1800"}
+  ]
+ },
+ {
+  "href": "/life/parents-care/find-nursing-home/",
+  "lead": "森町には独自の施設一覧ページはなく、厚生労働省の「介護サービス情報公表システム」で県内・全国の介護サービス事業所を検索する形になります。相談は福祉課介護保険係や地域包括支援センター係で受け付けています。",
+  "note": "",
+  "real_cards": [
+   {"icon": "🔍", "title": "国のシステムで検索", "body": "森町独自の施設検索ページはなく、厚生労働省の「介護サービス情報公表システム」を使って県内・全国の介護サービス事業所・施設を検索します。"},
+   {"icon": "📄", "title": "町の計画も参考に", "body": "施設整備の方向性は「森町高齢者保健福祉計画・第9期介護保険事業計画」（2024〜2026年度）に記載されています。町全体の方針を知りたいときの参考になります。"},
+   {"icon": "🗨️", "title": "迷ったら窓口に相談", "body": "施設の探し方や選び方に迷ったら、福祉課介護保険係、または地域包括支援センター係に相談できます。"}
+  ],
+  "qa": [
+   {"question": "森町独自の施設一覧はありますか", "answer": "ありません。森町は厚生労働省の「介護サービス情報公表システム」（kaigokensaku.mhlw.go.jp）を案内しており、そこから県内・全国の介護サービス事業所・施設を検索する形になります。"},
+   {"question": "介護サービス情報公表システムとはどんなものですか", "answer": "厚生労働省が運営する検索システムで、施設の種類やサービス内容、所在地などから介護サービス事業所を検索できます。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/2/4948.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>から案内されています。"},
+   {"question": "施設探しについて相談できる窓口はありますか", "answer": "福祉課介護保険係（0538-86-6341）や地域包括支援センター係（0538-85-6341）で相談できます。要介護度やケアプランの状況とあわせて相談すると案内を受けやすくなります。"},
+   {"question": "森町内の施設整備の状況を知る方法はありますか", "answer": "「森町高齢者保健福祉計画・第9期介護保険事業計画」（2024〜2026年度）に施設整備の方向性が記載されています。町の全体的な方針を知りたい場合の参考になります。"},
+   {"question": "施設探しはケアマネジャーに頼めますか", "answer": "ケアプランを担当しているケアマネジャーに、希望条件に合う施設の情報提供や相談をすることもできます。詳しくは<a href=\"/life/parents-care/care-started/\">介護が始まったらの流れ</a>もあわせて確認してください。"},
+   {"question": "在宅か施設か迷っています", "answer": "在宅サービスの利用状況や家族の負担、本人の状態によって選択肢は変わります。地域包括支援センター係やケアマネジャーに相談しながら検討するのがおすすめです。"}
+  ],
+  "tabs": [
+   {"id": "type-first", "label": "施設を探し始める", "heading": "国の検索システムを使う", "bullets": ["介護サービス情報公表システムで施設を検索する", "所在地やサービス種別で絞り込める", "森町独自の一覧ページはない点に注意"], "actions": [{"label": "介護サービス事業所の検索について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/2/4948.html", "source": "森町公式"}, {"label": "介護サービス情報公表システムを見る", "href": "https://www.kaigokensaku.mhlw.go.jp/22/index.php", "source": "厚生労働省"}]},
+   {"id": "type-consult", "label": "相談したい", "heading": "窓口やケアマネに相談", "bullets": ["福祉課介護保険係や地域包括支援センター係に相談できる", "ケアマネジャーに情報提供を頼むこともできる", "希望条件を整理してから相談すると話が早い"], "actions": [{"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-plan", "label": "町の方針を知りたい", "heading": "高齢者保健福祉計画を確認", "bullets": ["森町高齢者保健福祉計画・第9期介護保険事業計画に記載", "計画期間は2024〜2026年度", "施設整備の方向性など町全体の方針がわかる"], "actions": [{"label": "森町高齢者保健福祉計画を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/5462.html", "source": "森町公式"}, {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}]},
+   {"id": "type-athome", "label": "在宅か迷う", "heading": "在宅継続と施設利用を比較", "bullets": ["在宅サービスを続ける選択肢もある", "本人の状態や家族の負担を踏まえて検討する", "ケアプランの見直しとあわせて相談できる"], "actions": [{"label": "介護保険のしくみを見る", "href": "/life/parents-care/long-term-care-insurance/", "source": "森町ライフハック"}, {"label": "介護が始まったらの流れを見る", "href": "/life/parents-care/care-started/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["介護サービス情報公表システムで気になる施設を探してみる", "希望条件（場所・サービス種別など）を整理する"],
+   "this_week": ["福祉課介護保険係または地域包括支援センター係に相談する", "ケアマネジャーがいる場合は情報提供を依頼する"],
+   "outside": ["施設の見学・入所申し込みは各施設に直接行う", "入所の可否は施設側の判断による"]
+  },
+  "action_grid": [
+   {"label": "介護サービス事業所の検索について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/2/4948.html"},
+   {"label": "介護サービス情報公表システムを見る", "href": "https://www.kaigokensaku.mhlw.go.jp/22/index.php"},
+   {"label": "森町高齢者保健福祉計画を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/5462.html"},
+   {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341"}
+  ]
+ },
+ {
+  "href": "/life/parents-care/",
+  "lead": "親の介護で困ったとき、森町ではまず福祉課地域包括支援センター係が総合相談窓口になります。要介護認定の申請や保険給付など実務にかかわる手続きは福祉課介護保険係が担当します。",
+  "note": "森町は磐田市・掛川市などに比べて小規模な町のため、専用ページや一覧が用意されていない支援もあります。困ったときはまず電話で相談するのが近道です。",
+  "real_cards": [
+   {"icon": "☎️", "title": "まずは総合相談窓口へ", "body": "生活・健康・財産管理などの困りごとは、福祉課地域包括支援センター係（0538-85-6341）にまず相談すると、必要な制度や窓口を案内してもらえます。"},
+   {"icon": "📝", "title": "認定申請は介護保険係", "body": "要介護・要支援認定の申請、被保険者証の再交付、給付にかかわる手続きは福祉課介護保険係（0538-86-6341）が窓口です。"},
+   {"icon": "🏥", "title": "両係とも保健福祉センター内", "body": "地域包括支援センター係・介護保険係とも森町保健福祉センター（森50-1）内にあります。電話や来庁での相談がしやすい距離にまとまっています。"},
+   {"icon": "🌱", "title": "小規模な町ならではの実情", "body": "森町は周智郡の小規模な町で、大きな市のような制度や一覧ページが整っていない場合があります。分からないことはまず窓口へ電話するのが確実です。"}
+  ],
+  "qa": [
+   {"question": "親の介護で最初に相談すべき窓口はどこですか", "answer": "福祉課地域包括支援センター係（0538-85-6341）です。生活・健康・財産管理などどんな内容でもまず相談でき、必要な制度や窓口を案内してもらえます。"},
+   {"question": "要介護認定はどこで申請しますか", "answer": "福祉課介護保険係（0538-86-6341）です。詳しくは<a href=\"/life/parents-care/care-certification-support-center/\">要介護認定の申請窓口</a>のページを確認してください。"},
+   {"question": "認定を受けたあとは何をすればいいですか", "answer": "要支援は地域包括支援センター、要介護は居宅介護支援事業所のケアマネジャーとケアプランを作成します。詳しくは<a href=\"/life/parents-care/care-started/\">介護が始まったらの流れ</a>を確認してください。"},
+   {"question": "認知症が心配な場合はどこに相談しますか", "answer": "同じ福祉課地域包括支援センター係で相談できます。森町は「認知症ケアパス」を整備しています。詳しくは<a href=\"/life/parents-care/dementia-consultation/\">認知症の相談</a>のページを確認してください。"},
+   {"question": "施設を探したいときはどうすればいいですか", "answer": "森町独自の一覧はなく、国の「介護サービス情報公表システム」を利用します。詳しくは<a href=\"/life/parents-care/find-nursing-home/\">介護施設の探し方</a>を確認してください。"},
+   {"question": "移動手段や見守りの支援もありますか", "answer": "公共交通利用券の助成や、緊急通報システムの設置補助、救急医療情報キットの配布などがあります。<a href=\"/life/parents-care/elderly-transportation/\">高齢者の移動支援</a>や<a href=\"/life/parents-care/check-parents/\">離れて暮らす親の見守り</a>のページを確認してください。"},
+   {"question": "磐田市や掛川市と同じ制度がありますか", "answer": "森町は小規模な町のため、大きな市と同じ制度や専用ページが用意されていない場合があります。まずは福祉課の窓口に電話で確認するのが確実です。"}
+  ],
+  "tabs": [
+   {"id": "type-first", "label": "何から始める", "heading": "まず総合相談窓口に電話", "bullets": ["困りごとの内容を簡単に整理してから電話する", "地域包括支援センター係が幅広く相談を受け付ける", "必要な制度や窓口を案内してもらえる"], "actions": [{"label": "地域包括支援センター係を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html", "source": "森町公式"}, {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341", "source": "0538-85-6341"}]},
+   {"id": "type-certify", "label": "認定を申請したい", "heading": "介護保険係で認定申請", "bullets": ["要介護・要支援認定は福祉課介護保険係が窓口", "被保険者証の再交付や送付先変更も同じ窓口", "認定後はケアプラン作成に進む"], "actions": [{"label": "要介護認定の申請窓口を見る", "href": "/life/parents-care/care-certification-support-center/", "source": "森町ライフハック"}, {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}]},
+   {"id": "type-athome", "label": "在宅で支える", "heading": "見守り・移動支援も活用", "bullets": ["緊急通報システムや救急医療情報キットで備える", "公共交通利用券助成で移動を支援する", "認知症の心配があれば早めに相談する"], "actions": [{"label": "離れて暮らす親の見守りを見る", "href": "/life/parents-care/check-parents/", "source": "森町ライフハック"}, {"label": "高齢者の移動支援を見る", "href": "/life/parents-care/elderly-transportation/", "source": "森町ライフハック"}]},
+   {"id": "type-facility", "label": "施設を検討", "heading": "施設探しは国のシステムで", "bullets": ["森町独自の施設一覧はない", "介護サービス情報公表システムで検索する", "介護保険係やケアマネにも相談できる"], "actions": [{"label": "介護施設の探し方を見る", "href": "/life/parents-care/find-nursing-home/", "source": "森町ライフハック"}, {"label": "介護保険のしくみを見る", "href": "/life/parents-care/long-term-care-insurance/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["困りごとを整理して福祉課地域包括支援センター係（0538-85-6341）に電話する", "要介護認定が必要そうな場合は福祉課介護保険係（0538-86-6341）も確認する"],
+   "this_week": ["案内された制度や窓口の詳細を確認する", "必要な申請書類を準備する"],
+   "outside": ["医療的な判断はかかりつけ医療機関が担当", "ケアプラン作成や施設入所は事業所側の手続きが必要"]
+  },
+  "action_grid": [
+   {"label": "地域包括支援センター係を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html"},
+   {"label": "要介護認定・介護保険サービスについて見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/index.html"},
+   {"label": "地域包括支援センター係に電話する", "href": "tel:0538-85-6341"},
+   {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341"}
+  ]
+ },
+ {
+  "href": "/life/parents-care/long-term-care-insurance/",
+  "lead": "森町の介護保険は福祉課介護保険係が一括して窓口を担っています。要介護・要支援認定の申請から、住宅改修費・福祉用具購入費の支給、高額サービス費や負担限度額認定の申請まで、同じ窓口で相談できます。",
+  "note": "",
+  "real_cards": [
+   {"icon": "📋", "title": "認定申請が入口", "body": "介護保険サービスを使うには、まず要介護・要支援認定を申請する必要があります。窓口は福祉課介護保険係です。"},
+   {"icon": "🔨", "title": "住宅改修費・福祉用具も対応", "body": "手すりの設置など住宅改修費の支給申請や、福祉用具購入費の支給申請も同じ介護保険係で受け付けています。"},
+   {"icon": "💴", "title": "高額サービス費・負担限度額認定", "body": "自己負担が一定額を超えた場合の高額介護サービス費の支給や、施設利用時の負担を抑える負担限度額認定の申請もできます。"}
+  ],
+  "qa": [
+   {"question": "介護保険サービスを使うにはまず何が必要ですか", "answer": "要介護・要支援認定の申請が必要です。詳しくは<a href=\"/life/parents-care/care-certification-support-center/\">要介護認定の申請窓口</a>のページを確認してください。"},
+   {"question": "住宅改修費の支給とはどんな制度ですか", "answer": "手すりの取り付けや段差解消などの住宅改修にかかった費用の一部が支給される制度です。事前申請が必要な場合が多いため、工事の前に福祉課介護保険係（0538-86-6341）へ相談してください。"},
+   {"question": "福祉用具の購入費も支給されますか", "answer": "対象となる福祉用具の購入費について支給申請ができます。対象品目や手続きの詳細は窓口で確認してください。"},
+   {"question": "高額介護サービス費とは何ですか", "answer": "1か月の自己負担額が一定の上限を超えた場合に、超えた分が払い戻される制度です。詳しくは福祉課介護保険係に確認してください。"},
+   {"question": "施設利用の負担を軽くする制度はありますか", "answer": "所得等に応じて食費・居住費の負担を軽くする「負担限度額認定」の申請ができます。対象になるかどうかは窓口で確認してください。"},
+   {"question": "手続きはすべて同じ窓口でできますか", "answer": "はい。認定申請から住宅改修費、福祉用具購入費、高額サービス費、負担限度額認定まで、福祉課介護保険係（0538-86-6341）が窓口です。"}
+  ],
+  "tabs": [
+   {"id": "type-first", "label": "初めて利用", "heading": "まず認定申請から", "bullets": ["要介護・要支援認定の申請が必要", "介護保険被保険者証などを用意する", "認定後にケアプランを作成してサービスを使う"], "actions": [{"label": "要介護認定申請について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kaigohoken/4204.html", "source": "森町公式"}, {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}]},
+   {"id": "type-home", "label": "住宅を改修したい", "heading": "住宅改修費の支給を確認", "bullets": ["手すり設置や段差解消などが対象になり得る", "工事前の事前申請が必要な場合が多い", "着工前に必ず福祉課介護保険係に相談する"], "actions": [{"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}, {"label": "介護が始まったらの流れを見る", "href": "/life/parents-care/care-started/", "source": "森町ライフハック"}]},
+   {"id": "type-cost", "label": "費用が心配", "heading": "高額サービス費・負担限度額を確認", "bullets": ["自己負担が一定額を超えると払い戻しがある", "施設利用時は負担限度額認定で軽減できる場合がある", "対象になるか窓口で確認する"], "actions": [{"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341", "source": "0538-86-6341"}, {"label": "介護施設の探し方を見る", "href": "/life/parents-care/find-nursing-home/", "source": "森町ライフハック"}]},
+   {"id": "type-overview", "label": "全体像を知りたい", "heading": "介護保険の入口を確認", "bullets": ["申請から給付まで一括して介護保険係が担当", "地域包括支援センター係とも連携している", "困ったときはまず電話で相談する"], "actions": [{"label": "要介護認定・介護保険サービスについて見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/4189.html", "source": "森町公式"}, {"label": "親の介護トップを見る", "href": "/life/parents-care/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+   "today": ["利用したい制度（認定申請・住宅改修・福祉用具等）を整理する", "福祉課介護保険係（0538-86-6341）に電話で相談する"],
+   "this_week": ["必要書類を確認して申請の準備をする", "住宅改修の場合は着工前に事前申請を済ませる"],
+   "outside": ["住宅改修の工事は施工業者が行う", "福祉用具のレンタル・購入は事業者を通じて行う"]
+  },
+  "action_grid": [
+   {"label": "要介護認定申請について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kaigohoken/4204.html"},
+   {"label": "介護保険サービスの利用について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/4189.html"},
+   {"label": "介護が始まったらの流れを見る", "href": "/life/parents-care/care-started/"},
+   {"label": "福祉課介護保険係に電話する", "href": "tel:0538-86-6341"}
+  ]
+ }
+]

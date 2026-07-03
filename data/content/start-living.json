@@ -1,0 +1,431 @@
+[
+ {
+  "href": "/life/start-living/bulky-garbage-dropoff/",
+  "lead": "森町では粗大ごみの戸別収集は行っておらず、中遠広域粗大ごみ処理施設（磐田市新貝）への直接搬入が基本です。事前に品目と搬入時間を確認してから運びましょう。",
+  "note": "手数料は車両の最大積載量により520円～2,090円です。処分に迷う不用品は、ジモティー経由の中遠クリーンセンターリユーズ事業（無料）も検討できます。",
+  "real_cards": [
+    {"icon": "🚗", "title": "直接搬入が基本", "body": "戸別収集の案内は見当たらず、中遠広域粗大ごみ処理施設（磐田市新貝59-1）へ自分で運び込むのが基本の流れです。平日9:00-12:00・13:00-16:30の受付時間に注意してください。"},
+    {"icon": "💰", "title": "料金は積載量で決まる", "body": "手数料は車両の最大積載量に応じて520円～2,090円です。事前に電話（0538-37-4854）で搬入可能な品目と料金を確認しておくと当日慌てません。"},
+    {"icon": "♻️", "title": "無料で譲る手も", "body": "まだ使える家具や家電は、中遠クリーンセンターがジモティーに出品するリユーズ事業で無料譲渡できる場合があります。捨てる前に一度検討してみましょう。"}
+  ],
+  "qa": [
+    {"question": "軽トラックが無くても持ち込めますか", "answer": "自家用車でも搬入できますが、積める量には限りがあります。量が多い場合は複数回に分けるか、レンタカーの利用も検討してください。詳しくは<a href=\"tel:0538-37-4854\">中遠広域粗大ごみ処理施設（0538-37-4854）</a>にご確認ください。"},
+    {"question": "戸別収集はしてもらえませんか", "answer": "森町公式サイトには戸別収集の案内が見当たらず、直接搬入が案内の中心です。個別の事情がある場合は住民生活課生活環境係（0538-85-6314）にご相談ください。"}
+  ],
+  "tabs": [
+    {"id": "type-first", "label": "初めて出す", "heading": "まず搬入先と時間を確認", "bullets": ["中遠広域粗大ごみ処理施設（磐田市新貝59-1）へ直接搬入する", "受付時間は平日9:00-12:00・13:00-16:30", "手数料は積載量に応じて520円～2,090円"], "actions": [{"label": "粗大ごみの出し方を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html", "source": "森町公式"}, {"label": "施設に電話で確認する", "href": "tel:0538-37-4854", "source": "0538-37-4854"}]},
+    {"id": "type-reuse", "label": "無料で譲りたい", "heading": "リユーズ事業も検討する", "bullets": ["中遠クリーンセンターがジモティーに不用品を出品", "無料で希望者に譲渡できる仕組み", "受け取りは平日9:00-12:00・13:00-17:00に施設で"], "actions": [{"label": "リユーズ事業を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html", "source": "森町公式"}, {"label": "ごみの分別を確認する", "href": "/life/start-living/how-to-garbage/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+    "today": ["処分したい粗大ごみの品目をリストアップする", "中遠広域粗大ごみ処理施設に電話して受入可否と料金を確認する"], "this_week": ["搬入日時を決めて車を用意する", "平日9:00-12:00・13:00-16:30の間に施設へ搬入する"], "outside": ["まだ使えるものはジモティーでの無料譲渡を検討する", "分別に迷うものは住民生活課生活環境係に相談する"]
+  },
+  "action_grid": [
+    {"label": "粗大ごみの出し方を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html"},
+    {"label": "リユーズ事業を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html"},
+    {"label": "住民生活課に電話する", "href": "tel:0538-85-6314"},
+    {"label": "ごみの出し方全体を見る", "href": "/life/start-living/how-to-garbage/"}
+  ]
+ },
+ {
+  "href": "/life/start-living/certificates/",
+  "lead": "住民票・戸籍・印鑑証明は役場窓口のほか、マイナンバーカードがあればコンビニ交付が便利です。役場より100円安く、朝早くから夜遅くまで使えます。",
+  "note": "戸籍証明書はコンビニ交付の対象外です。戸籍が必要な場合は窓口での申請が必要になります。",
+  "real_cards": [
+    {"icon": "🏪", "title": "コンビニなら200円", "body": "マイナンバーカード（利用者証明用電子証明書搭載）と暗証番号があれば、住民票・印鑑証明を全国のコンビニで毎日6:30-23:00に取得できます。窓口より100円安い200円です。"},
+    {"icon": "🏢", "title": "窓口は300円", "body": "住民生活課住民係の窓口交付は1通300円です。平日8:30-17:15のほか、水曜は17:15-19:00の時間外窓口でも交付を受けられます。"},
+    {"icon": "📕", "title": "戸籍は窓口のみ", "body": "戸籍謄本等はコンビニ交付の対象外です。窓口または水曜の時間外窓口で申請してください。本人確認書類を忘れずに持参しましょう。"}
+  ],
+  "qa": [
+    {"question": "平日に役場へ行けません。どうすればいいですか", "answer": "マイナンバーカードがあればコンビニ交付が使えます。カードがない、または戸籍が必要な場合は、水曜17:15-19:00の時間外窓口をご利用ください。ただし住所異動の手続きはできないのでご注意ください。"},
+    {"question": "本人確認書類は何が必要ですか", "answer": "運転免許証やマイナンバーカードなどA群書類1点、または健康保険証などB群書類2点が必要です。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html\" target=\"_blank\" rel=\"noopener\">森町公式の住民票申請ページ</a>でご確認ください。"}
+  ],
+  "tabs": [
+    {"id": "type-mynumber", "label": "マイナンバーカードがある", "heading": "コンビニ交付が便利", "bullets": ["住民票・印鑑証明が1通200円で取得できる", "毎日6:30-23:00利用可（年末年始・メンテナンス日除く）", "戸籍証明書はコンビニ交付の対象外"], "actions": [{"label": "コンビニ交付を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html", "source": "森町公式"}]},
+    {"id": "type-nocard", "label": "カードがない・戸籍が必要", "heading": "窓口か時間外窓口へ", "bullets": ["平日8:30-17:15は住民生活課住民係の窓口へ", "水曜のみ17:15-19:00の時間外窓口も利用可", "本人確認書類を忘れずに持参する"], "actions": [{"label": "住民票の申請方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html", "source": "森町公式"}, {"label": "水曜時間外窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html", "source": "森町公式"}]}
+  ],
+  "steps": {
+    "today": ["マイナンバーカードと暗証番号を確認する", "必要な証明書がコンビニ交付の対象か確認する"], "this_week": ["コンビニのマルチコピー機で交付を受ける、または窓口へ行く", "戸籍が必要な場合は窓口・時間外窓口で申請する"], "outside": ["本人確認書類（運転免許証等）を用意しておく"]
+  },
+  "action_grid": [
+    {"label": "コンビニ交付を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html"},
+    {"label": "住民票の申請方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html"},
+    {"label": "水曜時間外窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html"},
+    {"label": "住民生活課に電話する", "href": "tel:0538-85-6312"}
+  ]
+ },
+ {
+  "href": "/life/start-living/city-hall-branches/",
+  "lead": "森町の役場窓口は本庁舎1か所のみで、支所や出張所はありません。平日8:30-17:15が基本ですが、水曜だけ17:15-19:00の時間外窓口があります。",
+  "note": "時間外窓口では住所異動（転入・転出・転居）の手続きはできません。引っ越しに関する届出は必ず平日日中に来庁してください。",
+  "real_cards": [
+    {"icon": "🏛️", "title": "窓口は本庁舎のみ", "body": "森町役場は静岡県周智郡森町森2101-1の本庁舎1か所です。支所や出張所はないため、住民生活課での手続きは基本的にここで完結します。"},
+    {"icon": "🕐", "title": "水曜だけ夜も開く", "body": "平日は8:30-17:15ですが、水曜のみ17:15-19:00の時間外窓口があります。住民票・戸籍・印鑑証明・マイナンバーカードの受け取りなどに対応しています。"},
+    {"icon": "🚫", "title": "住所異動は時間外不可", "body": "時間外窓口では転入・転出・転居などの住所異動手続きはできません。引っ越しの届出は平日日中に来庁する必要があります。"}
+  ],
+  "qa": [
+    {"question": "支所や出張所はどこにありますか", "answer": "森町には支所・出張所はなく、本庁舎1か所ですべての窓口手続きを行います。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/morimachiyakuba/index.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>でご確認ください。"},
+    {"question": "仕事帰りに手続きしたいのですが", "answer": "水曜のみ17:15-19:00の時間外窓口があり、住民票・戸籍・印鑑証明・パスポート受領・マイナンバーカード関連の手続きが可能です。ただし住所異動の手続きは対応できません。"}
+  ],
+  "tabs": [
+    {"id": "type-daytime", "label": "平日日中に行く", "heading": "本庁舎で全ての手続きが可能", "bullets": ["平日8:30-17:15が基本の受付時間", "転入・転出・転居も含めすべて対応", "支所・出張所はないため本庁舎へ"], "actions": [{"label": "森町役場のご案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/morimachiyakuba/index.html", "source": "森町公式"}]},
+    {"id": "type-evening", "label": "夜しか行けない", "heading": "水曜の時間外窓口を使う", "bullets": ["水曜のみ17:15-19:00に窓口が開く", "住民票・戸籍・印鑑証明・マイナンバーは対応可", "住所異動の手続きはできないので注意"], "actions": [{"label": "水曜時間外窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html", "source": "森町公式"}, {"label": "住所変更の手続きを見る", "href": "/life/start-living/moving-address-change/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+    "today": ["本庁舎の場所と電話番号（0538-85-2111）を確認する", "自分の用件が時間外窓口で対応できるか確認する"], "this_week": ["住所異動が必要な場合は平日日中に来庁する", "証明書取得のみなら水曜夜間も選択肢に入れる"], "outside": []
+  },
+  "action_grid": [
+    {"label": "森町役場のご案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/morimachiyakuba/index.html"},
+    {"label": "水曜時間外窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html"},
+    {"label": "役場に電話する", "href": "tel:0538-85-2111"},
+    {"label": "暮らし始めたトップに戻る", "href": "/life/start-living/"}
+  ]
+ },
+ {
+  "href": "/life/start-living/dog-registration/",
+  "lead": "犬を飼い始めたら、生涯1回の登録と毎年1回の狂犬病予防注射が法律で義務づけられています。登録は生後90日を過ぎてから30日以内に済ませましょう。",
+  "note": "登録料は1頭につき3,000円（生涯1回）です。窓口は森町役場別館1階の住民生活課生活環境係になります。",
+  "real_cards": [
+    {"icon": "🐕", "title": "登録は生後90日から30日以内", "body": "犬の登録は生後90日を過ぎた日から30日以内に行います。登録料3,000円は生涯1回で、登録時に鑑札と愛犬カードを受け取ります。"},
+    {"icon": "💉", "title": "注射は毎年義務", "body": "狂犬病予防注射は法律で毎年1回の接種が義務です。集合注射は毎年6月頃に町内数カ所で実施され、注射済票の交付手数料は550円です。"},
+    {"icon": "🏷️", "title": "鑑札と注射済票は必携", "body": "登録時の鑑札と毎年の注射済票は、迷子になったときに飼い主を特定する重要な手がかりです。首輪に付けておくと安心です。"}
+  ],
+  "qa": [
+    {"question": "登録と注射はどこでできますか", "answer": "登録は森町役場別館1階の住民生活課生活環境係で行います。注射は毎年6月頃の集合注射のほか、委託先の動物病院でも受けられます。委託先で接種すればその場で注射済票が交付されます。"},
+    {"question": "委託先以外の動物病院で注射した場合はどうしますか", "answer": "注射済証と愛犬カード、手数料550円を持って住民生活課生活環境係（0538-85-6314）で注射済票の交付を受けてください。詳しくは<a href=\"/life/start-living/dog-registration-rabies/\">狂犬病予防注射のページ</a>もご覧ください。"}
+  ],
+  "tabs": [
+    {"id": "type-newdog", "label": "子犬を迎えた", "heading": "登録と注射の順番を確認", "bullets": ["生後90日を過ぎたら30日以内に登録（3,000円）", "登録と同時に鑑札・愛犬カードを受け取る", "初回の狂犬病予防注射も忘れずに"], "actions": [{"label": "犬の飼い方を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/693.html", "source": "森町公式"}, {"label": "狂犬病予防注射を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html", "source": "森町公式"}]},
+    {"id": "type-moved", "label": "登録済みの犬と引っ越してきた", "heading": "森町での手続きを確認する", "bullets": ["前住所での登録内容を確認しておく", "毎年の狂犬病予防注射は森町のルールに従う", "迷子時の連絡先も事前に確認しておく"], "actions": [{"label": "生活環境係に確認する", "href": "tel:0538-85-6314", "source": "0538-85-6314"}, {"label": "迷い犬・迷い猫の連絡先を見る", "href": "/life/start-living/pets-lost-animals/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+    "today": ["犬の生年月日を確認し登録時期を把握する", "住民生活課生活環境係（0538-85-6314）に確認の電話をする"], "this_week": ["役場別館1階で登録手続きを行う（登録料3,000円）", "鑑札・愛犬カードを受け取る"], "outside": ["狂犬病予防注射をかかりつけの動物病院や集合注射で受ける"]
+  },
+  "action_grid": [
+    {"label": "犬の飼い方を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/693.html"},
+    {"label": "狂犬病予防注射を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html"},
+    {"label": "生活環境係に電話する", "href": "tel:0538-85-6314"},
+    {"label": "迷い犬・迷い猫の連絡先を見る", "href": "/life/start-living/pets-lost-animals/"}
+  ]
+ },
+ {
+  "href": "/life/start-living/dog-registration-rabies/",
+  "lead": "狂犬病予防注射は毎年1回、法律で義務づけられています。森町では毎年6月頃に集合注射が行われ、注射済票の交付手数料は550円です。",
+  "note": "委託先の動物病院で接種すればその場で注射済票が交付されます。委託先以外で接種した場合は役場での別途手続きが必要です。",
+  "real_cards": [
+    {"icon": "📅", "title": "集合注射は6月頃", "body": "毎年6月頃に町内数カ所で集合注射が実施されます。案内は飼い主へのはがきや町内回覧で届きます。都合が合えばこの機会に受けるのが手軽です。"},
+    {"icon": "🏥", "title": "動物病院でもOK", "body": "委託先の動物病院で接種すれば、その場で注射済票の交付を受けられます。集合注射の日程が合わない場合はこちらが便利です。"},
+    {"icon": "💴", "title": "手数料は550円", "body": "注射済票の交付手数料は550円です。委託先以外の動物病院で接種した場合は、注射済証・愛犬カード・550円を持参して役場で手続きします。"}
+  ],
+  "qa": [
+    {"question": "集合注射を逃してしまいました。どうすればいいですか", "answer": "委託先の動物病院であればいつでも接種でき、その場で注射済票が交付されます。委託先以外の場合は、注射済証と愛犬カード、手数料550円を持って住民生活課生活環境係（0538-85-6314）で手続きしてください。"},
+    {"question": "注射をしないとどうなりますか", "answer": "狂犬病予防法により、飼い犬への毎年1回の注射は義務です。飼い主の責任として必ず受けさせましょう。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>をご確認ください。"}
+  ],
+  "tabs": [
+    {"id": "type-集合注射", "label": "集合注射で受けたい", "heading": "6月頃の案内を待つ", "bullets": ["毎年6月頃に町内数カ所で実施", "案内ははがきや町内回覧で届く", "その場で注射済票が交付される"], "actions": [{"label": "狂犬病予防注射を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html", "source": "森町公式"}]},
+    {"id": "type-hospital", "label": "動物病院で受けたい", "heading": "委託先かどうかを確認", "bullets": ["委託先ならその場で注射済票が交付される", "委託先以外は役場での手続きが別途必要", "手数料は550円"], "actions": [{"label": "生活環境係に確認する", "href": "tel:0538-85-6314", "source": "0538-85-6314"}, {"label": "犬の登録について見る", "href": "/life/start-living/dog-registration/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+    "today": ["飼い犬の注射済票の有無・期限を確認する"], "this_week": ["集合注射の案内を確認するか、動物病院に予約する", "接種後は注射済票を受け取る（委託先以外は役場で手続き）"], "outside": ["注射済票は鑑札と一緒に首輪に付けておく"]
+  },
+  "action_grid": [
+    {"label": "狂犬病予防注射を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html"},
+    {"label": "生活環境係に電話する", "href": "tel:0538-85-6314"},
+    {"label": "犬の登録について見る", "href": "/life/start-living/dog-registration/"}
+  ]
+ },
+ {
+  "href": "/life/start-living/garbage-sorting-calendar/",
+  "lead": "森町の家庭ごみ分別表・収集日カレンダーはPDFで公開されているほか、全戸配布や役場での配架もあります。令和8年4月からルール変更が予定されているので確認しておきましょう。",
+  "note": "英語・中国語・ポルトガル語・ベトナム語・クメール語版もあります。外国籍のご家族がいる場合はそちらもご案内ください。",
+  "real_cards": [
+    {"icon": "📅", "title": "カレンダーは複数の入手方法", "body": "分別表・収集日カレンダーは3月の世帯回覧で全戸配布されるほか、役場本庁舎1階にも配架されています。ウェブでもPDFが公開されています。"},
+    {"icon": "🌐", "title": "多言語版もある", "body": "英語・中国語・ポルトガル語・ベトナム語・クメール語の分別ガイドブックが用意されています。外国籍の方がいる世帯でも安心して確認できます。"},
+    {"icon": "⚠️", "title": "令和8年4月にルール変更予定", "body": "令和8年4月1日からごみ分別ルールの変更が予定されており、現在改訂作業が進められています。最新情報は生活環境係に確認するのが確実です。"}
+  ],
+  "qa": [
+    {"question": "分別表を紛失してしまいました。どこで手に入りますか", "answer": "役場本庁舎1階に配架されているので自由に持ち帰れます。ウェブでもPDF版が公開されているので、<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>から確認・印刷できます。"},
+    {"question": "令和8年4月からのルール変更はどう確認すればいいですか", "answer": "現在改訂作業が進められている段階です。最新の変更内容は住民生活課生活環境係（0538-85-6314）に直接お問い合わせいただくのが確実です。"}
+  ],
+  "tabs": [
+    {"id": "type-moved", "label": "引っ越してきたばかり", "heading": "まず分別表を手に入れる", "bullets": ["役場本庁舎1階で分別表・カレンダーを受け取れる", "ウェブでもPDF版を確認できる", "多言語版も用意されている"], "actions": [{"label": "分別表・カレンダーを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html", "source": "森町公式"}, {"label": "ごみの出し方を見る", "href": "/life/start-living/how-to-garbage/", "source": "森町ライフハック"}]},
+    {"id": "type-rulechange", "label": "ルール変更が気になる", "heading": "令和8年4月の変更に備える", "bullets": ["令和8年4月1日からルール変更予定", "現在改訂作業中で詳細は順次案内される", "不明点は生活環境係に確認する"], "actions": [{"label": "生活環境係に電話する", "href": "tel:0538-85-6314", "source": "0538-85-6314"}]}
+  ],
+  "steps": {
+    "today": ["役場本庁舎1階で分別表・カレンダーを受け取る、またはPDFを確認する"], "this_week": ["自宅の分別ルールを家族で共有する", "収集日をカレンダーに転記しておく"], "outside": ["令和8年4月のルール変更情報を定期的にチェックする"]
+  },
+  "action_grid": [
+    {"label": "分別表・カレンダーを確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html"},
+    {"label": "生活環境係に電話する", "href": "tel:0538-85-6314"},
+    {"label": "ごみの出し方を見る", "href": "/life/start-living/how-to-garbage/"}
+  ]
+ },
+ {
+  "href": "/life/start-living/how-to-garbage/",
+  "lead": "森町の家庭ごみの出し方は「家庭ごみの出し方ナビ」でかな検索ができ、分別表・分別ガイドブックは多言語対応もしています。迷ったらまずこのナビで品目を調べてみましょう。",
+  "note": "外国籍の方には「外国人町民のための生活ガイドブック」もあわせて案内すると安心です。",
+  "real_cards": [
+    {"icon": "🔍", "title": "ナビでかな検索できる", "body": "「家庭ごみの出し方ナビ」では品目のキーワード検索や50音（あ行～わ行）からの検索ができます。迷ったときはまずここで品目名を調べましょう。"},
+    {"icon": "📖", "title": "分別表は保存版", "body": "「森町家庭ごみ分別表」「分別ガイドブック」はPDFで公開されており、印刷して手元に置いておくと便利です。"},
+    {"icon": "🌐", "title": "多言語ガイドあり", "body": "英語・中国語・ポルトガル語・ベトナム語・クメール語の分別ガイドブックと、外国人町民向けの生活ガイドブックが用意されています。"}
+  ],
+  "qa": [
+    {"question": "この品目は何ごみか分かりません", "answer": "「家庭ごみの出し方ナビ」でキーワード検索か50音検索を使うと、品目ごとの分別区分が確認できます。それでも分からない場合は住民生活課生活環境係（0538-85-6314）にお問い合わせください。"},
+    {"question": "外国語の資料はありますか", "answer": "英語・中国語・ポルトガル語・ベトナム語・クメール語の分別ガイドブックがあります。あわせて「外国人町民のための生活ガイドブック」も生活全般の参考になります。"}
+  ],
+  "tabs": [
+    {"id": "type-search", "label": "品目を調べたい", "heading": "ナビで検索する", "bullets": ["キーワード検索と50音検索の2種類がある", "検索結果から分別区分と出し方が分かる", "分からなければ生活環境係に電話で確認"], "actions": [{"label": "家庭ごみの出し方ナビを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/gomi_navi/kateigomi/1101.html", "source": "森町公式"}, {"label": "生活環境係に電話する", "href": "tel:0538-85-6314", "source": "0538-85-6314"}]},
+    {"id": "type-foreign", "label": "外国語の資料が必要", "heading": "多言語ガイドを確認する", "bullets": ["分別ガイドブックは5言語に対応", "外国人町民向けの生活ガイドブックもある", "ダウンロードして家族で共有できる"], "actions": [{"label": "分別表・多言語版を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html", "source": "森町公式"}, {"label": "外国人向け生活ガイドを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/tabunkakyousei/6821.html", "source": "森町公式"}]}
+  ],
+  "steps": {
+    "today": ["出したい品目を家庭ごみの出し方ナビで検索する"], "this_week": ["分別表・収集日カレンダーを手元に用意する"], "outside": ["外国籍の家族がいる場合は多言語ガイドを共有する"]
+  },
+  "action_grid": [
+    {"label": "家庭ごみの出し方ナビを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/gomi_navi/kateigomi/1101.html"},
+    {"label": "分別表・カレンダーを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html"},
+    {"label": "外国人向け生活ガイドを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/tabunkakyousei/6821.html"},
+    {"label": "生活環境係に電話する", "href": "tel:0538-85-6314"}
+  ]
+ },
+ {
+  "href": "/life/start-living/",
+  "lead": "森町に引っ越してきたばかりの方向けに、転入手続き・証明書・ごみ・水道・ペット登録・公共交通など、暮らし始めに必要な手続きをまとめました。まずは全体の流れをつかみましょう。",
+  "note": "森町役場は本庁舎1か所のみで、支所・出張所はありません。手続きの多くは住民生活課が窓口になります。",
+  "real_cards": [
+    {"icon": "🧭", "title": "まず転入届から", "body": "引っ越しが完了した日から14日以内に転入届が必要です。マイナンバーカードや水道、ごみの分別確認もあわせて進めると効率的です。"},
+    {"icon": "💧", "title": "水道は忘れがち", "body": "水道の使用開始届は閉開栓日の前日までに提出が必要です。届出がないと基本料金だけ発生し続けるので早めに済ませましょう。"},
+    {"icon": "🐕", "title": "ペットがいる場合", "body": "犬を飼っている場合は登録と狂犬病予防注射が法律で義務です。引っ越しを機に手続き状況を確認しておきましょう。"}
+  ],
+  "qa": [
+    {"question": "何から手を付ければいいですか", "answer": "まず<a href=\"/life/start-living/moved-in/\">転入届からの手続き順</a>を確認し、転入届→マイナンバー→水道→ごみ分別→（犬がいれば）登録の順に進めるのが効率的です。"},
+    {"question": "役場以外にも確認することはありますか", "answer": "水道の開始届（上下水道課）、ごみの分別ルール確認（生活環境係）などがあります。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/index.html\" target=\"_blank\" rel=\"noopener\">森町公式「暮らし・手続き」ページ</a>もご参照ください。"}
+  ],
+  "tabs": [
+    {"id": "type-first", "label": "引っ越してきたばかり", "heading": "まず転入手続きから", "bullets": ["転入届は引っ越し完了日から14日以内", "マイナンバーカードの住所変更もあわせて行う", "水道・ごみ・ペット登録も順に確認する"], "actions": [{"label": "引っ越し後の手続き順を見る", "href": "/life/start-living/moved-in/", "source": "森町ライフハック"}, {"label": "暮らし・手続きページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/index.html", "source": "森町公式"}]},
+    {"id": "type-details", "label": "個別の手続きを調べたい", "heading": "項目ごとに確認する", "bullets": ["住民票・証明書の取り方を確認する", "水道・ごみのルールを確認する", "公共交通の使い方を確認する"], "actions": [{"label": "住民票・証明書を見る", "href": "/life/start-living/certificates/", "source": "森町ライフハック"}, {"label": "ごみの出し方を見る", "href": "/life/start-living/how-to-garbage/", "source": "森町ライフハック"}, {"label": "公共交通を見る", "href": "/life/start-living/public-transit/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+    "today": ["転入届に必要な書類（転出証明書・本人確認書類）を確認する"], "this_week": ["役場で転入届・マイナンバー・水道開始届をまとめて済ませる", "ごみの分別表を入手する"], "outside": ["犬を飼っている場合は登録・狂犬病予防注射の状況を確認する"]
+  },
+  "action_grid": [
+    {"label": "引っ越し後の手続き順を見る", "href": "/life/start-living/moved-in/"},
+    {"label": "住民票・証明書を見る", "href": "/life/start-living/certificates/"},
+    {"label": "ごみの出し方を見る", "href": "/life/start-living/how-to-garbage/"},
+    {"label": "役場に電話する", "href": "tel:0538-85-2111"}
+  ]
+ },
+ {
+  "href": "/life/start-living/moved-in/",
+  "lead": "森町に引っ越してきたら、転入届→マイナンバー→水道→ごみ分別→犬の登録の順で片づけるのが効率的です。転入届は引っ越し完了日から14日以内に必ず来庁して手続きします。",
+  "note": "マイナポータルの引っ越しワンストップサービスで転入の来庁予約はできますが、実際の届出は必ず窓口で行う必要があります。",
+  "real_cards": [
+    {"icon": "📋", "title": "転入届はまず来庁", "body": "転入届は必ず来庁が必要です。前住所地の転出証明書と本人確認書類を持って、住民生活課住民係（0538-85-6312）へ行きましょう。期限は引っ越し完了日から14日以内です。"},
+    {"icon": "💧", "title": "水道の開始届も忘れずに", "body": "水道の使用開始届は上下水道課への提出が必要です。届出がないと基本料金だけ発生し続けるため、引っ越し後すぐに済ませましょう。"},
+    {"icon": "🗑️", "title": "ごみ分別と犬の登録", "body": "ごみの分別ルールは生活環境係で確認できます。犬を飼っている場合は登録（生涯1回、3,000円）も必要です。"}
+  ],
+  "qa": [
+    {"question": "転入届はオンラインだけで済みますか", "answer": "済みません。マイナポータルの引っ越しワンストップサービスで来庁予約はできますが、転入届そのものは必ず窓口での手続きが必要です。前住所地の転出証明書と本人確認書類を持参してください。"},
+    {"question": "水道はいつまでに手続きすればいいですか", "answer": "使用開始日の前日まで（土日祝・年末年始を除く）に給水届の提出が必要です。詳しくは<a href=\"/life/start-living/water-start-stop-fees/\">水道の使用開始・中止のページ</a>をご覧ください。"}
+  ],
+  "tabs": [
+    {"id": "type-checklist", "label": "手続きの順番を知りたい", "heading": "転入届→マイナンバー→水道→ごみ→犬の順に", "bullets": ["転入届（14日以内、来庁必須）をまず済ませる", "マイナンバーカードの住所変更もあわせて行う", "水道開始届・ごみ分別確認・犬の登録も忘れずに"], "actions": [{"label": "転入届を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2901.html", "source": "森町公式"}, {"label": "引越・新生活ページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/morimachiyakuba/hikkoshi_shinseikatsu/index.html", "source": "森町公式"}]},
+    {"id": "type-mynumber", "label": "マイナンバーカードがある", "heading": "ワンストップサービスを活用", "bullets": ["マイナポータルから転入の来庁予約ができる", "実際の届出は窓口での手続きが必須", "予約すれば当日の待ち時間短縮につながる"], "actions": [{"label": "引っ越しワンストップサービスを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/4873.html", "source": "森町公式"}, {"label": "マイナンバーカードの手続きを見る", "href": "/life/start-living/mynumber/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+    "today": ["前住所地の転出証明書と本人確認書類を確認する", "住民生活課住民係（0538-85-6312）で転入届を提出する"], "this_week": ["水道の使用開始届を上下水道課へ提出する", "ごみの分別表を入手して確認する"], "outside": ["犬を飼っている場合は登録手続きを行う"]
+  },
+  "action_grid": [
+    {"label": "転入届を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2901.html"},
+    {"label": "水道の開始届を見る", "href": "/life/start-living/water-start-stop-fees/"},
+    {"label": "マイナンバーカードの手続きを見る", "href": "/life/start-living/mynumber/"},
+    {"label": "住民生活課に電話する", "href": "tel:0538-85-6312"}
+  ]
+ },
+ {
+  "href": "/life/start-living/moving-address-change/",
+  "lead": "森町での住所変更は、転入・転居・転出のいずれも14日以内が基本の期限です。転入・転居は必ず来庁が必要ですが、転出は郵送でも届け出られます。",
+  "note": "マイナンバーカード保有者は引っ越しワンストップサービスでマイナポータルから転出手続きと転入の来庁予約を同時に行えます。ただし転入・転居の手続き自体は窓口が必須です。",
+  "real_cards": [
+    {"icon": "📥", "title": "転入・転居は来庁必須", "body": "町内での引っ越し（転居）も、他市区町村からの転入も、必ず来庁して手続きします。転居は引っ越し完了日から14日以内、転入も同様に14日以内です。"},
+    {"icon": "📮", "title": "転出は郵送もOK", "body": "他市区町村へ引っ越す場合の転出届は、住民生活課住民係宛に郵送で提出できます。引っ越し予定日の14日前から届出が可能です。"},
+    {"icon": "📱", "title": "ワンストップは予約のみ", "body": "マイナポータルの引っ越しワンストップサービスでは転出手続きと転入の来庁予約が同時にできますが、転入・転居本体の手続きは窓口で行う必要があります。"}
+  ],
+  "qa": [
+    {"question": "転出届はどうやって郵送しますか", "answer": "転出届（住民異動届）に本人確認書類の写し、返信用封筒などを添えて、〒437-0293 静岡県周智郡森町森2101-1 住民生活課住民係宛に郵送してください。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html\" target=\"_blank\" rel=\"noopener\">森町公式の転出届ページ</a>をご確認ください。"},
+    {"question": "町内で引っ越しました。何が必要ですか", "answer": "転居届が必要です。引っ越しが完了した日から14日以内に、本人確認書類やマイナンバーカードなどを持って必ず来庁してください。マイナポータルで来庁予約のみ可能です。"}
+  ],
+  "tabs": [
+    {"id": "type-in", "label": "他の市区町村から転入", "heading": "転入届は来庁で14日以内に", "bullets": ["前住所地の転出証明書と本人確認書類が必要", "引っ越し完了日から14日以内に来庁", "ワンストップサービスで来庁予約が可能"], "actions": [{"label": "転入届を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2901.html", "source": "森町公式"}]},
+    {"id": "type-out", "label": "他の市区町村へ転出", "heading": "転出届は郵送も可能", "bullets": ["引っ越し予定日の14日前から届出可能", "郵送の場合は本人確認書類の写し等を同封", "連絡がつく電話番号の記載が必要"], "actions": [{"label": "転出届を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html", "source": "森町公式"}]},
+    {"id": "type-within", "label": "森町内で引っ越し", "heading": "転居届も来庁必須", "bullets": ["引っ越し完了日から14日以内", "必ず来庁して手続きする", "国民健康保険等の関連書類も持参"], "actions": [{"label": "転居届を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2903.html", "source": "森町公式"}]}
+  ],
+  "steps": {
+    "today": ["自分がどの届出（転入・転居・転出）に該当するか確認する"], "this_week": ["必要書類を揃えて窓口へ行く、または転出は郵送で届け出る"], "outside": ["マイナンバーカードの住所変更もあわせて行う"]
+  },
+  "action_grid": [
+    {"label": "転入届を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2901.html"},
+    {"label": "転出届を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html"},
+    {"label": "転居届を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2903.html"},
+    {"label": "住民生活課に電話する", "href": "tel:0538-85-6312"}
+  ]
+ },
+ {
+  "href": "/life/start-living/mynumber/",
+  "lead": "マイナンバーカードは郵送・オンライン・窓口タブレットの3通りで申請でき、受け取りは交付通知書と本人確認書類を持って来庁します。水曜は19時まで窓口が開いています。",
+  "note": "代理人による受け取りは原則できません。75歳以上や中学生以下、要介護認定者など「やむを得ない事由」がある場合に限り、証明書類とあわせて代理人交付が認められます。",
+  "real_cards": [
+    {"icon": "📱", "title": "申請は3通り", "body": "郵送・オンライン（スマホで顔写真撮影）・窓口タブレットの3種類から選べます。窓口タブレット申請は1人5～10分ほどかかります。"},
+    {"icon": "🕖", "title": "水曜は19時まで", "body": "住民生活課住民係の窓口は月・火・木・金が8:30-17:15、水曜のみ8:30-19:00です。仕事帰りに手続きしたい方は水曜が狙い目です。"},
+    {"icon": "🪪", "title": "受け取りは原則本人", "body": "交付通知書（ハガキ）と本人確認書類を持参して来庁します。代理人受け取りは原則できませんが、75歳以上・要介護認定者・障害のある方など特定の事情がある場合は例外的に認められます。"}
+  ],
+  "qa": [
+    {"question": "代理人に受け取ってもらえますか", "answer": "原則できません。ただし75歳以上の方、中学生以下、長期入院・施設入居者、要介護・要支援認定者、障害のある方、妊婦などの事情がある場合に限り、来庁困難を証明する書類（診断書・介護保険証等）を添えて代理人交付が可能です。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/4286.html\" target=\"_blank\" rel=\"noopener\">森町公式の代理人交付ページ</a>をご確認ください。"},
+    {"question": "平日は仕事で行けません", "answer": "水曜のみ8:30-19:00まで窓口が開いています。それ以外の曜日で来庁が難しい場合は、住民生活課住民係（0538-85-6312）にご相談ください。"}
+  ],
+  "tabs": [
+    {"id": "type-apply", "label": "これから申請する", "heading": "申請方法を選ぶ", "bullets": ["郵送・オンライン・窓口タブレットの3種類から選べる", "窓口タブレットはその場で1人5～10分程度", "受け取りは交付通知書が届いてから来庁"], "actions": [{"label": "交付までの手続きを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/572.html", "source": "森町公式"}]},
+    {"id": "type-pickup", "label": "受け取りに行きたい", "heading": "水曜なら夜も対応", "bullets": ["交付通知書（ハガキ）と本人確認書類を持参", "水曜は8:30-19:00まで窓口対応", "代理人受け取りは原則不可"], "actions": [{"label": "代理人交付について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/4286.html", "source": "森町公式"}, {"label": "住民生活課に電話する", "href": "tel:0538-85-6312", "source": "0538-85-6312"}]}
+  ],
+  "steps": {
+    "today": ["申請方法（郵送・オンライン・窓口）を決める"], "this_week": ["必要書類をそろえて申請する", "交付通知書が届いたら受け取り日を決める"], "outside": ["代理人受け取りが必要な場合は事前に証明書類を準備する"]
+  },
+  "action_grid": [
+    {"label": "交付までの手続きを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/572.html"},
+    {"label": "代理人交付について見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/4286.html"},
+    {"label": "住民生活課に電話する", "href": "tel:0538-85-6312"},
+    {"label": "証明書の取り方を見る", "href": "/life/start-living/certificates/"}
+  ]
+ },
+ {
+  "href": "/life/start-living/pets-lost-animals/",
+  "lead": "犬や猫がいなくなったら、住民生活課生活環境係・静岡県西部保健所・袋井警察署森分庁舎の3か所へ連絡しましょう。鑑札や連絡先を首輪に付けておくと発見時にスムーズです。",
+  "note": "見つかった場合は、連絡した機関へ改めて連絡してください。連絡しっぱなしにすると情報が残り続けてしまいます。",
+  "real_cards": [
+    {"icon": "📞", "title": "3か所に連絡する", "body": "森町住民生活課生活環境係（0538-85-6314）、静岡県西部保健所衛生薬務課（0538-37-2245）、袋井警察署森分庁舎（0538-85-0110）の3か所へ連絡しましょう。"},
+    {"icon": "🏷️", "title": "鑑札で身元がわかる", "body": "首輪に鑑札・狂犬病予防注射済票・連絡先を付けておくと、保護されたときに飼い主の確認がスムーズに進みます。日頃から着けておくことが大切です。"},
+    {"icon": "✅", "title": "見つかったら再連絡", "body": "無事に見つかった場合は、連絡した各機関へその旨を再度連絡してください。情報が残ったままだと混乱のもとになります。"}
+  ],
+  "qa": [
+    {"question": "猫がいなくなった場合も同じ連絡先でいいですか", "answer": "はい、同様に住民生活課生活環境係・静岡県西部保健所・袋井警察署森分庁舎へ連絡してください。猫の飼い方については<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4304.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>もご参照ください。"},
+    {"question": "鑑札を付けていないと見つかりにくいですか", "answer": "鑑札・注射済票・連絡先が首輪に付いていれば、保護された際に飼い主の特定が早くなります。まだ付けていない場合は<a href=\"/life/start-living/dog-registration/\">犬の登録のページ</a>もご確認のうえ早めに準備してください。"}
+  ],
+  "tabs": [
+    {"id": "type-lost", "label": "いなくなってしまった", "heading": "3か所へすぐ連絡する", "bullets": ["住民生活課生活環境係（0538-85-6314）", "静岡県西部保健所衛生薬務課（0538-37-2245）", "袋井警察署森分庁舎（0538-85-0110）"], "actions": [{"label": "生活環境係に電話する", "href": "tel:0538-85-6314", "source": "0538-85-6314"}, {"label": "西部保健所に電話する", "href": "tel:0538-37-2245", "source": "0538-37-2245"}, {"label": "袋井警察署森分庁舎に電話する", "href": "tel:0538-85-0110", "source": "0538-85-0110"}]},
+    {"id": "type-prevent", "label": "事前に備えたい", "heading": "鑑札・連絡先を準備する", "bullets": ["犬の登録・注射済票を済ませておく", "首輪に鑑札・連絡先を付けておく", "猫も室内飼いと名札の準備を"], "actions": [{"label": "犬の登録について見る", "href": "/life/start-living/dog-registration/", "source": "森町ライフハック"}, {"label": "猫の飼い方を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4304.html", "source": "森町公式"}]}
+  ],
+  "steps": {
+    "today": ["住民生活課生活環境係・西部保健所・袋井警察署森分庁舎の3か所に連絡する"], "this_week": ["近隣にも聞き込みをして情報を集める"], "outside": ["見つかった場合は連絡した各機関へ再度連絡する"]
+  },
+  "action_grid": [
+    {"label": "生活環境係に電話する", "href": "tel:0538-85-6314"},
+    {"label": "西部保健所に電話する", "href": "tel:0538-37-2245"},
+    {"label": "袋井警察署森分庁舎に電話する", "href": "tel:0538-85-0110"},
+    {"label": "犬の登録について見る", "href": "/life/start-living/dog-registration/"}
+  ]
+ },
+ {
+  "href": "/life/start-living/public-transit/",
+  "lead": "森町の公共交通は、町営バス（大河内線・吉川線）と天竜浜名湖鉄道、秋葉バスサービス、タクシーを組み合わせて使います。行き先に応じて使い分けましょう。",
+  "note": "町営バスはどちらの路線も予約が必要な便があります。利用前に時刻表で確認しておくと安心です。",
+  "real_cards": [
+    {"icon": "🚌", "title": "町営バスは2路線", "body": "森町営バスは「大河内線」「吉川線」の2路線です。どなたでも利用でき、距離に応じた段階的な運賃が設定されています。便によっては事前予約が必要です。"},
+    {"icon": "🚃", "title": "鉄道は天竜浜名湖鉄道", "body": "鉄道を利用する場合は天竜浜名湖鉄道が案内されています。路線・駅情報や運賃・時刻表は鉄道会社のサイトで確認できます。"},
+    {"icon": "🚕", "title": "民間バス・タクシーも選択肢", "body": "民間路線バスは秋葉バスサービス、タクシーは静岡県タクシー協会が案内窓口です。町営バスの運行時間外はこちらの利用も検討しましょう。"}
+  ],
+  "qa": [
+    {"question": "町営バスは誰でも乗れますか", "answer": "はい、どなたでも利用できます。大河内線・吉川線の2路線があり、運賃は距離に応じた段階制です。便によっては事前予約が必要なので、<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/418.html\" target=\"_blank\" rel=\"noopener\">森町公式の町営バス案内</a>で時刻表を確認してください。"},
+    {"question": "町営バスが走っていない時間帯や区間はどうすればいいですか", "answer": "天竜浜名湖鉄道や秋葉バスサービスの路線バス、タクシーも選択肢になります。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/420.html\" target=\"_blank\" rel=\"noopener\">鉄道・民間路線バス・タクシーのリンク集</a>をご確認ください。"}
+  ],
+  "tabs": [
+    {"id": "type-bus", "label": "町営バスを使いたい", "heading": "大河内線・吉川線を確認", "bullets": ["2路線とも誰でも利用できる", "運賃は距離に応じた段階制", "予約が必要な便があるので事前確認を"], "actions": [{"label": "町営バスのご案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/418.html", "source": "森町公式"}, {"label": "政策企画課に電話する", "href": "tel:0538-85-6305", "source": "0538-85-6305"}]},
+    {"id": "type-other", "label": "鉄道・バス・タクシーを使いたい", "heading": "他の交通手段を確認", "bullets": ["天竜浜名湖鉄道の路線・時刻表を確認する", "秋葉バスサービスの民間路線バスも利用可", "タクシーは静岡県タクシー協会の案内を参照"], "actions": [{"label": "鉄道・バス・タクシーのリンク集を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/420.html", "source": "森町公式"}]}
+  ],
+  "steps": {
+    "today": ["行き先・時間帯に合う交通手段を確認する"], "this_week": ["町営バスなら時刻表と予約要否を確認する"], "outside": ["定期的に利用するなら乗車券の情報もあわせて確認する"]
+  },
+  "action_grid": [
+    {"label": "町営バスのご案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/418.html"},
+    {"label": "鉄道・バス・タクシーのリンク集を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/420.html"},
+    {"label": "政策企画課に電話する", "href": "tel:0538-85-6305"}
+  ]
+ },
+ {
+  "href": "/life/start-living/resident-registration/",
+  "lead": "住民票を急ぎで手に入れたいときは、マイナンバーカードによるコンビニ交付が便利です。毎日6:30-23:00利用でき、料金は200円と窓口より安くなります。",
+  "note": "水曜は17:15-19:00の時間外窓口でも窓口交付（300円）が可能です。カードがない方はこちらを利用してください。",
+  "real_cards": [
+    {"icon": "🏪", "title": "コンビニなら朝早くから夜遅くまで", "body": "マイナンバーカード（利用者証明用電子証明書搭載）と暗証番号があれば、全国のコンビニで毎日6:30-23:00に住民票を取得できます。料金は200円です。"},
+    {"icon": "🕖", "title": "水曜は19時まで窓口対応", "body": "窓口交付は月～金8:30-17:15が基本ですが、水曜のみ17:15-19:00の時間外窓口でも交付を受けられます。料金は300円です。"},
+    {"icon": "🪪", "title": "本人確認書類を忘れずに", "body": "窓口での申請にはA群書類（運転免許証・マイナンバーカード等）1点、またはB群書類（健康保険証等）2点の本人確認書類が必要です。"}
+  ],
+  "qa": [
+    {"question": "今すぐ住民票が必要です。どうすればいいですか", "answer": "マイナンバーカードがあれば、最寄りのコンビニで毎日6:30-23:00（年末年始・メンテナンス日除く）に200円で取得できます。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html\" target=\"_blank\" rel=\"noopener\">森町公式のコンビニ交付ページ</a>をご確認ください。"},
+    {"question": "カードがなく平日も行けません", "answer": "水曜のみ17:15-19:00の時間外窓口が利用できます。本人確認書類を持参のうえ、住民生活課住民係（0538-85-6312）へお越しください。"}
+  ],
+  "tabs": [
+    {"id": "type-convenience", "label": "コンビニで急ぎ取得", "heading": "マイナンバーカードで200円", "bullets": ["毎日6:30-23:00利用可（年末年始・メンテナンス日除く）", "料金は200円で窓口より安い", "利用者証明用電子証明書と暗証番号が必要"], "actions": [{"label": "コンビニ交付を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html", "source": "森町公式"}]},
+    {"id": "type-window", "label": "窓口で取得したい", "heading": "水曜なら夜も対応", "bullets": ["平日8:30-17:15が基本の窓口時間", "水曜のみ17:15-19:00の時間外窓口も利用可", "本人確認書類を忘れずに持参する"], "actions": [{"label": "住民票の申請方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html", "source": "森町公式"}, {"label": "水曜時間外窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html", "source": "森町公式"}]}
+  ],
+  "steps": {
+    "today": ["マイナンバーカードの有無を確認する"], "this_week": ["コンビニまたは窓口・時間外窓口で住民票を取得する"], "outside": []
+  },
+  "action_grid": [
+    {"label": "コンビニ交付を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html"},
+    {"label": "住民票の申請方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html"},
+    {"label": "水曜時間外窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html"},
+    {"label": "住民生活課に電話する", "href": "tel:0538-85-6312"}
+  ]
+ },
+ {
+  "href": "/life/start-living/water-sewer/",
+  "lead": "森町の下水道料金は、基本料金月1,000円（0～10立方メートル）に加え、使用量に応じた段階制の超過料金がかかる仕組みです。使用量が増えるほど単価も上がります。",
+  "note": "水道は上水道管理係（0538-85-6326）、下水道は下水道管理係（0538-85-6327）と担当が分かれています。用件に応じて連絡先を使い分けましょう。",
+  "real_cards": [
+    {"icon": "💧", "title": "基本料金は月1,000円から", "body": "下水道使用料は0～10立方メートルまでが基本料金1,000円です。それを超えると使用量に応じて段階的に単価が上がっていきます。"},
+    {"icon": "📈", "title": "使うほど単価が上がる", "body": "11～40立方メートルは1立方メートル100円、41～100立方メートルは110円と段階的に上昇し、500立方メートルを超えると140円になります。"},
+    {"icon": "🔧", "title": "漏水は原則自己負担", "body": "宅地内で発生した漏水による水道料金は、原則として使用者の負担です。ただし地下埋設部分など発見が難しい漏水は、条件を満たせば減免を申請できます。"}
+  ],
+  "qa": [
+    {"question": "水道の使用量が急に増えました。漏水でしょうか", "answer": "すべての蛇口を閉めた状態で水道メーターのパイロット（小さな回転部分）が動いていれば漏水の可能性があります。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html\" target=\"_blank\" rel=\"noopener\">森町公式の漏水確認ページ</a>をご覧のうえ、上水道管理係（0538-85-6326）にご相談ください。"},
+    {"question": "漏水の水道料金は減免されますか", "answer": "地下埋設部分や壁内・床下など発見が困難な箇所の漏水で、町指定の給水装置工事事業者が修理した場合に限り、条件付きで減免制度が利用できます。露出配管の漏水などは対象外です。"}
+  ],
+  "tabs": [
+    {"id": "type-fee", "label": "料金の仕組みを知りたい", "heading": "基本料金と段階制超過料金", "bullets": ["基本料金は月1,000円（0～10立方メートル）", "使用量に応じて単価が段階的に上昇する", "詳しい料金表は下水道管理係で確認できる"], "actions": [{"label": "下水道使用料を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/gesuidokanrigakari/1/1/394.html", "source": "森町公式"}]},
+    {"id": "type-leak", "label": "漏水が心配", "heading": "パイロットを確認する", "bullets": ["蛇口を全部閉めてパイロットの動きを確認", "宅地内の漏水は原則自己負担", "発見困難な漏水は条件付きで減免申請できる"], "actions": [{"label": "漏水の見つけ方・減免を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html", "source": "森町公式"}, {"label": "上水道管理係に電話する", "href": "tel:0538-85-6326", "source": "0538-85-6326"}]}
+  ],
+  "steps": {
+    "today": ["水道メーターのパイロットで漏水の有無を確認する"], "this_week": ["料金の仕組みを確認し、必要なら上下水道課に相談する"], "outside": ["減免を申請する場合は町指定業者に修理を依頼する"]
+  },
+  "action_grid": [
+    {"label": "下水道使用料を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/gesuidokanrigakari/1/1/394.html"},
+    {"label": "漏水の見つけ方・減免を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html"},
+    {"label": "上水道管理係に電話する", "href": "tel:0538-85-6326"},
+    {"label": "下水道管理係に電話する", "href": "tel:0538-85-6327"}
+  ]
+ },
+ {
+  "href": "/life/start-living/water-start-stop-fees/",
+  "lead": "水道の使用開始・中止は、閉開栓日の前日まで（土日祝除く）に「給水届」の提出が必要です。届出がないと使用量ゼロでも基本料金が発生し続けるので早めに手続きしましょう。",
+  "note": "届出は窓口持参のほか、FAX（0538-85-6339）や郵送でも受け付けています。様式は森町公式サイトからダウンロードできます。",
+  "real_cards": [
+    {"icon": "📝", "title": "給水届の提出が必須", "body": "電話やウェブでの受付はできず、所定の様式「給水届」の提出が必要です。届出方法は窓口・FAX（0538-85-6339）・郵送の3種類から選べます。"},
+    {"icon": "⏰", "title": "期限は前日まで", "body": "届出期限は開栓・閉栓予定日の前日（土日祝・年末年始を除く）です。期限を過ぎると不利益が生じることがあるため、余裕をもって提出しましょう。"},
+    {"icon": "💰", "title": "届出なしは基本料金が発生", "body": "使用開始・中止の届出をしないと、使用水量がゼロでも基本料金が発生し続けます。引っ越しの前後は忘れずに手続きしてください。"}
+  ],
+  "qa": [
+    {"question": "給水届はどこで手に入りますか", "answer": "森町公式サイトから様式をダウンロードできるほか、上下水道課の窓口でも受け取れます。提出は窓口持参・FAX（0538-85-6339）・郵送のいずれかで、詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/668.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>をご確認ください。"},
+    {"question": "引っ越しで水道を止めたいのですが、期限はいつまでですか", "answer": "閉栓予定日の前日まで（土日祝・年末年始を除く）に届出が必要です。一度廃止すると再利用時は新規扱いになり加入金が必要になる場合があるため、再入居予定がある場合は上水道管理係（0538-85-6326）にご相談ください。"}
+  ],
+  "tabs": [
+    {"id": "type-start", "label": "使用を開始したい", "heading": "開栓の前日までに届け出る", "bullets": ["給水届を窓口・FAX・郵送のいずれかで提出する", "開栓予定日の前日（土日祝除く）が期限", "届出がないと基本料金が発生し続ける"], "actions": [{"label": "水道の開始・廃止の届出を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/668.html", "source": "森町公式"}, {"label": "上水道管理係に電話する", "href": "tel:0538-85-6326", "source": "0538-85-6326"}]},
+    {"id": "type-stop", "label": "使用を中止したい", "heading": "閉栓の前日までに届け出る", "bullets": ["引っ越しで町外に出る場合は閉栓届を提出する", "閉栓予定日の前日（土日祝除く）が期限", "郵送先は〒437-0293 静岡県周智郡森町森2101-1 上下水道課"], "actions": [{"label": "水道の開始・廃止の届出を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/668.html", "source": "森町公式"}, {"label": "水道・下水道料金の仕組みを見る", "href": "/life/start-living/water-sewer/", "source": "森町ライフハック"}]}
+  ],
+  "steps": {
+    "today": ["開栓・閉栓予定日を確認する"], "this_week": ["給水届を用意し、前日までに窓口・FAX・郵送で提出する"], "outside": ["再入居予定がある場合は加入金の扱いを上水道管理係に確認する"]
+  },
+  "action_grid": [
+    {"label": "水道の開始・廃止の届出を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/668.html"},
+    {"label": "水道・下水道料金の仕組みを見る", "href": "/life/start-living/water-sewer/"},
+    {"label": "上水道管理係に電話する", "href": "tel:0538-85-6326"}
+  ]
+ }
+]
