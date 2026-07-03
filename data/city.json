@@ -1,0 +1,26 @@
+{
+ "city_id": "morimachi",
+ "city_name": "森町",
+ "site_name": "森町ライフハック",
+ "site_url": "https://morimachi.enshu-lifehack.com",
+ "official": {
+  "domain": "www.town.morimachi.shizuoka.jp",
+  "top": "https://www.town.morimachi.shizuoka.jp/",
+  "hall_name": "森町役場",
+  "hall_address": "〒437-0293 静岡県周智郡森町森2101-1",
+  "hall_tel": "0538-85-2111",
+  "branches": [],
+  "tetsuduki_navi": "https://www.town.morimachi.shizuoka.jp/gyosei/index.html",
+  "fire_emergency": "袋井市森町広域行政組合消防本部（消防・救急は袋井市と共同運営）。119番通報の指令業務は中東遠消防指令センター（掛川市）が磐田・掛川・袋井・森町・菊川・御前崎で共同運用"
+ },
+ "cv": {
+  "kaigo_lead": true,
+  "fudosan_link": true,
+  "monogatari_link": true,
+  "context_links": true
+ },
+ "notes": [
+  "静岡県周智郡に属する町（市ではなく町）。人口規模は遠州ライフハック展開先の中で最小クラス",
+  "袋井市と消防・救急を共同運営（袋井市森町広域行政組合）。介護CVリード対象（磐田・袋井・掛川と同様）"
+ ]
+}
