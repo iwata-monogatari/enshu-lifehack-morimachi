@@ -1,0 +1,801 @@
+{
+ "categories": [
+  {
+   "id": "living-soon",
+   "emoji": "🏡",
+   "title": "これから暮らす",
+   "description": "移住・引っ越し前に確認したいこと（7項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/living-soon/",
+   "items": [
+    {
+     "id": "about-morimachi",
+     "label": "森町で暮らす前に",
+     "url": "https://morimachi.enshu-lifehack.com/life/living-soon/about-morimachi/"
+    },
+    {
+     "id": "bus-license-return",
+     "label": "運転免許を返したあとも",
+     "url": "https://morimachi.enshu-lifehack.com/life/living-soon/bus-license-return/"
+    },
+    {
+     "id": "disaster-risk",
+     "label": "引っ越す前に",
+     "url": "https://morimachi.enshu-lifehack.com/life/living-soon/disaster-risk/"
+    },
+    {
+     "id": "moving-decided",
+     "label": "引っ越しが決まったら",
+     "url": "https://morimachi.enshu-lifehack.com/life/living-soon/moving-decided/"
+    },
+    {
+     "id": "school-districts",
+     "label": "引っ越し先で",
+     "url": "https://morimachi.enshu-lifehack.com/life/living-soon/school-districts/"
+    },
+    {
+     "id": "transportation",
+     "label": "住む地区を決める前に",
+     "url": "https://morimachi.enshu-lifehack.com/life/living-soon/transportation/"
+    },
+    {
+     "id": "want-to-live",
+     "label": "自然に囲まれた広い家で",
+     "url": "https://morimachi.enshu-lifehack.com/life/living-soon/want-to-live/"
+    }
+   ]
+  },
+  {
+   "id": "start-living",
+   "emoji": "🧭",
+   "title": "暮らし始めた",
+   "description": "転入直後の手続き・証明書・ごみ・水道（15項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/start-living/",
+   "items": [
+    {
+     "id": "bulky-garbage-dropoff",
+     "label": "森町で粗大ごみを出す",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/bulky-garbage-dropoff/"
+    },
+    {
+     "id": "certificates",
+     "label": "森町で住民票・戸籍・印鑑証明を最短で受け取る",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/certificates/"
+    },
+    {
+     "id": "city-hall-branches",
+     "label": "森町の役場窓口は本庁舎1か所",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/city-hall-branches/"
+    },
+    {
+     "id": "dog-registration",
+     "label": "森町で犬の登録と鑑札交付を済ませる",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/dog-registration/"
+    },
+    {
+     "id": "dog-registration-rabies",
+     "label": "森町の狂犬病予防注射は毎年義務",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/dog-registration-rabies/"
+    },
+    {
+     "id": "garbage-sorting-calendar",
+     "label": "森町のごみ分別表・収集日カレンダーを確認する",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/garbage-sorting-calendar/"
+    },
+    {
+     "id": "how-to-garbage",
+     "label": "森町の家庭ごみの出し方",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/how-to-garbage/"
+    },
+    {
+     "id": "moved-in",
+     "label": "森町に引っ越してきたら",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/moved-in/"
+    },
+    {
+     "id": "moving-address-change",
+     "label": "森町での住所変更",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/moving-address-change/"
+    },
+    {
+     "id": "mynumber",
+     "label": "森町でマイナンバーカードを申請から受け取りまで進める",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/mynumber/"
+    },
+    {
+     "id": "pets-lost-animals",
+     "label": "森町で犬や猫がいなくなったら",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/pets-lost-animals/"
+    },
+    {
+     "id": "public-transit",
+     "label": "森町の公共交通",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/public-transit/"
+    },
+    {
+     "id": "resident-registration",
+     "label": "森町で住民票を急ぎで手に入れる",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/resident-registration/"
+    },
+    {
+     "id": "water-sewer",
+     "label": "森町の水道・下水道料金の仕組み",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/water-sewer/"
+    },
+    {
+     "id": "water-start-stop-fees",
+     "label": "森町で水道の使用開始・中止を届け出る",
+     "url": "https://morimachi.enshu-lifehack.com/life/start-living/water-start-stop-fees/"
+    }
+   ]
+  },
+  {
+   "id": "housing",
+   "emoji": "🏠",
+   "title": "家・住まい",
+   "description": "住宅・空き家・固定資産税（10項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/housing/",
+   "items": [
+    {
+     "id": "build-house",
+     "label": "森町で家を建てる前に",
+     "url": "https://morimachi.enshu-lifehack.com/life/housing/build-house/"
+    },
+    {
+     "id": "buy-house",
+     "label": "森町で家を買う前に",
+     "url": "https://morimachi.enshu-lifehack.com/life/housing/buy-house/"
+    },
+    {
+     "id": "clean-parents-house",
+     "label": "森町で親の家を片付けるとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/housing/clean-parents-house/"
+    },
+    {
+     "id": "earthquake-demolition",
+     "label": "森町の耐震・解体",
+     "url": "https://morimachi.enshu-lifehack.com/life/housing/earthquake-demolition/"
+    },
+    {
+     "id": "municipal-housing",
+     "label": "森町の町営住宅",
+     "url": "https://morimachi.enshu-lifehack.com/life/housing/municipal-housing/"
+    },
+    {
+     "id": "property-tax",
+     "label": "森町の土地・家屋の税金",
+     "url": "https://morimachi.enshu-lifehack.com/life/housing/property-tax/"
+    },
+    {
+     "id": "public-housing-consultation",
+     "label": "森町で住まいに困ったら",
+     "url": "https://morimachi.enshu-lifehack.com/life/housing/public-housing-consultation/"
+    },
+    {
+     "id": "rent-house",
+     "label": "森町で賃貸を探すなら",
+     "url": "https://morimachi.enshu-lifehack.com/life/housing/rent-house/"
+    },
+    {
+     "id": "sell-house",
+     "label": "森町で家を売る前に",
+     "url": "https://morimachi.enshu-lifehack.com/life/housing/sell-house/"
+    },
+    {
+     "id": "vacant-house",
+     "label": "森町の空き家",
+     "url": "https://morimachi.enshu-lifehack.com/life/housing/vacant-house/"
+    }
+   ]
+  },
+  {
+   "id": "family-grow",
+   "emoji": "👶",
+   "title": "家族が増える",
+   "description": "妊娠・出産・子育て支援（12項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/family-grow/",
+   "items": [
+    {
+     "id": "child-allowance",
+     "label": "児童手当を",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/child-allowance/"
+    },
+    {
+     "id": "child-allowance-medical",
+     "label": "出生や転入のあと",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/child-allowance-medical/"
+    },
+    {
+     "id": "child-vaccination",
+     "label": "子どもの予防接種",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/child-vaccination/"
+    },
+    {
+     "id": "childbirth",
+     "label": "赤ちゃんが生まれたら",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/childbirth/"
+    },
+    {
+     "id": "developmental-support",
+     "label": "子どもの発達が気になったら",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/developmental-support/"
+    },
+    {
+     "id": "infant-health-check",
+     "label": "乳幼児健診の案内を見落とさず",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/infant-health-check/"
+    },
+    {
+     "id": "marriage",
+     "label": "婚姻届を出す日と",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/marriage/"
+    },
+    {
+     "id": "nursery-childcare",
+     "label": "保育園の入所申込みと病児・病後児保育を",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/nursery-childcare/"
+    },
+    {
+     "id": "nursery-school",
+     "label": "幼稚園・保育園を",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/nursery-school/"
+    },
+    {
+     "id": "parenting-support",
+     "label": "子育てで迷ったら",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/parenting-support/"
+    },
+    {
+     "id": "pregnancy",
+     "label": "妊娠がわかったら",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/pregnancy/"
+    },
+    {
+     "id": "single-parent-support",
+     "label": "ひとり親家庭の児童扶養手当・医療費助成を",
+     "url": "https://morimachi.enshu-lifehack.com/life/family-grow/single-parent-support/"
+    }
+   ]
+  },
+  {
+   "id": "play-out",
+   "emoji": "🌳",
+   "title": "遊ぶ・使う・出かける",
+   "description": "公園・図書館・スポーツ施設（9項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/play-out/",
+   "items": [
+    {
+     "id": "cultural-facilities",
+     "label": "文化施設",
+     "url": "https://morimachi.enshu-lifehack.com/life/play-out/cultural-facilities/"
+    },
+    {
+     "id": "facilities-library-parks",
+     "label": "公共施設",
+     "url": "https://morimachi.enshu-lifehack.com/life/play-out/facilities-library-parks/"
+    },
+    {
+     "id": "find-parks",
+     "label": "公園",
+     "url": "https://morimachi.enshu-lifehack.com/life/play-out/find-parks/"
+    },
+    {
+     "id": "kids-playgrounds",
+     "label": "子どもの遊び場",
+     "url": "https://morimachi.enshu-lifehack.com/life/play-out/kids-playgrounds/"
+    },
+    {
+     "id": "parking-access",
+     "label": "出発前に",
+     "url": "https://morimachi.enshu-lifehack.com/life/play-out/parking-access/"
+    },
+    {
+     "id": "rent-public-facilities",
+     "label": "公共施設を借りる前に",
+     "url": "https://morimachi.enshu-lifehack.com/life/play-out/rent-public-facilities/"
+    },
+    {
+     "id": "sports-facilities",
+     "label": "スポーツ施設",
+     "url": "https://morimachi.enshu-lifehack.com/life/play-out/sports-facilities/"
+    },
+    {
+     "id": "swimming-pools",
+     "label": "プール",
+     "url": "https://morimachi.enshu-lifehack.com/life/play-out/swimming-pools/"
+    },
+    {
+     "id": "visit-library",
+     "label": "図書館へ行く前に",
+     "url": "https://morimachi.enshu-lifehack.com/life/play-out/visit-library/"
+    }
+   ]
+  },
+  {
+   "id": "education",
+   "emoji": "🎒",
+   "title": "学ぶ・育つ",
+   "description": "学校・学区・教育相談（9項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/education/",
+   "items": [
+    {
+     "id": "after-school-club",
+     "label": "森町の放課後児童クラブ",
+     "url": "https://morimachi.enshu-lifehack.com/life/education/after-school-club/"
+    },
+    {
+     "id": "educational-consulting",
+     "label": "森町の教育相談",
+     "url": "https://morimachi.enshu-lifehack.com/life/education/educational-consulting/"
+    },
+    {
+     "id": "elementary-middle-school",
+     "label": "森町の小中学校は5校",
+     "url": "https://morimachi.enshu-lifehack.com/life/education/elementary-middle-school/"
+    },
+    {
+     "id": "school-attendance-support",
+     "label": "就学の不安",
+     "url": "https://morimachi.enshu-lifehack.com/life/education/school-attendance-support/"
+    },
+    {
+     "id": "school-district-transfer",
+     "label": "転校",
+     "url": "https://morimachi.enshu-lifehack.com/life/education/school-district-transfer/"
+    },
+    {
+     "id": "school-expense-support",
+     "label": "学校費用の不安",
+     "url": "https://morimachi.enshu-lifehack.com/life/education/school-expense-support/"
+    },
+    {
+     "id": "school-meals",
+     "label": "学校給食",
+     "url": "https://morimachi.enshu-lifehack.com/life/education/school-meals/"
+    },
+    {
+     "id": "school-zones",
+     "label": "通学区",
+     "url": "https://morimachi.enshu-lifehack.com/life/education/school-zones/"
+    },
+    {
+     "id": "study-facilities",
+     "label": "学習場所",
+     "url": "https://morimachi.enshu-lifehack.com/life/education/study-facilities/"
+    }
+   ]
+  },
+  {
+   "id": "health-medical",
+   "emoji": "🏥",
+   "title": "健康・医療",
+   "description": "検診・医療機関・障がい福祉（12項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/health-medical/",
+   "items": [
+    {
+     "id": "adult-vaccination",
+     "label": "森町のおとなの予防接種",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/adult-vaccination/"
+    },
+    {
+     "id": "cancer-specific-checkups",
+     "label": "森町のがん検診と患者支援制度",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/cancer-specific-checkups/"
+    },
+    {
+     "id": "dental-care",
+     "label": "森町の歯科・口の健康",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/dental-care/"
+    },
+    {
+     "id": "disability-services",
+     "label": "森町の障がい福祉サービス",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/disability-services/"
+    },
+    {
+     "id": "disability-welfare",
+     "label": "森町の障がい者手帳・福祉",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/disability-welfare/"
+    },
+    {
+     "id": "find-hospitals",
+     "label": "森町で医療機関を探すとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/find-hospitals/"
+    },
+    {
+     "id": "health-checkups",
+     "label": "森町の健康診断とがん検診",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/health-checkups/"
+    },
+    {
+     "id": "health-promotion",
+     "label": "森町の健康づくり",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/health-promotion/"
+    },
+    {
+     "id": "holiday-night-emergency-care",
+     "label": "森町の休日夜間の急患",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/holiday-night-emergency-care/"
+    },
+    {
+     "id": "mental-health-consulting",
+     "label": "森町のこころの相談",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/mental-health-consulting/"
+    },
+    {
+     "id": "night-holiday-medical",
+     "label": "森町の夜間・休日の急患",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/night-holiday-medical/"
+    },
+    {
+     "id": "vaccinations",
+     "label": "森町の予防接種",
+     "url": "https://morimachi.enshu-lifehack.com/life/health-medical/vaccinations/"
+    }
+   ]
+  },
+  {
+   "id": "work-life",
+   "emoji": "💴",
+   "title": "働く・暮らす",
+   "description": "税金・国保・就職・起業（14項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/work-life/",
+   "items": [
+    {
+     "id": "city-tax-payment",
+     "label": "森町の町税の納付方法",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/city-tax-payment/"
+    },
+    {
+     "id": "job-change",
+     "label": "森町の就職・転職",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/job-change/"
+    },
+    {
+     "id": "job-recruitment",
+     "label": "森町職員採用情報",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/job-recruitment/"
+    },
+    {
+     "id": "light-vehicle-tax",
+     "label": "森町の軽自動車税",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/light-vehicle-tax/"
+    },
+    {
+     "id": "my-number-card",
+     "label": "森町のマイナンバーカード",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/my-number-card/"
+    },
+    {
+     "id": "national-health-insurance-tax",
+     "label": "森町の国民健康保険税",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/national-health-insurance-tax/"
+    },
+    {
+     "id": "nhk-pension",
+     "label": "森町の国民健康保険・国民年金",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/nhk-pension/"
+    },
+    {
+     "id": "resident-tax",
+     "label": "森町の住民税",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/resident-tax/"
+    },
+    {
+     "id": "start-business",
+     "label": "森町の起業・創業",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/start-business/"
+    },
+    {
+     "id": "start-farming",
+     "label": "森町の就農準備",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/start-farming/"
+    },
+    {
+     "id": "subsidies",
+     "label": "森町の補助金",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/subsidies/"
+    },
+    {
+     "id": "tax",
+     "label": "森町の税金手続き",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/tax/"
+    },
+    {
+     "id": "tax-certificates",
+     "label": "森町の税務証明書",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/tax-certificates/"
+    },
+    {
+     "id": "tax-guide",
+     "label": "森町の税金相談",
+     "url": "https://morimachi.enshu-lifehack.com/life/work-life/tax-guide/"
+    }
+   ]
+  },
+  {
+   "id": "parents-care",
+   "emoji": "👵",
+   "title": "親のこと",
+   "description": "介護認定・地域包括支援センター（9項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/parents-care/",
+   "items": [
+    {
+     "id": "adult-guardianship",
+     "label": "親の判断能力が落ちても",
+     "url": "https://morimachi.enshu-lifehack.com/life/parents-care/adult-guardianship/"
+    },
+    {
+     "id": "care-certification-support-center",
+     "label": "親の介護認定を",
+     "url": "https://morimachi.enshu-lifehack.com/life/parents-care/care-certification-support-center/"
+    },
+    {
+     "id": "care-started",
+     "label": "親の介護が急に始まって",
+     "url": "https://morimachi.enshu-lifehack.com/life/parents-care/care-started/"
+    },
+    {
+     "id": "check-parents",
+     "label": "離れて暮らす親が心配",
+     "url": "https://morimachi.enshu-lifehack.com/life/parents-care/check-parents/"
+    },
+    {
+     "id": "community-support-center",
+     "label": "どこに相談すればいいか分からない介護の悩みを",
+     "url": "https://morimachi.enshu-lifehack.com/life/parents-care/community-support-center/"
+    },
+    {
+     "id": "dementia-consultation",
+     "label": "親が認知症かもしれない",
+     "url": "https://morimachi.enshu-lifehack.com/life/parents-care/dementia-consultation/"
+    },
+    {
+     "id": "elderly-transportation",
+     "label": "通院や買い物に行きづらくなった親の「足」を",
+     "url": "https://morimachi.enshu-lifehack.com/life/parents-care/elderly-transportation/"
+    },
+    {
+     "id": "find-nursing-home",
+     "label": "親の介護施設を",
+     "url": "https://morimachi.enshu-lifehack.com/life/parents-care/find-nursing-home/"
+    },
+    {
+     "id": "long-term-care-insurance",
+     "label": "親の介護が始まったら",
+     "url": "https://morimachi.enshu-lifehack.com/life/parents-care/long-term-care-insurance/"
+    }
+   ]
+  },
+  {
+   "id": "emergency",
+   "emoji": "⚠️",
+   "title": "もしもの時",
+   "description": "防災・避難・り災証明書（11項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/emergency/",
+   "items": [
+    {
+     "id": "disaster-certificates-procedures",
+     "label": "災害にあった後",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/disaster-certificates-procedures/"
+    },
+    {
+     "id": "disaster-mail-line",
+     "label": "災害の知らせを取りこぼさないよう",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/disaster-mail-line/"
+    },
+    {
+     "id": "earthquake",
+     "label": "地震・津波の備えを",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/earthquake/"
+    },
+    {
+     "id": "emergency-medical",
+     "label": "急な病気やけがで迷ったとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/emergency-medical/"
+    },
+    {
+     "id": "evacuation-centers",
+     "label": "いざというとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/evacuation-centers/"
+    },
+    {
+     "id": "evacuation-hazard-map",
+     "label": "「いつ・どこへ逃げるか」を",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/evacuation-hazard-map/"
+    },
+    {
+     "id": "fire-ambulance",
+     "label": "火事のとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/fire-ambulance/"
+    },
+    {
+     "id": "hazard-maps",
+     "label": "自宅と避難先の災害リスクを",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/hazard-maps/"
+    },
+    {
+     "id": "pet-disaster-prevention",
+     "label": "ペットと一緒に逃げる",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/pet-disaster-prevention/"
+    },
+    {
+     "id": "road-river-info",
+     "label": "大雨・台風のとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/road-river-info/"
+    },
+    {
+     "id": "storm-heavy-rain",
+     "label": "台風・大雨が近づいたら",
+     "url": "https://morimachi.enshu-lifehack.com/life/emergency/storm-heavy-rain/"
+    }
+   ]
+  },
+  {
+   "id": "troubles-consult",
+   "emoji": "🧩",
+   "title": "困った・相談したい",
+   "description": "生活・税金・農地・法律相談（18項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/",
+   "items": [
+    {
+     "id": "animal-pet-consultation",
+     "label": "動物・ペットの困りごと",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/animal-pet-consultation/"
+    },
+    {
+     "id": "cannot-pay-tax",
+     "label": "町税・国保税が払えないとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/cannot-pay-tax/"
+    },
+    {
+     "id": "care-consultation",
+     "label": "介護で困ったとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/care-consultation/"
+    },
+    {
+     "id": "child-consultation",
+     "label": "子どものことで不安なとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/child-consultation/"
+    },
+    {
+     "id": "consumer-fraud",
+     "label": "だまされたかも",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/consumer-fraud/"
+    },
+    {
+     "id": "disability-consultation",
+     "label": "障害のこと",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/disability-consultation/"
+    },
+    {
+     "id": "farmland",
+     "label": "相続した田んぼ・畑をどうすればいいか分からないとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/farmland/"
+    },
+    {
+     "id": "foreign-resident-consultation",
+     "label": "外国人住民の手続き",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/"
+    },
+    {
+     "id": "legal-general-consultation",
+     "label": "誰に相談すればいいか分からない悩み",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/legal-general-consultation/"
+    },
+    {
+     "id": "living-costs-trouble",
+     "label": "生活費が足りない",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/living-costs-trouble/"
+    },
+    {
+     "id": "road-repair-mirror",
+     "label": "道路の穴・カーブミラーの不具合",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/road-repair-mirror/"
+    },
+    {
+     "id": "vacant-house-consultation",
+     "label": "親の家・実家をどうするか迷ったとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/troubles-consult/vacant-house-consultation/"
+    }
+   ]
+  },
+  {
+   "id": "end-of-life",
+   "emoji": "🕊️",
+   "title": "人生の終わり",
+   "description": "おくやみ・相続・空き家（10項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/",
+   "items": [
+    {
+     "id": "after-death-procedures",
+     "label": "死亡後の手続き",
+     "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/after-death-procedures/"
+    },
+    {
+     "id": "bereavement",
+     "label": "家族が亡くなったら",
+     "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/bereavement/"
+    },
+    {
+     "id": "bereavement-procedures",
+     "label": "おくやみ手続き",
+     "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/bereavement-procedures/"
+    },
+    {
+     "id": "grave-memorial",
+     "label": "お墓・供養",
+     "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/grave-memorial/"
+    },
+    {
+     "id": "house-became-vacant",
+     "label": "相続後の空き家",
+     "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/house-became-vacant/"
+    },
+    {
+     "id": "inheritance",
+     "label": "相続",
+     "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/inheritance/"
+    },
+    {
+     "id": "inherited-house",
+     "label": "親の家",
+     "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/inherited-house/"
+    },
+    {
+     "id": "inherited-vacant-house",
+     "label": "相続した家",
+     "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/inherited-vacant-house/"
+    },
+    {
+     "id": "pension-inheritance",
+     "label": "年金の手続き",
+     "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/pension-inheritance/"
+    },
+    {
+     "id": "property-tax-inheritance",
+     "label": "固定資産税の相続",
+     "url": "https://morimachi.enshu-lifehack.com/life/end-of-life/property-tax-inheritance/"
+    }
+   ]
+  },
+  {
+   "id": "moving-out",
+   "emoji": "📦",
+   "title": "新しい場所へ",
+   "description": "転出届・水道停止・ごみ処分（6項目）",
+   "url": "https://morimachi.enshu-lifehack.com/life/moving-out/",
+   "items": [
+    {
+     "id": "bulk-garbage-cleaning",
+     "label": "転出前の片付け",
+     "url": "https://morimachi.enshu-lifehack.com/life/moving-out/bulk-garbage-cleaning/"
+    },
+    {
+     "id": "dog-ownership-change",
+     "label": "犬の登録変更",
+     "url": "https://morimachi.enshu-lifehack.com/life/moving-out/dog-ownership-change/"
+    },
+    {
+     "id": "move-out-notice",
+     "label": "転出届は引っ越し予定日の14日前から住民生活課住民係で",
+     "url": "https://morimachi.enshu-lifehack.com/life/moving-out/move-out-notice/"
+    },
+    {
+     "id": "moving-away",
+     "label": "森町から引っ越すとき",
+     "url": "https://morimachi.enshu-lifehack.com/life/moving-out/moving-away/"
+    },
+    {
+     "id": "school-nursery-procedures",
+     "label": "子どもの転出",
+     "url": "https://morimachi.enshu-lifehack.com/life/moving-out/school-nursery-procedures/"
+    },
+    {
+     "id": "stop-water",
+     "label": "水道の廃止は上下水道課へ給水届を提出",
+     "url": "https://morimachi.enshu-lifehack.com/life/moving-out/stop-water/"
+    }
+   ]
+  }
+ ]
+}
