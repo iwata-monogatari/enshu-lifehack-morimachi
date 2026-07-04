@@ -388,16 +388,25 @@
     "label": "子育て・教育"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/index.html",
+    "label": "学校教育課／静岡県森町",
+    "confidence": "high"
+   }
+  ],
   "facts": {
-   "note": "確認中（森町の該当ページ未確認）。給食の献立・費用・アレルギー対応に関する専用ページはWebSearch/WebFetchで発見できず"
+   "window": "学校教育課",
+   "tel": "0538-85-2111（代表）",
+   "address": "〒437-0293 静岡県周智郡森町森2101-1（森町役場）",
+   "note": "学校給食の献立表・給食費の金額・アレルギー対応の具体的な案内ページは森町公式サイト内（学校教育課／学校管理係／学校教育係の各ページ、もりっこサイトを含む）で確認できなかった。国は2026年度から公立小学校の給食費支援を進めているが、森町独自の実施状況（対象範囲・自己負担の有無）は確認中。担当課・電話番号のみ確認済み。"
   },
-  "status": "draft",
-  "verified_date": "2026-07-03",
-  "ai_checked_date": "2026-07-03",
-  "ai_notes": "WebSearch/WebFetchで個別に再調査したが、学校給食の献立・費用・アレルギー対応に関する森町公式ページを特定できなかった。大石による追加確認が必要。",
+  "status": "ai-checked",
+  "verified_date": "2026-07-04",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "WebSearch/WebFetchで学校教育課・学校管理係・学校教育係・教育委員会・小中学校ページ・もりっこサイトを確認したが、給食の献立表/給食費金額/アレルギー対応の専用ページは見つからなかった。担当課（学校教育課、0538-85-2111）のみ確定事実として記載し、その他は「確認中」と明記した。大石による追加確認・専用ページの有無の再調査を推奨。",
   "verified_by": "machine",
-  "title": "学校給食は、学校教育課への確認で献立・費用・アレルギー対応を分けて確認する"
+  "title": "学校給食は、献立・費用・アレルギー対応を学校教育課に分けて確認する"
  },
  {
   "href": "/life/education/school-zones/",
