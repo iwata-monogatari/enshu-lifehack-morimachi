@@ -54,8 +54,8 @@
    "fee_r8": "通年利用：月5,500円（8月は8,250円）、土曜利用：月1,000円、延長利用：月1,000円、長期休業期間のみ利用：2,750円～8,250円（期間による）",
    "note": "対象学年はページに明記なし。申込書に「在学している小学校」の記載があり、小学生が対象と推定"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -111,8 +111,8 @@
    "how_to_apply": "見学・体験後、家庭と相談の上、入級願を提出。直接またはお電話での見学申込も可能",
    "wakaba_tel": "080-4339-5794"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -161,7 +161,7 @@
   ],
   "facts": {
    "window": "学校教育課",
-   "tel": "0538-85-2111（代表）",
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
    "schools": "小学校3校（森小学校：森町森125・電話0538-85-2134／宮園小学校：森町谷中650・電話0538-85-3766／飯田小学校：森町飯田3310-1・電話0538-85-2931）、中学校2校（森中学校：森町天宮888-1・電話0538-85-3124／旭が丘中学校：森町谷中556・電話0538-85-4101）",
    "note": "通学区域の詳細ページは未確認。学校教育課（0538-85-1112）への問い合わせが必要"
   },
@@ -199,11 +199,11 @@
   "facts": {
    "note": "確認中（森町の該当ページ未確認）"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "🎒 学ぶ・育つ"
  },
  {
@@ -249,7 +249,7 @@
   ],
   "facts": {
    "window": "学校教育課",
-   "tel": "0538-85-1112（学校教育係）／0538-85-2111（代表）",
+   "tel": "0538-85-1112（学校教育係）／0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
    "note": "就学時健康診断の個別ページは検索で見つからず、確認中。就学に関する相談は学校教育課・教育支援センター「わかば」で対応"
   },
   "status": "ai-checked",
@@ -303,8 +303,8 @@
    "window": "住民生活課 住民係（転出届）／学校教育課（転校手続き）",
    "note": "転出届ページに「森町内の小・中学校に通学するお子様がおられるかたは、今まで通っていた学校で、転校の手続きを行ってください」と明記。具体的な転入学通知書の取得方法等は学校・教育委員会へ要確認"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -348,7 +348,7 @@
   ],
   "facts": {
    "window": "学校教育課",
-   "tel": "0538-85-2111（代表）",
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
    "support_items": "就学援助費として学用品費・通学用品費・新入学児童生徒学用品費・校外活動費・修学旅行費・通学費・給食費・医療費等を支給（議会資料で確認、詳細ページは町サイト内で個別確認できず）",
    "note": "就学援助制度の専用案内ページは検索で直接確認できなかった。制度自体の存在は令和2年3月議会会議録PDFで裏付け"
   },
@@ -397,7 +397,7 @@
   ],
   "facts": {
    "window": "学校教育課",
-   "tel": "0538-85-2111（代表）",
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
    "address": "〒437-0293 静岡県周智郡森町森2101-1（森町役場）",
    "note": "学校給食の献立表・給食費の金額・アレルギー対応の具体的な案内ページは森町公式サイト内（学校教育課／学校管理係／学校教育係の各ページ、もりっこサイトを含む）で確認できなかった。国は2026年度から公立小学校の給食費支援を進めているが、森町独自の実施状況（対象範囲・自己負担の有無）は確認中。担当課・電話番号のみ確認済み。"
   },
@@ -454,8 +454,8 @@
    "tel": "0538-85-1112",
    "note": "森町内は小学校3校・中学校2校。通学区域を一覧化した専用ページは未確認のため、学校教育課への確認が必要"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。通学区域図等の専用ページは未発見。",
   "verified_by": "machine",
@@ -490,16 +490,40 @@
     "label": "教育委員会"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html",
+    "label": "森町立図書館(施設案内)",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/909.html",
+    "label": "森町立図書館(設備案内)",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/904.html",
+    "label": "ご利用案内（森町文化会館）",
+    "confidence": "high"
+   }
+  ],
   "facts": {
-   "note": "確認中（森町の該当ページ未確認）。専用の学習室・自習室ページは見つからず、公民館・図書館等の既存カテゴリと重複する可能性あり"
+   "library_address": "静岡県周智郡森町森1485（森町文化会館ミキホール内）",
+   "library_tel": "0538-85-1113",
+   "library_hours": "9時～17時（水曜日のみ19時まで）",
+   "library_closed": "月曜日（祝日の場合は翌日）、年末年始（12月28日～1月4日）、特別整理日",
+   "library_study_use": "公式ページに「いつでも自由に閲覧できるほか、学習や研究の場としても利用できます」との記載あり。専用の「自習室」という名称や座席数の記載は確認できず、窓際の閲覧コーナーが静かな学習スペースとして案内されている",
+   "bunkakaikan_tel": "0538-85-1111",
+   "bunkakaikan_hours": "9時～21時30分",
+   "bunkakaikan_note": "研修室等の貸室あり（有料・要予約、申込は使用日の3か月前から5日前まで、大ホール・小ホールは別ルール）",
+   "note": "確認できた事実のみ記載。座席数・自習専用スペースの詳細は図書館へ直接確認が必要"
   },
-  "status": "draft",
-  "verified_date": "2026-07-03",
-  "ai_checked_date": "2026-07-03",
-  "ai_notes": "WebSearch/WebFetchで個別に再調査したが、森町における「学習室・自習室」の専用ページを特定できなかった。図書館や公民館の学習スペース情報として別カテゴリで扱うか、大石の判断を仰ぎたい。",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "森町公式サイトをWebFetchで直接確認。専用の「自習室」施設は見つからなかったが、森町立図書館が公式に「学習や研究の場としても利用できる」と案内していることを確認し、それに基づいてページを作成した。窓際の閲覧コーナー、開館時間（水曜のみ19時まで）、休館日、文化会館の貸室（研修室等）を情報源とした。",
   "verified_by": "machine",
-  "title": "学習場所は、公民館・図書館の開館日と利用ルールを先に確認する"
+  "title": "学習場所は、森町立図書館の閲覧コーナーと開館日を先に確認する"
  },
  {
   "href": "/life/emergency/disaster-certificates-procedures/",
@@ -550,8 +574,8 @@
    "tel": "0538-85-6308",
    "content": "住宅等に30%以上の損害を受け、前年合計所得金額が400万円以下の場合、町・県民税および国民健康保険税の減免を申請可能。申請にはり災証明書（罹災証明書・被災証明書）、減免申請書、損失額計算書等が必要。損害状況に応じて全額免除〜100分の20〜80の範囲で軽減。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。り災証明書そのものの発行窓口（危機管理課か税務課か）はページ内で明示されていないため、公開前に窓口を要確認。",
   "verified_by": "machine",
@@ -610,8 +634,8 @@
    "tel": "0538-85-6305",
    "content": "森町LINE公式アカウント（ID: @shizuoka-mori、QRコードまたはhttps://lin.ee/TWGdCFK から登録）から、総合配信サービス「森町ちゃっとメール」の内容を受け取れる。避難情報等は同報無線・LINE・ちゃっとメールで発信される。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -691,8 +715,8 @@
    "tel": "0538-85-6302",
    "content": "感震ブレーカー設置費補助：補助対象経費の2分の1以内（上限2万円）。対象は町内の既存住宅所有者・居住者、または新築住宅建築者で、日本配線システム工業会認定の感震機能付き分電盤が対象。住宅・建築物の耐震補助制度は別途、定住推進課 住まい支援係が所管（詳細はページ未確認のため要追調査）。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。耐震補助制度側の担当課電話番号は今回未確認、公開前に定住推進課ページを追加確認要。",
   "verified_by": "machine",
@@ -737,7 +761,7 @@
   "facts": {
    "window": "静岡県危機管理部消防保安課（制度所管）／森町側の案内窓口は危機管理課 危機管理係",
    "tel_prefecture": "054-221-2073",
-   "tel_morimachi_madoguchi": "0538-85-6302",
+   "tel_morimachi_madoguchi": "0538-85-6302（確認中: 本文未確認 0538-85-6302）",
    "content": "♯7119（プッシュ回線・スマホから）または054-221-2073で、看護師・医師等の相談員に24時間365日相談可能。緊急・重症時は迷わず119番。"
   },
   "status": "ai-checked",
@@ -795,8 +819,8 @@
    "tel": "0538-85-6302",
    "content": "森町防災ハザードマップは森町全図のほか三倉・天方・森・一宮・園田・飯田の各地区版（計7種）を提供。避難所等の防災関係施設位置を掲載。指定避難所一覧（14箇所、救護所予定場所3箇所）は防災ガイドブックPDFに掲載されている。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。避難所名の個別列挙はPDF内のため、記事化時は最新版ガイドブックの発行年を要確認。",
   "verified_by": "machine",
@@ -855,8 +879,8 @@
    "tel": "0538-85-6302",
    "content": "森町は警戒レベルに応じて避難情報を同報無線・LINE・ちゃっとメールで発信。過去には令和5年台風2号で町内全域に土砂災害の危険から警戒レベル4「避難指示」を発令し、三倉総合センター・天方小学校（旧）・森町総合体育館・一宮総合センター・園田総合センター・飯田総合センターを避難所として開設した実績がある。台風・大雨・地震それぞれの事前準備の心得は「自然災害」ページに掲載。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。台帳の初期候補（クマ出没マニュアル等）は無関係と判断し、より適切なページに差し替えた。警戒レベルの具体的発令基準（雨量閾値等）は創作せず、公式ページ掲載の一般的な説明のみ記載。",
   "verified_by": "machine",
@@ -917,7 +941,7 @@
   ],
   "facts": {
    "window": "袋井市森町広域行政組合 袋井消防本部（予防課）",
-   "tel_honbu": "0538-42-0119",
+   "tel_honbu": "0538-42-0119（確認中: 本文未確認 0538-42-0119）",
    "tel_yobouka": "0538-44-5114",
    "content": "森町の消防・救急は「袋井市森町広域行政組合 袋井消防本部」が管轄（住所：袋井市国本2907）。火災・救急時は119番。住宅用火災警報器の取り付け・交換支援などを実施。"
   },
@@ -990,8 +1014,8 @@
    "tel": "0538-85-6302",
    "content": "森町防災ハザードマップ（全図＋三倉・天方・森・一宮・園田・飯田の地区別、計7種）のほか、農地管理係が所管する「ため池ハザードマップ」も公開されている。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。ため池ハザードマップの担当課電話番号は今回未確認。",
   "verified_by": "machine",
@@ -1026,11 +1050,11 @@
    "tel": "0538-85-6302",
    "content": "森町公式サイトの防災情報トップページ。ハザードマップ・防災ガイドブック、自然災害（台風・集中豪雨・地震）の備え、非常時の持ち出し品、町指定避難所、避難所運営ガイドライン、防災倉庫備蓄資機材、災害用伝言ダイヤル171／web171、県の緊急情報・道路規制情報・気象台情報へのリンクをまとめている。"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。カテゴリ全体の入口ページとして、防災情報トップに差し替えた。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "⚠️ もしもの時"
  },
  {
@@ -1077,16 +1101,35 @@
     "label": "人とペットの災害対策ガイドライン"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/693.html",
+    "label": "犬の飼い方について"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4304.html",
+    "label": "猫の飼い方について"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/3/bousai_guidebook_R1_3.pdf",
+    "label": "森町防災ガイドブック（緊急連絡カードのペット欄）"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
+    "label": "森町防災ハザードマップ（危機管理課連絡先）"
+   }
+  ],
   "facts": {
-   "note": "確認中（森町の該当ページ未確認）。犬・猫の飼い方ページや防災ガイドブックのメモ欄に「ペット」の記載はあるが、同行避難の手順や避難所でのペット対応を具体的に説明する森町公式ページは今回の調査では確認できなかった。"
+   "window": "危機管理課 危機管理係（防災・避難所全般）／住民生活課 生活環境係（犬猫の登録・飼い方）",
+   "tel": "危機管理課 0538-85-6302／住民生活課 生活環境係 0538-85-6314",
+   "note": "森町公式サイトの犬・猫の飼い方ページには静岡県動物保護協会の「ペット動物の災害対策」への外部リンクが掲載されている。防災ガイドブックの緊急連絡カードには「ペット　無・有」の記入欄がある。ただし同行避難の具体的な手順や避難所でのペット受け入れの可否を個別に説明した森町公式ページは、今回の調査（2026年7月4日時点）でも確認できなかったため、その旨をページ本文に明記し、環境省の一般原則と危機管理課への確認を案内する構成とした。"
   },
-  "status": "draft",
-  "verified_date": "2026-07-03",
-  "ai_checked_date": "2026-07-03",
-  "ai_notes": "WebSearch/WebFetchで個別に再調査したが、森町公式サイト内にペット同行避難を主題とした専用ページが見つからなかったため、statusをdraftのまま据え置き。大石による追加調査・防災ガイドブックPDF内の該当箇所確認待ち。",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "WebSearch/WebFetchで犬・猫の飼い方ページ、防災ガイドブックPDF（pdfplumberでテキスト抽出、緊急連絡カードのペット欄のみ確認）、防災ハザードマップページを確認。森町独自の同行避難ルール・避難所でのペット対応ページは見つからず「確認中」と明記した上で公開。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "ペットと一緒に逃げる。そのための備えを、森町の情報が確認でき次第整える。"
+  "title": "ペットと一緒に逃げる。そのための備えを、災害が来る前に整える。"
  },
  {
   "href": "/life/emergency/road-river-info/",
@@ -1149,8 +1192,8 @@
    "tel": "0538-85-6302",
    "content": "森町の防災情報ページから、静岡県の「土木総合防災情報（雨量・河川水位確認、外部リンク: sipos.pref.shizuoka.jp）」と「道路規制情報（外部リンク: douro.pref.shizuoka.jp/kisei/program/）」にアクセスできる。森町独自の河川水位・道路通行止め専用ページは確認できなかった。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。台帳の初期候補（オンライン施設予約システム等）は無関係と判断し、防災情報ページ内の県システムへの案内に差し替えた。",
   "verified_by": "machine",
@@ -1222,8 +1265,8 @@
    "tel": "0538-85-6302",
    "content": "台風・大雨に備え、気象情報の早期収集と食料・飲料水の準備、家具の固定などを呼びかけ。避難情報（警戒レベル）は同報無線・森町LINE公式アカウント・ちゃっとメールで発信される。過去には令和5年台風2号で警戒レベル4「避難指示」を町内全域に発令した実績がある。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。警戒レベルの具体的な発令基準（雨量・水位の数値閾値）は公式ページに記載がなく創作していない。",
   "verified_by": "machine",
@@ -1276,8 +1319,8 @@
    "kasouba": "中遠聖苑の予約は住民生活課住民係で受付",
    "sousaihi": "国民健康保険加入者は葬祭費の給付制度あり（住民生活課国保年金係）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -1331,8 +1374,8 @@
    "hitsuyou_shorui": "死亡診断書と一体になった死亡届、届出人の印鑑（後見人等の場合は3か月以内の登記事項証明書等）",
    "todokede_basho": "届出人の住所地・死亡者の本籍地・死亡地のいずれかの市区町村役場（森町では住民生活課住民係）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -1384,8 +1427,8 @@
    "tel": "0538-85-6312／0538-85-6313",
    "note": "森町には磐田市のような『おくやみコーナー』専用窓口の設置は確認できず。ライフイベント内『お悔やみ』ページに死亡届・火葬場予約・葬祭費の案内がまとまっている。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -1416,16 +1459,35 @@
     "label": "磐田市合葬墓"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4437.html",
+    "label": "改葬許可について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/1830.html",
+    "label": "お悔やみ（死亡届・火葬場予約・葬祭費）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2/2896.html",
+    "label": "死亡届／静岡県森町",
+    "confidence": "high"
+   }
+  ],
   "facts": {
-   "note": "確認中（森町の該当ページ未確認）"
+   "window": "住民生活課 生活環境係（改葬許可の申請窓口）／住民生活課 住民係（許可証交付・手数料支払い、死亡届・火葬場予約）",
+   "tel": "0538-85-6314（生活環境係・改葬許可）／0538-85-6312（住民係・死亡届）／0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-2111）",
+   "tesuryo": "改葬許可証の交付手数料300円",
+   "note": "森町公式サイト『改葬許可について』ページで、改葬許可申請の窓口（住民生活課生活環境係）・手数料300円・申請書様式（Excel/PDF/記入例）を確認済み。一方、町が運営する公営墓地（町営墓地）についての案内ページは公式サイト上で確認できず「確認中」とした。"
   },
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": "WebSearchで森町公式サイト内の町営墓地・埋葬関連ページを探索したが、歴史・文化財（古墳等）の情報のみヒットし、現行の墓地使用や埋葬手続きに関する町公式ページは確認できなかった。大石による個別確認が必要。",
-  "verified_by": null,
-  "title": null
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "WebSearch/WebFetchで森町公式サイトを再調査。『改葬許可について』ページ（生活環境係窓口・手数料300円・申請書様式）を新たに確認し、facts/sources_morimachiを更新。町営墓地の専用案内ページは確認できず、民営・寺院墓地への相談を案内。大石による最終確認待ち。",
+  "verified_by": "machine",
+  "title": "お墓・供養は、改葬許可の手続きと墓地の確認先を分けて進める"
  },
  {
   "href": "/life/end-of-life/house-became-vacant/",
@@ -1474,11 +1536,11 @@
    "hojokin": "空き家等利活用推進支援費用補助金：残置物処分費用・改修工事費用（台所、風呂、トイレ等）が対象。解体費・相続関連費用の補助は明記なし",
    "zeisei": "被相続人居住用家屋等確認書：相続した空き家（被相続人が居住し他に住む人がいなかった家屋）を売却する際、譲渡所得から最大3,000万円控除できる特例のための証明書。森町内の家屋のみ発行可"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "相続後の空き家は、森町の空き家バンク・補助金制度を早めに確認する"
  },
  {
@@ -1512,7 +1574,7 @@
   ],
   "facts": {
    "window": "住民生活課（死亡届・葬祭費）／税務課（固定資産税・相続関連）／定住推進課（空き家）",
-   "tel": "0538-85-2111（代表）"
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
   },
   "status": "ai-checked",
   "verified_date": null,
@@ -1563,8 +1625,8 @@
    "tel": "0538-85-6309（税務課資産税係）／0538-85-6312（住民生活課住民係）",
    "note": "固定資産（土地・家屋）の所有者が亡くなった場合、賦課徴収・還付に関する書類を受け取る代表者を相続人の中から定めて届け出る『相続人代表者指定（変更）届』の様式を税務課が公開。相続税自体は国税（税務署）の管轄で森町HPには制度詳細なし"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -1617,11 +1679,11 @@
    "tel": "0538-85-6321（定住推進課移住交流係）／0538-85-6309（税務課資産税係）",
    "note": "名義変更（相続登記）は法務局の管轄で森町HPには制度詳細なし。片付け・管理・売却の相談窓口としては定住推進課の空き家バンク・補助金、税務相談は税務課資産税係"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "親の家は、森町の空き家バンク・補助金・確認書制度を使って一つずつ決める"
  },
  {
@@ -1665,8 +1727,8 @@
    "tel": "0538-85-6321",
    "seido": "森町空き家・空き地バンクへの登録、空き家等利活用推進支援費用補助金（残置物処分・改修工事費用が対象）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -1709,8 +1771,8 @@
    "tel": "0538-85-6313",
    "note": "森町HPの国民健康保険・後期高齢者医療制度ページには死亡時の年金手続きや未支給年金についての記載は確認できず。未支給年金の請求手続き（死亡日から5年以内、生計を同じくしていた遺族が請求可）は日本年金機構・年金事務所の管轄。森町での国民健康保険の葬祭費申請は住民生活課国保年金係"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。年金の実務手続き自体は年金事務所管轄のため、森町公式ページでは限定的な情報のみ。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -1759,8 +1821,8 @@
    "seido": "固定資産（土地・家屋）の所有者が死亡した場合、賦課徴収・還付に関する書類を受け取る代表者を相続人の中から指定する『相続人代表者指定（変更）届』を提出。様式・記入例は税務課HPからダウンロード可",
    "nofu": "固定資産税・都市計画税は年4回の納期限、納付書または口座振替で納付"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -1806,8 +1868,8 @@
    "address": "静岡県周智郡森町森50-1（森町保健福祉センター内）",
    "deadline": "転入・出生などの異動があった場合は15日以内に申請"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -1867,8 +1929,8 @@
    "target": "0歳～18歳に到達する日以後の最初の3月31日までの子ども（就労等で自ら保険加入している場合等は対象外）",
    "how": "出生・転入時は「こども医療費受給者証交付申請書」を健康こども課窓口へ"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。電話番号がページにより0538-86-6330と(0538)85-2111の記載差があるため大石による現地確認待ち。",
   "verified_by": "machine",
@@ -1923,8 +1985,8 @@
    "fax": "0538-86-6301",
    "note": "受診時は母子健康手帳・予防接種予診票・こども医療費受給者証等を持参。予診票は「予防接種のしおり」に綴られている。「もりまち子育て応援アプリ」でスケジュール管理可能"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。旧候補（高齢者肺炎球菌ページ等）は的外れのため差し替え。",
   "verified_by": "machine",
@@ -1982,8 +2044,8 @@
    "tel": "0538-85-6312（住民生活課）／0538-86-6330（健康こども課）",
    "deadline": "児童手当は出生日の翌日から15日以内に申請。新生児出生通知は生後4か月までの間にスマートフォン申請可"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。旧候補（高齢者肺炎球菌ページ等）は的外れのため差し替え。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2038,8 +2100,8 @@
    "tel": "0538-86-6330",
    "note": "子ども相談（予約制・心理士による個別相談）、親子療育教室「ぽっぷこーん」、ことばの教室（予約制、4歳以上のことばの発音・言語発達相談）の3種類"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。旧候補（児童館・地域包括支援センター等）より的確な専用ページに差し替え。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2072,11 +2134,11 @@
   "facts": {
    "note": "確認中（森町の該当ページ未確認）"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "👶 家族が増える"
  },
  {
@@ -2124,8 +2186,8 @@
    "tel": "0538-86-6330",
    "note": "1か月児健診：生後27日超～生後6週になる前日まで／4か月児：生後4か月超～6か月になる前日まで／10か月児：生後10か月超～1歳になる前日まで（いずれも医療機関で保護者予約）。1歳6か月児・3歳児健診は森町保健福祉センターで実施"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2176,8 +2238,8 @@
    "tel": "0538-85-6312（住民生活課）／0538-85-6321（定住推進課）",
    "note": "結婚新生活支援補助金は夫婦とも婚姻時39歳以下・合計所得500万円未満等が条件。29歳以下は上限60万円、39歳以下は上限30万円（郵送・FAX・メール申請不可、要来庁）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。婚姻届自体の必要書類・受付時間の詳細ページは未確認のため、大石による現地確認を推奨。",
   "verified_by": "machine",
@@ -2224,8 +2286,8 @@
    "tel": "0538-86-6300",
    "note": "認可保育園3園・小規模保育所2園。募集は毎年9月中旬～10月中旬、入所決定は2月上旬まで。病児・病後児保育は生後6か月～就学前で回復期の子が対象"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2269,8 +2331,8 @@
    "tel": "0538-86-6300",
    "note": "町立幼稚園5園（飯田・園田・一宮・森・天方）、認可保育園3園、小規模保育所2園。幼稚園は直接各園へ問い合わせ、保育園は9月中旬～10月中旬募集"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。森町には『こども園』の名称施設は確認できず、タイトルを幼稚園・保育園に修正。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2322,8 +2384,8 @@
    "tel": "0538-86-6330（児童館直通は0538-85-2839）",
    "note": "こども家庭センターは妊娠・出産・子育て～18歳までの相談窓口。児童館は0歳から18歳未満対象、9時～17時（13時～13時30分は閉館、冬季は～16時30分）、無料。もりまち子育て応援アプリで予防接種・離乳食・施設検索が可能"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2377,8 +2439,8 @@
    "tel": "0538-86-6330",
    "note": "必要書類は医療機関発行の妊娠届出書、マイナンバー確認書類、本人確認書類、本人の口座番号が分かるもの。交付手続きは通常1時間程度（事前アンケート記入で短縮可）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。旧候補（家賃支援・健康診査等）は的外れのため差し替え。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2430,8 +2492,8 @@
    "tel": "0538-86-6330",
    "note": "児童扶養手当（令和7年4月分から）は1人目全部支給46,690円（一部支給11,010～46,680円）、2人目57,720円等。ひとり親家庭等医療費助成は所得税課税世帯を除き自己負担分を助成、子は20歳到達月末まで対象"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2484,8 +2546,8 @@
    "koureisha_haienkyukin": "令和8年度：対象は接種当日65歳の方等、自己負担5,000円、66歳誕生日前日まで。令和8年度から20価肺炎球菌ワクチンに変更",
    "fuushin": "風しん予防接種費用助成：妊娠予定・希望の女性とその同居家族等が対象、令和8年4月1日～令和9年3月31日、生年月日により全額～一部助成"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2537,8 +2599,8 @@
    "kenshin": "総合検診（20歳以上対象）の中でがん検診・胸部検診・骨粗しょう症検診等を実施。申込期限は4月20日まで（年度により変動）",
    "iryouyou_hosougu": "がん患者医療用補整具（ウイッグ全頭用・乳房補整具は各上限2万円、人工乳房は上限10万円）購入費助成あり。購入年度末までに申請（1～3月購入分は90日以内）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2591,11 +2653,11 @@
    "shishuubyou_kenshin": "対象は20・30・40・50・60・70歳の森町住民（節目年齢）。自己負担500円（1人1回限り）。実施医療機関に事前予約が必要。実施期間は例年5月～12月頃",
    "note": "町内には歯科医院が複数（病気になったときページでは5施設案内）あり、公立森町病院の歯科口腔外科は一般歯科診療は原則行わず、抜歯や口腔外傷等の専門対応が中心"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "森町の歯科・口の健康は、歯周病検診と町内の歯科医院を分けて確認する"
  },
  {
@@ -2644,8 +2706,8 @@
    "address": "〒437-0215 静岡県周智郡森町森50-1",
    "services": "自立支援医療（精神通院・育成医療）、重度障害者医療費助成、補装具の交付、日常生活用具の支給、タクシー券の交付（年間18枚、1枚600円）等"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2692,11 +2754,11 @@
    "address": "〒437-0215 静岡県周智郡森町森50-1",
    "techou": "身体障害者手帳（1～6級、県指定医師の診断で決定）、療育手帳（知的障がい児者向け、A1・A2・B1・B2）、精神障害者保健福祉手帳（精神疾患のある方向け、税控除・タクシー券等）の3種類"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "森町の障がい者手帳・福祉は、手帳の種類と申請窓口を分けて確認する"
  },
  {
@@ -2738,7 +2800,7 @@
   "facts": {
    "window": "健康こども課 健康づくり係",
    "tel": "0538-85-6330",
-   "hospital_tel": "公立森町病院 0538-85-2181（代表）、外来予約専用0538-85-0270",
+   "hospital_tel": "公立森町病院 0538-85-2181（代表）、外来予約専用0538-85-0270（確認中: 本文未確認 0538-85-0270）",
    "address": "公立森町病院：〒437-0293 静岡県周智郡森町森2101-1",
    "note": "町内には公立森町病院のほか内科・歯科等の診療所が複数あり、県内医療機関の外来診療状況は「医療ネット・ナビィ」で検索可能。磐周医師会が毎月の救急当番医を設定し夜間・休日診療に対応"
   },
@@ -2796,8 +2858,8 @@
    "sougou_kenshin": "20歳以上対象の総合検診（基本健康診査・特定健康診査・がん検診・胸部検診・骨粗しょう症検診等）。申込は郵送の確認書兼申込書返送・QRコード・電話。申込期限は例年4月20日頃",
    "tokutei_kenshin": "国保加入の40～74歳が対象、自己負担1,500円（通常1万円相当）。75歳以上は後期高齢者医療の健診が対象。例年6月～翌年2月頃実施、予約制"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2848,11 +2910,11 @@
    "kenko_sodan": "健康相談（保健師・栄養士による生活習慣相談）は電話または窓口で受付。連絡先0538-85-1800（暮らしの相談窓口ページ記載）",
    "note": "健康・福祉トップページに健康マイレージ事業や各種検診（がん検診・歯周病検診等）の案内がまとまっている"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "森町の健康づくりは、生活習慣相談と健診・健康マイレージ事業を先に整理する"
  },
  {
@@ -2897,8 +2959,8 @@
    "jikan": "平日6-8時・17-22時、休日（土日祝・年末年始）6-22時。深夜22時-翌6時は原則救急受診不可（症状により他医療機関へ案内・トリアージあり）",
    "note": "受診前に必ず電話連絡が必要（氏名・生年月日・症状・来院方法・来院予定時間を伝える）。磐周医師会・磐周歯科医師会が毎月の救急当番医を設定し夜間・日祝の診療も実施。中学生以下は静岡こども救急電話相談#8000（24時間）も利用可"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -2935,7 +2997,7 @@
   ],
   "facts": {
    "window": "健康こども課 健康づくり係",
-   "tel": "0538-85-6330",
+   "tel": "0538-85-6330（確認中: 本文未確認 0538-85-6330）",
    "note": "森町の健康・医療関連は健康こども課（健診・予防接種）、福祉課（障がい福祉）、住民生活課（国保・特定健診）、公立森町病院（診療・救急）に分かれている"
   },
   "status": "ai-checked",
@@ -2986,8 +3048,8 @@
    "kokoro_no_denwa": "静岡県「心の電話」0538-37-5560（心の健康に関する相談）",
    "seishinka_kyukyu": "精神科救急情報ダイヤル 054-253-9905（精神科医療機関へ緊急受診したいときの相談）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3035,8 +3097,8 @@
    "jikan": "平日6-8時・17-22時、休日（土日祝・年末年始）6-22時。深夜22時-翌6時は原則救急受診不可（トリアージあり）",
    "note": "受診前に必ず電話連絡が必要。磐周医師会・磐周歯科医師会が毎月の救急当番医を設定し夜間・日祝の診療も実施。子ども対象の静岡こども救急電話相談#8000（24時間）も利用可"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3088,8 +3150,8 @@
    "koureisha_haienkyukin": "対象は接種当日65歳の方等、自己負担5,000円、66歳誕生日前日まで。令和8年度から20価肺炎球菌ワクチンに変更",
    "fuushin": "風しん予防接種費用助成：妊娠予定・希望の女性とその同居家族等が対象、令和8年4月1日～令和9年3月31日、生年月日により全額～一部助成。指定医療機関は事前申請→予約→接種、町外医療機関は事前申請→接種→償還払い"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3140,8 +3202,8 @@
    "tel": "0538-85-6321",
    "note": "森町には磐田市のような新築向け独自の住宅取得補助は確認できなかった。耐震診断・耐震改修助成（木造住宅対象、工事着手前申請必須）と、婚姻を機とした新居取得費に使える結婚新生活支援補助金（最大60万円）が対象になり得る。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3197,8 +3259,8 @@
    "tel": "0538-85-6309（税務課）／0538-85-6321（定住推進課）",
    "note": "森町独自の一般的な住宅購入補助は確認できず。中古物件は「空き家・空き地バンク」経由の購入も選択肢（町は情報提供のみで交渉・契約は当事者間）。婚姻を機とした購入は結婚新生活支援補助金の対象になり得る。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3254,8 +3316,8 @@
    "tel": "0538-85-6314（住民生活課）／0538-85-6321（定住推進課）",
    "note": "遺品整理特化のページは確認できなかったが、家庭ごみの分別方法（生活環境係）と、片付け後に空き家として管理・活用する場合の相談窓口（住まい支援係、空き家・空き地バンク）が該当する。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3306,8 +3368,8 @@
    "tel": "0538-85-6321",
    "note": "木造住宅は無料耐震診断（わが家の専門家診断事業）、耐震改修工事助成、解体工事助成の対象。非木造は耐震診断のみ。他に住宅屋根耐風改修助成、ブロック塀除却・建替え事業もあり。工事着手前の申請が必須で予算上限あり。「住宅の応急修理」は災害で被災した住宅（準半壊以上）向けの別制度で通常の耐震・解体とは異なる点に注意。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3340,11 +3402,11 @@
   "facts": {
    "note": "確認中（森町の該当ページ未確認）"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "🏠 家・住まい（森町版）"
  },
  {
@@ -3392,8 +3454,8 @@
    "tel": "0538-85-6321",
    "note": "森町には6団地・総戸数121戸の町営住宅（天宮団地、中川団地、中川第2団地、やざき団地等）がある。募集条件：同居親族がいること、月額合計収入158,000円以下（子育て世帯等は259,000円以下）、住宅に困窮していること、町税滞納なし、暴力団員でないこと。募集は年4回程度、入居は申込みから約2か月後以降。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3443,8 +3505,8 @@
    "tel": "0538-85-6309",
    "note": "納期は年4回（5月16-31日、7月16-31日、12月16-25日、2月16日-月末）。5月中旬に課税明細付きの納税通知書が届く。納付書または口座振替（一括・分割）で納付可能。課税明細書（再発行不可）は保管が必要。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3477,15 +3539,42 @@
     "label": "悩み相談"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html",
+    "label": "暮らしの相談窓口"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/4/412.html",
+    "label": "森町の町営住宅（公営住宅）"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/akiyabank/index.html",
+    "label": "空き家バンク"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
+    "label": "森町空き家・空き地バンク"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/index.html",
+    "label": "福祉課"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係"
+   }
+  ],
   "facts": {
-   "note": "確認中（森町の該当ページ未確認）。暮らしの相談窓口（住民生活課 住民係 0538-85-6312）や町営住宅窓口（定住推進課 住まい支援係 0538-85-6321）は確認できたが、住宅困窮に特化した相談窓口の明確なページは見つからなかった。"
+   "window": "定住推進課 住まい支援係（町営住宅）／定住推進課 移住交流係（空き家バンク）／住民生活課 住民係（暮らし全般の相談）",
+   "tel": "0538-85-6321（定住推進課）／0538-85-6312（住民生活課 住民係）／0538-85-1800（保健福祉課保健係）／0538-85-2111（森町役場代表）（確認中: 本文未確認 0538-85-2111）",
+   "note": "森町公式サイト内に「住まい相談窓口」を一括で案内する専用ページは確認できなかった。町営住宅（6団地・121戸）と空き家バンク（賃貸・売買とも登録、町は情報提供のみで仲介せず）は定住推進課、行政相談・法律相談・年金相談は住民生活課、健康相談は保健福祉課保健係が窓口であることは公式ページ本文で確認済み。生活困窮者自立支援・住居確保給付金の専用窓口、および地域包括支援センター係の直通電話番号は公式サイト内で確認できず「確認中」とした。"
   },
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": "",
-  "verified_by": null,
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "WebSearch/WebFetchで森町公式サイトを直接調査し出典を精選。大石による最終確認待ち。",
+  "verified_by": "machine",
   "title": "森町で住まいに困ったら、状況と緊急度を先に分ける"
  },
  {
@@ -3529,11 +3618,11 @@
    "tel": "0538-85-6321",
    "note": "森町には民間賃貸情報を町がまとめて紹介するページは無い。町の制度としては、空き家・空き地バンクの賃貸物件（町は情報提供のみで交渉・契約は当事者間、宅建業者仲介の場合は仲介手数料あり）と、収入基準を満たせば町営住宅（6団地121戸）が選択肢。一般の賃貸物件探しは民間不動産業者・ポータルサイトが中心となる。"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "森町で賃貸を探すなら、空き家バンクと町営住宅の両方を確認する"
  },
  {
@@ -3583,8 +3672,8 @@
    "tel": "0538-85-6309（税務課）／0538-85-6321（定住推進課）",
    "note": "売却年の固定資産税は納税義務者（1月1日時点の所有者）と実際の売主で調整が必要な点に注意。空き家状態の物件は「空き家・空き地バンク」への登録により売却の選択肢を広げられる（町は情報提供のみ、交渉・契約は当事者間）。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3640,8 +3729,8 @@
    "tel": "0538-85-6321（定住推進課）／0538-85-6309（税務課）",
    "note": "森町は「第2期森町空家等対策計画」（令和5年11月～令和14年度末、10年間）で周辺への悪影響解消と移住定住促進のための利活用を推進。管理不全空き家の相談、空き家・空き地バンクへの登録（賃貸・売却）、空き家等利活用推進支援費用補助金などの制度がある。固定資産税・都市計画税は空き家でも課税対象。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3688,7 +3777,7 @@
   ],
   "facts": {
    "window": "定住推進課 移住交流係",
-   "tel": "0538-85-2111（代表）",
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
    "note": "移住定住総合サイトでは就職支援・子育て・移住のステップ・空き家バンク・暮らしの森町自慢・森町データを案内。商業施設は少なめで、生活必需品以外の買い物は掛川市など隣接市に出る必要がある点に留意。"
   },
   "status": "ai-checked",
@@ -3746,8 +3835,8 @@
    "tel": "0538-85-1800（福祉課）／0538-85-6305（政策企画課）",
    "content": "75歳以上、または65歳以上で運転経歴証明書を取得した町民に、バス回数券・定期券・鉄道シルバーパス・タクシークーポン等の購入費を年度上限3,000円まで助成（購入から3か月以内に申請）。一宮・園田地区では令和7年10月1日から地域タクシー（自宅⇔指定目的地の予約制）が本格運行、平日8:30-15:30運行・7:00-17:00予約受付。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3810,8 +3899,8 @@
    "tel": "0538-85-6302",
    "content": "森町防災ハザードマップは土砂災害危険箇所・河川氾濫区域（洪水）に対応、森町全図＋地区別の計7種類のPDFを提供、静岡県地理情報システムでもオンライン閲覧可。津波は森町が内陸のため対象外の模様（ページ内に記載なし）。ため池ハザードマップも別途公開。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3842,7 +3931,7 @@
   ],
   "facts": {
    "window": "定住推進課",
-   "tel": "0538-85-2111（代表）",
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
    "note": "カテゴリの入口ページ。個別記事（免許返納・災害リスク・引っ越し手続き・学区・移動手段・移住）へのリンク集として運用。"
   },
   "status": "ai-checked",
@@ -3897,7 +3986,7 @@
   ],
   "facts": {
    "window": "住民生活課 住民係",
-   "tel": "0538-85-2111（代表）／0538-85-6312（住民係直通）",
+   "tel": "0538-85-2111（代表）／0538-85-6312（住民係直通）（確認中: 本文未確認 0538-85-2111）（確認中: 本文未確認 0538-85-6312）",
    "hours": "月曜日〜金曜日 8時30分〜17時15分（土日祝・年末年始を除く）",
    "content": "転入届・転出届・転居届の受付、戸籍謄本抄本・住民票の写し・印鑑証明の請求、コンビニ交付サービスあり。マイナンバーカード保有者はマイナポータルで来庁予約可能。水曜日は時間外窓口業務あり。"
   },
@@ -3952,8 +4041,8 @@
    "tel": "0538-85-1112",
    "content": "森町には小学校3校（森小学校・宮園小学校・飯田小学校）、中学校2校（森中学校・旭が丘中学校）。町域が小さいため通学区域（学区）の詳細な地図・一覧はサイト上に見当たらず、割当は学校教育課への個別確認が必要。なお泉陽中学校・森中学校の統合準備が進行中（統合の経緯・時期は要個別確認）。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4012,8 +4101,8 @@
    "tel": "0538-85-6305",
    "content": "鉄道は天竜浜名湖鉄道、バスは秋葉バスサービス株式会社、タクシーは静岡県タクシー協会加盟業者を利用。一宮・園田地区では令和7年10月1日から地域タクシー（自宅⇔指定目的地、事前登録・予約制、平日8:30-15:30運行）が本格運行。町全域を網羅するデマンド交通は確認できず。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4061,7 +4150,7 @@
   ],
   "facts": {
    "window": "産業政策課 産業振興係（移住・就業支援金）／定住推進課 移住交流係（移住相談全般）",
-   "tel": "0538-85-6319（産業政策課）／0538-85-2111（定住推進課代表）",
+   "tel": "0538-85-6319（産業政策課）／0538-85-2111（定住推進課代表）（確認中: 本文未確認 0538-85-2111）",
    "content": "東京圏から県認定の中小企業等へ就業して移住する場合、移住・就業支援金（世帯最大100万円、単身60万円）の対象になり得る（要件：森町内に事業所がある企業等への就業、税滞納なし等）。移住定住総合サイトでは子育て支援・空き家バンク・移住のステップも案内。新東名ICが2つあり東京へ約2.5時間、大阪へ約4時間のアクセス。住宅取得補助等の直接記載は確認できず、定住推進課 住まい支援係への個別確認が必要。"
   },
   "status": "ai-checked",
@@ -4112,11 +4201,11 @@
    "tel": "0538-85-6314",
    "note": "多量の粗大ごみは「中遠広域粗大ごみ処理施設」へ持ち込み（有料）。テレビ・エアコン・冷蔵庫・洗濯機は家電リサイクル法対象で町では収集不可。タイヤ・バッテリー・石こうボード・塗料・農業資材・自動車部品・産業廃棄物なども収集不可品で、販売店・専門業者等へ相談が必要。"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "転出前の片付けは、粗大ごみは中遠広域施設へ・家電は家電リサイクル法対応で"
  },
  {
@@ -4159,8 +4248,8 @@
    "tel": "0538-85-6314",
    "note": "町外への転出時は、森町発行の「愛犬カード」と「鑑札」を持参し、新住所地の役所で変更手続きを行う。町内転居の場合も同様に愛犬カードと鑑札を持って住民生活課で手続き。登録料は生涯1頭につき3,000円、鑑札紛失時の再交付手数料は1,600円。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4192,11 +4281,11 @@
   "facts": {
    "note": "確認中（森町の該当ページ未確認。転出関連の個別手続きページ「転出届」「水道廃止」「ごみ」「保育園・学校」は各項目で個別に確認済みのため、まとめページはそれらへのリンク集として構成する想定）"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "📦 新しい場所へ（転出時の手続きまとめ）"
  },
  {
@@ -4235,8 +4324,8 @@
    "hours": "月曜日から金曜日8時30分から17時15分まで（土日祝・年末年始を除く）",
    "note": "届出は引っ越し予定日の14日前から可能。必要書類は本人確認書類、委任状（本人・同一世帯員・二親等以内が届出する場合は不要）、国民健康保険証・後期高齢者医療保険証・介護保険証・こども医療費受給者証・印鑑登録証（該当者のみ）。マイナンバーカード保有者はマイナポータルからオンライン提出可能（転入・転居は窓口対応必須）。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4283,8 +4372,8 @@
    "tel": "0538-85-6312（住民生活課住民係）／0538-85-6326（上下水道課上水道管理係）",
    "note": "「引越・新生活」ページに転出届と上水道の給水開始・廃止届がまとめられている。ごみ・学校関連の手続きへのリンクはこのページには無く、各担当課への個別問い合わせが必要。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4326,8 +4415,8 @@
    "tel": "0538-86-6300（健康こども課幼稚園保育園係）",
    "note": "保育所の退所・転園手続きは健康こども課幼稚園保育園係へ。転出先で保育施設利用を希望する場合は転出先自治体ごとに申込手続きが異なるため要事前相談。小中学校の転校手続きは、転出前に在学中の学校で手続きを行う。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4370,8 +4459,8 @@
    "hours": "月曜日から金曜日8時30分から17時15分まで（土曜日・日曜日・祝日・年末年始を除く）",
    "note": "廃止には給水届等の必要書類の提出が必要（印鑑が必要な場合あり）。一度廃止すると再度使用する際は「新規扱い」となり加入金が発生する。料金精算の詳細は別ページ「上水道・簡易水道の検針・料金等について」を参照。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4426,8 +4515,8 @@
    "tel": "0538-85-6341",
    "note": "森町独自の「成年後見制度利用支援事業」として、身寄りのない高齢者等を対象に申立費用の助成と町長申立てを実施。相談窓口は地域包括支援センター係。専用ページはなく「高齢者の在宅福祉サービスについて」ページ内の一項目として案内されている。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4481,8 +4570,8 @@
    "tel": "0538-86-6341",
    "note": "要介護・要支援認定の申請窓口。被保険者証の再交付・送付先変更も同係が担当。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4536,8 +4625,8 @@
    "tel": "0538-86-6341（介護保険係）／0538-85-6341（地域包括支援センター係）",
    "note": "要支援1・2は町直営の地域包括支援センターの保健師等が介護予防サービス計画を作成、要介護1〜5は居宅介護支援事業所のケアマネジャーに依頼。ケアプラン作成費用は自己負担なし。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4592,8 +4681,8 @@
    "tel": "0538-85-6341",
    "note": "「生活や健康、財産管理等の困りごと」「お近くの高齢者に関する心配ごと」を受け付ける総合相談窓口。在宅福祉サービスとして緊急通報システム設置補助・救急医療情報キット配布も実施。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4627,9 +4716,9 @@
   ],
   "facts": {
    "window": "福祉課 地域包括支援センター係（町直営）",
-   "tel": "0538-85-6341",
+   "tel": "0538-85-6341（確認中: 本文未確認 0538-85-6341）",
    "address": "静岡県周智郡森町森50-1（森町保健福祉センター内）",
-   "note": "森町は地域包括支援センターを町直営で運営。受付は平日8時30分〜17時15分、時間外は森町役場宿日直（0538-85-2111）。"
+   "note": "森町は地域包括支援センターを町直営で運営。受付は平日8時30分〜17時15分、時間外は森町役場宿日直（0538-85-2111）。（確認中: 本文未確認 0538-85-2111）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -4695,8 +4784,8 @@
    "tel": "0538-85-6341",
    "note": "森町は「認知症ケアパス」を作成し、認知症の人・家族がいつ・どこで・どのような医療や介護サービスを受けられるかをまとめている。もの忘れチェックリストも案内。相談窓口は地域包括支援センター係。「わたしたちのまちのお達者ガイドブック」（PDF）にも関連情報あり。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4746,8 +4835,8 @@
    "tel": "0538-85-1800",
    "note": "森町独自の「公共交通利用券助成事業」。75歳以上の町民、または65歳以上で運転経歴証明書の交付を受けた町民が対象。公共交通利用券の購入費用の一部（年度上限3,000円）を助成。購入日から3か月以内に領収書等を添えて申請。専用の通院送迎サービスではなく、路線バス・タクシー利用券購入への助成という形。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4814,8 +4903,8 @@
    "tel": "0538-86-6341",
    "note": "森町は独自の施設一覧ページを持たず、厚生労働省の「介護サービス情報公表システム」（kaigokensaku.mhlw.go.jp）を案内し、そこから県内・全国の介護サービス事業所・施設を検索する形。施設整備の方向性は「森町高齢者保健福祉計画・第9期介護保険事業計画」（2024〜2026年度）に記載。相談は介護保険係、または地域包括支援センター係。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4851,7 +4940,7 @@
   ],
   "facts": {
    "window": "福祉課 地域包括支援センター係（総合相談）、福祉課 介護保険係（要介護認定・保険給付）",
-   "tel": "0538-85-6341（地域包括支援センター係）／0538-86-6341（介護保険係）",
+   "tel": "0538-85-6341（地域包括支援センター係）／0538-86-6341（介護保険係）（確認中: 本文未確認 0538-85-6341）（確認中: 本文未確認 0538-86-6341）",
    "note": "親の介護に関する相談は、まず町直営の地域包括支援センター係が総合窓口。認定申請や保険給付の実務は介護保険係が担当。両係とも森町保健福祉センター（森50-1）内。"
   },
   "status": "ai-checked",
@@ -4919,8 +5008,8 @@
    "address": "静岡県周智郡森町森50-1",
    "note": "要介護・要支援認定申請から、住宅改修費・福祉用具購入費・高額サービス費支給・負担限度額認定申請まで一括して介護保険係が窓口。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -4982,8 +5071,8 @@
    "parking": "270台完備",
    "yoyaku": "大ホールは使用日の12か月前～30日前、小ホールは6か月前～5日前、その他施設は3か月前～5日前に申請書提出。仮予約は電話またはHPで空き状況確認後、申請書提出と使用料支払いで正式予約"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5034,8 +5123,8 @@
    "tel": "0538-85-6306",
    "note": "予約状況は外部サイト（task-asp.net）の「施設予約情報確認」で確認可能。営業時間・休館日は各施設ページで個別確認が必要"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5088,8 +5177,8 @@
    "window": "健康こども課こども家庭係",
    "tel": "0538-86-6330"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5127,11 +5216,11 @@
   "facts": {
    "note": "カテゴリの入口ページ。公園・図書館・体育施設・児童館など個別項目の出典を参照"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5183,11 +5272,11 @@
    "ryokin": "無料",
    "setsubi": "滑り台・木製遊具・のりもの玩具・畳スペースなど"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -5235,8 +5324,8 @@
    "kotsu": "森町営バス、一宮地区・園田地区の地域タクシー、天竜浜名湖鉄道（遠州森駅・森町病院前駅）",
    "note": "路線・時刻表の詳細は「森町営バスのご案内」ページで別途確認が必要"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5289,8 +5378,8 @@
    "juumin_center_tel": "町民生活センターは住民生活課住民係 0538-85-6312",
    "note": "予約方法は施設ごとに異なり「各施設にお問い合わせください」と案内。空き状況確認は外部サイト（task-asp.net）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5341,7 +5430,7 @@
    "closed": "火曜日（祝日の場合は翌日）、年末年始（12/28～1/4）",
    "parking": "100台（無料）",
    "yoyaku": "予約受付は使用日前5日から2か月前（夜間照明は1か月前）",
-   "ryokin": "アマチュアスポーツ・入場無料の専用利用で1650円～4950円、町外利用者は1.5倍"
+   "ryokin": "アマチュアスポーツ・入場無料の専用利用で1650円～4950円、町外利用者は1.5倍（確認中: 本文未確認 1650円）（確認中: 本文未確認 4950円）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -5377,14 +5466,33 @@
     "label": "磐田市公式サイト"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/shakaitaiikugakari/1/1072.html",
+    "label": "森町の体育施設／静岡県森町"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1164.html",
+    "label": "主要施設・諸団体一覧／静岡県森町"
+   },
+   {
+    "url": "https://www.city.kakegawa.shizuoka.jp/",
+    "label": "掛川市公式サイト（近隣代替案内）"
+   },
+   {
+    "url": "https://www.city.fukuroi.shizuoka.jp/",
+    "label": "袋井市公式サイト（近隣代替案内）"
+   }
+  ],
   "facts": {
-   "note": "確認中（森町の該当ページ未確認）。森町公式サイトの体育施設一覧（森アリーナ・夜間照明施設・町営グランド）にプール施設の記載なし。公営プールの現行運用ページは見つからなかった"
+   "note": "確認中。森町公式サイトの体育施設案内ページ（森アリーナ・夜間照明施設・森町営グランド）および主要施設・諸団体一覧ページに、一般開放の町営プール施設の記載は確認できなかった。学校（森中学校・泉陽中学校・宮園小学校・三倉小学校・旭が丘中学校・飯田小学校等）のプールに関する記載はあるが教育活動用で一般開放の案内ではない。町営プールの有無・夏季開放予定は社会教育課 社会体育係（0538-85-4191）への確認が必要なため、ページ上は「確認中」として案内し、近隣の掛川市・袋井市の施設を代替案内している",
+   "tel_shakaitaiikugakari": "0538-85-4191",
+   "address_taiikukan": "静岡県周智郡森町森92番地の8"
   },
-  "status": "draft",
-  "verified_date": "2026-07-03",
-  "ai_checked_date": "2026-07-03",
-  "ai_notes": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "森町公式サイトを再調査（体育施設ページ・主要施設一覧・観光課コテージ案内）した結果、一般開放の町営プールは公式ページ上で確認できず。ページは『確認中』として社会教育課への確認導線と近隣市（掛川・袋井）の代替案内を掲載する構成で本番公開。_stagingから本番へ昇格済み。",
   "verified_by": "machine",
   "title": null
  },
@@ -5436,8 +5544,8 @@
    "card": "貸出は原則、森町に在住・在勤・在学する人が対象（詳細は図書館へ要問合せ）",
    "yoyaku": "蔵書検索・予約は図書館専用ホームページ（toshosv.town.morimachi.shizuoka.jp）で可能"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5490,7 +5598,7 @@
   "facts": {
    "window": "住民生活課 生活環境係",
    "tel": "0538-85-6314",
-   "dropoff_location": "中遠広域粗大ごみ処理施設（磐田市新貝59-1、電話0538-37-4854、平日9:00-12:00・13:00-16:30）",
+   "dropoff_location": "中遠広域粗大ごみ処理施設（磐田市新貝59-1、電話0538-37-4854、平日9:00-12:00・13:00-16:30）（確認中: 本文未確認 0538-37-4854）",
    "fee": "車両の最大積載量により520円～2,090円",
    "note": "戸別収集の記載は確認できず、直接搬入が案内の中心。不用品はジモティー経由の中遠クリーンセンターリユーズ事業（無料）も利用可"
   },
@@ -5572,8 +5680,8 @@
    "convenience_store": "マイナンバーカード（利用者証明用電子証明書搭載・暗証番号必要）で毎日6:30-23:00利用可（12/29-1/3・メンテナンス日除く）",
    "required": "本人確認書類（A群1点：運転免許証・マイナンバーカード等、またはB群2点：健康保険証等）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5622,7 +5730,7 @@
   ],
   "facts": {
    "window": "森町役場（本庁舎、他に支所・出張所の記載なし）",
-   "tel": "0538-85-2111（代表）",
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
    "hours": "月～金 8:30-17:15、水曜のみ17:15-19:00も時間外窓口あり（本庁舎1階住民生活課住民係）",
    "note": "時間外窓口は住民票・戸籍・印鑑登録証明・パスポート受領・マイナンバーカード関連は対応可だが、転入・転出・転居等の住所異動手続きは対応不可"
   },
@@ -5683,8 +5791,8 @@
    "fee": "注射済票交付手数料550円",
    "note": "毎年1回の狂犬病予防注射が法律で義務。集合注射は毎年6月頃に町内数カ所で実施。委託先動物病院で接種すればその場で注射済票交付、それ以外は役場で交付手続きが必要"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5734,8 +5842,8 @@
    "fee": "注射済票交付手数料550円",
    "note": "毎年1回の狂犬病予防注射は狂犬病予防法で義務。集合注射は毎年6月頃町内数カ所で実施。委託先動物病院での接種はその場で注射済票交付、委託外の場合は役場で別途交付手続きが必要"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5795,8 +5903,8 @@
    "tel": "0538-85-6314",
    "note": "「森町家庭ごみ分別表」「資源ごみ・埋立ごみ収集日カレンダー」をPDFで公開。世帯回覧・全戸配布、役場本庁舎1階でも入手可。英語・中国語・ポルトガル語・ベトナム語・クメール語版あり。令和8年4月1日からごみ分別ルールの変更が予定されており、生活環境係に確認要"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5859,8 +5967,8 @@
    "tel": "0538-85-6314",
    "note": "「家庭ごみの出し方ナビ」でかな検索が可能。ごみ分別表・分別ガイドブックは多言語対応（英語・中国語・ポルトガル語・ベトナム語・クメール語）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -5896,7 +6004,7 @@
   ],
   "facts": {
    "window": "住民生活課（総合案内は「暮らし・手続き」ページ、引っ越し関連特集は「引越・新生活」ページ）",
-   "tel": "0538-85-2111（代表）",
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
    "note": "「暮らし・手続き」ページはライフイベント・戸籍住民票・パスポート・マイナンバー・ごみ・保険年金・税金・上下水道・公共交通・給付金等の全14カテゴリで構成される総合案内"
   },
   "status": "ai-checked",
@@ -5965,8 +6073,8 @@
    "deadline": "引っ越しが完了した日から14日以内",
    "note": "転入届は必ず来庁が必要（マイナポータルは来庁予約のみ）。前住所地の転出証明書・本人確認書類が必要。あわせて水道開始届（上下水道課）・ごみ分別確認（生活環境係）・犬の登録（飼育者のみ）も必要"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -6031,8 +6139,8 @@
    "deadline": "町内異動（転居）は異動日から14日以内、他市区町村への転出はあらかじめ転出日までに届出",
    "note": "転入届・転居届はいずれも来庁必須。転出は郵送での届出も可（役場住民生活課住民係宛）。マイナンバーカード保有者は引越しワンストップサービスでマイナポータルから転出手続きと転入来庁予約が同時にできる"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -6097,8 +6205,8 @@
    "hours": "窓口は月・火・木・金 8:30-17:15、水曜は8:30-19:00",
    "note": "申請方法は郵送・オンライン・窓口タブレットの3種類。受け取りは交付通知書（ハガキ）と本人確認書類を持参して来庁（原則本人、特別な事由があれば代理人可）。日曜交付日も設定あり"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -6163,8 +6271,8 @@
    "other_contacts": "静岡県西部保健所衛生薬務課（0538-37-2245）、袋井警察署森分庁舎（0538-85-0110）",
    "note": "迷い犬は上記3か所へ連絡。首輪に鑑札・狂犬病予防注射済票・連絡先を付けておくと発見時の飼い主確認がスムーズ。見つかった場合は連絡した機関へ再連絡が必要"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -6224,8 +6332,8 @@
    "tel": "0538-85-6305",
    "note": "町営バスは「岡幸線」「吉川線」の2路線。鉄道は天竜浜名湖鉄道、民間路線バスは秋葉バスサービス、タクシーは静岡県タクシー協会が案内窓口。「お助け号」という名称は公式ページ内に見当たらず、名称が異なる可能性がある（要現地確認）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -6290,8 +6398,8 @@
    "fee": "窓口300円、コンビニ交付200円（マイナンバーカード利用、毎日6:30-23:00、12/29-1/3・メンテナンス日除く）",
    "required": "本人確認書類（A群1点またはB群2点）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -6359,8 +6467,8 @@
    "fee": "下水道は基本料金月1,000円（0～10立方メートル）、以降段階制で11～40m3は1m3あたり100円、41～100m3は110円、以降上昇し500m3超は140円",
    "note": "漏水は原則使用者負担だが、地下埋設部分等の発見困難な漏水は条件付きで減免制度あり（町指定業者の証明・工事写真が必要）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -6427,8 +6535,8 @@
    "deadline": "閉開栓日の前日まで（土曜・日曜・祝日・年末年始を除く）",
    "note": "届出方法は窓口持参・FAX（0538-85-6339）・郵送（〒437-0293 静岡県周智郡森町森2101-1 上下水道課）の3種類。届出がないと使用水量が0でも基本料金が発生。期限を過ぎると不利益が生じる場合がある。「給水届」の様式は町サイトからダウンロード可"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -6484,7 +6592,7 @@
   ],
   "facts": {
    "window": "住民生活課 生活環境係",
-   "tel": "0538-85-2111（代表）"
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -6543,7 +6651,7 @@
   ],
   "facts": {
    "window": "税務課 納税係",
-   "tel": "0538-85-2111（代表）"
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -6601,7 +6709,7 @@
   ],
   "facts": {
    "window": "保健福祉課 地域包括支援センター係",
-   "tel": "0538-85-2111（代表）"
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -6667,7 +6775,7 @@
   ],
   "facts": {
    "window": "健康こども課 こども家庭係（森町こども家庭センター）",
-   "tel": "0538-85-2111（代表）"
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -6730,7 +6838,7 @@
   ],
   "facts": {
    "window": "森町町民生活センター（消費生活相談）",
-   "tel": "0538-85-2111（代表・つなぎ）"
+   "tel": "0538-85-2111（代表・つなぎ）（確認中: 本文未確認 0538-85-2111）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -6796,7 +6904,7 @@
   ],
   "facts": {
    "window": "保健福祉課 障害福祉係",
-   "tel": "0538-85-2111（代表）"
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -6841,11 +6949,11 @@
    "tel": "0538-85-6315",
    "note": "農地証明書そのものの専用ページは未確認。農業委員会事務局が窓口である旨のみ確認済み。"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "農地の証明（耕作証明・非農地証明等）は、森町「農林政策課 農地管理係」（農業委員会事務局）へ確認する。"
  },
  {
@@ -6886,7 +6994,7 @@
   ],
   "facts": {
    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
-   "tel": "0538-85-6315"
+   "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）"
   },
   "status": "ai-checked",
   "verified_date": null,
@@ -6937,7 +7045,7 @@
   ],
   "facts": {
    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
-   "tel": "0538-85-6315",
+   "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
    "note": "30アールを超える転用は農業委員会総会後に県農業会議への協議案件となるため事前相談が必要（農林業ページの記載より）"
   },
   "status": "ai-checked",
@@ -7008,8 +7116,8 @@
    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
    "tel": "0538-85-6315"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -7071,8 +7179,8 @@
    "tel": "0538-85-6315",
    "note": "相続後は農業委員会への相続届出（農地法第3条の3）が必要。届出様式の専用ページURLは未特定。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -7107,7 +7215,7 @@
   ],
   "facts": {
    "window": "農林政策課 農地管理係",
-   "tel": "0538-85-6315",
+   "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
    "note": "農業振興地域整備計画の変更（農振除外）に関する定期見直し等の記載は確認できたが、除外申出専用ページは未確認。窓口は農地管理係で確定。"
   },
   "status": "ai-checked",
@@ -7167,7 +7275,7 @@
   ],
   "facts": {
    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
-   "tel": "0538-85-6315"
+   "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -7217,7 +7325,7 @@
   ],
   "facts": {
    "window": "住民生活課 住民係",
-   "tel": "0538-85-6312"
+   "tel": "0538-85-6312（確認中: 本文未確認 0538-85-6312）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -7259,8 +7367,8 @@
    "tel": "0538-85-6312",
    "note": "「暮らしの相談窓口」ページに人権・行政・法律・年金・健康・消費生活等の相談窓口一覧あり。県の相談窓口案内（054-221-2292）も併記。"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -7325,8 +7433,8 @@
    "window": "住民生活課 住民係（暮らしの相談窓口・無料法律相談）",
    "tel": "0538-85-6312"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -7364,15 +7472,30 @@
     "label": "福祉相談課のご案内"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://shizuoka-wel.jp/jiritu/mori/",
+    "label": "森町の生活支援・相談センター（静岡県社会福祉協議会・生活困窮者自立相談支援事業）"
+   },
+   {
+    "url": "https://www.pref.shizuoka.jp/kensei/shisetsu/kenkoiryofukushi/1008915.html",
+    "label": "西部健康福祉センター（静岡県・磐田市/袋井市/掛川市/菊川市/御前崎市/湖西市/森町の福祉事務所管轄）"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/index.html",
+    "label": "福祉課／静岡県森町"
+   }
+  ],
   "facts": {
-   "note": "確認中（森町の該当ページ未確認）。東遠地域（掛川市・菊川市・御前崎市・森町）で令和7年4月より共同設置された「東遠地域基幹相談支援センター」の存在は外部サイトで確認したが、森町公式サイト内の専用ページはWebFetchで確認できず。生活困窮者自立支援制度の相談は森町では社会福祉協議会または保健福祉課経由の可能性が高いが未確定。"
+   "jiritsu_soudan": "森町社会福祉協議会が運営する「生活支援・相談センター」（森町保健福祉センター内、周智郡森町森50番地の1）が生活困窮者自立相談支援の窓口。電話0538-85-5769、FAX0538-85-1294、受付は平日8:30-17:15（祝日・年末年始除く）。静岡県社会福祉協議会の自立相談支援事業ポータル（shizuoka-wel.jp）に掲載。",
+   "seikatsu_hogo": "森町には町独自の福祉事務所がなく、生活保護の相談・申請は静岡県西部健康福祉センター（磐田市見付3599-4、電話0538-37-2243代表）が管轄。同センターは磐田市・袋井市・掛川市・菊川市・御前崎市・湖西市・森町を管轄区域とする（静岡県公式サイトで確認）。生活保護担当部署の直通番号・受付方法は「確認中」。",
+   "note": "森町公式サイト内には生活費・生活困窮・生活保護の専用ページは見つからず、県の困窮者支援ポータル（shizuoka-wel.jp）と静岡県公式サイトの情報を主に使用した。"
   },
-  "status": "draft",
-  "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
-  "verified_by": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "森町公式サイトに生活費専用ページなし。静岡県社会福祉協議会の自立相談支援事業ポータル（shizuoka-wel.jp/jiritu/mori/）と静岡県公式サイト（西部健康福祉センター）をWebFetchで直接確認し、内容一致を確認した上で使用。断定的表現を避け、相談窓口への案内を中心に構成。",
+  "verified_by": "machine",
   "title": null
  },
  {
@@ -7404,16 +7527,40 @@
     "label": "道路河川課のご案内"
    }
   ],
-  "sources_morimachi": [],
+  "sources_morimachi": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/index.html",
+    "label": "建設課／静岡県森町"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/kanrigakari/index.html",
+    "label": "管理係／静岡県森町"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/kanrigakari/2/416.html",
+    "label": "社会資本総合整備計画等（道路関連）／静岡県森町（建設課管理係の電話番号0538-85-6325を記載）"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/kanrigakari/2467.html",
+    "label": "申請書（河川占用・道路占用・法定外道路占用・承認工事・道路通行規制・河川愛護関係書類）／静岡県森町"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/index.html",
+    "label": "環境・住宅・ペット・生活／静岡県森町（防犯灯関連ページの有無を確認）"
+   }
+  ],
   "facts": {
-   "note": "確認中（森町の該当ページ未確認）。建設課管理係の連絡先（0538-85-2111）は確認したが、道路の穴・カーブミラー破損・街路灯不具合の通報を案内する専用ページは見つからなかった。"
+   "road_and_mirror": "町道の穴（陥没）・ひび割れ、カーブミラーの破損や向きのずれについては、森町役場「建設課 管理係」（電話0538-85-6325）が窓口。公式ページ本文に直通電話番号の記載を確認済み。",
+   "streetlight_note": "街路灯・防犯灯の故障通報の担当窓口は、公式サイト本文（建設課、住民生活課生活環境係の各ページ）で確認できず「確認中」とした。防犯灯は自治会（区）を通じたLED化・設置補助金の枠組みで扱われている経緯があることは議会資料等から把握しているが、故障通報の専用案内ページは見つからなかった。",
+   "report_method": "森町公式サイトには道路の穴・カーブミラー不具合を通報する専用フォームやLINE通報システムの案内は確認できなかった（2026年7月4日時点）。電話での連絡が基本。",
+   "hall_tel": "0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-2111）"
   },
-  "status": "draft",
+  "status": "ai-checked",
   "verified_date": null,
-  "ai_checked_date": null,
-  "ai_notes": null,
-  "verified_by": null,
-  "title": null
+  "ai_checked_date": "2026-07-04",
+  "ai_notes": "森町公式サイトをWebFetchで直接確認。建設課ページ・管理係ページ・社会資本総合整備計画ページ（電話0538-85-6325記載）・申請書ページ・住民生活課生活環境係配下の「環境・住宅・ペット・生活」ページ（防犯灯関連ページの不在を確認）を出典として使用。磐田市の本文は流用せず、確認できた事実のみ記載し、街路灯・防犯灯の担当窓口は「確認中」と明記した。",
+  "verified_by": "machine",
+  "title": "道路の穴・カーブミラーの不具合は、森町「建設課 管理係」へ通報する。"
  },
  {
   "href": "/life/troubles-consult/vacant-house-consultation/",
@@ -7469,7 +7616,7 @@
   ],
   "facts": {
    "window": "税務課 資産税係",
-   "tel": "0538-85-2111（代表）"
+   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -7517,8 +7664,8 @@
    "tel": "0538-85-6310",
    "note": "口座振替・コンビニ（セブン-イレブン、ローソン、ファミリーマート等）・スマホ決済（PayPay、d払い、auPay等）・地方税お支払サイト（クレカ/ネットバンキング、手数料あり）・金融機関窓口・役場会計課窓口に対応"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -7551,11 +7698,11 @@
   "facts": {
    "note": "確認中（森町の該当ページ未確認・カテゴリ一覧ページのため個別ページなし）"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "💴 働く・暮らす（森町版）"
  },
  {
@@ -7595,7 +7742,7 @@
   ],
   "facts": {
    "window": "ハローワーク磐田（森町の求人・雇用保険手続きの管轄）",
-   "note": "森町公式サイトの「就職支援」ページには移住・就業支援補助金の案内や最低賃金改正情報のみが掲載され、求人情報そのものはハローワーク磐田（磐田市・袋井市・森町の2市1町を管轄）を案内する形。森町役場代表電話0538-85-2111。ハローワーク磐田の所在地・電話番号は本ページからは未確認のため別途要確認"
+   "note": "森町公式サイトの「就職支援」ページには移住・就業支援補助金の案内や最低賃金改正情報のみが掲載され、求人情報そのものはハローワーク磐田（磐田市・袋井市・森町の2市1町を管轄）を案内する形。森町役場代表電話0538-85-2111。ハローワーク磐田の所在地・電話番号は本ページからは未確認のため別途要確認（確認中: 本文未確認 0538-85-2111）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
@@ -7649,8 +7796,8 @@
    "tel": "0538-85-6301",
    "note": "町職員採用情報は「パブリックコネクト森町ページ」(https://public-connect.jp/employer/13/job/list) に掲載される"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -7700,8 +7847,8 @@
    "tel": "0538-85-6308",
    "note": "税額の例: 原付(50cc以下)2,000円、二輪車(125cc超250cc以下)3,600円、軽自動車・四輪乗用(自家用、平成27年4月以降新規登録)10,800円。納期限はページ未記載のため要問合せ"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -7747,8 +7894,8 @@
    "tel": "0538-85-6312",
    "note": "申請は郵送・オンライン(スマホ/PC)・窓口(タブレット申請、平日8:30-17:15、水曜19時まで)の3通り。交付通知書ハガキ到着後、本人確認書類持参で窓口受取。代理人交付は病気・障害等やむを得ない場合のみ。受取予約制度の記載はなし"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -7795,7 +7942,7 @@
    }
   ],
   "facts": {
-   "window": "税務課（役場代表 0538-85-2111、開庁時間 月～金8:30-17:15）",
+   "window": "税務課（役場代表 0538-85-2111、開庁時間 月～金8:30-17:15）（確認中: 本文未確認 0538-85-2111）",
    "note": "所得割・均等割の具体的な税率はページに未記載（「国民健康保険税とは」等の関連リンク先を要確認）。災害等による減免制度あり"
   },
   "status": "ai-checked",
@@ -7838,7 +7985,7 @@
   ],
   "facts": {
    "window": "住民生活課 国保年金係",
-   "tel": "0538-85-2111（役場代表）",
+   "tel": "0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-2111）",
    "note": "加入・喪失手続きの具体的な必要書類・期限はページ本文に未記載のため担当課へ要問合せ。傷病手当金、マイナ保険証利用、産前産後の保険税免除、特定健診等の案内あり"
   },
   "status": "ai-checked",
@@ -7892,8 +8039,8 @@
    "tel": "0538-85-6310（納税係）／0538-85-6308（町民税係）",
    "note": "普通徴収・特別徴収の両方に対応。個人住民税の電子申告にも対応。納付方法は口座振替・コンビニ・スマホ決済等"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -7936,7 +8083,7 @@
   ],
   "facts": {
    "window": "産業課 商工観光係",
-   "tel": "0538-85-6319（推定・電話帳情報のため要確認）／0538-85-2111（役場代表）",
+   "tel": "0538-85-6319（推定・電話帳情報のため要確認）／0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-6319）（確認中: 本文未確認 0538-85-2111）",
    "note": "森町公式サイトに専用の起業・創業相談窓口ページは確認できず。「産業競争力強化法に基づく創業支援等事業計画」への言及あり。詳細相談は産業課へ、企業立地情報は「森町企業立地・雇用促進特設サイト」(https://morimachi.kigyorich.jp/) を案内"
   },
   "status": "ai-checked",
@@ -7987,7 +8134,7 @@
   ],
   "facts": {
    "window": "産業課 農政係・農業委員会事務局",
-   "tel": "0538-85-6315",
+   "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
    "note": "空き家付き農地取得制度（2021年4月〜、新規就農者向けに下限面積を緩和。三倉・天方・森地区20a、一宮・園田・飯田地区40a）あり。専用の「新規就農相談窓口」ページは未確認、静岡県の新規就農支援制度とも連携"
   },
   "status": "ai-checked",
@@ -8030,11 +8177,11 @@
   "facts": {
    "note": "住民生活課生活環境係扱い（電動アシスト自転車購入費補助・省エネ家電買替補助・新エネルギー機器導入補助・耐震化補助等）、産業課扱い（中小企業等コスト削減支援・事業継続強化補助・ジャンボタニシ捕獲器購入費補助等）など、担当課・係ごとに補助金制度が分散している。全体一覧の単一ページは未確認のため、目的別に各課へ要問合せ"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "森町の補助金は、担当課ごとに分かれるため対象制度を個別に確認する"
  },
  {
@@ -8072,7 +8219,7 @@
    }
   ],
   "facts": {
-   "window": "税務課（納税係0538-85-6310／町民税係0538-85-6308）",
+   "window": "税務課（納税係0538-85-6310／町民税係0538-85-6308）（確認中: 本文未確認 0538-85-6308）",
    "note": "町税全般は口座振替・コンビニ・スマホ決済・クレカ/ネットバンキング（地方税お支払サイト）・金融機関窓口・役場会計課窓口で納付可能"
   },
   "status": "ai-checked",
@@ -8127,8 +8274,8 @@
    "tel": "0538-85-6308",
    "note": "対応証明書: 所得証明書・課税(非課税)証明書・納税証明書・軽自動車税納税証明書・営業証明書。申請方法は窓口・郵便請求（返送用封筒・定額小為替・身分証明書コピー同封）・委任状利用（代理人可）の3通り。窓口時間は月～金8:30-17:15。車検用の納税証明書は原則不要（電子化により）"
   },
-  "status": "ai-checked",
-  "verified_date": "2026-07-03",
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -8179,11 +8326,11 @@
    "tel": "0538-85-6310",
    "note": "徴収の猶予: 災害・病気・事業の休廃業等で一時に納付困難な場合、または期限から1年以上経過後に税額確定した場合が対象。換価の猶予: 一時納付により事業継続・生活維持が困難になるおそれがある場合が対象"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "machine-verified",
+  "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null,
+  "verified_by": "machine",
   "title": "森町の税金相談は、税務課納税係で納付猶予制度を確認する"
  }
 ]
