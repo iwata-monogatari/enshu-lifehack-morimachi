@@ -1,0 +1,173 @@
+{
+ "_comment": "6つの生活場面（抜本改修指示書 4.1）。トップの主入口であり、13カテゴリの上位に立つ。",
+ "hubs": [
+  {
+   "id": "procedures",
+   "slug": "procedures",
+   "emoji": "📄",
+   "title": "手続きしたい",
+   "short": "住民票・戸籍・マイナンバー・税・水道・ごみ",
+   "lead": "転入・転出、住民票や戸籍などの証明書、マイナンバーカード、税金、水道、ごみ。役場でする手続きを、必要になった場面から探せます。",
+   "learn": [
+    "どの証明書を取ればよいか",
+    "引っ越しの前後で何をいつまでにやるか",
+    "税金・水道・ごみの窓口と連絡先"
+   ],
+   "cta": "none",
+   "official": [
+    {
+     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/index.html",
+     "label": "行政手続きのご案内／静岡県森町"
+    }
+   ]
+  },
+  {
+   "id": "family",
+   "slug": "family",
+   "emoji": "👶",
+   "title": "子ども・家族",
+   "short": "結婚・妊娠・出産・子育て・保育・学校",
+   "lead": "結婚、妊娠、出産、子育ての手当、保育園や学校のこと。家族が増えるとき・子どもが育つときの手続きと相談先をまとめています。",
+   "learn": [
+    "妊娠・出産で先に出す届出",
+    "児童手当など期限のある申請",
+    "保育園・学校・教育相談の窓口"
+   ],
+   "cta": "none",
+   "official": [
+    {
+     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/index.html",
+     "label": "子育て・教育／静岡県森町"
+    }
+   ]
+  },
+  {
+   "id": "care",
+   "slug": "care",
+   "emoji": "👵",
+   "title": "親・介護",
+   "short": "介護の相談・要介護認定・ケアマネ・認知症・施設",
+   "lead": "親の介護が心配になったとき、何から始めればよいかを順番に案内します。相談窓口、要介護認定、認定後のケアプラン、施設探しまでを分けて確認できます。",
+   "learn": [
+    "最初に相談する窓口はどこか",
+    "要介護認定の申請から結果までの流れ",
+    "認定が出たあとに誰へ連絡するか"
+   ],
+   "cta": "care",
+   "official": [
+    {
+     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html",
+     "label": "高齢者のための相談窓口／静岡県森町"
+    }
+   ]
+  },
+  {
+   "id": "property",
+   "slug": "property",
+   "emoji": "🏠",
+   "title": "家・土地",
+   "short": "住宅・空き家・相続・固定資産税・農地・売却・解体",
+   "lead": "住まいのこと、相続した実家や空き家、農地、固定資産税。使う・貸す・売る・解体するのどれを選ぶかを決めるところから案内します。",
+   "learn": [
+    "家族が亡くなった後に急ぐ手続き",
+    "相続した家をどうするかの決め方",
+    "空き家・農地・固定資産税の相談先"
+   ],
+   "cta": "real_estate",
+   "official": [
+    {
+     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/index.html",
+     "label": "くらし・手続き／静岡県森町"
+    }
+   ]
+  },
+  {
+   "id": "trouble",
+   "slug": "trouble",
+   "emoji": "🆘",
+   "title": "困った・緊急",
+   "short": "防災・避難・夜間診療・生活費・税滞納・法律・消費者被害",
+   "lead": "急な病気やけが、災害、お金の不安、詐欺の被害。急ぎで判断が必要なことと、落ち着いて相談することを分けて案内します。",
+   "learn": [
+    "夜間・休日に具合が悪くなったときの連絡先",
+    "いつ・どこへ避難するか",
+    "税金や生活費が払えないときの相談先"
+   ],
+   "cta": "none",
+   "official": [
+    {
+     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/bosai/index.html",
+     "label": "防災／静岡県森町"
+    }
+   ]
+  },
+  {
+   "id": "enjoy",
+   "slug": "enjoy",
+   "emoji": "🌳",
+   "title": "暮らしを楽しむ",
+   "short": "公園・図書館・公共施設・寺院・神社・地域情報",
+   "lead": "公園や図書館、借りられる公共施設。あわせて、森町の神社39社・寺院35ヶ寺を調べられる地域データベースもここにあります。",
+   "learn": [
+    "目的に合う公園・施設の探し方",
+    "施設を借りるときの窓口と予約方法",
+    "森町の神社・寺院の所在地と由緒"
+   ],
+   "cta": "none",
+   "official": [
+    {
+     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka_sports/index.html",
+     "label": "観光・文化・スポーツ／静岡県森町"
+    }
+   ]
+  }
+ ],
+ "emergency_links": [
+  {
+   "href": "/life/health-medical/night-holiday-medical/#case-title",
+   "emoji": "🚑",
+   "label": "救急車を呼ぶか迷う",
+   "note": "119番・♯7119・#8000の使い分け"
+  },
+  {
+   "href": "/life/health-medical/night-holiday-medical/",
+   "emoji": "🏥",
+   "label": "夜間・休日の診療",
+   "note": "受診先と連絡の順番"
+  },
+  {
+   "href": "/life/emergency/evacuation-hazard-map/",
+   "emoji": "🗺️",
+   "label": "避難所・ハザードマップ",
+   "note": "いつ・どこへ逃げるか"
+  },
+  {
+   "href": "/life/emergency/road-river-info/",
+   "emoji": "🌧️",
+   "label": "大雨・道路・河川情報",
+   "note": "通行止めと川の水位"
+  },
+  {
+   "href": "/life/troubles-consult/consumer-fraud/",
+   "emoji": "⚠️",
+   "label": "消費者被害・詐欺",
+   "note": "町民生活センターへ相談"
+  }
+ ],
+ "frequent": [
+  { "href": "/life/start-living/certificates/", "emoji": "📄", "label": "住民票・戸籍・印鑑証明を取る" },
+  { "href": "/life/start-living/how-to-garbage/", "emoji": "🗑️", "label": "ごみの分け方・収集日を調べる" },
+  { "href": "/life/start-living/moved-in/", "emoji": "🧭", "label": "森町に引っ越してきたときの手続き" },
+  { "href": "/life/moving-out/moving-away/", "emoji": "📦", "label": "森町から引っ越すときの手続き" },
+  { "href": "/life/end-of-life/bereavement/", "emoji": "🕊️", "label": "家族が亡くなったときの手続き" },
+  { "href": "/life/parents-care/long-term-care-insurance/", "emoji": "👵", "label": "親の介護が始まったときの流れ" },
+  { "href": "/life/work-life/city-tax-payment/", "emoji": "💴", "label": "町税の納付方法を選ぶ" },
+  { "href": "/life/family-grow/child-allowance/", "emoji": "👶", "label": "児童手当・こども医療費助成を申請する" }
+ ],
+ "databases": [
+  { "href": "/shrine/", "emoji": "⛩️", "label": "森町の神社", "note": "39社を地区別・系統別に整理。祭礼カレンダーもあります" },
+  { "href": "/temple/", "emoji": "🛕", "label": "森町の寺院", "note": "35ヶ寺を宗派別・地区別に整理。実家じまいのガイドもあります" },
+  { "href": "/tools/", "emoji": "🧰", "label": "便利ツール", "note": "ごみ分別の検索、引っ越しチェックリスト、ライフイベント年表" },
+  { "href": "/checklist/moved-in/", "emoji": "✅", "label": "状況別チェックリスト", "note": "引っ越し・結婚・出産・転職のやることを順番に確認" }
+ ]
+}

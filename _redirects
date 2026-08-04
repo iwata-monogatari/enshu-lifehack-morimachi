@@ -1,3 +1,31 @@
 # 旧 /iwata/ 配下を新サブドメイン直下へ
 /iwata/  /  301
 /iwata/*  /:splat  301
+
+# 2026-08 統合（抜本改修指示書 5.3 / 5.4）: 重複していたページを統合先へ301
+/life/education/school-attendance-support/  /life/education/educational-consulting/  301
+/life/emergency/emergency-medical/  /life/health-medical/night-holiday-medical/  301
+/life/emergency/hazard-maps/  /life/emergency/evacuation-hazard-map/  301
+/life/emergency/storm-heavy-rain/  /life/emergency/evacuation-hazard-map/  301
+/life/end-of-life/after-death-procedures/  /life/end-of-life/bereavement/  301
+/life/end-of-life/bereavement-procedures/  /life/end-of-life/bereavement/  301
+/life/end-of-life/house-became-vacant/  /life/end-of-life/inherited-house/  301
+/life/end-of-life/inherited-vacant-house/  /life/end-of-life/inherited-house/  301
+/life/family-grow/child-allowance-medical/  /life/family-grow/child-allowance/  301
+/life/health-medical/disability-services/  /life/health-medical/disability-welfare/  301
+/life/health-medical/holiday-night-emergency-care/  /life/health-medical/night-holiday-medical/  301
+/life/living-soon/bus-license-return/  /life/parents-care/elderly-transportation/  301
+/life/living-soon/school-districts/  /life/education/school-zones/  301
+/life/living-soon/transportation/  /life/start-living/public-transit/  301
+/life/moving-out/stop-water/  /life/start-living/water-start-stop-fees/  301
+/life/parents-care/care-certification-support-center/  /life/parents-care/long-term-care-insurance/  301
+/life/play-out/kids-playgrounds/  /life/play-out/find-parks/  301
+/life/start-living/dog-registration-rabies/  /life/start-living/dog-registration/  301
+/life/start-living/garbage-sorting-calendar/  /life/start-living/how-to-garbage/  301
+/life/start-living/moving-address-change/  /life/start-living/moved-in/  301
+/life/troubles-consult/care-consultation/  /life/parents-care/community-support-center/  301
+/life/troubles-consult/disability-consultation/  /life/health-medical/disability-welfare/  301
+/life/troubles-consult/farmland/change-use/  /life/troubles-consult/farmland/conversion/  301
+/life/troubles-consult/vacant-house-consultation/  /life/end-of-life/inherited-house/  301
+/life/work-life/my-number-card/  /life/start-living/mynumber/  301
+/life/work-life/tax-guide/  /life/troubles-consult/cannot-pay-tax/  301

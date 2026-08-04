@@ -408,3 +408,119 @@ body.home .section-title{display:block;font-weight:800;font-size:15px;color:var(
 body.home .section-desc{display:block;font-size:12.5px;color:var(--mut);margin-top:4px;line-height:1.7}
 @media(max-width:880px){body.home .section-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){body.home .section-grid{grid-template-columns:1fr}}
+
+/* ===== 抜本改修 2026-08: 6つの生活場面ハブ / 緊急導線 / 検索結果 ===== */
+
+/* --- 緊急導線（指示書6.4）。営業CTAは置かない ----------------------------- */
+body.home .urgent{background:#fff8f6;border:1px solid #f0cfc6;border-left:5px solid #C0461E;border-radius:0 14px 14px 0;padding:14px 16px;margin:16px 0}
+body.home .urgent h2{border:0;padding:0;margin:0 0 10px;font-size:16px;color:#9c3417}
+body.home .urgent-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+body.home .urgent-card{display:flex;align-items:flex-start;gap:9px;background:#fff;border:1px solid #f0cfc6;border-radius:10px;padding:11px 12px;min-height:44px;text-decoration:none;color:inherit}
+body.home .urgent-card:hover{background:#fff1ec;border-color:#e0a493;text-decoration:none}
+body.home .urgent-icon{font-size:20px;line-height:1.15;flex:0 0 auto}
+body.home .urgent-text{min-width:0}
+body.home .urgent-label{display:block;font-weight:800;font-size:14px;color:#9c3417;line-height:1.45}
+body.home .urgent-note{display:block;font-size:12px;color:var(--mut);margin-top:2px;line-height:1.6}
+body.home .urgent .mini{margin:10px 0 0}
+
+/* --- 6つの生活場面（指示書4.1） ------------------------------------------- */
+body.home .hub-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}
+body.home .hub-card{display:flex;align-items:flex-start;gap:11px;background:#fff;border:1px solid var(--line);border-top:4px solid var(--green);border-radius:12px;padding:15px;min-height:104px;text-decoration:none;color:inherit}
+body.home .hub-card:hover{background:#f3faf6;border-color:#b9d9ca;text-decoration:none}
+body.home .hub-emoji{font-size:26px;line-height:1.1;flex:0 0 auto}
+body.home .hub-text{min-width:0}
+body.home .hub-title{display:block;font-weight:800;font-size:17px;color:var(--green-d);line-height:1.4}
+body.home .hub-desc{display:block;font-size:12.5px;color:var(--mut);margin-top:5px;line-height:1.7}
+
+/* --- よく使われる手続き ---------------------------------------------------- */
+body.home .freq-list{list-style:none;margin:12px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+body.home .freq-list a{display:flex;align-items:center;gap:9px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px 13px;min-height:44px;font-weight:700;font-size:14px;color:var(--green-d)}
+body.home .freq-list a:hover{background:#f3faf6;border-color:#b9d9ca;text-decoration:none}
+body.home .freq-icon{font-size:17px;line-height:1;flex:0 0 auto}
+
+/* --- 情報の確認状況・運営者 ------------------------------------------------ */
+body.home .freshness,body.home .publisher{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px;margin-top:12px}
+body.home .freshness p,body.home .publisher p{font-size:14px;color:#445}
+body.home .pub-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:4px}
+
+/* --- ハブページの分岐カード（指示書7-4） ---------------------------------- */
+body.hub .branch-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+body.hub .branch-card{display:flex;align-items:flex-start;gap:10px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--green);border-radius:0 12px 12px 0;padding:14px;min-height:76px;text-decoration:none;color:inherit}
+body.hub .branch-card:hover{background:#f3faf6;border-color:#b9d9ca;border-left-color:var(--green);text-decoration:none}
+body.hub .branch-icon{font-size:20px;line-height:1.15;flex:0 0 auto}
+body.hub .branch-text{flex:1;min-width:0}
+body.hub .branch-need{display:block;font-size:12.5px;color:var(--mut);line-height:1.6}
+body.hub .branch-need::before{content:"「"}
+body.hub .branch-need::after{content:"」というとき"}
+body.hub .branch-title{display:block;font-weight:800;font-size:15px;color:var(--green-d);margin-top:4px;line-height:1.5}
+body.hub .branch-arrow{color:var(--green);font-weight:900;align-self:center}
+
+/* --- ハブページのカテゴリ別一覧 -------------------------------------------- */
+body.hub .hub-cats{display:grid;gap:14px}
+body.hub .hub-cat{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+body.hub .hub-cat h3{margin:0 0 8px;font-size:15px;color:var(--green-d)}
+body.hub .hub-items{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+body.hub .hub-items a{display:block;padding:9px 10px;border-radius:8px;min-height:44px}
+body.hub .hub-items a:hover{background:#f3faf6;text-decoration:none}
+body.hub .item-title{display:block;font-weight:700;font-size:14.5px;color:var(--green-d);line-height:1.55}
+body.hub .item-note{display:block;font-size:12px;color:var(--mut);margin-top:2px;line-height:1.65}
+
+/* --- 検索結果（指示書9.2） -------------------------------------------------- */
+body.home .search-hits,body.home .search-near{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+body.home .search-hit .hit-body{flex:1 1 auto;min-width:0;text-align:left}
+body.home .search-hit .hit-summary{display:block;font-size:13px;color:#445;margin-top:3px;line-height:1.65}
+body.home .search-hit .hit-meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+body.home .search-hit .hit-meta span{display:inline-block;font-size:11.5px;font-weight:700;color:var(--mut);background:#fff;border:1px solid #cfe5da;border-radius:999px;padding:2px 8px;line-height:1.6}
+body.home .search-hit .hit-kind{color:var(--green-d)}
+body.home .search-hit .hit-arrow{margin-left:auto;align-self:center;color:var(--green);font-weight:900}
+body.home .search-results .search-request{margin:12px 0 0}
+body.home .search-results .search-request .btn{display:inline-flex;width:auto}
+body.home .search-request-thanks{margin:10px 0 0;font-weight:700;color:var(--green-d);font-size:13.5px}
+
+@media(max-width:880px){
+body.home .urgent-grid,body.home .hub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+body.hub .branch-grid{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+body.home .urgent-grid,body.home .hub-grid,body.home .freq-list,body.home .pub-links{grid-template-columns:1fr}
+}
+
+/* --- 親ページの「あなたはどのケースですか」分岐カード（指示書8.1） -------- */
+body:not(.hub) .case-branch,body.hub .case-branch{margin:18px 0}
+body:not(.hub) .case-grid,body.hub .case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+body:not(.hub) .case-card,body.hub .case-card{display:flex;align-items:flex-start;gap:10px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--green);border-radius:0 12px 12px 0;padding:13px 15px;min-height:64px;text-decoration:none;color:inherit}
+body:not(.hub) .case-card:hover,body.hub .case-card:hover{background:#f3faf6;border-color:#b9d9ca;text-decoration:none}
+body:not(.hub) .case-icon,body.hub .case-icon{font-size:19px;line-height:1.2;flex:0 0 auto}
+body:not(.hub) .case-text,body.hub .case-text{min-width:0}
+body:not(.hub) .case-when,body.hub .case-when{display:block;font-size:12.5px;color:var(--mut);line-height:1.6}
+body:not(.hub) .case-when::before,body.hub .case-when::before{content:"「"}
+body:not(.hub) .case-when::after,body.hub .case-when::after{content:"」なら"}
+body:not(.hub) .case-do,body.hub .case-do{display:block;font-weight:800;font-size:14.5px;color:var(--green-d);margin-top:3px;line-height:1.55}
+@media(max-width:720px){
+body:not(.hub) .case-grid,body.hub .case-grid{grid-template-columns:1fr}
+}
+
+/* --- アクセシビリティ（指示書14.1「本文16px未満を禁止」/ 14.2「タップ領域44px以上」）---
+   高齢の利用者を想定し、読ませる文章と押させるリンクの寸法をここで底上げする。
+   日付・注記などの補足ラベルは対象外（本文ではないため）。 */
+body:not(.hub) .lead,body.hub .lead{font-size:16px;line-height:1.8}
+body:not(.hub) .official-link,body.hub .official-link{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  min-height:44px;font-size:16px;line-height:1.6;padding:11px 13px}
+body.hub .official-link{background:#eef6f2;border:1px solid #cfe5da;border-radius:10px;font-weight:700}
+body.hub .official-link:hover{text-decoration:none;background:#e6f2ec}
+body:not(.hub) .official-link span,body.hub .official-link span{font-size:13px;flex:0 0 auto;color:var(--mut)}
+body.hub .hub-items .item-title{font-size:16px}
+body.hub .hub-items .item-note{font-size:13px}
+body:not(.hub) .case-do,body.hub .case-do{font-size:16px}
+body:not(.hub) .case-when,body.hub .case-when{font-size:13.5px}
+body.hub .branch-title{font-size:16px}
+body.hub .branch-need{font-size:13.5px}
+body.home .freq-list a{font-size:16px}
+body.home .urgent-label{font-size:16px}
+body.home .urgent-note,body.home .hub-desc,body.home .section-desc{font-size:13.5px}
+body.home .search-hit .hit-summary{font-size:14.5px}
+body.home .freshness p,body.home .publisher p,body.hub .choose li,body.hub .official-box p{font-size:16px}
+body.hub .card-desc,body.hub .subitems li{font-size:14px}
+body:not(.hub) .btn,body.hub .btn{font-size:16px}
+body:not(.hub) .logo,body.hub .logo{min-height:44px;display:inline-flex;align-items:center}

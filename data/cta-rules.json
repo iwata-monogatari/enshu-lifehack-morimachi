@@ -1,7 +1,7 @@
 {
   "_note": "森町ライフハックのCTA規則。02戦略編1-2/1-3、04修正指示書A-3(ステマ規制対応のdisclosure)に基づく。UTMのsourceは入口ごとに morimachi_lifehack / morimachi_blog / morimachi_temple / morimachi_shrine を使い分ける。",
   "_landing_page": "着地先は ATAWI FUDOSAN の森町LP https://fudosan.atawi.link/areas/mori/ 。02戦略編⑤は新設する森町LPのパスを /areas/morimachi/ と書いているが、実際には /areas/mori/ が既に公開されている(2026-08-04時点でHTTP 200。/areas/morimachi/ は404)。既存LPを正とし、新設ではなく既存の増補で対応する。",
-  "_disclosure_policy": "real_estate / care / both の各CTAには必ず disclosure を表示する(景表法ステルスマーケティング規制。2023年10月1日施行)。",
+  "_disclosure_policy": "real_estate / care / both の各CTAには必ず disclosure を表示する（景表法ステルスマーケティング規制。2023年10月1日施行）。guide はサイト内の案内のため disclosure を持たない。緊急・医療・生活困窮・一般行政手続きのページには営業CTAを出さない（改修指示書11.2）。",
   "rules": {
     "real_estate": {
       "label": "住まい・相続の相談",
@@ -50,6 +50,16 @@
       "strength": "none",
       "description": "営業色を出すと逆効果になる領域(子育て・学校・健康・遊び)。企業CTAは描画しない。",
       "disclosure": null
+    },
+    "guide": {
+      "label": "関連ガイド",
+      "strength": "weak",
+      "heading": "あわせて確認したいこと",
+      "description": "お墓や供養の手続きのあと、実家や仏具の整理が必要になることがあります。順番に整理したい方向けのガイドです。",
+      "button_text": "実家じまいの進め方ガイドを見る",
+      "url": "/temple/guide/",
+      "provider": "森町ライフハック",
+      "internal": true
     }
   }
 }

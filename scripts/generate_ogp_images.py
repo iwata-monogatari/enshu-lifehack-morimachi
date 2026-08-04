@@ -128,6 +128,29 @@ def render(cat_id, emoji, title, out_path):
     img.save(out_path, "PNG")
 
 
+# life/ 以外で og:image が必要なページ（サイト既定＋6つの生活場面ハブ）
+EXTRA_IMAGES = [
+    ("site-default", "living-soon", "🏯", "森町の手続き・相談先を、困りごとから探す"),
+    ("hub-procedures", "start-living", "📄", "手続きしたい"),
+    ("hub-family", "family-grow", "👶", "子ども・家族"),
+    ("hub-care", "parents-care", "👵", "親・介護"),
+    ("hub-property", "housing", "🏠", "家・土地"),
+    ("hub-trouble", "emergency", "🆘", "困った・緊急"),
+    ("hub-enjoy", "play-out", "🌳", "暮らしを楽しむ"),
+]
+
+
+def render_extras(force):
+    made = 0
+    for name, palette, emoji, title in EXTRA_IMAGES:
+        out_path = os.path.join(OUT_DIR, "%s.png" % name)
+        if os.path.exists(out_path) and not force:
+            continue
+        render(palette, emoji, title, out_path)
+        made += 1
+    return made
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true", help="生成済みPNGも作り直す")
@@ -154,7 +177,9 @@ def main():
         render(cat, emoji_of.get(cat, ""), title, out_path)
         generated += 1
 
+    extras = render_extras(args.force)
     print("生成 %d 件 / スキップ(既存) %d 件 / 対象 %d ページ" % (generated, skipped, len(targets)))
+    print("ハブ・サイト既定画像: %d 件" % extras)
     if unknown_cat:
         print("categories.json に無いカテゴリ:", sorted(unknown_cat))
     return 0

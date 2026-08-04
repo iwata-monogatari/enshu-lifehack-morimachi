@@ -33,6 +33,13 @@ STAGING_DIR = ROOT / "_staging"
 
 PUBLISHABLE_STATUSES = ("ai-checked", "machine-verified", "human-verified", "published")
 
+# facts の内部キー → 画面表示用の日本語ラベル（改修指示書 8.4）
+FACT_LABELS = {
+    k: v for k, v in
+    json.loads((ROOT / "data" / "fact-labels.json").read_text(encoding="utf-8")).items()
+    if not k.startswith("_")
+}
+
 CATEGORY_ICON = {
     "困った・相談したい": "🧩", "暮らし始めた": "🧭", "働く・暮らす": "💴",
     "家族が増える": "👶", "健康・医療": "🏥", "もしもの時": "⚠️",
@@ -151,11 +158,19 @@ def action_grid_html(grid):
 
 
 def facts_html(facts):
+    """公式窓口ブロック。内部キーは data/fact-labels.json で日本語ラベルに置き換える。
+
+    画面に window / tel / note などの内部キーを出さない（改修指示書 8.4）。
+    """
     if not facts:
         return ""
     rows = []
     for k, v in facts.items():
-        rows.append(f"<p class=\"mini\"><b>{esc(k)}</b>：{esc(v)}</p>")
+        label = FACT_LABELS.get(k)
+        if not label:
+            print(f"[warn] fact-labels.json に未登録のキー: {k}")
+            label = k
+        rows.append(f"<p class=\"mini\"><b>{esc(label)}</b>：{esc(v)}</p>")
     return "".join(rows)
 
 

@@ -135,6 +135,8 @@ def main():
         fest_by_shrine[f_["shrine_slug"]].append(f_)
     desig = {d["id"]: d for d in fest["designations"]}
 
+    name_counts = Counter(x["name"] for x in shrines)
+
     for s in shrines:
         d = dmeta.get(s["district_id"])
         rows = []
@@ -178,11 +180,16 @@ def main():
         body.append("</ul>")
         body.append('<p class="mini">本ページは静岡県神社庁の掲載情報から、社名・鎮座地・御祭神・祭礼日などの事実項目を整理したものです。由緒の本文は転載していません。</p>')
 
-        lead = "%s（%s）は、静岡県周智郡森町%sに鎮座する神社です。" % (s["name"], s["name_kana"], s.get("area") or "")
+        # 森町には同名の神社が複数ある（八幡神社5社・神明神社3社など）。
+        # title と description が重複しないよう、鎮座地まで含めて区別する。
+        addr_short = (s.get("address") or "").replace("静岡県周智郡森町", "森町")
+        lead = "%s（%s）は、%sに鎮座する神社です。" % (s["name"], s["name_kana"], addr_short)
         if s.get("saijin"):
             lead += "御祭神は%s。" % "・".join(s["saijin"])
         generated.append(write("shrines/%s" % s["slug"], shell(
-            "/shrine/shrines/%s/" % s["slug"], "⛩️", "%s（%s）" % (s["name"], s["name_kana"]), lead,
+            "/shrine/shrines/%s/" % s["slug"], "⛩️",
+            ("%s（%s）｜%s" % (s["name"], s["name_kana"], addr_short)
+             if name_counts[s["name"]] > 1 else "%s（%s）" % (s["name"], s["name_kana"])), lead,
             "".join(body), parts,
             ['<a href="/">%s</a>' % SITE_NAME, '<a href="/shrine/">森町の神社</a>',
              '<a href="/shrine/shrines/">神社一覧</a>', esc(s["name"])])))
