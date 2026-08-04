@@ -282,3 +282,14 @@ body.hub.home .quick-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1
 @media(max-width:420px){
 body.home .quick-grid,body.home .search-row{grid-template-columns:1fr}
 }
+
+/* --- CTA格付け(02戦略編1-3 / 04指示書A-3) --------------------------------- */
+/* 規則駆動のCTAはカード1枚構成のため、3列グリッドを1列に戻す */
+body:not(.hub) .company-strip[class*="cta-"] .company-grid,
+body.hub .company-strip[class*="cta-"] .company-grid{grid-template-columns:1fr}
+/* 強度に応じて左端の色帯だけ変える(過度に主張させない) */
+body:not(.hub) .company-strip.cta-strong,body.hub .company-strip.cta-strong{border-left:4px solid #8A5A2B}
+body:not(.hub) .company-strip.cta-middle,body.hub .company-strip.cta-middle{border-left:4px solid #2AA8A0}
+body:not(.hub) .company-strip.cta-weak,body.hub .company-strip.cta-weak{border-left:4px solid var(--line)}
+/* 運営会社の開示文(景表法ステマ規制) */
+body:not(.hub) .cta-disclosure,body.hub .cta-disclosure{margin:10px 0 0;font-size:12px;line-height:1.6;color:var(--mut)}

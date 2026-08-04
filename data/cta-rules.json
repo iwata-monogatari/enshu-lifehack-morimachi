@@ -1,0 +1,54 @@
+{
+  "_note": "森町ライフハックのCTA規則。02戦略編1-2/1-3、04修正指示書A-3(ステマ規制対応のdisclosure)に基づく。着地先は ATAWI FUDOSAN の森町専用LP /areas/morimachi/。UTMのsourceは入口ごとに morimachi_lifehack / morimachi_blog / morimachi_temple / morimachi_shrine を使い分ける。",
+  "_disclosure_policy": "real_estate / care / both の各CTAには必ず disclosure を表示する(景表法ステルスマーケティング規制。2023年10月1日施行)。",
+  "rules": {
+    "real_estate": {
+      "label": "住まい・相続の相談",
+      "strength": "strong",
+      "heading": "住まい・相続のご相談",
+      "description": "空き家や実家整理の判断に進む前に、制度と相談先を確認します。",
+      "button_text": "住まい相談へ",
+      "url": "https://fudosan.atawi.link/areas/morimachi/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=context_link",
+      "provider": "富士ヶ丘サービス",
+      "disclosure": "このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）のサービスです。"
+    },
+    "care": {
+      "label": "介護の相談窓口へ",
+      "strength": "middle",
+      "heading": "介護のご相談",
+      "description": "親のケア判断が必要な場合は、公式情報と並行して相談先も確認します。",
+      "button_text": "介護の相談へ",
+      "url": "https://www.fujigaoka-service.info/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=context_link",
+      "provider": "富士ヶ丘サービス",
+      "disclosure": "このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）のサービスです。"
+    },
+    "both": {
+      "label": "住まい・介護の相談",
+      "strength": "strong",
+      "heading": "住まい・介護のご相談",
+      "description": "公式情報を確認しながら、必要に応じて専門の相談先につなげます。",
+      "button_text": "相談先へ進む",
+      "url": "https://fudosan.atawi.link/areas/morimachi/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=context_link",
+      "secondary_button_text": "介護の相談へ",
+      "secondary_url": "https://www.fujigaoka-service.info/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=context_link",
+      "provider": "富士ヶ丘サービス",
+      "disclosure": "このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）のサービスです。"
+    },
+    "official": {
+      "label": "公式情報へ",
+      "strength": "weak",
+      "heading": "確認先",
+      "description": "最新・正確な情報は森町公式ページまたは担当窓口でご確認ください。",
+      "button_text": "森町公式サイトを見る",
+      "url": "https://www.town.morimachi.shizuoka.jp/",
+      "provider": "森町公式",
+      "disclosure": null
+    },
+    "none": {
+      "label": "CTAなし",
+      "strength": "none",
+      "description": "営業色を出すと逆効果になる領域(子育て・学校・健康・遊び)。企業CTAは描画しない。",
+      "disclosure": null
+    }
+  }
+}
