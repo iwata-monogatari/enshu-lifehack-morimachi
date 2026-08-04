@@ -388,3 +388,14 @@ body:not(.hub) .ih-checked,body.hub .ih-checked{margin:6px 0 0;font-size:11.5px;
 body:not(.hub) .ih-row,body.hub .ih-row{flex-direction:column;gap:2px}
 body:not(.hub) .ih-key,body.hub .ih-key{flex:none}
 }
+
+/* --- 神社・寺院データベース ------------------------------------------------ */
+body:not(.hub) .shrine-list,body.hub .shrine-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:14px 0}
+body:not(.hub) .shrine-item,body.hub .shrine-item{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-decoration:none;color:inherit;min-height:44px}
+body:not(.hub) .shrine-name,body.hub .shrine-name{display:block;font-weight:800;font-size:15px;color:var(--green-d)}
+body:not(.hub) .shrine-kana,body.hub .shrine-kana{display:block;font-size:12px;color:var(--mut);margin-top:2px}
+body:not(.hub) .shrine-meta,body.hub .shrine-meta{display:block;font-size:12.5px;color:var(--mut);margin-top:6px;line-height:1.7}
+body:not(.hub) .fest-badge,body.hub .fest-badge{display:inline-block;font-size:11.5px;font-weight:800;color:#8A5A2B;background:#f6efe6;border-radius:999px;padding:2px 9px;margin-left:4px}
+@media(max-width:640px){
+body:not(.hub) .shrine-list,body.hub .shrine-list{grid-template-columns:1fr}
+}

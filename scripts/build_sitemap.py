@@ -30,10 +30,20 @@ def main():
     aux = json.loads((ROOT / 'data/aux-pages.json').read_text(encoding='utf-8'))
     blog = json.loads((ROOT / 'data/blog-posts.json').read_text(encoding='utf-8'))['posts']
 
+    # 寺社DBはページ数が多く台帳を二重管理したくないので、実ディレクトリを走査する
+    section_urls = []
+    for section in ('shrine', 'temple'):
+        base = ROOT / section
+        if not base.is_dir():
+            continue
+        for p in sorted(base.rglob('index.html')):
+            section_urls.append('/' + p.relative_to(ROOT).as_posix()[: -len('index.html')])
+
     candidates = (['/', '/terms/']
                   + sorted(t['href'] for t in published)
                   + [a['href'] for a in aux]
-                  + [f"/blog/{p['slug']}/" for p in sorted(blog, key=lambda x: x['date'], reverse=True)])
+                  + [f"/blog/{p['slug']}/" for p in sorted(blog, key=lambda x: x['date'], reverse=True)]
+                  + section_urls)
 
     urls, missing = [], []
     for u in candidates:
