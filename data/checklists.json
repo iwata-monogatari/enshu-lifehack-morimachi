@@ -1,0 +1,74 @@
+{
+  "_note": "ライフイベント別チェックリスト。01計画書1-Bに基づく。href は必ず既存155ページのいずれかに着地させること(外部リンク・存在しないパスを置かない)。scripts/build_checklists.py が checklist/<slug>/index.html を生成する。",
+  "checklists": [
+    {
+      "slug": "moved-in",
+      "emoji": "🏡",
+      "title": "森町に引っ越してきた",
+      "lead": "転入届からマイナンバー、水道、ごみ、通学区域まで。静岡県周智郡森町に引っ越してきたあとにやることを、順番にチェックできます。",
+      "tasks": [
+        { "id": "moving-address-change", "label": "転入届を出す", "href": "/life/start-living/moving-address-change/" },
+        { "id": "resident-registration", "label": "住民登録の内容を確認する", "href": "/life/start-living/resident-registration/" },
+        { "id": "mynumber", "label": "マイナンバーカードの住所変更をする", "href": "/life/start-living/mynumber/" },
+        { "id": "water", "label": "水道の使用開始を届け出る", "href": "/life/start-living/water-start-stop-fees/" },
+        { "id": "garbage-how", "label": "ごみの出し方を確認する", "href": "/life/start-living/how-to-garbage/" },
+        { "id": "garbage-calendar", "label": "ごみ収集カレンダーを入手する", "href": "/life/start-living/garbage-sorting-calendar/" },
+        { "id": "school-districts", "label": "（子どもがいる場合）通学区域を確認する", "href": "/life/living-soon/school-districts/" },
+        { "id": "dog", "label": "（犬を飼っている場合）登録事項の変更を届け出る", "href": "/life/start-living/dog-registration/" },
+        { "id": "city-hall", "label": "役場の窓口と受付時間を確認する", "href": "/life/start-living/city-hall-branches/" },
+        { "id": "public-transit", "label": "自主運行バスなど町内の交通を確認する", "href": "/life/start-living/public-transit/" },
+        { "id": "moved-in-overview", "label": "暮らし始めの手続き全体を見直す", "href": "/life/start-living/moved-in/" }
+      ]
+    },
+    {
+      "slug": "married",
+      "emoji": "💍",
+      "title": "結婚した",
+      "lead": "婚姻届のあとに続く、住所・氏名・保険・税の手続きをまとめました。森町では結婚新生活支援補助金の対象になる場合もあります。",
+      "tasks": [
+        { "id": "marriage", "label": "婚姻届の出し方と必要書類を確認する", "href": "/life/family-grow/marriage/" },
+        { "id": "moving-address-change", "label": "住所が変わる場合は転入・転居の届出をする", "href": "/life/start-living/moving-address-change/" },
+        { "id": "mynumber", "label": "マイナンバーカードの氏名・住所を変更する", "href": "/life/start-living/mynumber/" },
+        { "id": "certificates", "label": "各種証明書の取り方を確認する", "href": "/life/start-living/certificates/" },
+        { "id": "nhi", "label": "国民健康保険に加入している場合は変更を届け出る", "href": "/life/work-life/national-health-insurance-tax/" },
+        { "id": "pension", "label": "年金の届出が必要か確認する", "href": "/life/work-life/nhk-pension/" },
+        { "id": "resident-tax", "label": "住民税の扱いを確認する", "href": "/life/work-life/resident-tax/" },
+        { "id": "subsidies", "label": "結婚新生活支援などの補助制度を確認する", "href": "/life/work-life/subsidies/" },
+        { "id": "water", "label": "住まいが変わる場合は水道の開始・停止を届け出る", "href": "/life/start-living/water-start-stop-fees/" }
+      ]
+    },
+    {
+      "slug": "baby",
+      "emoji": "👶",
+      "title": "子どもが生まれた",
+      "lead": "出生届から児童手当、乳幼児健診、予防接種、保育園まで。届出の期限があるものから順に確認できます。",
+      "tasks": [
+        { "id": "childbirth", "label": "出生届を出す（生まれた日から14日以内）", "href": "/life/family-grow/childbirth/" },
+        { "id": "child-allowance", "label": "児童手当を申請する", "href": "/life/family-grow/child-allowance/" },
+        { "id": "child-allowance-medical", "label": "子どもの医療費助成を申請する", "href": "/life/family-grow/child-allowance-medical/" },
+        { "id": "infant-health-check", "label": "乳幼児健診の日程を確認する", "href": "/life/family-grow/infant-health-check/" },
+        { "id": "child-vaccination", "label": "予防接種の種類とスケジュールを確認する", "href": "/life/family-grow/child-vaccination/" },
+        { "id": "nursery-school", "label": "保育園・こども園の申込時期を確認する", "href": "/life/family-grow/nursery-school/" },
+        { "id": "parenting-support", "label": "子育ての相談先・支援制度を確認する", "href": "/life/family-grow/parenting-support/" },
+        { "id": "nhi", "label": "国民健康保険の場合は子どもの加入を届け出る", "href": "/life/work-life/national-health-insurance-tax/" },
+        { "id": "mynumber", "label": "子どものマイナンバーカードを検討する", "href": "/life/start-living/mynumber/" }
+      ]
+    },
+    {
+      "slug": "job-change",
+      "emoji": "💴",
+      "title": "転職した・退職した",
+      "lead": "退職後は健康保険・年金・住民税の手続きが同時に発生します。放置すると未納になるものから順に確認できます。",
+      "tasks": [
+        { "id": "job-change", "label": "退職・転職に伴う手続きの全体像を確認する", "href": "/life/work-life/job-change/" },
+        { "id": "nhi", "label": "国民健康保険への切替が必要か確認する", "href": "/life/work-life/national-health-insurance-tax/" },
+        { "id": "pension", "label": "国民年金への切替を届け出る", "href": "/life/work-life/nhk-pension/" },
+        { "id": "resident-tax", "label": "住民税の納め方が変わることを確認する", "href": "/life/work-life/resident-tax/" },
+        { "id": "city-tax-payment", "label": "町税の納付方法を確認する", "href": "/life/work-life/city-tax-payment/" },
+        { "id": "tax-certificates", "label": "必要な課税・所得証明書を取得する", "href": "/life/work-life/tax-certificates/" },
+        { "id": "cannot-pay-tax", "label": "納付が難しいときの相談先を確認する", "href": "/life/troubles-consult/cannot-pay-tax/" },
+        { "id": "job-recruitment", "label": "町内の求人・就労支援を確認する", "href": "/life/work-life/job-recruitment/" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "_note": "森町ブログの記事台帳(02戦略編④)。記事の実体は blog/<slug>/index.html。ここに1行足して scripts/build_blog.py を実行すると一覧・sitemap・検索索引に載る。slug は YYYYMMDD-テーマ英語。",
+  "_url_convention": "02戦略編4-1は記事URLを /blog/{slug}.html と記載しているが、磐田ブログ(fudosan.atawi.link/blog/)の実体はディレクトリ方式 /blog/{slug}/ である。既存運用に合わせてディレクトリ方式を採用した。",
+  "_axis": "曜日別テーマ軸(02戦略編4-3): mon=手続き・制度 / tue=空き家・実家・相続(strong) / wed=寺社・歴史 / thu=農地・山林・茶畑(strong) / fri=地区めぐり / sat=祭礼・イベント / sun=移住・暮らし・データ",
+  "posts": [
+    {
+      "slug": "20260804-gomi-bunbetsu-kaitei",
+      "date": "2026-08-04",
+      "axis": "mon",
+      "title": "森町のごみ分別ルール、いま実際どうなっているのか",
+      "description": "森町では令和8年4月1日からのごみ分別ルール変更にともなう分別ガイドブックの改訂作業が進められています。町公式ページの記載を確認したうえで、いま手元の分別表をどう扱えばよいかを整理しました。",
+      "cta": "official",
+      "primary_source": "森町公式「家庭ごみの分別表・収集カレンダー」ページの記載を2026年8月4日に確認",
+      "cover_alt": "森町のごみ分別ルールの現状を整理する記事の表紙"
+    }
+  ]
+}

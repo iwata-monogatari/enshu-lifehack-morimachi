@@ -1,0 +1,1421 @@
+{
+  "_note": "出典は静岡県神社庁。由緒本文は転載していない（事実項目のみ）。",
+  "shrines": [
+    {
+      "shrine_id": "morimachi-s4410035",
+      "jinjacho_id": "4410035",
+      "slug": "s4410035",
+      "name": "天方神社",
+      "name_kana": "あまがたじんじゃ",
+      "tsusho": null,
+      "district_id": "mori",
+      "area": "向天方",
+      "system": "gion-susanoo",
+      "system_basis": "御祭神",
+      "saijin": [
+        "素盞嗚尊"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町向天方1391-2",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 天方神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410035",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410002",
+      "jinjacho_id": "4410002",
+      "slug": "s4410002",
+      "name": "天宮神社",
+      "name_kana": "あめのみやじんじゃ",
+      "tsusho": null,
+      "district_id": "mori",
+      "area": "天宮",
+      "system": "suijin",
+      "system_basis": "社名",
+      "saijin": [
+        "田心姫命",
+        "湍津姫命",
+        "市許嶋姫命"
+      ],
+      "sairei": [
+        {
+          "name": "例大祭",
+          "date": "4月第1土曜日、日曜日"
+        },
+        {
+          "name": "歳旦祭と新年祈祷祭",
+          "date": "1月1日～3日"
+        },
+        {
+          "name": "月次（つきなみ）祭と恒例祭",
+          "date": "毎月第1、第3日曜日"
+        }
+      ],
+      "postal_code": null,
+      "address": "静岡県周智郡森町天宮576",
+      "tel": "0538-85-5544",
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 天宮神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410002",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410030",
+      "jinjacho_id": "4410030",
+      "slug": "s4410030",
+      "name": "厳嶋神社",
+      "name_kana": "いつくしまじんじゃ",
+      "tsusho": null,
+      "district_id": "sonoda",
+      "area": "中川",
+      "system": "suijin",
+      "system_basis": "社名",
+      "saijin": [
+        "市杵島姫命"
+      ],
+      "sairei": [],
+      "postal_code": "437-0223",
+      "address": "静岡県周智郡森町中川1247",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 厳嶋神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410030",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410022",
+      "jinjacho_id": "4410022",
+      "slug": "s4410022",
+      "name": "岩田神社",
+      "name_kana": "いわたじんじゃ",
+      "tsusho": null,
+      "district_id": "sonoda",
+      "area": "牛飼",
+      "system": "chiiki-koyu",
+      "system_basis": "未分類",
+      "saijin": [
+        "息長帯姫命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町牛飼323",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 岩田神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410022",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410001",
+      "jinjacho_id": "4410001",
+      "slug": "s4410001",
+      "name": "小國神社",
+      "name_kana": "おくにじんじゃ",
+      "tsusho": "遠江国一宮（とおとうみのくにいちのみや）",
+      "district_id": "ichinomiya",
+      "area": "一宮",
+      "system": "ichinomiya",
+      "system_basis": "社名",
+      "saijin": [
+        "大己貴命"
+      ],
+      "sairei": [
+        {
+          "name": "田遊祭",
+          "date": "1月3日"
+        },
+        {
+          "name": "節分祭",
+          "date": "2月3日"
+        },
+        {
+          "name": "祈年祭",
+          "date": "2月18日"
+        },
+        {
+          "name": "例祭",
+          "date": "4月18日"
+        },
+        {
+          "name": "新嘗祭",
+          "date": "11月23日"
+        }
+      ],
+      "postal_code": "437-0226",
+      "address": "静岡県周智郡森町一宮3956-1",
+      "tel": "0538-89-7302",
+      "official_url": "http://www.okunijinja.or.jp",
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 小國神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410001",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410027",
+      "jinjacho_id": "4410027",
+      "slug": "s4410027",
+      "name": "金守神社",
+      "name_kana": "かなもりじんじゃ",
+      "tsusho": null,
+      "district_id": "mori",
+      "area": "森",
+      "system": "chiiki-koyu",
+      "system_basis": "未分類",
+      "saijin": [
+        "１．金刀比羅大神",
+        "２．句大兄国押武金日天皇",
+        "３．駒形神"
+      ],
+      "sairei": [],
+      "postal_code": "437-0215",
+      "address": "静岡県周智郡森町森928",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 金守神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410027",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410031",
+      "jinjacho_id": "4410031",
+      "slug": "s4410031",
+      "name": "金山神社",
+      "name_kana": "かなやまじんじゃ",
+      "tsusho": null,
+      "district_id": "sonoda",
+      "area": "草ヶ谷",
+      "system": "sangaku",
+      "system_basis": "社名",
+      "saijin": [
+        "金山彦命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町草ヶ谷147-2",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 金山神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410031",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410008",
+      "jinjacho_id": "4410008",
+      "slug": "s4410008",
+      "name": "許禰神社",
+      "name_kana": "きねじんじゃ",
+      "tsusho": null,
+      "district_id": "mikura",
+      "area": "三倉",
+      "system": "hachiman",
+      "system_basis": "御祭神",
+      "saijin": [
+        "伊邪那岐命",
+        "伊邪那美命",
+        "事代主命",
+        "誉田別命 天忍穂耳命",
+        "金山彦命",
+        "素盞嗚尊"
+      ],
+      "sairei": [
+        {
+          "name": "例祭日",
+          "date": "10月第4週日曜日"
+        }
+      ],
+      "postal_code": "437-0208",
+      "address": "静岡県周智郡森町三倉830",
+      "tel": null,
+      "official_url": "http://mikurakinejinjya.hamazo.tv/",
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 許禰神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410008",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410041",
+      "jinjacho_id": "4410041",
+      "slug": "s4410041",
+      "name": "熊野神社",
+      "name_kana": "くまのじんじゃ",
+      "tsusho": null,
+      "district_id": "iida",
+      "area": "飯田",
+      "system": "gion-susanoo",
+      "system_basis": "御祭神",
+      "saijin": [
+        "素盞嗚尊"
+      ],
+      "sairei": [],
+      "postal_code": "437-0222",
+      "address": "静岡県周智郡森町飯田3478-2",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 熊野神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410041",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410042",
+      "jinjacho_id": "4410042",
+      "slug": "s4410042",
+      "name": "黒石神明神社",
+      "name_kana": "くろいししんめいじんじゃ",
+      "tsusho": null,
+      "district_id": "amagata",
+      "area": "問詰",
+      "system": "shinmei",
+      "system_basis": "社名",
+      "saijin": [
+        "大日尊"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町問詰383-3",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 黒石神明神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410042",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410019",
+      "jinjacho_id": "4410019",
+      "slug": "s4410019",
+      "name": "小川神社",
+      "name_kana": "こがわじんじゃ",
+      "tsusho": null,
+      "district_id": "ichinomiya",
+      "area": "一宮",
+      "system": "chiiki-koyu",
+      "system_basis": "未分類",
+      "saijin": [
+        "大己貴命"
+      ],
+      "sairei": [],
+      "postal_code": "437-0226",
+      "address": "静岡県周智郡森町一宮936",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 小川神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410019",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410013",
+      "jinjacho_id": "4410013",
+      "slug": "s4410013",
+      "name": "正神社",
+      "name_kana": "しょうじんじゃ",
+      "tsusho": null,
+      "district_id": "sonoda",
+      "area": "谷中",
+      "system": "chiiki-koyu",
+      "system_basis": "未分類",
+      "saijin": [
+        "大山咋神"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町谷中1147",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 正神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410013",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410025",
+      "jinjacho_id": "4410025",
+      "slug": "s4410025",
+      "name": "白髭神社",
+      "name_kana": "しろひげじんじゃ",
+      "tsusho": null,
+      "district_id": "mikura",
+      "area": "三倉",
+      "system": "chiiki-koyu",
+      "system_basis": "未分類",
+      "saijin": [
+        "猿田彦命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町三倉3924",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 白髭神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410025",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410006",
+      "jinjacho_id": "4410006",
+      "slug": "s4410006",
+      "name": "神明宮",
+      "name_kana": "しんめいぐう",
+      "tsusho": null,
+      "district_id": "ichinomiya",
+      "area": "一宮",
+      "system": "shinmei",
+      "system_basis": "社名",
+      "saijin": [
+        "天照皇大御神"
+      ],
+      "sairei": [],
+      "postal_code": "437-0226",
+      "address": "静岡県周智郡森町一宮4096",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 神明宮",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410006",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410012",
+      "jinjacho_id": "4410012",
+      "slug": "s4410012",
+      "name": "神明神社",
+      "name_kana": "しんめいじんじゃ",
+      "tsusho": null,
+      "district_id": "sonoda",
+      "area": "中川",
+      "system": "shinmei",
+      "system_basis": "社名",
+      "saijin": [
+        "天照皇大神"
+      ],
+      "sairei": [],
+      "postal_code": "437-0223",
+      "address": "静岡県周智郡森町中川888",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 神明神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410012",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410020",
+      "jinjacho_id": "4410020",
+      "slug": "s4410020",
+      "name": "神明神社",
+      "name_kana": "しんめいじんじゃ",
+      "tsusho": null,
+      "district_id": "amagata",
+      "area": "問詰",
+      "system": "shinmei",
+      "system_basis": "社名",
+      "saijin": [
+        "大日霊貴命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町問詰1538",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 神明神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410020",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410024",
+      "jinjacho_id": "4410024",
+      "slug": "s4410024",
+      "name": "神明神社",
+      "name_kana": "しんめいじんじゃ",
+      "tsusho": null,
+      "district_id": "mikura",
+      "area": "三倉",
+      "system": "shinmei",
+      "system_basis": "社名",
+      "saijin": [
+        "天忍穂耳命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町三倉3135",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 神明神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410024",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410005",
+      "jinjacho_id": "4410005",
+      "slug": "s4410005",
+      "name": "谷本神社",
+      "name_kana": "たにもとじんじゃ",
+      "tsusho": null,
+      "district_id": "mori",
+      "area": "城下",
+      "system": "gion-susanoo",
+      "system_basis": "御祭神",
+      "saijin": [
+        "素盞嗚命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町城下907-2",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 谷本神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410005",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410010",
+      "jinjacho_id": "4410010",
+      "slug": "s4410010",
+      "name": "日月神社",
+      "name_kana": "ぢつげつじんじゃ",
+      "tsusho": null,
+      "district_id": "amagata",
+      "area": "鍛冶島",
+      "system": "chiiki-koyu",
+      "system_basis": "未分類",
+      "saijin": [
+        "大日霊貴命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町鍛冶島562",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 日月神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410010",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410037",
+      "jinjacho_id": "4410037",
+      "slug": "s4410037",
+      "name": "天神社",
+      "name_kana": "てんじんじゃ",
+      "tsusho": null,
+      "district_id": "ichinomiya",
+      "area": "一宮",
+      "system": "chiiki-koyu",
+      "system_basis": "未分類",
+      "saijin": [],
+      "sairei": [],
+      "postal_code": "437-0226",
+      "address": "静岡県周智郡森町一宮3175",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 天神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410037",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s10132",
+      "jinjacho_id": "10132",
+      "slug": "s10132",
+      "name": "西ノ宮神社",
+      "name_kana": "にしのみやじんじゃ",
+      "tsusho": null,
+      "district_id": "mori",
+      "area": "橘",
+      "system": "chiiki-koyu",
+      "system_basis": "未分類",
+      "saijin": [],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町橘546-2",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 西ノ宮神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=10132",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410039",
+      "jinjacho_id": "4410039",
+      "slug": "s4410039",
+      "name": "白山神社",
+      "name_kana": "はくさんじんじゃ",
+      "tsusho": null,
+      "district_id": "mikura",
+      "area": "三倉",
+      "system": "sangaku",
+      "system_basis": "社名",
+      "saijin": [
+        "伊弉冉命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町三倉1562",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 白山神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410039",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410009",
+      "jinjacho_id": "4410009",
+      "slug": "s4410009",
+      "name": "八幡宮",
+      "name_kana": "はちまんぐう",
+      "tsusho": null,
+      "district_id": "amagata",
+      "area": "大鳥居",
+      "system": "hachiman",
+      "system_basis": "社名",
+      "saijin": [
+        "誉田別命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町大鳥居956",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 八幡宮",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410009",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410014",
+      "jinjacho_id": "4410014",
+      "slug": "s4410014",
+      "name": "八幡神社",
+      "name_kana": "はちまんじんじゃ",
+      "tsusho": null,
+      "district_id": "mikura",
+      "area": "三倉",
+      "system": "hachiman",
+      "system_basis": "社名",
+      "saijin": [
+        "誉田別命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町三倉1920",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 八幡神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410014",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410015",
+      "jinjacho_id": "4410015",
+      "slug": "s4410015",
+      "name": "八幡神社",
+      "name_kana": "はちまんじんじゃ",
+      "tsusho": null,
+      "district_id": "mikura",
+      "area": "三倉",
+      "system": "hachiman",
+      "system_basis": "社名",
+      "saijin": [
+        "誉田別命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町三倉4447",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 八幡神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410015",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410017",
+      "jinjacho_id": "4410017",
+      "slug": "s4410017",
+      "name": "八幡神社",
+      "name_kana": "はちまんじんじゃ",
+      "tsusho": null,
+      "district_id": "mikura",
+      "area": "三倉",
+      "system": "hachiman",
+      "system_basis": "社名",
+      "saijin": [
+        "誉田別命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町三倉2511",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 八幡神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410017",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410032",
+      "jinjacho_id": "4410032",
+      "slug": "s4410032",
+      "name": "八幡神社",
+      "name_kana": "はちまんじんじゃ",
+      "tsusho": null,
+      "district_id": "amagata",
+      "area": "亀久保",
+      "system": "hachiman",
+      "system_basis": "社名",
+      "saijin": [
+        "誉田別命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町亀久保493-7",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 八幡神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410032",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410038",
+      "jinjacho_id": "4410038",
+      "slug": "s4410038",
+      "name": "八幡神社",
+      "name_kana": "はちまんじんじゃ",
+      "tsusho": null,
+      "district_id": "iida",
+      "area": "飯田",
+      "system": "hachiman",
+      "system_basis": "社名",
+      "saijin": [
+        "応神天皇"
+      ],
+      "sairei": [],
+      "postal_code": "437-0222",
+      "address": "静岡県周智郡森町飯田3512-1",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 八幡神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410038",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410028",
+      "jinjacho_id": "4410028",
+      "slug": "s4410028",
+      "name": "松尾神社",
+      "name_kana": "まつおじんじゃ",
+      "tsusho": null,
+      "district_id": "ichinomiya",
+      "area": "一宮",
+      "system": "chiiki-koyu",
+      "system_basis": "未分類",
+      "saijin": [
+        "大山咋命"
+      ],
+      "sairei": [],
+      "postal_code": "437-0226",
+      "address": "静岡県周智郡森町一宮2761-2",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 松尾神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410028",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410004",
+      "jinjacho_id": "4410004",
+      "slug": "s4410004",
+      "name": "三島神社",
+      "name_kana": "みしまじんじゃ",
+      "tsusho": null,
+      "district_id": "mori",
+      "area": "森",
+      "system": "chiiki-koyu",
+      "system_basis": "未分類",
+      "saijin": [],
+      "sairei": [
+        {
+          "name": "例大祭",
+          "date": "11月第1土曜日午前10時"
+        },
+        {
+          "name": "神幸祭",
+          "date": "11月第1土曜日午後1時"
+        }
+      ],
+      "postal_code": null,
+      "address": "静岡県周智郡森町森三島山36312",
+      "tel": "0538-85-2913",
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 三島神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410004",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410040",
+      "jinjacho_id": "4410040",
+      "slug": "s4410040",
+      "name": "御嶽神社",
+      "name_kana": "みたけじんじゃ",
+      "tsusho": null,
+      "district_id": "mori",
+      "area": "天宮",
+      "system": "sangaku",
+      "system_basis": "社名",
+      "saijin": [
+        "国常立命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町天宮1141-3",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 御嶽神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410040",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410023",
+      "jinjacho_id": "4410023",
+      "slug": "s4410023",
+      "name": "八面神社",
+      "name_kana": "やおもてじんじゃ",
+      "tsusho": null,
+      "district_id": "ichinomiya",
+      "area": "一宮",
+      "system": "gion-susanoo",
+      "system_basis": "御祭神",
+      "saijin": [
+        "素盞嗚尊"
+      ],
+      "sairei": [],
+      "postal_code": "437-0226",
+      "address": "静岡県周智郡森町一宮1301-1",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 八面神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410023",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410021",
+      "jinjacho_id": "4410021",
+      "slug": "s4410021",
+      "name": "八雲神社",
+      "name_kana": "やくもじんじゃ",
+      "tsusho": null,
+      "district_id": "sonoda",
+      "area": "円田",
+      "system": "gion-susanoo",
+      "system_basis": "社名",
+      "saijin": [
+        "素戔嗚尊"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町円田1067",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 八雲神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410021",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410016",
+      "jinjacho_id": "4410016",
+      "slug": "s4410016",
+      "name": "八阪神社",
+      "name_kana": "やさかじんじゃ",
+      "tsusho": null,
+      "district_id": "mikura",
+      "area": "三倉",
+      "system": "gion-susanoo",
+      "system_basis": "社名",
+      "saijin": [
+        "須佐之男命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町三倉4892",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 八阪神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410016",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410018",
+      "jinjacho_id": "4410018",
+      "slug": "s4410018",
+      "name": "八坂神社",
+      "name_kana": "やさかじんじゃ",
+      "tsusho": null,
+      "district_id": "amagata",
+      "area": "西俣",
+      "system": "gion-susanoo",
+      "system_basis": "社名",
+      "saijin": [
+        "素盞嗚命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町西俣731",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 八坂神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410018",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410003",
+      "jinjacho_id": "4410003",
+      "slug": "s4410003",
+      "name": "山名神社",
+      "name_kana": "やまなじんじゃ",
+      "tsusho": null,
+      "district_id": "iida",
+      "area": "飯田",
+      "system": "gion-susanoo",
+      "system_basis": "社名",
+      "saijin": [
+        "素盞嗚命"
+      ],
+      "sairei": [],
+      "postal_code": "437-0222",
+      "address": "静岡県周智郡森町飯田2590",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 山名神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410003",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410029",
+      "jinjacho_id": "4410029",
+      "slug": "s4410029",
+      "name": "若宮八幡宮",
+      "name_kana": "わかみやはちまんぐう",
+      "tsusho": null,
+      "district_id": "amagata",
+      "area": "葛布",
+      "system": "hachiman",
+      "system_basis": "社名",
+      "saijin": [
+        "大鷦鷯命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町葛布413",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 若宮八幡宮",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410029",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410033",
+      "jinjacho_id": "4410033",
+      "slug": "s4410033",
+      "name": "若宮八幡神社",
+      "name_kana": "わかみやはちまんじんじゃ",
+      "tsusho": null,
+      "district_id": "mori",
+      "area": "橘",
+      "system": "hachiman",
+      "system_basis": "社名",
+      "saijin": [
+        "大鷦鷯命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町橘168",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 若宮八幡神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410033",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    },
+    {
+      "shrine_id": "morimachi-s4410034",
+      "jinjacho_id": "4410034",
+      "slug": "s4410034",
+      "name": "若宮八幡神社",
+      "name_kana": "わかみやはちまんじんじゃ",
+      "tsusho": null,
+      "district_id": "amagata",
+      "area": "薄場",
+      "system": "hachiman",
+      "system_basis": "社名",
+      "saijin": [
+        "誉田別命"
+      ],
+      "sairei": [],
+      "postal_code": null,
+      "address": "静岡県周智郡森町薄場244",
+      "tel": null,
+      "official_url": null,
+      "lat": null,
+      "lng": null,
+      "status": "existing",
+      "status_label": "現存",
+      "detail_status": "公開情報調査済み",
+      "visit_status": "未訪問",
+      "last_verified_at": "2026-08-04",
+      "sources": [
+        {
+          "title": "静岡県神社庁 神社紹介 若宮八幡神社",
+          "type": "宗教団体公式",
+          "url": "http://www.shizuoka-jinjacho.or.jp/shokai/jinja.php?id=4410034",
+          "note": "社名・鎮座地・御祭神・祭礼日を確認（2026-08-04）"
+        }
+      ]
+    }
+  ]
+}

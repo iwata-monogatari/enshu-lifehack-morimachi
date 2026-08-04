@@ -1,0 +1,84 @@
+{
+  "_note": "引っ越しチェックリスト(/tools/moving-checklist/)のデータ。01計画書1-A(b)。modes は磐田版と同じ構造。href は既存155ページに着地させる。",
+  "modes": [
+    {
+      "id": "moved-in",
+      "label": "森町に引っ越してきた",
+      "lead": "静岡県周智郡森町に転入したときの手続きです。期限があるものから並べています。",
+      "groups": [
+        {
+          "title": "まず役場で（14日以内が目安）",
+          "items": [
+            { "label": "転入届を出す", "href": "/life/start-living/moving-address-change/" },
+            { "label": "住民登録の内容を確認する", "href": "/life/start-living/resident-registration/" },
+            { "label": "マイナンバーカードの住所を変更する", "href": "/life/start-living/mynumber/" },
+            { "label": "国民健康保険の加入を届け出る", "href": "/life/work-life/national-health-insurance-tax/" },
+            { "label": "国民年金の住所変更を届け出る", "href": "/life/work-life/nhk-pension/" }
+          ]
+        },
+        {
+          "title": "暮らしのライフライン",
+          "items": [
+            { "label": "水道の使用開始を届け出る", "href": "/life/start-living/water-start-stop-fees/" },
+            { "label": "上下水道の仕組みを確認する", "href": "/life/start-living/water-sewer/" },
+            { "label": "ごみの出し方を確認する", "href": "/life/start-living/how-to-garbage/" },
+            { "label": "ごみ収集カレンダーを入手する", "href": "/life/start-living/garbage-sorting-calendar/" }
+          ]
+        },
+        {
+          "title": "家族・ペット・移動",
+          "items": [
+            { "label": "通学区域を確認する", "href": "/life/living-soon/school-districts/" },
+            { "label": "転校・転園の手続きを確認する", "href": "/life/education/school-district-transfer/" },
+            { "label": "保育園・こども園の申込を確認する", "href": "/life/family-grow/nursery-school/" },
+            { "label": "犬の登録事項の変更を届け出る", "href": "/life/start-living/dog-registration/" },
+            { "label": "自主運行バスなど町内の交通を確認する", "href": "/life/start-living/public-transit/" }
+          ]
+        },
+        {
+          "title": "森町ならではの確認事項",
+          "items": [
+            { "label": "役場は本庁のみ・支所がないことを確認する", "href": "/life/start-living/city-hall-branches/" },
+            { "label": "住むエリアの災害リスクを確認する", "href": "/life/living-soon/disaster-risk/" },
+            { "label": "農地付きの物件かどうかを確認する", "href": "/life/troubles-consult/farmland/" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moved-out",
+      "label": "森町から引っ越す",
+      "lead": "森町から転出するときの手続きです。住まいが空き家になる場合は、その後の管理も先に考えておくと安心です。",
+      "groups": [
+        {
+          "title": "まず役場で",
+          "items": [
+            { "label": "転出届を出す", "href": "/life/moving-out/move-out-notice/" },
+            { "label": "転出の全体像を確認する", "href": "/life/moving-out/moving-away/" },
+            { "label": "水道の使用中止を届け出る", "href": "/life/moving-out/stop-water/" },
+            { "label": "学校・保育園の手続きをする", "href": "/life/moving-out/school-nursery-procedures/" },
+            { "label": "犬の登録内容を変更する", "href": "/life/moving-out/dog-ownership-change/" }
+          ]
+        },
+        {
+          "title": "片づけ・処分",
+          "items": [
+            { "label": "引っ越しで出る大量のごみを確認する", "href": "/life/moving-out/bulk-garbage-cleaning/" },
+            { "label": "粗大ごみの搬入先を確認する", "href": "/life/start-living/bulky-garbage-dropoff/" },
+            { "label": "ごみの分別ルールを確認する", "href": "/life/start-living/how-to-garbage/" }
+          ]
+        },
+        {
+          "title": "残す家をどうするか",
+          "items": [
+            { "label": "空き家になる場合の管理を確認する", "href": "/life/housing/vacant-house/" },
+            { "label": "売却を検討する場合の順序を確認する", "href": "/life/housing/sell-house/" },
+            { "label": "実家の片づけの進め方を確認する", "href": "/life/housing/clean-parents-house/" },
+            { "label": "固定資産税の扱いを確認する", "href": "/life/housing/property-tax/" },
+            { "label": "農地・山林がある場合の手続きを確認する", "href": "/life/troubles-consult/farmland/sell-or-rent/" }
+          ]
+        }
+      ]
+    }
+  ]
+}
