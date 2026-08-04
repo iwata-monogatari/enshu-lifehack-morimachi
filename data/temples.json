@@ -4,7 +4,7 @@
   "temples": [
     {
       "temple_id": "morimachi-0001",
-      "slug": "t01-蓮増院",
+      "slug": "t01",
       "name": "蓮増院",
       "aliases": [],
       "record_type": "temple",
@@ -39,7 +39,7 @@
     },
     {
       "temple_id": "morimachi-0002",
-      "slug": "t02-蓮華寺",
+      "slug": "t02",
       "name": "蓮華寺",
       "aliases": [],
       "record_type": "temple",
@@ -74,7 +74,7 @@
     },
     {
       "temple_id": "morimachi-0003",
-      "slug": "t03-金剛院",
+      "slug": "t03",
       "name": "金剛院",
       "aliases": [],
       "record_type": "temple",
@@ -109,7 +109,7 @@
     },
     {
       "temple_id": "morimachi-0004",
-      "slug": "t04-遍照寺",
+      "slug": "t04",
       "name": "遍照寺",
       "aliases": [],
       "record_type": "temple",
@@ -144,7 +144,7 @@
     },
     {
       "temple_id": "morimachi-0005",
-      "slug": "t05-安養院",
+      "slug": "t05",
       "name": "安養院",
       "aliases": [],
       "record_type": "temple",
@@ -179,7 +179,7 @@
     },
     {
       "temple_id": "morimachi-0006",
-      "slug": "t06-極楽寺",
+      "slug": "t06",
       "name": "極楽寺",
       "aliases": [],
       "record_type": "temple",
@@ -214,7 +214,7 @@
     },
     {
       "temple_id": "morimachi-0007",
-      "slug": "t07-大洞院",
+      "slug": "t07",
       "name": "大洞院",
       "aliases": [],
       "record_type": "temple",
@@ -249,7 +249,7 @@
     },
     {
       "temple_id": "morimachi-0008",
-      "slug": "t08-梅林院",
+      "slug": "t08",
       "name": "梅林院",
       "aliases": [],
       "record_type": "temple",
@@ -284,7 +284,7 @@
     },
     {
       "temple_id": "morimachi-0009",
-      "slug": "t09-随松寺",
+      "slug": "t09",
       "name": "隨松寺",
       "aliases": [
         "随松寺"
@@ -321,7 +321,7 @@
     },
     {
       "temple_id": "morimachi-0010",
-      "slug": "t10-宝太寺",
+      "slug": "t10",
       "name": "宝太寺",
       "aliases": [],
       "record_type": "temple",
@@ -356,7 +356,7 @@
     },
     {
       "temple_id": "morimachi-0011",
-      "slug": "t11-西光寺",
+      "slug": "t11",
       "name": "西光寺",
       "aliases": [],
       "record_type": "temple",
@@ -391,7 +391,7 @@
     },
     {
       "temple_id": "morimachi-0012",
-      "slug": "t12-万松寺",
+      "slug": "t12",
       "name": "萬松寺",
       "aliases": [
         "万松寺"
@@ -428,7 +428,7 @@
     },
     {
       "temple_id": "morimachi-0013",
-      "slug": "t13-蔵雲院",
+      "slug": "t13",
       "name": "藏雲院",
       "aliases": [
         "蔵雲院"
@@ -465,7 +465,7 @@
     },
     {
       "temple_id": "morimachi-0014",
-      "slug": "t14-自得院",
+      "slug": "t14",
       "name": "自得院",
       "aliases": [],
       "record_type": "temple",
@@ -500,7 +500,7 @@
     },
     {
       "temple_id": "morimachi-0015",
-      "slug": "t15-万福寺",
+      "slug": "t15",
       "name": "萬福寺",
       "aliases": [
         "万福寺"
@@ -537,7 +537,7 @@
     },
     {
       "temple_id": "morimachi-0016",
-      "slug": "t16-福泉寺",
+      "slug": "t16",
       "name": "福泉寺",
       "aliases": [],
       "record_type": "temple",
@@ -572,7 +572,7 @@
     },
     {
       "temple_id": "morimachi-0017",
-      "slug": "t17-古心庵",
+      "slug": "t17",
       "name": "古心庵",
       "aliases": [],
       "record_type": "temple",
@@ -607,7 +607,7 @@
     },
     {
       "temple_id": "morimachi-0018",
-      "slug": "t18-全光寺",
+      "slug": "t18",
       "name": "全光寺",
       "aliases": [],
       "record_type": "temple",
@@ -642,7 +642,7 @@
     },
     {
       "temple_id": "morimachi-0019",
-      "slug": "t19-蔵泉寺",
+      "slug": "t19",
       "name": "蔵泉寺",
       "aliases": [],
       "record_type": "temple",
@@ -677,7 +677,7 @@
     },
     {
       "temple_id": "morimachi-0020",
-      "slug": "t20-長月寺",
+      "slug": "t20",
       "name": "長月寺",
       "aliases": [],
       "record_type": "temple",
@@ -712,7 +712,7 @@
     },
     {
       "temple_id": "morimachi-0021",
-      "slug": "t21-太慶寺",
+      "slug": "t21",
       "name": "太慶寺",
       "aliases": [],
       "record_type": "temple",
@@ -747,7 +747,7 @@
     },
     {
       "temple_id": "morimachi-0022",
-      "slug": "t22-栄泉寺",
+      "slug": "t22",
       "name": "榮泉寺",
       "aliases": [
         "栄泉寺"
@@ -784,7 +784,7 @@
     },
     {
       "temple_id": "morimachi-0023",
-      "slug": "t23-崇信寺",
+      "slug": "t23",
       "name": "崇信寺",
       "aliases": [],
       "record_type": "temple",
@@ -819,7 +819,7 @@
     },
     {
       "temple_id": "morimachi-0024",
-      "slug": "t24-泉竜寺",
+      "slug": "t24",
       "name": "泉龍寺",
       "aliases": [
         "泉竜寺"
@@ -856,7 +856,7 @@
     },
     {
       "temple_id": "morimachi-0025",
-      "slug": "t25-玉泉寺",
+      "slug": "t25",
       "name": "玉泉寺",
       "aliases": [],
       "record_type": "temple",
@@ -891,7 +891,7 @@
     },
     {
       "temple_id": "morimachi-0026",
-      "slug": "t26-宗源寺",
+      "slug": "t26",
       "name": "宗源寺",
       "aliases": [],
       "record_type": "temple",
@@ -926,7 +926,7 @@
     },
     {
       "temple_id": "morimachi-0027",
-      "slug": "t27-香勝寺",
+      "slug": "t27",
       "name": "香勝寺",
       "aliases": [],
       "record_type": "temple",
@@ -961,7 +961,7 @@
     },
     {
       "temple_id": "morimachi-0028",
-      "slug": "t28-雲林寺",
+      "slug": "t28",
       "name": "雲林寺",
       "aliases": [],
       "record_type": "temple",
@@ -996,7 +996,7 @@
     },
     {
       "temple_id": "morimachi-0029",
-      "slug": "t29-地蔵寺",
+      "slug": "t29",
       "name": "地蔵寺",
       "aliases": [],
       "record_type": "temple",
@@ -1031,7 +1031,7 @@
     },
     {
       "temple_id": "morimachi-0030",
-      "slug": "t30-大福寺",
+      "slug": "t30",
       "name": "大福寺",
       "aliases": [],
       "record_type": "temple",
@@ -1066,7 +1066,7 @@
     },
     {
       "temple_id": "morimachi-0031",
-      "slug": "t31-全生寺",
+      "slug": "t31",
       "name": "全生寺",
       "aliases": [],
       "record_type": "temple",
@@ -1101,7 +1101,7 @@
     },
     {
       "temple_id": "morimachi-0032",
-      "slug": "t32-高雲寺",
+      "slug": "t32",
       "name": "高雲寺",
       "aliases": [],
       "record_type": "temple",
@@ -1136,7 +1136,7 @@
     },
     {
       "temple_id": "morimachi-0033",
-      "slug": "t33-報恩寺",
+      "slug": "t33",
       "name": "報恩寺",
       "aliases": [],
       "record_type": "temple",
@@ -1171,7 +1171,7 @@
     },
     {
       "temple_id": "morimachi-0034",
-      "slug": "t34-本立寺",
+      "slug": "t34",
       "name": "本立寺",
       "aliases": [],
       "record_type": "temple",
@@ -1206,7 +1206,7 @@
     },
     {
       "temple_id": "morimachi-0035",
-      "slug": "t35-陽向院",
+      "slug": "t35",
       "name": "陽向院",
       "aliases": [],
       "record_type": "temple",

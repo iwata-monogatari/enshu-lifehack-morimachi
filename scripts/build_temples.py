@@ -77,7 +77,17 @@ def sect_group(sect):
 
 
 def slugify(name, idx):
-    return "t%02d-%s" % (idx, re.sub(r"[^\w]", "", name))
+    """URLに使うスラッグ。**必ずASCIIにする。**
+
+    当初 re.sub(r"[^\\w]", "", name) で作っていたが、Python3の \\w は Unicode を含むため
+    漢字がそのまま残り "t01-蓮増院" のような日本語URLになっていた。
+    これを Cloudflare Workers に載せると 307 → 404 になり、全35ページが到達不能になる
+    （本番で実際に発生。2026-08-04に修正）。
+
+    寺院名の読み仮名は出典に無く、推測でローマ字化すると誤った読みを公開してしまうため、
+    連番のみの安全なスラッグにする。社名は title / h1 に入るのでSEO上の不利はない。
+    """
+    return "t%02d" % idx
 
 
 def main():
