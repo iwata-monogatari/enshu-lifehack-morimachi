@@ -293,3 +293,13 @@ body:not(.hub) .company-strip.cta-middle,body.hub .company-strip.cta-middle{bord
 body:not(.hub) .company-strip.cta-weak,body.hub .company-strip.cta-weak{border-left:4px solid var(--line)}
 /* 運営会社の開示文(景表法ステマ規制) */
 body:not(.hub) .cta-disclosure,body.hub .cta-disclosure{margin:10px 0 0;font-size:12px;line-height:1.6;color:var(--mut)}
+
+/* --- シェアボックス -------------------------------------------------------- */
+body:not(.hub) .share-box,body.hub .share-box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin:18px 0}
+body:not(.hub) .share-actions,body.hub .share-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+body:not(.hub) .share-btn,body.hub .share-btn{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:12px;padding:10px 14px;font-weight:800;text-align:center;border:1.5px solid var(--line);background:#fff;color:var(--green-d);cursor:pointer;font-family:inherit;font-size:14px}
+body:not(.hub) .share-line,body.hub .share-line{background:#06C755;border-color:#06C755;color:#fff}
+body:not(.hub) .share-copied,body.hub .share-copied{margin:10px 0 0;color:var(--green-d);font-weight:700;font-size:13.5px}
+@media(max-width:720px){
+body:not(.hub) .share-actions,body.hub .share-actions{grid-template-columns:1fr}
+}

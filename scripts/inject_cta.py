@@ -52,20 +52,24 @@ def esc(s):
     return htmllib.escape(s, quote=True)
 
 
-def render_cta(rule):
-    """CTAブロックのHTMLを組み立てる。site.css の company-strip 系クラスを再利用する。"""
+def render_cta(rule, cta_type):
+    """CTAブロックのHTMLを組み立てる。site.css の company-strip 系クラスを再利用する。
+
+    data-track-click はフッターの富士ヶ丘アナリティクスが拾うイベント名。
+    UTM(流入元)とクリック(CV手前)を突き合わせられるよう、CTA種別ごとに名前を分ける。
+    """
     parts = [
         '<div class="company-strip cta-%s">' % rule["strength"],
         '<h2 class="sec" style="margin-top:0">%s</h2>' % esc(rule["heading"]),
         '<div class="company-grid"><div class="company-card">',
         "<p>%s</p>" % esc(rule["description"]),
-        '<a class="official-link" href="%s" target="_blank" rel="noopener" style="margin-top:8px">%s <span>%s</span></a>'
-        % (esc(rule["url"]), esc(rule["button_text"]), esc(rule["provider"])),
+        '<a class="official-link" href="%s" target="_blank" rel="noopener" style="margin-top:8px" data-track-click="cta_%s">%s <span>%s</span></a>'
+        % (esc(rule["url"]), cta_type, esc(rule["button_text"]), esc(rule["provider"])),
     ]
     if rule.get("secondary_url"):
         parts.append(
-            '<a class="official-link" href="%s" target="_blank" rel="noopener" style="margin-top:8px">%s <span>%s</span></a>'
-            % (esc(rule["secondary_url"]), esc(rule["secondary_button_text"]), esc(rule["provider"]))
+            '<a class="official-link" href="%s" target="_blank" rel="noopener" style="margin-top:8px" data-track-click="cta_%s_care">%s <span>%s</span></a>'
+            % (esc(rule["secondary_url"]), cta_type, esc(rule["secondary_button_text"]), esc(rule["provider"]))
         )
     parts.append("</div></div>")
     if rule.get("disclosure"):
@@ -97,7 +101,7 @@ def main():
             src = f.read()
 
         rule = rules[page["cta_type"]]
-        block = "" if page["cta_type"] == "none" else render_cta(rule)
+        block = "" if page["cta_type"] == "none" else render_cta(rule, page["cta_type"])
         marker_block = START + block + END
         counts[page["cta_type"]] = counts.get(page["cta_type"], 0) + 1
 
