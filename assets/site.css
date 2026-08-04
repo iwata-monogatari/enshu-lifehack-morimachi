@@ -356,3 +356,35 @@ body:not(.hub) .post-item-date,body.hub .post-item-date{font-size:12.5px;color:v
 body:not(.hub) .post-axis,body.hub .post-axis{display:inline-block;font-size:11.5px;font-weight:800;color:var(--green-d);background:#eef6f2;border-radius:999px;padding:2px 9px}
 body:not(.hub) .post-item-title,body.hub .post-item-title{display:block;margin:8px 0 4px;font-weight:800;font-size:16px;color:var(--green-d)}
 body:not(.hub) .post-item-desc,body.hub .post-item-desc{display:block;font-size:13.5px;color:var(--mut);line-height:1.8}
+
+/* --- 著者プロフィール ------------------------------------------------------ */
+body:not(.hub) .author-card,body.hub .author-card{display:flex;gap:18px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin:18px 0}
+body:not(.hub) .author-photo,body.hub .author-photo{width:150px;height:150px;border-radius:12px;flex:0 0 auto;object-fit:cover}
+body:not(.hub) .author-body p,body.hub .author-body p{font-size:14.5px;margin:8px 0}
+@media(max-width:640px){
+body:not(.hub) .author-card,body.hub .author-card{flex-direction:column;align-items:center;text-align:left}
+body:not(.hub) .author-photo,body.hub .author-photo{width:130px;height:130px}
+}
+
+/* --- チャネルバッジ（確認できた手続き方法） -------------------------------- */
+body:not(.hub) .channel-badges,body.hub .channel-badges{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:10px 0 0}
+body:not(.hub) .channel-badges-label,body.hub .channel-badges-label{font-size:11.5px;font-weight:800;color:var(--mut);margin-right:2px}
+body:not(.hub) .channel-badge,body.hub .channel-badge{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:800;border-radius:999px;padding:4px 10px;background:#fff;border:1px solid var(--line);color:var(--green-d)}
+body:not(.hub) .channel-badge .emoji,body.hub .channel-badge .emoji{font-size:12.5px;line-height:1}
+body:not(.hub) .channel-online,body.hub .channel-online{background:#eaf5ee;border-color:#bcdcc7}
+body:not(.hub) .channel-konbini,body.hub .channel-konbini{background:#eef4fb;border-color:#c3d8ee}
+
+/* --- インスタントヘッダー（要点先出し） ------------------------------------ */
+body:not(.hub) .instant-header,body.hub .instant-header{background:#fff;border:1px solid var(--line);border-left:4px solid var(--green);border-radius:0 12px 12px 0;padding:14px 16px;margin:16px 0}
+body:not(.hub) .ih-title,body.hub .ih-title{margin:0 0 10px;font-size:13px;font-weight:800;color:var(--green-d)}
+body:not(.hub) .ih-row,body.hub .ih-row{display:flex;gap:10px;align-items:baseline;padding:6px 0;border-top:1px dashed var(--line)}
+body:not(.hub) .ih-row:first-of-type,body.hub .ih-row:first-of-type{border-top:0}
+body:not(.hub) .ih-key,body.hub .ih-key{flex:0 0 84px;font-size:12.5px;font-weight:800;color:var(--mut)}
+body:not(.hub) .ih-val,body.hub .ih-val{flex:1;font-size:14px;font-weight:700;min-width:0}
+body:not(.hub) .ih-val a,body.hub .ih-val a{color:var(--green-d);min-height:44px;display:inline-flex;align-items:center}
+body:not(.hub) .ih-note,body.hub .ih-note{margin:10px 0 0;font-size:11.5px;line-height:1.7;color:var(--mut)}
+body:not(.hub) .ih-checked,body.hub .ih-checked{margin:6px 0 0;font-size:11.5px;color:var(--mut)}
+@media(max-width:520px){
+body:not(.hub) .ih-row,body.hub .ih-row{flex-direction:column;gap:2px}
+body:not(.hub) .ih-key,body.hub .ih-key{flex:none}
+}

@@ -1,0 +1,2025 @@
+[
+  {
+    "url": "/life/education/after-school-club/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 幼稚園保育園係",
+    "tel": "0538-86-6300",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/education/educational-consulting/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "学校教育課 学校教育係（教育支援センター「わかば」）",
+    "tel": "0538-85-1112",
+    "deadline": null,
+    "hours": "月曜日～金曜日 午前9時～午後3時（弁当持参）、水曜日は午前12時まで（弁当不要）。体調や個々のペースに合わせて通級時間・参加日数を決定",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/education/elementary-middle-school/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "学校教育課",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/education/",
+    "channels": [
+      "phone"
+    ],
+    "window": null,
+    "tel": "0538-85-2111",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/education/school-attendance-support/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "学校教育課",
+    "tel": "0538-85-1112（学校教育係）／0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/education/school-district-transfer/",
+    "channels": [
+      "counter",
+      "phone",
+      "online"
+    ],
+    "window": "住民生活課 住民係（転出届）／学校教育課（転校手続き）",
+    "tel": "0538-85-2111",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/education/school-expense-support/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "学校教育課",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/education/school-meals/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "学校教育課",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/education/school-zones/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "学校教育課",
+    "tel": "0538-85-1112",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/education/study-facilities/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "森町立図書館（森町文化会館ミキホール内）／貸室相談は森町文化会館",
+    "tel": "図書館 0538-85-1113／文化会館 0538-85-1111",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/emergency/disaster-certificates-procedures/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 町民税係",
+    "tel": "0538-85-6308",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/disaster-mail-line/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "政策企画課 プロモーション戦略係",
+    "tel": "0538-85-6305",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/earthquake/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "危機管理課 危機管理係（感震ブレーカー補助）",
+    "tel": "0538-85-6302",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/emergency-medical/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "静岡県危機管理部消防保安課（制度所管）／森町側の案内窓口は危機管理課 危機管理係",
+    "tel": "054-221-2073",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/evacuation-centers/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "危機管理課 危機管理係",
+    "tel": "0538-85-6302",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/evacuation-hazard-map/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "危機管理課 危機管理係",
+    "tel": "0538-85-6302",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/fire-ambulance/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "袋井市森町広域行政組合 袋井消防本部（予防課）",
+    "tel": "119",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/hazard-maps/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "危機管理課 危機管理係（防災ハザードマップ）／農林政策課 農地管理係（ため池ハザードマップ）",
+    "tel": "0538-85-6302",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "危機管理課 危機管理係",
+    "tel": "0538-85-6302",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/pet-disaster-prevention/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "危機管理課 危機管理係（防災・避難所全般）／住民生活課 生活環境係（犬猫の登録・飼い方）",
+    "tel": "危機管理課 0538-85-6302／住民生活課 生活環境係 0538-85-6314",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/road-river-info/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "危機管理課 危機管理係",
+    "tel": "0538-85-6302",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/emergency/storm-heavy-rain/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "危機管理課 危機管理係",
+    "tel": "0538-85-6302",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/after-death-procedures/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 住民係（死亡届・火葬場予約）／住民生活課 国保年金係（葬祭費）",
+    "tel": "0538-85-6312（住民係）／0538-85-6313（国保年金係）",
+    "deadline": "死亡した事実を知った日から7日以内に死亡届",
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/bereavement-procedures/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 住民係（死亡届・火葬場予約）／住民生活課 国保年金係（葬祭費）",
+    "tel": "0538-85-6312／0538-85-6313",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/bereavement/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 住民係",
+    "tel": "0538-85-6312",
+    "deadline": "死亡した事実を知った日から7日以内に死亡届",
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/grave-memorial/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 生活環境係（改葬許可の申請窓口）／住民生活課 住民係（許可証交付・手数料支払い、死亡届・火葬場予約）",
+    "tel": "0538-85-6314（生活環境係・改葬許可）／0538-85-6312（住民係・死亡届）／0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/house-became-vacant/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課 移住交流係（空き家バンク・補助金）／税務課 資産税係（被相続人居住用家屋等確認書）",
+    "tel": "0538-85-6321（定住推進課移住交流係）／0538-85-6309（税務課資産税係）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課（死亡届・葬祭費）／税務課（固定資産税・相続関連）／定住推進課（空き家）",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/inheritance/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 資産税係（固定資産税の相続人代表者指定届）／住民生活課 住民係（戸籍関連）",
+    "tel": "0538-85-6309（税務課資産税係）／0538-85-6312（住民生活課住民係）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/inherited-house/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課 移住交流係（空き家バンク・補助金）／税務課 資産税係（確認書・相続人代表者指定届）",
+    "tel": "0538-85-6321（定住推進課移住交流係）／0538-85-6309（税務課資産税係）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/inherited-vacant-house/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課 移住交流係",
+    "tel": "0538-85-6321",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/pension-inheritance/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 国保年金係",
+    "tel": "0538-85-6313",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/end-of-life/property-tax-inheritance/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 資産税係",
+    "tel": "0538-85-6309",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/child-allowance-medical/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課",
+    "tel": "0538-86-6330（こども家庭係。ページ内表記は代表(0538)85-2111の場合あり、要現地確認）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/child-allowance/",
+    "channels": [
+      "counter",
+      "phone",
+      "online"
+    ],
+    "window": "健康こども課 こども家庭係",
+    "tel": "0538-86-6330",
+    "deadline": "転入・出生などの異動があった場合は15日以内に申請",
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/child-vaccination/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 こども家庭係",
+    "tel": "0538-86-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/childbirth/",
+    "channels": [
+      "counter",
+      "phone",
+      "online"
+    ],
+    "window": "出生届は住民生活課 住民係（電話0538-85-6312）／児童手当・新生児出生通知は健康こども課 こども家庭係（電話0538-86-6330）",
+    "tel": "0538-85-6312（住民生活課）／0538-86-6330（健康こども課）",
+    "deadline": "児童手当は出生日の翌日から15日以内に申請。新生児出生通知は生後4か月までの間にスマートフォン申請可",
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/developmental-support/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 こども家庭係",
+    "tel": "0538-86-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/family-grow/infant-health-check/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 こども家庭係",
+    "tel": "0538-86-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/marriage/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "婚姻届は住民生活課 住民係／結婚新生活支援補助金は定住推進課 移住交流係",
+    "tel": "0538-85-6312（住民生活課）／0538-85-6321（定住推進課）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/nursery-childcare/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 幼稚園保育園係",
+    "tel": "0538-86-6300",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/nursery-school/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 幼稚園保育園係",
+    "tel": "0538-86-6300",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/parenting-support/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 こども家庭係（森町保健福祉センター内）",
+    "tel": "0538-86-6330（児童館直通は0538-85-2839）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/pregnancy/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 こども家庭係（森町保健福祉センター内）",
+    "tel": "0538-86-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/family-grow/single-parent-support/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 こども家庭係",
+    "tel": "0538-86-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/adult-vaccination/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 健康づくり係",
+    "tel": "0538-85-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/cancer-specific-checkups/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 健康づくり係",
+    "tel": "0538-85-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/dental-care/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 健康づくり係",
+    "tel": "0538-85-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/disability-services/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 地域福祉係",
+    "tel": "0538-85-1800",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/disability-welfare/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 地域福祉係",
+    "tel": "0538-85-1800",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/find-hospitals/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 健康づくり係",
+    "tel": "0538-85-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/health-checkups/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 健康づくり係（特定健診は住民生活課 国保年金係）",
+    "tel": "0538-85-6330（住民生活課 国保年金係：0538-85-6313）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/health-promotion/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 健康づくり係",
+    "tel": "0538-85-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/holiday-night-emergency-care/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 健康づくり係（救急受診そのものは公立森町病院）",
+    "tel": "公立森町病院 0538-85-2181（代表）",
+    "deadline": null,
+    "hours": "平日6-8時・17-22時、休日（土日祝・年末年始）6-22時。深夜22時-翌6時は原則救急受診不可（症状により他医療機関へ案内・トリアージあり）",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 健康づくり係",
+    "tel": "0538-85-6330（確認中: 本文未確認 0538-85-6330）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/mental-health-consulting/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課（暮らしの相談窓口の取りまとめ）／健康相談は健康こども課",
+    "tel": "健康相談（保健師・栄養士）0538-85-1800",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/night-holiday-medical/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 健康づくり係（救急受診そのものは公立森町病院）",
+    "tel": "公立森町病院 0538-85-2181（代表）",
+    "deadline": null,
+    "hours": "平日6-8時・17-22時、休日（土日祝・年末年始）6-22時。深夜22時-翌6時は原則救急受診不可（トリアージあり）",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/health-medical/vaccinations/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 健康づくり係",
+    "tel": "0538-85-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/housing/build-house/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課 住まい支援係（耐震補助）／定住推進課 移住交流係（結婚新生活支援補助金）",
+    "tel": "0538-85-6321",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/housing/buy-house/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 資産税係（固定資産税）／定住推進課 移住交流係（空き家バンク・補助金）",
+    "tel": "0538-85-6309（税務課）／0538-85-6321（定住推進課）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/housing/clean-parents-house/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 生活環境係（ごみ分別）／定住推進課 住まい支援係（空き家対策）／定住推進課 移住交流係（空き家バンク）",
+    "tel": "0538-85-6314（住民生活課）／0538-85-6321（定住推進課）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/housing/earthquake-demolition/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課 住まい支援係",
+    "tel": "0538-85-6321",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/housing/",
+    "channels": [
+      "phone"
+    ],
+    "window": null,
+    "tel": "0538-85-6321",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/housing/municipal-housing/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課 住まい支援係",
+    "tel": "0538-85-6321",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/housing/property-tax/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 資産税係",
+    "tel": "0538-85-6309",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/housing/public-housing-consultation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課 住まい支援係（町営住宅）／定住推進課 移住交流係（空き家バンク）／住民生活課 住民係（暮らし全般の相談）",
+    "tel": "0538-85-6321（定住推進課）／0538-85-6312（住民生活課 住民係）／0538-85-1800（保健福祉課保健係）／0538-85-2111（森町役場代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/housing/rent-house/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課 移住交流係（空き家バンク）／定住推進課 住まい支援係（町営住宅）",
+    "tel": "0538-85-6321",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/housing/sell-house/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 資産税係（固定資産税）／定住推進課 移住交流係（空き家バンク）",
+    "tel": "0538-85-6309（税務課）／0538-85-6321（定住推進課）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/housing/vacant-house/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課 住まい支援係（空家等対策計画）／定住推進課 移住交流係（空き家バンク）／税務課 資産税係（固定資産税）",
+    "tel": "0538-85-6321（定住推進課）／0538-85-6309（税務課）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/living-soon/about-morimachi/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課 移住交流係",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/living-soon/bus-license-return/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 地域福祉係（公共交通利用券助成）／政策企画課 政策企画係（地域タクシー）",
+    "tel": "0538-85-1800（福祉課）／0538-85-6305（政策企画課）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/living-soon/disaster-risk/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "危機管理課 危機管理係",
+    "tel": "0538-85-6302",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/living-soon/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "定住推進課",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/living-soon/moving-decided/",
+    "channels": [
+      "counter",
+      "phone",
+      "online",
+      "konbini"
+    ],
+    "window": "住民生活課 住民係",
+    "tel": "0538-85-2111（代表）／0538-85-6312（住民係直通）（確認中: 本文未確認 0538-85-2111）（確認中: 本文未確認 0538-85-6312）",
+    "deadline": null,
+    "hours": "月曜日〜金曜日 8時30分〜17時15分（土日祝・年末年始を除く）",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/living-soon/school-districts/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "教育委員会 学校教育課",
+    "tel": "0538-85-1112",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/living-soon/transportation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "政策企画課 政策企画係",
+    "tel": "0538-85-6305",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/living-soon/want-to-live/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "産業政策課 産業振興係（移住・就業支援金）／定住推進課 移住交流係（移住相談全般）",
+    "tel": "0538-85-6319（産業政策課）／0538-85-2111（定住推進課代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/moving-out/bulk-garbage-cleaning/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 生活環境係",
+    "tel": "0538-85-6314",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/moving-out/dog-ownership-change/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 生活環境係",
+    "tel": "0538-85-6314",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/moving-out/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/moving-out/move-out-notice/",
+    "channels": [
+      "counter",
+      "phone",
+      "online"
+    ],
+    "window": "住民生活課 住民係",
+    "tel": "0538-85-6312",
+    "deadline": null,
+    "hours": "月曜日から金曜日8時30分から17時15分まで（土日祝・年末年始を除く）",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/moving-out/moving-away/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課（転出届）／上下水道課 上水道管理係（水道廃止）",
+    "tel": "0538-85-6312（住民生活課住民係）／0538-85-6326（上下水道課上水道管理係）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/moving-out/school-nursery-procedures/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 幼稚園保育園係（保育所）／在学中の学校（小中学校）",
+    "tel": "0538-86-6300（健康こども課幼稚園保育園係）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/moving-out/stop-water/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "上下水道課 上水道管理係",
+    "tel": "0538-85-6326",
+    "deadline": null,
+    "hours": "月曜日から金曜日8時30分から17時15分まで（土曜日・日曜日・祝日・年末年始を除く）",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/parents-care/adult-guardianship/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 地域包括支援センター係",
+    "tel": "0538-85-6341",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/parents-care/care-certification-support-center/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 介護保険係",
+    "tel": "0538-86-6341",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/parents-care/care-started/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 介護保険係（要介護認定・ケアプラン）、福祉課 地域包括支援センター係（相談全般）",
+    "tel": "0538-86-6341（介護保険係）／0538-85-6341（地域包括支援センター係）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/parents-care/check-parents/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 地域包括支援センター係",
+    "tel": "0538-85-6341",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/parents-care/community-support-center/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 地域包括支援センター係（町直営）",
+    "tel": "0538-85-6341（確認中: 本文未確認 0538-85-6341）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/parents-care/dementia-consultation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 地域包括支援センター係",
+    "tel": "0538-85-6341",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/parents-care/elderly-transportation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 地域福祉係",
+    "tel": "0538-85-1800",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/parents-care/find-nursing-home/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 介護保険係",
+    "tel": "0538-86-6341",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/parents-care/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 地域包括支援センター係（総合相談）、福祉課 介護保険係（要介護認定・保険給付）",
+    "tel": "0538-85-6341（地域包括支援センター係）／0538-86-6341（介護保険係）（確認中: 本文未確認 0538-85-6341）（確認中: 本文未確認 0538-86-6341）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/parents-care/long-term-care-insurance/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "福祉課 介護保険係",
+    "tel": "0538-86-6341",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/play-out/cultural-facilities/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "文化会館",
+    "tel": "0538-85-1111",
+    "deadline": null,
+    "hours": "9時～17時",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/play-out/facilities-library-parks/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "財政課 契約管財係",
+    "tel": "0538-85-6306",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/play-out/find-parks/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課こども家庭係",
+    "tel": "0538-86-6330",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/play-out/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/play-out/kids-playgrounds/",
+    "channels": [
+      "phone"
+    ],
+    "window": null,
+    "tel": "0538-85-2839",
+    "deadline": null,
+    "hours": "9時～13時、13時30分～17時（11月～1月は16時30分閉館）",
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/play-out/parking-access/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "政策企画課 政策企画係",
+    "tel": "0538-85-6305",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/play-out/rent-public-facilities/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "財政課 契約管財係",
+    "tel": "0538-85-6306",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/play-out/sports-facilities/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "社会教育課 社会体育係",
+    "tel": "0538-85-4191",
+    "deadline": null,
+    "hours": "8:30～21:30",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/play-out/swimming-pools/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "社会教育課 社会体育係",
+    "tel": "0538-85-4191",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/play-out/visit-library/",
+    "channels": [
+      "phone"
+    ],
+    "window": null,
+    "tel": "0538-85-1113",
+    "deadline": null,
+    "hours": "9時～17時（水曜日のみ19時まで）",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/bulky-garbage-dropoff/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "住民生活課 生活環境係",
+    "tel": "0538-85-6314",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/certificates/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "住民生活課 住民係",
+    "tel": "0538-85-6312",
+    "deadline": null,
+    "hours": "月～金 8:30-17:15（土日祝・年末年始を除く）、水曜は時間外窓口で17:15-19:00も対応",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/city-hall-branches/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "森町役場（本庁舎、他に支所・出張所の記載なし）",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": "月～金 8:30-17:15、水曜のみ17:15-19:00も時間外窓口あり（本庁舎1階住民生活課住民係）",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/dog-registration-rabies/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "住民生活課 生活環境係",
+    "tel": "0538-85-6314",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/dog-registration/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "住民生活課 生活環境係",
+    "tel": "0538-85-6314",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/garbage-sorting-calendar/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "住民生活課 生活環境係",
+    "tel": "0538-85-6314",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/how-to-garbage/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "住民生活課 生活環境係",
+    "tel": "0538-85-6314",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "住民生活課（総合案内は「暮らし・手続き」ページ、引っ越し関連特集は「引越・新生活」ページ）",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/moved-in/",
+    "channels": [
+      "counter",
+      "phone",
+      "online",
+      "konbini"
+    ],
+    "window": "住民生活課 住民係",
+    "tel": "0538-85-6312",
+    "deadline": "引っ越しが完了した日から14日以内",
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/moving-address-change/",
+    "channels": [
+      "counter",
+      "phone",
+      "online",
+      "konbini"
+    ],
+    "window": "住民生活課 住民係",
+    "tel": "0538-85-6312",
+    "deadline": "町内異動（転居）は異動日から14日以内、他市区町村への転出はあらかじめ転出日までに届出",
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/mynumber/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "住民生活課 住民係",
+    "tel": "0538-85-6312",
+    "deadline": null,
+    "hours": "窓口は月・火・木・金 8:30-17:15、水曜は8:30-19:00",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/pets-lost-animals/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "住民生活課 生活環境係",
+    "tel": "0538-85-6314",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/public-transit/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "政策企画課 政策企画係",
+    "tel": "0538-85-6305",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/resident-registration/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "住民生活課 住民係",
+    "tel": "0538-85-6312",
+    "deadline": null,
+    "hours": "窓口は月～金8:30-17:15、水曜は17:15-19:00の時間外窓口でも交付可",
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/water-sewer/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "上下水道課（水道は上水道管理係、下水道は下水道管理係）",
+    "tel": "上水道管理係 0538-85-6326／下水道管理係 0538-85-6327",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/start-living/water-start-stop-fees/",
+    "channels": [
+      "counter",
+      "phone",
+      "konbini"
+    ],
+    "window": "上下水道課 上水道管理係",
+    "tel": "0538-85-6326",
+    "deadline": "閉開栓日の前日まで（土曜・日曜・祝日・年末年始を除く）",
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/animal-pet-consultation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 生活環境係",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/cannot-pay-tax/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 納税係",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/care-consultation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "保健福祉課 地域包括支援センター係",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/child-consultation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "健康こども課 こども家庭係（森町こども家庭センター）",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/consumer-fraud/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "森町町民生活センター（消費生活相談）",
+    "tel": "0538-85-2111（代表・つなぎ）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/disability-consultation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "保健福祉課 障害福祉係",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/farmland/certificates/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
+    "tel": "0538-85-6315",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/farmland/change-use/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
+    "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/farmland/conversion/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
+    "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/farmland/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
+    "tel": "0538-85-6315",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/farmland/inheritance/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
+    "tel": "0538-85-6315",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/farmland/noshin-exclusion/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "農林政策課 農地管理係",
+    "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/farmland/sell-or-rent/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
+    "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/foreign-resident-consultation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 住民係",
+    "tel": "0538-85-6312（確認中: 本文未確認 0538-85-6312）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 住民係（総合相談窓口案内）",
+    "tel": "0538-85-6312",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/legal-general-consultation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 住民係（暮らしの相談窓口・無料法律相談）",
+    "tel": "0538-85-6312",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/troubles-consult/living-costs-trouble/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "生活支援・相談センター（森町社会福祉協議会・森町保健福祉センター内）",
+    "tel": "0538-85-5769",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/troubles-consult/road-repair-mirror/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "建設課 管理係（町道の維持・補修、交通安全施設の管理）",
+    "tel": "0538-85-6325",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/troubles-consult/vacant-house-consultation/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 資産税係",
+    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/city-tax-payment/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 納税係",
+    "tel": "0538-85-6310",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/work-life/job-change/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "ハローワーク磐田（森町の求人・雇用保険手続きの管轄）",
+    "tel": "0538-85-2111",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/job-recruitment/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "総務課 人材育成係",
+    "tel": "0538-85-6301",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/light-vehicle-tax/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 町民税係",
+    "tel": "0538-85-6308",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/my-number-card/",
+    "channels": [
+      "counter",
+      "phone",
+      "online"
+    ],
+    "window": "住民生活課 住民係",
+    "tel": "0538-85-6312",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/national-health-insurance-tax/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課（役場代表 0538-85-2111、開庁時間 月～金8:30-17:15）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/nhk-pension/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "住民生活課 国保年金係",
+    "tel": "0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/resident-tax/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 納税係／税務課 町民税係",
+    "tel": "0538-85-6310（納税係）／0538-85-6308（町民税係）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/start-business/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "産業課 商工観光係",
+    "tel": "0538-85-6319（推定・電話帳情報のため要確認）／0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-6319）（確認中: 本文未確認 0538-85-2111）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/start-farming/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "産業課 農政係・農業委員会事務局",
+    "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/subsidies/",
+    "channels": [
+      "phone"
+    ],
+    "window": null,
+    "tel": "0538-85-2111",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "page_html"
+  },
+  {
+    "url": "/life/work-life/tax-certificates/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 町民税係",
+    "tel": "0538-85-6308",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/tax-guide/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課 納税係",
+    "tel": "0538-85-6310",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts"
+  },
+  {
+    "url": "/life/work-life/tax/",
+    "channels": [
+      "counter",
+      "phone"
+    ],
+    "window": "税務課（納税係0538-85-6310／町民税係0538-85-6308）（確認中: 本文未確認 0538-85-6308）",
+    "tel": "0538-85-6310",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-07-03",
+    "source": "topics_master.facts"
+  }
+]
