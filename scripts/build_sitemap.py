@@ -28,8 +28,12 @@ def main():
     ledger = json.loads((ROOT / 'data/topics_master.json').read_text(encoding='utf-8'))
     published = [t for t in ledger if t.get('status') in PUBLISHABLE_STATUSES]
     aux = json.loads((ROOT / 'data/aux-pages.json').read_text(encoding='utf-8'))
+    blog = json.loads((ROOT / 'data/blog-posts.json').read_text(encoding='utf-8'))['posts']
 
-    candidates = ['/', '/terms/'] + sorted(t['href'] for t in published) + [a['href'] for a in aux]
+    candidates = (['/', '/terms/']
+                  + sorted(t['href'] for t in published)
+                  + [a['href'] for a in aux]
+                  + [f"/blog/{p['slug']}/" for p in sorted(blog, key=lambda x: x['date'], reverse=True)])
 
     urls, missing = [], []
     for u in candidates:
@@ -42,7 +46,7 @@ def main():
     lines.append('</urlset>')
     out = ROOT / 'sitemap.xml'
     out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
-    print(f'生成完了: {out}（{len(urls)}件 / うち集約ページ{len(aux)}件）')
+    print(f'生成完了: {out}（{len(urls)}件 / 集約ページ{len(aux)}件 / ブログ記事{len(blog)}件）')
     if missing:
         print(f'実ファイルが無いため除外 {len(missing)}件: {missing}')
 
