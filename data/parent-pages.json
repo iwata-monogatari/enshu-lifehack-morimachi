@@ -1,0 +1,407 @@
+{
+ "_comment": "統合先の親ページに載せる『状況を選ぶ分岐カード』と見出し（抜本改修指示書 5.3 / 7 / 8.1）。branches[].href は必ずサイト内の実在URLまたは tel: にする。",
+ "pages": [
+  {
+   "url": "/life/health-medical/night-holiday-medical/",
+   "h1": "森町で夜間・休日に具合が悪くなったら、緊急度と時間帯で行き先を決める",
+   "title": "森町の夜間・休日の急患｜緊急度と時間帯で受診先を決める",
+   "description": "森町には急患診療所がなく、夜間・休日の急患は公立森町病院が窓口です。命に関わるときは119番、迷うときは♯7119、受診前は必ず電話連絡。緊急度・時間帯・年齢で行き先を整理しました。",
+   "branch_title": "あなたはどのケースですか",
+   "branch_lead": "近いものから確認してください。命に関わると感じたら迷わず119番です。",
+   "branches": [
+    {
+     "case": "意識がない・息が苦しい・胸が痛い",
+     "action": "ためらわず119番へ通報する",
+     "href": "/life/emergency/fire-ambulance/",
+     "emoji": "🚨"
+    },
+    {
+     "case": "救急車を呼ぶか判断に迷う",
+     "action": "♯7119（救急安心電話相談）にかける",
+     "href": "tel:7119",
+     "emoji": "📞"
+    },
+    {
+     "case": "子どもが夜中に熱を出した",
+     "action": "静岡こども救急電話相談 #8000（24時間）にかける",
+     "href": "tel:8000",
+     "emoji": "👶"
+    },
+    {
+     "case": "平日6-8時・17-22時／休日6-22時に受診したい",
+     "action": "公立森町病院へ電話してから受診する",
+     "href": "tel:0538-85-2181",
+     "emoji": "🏥"
+    },
+    {
+     "case": "深夜22時〜翌6時に具合が悪い",
+     "action": "原則救急受診はできないため、まず病院へ電話して相談する",
+     "href": "tel:0538-85-2181",
+     "emoji": "🌙"
+    },
+    {
+     "case": "急ぎではないが病院を探したい",
+     "action": "町内の医療機関の探し方を確認する",
+     "href": "/life/health-medical/find-hospitals/",
+     "emoji": "🔎"
+    }
+   ]
+  },
+  {
+   "url": "/life/start-living/certificates/",
+   "h1": "森町で必要な証明書を選び、最短で受け取る（住民票・戸籍・印鑑証明）",
+   "title": "森町の証明書の選び方｜住民票・戸籍・印鑑証明の取り方",
+   "description": "森町で証明書を取るとき、どれが必要かを先に選べます。住民票・戸籍・印鑑登録証明書・税の証明書の違いと、コンビニ交付・窓口・郵送の使い分け、手数料と持ち物をまとめました。",
+   "branch_title": "どの証明書が必要ですか",
+   "branch_lead": "提出先から言われた書類の名前で選んでください。",
+   "branches": [
+    {
+     "case": "住所を証明したい・会社や学校に出す",
+     "action": "住民票の写しを取る",
+     "href": "/life/start-living/resident-registration/",
+     "emoji": "📄"
+    },
+    {
+     "case": "相続や年金で戸籍が必要と言われた",
+     "action": "戸籍謄本・除籍謄本を請求する",
+     "href": "/life/end-of-life/bereavement/",
+     "emoji": "📜"
+    },
+    {
+     "case": "契約で印鑑証明を求められた",
+     "action": "印鑑登録をしてから証明書を取る",
+     "href": "/life/start-living/certificates/#types",
+     "emoji": "🖋️"
+    },
+    {
+     "case": "所得・課税・納税の証明が必要",
+     "action": "税務証明書を申請する",
+     "href": "/life/work-life/tax-certificates/",
+     "emoji": "💴"
+    },
+    {
+     "case": "平日に役場へ行けない",
+     "action": "マイナンバーカードのコンビニ交付を使う",
+     "href": "/life/start-living/mynumber/",
+     "emoji": "🏪"
+    }
+   ]
+  },
+  {
+   "url": "/life/end-of-life/bereavement/",
+   "h1": "森町で家族が亡くなったら、期限の早い手続きから順に進める",
+   "title": "森町で家族が亡くなったら｜期限順にやることを整理する",
+   "description": "森町で家族が亡くなったときの手続きを、期限の早い順に整理しました。死亡届は7日以内、年金や保険は14日以内、相続登記は3年以内。誰がどこへ何を出すかを順番に確認できます。",
+   "branch_title": "いまどの段階ですか",
+   "branch_lead": "期限の早いものから並べています。上から順に確認してください。",
+   "branches": [
+    {
+     "case": "亡くなった直後（7日以内）",
+     "action": "死亡届を出し、火葬許可を受ける",
+     "href": "/life/end-of-life/bereavement/",
+     "emoji": "🕊️"
+    },
+    {
+     "case": "葬儀が終わった頃（14日以内）",
+     "action": "国民健康保険・年金・介護保険の資格喪失を届け出る",
+     "href": "/life/end-of-life/pension-inheritance/",
+     "emoji": "📋"
+    },
+    {
+     "case": "年内にやること",
+     "action": "固定資産税の相続人代表者を届け出る",
+     "href": "/life/end-of-life/property-tax-inheritance/",
+     "emoji": "🏠"
+    },
+    {
+     "case": "相続の話し合いを始める",
+     "action": "相続でやることと期限を確認する",
+     "href": "/life/end-of-life/inheritance/",
+     "emoji": "🧾"
+    },
+    {
+     "case": "親の家が空き家になりそう",
+     "action": "使う・貸す・売る・解体するを決める",
+     "href": "/life/end-of-life/inherited-house/",
+     "emoji": "🔑"
+    },
+    {
+     "case": "お墓や供養をどうするか",
+     "action": "改葬許可と墓地の確認先を見る",
+     "href": "/life/end-of-life/grave-memorial/",
+     "emoji": "⚱️"
+    }
+   ]
+  },
+  {
+   "url": "/life/end-of-life/inherited-house/",
+   "h1": "森町で相続した親の家を、使う・貸す・売る・解体するのどれにするか決める",
+   "title": "森町の親の家をどうするか｜使う・貸す・売る・解体の決め方",
+   "description": "森町で相続した実家をどうするか決めるためのページです。空き家バンク、耐震・解体の助成、固定資産税の扱い、農地が付いている場合の相談先を、選択肢ごとに分けて確認できます。",
+   "branch_title": "どうしたいか、まだ決まっていなくて構いません",
+   "branch_lead": "近い気持ちのものを選ぶと、次に確認することが分かります。",
+   "branches": [
+    {
+     "case": "自分か家族が住む・使う",
+     "action": "耐震診断・改修の助成を確認する",
+     "href": "/life/housing/earthquake-demolition/",
+     "emoji": "🏡"
+    },
+    {
+     "case": "誰かに貸したい",
+     "action": "空き家バンクへの登録を確認する",
+     "href": "/life/housing/vacant-house/",
+     "emoji": "🔑"
+    },
+    {
+     "case": "売りたい",
+     "action": "売る前に確認することを見る",
+     "href": "/life/housing/sell-house/",
+     "emoji": "💴"
+    },
+    {
+     "case": "解体したい",
+     "action": "解体の助成と手順を確認する",
+     "href": "/life/housing/earthquake-demolition/",
+     "emoji": "🚧"
+    },
+    {
+     "case": "まず物を片付けたい",
+     "action": "実家の片付けの進め方を見る",
+     "href": "/life/housing/clean-parents-house/",
+     "emoji": "📦"
+    },
+    {
+     "case": "田んぼ・畑も一緒に相続した",
+     "action": "農地の相談先と届出を確認する",
+     "href": "/life/troubles-consult/farmland/",
+     "emoji": "🌾"
+    },
+    {
+     "case": "空き家のままだと税金が心配",
+     "action": "固定資産税の扱いを確認する",
+     "href": "/life/housing/property-tax/",
+     "emoji": "🧾"
+    }
+   ]
+  },
+  {
+   "url": "/life/parents-care/long-term-care-insurance/",
+   "h1": "森町で親の介護が始まったら、相談・申請・認定後の順に進める",
+   "title": "森町で親の介護が始まったら｜相談から認定・ケアプランまで",
+   "description": "森町で親の介護が必要になったときの流れをまとめました。まず地域包括支援センターに相談し、要介護認定を申請し、認定後にケアプランを作ります。窓口と電話番号、施設探しまで順に確認できます。",
+   "branch_title": "いまどの段階ですか",
+   "branch_lead": "分からないときは、いちばん上の「まず相談する」から進めてください。",
+   "branches": [
+    {
+     "case": "何から始めればいいか分からない",
+     "action": "地域包括支援センターにまず相談する",
+     "href": "/life/parents-care/community-support-center/",
+     "emoji": "☎️"
+    },
+    {
+     "case": "物忘れが増えた・認知症かもしれない",
+     "action": "認知症の相談窓口を確認する",
+     "href": "/life/parents-care/dementia-consultation/",
+     "emoji": "🧠"
+    },
+    {
+     "case": "要介護認定を申請したい",
+     "action": "申請から結果通知までの流れを見る",
+     "href": "/life/parents-care/long-term-care-insurance/#steps",
+     "emoji": "📝"
+    },
+    {
+     "case": "認定結果が届いた",
+     "action": "ケアプラン作成の依頼先を確認する",
+     "href": "/life/parents-care/care-started/",
+     "emoji": "📋"
+    },
+    {
+     "case": "施設に入ることを考えている",
+     "action": "介護施設の探し方を見る",
+     "href": "/life/parents-care/find-nursing-home/",
+     "emoji": "🏢"
+    },
+    {
+     "case": "離れて暮らす親が心配",
+     "action": "見守りの方法と相談先を見る",
+     "href": "/life/parents-care/check-parents/",
+     "emoji": "👀"
+    },
+    {
+     "case": "通院や買い物の足がない",
+     "action": "公共交通利用券の助成を確認する",
+     "href": "/life/parents-care/elderly-transportation/",
+     "emoji": "🚌"
+    }
+   ]
+  },
+  {
+   "url": "/life/start-living/how-to-garbage/",
+   "h1": "森町のごみは、分別・収集日・持ち込みの3つから調べる",
+   "title": "森町のごみの出し方｜分別・収集日・持ち込みを調べる",
+   "description": "森町の家庭ごみの出し方をまとめました。分別に迷ったら分別表とかな検索、収集日はカレンダー、入りきらない大きなものは中遠広域粗大ごみ処理施設へ。多言語ガイドの場所も案内します。",
+   "branch_title": "何を知りたいですか",
+   "branch_lead": "調べたいことに近いものを選んでください。",
+   "branches": [
+    {
+     "case": "これは何ごみか分からない",
+     "action": "ごみ分別クイック検索で調べる",
+     "href": "/tools/gomi-search/",
+     "emoji": "🔎"
+    },
+    {
+     "case": "自分の地区の収集日を知りたい",
+     "action": "分別表・収集日カレンダーを確認する",
+     "href": "/life/start-living/how-to-garbage/#official",
+     "emoji": "📅"
+    },
+    {
+     "case": "家具や布団など大きいものを捨てたい",
+     "action": "粗大ごみの持ち込み先と費用を確認する",
+     "href": "/life/start-living/bulky-garbage-dropoff/",
+     "emoji": "🛋️"
+    },
+    {
+     "case": "引っ越しでまとめて処分したい",
+     "action": "転出前の片付けの進め方を見る",
+     "href": "/life/moving-out/bulk-garbage-cleaning/",
+     "emoji": "📦"
+    },
+    {
+     "case": "日本語以外の案内がほしい",
+     "action": "多言語ガイドブックの場所を確認する",
+     "href": "/life/troubles-consult/foreign-resident-consultation/",
+     "emoji": "🌐"
+    }
+   ]
+  },
+  {
+   "url": "/life/health-medical/vaccinations/",
+   "h1": "森町の予防接種は、子どもとおとなで受け方と助成が分かれる",
+   "title": "森町の予防接種｜子ども・おとなの対象と受け方を選ぶ",
+   "description": "森町の予防接種を、子どもの定期接種とおとなの予防接種に分けて整理しました。対象年齢、接種時期、自己負担額、予診票の受け取り方と、接種できる医療機関の探し方を確認できます。",
+   "branch_title": "誰が受けますか",
+   "branch_lead": "対象者で分かれます。あてはまるほうを選んでください。",
+   "branches": [
+    {
+     "case": "子どもの定期接種を受けたい",
+     "action": "予診票と受け方を確認する",
+     "href": "/life/family-grow/child-vaccination/",
+     "emoji": "👶"
+    },
+    {
+     "case": "高齢者のインフルエンザ・肺炎球菌",
+     "action": "おとなの予防接種の対象と費用を見る",
+     "href": "/life/health-medical/adult-vaccination/",
+     "emoji": "👵"
+    },
+    {
+     "case": "どこで接種できるか知りたい",
+     "action": "町内の医療機関の探し方を見る",
+     "href": "/life/health-medical/find-hospitals/",
+     "emoji": "🏥"
+    },
+    {
+     "case": "母子健康手帳をなくした・転入した",
+     "action": "健康こども課へ相談する",
+     "href": "/life/family-grow/pregnancy/",
+     "emoji": "📗"
+    }
+   ]
+  },
+  {
+   "url": "/life/emergency/evacuation-hazard-map/",
+   "h1": "森町で「いつ・どこへ逃げるか」を、警戒レベルとハザードマップで先に決めておく",
+   "title": "森町の避難｜警戒レベルとハザードマップでいつ・どこへ逃げるか決める",
+   "description": "森町で災害が近づいたときに、いつ避難を始め、どこへ逃げるかを先に決めるためのページです。警戒レベルの見方、自宅の災害リスクの調べ方、指定避難所の場所、当日の情報の取り方をまとめました。",
+   "branch_title": "いまどの段階ですか",
+   "branch_lead": "災害が起きる前に上の2つを済ませておくと、当日の判断が早くなります。",
+   "branches": [
+    {
+     "case": "自宅が危ない場所か知りたい",
+     "action": "ハザードマップで災害リスクを確かめる",
+     "href": "/life/emergency/evacuation-hazard-map/#official",
+     "emoji": "🗺️"
+    },
+    {
+     "case": "逃げる場所を決めておきたい",
+     "action": "指定避難所の場所を確認する",
+     "href": "/life/emergency/evacuation-centers/",
+     "emoji": "🏫"
+    },
+    {
+     "case": "いま大雨・台風が近づいている",
+     "action": "道路の通行止めと川の水位を確かめる",
+     "href": "/life/emergency/road-river-info/",
+     "emoji": "🌧️"
+    },
+    {
+     "case": "災害情報を受け取れるようにしたい",
+     "action": "LINE・ちゃっとメールを登録する",
+     "href": "/life/emergency/disaster-mail-line/",
+     "emoji": "📱"
+    },
+    {
+     "case": "ペットと一緒に逃げたい",
+     "action": "同行避難の備えを確認する",
+     "href": "/life/emergency/pet-disaster-prevention/",
+     "emoji": "🐕"
+    },
+    {
+     "case": "地震・津波に備えたい",
+     "action": "耐震補助と家庭の備えを見る",
+     "href": "/life/emergency/earthquake/",
+     "emoji": "🏚️"
+    },
+    {
+     "case": "被害にあった後の手続き",
+     "action": "り災証明書と税の減免を確認する",
+     "href": "/life/emergency/disaster-certificates-procedures/",
+     "emoji": "📄"
+    }
+   ]
+  },
+  {
+   "url": "/life/troubles-consult/cannot-pay-tax/",
+   "h1": "森町で町税・国保税が払えないときは、差押えの前に税務課へ相談する",
+   "title": "森町で税金が払えないとき｜差押えの前に納税相談をする",
+   "description": "森町で町税・国民健康保険税が払えないときの相談先をまとめました。放置すると督促・差押えに進みますが、事情を伝えれば分割納付や納付猶予の制度があります。生活費そのものが苦しいときの窓口も案内します。",
+   "branch_title": "いまどの状況ですか",
+   "branch_lead": "早いほど選べる方法が多くなります。督促状が来ていても相談できます。",
+   "branches": [
+    {
+     "case": "納期限に間に合いそうにない",
+     "action": "税務課納税係に事前に相談する",
+     "href": "/life/troubles-consult/cannot-pay-tax/#types",
+     "emoji": "📞"
+    },
+    {
+     "case": "督促状・催告書が届いた",
+     "action": "放置せず納税相談をする",
+     "href": "/life/troubles-consult/cannot-pay-tax/#types",
+     "emoji": "✉️"
+    },
+    {
+     "case": "一度に払えないが分割ならできる",
+     "action": "分割納付・納付猶予の制度を確認する",
+     "href": "/life/troubles-consult/cannot-pay-tax/#steps",
+     "emoji": "🗓️"
+    },
+    {
+     "case": "そもそも生活費が足りない",
+     "action": "生活困窮の相談窓口を見る",
+     "href": "/life/troubles-consult/living-costs-trouble/",
+     "emoji": "🆘"
+    },
+    {
+     "case": "納め方を変えたい",
+     "action": "町税の納付方法を選び直す",
+     "href": "/life/work-life/city-tax-payment/",
+     "emoji": "💳"
+    }
+   ]
+  }
+ ]
+}

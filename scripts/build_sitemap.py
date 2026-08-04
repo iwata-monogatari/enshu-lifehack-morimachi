@@ -39,14 +39,27 @@ def main():
         for p in sorted(base.rglob('index.html')):
             section_urls.append('/' + p.relative_to(ROOT).as_posix()[: -len('index.html')])
 
+    # 6つの生活場面ハブ（抜本改修指示書 4.1）
+    hubs = json.loads((ROOT / 'data/hubs.json').read_text(encoding='utf-8'))['hubs']
+    hub_urls = [f"/hub/{h['slug']}/" for h in hubs]
+
+    # 統合（301）したページは sitemap に載せない（指示書 12.5）
+    published = [t for t in published if t.get('action') != 'merge']
+
     candidates = (['/', '/terms/']
+                  + hub_urls
                   + sorted(t['href'] for t in published)
                   + [a['href'] for a in aux]
                   + [f"/blog/{p['slug']}/" for p in sorted(blog, key=lambda x: x['date'], reverse=True)]
                   + section_urls)
 
-    urls, missing = [], []
+    # /shrine/ と /temple/ は aux-pages とディレクトリ走査の両方に現れるため重複を除く。
+    # 同じURLを2回載せた sitemap は不整合として扱われる（指示書12.5）。
+    urls, missing, seen = [], [], set()
     for u in candidates:
+        if u in seen:
+            continue
+        seen.add(u)
         (urls if page_exists(u) else missing).append(u)
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',

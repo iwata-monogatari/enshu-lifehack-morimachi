@@ -153,7 +153,9 @@ def main():
             body.append('<li><a href="%s" target="_blank" rel="noopener">%s</a>（%s）</li>' % (esc(s["url"]), esc(s["title"]), esc(s["note"])))
         body.append("</ul>")
 
-        lead = "%s（%s）は、静岡県周智郡森町%sにある%sの寺院です。" % (t["name"], t["sect"], t.get("area") or "", t["sect"])
+        addr_short = (t.get("address") or "").replace("静岡県周智郡森町", "森町") or (
+            "森町%s" % (t.get("area") or ""))
+        lead = "%s（%s）は、%sにある%sの寺院です。" % (t["name"], t["sect"], addr_short, t["sect"])
         if t.get("oldest_building"):
             lead += "本堂は元禄9年（1696年）建立で、森町の寺院建築では最古の記録とされています。"
         generated.append(write("temples/%s" % t["slug"], shell(

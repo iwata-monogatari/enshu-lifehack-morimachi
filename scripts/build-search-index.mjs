@@ -1,6 +1,11 @@
-// data/topics_master.json（title/synonyms/category の手動管理データ）から
-// 本文冒頭リードを実ページHTMLから抽出し、検索用の search-index.json を生成する。
+// data/topics_master.json（title/aliases/needs/department/audience の手動管理データ）から
+// 本文冒頭リードと最終確認日を実ページHTMLから抽出し、検索用の search-index.json を生成する。
 // 本文全文は含めない（意図的）。実行: node scripts/build-search-index.mjs
+//
+// 改修指示書 9.1「検索辞書」/ 9.2「検索結果表示」に対応:
+//   aliases（日常語・表記ゆれ）, needs（困りごとの文章）, department（担当課）,
+//   audience（対象者）, keyword（主検索語）, summary（1行の結論）, kind（種別）,
+//   verified（最終確認日）
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -26,12 +31,13 @@ function pageFilePath(href) {
   return path.join(ROOT, href.replace(/^\//, '').replace(/\/$/, ''), 'index.html');
 }
 
-function extractLead(href) {
+function readPage(href) {
   const filePath = pageFilePath(href);
-  if (!fs.existsSync(filePath)) {
-    return null; // life/未公開（draft・_staging行き）のため検索対象外
-  }
-  const html = fs.readFileSync(filePath, 'utf8');
+  if (!fs.existsSync(filePath)) return null; // 未公開・統合済みは検索対象外
+  return fs.readFileSync(filePath, 'utf8');
+}
+
+function extractLead(html, href) {
   const m = html.match(/<p class="lead">([\s\S]*?)<\/p>/);
   if (!m) {
     console.warn(`[warn] leadが見つかりません（空扱い）: ${href}`);
@@ -40,21 +46,61 @@ function extractLead(href) {
   return stripTags(m[1]).slice(0, LEAD_MAX_CHARS);
 }
 
+function extractVerified(html) {
+  const m = html.match(/最終確認日[：:]\s*(\d{4}-\d{2}-\d{2})/);
+  return m ? m[1] : '';
+}
+
+// 検索結果に出す種別ラベル（改修指示書 9.2）
+function kindOf(topic) {
+  const href = topic.href;
+  if (href.startsWith('/shrine/') || href.startsWith('/temple/')) return '地域情報';
+  if (href.startsWith('/tools/') || href.startsWith('/checklist/')) return 'ツール';
+  if (href.startsWith('/blog/')) return '読み物';
+  if (href.startsWith('/about/') || href.startsWith('/terms/')) return 'サイト情報';
+  if (topic.hub === 'enjoy') return '地域情報';
+  if (/相談|悩み|不安|困っ/.test(topic.intent || '')) return '相談';
+  return '公式手続き';
+}
+
+// 1行の結論（改修指示書 9.2）。intent があればそれを、無ければリード先頭文を使う。
+function summaryOf(topic, lead) {
+  if (topic.intent) return topic.intent;
+  const first = (lead || '').split(/(?<=。)/)[0] || '';
+  return first.slice(0, 60);
+}
+
 function main() {
   const topicsMaster = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/topics_master.json'), 'utf8'));
   // /tools/ と /checklist/ は固有の出典を持たない集約ページなので topics_master とは別台帳で管理する。
   const auxPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/aux-pages.json'), 'utf8'));
 
+  let mergedSkipped = 0;
   const searchIndex = [...topicsMaster, ...auxPages]
     .map((topic) => {
-      const lead = extractLead(topic.href);
-      if (lead === null) return null; // 未公開ページは検索インデックスから除外
+      // 統合済み（301）のページは検索候補に出さない
+      if (topic.action === 'merge') {
+        mergedSkipped++;
+        return null;
+      }
+      const html = readPage(topic.href);
+      if (html === null) return null;
+      const lead = extractLead(html, topic.href);
+      const aliases = topic.aliases || topic.synonyms || [];
       return {
         href: topic.href,
         icon: topic.icon,
         title: topic.title,
         category: topic.category,
-        synonyms: topic.synonyms || [],
+        hub: topic.hub || '',
+        kind: kindOf(topic),
+        summary: summaryOf(topic, lead),
+        keyword: topic.primary_keyword || '',
+        aliases,
+        needs: topic.needs || [],
+        department: topic.department || [],
+        audience: topic.audience || [],
+        verified: extractVerified(html),
         lead,
       };
     })
@@ -64,15 +110,21 @@ function main() {
   const json = JSON.stringify(searchIndex);
   fs.writeFileSync(outPath, json);
 
-  const totalWords = searchIndex.reduce((sum, t) => {
-    const text = `${t.title} ${t.category} ${t.synonyms.join(' ')} ${t.lead}`;
-    return sum + text.split(/\s+|(?=[　-鿿])/).filter(Boolean).length;
-  }, 0);
+  const dictFields = searchIndex.reduce(
+    (sum, t) => sum + t.aliases.length + t.needs.length + t.department.length + t.audience.length,
+    0
+  );
 
   console.log(`生成完了: ${outPath}`);
-  console.log(`項目数: ${searchIndex.length}`);
+  console.log(`項目数: ${searchIndex.length}（統合により除外: ${mergedSkipped}）`);
+  console.log(`辞書エントリ数（別名・困りごと・担当課・対象者）: ${dictFields}`);
   console.log(`ファイルサイズ: ${(json.length / 1024).toFixed(1)} KB`);
-  console.log(`概算語数（参考値）: ${totalWords}`);
+
+  const thin = searchIndex.filter((t) => t.aliases.length + t.needs.length < 3);
+  if (thin.length) {
+    console.log(`[warn] 辞書が薄いページ ${thin.length} 件:`);
+    thin.slice(0, 15).forEach((t) => console.log(`  ${t.href}`));
+  }
 }
 
 main();

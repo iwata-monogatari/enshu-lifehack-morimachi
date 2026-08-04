@@ -1,0 +1,249 @@
+# -*- coding: utf-8 -*-
+"""トップページを生成する（抜本改修指示書 6 / 12.1 / 12.2 / 12.3）。
+
+表示順は指示書 6.1 のとおり:
+  1 サイト名と非公式表示  2 検索窓  3 緊急導線  4 6つの生活場面
+  5 よく使われる手続き8件  6 状況別チェックリスト  7 森町独自データベース
+  8 最新確認情報  9 運営者・編集方針  10 必要な場合のみ事業相談導線
+
+守ること:
+  - 本文中のリンクは60以下（13カテゴリ全項目の展開表示をやめる）
+  - 非公式である旨はファーストビュー内に1回だけ
+  - 緊急導線には営業CTAを置かない
+
+実行: python scripts/build_home.py
+"""
+from __future__ import annotations
+
+import json
+import re
+import sys
+from html import escape
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.stdout.reconfigure(encoding="utf-8")
+
+CITY = json.loads((ROOT / "data" / "city.json").read_text(encoding="utf-8"))
+HUBS = json.loads((ROOT / "data" / "hubs.json").read_text(encoding="utf-8"))
+TOPICS = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
+SITE = CITY["site_url"].rstrip("/")
+SITE_NAME = CITY["site_name"]
+TODAY = "2026-08-04"
+
+PARTS = {
+    name: (ROOT / "parts" / f"{name}.html").read_text(encoding="utf-8").strip()
+    for name in ("header", "footer", "head-css")
+}
+
+DESCRIPTION = (
+    "森町の住民票、税金、ごみ、子育て、介護、空き家、おくやみ、防災などを、"
+    "暮らしの場面から探せる非公式生活ナビ。手続きの順番と森町公式の確認先を案内します。"
+)
+
+CHECKLISTS = [
+    ("/checklist/moved-in/", "🏡", "森町に引っ越してきた", "転入届から水道・ごみ・犬の登録まで"),
+    ("/checklist/married/", "💍", "結婚した", "婚姻届のあとに続く名義と住所の手続き"),
+    ("/checklist/baby/", "👶", "子どもが生まれた", "出生届・児童手当・健診・保育園"),
+    ("/checklist/job-change/", "💴", "転職した・退職した", "国民健康保険・国民年金・住民税"),
+]
+
+
+def esc(s: str) -> str:
+    return escape(str(s or ""), quote=True)
+
+
+def emergency_section() -> str:
+    cards = "".join(
+        f'<a class="urgent-card" href="{esc(e["href"])}">'
+        f'<span class="urgent-icon" aria-hidden="true">{e["emoji"]}</span>'
+        f'<span class="urgent-text"><span class="urgent-label">{esc(e["label"])}</span>'
+        f'<span class="urgent-note">{esc(e["note"])}</span></span></a>'
+        for e in HUBS["emergency_links"])
+    return (
+        '<section class="urgent" aria-labelledby="urgent-title">'
+        '<h2 id="urgent-title">急いでいるとき</h2>'
+        f'<div class="urgent-grid">{cards}</div>'
+        '<p class="mini">命に関わるときは119番。この欄には広告・営業のご案内を表示しません。</p>'
+        "</section>")
+
+
+def hub_section() -> str:
+    cards = "".join(
+        f'<a class="hub-card" href="/hub/{h["slug"]}/">'
+        f'<span class="hub-emoji" aria-hidden="true">{h["emoji"]}</span>'
+        f'<span class="hub-text"><span class="hub-title">{esc(h["title"])}</span>'
+        f'<span class="hub-desc">{esc(h["short"])}</span></span></a>'
+        for h in HUBS["hubs"])
+    return (
+        '<section class="hubs" aria-labelledby="hubs-title">'
+        '<h2 id="hubs-title">どの場面のことですか</h2>'
+        '<p class="lead">近い場面を選ぶと、そこから必要な手続きのページへ進めます。</p>'
+        f'<div class="hub-grid">{cards}</div></section>')
+
+
+def frequent_section() -> str:
+    items = "".join(
+        f'<li><a href="{esc(f["href"])}">'
+        f'<span class="freq-icon" aria-hidden="true">{f["emoji"]}</span>'
+        f'{esc(f["label"])}</a></li>' for f in HUBS["frequent"])
+    return ('<section class="frequent" aria-labelledby="freq-title">'
+            '<h2 id="freq-title">よく使われる手続き</h2>'
+            f'<ul class="freq-list">{items}</ul></section>')
+
+
+def checklist_section() -> str:
+    cards = "".join(
+        f'<a class="section-card" href="{href}">'
+        f'<span class="section-emoji" aria-hidden="true">{emoji}</span>'
+        f'<span class="section-body"><span class="section-title">{esc(label)}</span>'
+        f'<span class="section-desc">{esc(note)}</span></span></a>'
+        for href, emoji, label, note in CHECKLISTS)
+    return ('<section aria-labelledby="checklist-title">'
+            '<h2 id="checklist-title">状況別チェックリスト</h2>'
+            '<p class="lead">やることを順番に確認して、済んだものから消していけます。</p>'
+            f'<div class="section-grid">{cards}</div></section>')
+
+
+def database_section() -> str:
+    cards = "".join(
+        f'<a class="section-card" href="{esc(d["href"])}">'
+        f'<span class="section-emoji" aria-hidden="true">{d["emoji"]}</span>'
+        f'<span class="section-body"><span class="section-title">{esc(d["label"])}</span>'
+        f'<span class="section-desc">{esc(d["note"])}</span></span></a>'
+        for d in HUBS["databases"])
+    return ('<section aria-labelledby="db-title">'
+            '<h2 id="db-title">森町を知る・調べる</h2>'
+            '<p class="lead">手続きではなく、森町そのものを調べるための資料とツールです。</p>'
+            f'<div class="section-grid">{cards}</div></section>')
+
+
+def freshness_section(stats: dict) -> str:
+    return (
+        '<section class="freshness" aria-labelledby="fresh-title">'
+        '<h2 id="fresh-title">情報の確認状況</h2>'
+        f'<p>暮らしのページ {stats["pages"]} 件のうち {stats["checked"]} 件に最終確認日を表示しています。'
+        f'直近の一斉確認は {stats["latest"]} です。電話番号・受付時間・金額・期限は変わることがあるため、'
+        "各ページの公式リンクで最終確認してください。</p>"
+        '<a class="btn" href="https://www.town.morimachi.shizuoka.jp/" target="_blank" rel="noopener" '
+        'data-track-click="official_link_click">森町公式サイトの新着を見る</a>'
+        "</section>")
+
+
+def publisher_section() -> str:
+    return (
+        '<section class="publisher" aria-labelledby="pub-title">'
+        '<h2 id="pub-title">運営者と編集方針</h2>'
+        f"<p>{esc(SITE_NAME)}は、富士ヶ丘サービス株式会社（代表 大石浩之・宅地建物取引士）が運営する"
+        "非公式の案内サイトです。行政機関ではありません。公式資料をもとに整理し、"
+        "各ページに出典と最終確認日を表示しています。医療・法律・税務の専門判断は行いません。</p>"
+        '<div class="pub-links">'
+        '<a class="btn" href="/about/author/">執筆者と編集方針を見る</a>'
+        '<a class="btn" href="/terms/">利用条件・免責・誤りのご連絡</a>'
+        "</div></section>")
+
+
+def consult_section() -> str:
+    """事業相談導線（指示書 6.1-10 / 11.1）。運営会社のサービスであることを明示する。"""
+    return (
+        '<section class="company-strip cta-weak" aria-labelledby="consult-title">'
+        '<h2 id="consult-title">行政の窓口で足りないときの相談先</h2>'
+        "<p>まずは各ページの森町公式窓口をご確認ください。そのうえで、"
+        "相続した実家や空き家の扱い、介護と住まいを一緒に整理したい場合の選択肢です。</p>"
+        '<div class="company-grid">'
+        '<div class="company-card"><h3>親の家・空き家のこと</h3>'
+        "<p>売る・貸す・残すを決める前に、状況を整理するところから相談できます。</p>"
+        '<a class="btn" href="https://www.fujigaoka-service.co.jp/'
+        '?utm_source=morimachi_lifehack&amp;utm_medium=referral&amp;utm_campaign=home" '
+        'target="_blank" rel="noopener" data-track-click="cta_real_estate">'
+        "住まい・空き家の相談窓口を見る</a></div>"
+        '<div class="company-card"><h3>介護と住まいのこと</h3>'
+        "<p>公的な介護相談とあわせて、住まいの選択肢も一緒に相談できます。</p>"
+        '<a class="btn" href="https://www.fujigaoka-service.info/'
+        '?utm_source=morimachi_lifehack&amp;utm_medium=referral&amp;utm_campaign=home" '
+        'target="_blank" rel="noopener" data-track-click="cta_care">'
+        "介護・住まいの相談窓口を見る</a></div>"
+        "</div>"
+        '<p class="cta-disclosure">※このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）の'
+        "サービスです。ご利用は任意で、森町の制度利用には影響しません。</p></section>")
+
+
+def stats() -> dict:
+    live = [t for t in TOPICS if t.get("action") != "merge"]
+    dates = []
+    for t in live:
+        path = ROOT / t["href"].strip("/") / "index.html"
+        if not path.exists():
+            continue
+        m = re.search(r"最終確認日[：:]\s*(\d{4}-\d{2}-\d{2})",
+                      path.read_text(encoding="utf-8"))
+        if m:
+            dates.append(m.group(1))
+    return {"pages": len(live), "checked": len(dates),
+            "latest": max(dates) if dates else TODAY}
+
+
+def build() -> str:
+    st = stats()
+    return f"""<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>森町ライフハック｜森町の手続き・相談先を、困りごとから探す</title>
+<meta name="description" content="{esc(DESCRIPTION)}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
+</head>
+<body class="hub home">
+<!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
+<main><div class="wrap">
+<section class="hero">
+<p class="eyebrow">森町の暮らしと手続きが、すぐわかる</p>
+<h1>森町の手続き・相談先を、困りごとから探せます</h1>
+<p class="lead">住民票、税金、ごみ、子育て、介護、空き家、おくやみ、防災。
+森町ライフハックは<b>森町公式サイトではありません</b>。公式情報を整理し、最後は必ず公式ページへご案内します。</p>
+</section>
+
+<section class="site-search" aria-labelledby="search-title">
+<label id="search-title" for="site-search-input">調べたい言葉を入力してください</label>
+<form class="search-row" role="search" action="/" method="get" onsubmit="return siteSearch(event)">
+<input id="site-search-input" name="q" type="search" list="search-examples" autocomplete="off"
+ placeholder="例：住民票、親が認知症、税金が払えない、空き家を相続した">
+<button type="submit">探す</button>
+</form>
+<datalist id="search-examples"><option value="住民票"><option value="親が認知症"><option value="税金が払えない"><option value="空き家を相続した"><option value="ごみの日"><option value="夜に熱が出た"><option value="家族が亡くなった"></datalist>
+<p class="mini">制度の正式名称でなくても、困っている状況の言葉で探せます。</p>
+<div class="search-results" id="search-results" aria-live="polite"></div>
+</section>
+
+{emergency_section()}
+{hub_section()}
+{frequent_section()}
+{checklist_section()}
+{database_section()}
+{freshness_section(st)}
+{publisher_section()}
+{consult_section()}
+</div></main>
+<script type="module" src="/assets/search-app.js"></script>
+<!-- PART:footer:START -->{PARTS['footer']}<!-- PART:footer:END -->
+</body></html>
+"""
+
+
+def main() -> None:
+    html = build()
+    (ROOT / "index.html").write_text(html, encoding="utf-8")
+    body = html[html.index("<main>"):html.index("<!-- PART:footer:START -->")]
+    body_links = len(re.findall(r"<a ", body))
+    total_links = len(re.findall(r"<a ", html))
+    print("index.html を生成しました")
+    print(f"  本文リンク数: {body_links}（目安60以下）")
+    print(f"  ページ全体のリンク数（フッター含む）: {total_links}")
+    if body_links > 60:
+        print("  [warn] 本文リンクが60を超えています")
+
+
+if __name__ == "__main__":
+    main()

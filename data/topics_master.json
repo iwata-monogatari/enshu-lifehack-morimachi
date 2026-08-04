@@ -59,7 +59,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の放課後児童クラブは、対象学年と申請時期（例年9月）を先に確認する"
+  "title": "森町の放課後児童クラブは、対象学年と申請時期（例年9月）を先に確認する",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "放課後児童クラブの対象と申込時期を確認する",
+  "primary_keyword": "森町 放課後児童クラブ 学童",
+  "needs": [
+   "放課後の預け先がない",
+   "学童に入れたい",
+   "申込みはいつ"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/education/educational-consulting/",
@@ -69,7 +89,10 @@
   "synonyms": [
    "教育相談",
    "スクールカウンセラー",
-   "不登校相談"
+   "不登校相談",
+   "就学",
+   "就学時健診",
+   "就学相談"
   ],
   "tier": "common",
   "source_iwata": [
@@ -116,7 +139,30 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の教育相談は、教育支援センター「わかば」と学校教育課へ困りごとを一文で整理してから相談する"
+  "title": "森町の教育相談は、教育支援センター「わかば」と学校教育課へ困りごとを一文で整理してから相談する",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "parent",
+  "priority": "P1",
+  "intent": "学校に行きづらい・就学の不安を相談する",
+  "primary_keyword": "森町 教育相談 不登校",
+  "needs": [
+   "学校に行きたがらない",
+   "就学が不安",
+   "誰に相談すれば",
+   "就学時健診が心配"
+  ],
+  "audience": [
+   "保護者",
+   "児童生徒"
+  ],
+  "department": [
+   "学校教育課",
+   "教育支援センター"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/education/elementary-middle-school/",
@@ -161,7 +207,7 @@
   ],
   "facts": {
    "window": "学校教育課",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
    "schools": "小学校3校（森小学校：森町森125・電話0538-85-2134／宮園小学校：森町谷中650・電話0538-85-3766／飯田小学校：森町飯田3310-1・電話0538-85-2931）、中学校2校（森中学校：森町天宮888-1・電話0538-85-3124／旭が丘中学校：森町谷中556・電話0538-85-4101）",
    "note": "通学区域の詳細ページは未確認。学校教育課（0538-85-1112）への問い合わせが必要"
   },
@@ -170,7 +216,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の小中学校は5校（小学校3校・中学校2校）、学校一覧と手続きを分けて見る"
+  "title": "森町の小中学校は5校（小学校3校・中学校2校）、学校一覧と手続きを分けて見る",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "森町の小中学校の一覧と連絡先を知る",
+  "primary_keyword": "森町 小中学校 一覧",
+  "needs": [
+   "学校の電話番号を知りたい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "学校教育課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/education/",
@@ -204,7 +268,23 @@
   "ai_checked_date": null,
   "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
   "verified_by": "machine",
-  "title": "🎒 学ぶ・育つ"
+  "title": "🎒 学ぶ・育つ",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "hub",
+  "priority": "P2",
+  "intent": "学校・学区・教育相談の情報を一覧で把握する",
+  "primary_keyword": "森町 学校",
+  "needs": [
+   "学校のことを調べたい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/education/school-attendance-support/",
@@ -249,7 +329,7 @@
   ],
   "facts": {
    "window": "学校教育課",
-   "tel": "0538-85-1112（学校教育係）／0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-1112（学校教育係）／0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
    "note": "就学時健康診断の個別ページは検索で見つからず、確認中。就学に関する相談は学校教育課・教育支援センター「わかば」で対応"
   },
   "status": "ai-checked",
@@ -257,7 +337,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。就学時健診の実施ページは未発見のため大石側での追加確認を推奨。",
   "verified_by": "machine",
-  "title": "就学の不安は、教育委員会と学校への相談・手続きを分けて確認する"
+  "title": "就学の不安は、教育委員会と学校への相談・手続きを分けて確認する",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "就学の不安を相談する",
+  "primary_keyword": "森町 就学相談",
+  "needs": [
+   "就学時健診が心配"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "学校教育課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/education/educational-consulting/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/education/school-district-transfer/",
@@ -308,7 +406,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "転校は、住所異動の届出と通学中の学校での手続きをまとめて確認する"
+  "title": "転校は、住所異動の届出と通学中の学校での手続きをまとめて確認する",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "転校の手続きを進める",
+  "primary_keyword": "森町 転校 手続き",
+  "needs": [
+   "転校することになった"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "住民生活課",
+   "学校教育課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/education/school-expense-support/",
@@ -348,7 +465,7 @@
   ],
   "facts": {
    "window": "学校教育課",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
    "support_items": "就学援助費として学用品費・通学用品費・新入学児童生徒学用品費・校外活動費・修学旅行費・通学費・給食費・医療費等を支給（議会資料で確認、詳細ページは町サイト内で個別確認できず）",
    "note": "就学援助制度の専用案内ページは検索で直接確認できなかった。制度自体の存在は令和2年3月議会会議録PDFで裏付け"
   },
@@ -357,7 +474,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。専用案内ページの直接確認は未了のため大石側での追加確認を推奨。",
   "verified_by": "machine",
-  "title": "学校費用の不安は、就学援助制度と学校教育課への相談を先に確認する"
+  "title": "学校費用の不安は、就学援助制度と学校教育課への相談を先に確認する",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "学校費用の負担を軽くする制度を使う",
+  "primary_keyword": "森町 就学援助",
+  "needs": [
+   "給食費が払えない",
+   "学用品の費用がつらい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "学校教育課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/education/school-meals/",
@@ -397,7 +533,7 @@
   ],
   "facts": {
    "window": "学校教育課",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
    "address": "〒437-0293 静岡県周智郡森町森2101-1（森町役場）",
    "note": "学校給食の献立表・給食費の金額・アレルギー対応の具体的な案内ページは森町公式サイト内（学校教育課／学校管理係／学校教育係の各ページ、もりっこサイトを含む）で確認できなかった。国は2026年度から公立小学校の給食費支援を進めているが、森町独自の実施状況（対象範囲・自己負担の有無）は確認中。担当課・電話番号のみ確認済み。"
   },
@@ -406,7 +542,26 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "WebSearch/WebFetchで学校教育課・学校管理係・学校教育係・教育委員会・小中学校ページ・もりっこサイトを確認したが、給食の献立表/給食費金額/アレルギー対応の専用ページは見つからなかった。担当課（学校教育課、0538-85-2111）のみ確定事実として記載し、その他は「確認中」と明記した。大石による追加確認・専用ページの有無の再調査を推奨。",
   "verified_by": "machine",
-  "title": "学校給食は、献立・費用・アレルギー対応を学校教育課に分けて確認する"
+  "title": "学校給食は、献立・費用・アレルギー対応を学校教育課に分けて確認する",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "学校給食の献立・費用・アレルギー対応を確認する",
+  "primary_keyword": "森町 学校給食",
+  "needs": [
+   "アレルギー対応はある",
+   "給食費はいくら"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "学校教育課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/education/school-zones/",
@@ -459,7 +614,28 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。通学区域図等の専用ページは未発見。",
   "verified_by": "machine",
-  "title": "通学区は、住所と小中学校情報をセットで学校教育課に確認する"
+  "title": "通学区は、住所と小中学校情報をセットで学校教育課に確認する",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "parent",
+  "priority": "P1",
+  "intent": "住所からどの小中学校に通うか確かめる",
+  "primary_keyword": "森町 通学区域",
+  "needs": [
+   "どの学校の学区か",
+   "指定校を変更したい",
+   "どの小学校に通う"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "学校教育課",
+   "教育委員会"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/education/study-facilities/",
@@ -523,7 +699,23 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "森町公式サイトをWebFetchで直接確認。専用の「自習室」施設は見つからなかったが、森町立図書館が公式に「学習や研究の場としても利用できる」と案内していることを確認し、それに基づいてページを作成した。窓際の閲覧コーナー、開館時間（水曜のみ19時まで）、休館日、文化会館の貸室（研修室等）を情報源とした。",
   "verified_by": "machine",
-  "title": "学習場所は、森町立図書館の閲覧コーナーと開館日を先に確認する"
+  "title": "学習場所は、森町立図書館の閲覧コーナーと開館日を先に確認する",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "子どもが勉強できる場所を探す",
+  "primary_keyword": "森町 図書館 学習室",
+  "needs": [
+   "勉強する場所がほしい"
+  ],
+  "audience": [
+   "児童生徒"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/disaster-certificates-procedures/",
@@ -579,7 +771,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。り災証明書そのものの発行窓口（危機管理課か税務課か）はページ内で明示されていないため、公開前に窓口を要確認。",
   "verified_by": "machine",
-  "title": "災害にあった後、何から動くか。森町でり災証明書と税の減免手続きを順番に整理する。"
+  "title": "災害にあった後、何から動くか。森町でり災証明書と税の減免手続きを順番に整理する。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "り災証明書と税の減免を申請する",
+  "primary_keyword": "森町 り災証明書",
+  "needs": [
+   "家が被害を受けた",
+   "被災後の手続き"
+  ],
+  "audience": [
+   "被災者"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/disaster-mail-line/",
@@ -639,7 +850,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "災害の知らせを取りこぼさないよう、森町LINE公式アカウント・ちゃっとメールで平常時から備える。"
+  "title": "災害の知らせを取りこぼさないよう、森町LINE公式アカウント・ちゃっとメールで平常時から備える。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "災害情報の受け取り方を設定する",
+  "primary_keyword": "森町 防災 LINE メール",
+  "needs": [
+   "災害情報を受け取りたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "政策企画課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/earthquake/",
@@ -720,7 +949,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。耐震補助制度側の担当課電話番号は今回未確認、公開前に定住推進課ページを追加確認要。",
   "verified_by": "machine",
-  "title": "地震・津波の備えを、森町の補助制度を使いながら今日できることから一つずつ。"
+  "title": "地震・津波の備えを、森町の補助制度を使いながら今日できることから一つずつ。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "地震・津波に備える",
+  "primary_keyword": "森町 地震 備え",
+  "needs": [
+   "地震が心配",
+   "耐震の補助"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "危機管理課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/emergency-medical/",
@@ -761,7 +1009,7 @@
   "facts": {
    "window": "静岡県危機管理部消防保安課（制度所管）／森町側の案内窓口は危機管理課 危機管理係",
    "tel_prefecture": "054-221-2073",
-   "tel_morimachi_madoguchi": "0538-85-6302（確認中: 本文未確認 0538-85-6302）",
+   "tel_morimachi_madoguchi": "0538-85-6302（一部の番号は公式ページ本文で再確認できていません）",
    "content": "♯7119（プッシュ回線・スマホから）または054-221-2073で、看護師・医師等の相談員に24時間365日相談可能。緊急・重症時は迷わず119番。"
   },
   "status": "ai-checked",
@@ -769,7 +1017,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。#7119は県の制度で森町固有の窓口ではない点に注意。",
   "verified_by": "machine",
-  "title": "急な病気やけがで迷ったとき、♯7119（救急安心電話相談）で今すぐ判断する。"
+  "title": "急な病気やけがで迷ったとき、♯7119（救急安心電話相談）で今すぐ判断する。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "救急車を呼ぶか迷ったときに判断する",
+  "primary_keyword": "♯7119 森町",
+  "needs": [
+   "救急車を呼ぶべきか",
+   "病院に行くべきか"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "静岡県危機管理部消防保安課",
+   "森町側の案内窓口は危機管理課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/health-medical/night-holiday-medical/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/evacuation-centers/",
@@ -824,7 +1092,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。避難所名の個別列挙はPDF内のため、記事化時は最新版ガイドブックの発行年を要確認。",
   "verified_by": "machine",
-  "title": "いざというとき、どこへ避難するかを森町のハザードマップと指定避難所で今のうちに決めておく。"
+  "title": "いざというとき、どこへ避難するかを森町のハザードマップと指定避難所で今のうちに決めておく。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "指定避難所の場所を確認する",
+  "primary_keyword": "森町 避難所",
+  "needs": [
+   "避難所はどこ"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "危機管理課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/evacuation-hazard-map/",
@@ -833,7 +1119,13 @@
   "category": "もしもの時",
   "synonyms": [
    "避難",
-   "いつどこへ逃げる"
+   "いつどこへ逃げる",
+   "ハザードマップ",
+   "浸水想定",
+   "土砂災害",
+   "台風",
+   "大雨",
+   "警戒レベル"
   ],
   "tier": "common",
   "source_iwata": [
@@ -884,7 +1176,30 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。台帳の初期候補（クマ出没マニュアル等）は無関係と判断し、より適切なページに差し替えた。警戒レベルの具体的発令基準（雨量閾値等）は創作せず、公式ページ掲載の一般的な説明のみ記載。",
   "verified_by": "machine",
-  "title": "「いつ・どこへ逃げるか」を、森町の警戒レベルとハザードマップで迷う前に決めておく。"
+  "title": "森町で「いつ・どこへ逃げるか」を、警戒レベルとハザードマップで先に決めておく",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "いつ・どこへ逃げるかを決めておく",
+  "primary_keyword": "森町 ハザードマップ 避難",
+  "needs": [
+   "どこに逃げればいい",
+   "いつ避難する",
+   "大雨で不安",
+   "家は安全か",
+   "台風が来る"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "危機管理課",
+   "農林政策課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/fire-ambulance/",
@@ -941,7 +1256,7 @@
   ],
   "facts": {
    "window": "袋井市森町広域行政組合 袋井消防本部（予防課）",
-   "tel_honbu": "0538-42-0119（確認中: 本文未確認 0538-42-0119）",
+   "tel_honbu": "0538-42-0119（一部の番号は公式ページ本文で再確認できていません）",
    "tel_yobouka": "0538-44-5114",
    "content": "森町の消防・救急は「袋井市森町広域行政組合 袋井消防本部」が管轄（住所：袋井市国本2907）。火災・救急時は119番。住宅用火災警報器の取り付け・交換支援などを実施。"
   },
@@ -950,7 +1265,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。消防本部代表電話(0538-42-0119)はWebSearchのスニペットで確認した数値で、公式ページでの直接記載は未確認のため、公開前に袋井消防本部の一次情報での再確認を推奨。",
   "verified_by": "machine",
-  "title": "火事のとき、急病のとき。まず119番。森町は袋井消防本部が管轄。"
+  "title": "火事のとき、急病のとき。まず119番。森町は袋井消防本部が管轄。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "火事・急病のときの119番と管轄を知る",
+  "primary_keyword": "森町 消防 救急 119",
+  "needs": [
+   "救急車を呼びたい",
+   "火事のとき"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "予防課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/hazard-maps/",
@@ -1019,7 +1353,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。ため池ハザードマップの担当課電話番号は今回未確認。",
   "verified_by": "machine",
-  "title": "自宅と避難先の災害リスクを、森町防災ハザードマップで今すぐ確かめる。"
+  "title": "自宅と避難先の災害リスクを、森町防災ハザードマップで今すぐ確かめる。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "自宅の災害リスクを確かめる",
+  "primary_keyword": "森町 ハザードマップ",
+  "needs": [
+   "家は安全か"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "危機管理課",
+   "農林政策課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/emergency/evacuation-hazard-map/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/",
@@ -1055,7 +1408,25 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。カテゴリ全体の入口ページとして、防災情報トップに差し替えた。",
   "verified_by": "machine",
-  "title": "⚠️ もしもの時"
+  "title": "⚠️ もしもの時",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "hub",
+  "priority": "P0",
+  "intent": "防災・災害時の行動と窓口を一覧で把握する",
+  "primary_keyword": "森町 防災",
+  "needs": [
+   "災害に備えたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "危機管理課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/pet-disaster-prevention/",
@@ -1129,7 +1500,26 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "WebSearch/WebFetchで犬・猫の飼い方ページ、防災ガイドブックPDF（pdfplumberでテキスト抽出、緊急連絡カードのペット欄のみ確認）、防災ハザードマップページを確認。森町独自の同行避難ルール・避難所でのペット対応ページは見つからず「確認中」と明記した上で公開。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "ペットと一緒に逃げる。そのための備えを、災害が来る前に整える。"
+  "title": "ペットと一緒に逃げる。そのための備えを、災害が来る前に整える。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "ペットと一緒に避難する備えをする",
+  "primary_keyword": "森町 ペット 同行避難",
+  "needs": [
+   "ペットと避難できる"
+  ],
+  "audience": [
+   "飼い主"
+  ],
+  "department": [
+   "危機管理課",
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/road-river-info/",
@@ -1197,7 +1587,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。台帳の初期候補（オンライン施設予約システム等）は無関係と判断し、防災情報ページ内の県システムへの案内に差し替えた。",
   "verified_by": "machine",
-  "title": "大雨・台風のとき、道路の通行止めと川の水位を静岡県のシステムで今すぐ確かめる。"
+  "title": "大雨・台風のとき、道路の通行止めと川の水位を静岡県のシステムで今すぐ確かめる。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "道路の通行止めと川の水位を今すぐ確かめる",
+  "primary_keyword": "森町 通行止め 川 水位",
+  "needs": [
+   "道が通れるか",
+   "川が増水している"
+  ],
+  "audience": [
+   "住民",
+   "通勤者"
+  ],
+  "department": [
+   "危機管理課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/emergency/storm-heavy-rain/",
@@ -1270,7 +1680,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。警戒レベルの具体的な発令基準（雨量・水位の数値閾値）は公式ページに記載がなく創作していない。",
   "verified_by": "machine",
-  "title": "台風・大雨が近づいたら、森町の警戒レベル発信で「いつ逃げるか」を先に決めておく。"
+  "title": "台風・大雨が近づいたら、森町の警戒レベル発信で「いつ逃げるか」を先に決めておく。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "台風・大雨が近づいたときの行動を決める",
+  "primary_keyword": "森町 台風 大雨 避難",
+  "needs": [
+   "台風が来る"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "危機管理課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/emergency/evacuation-hazard-map/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/after-death-procedures/",
@@ -1324,7 +1752,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "死亡後の手続きは、森町「お悔やみ」ページで急ぐ届出から確認する"
+  "title": "死亡後の手続きは、森町「お悔やみ」ページで急ぐ届出から確認する",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "死亡後の急ぐ届出を確認する",
+  "primary_keyword": "森町 死亡後 手続き",
+  "needs": [
+   "急ぐ手続きは何"
+  ],
+  "audience": [
+   "遺族"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/end-of-life/bereavement/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/bereavement/",
@@ -1333,7 +1779,16 @@
   "category": "人生の終わり",
   "synonyms": [
    "家族が亡くなった",
-   "死亡届"
+   "死亡届",
+   "死亡後の手続き",
+   "死後手続き",
+   "死亡後",
+   "手続き",
+   "おくやみ",
+   "おくやみ手続き",
+   "おくやみコーナー",
+   "お悔やみ",
+   "一覧"
   ],
   "tier": "common",
   "source_iwata": [
@@ -1379,7 +1834,29 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "家族が亡くなったら、森町の死亡届・戸籍手続きから順に確認する"
+  "title": "森町で家族が亡くなったら、期限の早い手続きから順に進める",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "家族が亡くなった後の手続きを期限順に進める",
+  "primary_keyword": "森町 死亡届 おくやみ",
+  "needs": [
+   "家族が亡くなった",
+   "何から手続きする",
+   "期限が知りたい",
+   "急ぐ手続きは何",
+   "手続きが多すぎる"
+  ],
+  "audience": [
+   "遺族"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/bereavement-procedures/",
@@ -1432,7 +1909,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "おくやみ手続きは、森町「お悔やみ」ページの一覧から家族で分担する"
+  "title": "おくやみ手続きは、森町「お悔やみ」ページの一覧から家族で分担する",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "おくやみの手続きを家族で分担する",
+  "primary_keyword": "森町 お悔やみ 手続き 一覧",
+  "needs": [
+   "手続きが多すぎる"
+  ],
+  "audience": [
+   "遺族"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/end-of-life/bereavement/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/grave-memorial/",
@@ -1478,7 +1973,7 @@
   ],
   "facts": {
    "window": "住民生活課 生活環境係（改葬許可の申請窓口）／住民生活課 住民係（許可証交付・手数料支払い、死亡届・火葬場予約）",
-   "tel": "0538-85-6314（生活環境係・改葬許可）／0538-85-6312（住民係・死亡届）／0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-6314（生活環境係・改葬許可）／0538-85-6312（住民係・死亡届）／0538-85-2111（役場代表）（一部の番号は公式ページ本文で再確認できていません）",
    "tesuryo": "改葬許可証の交付手数料300円",
    "note": "森町公式サイト『改葬許可について』ページで、改葬許可申請の窓口（住民生活課生活環境係）・手数料300円・申請書様式（Excel/PDF/記入例）を確認済み。一方、町が運営する公営墓地（町営墓地）についての案内ページは公式サイト上で確認できず「確認中」とした。"
   },
@@ -1487,7 +1982,26 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "WebSearch/WebFetchで森町公式サイトを再調査。『改葬許可について』ページ（生活環境係窓口・手数料300円・申請書様式）を新たに確認し、facts/sources_morimachiを更新。町営墓地の専用案内ページは確認できず、民営・寺院墓地への相談を案内。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "お墓・供養は、改葬許可の手続きと墓地の確認先を分けて進める"
+  "title": "お墓・供養は、改葬許可の手続きと墓地の確認先を分けて進める",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "お墓・供養・改葬の進め方を知る",
+  "primary_keyword": "森町 改葬許可 墓",
+  "needs": [
+   "墓じまいしたい",
+   "お墓を移したい"
+  ],
+  "audience": [
+   "遺族"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/house-became-vacant/",
@@ -1541,7 +2055,26 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "相続後の空き家は、森町の空き家バンク・補助金制度を早めに確認する"
+  "title": "相続後の空き家は、森町の空き家バンク・補助金制度を早めに確認する",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "相続後に空き家になった家の制度を確認する",
+  "primary_keyword": "相続後 空き家 補助",
+  "needs": [
+   "空き家になってしまった"
+  ],
+  "audience": [
+   "相続人"
+  ],
+  "department": [
+   "定住推進課",
+   "税務課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/end-of-life/inherited-house/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/",
@@ -1574,14 +2107,34 @@
   ],
   "facts": {
    "window": "住民生活課（死亡届・葬祭費）／税務課（固定資産税・相続関連）／定住推進課（空き家）",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": null,
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。トップページは各カテゴリの入口として『お悔やみ』ページを中心に案内する構成が妥当。大石による最終確認待ち。",
   "verified_by": null,
-  "title": "🕊️ 人生の終わり（森町版）"
+  "title": "🕊️ 人生の終わり（森町版）",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "hub",
+  "priority": "P0",
+  "intent": "おくやみ・相続・空き家の手続きを一覧で把握する",
+  "primary_keyword": "森町 おくやみ 相続",
+  "needs": [
+   "家族が亡くなった"
+  ],
+  "audience": [
+   "遺族"
+  ],
+  "department": [
+   "住民生活課",
+   "税務課",
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/inheritance/",
@@ -1630,7 +2183,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "相続は、森町の固定資産税・戸籍手続きと家族で決めることを分けて進める"
+  "title": "相続は、森町の固定資産税・戸籍手続きと家族で決めることを分けて進める",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "相続で何をいつまでにやるか整理する",
+  "primary_keyword": "森町 相続 手続き",
+  "needs": [
+   "相続が発生した",
+   "相続登記はいつまで"
+  ],
+  "audience": [
+   "相続人"
+  ],
+  "department": [
+   "税務課",
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/inherited-house/",
@@ -1640,7 +2213,18 @@
   "synonyms": [
    "親の家",
    "実家",
-   "空き家"
+   "空き家",
+   "相続空き家",
+   "実家空き家",
+   "相続後",
+   "補助",
+   "相続した空き家",
+   "実家片付け",
+   "相続した家",
+   "空き家相談",
+   "実家相談",
+   "どうする",
+   "相談"
   ],
   "tier": "common",
   "source_iwata": [
@@ -1684,7 +2268,32 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "親の家は、森町の空き家バンク・補助金・確認書制度を使って一つずつ決める"
+  "title": "森町で相続した親の家を、使う・貸す・売る・解体するのどれにするか決める",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "相続した親の家を使う・貸す・売る・解体するを決める",
+  "primary_keyword": "親の家 相続 どうする",
+  "needs": [
+   "実家を相続した",
+   "空き家になった実家",
+   "売るか残すか迷う",
+   "空き家になってしまった",
+   "相続した家が空いている",
+   "実家をどうしよう"
+  ],
+  "audience": [
+   "相続人",
+   "家族"
+  ],
+  "department": [
+   "定住推進課",
+   "税務課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/inherited-vacant-house/",
@@ -1732,7 +2341,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "相続した家は、森町の空き家バンク・補助金制度を使って使う・貸す・売るを整理する"
+  "title": "相続した家は、森町の空き家バンク・補助金制度を使って使う・貸す・売るを整理する",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "相続した家の使い道を整理する",
+  "primary_keyword": "相続した家 空き家",
+  "needs": [
+   "相続した家が空いている"
+  ],
+  "audience": [
+   "相続人"
+  ],
+  "department": [
+   "定住推進課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/end-of-life/inherited-house/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/pension-inheritance/",
@@ -1776,7 +2403,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。年金の実務手続き自体は年金事務所管轄のため、森町公式ページでは限定的な情報のみ。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "年金の手続きは、国民健康保険と国民年金の窓口を分けて確認する"
+  "title": "年金の手続きは、国民健康保険と国民年金の窓口を分けて確認する",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "亡くなった後の年金・保険の手続きをする",
+  "primary_keyword": "森町 死亡 年金 手続き",
+  "needs": [
+   "年金を止める手続き",
+   "未支給年金"
+  ],
+  "audience": [
+   "遺族"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/end-of-life/property-tax-inheritance/",
@@ -1826,7 +2472,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "固定資産税の相続は、森町税務課への相続人代表者指定届を先に確認する"
+  "title": "固定資産税の相続は、森町税務課への相続人代表者指定届を先に確認する",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "相続した不動産の固定資産税の手続きをする",
+  "primary_keyword": "森町 固定資産税 相続人代表者",
+  "needs": [
+   "納税通知書は誰に届く"
+  ],
+  "audience": [
+   "相続人"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/child-allowance/",
@@ -1834,7 +2498,10 @@
   "title_iwata": "児童手当を、申請忘れも期限切れもなく確実に受け取る。",
   "category": "家族が増える",
   "synonyms": [
-   "児童手当"
+   "児童手当",
+   "こども医療費",
+   "子ども医療費助成",
+   "こども医療費助成"
   ],
   "tier": "common",
   "source_iwata": [
@@ -1873,7 +2540,28 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "児童手当を、出生・転入から15日以内に確実に申請する。"
+  "title": "児童手当を、出生・転入から15日以内に確実に申請する。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "児童手当とこども医療費助成を期限内に申請する",
+  "primary_keyword": "森町 児童手当 申請",
+  "needs": [
+   "児童手当をもらいたい",
+   "医療費助成の手続き",
+   "15日以内の申請",
+   "医療費の助成を受けたい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/child-allowance-medical/",
@@ -1934,7 +2622,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。電話番号がページにより0538-86-6330と(0538)85-2111の記載差があるため大石による現地確認待ち。",
   "verified_by": "machine",
-  "title": "出生や転入のあと、児童手当とこども医療費助成を申請漏れなく確認する。"
+  "title": "出生や転入のあと、児童手当とこども医療費助成を申請漏れなく確認する。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "児童手当とこども医療費助成の申請漏れを防ぐ",
+  "primary_keyword": "森町 こども医療費助成",
+  "needs": [
+   "医療費の助成を受けたい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/family-grow/child-allowance/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/child-vaccination/",
@@ -1990,7 +2696,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。旧候補（高齢者肺炎球菌ページ等）は的外れのため差し替え。",
   "verified_by": "machine",
-  "title": "子どもの予防接種は、母子健康手帳と予診票をそろえて医療機関で受ける。"
+  "title": "子どもの予防接種は、母子健康手帳と予診票をそろえて医療機関で受ける。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "子どもの予防接種を受ける",
+  "primary_keyword": "森町 予防接種 子ども",
+  "needs": [
+   "予診票がほしい",
+   "接種はどこで受ける"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/childbirth/",
@@ -2049,7 +2774,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。旧候補（高齢者肺炎球菌ページ等）は的外れのため差し替え。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "赤ちゃんが生まれたら、出生届・児童手当・新生児出生通知をまとめて進める。"
+  "title": "赤ちゃんが生まれたら、出生届・児童手当・新生児出生通知をまとめて進める。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "出生届と出産後の手続きをまとめて進める",
+  "primary_keyword": "森町 出生届",
+  "needs": [
+   "赤ちゃんが生まれた",
+   "出産後の手続き"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "出生届は住民生活課",
+   "児童手当・新生児出生通知は健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/developmental-support/",
@@ -2105,7 +2850,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。旧候補（児童館・地域包括支援センター等）より的確な専用ページに差し替え。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "子どもの発達が気になったら、子ども相談・親子療育教室・ことばの教室から選ぶ。"
+  "title": "子どもの発達が気になったら、子ども相談・親子療育教室・ことばの教室から選ぶ。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "子どもの発達の心配を相談する",
+  "primary_keyword": "森町 発達相談",
+  "needs": [
+   "ことばが遅い気がする",
+   "発達が気になる"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/",
@@ -2139,7 +2903,23 @@
   "ai_checked_date": null,
   "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
   "verified_by": "machine",
-  "title": "👶 家族が増える"
+  "title": "👶 家族が増える",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "hub",
+  "priority": "P1",
+  "intent": "結婚・妊娠・出産・子育ての手続きを一覧で把握する",
+  "primary_keyword": "森町 子育て 手続き",
+  "needs": [
+   "子どものことで手続きがある"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/infant-health-check/",
@@ -2191,7 +2971,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "乳幼児健診の案内を見落とさず、1か月・4か月・10か月・1歳6か月・3歳児で確認する。"
+  "title": "乳幼児健診の案内を見落とさず、1か月・4か月・10か月・1歳6か月・3歳児で確認する。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "乳幼児健診の時期と会場を確認する",
+  "primary_keyword": "森町 乳幼児健診",
+  "needs": [
+   "健診はいつ",
+   "案内が来ない"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/marriage/",
@@ -2243,7 +3042,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。婚姻届自体の必要書類・受付時間の詳細ページは未確認のため、大石による現地確認を推奨。",
   "verified_by": "machine",
-  "title": "婚姻届を出す日と、結婚新生活支援補助金など結婚後の手続きを先に整理する。"
+  "title": "婚姻届を出す日と、結婚新生活支援補助金など結婚後の手続きを先に整理する。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "婚姻届の提出と結婚後の手続きを進める",
+  "primary_keyword": "森町 婚姻届",
+  "needs": [
+   "結婚することになった",
+   "婚姻届はどこに出す"
+  ],
+  "audience": [
+   "婚姻当事者"
+  ],
+  "department": [
+   "婚姻届は住民生活課",
+   "結婚新生活支援補助金は定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/nursery-childcare/",
@@ -2291,7 +3110,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "保育園の入所申込みと病児・病後児保育を、必要なタイミングから確認する。"
+  "title": "保育園の入所申込みと病児・病後児保育を、必要なタイミングから確認する。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "保育園の入所申込みと病児保育を利用する",
+  "primary_keyword": "森町 保育園 申込み",
+  "needs": [
+   "入所の申込み方法",
+   "子どもが熱を出して預けたい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/nursery-school/",
@@ -2336,7 +3174,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。森町には『こども園』の名称施設は確認できず、タイトルを幼稚園・保育園に修正。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "幼稚園・保育園を、子どもに合う入口から選ぶ。"
+  "title": "幼稚園・保育園を、子どもに合う入口から選ぶ。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "parent",
+  "priority": "P1",
+  "intent": "幼稚園・保育園の選び方を知る",
+  "primary_keyword": "森町 保育園 幼稚園",
+  "needs": [
+   "どこに預けられる",
+   "園を選びたい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/parenting-support/",
@@ -2389,7 +3246,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "子育てで迷ったら、こども家庭センターと児童館・子育て応援アプリを使い分ける。"
+  "title": "子育てで迷ったら、こども家庭センターと児童館・子育て応援アプリを使い分ける。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "子育ての悩みを相談できる場所を見つける",
+  "primary_keyword": "森町 子育て相談",
+  "needs": [
+   "子育てがつらい",
+   "誰かに相談したい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課",
+   "森町保健福祉センター"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/pregnancy/",
@@ -2444,7 +3321,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。旧候補（家賃支援・健康診査等）は的外れのため差し替え。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "妊娠がわかったら、まず妊娠届を出して母子健康手帳を受け取る。"
+  "title": "妊娠がわかったら、まず妊娠届を出して母子健康手帳を受け取る。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "妊娠届を出して母子健康手帳を受け取る",
+  "primary_keyword": "森町 妊娠届 母子手帳",
+  "needs": [
+   "妊娠が分かった",
+   "母子手帳はどこでもらう"
+  ],
+  "audience": [
+   "妊婦"
+  ],
+  "department": [
+   "健康こども課",
+   "森町保健福祉センター"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/family-grow/single-parent-support/",
@@ -2497,7 +3394,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "ひとり親家庭の児童扶養手当・医療費助成を、最初に見る順番で整理する。"
+  "title": "ひとり親家庭の児童扶養手当・医療費助成を、最初に見る順番で整理する。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "ひとり親家庭の手当と助成を受ける",
+  "primary_keyword": "森町 児童扶養手当",
+  "needs": [
+   "ひとり親の支援を知りたい",
+   "離婚後の手当"
+  ],
+  "audience": [
+   "ひとり親"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/adult-vaccination/",
@@ -2551,7 +3467,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町のおとなの予防接種は、対象年齢と接種時期・自己負担額を先に確認する"
+  "title": "森町のおとなの予防接種は、対象年齢と接種時期・自己負担額を先に確認する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "おとなの予防接種の対象と費用を確認する",
+  "primary_keyword": "森町 高齢者 予防接種",
+  "needs": [
+   "インフルエンザの助成",
+   "肺炎球菌ワクチン"
+  ],
+  "audience": [
+   "成人",
+   "高齢者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/cancer-specific-checkups/",
@@ -2604,7 +3540,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町のがん検診と患者支援制度は、対象と時期を分けて確認する"
+  "title": "森町のがん検診と患者支援制度は、対象と時期を分けて確認する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "がん検診の対象と時期を確認する",
+  "primary_keyword": "森町 がん検診",
+  "needs": [
+   "がん検診はいつ"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/dental-care/",
@@ -2658,7 +3612,25 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の歯科・口の健康は、歯周病検診と町内の歯科医院を分けて確認する"
+  "title": "森町の歯科・口の健康は、歯周病検診と町内の歯科医院を分けて確認する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "歯科検診と町内の歯科医院を確認する",
+  "primary_keyword": "森町 歯科 歯周病検診",
+  "needs": [
+   "歯医者を探している"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/disability-services/",
@@ -2711,7 +3683,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の障がい福祉サービスは、支援内容と相談窓口（福祉課）を先に分ける"
+  "title": "森町の障がい福祉サービスは、支援内容と相談窓口（福祉課）を先に分ける",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "障がい福祉サービスの内容を知る",
+  "primary_keyword": "森町 障害福祉サービス",
+  "needs": [
+   "サービスを使いたい"
+  ],
+  "audience": [
+   "本人",
+   "家族"
+  ],
+  "department": [
+   "福祉課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/health-medical/disability-welfare/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/disability-welfare/",
@@ -2720,7 +3711,12 @@
   "category": "健康・医療",
   "synonyms": [
    "障害者福祉",
-   "障がい者手帳"
+   "障がい者手帳",
+   "障害福祉サービス",
+   "障がい福祉",
+   "障害相談",
+   "障害",
+   "相談"
   ],
   "tier": "common",
   "source_iwata": [
@@ -2759,7 +3755,30 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の障がい者手帳・福祉は、手帳の種類と申請窓口を分けて確認する"
+  "title": "森町の障がい者手帳・福祉は、手帳の種類と申請窓口を分けて確認する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "parent",
+  "priority": "P1",
+  "intent": "障がい者手帳の取得と福祉サービスを利用する",
+  "primary_keyword": "森町 障害者手帳",
+  "needs": [
+   "手帳を取りたい",
+   "どんな支援がある",
+   "サービスを使いたい",
+   "障害のことで相談したい"
+  ],
+  "audience": [
+   "本人",
+   "家族"
+  ],
+  "department": [
+   "福祉課",
+   "保健福祉課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/find-hospitals/",
@@ -2800,7 +3819,7 @@
   "facts": {
    "window": "健康こども課 健康づくり係",
    "tel": "0538-85-6330",
-   "hospital_tel": "公立森町病院 0538-85-2181（代表）、外来予約専用0538-85-0270（確認中: 本文未確認 0538-85-0270）",
+   "hospital_tel": "公立森町病院 0538-85-2181（代表）、外来予約専用0538-85-0270（一部の番号は公式ページ本文で再確認できていません）",
    "address": "公立森町病院：〒437-0293 静岡県周智郡森町森2101-1",
    "note": "町内には公立森町病院のほか内科・歯科等の診療所が複数あり、県内医療機関の外来診療状況は「医療ネット・ナビィ」で検索可能。磐周医師会が毎月の救急当番医を設定し夜間・休日診療に対応"
   },
@@ -2809,7 +3828,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で医療機関を探すときは、公立森町病院と町内診療所・広域の医療情報ネットを分けて確認する"
+  "title": "森町で医療機関を探すときは、公立森町病院と町内診療所・広域の医療情報ネットを分けて確認する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "森町とその周辺で医療機関を探す",
+  "primary_keyword": "森町 病院 診療所",
+  "needs": [
+   "近くの病院を探したい",
+   "何科にかかる"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/health-checkups/",
@@ -2863,7 +3901,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の健康診断とがん検診は、総合検診・特定健診の受診券と対象条件を先に確認する"
+  "title": "森町の健康診断とがん検診は、総合検診・特定健診の受診券と対象条件を先に確認する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "parent",
+  "priority": "P1",
+  "intent": "受けられる健診・検診を選ぶ",
+  "primary_keyword": "森町 健康診断 検診",
+  "needs": [
+   "健診を受けたい",
+   "受診券が届いた"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "健康こども課",
+   "特定健診は住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/health-promotion/",
@@ -2915,7 +3973,25 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の健康づくりは、生活習慣相談と健診・健康マイレージ事業を先に整理する"
+  "title": "森町の健康づくりは、生活習慣相談と健診・健康マイレージ事業を先に整理する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "健康づくりの取り組みに参加する",
+  "primary_keyword": "森町 健康マイレージ",
+  "needs": [
+   "健康づくりをしたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/holiday-night-emergency-care/",
@@ -2964,7 +4040,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の休日夜間の急患は、まず公立森町病院への電話連絡を確認する"
+  "title": "森町の休日夜間の急患は、まず公立森町病院への電話連絡を確認する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "休日夜間の急患の受診先を知る",
+  "primary_keyword": "森町 休日夜間 急患",
+  "needs": [
+   "休日に診てもらいたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "健康こども課",
+   "救急受診そのものは公立森町病院"
+  ],
+  "action": "merge",
+  "merge_target": "/life/health-medical/night-holiday-medical/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/",
@@ -2997,7 +4092,7 @@
   ],
   "facts": {
    "window": "健康こども課 健康づくり係",
-   "tel": "0538-85-6330（確認中: 本文未確認 0538-85-6330）",
+   "tel": "0538-85-6330（一部の番号は公式ページ本文で再確認できていません）",
    "note": "森町の健康・医療関連は健康こども課（健診・予防接種）、福祉課（障がい福祉）、住民生活課（国保・特定健診）、公立森町病院（診療・救急）に分かれている"
   },
   "status": "ai-checked",
@@ -3005,7 +4100,25 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": null,
-  "title": "🏥 健康・医療（森町版トップ）"
+  "title": "🏥 健康・医療（森町版トップ）",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "hub",
+  "priority": "P0",
+  "intent": "医療・検診・障がい福祉の情報を一覧で把握する",
+  "primary_keyword": "森町 医療",
+  "needs": [
+   "病院のことを調べたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/mental-health-consulting/",
@@ -3053,7 +4166,28 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町のこころの相談は、町の健康相談と県の心の電話・精神科救急ダイヤルを分けて確認する"
+  "title": "森町のこころの相談は、町の健康相談と県の心の電話・精神科救急ダイヤルを分けて確認する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "こころの不調を相談する",
+  "primary_keyword": "森町 こころの相談",
+  "needs": [
+   "気持ちがつらい",
+   "眠れない"
+  ],
+  "audience": [
+   "住民",
+   "家族"
+  ],
+  "department": [
+   "住民生活課",
+   "健康相談は健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/night-holiday-medical/",
@@ -3062,7 +4196,15 @@
   "category": "健康・医療",
   "synonyms": [
    "夜間診療",
-   "休日診療"
+   "休日診療",
+   "救急相談",
+   "急病",
+   "救急車呼ぶか",
+   "♯7119",
+   "休日夜間診療",
+   "急患診療所",
+   "休日夜間",
+   "急患"
   ],
   "tier": "common",
   "source_iwata": [
@@ -3102,7 +4244,34 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の夜間・休日の急患は、まず公立森町病院への電話連絡を確認する"
+  "title": "森町で夜間・休日に具合が悪くなったら、緊急度と時間帯で行き先を決める",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "夜間・休日に具合が悪くなったときの受診先を決める",
+  "primary_keyword": "森町 夜間 休日 救急",
+  "needs": [
+   "夜に熱が出た",
+   "休日に病院はやっている",
+   "子どもの急病",
+   "救急車を呼ぶべきか",
+   "病院に行くべきか",
+   "休日に診てもらいたい"
+  ],
+  "audience": [
+   "住民",
+   "保護者"
+  ],
+  "department": [
+   "健康こども課",
+   "救急受診そのものは公立森町病院",
+   "静岡県危機管理部消防保安課",
+   "森町側の案内窓口は危機管理課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/health-medical/vaccinations/",
@@ -3155,7 +4324,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の予防接種は、対象年齢と接種時期・助成内容を先に確認する"
+  "title": "森町の予防接種は、子どもとおとなで受け方と助成が分かれる",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "parent",
+  "priority": "P1",
+  "intent": "自分・家族が受ける予防接種を選ぶ",
+  "primary_keyword": "森町 予防接種",
+  "needs": [
+   "予防接種を受けたい",
+   "対象になるか知りたい"
+  ],
+  "audience": [
+   "住民",
+   "保護者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/build-house/",
@@ -3207,7 +4396,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で家を建てる前に、耐震・補助金・結婚新生活支援を確認する。"
+  "title": "森町で家を建てる前に、耐震・補助金・結婚新生活支援を確認する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "森町で家を建てる前に補助制度を確認する",
+  "primary_keyword": "森町 住宅 補助金",
+  "needs": [
+   "家を建てたい",
+   "使える補助はある"
+  ],
+  "audience": [
+   "建築希望者"
+  ],
+  "department": [
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/buy-house/",
@@ -3264,7 +4472,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で家を買う前に、固定資産税・空き家バンク・結婚新生活支援を確認する。"
+  "title": "森町で家を買う前に、固定資産税・空き家バンク・結婚新生活支援を確認する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "森町で家を買う前に確認することを知る",
+  "primary_keyword": "森町 家 購入",
+  "needs": [
+   "家を買いたい"
+  ],
+  "audience": [
+   "購入検討者"
+  ],
+  "department": [
+   "税務課",
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/clean-parents-house/",
@@ -3321,7 +4548,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で親の家を片付けるときは、ごみ分別・空き家対策・空き家バンクを確認する。"
+  "title": "森町で親の家を片付けるときは、ごみ分別・空き家対策・空き家バンクを確認する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "親の家の片付けを進める",
+  "primary_keyword": "森町 実家 片付け",
+  "needs": [
+   "実家の物が多い",
+   "片付けが進まない"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "department": [
+   "住民生活課",
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/earthquake-demolition/",
@@ -3373,7 +4620,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の耐震・解体は、木造住宅の耐震診断・改修・解体助成を確認する。"
+  "title": "森町の耐震・解体は、木造住宅の耐震診断・改修・解体助成を確認する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "耐震診断・改修・解体の助成を使う",
+  "primary_keyword": "森町 耐震 解体 補助",
+  "needs": [
+   "古い家が心配",
+   "解体費用の助成"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "department": [
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/",
@@ -3407,7 +4673,23 @@
   "ai_checked_date": null,
   "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
   "verified_by": "machine",
-  "title": "🏠 家・住まい（森町版）"
+  "title": "🏠 家・住まい（森町版）",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "hub",
+  "priority": "P1",
+  "intent": "住まい・空き家・不動産の情報を一覧で把握する",
+  "primary_keyword": "森町 住まい",
+  "needs": [
+   "家のことを調べたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/municipal-housing/",
@@ -3459,7 +4741,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の町営住宅は、募集条件・収入・必要書類を先に確認する。"
+  "title": "森町の町営住宅は、募集条件・収入・必要書類を先に確認する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "町営住宅の募集条件と申込みを確認する",
+  "primary_keyword": "森町 町営住宅",
+  "needs": [
+   "町営住宅に入りたい"
+  ],
+  "audience": [
+   "入居希望者"
+  ],
+  "department": [
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/property-tax/",
@@ -3510,7 +4810,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の土地・家屋の税金は、固定資産税・都市計画税の課税内容と手続きを分けて確認する"
+  "title": "森町の土地・家屋の税金は、固定資産税・都市計画税の課税内容と手続きを分けて確認する",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "土地・家屋の固定資産税の中身を確認する",
+  "primary_keyword": "森町 固定資産税",
+  "needs": [
+   "固定資産税が高い",
+   "課税の内容を知りたい"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/public-housing-consultation/",
@@ -3567,7 +4886,7 @@
   ],
   "facts": {
    "window": "定住推進課 住まい支援係（町営住宅）／定住推進課 移住交流係（空き家バンク）／住民生活課 住民係（暮らし全般の相談）",
-   "tel": "0538-85-6321（定住推進課）／0538-85-6312（住民生活課 住民係）／0538-85-1800（保健福祉課保健係）／0538-85-2111（森町役場代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-6321（定住推進課）／0538-85-6312（住民生活課 住民係）／0538-85-1800（保健福祉課保健係）／0538-85-2111（森町役場代表）（一部の番号は公式ページ本文で再確認できていません）",
    "note": "森町公式サイト内に「住まい相談窓口」を一括で案内する専用ページは確認できなかった。町営住宅（6団地・121戸）と空き家バンク（賃貸・売買とも登録、町は情報提供のみで仲介せず）は定住推進課、行政相談・法律相談・年金相談は住民生活課、健康相談は保健福祉課保健係が窓口であることは公式ページ本文で確認済み。生活困窮者自立支援・住居確保給付金の専用窓口、および地域包括支援センター係の直通電話番号は公式サイト内で確認できず「確認中」とした。"
   },
   "status": "ai-checked",
@@ -3575,7 +4894,27 @@
   "ai_checked_date": "2026-07-04",
   "ai_notes": "WebSearch/WebFetchで森町公式サイトを直接調査し出典を精選。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で住まいに困ったら、状況と緊急度を先に分ける"
+  "title": "森町で住まいに困ったら、状況と緊急度を先に分ける",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "住むところに困ったときの相談先を知る",
+  "primary_keyword": "森町 住まい 相談",
+  "needs": [
+   "住む家がない",
+   "家賃が払えない"
+  ],
+  "audience": [
+   "生活困窮者"
+  ],
+  "department": [
+   "定住推進課",
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/rent-house/",
@@ -3623,7 +4962,25 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で賃貸を探すなら、空き家バンクと町営住宅の両方を確認する"
+  "title": "森町で賃貸を探すなら、空き家バンクと町営住宅の両方を確認する",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "森町で借りられる住まいを探す",
+  "primary_keyword": "森町 賃貸 町営住宅",
+  "needs": [
+   "借りる家を探している"
+  ],
+  "audience": [
+   "入居希望者"
+  ],
+  "department": [
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/sell-house/",
@@ -3677,7 +5034,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で家を売る前に、固定資産税・空き家バンクを確認する"
+  "title": "森町で家を売る前に、固定資産税・空き家バンクを確認する",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "森町で家を売る前に確認することを知る",
+  "primary_keyword": "森町 家 売却",
+  "needs": [
+   "家を売りたい",
+   "売る前に何を調べる"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "department": [
+   "税務課",
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/housing/vacant-house/",
@@ -3734,7 +5111,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の空き家は、空家等対策計画・空き家バンク・固定資産税を同時に整理する"
+  "title": "森町の空き家は、空家等対策計画・空き家バンク・固定資産税を同時に整理する",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "空き家の制度（対策計画・バンク・税）を整理する",
+  "primary_keyword": "森町 空き家",
+  "needs": [
+   "空き家をどうするか",
+   "空き家バンクを使いたい"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "department": [
+   "定住推進課",
+   "税務課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/living-soon/about-morimachi/",
@@ -3777,7 +5174,7 @@
   ],
   "facts": {
    "window": "定住推進課 移住交流係",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
    "note": "移住定住総合サイトでは就職支援・子育て・移住のステップ・空き家バンク・暮らしの森町自慢・森町データを案内。商業施設は少なめで、生活必需品以外の買い物は掛川市など隣接市に出る必要がある点に留意。"
   },
   "status": "ai-checked",
@@ -3785,7 +5182,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で暮らす前に、地図だけでは見えない生活の手触りを確認する。"
+  "title": "森町で暮らす前に、地図だけでは見えない生活の手触りを確認する。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "森町での暮らしの実際を知る",
+  "primary_keyword": "森町 住みやすさ",
+  "needs": [
+   "どんな町か知りたい"
+  ],
+  "audience": [
+   "移住検討者"
+  ],
+  "department": [
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/living-soon/bus-license-return/",
@@ -3840,7 +5255,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "運転免許を返したあとも、森町で困らずに動ける道を先に整える。"
+  "title": "運転免許を返したあとも、森町で困らずに動ける道を先に整える。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "免許返納後の移動手段を確保する",
+  "primary_keyword": "森町 免許返納",
+  "needs": [
+   "運転をやめたあと困る"
+  ],
+  "audience": [
+   "高齢者",
+   "家族"
+  ],
+  "department": [
+   "福祉課",
+   "政策企画課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/parents-care/elderly-transportation/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/living-soon/disaster-risk/",
@@ -3904,7 +5339,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "引っ越す前に、候補地が洪水・土砂災害に強い場所か確かめる。"
+  "title": "引っ越す前に、候補地が洪水・土砂災害に強い場所か確かめる。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "住む候補地の災害リスクを確かめる",
+  "primary_keyword": "森町 ハザードマップ 土地",
+  "needs": [
+   "浸水しないか知りたい",
+   "土砂災害の危険はあるか"
+  ],
+  "audience": [
+   "移住検討者",
+   "住宅取得者"
+  ],
+  "department": [
+   "危機管理課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/living-soon/",
@@ -3931,7 +5386,7 @@
   ],
   "facts": {
    "window": "定住推進課",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
    "note": "カテゴリの入口ページ。個別記事（免許返納・災害リスク・引っ越し手続き・学区・移動手段・移住）へのリンク集として運用。"
   },
   "status": "ai-checked",
@@ -3939,7 +5394,25 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": null,
-  "title": "🏡 これから暮らす"
+  "title": "🏡 これから暮らす",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "hub",
+  "priority": "P2",
+  "intent": "森町へ移り住む前に確認することを把握する",
+  "primary_keyword": "森町 移住",
+  "needs": [
+   "森町に住もうか迷っている"
+  ],
+  "audience": [
+   "移住検討者"
+  ],
+  "department": [
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/living-soon/moving-decided/",
@@ -3986,7 +5459,7 @@
   ],
   "facts": {
    "window": "住民生活課 住民係",
-   "tel": "0538-85-2111（代表）／0538-85-6312（住民係直通）（確認中: 本文未確認 0538-85-2111）（確認中: 本文未確認 0538-85-6312）",
+   "tel": "0538-85-2111（代表）／0538-85-6312（住民係直通）（一部の番号は公式ページ本文で再確認できていません）",
    "hours": "月曜日〜金曜日 8時30分〜17時15分（土日祝・年末年始を除く）",
    "content": "転入届・転出届・転居届の受付、戸籍謄本抄本・住民票の写し・印鑑証明の請求、コンビニ交付サービスあり。マイナンバーカード保有者はマイナポータルで来庁予約可能。水曜日は時間外窓口業務あり。"
   },
@@ -3995,7 +5468,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "引っ越しが決まったら、何をいつまでにやるかを順番に整理する。"
+  "title": "引っ越しが決まったら、何をいつまでにやるかを順番に整理する。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "parent",
+  "priority": "P1",
+  "intent": "引っ越しが決まってからの段取りを立てる",
+  "primary_keyword": "引っ越し やることリスト",
+  "needs": [
+   "何をいつまでにやる",
+   "引っ越しの段取り"
+  ],
+  "audience": [
+   "引っ越す人"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/living-soon/school-districts/",
@@ -4046,7 +5538,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "引っ越し先で、子どもがどの小中学校に通うのかを先に確かめる。"
+  "title": "引っ越し先で、子どもがどの小中学校に通うのかを先に確かめる。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "引っ越し先の通学区を調べる",
+  "primary_keyword": "森町 学区",
+  "needs": [
+   "どの小学校に通う"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "教育委員会"
+  ],
+  "action": "merge",
+  "merge_target": "/life/education/school-zones/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/living-soon/transportation/",
@@ -4106,7 +5616,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "住む地区を決める前に、森町での移動手段を先に確かめる。"
+  "title": "住む地区を決める前に、森町での移動手段を先に確かめる。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "住む地区を決める前に移動手段を確かめる",
+  "primary_keyword": "森町 交通 移動手段",
+  "needs": [
+   "車は必須か",
+   "バスは通っている"
+  ],
+  "audience": [
+   "移住検討者"
+  ],
+  "department": [
+   "政策企画課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/start-living/public-transit/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/living-soon/want-to-live/",
@@ -4150,7 +5679,7 @@
   ],
   "facts": {
    "window": "産業政策課 産業振興係（移住・就業支援金）／定住推進課 移住交流係（移住相談全般）",
-   "tel": "0538-85-6319（産業政策課）／0538-85-2111（定住推進課代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-6319（産業政策課）／0538-85-2111（定住推進課代表）（一部の番号は公式ページ本文で再確認できていません）",
    "content": "東京圏から県認定の中小企業等へ就業して移住する場合、移住・就業支援金（世帯最大100万円、単身60万円）の対象になり得る（要件：森町内に事業所がある企業等への就業、税滞納なし等）。移住定住総合サイトでは子育て支援・空き家バンク・移住のステップも案内。新東名ICが2つあり東京へ約2.5時間、大阪へ約4時間のアクセス。住宅取得補助等の直接記載は確認できず、定住推進課 住まい支援係への個別確認が必要。"
   },
   "status": "ai-checked",
@@ -4158,7 +5687,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "自然に囲まれた広い家で、子どもをのびのび育てられる暮らしを森町で考える。"
+  "title": "自然に囲まれた広い家で、子どもをのびのび育てられる暮らしを森町で考える。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "森町で広い家に住む選択肢を検討する",
+  "primary_keyword": "森町 田舎暮らし",
+  "needs": [
+   "自然の中で子育てしたい"
+  ],
+  "audience": [
+   "移住検討者"
+  ],
+  "department": [
+   "産業政策課",
+   "定住推進課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/moving-out/bulk-garbage-cleaning/",
@@ -4206,7 +5754,26 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "転出前の片付けは、粗大ごみは中遠広域施設へ・家電は家電リサイクル法対応で"
+  "title": "転出前の片付けは、粗大ごみは中遠広域施設へ・家電は家電リサイクル法対応で",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "転出前の不用品・粗大ごみを処分する",
+  "primary_keyword": "森町 引っ越し ごみ 処分",
+  "needs": [
+   "家具を処分したい",
+   "家電を捨てたい"
+  ],
+  "audience": [
+   "転出者"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/moving-out/dog-ownership-change/",
@@ -4253,7 +5820,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "犬の登録変更は、森町発行の愛犬カードと鑑札を持って転出先の役所へ"
+  "title": "犬の登録変更は、森町発行の愛犬カードと鑑札を持って転出先の役所へ",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "転出時の犬の登録変更をする",
+  "primary_keyword": "森町 犬 転出 登録変更",
+  "needs": [
+   "犬と一緒に引っ越す"
+  ],
+  "audience": [
+   "飼い主"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/moving-out/",
@@ -4286,7 +5871,24 @@
   "ai_checked_date": null,
   "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
   "verified_by": "machine",
-  "title": "📦 新しい場所へ（転出時の手続きまとめ）"
+  "title": "📦 新しい場所へ（転出時の手続きまとめ）",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "hub",
+  "priority": "P2",
+  "intent": "森町から引っ越すときの手続きを一覧で把握する",
+  "primary_keyword": "森町 転出 手続き",
+  "needs": [
+   "森町から出ていく",
+   "転出でやること"
+  ],
+  "audience": [
+   "転出者"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/moving-out/move-out-notice/",
@@ -4329,7 +5931,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "転出届は引っ越し予定日の14日前から住民生活課住民係で"
+  "title": "転出届は引っ越し予定日の14日前から住民生活課住民係で",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "転出届をいつどこで出すか確認する",
+  "primary_keyword": "森町 転出届",
+  "needs": [
+   "転出届はいつから出せる",
+   "郵送でできる"
+  ],
+  "audience": [
+   "転出者"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/moving-out/moving-away/",
@@ -4377,7 +5998,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町から引っ越すときは、転出届と水道廃止・ごみ・学校の手続きを一緒に確認する"
+  "title": "森町から引っ越すときは、転出届と水道廃止・ごみ・学校の手続きを一緒に確認する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "parent",
+  "priority": "P1",
+  "intent": "転出時に必要な手続きをまとめて片づける",
+  "primary_keyword": "森町 転出 やること",
+  "needs": [
+   "引っ越すことになった",
+   "何を止めればいい"
+  ],
+  "audience": [
+   "転出者"
+  ],
+  "department": [
+   "住民生活課",
+   "上下水道課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/moving-out/school-nursery-procedures/",
@@ -4420,7 +6061,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "子どもの転出は、保育所は健康こども課、学校は在学校へそれぞれ確認する"
+  "title": "子どもの転出は、保育所は健康こども課、学校は在学校へそれぞれ確認する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "子どもの転園・転校の手続きをする",
+  "primary_keyword": "森町 転校 手続き",
+  "needs": [
+   "子どもが転校する",
+   "保育園を退園する"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/moving-out/stop-water/",
@@ -4464,7 +6124,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "水道の廃止は上下水道課へ給水届を提出（廃止後の再開は新規加入金が発生）"
+  "title": "水道の廃止は上下水道課へ給水届を提出（廃止後の再開は新規加入金が発生）",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "水道を廃止する届出を出す",
+  "primary_keyword": "森町 水道 廃止",
+  "needs": [
+   "水道を止めたい"
+  ],
+  "audience": [
+   "転出者"
+  ],
+  "department": [
+   "上下水道課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/start-living/water-start-stop-fees/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/parents-care/adult-guardianship/",
@@ -4520,7 +6198,26 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "判断能力が落ちた親の財産と契約を守る",
+  "primary_keyword": "森町 成年後見",
+  "needs": [
+   "契約ができなくなった",
+   "財産管理が心配"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "department": [
+   "福祉課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/parents-care/care-certification-support-center/",
@@ -4575,7 +6272,27 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "要介護認定を申請して結果を受け取る",
+  "primary_keyword": "森町 要介護認定 申請",
+  "needs": [
+   "認定を申請したい",
+   "結果はいつ届く"
+  ],
+  "audience": [
+   "家族",
+   "本人"
+  ],
+  "department": [
+   "福祉課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/parents-care/long-term-care-insurance/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/parents-care/care-started/",
@@ -4630,7 +6347,27 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "認定後にケアプランの作成を依頼する",
+  "primary_keyword": "森町 ケアプラン ケアマネ",
+  "needs": [
+   "認定が出た次は何",
+   "ケアマネを探したい"
+  ],
+  "audience": [
+   "家族",
+   "本人"
+  ],
+  "department": [
+   "福祉課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/parents-care/check-parents/",
@@ -4686,7 +6423,26 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "離れて暮らす親の様子を見守る方法を知る",
+  "primary_keyword": "森町 高齢者 見守り",
+  "needs": [
+   "遠くの親が心配",
+   "一人暮らしの親"
+  ],
+  "audience": [
+   "別居の家族"
+  ],
+  "department": [
+   "福祉課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/parents-care/community-support-center/",
@@ -4695,7 +6451,10 @@
   "title": "介護の悩みは、森町直営の地域包括支援センターにまず相談する",
   "category": "親のこと",
   "synonyms": [
-   "地域包括支援センター"
+   "地域包括支援センター",
+   "介護相談",
+   "介護",
+   "相談"
   ],
   "tier": "common",
   "source_iwata": [
@@ -4717,15 +6476,37 @@
   ],
   "facts": {
    "window": "福祉課 地域包括支援センター係（町直営）",
-   "tel": "0538-85-6341（確認中: 本文未確認 0538-85-6341）",
+   "tel": "0538-85-6341（一部の番号は公式ページ本文で再確認できていません）",
    "address": "静岡県周智郡森町森50-1（森町保健福祉センター内）",
-   "note": "森町は地域包括支援センターを町直営で運営。受付は平日8時30分〜17時15分、時間外は森町役場宿日直（0538-85-2111）。（確認中: 本文未確認 0538-85-2111）"
+   "note": "森町は地域包括支援センターを町直営で運営。受付は平日8時30分〜17時15分、時間外は森町役場宿日直（0538-85-2111）。（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "介護の困りごとをまず相談する窓口を知る",
+  "primary_keyword": "森町 地域包括支援センター",
+  "needs": [
+   "どこに相談すればいい",
+   "介護で困っている",
+   "介護で困った"
+  ],
+  "audience": [
+   "家族",
+   "本人"
+  ],
+  "department": [
+   "福祉課",
+   "保健福祉課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/parents-care/dementia-consultation/",
@@ -4789,7 +6570,26 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "認知症かもしれない親のことを相談する",
+  "primary_keyword": "森町 認知症 相談",
+  "needs": [
+   "物忘れがひどい",
+   "認知症かもしれない"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "department": [
+   "福祉課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/parents-care/elderly-transportation/",
@@ -4799,7 +6599,8 @@
   "category": "親のこと",
   "synonyms": [
    "高齢者の移動",
-   "通院送迎"
+   "通院送迎",
+   "免許返納"
   ],
   "tier": "common",
   "source_iwata": [
@@ -4840,7 +6641,29 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "高齢の親の通院・買い物の移動手段を確保する",
+  "primary_keyword": "森町 公共交通利用券 高齢者",
+  "needs": [
+   "親が運転をやめた",
+   "通院の足がない",
+   "運転をやめたあと困る"
+  ],
+  "audience": [
+   "高齢者",
+   "家族"
+  ],
+  "department": [
+   "福祉課",
+   "政策企画課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/parents-care/find-nursing-home/",
@@ -4908,7 +6731,26 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "親が入る介護施設を探す",
+  "primary_keyword": "森町 介護施設 探し方",
+  "needs": [
+   "施設に入れたい",
+   "どんな施設がある"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "department": [
+   "福祉課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/parents-care/",
@@ -4941,24 +6783,44 @@
   ],
   "facts": {
    "window": "福祉課 地域包括支援センター係（総合相談）、福祉課 介護保険係（要介護認定・保険給付）",
-   "tel": "0538-85-6341（地域包括支援センター係）／0538-86-6341（介護保険係）（確認中: 本文未確認 0538-85-6341）（確認中: 本文未確認 0538-86-6341）",
+   "tel": "0538-85-6341（地域包括支援センター係）／0538-86-6341（介護保険係）（一部の番号は公式ページ本文で再確認できていません）",
    "note": "親の介護に関する相談は、まず町直営の地域包括支援センター係が総合窓口。認定申請や保険給付の実務は介護保険係が担当。両係とも森町保健福祉センター（森50-1）内。"
   },
   "status": "ai-checked",
   "verified_date": null,
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": null
+  "verified_by": null,
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "hub",
+  "priority": "P0",
+  "intent": "親の介護に関する相談先と手続きを一覧で把握する",
+  "primary_keyword": "森町 介護",
+  "needs": [
+   "親の介護が心配"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "department": [
+   "福祉課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/parents-care/long-term-care-insurance/",
   "icon": "👵",
   "title_iwata": "親の介護が始まったら、要介護認定の申請から順番に動く。",
-  "title": "森町の介護保険は、要介護認定の申請から給付まで福祉課介護保険係で進める",
+  "title": "森町で親の介護が始まったら、相談・申請・認定後の順に進める",
   "category": "親のこと",
   "synonyms": [
    "要介護認定",
-   "介護保険"
+   "介護保険",
+   "介護認定申請",
+   "申請"
   ],
   "tier": "common",
   "source_iwata": [
@@ -5013,7 +6875,30 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "親の介護が始まったときの流れ全体をつかむ",
+  "primary_keyword": "森町 介護 始まったら",
+  "needs": [
+   "親に介護が必要になった",
+   "何から始めればいい",
+   "要介護認定を受けたい",
+   "認定を申請したい",
+   "結果はいつ届く"
+  ],
+  "audience": [
+   "家族",
+   "本人"
+  ],
+  "department": [
+   "福祉課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/play-out/cultural-facilities/",
@@ -5076,7 +6961,23 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "文化施設（ミキホール）の利用方法を確認する",
+  "primary_keyword": "森町 ミキホール",
+  "needs": [
+   "ホールを使いたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/play-out/facilities-library-parks/",
@@ -5128,7 +7029,25 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "parent",
+  "priority": "P2",
+  "intent": "森町の公共施設を目的別に探す",
+  "primary_keyword": "森町 公共施設",
+  "needs": [
+   "どんな施設がある"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "財政課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/play-out/find-parks/",
@@ -5137,7 +7056,10 @@
   "title": "森町の公園は、駐車場・遊具の有無など目的・年齢・アクセスで選ぶ",
   "category": "遊ぶ・使う・出かける",
   "synonyms": [
-   "公園"
+   "公園",
+   "子どもの遊び場",
+   "子ども",
+   "遊び場"
   ],
   "tier": "common",
   "source_iwata": [
@@ -5182,7 +7104,27 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "目的に合う公園・遊び場を選ぶ",
+  "primary_keyword": "森町 公園",
+  "needs": [
+   "子どもを遊ばせたい",
+   "遊具のある公園",
+   "雨の日に遊べる場所"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "department": [
+   "健康こども課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/play-out/",
@@ -5221,7 +7163,23 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "hub",
+  "priority": "P2",
+  "intent": "公園・図書館・公共施設の情報を一覧で把握する",
+  "primary_keyword": "森町 施設",
+  "needs": [
+   "出かける場所を探したい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/play-out/kids-playgrounds/",
@@ -5277,7 +7235,23 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "子どもの遊び場を探す",
+  "primary_keyword": "森町 子ども 遊び場",
+  "needs": [
+   "雨の日に遊べる場所"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "department": [],
+  "action": "merge",
+  "merge_target": "/life/play-out/find-parks/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/play-out/parking-access/",
@@ -5329,7 +7303,26 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "公共施設の駐車場とアクセスを確認する",
+  "primary_keyword": "森町 施設 駐車場",
+  "needs": [
+   "駐車場はある",
+   "行き方を知りたい"
+  ],
+  "audience": [
+   "来訪者"
+  ],
+  "department": [
+   "政策企画課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/play-out/rent-public-facilities/",
@@ -5383,7 +7376,26 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "公共施設を借りる手続きをする",
+  "primary_keyword": "森町 施設 予約",
+  "needs": [
+   "会議室を借りたい"
+  ],
+  "audience": [
+   "住民",
+   "団体"
+  ],
+  "department": [
+   "財政課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/play-out/sports-facilities/",
@@ -5431,13 +7443,31 @@
    "closed": "火曜日（祝日の場合は翌日）、年末年始（12/28～1/4）",
    "parking": "100台（無料）",
    "yoyaku": "予約受付は使用日前5日から2か月前（夜間照明は1か月前）",
-   "ryokin": "アマチュアスポーツ・入場無料の専用利用で1650円～4950円、町外利用者は1.5倍（確認中: 本文未確認 1650円）（確認中: 本文未確認 4950円）"
+   "ryokin": "アマチュアスポーツ・入場無料の専用利用で1650円～4950円、町外利用者は1.5倍（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "スポーツ施設の予約・料金を確認する",
+  "primary_keyword": "森町 体育館 予約",
+  "needs": [
+   "体育館を借りたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "社会教育課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/play-out/swimming-pools/",
@@ -5494,7 +7524,23 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-04",
   "ai_notes": "森町公式サイトを再調査（体育施設ページ・主要施設一覧・観光課コテージ案内）した結果、一般開放の町営プールは公式ページ上で確認できず。ページは『確認中』として社会教育課への確認導線と近隣市（掛川・袋井）の代替案内を掲載する構成で本番公開。_stagingから本番へ昇格済み。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "プールの営業日・料金を確認する",
+  "primary_keyword": "森町 プール",
+  "needs": [
+   "プールはやっている"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/play-out/visit-library/",
@@ -5549,7 +7595,24 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "図書館の開館日と利用方法を確認する",
+  "primary_keyword": "森町立図書館",
+  "needs": [
+   "図書館は開いている",
+   "本を借りたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/bulky-garbage-dropoff/",
@@ -5598,7 +7661,7 @@
   "facts": {
    "window": "住民生活課 生活環境係",
    "tel": "0538-85-6314",
-   "dropoff_location": "中遠広域粗大ごみ処理施設（磐田市新貝59-1、電話0538-37-4854、平日9:00-12:00・13:00-16:30）（確認中: 本文未確認 0538-37-4854）",
+   "dropoff_location": "中遠広域粗大ごみ処理施設（磐田市新貝59-1、電話0538-37-4854、平日9:00-12:00・13:00-16:30）（一部の番号は公式ページ本文で再確認できていません）",
    "fee": "車両の最大積載量により520円～2,090円",
    "note": "戸別収集の記載は確認できず、直接搬入が案内の中心。不用品はジモティー経由の中遠クリーンセンターリユーズ事業（無料）も利用可"
   },
@@ -5607,7 +7670,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で粗大ごみを出す。持ち込み先は中遠広域粗大ごみ処理施設（磐田市）。"
+  "title": "森町で粗大ごみを出す。持ち込み先は中遠広域粗大ごみ処理施設（磐田市）。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "粗大ごみの持ち込み先と費用を知る",
+  "primary_keyword": "森町 粗大ごみ",
+  "needs": [
+   "大きな家具を捨てたい",
+   "粗大ごみはどこへ"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/certificates/",
@@ -5685,7 +7767,29 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で住民票・戸籍・印鑑証明を最短で受け取る。マイナンバーカードならコンビニ交付が便利。"
+  "title": "森町で必要な証明書を選び、最短で受け取る（住民票・戸籍・印鑑証明）",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "必要な証明書がどれか選び、最短で受け取る",
+  "primary_keyword": "森町 住民票 取り方",
+  "needs": [
+   "証明書がいる",
+   "住民票がほしい",
+   "戸籍謄本がいる",
+   "印鑑証明がいる"
+  ],
+  "audience": [
+   "本人",
+   "代理人"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/city-hall-branches/",
@@ -5730,7 +7834,7 @@
   ],
   "facts": {
    "window": "森町役場（本庁舎、他に支所・出張所の記載なし）",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
    "hours": "月～金 8:30-17:15、水曜のみ17:15-19:00も時間外窓口あり（本庁舎1階住民生活課住民係）",
    "note": "時間外窓口は住民票・戸籍・印鑑登録証明・パスポート受領・マイナンバーカード関連は対応可だが、転入・転出・転居等の住所異動手続きは対応不可"
   },
@@ -5739,7 +7843,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の役場窓口は本庁舎1か所。支所・出張所はなく、水曜は時間外窓口あり。"
+  "title": "森町の役場窓口は本庁舎1か所。支所・出張所はなく、水曜は時間外窓口あり。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "役場のどの窓口へ行けばよいか・開いている時間を知る",
+  "primary_keyword": "森町役場 窓口 時間",
+  "needs": [
+   "役場は何時まで",
+   "土日にやってる窓口はある",
+   "支所はどこ"
+  ],
+  "audience": [
+   "来庁者"
+  ],
+  "department": [
+   "他に支所"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/dog-registration/",
@@ -5748,7 +7872,8 @@
   "category": "暮らし始めた",
   "synonyms": [
    "犬の登録",
-   "鑑札"
+   "鑑札",
+   "狂犬病予防注射"
   ],
   "tier": "common",
   "source_iwata": [
@@ -5796,7 +7921,29 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で犬の登録と鑑札交付を済ませる。狂犬病予防注射とあわせて手続き。"
+  "title": "森町で犬の登録と鑑札交付を済ませる。狂犬病予防注射とあわせて手続き。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "犬の登録・鑑札交付と狂犬病予防注射を済ませる",
+  "primary_keyword": "森町 犬 登録",
+  "needs": [
+   "犬を飼い始めた",
+   "狂犬病の注射はいつ",
+   "鑑札をなくした",
+   "集合注射はいつ",
+   "注射済票がほしい"
+  ],
+  "audience": [
+   "飼い主"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/dog-registration-rabies/",
@@ -5847,7 +7994,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の狂犬病予防注射は毎年義務。集合注射は6月頃、注射済票の交付手数料は550円。"
+  "title": "森町の狂犬病予防注射は毎年義務。集合注射は6月頃、注射済票の交付手数料は550円。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "毎年の狂犬病予防注射を受ける",
+  "primary_keyword": "森町 狂犬病予防注射",
+  "needs": [
+   "集合注射はいつ",
+   "注射済票がほしい"
+  ],
+  "audience": [
+   "飼い主"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/start-living/dog-registration/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/garbage-sorting-calendar/",
@@ -5908,7 +8074,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町のごみ分別表・収集日カレンダーを確認する。令和8年4月からルール変更予定あり。"
+  "title": "森町のごみ分別表・収集日カレンダーを確認する。令和8年4月からルール変更予定あり。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "自分の地区の収集日を確認する",
+  "primary_keyword": "森町 ごみ 収集日",
+  "needs": [
+   "何曜日に出せる",
+   "ごみカレンダーがほしい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/start-living/how-to-garbage/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/how-to-garbage/",
@@ -5916,7 +8101,12 @@
   "title_iwata": "引っ越し直後でも、明日のごみを正しく出せるようにする。",
   "category": "暮らし始めた",
   "synonyms": [
-   "ごみの出し方"
+   "ごみの出し方",
+   "ごみの日",
+   "ごみカレンダー",
+   "分別",
+   "ごみ",
+   "収集日"
   ],
   "tier": "common",
   "source_iwata": [
@@ -5972,7 +8162,29 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の家庭ごみの出し方。分別表・かな検索・多言語ガイドで確認できる。"
+  "title": "森町のごみは、分別・収集日・持ち込みの3つから調べる",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "ごみの分別と出し方を調べる",
+  "primary_keyword": "森町 ごみ 分別",
+  "needs": [
+   "ごみの分け方が分からない",
+   "これは何ごみ",
+   "ごみの出し方",
+   "何曜日に出せる",
+   "ごみカレンダーがほしい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/",
@@ -6004,7 +8216,7 @@
   ],
   "facts": {
    "window": "住民生活課（総合案内は「暮らし・手続き」ページ、引っ越し関連特集は「引越・新生活」ページ）",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
    "note": "「暮らし・手続き」ページはライフイベント・戸籍住民票・パスポート・マイナンバー・ごみ・保険年金・税金・上下水道・公共交通・給付金等の全14カテゴリで構成される総合案内"
   },
   "status": "ai-checked",
@@ -6012,7 +8224,26 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": null,
-  "title": "🧭 森町で暮らし始めた"
+  "title": "🧭 森町で暮らし始めた",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "hub",
+  "priority": "P1",
+  "intent": "森町で暮らし始めたときの手続きを一覧で把握する",
+  "primary_keyword": "森町 転入 手続き",
+  "needs": [
+   "引っ越してきた",
+   "何から手続きすればいい"
+  ],
+  "audience": [
+   "転入者"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/moved-in/",
@@ -6021,7 +8252,10 @@
   "category": "暮らし始めた",
   "synonyms": [
    "転入後の手続き",
-   "引っ越し後"
+   "引っ越し後",
+   "転入届",
+   "住所変更",
+   "届出"
   ],
   "tier": "common",
   "source_iwata": [
@@ -6078,7 +8312,31 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町に引っ越してきたら、転入届→マイナンバー→水道→ごみ→犬の登録の順で片づける。"
+  "title": "森町に引っ越してきたら、転入届→マイナンバー→水道→ごみ→犬の登録の順で片づける。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "転入直後にやる手続きを順番に片づける",
+  "primary_keyword": "森町 転入届",
+  "needs": [
+   "引っ越してきた",
+   "転入の手続きが分からない",
+   "住所変更したい",
+   "住所が変わった",
+   "町内で引っ越した"
+  ],
+  "audience": [
+   "転入者",
+   "世帯主",
+   "住民"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/moving-address-change/",
@@ -6144,7 +8402,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町での住所変更。転入・転居・転出届はいずれも来庁必須、14日以内に。"
+  "title": "森町での住所変更。転入・転居・転出届はいずれも来庁必須、14日以内に。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "転入・転居・転出の届出方法を確認する",
+  "primary_keyword": "森町 住所変更 届出",
+  "needs": [
+   "住所が変わった",
+   "町内で引っ越した"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/start-living/moved-in/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/mynumber/",
@@ -6210,7 +8487,29 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町でマイナンバーカードを申請から受け取りまで進める。窓口はタブレット申請にも対応。"
+  "title": "森町でマイナンバーカードを申請から受け取りまで進める。窓口はタブレット申請にも対応。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "マイナンバーカードを申請から受け取りまで進める",
+  "primary_keyword": "森町 マイナンバーカード 申請",
+  "needs": [
+   "マイナンバーカードを作りたい",
+   "受け取り方が分からない",
+   "更新したい",
+   "カードを作りたい"
+  ],
+  "audience": [
+   "本人",
+   "保護者"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/pets-lost-animals/",
@@ -6276,7 +8575,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で犬や猫がいなくなったら、住民生活課・保健所・警察の3か所へ連絡する。"
+  "title": "森町で犬や猫がいなくなったら、住民生活課・保健所・警察の3か所へ連絡する。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "いなくなった犬・猫を探す連絡先を知る",
+  "primary_keyword": "森町 迷い犬 迷い猫",
+  "needs": [
+   "犬がいなくなった",
+   "猫を保護した"
+  ],
+  "audience": [
+   "飼い主",
+   "発見者"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/public-transit/",
@@ -6286,7 +8605,10 @@
   "synonyms": [
    "バス",
    "お助け号",
-   "電車"
+   "電車",
+   "移動手段",
+   "公共交通",
+   "交通"
   ],
   "tier": "common",
   "source_iwata": [
@@ -6337,7 +8659,30 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の公共交通。町営バス（岡幸線・吉川線）と天竜浜名湖鉄道・秋葉バスサービスを使い分ける。"
+  "title": "森町の公共交通。町営バス（岡幸線・吉川線）と天竜浜名湖鉄道・秋葉バスサービスを使い分ける。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "森町での移動手段（町営バス・鉄道）を調べる",
+  "primary_keyword": "森町 バス 時刻表",
+  "needs": [
+   "車がなくても暮らせる",
+   "バスはどこを走っている",
+   "駅からの行き方",
+   "車は必須か",
+   "バスは通っている"
+  ],
+  "audience": [
+   "住民",
+   "移住検討者"
+  ],
+  "department": [
+   "政策企画課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/resident-registration/",
@@ -6403,7 +8748,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で住民票を急ぎで手に入れる。コンビニ交付なら毎日6:30-23:00、200円。"
+  "title": "森町で住民票を急ぎで手に入れる。コンビニ交付なら毎日6:30-23:00、200円。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "住民票の写しを急ぎで手に入れる",
+  "primary_keyword": "森町 住民票 コンビニ",
+  "needs": [
+   "今日中に住民票がいる",
+   "土日に住民票がほしい"
+  ],
+  "audience": [
+   "本人",
+   "同一世帯"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/water-sewer/",
@@ -6472,7 +8837,28 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の水道・下水道料金の仕組み。下水道は基本料金月1,000円から段階制。"
+  "title": "森町の水道・下水道料金の仕組み。下水道は基本料金月1,000円から段階制。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "水道・下水道料金の仕組みと金額を知る",
+  "primary_keyword": "森町 水道料金",
+  "needs": [
+   "水道代はいくら",
+   "下水道料金の計算"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "上下水道課",
+   "水道は上水道管理係",
+   "下水道は下水道管理係"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/start-living/water-start-stop-fees/",
@@ -6481,7 +8867,10 @@
   "category": "暮らし始めた",
   "synonyms": [
    "水道開始",
-   "水道停止"
+   "水道停止",
+   "水道中止",
+   "水道",
+   "廃止"
   ],
   "tier": "common",
   "source_iwata": [
@@ -6540,7 +8929,28 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で水道の使用開始・中止を届け出る。期限は閉開栓日の前日まで（土日祝除く）。"
+  "title": "森町で水道の使用開始・中止を届け出る。期限は閉開栓日の前日まで（土日祝除く）。",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "水道の使用開始・中止を届け出る",
+  "primary_keyword": "森町 水道 開栓 中止",
+  "needs": [
+   "水道を使い始めたい",
+   "水道を止めたい",
+   "引っ越しで水道の手続き"
+  ],
+  "audience": [
+   "転入者",
+   "転出者"
+  ],
+  "department": [
+   "上下水道課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/animal-pet-consultation/",
@@ -6592,14 +9002,33 @@
   ],
   "facts": {
    "window": "住民生活課 生活環境係",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "動物・ペットの困りごとは、森町役場「生活環境係」へ相談する。"
+  "title": "動物・ペットの困りごとは、森町役場「生活環境係」へ相談する。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "動物・ペットの困りごとを相談する",
+  "primary_keyword": "森町 動物 苦情 相談",
+  "needs": [
+   "野良猫が困る",
+   "近所の犬"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/cannot-pay-tax/",
@@ -6608,7 +9037,11 @@
   "category": "困った・相談したい",
   "synonyms": [
    "税金払えない",
-   "滞納相談"
+   "滞納相談",
+   "税金相談",
+   "納税猶予",
+   "税金",
+   "納付猶予"
   ],
   "tier": "common",
   "source_iwata": [
@@ -6651,14 +9084,36 @@
   ],
   "facts": {
    "window": "税務課 納税係",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "町税・国保税が払えないときは、差押えの前に森町「税務課」へ相談する。"
+  "title": "森町で町税・国保税が払えないときは、差押えの前に税務課へ相談する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "parent",
+  "priority": "P0",
+  "intent": "税金・保険税が払えないときに差押えの前に相談する",
+  "primary_keyword": "森町 税金 払えない",
+  "needs": [
+   "税金が払えない",
+   "督促状が来た",
+   "差押えが怖い",
+   "分割で払いたい",
+   "納付を待ってほしい"
+  ],
+  "audience": [
+   "納税者"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/care-consultation/",
@@ -6709,14 +9164,32 @@
   ],
   "facts": {
    "window": "保健福祉課 地域包括支援センター係",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "介護で困ったときは、森町「地域包括支援センター」へ相談する。"
+  "title": "介護で困ったときは、森町「地域包括支援センター」へ相談する。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "介護の困りごとを相談する",
+  "primary_keyword": "森町 介護 相談",
+  "needs": [
+   "介護で困った"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "department": [
+   "保健福祉課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/parents-care/community-support-center/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/child-consultation/",
@@ -6775,14 +9248,33 @@
   ],
   "facts": {
    "window": "健康こども課 こども家庭係（森町こども家庭センター）",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "子どものことで不安なときは、森町「こども家庭センター」へ相談する。"
+  "title": "子どものことで不安なときは、森町「こども家庭センター」へ相談する。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "子どものことの不安を相談する",
+  "primary_keyword": "森町 こども家庭センター",
+  "needs": [
+   "子どものことで不安"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "department": [
+   "健康こども課",
+   "森町こども家庭センター"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/consumer-fraud/",
@@ -6838,14 +9330,34 @@
   ],
   "facts": {
    "window": "森町町民生活センター（消費生活相談）",
-   "tel": "0538-85-2111（代表・つなぎ）（確認中: 本文未確認 0538-85-2111）"
+   "tel": "0538-85-2111（代表・つなぎ）（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "だまされたかも、契約してしまった。森町「町民生活センター」の消費生活相談へ早めに相談する。"
+  "title": "だまされたかも、契約してしまった。森町「町民生活センター」の消費生活相談へ早めに相談する。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "詐欺・悪質商法の被害を相談する",
+  "primary_keyword": "森町 消費生活相談",
+  "needs": [
+   "だまされたかも",
+   "解約したい",
+   "特殊詐欺"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "森町町民生活センター"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/disability-consultation/",
@@ -6904,14 +9416,33 @@
   ],
   "facts": {
    "window": "保健福祉課 障害福祉係",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "障害のことは、森町「障害福祉係」へまず相談する。"
+  "title": "障害のことは、森町「障害福祉係」へまず相談する。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "障害のことを相談する",
+  "primary_keyword": "森町 障害 相談",
+  "needs": [
+   "障害のことで相談したい"
+  ],
+  "audience": [
+   "本人",
+   "家族"
+  ],
+  "department": [
+   "保健福祉課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/health-medical/disability-welfare/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/farmland/certificates/",
@@ -6954,7 +9485,26 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "農地の証明（耕作証明・非農地証明等）は、森町「農林政策課 農地管理係」（農業委員会事務局）へ確認する。"
+  "title": "農地の証明（耕作証明・非農地証明等）は、森町「農林政策課 農地管理係」（農業委員会事務局）へ確認する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "耕作証明・非農地証明を取得する",
+  "primary_keyword": "耕作証明書 非農地証明",
+  "needs": [
+   "証明書が必要と言われた"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "department": [
+   "農林政策課",
+   "森町農業委員会"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/farmland/change-use/",
@@ -6994,14 +9544,33 @@
   ],
   "facts": {
    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
-   "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）"
+   "tel": "0538-85-6315（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": null,
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": null,
-  "title": "農地を別の用途に使いたいときは、まず森町「農林政策課 農地管理係」（農業委員会）へ相談する。"
+  "title": "農地を別の用途に使いたいときは、まず森町「農林政策課 農地管理係」（農業委員会）へ相談する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "農地を別の用途に使う相談をする",
+  "primary_keyword": "農地 用途変更",
+  "needs": [
+   "農地の使い道を変えたい"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "department": [
+   "農林政策課",
+   "森町農業委員会"
+  ],
+  "action": "merge",
+  "merge_target": "/life/troubles-consult/farmland/conversion/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/farmland/conversion/",
@@ -7010,7 +9579,10 @@
   "category": "困った・相談したい",
   "synonyms": [
    "農地転用",
-   "農地法4条5条"
+   "農地法4条5条",
+   "地目変更",
+   "農地",
+   "用途変更"
   ],
   "tier": "common",
   "source_iwata": [
@@ -7045,7 +9617,7 @@
   ],
   "facts": {
    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
-   "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+   "tel": "0538-85-6315（一部の番号は公式ページ本文で再確認できていません）",
    "note": "30アールを超える転用は農業委員会総会後に県農業会議への協議案件となるため事前相談が必要（農林業ページの記載より）"
   },
   "status": "ai-checked",
@@ -7053,7 +9625,28 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "農地を宅地・駐車場にするとき（農地法4条・5条）は、森町「農林政策課 農地管理係」（農業委員会）へ事前相談する。"
+  "title": "農地を宅地・駐車場にするとき（農地法4条・5条）は、森町「農林政策課 農地管理係」（農業委員会）へ事前相談する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "農地を宅地・駐車場にする（農地法4条・5条）",
+  "primary_keyword": "農地転用 4条 5条",
+  "needs": [
+   "農地に家を建てたい",
+   "駐車場にしたい",
+   "農地の使い道を変えたい"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "department": [
+   "農林政策課",
+   "森町農業委員会"
+  ],
+  "action": "rewrite",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/farmland/",
@@ -7121,7 +9714,28 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "相続した田んぼ・畑をどうすればいいか分からないときは、森町「農林政策課 農地管理係」（農業委員会）に相談から始める。"
+  "title": "相続した田んぼ・畑をどうすればいいか分からないときは、森町「農林政策課 農地管理係」（農業委員会）に相談から始める。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "parent",
+  "priority": "P1",
+  "intent": "相続した農地の扱いを整理する",
+  "primary_keyword": "森町 農地 相続",
+  "needs": [
+   "田んぼを相続した",
+   "畑をどうする"
+  ],
+  "audience": [
+   "相続人",
+   "所有者"
+  ],
+  "department": [
+   "農林政策課",
+   "森町農業委員会"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/farmland/inheritance/",
@@ -7184,7 +9798,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "農地を相続したら、森町「農林政策課 農地管理係」（農業委員会）への届出から整理する。"
+  "title": "農地を相続したら、森町「農林政策課 農地管理係」（農業委員会）への届出から整理する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "農地を相続したときの届出をする",
+  "primary_keyword": "農地 相続 届出",
+  "needs": [
+   "農地の相続手続き"
+  ],
+  "audience": [
+   "相続人"
+  ],
+  "department": [
+   "農林政策課",
+   "森町農業委員会"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/farmland/noshin-exclusion/",
@@ -7215,7 +9848,7 @@
   ],
   "facts": {
    "window": "農林政策課 農地管理係",
-   "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+   "tel": "0538-85-6315（一部の番号は公式ページ本文で再確認できていません）",
    "note": "農業振興地域整備計画の変更（農振除外）に関する定期見直し等の記載は確認できたが、除外申出専用ページは未確認。窓口は農地管理係で確定。"
   },
   "status": "ai-checked",
@@ -7223,7 +9856,25 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": null,
-  "title": "農振・農用地区域からの除外は、まず森町「農林政策課 農地管理係」へ土地の場所と目的を確認する。"
+  "title": "農振・農用地区域からの除外は、まず森町「農林政策課 農地管理係」へ土地の場所と目的を確認する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "農振農用地区域からの除外を相談する",
+  "primary_keyword": "農振除外 森町",
+  "needs": [
+   "青地を白地にしたい"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "department": [
+   "農林政策課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/farmland/sell-or-rent/",
@@ -7275,14 +9926,33 @@
   ],
   "facts": {
    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
-   "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）"
+   "tel": "0538-85-6315（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "使っていない農地を売りたい・貸したいときは、森町「農林政策課 農地管理係」（農業委員会）へ相談する。"
+  "title": "使っていない農地を売りたい・貸したいときは、森町「農林政策課 農地管理係」（農業委員会）へ相談する。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "使っていない農地を売る・貸す",
+  "primary_keyword": "農地 売りたい 貸したい",
+  "needs": [
+   "耕作できない農地がある"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "department": [
+   "農林政策課",
+   "森町農業委員会"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/foreign-resident-consultation/",
@@ -7325,14 +9995,33 @@
   ],
   "facts": {
    "window": "住民生活課 住民係",
-   "tel": "0538-85-6312（確認中: 本文未確認 0538-85-6312）"
+   "tel": "0538-85-6312（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "外国人住民の手続きは、森町「住民生活課 住民係」で住民登録と相談先を分けて確認する。"
+  "title": "外国人住民の手続きは、森町「住民生活課 住民係」で住民登録と相談先を分けて確認する。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "外国人住民の手続きと相談先を知る",
+  "primary_keyword": "森町 外国人 相談",
+  "needs": [
+   "日本語が不安",
+   "在留の手続き"
+  ],
+  "audience": [
+   "外国人住民"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/",
@@ -7372,7 +10061,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "🧩 困った・相談したい（森町の相談窓口まとめ）"
+  "title": "🧩 困った・相談したい（森町の相談窓口まとめ）",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "hub",
+  "priority": "P1",
+  "intent": "困りごとの相談窓口を一覧で把握する",
+  "primary_keyword": "森町 相談窓口",
+  "needs": [
+   "誰に相談すればいい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/legal-general-consultation/",
@@ -7438,7 +10145,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "誰に相談すればいいか分からない悩みは、森町「暮らしの相談窓口」（無料法律相談等）へつなぐ。"
+  "title": "誰に相談すればいいか分からない悩みは、森町「暮らしの相談窓口」（無料法律相談等）へつなぐ。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "無料法律相談など専門相談につなぐ",
+  "primary_keyword": "森町 無料法律相談",
+  "needs": [
+   "弁護士に相談したい",
+   "どこに相談すれば"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/living-costs-trouble/",
@@ -7496,7 +10222,24 @@
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-04",
   "ai_notes": "森町公式サイトに生活費専用ページなし。静岡県社会福祉協議会の自立相談支援事業ポータル（shizuoka-wel.jp/jiritu/mori/）と静岡県公式サイト（西部健康福祉センター）をWebFetchで直接確認し、内容一致を確認した上で使用。断定的表現を避け、相談窓口への案内を中心に構成。",
-  "verified_by": "machine"
+  "verified_by": "machine",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "生活費が足りないときの支援を受ける",
+  "primary_keyword": "森町 生活困窮 相談",
+  "needs": [
+   "お金がない",
+   "生活が苦しい"
+  ],
+  "audience": [
+   "生活困窮者"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/road-repair-mirror/",
@@ -7553,14 +10296,31 @@
    "road_and_mirror": "町道の穴（陥没）・ひび割れ、カーブミラーの破損や向きのずれについては、森町役場「建設課 管理係」（電話0538-85-6325）が窓口。公式ページ本文に直通電話番号の記載を確認済み。",
    "streetlight_note": "街路灯・防犯灯の故障通報の担当窓口は、公式サイト本文（建設課、住民生活課生活環境係の各ページ）で確認できず「確認中」とした。防犯灯は自治会（区）を通じたLED化・設置補助金の枠組みで扱われている経緯があることは議会資料等から把握しているが、故障通報の専用案内ページは見つからなかった。",
    "report_method": "森町公式サイトには道路の穴・カーブミラー不具合を通報する専用フォームやLINE通報システムの案内は確認できなかった（2026年7月4日時点）。電話での連絡が基本。",
-   "hall_tel": "0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-2111）"
+   "hall_tel": "0538-85-2111（役場代表）（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": null,
   "ai_checked_date": "2026-07-04",
   "ai_notes": "森町公式サイトをWebFetchで直接確認。建設課ページ・管理係ページ・社会資本総合整備計画ページ（電話0538-85-6325記載）・申請書ページ・住民生活課生活環境係配下の「環境・住宅・ペット・生活」ページ（防犯灯関連ページの不在を確認）を出典として使用。磐田市の本文は流用せず、確認できた事実のみ記載し、街路灯・防犯灯の担当窓口は「確認中」と明記した。",
   "verified_by": "machine",
-  "title": "道路の穴・カーブミラーの不具合は、森町「建設課 管理係」へ通報する。"
+  "title": "道路の穴・カーブミラーの不具合は、森町「建設課 管理係」へ通報する。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "道路の穴・カーブミラーの不具合を通報する",
+  "primary_keyword": "森町 道路 通報",
+  "needs": [
+   "道路が壊れている",
+   "ミラーが見えない"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/troubles-consult/vacant-house-consultation/",
@@ -7616,14 +10376,32 @@
   ],
   "facts": {
    "window": "税務課 資産税係",
-   "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）"
+   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "親の家・実家をどうするか迷ったときは、固定資産税の窓口「税務課」から整理を始める。"
+  "title": "親の家・実家をどうするか迷ったときは、固定資産税の窓口「税務課」から整理を始める。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "親の家・実家をどうするか迷ったときに整理を始める",
+  "primary_keyword": "実家 どうする 相談",
+  "needs": [
+   "実家をどうしよう"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/end-of-life/inherited-house/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/city-tax-payment/",
@@ -7669,7 +10447,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の町税の納付方法は、口座振替・コンビニ・スマホ決済から選べる"
+  "title": "森町の町税の納付方法は、口座振替・コンビニ・スマホ決済から選べる",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "町税の納付方法を選ぶ",
+  "primary_keyword": "森町 町税 納付",
+  "needs": [
+   "どこで払える",
+   "スマホで払いたい",
+   "口座振替にしたい"
+  ],
+  "audience": [
+   "納税者"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/",
@@ -7703,7 +10501,23 @@
   "ai_checked_date": null,
   "ai_notes": "カテゴリ入口ページのため、町公式トップを出典として設定。",
   "verified_by": "machine",
-  "title": "💴 働く・暮らす（森町版）"
+  "title": "💴 働く・暮らす（森町版）",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "hub",
+  "priority": "P2",
+  "intent": "税金・保険・仕事に関する手続きを一覧で把握する",
+  "primary_keyword": "森町 税金 手続き",
+  "needs": [
+   "税金のことを調べたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/job-change/",
@@ -7742,14 +10556,31 @@
   ],
   "facts": {
    "window": "ハローワーク磐田（森町の求人・雇用保険手続きの管轄）",
-   "note": "森町公式サイトの「就職支援」ページには移住・就業支援補助金の案内や最低賃金改正情報のみが掲載され、求人情報そのものはハローワーク磐田（磐田市・袋井市・森町の2市1町を管轄）を案内する形。森町役場代表電話0538-85-2111。ハローワーク磐田の所在地・電話番号は本ページからは未確認のため別途要確認（確認中: 本文未確認 0538-85-2111）"
+   "note": "森町公式サイトの「就職支援」ページには移住・就業支援補助金の案内や最低賃金改正情報のみが掲載され、求人情報そのものはハローワーク磐田（磐田市・袋井市・森町の2市1町を管轄）を案内する形。森町役場代表電話0538-85-2111。ハローワーク磐田の所在地・電話番号は本ページからは未確認のため別途要確認（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の就職・転職は、求人検索はハローワーク磐田、支援情報は町の就職支援ページを確認する"
+  "title": "森町の就職・転職は、求人検索はハローワーク磐田、支援情報は町の就職支援ページを確認する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "森町で仕事を探す入口を知る",
+  "primary_keyword": "森町 求人",
+  "needs": [
+   "仕事を探している",
+   "転職したい"
+  ],
+  "audience": [
+   "求職者"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/job-recruitment/",
@@ -7801,7 +10632,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町職員採用情報は、パブリックコネクト森町ページで募集要項を確認する"
+  "title": "森町職員採用情報は、パブリックコネクト森町ページで募集要項を確認する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "森町職員の採用情報を確認する",
+  "primary_keyword": "森町 職員採用",
+  "needs": [
+   "役場で働きたい"
+  ],
+  "audience": [
+   "求職者"
+  ],
+  "department": [
+   "総務課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/light-vehicle-tax/",
@@ -7852,7 +10701,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の軽自動車税は、排気量・車種ごとの税額を町民税係で確認する"
+  "title": "森町の軽自動車税は、排気量・車種ごとの税額を町民税係で確認する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "軽自動車税の税額と手続きを確認する",
+  "primary_keyword": "森町 軽自動車税",
+  "needs": [
+   "軽自動車の税金はいくら",
+   "廃車の手続き"
+  ],
+  "audience": [
+   "車両所有者"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/my-number-card/",
@@ -7899,7 +10767,25 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町のマイナンバーカードは、郵送・オンライン・窓口の3通りで申請できる"
+  "title": "森町のマイナンバーカードは、郵送・オンライン・窓口の3通りで申請できる",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "マイナンバーカードを申請する",
+  "primary_keyword": "森町 マイナンバーカード",
+  "needs": [
+   "カードを作りたい"
+  ],
+  "audience": [
+   "本人"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/start-living/mynumber/",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/national-health-insurance-tax/",
@@ -7942,7 +10828,7 @@
    }
   ],
   "facts": {
-   "window": "税務課（役場代表 0538-85-2111、開庁時間 月～金8:30-17:15）（確認中: 本文未確認 0538-85-2111）",
+   "window": "税務課（役場代表 0538-85-2111、開庁時間 月～金8:30-17:15）（一部の番号は公式ページ本文で再確認できていません）",
    "note": "所得割・均等割の具体的な税率はページに未記載（「国民健康保険税とは」等の関連リンク先を要確認）。災害等による減免制度あり"
   },
   "status": "ai-checked",
@@ -7950,7 +10836,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の国民健康保険税は、税務課町民税係で税率・減免を確認する"
+  "title": "森町の国民健康保険税は、税務課町民税係で税率・減免を確認する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "国民健康保険税の税率・減免を確認する",
+  "primary_keyword": "森町 国民健康保険税",
+  "needs": [
+   "保険税が高い",
+   "減免はある"
+  ],
+  "audience": [
+   "国保加入者"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/nhk-pension/",
@@ -7985,7 +10890,7 @@
   ],
   "facts": {
    "window": "住民生活課 国保年金係",
-   "tel": "0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-2111（役場代表）（一部の番号は公式ページ本文で再確認できていません）",
    "note": "加入・喪失手続きの具体的な必要書類・期限はページ本文に未記載のため担当課へ要問合せ。傷病手当金、マイナ保険証利用、産前産後の保険税免除、特定健診等の案内あり"
   },
   "status": "ai-checked",
@@ -7993,7 +10898,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の国民健康保険・国民年金は、住民生活課国保年金係で手続きする"
+  "title": "森町の国民健康保険・国民年金は、住民生活課国保年金係で手続きする",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "国民健康保険・国民年金の加入と喪失を手続きする",
+  "primary_keyword": "森町 国民年金 手続き",
+  "needs": [
+   "会社を辞めた",
+   "扶養から外れた"
+  ],
+  "audience": [
+   "退職者",
+   "住民"
+  ],
+  "department": [
+   "住民生活課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/resident-tax/",
@@ -8044,7 +10969,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の住民税（町・県民税）は、納付方法と電子申告を税務課で確認する"
+  "title": "森町の住民税（町・県民税）は、納付方法と電子申告を税務課で確認する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "住民税の納付方法と申告を確認する",
+  "primary_keyword": "森町 住民税",
+  "needs": [
+   "住民税はいくら",
+   "申告が必要か"
+  ],
+  "audience": [
+   "納税者"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/start-business/",
@@ -8083,7 +11027,7 @@
   ],
   "facts": {
    "window": "産業課 商工観光係",
-   "tel": "0538-85-6319（推定・電話帳情報のため要確認）／0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-6319）（確認中: 本文未確認 0538-85-2111）",
+   "tel": "0538-85-6319（推定・電話帳情報のため要確認）／0538-85-2111（役場代表）（一部の番号は公式ページ本文で再確認できていません）",
    "note": "森町公式サイトに専用の起業・創業相談窓口ページは確認できず。「産業競争力強化法に基づく創業支援等事業計画」への言及あり。詳細相談は産業課へ、企業立地情報は「森町企業立地・雇用促進特設サイト」(https://morimachi.kigyorich.jp/) を案内"
   },
   "status": "ai-checked",
@@ -8091,7 +11035,26 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の起業・創業は、産業課と森町企業立地・雇用促進特設サイトで相談する"
+  "title": "森町の起業・創業は、産業課と森町企業立地・雇用促進特設サイトで相談する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "森町で起業・創業する相談先を知る",
+  "primary_keyword": "森町 創業支援",
+  "needs": [
+   "店を開きたい",
+   "創業の補助金"
+  ],
+  "audience": [
+   "創業希望者"
+  ],
+  "department": [
+   "産業課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/start-farming/",
@@ -8134,7 +11097,7 @@
   ],
   "facts": {
    "window": "産業課 農政係・農業委員会事務局",
-   "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+   "tel": "0538-85-6315（一部の番号は公式ページ本文で再確認できていません）",
    "note": "空き家付き農地取得制度（2021年4月〜、新規就農者向けに下限面積を緩和。三倉・天方・森地区20a、一宮・園田・飯田地区40a）あり。専用の「新規就農相談窓口」ページは未確認、静岡県の新規就農支援制度とも連携"
   },
   "status": "ai-checked",
@@ -8142,7 +11105,26 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": null,
-  "title": "森町の就農準備は、産業課農政係で農地情報・空き家付き農地制度を確認する"
+  "title": "森町の就農準備は、産業課農政係で農地情報・空き家付き農地制度を確認する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P3",
+  "intent": "森町で就農する準備を進める",
+  "primary_keyword": "森町 就農",
+  "needs": [
+   "農業を始めたい",
+   "農地を借りたい"
+  ],
+  "audience": [
+   "就農希望者"
+  ],
+  "department": [
+   "産業課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/subsidies/",
@@ -8182,7 +11164,24 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の補助金は、担当課ごとに分かれるため対象制度を個別に確認する"
+  "title": "森町の補助金は、担当課ごとに分かれるため対象制度を個別に確認する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P2",
+  "intent": "森町の補助金にどんなものがあるか調べる",
+  "primary_keyword": "森町 補助金",
+  "needs": [
+   "使える補助金はある",
+   "助成金を探している"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "department": [],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/tax/",
@@ -8219,7 +11218,7 @@
    }
   ],
   "facts": {
-   "window": "税務課（納税係0538-85-6310／町民税係0538-85-6308）（確認中: 本文未確認 0538-85-6308）",
+   "window": "税務課（納税係0538-85-6310／町民税係0538-85-6308）（一部の番号は公式ページ本文で再確認できていません）",
    "note": "町税全般は口座振替・コンビニ・スマホ決済・クレカ/ネットバンキング（地方税お支払サイト）・金融機関窓口・役場会計課窓口で納付可能"
   },
   "status": "ai-checked",
@@ -8227,7 +11226,28 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の税金手続きは、税目ごとに税務課の各係で確認する"
+  "title": "森町の税金手続きは、税目ごとに税務課の各係で確認する",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "parent",
+  "priority": "P1",
+  "intent": "どの税金の話か整理して担当係にたどりつく",
+  "primary_keyword": "森町 税金",
+  "needs": [
+   "税金のことで聞きたい",
+   "どの課に行けばいい"
+  ],
+  "audience": [
+   "納税者"
+  ],
+  "department": [
+   "税務課",
+   "納税係",
+   "町民税係"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/tax-certificates/",
@@ -8279,7 +11299,27 @@
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の税務証明書（所得・課税・納税証明書等）は、窓口・郵送・委任状で申請できる"
+  "title": "森町の税務証明書（所得・課税・納税証明書等）は、窓口・郵送・委任状で申請できる",
+  "hub": "procedures",
+  "hub_label": "手続きしたい",
+  "page_type": "detail",
+  "priority": "P1",
+  "intent": "所得・課税・納税証明書を取得する",
+  "primary_keyword": "森町 所得証明書",
+  "needs": [
+   "課税証明書がいる",
+   "納税証明書がほしい"
+  ],
+  "audience": [
+   "本人",
+   "代理人"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "keep",
+  "merge_target": "",
+  "ledger_status": "作業中"
  },
  {
   "href": "/life/work-life/tax-guide/",
@@ -8331,6 +11371,25 @@
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町の税金相談は、税務課納税係で納付猶予制度を確認する"
+  "title": "森町の税金相談は、税務課納税係で納付猶予制度を確認する",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "page_type": "detail",
+  "priority": "P0",
+  "intent": "納付が難しいときの猶予制度を相談する",
+  "primary_keyword": "森町 税金 納付猶予",
+  "needs": [
+   "分割で払いたい",
+   "納付を待ってほしい"
+  ],
+  "audience": [
+   "納税者"
+  ],
+  "department": [
+   "税務課"
+  ],
+  "action": "merge",
+  "merge_target": "/life/troubles-consult/cannot-pay-tax/",
+  "ledger_status": "作業中"
  }
 ]

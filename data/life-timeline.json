@@ -83,7 +83,7 @@
       "links": [
         { "label": "空き家になったときの最初の3手", "href": "/life/housing/vacant-house/" },
         { "label": "実家の片づけを進める", "href": "/life/housing/clean-parents-house/" },
-        { "label": "空き家の相談窓口を確認する", "href": "/life/troubles-consult/vacant-house-consultation/" },
+        { "label": "空き家の相談窓口を確認する", "href": "/life/end-of-life/inherited-house/" },
         { "label": "固定資産税の扱いを確認する", "href": "/life/housing/property-tax/" }
       ]
     },
@@ -95,9 +95,9 @@
       "summary": "おくやみの手続きと並行して、不動産の名義と税の判断が必要になる。",
       "links": [
         { "label": "相続の進め方", "href": "/life/end-of-life/inheritance/" },
-        { "label": "おくやみの手続き", "href": "/life/end-of-life/after-death-procedures/" },
+        { "label": "おくやみの手続き", "href": "/life/end-of-life/bereavement/" },
         { "label": "相続した家をどうするか", "href": "/life/end-of-life/inherited-house/" },
-        { "label": "相続した空き家の扱い", "href": "/life/end-of-life/inherited-vacant-house/" }
+        { "label": "相続した空き家の扱い", "href": "/life/end-of-life/inherited-house/" }
       ]
     },
     {
@@ -134,7 +134,7 @@
       "summary": "墓・供養・遺された家族の手続きを、元気なうちに整理しておく。",
       "links": [
         { "label": "お墓・供養のこと", "href": "/life/end-of-life/grave-memorial/" },
-        { "label": "おくやみ手続きの全体像", "href": "/life/end-of-life/bereavement-procedures/" },
+        { "label": "おくやみ手続きの全体像", "href": "/life/end-of-life/bereavement/" },
         { "label": "成年後見制度を確認する", "href": "/life/parents-care/adult-guardianship/" }
       ]
     }

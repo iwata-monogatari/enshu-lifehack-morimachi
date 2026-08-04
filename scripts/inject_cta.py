@@ -63,8 +63,11 @@ def render_cta(rule, cta_type):
         '<h2 class="sec" style="margin-top:0">%s</h2>' % esc(rule["heading"]),
         '<div class="company-grid"><div class="company-card">',
         "<p>%s</p>" % esc(rule["description"]),
-        '<a class="official-link" href="%s" target="_blank" rel="noopener" style="margin-top:8px" data-track-click="cta_%s">%s <span>%s</span></a>'
-        % (esc(rule["url"]), cta_type, esc(rule["button_text"]), esc(rule["provider"])),
+        # サイト内案内(guide)は別タブで開かない。計測名もCTA種別ごとに分ける。
+        '<a class="official-link" href="%s"%s style="margin-top:8px" data-track-click="cta_%s">%s <span>%s</span></a>'
+        % (esc(rule["url"]),
+           "" if rule.get("internal") else ' target="_blank" rel="noopener"',
+           cta_type, esc(rule["button_text"]), esc(rule["provider"])),
     ]
     if rule.get("secondary_url"):
         parts.append(

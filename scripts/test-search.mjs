@@ -4,7 +4,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { searchTopics } from '../assets/search-core.mjs';
+import { searchTopics, isConfident } from '../assets/search-core.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -16,7 +16,9 @@ function main() {
 
   let failCount = 0;
   for (const testCase of cases) {
-    const results = searchTopics(items, testCase.query, { limit: TOP_N });
+    const scored = searchTopics(items, testCase.query, { limit: TOP_N });
+    // 画面と同じ判定にそろえる（弱い部分一致だけのときは候補として出さない）
+    const results = isConfident(scored) ? scored : [];
     const hrefs = results.map((r) => r.href);
     const ok = hrefs.some((h) => testCase.expectedHrefIncludesAny.includes(h));
     const status = ok ? 'PASS' : 'FAIL';
