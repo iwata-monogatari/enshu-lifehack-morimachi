@@ -1,0 +1,58 @@
+[
+  {
+    "href": "/tools/",
+    "icon": "🧰",
+    "title": "便利ツール",
+    "category": "ツール",
+    "synonyms": ["ツール", "便利", "チェックリスト", "検索"]
+  },
+  {
+    "href": "/tools/gomi-search/",
+    "icon": "🗑️",
+    "title": "ごみ分別クイック検索",
+    "category": "ツール",
+    "synonyms": ["ごみ", "ゴミ", "分別", "資源", "収集日", "カレンダー", "粗大ごみ", "捨て方", "出し方", "多言語", "ガイドブック"]
+  },
+  {
+    "href": "/tools/moving-checklist/",
+    "icon": "📦",
+    "title": "引っ越しチェックリスト",
+    "category": "ツール",
+    "synonyms": ["引っ越し", "引越", "転入", "転出", "手続き", "チェックリスト", "やることリスト"]
+  },
+  {
+    "href": "/tools/life-timeline/",
+    "icon": "🧭",
+    "title": "ライフイベント・タイムライン",
+    "category": "ツール",
+    "synonyms": ["ライフイベント", "人生", "節目", "結婚", "出産", "介護", "相続", "農地", "空き家", "年表"]
+  },
+  {
+    "href": "/checklist/moved-in/",
+    "icon": "🏡",
+    "title": "森町に引っ越してきた",
+    "category": "チェックリスト",
+    "synonyms": ["転入", "引っ越し", "引越", "住民票", "水道", "ごみ", "やることリスト"]
+  },
+  {
+    "href": "/checklist/married/",
+    "icon": "💍",
+    "title": "結婚した",
+    "category": "チェックリスト",
+    "synonyms": ["結婚", "婚姻届", "入籍", "氏名変更", "新生活"]
+  },
+  {
+    "href": "/checklist/baby/",
+    "icon": "👶",
+    "title": "子どもが生まれた",
+    "category": "チェックリスト",
+    "synonyms": ["出産", "出生届", "児童手当", "乳幼児健診", "健診", "予防接種", "保育園"]
+  },
+  {
+    "href": "/checklist/job-change/",
+    "icon": "💴",
+    "title": "転職した・退職した",
+    "category": "チェックリスト",
+    "synonyms": ["転職", "退職", "失業", "国民健康保険", "国民年金", "住民税"]
+  }
+]

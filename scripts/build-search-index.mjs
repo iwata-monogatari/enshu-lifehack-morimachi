@@ -42,7 +42,10 @@ function extractLead(href) {
 
 function main() {
   const topicsMaster = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/topics_master.json'), 'utf8'));
-  const searchIndex = topicsMaster
+  // /tools/ と /checklist/ は固有の出典を持たない集約ページなので topics_master とは別台帳で管理する。
+  const auxPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/aux-pages.json'), 'utf8'));
+
+  const searchIndex = [...topicsMaster, ...auxPages]
     .map((topic) => {
       const lead = extractLead(topic.href);
       if (lead === null) return null; // 未公開ページは検索インデックスから除外
