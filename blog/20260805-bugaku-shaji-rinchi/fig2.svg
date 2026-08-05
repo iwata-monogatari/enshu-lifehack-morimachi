@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig2Title fig2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="fig2Title">社寺の隣の土地を確認していく順番を、里の道として描いたイラスト</title>
+  <desc id="fig2Desc">森町の山並みと茶畑を背景に、一本の里道が手前から奥へ続いています。道沿いに五つの場面があり、手前から順に、権利証や公図を机に広げる場面、役場の窓口で埋蔵文化財を照会する場面、現地で境界杭と参道を確かめる場面、鳥居の前で氏子総代と立ち話をする場面、最後に家族の記録として綴じる場面が並びます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="f2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7e9f2"/><stop offset="0.6" stop-color="#ecf3f2"/><stop offset="1" stop-color="#f4f7ef"/>
+    </linearGradient>
+    <linearGradient id="f2far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a3c3d0"/><stop offset="1" stop-color="#bcd3da"/>
+    </linearGradient>
+    <linearGradient id="f2mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#74a096"/><stop offset="1" stop-color="#93b5a8"/>
+    </linearGradient>
+    <linearGradient id="f2ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5eddd"/><stop offset="1" stop-color="#d5e3c9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#f2sky)"/>
+  <circle cx="908" cy="66" r="30" fill="#ffffff" opacity="0.7"/>
+
+  <path fill="url(#f2far)" d="M0 150 L92 112 L182 142 L286 100 L392 140 L500 104 L606 146 L712 108 L818 148 L920 112 L1000 144 L1000 206 L0 206 Z"/>
+  <path fill="url(#f2mid)" d="M0 182 L104 154 L204 184 L308 148 L416 186 L522 152 L628 190 L734 156 L842 192 L946 160 L1000 184 L1000 236 L0 236 Z"/>
+  <path fill="url(#f2ground)" d="M0 228 L1000 214 L1000 560 L0 560 Z"/>
+
+  <!-- 茶畑の畝 -->
+  <g stroke="#7fa85f" stroke-width="6" fill="none" opacity="0.55">
+    <path d="M0 280 C160 266 300 274 420 288"/>
+    <path d="M0 320 C150 306 286 314 400 330"/>
+    <path d="M640 244 C760 236 880 244 1000 238"/>
+    <path d="M660 276 C780 268 890 276 1000 270"/>
+  </g>
+
+  <!-- 里道 -->
+  <path d="M40 552 C180 512 250 486 350 462 C452 438 500 402 566 366 C640 326 690 306 760 288 C840 268 918 236 986 208"
+        stroke="#cbbfa6" stroke-width="54" fill="none" stroke-linecap="round"/>
+  <path d="M40 552 C180 512 250 486 350 462 C452 438 500 402 566 366 C640 326 690 306 760 288 C840 268 918 236 986 208"
+        stroke="#ece4d2" stroke-width="40" fill="none" stroke-linecap="round"/>
+  <path d="M40 552 C180 512 250 486 350 462 C452 438 500 402 566 366 C640 326 690 306 760 288 C840 268 918 236 986 208"
+        stroke="#cbbfa6" stroke-width="3" stroke-dasharray="18 16" fill="none"/>
+
+  <!-- 1 権利の書類 -->
+  <g>
+    <rect x="52" y="330" width="168" height="96" rx="8" fill="#b98f5f"/>
+    <rect x="52" y="330" width="168" height="12" rx="4" fill="#8f6a41"/>
+    <rect x="70" y="292" width="112" height="76" rx="4" fill="#fdfbf4" stroke="#c8bda6" stroke-width="2" transform="rotate(-6 126 330)"/>
+    <g stroke="#9aa7b0" stroke-width="3" transform="rotate(-6 126 330)">
+      <path d="M82 312 L170 312"/><path d="M82 328 L170 328"/><path d="M82 344 L150 344"/>
+    </g>
+    <rect x="128" y="298" width="86" height="62" rx="4" fill="#eef4f7" stroke="#9fb6bf" stroke-width="2" transform="rotate(7 171 329)"/>
+    <g stroke="#6f8b97" stroke-width="2" fill="none" transform="rotate(7 171 329)">
+      <path d="M138 310 L204 310 L204 350 L138 350 Z"/><path d="M170 310 L170 350"/><path d="M138 330 L204 330"/>
+    </g>
+    <circle cx="196" cy="286" r="15" fill="#c0533f"/>
+    <path d="M186 286 L206 286 M196 276 L196 296" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- 2 役場の窓口 -->
+  <g>
+    <path fill="#5c6f78" d="M262 306 L356 262 L450 306 L440 314 L356 274 L272 314 Z"/>
+    <rect x="276" y="310" width="160" height="88" fill="#f1eee6" stroke="#c3bcab" stroke-width="2"/>
+    <rect x="292" y="332" width="60" height="42" fill="#a9c3cd" stroke="#7f9aa5" stroke-width="2"/>
+    <rect x="366" y="332" width="54" height="42" fill="#a9c3cd" stroke="#7f9aa5" stroke-width="2"/>
+    <rect x="276" y="386" width="160" height="12" fill="#cfc7b5"/>
+    <!-- 窓口の人 -->
+    <circle cx="322" cy="352" r="11" fill="#f2e2cd"/>
+    <path d="M310 374 C310 358 334 358 334 374 Z" fill="#3f7a5f"/>
+    <circle cx="392" cy="352" r="11" fill="#f2e2cd"/>
+    <path d="M380 374 C380 358 404 358 404 374 Z" fill="#2f5d7a"/>
+    <!-- 土器の形（埋蔵文化財） -->
+    <g transform="translate(452 352)">
+      <path d="M0 30 C-2 12 8 2 18 0 C28 2 38 12 36 30 Z" fill="#b98457" stroke="#8a6039" stroke-width="2"/>
+      <path d="M2 12 L34 12" stroke="#8a6039" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- 3 現地で境界を見る -->
+  <g>
+    <path d="M498 300 L498 386" stroke="#8a94a0" stroke-width="3" stroke-dasharray="11 8"/>
+    <g>
+      <rect x="491" y="306" width="15" height="30" rx="2" fill="#e2e6ea" stroke="#8a94a0" stroke-width="2"/>
+      <rect x="491" y="306" width="15" height="8" rx="2" fill="#c0392b"/>
+    </g>
+    <g>
+      <rect x="491" y="352" width="15" height="30" rx="2" fill="#e2e6ea" stroke="#8a94a0" stroke-width="2"/>
+      <rect x="491" y="352" width="15" height="8" rx="2" fill="#c0392b"/>
+    </g>
+    <!-- 測る人 -->
+    <g transform="translate(536 292)">
+      <circle cx="0" cy="0" r="13" fill="#f2e2cd"/>
+      <path d="M-14 6 C-14 -6 14 -6 14 6 L14 8 L-14 8 Z" fill="#3f4d56"/>
+      <rect x="-16" y="14" width="32" height="42" rx="8" fill="#c0533f"/>
+      <path d="M-16 26 L-46 44" stroke="#c0533f" stroke-width="9" stroke-linecap="round"/>
+      <rect x="-16" y="56" width="12" height="30" rx="4" fill="#4a5560"/>
+      <rect x="4" y="56" width="12" height="30" rx="4" fill="#4a5560"/>
+    </g>
+    <path d="M490 336 L536 334" stroke="#e0b83a" stroke-width="5"/>
+  </g>
+
+  <!-- 4 鳥居の前で氏子総代と話す -->
+  <g>
+    <path fill="#3f7a5f" d="M676 246 C686 206 714 186 744 186 C776 186 802 208 810 248 Z"/>
+    <path fill="#2f6249" d="M792 250 C798 224 816 208 838 208 C860 208 878 226 882 250 Z"/>
+    <g fill="#b8452f">
+      <rect x="702" y="218" width="9" height="46" rx="2"/>
+      <rect x="756" y="218" width="9" height="46" rx="2"/>
+      <rect x="688" y="210" width="91" height="9" rx="3"/>
+      <rect x="698" y="228" width="71" height="7" rx="2"/>
+    </g>
+    <g transform="translate(694 268)">
+      <circle cx="0" cy="0" r="12" fill="#f2e2cd"/>
+      <path d="M-13 5 C-13 -6 13 -6 13 5 L13 7 L-13 7 Z" fill="#6b5442"/>
+      <rect x="-15" y="13" width="30" height="40" rx="8" fill="#4a6f8a"/>
+      <rect x="-15" y="53" width="11" height="26" rx="4" fill="#3f4d56"/>
+      <rect x="4" y="53" width="11" height="26" rx="4" fill="#3f4d56"/>
+    </g>
+    <g transform="translate(760 270)">
+      <circle cx="0" cy="0" r="12" fill="#f2e2cd"/>
+      <path d="M-13 4 C-13 -7 13 -7 13 4 L13 6 L-13 6 Z" fill="#8a8f95"/>
+      <rect x="-15" y="13" width="30" height="40" rx="8" fill="#6f8f5c"/>
+      <rect x="-15" y="53" width="11" height="24" rx="4" fill="#3f4d56"/>
+      <rect x="4" y="53" width="11" height="24" rx="4" fill="#3f4d56"/>
+    </g>
+    <path d="M712 256 C726 244 742 244 752 254" stroke="#7a8a94" stroke-width="3" fill="none" stroke-dasharray="7 6"/>
+  </g>
+
+  <!-- 5 家族の記録 -->
+  <g transform="translate(866 96)">
+    <rect x="0" y="26" width="112" height="82" rx="6" fill="#2f6249"/>
+    <rect x="8" y="16" width="104" height="82" rx="6" fill="#fdfbf4" stroke="#c8bda6" stroke-width="2"/>
+    <g stroke="#9aa7b0" stroke-width="3">
+      <path d="M22 40 L98 40"/><path d="M22 56 L98 56"/><path d="M22 72 L82 72"/>
+    </g>
+    <path d="M20 86 L34 100 L58 70" stroke="#2f8a5a" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- 家族 -->
+    <g transform="translate(-24 60)">
+      <circle cx="0" cy="0" r="11" fill="#f2e2cd"/>
+      <path d="M-13 14 C-13 0 13 0 13 14 L13 40 L-13 40 Z" fill="#c0533f"/>
+    </g>
+  </g>
+
+  <!-- 番号と説明 -->
+  <g font-family="'Hiragino Sans','Yu Gothic',Meiryo,sans-serif">
+    <g>
+      <circle cx="118" cy="470" r="25" fill="#ffffff" stroke="#20303a" stroke-width="4"/>
+      <text x="118" y="480" font-size="26" font-weight="bold" fill="#20303a" text-anchor="middle">1</text>
+      <rect x="26" y="504" width="192" height="34" rx="9" fill="#20303a" opacity="0.9"/>
+      <text x="122" y="528" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">権利の書類を集める</text>
+    </g>
+    <g>
+      <circle cx="352" cy="442" r="25" fill="#ffffff" stroke="#20303a" stroke-width="4"/>
+      <text x="352" y="452" font-size="26" font-weight="bold" fill="#20303a" text-anchor="middle">2</text>
+      <rect x="258" y="476" width="192" height="34" rx="9" fill="#20303a" opacity="0.9"/>
+      <text x="354" y="500" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">役場に照会する</text>
+    </g>
+    <g>
+      <circle cx="556" cy="392" r="25" fill="#ffffff" stroke="#20303a" stroke-width="4"/>
+      <text x="556" y="402" font-size="26" font-weight="bold" fill="#20303a" text-anchor="middle">3</text>
+      <rect x="462" y="426" width="192" height="34" rx="9" fill="#20303a" opacity="0.9"/>
+      <text x="558" y="450" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">現地で境界を見る</text>
+    </g>
+    <g>
+      <circle cx="768" cy="330" r="25" fill="#ffffff" stroke="#20303a" stroke-width="4"/>
+      <text x="768" y="340" font-size="26" font-weight="bold" fill="#20303a" text-anchor="middle">4</text>
+      <rect x="662" y="364" width="214" height="34" rx="9" fill="#20303a" opacity="0.9"/>
+      <text x="769" y="388" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">氏子総代に相談する</text>
+    </g>
+    <g>
+      <circle cx="946" cy="238" r="25" fill="#ffffff" stroke="#20303a" stroke-width="4"/>
+      <text x="946" y="248" font-size="26" font-weight="bold" fill="#20303a" text-anchor="middle">5</text>
+      <rect x="784" y="272" width="200" height="34" rx="9" fill="#7a3f22" opacity="0.94"/>
+      <text x="884" y="296" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">家族の記録に残す</text>
+    </g>
+  </g>
+</svg>

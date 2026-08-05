@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig1Title fig1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="fig1Title">森町の社寺と、その隣の土地を描いたイラスト</title>
+  <desc id="fig1Desc">奥に三倉・天方方面の山並み、中景に鎮守の森と鳥居、舞楽が奉奏される舞殿を配し、その右隣に境界杭で区切られた隣接地、空き家、畑を描いています。手前は参道と茶畑の畝、左手に水路が流れています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="f1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe8f3"/><stop offset="0.6" stop-color="#e8f2f4"/><stop offset="1" stop-color="#f3f7f1"/>
+    </linearGradient>
+    <linearGradient id="f1far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fc0cf"/><stop offset="1" stop-color="#b8d1da"/>
+    </linearGradient>
+    <linearGradient id="f1mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f9c93"/><stop offset="1" stop-color="#8db2a6"/>
+    </linearGradient>
+    <linearGradient id="f1grove" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f7a5f"/><stop offset="1" stop-color="#2c5b44"/>
+    </linearGradient>
+    <linearGradient id="f1tea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#84b165"/><stop offset="1" stop-color="#5b8c43"/>
+    </linearGradient>
+    <linearGradient id="f1water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcdcea"/><stop offset="1" stop-color="#98c5db"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#f1sky)"/>
+  <circle cx="118" cy="78" r="34" fill="#ffffff" opacity="0.7"/>
+
+  <!-- 遠景の山並み -->
+  <path fill="url(#f1far)" d="M0 176 L86 138 L166 166 L262 122 L358 162 L452 126 L556 168 L654 132 L760 170 L858 138 L946 172 L1000 152 L1000 232 L0 232 Z"/>
+  <path fill="url(#f1mid)" d="M0 206 L94 178 L188 208 L286 172 L392 210 L494 178 L598 214 L700 182 L806 216 L906 184 L1000 214 L1000 268 L0 268 Z"/>
+
+  <!-- 里の屋根の連なり -->
+  <g fill="#5c7f74" opacity="0.5">
+    <path d="M40 268 l24-18 24 18 z"/><path d="M86 268 l20-15 20 15 z"/>
+    <path d="M128 268 l26-19 26 19 z"/><path d="M182 268 l20-15 20 15 z"/>
+    <path d="M760 266 l22-17 22 17 z"/><path d="M806 266 l18-14 18 14 z"/>
+  </g>
+  <rect x="0" y="264" width="1000" height="8" fill="#7fa08f" opacity="0.4"/>
+
+  <!-- 里の地面 -->
+  <path fill="#e3ecd9" d="M0 270 L1000 262 L1000 560 L0 560 Z"/>
+  <path fill="#d6e5c8" d="M0 396 C220 380 420 392 620 404 C780 414 900 408 1000 400 L1000 560 L0 560 Z"/>
+  <g stroke="#b9d0a4" stroke-width="4" fill="none" opacity="0.7">
+    <path d="M0 312 C180 302 340 310 470 318"/>
+    <path d="M660 300 C790 294 900 300 1000 296"/>
+  </g>
+
+  <!-- 鎮守の森 -->
+  <g>
+    <path fill="url(#f1grove)" d="M150 300 C166 232 214 196 268 196 C328 196 372 236 384 296 C420 282 462 300 474 302 L474 310 L142 310 Z"/>
+    <path fill="url(#f1grove)" d="M96 306 C104 264 132 240 168 240 C204 240 232 266 240 306 Z"/>
+    <path fill="#2f6249" d="M420 308 C428 272 452 250 482 250 C512 250 536 274 542 308 Z"/>
+  </g>
+
+  <!-- 鳥居 -->
+  <g fill="#b8452f">
+    <rect x="246" y="268" width="12" height="60" rx="3"/>
+    <rect x="316" y="268" width="12" height="60" rx="3"/>
+    <rect x="228" y="258" width="118" height="12" rx="4"/>
+    <rect x="240" y="280" width="94" height="9" rx="3"/>
+  </g>
+
+  <!-- 舞殿（舞楽の舞台） -->
+  <g>
+    <rect x="392" y="356" width="196" height="12" rx="3" fill="#8d6a4a"/>
+    <rect x="404" y="368" width="14" height="44" fill="#6f5238"/>
+    <rect x="562" y="368" width="14" height="44" fill="#6f5238"/>
+    <rect x="392" y="410" width="196" height="10" rx="3" fill="#6f5238"/>
+    <rect x="398" y="300" width="12" height="58" fill="#7a5b3e"/>
+    <rect x="570" y="300" width="12" height="58" fill="#7a5b3e"/>
+    <path fill="#3f4d56" d="M376 300 L490 250 L604 300 L586 308 L490 264 L394 308 Z"/>
+    <path fill="#55666f" d="M394 300 L490 258 L586 300 L586 310 L394 310 Z"/>
+    <!-- 提灯 -->
+    <g>
+      <circle cx="404" cy="326" r="11" fill="#f0d26a"/><rect x="399" y="314" width="10" height="4" fill="#8a6a2e"/>
+      <circle cx="576" cy="326" r="11" fill="#f0d26a"/><rect x="571" y="314" width="10" height="4" fill="#8a6a2e"/>
+    </g>
+    <!-- 舞人 -->
+    <g>
+      <path d="M470 356 L462 318 L478 306 L498 306 L514 318 L506 356 Z" fill="#c0533f"/>
+      <path d="M462 322 L436 342 L444 352 L468 336 Z" fill="#d9705a"/>
+      <path d="M514 322 L540 342 L532 352 L508 336 Z" fill="#d9705a"/>
+      <circle cx="488" cy="292" r="16" fill="#f2e2cd"/>
+      <path d="M472 288 C476 272 500 272 504 288 Z" fill="#3f4d56"/>
+      <rect x="480" y="286" width="16" height="5" rx="2" fill="#8c3b2b"/>
+      <rect x="524" y="296" width="7" height="58" rx="3" fill="#6b5442" transform="rotate(22 527 325)"/>
+      <path d="M540 292 C552 282 566 284 570 294 C560 300 546 300 540 292 Z" fill="#3f7a5f"/>
+    </g>
+  </g>
+
+  <!-- 境界線と杭（社地と隣地の境） -->
+  <g>
+    <path d="M636 300 L636 470" stroke="#8a94a0" stroke-width="3" stroke-dasharray="12 9" fill="none"/>
+    <g fill="#e2e6ea" stroke="#8a94a0" stroke-width="2">
+      <rect x="629" y="330" width="14" height="26" rx="2"/>
+      <rect x="629" y="404" width="14" height="26" rx="2"/>
+      <rect x="629" y="452" width="14" height="26" rx="2"/>
+    </g>
+    <g fill="#c0392b">
+      <rect x="629" y="330" width="14" height="7" rx="2"/>
+      <rect x="629" y="404" width="14" height="7" rx="2"/>
+      <rect x="629" y="452" width="14" height="7" rx="2"/>
+    </g>
+  </g>
+
+  <!-- 隣接地の空き家 -->
+  <g>
+    <path fill="#6b5442" d="M690 336 L790 288 L890 336 L878 344 L790 302 L702 344 Z"/>
+    <rect x="706" y="340" width="168" height="86" fill="#efe8dc" stroke="#c9bda9" stroke-width="2"/>
+    <rect x="726" y="362" width="40" height="34" fill="#9fb6bf" stroke="#7d939c" stroke-width="2"/>
+    <rect x="812" y="362" width="40" height="34" fill="#9fb6bf" stroke="#7d939c" stroke-width="2"/>
+    <rect x="774" y="376" width="30" height="50" fill="#b99b78" stroke="#8d7355" stroke-width="2"/>
+    <path d="M700 426 L880 426" stroke="#a99a86" stroke-width="4"/>
+    <!-- 伸びた庭木 -->
+    <path d="M906 428 C902 392 916 366 936 360" stroke="#6b7f4a" stroke-width="7" fill="none"/>
+    <circle cx="938" cy="348" r="26" fill="#6f9a4e"/>
+    <circle cx="912" cy="364" r="18" fill="#5f8a44"/>
+  </g>
+
+  <!-- 隣接地の畑 -->
+  <g>
+    <rect x="660" y="440" width="320" height="58" rx="6" fill="#cdb894"/>
+    <g stroke="#a58e68" stroke-width="4">
+      <path d="M672 452 L968 452"/><path d="M672 468 L968 468"/><path d="M672 484 L968 484"/>
+    </g>
+  </g>
+
+  <!-- 参道 -->
+  <path fill="#ded5c2" d="M446 420 L534 420 L590 560 L392 560 Z"/>
+  <g stroke="#c6bba4" stroke-width="3">
+    <path d="M452 448 L580 448"/><path d="M440 486 L596 486"/><path d="M424 528 L614 528"/>
+  </g>
+
+  <!-- 手前の茶畑 -->
+  <g>
+    <path fill="url(#f1tea)" d="M0 452 C110 436 240 448 300 470 L300 560 L0 560 Z"/>
+    <g stroke="#4d7a39" stroke-width="5" fill="none" opacity="0.75">
+      <path d="M0 476 C100 462 200 472 268 492"/>
+      <path d="M0 506 C100 492 196 502 262 522"/>
+      <path d="M0 536 C96 522 188 532 252 552"/>
+    </g>
+  </g>
+
+  <!-- 水路 -->
+  <path fill="url(#f1water)" d="M300 470 C340 480 356 502 352 560 L392 560 C398 500 372 470 320 456 Z"/>
+
+  <!-- 説明ラベル -->
+  <g font-family="'Hiragino Sans','Yu Gothic',Meiryo,sans-serif" font-size="19" font-weight="bold">
+    <g>
+      <rect x="150" y="196" width="128" height="32" rx="8" fill="#20303a" opacity="0.86"/>
+      <text x="214" y="218" fill="#ffffff" text-anchor="middle">社叢と鳥居</text>
+    </g>
+    <g>
+      <rect x="412" y="200" width="156" height="32" rx="8" fill="#20303a" opacity="0.86"/>
+      <text x="490" y="222" fill="#ffffff" text-anchor="middle">舞楽が舞う舞殿</text>
+    </g>
+    <g>
+      <rect x="666" y="248" width="180" height="32" rx="8" fill="#7a3f22" opacity="0.92"/>
+      <text x="756" y="270" fill="#ffffff" text-anchor="middle">隣に接する私の土地</text>
+    </g>
+    <g>
+      <rect x="24" y="480" width="104" height="32" rx="8" fill="#20303a" opacity="0.86"/>
+      <text x="76" y="502" fill="#ffffff" text-anchor="middle">茶畑</text>
+    </g>
+    <g>
+      <rect x="592" y="486" width="88" height="30" rx="8" fill="#ffffff" opacity="0.94" stroke="#8a94a0" stroke-width="2"/>
+      <text x="636" y="507" fill="#20303a" font-size="17" text-anchor="middle">境界線</text>
+    </g>
+  </g>
+</svg>
