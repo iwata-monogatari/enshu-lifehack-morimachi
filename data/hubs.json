@@ -96,8 +96,8 @@
    "cta": "none",
    "official": [
     {
-     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/bosai/index.html",
-     "label": "防災／静岡県森町"
+     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/index.html",
+     "label": "危機管理課（防災）／静岡県森町"
     }
    ]
   },
@@ -116,8 +116,8 @@
    "cta": "none",
    "official": [
     {
-     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka_sports/index.html",
-     "label": "観光・文化・スポーツ／静岡県森町"
+     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/index.html",
+     "label": "社会教育課（施設・文化・スポーツ）／静岡県森町"
     }
    ]
   }
@@ -155,19 +155,71 @@
   }
  ],
  "frequent": [
-  { "href": "/life/start-living/certificates/", "emoji": "📄", "label": "住民票・戸籍・印鑑証明を取る" },
-  { "href": "/life/start-living/how-to-garbage/", "emoji": "🗑️", "label": "ごみの分け方・収集日を調べる" },
-  { "href": "/life/start-living/moved-in/", "emoji": "🧭", "label": "森町に引っ越してきたときの手続き" },
-  { "href": "/life/moving-out/moving-away/", "emoji": "📦", "label": "森町から引っ越すときの手続き" },
-  { "href": "/life/end-of-life/bereavement/", "emoji": "🕊️", "label": "家族が亡くなったときの手続き" },
-  { "href": "/life/parents-care/long-term-care-insurance/", "emoji": "👵", "label": "親の介護が始まったときの流れ" },
-  { "href": "/life/work-life/city-tax-payment/", "emoji": "💴", "label": "町税の納付方法を選ぶ" },
-  { "href": "/life/family-grow/child-allowance/", "emoji": "👶", "label": "児童手当・こども医療費助成を申請する" }
+  {
+   "href": "/life/start-living/certificates/",
+   "emoji": "📄",
+   "label": "住民票・戸籍・印鑑証明を取る"
+  },
+  {
+   "href": "/life/start-living/how-to-garbage/",
+   "emoji": "🗑️",
+   "label": "ごみの分け方・収集日を調べる"
+  },
+  {
+   "href": "/life/start-living/moved-in/",
+   "emoji": "🧭",
+   "label": "森町に引っ越してきたときの手続き"
+  },
+  {
+   "href": "/life/moving-out/moving-away/",
+   "emoji": "📦",
+   "label": "森町から引っ越すときの手続き"
+  },
+  {
+   "href": "/life/end-of-life/bereavement/",
+   "emoji": "🕊️",
+   "label": "家族が亡くなったときの手続き"
+  },
+  {
+   "href": "/life/parents-care/long-term-care-insurance/",
+   "emoji": "👵",
+   "label": "親の介護が始まったときの流れ"
+  },
+  {
+   "href": "/life/work-life/city-tax-payment/",
+   "emoji": "💴",
+   "label": "町税の納付方法を選ぶ"
+  },
+  {
+   "href": "/life/family-grow/child-allowance/",
+   "emoji": "👶",
+   "label": "児童手当・こども医療費助成を申請する"
+  }
  ],
  "databases": [
-  { "href": "/shrine/", "emoji": "⛩️", "label": "森町の神社", "note": "39社を地区別・系統別に整理。祭礼カレンダーもあります" },
-  { "href": "/temple/", "emoji": "🛕", "label": "森町の寺院", "note": "35ヶ寺を宗派別・地区別に整理。実家じまいのガイドもあります" },
-  { "href": "/tools/", "emoji": "🧰", "label": "便利ツール", "note": "ごみ分別の検索、引っ越しチェックリスト、ライフイベント年表" },
-  { "href": "/checklist/moved-in/", "emoji": "✅", "label": "状況別チェックリスト", "note": "引っ越し・結婚・出産・転職のやることを順番に確認" }
+  {
+   "href": "/shrine/",
+   "emoji": "⛩️",
+   "label": "森町の神社",
+   "note": "39社を地区別・系統別に整理。祭礼カレンダーもあります"
+  },
+  {
+   "href": "/temple/",
+   "emoji": "🛕",
+   "label": "森町の寺院",
+   "note": "35ヶ寺を宗派別・地区別に整理。実家じまいのガイドもあります"
+  },
+  {
+   "href": "/tools/",
+   "emoji": "🧰",
+   "label": "便利ツール",
+   "note": "ごみ分別の検索、引っ越しチェックリスト、ライフイベント年表"
+  },
+  {
+   "href": "/checklist/moved-in/",
+   "emoji": "✅",
+   "label": "状況別チェックリスト",
+   "note": "引っ越し・結婚・出産・転職のやることを順番に確認"
+  }
  ]
 }

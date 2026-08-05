@@ -11,6 +11,7 @@ topics_master.json は「調査済みの中項目155件」の台帳(出典・検
 実行: python3 scripts/build_sitemap.py
 """
 import json
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -18,10 +19,40 @@ SITE = 'https://morimachi.enshu-lifehack.com'
 PUBLISHABLE_STATUSES = ('ai-checked', 'machine-verified', 'human-verified', 'published')
 
 
-def page_exists(href):
+def page_path(href):
     if href == '/':
-        return (ROOT / 'index.html').is_file()
-    return (ROOT / href.strip('/') / 'index.html').is_file()
+        return ROOT / 'index.html'
+    return ROOT / href.strip('/') / 'index.html'
+
+
+def page_exists(href):
+    return page_path(href).is_file()
+
+
+def git_lastmod_map():
+    """各ファイルが最後にコミットされた日を git から取る（修正指示書15）。
+
+    lastmod にビルド日時を入れると、中身が変わっていなくても毎回更新扱いになり、
+    検索エンジンに対して嘘の更新シグナルを出すことになる。
+    実際に内容が変わった日＝最後のコミット日を使う。
+    """
+    try:
+        out = subprocess.run(
+            ['git', 'log', '--name-only', '--pretty=format:%cs', '--', '*.html'],
+            cwd=ROOT, capture_output=True, text=True, encoding='utf-8', timeout=120).stdout
+    except Exception:
+        return {}
+    dates = {}
+    current = None
+    for line in out.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        if len(line) == 10 and line[4] == '-' and line[7] == '-':
+            current = line
+        elif current and line.endswith('.html'):
+            dates.setdefault(line, current)  # 最初に出た＝最新のコミット
+    return dates
 
 
 def main():
@@ -62,13 +93,22 @@ def main():
         seen.add(u)
         (urls if page_exists(u) else missing).append(u)
 
+    lastmods = git_lastmod_map()
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    dated = 0
     for u in urls:
-        lines.append(f'<url><loc>{SITE}{u}</loc></url>')
+        rel = page_path(u).relative_to(ROOT).as_posix()
+        lastmod = lastmods.get(rel)
+        if lastmod:
+            dated += 1
+            lines.append(f'<url><loc>{SITE}{u}</loc><lastmod>{lastmod}</lastmod></url>')
+        else:
+            lines.append(f'<url><loc>{SITE}{u}</loc></url>')
     lines.append('</urlset>')
     out = ROOT / 'sitemap.xml'
     out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    print(f'  lastmod を付けたURL: {dated} / {len(urls)}')
     print(f'生成完了: {out}（{len(urls)}件 / 集約ページ{len(aux)}件 / ブログ記事{len(blog)}件）')
     if missing:
         print(f'実ファイルが無いため除外 {len(missing)}件: {missing}')

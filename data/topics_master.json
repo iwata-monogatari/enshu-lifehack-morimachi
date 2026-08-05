@@ -9847,12 +9847,12 @@
    }
   ],
   "facts": {
-   "window": "農林政策課 農地管理係",
-   "tel": "0538-85-6315（一部の番号は公式ページ本文で再確認できていません）",
-   "note": "農業振興地域整備計画の変更（農振除外）に関する定期見直し等の記載は確認できたが、除外申出専用ページは未確認。窓口は農地管理係で確定。"
+   "window": "農林政策課 農地管理係（農業委員会事務局）",
+   "tel": "0538-85-6315",
+   "note": "農振・農用地区域からの除外（農業振興地域整備計画の変更）の窓口は農林政策課 農地管理係。除外の申出は随時受付ではなく、計画の定期見直しに合わせて扱われるため、土地の場所と目的を伝えて時期と可否を先に確認する。除外申出専用の公式ページは確認できていない。"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "human-verified",
+  "verified_date": "2026-08-05",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": null,
@@ -11087,22 +11087,22 @@
   "sources_morimachi": [
    {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/noseigakari/index.html",
-    "label": "空き家付き農地の取得制度について／静岡県森町",
+    "label": "農政係／静岡県森町",
     "confidence": "high"
    },
    {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/noseigakari/index.html",
-    "label": "耕作目的での農地の売買・貸借について／静岡県森町",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html",
+    "label": "農地管理係／静岡県森町",
     "confidence": "high"
    }
   ],
   "facts": {
-   "window": "産業課 農政係・農業委員会事務局",
-   "tel": "0538-85-6315（一部の番号は公式ページ本文で再確認できていません）",
-   "note": "空き家付き農地取得制度（2021年4月〜、新規就農者向けに下限面積を緩和。三倉・天方・森地区20a、一宮・園田・飯田地区40a）あり。専用の「新規就農相談窓口」ページは未確認、静岡県の新規就農支援制度とも連携"
+   "window": "農林政策課 農政係・農地管理係（農業委員会事務局）",
+   "tel": "0538-85-6315",
+   "note": "2026年4月時点の組織は「農林政策課」。旧「産業課」名称のページURLは404になっている。空き家付き農地の取得制度（新規就農者向けに下限面積を緩和。三倉・天方・森地区20a、一宮・園田・飯田地区40a）の担当も農林政策課。"
   },
-  "status": "ai-checked",
-  "verified_date": null,
+  "status": "human-verified",
+  "verified_date": "2026-08-05",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": null,

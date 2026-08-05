@@ -35,6 +35,8 @@ STEPS: list[tuple[str, list[str]]] = [
     ("自治体表現（市役所→役場）と空セクション", [sys.executable, "scripts/fix_municipality_wording.py"]),
     ("経過した予定表現", [sys.executable, "scripts/fix_temporal_claims.py"]),
     ("リンクの重複表示", [sys.executable, "scripts/fix_duplicate_labels.py"]),
+    ("台帳の facts を公式窓口ブロックへ反映", [sys.executable, "scripts/sync_facts_to_html.py"]),
+    ("シェア文の再生成", [sys.executable, "scripts/inject_share_box.py"]),
     ("CTAの出し分け", [sys.executable, "scripts/inject_cta.py"]),
     ("見出しidの付与", [sys.executable, "scripts/add_section_ids.py"]),
     ("親ページの分岐カード", [sys.executable, "scripts/apply_parent_pages.py"]),

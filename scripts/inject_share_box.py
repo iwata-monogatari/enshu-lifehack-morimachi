@@ -32,8 +32,14 @@ TITLE_RE = re.compile(r"<title>(.*?)\s*\|")
 TITLE_ANY_RE = re.compile(r"<title>(.*?)</title>", re.S)
 
 
+# タイトル側にすでに地名が入っている場合、文頭の地名と重ならないようにする。
+# （例：「静岡県周智郡森町の森町の放課後児童クラブ…」になってしまうのを防ぐ）
+LEADING_PLACE_RE = re.compile(r"^(静岡県周智郡森町の|静岡県森町の|遠州森町の|森町の|森町)")
+
+
 def build_share_box(label, page_url):
-    line_text = "静岡県周智郡森町の%s、ここ見ると早いよ" % label
+    body = LEADING_PLACE_RE.sub("", label).strip() or label
+    line_text = "静岡県周智郡森町の%s、ここ見ると早いよ" % body
     line_href = "https://social-plugins.line.me/lineit/share?url=%s&text=%s" % (
         urllib.parse.quote(page_url, safe=""),
         urllib.parse.quote(line_text, safe=""),
