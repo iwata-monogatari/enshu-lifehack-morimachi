@@ -1,0 +1,51 @@
+# 森町ライフハック
+
+> 静岡県周智郡森町（遠州森町）の手続き・相談先を、暮らしの困りごとから探せる非公式の生活ナビ。
+> 住民票・税金・ごみ・子育て・介護・空き家・おくやみ・防災などを場面別に整理し、必ず森町公式サイトの確認先を案内する。
+
+- 本サイトは森町公式サイト・行政機関ではない（運営: 富士ヶ丘サービス株式会社、代表: 大石浩之・宅地建物取引士）。
+- 対象は静岡県周智郡森町。北海道茅部郡森町の情報は扱っていない。
+- 各ページに出典（森町公式ページ）と最終確認日を表示している。制度・金額・期限の最新確認は森町公式サイトで行うこと。
+- 全ページ一覧: https://morimachi.enshu-lifehack.com/sitemap.xml
+
+## 困りごとハブ（入口）
+
+- [手続きしたい](https://morimachi.enshu-lifehack.com/hub/procedures/): 住民票・戸籍・マイナンバー・税・水道・ごみ
+- [子ども・家族](https://morimachi.enshu-lifehack.com/hub/family/): 結婚・妊娠・出産・子育て・保育・学校
+- [親・介護](https://morimachi.enshu-lifehack.com/hub/care/): 介護の相談・要介護認定・ケアマネ・認知症・施設
+- [家・土地](https://morimachi.enshu-lifehack.com/hub/property/): 住宅・空き家・相続・固定資産税・農地・売却・解体
+- [困った・緊急](https://morimachi.enshu-lifehack.com/hub/trouble/): 防災・避難・夜間診療・生活費・税滞納・法律・消費者被害
+- [暮らしを楽しむ](https://morimachi.enshu-lifehack.com/hub/enjoy/): 公園・図書館・公共施設・寺院・神社・地域情報
+
+## 暮らしのカテゴリ
+
+- [学ぶ・育つ](https://morimachi.enshu-lifehack.com/life/education/)
+- [もしもの時](https://morimachi.enshu-lifehack.com/life/emergency/)
+- [人生の終わり（森町版）](https://morimachi.enshu-lifehack.com/life/end-of-life/)
+- [家族が増える](https://morimachi.enshu-lifehack.com/life/family-grow/)
+- [健康・医療（森町版トップ）](https://morimachi.enshu-lifehack.com/life/health-medical/)
+- [家・住まい（森町版）](https://morimachi.enshu-lifehack.com/life/housing/)
+- [これから暮らす](https://morimachi.enshu-lifehack.com/life/living-soon/)
+- [新しい場所へ（転出時の手続きまとめ）](https://morimachi.enshu-lifehack.com/life/moving-out/)
+- [親のこと](https://morimachi.enshu-lifehack.com/life/parents-care/)
+- [遊ぶ・使う・出かける](https://morimachi.enshu-lifehack.com/life/play-out/)
+- [森町で暮らし始めた](https://morimachi.enshu-lifehack.com/life/start-living/)
+- [困った・相談したい（森町の相談窓口まとめ）](https://morimachi.enshu-lifehack.com/life/troubles-consult/)
+- [働く・暮らす（森町版）](https://morimachi.enshu-lifehack.com/life/work-life/)
+
+## データベース・ツール
+
+- [森町の神社データベース](https://morimachi.enshu-lifehack.com/shrine/): 39社を地区別・系統別に整理。祭礼カレンダーつき
+- [森町の寺院データベース](https://morimachi.enshu-lifehack.com/temple/): 35ヶ寺を宗派別・地区別に整理。実家じまいガイドつき
+- [便利ツール](https://morimachi.enshu-lifehack.com/tools/): ごみ分別検索・引っ越しチェックリスト・ライフイベント年表
+- [状況別チェックリスト](https://morimachi.enshu-lifehack.com/checklist/moved-in/): 転入・結婚・出産・転職のやることリスト
+
+## ブログ
+
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（35本）
+
+## 運営情報
+
+- [執筆者と編集方針](https://morimachi.enshu-lifehack.com/about/author/)
+- [利用条件・免責・誤りのご連絡](https://morimachi.enshu-lifehack.com/terms/)
+- [運営会社: 富士ヶ丘サービス株式会社](https://www.fujigaoka-service.co.jp/)

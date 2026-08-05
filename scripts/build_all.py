@@ -49,6 +49,8 @@ STEPS: list[tuple[str, list[str]]] = [
     ("検索インデックスの生成", ["node", "scripts/build-search-index.mjs"]),
     ("検索テスト", ["node", "scripts/test-search.mjs"]),
     ("sitemap.xml の生成", [sys.executable, "scripts/build_sitemap.py"]),
+    ("正規URLへの301（_redirects）の生成", [sys.executable, "scripts/build_redirects.py"]),
+    ("llms.txt の生成", [sys.executable, "scripts/build_llms.py"]),
     ("URL台帳の生成", [sys.executable, "scripts/build_url_ledger.py"]),
 ]
 

@@ -29,29 +29,43 @@ def page_exists(href):
     return page_path(href).is_file()
 
 
+# これ以上のHTMLファイルを一度に触るコミットは、フッター差し替えや計測タグ追加など
+# サイト共通部品の機械的変更とみなし、lastmod の根拠にしない。
+# （全289ページが同じ lastmod になると Google は lastmod を信頼しなくなる）
+MASS_COMMIT_THRESHOLD = 100
+
+
 def git_lastmod_map():
-    """各ファイルが最後にコミットされた日を git から取る（修正指示書15）。
+    """各ファイルが最後に「内容として」変わった日を git から取る（修正指示書15）。
 
     lastmod にビルド日時を入れると、中身が変わっていなくても毎回更新扱いになり、
     検索エンジンに対して嘘の更新シグナルを出すことになる。
-    実際に内容が変わった日＝最後のコミット日を使う。
+    さらに、共通フッター差し替えのような全ページ一括コミットを含めると
+    全URLが同一日付になり lastmod が無意味になるため、
+    MASS_COMMIT_THRESHOLD 以上のHTMLを触ったコミットは除外する。
     """
     try:
         out = subprocess.run(
-            ['git', 'log', '--name-only', '--pretty=format:%cs', '--', '*.html'],
+            ['git', 'log', '--name-only', '--pretty=format:@@%cs', '--', '*.html'],
             cwd=ROOT, capture_output=True, text=True, encoding='utf-8', timeout=120).stdout
     except Exception:
         return {}
-    dates = {}
-    current = None
+    # コミット単位で (日付, 触ったHTML一覧) を集める
+    commits = []
     for line in out.splitlines():
         line = line.strip()
         if not line:
             continue
-        if len(line) == 10 and line[4] == '-' and line[7] == '-':
-            current = line
-        elif current and line.endswith('.html'):
-            dates.setdefault(line, current)  # 最初に出た＝最新のコミット
+        if line.startswith('@@'):
+            commits.append((line[2:], []))
+        elif commits and line.endswith('.html'):
+            commits[-1][1].append(line)
+    dates = {}
+    for date, files in commits:  # git log は新しい順
+        if len(files) >= MASS_COMMIT_THRESHOLD:
+            continue
+        for f in files:
+            dates.setdefault(f, date)  # 最初に出た＝最新の実質的変更
     return dates
 
 
@@ -94,12 +108,21 @@ def main():
         (urls if page_exists(u) else missing).append(u)
 
     lastmods = git_lastmod_map()
+
+    # git 以外の「内容の日付」: 台帳の最終確認日と、ブログ記事の公開日。
+    # 全ページ一括コミットを除外すると git 日付を持たないページが出るため、
+    # ページ単位で管理している実データの日付で補完し、両方あれば新しい方を使う。
+    verified = {t['href']: t['verified_date'] for t in published
+                if t.get('verified_date')}
+    blog_dates = {f"/blog/{p['slug']}/": p['date'] for p in blog if p.get('date')}
+
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     dated = 0
     for u in urls:
         rel = page_path(u).relative_to(ROOT).as_posix()
-        lastmod = lastmods.get(rel)
+        candidates = [d for d in (lastmods.get(rel), verified.get(u), blog_dates.get(u)) if d]
+        lastmod = max(candidates) if candidates else None  # YYYY-MM-DD は辞書順=時系列順
         if lastmod:
             dated += 1
             lines.append(f'<url><loc>{SITE}{u}</loc><lastmod>{lastmod}</lastmod></url>')

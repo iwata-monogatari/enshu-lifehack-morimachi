@@ -1,0 +1,7 @@
+# Cloudflare Workers (Static Assets) が全レスポンスに付けるヘッダー。
+# HSTS: 一度 https で訪れたブラウザに、以後 http アクセスを禁じる。
+#   http->https のリダイレクト自体はゾーン設定「Always Use HTTPS」で行う
+#   （ダッシュボード: enshu-lifehack.com > SSL/TLS > Edge Certificates）。
+/*
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
