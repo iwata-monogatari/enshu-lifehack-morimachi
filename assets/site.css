@@ -528,3 +528,33 @@ body:not(.hub) .logo,body.hub .logo{min-height:44px;display:inline-flex;align-it
 /* --- 関連サイト一覧（フッターから移した先） -------------------------------- */
 body.hub .related-list{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:8px}
 body.hub .related-list .official-link{justify-content:flex-start;gap:10px}
+
+/* --- トップのヒーロー図 -----------------------------------------------------
+   PC・スマホどちらでも成立するよう、画像の縦横比を画面幅で切り替える。
+   width/height を持たせたうえで aspect-ratio を指定し、読み込み前後で
+   レイアウトがずれない（CLSが出ない）ようにしている。
+   実写に差し替えるときは /assets/img/hero-morimachi.* を置き換えるだけでよい。 */
+body.home .hero{padding:0;overflow:hidden}
+body.home .hero-visual{margin:0;position:relative;background:#e6f2f6}
+body.home .hero-visual img{display:block;width:100%;height:auto;aspect-ratio:1600/460;object-fit:cover}
+body.home .hero-visual figcaption{position:absolute;right:8px;bottom:8px;margin:0;
+  background:rgba(255,255,255,.86);color:#3c4a52;font-size:11.5px;font-weight:700;
+  border-radius:999px;padding:3px 10px;line-height:1.5}
+body.home .hero .eyebrow{margin:16px 18px 6px}
+body.home .hero h1{margin:0 18px 10px}
+body.home .hero .lead{margin:0 18px 18px}
+@media(max-width:760px){
+  /* スマホでは横長すぎると帯にしか見えないので少し縦を持たせる。
+     ただし高くしすぎると、検索窓の下に置くべき緊急導線が画面外へ落ちるため150pxで止める。 */
+  body.home .hero-visual img{aspect-ratio:2/1;max-height:150px}
+  body.home .hero .eyebrow{margin:12px 16px 5px}
+  body.home .hero h1{margin:0 16px 8px}
+  body.home .hero .lead{margin:0 16px 14px}
+  body.home .hero-visual figcaption{font-size:11px;right:6px;bottom:6px}
+}
+@media(min-width:1100px){
+  body.home .hero-visual img{max-height:300px}
+}
+@media(prefers-reduced-motion:no-preference){
+  body.home .hero-visual img{transition:none}
+}

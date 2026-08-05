@@ -218,6 +218,14 @@ def build() -> str:
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
 <main><div class="wrap">
 <section class="hero">
+<figure class="hero-visual">
+<picture>
+<source srcset="/assets/img/hero-morimachi.svg" type="image/svg+xml">
+<img src="/assets/img/hero-morimachi.svg" width="1600" height="460" fetchpriority="high" decoding="async"
+ alt="静岡県周智郡森町の里山のイラスト。奥に山並み、中景に鎮守の森と鳥居、手前に太田川と茶畑の畝。">
+</picture>
+<figcaption>静岡県周智郡森町（遠州森町）／イラスト</figcaption>
+</figure>
 <p class="eyebrow">森町の暮らしと手続きが、すぐわかる</p>
 <h1>静岡県森町の手続き・相談先を、困りごとから探せます</h1>
 <p class="lead">住民票、税金、ごみ、子育て、介護、空き家、おくやみ、防災。

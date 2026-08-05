@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 460" role="img"
+     aria-labelledby="heroTitle heroDesc" preserveAspectRatio="xMidYMid slice">
+  <title id="heroTitle">静岡県周智郡森町の風景イラスト</title>
+  <desc id="heroDesc">遠州森町の里山を描いたイラストです。奥に三倉方面の山並み、中景に鎮守の森と鳥居、手前に太田川と茶畑の畝を配しています。写真ではありません。</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe8f3"/>
+      <stop offset="0.55" stop-color="#e6f2f6"/>
+      <stop offset="1" stop-color="#f2f7f2"/>
+    </linearGradient>
+    <linearGradient id="ridgeFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fc0cf"/><stop offset="1" stop-color="#b6d0da"/>
+    </linearGradient>
+    <linearGradient id="ridgeMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f9c93"/><stop offset="1" stop-color="#89b0a4"/>
+    </linearGradient>
+    <linearGradient id="grove" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f7a5f"/><stop offset="1" stop-color="#2f6249"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcdcea"/><stop offset="1" stop-color="#9cc8dd"/>
+    </linearGradient>
+    <linearGradient id="tea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fae61"/><stop offset="1" stop-color="#5d8f45"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 空 -->
+  <rect width="1600" height="460" fill="url(#sky)"/>
+  <circle cx="1330" cy="96" r="46" fill="#fff" opacity="0.75"/>
+
+  <!-- 遠景の山並み（三倉・天方方面の山） -->
+  <path fill="url(#ridgeFar)" d="M0 214 L128 168 L236 200 L352 150 L470 196 L604 142 L742 192 L864 156 L1006 200 L1140 158 L1268 198 L1400 164 L1520 202 L1600 176 L1600 260 L0 260 Z"/>
+  <path fill="url(#ridgeMid)" d="M0 246 L112 214 L228 244 L346 206 L470 246 L596 212 L730 250 L858 218 L988 252 L1122 216 L1248 250 L1382 220 L1502 252 L1600 228 L1600 300 L0 300 Z"/>
+
+  <!-- 鎮守の森（遠江国一宮・小國神社の杜を想起） -->
+  <g>
+    <path fill="url(#grove)" d="M900 300 C912 244 946 214 986 214 C1030 214 1062 246 1072 292 C1104 280 1138 300 1146 300 L1146 306 L892 306 Z"/>
+    <path fill="url(#grove)" d="M1120 302 C1128 268 1152 248 1180 248 C1212 248 1236 270 1242 302 Z"/>
+    <!-- 鳥居 -->
+    <g fill="#b8452f">
+      <rect x="990" y="268" width="9" height="42" rx="2"/>
+      <rect x="1041" y="268" width="9" height="42" rx="2"/>
+      <rect x="978" y="262" width="84" height="9" rx="3"/>
+      <rect x="985" y="277" width="70" height="7" rx="2"/>
+    </g>
+  </g>
+
+  <!-- 対岸の里（遠州の小京都の町並みを想起させる屋根の連なり） -->
+  <g fill="#5c7f74" opacity="0.55">
+    <path d="M150 300 l30-22 30 22 z"/><path d="M206 300 l26-19 26 19 z"/>
+    <path d="M258 300 l32-24 32 24 z"/><path d="M320 300 l24-18 24 18 z"/>
+    <path d="M372 300 l30-22 30 22 z"/><path d="M430 300 l26-19 26 19 z"/>
+    <path d="M600 300 l28-21 28 21 z"/><path d="M654 300 l24-18 24 18 z"/>
+  </g>
+  <rect x="0" y="298" width="1600" height="10" fill="#7fa08f" opacity="0.45"/>
+
+  <!-- 太田川 -->
+  <path fill="url(#river)" d="M0 316 C240 300 420 336 660 328 C900 320 1080 348 1330 334 C1440 328 1520 336 1600 330 L1600 366 C1500 372 1420 362 1320 368 C1070 382 890 354 650 362 C410 370 230 336 0 352 Z"/>
+  <path d="M120 336 q60 -6 120 2" stroke="#fff" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M760 344 q70 -6 140 3" stroke="#fff" stroke-width="3" fill="none" opacity="0.45" stroke-linecap="round"/>
+  <path d="M1250 344 q60 -5 120 1" stroke="#fff" stroke-width="3" fill="none" opacity="0.45" stroke-linecap="round"/>
+
+  <!-- 手前の茶畑（森の茶の畝） -->
+  <rect x="0" y="360" width="1600" height="100" fill="url(#tea)"/>
+  <g stroke="#e8f2dd" stroke-width="7" fill="none" opacity="0.55" stroke-linecap="round">
+    <path d="M-40 378 C300 366 700 392 1080 376 C1300 366 1480 384 1650 374"/>
+    <path d="M-40 400 C300 388 700 414 1080 398 C1300 388 1480 406 1650 396"/>
+    <path d="M-40 424 C300 412 700 438 1080 422 C1300 412 1480 430 1650 420"/>
+    <path d="M-40 450 C300 438 700 464 1080 448 C1300 438 1480 456 1650 446"/>
+  </g>
+  <g fill="#4b7a38" opacity="0.35">
+    <ellipse cx="220" cy="390" rx="150" ry="12"/>
+    <ellipse cx="960" cy="412" rx="190" ry="13"/>
+  </g>
+</svg>

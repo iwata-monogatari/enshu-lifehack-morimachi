@@ -439,7 +439,7 @@
   "has_faq_jsonld": false,
   "has_breadcrumb_jsonld": false,
   "exposes_raw_keys": false,
-  "bytes": 18992,
+  "bytes": 19458,
   "action": "rewrite",
   "merge_target": "",
   "priority": "P0",
