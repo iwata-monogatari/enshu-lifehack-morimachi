@@ -2,9 +2,10 @@
 """トップページを生成する（抜本改修指示書 6 / 12.1 / 12.2 / 12.3）。
 
 表示順は指示書 6.1 のとおり:
-  1 サイト名と非公式表示  2 検索窓  3 緊急導線  4 6つの生活場面
-  5 よく使われる手続き8件  6 状況別チェックリスト  7 森町独自データベース
-  8 最新確認情報  9 運営者・編集方針  10 必要な場合のみ事業相談導線
+  1 サイト名と非公式表示  2 検索窓  3 緊急導線  4 森町ブログ
+  5 6つの生活場面  6 よく使われる手続き8件  7 状況別チェックリスト
+  8 森町独自データベース  9 最新確認情報  10 運営者・編集方針
+  11 必要な場合のみ事業相談導線
 
 守ること:
   - 本文中のリンクは60以下（13カテゴリ全項目の展開表示をやめる）
@@ -27,6 +28,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 CITY = json.loads((ROOT / "data" / "city.json").read_text(encoding="utf-8"))
 HUBS = json.loads((ROOT / "data" / "hubs.json").read_text(encoding="utf-8"))
 TOPICS = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
+BLOG_POSTS = json.loads((ROOT / "data" / "blog-posts.json").read_text(encoding="utf-8"))["posts"]
 SITE = CITY["site_url"].rstrip("/")
 SITE_NAME = CITY["site_name"]
 TODAY = "2026-08-05"
@@ -48,6 +50,16 @@ CHECKLISTS = [
     ("/checklist/baby/", "👶", "子どもが生まれた", "出生届・児童手当・健診・保育園"),
     ("/checklist/job-change/", "💴", "転職した・退職した", "国民健康保険・国民年金・住民税"),
 ]
+
+BLOG_AXIS_LABELS = {
+    "mon": "手続き・制度",
+    "tue": "空き家・実家・相続",
+    "wed": "寺社・歴史",
+    "thu": "農地・山林・茶畑",
+    "fri": "地区めぐり",
+    "sat": "祭礼・イベント",
+    "sun": "移住・暮らし・データ",
+}
 
 
 def esc(s: str) -> str:
@@ -117,6 +129,39 @@ def database_section() -> str:
             '<h2 id="db-title">森町を知る・調べる</h2>'
             '<p class="lead">手続きではなく、森町そのものを調べるための資料とツールです。</p>'
             f'<div class="section-grid">{cards}</div></section>')
+
+
+def blog_section() -> str:
+    """ブログの存在と最新記事を、トップページで明確に案内する。"""
+    if not BLOG_POSTS:
+        return ""
+
+    post = max(BLOG_POSTS, key=lambda item: item["date"])
+    year, month, day = post["date"].split("-")
+    published = f"{int(year)}年{int(month)}月{int(day)}日"
+    axis = BLOG_AXIS_LABELS.get(post.get("axis", ""), "森町の暮らし")
+    href = f'/blog/{esc(post["slug"])}/'
+    return (
+        '<section class="home-blog" id="home-blog" aria-labelledby="home-blog-title">'
+        '<p class="home-blog-kicker"><span aria-hidden="true">✍️</span>'
+        " 大石浩之が書くブログ</p>"
+        '<div class="home-blog-intro">'
+        '<h2 id="home-blog-title">森町ブログ</h2>'
+        "<p>森町の制度や暮らしについて、運営者の大石浩之が公表情報を確認しながら書いています。</p>"
+        "</div>"
+        f'<a class="home-blog-latest" href="{href}">'
+        '<span class="home-blog-latest-label">最新記事</span>'
+        '<span class="home-blog-meta">'
+        f'<time datetime="{esc(post["date"])}">{published}</time>'
+        f'<span>{esc(axis)}</span></span>'
+        f'<span class="home-blog-article-title">{esc(post["title"])}</span>'
+        f'<span class="home-blog-description">{esc(post.get("home_description", post["description"]))}</span>'
+        '<span class="home-blog-read">この記事を読む <span aria-hidden="true">→</span></span>'
+        "</a>"
+        '<div class="home-blog-actions">'
+        '<a class="btn" href="/blog/">ブログの記事一覧を見る</a>'
+        "</div></section>"
+    )
 
 
 def freshness_section(stats: dict) -> str:
@@ -213,6 +258,7 @@ def build() -> str:
 <meta name="description" content="{esc(DESCRIPTION)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
+<link rel="stylesheet" href="/assets/home-blog.css?v=20260805a">
 </head>
 <body class="hub home">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
@@ -231,6 +277,11 @@ def build() -> str:
 <p class="lead">住民票、税金、ごみ、子育て、介護、空き家、おくやみ、防災。
 森町ライフハックは、<b>静岡県周智郡森町（遠州森町）</b>の暮らしと手続きを整理する案内サイトです。
 <b>森町公式サイトではありません</b>。公式情報を整理し、最後は必ず公式ページへご案内します。</p>
+<a class="home-blog-shortcut" href="#home-blog">
+<span class="home-blog-shortcut-icon" aria-hidden="true">✍️</span>
+<span><strong>森町ブログ</strong><small>大石浩之が書く、森町の暮らしの記事</small></span>
+<span class="home-blog-shortcut-arrow" aria-hidden="true">↓</span>
+</a>
 </section>
 
 <section class="site-search" aria-labelledby="search-title">
@@ -246,6 +297,7 @@ def build() -> str:
 </section>
 
 {emergency_section()}
+{blog_section()}
 {hub_section()}
 {frequent_section()}
 {checklist_section()}

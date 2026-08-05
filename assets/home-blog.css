@@ -1,0 +1,112 @@
+/* トップページのブログ導線。ブログであることと最新記事を独立して見せる。 */
+body.home .home-blog-shortcut{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  margin-top:14px;
+  border:2px solid #277453;
+  border-radius:12px;
+  background:#edf8f2;
+  padding:9px 13px;
+  color:#164d36;
+  text-decoration:none
+}
+body.home .home-blog-shortcut:hover{background:#e1f2e9;text-decoration:none}
+body.home .home-blog-shortcut-icon{font-size:20px}
+body.home .home-blog-shortcut strong{display:block;font-size:15px;line-height:1.35}
+body.home .home-blog-shortcut small{display:block;margin-top:2px;color:#4c6257;font-size:11.5px;line-height:1.45}
+body.home .home-blog-shortcut-arrow{margin-left:3px;color:#277453;font-size:18px;font-weight:900}
+
+body.home .home-blog{
+  position:relative;
+  overflow:hidden;
+  margin-top:30px;
+  padding:20px;
+  border:2px solid #277453;
+  border-radius:16px;
+  background:linear-gradient(135deg,#edf8f2 0%,#fff 72%);
+  box-shadow:0 8px 24px rgba(21,73,50,.1)
+}
+body.home .home-blog::after{
+  content:"BLOG";
+  position:absolute;
+  top:10px;
+  right:14px;
+  color:rgba(22,92,61,.08);
+  font-size:48px;
+  font-weight:900;
+  letter-spacing:.06em;
+  line-height:1;
+  pointer-events:none
+}
+body.home .home-blog-kicker{
+  position:relative;
+  z-index:1;
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+  margin:0 0 9px;
+  border-radius:999px;
+  background:#165c3d;
+  color:#fff;
+  padding:5px 11px;
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.04em
+}
+body.home .home-blog-intro{position:relative;z-index:1}
+body.home .home-blog h2{
+  margin:0 0 8px;
+  border:0;
+  padding:0;
+  color:#164d36;
+  font-size:24px
+}
+body.home .home-blog-intro p{max-width:680px;color:#37483f;font-size:14px}
+body.home .home-blog-latest{
+  position:relative;
+  z-index:1;
+  display:grid;
+  gap:7px;
+  margin-top:14px;
+  border:1px solid #b7d8c7;
+  border-left:6px solid #277453;
+  border-radius:12px;
+  background:#fff;
+  padding:16px 18px;
+  color:inherit;
+  text-decoration:none
+}
+body.home .home-blog-latest:hover{
+  border-color:#277453;
+  background:#f8fcfa;
+  text-decoration:none;
+  transform:translateY(-1px)
+}
+body.home .home-blog-latest-label{
+  justify-self:start;
+  border-radius:999px;
+  background:#e6f4ec;
+  color:#165c3d;
+  padding:3px 9px;
+  font-size:12px;
+  font-weight:800
+}
+body.home .home-blog-meta{display:flex;flex-wrap:wrap;gap:6px 12px;color:#5e6c65;font-size:12.5px}
+body.home .home-blog-meta span::before{content:"・";margin-right:10px;color:#8ca198}
+body.home .home-blog-article-title{color:#164d36;font-size:19px;font-weight:800;line-height:1.5}
+body.home .home-blog-description{color:#45564d;font-size:13.5px;line-height:1.75}
+body.home .home-blog-read{margin-top:2px;color:#17613f;font-size:14px;font-weight:800}
+body.home .home-blog-actions{position:relative;z-index:1;display:flex;margin-top:12px}
+body.home .home-blog-actions .btn{min-width:230px;background:#165c3d;border-color:#165c3d;color:#fff}
+body.home .home-blog-actions .btn:hover{background:#0f472e;color:#fff}
+
+@media(max-width:600px){
+  body.home .home-blog{padding:16px;margin-top:24px}
+  body.home .home-blog::after{font-size:36px;top:14px;right:10px}
+  body.home .home-blog h2{font-size:21px}
+  body.home .home-blog-latest{padding:14px;border-left-width:5px}
+  body.home .home-blog-article-title{font-size:17px}
+  body.home .home-blog-description{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+  body.home .home-blog-actions,.home-blog-actions .btn{width:100%}
+}

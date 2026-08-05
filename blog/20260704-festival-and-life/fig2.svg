@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-label="森の祭りは、観光情報だけでなく「地域の暮らし」として読みたいの行動順">
+<defs><style>.ttl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#203b32}.lbl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#50645b}.num{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}</style></defs>
+<rect width="1000" height="430" rx="18" fill="#f8fbf8" stroke="#c9d9d0"/>
+<rect x="0" y="0" width="1000" height="78" rx="18" fill="#174f3b"/>
+<rect x="0" y="58" width="1000" height="20" fill="#174f3b"/>
+<text x="40" y="51" class="num" font-size="27">大石が勧める確認の順番</text>
+<rect x="36" y="96" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
+<circle cx="77" cy="142" r="23" fill="#b78b35"/>
+<text x="77" y="150" text-anchor="middle" class="num" font-size="19">1</text>
+<text x="116" y="130" class="ttl" font-size="19">確認 1</text>
+<text x="116" y="157" class="lbl" font-size="15">町公式で行事と文化の背景を読む</text>
+<rect x="36" y="198" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
+<circle cx="77" cy="244" r="23" fill="#b78b35"/>
+<text x="77" y="252" text-anchor="middle" class="num" font-size="19">2</text>
+<text x="116" y="232" class="ttl" font-size="19">確認 2</text>
+<text x="116" y="259" class="lbl" font-size="15">訪問前に開催情報と交通案内を確認する</text>
+<rect x="36" y="300" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
+<circle cx="77" cy="346" r="23" fill="#b78b35"/>
+<text x="77" y="354" text-anchor="middle" class="num" font-size="19">3</text>
+<text x="116" y="334" class="ttl" font-size="19">確認 3</text>
+<text x="116" y="361" class="lbl" font-size="15">住む予定なら地域での関わり方を無理なく尋ねる</text>
+</svg>

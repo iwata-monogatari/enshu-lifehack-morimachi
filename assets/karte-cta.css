@@ -1,0 +1,188 @@
+/* 実家カルテ申込み導線: 対象記事だけが読み込む */
+.karte-cta {
+  margin: 22px 0;
+  padding: 22px;
+  border: 1px solid #b8d8cd;
+  border-left: 6px solid #087fa9;
+  border-radius: 0 16px 16px 0;
+  background: linear-gradient(135deg, #f2fbff 0%, #f6fbf8 100%);
+  box-shadow: 0 8px 24px rgba(19, 75, 78, .08);
+}
+.karte-cta .karte-cta-eyebrow {
+  display: inline-block;
+  margin: 0 0 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #dff2f8;
+  color: #06698e;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+.karte-cta .karte-cta-title {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #075f7e;
+  font-size: clamp(21px, 3vw, 28px);
+  line-height: 1.5;
+}
+.karte-cta .karte-cta-copy {
+  margin: 12px 0 0;
+  color: #253f48;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.karte-cta .karte-cta-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.karte-cta .karte-cta-benefits li {
+  padding: 6px 12px;
+  border: 1px solid #b9d9cf;
+  border-radius: 999px;
+  background: #fff;
+  color: #174f56;
+  font-size: 14px;
+  font-weight: 800;
+}
+.karte-cta .karte-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: stretch;
+  margin-top: 17px;
+}
+.karte-cta .karte-cta-primary,
+.karte-cta .karte-cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+}
+.karte-cta .karte-cta-primary {
+  flex: 1 1 360px;
+  border: 1px solid #d8a20b;
+  background: #f4c430;
+  color: #153c4b;
+  box-shadow: 0 3px 0 #bd8800;
+}
+.karte-cta .karte-cta-primary:hover {
+  background: #ffcf3f;
+  text-decoration: none;
+}
+.karte-cta .karte-cta-secondary {
+  flex: 0 1 210px;
+  border: 1px solid #087fa9;
+  background: #fff;
+  color: #06698e;
+}
+.karte-cta .karte-cta-secondary:hover {
+  background: #eaf7fb;
+  text-decoration: none;
+}
+.karte-cta .karte-cta-primary:focus-visible,
+.karte-cta .karte-cta-secondary:focus-visible,
+.mobile-karte-cta a:focus-visible {
+  outline: 3px solid #102f40;
+  outline-offset: 3px;
+}
+.karte-cta .cta-disclosure {
+  margin: 14px 0 0;
+  color: #5d6d73;
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+.mobile-karte-cta,
+.mobile-karte-spacer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .karte-cta {
+    margin: 18px 0;
+    padding: 18px 16px;
+    border-left-width: 5px;
+  }
+  .karte-cta .karte-cta-title {
+    font-size: 21px;
+  }
+  .karte-cta .karte-cta-actions {
+    flex-direction: column;
+  }
+  .karte-cta .karte-cta-primary,
+  .karte-cta .karte-cta-secondary {
+    flex: none;
+    width: 100%;
+  }
+  .mobile-karte-spacer {
+    display: block;
+    height: calc(78px + env(safe-area-inset-bottom));
+  }
+  .mobile-karte-cta {
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 9px 12px calc(9px + env(safe-area-inset-bottom));
+    border-top: 1px solid rgba(255, 255, 255, .24);
+    background: rgba(5, 70, 94, .97);
+    box-shadow: 0 -6px 20px rgba(0, 37, 54, .22);
+  }
+  .mobile-karte-cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .mobile-karte-meta {
+    flex: 1 1 auto;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.45;
+  }
+  .mobile-karte-cta a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    min-height: 48px;
+    padding: 10px 15px;
+    border: 1px solid #e3ad18;
+    border-radius: 9px;
+    background: #f4c430;
+    color: #153c4b;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1.35;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .mobile-karte-meta {
+    font-size: 11px;
+  }
+  .mobile-karte-cta a {
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 13px;
+  }
+}

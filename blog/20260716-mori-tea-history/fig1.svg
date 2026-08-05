@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-label="「森の茶」は商品名だけでなく、町の歴史そのものだったの事実整理">
+<defs><style>.ttl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#203b32}.lbl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#50645b}.num{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}</style></defs>
+<rect width="1000" height="430" rx="18" fill="#f8fbf8" stroke="#c9d9d0"/>
+<rect x="0" y="0" width="1000" height="78" rx="18" fill="#174f3b"/>
+<rect x="0" y="58" width="1000" height="20" fill="#174f3b"/>
+<text x="40" y="51" class="num" font-size="27">公式資料から見えること</text>
+<rect x="36" y="96" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
+<circle cx="77" cy="142" r="23" fill="#b78b35"/>
+<text x="77" y="150" text-anchor="middle" class="num" font-size="19">1</text>
+<text x="116" y="130" class="ttl" font-size="19">公式資料で確認</text>
+<text x="116" y="157" class="lbl" font-size="15">森町公式は『遠州森の茶業史』とダイジェスト版を刊行し、古くから</text>
+<text x="116" y="177" class="lbl" font-size="15">茶産地として栄えた森町の歴史と文化をまとめた資料として案内して</text>
+<rect x="36" y="198" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
+<circle cx="77" cy="244" r="23" fill="#b78b35"/>
+<text x="77" y="252" text-anchor="middle" class="num" font-size="19">2</text>
+<text x="116" y="232" class="ttl" font-size="19">良い点</text>
+<text x="116" y="259" class="lbl" font-size="15">茶業の歴史を町がまとまった資料として残している</text>
+<rect x="36" y="300" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
+<circle cx="77" cy="346" r="23" fill="#b78b35"/>
+<text x="77" y="354" text-anchor="middle" class="num" font-size="19">3</text>
+<text x="116" y="334" class="ttl" font-size="19">注意点</text>
+<text x="116" y="361" class="lbl" font-size="15">現在の茶園や経営状況を歴史資料だけで判断しない</text>
+</svg>
