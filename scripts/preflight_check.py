@@ -14,6 +14,10 @@
  10. sitemap.xml の整合（実在・canonical一致・統合先を含まない）
  11. 寺院・神社の件数整合
  12. アクセシビリティの機械チェック（本文16px未満・alt・lang・H1数）
+ 13. 禁止文言（市役所テンプレート・戸籍届書の押印必須・重複表示）
+ 14. 空見出し・空セクション
+ 15. 経過した予定表現
+ 16. canonical・og:url・サイトマップのパラメータ混入
 
 終了コード: 致命的な不整合があれば 1
 """
@@ -307,6 +311,117 @@ def check_a11y() -> None:
     print(f"   alt欠落 {noalt} 件 / 16px未満のfont-size指定 {len(small)} 箇所（多くは補足文）")
 
 
+def check_forbidden_terms() -> None:
+    """再発しやすい文言を機械的に止める（修正指示書 29 test:content）。"""
+    print("13. 禁止文言・テンプレート残り")
+    muni = json.loads((ROOT / "data" / "city.json").read_text(encoding="utf-8"))["municipality"]
+
+    # 森町は町。他自治体を正式名称で指す「磐田市役所」等は許可する。
+    other_city = re.compile(r"(磐田|袋井|掛川|浜松|菊川|御前崎|湖西|静岡|島田)市役所")
+    hits = 0
+    for url, html in ALL.items():
+        for m in re.finditer(r".{0,12}市役所.{0,12}", html):
+            if other_city.search(m.group(0)):
+                continue
+            err(f"「市役所」が残っている（森町は{muni['office_formal']}）: {url} → …{m.group(0)}…")
+            hits += 1
+
+    # 戸籍届書の押印は任意（法務省・2021-09-01〜）
+    seal = re.compile(r"(印鑑が必要|印鑑を持参|印鑑を用意|届出人の印鑑)")
+    for url, html in ALL.items():
+        body = re.sub(r'<!-- SEAL-NOTE -->.*?</p>', "", html, flags=re.S)
+        for m in seal.finditer(body):
+            around = body[max(0, m.start() - 60):m.end() + 60]
+            if any(w in around for w in ("給水届", "印鑑登録", "印鑑証明")):
+                continue
+            err(f"戸籍届書に押印必須の表現: {url} → …{m.group(0)}…")
+            hits += 1
+
+    # 同じ語が隣接して2回出るリンク
+    for url, html in ALL.items():
+        for m in re.finditer(r"<a [^>]*>(.*?)</a>", html, re.S):
+            text = re.sub(r"\s+", " ", strip_tags(m.group(1))).strip()
+            words = text.split()
+            for i in range(len(words) - 1):
+                if words[i] == words[i + 1] and len(words[i]) > 2:
+                    err(f"リンク内で同じ語が重複: {url} → 「{text}」")
+                    hits += 1
+    print(f"   検出 {hits} 件")
+
+
+def check_empty_sections() -> None:
+    """見出しだけあって中身が無いセクションを止める（修正指示書 P0-3）。"""
+    print("14. 空見出し・空セクション")
+    hits = 0
+    for url, html in ALL.items():
+        # h2 の区切りで見る。下位見出し(h3)は「中身がある」ことの証拠として扱う。
+        for m in re.finditer(r"<h2\b[^>]*>(.*?)</h2>(.*?)(?=<h2\b|</main>)", html, re.S):
+            heading, body = strip_tags(m.group(1)), m.group(2)
+            visible = strip_tags(re.sub(r"<script.*?</script>", "", body, flags=re.S))
+            has_content = re.search(r"<(h3|a|img|input|button|li|p|td)\b", body)
+            if heading and not visible and not has_content:
+                err(f"見出しの中身が空: {url} → 「{heading}」")
+                hits += 1
+        for m in re.finditer(r'<span class="label">([^<]*)</span><ul>\s*</ul>', html):
+            err(f"中身が空のステップ: {url} → 「{m.group(1)}」")
+            hits += 1
+    print(f"   検出 {hits} 件")
+
+
+def check_temporal_claims() -> None:
+    """すでに過ぎた日付を「予定」と書いていないか（修正指示書 P0-5）。"""
+    print("15. 経過した予定表現")
+    today = "2026-08-05"
+    era_year = {8: 2026, 9: 2027, 10: 2028}  # 令和
+    planned = re.compile(
+        r"(令和(\d+)年(\d+)月|(20\d\d)年(\d+)月)[^。<]{0,40}?"
+        r"(予定|見込み|改訂作業|準備中|進められている)")
+    hits = 0
+    for url, html in ALL.items():
+        # ブログは日付入りの記録なので対象外（本文に確認日を明記している）
+        if url.startswith("/blog/"):
+            continue
+        for m in planned.finditer(strip_tags(html)):
+            if m.group(2):
+                year = era_year.get(int(m.group(2)))
+                month = int(m.group(3))
+            else:
+                year, month = int(m.group(4)), int(m.group(5))
+            if year is None:
+                continue
+            if f"{year:04d}-{month:02d}" < today[:7]:
+                err(f"すでに過ぎた日付を「予定」と書いている: {url} → 「{m.group(0)[:50]}」")
+                hits += 1
+    print(f"   検出 {hits} 件")
+
+
+def check_canonical_params() -> None:
+    """canonical・サイトマップ・内部リンクに計測パラメータが混じっていないか（修正指示書14）。"""
+    print("16. 正規URLのパラメータ混入")
+    hits = 0
+    for url, html in ALL.items():
+        c = re.search(r'<link rel="canonical" href="([^"]+)"', html)
+        if c and "?" in c.group(1):
+            err(f"canonical にクエリが入っている: {url} → {c.group(1)}")
+            hits += 1
+        og = re.search(r'<meta property="og:url" content="([^"]+)"', html)
+        if og and "?" in og.group(1):
+            err(f"og:url にクエリが入っている: {url} → {og.group(1)}")
+            hits += 1
+        if c and og and c.group(1) != og.group(1):
+            err(f"canonical と og:url が不一致: {url}")
+            hits += 1
+        for m in re.finditer(r'href="(/[^"]*fga_internal[^"]*)"', html):
+            err(f"内部リンクに計測パラメータ: {url} → {m.group(1)}")
+            hits += 1
+    xml = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
+    for loc in re.findall(r"<loc>([^<]+)</loc>", xml):
+        if "?" in loc:
+            err(f"sitemap にパラメータURL: {loc}")
+            hits += 1
+    print(f"   検出 {hits} 件")
+
+
 def main() -> None:
     print(f"公開前検査: {len(ALL)} ページ\n")
     check_internal_links()
@@ -320,6 +435,10 @@ def main() -> None:
     check_sitemap()
     check_counts()
     check_a11y()
+    check_forbidden_terms()
+    check_empty_sections()
+    check_temporal_claims()
+    check_canonical_params()
 
     print("\n" + "=" * 60)
     if warnings:

@@ -89,11 +89,15 @@ def top_jsonld() -> str:
     website = {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": SITE_NAME,
-        "alternateName": "森町ライフハック（遠州ライフハック 森町版）",
+        "name": "静岡県森町ライフハック",
+        "alternateName": ["森町ライフハック", "遠州森町ライフハック",
+                          "森町ライフハック（遠州ライフハック 森町版）"],
         "url": SITE + "/",
         "inLanguage": "ja",
-        "description": "森町の手続きと相談先を、暮らしの困りごとから探せる非公式の生活ナビです。",
+        "description": "静岡県周智郡森町（遠州森町）の手続きと相談先を、暮らしの困りごとから探せる非公式の生活ナビです。北海道茅部郡森町の情報は扱っていません。",
+        "about": {"@type": "Place", "name": "静岡県周智郡森町",
+                  "address": {"@type": "PostalAddress", "addressRegion": "静岡県",
+                              "addressLocality": "周智郡森町", "addressCountry": "JP"}},
         "publisher": {"@id": SITE + "/#organization"},
         "potentialAction": {
             "@type": "SearchAction",
@@ -120,6 +124,22 @@ def top_jsonld() -> str:
         + "</script>"
         for d in (website, org)
     )
+
+
+# 内部アクセス用パラメータの処理（修正指示書14）。
+# canonical は最初からパラメータなしで出力しているので、ここでやるのは
+# 「内部アクセスと記録する」「アドレスバーからパラメータを消す」の2つだけ。
+# 解析タグ（defer）より先に実行されるよう head に置く。
+INTERNAL_FLAG_JS = (
+    "<script>(function(){try{var u=new URL(location.href);"
+    "if(u.searchParams.get('fga_internal')==='1'){"
+    "sessionStorage.setItem('fga_internal','1');"
+    "window.__fgaInternal=true;"
+    "u.searchParams.delete('fga_internal');"
+    "history.replaceState({},'',u.pathname+(u.search||'')+u.hash);}"
+    "else if(sessionStorage.getItem('fga_internal')==='1'){window.__fgaInternal=true;}"
+    "}catch(e){}})();</script>"
+)
 
 
 def og_block(url: str, title: str, desc: str, image: str) -> str:
@@ -194,10 +214,11 @@ def process(path: Path) -> dict[str, bool]:
         blocks.append(og_block(page_url, short, desc, image))
         flags["canonical"] = True
 
+    blocks.append(INTERNAL_FLAG_JS)
     payload = START + "".join(blocks) + END
     if START in html:
         html = re.sub(re.escape(START) + r".*?" + re.escape(END), payload, html, flags=re.S)
-    elif blocks:
+    else:
         html = html.replace("</head>", payload + "</head>", 1)
 
     if html != original:

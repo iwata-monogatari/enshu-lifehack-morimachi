@@ -37,10 +37,10 @@ CTA_BLOCKS = {
         '<div class="company-grid"><div class="company-card">'
         "<p>公的な介護の窓口で相談したうえで、住まいをどうするかも一緒に考えたいときの選択肢です。"
         "相談は任意で、公的サービスの利用に影響しません。</p>"
-        '<a class="official-link" href="https://www.fujigaoka-service.info/'
-        '?utm_source=morimachi_lifehack&amp;utm_medium=referral&amp;utm_campaign=hub_care" '
+        '<a class="official-link" href="https://fudosan.atawi.link/areas/mori/'
+        '?utm_source=morimachi_lifehack&amp;utm_medium=referral&amp;utm_campaign=morimachi_support&amp;utm_content=hub_care" '
         'target="_blank" rel="noopener" style="margin-top:8px" data-track-click="cta_care">'
-        "介護と住まいの相談窓口を見る <span>富士ヶ丘サービス</span></a></div></div>"
+        "森町の相談窓口を見る <span>富士ヶ丘サービス</span></a></div></div>"
         + PARTS["cta-disclosure"] + "</div>"
     ),
     "real_estate": (
@@ -49,10 +49,10 @@ CTA_BLOCKS = {
         '<div class="company-grid"><div class="company-card">'
         "<p>売る・貸す・残すを決める前に、権利関係と費用の見通しを整理したいときの選択肢です。"
         "町の制度の確認が先で、相談は任意です。</p>"
-        '<a class="official-link" href="https://www.fujigaoka-service.co.jp/'
-        '?utm_source=morimachi_lifehack&amp;utm_medium=referral&amp;utm_campaign=hub_property" '
+        '<a class="official-link" href="https://fudosan.atawi.link/areas/mori/'
+        '?utm_source=morimachi_lifehack&amp;utm_medium=referral&amp;utm_campaign=morimachi_support&amp;utm_content=hub_property" '
         'target="_blank" rel="noopener" style="margin-top:8px" data-track-click="cta_real_estate">'
-        "住まい・空き家の相談窓口を見る <span>富士ヶ丘サービス</span></a></div></div>"
+        "森町の相談窓口を見る <span>富士ヶ丘サービス</span></a></div></div>"
         + PARTS["cta-disclosure"] + "</div>"
     ),
     "none": "",

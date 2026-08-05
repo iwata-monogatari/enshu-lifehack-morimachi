@@ -524,3 +524,7 @@ body.home .freshness p,body.home .publisher p,body.hub .choose li,body.hub .offi
 body.hub .card-desc,body.hub .subitems li{font-size:14px}
 body:not(.hub) .btn,body.hub .btn{font-size:16px}
 body:not(.hub) .logo,body.hub .logo{min-height:44px;display:inline-flex;align-items:center}
+
+/* --- 関連サイト一覧（フッターから移した先） -------------------------------- */
+body.hub .related-list{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:8px}
+body.hub .related-list .official-link{justify-content:flex-start;gap:10px}

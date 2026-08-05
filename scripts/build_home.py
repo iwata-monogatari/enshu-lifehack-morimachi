@@ -29,7 +29,8 @@ HUBS = json.loads((ROOT / "data" / "hubs.json").read_text(encoding="utf-8"))
 TOPICS = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
 SITE = CITY["site_url"].rstrip("/")
 SITE_NAME = CITY["site_name"]
-TODAY = "2026-08-04"
+TODAY = "2026-08-05"
+MORI_LP = "https://fudosan.atawi.link/areas/mori/"
 
 PARTS = {
     name: (ROOT / "parts" / f"{name}.html").read_text(encoding="utf-8").strip()
@@ -37,7 +38,7 @@ PARTS = {
 }
 
 DESCRIPTION = (
-    "森町の住民票、税金、ごみ、子育て、介護、空き家、おくやみ、防災などを、"
+    "静岡県周智郡森町の住民票、税金、ごみ、子育て、介護、空き家、おくやみ、防災などを、"
     "暮らしの場面から探せる非公式生活ナビ。手続きの順番と森町公式の確認先を案内します。"
 )
 
@@ -119,14 +120,27 @@ def database_section() -> str:
 
 
 def freshness_section(stats: dict) -> str:
+    extra = ""
+    if stats["partial"]:
+        extra += (f'<li><b>一部確認中：{stats["partial"]}件</b>'
+                  "－ 国の制度と森町公式ページの記載に差があるなど、"
+                  "追加の確認が必要なページです。該当ページに理由を書いています。</li>")
+    if stats["needs_review"]:
+        extra += (f'<li><b>再確認が必要：{stats["needs_review"]}件</b>'
+                  "－ 確認日または公式出典が記録できていないページです。"
+                  "確認済みとしては数えていません。</li>")
     return (
         '<section class="freshness" aria-labelledby="fresh-title">'
         '<h2 id="fresh-title">情報の確認状況</h2>'
-        f'<p>暮らしのページ {stats["pages"]} 件のうち {stats["checked"]} 件に最終確認日を表示しています。'
-        f'直近の一斉確認は {stats["latest"]} です。電話番号・受付時間・金額・期限は変わることがあるため、'
+        f'<p>暮らしのページは {stats["pages"]} 件です。'
+        f'このうち {stats["verified"]} 件は、窓口名・電話番号・受付時間・費用・期限・必要書類・'
+        f'公式リンクを確認したうえで最終確認日を表示しています'
+        f'（{stats["oldest"]}〜{stats["latest"]}）。</p>'
+        + (f"<ul>{extra}</ul>" if extra else "")
+        + "<p>電話番号・受付時間・金額・期限は変わることがあります。"
         "各ページの公式リンクで最終確認してください。</p>"
-        '<a class="btn" href="https://www.town.morimachi.shizuoka.jp/" target="_blank" rel="noopener" '
-        'data-track-click="official_link_click">森町公式サイトの新着を見る</a>'
+        '<a class="btn" href="https://www.town.morimachi.shizuoka.jp/" target="_blank" '
+        'rel="noopener" data-track-click="official_link_click">森町公式サイトの新着を見る</a>'
         "</section>")
 
 
@@ -144,43 +158,48 @@ def publisher_section() -> str:
 
 
 def consult_section() -> str:
-    """事業相談導線（指示書 6.1-10 / 11.1）。運営会社のサービスであることを明示する。"""
+    """事業相談導線（指示書 6.1-10 / 11.1 / 修正指示書21）。
+
+    到達先は森町専用の相談ページ1つに統一する。複数サイトへ分散させない。
+    """
     return (
         '<section class="company-strip cta-weak" aria-labelledby="consult-title">'
-        '<h2 id="consult-title">行政の窓口で足りないときの相談先</h2>'
-        "<p>まずは各ページの森町公式窓口をご確認ください。そのうえで、"
-        "相続した実家や空き家の扱い、介護と住まいを一緒に整理したい場合の選択肢です。</p>"
-        '<div class="company-grid">'
-        '<div class="company-card"><h3>親の家・空き家のこと</h3>'
-        "<p>売る・貸す・残すを決める前に、状況を整理するところから相談できます。</p>"
-        '<a class="btn" href="https://www.fujigaoka-service.co.jp/'
-        '?utm_source=morimachi_lifehack&amp;utm_medium=referral&amp;utm_campaign=home" '
-        'target="_blank" rel="noopener" data-track-click="cta_real_estate">'
-        "住まい・空き家の相談窓口を見る</a></div>"
-        '<div class="company-card"><h3>介護と住まいのこと</h3>'
-        "<p>公的な介護相談とあわせて、住まいの選択肢も一緒に相談できます。</p>"
-        '<a class="btn" href="https://www.fujigaoka-service.info/'
-        '?utm_source=morimachi_lifehack&amp;utm_medium=referral&amp;utm_campaign=home" '
-        'target="_blank" rel="noopener" data-track-click="cta_care">'
-        "介護・住まいの相談窓口を見る</a></div>"
+        '<h2 id="consult-title">森町の空き家・親の家を、売る前に整理したい方へ</h2>'
+        "<p>まずは各ページの森町公式窓口をご確認ください。そのうえで、相続した実家や空き家、"
+        "介護と住まいが同時に動く場合に、状況を整理するところから相談できます。"
+        "富士ヶ丘サービス株式会社が磐田本社から森町へ出張対応します。</p>"
+        '<div class="pub-links">'
+        '<a class="btn btn-main" href="'
+        + MORI_LP
+        + "?utm_source=morimachi_lifehack&amp;utm_medium=referral"
+        + '&amp;utm_campaign=morimachi_support&amp;utm_content=home" '
+        + 'target="_blank" rel="noopener" data-track-click="cta_real_estate">'
+        "森町の相談窓口を見る</a>"
         "</div>"
         '<p class="cta-disclosure">※このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）の'
-        "サービスです。ご利用は任意で、森町の制度利用には影響しません。</p></section>")
+        "民間サービスです。ご利用は任意で、森町の制度利用には影響しません。"
+        "森町役場とは関係ありません。</p></section>")
 
 
 def stats() -> dict:
-    live = [t for t in TOPICS if t.get("action") != "merge"]
-    dates = []
-    for t in live:
-        path = ROOT / t["href"].strip("/") / "index.html"
-        if not path.exists():
-            continue
-        m = re.search(r"最終確認日[：:]\s*(\d{4}-\d{2}-\d{2})",
-                      path.read_text(encoding="utf-8"))
-        if m:
-            dates.append(m.group(1))
-    return {"pages": len(live), "checked": len(dates),
-            "latest": max(dates) if dates else TODAY}
+    """記事台帳から集計する（修正指示書22）。件数をHTMLに直接書かない。
+
+    「確認済み」に数えるのは review_status が verified のものだけ。
+    partial（電話確認待ち・国と自治体で記載が食い違う）は別に数える。
+    """
+    ledger = json.loads((ROOT / "data" / "article-ledger.json").read_text(encoding="utf-8"))
+    verified = [r for r in ledger if r["review_status"] == "verified"]
+    partial = [r for r in ledger if r["review_status"] == "partial"]
+    needs = [r for r in ledger if r["review_status"] == "needs_review"]
+    dates = sorted(r["last_verified_at"] for r in verified if r["last_verified_at"])
+    return {
+        "pages": len(ledger),
+        "verified": len(verified),
+        "partial": len(partial),
+        "needs_review": len(needs),
+        "latest": dates[-1] if dates else TODAY,
+        "oldest": dates[0] if dates else TODAY,
+    }
 
 
 def build() -> str:
@@ -190,7 +209,7 @@ def build() -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>森町ライフハック｜森町の手続き・相談先を、困りごとから探す</title>
+<title>静岡県森町ライフハック｜手続き・介護・空き家を困りごとから探す</title>
 <meta name="description" content="{esc(DESCRIPTION)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
@@ -200,9 +219,10 @@ def build() -> str:
 <main><div class="wrap">
 <section class="hero">
 <p class="eyebrow">森町の暮らしと手続きが、すぐわかる</p>
-<h1>森町の手続き・相談先を、困りごとから探せます</h1>
+<h1>静岡県森町の手続き・相談先を、困りごとから探せます</h1>
 <p class="lead">住民票、税金、ごみ、子育て、介護、空き家、おくやみ、防災。
-森町ライフハックは<b>森町公式サイトではありません</b>。公式情報を整理し、最後は必ず公式ページへご案内します。</p>
+森町ライフハックは、<b>静岡県周智郡森町（遠州森町）</b>の暮らしと手続きを整理する案内サイトです。
+<b>森町公式サイトではありません</b>。公式情報を整理し、最後は必ず公式ページへご案内します。</p>
 </section>
 
 <section class="site-search" aria-labelledby="search-title">

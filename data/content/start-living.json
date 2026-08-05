@@ -144,7 +144,7 @@
   ],
   "qa": [
     {"question": "分別表を紛失してしまいました。どこで手に入りますか", "answer": "役場本庁舎1階に配架されているので自由に持ち帰れます。ウェブでもPDF版が公開されているので、<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html\" target=\"_blank\" rel=\"noopener\">森町公式ページ</a>から確認・印刷できます。"},
-    {"question": "令和8年4月からのルール変更はどう確認すればいいですか", "answer": "現在改訂作業が進められている段階です。最新の変更内容は住民生活課生活環境係（0538-85-6314）に直接お問い合わせいただくのが確実です。"}
+    {"question": "令和8年4月からの分別ルール変更はどこで確認できますか", "answer": "分別ルールは令和8年4月1日から変更されています。令和8年度版の分別表と資源ごみ・埋立ごみ収集日カレンダーは配布済みで、森町公式ページからPDFでも確認できます。多言語版を含む分別ガイドブックは改訂作業が続いているため、ガイドブックの記載と分別表が食い違う場合は住民生活課生活環境係（0538-85-6314）へ確認してください。"}
   ],
   "tabs": [
     {"id": "type-moved", "label": "引っ越してきたばかり", "heading": "まず分別表を手に入れる", "bullets": ["役場本庁舎1階で分別表・カレンダーを受け取れる", "ウェブでもPDF版を確認できる", "多言語版も用意されている"], "actions": [{"label": "分別表・カレンダーを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html", "source": "森町公式"}, {"label": "ごみの出し方を見る", "href": "/life/start-living/how-to-garbage/", "source": "森町ライフハック"}]},

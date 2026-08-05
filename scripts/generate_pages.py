@@ -33,6 +33,9 @@ STAGING_DIR = ROOT / "_staging"
 
 PUBLISHABLE_STATUSES = ("ai-checked", "machine-verified", "human-verified", "published")
 
+# 自治体固有語（役場/市役所などの言い換え）の唯一の根拠。テンプレートに直書きしない。
+CITY_MUNI = json.loads((ROOT / "data" / "city.json").read_text(encoding="utf-8"))["municipality"]
+
 # facts の内部キー → 画面表示用の日本語ラベル（改修指示書 8.4）
 FACT_LABELS = {
     k: v for k, v in
@@ -129,19 +132,50 @@ def tabs_html(tabs):
     )
 
 
-def steps_html(steps):
+# 「役場以外」のブロック見出し。記事の内容に合わせて変える（改修指示書 P0-2）。
+# 自治体種別を無視した「市役所」をテンプレートに直書きしない。
+OUTSIDE_LABEL = {
+    "暮らし始めた": "役場以外で進めること",
+    "新しい場所へ": "役場以外で進めること",
+    "これから暮らす": "役場以外で進めること",
+    "働く・暮らす": "勤務先・金融機関などで進めること",
+    "人生の終わり": "葬儀・供養・相続で進めること",
+    "家・住まい": "所有者・家族で決めること",
+    "親のこと": "家族・介護事業者と進めること",
+    "健康・医療": "医療機関・家庭で進めること",
+    "もしもの時": "家庭で備えておくこと",
+    "家族が増える": "園・病院・家庭で進めること",
+    "学ぶ・育つ": "学校・家庭で進めること",
+    "遊ぶ・使う・出かける": "施設・現地で確認すること",
+    "困った・相談したい": "専門機関・民間で進めること",
+}
+
+
+def steps_html(steps, category=""):
+    """行動のステップ。中身が無いブロックは見出しごと出さない（改修指示書 P0-3）。"""
     if not steps:
         return ""
-    today = "".join(f"<li>{esc(s)}</li>" for s in steps.get("today", []))
-    this_week = "".join(f"<li>{esc(s)}</li>" for s in steps.get("this_week", []))
-    outside = "".join(f"<li>{esc(s)}</li>" for s in steps.get("outside", []))
+    office = CITY_MUNI["office_formal"]
+    outside_label = OUTSIDE_LABEL.get(category, "役場以外で進めること")
+
+    blocks = []
+    for cls, label, key in (
+        ("step today", "今日やること", "today"),
+        ("step", "今週〜後日やること", "this_week"),
+        ("step outside", outside_label, "outside"),
+    ):
+        items = "".join(f"<li>{esc(s)}</li>" for s in steps.get(key, []) if str(s).strip())
+        if not items:
+            continue  # 空の見出しだけを出さない
+        blocks.append(f'<div class="{cls}"><span class="label">{esc(label)}</span>'
+                      f"<ul>{items}</ul></div>")
+    if not blocks:
+        return ""
     return (
-        '<h2 class="sec">行動のステップ</h2><p class="lead">行動順と、市役所でできること／市役所以外で必要なことを分けています。</p>'
-        '<div class="steps">'
-        f'<div class="step today"><span class="label">今日やること</span><ul>{today}</ul></div>'
-        f'<div class="step"><span class="label">今週〜後日やること</span><ul>{this_week}</ul></div>'
-        f'<div class="step outside"><span class="label">市役所以外で必要なこと</span><ul>{outside}</ul></div>'
-        "</div>"
+        '<h2 class="sec">行動のステップ</h2>'
+        f'<p class="lead">行動する順番に沿って、{esc(office)}・公的窓口で行うことと、'
+        "それ以外の場所で進めることを分けています。</p>"
+        f'<div class="steps">{"".join(blocks)}</div>'
     )
 
 
@@ -256,7 +290,7 @@ def render_page(item, city, category_items, content_map):
             real_cards_html(content.get("real_cards")),
             qa_html(content.get("qa")),
             tabs_html(content.get("tabs")),
-            steps_html(content.get("steps")),
+            steps_html(content.get("steps"), category),
             action_grid_html(content.get("action_grid")),
         ])
 

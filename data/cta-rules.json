@@ -1,39 +1,37 @@
 {
   "_note": "森町ライフハックのCTA規則。02戦略編1-2/1-3、04修正指示書A-3(ステマ規制対応のdisclosure)に基づく。UTMのsourceは入口ごとに morimachi_lifehack / morimachi_blog / morimachi_temple / morimachi_shrine を使い分ける。",
-  "_landing_page": "着地先は ATAWI FUDOSAN の森町LP https://fudosan.atawi.link/areas/mori/ 。02戦略編⑤は新設する森町LPのパスを /areas/morimachi/ と書いているが、実際には /areas/mori/ が既に公開されている(2026-08-04時点でHTTP 200。/areas/morimachi/ は404)。既存LPを正とし、新設ではなく既存の増補で対応する。",
+  "_landing_page": "森町向け相談の到達先は https://fudosan.atawi.link/areas/mori/ の1つに統一する（修正指示書21）。サイト内の全CTAはこの正規URLを使い、複数サイトへ分散させない。",
   "_disclosure_policy": "real_estate / care / both の各CTAには必ず disclosure を表示する（景表法ステルスマーケティング規制。2023年10月1日施行）。guide はサイト内の案内のため disclosure を持たない。緊急・医療・生活困窮・一般行政手続きのページには営業CTAを出さない（改修指示書11.2）。",
   "rules": {
     "real_estate": {
       "label": "住まい・相続の相談",
       "strength": "strong",
-      "heading": "住まい・相続のご相談",
-      "description": "空き家や実家整理の判断に進む前に、制度と相談先を確認します。",
-      "button_text": "住まい相談へ",
-      "url": "https://fudosan.atawi.link/areas/mori/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=context_link",
+      "heading": "森町の空き家・親の家を、売る前に整理したい方へ",
+      "description": "相続した実家、空き家、介護と住まいが同時に動く場合に、状況を整理するところから相談できます。富士ヶ丘サービス株式会社が磐田本社から森町へ出張対応します。",
+      "button_text": "森町の相談窓口を見る",
+      "url": "https://fudosan.atawi.link/areas/mori/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=morimachi_support",
       "provider": "富士ヶ丘サービス",
-      "disclosure": "このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）のサービスです。"
+      "disclosure": "このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）の民間サービスです。ご利用は任意で、森町の制度利用には影響しません。森町役場とは関係ありません。"
     },
     "care": {
       "label": "介護の相談窓口へ",
       "strength": "middle",
-      "heading": "介護のご相談",
-      "description": "親のケア判断が必要な場合は、公式情報と並行して相談先も確認します。",
-      "button_text": "介護の相談へ",
-      "url": "https://www.fujigaoka-service.info/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=context_link",
+      "heading": "介護と住まいを一緒に相談したい方へ",
+      "description": "公的な介護相談を受けたうえで、住まいをどうするかも一緒に整理したい場合の選択肢です。富士ヶ丘サービス株式会社が磐田本社から森町へ出張対応します。",
+      "button_text": "森町の相談窓口を見る",
+      "url": "https://fudosan.atawi.link/areas/mori/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=morimachi_support",
       "provider": "富士ヶ丘サービス",
-      "disclosure": "このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）のサービスです。"
+      "disclosure": "このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）の民間サービスです。ご利用は任意で、森町の制度利用には影響しません。森町役場とは関係ありません。"
     },
     "both": {
       "label": "住まい・介護の相談",
       "strength": "strong",
-      "heading": "住まい・介護のご相談",
-      "description": "公式情報を確認しながら、必要に応じて専門の相談先につなげます。",
-      "button_text": "相談先へ進む",
-      "url": "https://fudosan.atawi.link/areas/mori/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=context_link",
-      "secondary_button_text": "介護の相談へ",
-      "secondary_url": "https://www.fujigaoka-service.info/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=context_link",
+      "heading": "森町の空き家・親の家・介護と住まいのご相談",
+      "description": "相続した実家や空き家、介護と住まいが同時に動く場合に、状況の整理から相談できます。富士ヶ丘サービス株式会社が磐田本社から森町へ出張対応します。",
+      "button_text": "森町の相談窓口を見る",
+      "url": "https://fudosan.atawi.link/areas/mori/?utm_source=morimachi_lifehack&utm_medium=referral&utm_campaign=morimachi_support",
       "provider": "富士ヶ丘サービス",
-      "disclosure": "このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）のサービスです。"
+      "disclosure": "このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）の民間サービスです。ご利用は任意で、森町の制度利用には影響しません。森町役場とは関係ありません。"
     },
     "official": {
       "label": "公式情報へ",
