@@ -1,23 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-label="マイナンバーカード申請は、出張申請を使える場合があるの事実整理">
-<defs><style>.ttl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#203b32}.lbl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#50645b}.num{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}</style></defs>
-<rect width="1000" height="430" rx="18" fill="#f8fbf8" stroke="#c9d9d0"/>
-<rect x="0" y="0" width="1000" height="78" rx="18" fill="#174f3b"/>
-<rect x="0" y="58" width="1000" height="20" fill="#174f3b"/>
-<text x="40" y="51" class="num" font-size="27">公式資料から見えること</text>
-<rect x="36" y="96" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
-<circle cx="77" cy="142" r="23" fill="#b78b35"/>
-<text x="77" y="150" text-anchor="middle" class="num" font-size="19">1</text>
-<text x="116" y="130" class="ttl" font-size="19">公式資料で確認</text>
-<text x="116" y="157" class="lbl" font-size="15">森町公式はマイナンバーカードの出張申請を案内し、申請後は一定期</text>
-<text x="116" y="177" class="lbl" font-size="15">間を経て住所地への郵送または役場での受取になると説明しています</text>
-<rect x="36" y="198" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
-<circle cx="77" cy="244" r="23" fill="#b78b35"/>
-<text x="77" y="252" text-anchor="middle" class="num" font-size="19">2</text>
-<text x="116" y="232" class="ttl" font-size="19">良い点</text>
-<text x="116" y="259" class="lbl" font-size="15">窓口へ行きにくい人の申請機会を地域や職場でつくれる</text>
-<rect x="36" y="300" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
-<circle cx="77" cy="346" r="23" fill="#b78b35"/>
-<text x="77" y="354" text-anchor="middle" class="num" font-size="19">3</text>
-<text x="116" y="334" class="ttl" font-size="19">注意点</text>
-<text x="116" y="361" class="lbl" font-size="15">個人一人でも必ず来てもらえる制度だと考えない</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="森町の山並み、太田川を思わせる水辺、茶畑と、マイナンバーカード申請は、出張申請を使える場合があるのテーマを表す暮らしの場面を描いた挿絵" data-illustration="mori-editorial" data-variant="1">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dcefed"/><stop offset="1" stop-color="#f8f1d9"/></linearGradient><linearGradient id="river" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b8dfdf"/><stop offset="1" stop-color="#7fbec4"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#163d32" flood-opacity=".18"/></filter><style>.ttl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#173f35}.cap{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#39584e}</style></defs>
+<rect width="1000" height="560" rx="22" fill="url(#sky)"/>
+<circle cx="850" cy="88" r="48" fill="#fff9dd" opacity=".92"/>
+<path d="M0 230 L130 134 L255 220 L405 112 L548 218 L690 142 L825 224 L1000 126 L1000 340 L0 340 Z" fill="#91b9aa"/>
+<path d="M0 272 L168 185 L286 263 L436 178 L590 268 L724 196 L866 265 L1000 202 L1000 348 L0 348 Z" fill="#5f9278"/>
+<path d="M0 354 C168 314 286 393 448 352 C626 306 744 391 1000 340 L1000 430 C760 474 548 408 368 444 C214 475 103 426 0 444 Z" fill="url(#river)"/>
+<path d="M0 463 C182 424 380 490 560 450 C720 414 874 448 1000 429 L1000 560 L0 560 Z" fill="#7eb46f"/>
+<path d="M0 500 C182 458 363 522 556 484 C742 448 864 489 1000 463" fill="none" stroke="#e7d98d" stroke-width="10" opacity=".9"/>
+<g filter="url(#shadow)"><rect x="40" y="38" width="620" height="172" rx="20" fill="#fffdf5" opacity=".94"/></g>
+<text x="72" y="80" class="cap" font-size="19">手続き・制度を森町の暮らしから考える</text>
+<text x="70" y="119" class="ttl" font-size="24">マイナンバーカード申請は、出張申請を使え</text>
+<text x="70" y="150" class="ttl" font-size="24">る場合がある</text>
+<g transform="translate(648 248) scale(1.05)"><rect x="54" y="22" width="196" height="226" rx="15" fill="#fff9e9" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M190 22 V78 H250" fill="#e2c47e" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M86 110 H214" fill="none" stroke="#72aa97" stroke-width="9"/><path d="M86 144 H214" fill="none" stroke="#72aa97" stroke-width="9"/><path d="M86 178 H214" fill="none" stroke="#72aa97" stroke-width="9"/><path d="M86 212 H214" fill="none" stroke="#72aa97" stroke-width="9"/><circle cx="218" cy="210" r="42" fill="#b85d45" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M198 210 L213 225 L240 190" fill="none" stroke="#fff" stroke-width="12"/></g>
+<path d="M92 462 C152 421 220 422 284 454" fill="none" stroke="#315f50" stroke-width="12" stroke-linecap="round"/>
+<circle cx="87" cy="461" r="15" fill="#d6a85f"/><circle cx="288" cy="454" r="15" fill="#a84c38"/>
 </svg>

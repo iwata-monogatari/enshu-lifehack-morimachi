@@ -1,22 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-label="森町の中心部だけ見て、町全体を知ったつもりにならないの行動順">
-<defs><style>.ttl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#203b32}.lbl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#50645b}.num{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}</style></defs>
-<rect width="1000" height="430" rx="18" fill="#f8fbf8" stroke="#c9d9d0"/>
-<rect x="0" y="0" width="1000" height="78" rx="18" fill="#174f3b"/>
-<rect x="0" y="58" width="1000" height="20" fill="#174f3b"/>
-<text x="40" y="51" class="num" font-size="27">大石が勧める確認の順番</text>
-<rect x="36" y="96" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
-<circle cx="77" cy="142" r="23" fill="#b78b35"/>
-<text x="77" y="150" text-anchor="middle" class="num" font-size="19">1</text>
-<text x="116" y="130" class="ttl" font-size="19">確認 1</text>
-<text x="116" y="157" class="lbl" font-size="15">六地区と主要施設を一枚の地図に置く</text>
-<rect x="36" y="198" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
-<circle cx="77" cy="244" r="23" fill="#b78b35"/>
-<text x="77" y="252" text-anchor="middle" class="num" font-size="19">2</text>
-<text x="116" y="232" class="ttl" font-size="19">確認 2</text>
-<text x="116" y="259" class="lbl" font-size="15">朝夕と休日に同じ経路を走る</text>
-<rect x="36" y="300" width="928" height="92" rx="13" fill="#fff" stroke="#d9e3dd"/>
-<circle cx="77" cy="346" r="23" fill="#b78b35"/>
-<text x="77" y="354" text-anchor="middle" class="num" font-size="19">3</text>
-<text x="116" y="334" class="ttl" font-size="19">確認 3</text>
-<text x="116" y="361" class="lbl" font-size="15">車が使えない場合の代替手段を確認する</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="森町の山並み、太田川を思わせる水辺、茶畑と、森町の中心部だけ見て、町全体を知ったつもりにならないのテーマを表す三つの確認場面を道で結んだ挿絵" data-illustration="mori-editorial" data-variant="2">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dcefed"/><stop offset="1" stop-color="#f8f1d9"/></linearGradient><linearGradient id="river" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b8dfdf"/><stop offset="1" stop-color="#7fbec4"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#163d32" flood-opacity=".18"/></filter><style>.ttl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#173f35}.cap{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#39584e}</style></defs>
+<rect width="1000" height="560" rx="22" fill="url(#sky)"/>
+<circle cx="850" cy="88" r="48" fill="#fff9dd" opacity=".92"/>
+<path d="M0 230 L130 134 L255 220 L405 112 L548 218 L690 142 L825 224 L1000 126 L1000 340 L0 340 Z" fill="#91b9aa"/>
+<path d="M0 272 L168 185 L286 263 L436 178 L590 268 L724 196 L866 265 L1000 202 L1000 348 L0 348 Z" fill="#5f9278"/>
+<path d="M0 354 C168 314 286 393 448 352 C626 306 744 391 1000 340 L1000 430 C760 474 548 408 368 444 C214 475 103 426 0 444 Z" fill="url(#river)"/>
+<path d="M0 463 C182 424 380 490 560 450 C720 414 874 448 1000 429 L1000 560 L0 560 Z" fill="#7eb46f"/>
+<path d="M0 500 C182 458 363 522 556 484 C742 448 864 489 1000 463" fill="none" stroke="#e7d98d" stroke-width="10" opacity=".9"/>
+<path d="M120 320 C265 184 405 426 565 279 C702 154 816 333 914 229" fill="none" stroke="#d2a657" stroke-width="18" stroke-linecap="round" stroke-dasharray="5 30"/>
+<g filter="url(#shadow)"><circle cx="185" cy="204" r="106" fill="#fffdf5" stroke="#d4dfd6" stroke-width="4"/></g>
+<g transform="translate(120 126) scale(0.43)"><rect x="54" y="22" width="196" height="226" rx="15" fill="#fff9e9" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M190 22 V78 H250" fill="#e2c47e" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M86 110 H214" fill="none" stroke="#72aa97" stroke-width="9"/><path d="M86 144 H214" fill="none" stroke="#72aa97" stroke-width="9"/><path d="M86 178 H214" fill="none" stroke="#72aa97" stroke-width="9"/><path d="M86 212 H214" fill="none" stroke="#72aa97" stroke-width="9"/><circle cx="218" cy="210" r="42" fill="#b85d45" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M198 210 L213 225 L240 190" fill="none" stroke="#fff" stroke-width="12"/></g>
+<circle cx="102" cy="122" r="25" fill="#174f3b"/><text x="102" y="131" text-anchor="middle" fill="#fff" font-family="Yu Gothic,sans-serif" font-size="22" font-weight="700">1</text>
+<rect x="75" y="297" width="220" height="70" rx="14" fill="#fffdf5" stroke="#d4dfd6" stroke-width="3"/>
+<text x="185" y="324" text-anchor="middle" class="cap" font-size="16">六地区と主要施設を一枚の地図</text>
+<text x="185" y="348" text-anchor="middle" class="cap" font-size="16">に置く</text>
+<g filter="url(#shadow)"><circle cx="471" cy="360" r="106" fill="#fffdf5" stroke="#d4dfd6" stroke-width="4"/></g>
+<g transform="translate(406 282) scale(0.43)"><path d="M40 194 C76 70 142 46 186 98 C224 143 246 88 276 42" fill="none" stroke="#d6a85f" stroke-width="16" stroke-linecap="round"/><circle cx="42" cy="194" r="25" fill="#5e9c68" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="92" cy="98" r="25" fill="#5e9c68" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="164" cy="104" r="25" fill="#a84c38" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="225" cy="112" r="25" fill="#5e9c68" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="276" cy="42" r="25" fill="#a84c38" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M137 230 L174 170 L211 230 Z" fill="#7eae86" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="388" cy="278" r="25" fill="#174f3b"/><text x="388" y="287" text-anchor="middle" fill="#fff" font-family="Yu Gothic,sans-serif" font-size="22" font-weight="700">2</text>
+<rect x="361" y="453" width="220" height="70" rx="14" fill="#fffdf5" stroke="#d4dfd6" stroke-width="3"/>
+<text x="471" y="480" text-anchor="middle" class="cap" font-size="16">朝夕と休日に同じ経路を走る</text>
+<g filter="url(#shadow)"><circle cx="797" cy="192" r="106" fill="#fffdf5" stroke="#d4dfd6" stroke-width="4"/></g>
+<g transform="translate(732 114) scale(0.43)"><path d="M40 194 C76 70 142 46 186 98 C224 143 246 88 276 42" fill="none" stroke="#d6a85f" stroke-width="16" stroke-linecap="round"/><circle cx="42" cy="194" r="25" fill="#5e9c68" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="92" cy="98" r="25" fill="#5e9c68" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="164" cy="104" r="25" fill="#a84c38" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="225" cy="112" r="25" fill="#5e9c68" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="276" cy="42" r="25" fill="#a84c38" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M137 230 L174 170 L211 230 Z" fill="#7eae86" stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="714" cy="110" r="25" fill="#174f3b"/><text x="714" y="119" text-anchor="middle" fill="#fff" font-family="Yu Gothic,sans-serif" font-size="22" font-weight="700">3</text>
+<rect x="687" y="285" width="220" height="70" rx="14" fill="#fffdf5" stroke="#d4dfd6" stroke-width="3"/>
+<text x="797" y="312" text-anchor="middle" class="cap" font-size="16">車が使えない場合の代替手段を</text>
+<text x="797" y="336" text-anchor="middle" class="cap" font-size="16">確認する</text>
 </svg>

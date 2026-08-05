@@ -8,8 +8,10 @@
 を担当する。
 
 品質ゲート(機械で見られる範囲):
-  - 出典セクション(post-sources)に外部リンクが1本以上あるか
-    → 「一次情報を最低1つ含まない記事は公開しない」の最低限の担保
+  - 編集本文(post-editorial-body)が空白除外で5,000文字以上あるか
+  - 出典セクション(post-sources)に森町公式リンクが2本以上あるか
+  - 記事固有の編集挿絵 fig1.svg / fig2.svg があるか
+  - 良い点・注文したい点・対案・大石の視点が本文にあるか
   - 著者表記(post-author)があるか(04決定8)
   - 表紙画像 cover.jpg があるか
   - タイトルの重複が無いか(02戦略編4-3の重複防止)
@@ -30,6 +32,8 @@ PARTS_DIR = os.path.join(ROOT, "parts")
 BLOG_DIR = os.path.join(ROOT, "blog")
 SITE = "https://morimachi.enshu-lifehack.com"
 SITE_NAME = "森町ライフハック"
+MIN_EDITORIAL_CHARS = 5000
+BANNED_WORD = "\u653f\u7b56"
 
 AXIS_LABEL = {
     "mon": "手続き・制度",
@@ -54,6 +58,13 @@ def part_markup(name, content):
     return "<!-- PART:%s:START -->%s<!-- PART:%s:END -->" % (name, content, name)
 
 
+def visible_chars(fragment):
+    fragment = re.sub(r"<!--.*?-->", "", fragment, flags=re.S)
+    fragment = re.sub(r"<(script|style)\b.*?</\1>", "", fragment, flags=re.S | re.I)
+    text = html.unescape(re.sub(r"<[^>]+>", "", fragment))
+    return len(re.sub(r"\s+", "", text))
+
+
 def audit(posts):
     """記事ごとの品質ゲート。問題があれば (slug, 理由) のリストを返す。"""
     problems = []
@@ -67,13 +78,37 @@ def audit(posts):
             continue
         src = open(idx, encoding="utf-8").read()
 
+        body = re.search(r'<div class="post-editorial-body">(.*?)</div>\s*<div class="action-grid">', src, re.S)
+        if not body:
+            problems.append((slug, "編集本文(post-editorial-body)が無い"))
+        else:
+            count = visible_chars(body.group(1))
+            if count < MIN_EDITORIAL_CHARS:
+                problems.append((slug, "編集本文が %d 文字。最低 %d 文字に未達" % (count, MIN_EDITORIAL_CHARS)))
+            paragraph_count = len(re.findall(r"<p(?:\s|>)", body.group(1)))
+            if paragraph_count < 35:
+                problems.append((slug, "編集本文の段落が %d。35段落未満" % paragraph_count))
         m = re.search(r'<ul class="post-sources">(.*?)</ul>', src, re.S)
-        if not m or not re.search(r'href="https?://', m.group(1)):
-            problems.append((slug, "出典(post-sources)に外部リンクが無い ← 品質ゲート未達"))
+        official_links = re.findall(r'href="https://www\.town\.morimachi\.shizuoka\.jp/[^\"]+"', m.group(1) if m else "")
+        if len(set(official_links)) < 2:
+            problems.append((slug, "森町公式の出典が2本未満"))
         if "post-author" not in src:
             problems.append((slug, "著者表記(post-author)が無い"))
         if not os.path.isfile(os.path.join(d, "cover.jpg")):
             problems.append((slug, "表紙 cover.jpg が無い"))
+        for number in (1, 2):
+            fig_path = os.path.join(d, "fig%d.svg" % number)
+            if not os.path.isfile(fig_path):
+                problems.append((slug, "挿絵 fig%d.svg が無い" % number))
+                continue
+            fig_src = open(fig_path, encoding="utf-8").read()
+            if 'data-illustration="mori-editorial"' not in fig_src:
+                problems.append((slug, "fig%d.svg が森町編集挿絵仕様ではない" % number))
+        for required in ("良い点", "注文したい点", "対案・結論", "大石の視点"):
+            if required not in src:
+                problems.append((slug, "必須セクション『%s』が無い" % required))
+        if BANNED_WORD in src:
+            problems.append((slug, "禁止語が本文・属性に含まれる"))
         if p["title"] in seen_titles:
             problems.append((slug, "タイトルが %s と重複" % seen_titles[p["title"]]))
         seen_titles[p["title"]] = slug

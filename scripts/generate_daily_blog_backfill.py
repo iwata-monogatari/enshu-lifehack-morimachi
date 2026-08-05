@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-"""2026-07-03〜2026-08-05の不足分33本を生成する。
+"""2026-07-03〜2026-08-05の日次ブログ34本を長文仕様で生成する。
 
 記事本文、表紙JPG、図版SVG 2点、data/blog-posts.json を同時に更新する。
-既存の2026-08-04記事は対象外。繰り返しの図版マークアップはこのスクリプトで生成する。
+本文はHTMLタグを除いて5,000文字以上とし、図版は文字カードではなく
+森町の情景と記事テーマを組み合わせた編集挿絵として生成する。
 
 実行: python scripts/generate_daily_blog_backfill.py
 """
@@ -39,6 +40,75 @@ AXIS_LABEL = {
     "fri": "地区めぐり",
     "sat": "祭礼・イベント",
     "sun": "移住・暮らし・データ",
+}
+
+AXIS_GUIDE = {
+    "mon": {
+        "local": "役場の手続きは書類一枚で終わるように見えても、住所変更、水道、ごみ、学校、保険など日々の暮らしと連動します。森町では町内の移動時間も考え、窓口へ行く日と家で準備する日を分けると無理がありません。",
+        "lens": "制度名を覚えるより、誰が、いつまでに、何を持ち、終わった後に何が変わるかを一枚にまとめる視点が役立ちます。オンラインで始められる手続きでも、本人確認やカード更新など来庁が残る場合があります。",
+        "record": "本人確認書類、期限、家族全員分の対象事項、窓口で聞く質問を先に書き出し、受け取った案内と一緒に保管することが基本です。",
+    },
+    "tue": {
+        "local": "実家や空き家は、建物だけを見ても全体像が分かりません。名義、境界、接道、家財、農地や山林、固定資産税、近隣への影響が重なります。森町のように宅地と農地が近い地域では、土地ごとの扱いを分けて整理する必要があります。",
+        "lens": "売る、貸す、使う、解体するという結論を急ぐ前に、家族が共有できる事実をそろえることが先です。査定額は大切ですが、資料が欠けたままでは比較の前提が揃いません。",
+        "record": "登記事項、納税通知書、公図、建築時の資料、修繕履歴、鍵、家財、境界の認識を一冊のファイルにまとめると、相談先が変わっても説明を繰り返さずに済みます。",
+    },
+    "wed": {
+        "local": "森町の歴史は、有名な寺社だけで完結しません。街道、集落、茶業、古い住宅、祭礼、樹木などが互いにつながり、現在の景観と暮らし方をつくっています。現地を見るときは、文化財である前に祈りの場や生活の場であることを忘れない姿勢が必要です。",
+        "lens": "由緒や指定名称を覚えるだけでなく、いつ、誰が、どのように守ってきたかを資料から読み、現地では公開範囲と撮影の決まりを守ることで理解が深まります。",
+        "record": "名称、所在地、指定区分、年代、公開条件、確認した資料を分けて記録し、推測や伝聞は事実と混ぜないことが大切です。",
+    },
+    "thu": {
+        "local": "農地、山林、茶畑は、所有しているだけで自由に用途を変えられる土地ではありません。相続、貸借、転用、管理、境界の確認は別々の手続きや判断を伴います。森町の土地を考えるときは、家の後ろにある一筆まで見落とさない視点が必要です。",
+        "lens": "現在耕作しているかどうかと、登記や台帳上の地目、利用に必要な手続きは分けて確認します。現地の見た目だけで宅地や資材置場として扱えると判断しないことが重要です。",
+        "record": "地番、地目、面積、現在の利用者、水路や進入路、境界、納税資料を一覧にし、分からない欄を空欄のまま相談先へ持参する方が推測で埋めるより安全です。",
+    },
+    "fri": {
+        "local": "森町は三倉、天方、森、一宮、園田、飯田の六地区から成り、中心部、平野部、山あいで日々の移動条件が異なります。地区名を順位に置き換えるのではなく、自分の通勤、通学、買い物、通院と重ねて見ることが大切です。",
+        "lens": "地図上の距離だけでなく、朝夕の道路、雨の日、車が使えない日、災害時の経路まで確かめると、観光で訪れた印象と毎日の暮らしの違いが見えてきます。",
+        "record": "候補地ごとに平日と休日の移動時間、公共交通、買い物、医療、避難先、地域の連絡先を同じ書式で記録すると比較しやすくなります。",
+    },
+    "sat": {
+        "local": "祭礼や催しは、当日の華やかさだけで成り立つものではありません。準備、練習、交通整理、清掃、片付けまで地域の時間が積み重なっています。森町の行事を楽しむ側にも、生活道路や祈りの場を借りる意識が求められます。",
+        "lens": "開催日時だけでなく、由来、担い手、観覧場所、交通規制、駐車場、撮影の可否を確認すると、見る側と支える側の双方に無理のない参加ができます。",
+        "record": "最新の開催案内、交通情報、主催者の注意事項、公共交通、雨天時の扱いを一つに保存し、過去の記事や写真だけで判断しないことが基本です。",
+    },
+    "sun": {
+        "local": "移住や暮らしやすさは、景色や支援制度の数だけでは測れません。通勤、買い物、通院、子育て、近所づきあい、災害時の移動を一日の時間割に置き換えると、自分の家族に合う条件が見えてきます。",
+        "lens": "完全移住か現状維持かの二択にせず、下見、短期滞在、二地域居住など段階を踏み、家族それぞれの移動と相談先を実際に試すことが大切です。",
+        "record": "家族別の平日時間割、毎週行く場所、車以外の移動手段、困ったときの相談先、月々の費用を同じ表にして、物件条件と一緒に比べます。",
+    },
+}
+
+AXIS_SOURCES = {
+    "mon": [
+        ("引越・新生活／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/morimachiyakuba/hikkoshi_shinseikatsu/index.html"),
+        ("暮らし・手続き／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/index.html"),
+    ],
+    "tue": [
+        ("森町空き家・空き地バンク／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html"),
+        ("移住定住／静岡県森町", "https://www.town.morimachi.shizuoka.jp/ijyu/index.html"),
+    ],
+    "wed": [
+        ("文化財／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/1096.html"),
+        ("森町の歴史／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/rekishi/index.html"),
+    ],
+    "thu": [
+        ("農林業／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html"),
+        ("農地転用／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/6758.html"),
+    ],
+    "fri": [
+        ("引越・新生活／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/morimachiyakuba/hikkoshi_shinseikatsu/index.html"),
+        ("森町の公共交通について／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/422.html"),
+    ],
+    "sat": [
+        ("文化財／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/1096.html"),
+        ("イベント情報／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/2/index.html"),
+    ],
+    "sun": [
+        ("移住定住／静岡県森町", "https://www.town.morimachi.shizuoka.jp/ijyu/index.html"),
+        ("森町の公共交通について／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/422.html"),
+    ],
 }
 
 
@@ -517,6 +587,23 @@ POSTS = [
     ),
 ]
 
+EXISTING_POST = post(
+    "2026-08-04", "20260804-gomi-bunbetsu-kaitei", "mon",
+    "森町のごみ分別ルール、いま実際どうなっているのか",
+    "森町のごみ分別は、手元の古い表や人づての記憶だけで判断せず、町公式の分別表、収集カレンダー、品目検索を組み合わせて確認することが大切です。迷ったときの順番を生活者の目線で整理します。",
+    "森町のごみ分別で迷ったとき、何を基準に確認すればよいですか？",
+    "町公式の分別表・収集カレンダーと『家庭ごみの出し方ナビ』を確認し、それでも判断できない品目は住民生活課生活環境係へ問い合わせます。",
+    "森町公式は、家庭ごみの分別表・収集カレンダー、品目名から調べられる家庭ごみの出し方ナビ、粗大ごみの直接搬入、多言語版の生活案内をそれぞれ公開しています。ごみの種類によって確認先と出し方が異なります。",
+    ("分別表に加えて品目名から検索できる公式ナビがある", "多言語版や粗大ごみの案内を個別に確認できる"),
+    ("古い紙の分別表や近所の記憶だけで判断しない", "粗大ごみを通常の集積所へ出せると思い込まない"),
+    "ごみ出しは小さな行為に見えますが、毎週繰り返す生活の基盤です。分からない人を責めるのではなく、公式情報へたどり着く順番を地域で共有する方が、集積所の混乱を減らせると考えています。",
+    ("品目名を家庭ごみの出し方ナビで検索する", "地区の収集カレンダーと出す場所を確認する", "判断できない品目は担当窓口へ問い合わせる"),
+    ("/life/start-living/how-to-garbage/", "森町のごみの出し方を確認する"),
+    ("家庭ごみの分別表・収集カレンダー／静岡県森町", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html"),
+)
+
+ALL_POSTS = sorted(POSTS + [EXISTING_POST], key=lambda item: (item["date"], item["slug"]))
+
 
 def esc(value):
     return html.escape(str(value), quote=True)
@@ -565,6 +652,142 @@ def build_figure(title, rows, aria):
         for line_no, line in enumerate(lines):
             p.append(f'<text x="116" y="{y + 61 + line_no * 20}" class="lbl" font-size="15">{xml_escape(line)}</text>')
         y += 102
+    p.append('</svg>')
+    svg = "\n".join(p)
+    xml.dom.minidom.parseString(svg.encode("utf-8"))
+    return svg
+
+
+def motif_for(post_data):
+    slug = post_data["slug"]
+    if any(key in slug for key in ("vacant", "house", "home", "selling", "sell", "inherited", "clean-parents")):
+        return "house"
+    if any(key in slug for key in ("farmland", "forest", "tea")):
+        return "land"
+    if any(key in slug for key in ("shrine", "bugaku", "temple", "yamana", "cultural", "suzuki")):
+        return "heritage"
+    if any(key in slug for key in ("festival", "event")):
+        return "festival"
+    if any(key in slug for key in ("district", "location", "outskirts")):
+        return "map"
+    if any(key in slug for key in ("travel", "transport", "dual-location")):
+        return "transport"
+    if any(key in slug for key in ("parenting", "care")):
+        return "family"
+    return "document"
+
+
+def motif_markup(motif, x=0, y=0, scale=1.0):
+    transform = f'translate({x} {y}) scale({scale})'
+    common = 'stroke="#173f35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"'
+    if motif == "house":
+        body = (
+            '<path d="M25 125 L120 40 L215 125" fill="#d6a55f" %s/>' % common
+            + '<rect x="46" y="118" width="148" height="122" rx="8" fill="#fff8e8" %s/>' % common
+            + '<rect x="74" y="153" width="45" height="42" fill="#a8d8c7" %s/>' % common
+            + '<rect x="142" y="152" width="30" height="88" fill="#c98955" %s/>' % common
+            + '<path d="M205 104 C245 75 273 93 285 122 C263 129 239 128 214 117" fill="#5a9e68" %s/>' % common
+        )
+    elif motif == "land":
+        body = (
+            '<path d="M15 208 C70 150 155 135 278 166 L278 240 L15 240 Z" fill="#8fc77d" %s/>' % common
+            + ''.join(f'<path d="M{25+i*34} 222 C{70+i*28} 180 {105+i*30} 174 {150+i*28} 190" fill="none" stroke="#f4e4a4" stroke-width="8"/>' for i in range(4))
+            + '<rect x="215" y="55" width="18" height="116" rx="8" fill="#79573f"/>'
+            + '<circle cx="224" cy="66" r="58" fill="#4e8f59" %s/>' % common
+            + '<circle cx="178" cy="98" r="38" fill="#67a968" %s/>' % common
+        )
+    elif motif == "heritage":
+        body = (
+            '<rect x="72" y="55" width="24" height="185" fill="#a84c38" %s/>' % common
+            + '<rect x="206" y="55" width="24" height="185" fill="#a84c38" %s/>' % common
+            + '<rect x="43" y="53" width="217" height="24" rx="6" fill="#b7543d" %s/>' % common
+            + '<rect x="63" y="93" width="177" height="18" rx="6" fill="#b7543d" %s/>' % common
+            + '<path d="M120 240 L120 145 L180 145 L180 240" fill="#fff4dc" %s/>' % common
+            + '<path d="M106 148 L150 112 L194 148" fill="#d3a85d" %s/>' % common
+        )
+    elif motif == "festival":
+        body = (
+            '<rect x="45" y="96" width="210" height="116" rx="14" fill="#b95d3f" %s/>' % common
+            + '<path d="M31 95 L150 35 L269 95 Z" fill="#d6a85f" %s/>' % common
+            + '<circle cx="91" cy="222" r="28" fill="#313d3a" %s/>' % common
+            + '<circle cx="213" cy="222" r="28" fill="#313d3a" %s/>' % common
+            + ''.join(f'<circle cx="{75+i*50}" cy="126" r="18" fill="#fff0bd" stroke="#8f4435" stroke-width="5"/>' for i in range(4))
+            + '<path d="M150 35 L150 5" fill="none" %s/>' % common
+            + '<path d="M150 8 C178 18 198 7 214 26" fill="none" stroke="#f4e4a4" stroke-width="10"/>'
+        )
+    elif motif == "map":
+        body = (
+            '<path d="M40 194 C76 70 142 46 186 98 C224 143 246 88 276 42" fill="none" stroke="#d6a85f" stroke-width="16" stroke-linecap="round"/>'
+            + ''.join(f'<circle cx="{cx}" cy="{cy}" r="25" fill="{color}" %s/>' % common for cx, cy, color in ((42,194,"#5e9c68"),(92,98,"#5e9c68"),(164,104,"#a84c38"),(225,112,"#5e9c68"),(276,42,"#a84c38")))
+            + '<path d="M137 230 L174 170 L211 230 Z" fill="#7eae86" %s/>' % common
+        )
+    elif motif == "transport":
+        body = (
+            '<rect x="32" y="74" width="240" height="133" rx="24" fill="#e7f2e9" %s/>' % common
+            + '<rect x="58" y="100" width="56" height="50" rx="8" fill="#9bcfc4" %s/>' % common
+            + '<rect x="126" y="100" width="56" height="50" rx="8" fill="#9bcfc4" %s/>' % common
+            + '<rect x="194" y="100" width="48" height="94" rx="8" fill="#f4e4a4" %s/>' % common
+            + '<circle cx="82" cy="211" r="25" fill="#35423e" %s/>' % common
+            + '<circle cx="222" cy="211" r="25" fill="#35423e" %s/>' % common
+            + '<path d="M12 247 H292" fill="none" stroke="#d6a85f" stroke-width="13"/>'
+        )
+    elif motif == "family":
+        body = (
+            '<circle cx="105" cy="70" r="38" fill="#d6a85f" %s/>' % common
+            + '<path d="M53 217 C58 132 78 112 105 112 C132 112 151 132 158 217" fill="#76b59b" %s/>' % common
+            + '<circle cx="205" cy="102" r="30" fill="#d6a85f" %s/>' % common
+            + '<path d="M166 225 C170 158 184 140 205 140 C228 140 244 159 248 225" fill="#a8d8c7" %s/>' % common
+            + '<path d="M114 153 C139 166 154 166 178 155" fill="none" stroke="#a84c38" stroke-width="9"/>'
+            + '<path d="M229 67 C244 42 272 48 276 70 C280 95 253 110 229 129 C205 110 180 95 184 70 C188 48 215 42 229 67 Z" fill="#cf7561"/>'
+        )
+    else:
+        body = (
+            '<rect x="54" y="22" width="196" height="226" rx="15" fill="#fff9e9" %s/>' % common
+            + '<path d="M190 22 V78 H250" fill="#e2c47e" %s/>' % common
+            + ''.join(f'<path d="M86 {110+i*34} H214" fill="none" stroke="#72aa97" stroke-width="9"/>' for i in range(4))
+            + '<circle cx="218" cy="210" r="42" fill="#b85d45" %s/>' % common
+            + '<path d="M198 210 L213 225 L240 190" fill="none" stroke="#fff" stroke-width="12"/>'
+        )
+    return f'<g transform="{transform}">{body}</g>'
+
+
+def build_scene_figure(post_data, variant):
+    title = post_data["title"]
+    motif = motif_for(post_data)
+    aria = (f"森町の山並み、太田川を思わせる水辺、茶畑と、{title}のテーマを表す"
+            + ("暮らしの場面を描いた挿絵" if variant == 1 else "三つの確認場面を道で結んだ挿絵"))
+    p = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="{xml_escape(aria)}" data-illustration="mori-editorial" data-variant="{variant}">',
+        '<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dcefed"/><stop offset="1" stop-color="#f8f1d9"/></linearGradient><linearGradient id="river" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b8dfdf"/><stop offset="1" stop-color="#7fbec4"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#163d32" flood-opacity=".18"/></filter><style>.ttl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#173f35}.cap{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#39584e}</style></defs>',
+        '<rect width="1000" height="560" rx="22" fill="url(#sky)"/>',
+        '<circle cx="850" cy="88" r="48" fill="#fff9dd" opacity=".92"/>',
+        '<path d="M0 230 L130 134 L255 220 L405 112 L548 218 L690 142 L825 224 L1000 126 L1000 340 L0 340 Z" fill="#91b9aa"/>',
+        '<path d="M0 272 L168 185 L286 263 L436 178 L590 268 L724 196 L866 265 L1000 202 L1000 348 L0 348 Z" fill="#5f9278"/>',
+        '<path d="M0 354 C168 314 286 393 448 352 C626 306 744 391 1000 340 L1000 430 C760 474 548 408 368 444 C214 475 103 426 0 444 Z" fill="url(#river)"/>',
+        '<path d="M0 463 C182 424 380 490 560 450 C720 414 874 448 1000 429 L1000 560 L0 560 Z" fill="#7eb46f"/>',
+        '<path d="M0 500 C182 458 363 522 556 484 C742 448 864 489 1000 463" fill="none" stroke="#e7d98d" stroke-width="10" opacity=".9"/>',
+    ]
+    if variant == 1:
+        p.extend([
+            '<g filter="url(#shadow)"><rect x="40" y="38" width="620" height="172" rx="20" fill="#fffdf5" opacity=".94"/></g>',
+            f'<text x="72" y="80" class="cap" font-size="19">{xml_escape(AXIS_LABEL[post_data["axis"]])}を森町の暮らしから考える</text>',
+        ])
+        for line_no, line in enumerate(svg_text_lines(title, width=20, max_lines=3)):
+            p.append(f'<text x="70" y="{119 + line_no * 31}" class="ttl" font-size="24">{xml_escape(line)}</text>')
+        p.append(motif_markup(motif, 648, 248, 1.05))
+        p.append('<path d="M92 462 C152 421 220 422 284 454" fill="none" stroke="#315f50" stroke-width="12" stroke-linecap="round"/>')
+        p.append('<circle cx="87" cy="461" r="15" fill="#d6a85f"/><circle cx="288" cy="454" r="15" fill="#a84c38"/>')
+    else:
+        p.append('<path d="M120 320 C265 184 405 426 565 279 C702 154 816 333 914 229" fill="none" stroke="#d2a657" stroke-width="18" stroke-linecap="round" stroke-dasharray="5 30"/>')
+        positions = ((70, 92), (356, 248), (682, 80))
+        mini = ("document", "map", motif)
+        for index, ((x, y), action, icon) in enumerate(zip(positions, post_data["actions"], mini), 1):
+            p.append(f'<g filter="url(#shadow)"><circle cx="{x+115}" cy="{y+112}" r="106" fill="#fffdf5" stroke="#d4dfd6" stroke-width="4"/></g>')
+            p.append(motif_markup(icon, x + 50, y + 34, .43))
+            p.append(f'<circle cx="{x+32}" cy="{y+30}" r="25" fill="#174f3b"/><text x="{x+32}" y="{y+39}" text-anchor="middle" fill="#fff" font-family="Yu Gothic,sans-serif" font-size="22" font-weight="700">{index}</text>')
+            p.append(f'<rect x="{x+5}" y="{y+205}" width="220" height="70" rx="14" fill="#fffdf5" stroke="#d4dfd6" stroke-width="3"/>')
+            for line_no, line in enumerate(svg_text_lines(action, width=14, max_lines=2)):
+                p.append(f'<text x="{x+115}" y="{y+232+line_no*24}" text-anchor="middle" class="cap" font-size="16">{xml_escape(line)}</text>')
     p.append('</svg>')
     svg = "\n".join(p)
     xml.dom.minidom.parseString(svg.encode("utf-8"))
@@ -622,10 +845,141 @@ def figure_markup(slug, number, alt, caption):
     return (
         '<figure class="post-figure" style="margin:28px 0;overflow-x:auto;-webkit-overflow-scrolling:touch">'
         f'<img src="/blog/{esc(slug)}/fig{number}.svg" alt="{esc(alt)}" '
-        'style="width:100%;min-width:600px;height:auto;border:1px solid var(--line);border-radius:12px;display:block">'
+        'style="width:100%;height:auto;border:1px solid var(--line);border-radius:12px;display:block">'
         f'<figcaption style="font-size:12.5px;color:var(--mut);margin-top:8px;line-height:1.65">図{number}　{esc(caption)}</figcaption>'
         '</figure>'
     )
+
+
+def sources_for(p):
+    result = []
+    seen = set()
+    for title, url in [p["source"], *AXIS_SOURCES[p["axis"]]]:
+        if url in seen:
+            continue
+        seen.add(url)
+        result.append((title, url))
+    return result
+
+
+def paragraph(value):
+    return f"<p>{esc(value)}</p>"
+
+
+def prose_section(title, paragraphs):
+    return f'<h2 class="sec">{esc(title)}</h2>' + "\n".join(paragraph(item) for item in paragraphs)
+
+
+def build_longform_body(p, fig1, fig2):
+    title = p["title"]
+    axis = AXIS_LABEL[p["axis"]]
+    guide = AXIS_GUIDE[p["axis"]]
+    good1, good2 = p["good"]
+    caution1, caution2 = p["caution"]
+    action1, action2, action3 = p["actions"]
+    source_title = p["source"][0]
+
+    opening = [
+        p["description"],
+        f"この記事で考えたいのは、単に『{title}』という情報を知ることではありません。森町で暮らす人、これから関わる人、離れて住む家族が、何を事実として確認し、どの順番で判断すれば迷いを減らせるかという実務の話です。",
+        f"最初の問いは『{p['question']}』です。検索すると短い答えだけが目に入りやすいのですが、暮らしの場面では家族構成、場所、時期、手元の資料によって必要な確認が変わります。だから私は、結論だけでなく確認の道筋まで書くことにしました。",
+        f"先に要点を言えば、{p['answer']} ただし、この一文だけを切り取って行動すると、対象条件や例外、現地の状況を見落とすことがあります。公式資料で分かること、資料だけでは分からないこと、現地や窓口で確かめることを分けて読み進めてください。",
+        guide["local"],
+        f"{axis}というテーマは、知識として読んだ瞬間より、自分の予定表や家族の役割に置き換えたときに意味を持ちます。誰が確認するのか、いつまでに動くのか、費用や移動をどう見込むのかを具体化することが、遠回りに見えて一番の近道です。",
+    ]
+
+    facts = [
+        p["fact"],
+        f"今回の基礎資料は、森町が公開している『{source_title}』です。町公式ページは、対象となる人や場所、相談先、関連資料へたどるための出発点になります。まず公式の記載を読み、その後に自分の状況と一致する部分を拾うのが安全です。",
+        "公式ページを読むときは、ページの見出しだけで判断せず、対象、期限、必要書類、費用、申請先、更新日、関連リンクを順に確認します。PDFが添付されている場合は、本文とPDFのどちらが新しいか、年度表記が一致しているかも見ます。",
+        "一方、公式資料にも書かれていないことがあります。個別の土地や建物の状態、家族間の合意、当日の混雑、地域での具体的な運用などです。記載がない部分を『問題ないはず』と推測で埋めず、質問として残すことが大切です。",
+        f"この記事では、公式資料から確認できる事実と、大石の評価や提案を分けています。{good1}という評価も、{caution1}という注意も、資料の記載そのものではありません。公表情報を暮らしへ置き換えたときの見方として読んでください。",
+        "確認日は、情報が永遠に有効であることを保証する日ではありません。窓口、金額、期限、開催状況、運行時刻、様式は変わることがあります。実際に動く日が決まったら、その日の直前にもう一度公式ページを開く必要があります。",
+        f"関連する町公式ページも合わせて読むと、単独の案内では見えにくい前後関係が分かります。{axis}は一つの担当だけで完結しない場合があるため、最初の窓口で『この後に別の確認が必要か』と聞くことも有効です。",
+    ]
+
+    local_life = [
+        guide["lens"],
+        f"{title}を自分の暮らしに置き換える第一歩は、今分かっていることと分からないことを分ける作業です。分かっている欄には資料名や日付を書き、分からない欄には質問を書きます。空欄を推測で埋めない方が、窓口や家族との話が早く進みます。",
+        f"次に、{action1}という確認を実際の予定へ落とします。『そのうち調べる』ではなく、誰が、どの資料を使い、いつ確認するかを決めます。終わったら確認日と回答を残し、別の家族が見ても同じ内容をたどれる状態にします。",
+        f"森町は一つの町でも、地区や場所によって移動、周辺環境、地域との関わり方が異なります。町全体の説明が正しくても、自分の候補地や対象物にそのまま当てはまるとは限りません。地図、現地、公式情報を重ねて見る必要があります。",
+        f"また、平常時だけでなく、雨の日、家族が不在の日、車が使えない日、連絡が取りにくい日を想定します。{caution2}という注意は、まさに例外の日に問題になりやすい点です。普段できることと、代替手段があることは同じではありません。",
+        guide["record"],
+    ]
+
+    good_points = [
+        f"良い点の一つ目は、{good1}ことです。情報の入口が明確なら、個人の記憶や口コミだけに頼らず、家族全員が同じ資料を見ながら話せます。判断が違っても、前提となる事実を共有できることには大きな意味があります。",
+        f"{good1}という長所は、初めて森町の情報を探す人にも役立ちます。町内の事情をよく知る人には当たり前でも、転入者や離れて住む相続人には分からないことが多くあります。入口が示されていれば、質問を具体的にできます。",
+        f"二つ目は、{good2}ことです。一つの選択肢だけを勧めるのではなく、関連する確認先へ進めることは、急いで結論を出したくない人にとって安心材料になります。選択肢を知ることと、すぐ申し込むことは別です。",
+        f"{good2}という点は、家族で役割を分けるときにも有効です。現地を見る人、書類を集める人、窓口へ聞く人を分けても、同じ公式資料へ戻れるからです。誰か一人の記憶に依存しない進め方ができます。",
+        "私は、良い仕組みを評価するとき、制度が存在するかだけでなく、必要な人が入口へたどり着けるかを見ます。名称が難しくても、暮らしの言葉から探せること、次の行動が分かること、問い合わせ先が明確であることが重要です。",
+        f"以上から、{title}について町が公表している情報は、考え始めるための土台として評価できます。ただし、土台があることと、個別の判断が自動的に終わることは同じではありません。ここを分けて理解する必要があります。",
+    ]
+
+    caution_points = [
+        f"注文したい点の一つ目は、{caution1}ことです。短い案内や検索結果だけでは、対象条件や例外が省かれて見える場合があります。見出しで自分が対象だと思っても、本文、添付資料、最新のお知らせまで確認する必要があります。",
+        f"{caution1}という誤りが起きる背景には、早く結論を知りたい気持ちがあります。しかし、急いで判断してやり直す方が時間も費用もかかります。分からない段階で相談することは、準備不足ではなく、誤りを減らすための行動です。",
+        f"二つ目は、{caution2}ことです。森町全体を説明する情報と、特定の地区、土地、世帯、開催日の状況は粒度が違います。全体の傾向を個別の答えに置き換えず、対象を特定してから確認します。",
+        f"{caution2}という点を避けるには、現地を見る時間帯を変える、家族以外の第三者へ説明してみる、窓口への質問を文章にするなど、別の角度から確かめる方法が役立ちます。一度見て終わりにしないことが大切です。",
+        "情報が見つからない場合も、自由に判断してよいという意味ではありません。担当窓口が違う、古いページが検索に残っている、個別相談で確認する事項である可能性があります。見つからない事実と、存在しない事実を混同しないようにします。",
+        "反対に、注意点があるからといって、森町での暮らしや地域の仕組みを否定的に見る必要もありません。良い点と不便な点を同じ表に置き、自分が受け入れられる条件と、対策が必要な条件を分ければ、感情だけでない判断ができます。",
+    ]
+
+    actions = [
+        f"第一段階は、{action1}ことです。この段階では結論を出しません。対象、資料、場所、日付を確定し、今の理解が公式情報と一致しているかを確かめます。家族内で認識が違う場合は、違いを消すのではなく並べて記録します。",
+        f"{action1}際には、画面のURLだけでなくページ名と確認日も残します。後でページが更新されたとき、どの情報を前提に話したのかが分かります。印刷する場合も、印刷日を余白に書いておくと混乱を減らせます。",
+        f"第二段階は、{action2}ことです。公式資料で全体像をつかんだ後、現地、家族の予定、手元の書類と照合します。資料に書かれた一般的な説明と、自分の状況が違う点を質問へ変えていきます。",
+        f"{action2}ときは、一回で全部を終わらせようとしない方がよい場合があります。写真、メモ、地図、回答を持ち帰り、家族で確認してから次へ進む方が、後から『聞いていない』『認識が違う』という問題を減らせます。",
+        f"第三段階は、{action3}ことです。ここで初めて、申込み、契約、参加、移動、継続管理など次の行動を選びます。条件が揃わない場合は、何が揃えば判断できるかを明確にして保留します。",
+        f"{action3}際には、費用だけでなく、移動時間、家族の負担、維持に必要な時間、変更時の連絡方法も確認します。初回の手間だけでなく、続けられるかという視点を入れることで、選んだ後の後悔を減らせます。",
+        f"私からの対案は、{title}を一度きりの判断にしないことです。確認した内容を一枚にまとめ、半年後や次の年度にも見直せる形にします。暮らしの条件は変わるため、記録があれば変化に合わせて修正できます。",
+        "町の案内にも、入口、対象、手順、更新日、問い合わせ先が同じ場所で分かる工夫を期待します。利用者側も、質問を具体的にし、回答を記録し、公式情報へ戻る習慣を持つことで、案内をより活用できます。",
+    ]
+
+    family = [
+        "家族で共有するときは、結論から話し始めないことが大切です。まず、確認済みの事実、未確認の事項、希望、心配を四つに分けます。希望と事実を同じ欄に書かないだけで、話し合いの衝突を減らせます。",
+        f"確認済みの事実には、{p['fact']}という公表情報を書きます。未確認の事項には、自分の対象が条件に当てはまるか、現地の状態はどうか、費用や時期は変わっていないかを記入します。",
+        f"希望の欄には、{good1}という良さをどう生かしたいかを書きます。心配の欄には、{caution1}ことや{caution2}ことを書きます。どちらかを消すのではなく、両方を見ながら対応策を考えます。",
+        "遠方の家族がいる場合は、写真だけでなく、撮影場所と日付、資料のページ、窓口の回答を共有します。電話で聞いた内容は、担当部署、日時、質問、回答を短く残します。これだけで説明の食い違いが大きく減ります。",
+        "最終的な判断をする人と、情報を集める人が違う場合もあります。誰が決める権限を持つのか、誰の同意が必要か、誰が継続して管理するのかを先に確認すると、後の段階で止まりにくくなります。",
+    ]
+
+    oishi = [
+        "私は磐田市で小さな不動産業に携わり、住まい、実家じまい、空き家、相続、介護が一度に動く場面を現場目線で考えてきました。そこで感じるのは、正しい情報があっても、確認する順番が分からないと人は動けないということです。",
+        p["view"],
+        f"{title}でも、早く答えを出すことより、家族が同じ資料を見て、同じ言葉で状況を説明できることを重視します。結論が保留でも、確認済みの事実が増えていれば前進です。",
+        "相談することは、誰かへ判断を丸投げすることではありません。自分たちで決めるために、専門分野や公的な窓口から不足情報を受け取る行為です。分からない点を整理してから相談すれば、短い時間でも具体的な回答を得やすくなります。",
+        f"最後に一言。{p['answer']} この要点を出発点にしつつ、公式資料、現地、家族の事情を重ねて、自分たちに合う答えをつくってください。森町での暮らしを急いで評価せず、確かめた分だけ判断を深くする姿勢を大切にしたいと思います。",
+    ]
+
+    summary = [
+        f"{title}について最も大切なのは、{p['answer']}という基本を押さえ、対象や条件を自分の状況へ置き換えることです。",
+        f"良い点は{good1}ことと、{good2}ことです。一方で、{caution1}こと、{caution2}ことは避けなければなりません。良い面と注意点を同時に見ることが、是々非々で考えるということです。",
+        f"今日からできるのは、{action1}ことです。その結果を記録し、次に{action2}、最後に{action3}という順番で進めてください。急いで結論を出すより、確認の抜けを一つずつ減らす方が確実です。",
+    ]
+
+    good_items = "".join(f"<li>{esc(x)}</li>" for x in p["good"])
+    caution_items = "".join(f"<li>{esc(x)}</li>" for x in p["caution"])
+    steps = "".join(f"<li><strong>{i}.</strong> {esc(x)}</li>" for i, x in enumerate(p["actions"], 1))
+    summary_items = "".join(f"<li>{esc(x)}</li>" for x in (p["answer"], good1, caution1))
+    return "\n".join([
+        prose_section(f"導入——{title}", opening),
+        fig1,
+        prose_section("まず、公式資料から事実を整理する", facts),
+        prose_section("森町の暮らしに置き換える", local_life),
+        '<h2 class="sec">評価——良い点と、注文したい点</h2>',
+        '<h3>良い点</h3><ul class="post-summary">' + good_items + '</ul>',
+        "\n".join(paragraph(item) for item in good_points),
+        '<h3>注文したい点</h3><ul class="post-summary">' + caution_items + '</ul>',
+        "\n".join(paragraph(item) for item in caution_points),
+        fig2,
+        prose_section("対案・結論——三段階で確認する", actions),
+        '<h2 class="sec">確認する順番</h2><ol class="post-steps">' + steps + '</ol>',
+        prose_section("家族で共有するための記録", family),
+        prose_section("大石の視点", oishi),
+        prose_section("まとめ", summary),
+        '<ul class="post-summary">' + summary_items + '</ul>',
+    ])
 
 
 def build_article(p, parts):
@@ -633,14 +987,14 @@ def build_article(p, parts):
     axis = AXIS_LABEL[p["axis"]]
     date_obj = dt.date.fromisoformat(p["date"])
     jp_date = f"{date_obj.year}年{date_obj.month}月{date_obj.day}日"
-    good_items = "".join(f"<li>{esc(x)}</li>" for x in p["good"])
-    caution_items = "".join(f"<li>{esc(x)}</li>" for x in p["caution"])
-    steps = "".join(f"<li><strong>{i}.</strong> {esc(x)}</li>" for i, x in enumerate(p["actions"], 1))
-    summary = "".join(f"<li>{esc(x)}</li>" for x in (p["answer"], p["good"][0], p["caution"][0]))
-    source_title, source_url = p["source"]
     internal_url, internal_label = p["internal"]
-    fig1 = figure_markup(slug, 1, f"{title}の事実、良い点、注意点を3段で整理した図", "公式資料から確認できること")
-    fig2 = figure_markup(slug, 2, f"{title}について確認する3つの行動順を示した図", "大石が勧める確認の順番")
+    fig1 = figure_markup(slug, 1, f"{title}を森町の山並み、水辺、茶畑と記事テーマのモチーフで描いた挿絵", "森町の情景からテーマを考える")
+    fig2 = figure_markup(slug, 2, f"{title}について三つの確認場面を道で結んだ挿絵", "確認を三段階に分ける")
+    longform = build_longform_body(p, fig1, fig2)
+    source_items = "".join(
+        f'<li><a href="{esc(url)}" target="_blank" rel="noopener">{esc(source_title)}</a>（{JP_TODAY}確認）</li>'
+        for source_title, url in sources_for(p)
+    )
     json_ld = json.dumps({
         "@context": "https://schema.org", "@type": "Article", "headline": title,
         "datePublished": p["date"], "dateModified": TODAY,
@@ -673,22 +1027,12 @@ def build_article(p, parts):
 <div class="post-point"><p class="post-point-label">この記事の要点</p>
 <p class="post-point-q">Q. {esc(p["question"])}</p>
 <p class="post-point-a">A. <strong>{esc(p["answer"])}</strong></p></div>
-<p>{esc(description)}</p>
-<h2 class="sec">まず、公式資料から事実を整理する</h2>
-<p>{esc(p["fact"])}</p>
-{fig1}
-<h2 class="sec">評価——良い点と、注文したい点</h2>
-<h3>良い点</h3><ul class="post-summary">{good_items}</ul>
-<h3>注文したい点</h3><ul class="post-summary">{caution_items}</ul>
-{fig2}
-<h2 class="sec">大石の視点</h2>
-<p>最後に一言。{esc(p["view"])}</p>
-<h2 class="sec">確認する順番</h2>
-<ol class="post-steps">{steps}</ol>
-<h2 class="sec">まとめ</h2><ul class="post-summary">{summary}</ul>
+<div class="post-editorial-body">
+{longform}
+</div>
 <div class="action-grid"><a class="btn" href="{esc(internal_url)}">{esc(internal_label)}</a><a class="btn" href="/blog/">ブログの記事一覧へ戻る</a></div>
 <h2 class="sec">参考にした公式情報</h2>
-<ul class="post-sources"><li><a href="{esc(source_url)}" target="_blank" rel="noopener">{esc(source_title)}</a>（{JP_TODAY}確認）</li></ul>
+<ul class="post-sources">{source_items}</ul>
 <p class="post-author">この記事の執筆：<a href="/about/author/">{AUTHOR}</a>／富士ヶ丘サービス株式会社</p>
 <p class="verified">最終確認日：{TODAY} ／ 本記事は公表情報と執筆者の見解を分けて記載しています。制度・開催・公開状況は変更される場合があるため、最新情報は公式ページでご確認ください。</p>
 </article></div></main>
@@ -702,24 +1046,18 @@ def write_post(p, parts):
     directory.mkdir(parents=True, exist_ok=True)
     (directory / "index.html").write_text(build_article(p, parts), encoding="utf-8", newline="\n")
     build_cover(p, directory / "cover.jpg")
-    fig1_rows = (
-        ("公式資料で確認", p["fact"]),
-        ("良い点", p["good"][0]),
-        ("注意点", p["caution"][0]),
-    )
-    fig2_rows = tuple((f"確認 {index}", action) for index, action in enumerate(p["actions"], 1))
     (directory / "fig1.svg").write_text(
-        build_figure("公式資料から見えること", fig1_rows, f"{p['title']}の事実整理"),
+        build_scene_figure(p, 1),
         encoding="utf-8", newline="\n")
     (directory / "fig2.svg").write_text(
-        build_figure("大石が勧める確認の順番", fig2_rows, f"{p['title']}の行動順"),
+        build_scene_figure(p, 2),
         encoding="utf-8", newline="\n")
 
 
 def update_ledger():
     data = json.loads(LEDGER.read_text(encoding="utf-8-sig"))
     by_slug = {item["slug"]: item for item in data["posts"]}
-    for p in POSTS:
+    for p in ALL_POSTS:
         by_slug[p["slug"]] = {
             "slug": p["slug"], "date": p["date"], "axis": p["axis"],
             "title": p["title"], "description": p["description"],
@@ -733,11 +1071,10 @@ def update_ledger():
 
 def validate_dates():
     expected = {dt.date(2026, 7, 3) + dt.timedelta(days=i) for i in range(34)}
-    existing = {dt.date(2026, 8, 4)}
-    actual = {dt.date.fromisoformat(p["date"]) for p in POSTS}
-    if actual | existing != expected or len(POSTS) != 33:
+    actual = {dt.date.fromisoformat(p["date"]) for p in ALL_POSTS}
+    if actual != expected or len(ALL_POSTS) != 34:
         raise RuntimeError("日付の連続性が崩れています")
-    if len({p["slug"] for p in POSTS}) != len(POSTS):
+    if len({p["slug"] for p in ALL_POSTS}) != len(ALL_POSTS):
         raise RuntimeError("slugが重複しています")
 
 
@@ -745,11 +1082,11 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     validate_dates()
     parts = load_parts()
-    for item in POSTS:
+    for item in ALL_POSTS:
         write_post(item, parts)
     update_ledger()
-    print(f"日次ブログ {len(POSTS)} 本を生成しました（既存1本と合わせて34日連続）")
-    print(f"記事期間: {POSTS[0]['date']}〜{POSTS[-1]['date']} / 確認日: {TODAY}")
+    print(f"日次ブログ {len(ALL_POSTS)} 本を長文仕様で生成しました")
+    print(f"記事期間: {ALL_POSTS[0]['date']}〜{ALL_POSTS[-1]['date']} / 確認日: {TODAY}")
 
 
 if __name__ == "__main__":
