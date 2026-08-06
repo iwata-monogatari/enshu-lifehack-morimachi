@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ef1Title ef1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ef1Title">森町の山あいで、使われていない畑が獣の通り道になっている様子を描いたイラスト</title>
+  <desc id="ef1Desc">奥に山並みと杉林、中景の左に草が伸びて放置された畑があり、そこからイノシシとシカが下りてくる足跡が右へ続きます。右側には支柱と電気柵で囲われた畑と作物、電源装置と危険表示の札を描き、手前に農道と軽トラック、草刈り機を持つ人を配しています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ef1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cde3f0"/><stop offset="0.6" stop-color="#e7f1ee"/><stop offset="1" stop-color="#f4f7ec"/>
+    </linearGradient>
+    <linearGradient id="ef1far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93b3c6"/><stop offset="1" stop-color="#b4cdd4"/>
+    </linearGradient>
+    <linearGradient id="ef1mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f8c7f" stop-opacity="1"/><stop offset="1" stop-color="#86ad9c"/>
+    </linearGradient>
+    <linearGradient id="ef1weed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a7b862"/><stop offset="1" stop-color="#7d8f3f"/>
+    </linearGradient>
+    <linearGradient id="ef1crop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8dbd63"/><stop offset="1" stop-color="#4d8036"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#ef1sky)"/>
+  <circle cx="128" cy="72" r="28" fill="#ffffff" opacity="0.7"/>
+  <g fill="#ffffff" opacity="0.5">
+    <ellipse cx="620" cy="64" rx="62" ry="18"/><ellipse cx="676" cy="56" rx="42" ry="13"/>
+    <ellipse cx="330" cy="48" rx="44" ry="13"/>
+  </g>
+
+  <!-- 遠景の山並み -->
+  <path fill="url(#ef1far)" d="M0 174 L88 128 L176 164 L262 118 L358 160 L452 122 L552 166 L648 124 L750 162 L850 128 L942 168 L1000 148 L1000 236 L0 236 Z"/>
+  <path fill="url(#ef1mid)" d="M0 206 L94 176 L188 208 L286 168 L390 210 L494 174 L598 212 L700 178 L806 214 L906 180 L1000 212 L1000 276 L0 276 Z"/>
+
+  <!-- 杉林 -->
+  <g fill="#3f6b52">
+    <path d="M40 276 l17 -52 l17 52 z"/><path d="M74 276 l14 -44 l14 44 z"/><path d="M104 276 l18 -56 l18 56 z"/>
+    <path d="M142 276 l13 -40 l13 40 z"/><path d="M172 276 l16 -50 l16 50 z"/>
+    <path d="M842 274 l16 -48 l16 48 z"/><path d="M876 274 l13 -40 l13 40 z"/><path d="M906 274 l18 -54 l18 54 z"/>
+    <path d="M944 274 l14 -44 l14 44 z"/>
+  </g>
+
+  <!-- 地面 -->
+  <rect x="0" y="270" width="1000" height="290" fill="#dde8d3"/>
+  <path fill="#cfdfc2" d="M0 306 L1000 292 L1000 560 L0 560 Z"/>
+
+  <!-- 左：使われていない畑（草が伸びている） -->
+  <path fill="url(#ef1weed)" d="M0 300 L436 292 L410 424 L0 438 Z"/>
+  <g stroke="#6c7f33" stroke-width="2.2" opacity="0.8" fill="none">
+    <path d="M28 436 q10 -40 -4 -66"/><path d="M64 430 q12 -46 0 -74"/><path d="M104 428 q-10 -42 4 -70"/>
+    <path d="M146 424 q12 -44 -2 -72"/><path d="M188 420 q-8 -40 6 -68"/><path d="M232 416 q12 -46 -2 -74"/>
+    <path d="M274 412 q-10 -40 4 -68"/><path d="M316 408 q12 -44 -2 -70"/><path d="M358 404 q-8 -38 6 -66"/>
+  </g>
+  <g fill="#c9d07a" opacity="0.85">
+    <ellipse cx="70" cy="362" rx="9" ry="16"/><ellipse cx="196" cy="352" rx="9" ry="16"/><ellipse cx="330" cy="344" rx="9" ry="16"/>
+  </g>
+  <!-- 崩れた古い杭と針金 -->
+  <g stroke="#8d7f60" stroke-width="4" stroke-linecap="round">
+    <path d="M124 420 l-6 -44"/><path d="M240 412 l10 -40"/>
+  </g>
+  <path fill="none" stroke="#a89a7c" stroke-width="2" d="M118 384 q60 16 132 -8"/>
+
+  <!-- 獣道（左の畑から右下へ） -->
+  <path fill="#c4b493" opacity="0.85" d="M300 300 q40 60 96 96 q60 40 118 62 l-30 26 q-70 -28 -132 -72 q-56 -40 -84 -100 z"/>
+
+  <!-- イノシシ -->
+  <g>
+    <ellipse cx="352" cy="336" rx="42" ry="24" fill="#6b5a49"/>
+    <path d="M392 328 q28 -6 34 8 q-12 12 -34 8 z" fill="#5b4b3c"/>
+    <circle cx="424" cy="334" r="5" fill="#3a2f26"/>
+    <path d="M318 320 q-16 -12 -6 -24 q12 6 14 18 z" fill="#5b4b3c"/>
+    <g stroke="#4a3d31" stroke-width="7" stroke-linecap="round">
+      <path d="M330 356 l-4 20"/><path d="M352 358 l0 20"/><path d="M374 356 l4 20"/>
+    </g>
+    <circle cx="406" cy="326" r="3.4" fill="#1f1a15"/>
+  </g>
+
+  <!-- シカ -->
+  <g>
+    <ellipse cx="240" cy="318" rx="34" ry="18" fill="#9a7a55"/>
+    <path d="M212 306 q-18 -6 -22 -22 q10 -2 18 6 q4 -12 12 -14 l2 30 z" fill="#8a6c49"/>
+    <g stroke="#7a5f3f" stroke-width="3" stroke-linecap="round" fill="none">
+      <path d="M198 288 q-8 -18 -2 -26"/><path d="M196 288 q-14 -10 -18 -22"/>
+    </g>
+    <g stroke="#7a5f3f" stroke-width="5" stroke-linecap="round">
+      <path d="M222 334 l-4 22"/><path d="M240 336 l0 22"/><path d="M260 334 l4 22"/>
+    </g>
+    <circle cx="192" cy="284" r="3" fill="#241c13"/>
+    <g fill="#e6dccb" opacity="0.9">
+      <ellipse cx="238" cy="312" rx="4" ry="3"/><ellipse cx="252" cy="316" rx="4" ry="3"/>
+    </g>
+  </g>
+
+  <!-- 足跡 -->
+  <g fill="#7d6a4d" opacity="0.8">
+    <ellipse cx="418" cy="392" rx="7" ry="5"/><ellipse cx="440" cy="404" rx="7" ry="5"/>
+    <ellipse cx="462" cy="416" rx="7" ry="5"/><ellipse cx="486" cy="428" rx="7" ry="5"/>
+    <ellipse cx="510" cy="440" rx="7" ry="5"/>
+  </g>
+
+  <!-- 右：電気柵で囲われた畑 -->
+  <path fill="url(#ef1crop)" d="M520 296 L1000 288 L1000 418 L516 430 Z"/>
+  <g stroke="#3d6b2b" stroke-width="2.4" opacity="0.5">
+    <path d="M520 316 L1000 308"/><path d="M519 340 L1000 332"/><path d="M518 364 L1000 356"/><path d="M517 390 L1000 382"/>
+  </g>
+  <g fill="#eadf7c">
+    <ellipse cx="596" cy="330" rx="7" ry="14"/><ellipse cx="684" cy="326" rx="7" ry="14"/><ellipse cx="772" cy="322" rx="7" ry="14"/>
+    <ellipse cx="640" cy="366" rx="7" ry="14"/><ellipse cx="740" cy="362" rx="7" ry="14"/><ellipse cx="852" cy="356" rx="7" ry="14"/>
+  </g>
+
+  <!-- 電気柵の支柱と電線 -->
+  <g stroke="#4f5a63" stroke-width="5" stroke-linecap="round">
+    <path d="M524 442 L524 348"/><path d="M628 438 L628 344"/><path d="M732 434 L732 340"/><path d="M836 430 L836 336"/><path d="M940 426 L940 332"/>
+  </g>
+  <g stroke="#d8632c" stroke-width="3" fill="none">
+    <path d="M524 360 L628 356 L732 352 L836 348 L940 344"/>
+    <path d="M524 388 L628 384 L732 380 L836 376 L940 372"/>
+    <path d="M524 416 L628 412 L732 408 L836 404 L940 400"/>
+  </g>
+  <g fill="#f0c948" stroke="#a8811c" stroke-width="1.4">
+    <circle cx="628" cy="356" r="4"/><circle cx="732" cy="380" r="4"/><circle cx="836" cy="348" r="4"/>
+  </g>
+
+  <!-- 電源装置と危険表示 -->
+  <g>
+    <rect x="486" y="352" width="46" height="40" rx="5" fill="#e8ecec" stroke="#8d979b" stroke-width="2"/>
+    <rect x="494" y="360" width="30" height="14" rx="2" fill="#9fc9d8" stroke="#7d9fae" stroke-width="1.4"/>
+    <circle cx="500" cy="384" r="4" fill="#d8492f"/><circle cx="516" cy="384" r="4" fill="#3f9152"/>
+    <path d="M509 340 L509 352" stroke="#8d979b" stroke-width="3"/>
+    <rect x="472" y="300" width="74" height="34" rx="4" fill="#f4d64b" stroke="#a88a12" stroke-width="2"/>
+    <path d="M509 306 l9 16 h-7 l6 12 l-16 -18 h8 z" fill="#3a2f0c"/>
+    <path d="M486 328 h46" stroke="#a88a12" stroke-width="2"/>
+  </g>
+
+  <!-- 農道 -->
+  <path fill="#cbbfa4" d="M96 560 L246 444 L862 434 L1000 528 L1000 560 Z"/>
+  <path fill="none" stroke="#ffffff" stroke-width="4" stroke-dasharray="18 22" opacity="0.7" d="M560 442 L560 560"/>
+
+  <!-- 軽トラック -->
+  <g>
+    <rect x="660" y="474" width="132" height="44" rx="5" fill="#eef1ee" stroke="#98a1a6" stroke-width="2"/>
+    <rect x="660" y="474" width="54" height="44" rx="5" fill="#dee5e5" stroke="#98a1a6" stroke-width="2"/>
+    <rect x="670" y="482" width="34" height="20" fill="#bcd3dd" stroke="#8fa5ae" stroke-width="1.4"/>
+    <rect x="718" y="462" width="76" height="14" rx="3" fill="#b7a883" stroke="#8d7f60" stroke-width="1.6"/>
+    <circle cx="694" cy="522" r="15" fill="#3b444c" stroke="#20262b" stroke-width="2"/><circle cx="694" cy="522" r="6" fill="#8b959d"/>
+    <circle cx="766" cy="522" r="15" fill="#3b444c" stroke="#20262b" stroke-width="2"/><circle cx="766" cy="522" r="6" fill="#8b959d"/>
+  </g>
+
+  <!-- 草刈り機を持つ人 -->
+  <g>
+    <circle cx="330" cy="446" r="13" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M315 442 q15 -15 30 0 z" fill="#e0c98f" stroke="#b8a066" stroke-width="1.6"/>
+    <path d="M330 460 l0 38" stroke="#4a7d5a" stroke-width="13" stroke-linecap="round"/>
+    <path d="M330 468 l-20 16 M330 468 l22 14" stroke="#4a7d5a" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M323 498 l-8 28 M338 498 l8 28" stroke="#4d5a63" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M352 482 L410 516" stroke="#6b737a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="416" cy="520" r="14" fill="none" stroke="#9aa3a8" stroke-width="4"/>
+    <path d="M402 520 h28" stroke="#c8ced1" stroke-width="3"/>
+  </g>
+
+  <!-- 刈られた草 -->
+  <g fill="#93a457" opacity="0.7">
+    <ellipse cx="440" cy="534" rx="26" ry="7"/><ellipse cx="486" cy="544" rx="20" ry="6"/>
+  </g>
+
+  <!-- 説明ラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="24" y="24" width="286" height="34" rx="8" fill="#ffffff" opacity="0.93"/>
+    <text x="40" y="47" font-size="17" fill="#3f5a2c">使っていない畑は、通り道になる</text>
+    <rect x="24" y="64" width="238" height="30" rx="8" fill="#3f5a2c" opacity="0.9"/>
+    <text x="40" y="85" font-size="15" fill="#ffffff">柵は隣ではなく、山との間に</text>
+  </g>
+</svg>

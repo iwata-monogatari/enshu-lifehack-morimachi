@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ef2Title ef2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ef2Title">森町で電気柵の補助を使うまでの五つの場面を、一本の道沿いに並べたイラスト</title>
+  <desc id="ef2Desc">山あいの畑を背景に一本の農道が奥へ続き、道沿いに五つの場面が順に並びます。畑を歩いて足跡や掘り返しを確かめる場面、地図に獣の入る方向を書き込む場面、資材店で見積書を受け取る場面、役場の窓口で申請書と位置図を出す場面、柵を張ったあと草刈り機で足元を刈る場面です。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ef2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3e6ef"/><stop offset="0.65" stop-color="#eaf2ec"/><stop offset="1" stop-color="#f5f8ee"/>
+    </linearGradient>
+    <linearGradient id="ef2hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#97b8c6"/><stop offset="1" stop-color="#b7d0d3"/>
+    </linearGradient>
+    <linearGradient id="ef2field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8c47e"/><stop offset="1" stop-color="#7ba556"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#ef2sky)"/>
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="812" cy="56" rx="56" ry="16"/><ellipse cx="864" cy="48" rx="38" ry="12"/>
+  </g>
+
+  <!-- 遠景 -->
+  <path fill="url(#ef2hill)" d="M0 150 L104 108 L206 146 L306 104 L410 144 L516 106 L622 148 L726 108 L830 146 L930 110 L1000 142 L1000 210 L0 210 Z"/>
+  <g fill="#5c8a72" opacity="0.65">
+    <path d="M60 210 l16 -40 l16 40 z"/><path d="M96 210 l12 -32 l12 32 z"/>
+    <path d="M868 210 l15 -38 l15 38 z"/><path d="M902 210 l12 -30 l12 30 z"/>
+  </g>
+  <rect x="0" y="206" width="1000" height="354" fill="#e2ecd8"/>
+  <path fill="url(#ef2field)" d="M0 218 L1000 206 L1000 268 L0 282 Z"/>
+  <g stroke="#6a9448" stroke-width="2" opacity="0.5">
+    <path d="M0 234 L1000 222"/><path d="M0 252 L1000 240"/><path d="M0 270 L1000 258"/>
+  </g>
+
+  <!-- 農道 -->
+  <path fill="#cfc3a8" stroke="#b3a689" stroke-width="2" d="M-10 512 C 180 470, 200 402, 380 384 C 560 366, 600 306, 790 296 C 900 290, 960 282, 1010 278 L1010 300 C 960 304, 900 312, 792 318 C 616 328, 578 386, 392 406 C 216 424, 200 490, -10 534 Z"/>
+  <path fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="16 20" opacity="0.75" d="M-10 523 C 180 481, 200 413, 380 395 C 560 377, 600 317, 790 307 C 900 301, 960 293, 1010 289"/>
+
+  <!-- 場面1：畑を歩いて足跡を確かめる -->
+  <g>
+    <ellipse cx="118" cy="424" rx="96" ry="34" fill="#cdd9be"/>
+    <g fill="#8b9f5e" opacity="0.8">
+      <ellipse cx="60" cy="418" rx="16" ry="8"/><ellipse cx="168" cy="428" rx="18" ry="8"/>
+    </g>
+    <g fill="#7d6a4d" opacity="0.85">
+      <ellipse cx="72" cy="436" rx="6" ry="4"/><ellipse cx="92" cy="442" rx="6" ry="4"/>
+      <ellipse cx="112" cy="446" rx="6" ry="4"/><ellipse cx="132" cy="448" rx="6" ry="4"/>
+    </g>
+    <path d="M46 452 q22 -12 46 -6" fill="none" stroke="#a08a63" stroke-width="4"/>
+    <g>
+      <circle cx="140" cy="366" r="14" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+      <path d="M124 362 q16 -16 32 0 z" fill="#e0c98f" stroke="#b8a066" stroke-width="1.6"/>
+      <path d="M140 380 q-6 22 -2 34" stroke="#3f6b8c" stroke-width="14" stroke-linecap="round" fill="none"/>
+      <path d="M138 388 l-18 20 M140 388 l20 12" stroke="#3f6b8c" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <path d="M134 414 l-6 22 M146 414 l7 22" stroke="#4d5a63" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <rect x="152" y="392" width="22" height="16" rx="3" fill="#2f3a42" stroke="#1c2429" stroke-width="1.6"/>
+      <circle cx="163" cy="400" r="5" fill="#9fc9d8" stroke="#6e8f9c" stroke-width="1.4"/>
+    </g>
+    <circle cx="40" cy="382" r="17" fill="#3f5a2c"/>
+    <text x="40" y="388" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <rect x="20" y="470" width="196" height="28" rx="7" fill="#ffffff" opacity="0.93"/>
+    <text x="32" y="489" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#33452a">入られる場所を歩いて見る</text>
+  </g>
+
+  <!-- 場面2：地図に描く -->
+  <g>
+    <rect x="256" y="322" width="150" height="66" rx="5" fill="#8d7a5e" stroke="#6a5a42" stroke-width="2"/>
+    <rect x="248" y="308" width="166" height="22" rx="4" fill="#a08c6c" stroke="#6a5a42" stroke-width="2"/>
+    <rect x="268" y="252" width="128" height="66" rx="4" fill="#fbf7ea" stroke="#b9ac8e" stroke-width="2"/>
+    <g stroke="#c3b89b" stroke-width="1.4" fill="none">
+      <path d="M268 274 h128"/><path d="M268 296 h128"/><path d="M310 252 v66"/><path d="M354 252 v66"/>
+    </g>
+    <path d="M282 306 q30 -34 68 -46" fill="none" stroke="#d8632c" stroke-width="3.4" stroke-dasharray="7 6"/>
+    <path d="M350 260 l12 6 l-12 6 z" fill="#d8632c"/>
+    <rect x="286" y="282" width="30" height="18" fill="#8dbd63" stroke="#4d8036" stroke-width="1.6"/>
+    <g>
+      <circle cx="424" cy="286" r="13" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+      <path d="M424 300 l0 34" stroke="#7a4f6b" stroke-width="12" stroke-linecap="round"/>
+      <path d="M424 306 l-24 8" stroke="#7a4f6b" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <path d="M396 316 l-12 -6" stroke="#4d5a63" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M418 334 l-4 22 M432 334 l5 22" stroke="#4d5a63" stroke-width="7" stroke-linecap="round" fill="none"/>
+    </g>
+    <circle cx="252" cy="238" r="17" fill="#3f5a2c"/>
+    <text x="252" y="244" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <rect x="236" y="398" width="196" height="28" rx="7" fill="#ffffff" opacity="0.93"/>
+    <text x="248" y="417" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#33452a">囲う範囲を地図に描く</text>
+  </g>
+
+  <!-- 場面3：資材店で見積書 -->
+  <g>
+    <rect x="470" y="248" width="150" height="70" fill="#f1ece0" stroke="#a89f88" stroke-width="2"/>
+    <path d="M462 250 L545 208 L628 250 Z" fill="#8a5f47" stroke="#68472f" stroke-width="2"/>
+    <rect x="486" y="272" width="118" height="20" rx="3" fill="#3f6b8c" opacity="0.85"/>
+    <rect x="492" y="298" width="44" height="20" fill="#cdd8dc" stroke="#8f9aa1" stroke-width="1.4"/>
+    <g stroke="#6a7a84" stroke-width="3">
+      <path d="M556 300 h48"/><path d="M556 310 h48"/>
+    </g>
+    <g>
+      <circle cx="470" cy="336" r="12" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+      <path d="M470 350 l0 30" stroke="#3f6b8c" stroke-width="11" stroke-linecap="round"/>
+      <path d="M470 356 l20 8" stroke="#3f6b8c" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <path d="M465 380 l-5 20 M477 380 l6 20" stroke="#4d5a63" stroke-width="6" stroke-linecap="round" fill="none"/>
+    </g>
+    <g>
+      <circle cx="540" cy="338" r="12" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+      <path d="M540 352 l0 30" stroke="#6b7a45" stroke-width="11" stroke-linecap="round"/>
+      <path d="M540 358 l-20 8" stroke="#6b7a45" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <path d="M535 382 l-5 20 M547 382 l6 20" stroke="#4d5a63" stroke-width="6" stroke-linecap="round" fill="none"/>
+    </g>
+    <g>
+      <rect x="492" y="352" width="28" height="20" rx="2" fill="#ffffff" stroke="#9aa3a8" stroke-width="1.6" transform="rotate(-8 506 362)"/>
+      <g stroke="#b6bfc4" stroke-width="1.6" transform="rotate(-8 506 362)">
+        <path d="M497 359 h18"/><path d="M497 365 h18"/>
+      </g>
+    </g>
+    <circle cx="452" cy="212" r="17" fill="#3f5a2c"/>
+    <text x="452" y="218" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+    <rect x="446" y="410" width="212" height="28" rx="7" fill="#ffffff" opacity="0.93"/>
+    <text x="458" y="429" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#33452a">買う前に見積書をもらう</text>
+  </g>
+
+  <!-- 場面4：役場の窓口 -->
+  <g>
+    <rect x="676" y="232" width="164" height="76" fill="#eef0e8" stroke="#a3a894" stroke-width="2"/>
+    <path d="M668 234 L758 190 L848 234 Z" fill="#5f7480" stroke="#44555f" stroke-width="2"/>
+    <rect x="700" y="252" width="34" height="30" fill="#cdd8dc" stroke="#8f9aa1" stroke-width="1.4"/>
+    <rect x="782" y="252" width="34" height="30" fill="#cdd8dc" stroke="#8f9aa1" stroke-width="1.4"/>
+    <rect x="694" y="308" width="152" height="14" rx="3" fill="#b8ac90" stroke="#8d8168" stroke-width="1.6"/>
+    <g>
+      <circle cx="712" cy="342" r="12" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+      <path d="M712 356 l0 30" stroke="#3f6b8c" stroke-width="11" stroke-linecap="round"/>
+      <path d="M712 362 l22 6" stroke="#3f6b8c" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <path d="M707 386 l-5 20 M719 386 l6 20" stroke="#4d5a63" stroke-width="6" stroke-linecap="round" fill="none"/>
+    </g>
+    <g>
+      <circle cx="806" cy="342" r="12" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+      <path d="M806 356 l0 30" stroke="#4a5a6b" stroke-width="11" stroke-linecap="round"/>
+      <path d="M806 362 l-22 6" stroke="#4a5a6b" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <path d="M801 386 l-5 20 M813 386 l6 20" stroke="#4d5a63" stroke-width="6" stroke-linecap="round" fill="none"/>
+    </g>
+    <g>
+      <rect x="744" y="356" width="30" height="22" rx="2" fill="#ffffff" stroke="#9aa3a8" stroke-width="1.6"/>
+      <g stroke="#b6bfc4" stroke-width="1.6">
+        <path d="M749 363 h20"/><path d="M749 369 h20"/><path d="M749 374 h12"/>
+      </g>
+      <rect x="752" y="382" width="26" height="18" rx="2" fill="#f6f2e4" stroke="#b9ac8e" stroke-width="1.6"/>
+      <path d="M756 391 h18" stroke="#c9bd9f" stroke-width="1.6"/>
+    </g>
+    <circle cx="666" cy="200" r="17" fill="#3f5a2c"/>
+    <text x="666" y="206" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+    <rect x="666" y="412" width="252" height="28" rx="7" fill="#ffffff" opacity="0.93"/>
+    <text x="678" y="431" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#33452a">申請書・見積書・位置図を出す</text>
+  </g>
+
+  <!-- 場面5：柵を張ったあと草を刈る -->
+  <g>
+    <g stroke="#4f5a63" stroke-width="4" stroke-linecap="round">
+      <path d="M624 528 L624 462"/><path d="M712 524 L712 458"/><path d="M800 520 L800 454"/><path d="M888 516 L888 450"/><path d="M976 512 L976 446"/>
+    </g>
+    <g stroke="#d8632c" stroke-width="2.6" fill="none">
+      <path d="M624 472 L712 468 L800 464 L888 460 L976 456"/>
+      <path d="M624 494 L712 490 L800 486 L888 482 L976 478"/>
+      <path d="M624 514 L712 510 L800 506 L888 502 L976 498"/>
+    </g>
+    <g fill="#f0c948" stroke="#a8811c" stroke-width="1.2">
+      <circle cx="712" cy="468" r="3.6"/><circle cx="888" cy="482" r="3.6"/>
+    </g>
+    <g>
+      <circle cx="556" cy="466" r="13" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+      <path d="M540 462 q16 -16 32 0 z" fill="#e0c98f" stroke="#b8a066" stroke-width="1.6"/>
+      <path d="M556 480 l0 34" stroke="#4a7d5a" stroke-width="12" stroke-linecap="round"/>
+      <path d="M556 488 l-20 14 M556 488 l22 12" stroke="#4a7d5a" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <path d="M550 514 l-6 24 M563 514 l7 24" stroke="#4d5a63" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <path d="M578 500 L628 532" stroke="#6b737a" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="634" cy="536" r="12" fill="none" stroke="#9aa3a8" stroke-width="4"/>
+      <path d="M622 536 h24" stroke="#c8ced1" stroke-width="3"/>
+    </g>
+    <g fill="#93a457" opacity="0.75">
+      <ellipse cx="668" cy="544" rx="26" ry="7"/><ellipse cx="722" cy="550" rx="20" ry="6"/>
+    </g>
+    <circle cx="486" cy="466" r="17" fill="#3f5a2c"/>
+    <text x="486" y="472" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+    <rect x="754" y="524" width="230" height="28" rx="7" fill="#ffffff" opacity="0.93"/>
+    <text x="766" y="543" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#33452a">草刈りを毎年の予定に入れる</text>
+  </g>
+
+  <!-- 見出しラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="24" y="24" width="312" height="34" rx="8" fill="#3f5a2c" opacity="0.92"/>
+    <text x="40" y="47" font-size="17" fill="#ffffff">買う前に申請、張ったあとは刈り続ける</text>
+  </g>
+</svg>
