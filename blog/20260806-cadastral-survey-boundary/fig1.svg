@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="cs1Title cs1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="cs1Title">森町の畑と裏山の境を描いたイラスト</title>
+  <desc id="cs1Desc">奥に山並みと杉檜の林、手前に段になった畑を配し、その間を境界杭と赤い破線が横切ります。杭は一本が草に埋もれ、林側の一本は倒れて見えなくなっています。左手には地番のない細い里道と水路、右手には軽トラックと畑仕事をする人を描いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="cs1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe3ef"/><stop offset="0.6" stop-color="#e9f2ee"/><stop offset="1" stop-color="#f4f8ee"/>
+    </linearGradient>
+    <linearGradient id="cs1far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93b2c4"/><stop offset="1" stop-color="#b4ccd2"/>
+    </linearGradient>
+    <linearGradient id="cs1forest" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d6b4e"/><stop offset="1" stop-color="#2c5540"/>
+    </linearGradient>
+    <linearGradient id="cs1field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ec472"/><stop offset="1" stop-color="#6e9c4c"/>
+    </linearGradient>
+    <linearGradient id="cs1water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c2dfec"/><stop offset="1" stop-color="#93c0d8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#cs1sky)"/>
+  <circle cx="884" cy="70" r="28" fill="#ffffff" opacity="0.7"/>
+  <g fill="#ffffff" opacity="0.5">
+    <ellipse cx="214" cy="62" rx="60" ry="17"/><ellipse cx="268" cy="54" rx="40" ry="13"/>
+  </g>
+
+  <!-- 遠景の山並み -->
+  <path fill="url(#cs1far)" d="M0 164 L96 122 L188 158 L282 112 L382 156 L478 116 L578 160 L676 120 L780 158 L880 124 L972 162 L1000 148 L1000 226 L0 226 Z"/>
+
+  <!-- 山林（杉檜）：奥の列 -->
+  <g fill="#6d9e7c">
+    <path d="M14 300 l26 -104 l26 104 z"/><path d="M78 298 l21 -84 l21 84 z"/><path d="M132 296 l28 -112 l28 112 z"/>
+    <path d="M198 294 l20 -80 l20 80 z"/><path d="M250 292 l27 -106 l27 106 z"/><path d="M314 290 l21 -86 l21 86 z"/>
+    <path d="M368 288 l28 -110 l28 110 z"/><path d="M434 286 l20 -78 l20 78 z"/><path d="M486 284 l27 -104 l27 104 z"/>
+    <path d="M550 282 l21 -84 l21 84 z"/><path d="M604 280 l28 -108 l28 108 z"/><path d="M670 278 l20 -78 l20 78 z"/>
+    <path d="M722 276 l27 -104 l27 104 z"/><path d="M786 274 l21 -84 l21 84 z"/><path d="M840 272 l28 -108 l28 108 z"/>
+    <path d="M906 270 l20 -78 l20 78 z"/><path d="M956 268 l26 -100 l26 100 z"/>
+  </g>
+  <!-- 山林：手前の列 -->
+  <g fill="url(#cs1forest)">
+    <path d="M-6 332 l30 -96 l30 96 z"/><path d="M56 330 l24 -76 l24 76 z"/><path d="M116 328 l31 -102 l31 102 z"/>
+    <path d="M184 326 l24 -76 l24 76 z"/><path d="M242 324 l31 -100 l31 100 z"/><path d="M310 322 l24 -74 l24 74 z"/>
+    <path d="M368 320 l31 -98 l31 98 z"/><path d="M436 318 l24 -74 l24 74 z"/><path d="M494 316 l31 -98 l31 98 z"/>
+    <path d="M562 314 l24 -72 l24 72 z"/><path d="M618 312 l31 -96 l31 96 z"/><path d="M686 310 l24 -72 l24 72 z"/>
+    <path d="M742 308 l31 -96 l31 96 z"/><path d="M810 306 l24 -72 l24 72 z"/><path d="M866 304 l31 -94 l31 94 z"/>
+    <path d="M934 302 l24 -70 l24 70 z"/><path d="M986 300 l28 -86 l28 86 z"/>
+  </g>
+  <g stroke="#2a5140" stroke-width="4" stroke-linecap="round">
+    <path d="M24 336 l0 12"/><path d="M147 332 l0 12"/><path d="M273 328 l0 12"/><path d="M399 322 l0 12"/>
+    <path d="M525 318 l0 12"/><path d="M649 314 l0 12"/><path d="M773 310 l0 12"/><path d="M897 306 l0 12"/>
+  </g>
+
+  <!-- 山裾の下草 -->
+  <path fill="#6f8f52" d="M0 340 L1000 318 L1000 358 L0 382 Z"/>
+  <g fill="#82a45f">
+    <ellipse cx="120" cy="352" rx="34" ry="12"/><ellipse cx="392" cy="344" rx="30" ry="11"/>
+    <ellipse cx="700" cy="336" rx="34" ry="12"/><ellipse cx="932" cy="330" rx="28" ry="10"/>
+  </g>
+
+  <!-- 境界の帯（畑と山のあいだ） -->
+  <path fill="#c8bb9b" d="M0 372 L1000 348 L1000 372 L0 398 Z"/>
+
+  <!-- 畑（段） -->
+  <path fill="url(#cs1field)" d="M0 392 L1000 366 L1000 440 L0 470 Z"/>
+  <g stroke="#5c8a3e" stroke-width="2.6" opacity="0.55">
+    <path d="M0 406 L1000 380"/><path d="M0 422 L1000 396"/><path d="M0 438 L1000 412"/><path d="M0 454 L1000 428"/>
+  </g>
+  <path fill="#b7a883" d="M0 464 L1000 436 L1000 450 L0 480 Z"/>
+  <path fill="#8fb85f" d="M0 476 L1000 446 L1000 560 L0 560 Z"/>
+  <g stroke="#6f9c46" stroke-width="3" opacity="0.6">
+    <path d="M0 496 L1000 466"/><path d="M0 520 L1000 490"/><path d="M0 546 L1000 516"/>
+  </g>
+  <g fill="#4f8036">
+    <ellipse cx="150" cy="512" rx="26" ry="12"/><ellipse cx="268" cy="504" rx="26" ry="12"/>
+    <ellipse cx="386" cy="498" rx="26" ry="12"/><ellipse cx="640" cy="484" rx="26" ry="12"/>
+    <ellipse cx="196" cy="540" rx="30" ry="13"/><ellipse cx="330" cy="532" rx="30" ry="13"/>
+    <ellipse cx="470" cy="524" rx="30" ry="13"/><ellipse cx="586" cy="518" rx="28" ry="12"/>
+  </g>
+  <g stroke="#3a6428" stroke-width="2" opacity="0.65" fill="none">
+    <path d="M126 510 q24 -12 48 0"/><path d="M244 502 q24 -12 48 0"/><path d="M362 496 q24 -12 48 0"/>
+    <path d="M168 538 q28 -14 56 0"/><path d="M302 530 q28 -14 56 0"/><path d="M442 522 q28 -14 56 0"/>
+  </g>
+
+  <!-- 境界線（赤い破線）と杭 -->
+  <path fill="none" stroke="#ffffff" stroke-width="7" opacity="0.85" d="M0 384 L1000 360"/>
+  <path fill="none" stroke="#d3402c" stroke-width="3.4" stroke-dasharray="16 12" d="M0 384 L1000 360"/>
+
+  <!-- 杭1：しっかり残っている -->
+  <g>
+    <rect x="196" y="336" width="20" height="52" rx="2" fill="#f2efe4" stroke="#9c9482" stroke-width="2.4"/>
+    <rect x="199" y="352" width="14" height="5" fill="#c0392b"/>
+    <path d="M196 388 l10 10 l10 -10 z" fill="#cbbfa4"/>
+  </g>
+  <!-- 杭2：草に埋もれている -->
+  <g>
+    <rect x="524" y="344" width="20" height="40" rx="2" fill="#eae6d8" stroke="#9c9482" stroke-width="2.4"/>
+    <rect x="527" y="356" width="14" height="5" fill="#c0392b"/>
+  </g>
+  <g fill="#7f9b48">
+    <path d="M508 386 q10 -34 -2 -50 q22 12 18 50 z"/>
+    <path d="M540 386 q-6 -38 10 -54 q10 22 4 54 z"/>
+    <path d="M522 388 q4 -30 -6 -44 q20 8 20 44 z"/>
+  </g>
+  <!-- 杭3：林側で倒れている -->
+  <g transform="rotate(-64 848 352)">
+    <rect x="838" y="330" width="20" height="46" rx="2" fill="#ded9c9" stroke="#9c9482" stroke-width="2.4"/>
+    <rect x="841" y="344" width="14" height="5" fill="#a9503f"/>
+  </g>
+  <g fill="#4a6b3c" opacity="0.9">
+    <ellipse cx="852" cy="368" rx="34" ry="12"/>
+  </g>
+
+  <!-- 左手：地番のない里道と水路 -->
+  <path fill="#cbbfa4" d="M28 398 L96 394 L150 560 L44 560 Z"/>
+  <path fill="none" stroke="#b0a488" stroke-width="2" d="M62 400 L102 560"/>
+  <path fill="url(#cs1water)" d="M0 402 L28 400 L46 560 L0 560 Z"/>
+  <path fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7" d="M16 430 q12 14 6 30 q-6 16 6 30"/>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="700">
+    <rect x="30" y="470" width="106" height="26" rx="6" fill="#ffffff" opacity="0.92"/>
+    <text x="42" y="488" fill="#7a4a10">地番のない道と水</text>
+  </g>
+
+  <!-- 右手：軽トラックと畑の人 -->
+  <g>
+    <rect x="770" y="470" width="126" height="42" rx="5" fill="#eef1ee" stroke="#98a1a6" stroke-width="2"/>
+    <rect x="770" y="470" width="52" height="42" rx="5" fill="#dee5e5" stroke="#98a1a6" stroke-width="2"/>
+    <rect x="780" y="478" width="32" height="20" fill="#bcd3dd" stroke="#8fa5ae" stroke-width="1.4"/>
+    <rect x="826" y="460" width="72" height="13" rx="3" fill="#b7a883" stroke="#8d7f60" stroke-width="1.6"/>
+    <circle cx="802" cy="516" r="15" fill="#3b444c" stroke="#20262b" stroke-width="2"/><circle cx="802" cy="516" r="6" fill="#8b959d"/>
+    <circle cx="872" cy="516" r="15" fill="#3b444c" stroke="#20262b" stroke-width="2"/><circle cx="872" cy="516" r="6" fill="#8b959d"/>
+  </g>
+  <g>
+    <circle cx="688" cy="452" r="13" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M673 448 q15 -15 30 0 z" fill="#e0c98f" stroke="#b8a066" stroke-width="1.6"/>
+    <path d="M688 466 l0 36" stroke="#3f6b8c" stroke-width="13" stroke-linecap="round"/>
+    <path d="M688 474 l-20 12 M688 474 l22 10" stroke="#3f6b8c" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M682 502 l-6 24 M694 502 l7 24" stroke="#4d5a63" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <rect x="702" y="466" width="34" height="24" rx="3" fill="#fbf7ea" stroke="#b9ac8e" stroke-width="1.8"/>
+    <g stroke="#c9bd9f" stroke-width="1.6">
+      <path d="M708 474 h22"/><path d="M708 481 h22"/>
+    </g>
+    <path d="M646 486 L666 478" stroke="#8d7f60" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 説明ラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="24" y="24" width="272" height="34" rx="8" fill="#ffffff" opacity="0.93"/>
+    <text x="40" y="47" font-size="17" fill="#2c4a52">境界は「線」ではなく「点の記録」</text>
+    <rect x="24" y="64" width="288" height="30" rx="8" fill="#2c4a52" opacity="0.9"/>
+    <text x="40" y="85" font-size="15" fill="#ffffff">残る杭・埋もれる杭・失われた杭</text>
+  </g>
+</svg>
