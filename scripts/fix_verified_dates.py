@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import re
 import sys
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -31,6 +32,15 @@ UNRECORDED = (
     "最終確認日：未記録（出典は確認済みですが、確認日の記録がありません。"
     "公式ページで最新の内容をご確認ください）"
 )
+
+DISPLAY_RE = re.compile(
+    r"最終確認日[：:]\s*(?:確認中|未記録（[^）]*）|"
+    r"\d{4}-\d{2}-\d{2}(?:〜\d{4}-\d{2}-\d{2})?"
+    r"(?:（このページから案内している各ページの確認日）)?)")
+SYNC_HUBS = {
+    "/life/start-living/", "/life/living-soon/", "/life/end-of-life/",
+    "/life/health-medical/", "/life/parents-care/",
+}
 
 
 def recorded_date(html: str) -> str | None:
@@ -52,6 +62,26 @@ def child_dates(category_dir: Path) -> list[str]:
 
 
 def main() -> None:
+    # 台帳にページ自身の確認日がある場合は、それを画面上の全表示へ同期する。
+    # 重要ページの実質更新日・構造化データ・sitemapと食い違わせない。
+    topics = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
+    synced = 0
+    for topic in topics:
+        href = topic.get("href", "")
+        date = topic.get("verified_date", "")
+        if (not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date or "")
+                or not href.startswith("/life/")
+                or (not topic.get("content_updated") and href not in SYNC_HUBS)):
+            continue
+        path = ROOT / href.strip("/") / "index.html"
+        if not path.is_file():
+            continue
+        html = path.read_text(encoding="utf-8")
+        updated = DISPLAY_RE.sub(f"最終確認日：{date}", html)
+        if updated != html:
+            path.write_text(updated, encoding="utf-8")
+            synced += 1
+
     to_date = to_span = to_unrecorded = 0
     for path in sorted((ROOT / "life").rglob("index.html")):
         html = path.read_text(encoding="utf-8")
@@ -75,6 +105,7 @@ def main() -> None:
                 to_unrecorded += 1
         path.write_text(PENDING_RE.sub(replacement, html), encoding="utf-8")
 
+    print(f"台帳の確認日に同期          : {synced} 件")
     print(f"ページ自身の確認日に揃えた  : {to_date} 件")
     print(f"配下ページの確認日の範囲    : {to_span} 件")
     print(f"「未記録」と明示            : {to_unrecorded} 件")

@@ -167,11 +167,13 @@ def main():
     dirty = dirty_html_files()
     today = datetime.date.today().isoformat()
 
-    # git 以外の「内容の日付」: 台帳の最終確認日と、ブログ記事の公開日。
+    # git 以外の「内容の日付」: 台帳の内容更新日・最終確認日と、ブログ記事の公開日。
     # 全ページ一括コミットを除外すると git 日付を持たないページが出るため、
     # ページ単位で管理している実データの日付で補完し、両方あれば新しい方を使う。
     verified = {t['href']: t['verified_date'] for t in published
                 if t.get('verified_date')}
+    content_updated = {t['href']: t['content_updated'] for t in published
+                       if t.get('content_updated')}
     blog_dates = {f"/blog/{p['slug']}/": p['date'] for p in blog if p.get('date')}
     question_dates = {q['href']: q['verified_date'] for q in questions if q.get('verified_date')}
 
@@ -182,6 +184,7 @@ def main():
         rel = page_path(u).relative_to(ROOT).as_posix()
         candidates = [d for d in (
             iso_date_or_none(lastmods.get(rel)),
+            iso_date_or_none(content_updated.get(u)),
             iso_date_or_none(verified.get(u)),
             iso_date_or_none(blog_dates.get(u)),
             iso_date_or_none(question_dates.get(u)),
