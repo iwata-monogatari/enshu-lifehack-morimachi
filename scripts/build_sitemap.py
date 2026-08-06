@@ -10,6 +10,7 @@ topics_master.json は「調査済みの中項目155件」の台帳(出典・検
 
 実行: python3 scripts/build_sitemap.py
 """
+import datetime
 import json
 import subprocess
 from pathlib import Path
@@ -69,6 +70,31 @@ def git_lastmod_map():
     return dates
 
 
+def dirty_html_files():
+    """未コミットの変更があるHTMLの一覧。
+
+    毎朝のブログ公開は「ビルド→コミット」の順で走るため、ビルド時点の
+    git log には当日の変更が現れず、トップや /blog/ の lastmod が
+    1日古いままデプロイされていた（2026-08-06 実測）。
+    未コミットの変更は当日デプロイされる内容なので、今日の日付を使う。
+    一括変更（MASS_COMMIT_THRESHOLD 以上）は git 日付と同じ理由で除外。
+    """
+    try:
+        out = subprocess.run(
+            ['git', 'status', '--porcelain', '--untracked-files=all', '--', '*.html'],
+            cwd=ROOT, capture_output=True, text=True, encoding='utf-8', timeout=60).stdout
+    except Exception:
+        return set()
+    files = set()
+    for line in out.splitlines():
+        path = line[3:].split(' -> ')[-1].strip().strip('"')
+        if path.endswith('.html'):
+            files.add(path)
+    if len(files) >= MASS_COMMIT_THRESHOLD:
+        return set()
+    return files
+
+
 def main():
     ledger = json.loads((ROOT / 'data/topics_master.json').read_text(encoding='utf-8'))
     published = [t for t in ledger if t.get('status') in PUBLISHABLE_STATUSES]
@@ -108,6 +134,8 @@ def main():
         (urls if page_exists(u) else missing).append(u)
 
     lastmods = git_lastmod_map()
+    dirty = dirty_html_files()
+    today = datetime.date.today().isoformat()
 
     # git 以外の「内容の日付」: 台帳の最終確認日と、ブログ記事の公開日。
     # 全ページ一括コミットを除外すると git 日付を持たないページが出るため、
@@ -121,7 +149,8 @@ def main():
     dated = 0
     for u in urls:
         rel = page_path(u).relative_to(ROOT).as_posix()
-        candidates = [d for d in (lastmods.get(rel), verified.get(u), blog_dates.get(u)) if d]
+        candidates = [d for d in (lastmods.get(rel), verified.get(u), blog_dates.get(u),
+                                  today if rel in dirty else None) if d]
         lastmod = max(candidates) if candidates else None  # YYYY-MM-DD は辞書順=時系列順
         if lastmod:
             dated += 1
