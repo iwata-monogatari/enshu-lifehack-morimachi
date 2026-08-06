@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.stdout.reconfigure(encoding="utf-8")
 
 STEPS: list[tuple[str, list[str]]] = [
+    ("森町のよくある100の質問を生成", [sys.executable, "scripts/build_questions.py"]),
     ("寺社データベースの生成", [sys.executable, "scripts/generate_shrine_pages.py"]),
     ("寺院データベースの生成", [sys.executable, "scripts/generate_temple_pages.py"]),
     ("6つの生活場面ハブの生成", [sys.executable, "scripts/build_hubs.py"]),
@@ -30,6 +31,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("トップページの生成", [sys.executable, "scripts/build_home.py"]),
     ("ブログ一覧の生成・品質確認", [sys.executable, "scripts/build_blog.py"]),
     ("共通部品の反映（ヘッダー・フッター）", [sys.executable, "scripts/inject_parts.py"]),
+    ("既存ガイドから質問ページへの入口を追加", [sys.executable, "scripts/inject_question_links.py"]),
     ("公式窓口ラベルの日本語化", [sys.executable, "scripts/localize_fact_labels.py"]),
     ("表示テキストの不具合修正", [sys.executable, "scripts/fix_text_defects.py"]),
     ("戸籍届書の押印表現", [sys.executable, "scripts/fix_koseki_seal.py"]),

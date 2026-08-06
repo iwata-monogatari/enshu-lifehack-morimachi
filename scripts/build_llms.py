@@ -39,6 +39,7 @@ def main():
     sys.stdout.reconfigure(encoding='utf-8')
     hubs = json.loads((ROOT / 'data/hubs.json').read_text(encoding='utf-8'))['hubs']
     blog = json.loads((ROOT / 'data/blog-posts.json').read_text(encoding='utf-8'))['posts']
+    questions = json.loads((ROOT / 'data/questions.json').read_text(encoding='utf-8'))
 
     lines = [
         '# 森町ライフハック',
@@ -72,6 +73,7 @@ def main():
         f'- [森町の寺院データベース]({SITE}/temple/): 35ヶ寺を宗派別・地区別に整理。実家じまいガイドつき',
         f'- [便利ツール]({SITE}/tools/): ごみ分別検索・引っ越しチェックリスト・ライフイベント年表',
         f'- [状況別チェックリスト]({SITE}/checklist/moved-in/): 転入・結婚・出産・転職のやることリスト',
+        f'- [森町のよくある100の質問]({SITE}/questions/): 手続き・子育て・介護・家・防災・施設の質問{len(questions)}件',
         '',
         '## ブログ',
         '',

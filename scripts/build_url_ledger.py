@@ -104,6 +104,8 @@ def extract(path: Path) -> dict:
         hub = "procedures"
     elif section in {"about", "terms", "blog"}:
         hub = ""
+    elif section == "questions":
+        hub = "procedures"
 
     return {
         "url": url,
@@ -153,6 +155,7 @@ SECTION_DEFAULTS = {
     "tools": ("procedures", "手続きを道具で片づける", "森町 ごみ 検索", "keep", "P1"),
     "checklist": ("procedures", "状況別のやることを順番に確認する", "森町 やることリスト", "keep", "P1"),
     "blog": ("", "森町の暮らしの読み物を読む", "森町 ブログ", "keep", "P3"),
+    "questions": ("procedures", "森町の疑問を質問から解決する", "森町 よくある質問", "keep", "P1"),
     "about": ("", "運営者と編集方針を確認する", "森町ライフハック 運営者", "keep", "P1"),
     "terms": ("", "利用条件と免責を確認する", "森町ライフハック 免責", "keep", "P3"),
     "top": ("", "困りごとから森町の窓口を探す", "森町 手続き", "rewrite", "P0"),
@@ -163,6 +166,9 @@ def apply_decisions(rows: list[dict]) -> list[dict]:
     """topics_master.json（/life/）と SECTION_DEFAULTS（それ以外）から判断を反映する。"""
     topics = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
     by_url = {t["href"]: t for t in topics}
+    question_path = ROOT / "data" / "questions.json"
+    questions = json.loads(question_path.read_text(encoding="utf-8")) if question_path.is_file() else []
+    questions_by_url = {q["href"]: q for q in questions}
 
     for row in rows:
         t = by_url.get(row["url"])
@@ -177,6 +183,17 @@ def apply_decisions(rows: list[dict]) -> list[dict]:
             row["department"] = " / ".join(t.get("department", []))
             row["audience"] = " / ".join(t.get("audience", []))
             row["status"] = t.get("ledger_status", "未着手")
+        elif row["url"] in questions_by_url:
+            q = questions_by_url[row["url"]]
+            row["new_hub"] = q.get("hub", row["new_hub"])
+            row["intent"] = q.get("context", "")
+            row["primary_keyword"] = q.get("keyword", "")
+            row["action"] = "keep"
+            row["priority"] = q.get("priority", "P1")
+            row["page_type"] = "question"
+            row["department"] = ""
+            row["audience"] = " / ".join(q.get("audience", []))
+            row["status"] = "作業中"
         else:
             hub, intent, kw, action, priority = SECTION_DEFAULTS.get(
                 row["section"], ("", "", "", "keep", "P3"))

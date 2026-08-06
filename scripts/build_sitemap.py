@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""topics_master.json + aux-pages.json + トップページ/利用規約からsitemap.xmlを生成する。
+"""topics_master.json + aux-pages.json + 質問台帳からsitemap.xmlを生成する。
 
 topics_master.json は「調査済みの中項目155件」の台帳(出典・検証状態つき)。
 /tools/ と /checklist/ は既存ページへの導線をまとめた集約ページで、
@@ -18,6 +18,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SITE = 'https://morimachi.enshu-lifehack.com'
 PUBLISHABLE_STATUSES = ('ai-checked', 'machine-verified', 'human-verified', 'published')
+
+
+def iso_date_or_none(value):
+    """sitemap の lastmod に使える YYYY-MM-DD だけを返す。"""
+    if not value:
+        return None
+    try:
+        return datetime.date.fromisoformat(value).isoformat()
+    except (TypeError, ValueError):
+        return None
 
 
 def page_path(href):
@@ -87,8 +97,22 @@ def dirty_html_files():
         return set()
     files = set()
     for line in out.splitlines():
+        status = line[:2]
         path = line[3:].split(' -> ')[-1].strip().strip('"')
-        if path.endswith('.html'):
+        if not path.endswith('.html'):
+            continue
+        # 既存のCRLFファイルを生成スクリプトが開いただけで、内容が同じでも
+        # Windowsではstatusに出る場合がある。空白だけの差をlastmodにしない。
+        if status == '??':
+            files.add(path)
+            continue
+        unstaged = subprocess.run(
+            ['git', 'diff', '--ignore-all-space', '--quiet', '--', path],
+            cwd=ROOT, timeout=30).returncode
+        staged = subprocess.run(
+            ['git', 'diff', '--cached', '--ignore-all-space', '--quiet', '--', path],
+            cwd=ROOT, timeout=30).returncode
+        if unstaged or staged:
             files.add(path)
     if len(files) >= MASS_COMMIT_THRESHOLD:
         return set()
@@ -100,6 +124,7 @@ def main():
     published = [t for t in ledger if t.get('status') in PUBLISHABLE_STATUSES]
     aux = json.loads((ROOT / 'data/aux-pages.json').read_text(encoding='utf-8'))
     blog = json.loads((ROOT / 'data/blog-posts.json').read_text(encoding='utf-8'))['posts']
+    questions = json.loads((ROOT / 'data/questions.json').read_text(encoding='utf-8'))
 
     # 寺社DBはページ数が多く台帳を二重管理したくないので、実ディレクトリを走査する
     section_urls = []
@@ -121,6 +146,7 @@ def main():
                   + hub_urls
                   + sorted(t['href'] for t in published)
                   + [a['href'] for a in aux]
+                  + [q['href'] for q in questions]
                   + [f"/blog/{p['slug']}/" for p in sorted(blog, key=lambda x: x['date'], reverse=True)]
                   + section_urls)
 
@@ -143,14 +169,20 @@ def main():
     verified = {t['href']: t['verified_date'] for t in published
                 if t.get('verified_date')}
     blog_dates = {f"/blog/{p['slug']}/": p['date'] for p in blog if p.get('date')}
+    question_dates = {q['href']: q['verified_date'] for q in questions if q.get('verified_date')}
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     dated = 0
     for u in urls:
         rel = page_path(u).relative_to(ROOT).as_posix()
-        candidates = [d for d in (lastmods.get(rel), verified.get(u), blog_dates.get(u),
-                                  today if rel in dirty else None) if d]
+        candidates = [d for d in (
+            iso_date_or_none(lastmods.get(rel)),
+            iso_date_or_none(verified.get(u)),
+            iso_date_or_none(blog_dates.get(u)),
+            iso_date_or_none(question_dates.get(u)),
+            today if rel in dirty else None,
+        ) if d]
         lastmod = max(candidates) if candidates else None  # YYYY-MM-DD は辞書順=時系列順
         if lastmod:
             dated += 1
@@ -161,7 +193,7 @@ def main():
     out = ROOT / 'sitemap.xml'
     out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
     print(f'  lastmod を付けたURL: {dated} / {len(urls)}')
-    print(f'生成完了: {out}（{len(urls)}件 / 集約ページ{len(aux)}件 / ブログ記事{len(blog)}件）')
+    print(f'生成完了: {out}（{len(urls)}件 / 質問{len(questions)}件 / ブログ記事{len(blog)}件）')
     if missing:
         print(f'実ファイルが無いため除外 {len(missing)}件: {missing}')
 
