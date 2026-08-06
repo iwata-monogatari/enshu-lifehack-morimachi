@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="wsr1Title wsr1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="wsr1Title">森町で蛇口まで水が届く三つの経路を描いたイラスト</title>
+  <desc id="wsr1Desc">奥の山並みと杉林の手前、丘の上に円筒形の配水池があり、そこから太い本管が下って三方向に分かれます。一つは町なかの一戸建てへ、一つは屋上に受水槽を載せた集合住宅へ、一つは山あいの集落の家へ届いています。右端には本管とつながっていない井戸と手押しポンプを描いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="wsr1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe3ef"/><stop offset="0.58" stop-color="#e9f2ee"/><stop offset="1" stop-color="#f4f8ee"/>
+    </linearGradient>
+    <linearGradient id="wsr1far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fb0c3"/><stop offset="1" stop-color="#b4ccd2"/>
+    </linearGradient>
+    <linearGradient id="wsr1hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fa957"/><stop offset="1" stop-color="#5f8f40"/>
+    </linearGradient>
+    <linearGradient id="wsr1tank" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eef1f2"/><stop offset="0.5" stop-color="#dbe1e3"/><stop offset="1" stop-color="#bcc5c8"/>
+    </linearGradient>
+    <linearGradient id="wsr1water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcdcec"/><stop offset="1" stop-color="#7fb4d2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#wsr1sky)"/>
+  <circle cx="96" cy="66" r="26" fill="#ffffff" opacity="0.7"/>
+  <g fill="#ffffff" opacity="0.5">
+    <ellipse cx="600" cy="54" rx="58" ry="16"/><ellipse cx="652" cy="46" rx="38" ry="12"/>
+  </g>
+
+  <!-- 遠景の山並み -->
+  <path fill="url(#wsr1far)" d="M0 150 L94 108 L186 146 L280 102 L380 144 L478 106 L578 148 L676 108 L780 146 L882 110 L972 150 L1000 136 L1000 214 L0 214 Z"/>
+  <g fill="#6d9e7c">
+    <path d="M18 216 l24 -76 l24 76 z"/><path d="M78 216 l18 -60 l18 60 z"/><path d="M132 216 l24 -74 l24 74 z"/>
+    <path d="M792 216 l20 -64 l20 64 z"/><path d="M846 216 l24 -76 l24 76 z"/><path d="M908 216 l18 -58 l18 58 z"/><path d="M954 216 l24 -74 l24 74 z"/>
+  </g>
+
+  <!-- 丘 -->
+  <path fill="url(#wsr1hill)" d="M0 214 C 180 190, 330 176, 470 200 C 620 226, 800 214, 1000 196 L1000 300 L0 300 Z"/>
+  <path fill="#8fb85f" d="M0 288 L1000 268 L1000 560 L0 560 Z"/>
+  <g stroke="#79a24c" stroke-width="3" opacity="0.5">
+    <path d="M0 318 L1000 296"/><path d="M0 352 L1000 330"/>
+  </g>
+
+  <!-- 丘の上の配水池 -->
+  <g>
+    <ellipse cx="330" cy="236" rx="86" ry="22" fill="#93aa74"/>
+    <rect x="244" y="178" width="172" height="52" fill="url(#wsr1tank)" stroke="#96a1a4" stroke-width="3"/>
+    <ellipse cx="330" cy="178" rx="86" ry="22" fill="#f0f4f4" stroke="#96a1a4" stroke-width="3"/>
+    <path d="M254 196 q76 16 152 0" fill="none" stroke="#a8b2b4" stroke-width="2.4"/>
+    <rect x="312" y="150" width="36" height="30" rx="4" fill="#cfd6d8" stroke="#96a1a4" stroke-width="2.4"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="242" y="244" width="176" height="30" rx="7" fill="#2c4a52" opacity="0.92"/>
+    <text x="330" y="265" font-size="16" fill="#ffffff" text-anchor="middle">配水池（町の施設）</text>
+  </g>
+
+  <!-- 本管と三方向の分岐 -->
+  <path fill="none" stroke="#5f93b4" stroke-width="18" stroke-linecap="round" d="M330 230 L330 300 L330 380"/>
+  <path fill="none" stroke="#5f93b4" stroke-width="16" stroke-linecap="round" d="M330 380 L120 380 L120 436"/>
+  <path fill="none" stroke="#5f93b4" stroke-width="16" stroke-linecap="round" d="M330 380 L330 424"/>
+  <path fill="none" stroke="#5f93b4" stroke-width="16" stroke-linecap="round" d="M330 380 L560 380 L560 420"/>
+  <g fill="#42708c">
+    <circle cx="330" cy="380" r="12"/><circle cx="120" cy="380" r="10"/><circle cx="560" cy="380" r="10"/>
+  </g>
+  <g stroke="#9ccbe2" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <path d="M330 250 L330 268"/><path d="M200 380 L232 380"/><path d="M430 380 L462 380"/>
+  </g>
+
+  <!-- 経路1：町なかの一戸建て -->
+  <g>
+    <rect x="42" y="436" width="150" height="94" fill="#f6f1e2" stroke="#b5a687" stroke-width="3"/>
+    <path d="M26 436 L117 392 L208 436 Z" fill="#8d6a4c"/>
+    <rect x="66" y="460" width="38" height="34" fill="#c6dbe4" stroke="#9ab4c0" stroke-width="2"/>
+    <rect x="128" y="460" width="38" height="34" fill="#c6dbe4" stroke="#9ab4c0" stroke-width="2"/>
+    <rect x="98" y="500" width="34" height="30" fill="#a8845e" stroke="#856645" stroke-width="2"/>
+    <rect x="42" y="526" width="150" height="8" fill="#b09777"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="30" y="542" width="176" height="0" rx="7" fill="none"/>
+    <rect x="24" y="342" width="164" height="30" rx="7" fill="#ffffff" opacity="0.94"/>
+    <text x="106" y="363" font-size="15" fill="#2c4a52" text-anchor="middle">1 上水道でそのまま</text>
+  </g>
+
+  <!-- 経路2：受水槽のある集合住宅 -->
+  <g>
+    <rect x="266" y="424" width="132" height="122" fill="#eef1ee" stroke="#98a1a6" stroke-width="3"/>
+    <g fill="#bcd3dd" stroke="#8fa5ae" stroke-width="2">
+      <rect x="280" y="440" width="30" height="26"/><rect x="318" y="440" width="30" height="26"/><rect x="356" y="440" width="30" height="26"/>
+      <rect x="280" y="480" width="30" height="26"/><rect x="318" y="480" width="30" height="26"/><rect x="356" y="480" width="30" height="26"/>
+      <rect x="280" y="518" width="30" height="24"/><rect x="318" y="518" width="30" height="24"/><rect x="356" y="518" width="30" height="24"/>
+    </g>
+    <!-- 屋上の受水槽 -->
+    <rect x="290" y="386" width="86" height="38" rx="4" fill="url(#wsr1tank)" stroke="#96a1a4" stroke-width="3"/>
+    <rect x="298" y="394" width="70" height="14" fill="url(#wsr1water)"/>
+    <rect x="322" y="368" width="22" height="18" rx="3" fill="#cfd6d8" stroke="#96a1a4" stroke-width="2"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="240" y="298" width="186" height="30" rx="7" fill="#a8551a" opacity="0.93"/>
+    <text x="333" y="319" font-size="15" fill="#ffffff" text-anchor="middle">2 貯水槽を経由する</text>
+  </g>
+
+  <!-- 経路3：山あいの家（簡易水道） -->
+  <g>
+    <rect x="500" y="420" width="122" height="88" fill="#f4eee0" stroke="#b5a687" stroke-width="3"/>
+    <path d="M486 420 L561 380 L636 420 Z" fill="#7a6049"/>
+    <rect x="520" y="442" width="34" height="30" fill="#c6dbe4" stroke="#9ab4c0" stroke-width="2"/>
+    <rect x="572" y="442" width="30" height="30" fill="#c6dbe4" stroke="#9ab4c0" stroke-width="2"/>
+    <rect x="534" y="478" width="30" height="30" fill="#a8845e" stroke="#856645" stroke-width="2"/>
+    <rect x="500" y="504" width="122" height="8" fill="#b09777"/>
+  </g>
+  <g fill="#4a7b56">
+    <path d="M646 508 l22 -68 l22 68 z"/><path d="M686 508 l18 -56 l18 56 z"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="470" y="336" width="186" height="30" rx="7" fill="#ffffff" opacity="0.94"/>
+    <text x="563" y="357" font-size="15" fill="#2c4a52" text-anchor="middle">3 簡易水道の区域で</text>
+  </g>
+
+  <!-- 本管とつながっていない井戸 -->
+  <g>
+    <ellipse cx="836" cy="480" rx="66" ry="20" fill="#7f9c50" opacity="0.5"/>
+    <rect x="784" y="440" width="104" height="46" fill="#a8946e" stroke="#7c6c50" stroke-width="3"/>
+    <ellipse cx="836" cy="440" rx="52" ry="18" fill="#cfe4ee" stroke="#7c6c50" stroke-width="3"/>
+    <ellipse cx="836" cy="442" rx="36" ry="11" fill="url(#wsr1water)"/>
+    <path d="M796 440 L796 388" stroke="#7c6c50" stroke-width="8" stroke-linecap="round"/>
+    <path d="M876 440 L876 388" stroke="#7c6c50" stroke-width="8" stroke-linecap="round"/>
+    <path d="M788 388 L884 388" stroke="#7c6c50" stroke-width="8" stroke-linecap="round"/>
+    <path d="M836 388 L836 420" stroke="#8d959a" stroke-width="5"/>
+    <rect x="816" y="418" width="40" height="24" rx="3" fill="#9c8a68" stroke="#7c6c50" stroke-width="3"/>
+    <path d="M856 424 L892 410" stroke="#5f6b72" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="740" y="512" width="220" height="30" rx="7" fill="#2c4a52" opacity="0.92"/>
+    <text x="850" y="533" font-size="15" fill="#ffffff" text-anchor="middle">本管とつながらない井戸</text>
+  </g>
+
+  <!-- 見出しラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="640" y="24" width="336" height="34" rx="8" fill="#ffffff" opacity="0.94"/>
+    <text x="808" y="47" font-size="17" fill="#2c4a52" text-anchor="middle">同じ蛇口でも、来た道は違う</text>
+    <rect x="640" y="64" width="336" height="30" rx="8" fill="#2c4a52" opacity="0.9"/>
+    <text x="808" y="85" font-size="15" fill="#ffffff" text-anchor="middle">条例・検針月・管理する人が変わる</text>
+  </g>
+</svg>

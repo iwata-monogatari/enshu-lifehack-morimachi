@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="wsr2Title wsr2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="wsr2Title">森町で自分の家の水の経路を確かめる五つの場面</title>
+  <desc id="wsr2Desc">森町の山並みと茶畑を背景に、一本の管が奥から手前へ曲がりながら続きます。管沿いに、敷地の量水器ボックスを開けて口径を見る場面、検針票を出して検針月を確かめる場面、建物の受水槽を見上げて確かめる場面、役場の上下水道課の窓口で条例と料金表を照らす場面、家族で備蓄の水を並べて数える場面が、手前へ向かって順に並んでいます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="wsr2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3e4ee"/><stop offset="0.6" stop-color="#eaf2ec"/><stop offset="1" stop-color="#f5f8ef"/>
+    </linearGradient>
+    <linearGradient id="wsr2far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93b2c4"/><stop offset="1" stop-color="#b6ccd2"/>
+    </linearGradient>
+    <linearGradient id="wsr2ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9cc172"/><stop offset="1" stop-color="#7ba851"/>
+    </linearGradient>
+    <linearGradient id="wsr2water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcdcec"/><stop offset="1" stop-color="#7fb4d2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#wsr2sky)"/>
+  <circle cx="936" cy="60" r="24" fill="#ffffff" opacity="0.7"/>
+  <g fill="#ffffff" opacity="0.5">
+    <ellipse cx="200" cy="50" rx="54" ry="15"/><ellipse cx="246" cy="44" rx="34" ry="11"/>
+  </g>
+
+  <path fill="url(#wsr2far)" d="M0 126 L94 90 L188 124 L284 84 L384 122 L482 86 L584 126 L684 90 L786 124 L886 88 L978 126 L1000 114 L1000 180 L0 180 Z"/>
+  <g fill="#6d9e7c" opacity="0.85">
+    <path d="M26 182 l20 -60 l20 60 z"/><path d="M80 182 l16 -50 l16 50 z"/><path d="M898 182 l19 -58 l19 58 z"/><path d="M946 182 l16 -48 l16 48 z"/>
+  </g>
+
+  <path fill="#7fa957" d="M0 176 L1000 168 L1000 220 L0 230 Z"/>
+  <g stroke="#5f8a3f" stroke-width="3.2" opacity="0.5">
+    <path d="M0 188 L1000 180"/><path d="M0 202 L1000 194"/><path d="M0 216 L1000 208"/>
+  </g>
+  <path fill="url(#wsr2ground)" d="M0 220 L1000 210 L1000 560 L0 560 Z"/>
+
+  <!-- 奥から手前へ続く水道管 -->
+  <path fill="none" stroke="#5f93b4" stroke-width="16" stroke-linecap="round"
+        d="M520 214 C 486 292, 792 306, 782 380 C 772 452, 380 458, 322 552"/>
+  <g fill="#42708c">
+    <circle cx="520" cy="216" r="9"/><circle cx="782" cy="382" r="9"/><circle cx="322" cy="548" r="9"/>
+  </g>
+
+  <!-- 場面1：量水器ボックスを開けて口径を見る -->
+  <g>
+    <rect x="58" y="262" width="152" height="86" rx="6" fill="#b7a883" stroke="#8d7f60" stroke-width="3"/>
+    <rect x="72" y="276" width="124" height="58" rx="4" fill="#d9dedd" stroke="#9aa4a7" stroke-width="2.4"/>
+    <circle cx="122" cy="304" r="22" fill="#f2f5f5" stroke="#8d959a" stroke-width="3"/>
+    <circle cx="122" cy="304" r="13" fill="#cfe0e8"/>
+    <path d="M122 304 L122 293" stroke="#2c4a52" stroke-width="3" stroke-linecap="round"/>
+    <path d="M122 304 L131 310" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+    <rect x="152" y="292" width="34" height="24" rx="3" fill="#f6f1e2" stroke="#b9ac8e" stroke-width="2"/>
+    <text x="169" y="309" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#2c4a52" text-anchor="middle">13</text>
+    <path d="M44 300 L72 300" stroke="#5f93b4" stroke-width="11" stroke-linecap="round"/>
+    <path d="M196 300 L224 300" stroke="#5f93b4" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="52" y="360" width="166" height="30" rx="7" fill="#2c4a52" opacity="0.92"/>
+    <text x="135" y="381" font-size="15" fill="#ffffff" text-anchor="middle">1 量水器の口径</text>
+  </g>
+
+  <!-- 場面2：検針票を出して検針月を確かめる -->
+  <g>
+    <rect x="268" y="244" width="128" height="98" rx="5" fill="#fbf8ec" stroke="#bcae90" stroke-width="2.8"/>
+    <rect x="268" y="244" width="128" height="22" fill="#5f93b4"/>
+    <g stroke="#ddd5bd" stroke-width="2.4">
+      <path d="M282 284 h100"/><path d="M282 300 h100"/><path d="M282 316 h72"/>
+    </g>
+    <rect x="282" y="272" width="42" height="18" rx="3" fill="#f3d98f" stroke="#c9ab5b" stroke-width="1.6"/>
+    <text x="303" y="286" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#7a4a10" text-anchor="middle">7月</text>
+    <circle cx="366" cy="322" r="7" fill="#c0392b"/>
+    <circle cx="416" cy="268" r="12" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M416 280 l0 30" stroke="#4f7f9c" stroke-width="12" stroke-linecap="round"/>
+    <path d="M416 288 l-18 6" stroke="#4f7f9c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M411 310 l-5 22 M421 310 l6 22" stroke="#4d5a63" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="256" y="360" width="186" height="30" rx="7" fill="#2c4a52" opacity="0.92"/>
+    <text x="349" y="381" font-size="15" fill="#ffffff" text-anchor="middle">2 検針は奇数月か</text>
+  </g>
+
+  <!-- 場面3：受水槽を見上げて確かめる -->
+  <g>
+    <rect x="512" y="272" width="118" height="106" fill="#eef1ee" stroke="#98a1a6" stroke-width="2.8"/>
+    <g fill="#bcd3dd" stroke="#8fa5ae" stroke-width="1.8">
+      <rect x="524" y="286" width="26" height="22"/><rect x="560" y="286" width="26" height="22"/><rect x="596" y="286" width="26" height="22"/>
+      <rect x="524" y="322" width="26" height="22"/><rect x="560" y="322" width="26" height="22"/><rect x="596" y="322" width="26" height="22"/>
+    </g>
+    <rect x="530" y="232" width="82" height="40" rx="4" fill="#dfe5e6" stroke="#96a1a4" stroke-width="2.8"/>
+    <rect x="538" y="240" width="66" height="15" fill="url(#wsr2water)"/>
+    <rect x="560" y="214" width="20" height="18" rx="3" fill="#cfd6d8" stroke="#96a1a4" stroke-width="2"/>
+    <path d="M571 378 L571 392" stroke="#5f93b4" stroke-width="9"/>
+  </g>
+  <g>
+    <circle cx="472" cy="330" r="12" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M472 342 l0 30" stroke="#8a5f7d" stroke-width="12" stroke-linecap="round"/>
+    <path d="M472 348 l16 -22" stroke="#8a5f7d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M467 372 l-5 22 M477 372 l6 22" stroke="#4d5a63" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="460" y="404" width="196" height="30" rx="7" fill="#a8551a" opacity="0.93"/>
+    <text x="558" y="425" font-size="15" fill="#ffffff" text-anchor="middle">3 受水槽はあるか</text>
+  </g>
+
+  <!-- 場面4：上下水道課の窓口 -->
+  <g>
+    <rect x="752" y="238" width="200" height="88" rx="5" fill="#f4f1e6" stroke="#b5a687" stroke-width="2.8"/>
+    <path d="M744 238 L852 202 L960 238 Z" fill="#5f7f8c"/>
+    <rect x="844" y="206" width="12" height="16" fill="#4e6b77"/>
+    <g fill="#c6dbe4" stroke="#9ab4c0" stroke-width="1.8">
+      <rect x="768" y="256" width="30" height="26"/><rect x="812" y="256" width="30" height="26"/><rect x="856" y="256" width="30" height="26"/>
+    </g>
+    <rect x="900" y="256" width="36" height="70" fill="#8d6a4c"/>
+    <rect x="746" y="326" width="212" height="12" rx="3" fill="#a08b6a"/>
+    <rect x="774" y="338" width="156" height="48" rx="3" fill="#fbf8ec" stroke="#bcae90" stroke-width="2.2"/>
+    <g stroke="#ddd5bd" stroke-width="2">
+      <path d="M788 352 h128"/><path d="M788 364 h128"/><path d="M788 376 h96"/>
+    </g>
+    <rect x="788" y="344" width="52" height="0" fill="none"/>
+    <circle cx="750" cy="352" r="12" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M750 364 l0 28" stroke="#3f6b8c" stroke-width="12" stroke-linecap="round"/>
+    <path d="M750 372 l22 -6" stroke="#3f6b8c" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="754" y="400" width="204" height="30" rx="7" fill="#2c4a52" opacity="0.92"/>
+    <text x="856" y="421" font-size="15" fill="#ffffff" text-anchor="middle">4 窓口で経路を確認</text>
+  </g>
+
+  <!-- 場面5：備蓄の水を並べて数える -->
+  <g>
+    <g fill="#cfe4ee" stroke="#7fa8bd" stroke-width="2.4">
+      <rect x="120" y="452" width="34" height="56" rx="5"/><rect x="162" y="452" width="34" height="56" rx="5"/>
+      <rect x="204" y="452" width="34" height="56" rx="5"/><rect x="246" y="452" width="34" height="56" rx="5"/>
+    </g>
+    <g fill="#8fbcd6">
+      <rect x="124" y="472" width="26" height="32" rx="3"/><rect x="166" y="472" width="26" height="32" rx="3"/>
+      <rect x="208" y="472" width="26" height="32" rx="3"/><rect x="250" y="472" width="26" height="32" rx="3"/>
+    </g>
+    <g fill="#7c8b93">
+      <rect x="130" y="444" width="14" height="10" rx="2"/><rect x="172" y="444" width="14" height="10" rx="2"/>
+      <rect x="214" y="444" width="14" height="10" rx="2"/><rect x="256" y="444" width="14" height="10" rx="2"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="66" cy="446" r="14" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M66 462 l0 38" stroke="#4f7f9c" stroke-width="14" stroke-linecap="round"/>
+    <path d="M66 470 l24 8" stroke="#4f7f9c" stroke-width="7" stroke-linecap="round"/>
+    <path d="M60 500 l-8 28 M72 500 l9 28" stroke="#4d5a63" stroke-width="7" stroke-linecap="round" fill="none"/>
+  </g>
+  <g>
+    <circle cx="308" cy="468" r="11" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M308 480 l0 28" stroke="#c17f4e" stroke-width="11" stroke-linecap="round"/>
+    <path d="M308 486 l-18 6" stroke="#c17f4e" stroke-width="6" stroke-linecap="round"/>
+    <path d="M303 508 l-6 22 M313 508 l7 22" stroke="#4d5a63" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="46" y="516" width="300" height="32" rx="7" fill="#2c4a52" opacity="0.92"/>
+    <text x="196" y="539" font-size="16" fill="#ffffff" text-anchor="middle">5 1人1日3リットルを数える</text>
+  </g>
+
+  <!-- 見出しラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="624" y="466" width="352" height="34" rx="8" fill="#ffffff" opacity="0.94"/>
+    <text x="800" y="489" font-size="17" fill="#2c4a52" text-anchor="middle">1から3はその日のうちに終わる</text>
+    <rect x="624" y="506" width="352" height="30" rx="8" fill="#a8551a" opacity="0.92"/>
+    <text x="800" y="527" font-size="15" fill="#ffffff" text-anchor="middle">費用をかけずに経路が一本につながる</text>
+  </g>
+</svg>
