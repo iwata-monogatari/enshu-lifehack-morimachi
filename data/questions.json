@@ -1,0 +1,3801 @@
+[
+ {
+  "number": 1,
+  "href": "/questions/start-living-certificates/",
+  "slug": "start-living-certificates",
+  "parent_href": "/life/start-living/certificates/",
+  "parent_title": "森町で必要な証明書を選び、最短で受け取る（住民票・戸籍・印鑑証明）",
+  "title": "平日に役場へ行けません。どうすればいいですか｜静岡県森町Q&A",
+  "description": "マイナンバーカードがあればコンビニ交付が使えます。カードがない、または戸籍が必要な場合は、水曜17:15-19:00の時間外窓口をご利用ください。ただし住所異動の手続きはできないのでご注意ください。",
+  "question": "平日に役場へ行けません。どうすればいいですか",
+  "answer": "マイナンバーカードがあればコンビニ交付が使えます。カードがない、または戸籍が必要な場合は、水曜17:15-19:00の時間外窓口をご利用ください。ただし住所異動の手続きはできないのでご注意ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P0",
+  "context": "必要な証明書がどれか選び、最短で受け取る",
+  "keyword": "森町 住民票 取り方",
+  "needs": [
+   "証明書がいる",
+   "住民票がほしい",
+   "戸籍謄本がいる",
+   "印鑑証明がいる"
+  ],
+  "audience": [
+   "本人",
+   "代理人"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
+    "label": "証明書のコンビニ交付サービスについて／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html",
+    "label": "住民票の写しの申請／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/4817.html",
+    "label": "税証明のコンビニ交付サービスについて／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 2,
+  "href": "/questions/start-living-how-to-garbage/",
+  "slug": "start-living-how-to-garbage",
+  "parent_href": "/life/start-living/how-to-garbage/",
+  "parent_title": "森町のごみは、分別・収集日・持ち込みの3つから調べる",
+  "title": "この品目は何ごみか分かりません｜静岡県森町Q&A",
+  "description": "「家庭ごみの出し方ナビ」でキーワード検索か50音検索を使うと、品目ごとの分別区分が確認できます。それでも分からない場合は住民生活課生活環境係（0538-85-6314）にお問い合わせください。",
+  "question": "この品目は何ごみか分かりません",
+  "answer": "「家庭ごみの出し方ナビ」でキーワード検索か50音検索を使うと、品目ごとの分別区分が確認できます。それでも分からない場合は住民生活課生活環境係（0538-85-6314）にお問い合わせください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P0",
+  "context": "ごみの分別と出し方を調べる",
+  "keyword": "森町 ごみ 分別",
+  "needs": [
+   "ごみの分け方が分からない",
+   "これは何ごみ",
+   "ごみの出し方",
+   "何曜日に出せる",
+   "ごみカレンダーがほしい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
+    "label": "森町家庭ごみ分別表、収集日カレンダー、分別ガイドブック（保存版）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/gomi_navi/kateigomi/1101.html",
+    "label": "家庭ごみの出し方ナビ／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/tabunkakyousei/6821.html",
+    "label": "外国人町民のための生活ガイドブック／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 3,
+  "href": "/questions/start-living-moved-in/",
+  "slug": "start-living-moved-in",
+  "parent_href": "/life/start-living/moved-in/",
+  "parent_title": "森町に引っ越してきたら、転入届→マイナンバー→水道→ごみ→犬の登録の順で片づける。",
+  "title": "転入届はオンラインだけで済みますか｜静岡県森町Q&A",
+  "description": "済みません。マイナポータルの引っ越しワンストップサービスで来庁予約はできますが、転入届そのものは必ず窓口での手続きが必要です。前住所地の転出証明書と本人確認書類を持参してください。",
+  "question": "転入届はオンラインだけで済みますか",
+  "answer": "済みません。マイナポータルの引っ越しワンストップサービスで来庁予約はできますが、転入届そのものは必ず窓口での手続きが必要です。前住所地の転出証明書と本人確認書類を持参してください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P0",
+  "context": "転入直後にやる手続きを順番に片づける",
+  "keyword": "森町 転入届",
+  "needs": [
+   "引っ越してきた",
+   "転入の手続きが分からない",
+   "住所変更したい",
+   "住所が変わった",
+   "町内で引っ越した"
+  ],
+  "audience": [
+   "転入者",
+   "世帯主",
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2901.html",
+    "label": "転入届／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/morimachiyakuba/hikkoshi_shinseikatsu/index.html",
+    "label": "引越・新生活／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/4873.html",
+    "label": "引っ越しワンストップサービス／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 4,
+  "href": "/questions/start-living-mynumber/",
+  "slug": "start-living-mynumber",
+  "parent_href": "/life/start-living/mynumber/",
+  "parent_title": "森町でマイナンバーカードを申請から受け取りまで進める。窓口はタブレット申請にも対応。",
+  "title": "代理人に受け取ってもらえますか｜静岡県森町Q&A",
+  "description": "原則できません。ただし75歳以上の方、中学生以下、長期入院・施設入居者、要介護・要支援認定者、障害のある方、妊婦などの事情がある場合に限り、来庁困難を証明する書類（診断書・介護保険証等）を添えて代理人交付が可能です。詳しくは森町公式の代理人交付ページをご確認くださ。",
+  "question": "代理人に受け取ってもらえますか",
+  "answer": "原則できません。ただし75歳以上の方、中学生以下、長期入院・施設入居者、要介護・要支援認定者、障害のある方、妊婦などの事情がある場合に限り、来庁困難を証明する書類（診断書・介護保険証等）を添えて代理人交付が可能です。詳しくは森町公式の代理人交付ページをご確認ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P0",
+  "context": "マイナンバーカードを申請から受け取りまで進める",
+  "keyword": "森町 マイナンバーカード 申請",
+  "needs": [
+   "マイナンバーカードを作りたい",
+   "受け取り方が分からない",
+   "更新したい",
+   "カードを作りたい"
+  ],
+  "audience": [
+   "本人",
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/572.html",
+    "label": "マイナンバーカード交付までの手続き／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/4286.html",
+    "label": "マイナンバーカードの代理人交付／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/3600.html",
+    "label": "マイナンバーカードの日曜交付について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 5,
+  "href": "/questions/start-living-resident-registration/",
+  "slug": "start-living-resident-registration",
+  "parent_href": "/life/start-living/resident-registration/",
+  "parent_title": "森町で住民票を急ぎで手に入れる。コンビニ交付なら毎日6:30-23:00、200円。",
+  "title": "今すぐ住民票が必要です。どうすればいいですか｜静岡県森町Q&A",
+  "description": "マイナンバーカードがあれば、最寄りのコンビニで毎日6:30-23:00（年末年始・メンテナンス日除く）に200円で取得できます。詳しくは森町公式のコンビニ交付ページをご確認ください。",
+  "question": "今すぐ住民票が必要です。どうすればいいですか",
+  "answer": "マイナンバーカードがあれば、最寄りのコンビニで毎日6:30-23:00（年末年始・メンテナンス日除く）に200円で取得できます。詳しくは森町公式のコンビニ交付ページをご確認ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P0",
+  "context": "住民票の写しを急ぎで手に入れる",
+  "keyword": "森町 住民票 コンビニ",
+  "needs": [
+   "今日中に住民票がいる",
+   "土日に住民票がほしい"
+  ],
+  "audience": [
+   "本人",
+   "同一世帯"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
+    "label": "証明書のコンビニ交付サービスについて／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html",
+    "label": "住民票の写しの申請／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html",
+    "label": "水曜日時間外窓口業務について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 6,
+  "href": "/questions/start-living-water-start-stop-fees/",
+  "slug": "start-living-water-start-stop-fees",
+  "parent_href": "/life/start-living/water-start-stop-fees/",
+  "parent_title": "森町で水道の使用開始・中止を届け出る。期限は閉開栓日の前日まで（土日祝除く）。",
+  "title": "給水届はどこで手に入りますか｜静岡県森町Q&A",
+  "description": "森町公式サイトから様式をダウンロードできるほか、上下水道課の窓口でも受け取れます。提出は窓口持参・FAX（0538-85-6339）・郵送のいずれかで、詳しくは森町公式ページをご確認ください。",
+  "question": "給水届はどこで手に入りますか",
+  "answer": "森町公式サイトから様式をダウンロードできるほか、上下水道課の窓口でも受け取れます。提出は窓口持参・FAX（0538-85-6339）・郵送のいずれかで、詳しくは森町公式ページをご確認ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P0",
+  "context": "水道の使用開始・中止を届け出る",
+  "keyword": "森町 水道 開栓 中止",
+  "needs": [
+   "水道を使い始めたい",
+   "水道を止めたい",
+   "引っ越しで水道の手続き"
+  ],
+  "audience": [
+   "転入者",
+   "転出者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/668.html",
+    "label": "水道の開始・廃止・名義変更等の届出について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 7,
+  "href": "/questions/living-soon-moving-decided/",
+  "slug": "living-soon-moving-decided",
+  "parent_href": "/life/living-soon/moving-decided/",
+  "parent_title": "引っ越しが決まったら、何をいつまでにやるかを順番に整理する。",
+  "title": "転入届はいつまでに出せばいいですか｜静岡県森町Q&A",
+  "description": "住民基本台帳法上、住み始めてから原則14日以内の届出が求められます。詳しい要件や必要書類は戸籍・住民異動の届出と証明（森町公式）で確認してください。",
+  "question": "転入届はいつまでに出せばいいですか",
+  "answer": "住民基本台帳法上、住み始めてから原則14日以内の届出が求められます。詳しい要件や必要書類は戸籍・住民異動の届出と証明（森町公式）で確認してください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "これから暮らす",
+  "icon": "🏡",
+  "priority": "P1",
+  "context": "引っ越しが決まってからの段取りを立てる",
+  "keyword": "引っ越し やることリスト",
+  "needs": [
+   "何をいつまでにやる",
+   "引っ越しの段取り"
+  ],
+  "audience": [
+   "引っ越す人"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/2940.html",
+    "label": "戸籍・住民異動の届出と証明／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/index.html",
+    "label": "住民生活課 住民係のご案内／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 8,
+  "href": "/questions/moving-out-moving-away/",
+  "slug": "moving-out-moving-away",
+  "parent_href": "/life/moving-out/moving-away/",
+  "parent_title": "森町から引っ越すときは、転出届と水道廃止・ごみ・学校の手続きを一緒に確認する",
+  "title": "転出時の手続きがまとまったページはありますか｜静岡県森町Q&A",
+  "description": "森町公式サイトの「引越・新生活」ページに転出届と水道の開始・廃止届がまとめて案内されています。ただしごみや学校関連の手続きへのリンクはないため、個別の確認が必要です。",
+  "question": "転出時の手続きがまとまったページはありますか",
+  "answer": "森町公式サイトの「引越・新生活」ページに転出届と水道の開始・廃止届がまとめて案内されています。ただしごみや学校関連の手続きへのリンクはないため、個別の確認が必要です。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "新しい場所へ",
+  "icon": "📦",
+  "priority": "P1",
+  "context": "転出時に必要な手続きをまとめて片づける",
+  "keyword": "森町 転出 やること",
+  "needs": [
+   "引っ越すことになった",
+   "何を止めればいい"
+  ],
+  "audience": [
+   "転出者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/morimachiyakuba/hikkoshi_shinseikatsu/index.html",
+    "label": "引越・新生活／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html",
+    "label": "転出届／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 9,
+  "href": "/questions/start-living-bulky-garbage-dropoff/",
+  "slug": "start-living-bulky-garbage-dropoff",
+  "parent_href": "/life/start-living/bulky-garbage-dropoff/",
+  "parent_title": "森町で粗大ごみを出す。持ち込み先は中遠広域粗大ごみ処理施設（磐田市）。",
+  "title": "軽トラックが無くても持ち込めますか｜静岡県森町Q&A",
+  "description": "自家用車でも搬入できますが、積める量には限りがあります。量が多い場合は複数回に分けるか、レンタカーの利用も検討してください。詳しくは中遠広域粗大ごみ処理施設（0538-37-4854）にご確認ください。",
+  "question": "軽トラックが無くても持ち込めますか",
+  "answer": "自家用車でも搬入できますが、積める量には限りがあります。量が多い場合は複数回に分けるか、レンタカーの利用も検討してください。詳しくは中遠広域粗大ごみ処理施設（0538-37-4854）にご確認ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P1",
+  "context": "粗大ごみの持ち込み先と費用を知る",
+  "keyword": "森町 粗大ごみ",
+  "needs": [
+   "大きな家具を捨てたい",
+   "粗大ごみはどこへ"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html",
+    "label": "ごみの出し方（粗大ごみの直接搬入について）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html",
+    "label": "中遠クリーンセンターリユーズ事業について（不用品の無料譲渡）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 10,
+  "href": "/questions/start-living-city-hall-branches/",
+  "slug": "start-living-city-hall-branches",
+  "parent_href": "/life/start-living/city-hall-branches/",
+  "parent_title": "森町の役場窓口は本庁舎1か所。支所・出張所はなく、水曜は時間外窓口あり。",
+  "title": "支所や出張所はどこにありますか｜静岡県森町Q&A",
+  "description": "森町には支所・出張所はなく、本庁舎1か所ですべての窓口手続きを行います。詳しくは森町公式ページでご確認ください。",
+  "question": "支所や出張所はどこにありますか",
+  "answer": "森町には支所・出張所はなく、本庁舎1か所ですべての窓口手続きを行います。詳しくは森町公式ページでご確認ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P1",
+  "context": "役場のどの窓口へ行けばよいか・開いている時間を知る",
+  "keyword": "森町役場 窓口 時間",
+  "needs": [
+   "役場は何時まで",
+   "土日にやってる窓口はある",
+   "支所はどこ"
+  ],
+  "audience": [
+   "来庁者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/morimachiyakuba/index.html",
+    "label": "森町役場／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html",
+    "label": "水曜日時間外窓口業務について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 11,
+  "href": "/questions/start-living-dog-registration/",
+  "slug": "start-living-dog-registration",
+  "parent_href": "/life/start-living/dog-registration/",
+  "parent_title": "森町で犬の登録と鑑札交付を済ませる。狂犬病予防注射とあわせて手続き。",
+  "title": "登録と注射はどこでできますか｜静岡県森町Q&A",
+  "description": "登録は森町役場別館1階の住民生活課生活環境係で行います。注射は毎年6月頃の集合注射のほか、委託先の動物病院でも受けられます。委託先で接種すればその場で注射済票が交付されます。",
+  "question": "登録と注射はどこでできますか",
+  "answer": "登録は森町役場別館1階の住民生活課生活環境係で行います。注射は毎年6月頃の集合注射のほか、委託先の動物病院でも受けられます。委託先で接種すればその場で注射済票が交付されます。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P1",
+  "context": "犬の登録・鑑札交付と狂犬病予防注射を済ませる",
+  "keyword": "森町 犬 登録",
+  "needs": [
+   "犬を飼い始めた",
+   "狂犬病の注射はいつ",
+   "鑑札をなくした",
+   "集合注射はいつ",
+   "注射済票がほしい"
+  ],
+  "audience": [
+   "飼い主"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4302.html",
+    "label": "狂犬病予防注射について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/693.html",
+    "label": "犬の飼い方について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 12,
+  "href": "/questions/start-living-public-transit/",
+  "slug": "start-living-public-transit",
+  "parent_href": "/life/start-living/public-transit/",
+  "parent_title": "森町の公共交通。町営バス（岡幸線・吉川線）と天竜浜名湖鉄道・秋葉バスサービスを使い分ける。",
+  "title": "町営バスは誰でも乗れますか｜静岡県森町Q&A",
+  "description": "はい、どなたでも利用できます。大河内線・吉川線の2路線があり、運賃は距離に応じた段階制です。便によっては事前予約が必要なので、森町公式の町営バス案内で時刻表を確認してください。",
+  "question": "町営バスは誰でも乗れますか",
+  "answer": "はい、どなたでも利用できます。大河内線・吉川線の2路線があり、運賃は距離に応じた段階制です。便によっては事前予約が必要なので、森町公式の町営バス案内で時刻表を確認してください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P1",
+  "context": "森町での移動手段（町営バス・鉄道）を調べる",
+  "keyword": "森町 バス 時刻表",
+  "needs": [
+   "車がなくても暮らせる",
+   "バスはどこを走っている",
+   "駅からの行き方",
+   "車は必須か",
+   "バスは通っている"
+  ],
+  "audience": [
+   "住民",
+   "移住検討者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/418.html",
+    "label": "森町営バスのご案内／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/420.html",
+    "label": "鉄道・民間路線バス・タクシー リンク集／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 13,
+  "href": "/questions/work-life-resident-tax/",
+  "slug": "work-life-resident-tax",
+  "parent_href": "/life/work-life/resident-tax/",
+  "parent_title": "森町の住民税（町・県民税）は、納付方法と電子申告を税務課で確認する",
+  "title": "退職金にも住民税はかかりますか｜静岡県森町Q&A",
+  "description": "退職所得に対する住民税は、退職手当の支払者が計算し、支払金額から差し引いて町に納入します。退職所得金額は「（収入金額－退職所得控除額）×1/2」で算出し、町民税6%・県民税4%の税率がかかります。",
+  "question": "退職金にも住民税はかかりますか",
+  "answer": "退職所得に対する住民税は、退職手当の支払者が計算し、支払金額から差し引いて町に納入します。退職所得金額は「（収入金額－退職所得控除額）×1/2」で算出し、町民税6%・県民税4%の税率がかかります。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P1",
+  "context": "住民税の納付方法と申告を確認する",
+  "keyword": "森町 住民税",
+  "needs": [
+   "住民税はいくら",
+   "申告が必要か"
+  ],
+  "audience": [
+   "納税者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1373.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/1/716.html",
+    "label": "退職所得に対する住民税(個人町県民税)の特別徴収について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 14,
+  "href": "/questions/work-life-tax-certificates/",
+  "slug": "work-life-tax-certificates",
+  "parent_href": "/life/work-life/tax-certificates/",
+  "parent_title": "森町の税務証明書（所得・課税・納税証明書等）は、窓口・郵送・委任状で申請できる",
+  "title": "郵送で証明書を取得するには何が必要ですか｜静岡県森町Q&A",
+  "description": "「郵便請求による証明書交付申請書」に記入し、返送用の切手付き封筒、手数料分の定額小為替（ゆうちょ銀行で購入可）、申請者の身分証明書のコピーを同封して郵送します。",
+  "question": "郵送で証明書を取得するには何が必要ですか",
+  "answer": "「郵便請求による証明書交付申請書」に記入し、返送用の切手付き封筒、手数料分の定額小為替（ゆうちょ銀行で購入可）、申請者の身分証明書のコピーを同封して郵送します。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P1",
+  "context": "所得・課税・納税証明書を取得する",
+  "keyword": "森町 所得証明書",
+  "needs": [
+   "課税証明書がいる",
+   "納税証明書がほしい"
+  ],
+  "audience": [
+   "本人",
+   "代理人"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/2456.html",
+    "label": "申請書（所得証明書、課税(非課税)証明書、納税証明書、軽自動車税納税証明書、営業証明書）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/4860.html",
+    "label": "車検用の納税証明書は原則不要です／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 15,
+  "href": "/questions/moving-out-move-out-notice/",
+  "slug": "moving-out-move-out-notice",
+  "parent_href": "/life/moving-out/move-out-notice/",
+  "parent_title": "転出届は引っ越し予定日の14日前から住民生活課住民係で",
+  "title": "必要な持ち物は何ですか｜静岡県森町Q&A",
+  "description": "本人確認書類（顔写真付き1点、または健康保険証など2点）が必要です。委任状は本人・同一世帯員・二親等以内が届け出る場合は不要です。国民健康保険証や介護保険証、印鑑登録証など該当するものがあれば持参してください。",
+  "question": "必要な持ち物は何ですか",
+  "answer": "本人確認書類（顔写真付き1点、または健康保険証など2点）が必要です。委任状は本人・同一世帯員・二親等以内が届け出る場合は不要です。国民健康保険証や介護保険証、印鑑登録証など該当するものがあれば持参してください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "新しい場所へ",
+  "icon": "📦",
+  "priority": "P1",
+  "context": "転出届をいつどこで出すか確認する",
+  "keyword": "森町 転出届",
+  "needs": [
+   "転出届はいつから出せる",
+   "郵送でできる"
+  ],
+  "audience": [
+   "転出者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html",
+    "label": "転出届／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 16,
+  "href": "/questions/work-life-city-tax-payment/",
+  "slug": "work-life-city-tax-payment",
+  "parent_href": "/life/work-life/city-tax-payment/",
+  "parent_title": "森町の町税の納付方法は、口座振替・コンビニ・スマホ決済から選べる",
+  "title": "口座振替はいつから始まりますか｜静岡県森町Q&A",
+  "description": "金融機関窓口または役場税務課で申込むと、原則として申込の翌月末分から口座振替が開始されます。納期限直前の申込みでは間に合わないことがあるため、余裕をもって手続きしてください。",
+  "question": "口座振替はいつから始まりますか",
+  "answer": "金融機関窓口または役場税務課で申込むと、原則として申込の翌月末分から口座振替が開始されます。納期限直前の申込みでは間に合わないことがあるため、余裕をもって手続きしてください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P1",
+  "context": "町税の納付方法を選ぶ",
+  "keyword": "森町 町税 納付",
+  "needs": [
+   "どこで払える",
+   "スマホで払いたい",
+   "口座振替にしたい"
+  ],
+  "audience": [
+   "納税者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1373.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 17,
+  "href": "/questions/work-life-tax/",
+  "slug": "work-life-tax",
+  "parent_href": "/life/work-life/tax/",
+  "parent_title": "森町の税金手続きは、税目ごとに税務課の各係で確認する",
+  "title": "税金の窓口はどこに電話すればいいですか｜静岡県森町Q&A",
+  "description": "納付方法や猶予の相談は納税係（0538-85-6310）、住民税・軽自動車税・国民健康保険税の税額に関する相談は町民税係（0538-85-6308）が窓口です。",
+  "question": "税金の窓口はどこに電話すればいいですか",
+  "answer": "納付方法や猶予の相談は納税係（0538-85-6310）、住民税・軽自動車税・国民健康保険税の税額に関する相談は町民税係（0538-85-6308）が窓口です。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P1",
+  "context": "どの税金の話か整理して担当係にたどりつく",
+  "keyword": "森町 税金",
+  "needs": [
+   "税金のことで聞きたい",
+   "どの課に行けばいい"
+  ],
+  "audience": [
+   "納税者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1373.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 18,
+  "href": "/questions/start-living-overview/",
+  "slug": "start-living-overview",
+  "parent_href": "/life/start-living/",
+  "parent_title": "🧭 森町で暮らし始めた",
+  "title": "役場以外にも確認することはありますか｜静岡県森町Q&A",
+  "description": "水道の開始届（上下水道課）、ごみの分別ルール確認（生活環境係）などがあります。詳しくは森町公式「暮らし・手続き」ページもご参照ください。",
+  "question": "役場以外にも確認することはありますか",
+  "answer": "水道の開始届（上下水道課）、ごみの分別ルール確認（生活環境係）などがあります。詳しくは森町公式「暮らし・手続き」ページもご参照ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P1",
+  "context": "森町で暮らし始めたときの手続きを一覧で把握する",
+  "keyword": "森町 転入 手続き",
+  "needs": [
+   "引っ越してきた",
+   "何から手続きすればいい"
+  ],
+  "audience": [
+   "転入者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/index.html",
+    "label": "暮らし・手続き／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/morimachiyakuba/hikkoshi_shinseikatsu/index.html",
+    "label": "引越・新生活／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "確認中"
+ },
+ {
+  "number": 19,
+  "href": "/questions/moving-out-bulk-garbage-cleaning/",
+  "slug": "moving-out-bulk-garbage-cleaning",
+  "parent_href": "/life/moving-out/bulk-garbage-cleaning/",
+  "parent_title": "転出前の片付けは、粗大ごみは中遠広域施設へ・家電は家電リサイクル法対応で",
+  "title": "粗大ごみが大量に出るときはどうすればいいですか｜静岡県森町Q&A",
+  "description": "「中遠広域粗大ごみ処理施設」への持ち込みが基本です（有料）。持ち込み方法や料金は事前に住民生活課生活環境係（0538-85-6314）へ確認してください。",
+  "question": "粗大ごみが大量に出るときはどうすればいいですか",
+  "answer": "「中遠広域粗大ごみ処理施設」への持ち込みが基本です（有料）。持ち込み方法や料金は事前に住民生活課生活環境係（0538-85-6314）へ確認してください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "新しい場所へ",
+  "icon": "📦",
+  "priority": "P2",
+  "context": "転出前の不用品・粗大ごみを処分する",
+  "keyword": "森町 引っ越し ごみ 処分",
+  "needs": [
+   "家具を処分したい",
+   "家電を捨てたい"
+  ],
+  "audience": [
+   "転出者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/688.html",
+    "label": "町では収集できないごみ／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html",
+    "label": "ごみの出し方／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 20,
+  "href": "/questions/start-living-pets-lost-animals/",
+  "slug": "start-living-pets-lost-animals",
+  "parent_href": "/life/start-living/pets-lost-animals/",
+  "parent_title": "森町で犬や猫がいなくなったら、住民生活課・保健所・警察の3か所へ連絡する。",
+  "title": "猫がいなくなった場合も同じ連絡先でいいですか｜静岡県森町Q&A",
+  "description": "はい、同様に住民生活課生活環境係・静岡県西部保健所・袋井警察署森分庁舎へ連絡してください。猫の飼い方については森町公式ページもご参照ください。",
+  "question": "猫がいなくなった場合も同じ連絡先でいいですか",
+  "answer": "はい、同様に住民生活課生活環境係・静岡県西部保健所・袋井警察署森分庁舎へ連絡してください。猫の飼い方については森町公式ページもご参照ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P2",
+  "context": "いなくなった犬・猫を探す連絡先を知る",
+  "keyword": "森町 迷い犬 迷い猫",
+  "needs": [
+   "犬がいなくなった",
+   "猫を保護した"
+  ],
+  "audience": [
+   "飼い主",
+   "発見者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/693.html",
+    "label": "犬の飼い方について（迷い犬の連絡先）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4304.html",
+    "label": "猫の飼い方について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 21,
+  "href": "/questions/start-living-water-sewer/",
+  "slug": "start-living-water-sewer",
+  "parent_href": "/life/start-living/water-sewer/",
+  "parent_title": "森町の水道・下水道料金の仕組み。下水道は基本料金月1,000円から段階制。",
+  "title": "水道の使用量が急に増えました。漏水でしょうか｜静岡県森町Q&A",
+  "description": "すべての蛇口を閉めた状態で水道メーターのパイロット（小さな回転部分）が動いていれば漏水の可能性があります。詳しくは森町公式の漏水確認ページをご覧のうえ、上水道管理係（0538-85-6326）にご相談ください。",
+  "question": "水道の使用量が急に増えました。漏水でしょうか",
+  "answer": "すべての蛇口を閉めた状態で水道メーターのパイロット（小さな回転部分）が動いていれば漏水の可能性があります。詳しくは森町公式の漏水確認ページをご覧のうえ、上水道管理係（0538-85-6326）にご相談ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P2",
+  "context": "水道・下水道料金の仕組みと金額を知る",
+  "keyword": "森町 水道料金",
+  "needs": [
+   "水道代はいくら",
+   "下水道料金の計算"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html",
+    "label": "漏水のみつけ方と水道料金の減免について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/gesuidokanrigakari/1/1/394.html",
+    "label": "下水道使用料について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 22,
+  "href": "/questions/work-life-light-vehicle-tax/",
+  "slug": "work-life-light-vehicle-tax",
+  "parent_href": "/life/work-life/light-vehicle-tax/",
+  "parent_title": "森町の軽自動車税は、排気量・車種ごとの税額を町民税係で確認する",
+  "title": "車を手放したのに納税通知が届きました｜静岡県森町Q&A",
+  "description": "軽自動車税は毎年4月1日時点の所有者に課税されます。名義変更や廃車の手続きが完了していないと、実際に手放していても課税が続くことがあります。速やかに手続き状況を税務課町民税係（0538-85-6308）に確認してください。",
+  "question": "車を手放したのに納税通知が届きました",
+  "answer": "軽自動車税は毎年4月1日時点の所有者に課税されます。名義変更や廃車の手続きが完了していないと、実際に手放していても課税が続くことがあります。速やかに手続き状況を税務課町民税係（0538-85-6308）に確認してください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P2",
+  "context": "軽自動車税の税額と手続きを確認する",
+  "keyword": "森町 軽自動車税",
+  "needs": [
+   "軽自動車の税金はいくら",
+   "廃車の手続き"
+  ],
+  "audience": [
+   "車両所有者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/index.html",
+    "label": "軽自動車税／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/715.html",
+    "label": "軽自動車税について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 23,
+  "href": "/questions/work-life-national-health-insurance-tax/",
+  "slug": "work-life-national-health-insurance-tax",
+  "parent_href": "/life/work-life/national-health-insurance-tax/",
+  "parent_title": "森町の国民健康保険税は、税務課町民税係で税率・減免を確認する",
+  "title": "国民健康保険税の税率はどこで確認できますか｜静岡県森町Q&A",
+  "description": "本ページには具体的な税率の記載がないため、公式サイトの「国民健康保険税とは」等の関連リンク先を確認するか、税務課（役場代表 0538-85-2111）へ問い合わせるのが確実です。",
+  "question": "国民健康保険税の税率はどこで確認できますか",
+  "answer": "本ページには具体的な税率の記載がないため、公式サイトの「国民健康保険税とは」等の関連リンク先を確認するか、税務課（役場代表 0538-85-2111）へ問い合わせるのが確実です。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P2",
+  "context": "国民健康保険税の税率・減免を確認する",
+  "keyword": "森町 国民健康保険税",
+  "needs": [
+   "保険税が高い",
+   "減免はある"
+  ],
+  "audience": [
+   "国保加入者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/2/1/index.html",
+    "label": "国民健康保険税／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/1/4711.html",
+    "label": "災害による被害を受けた場合の町・県民税、国民健康保険税の軽減免除について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 24,
+  "href": "/questions/moving-out-school-nursery-procedures/",
+  "slug": "moving-out-school-nursery-procedures",
+  "parent_href": "/life/moving-out/school-nursery-procedures/",
+  "parent_title": "子どもの転出は、保育所は健康こども課、学校は在学校へそれぞれ確認する",
+  "title": "保育所に通っている子どもがいる場合、どこに相談すればいいですか｜静岡県森町Q&A",
+  "description": "健康こども課幼稚園保育園係（0538-86-6300）へ相談してください。退所・転園の手続きの案内が受けられます。転出先で保育施設の利用を希望する場合は、転出先自治体ごとに申込手続きが異なるため、あわせて転出先にも確認しておくと安心です。",
+  "question": "保育所に通っている子どもがいる場合、どこに相談すればいいですか",
+  "answer": "健康こども課幼稚園保育園係（0538-86-6300）へ相談してください。退所・転園の手続きの案内が受けられます。転出先で保育施設の利用を希望する場合は、転出先自治体ごとに申込手続きが異なるため、あわせて転出先にも確認しておくと安心です。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "新しい場所へ",
+  "icon": "📦",
+  "priority": "P2",
+  "context": "子どもの転園・転校の手続きをする",
+  "keyword": "森町 転校 手続き",
+  "needs": [
+   "子どもが転校する",
+   "保育園を退園する"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/1/4614.html",
+    "label": "保育所について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 25,
+  "href": "/questions/work-life-job-change/",
+  "slug": "work-life-job-change",
+  "parent_href": "/life/work-life/job-change/",
+  "parent_title": "森町の就職・転職は、求人検索はハローワーク磐田、支援情報は町の就職支援ページを確認する",
+  "title": "森町で求人を探すにはどこに行けばいいですか｜静岡県森町Q&A",
+  "description": "森町を含む2市1町の求人はハローワーク磐田が管轄です。町の公式サイトには個別の求人情報は掲載されていないため、ハローワーク磐田の窓口やインターネットサービスで求人検索をしてください。",
+  "question": "森町で求人を探すにはどこに行けばいいですか",
+  "answer": "森町を含む2市1町の求人はハローワーク磐田が管轄です。町の公式サイトには個別の求人情報は掲載されていないため、ハローワーク磐田の窓口やインターネットサービスで求人検索をしてください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P2",
+  "context": "森町で仕事を探す入口を知る",
+  "keyword": "森町 求人",
+  "needs": [
+   "仕事を探している",
+   "転職したい"
+  ],
+  "audience": [
+   "求職者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/shushokushien/index.html",
+    "label": "就職支援／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 26,
+  "href": "/questions/work-life-nhk-pension/",
+  "slug": "work-life-nhk-pension",
+  "parent_href": "/life/work-life/nhk-pension/",
+  "parent_title": "森町の国民健康保険・国民年金は、住民生活課国保年金係で手続きする",
+  "title": "転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか｜静岡県森町Q&A",
+  "description": "住民生活課国保年金係が窓口です。必要書類や期限は個々の状況によって異なるため、詳細はページに明記されていません。事前に役場代表（0538-85-2111）へ問い合わせて確認することをおすすめします。",
+  "question": "転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか",
+  "answer": "住民生活課国保年金係が窓口です。必要書類や期限は個々の状況によって異なるため、詳細はページに明記されていません。事前に役場代表（0538-85-2111）へ問い合わせて確認することをおすすめします。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P2",
+  "context": "国民健康保険・国民年金の加入と喪失を手続きする",
+  "keyword": "森町 国民年金 手続き",
+  "needs": [
+   "会社を辞めた",
+   "扶養から外れた"
+  ],
+  "audience": [
+   "退職者",
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html",
+    "label": "国民健康保険／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 27,
+  "href": "/questions/work-life-subsidies/",
+  "slug": "work-life-subsidies",
+  "parent_href": "/life/work-life/subsidies/",
+  "parent_title": "森町の補助金は、担当課ごとに分かれるため対象制度を個別に確認する",
+  "title": "森町の補助金を一覧で確認できるページはありますか｜静岡県森町Q&A",
+  "description": "担当課・係ごとに補助金制度が分散しており、全体をまとめた一覧ページは確認できていません。暮らしに関する補助は住民生活課生活環境係、事業者向けの補助は産業課へ、目的別に問い合わせるのが確実です。",
+  "question": "森町の補助金を一覧で確認できるページはありますか",
+  "answer": "担当課・係ごとに補助金制度が分散しており、全体をまとめた一覧ページは確認できていません。暮らしに関する補助は住民生活課生活環境係、事業者向けの補助は産業課へ、目的別に問い合わせるのが確実です。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P2",
+  "context": "森町の補助金にどんなものがあるか調べる",
+  "keyword": "森町 補助金",
+  "needs": [
+   "使える補助金はある",
+   "助成金を探している"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/index.html",
+    "label": "令和6年度森町中小企業等コスト削減支援事業補助金／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 28,
+  "href": "/questions/living-soon-overview/",
+  "slug": "living-soon-overview",
+  "parent_href": "/life/living-soon/",
+  "parent_title": "🏡 これから暮らす",
+  "title": "森町への移住についてまず誰に相談すればいいですか｜静岡県森町Q&A",
+  "description": "定住推進課 移住交流係（電話：0538-85-2111）が窓口です。森町の暮らしについてのページもあわせてご覧ください。",
+  "question": "森町への移住についてまず誰に相談すればいいですか",
+  "answer": "定住推進課 移住交流係（電話：0538-85-2111）が窓口です。森町の暮らしについてのページもあわせてご覧ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "これから暮らす",
+  "icon": "🏡",
+  "priority": "P2",
+  "context": "森町へ移り住む前に確認することを把握する",
+  "keyword": "森町 移住",
+  "needs": [
+   "森町に住もうか迷っている"
+  ],
+  "audience": [
+   "移住検討者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/ijyu/index.html",
+    "label": "移住定住／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "確認中"
+ },
+ {
+  "number": 29,
+  "href": "/questions/end-of-life-bereavement/",
+  "slug": "end-of-life-bereavement",
+  "parent_href": "/life/end-of-life/bereavement/",
+  "parent_title": "森町で家族が亡くなったら、期限の早い手続きから順に進める",
+  "title": "死亡届は誰が出せますか｜静岡県森町Q&A",
+  "description": "同居の親族が優先され、次に同居していない親族、その後に同居者・家主・地主・管理人・成年後見人などの順で届出人になれます。詳しくは住民生活課住民係（0538-85-6312）に確認してください。",
+  "question": "死亡届は誰が出せますか",
+  "answer": "同居の親族が優先され、次に同居していない親族、その後に同居者・家主・地主・管理人・成年後見人などの順で届出人になれます。詳しくは住民生活課住民係（0538-85-6312）に確認してください。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "人生の終わり",
+  "icon": "🕊️",
+  "priority": "P0",
+  "context": "家族が亡くなった後の手続きを期限順に進める",
+  "keyword": "森町 死亡届 おくやみ",
+  "needs": [
+   "家族が亡くなった",
+   "何から手続きする",
+   "期限が知りたい",
+   "急ぐ手続きは何",
+   "手続きが多すぎる"
+  ],
+  "audience": [
+   "遺族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/1830.html",
+    "label": "お悔やみ（死亡届・火葬場予約・葬祭費）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
+    "label": "戸籍・住民票・印鑑証明／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2/2896.html",
+    "label": "死亡届／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 30,
+  "href": "/questions/end-of-life-inherited-house/",
+  "slug": "end-of-life-inherited-house",
+  "parent_href": "/life/end-of-life/inherited-house/",
+  "parent_title": "森町で相続した親の家を、使う・貸す・売る・解体するのどれにするか決める",
+  "title": "親の家をどうするか決まっていません。まず何をすればいいですか｜静岡県森町Q&A",
+  "description": "急いで決める必要はありません。使わない場合は空き家バンクへの登録、売却を考える場合は税制特例の対象か確認するなど、選択肢を知ることから始めましょう。窓口は定住推進課移住交流係（0538-85-6321）です。",
+  "question": "親の家をどうするか決まっていません。まず何をすればいいですか",
+  "answer": "急いで決める必要はありません。使わない場合は空き家バンクへの登録、売却を考える場合は税制特例の対象か確認するなど、選択肢を知ることから始めましょう。窓口は定住推進課移住交流係（0538-85-6321）です。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "人生の終わり",
+  "icon": "🕊️",
+  "priority": "P0",
+  "context": "相続した親の家を使う・貸す・売る・解体するを決める",
+  "keyword": "親の家 相続 どうする",
+  "needs": [
+   "実家を相続した",
+   "空き家を相続した",
+   "空き家になった実家",
+   "売るか残すか迷う",
+   "空き家になってしまった",
+   "相続した家が空いている",
+   "実家をどうしよう"
+  ],
+  "audience": [
+   "相続人",
+   "家族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/akiyabank/index.html",
+    "label": "空き家バンク／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/3043akiyakazaisyobun.html",
+    "label": "空き家等利活用推進支援費用補助金／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/kaoku/543.html",
+    "label": "被相続人居住用家屋等確認書の発行について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 31,
+  "href": "/questions/housing-vacant-house/",
+  "slug": "housing-vacant-house",
+  "parent_href": "/life/housing/vacant-house/",
+  "parent_title": "森町の空き家は、空家等対策計画・空き家バンク・固定資産税を同時に整理する",
+  "title": "空き家を放置するとどうなりますか｜静岡県森町Q&A",
+  "description": "第2期森町空家等対策計画に基づき、周辺環境への悪影響がある場合は町からの相談・指導の対象になることがあります。早めに管理方針を決めることをおすすめします。",
+  "question": "空き家を放置するとどうなりますか",
+  "answer": "第2期森町空家等対策計画に基づき、周辺環境への悪影響がある場合は町からの相談・指導の対象になることがあります。早めに管理方針を決めることをおすすめします。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "家・住まい",
+  "icon": "🏠",
+  "priority": "P0",
+  "context": "空き家の制度（対策計画・バンク・税）を整理する",
+  "keyword": "森町 空き家",
+  "needs": [
+   "空き家をどうするか",
+   "空き家バンクを使いたい"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/2/2222.html",
+    "label": "第2期森町空家等対策計画／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
+    "label": "森町空き家・空き地バンク／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "label": "固定資産税・都市計画税の納付について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 32,
+  "href": "/questions/end-of-life-inheritance/",
+  "slug": "end-of-life-inheritance",
+  "parent_href": "/life/end-of-life/inheritance/",
+  "parent_title": "相続は、森町の固定資産税・戸籍手続きと家族で決めることを分けて進める",
+  "title": "相続人代表者指定届とは何ですか｜静岡県森町Q&A",
+  "description": "固定資産（土地・家屋）の所有者が亡くなった際、納税に関する書類を受け取る代表者を相続人の中から一人定めて届け出るものです。森町税務課資産税係（0538-85-6309）が窓口で、様式はホームページからダウンロードできます。",
+  "question": "相続人代表者指定届とは何ですか",
+  "answer": "固定資産（土地・家屋）の所有者が亡くなった際、納税に関する書類を受け取る代表者を相続人の中から一人定めて届け出るものです。森町税務課資産税係（0538-85-6309）が窓口で、様式はホームページからダウンロードできます。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "人生の終わり",
+  "icon": "🕊️",
+  "priority": "P0",
+  "context": "相続で何をいつまでにやるか整理する",
+  "keyword": "森町 相続 手続き",
+  "needs": [
+   "相続が発生した",
+   "相続登記はいつまで"
+  ],
+  "audience": [
+   "相続人"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/yousiki/544.html",
+    "label": "申請書様式〈固定資産税関係〉（相続人代表者指定届）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/1830.html",
+    "label": "お悔やみ（死亡届・火葬場予約・葬祭費）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 33,
+  "href": "/questions/end-of-life-overview/",
+  "slug": "end-of-life-overview",
+  "parent_href": "/life/end-of-life/",
+  "parent_title": "🕊️ 人生の終わり（森町版）",
+  "title": "相続の手続きはどこに相談すればいいですか｜静岡県森町Q&A",
+  "description": "固定資産税に関する相続人代表者指定届は税務課資産税係（0538-85-6309）が窓口です。相続税そのものは国税の管轄のため、税務署への相談が必要です。",
+  "question": "相続の手続きはどこに相談すればいいですか",
+  "answer": "固定資産税に関する相続人代表者指定届は税務課資産税係（0538-85-6309）が窓口です。相続税そのものは国税の管轄のため、税務署への相談が必要です。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "人生の終わり",
+  "icon": "🕊️",
+  "priority": "P0",
+  "context": "おくやみ・相続・空き家の手続きを一覧で把握する",
+  "keyword": "森町 おくやみ 相続",
+  "needs": [
+   "家族が亡くなった"
+  ],
+  "audience": [
+   "遺族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/index.html",
+    "label": "お悔やみ／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/1830.html",
+    "label": "お悔やみ（死亡届・火葬場予約・葬祭費）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "確認中"
+ },
+ {
+  "number": 34,
+  "href": "/questions/end-of-life-property-tax-inheritance/",
+  "slug": "end-of-life-property-tax-inheritance",
+  "parent_href": "/life/end-of-life/property-tax-inheritance/",
+  "parent_title": "固定資産税の相続は、森町税務課への相続人代表者指定届を先に確認する",
+  "title": "相続人代表者指定届はいつ提出すればいいですか｜静岡県森町Q&A",
+  "description": "固定資産（土地・家屋）の所有者が亡くなった時点で提出が必要になります。次の納期に間に合うよう、なるべく早めに税務課資産税係（0538-85-6309）へ相談してください。",
+  "question": "相続人代表者指定届はいつ提出すればいいですか",
+  "answer": "固定資産（土地・家屋）の所有者が亡くなった時点で提出が必要になります。次の納期に間に合うよう、なるべく早めに税務課資産税係（0538-85-6309）へ相談してください。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "人生の終わり",
+  "icon": "🕊️",
+  "priority": "P1",
+  "context": "相続した不動産の固定資産税の手続きをする",
+  "keyword": "森町 固定資産税 相続人代表者",
+  "needs": [
+   "納税通知書は誰に届く"
+  ],
+  "audience": [
+   "相続人"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/yousiki/544.html",
+    "label": "申請書様式〈固定資産税関係〉（相続人代表者指定届）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "label": "固定資産税・都市計画税の納付について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/kaoku/543.html",
+    "label": "被相続人居住用家屋等確認書の発行について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 35,
+  "href": "/questions/housing-clean-parents-house/",
+  "slug": "housing-clean-parents-house",
+  "parent_href": "/life/housing/clean-parents-house/",
+  "parent_title": "森町で親の家を片付けるときは、ごみ分別・空き家対策・空き家バンクを確認する。",
+  "title": "遺品整理を森町に依頼できますか｜静岡県森町Q&A",
+  "description": "町が遺品整理を代行する制度・窓口は確認できませんでした。家庭ごみとして処分できるものは分別ルールに沿って処分し、大量にある場合は民間の遺品整理業者への依頼も選択肢になります。",
+  "question": "遺品整理を森町に依頼できますか",
+  "answer": "町が遺品整理を代行する制度・窓口は確認できませんでした。家庭ごみとして処分できるものは分別ルールに沿って処分し、大量にある場合は民間の遺品整理業者への依頼も選択肢になります。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "家・住まい",
+  "icon": "🏠",
+  "priority": "P1",
+  "context": "親の家の片付けを進める",
+  "keyword": "森町 実家 片付け",
+  "needs": [
+   "実家の物が多い",
+   "片付けが進まない"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
+    "label": "森町家庭ごみ分別表、収集日カレンダー、分別ガイドブック（保存版）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/2/2222.html",
+    "label": "第2期森町空家等対策計画／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
+    "label": "森町空き家・空き地バンク／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 36,
+  "href": "/questions/end-of-life-pension-inheritance/",
+  "slug": "end-of-life-pension-inheritance",
+  "parent_href": "/life/end-of-life/pension-inheritance/",
+  "parent_title": "年金の手続きは、国民健康保険と国民年金の窓口を分けて確認する",
+  "title": "亡くなった家族の年金はどこに相談すればいいですか｜静岡県森町Q&A",
+  "description": "未支給年金の請求など年金に関する手続きは、日本年金機構・年金事務所の管轄です。死亡日から5年以内に、生計を同じくしていた遺族が請求できます。森町の役場では年金そのものの手続きは扱っていません。",
+  "question": "亡くなった家族の年金はどこに相談すればいいですか",
+  "answer": "未支給年金の請求など年金に関する手続きは、日本年金機構・年金事務所の管轄です。死亡日から5年以内に、生計を同じくしていた遺族が請求できます。森町の役場では年金そのものの手続きは扱っていません。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "人生の終わり",
+  "icon": "🕊️",
+  "priority": "P1",
+  "context": "亡くなった後の年金・保険の手続きをする",
+  "keyword": "森町 死亡 年金 手続き",
+  "needs": [
+   "年金を止める手続き",
+   "未支給年金"
+  ],
+  "audience": [
+   "遺族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/index.html",
+    "label": "国民健康保険・後期高齢者医療制度／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/1830.html",
+    "label": "お悔やみ（死亡届・火葬場予約・葬祭費）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 37,
+  "href": "/questions/housing-earthquake-demolition/",
+  "slug": "housing-earthquake-demolition",
+  "parent_href": "/life/housing/earthquake-demolition/",
+  "parent_title": "森町の耐震・解体は、木造住宅の耐震診断・改修・解体助成を確認する。",
+  "title": "耐震診断は無料ですか｜静岡県森町Q&A",
+  "description": "木造住宅は「わが家の専門家診断事業」により無料で耐震診断を受けられます。非木造住宅・建築物も専門家による診断制度がありますが、内容は建物によって異なるため窓口で確認してください。",
+  "question": "耐震診断は無料ですか",
+  "answer": "木造住宅は「わが家の専門家診断事業」により無料で耐震診断を受けられます。非木造住宅・建築物も専門家による診断制度がありますが、内容は建物によって異なるため窓口で確認してください。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "家・住まい",
+  "icon": "🏠",
+  "priority": "P1",
+  "context": "耐震診断・改修・解体の助成を使う",
+  "keyword": "森町 耐震 解体 補助",
+  "needs": [
+   "古い家が心配",
+   "解体費用の助成"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
+    "label": "住宅・建築物の耐震補助制度／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/4685.html",
+    "label": "住宅の応急修理について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 38,
+  "href": "/questions/housing-property-tax/",
+  "slug": "housing-property-tax",
+  "parent_href": "/life/housing/property-tax/",
+  "parent_title": "森町の土地・家屋の税金は、固定資産税・都市計画税の課税内容と手続きを分けて確認する",
+  "title": "固定資産税はいつ払えばいいですか｜静岡県森町Q&A",
+  "description": "年4回の納期があります。第1期5月16日〜31日、第2期7月16日〜31日、第3期12月16日〜25日、第4期2月16日〜月末です。休日の場合は翌平日が期限になります。",
+  "question": "固定資産税はいつ払えばいいですか",
+  "answer": "年4回の納期があります。第1期5月16日〜31日、第2期7月16日〜31日、第3期12月16日〜25日、第4期2月16日〜月末です。休日の場合は翌平日が期限になります。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "家・住まい",
+  "icon": "🏠",
+  "priority": "P1",
+  "context": "土地・家屋の固定資産税の中身を確認する",
+  "keyword": "森町 固定資産税",
+  "needs": [
+   "固定資産税が高い",
+   "課税の内容を知りたい"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "label": "固定資産税・都市計画税の納付について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/index.html",
+    "label": "固定資産税・都市計画税／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 39,
+  "href": "/questions/housing-sell-house/",
+  "slug": "housing-sell-house",
+  "parent_href": "/life/housing/sell-house/",
+  "parent_title": "森町で家を売る前に、固定資産税・空き家バンクを確認する",
+  "title": "家を売った年の固定資産税は誰が払うのですか｜静岡県森町Q&A",
+  "description": "納税義務者はその年の1月1日時点の所有者です。年の途中で売却した場合、実務上は売主と買主の間で税負担を日割りなどで按分することが一般的です。",
+  "question": "家を売った年の固定資産税は誰が払うのですか",
+  "answer": "納税義務者はその年の1月1日時点の所有者です。年の途中で売却した場合、実務上は売主と買主の間で税負担を日割りなどで按分することが一般的です。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "家・住まい",
+  "icon": "🏠",
+  "priority": "P1",
+  "context": "森町で家を売る前に確認することを知る",
+  "keyword": "森町 家 売却",
+  "needs": [
+   "家を売りたい",
+   "売る前に何を調べる"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "label": "固定資産税・都市計画税の納付について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
+    "label": "森町空き家・空き地バンク／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 40,
+  "href": "/questions/troubles-consult-farmland/",
+  "slug": "troubles-consult-farmland",
+  "parent_href": "/life/troubles-consult/farmland/",
+  "parent_title": "相続した田んぼ・畑をどうすればいいか分からないときは、森町「農林政策課 農地管理係」（農業委員会）に相談から始める。",
+  "title": "相続した農地をどうすればいいか全く分かりません｜静岡県森町Q&A",
+  "description": "まず農林政策課 農地管理係へ電話してください。相続届出や、その後の活用方法（耕作・貸す・売る等）まで相談に乗ってもらえます。",
+  "question": "相続した農地をどうすればいいか全く分かりません",
+  "answer": "まず農林政策課 農地管理係へ電話してください。相続届出や、その後の活用方法（耕作・貸す・売る等）まで相談に乗ってもらえます。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "困った・相談したい",
+  "icon": "🧩",
+  "priority": "P1",
+  "context": "相続した農地の扱いを整理する",
+  "keyword": "森町 農地 相続",
+  "needs": [
+   "田んぼを相続した",
+   "畑をどうする"
+  ],
+  "audience": [
+   "相続人",
+   "所有者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html",
+    "label": "森町農業委員会事務の実施状況について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html",
+    "label": "農林業（農地の相続について 等）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 41,
+  "href": "/questions/farmland-inheritance/",
+  "slug": "farmland-inheritance",
+  "parent_href": "/life/troubles-consult/farmland/inheritance/",
+  "parent_title": "農地を相続したら、森町「農林政策課 農地管理係」（農業委員会）への届出から整理する。",
+  "title": "農地を相続しました。まず何をすればいいですか｜静岡県森町Q&A",
+  "description": "農林政策課 農地管理係へ連絡し、相続届出（農地法第3条の3）に必要な書類を確認してください。",
+  "question": "農地を相続しました。まず何をすればいいですか",
+  "answer": "農林政策課 農地管理係へ連絡し、相続届出（農地法第3条の3）に必要な書類を確認してください。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "困った・相談したい",
+  "icon": "🧩",
+  "priority": "P1",
+  "context": "農地を相続したときの届出をする",
+  "keyword": "農地 相続 届出",
+  "needs": [
+   "農地の相続手続き"
+  ],
+  "audience": [
+   "相続人"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html",
+    "label": "森町農業委員会事務の実施状況について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html",
+    "label": "農林業（農地の相続について）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 42,
+  "href": "/questions/farmland-sell-or-rent/",
+  "slug": "farmland-sell-or-rent",
+  "parent_href": "/life/troubles-consult/farmland/sell-or-rent/",
+  "parent_title": "使っていない農地を売りたい・貸したいときは、森町「農林政策課 農地管理係」（農業委員会）へ相談する。",
+  "title": "耕作していない農地を貸したいのですが、どうすればいいですか｜静岡県森町Q&A",
+  "description": "農林政策課 農地管理係に相談してください。耕作目的での貸借には農業委員会の手続きが必要です。",
+  "question": "耕作していない農地を貸したいのですが、どうすればいいですか",
+  "answer": "農林政策課 農地管理係に相談してください。耕作目的での貸借には農業委員会の手続きが必要です。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "困った・相談したい",
+  "icon": "🧩",
+  "priority": "P1",
+  "context": "使っていない農地を売る・貸す",
+  "keyword": "農地 売りたい 貸したい",
+  "needs": [
+   "耕作できない農地がある"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html",
+    "label": "農地管理係／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html",
+    "label": "農林業（耕作目的での農地の売買・貸借について）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 43,
+  "href": "/questions/housing-overview/",
+  "slug": "housing-overview",
+  "parent_href": "/life/housing/",
+  "parent_title": "🏠 家・住まい（森町版）",
+  "title": "森町にも磐田市のような住宅補助はありますか｜静岡県森町Q&A",
+  "description": "新築・購入向けの一般的な補助は確認できませんでした。結婚を機にした住宅取得なら結婚新生活支援補助金、既存の木造住宅なら耐震関連の助成が対象になり得ます。",
+  "question": "森町にも磐田市のような住宅補助はありますか",
+  "answer": "新築・購入向けの一般的な補助は確認できませんでした。結婚を機にした住宅取得なら結婚新生活支援補助金、既存の木造住宅なら耐震関連の助成が対象になり得ます。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "家・住まい",
+  "icon": "🏠",
+  "priority": "P1",
+  "context": "住まい・空き家・不動産の情報を一覧で把握する",
+  "keyword": "森町 住まい",
+  "needs": [
+   "家のことを調べたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/",
+    "label": "森町公式サイト",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 44,
+  "href": "/questions/housing-buy-house/",
+  "slug": "housing-buy-house",
+  "parent_href": "/life/housing/buy-house/",
+  "parent_title": "森町で家を買う前に、固定資産税・空き家バンク・結婚新生活支援を確認する。",
+  "title": "森町で家を買うときに使える町の補助はありますか｜静岡県森町Q&A",
+  "description": "一般向けの住宅購入補助は確認できませんでした。結婚を機にした購入であれば結婚新生活支援補助金が対象になり得ます。詳しくは公式ページで確認してください。",
+  "question": "森町で家を買うときに使える町の補助はありますか",
+  "answer": "一般向けの住宅購入補助は確認できませんでした。結婚を機にした購入であれば結婚新生活支援補助金が対象になり得ます。詳しくは公式ページで確認してください。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "家・住まい",
+  "icon": "🏠",
+  "priority": "P2",
+  "context": "森町で家を買う前に確認することを知る",
+  "keyword": "森町 家 購入",
+  "needs": [
+   "家を買いたい"
+  ],
+  "audience": [
+   "購入検討者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "label": "固定資産税・都市計画税の納付について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
+    "label": "森町空き家・空き地バンク／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/4392.html",
+    "label": "結婚新生活支援補助金／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 45,
+  "href": "/questions/housing-build-house/",
+  "slug": "housing-build-house",
+  "parent_href": "/life/housing/build-house/",
+  "parent_title": "森町で家を建てる前に、耐震・補助金・結婚新生活支援を確認する。",
+  "title": "森町にも磐田市のような新築住宅の補助金はありますか｜静岡県森町Q&A",
+  "description": "町独自の新築住宅取得補助は確認できませんでした。該当し得るのは既存住宅向けの耐震補助や、結婚を機とした結婚新生活支援補助金です。詳しくは公式ページで確認してください。",
+  "question": "森町にも磐田市のような新築住宅の補助金はありますか",
+  "answer": "町独自の新築住宅取得補助は確認できませんでした。該当し得るのは既存住宅向けの耐震補助や、結婚を機とした結婚新生活支援補助金です。詳しくは公式ページで確認してください。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "家・住まい",
+  "icon": "🏠",
+  "priority": "P2",
+  "context": "森町で家を建てる前に補助制度を確認する",
+  "keyword": "森町 住宅 補助金",
+  "needs": [
+   "家を建てたい",
+   "使える補助はある"
+  ],
+  "audience": [
+   "建築希望者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
+    "label": "住宅・建築物の耐震補助制度／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/4392.html",
+    "label": "結婚新生活支援補助金／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 46,
+  "href": "/questions/housing-municipal-housing/",
+  "slug": "housing-municipal-housing",
+  "parent_href": "/life/housing/municipal-housing/",
+  "parent_title": "森町の町営住宅は、募集条件・収入・必要書類を先に確認する。",
+  "title": "町営住宅はどこにありますか｜静岡県森町Q&A",
+  "description": "天宮団地、大門団地、森山団地、中川団地、中川第2団地、やざき団地の6団地・合計121戸です。各団地の場所や間取りは森町公式ページで確認してください。",
+  "question": "町営住宅はどこにありますか",
+  "answer": "天宮団地、大門団地、森山団地、中川団地、中川第2団地、やざき団地の6団地・合計121戸です。各団地の場所や間取りは森町公式ページで確認してください。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "家・住まい",
+  "icon": "🏠",
+  "priority": "P2",
+  "context": "町営住宅の募集条件と申込みを確認する",
+  "keyword": "森町 町営住宅",
+  "needs": [
+   "町営住宅に入りたい"
+  ],
+  "audience": [
+   "入居希望者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/4/412.html",
+    "label": "森町の町営住宅（公営住宅）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/4/412.html",
+    "label": "町営住宅（公営住宅）の入居者募集（令和7年12月募集）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 47,
+  "href": "/questions/housing-rent-house/",
+  "slug": "housing-rent-house",
+  "parent_href": "/life/housing/rent-house/",
+  "parent_title": "森町で賃貸を探すなら、空き家バンクと町営住宅の両方を確認する",
+  "title": "森町で賃貸物件をまとめて探せるサイトはありますか｜静岡県森町Q&A",
+  "description": "町が民間賃貸情報をまとめて紹介する仕組みは確認できませんでした。民間の不動産業者やポータルサイトで探すのが一般的です。",
+  "question": "森町で賃貸物件をまとめて探せるサイトはありますか",
+  "answer": "町が民間賃貸情報をまとめて紹介する仕組みは確認できませんでした。民間の不動産業者やポータルサイトで探すのが一般的です。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "家・住まい",
+  "icon": "🏠",
+  "priority": "P2",
+  "context": "森町で借りられる住まいを探す",
+  "keyword": "森町 賃貸 町営住宅",
+  "needs": [
+   "借りる家を探している"
+  ],
+  "audience": [
+   "入居希望者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/380.html",
+    "label": "空き家・空き地バンク物件公開ページ／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/4/412.html",
+    "label": "森町の町営住宅（公営住宅）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 48,
+  "href": "/questions/farmland-certificates/",
+  "slug": "farmland-certificates",
+  "parent_href": "/life/troubles-consult/farmland/certificates/",
+  "parent_title": "農地の証明（耕作証明・非農地証明等）は、森町「農林政策課 農地管理係」（農業委員会事務局）へ確認する。",
+  "title": "耕作証明が必要になりました。どこに申請すればいいですか｜静岡県森町Q&A",
+  "description": "農林政策課 農地管理係（森町農業委員会事務局）に相談してください。用途を伝えると必要な手続きを案内してもらえます。",
+  "question": "耕作証明が必要になりました。どこに申請すればいいですか",
+  "answer": "農林政策課 農地管理係（森町農業委員会事務局）に相談してください。用途を伝えると必要な手続きを案内してもらえます。",
+  "hub": "property",
+  "hub_label": "家・土地",
+  "category": "困った・相談したい",
+  "icon": "🧩",
+  "priority": "P2",
+  "context": "耕作証明・非農地証明を取得する",
+  "keyword": "耕作証明書 非農地証明",
+  "needs": [
+   "証明書が必要と言われた"
+  ],
+  "audience": [
+   "所有者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html",
+    "label": "農地管理係／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html",
+    "label": "森町農業委員会事務の実施状況について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 49,
+  "href": "/questions/emergency-earthquake/",
+  "slug": "emergency-earthquake",
+  "parent_href": "/life/emergency/earthquake/",
+  "parent_title": "地震・津波の備えを、森町の補助制度を使いながら今日できることから一つずつ。",
+  "title": "感震ブレーカーの補助はどれくらいもらえますか｜静岡県森町Q&A",
+  "description": "補助対象経費の2分の1以内で、上限は2万円です（1,000円未満切り捨て）。1世帯につき1回限りの補助で、購入・工事着手前の申請が必要です。詳しくは危機管理課 危機管理係（0538-85-6302）にご確認ください。",
+  "question": "感震ブレーカーの補助はどれくらいもらえますか",
+  "answer": "補助対象経費の2分の1以内で、上限は2万円です（1,000円未満切り捨て）。1世帯につき1回限りの補助で、購入・工事着手前の申請が必要です。詳しくは危機管理課 危機管理係（0538-85-6302）にご確認ください。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "もしもの時",
+  "icon": "⚠️",
+  "priority": "P0",
+  "context": "地震・津波に備える",
+  "keyword": "森町 地震 備え",
+  "needs": [
+   "地震が心配",
+   "耐震の補助"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/6838.html",
+    "label": "感震ブレーカー設置費補助制度のご案内／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
+    "label": "住宅・建築物の耐震補助制度／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 50,
+  "href": "/questions/emergency-evacuation-hazard-map/",
+  "slug": "emergency-evacuation-hazard-map",
+  "parent_href": "/life/emergency/evacuation-hazard-map/",
+  "parent_title": "森町で「いつ・どこへ逃げるか」を、警戒レベルとハザードマップで先に決めておく",
+  "title": "警戒レベルはどこで知ることができますか｜静岡県森町Q&A",
+  "description": "同報無線のほか、森町LINE公式アカウントやちゃっとメールで発信されます。停電時にも情報を受け取れるよう、事前にLINEの登録をしておくと安心です。",
+  "question": "警戒レベルはどこで知ることができますか",
+  "answer": "同報無線のほか、森町LINE公式アカウントやちゃっとメールで発信されます。停電時にも情報を受け取れるよう、事前にLINEの登録をしておくと安心です。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "もしもの時",
+  "icon": "⚠️",
+  "priority": "P0",
+  "context": "いつ・どこへ逃げるかを決めておく",
+  "keyword": "森町 ハザードマップ 避難",
+  "needs": [
+   "どこに逃げればいい",
+   "いつ避難する",
+   "大雨で不安",
+   "家は安全か",
+   "台風が来る"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1130.html",
+    "label": "自然災害(台風・集中豪雨・地震)／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 51,
+  "href": "/questions/emergency-fire-ambulance/",
+  "slug": "emergency-fire-ambulance",
+  "parent_href": "/life/emergency/fire-ambulance/",
+  "parent_title": "火事のとき、急病のとき。まず119番。森町は袋井消防本部が管轄。",
+  "title": "森町で火事や救急のときはどこに連絡すればいいですか｜静岡県森町Q&A",
+  "description": "119番に電話してください。森町の消防・救急は「袋井市森町広域行政組合 袋井消防本部」が管轄しています。予防に関する問い合わせは予防課（0538-44-5114）が窓口です。",
+  "question": "森町で火事や救急のときはどこに連絡すればいいですか",
+  "answer": "119番に電話してください。森町の消防・救急は「袋井市森町広域行政組合 袋井消防本部」が管轄しています。予防に関する問い合わせは予防課（0538-44-5114）が窓口です。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "もしもの時",
+  "icon": "⚠️",
+  "priority": "P0",
+  "context": "火事・急病のときの119番と管轄を知る",
+  "keyword": "森町 消防 救急 119",
+  "needs": [
+   "救急車を呼びたい",
+   "火事のとき"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/shoubou/3966.html",
+    "label": "【袋井消防本部】住宅用火災警報器の交換について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/shoubou/3963.html",
+    "label": "【袋井消防本部】住宅用火災警報器の取り付け支援について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 52,
+  "href": "/questions/health-medical-night-holiday-medical/",
+  "slug": "health-medical-night-holiday-medical",
+  "parent_href": "/life/health-medical/night-holiday-medical/",
+  "parent_title": "森町で夜間・休日に具合が悪くなったら、緊急度と時間帯で行き先を決める",
+  "title": "夜間や休日に急に具合が悪くなったらどうすればいいですか｜静岡県森町Q&A",
+  "description": "まず公立森町病院（0538-85-2181）へ電話連絡してください。氏名・生年月日・症状・来院方法・来院予定時間を伝える必要があります。詳細は公立森町病院の救急受診ページで確認できます。",
+  "question": "夜間や休日に急に具合が悪くなったらどうすればいいですか",
+  "answer": "まず公立森町病院（0538-85-2181）へ電話連絡してください。氏名・生年月日・症状・来院方法・来院予定時間を伝える必要があります。詳細は公立森町病院の救急受診ページで確認できます。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "健康・医療",
+  "icon": "🏥",
+  "priority": "P0",
+  "context": "夜間・休日に具合が悪くなったときの受診先を決める",
+  "keyword": "森町 夜間 休日 救急",
+  "needs": [
+   "夜に熱が出た",
+   "休日に病院はやっている",
+   "子どもの急病",
+   "救急車を呼ぶべきか",
+   "病院に行くべきか",
+   "休日に診てもらいたい"
+  ],
+  "audience": [
+   "住民",
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html",
+    "label": "病気になったとき／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://hospital.town.morimachi.shizuoka.jp/guide/outpatient/kyukyujushin/",
+    "label": "救急受診について／公立森町病院",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 53,
+  "href": "/questions/troubles-consult-cannot-pay-tax/",
+  "slug": "troubles-consult-cannot-pay-tax",
+  "parent_href": "/life/troubles-consult/cannot-pay-tax/",
+  "parent_title": "森町で町税・国保税が払えないときは、差押えの前に税務課へ相談する",
+  "title": "今月の町税が払えそうにありません。どうすればいいですか｜静岡県森町Q&A",
+  "description": "滞納のまま放置せず、早めに税務課納税係（電話0538-85-2111）へ相談してください。分割納付など状況に応じた対応を相談できます。",
+  "question": "今月の町税が払えそうにありません。どうすればいいですか",
+  "answer": "滞納のまま放置せず、早めに税務課納税係（電話0538-85-2111）へ相談してください。分割納付など状況に応じた対応を相談できます。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "困った・相談したい",
+  "icon": "🧩",
+  "priority": "P0",
+  "context": "税金・保険税が払えないときに差押えの前に相談する",
+  "keyword": "森町 税金 払えない",
+  "needs": [
+   "税金が払えない",
+   "督促状が来た",
+   "差押えが怖い",
+   "分割で払いたい",
+   "納付を待ってほしい"
+  ],
+  "audience": [
+   "納税者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html",
+    "label": "納期限と納付方法／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html",
+    "label": "国民健康保険／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 54,
+  "href": "/questions/troubles-consult-consumer-fraud/",
+  "slug": "troubles-consult-consumer-fraud",
+  "parent_href": "/life/troubles-consult/consumer-fraud/",
+  "parent_title": "だまされたかも、契約してしまった。森町「町民生活センター」の消費生活相談へ早めに相談する。",
+  "title": "身に覚えのない請求メールが届きました。どうすればいいですか｜静岡県森町Q&A",
+  "description": "相手に連絡せず、支払わずに放置してください。不安な場合は森町消費者相談窓口（電話0538-85-6319）に相談できます。",
+  "question": "身に覚えのない請求メールが届きました。どうすればいいですか",
+  "answer": "相手に連絡せず、支払わずに放置してください。不安な場合は森町消費者相談窓口（電話0538-85-6319）に相談できます。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "困った・相談したい",
+  "icon": "🧩",
+  "priority": "P0",
+  "context": "詐欺・悪質商法の被害を相談する",
+  "keyword": "森町 消費生活相談",
+  "needs": [
+   "だまされたかも",
+   "解約したい",
+   "特殊詐欺"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/655.html",
+    "label": "インターネット消費者トラブルの防止について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/1066.html",
+    "label": "森町町民生活センター／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 55,
+  "href": "/questions/emergency-evacuation-centers/",
+  "slug": "emergency-evacuation-centers",
+  "parent_href": "/life/emergency/evacuation-centers/",
+  "parent_title": "いざというとき、どこへ避難するかを森町のハザードマップと指定避難所で今のうちに決めておく。",
+  "title": "自宅の避難所はどこで確認できますか｜静岡県森町Q&A",
+  "description": "森町防災ハザードマップ（地区別7種類）に避難所等の防災関係施設の位置が掲載されています。指定避難所一覧は防災ガイドブックにも掲載されているので、あわせて確認してください。",
+  "question": "自宅の避難所はどこで確認できますか",
+  "answer": "森町防災ハザードマップ（地区別7種類）に避難所等の防災関係施設の位置が掲載されています。指定避難所一覧は防災ガイドブックにも掲載されているので、あわせて確認してください。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "もしもの時",
+  "icon": "⚠️",
+  "priority": "P0",
+  "context": "指定避難所の場所を確認する",
+  "keyword": "森町 避難所",
+  "needs": [
+   "避難所はどこ"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 56,
+  "href": "/questions/health-medical-overview/",
+  "slug": "health-medical-overview",
+  "parent_href": "/life/health-medical/",
+  "parent_title": "🏥 健康・医療（森町版トップ）",
+  "title": "森町の健康・医療の窓口はどこにありますか｜静岡県森町Q&A",
+  "description": "健診・予防接種は健康こども課、障がい福祉は福祉課、国保・特定健診は住民生活課、診療・救急は公立森町病院に分かれています。詳しくは森町公式の健康・福祉ページで確認してください。",
+  "question": "森町の健康・医療の窓口はどこにありますか",
+  "answer": "健診・予防接種は健康こども課、障がい福祉は福祉課、国保・特定健診は住民生活課、診療・救急は公立森町病院に分かれています。詳しくは森町公式の健康・福祉ページで確認してください。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "健康・医療",
+  "icon": "🏥",
+  "priority": "P0",
+  "context": "医療・検診・障がい福祉の情報を一覧で把握する",
+  "keyword": "森町 医療",
+  "needs": [
+   "病院のことを調べたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html",
+    "label": "健康・福祉／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/morimachi_hospital/5810.html",
+    "label": "公立森町病院ホームページ／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "確認中"
+ },
+ {
+  "number": 57,
+  "href": "/questions/emergency-overview/",
+  "slug": "emergency-overview",
+  "parent_href": "/life/emergency/",
+  "parent_title": "⚠️ もしもの時",
+  "title": "災害用伝言ダイヤルとはなんですか｜静岡県森町Q&A",
+  "description": "災害時に電話がつながりにくいときに、171（音声）やweb171（テキスト）で家族などと安否情報をやり取りできる仕組みです。使い方は事前に確認しておくと、いざというときに慌てません。",
+  "question": "災害用伝言ダイヤルとはなんですか",
+  "answer": "災害時に電話がつながりにくいときに、171（音声）やweb171（テキスト）で家族などと安否情報をやり取りできる仕組みです。使い方は事前に確認しておくと、いざというときに慌てません。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "もしもの時",
+  "icon": "⚠️",
+  "priority": "P0",
+  "context": "防災・災害時の行動と窓口を一覧で把握する",
+  "keyword": "森町 防災",
+  "needs": [
+   "災害に備えたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1129.html",
+    "label": "防災情報／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 58,
+  "href": "/questions/health-medical-adult-vaccination/",
+  "slug": "health-medical-adult-vaccination",
+  "parent_href": "/life/health-medical/adult-vaccination/",
+  "parent_title": "森町のおとなの予防接種は、対象年齢と接種時期・自己負担額を先に確認する",
+  "title": "自分が高齢者肺炎球菌予防接種の対象かどうか、どう確認しますか｜静岡県森町Q&A",
+  "description": "令和8年度は接種当日65歳の方等が対象で、自己負担は5,000円、66歳の誕生日前日までが期限です。詳しい条件は森町公式ページで確認してください。",
+  "question": "自分が高齢者肺炎球菌予防接種の対象かどうか、どう確認しますか",
+  "answer": "令和8年度は接種当日65歳の方等が対象で、自己負担は5,000円、66歳の誕生日前日までが期限です。詳しい条件は森町公式ページで確認してください。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "健康・医療",
+  "icon": "🏥",
+  "priority": "P1",
+  "context": "おとなの予防接種の対象と費用を確認する",
+  "keyword": "森町 高齢者 予防接種",
+  "needs": [
+   "インフルエンザの助成",
+   "肺炎球菌ワクチン"
+  ],
+  "audience": [
+   "成人",
+   "高齢者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html",
+    "label": "風しん予防接種の費用を助成します／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 59,
+  "href": "/questions/health-medical-cancer-specific-checkups/",
+  "slug": "health-medical-cancer-specific-checkups",
+  "parent_href": "/life/health-medical/cancer-specific-checkups/",
+  "parent_title": "森町のがん検診と患者支援制度は、対象と時期を分けて確認する",
+  "title": "がん検診だけを単独で申し込めますか｜静岡県森町Q&A",
+  "description": "森町のがん検診は20歳以上対象の総合検診に含まれる形で実施されています。申込方法や期限は森町公式の総合検診ページで確認してください。",
+  "question": "がん検診だけを単独で申し込めますか",
+  "answer": "森町のがん検診は20歳以上対象の総合検診に含まれる形で実施されています。申込方法や期限は森町公式の総合検診ページで確認してください。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "健康・医療",
+  "icon": "🏥",
+  "priority": "P1",
+  "context": "がん検診の対象と時期を確認する",
+  "keyword": "森町 がん検診",
+  "needs": [
+   "がん検診はいつ"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/4/3238.html",
+    "label": "森町がん患者医療用補整具購入費助成について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/2/821.html",
+    "label": "令和7年度森町健康診査（総合検診）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 60,
+  "href": "/questions/health-medical-find-hospitals/",
+  "slug": "health-medical-find-hospitals",
+  "parent_href": "/life/health-medical/find-hospitals/",
+  "parent_title": "森町で医療機関を探すときは、公立森町病院と町内診療所・広域の医療情報ネットを分けて確認する",
+  "title": "森町にはどんな医療機関がありますか｜静岡県森町Q&A",
+  "description": "公立森町病院のほか、岩谷医院・西村医院・森の家クリニック・森町家庭医療クリニック・山崎医院などの診療所、宇藤歯科医院・仲町歯科医院など複数の歯科医院があります。詳細は森町公式ページで確認してください。",
+  "question": "森町にはどんな医療機関がありますか",
+  "answer": "公立森町病院のほか、岩谷医院・西村医院・森の家クリニック・森町家庭医療クリニック・山崎医院などの診療所、宇藤歯科医院・仲町歯科医院など複数の歯科医院があります。詳細は森町公式ページで確認してください。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "健康・医療",
+  "icon": "🏥",
+  "priority": "P1",
+  "context": "森町とその周辺で医療機関を探す",
+  "keyword": "森町 病院 診療所",
+  "needs": [
+   "近くの病院を探したい",
+   "何科にかかる"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/3/834.html",
+    "label": "病気になったとき／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/morimachi_hospital/5810.html",
+    "label": "公立森町病院ホームページ／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 61,
+  "href": "/questions/health-medical-health-checkups/",
+  "slug": "health-medical-health-checkups",
+  "parent_href": "/life/health-medical/health-checkups/",
+  "parent_title": "森町の健康診断とがん検診は、総合検診・特定健診の受診券と対象条件を先に確認する",
+  "title": "総合検診と特定健診は両方受けられますか｜静岡県森町Q&A",
+  "description": "対象条件を満たしていればどちらも受けられます。総合検診は20歳以上、特定健診は国保加入の40〜74歳が対象です。窓口が異なるため、詳細は総合検診の案内と特定健診の案内をそれぞれ確認してください。",
+  "question": "総合検診と特定健診は両方受けられますか",
+  "answer": "対象条件を満たしていればどちらも受けられます。総合検診は20歳以上、特定健診は国保加入の40〜74歳が対象です。窓口が異なるため、詳細は総合検診の案内と特定健診の案内をそれぞれ確認してください。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "健康・医療",
+  "icon": "🏥",
+  "priority": "P1",
+  "context": "受けられる健診・検診を選ぶ",
+  "keyword": "森町 健康診断 検診",
+  "needs": [
+   "健診を受けたい",
+   "受診券が届いた"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/2/821.html",
+    "label": "令和7年度森町健康診査（総合検診）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/5713.html",
+    "label": "国民健康保険特定健診について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 62,
+  "href": "/questions/health-medical-vaccinations/",
+  "slug": "health-medical-vaccinations",
+  "parent_href": "/life/health-medical/vaccinations/",
+  "parent_title": "森町の予防接種は、子どもとおとなで受け方と助成が分かれる",
+  "title": "予防接種の助成にはどんな種類がありますか｜静岡県森町Q&A",
+  "description": "高齢者肺炎球菌予防接種の助成と、風しん予防接種費用助成があります。対象年齢・期間・自己負担額がそれぞれ異なるため、森町公式ページで確認してください。",
+  "question": "予防接種の助成にはどんな種類がありますか",
+  "answer": "高齢者肺炎球菌予防接種の助成と、風しん予防接種費用助成があります。対象年齢・期間・自己負担額がそれぞれ異なるため、森町公式ページで確認してください。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "健康・医療",
+  "icon": "🏥",
+  "priority": "P1",
+  "context": "自分・家族が受ける予防接種を選ぶ",
+  "keyword": "森町 予防接種",
+  "needs": [
+   "予防接種を受けたい",
+   "対象になるか知りたい"
+  ],
+  "audience": [
+   "住民",
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html",
+    "label": "風しん予防接種の費用を助成します／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html",
+    "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 63,
+  "href": "/questions/living-soon-disaster-risk/",
+  "slug": "living-soon-disaster-risk",
+  "parent_href": "/life/living-soon/disaster-risk/",
+  "parent_title": "引っ越す前に、候補地が洪水・土砂災害に強い場所か確かめる。",
+  "title": "候補地のハザードマップはどこで見られますか｜静岡県森町Q&A",
+  "description": "森町防災ハザードマップ（森町公式）のページから、森町全図と地区別（三倉・天方・森・一宮・園田・飯田）のPDFをダウンロードできます。静岡県地理情報システムでも同内容を確認できます。",
+  "question": "候補地のハザードマップはどこで見られますか",
+  "answer": "森町防災ハザードマップ（森町公式）のページから、森町全図と地区別（三倉・天方・森・一宮・園田・飯田）のPDFをダウンロードできます。静岡県地理情報システムでも同内容を確認できます。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "これから暮らす",
+  "icon": "🏡",
+  "priority": "P1",
+  "context": "住む候補地の災害リスクを確かめる",
+  "keyword": "森町 ハザードマップ 土地",
+  "needs": [
+   "浸水しないか知りたい",
+   "土砂災害の危険はあるか"
+  ],
+  "audience": [
+   "移住検討者",
+   "住宅取得者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/1255.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/4528.html",
+    "label": "ため池ハザードマップ／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 64,
+  "href": "/questions/troubles-consult-child-consultation/",
+  "slug": "troubles-consult-child-consultation",
+  "parent_href": "/life/troubles-consult/child-consultation/",
+  "parent_title": "子どものことで不安なときは、森町「こども家庭センター」へ相談する。",
+  "title": "子育てで不安なことがあります。誰に相談すればいいですか｜静岡県森町Q&A",
+  "description": "健康こども課 こども家庭係（こども家庭センター）に相談してください。妊娠期から学齢期まで幅広く対応しています。",
+  "question": "子育てで不安なことがあります。誰に相談すればいいですか",
+  "answer": "健康こども課 こども家庭係（こども家庭センター）に相談してください。妊娠期から学齢期まで幅広く対応しています。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "困った・相談したい",
+  "icon": "🧩",
+  "priority": "P1",
+  "context": "子どものことの不安を相談する",
+  "keyword": "森町 こども家庭センター",
+  "needs": [
+   "子どものことで不安"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/837.html",
+    "label": "森町こども家庭センターをご利用ください。／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/4543.html",
+    "label": "ヤングケアラーについて／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 65,
+  "href": "/questions/troubles-consult-legal-general-consultation/",
+  "slug": "troubles-consult-legal-general-consultation",
+  "parent_href": "/life/troubles-consult/legal-general-consultation/",
+  "parent_title": "誰に相談すればいいか分からない悩みは、森町「暮らしの相談窓口」（無料法律相談等）へつなぐ。",
+  "title": "相続や離婚のことを弁護士に相談したいのですが｜静岡県森町Q&A",
+  "description": "森町の無料法律相談（予約制・先着順）が利用できます。住民生活課 住民係に予約方法を確認してください。",
+  "question": "相続や離婚のことを弁護士に相談したいのですが",
+  "answer": "森町の無料法律相談（予約制・先着順）が利用できます。住民生活課 住民係に予約方法を確認してください。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "困った・相談したい",
+  "icon": "🧩",
+  "priority": "P1",
+  "context": "無料法律相談など専門相談につなぐ",
+  "keyword": "森町 無料法律相談",
+  "needs": [
+   "弁護士に相談したい",
+   "どこに相談すれば"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/3/567.html",
+    "label": "暮らしの相談窓口／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/1066.html",
+    "label": "森町町民生活センター／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 66,
+  "href": "/questions/emergency-disaster-certificates-procedures/",
+  "slug": "emergency-disaster-certificates-procedures",
+  "parent_href": "/life/emergency/disaster-certificates-procedures/",
+  "parent_title": "災害にあった後、何から動くか。森町でり災証明書と税の減免手続きを順番に整理する。",
+  "title": "り災証明書はどこで発行してもらえますか｜静岡県森町Q&A",
+  "description": "り災証明書（罹災証明書・被災証明書）の発行窓口についての詳細は、税務課 町民税係（電話 0538-85-6308）にお問い合わせください。減免申請とあわせて確認するとスムーズです。",
+  "question": "り災証明書はどこで発行してもらえますか",
+  "answer": "り災証明書（罹災証明書・被災証明書）の発行窓口についての詳細は、税務課 町民税係（電話 0538-85-6308）にお問い合わせください。減免申請とあわせて確認するとスムーズです。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "もしもの時",
+  "icon": "⚠️",
+  "priority": "P1",
+  "context": "り災証明書と税の減免を申請する",
+  "keyword": "森町 り災証明書",
+  "needs": [
+   "家が被害を受けた",
+   "被災後の手続き"
+  ],
+  "audience": [
+   "被災者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/1/4711.html",
+    "label": "災害による被害を受けた場合の町・県民税、国民健康保険税の軽減免除について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 67,
+  "href": "/questions/family-grow-child-allowance/",
+  "slug": "family-grow-child-allowance",
+  "parent_href": "/life/family-grow/child-allowance/",
+  "parent_title": "児童手当を、出生・転入から15日以内に確実に申請する。",
+  "title": "申請が遅れるとどうなりますか｜静岡県森町Q&A",
+  "description": "原則として申請が遅れた月分は遡って支給されません。出生・転入から15日以内という期限を必ず守り、早めに健康こども課こども家庭係（0538-86-6330）で手続きしてください。",
+  "question": "申請が遅れるとどうなりますか",
+  "answer": "原則として申請が遅れた月分は遡って支給されません。出生・転入から15日以内という期限を必ず守り、早めに健康こども課こども家庭係（0538-86-6330）で手続きしてください。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P0",
+  "context": "児童手当とこども医療費助成を期限内に申請する",
+  "keyword": "森町 児童手当 申請",
+  "needs": [
+   "児童手当をもらいたい",
+   "医療費助成の手続き",
+   "15日以内の申請",
+   "医療費の助成を受けたい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/5316.html",
+    "label": "児童手当について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 68,
+  "href": "/questions/family-grow-child-vaccination/",
+  "slug": "family-grow-child-vaccination",
+  "parent_href": "/life/family-grow/child-vaccination/",
+  "parent_title": "子どもの予防接種は、母子健康手帳と予診票をそろえて医療機関で受ける。",
+  "title": "予診票はどこでもらえますか｜静岡県森町Q&A",
+  "description": "「予防接種のしおり」の交付時にまとめて綴じられています。交付の受付は毎月9時15分から9時30分で、所要時間は約2時間です。健康こども課こども家庭係（0538-86-6330）にお問い合わせください。",
+  "question": "予診票はどこでもらえますか",
+  "answer": "「予防接種のしおり」の交付時にまとめて綴じられています。交付の受付は毎月9時15分から9時30分で、所要時間は約2時間です。健康こども課こども家庭係（0538-86-6330）にお問い合わせください。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P0",
+  "context": "子どもの予防接種を受ける",
+  "keyword": "森町 予防接種 子ども",
+  "needs": [
+   "予診票がほしい",
+   "接種はどこで受ける"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4813.html",
+    "label": "予防接種／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 69,
+  "href": "/questions/family-grow-childbirth/",
+  "slug": "family-grow-childbirth",
+  "parent_href": "/life/family-grow/childbirth/",
+  "parent_title": "赤ちゃんが生まれたら、出生届・児童手当・新生児出生通知をまとめて進める。",
+  "title": "出生届はどこに出せばいいですか｜静岡県森町Q&A",
+  "description": "父母の本籍地・所在地、または子の出生地のいずれかの役場・役所に届け出られます。森町での窓口は住民生活課住民係（電話0538-85-6312）です。母子健康手帳を持参し、届出済証明を受けてください。",
+  "question": "出生届はどこに出せばいいですか",
+  "answer": "父母の本籍地・所在地、または子の出生地のいずれかの役場・役所に届け出られます。森町での窓口は住民生活課住民係（電話0538-85-6312）です。母子健康手帳を持参し、届出済証明を受けてください。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P0",
+  "context": "出生届と出産後の手続きをまとめて進める",
+  "keyword": "森町 出生届",
+  "needs": [
+   "赤ちゃんが生まれた",
+   "出産後の手続き"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/morikko_20_1.html",
+    "label": "赤ちゃんが生まれたら（出生時の手続き）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 70,
+  "href": "/questions/family-grow-pregnancy/",
+  "slug": "family-grow-pregnancy",
+  "parent_href": "/life/family-grow/pregnancy/",
+  "parent_title": "妊娠がわかったら、まず妊娠届を出して母子健康手帳を受け取る。",
+  "title": "妊娠届はいつ出せばいいですか｜静岡県森町Q&A",
+  "description": "医療機関で妊娠の診断を受け、妊娠届出書を受け取ったらできるだけ早めに健康こども課こども家庭係へ届け出てください。手帳交付にはご本人の来庁が基本です。",
+  "question": "妊娠届はいつ出せばいいですか",
+  "answer": "医療機関で妊娠の診断を受け、妊娠届出書を受け取ったらできるだけ早めに健康こども課こども家庭係へ届け出てください。手帳交付にはご本人の来庁が基本です。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P0",
+  "context": "妊娠届を出して母子健康手帳を受け取る",
+  "keyword": "森町 妊娠届 母子手帳",
+  "needs": [
+   "妊娠が分かった",
+   "母子手帳はどこでもらう"
+  ],
+  "audience": [
+   "妊婦"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4811.html",
+    "label": "妊娠したら(母子健康手帳の交付)／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 71,
+  "href": "/questions/education-after-school-club/",
+  "slug": "education-after-school-club",
+  "parent_href": "/life/education/after-school-club/",
+  "parent_title": "森町の放課後児童クラブは、対象学年と申請時期（例年9月）を先に確認する",
+  "title": "申込みを忘れたらどうなりますか｜静岡県森町Q&A",
+  "description": "受付期間は例年9月中旬から10月中旬の1か月程度に限られます。期間を過ぎても相談自体はできる場合があるため、まずは健康こども課幼稚園保育園係（0538-86-6300）に問い合わせてください。",
+  "question": "申込みを忘れたらどうなりますか",
+  "answer": "受付期間は例年9月中旬から10月中旬の1か月程度に限られます。期間を過ぎても相談自体はできる場合があるため、まずは健康こども課幼稚園保育園係（0538-86-6300）に問い合わせてください。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "学ぶ・育つ",
+  "icon": "🎒",
+  "priority": "P1",
+  "context": "放課後児童クラブの対象と申込時期を確認する",
+  "keyword": "森町 放課後児童クラブ 学童",
+  "needs": [
+   "放課後の預け先がない",
+   "学童に入れたい",
+   "申込みはいつ"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/houkagozidou/index.html",
+    "label": "放課後児童クラブ／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6230.html",
+    "label": "令和8年度放課後児童クラブの利用申込みについて／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6616.html",
+    "label": "放課後児童クラブ利用料の変更について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 72,
+  "href": "/questions/family-grow-parenting-support/",
+  "slug": "family-grow-parenting-support",
+  "parent_href": "/life/family-grow/parenting-support/",
+  "parent_title": "子育てで迷ったら、こども家庭センターと児童館・子育て応援アプリを使い分ける。",
+  "title": "何を相談したいか、まだはっきりしていません｜静岡県森町Q&A",
+  "description": "その場合はこども家庭センター（健康こども課こども家庭係内、電話0538-86-6330）へご相談ください。妊娠期から学齢期以降まで幅広く対応しており、内容に応じて専門職やサービスを紹介してもらえます。",
+  "question": "何を相談したいか、まだはっきりしていません",
+  "answer": "その場合はこども家庭センター（健康こども課こども家庭係内、電話0538-86-6330）へご相談ください。妊娠期から学齢期以降まで幅広く対応しており、内容に応じて専門職やサービスを紹介してもらえます。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P1",
+  "context": "子育ての悩みを相談できる場所を見つける",
+  "keyword": "森町 子育て相談",
+  "needs": [
+   "子育てがつらい",
+   "誰かに相談したい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/837.html",
+    "label": "森町こども家庭センターをご利用ください。／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/1068.html",
+    "label": "森町児童館・森町子育て支援センター／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/3/4881.html",
+    "label": "もりまち子育て応援アプリ／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 73,
+  "href": "/questions/education-educational-consulting/",
+  "slug": "education-educational-consulting",
+  "parent_href": "/life/education/educational-consulting/",
+  "parent_title": "森町の教育相談は、教育支援センター「わかば」と学校教育課へ困りごとを一文で整理してから相談する",
+  "title": "わかばはどんな場所ですか｜静岡県森町Q&A",
+  "description": "学校への登校が難しい児童生徒を対象に、社会生活への自立に向けた学習・諸活動の援助や相談を行う場所です。月〜金の午前9時〜午後3時（水曜のみ正午まで）に開いています。",
+  "question": "わかばはどんな場所ですか",
+  "answer": "学校への登校が難しい児童生徒を対象に、社会生活への自立に向けた学習・諸活動の援助や相談を行う場所です。月〜金の午前9時〜午後3時（水曜のみ正午まで）に開いています。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "学ぶ・育つ",
+  "icon": "🎒",
+  "priority": "P1",
+  "context": "学校に行きづらい・就学の不安を相談する",
+  "keyword": "森町 教育相談 不登校",
+  "needs": [
+   "学校に行きたがらない",
+   "就学が不安",
+   "誰に相談すれば",
+   "就学時健診が心配"
+  ],
+  "audience": [
+   "保護者",
+   "児童生徒"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/gakkokyoikukakari/5312.html",
+    "label": "森町教育支援センター「わかば」／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/index.html",
+    "label": "学校教育課／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 74,
+  "href": "/questions/education-school-district-transfer/",
+  "slug": "education-school-district-transfer",
+  "parent_href": "/life/education/school-district-transfer/",
+  "parent_title": "転校は、住所異動の届出と通学中の学校での手続きをまとめて確認する",
+  "title": "転出届と学校の手続き、どちらを先にすればいいですか｜静岡県森町Q&A",
+  "description": "住所異動の転出届（住民生活課住民係）と、通学中の学校での転校手続きは別々に必要です。順番に迷う場合は両方の窓口に確認しておくと安心です。",
+  "question": "転出届と学校の手続き、どちらを先にすればいいですか",
+  "answer": "住所異動の転出届（住民生活課住民係）と、通学中の学校での転校手続きは別々に必要です。順番に迷う場合は両方の窓口に確認しておくと安心です。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "学ぶ・育つ",
+  "icon": "🎒",
+  "priority": "P1",
+  "context": "転校の手続きを進める",
+  "keyword": "森町 転校 手続き",
+  "needs": [
+   "転校することになった"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html",
+    "label": "転出届／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/index.html",
+    "label": "小・中学校／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 75,
+  "href": "/questions/education-school-zones/",
+  "slug": "education-school-zones",
+  "parent_href": "/life/education/school-zones/",
+  "parent_title": "通学区は、住所と小中学校情報をセットで学校教育課に確認する",
+  "title": "通学区域の一覧はどこで見られますか｜静岡県森町Q&A",
+  "description": "町サイト内で一覧化された専用ページは見つかっていません。住所ごとの通学区域は学校教育課（0538-85-1112）に問い合わせて確認してください。",
+  "question": "通学区域の一覧はどこで見られますか",
+  "answer": "町サイト内で一覧化された専用ページは見つかっていません。住所ごとの通学区域は学校教育課（0538-85-1112）に問い合わせて確認してください。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "学ぶ・育つ",
+  "icon": "🎒",
+  "priority": "P1",
+  "context": "住所からどの小中学校に通うか確かめる",
+  "keyword": "森町 通学区域",
+  "needs": [
+   "どの学校の学区か",
+   "指定校を変更したい",
+   "どの小学校に通う"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/index.html",
+    "label": "小・中学校／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4787.html",
+    "label": "小学校・中学校／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 76,
+  "href": "/questions/family-grow-infant-health-check/",
+  "slug": "family-grow-infant-health-check",
+  "parent_href": "/life/family-grow/infant-health-check/",
+  "parent_title": "乳幼児健診の案内を見落とさず、1か月・4か月・10か月・1歳6か月・3歳児で確認する。",
+  "title": "健診の予約はどうすればいいですか｜静岡県森町Q&A",
+  "description": "1か月・4か月・10か月児健診は、保護者が医療機関へ直接予約します。1歳6か月児・3歳児健診は森町保健福祉センターでの実施のため、案内に沿って日程を確認してください。",
+  "question": "健診の予約はどうすればいいですか",
+  "answer": "1か月・4か月・10か月児健診は、保護者が医療機関へ直接予約します。1歳6か月児・3歳児健診は森町保健福祉センターでの実施のため、案内に沿って日程を確認してください。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P1",
+  "context": "乳幼児健診の時期と会場を確認する",
+  "keyword": "森町 乳幼児健診",
+  "needs": [
+   "健診はいつ",
+   "案内が来ない"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4792.html",
+    "label": "乳幼児の健診・相談（1か月、4か月、10か月）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4803.html",
+    "label": "乳幼児の健診・相談（1歳6か月児・3歳児健康診査）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 77,
+  "href": "/questions/family-grow-marriage/",
+  "slug": "family-grow-marriage",
+  "parent_href": "/life/family-grow/marriage/",
+  "parent_title": "婚姻届を出す日と、結婚新生活支援補助金など結婚後の手続きを先に整理する。",
+  "title": "婚姻届を出すのに必要なものは何ですか｜静岡県森町Q&A",
+  "description": "本人確認書類などが必要です。ページによって詳細な持ち物の記載が少ないため、事前に住民生活課住民係（0538-85-6312）へ電話で確認してから来庁することをおすすめします。",
+  "question": "婚姻届を出すのに必要なものは何ですか",
+  "answer": "本人確認書類などが必要です。ページによって詳細な持ち物の記載が少ないため、事前に住民生活課住民係（0538-85-6312）へ電話で確認してから来庁することをおすすめします。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P1",
+  "context": "婚姻届の提出と結婚後の手続きを進める",
+  "keyword": "森町 婚姻届",
+  "needs": [
+   "結婚することになった",
+   "婚姻届はどこに出す"
+  ],
+  "audience": [
+   "婚姻当事者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/4392.html",
+    "label": "結婚新生活支援補助金／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2/2893.html",
+    "label": "戸籍・住民異動に関する届出／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 78,
+  "href": "/questions/family-grow-nursery-childcare/",
+  "slug": "family-grow-nursery-childcare",
+  "parent_href": "/life/family-grow/nursery-childcare/",
+  "parent_title": "保育園の入所申込みと病児・病後児保育を、必要なタイミングから確認する。",
+  "title": "保育園に入れなかったらどうなりますか｜静岡県森町Q&A",
+  "description": "希望者が多い場合は必要性の高い順に決定されるため、入所できないこともあります。まずは健康こども課幼稚園保育園係（0538-86-6300）に相談し、他の選択肢もあわせて確認してください。",
+  "question": "保育園に入れなかったらどうなりますか",
+  "answer": "希望者が多い場合は必要性の高い順に決定されるため、入所できないこともあります。まずは健康こども課幼稚園保育園係（0538-86-6300）に相談し、他の選択肢もあわせて確認してください。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P1",
+  "context": "保育園の入所申込みと病児保育を利用する",
+  "keyword": "森町 保育園 申込み",
+  "needs": [
+   "入所の申込み方法",
+   "子どもが熱を出して預けたい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4785.html",
+    "label": "幼稚園・保育園／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kosodateshien_sodammadoguchi/3111.html",
+    "label": "病児・病後児保育事業について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 79,
+  "href": "/questions/family-grow-single-parent-support/",
+  "slug": "family-grow-single-parent-support",
+  "parent_href": "/life/family-grow/single-parent-support/",
+  "parent_title": "ひとり親家庭の児童扶養手当・医療費助成を、最初に見る順番で整理する。",
+  "title": "児童扶養手当はいつ振り込まれますか｜静岡県森町Q&A",
+  "description": "1月・3月・5月・7月・9月・11月の11日に支払われます。審査を経て承認されると、申請の翌月分から支給が始まります。",
+  "question": "児童扶養手当はいつ振り込まれますか",
+  "answer": "1月・3月・5月・7月・9月・11月の11日に支払われます。審査を経て承認されると、申請の翌月分から支給が始まります。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P1",
+  "context": "ひとり親家庭の手当と助成を受ける",
+  "keyword": "森町 児童扶養手当",
+  "needs": [
+   "ひとり親の支援を知りたい",
+   "離婚後の手当"
+  ],
+  "audience": [
+   "ひとり親"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3034.html",
+    "label": "ひとり親家庭等医療費助成事業について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3031.html",
+    "label": "児童扶養手当について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 80,
+  "href": "/questions/education-school-expense-support/",
+  "slug": "education-school-expense-support",
+  "parent_href": "/life/education/school-expense-support/",
+  "parent_title": "学校費用の不安は、就学援助制度と学校教育課への相談を先に確認する",
+  "title": "就学援助制度では何が支給されますか｜静岡県森町Q&A",
+  "description": "学用品費・通学用品費・新入学児童生徒学用品費・校外活動費・修学旅行費・通学費・給食費・医療費等が対象として想定されています。詳しい支給額や条件は学校教育課に確認してください。",
+  "question": "就学援助制度では何が支給されますか",
+  "answer": "学用品費・通学用品費・新入学児童生徒学用品費・校外活動費・修学旅行費・通学費・給食費・医療費等が対象として想定されています。詳しい支給額や条件は学校教育課に確認してください。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "学ぶ・育つ",
+  "icon": "🎒",
+  "priority": "P1",
+  "context": "学校費用の負担を軽くする制度を使う",
+  "keyword": "森町 就学援助",
+  "needs": [
+   "給食費が払えない",
+   "学用品の費用がつらい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/index.html",
+    "label": "学校教育課／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 81,
+  "href": "/questions/family-grow-developmental-support/",
+  "slug": "family-grow-developmental-support",
+  "parent_href": "/life/family-grow/developmental-support/",
+  "parent_title": "子どもの発達が気になったら、子ども相談・親子療育教室・ことばの教室から選ぶ。",
+  "title": "どこに相談すればいいかわかりません｜静岡県森町Q&A",
+  "description": "まずは健康こども課こども家庭係（0538-86-6330）にお電話ください。お子さんの年齢や困りごとに応じて、子ども相談・親子療育教室・ことばの教室のいずれが合うか案内してもらえます。",
+  "question": "どこに相談すればいいかわかりません",
+  "answer": "まずは健康こども課こども家庭係（0538-86-6330）にお電話ください。お子さんの年齢や困りごとに応じて、子ども相談・親子療育教室・ことばの教室のいずれが合うか案内してもらえます。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P1",
+  "context": "子どもの発達の心配を相談する",
+  "keyword": "森町 発達相談",
+  "needs": [
+   "ことばが遅い気がする",
+   "発達が気になる"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4801.html",
+    "label": "幼児の発達支援／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 82,
+  "href": "/questions/family-grow-nursery-school/",
+  "slug": "family-grow-nursery-school",
+  "parent_href": "/life/family-grow/nursery-school/",
+  "parent_title": "幼稚園・保育園を、子どもに合う入口から選ぶ。",
+  "title": "幼稚園と保育園、どう選べばいいですか｜静岡県森町Q&A",
+  "description": "教育を中心とした就学前の時間を望むなら幼稚園、共働きなどで日中長時間の保育が必要なら保育園・小規模保育所が選択肢になります。迷う場合は健康こども課幼稚園保育園係（0538-86-6300）にご相談ください。",
+  "question": "幼稚園と保育園、どう選べばいいですか",
+  "answer": "教育を中心とした就学前の時間を望むなら幼稚園、共働きなどで日中長時間の保育が必要なら保育園・小規模保育所が選択肢になります。迷う場合は健康こども課幼稚園保育園係（0538-86-6300）にご相談ください。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P1",
+  "context": "幼稚園・保育園の選び方を知る",
+  "keyword": "森町 保育園 幼稚園",
+  "needs": [
+   "どこに預けられる",
+   "園を選びたい"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4785.html",
+    "label": "幼稚園・保育園／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 83,
+  "href": "/questions/family-grow-overview/",
+  "slug": "family-grow-overview",
+  "parent_href": "/life/family-grow/",
+  "parent_title": "👶 家族が増える",
+  "title": "何から手を付ければいいですか｜静岡県森町Q&A",
+  "description": "妊娠がわかった直後なら妊娠届と母子健康手帳、出産後なら赤ちゃんが生まれたときの手続きから確認するのがおすすめです。多くの手続きは健康こども課こども家庭係（0538-86-6330）が窓口です。",
+  "question": "何から手を付ければいいですか",
+  "answer": "妊娠がわかった直後なら妊娠届と母子健康手帳、出産後なら赤ちゃんが生まれたときの手続きから確認するのがおすすめです。多くの手続きは健康こども課こども家庭係（0538-86-6330）が窓口です。",
+  "hub": "family",
+  "hub_label": "子ども・家族",
+  "category": "家族が増える",
+  "icon": "👶",
+  "priority": "P1",
+  "context": "結婚・妊娠・出産・子育ての手続きを一覧で把握する",
+  "keyword": "森町 子育て 手続き",
+  "needs": [
+   "子どものことで手続きがある"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/",
+    "label": "森町公式サイト",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 84,
+  "href": "/questions/parents-care-care-started/",
+  "slug": "parents-care-care-started",
+  "parent_href": "/life/parents-care/care-started/",
+  "parent_title": "親の介護が急に始まったら、森町ではまずケアプラン作成の依頼先を確認する",
+  "title": "認定結果が届いたら何をすればいいですか｜静岡県森町Q&A",
+  "description": "要支援1・2なら地域包括支援センター係、要介護1〜5なら居宅介護支援事業所のケアマネジャーに連絡し、ケアプラン作成を依頼します。迷う場合は地域包括支援センターにまず相談してください。",
+  "question": "認定結果が届いたら何をすればいいですか",
+  "answer": "要支援1・2なら地域包括支援センター係、要介護1〜5なら居宅介護支援事業所のケアマネジャーに連絡し、ケアプラン作成を依頼します。迷う場合は地域包括支援センターにまず相談してください。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "category": "親のこと",
+  "icon": "👵",
+  "priority": "P0",
+  "context": "認定後にケアプランの作成を依頼する",
+  "keyword": "森町 ケアプラン ケアマネ",
+  "needs": [
+   "認定が出た次は何",
+   "ケアマネを探したい"
+  ],
+  "audience": [
+   "家族",
+   "本人"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/1/4897.html",
+    "label": "ケアプランの作成について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html",
+    "label": "高齢者のための相談窓口／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 85,
+  "href": "/questions/parents-care-dementia-consultation/",
+  "slug": "parents-care-dementia-consultation",
+  "parent_href": "/life/parents-care/dementia-consultation/",
+  "parent_title": "親が認知症かもしれないとき、森町の地域包括支援センター係への相談から始める",
+  "title": "もの忘れが心配なとき、まず何をすればいいですか｜静岡県森町Q&A",
+  "description": "「気づきチェックリスト」で状態を確認し、必要に応じて「もの忘れ相談シート」を使って福祉課地域包括支援センター係（0538-85-6341）に相談する流れになっています。",
+  "question": "もの忘れが心配なとき、まず何をすればいいですか",
+  "answer": "「気づきチェックリスト」で状態を確認し、必要に応じて「もの忘れ相談シート」を使って福祉課地域包括支援センター係（0538-85-6341）に相談する流れになっています。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "category": "親のこと",
+  "icon": "👵",
+  "priority": "P0",
+  "context": "認知症かもしれない親のことを相談する",
+  "keyword": "森町 認知症 相談",
+  "needs": [
+   "物忘れがひどい",
+   "認知症かもしれない"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4002.html",
+    "label": "高齢になっても住みやすい森町を目指して（地域包括ケアシステムの推進に向けて）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 86,
+  "href": "/questions/parents-care-long-term-care-insurance/",
+  "slug": "parents-care-long-term-care-insurance",
+  "parent_href": "/life/parents-care/long-term-care-insurance/",
+  "parent_title": "森町で親の介護が始まったら、相談・申請・認定後の順に進める",
+  "title": "介護保険サービスを使うにはまず何が必要ですか｜静岡県森町Q&A",
+  "description": "要介護・要支援認定の申請が必要です。詳しくは要介護認定の申請窓口のページを確認してください。",
+  "question": "介護保険サービスを使うにはまず何が必要ですか",
+  "answer": "要介護・要支援認定の申請が必要です。詳しくは要介護認定の申請窓口のページを確認してください。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "category": "親のこと",
+  "icon": "👵",
+  "priority": "P0",
+  "context": "親の介護が始まったときの流れ全体をつかむ",
+  "keyword": "森町 介護 始まったら",
+  "needs": [
+   "親に介護が必要になった",
+   "何から始めればいい",
+   "要介護認定を受けたい",
+   "認定を申請したい",
+   "結果はいつ届く"
+  ],
+  "audience": [
+   "家族",
+   "本人"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kaigohoken/4204.html",
+    "label": "要介護認定申請・介護保険サービスの利用等について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/4189.html",
+    "label": "要介護認定申請・介護保険サービスの利用等について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 87,
+  "href": "/questions/parents-care-community-support-center/",
+  "slug": "parents-care-community-support-center",
+  "parent_href": "/life/parents-care/community-support-center/",
+  "parent_title": "介護の悩みは、森町直営の地域包括支援センターにまず相談する",
+  "title": "地域包括支援センターとは何をするところですか｜静岡県森町Q&A",
+  "description": "介護・福祉・健康・医療などさまざまな面から高齢者やその家族を支える総合相談窓口です。森町では福祉課地域包括支援センター係がこの役割を担っています。",
+  "question": "地域包括支援センターとは何をするところですか",
+  "answer": "介護・福祉・健康・医療などさまざまな面から高齢者やその家族を支える総合相談窓口です。森町では福祉課地域包括支援センター係がこの役割を担っています。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "category": "親のこと",
+  "icon": "👵",
+  "priority": "P0",
+  "context": "介護の困りごとをまず相談する窓口を知る",
+  "keyword": "森町 地域包括支援センター",
+  "needs": [
+   "どこに相談すればいい",
+   "介護で困っている",
+   "介護で困った"
+  ],
+  "audience": [
+   "家族",
+   "本人"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 88,
+  "href": "/questions/parents-care-overview/",
+  "slug": "parents-care-overview",
+  "parent_href": "/life/parents-care/",
+  "parent_title": "👵 親のこと",
+  "title": "親の介護で最初に相談すべき窓口はどこですか｜静岡県森町Q&A",
+  "description": "福祉課地域包括支援センター係（0538-85-6341）です。生活・健康・財産管理などどんな内容でもまず相談でき、必要な制度や窓口を案内してもらえます。",
+  "question": "親の介護で最初に相談すべき窓口はどこですか",
+  "answer": "福祉課地域包括支援センター係（0538-85-6341）です。生活・健康・財産管理などどんな内容でもまず相談でき、必要な制度や窓口を案内してもらえます。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "category": "親のこと",
+  "icon": "👵",
+  "priority": "P0",
+  "context": "親の介護に関する相談先と手続きを一覧で把握する",
+  "keyword": "森町 介護",
+  "needs": [
+   "親の介護が心配"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/index.html",
+    "label": "要介護認定申請・介護保険サービスの利用について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "確認中"
+ },
+ {
+  "number": 89,
+  "href": "/questions/parents-care-adult-guardianship/",
+  "slug": "parents-care-adult-guardianship",
+  "parent_href": "/life/parents-care/adult-guardianship/",
+  "parent_title": "親の判断能力が落ちても、森町独自の助成で財産と契約を守る備えをする",
+  "title": "成年後見制度とはどんな制度ですか｜静岡県森町Q&A",
+  "description": "判断能力が十分でない方の財産管理や契約行為を、家庭裁判所が選ぶ後見人等が支援する制度です。詳しい制度の仕組みは森町公式ページで確認してください。",
+  "question": "成年後見制度とはどんな制度ですか",
+  "answer": "判断能力が十分でない方の財産管理や契約行為を、家庭裁判所が選ぶ後見人等が支援する制度です。詳しい制度の仕組みは森町公式ページで確認してください。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "category": "親のこと",
+  "icon": "👵",
+  "priority": "P1",
+  "context": "判断能力が落ちた親の財産と契約を守る",
+  "keyword": "森町 成年後見",
+  "needs": [
+   "契約ができなくなった",
+   "財産管理が心配"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html",
+    "label": "高齢者の在宅福祉サービスについて／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/index.html",
+    "label": "地域包括支援センター係／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 90,
+  "href": "/questions/parents-care-check-parents/",
+  "slug": "parents-care-check-parents",
+  "parent_href": "/life/parents-care/check-parents/",
+  "parent_title": "離れて暮らす親が心配なとき、森町の地域包括支援センター係にまず相談する",
+  "title": "離れて暮らしていても相談できますか｜静岡県森町Q&A",
+  "description": "できます。地域包括支援センター係（0538-85-6341）は本人だけでなく家族からの相談も受け付けています。心配な様子があれば電話してみてください。",
+  "question": "離れて暮らしていても相談できますか",
+  "answer": "できます。地域包括支援センター係（0538-85-6341）は本人だけでなく家族からの相談も受け付けています。心配な様子があれば電話してみてください。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "category": "親のこと",
+  "icon": "👵",
+  "priority": "P1",
+  "context": "離れて暮らす親の様子を見守る方法を知る",
+  "keyword": "森町 高齢者 見守り",
+  "needs": [
+   "遠くの親が心配",
+   "一人暮らしの親"
+  ],
+  "audience": [
+   "別居の家族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html",
+    "label": "高齢者のための相談窓口／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html",
+    "label": "高齢者の在宅福祉サービスについて／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 91,
+  "href": "/questions/parents-care-find-nursing-home/",
+  "slug": "parents-care-find-nursing-home",
+  "parent_href": "/life/parents-care/find-nursing-home/",
+  "parent_title": "森町の介護施設探しは、介護サービス情報公表システムで種類から選ぶ",
+  "title": "森町独自の施設一覧はありますか｜静岡県森町Q&A",
+  "description": "ありません。森町は厚生労働省の「介護サービス情報公表システム」（kaigokensaku.mhlw.go.jp）を案内しており、そこから県内・全国の介護サービス事業所・施設を検索する形になります。",
+  "question": "森町独自の施設一覧はありますか",
+  "answer": "ありません。森町は厚生労働省の「介護サービス情報公表システム」（kaigokensaku.mhlw.go.jp）を案内しており、そこから県内・全国の介護サービス事業所・施設を検索する形になります。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "category": "親のこと",
+  "icon": "👵",
+  "priority": "P1",
+  "context": "親が入る介護施設を探す",
+  "keyword": "森町 介護施設 探し方",
+  "needs": [
+   "施設に入れたい",
+   "どんな施設がある"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/2/4948.html",
+    "label": "介護サービス事業所の検索について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/5462.html",
+    "label": "森町高齢者保健福祉計画・第9期介護保険事業計画を策定しました／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 92,
+  "href": "/questions/parents-care-elderly-transportation/",
+  "slug": "parents-care-elderly-transportation",
+  "parent_href": "/life/parents-care/elderly-transportation/",
+  "parent_title": "通院・買い物の「足」に、森町の公共交通利用券助成事業を確認する",
+  "title": "通院の送迎をしてもらえるサービスですか｜静岡県森町Q&A",
+  "description": "いいえ、森町のこの事業は個別の送迎サービスではなく、路線バスやタクシーの利用券を購入する際の費用の一部を助成する仕組みです。購入は自分で行う必要があります。",
+  "question": "通院の送迎をしてもらえるサービスですか",
+  "answer": "いいえ、森町のこの事業は個別の送迎サービスではなく、路線バスやタクシーの利用券を購入する際の費用の一部を助成する仕組みです。購入は自分で行う必要があります。",
+  "hub": "care",
+  "hub_label": "親・介護",
+  "category": "親のこと",
+  "icon": "👵",
+  "priority": "P1",
+  "context": "高齢の親の通院・買い物の移動手段を確保する",
+  "keyword": "森町 公共交通利用券 高齢者",
+  "needs": [
+   "親が運転をやめた",
+   "通院の足がない",
+   "運転をやめたあと困る"
+  ],
+  "audience": [
+   "高齢者",
+   "家族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/8/2533.html",
+    "label": "森町公共交通利用券助成事業（対象：75歳以上の町民又は65歳以上の運転経歴証明書の交付を受けた町民）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 93,
+  "href": "/questions/play-out-facilities-library-parks/",
+  "slug": "play-out-facilities-library-parks",
+  "parent_href": "/life/play-out/facilities-library-parks/",
+  "parent_title": "森町の公共施設は、施設ガイドから目的別に探す",
+  "title": "施設の電話番号や住所はどこで確認できますか｜静岡県森町Q&A",
+  "description": "「主要施設・諸団体一覧」のページに、役場・図書館・体育館・保健福祉・消防警察など分野ごとに整理された電話番号・所在地が掲載されています。目的の施設名で探してみてください。",
+  "question": "施設の電話番号や住所はどこで確認できますか",
+  "answer": "「主要施設・諸団体一覧」のページに、役場・図書館・体育館・保健福祉・消防警察など分野ごとに整理された電話番号・所在地が掲載されています。目的の施設名で探してみてください。",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "category": "遊ぶ・使う・出かける",
+  "icon": "🌳",
+  "priority": "P2",
+  "context": "森町の公共施設を目的別に探す",
+  "keyword": "森町 公共施設",
+  "needs": [
+   "どんな施設がある"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1164.html",
+    "label": "主要施設・諸団体一覧／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html",
+    "label": "公共施設の予約情報確認について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 94,
+  "href": "/questions/play-out-find-parks/",
+  "slug": "play-out-find-parks",
+  "parent_href": "/life/play-out/find-parks/",
+  "parent_title": "森町の公園は、駐車場・遊具の有無など目的・年齢・アクセスで選ぶ",
+  "title": "どの公園に駐車場がありますか｜静岡県森町Q&A",
+  "description": "天宮公園や太田川親水公園には駐車場があります。一方で大門東公園には駐車場がないなど、公園ごとに設備が異なります。お出かけ前に公園マップで確認しておくと安心です。",
+  "question": "どの公園に駐車場がありますか",
+  "answer": "天宮公園や太田川親水公園には駐車場があります。一方で大門東公園には駐車場がないなど、公園ごとに設備が異なります。お出かけ前に公園マップで確認しておくと安心です。",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "category": "遊ぶ・使う・出かける",
+  "icon": "🌳",
+  "priority": "P2",
+  "context": "目的に合う公園・遊び場を選ぶ",
+  "keyword": "森町 公園",
+  "needs": [
+   "子どもを遊ばせたい",
+   "遊具のある公園",
+   "雨の日に遊べる場所"
+  ],
+  "audience": [
+   "家族"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/odekake/4808.html",
+    "label": "おでかけ／静岡県森町（子育て応援サイト「もりっこ」）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/27/morimachi_koen_map.pdf",
+    "label": "森町公園マップ（遠江総合高校作成）／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 95,
+  "href": "/questions/play-out-rent-public-facilities/",
+  "slug": "play-out-rent-public-facilities",
+  "parent_href": "/life/play-out/rent-public-facilities/",
+  "parent_title": "森町の公共施設を借りる前に、窓口ごとの予約方法と利用条件を確認する",
+  "title": "公共施設を借りたいときはどこに問い合わせればいいですか｜静岡県森町Q&A",
+  "description": "施設によって窓口が異なります。多くの施設は財政課契約管財係（0538-85-6306）ですが、体育施設は社会教育課社会体育係（0538-85-4191）、町民生活センターは住民生活課住民係（0538-85-6312）が窓口です。",
+  "question": "公共施設を借りたいときはどこに問い合わせればいいですか",
+  "answer": "施設によって窓口が異なります。多くの施設は財政課契約管財係（0538-85-6306）ですが、体育施設は社会教育課社会体育係（0538-85-4191）、町民生活センターは住民生活課住民係（0538-85-6312）が窓口です。",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "category": "遊ぶ・使う・出かける",
+  "icon": "🌳",
+  "priority": "P2",
+  "context": "公共施設を借りる手続きをする",
+  "keyword": "森町 施設 予約",
+  "needs": [
+   "会議室を借りたい"
+  ],
+  "audience": [
+   "住民",
+   "団体"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html",
+    "label": "公共施設の予約情報確認について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
+    "label": "施設の予約方法及び申請書ダウンロード／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 96,
+  "href": "/questions/play-out-visit-library/",
+  "slug": "play-out-visit-library",
+  "parent_href": "/life/play-out/visit-library/",
+  "parent_title": "森町立図書館へ行く前に、開館日・利用カード・場所を確認する",
+  "title": "開館時間と休館日を教えてください｜静岡県森町Q&A",
+  "description": "開館時間は9時～17時（水曜日のみ19時まで）です。休館日は月曜日（祝日の場合は翌日）、年末年始（12月28日～1月4日）、特別整理期間です。",
+  "question": "開館時間と休館日を教えてください",
+  "answer": "開館時間は9時～17時（水曜日のみ19時まで）です。休館日は月曜日（祝日の場合は翌日）、年末年始（12月28日～1月4日）、特別整理期間です。",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "category": "遊ぶ・使う・出かける",
+  "icon": "🌳",
+  "priority": "P2",
+  "context": "図書館の開館日と利用方法を確認する",
+  "keyword": "森町立図書館",
+  "needs": [
+   "図書館は開いている",
+   "本を借りたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html",
+    "label": "森町立図書館(施設案内)／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/index.html",
+    "label": "図書館／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 97,
+  "href": "/questions/play-out-overview/",
+  "slug": "play-out-overview",
+  "parent_href": "/life/play-out/",
+  "parent_title": "🌳 遊ぶ・使う・出かける",
+  "title": "森町でお出かけ先を探すには何を見ればいいですか｜静岡県森町Q&A",
+  "description": "公園・図書館・体育施設・児童館など目的別のページを見ると、それぞれの施設情報がまとまっています。子育て応援サイト「もりっこ」のおでかけページもあわせてチェックすると便利です。",
+  "question": "森町でお出かけ先を探すには何を見ればいいですか",
+  "answer": "公園・図書館・体育施設・児童館など目的別のページを見ると、それぞれの施設情報がまとまっています。子育て応援サイト「もりっこ」のおでかけページもあわせてチェックすると便利です。",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "category": "遊ぶ・使う・出かける",
+  "icon": "🌳",
+  "priority": "P2",
+  "context": "公園・図書館・公共施設の情報を一覧で把握する",
+  "keyword": "森町 施設",
+  "needs": [
+   "出かける場所を探したい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/odekake/4808.html",
+    "label": "おでかけ／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1164.html",
+    "label": "主要施設・諸団体一覧／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 98,
+  "href": "/questions/play-out-cultural-facilities/",
+  "slug": "play-out-cultural-facilities",
+  "parent_href": "/life/play-out/cultural-facilities/",
+  "parent_title": "森町の文化施設（ミキホール）は、開館日・予約・アクセスを先に確認する",
+  "title": "予約はいつから申し込めますか｜静岡県森町Q&A",
+  "description": "施設によって受付期間が異なります。大ホールは使用日の12か月前～30日前、小ホールは6か月前～5日前、その他の部屋は3か月前～5日前に申請書を提出します。まずは電話またはホームページで空き状況を確認しましょう。",
+  "question": "予約はいつから申し込めますか",
+  "answer": "施設によって受付期間が異なります。大ホールは使用日の12か月前～30日前、小ホールは6か月前～5日前、その他の部屋は3か月前～5日前に申請書を提出します。まずは電話またはホームページで空き状況を確認しましょう。",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "category": "遊ぶ・使う・出かける",
+  "icon": "🌳",
+  "priority": "P3",
+  "context": "文化施設（ミキホール）の利用方法を確認する",
+  "keyword": "森町 ミキホール",
+  "needs": [
+   "ホールを使いたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/901.html",
+    "label": "アクセス／森町文化会館（ミキホール）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/912.html",
+    "label": "森町文化会館施設紹介／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
+    "label": "施設の予約方法及び申請書ダウンロード／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 99,
+  "href": "/questions/play-out-parking-access/",
+  "slug": "play-out-parking-access",
+  "parent_href": "/life/play-out/parking-access/",
+  "parent_title": "森町内を移動する前に、駐車場・地図・公共交通を確認する",
+  "title": "森町営バスの時刻表はどこで見られますか｜静岡県森町Q&A",
+  "description": "「森町営バスのご案内」ページで路線・時刻表の詳細を確認できます。公共交通全体については政策企画課政策企画係（0538-85-6305）にもお問い合わせいただけます。",
+  "question": "森町営バスの時刻表はどこで見られますか",
+  "answer": "「森町営バスのご案内」ページで路線・時刻表の詳細を確認できます。公共交通全体については政策企画課政策企画係（0538-85-6305）にもお問い合わせいただけます。",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "category": "遊ぶ・使う・出かける",
+  "icon": "🌳",
+  "priority": "P3",
+  "context": "公共施設の駐車場とアクセスを確認する",
+  "keyword": "森町 施設 駐車場",
+  "needs": [
+   "駐車場はある",
+   "行き方を知りたい"
+  ],
+  "audience": [
+   "来訪者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/422.html",
+    "label": "森町の公共交通について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/8/525.html",
+    "label": "森町全体マップ・中心部拡大マップ／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 100,
+  "href": "/questions/play-out-sports-facilities/",
+  "slug": "play-out-sports-facilities",
+  "parent_href": "/life/play-out/sports-facilities/",
+  "parent_title": "森町のスポーツ施設は、予約・料金・持ち物を先に確認する",
+  "title": "予約はいつからできますか｜静岡県森町Q&A",
+  "description": "予約受付は使用日の5日前から2か月前までです。夜間照明施設を使いたい場合は1か月前からの受付となります。早めに社会教育課社会体育係（0538-85-4191）へ確認しましょう。",
+  "question": "予約はいつからできますか",
+  "answer": "予約受付は使用日の5日前から2か月前までです。夜間照明施設を使いたい場合は1か月前からの受付となります。早めに社会教育課社会体育係（0538-85-4191）へ確認しましょう。",
+  "hub": "enjoy",
+  "hub_label": "暮らしを楽しむ",
+  "category": "遊ぶ・使う・出かける",
+  "icon": "🌳",
+  "priority": "P3",
+  "context": "スポーツ施設の予約・料金を確認する",
+  "keyword": "森町 体育館 予約",
+  "needs": [
+   "体育館を借りたい"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/shakaitaiikugakari/1/1072.html",
+    "label": "森町の体育施設／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ }
+]

@@ -21,6 +21,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 CITY = json.loads((ROOT / "data" / "city.json").read_text(encoding="utf-8"))
 HUBS = json.loads((ROOT / "data" / "hubs.json").read_text(encoding="utf-8"))
 TOPICS = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
+QUESTION_PATH = ROOT / "data" / "questions.json"
+QUESTIONS = json.loads(QUESTION_PATH.read_text(encoding="utf-8")) if QUESTION_PATH.is_file() else []
 SITE = CITY["site_url"].rstrip("/")
 SITE_NAME = CITY["site_name"]
 TODAY = "2026-08-04"
@@ -140,6 +142,24 @@ def other_hubs(current: str) -> str:
             f'<div class="procedure-grid">{"".join(cards)}</div>')
 
 
+def question_cards(hub_id: str) -> str:
+    rows = [q for q in QUESTIONS if q.get("hub") == hub_id][:6]
+    if not rows:
+        return ""
+    cards = []
+    for q in rows:
+        cards.append(
+            f'<a class="link-card" href="{esc(q["href"])}" data-track-click="hub_question">'
+            f'<span class="card-text"><span class="card-title">'
+            f'<span class="topic-icon" aria-hidden="true">💬</span>{esc(q["question"])}</span>'
+            f'<span class="card-desc">{esc(q["context"])}</span></span>'
+            f'<span class="arrow" aria-hidden="true">›</span></a>')
+    return ('<h2>この場面のよくある質問</h2>'
+            '<p class="lead">先に答えだけ確認したいときは、近い質問を選んでください。</p>'
+            f'<div class="procedure-grid">{"".join(cards)}</div>'
+            f'<p><a class="btn" href="/questions/">100の質問をすべて見る</a></p>')
+
+
 def build(hub: dict) -> str:
     hub_id = hub["id"]
     pages = pages_for(hub_id)
@@ -193,6 +213,7 @@ def build(hub: dict) -> str:
 <h2 style="margin-top:0">このページで分かること</h2>
 <ul>{learn}</ul>
 </section>
+{question_cards(hub_id)}
 {branch_cards(pages)}
 {detail_lists(pages)}
 <h2>森町公式の情報</h2>

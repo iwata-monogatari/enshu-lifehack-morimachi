@@ -56,6 +56,7 @@ function kindOf(topic) {
   const href = topic.href;
   if (href.startsWith('/shrine/') || href.startsWith('/temple/')) return '地域情報';
   if (href.startsWith('/tools/') || href.startsWith('/checklist/')) return 'ツール';
+  if (href.startsWith('/questions/')) return 'よくある質問';
   if (href.startsWith('/blog/')) return '読み物';
   if (href.startsWith('/about/') || href.startsWith('/terms/')) return 'サイト情報';
   if (topic.hub === 'enjoy') return '地域情報';
@@ -74,9 +75,10 @@ function main() {
   const topicsMaster = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/topics_master.json'), 'utf8'));
   // /tools/ と /checklist/ は固有の出典を持たない集約ページなので topics_master とは別台帳で管理する。
   const auxPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/aux-pages.json'), 'utf8'));
+  const questionPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/questions.json'), 'utf8'));
 
   let mergedSkipped = 0;
-  const searchIndex = [...topicsMaster, ...auxPages]
+  const baseIndex = [...topicsMaster, ...auxPages]
     .map((topic) => {
       // 統合済み（301）のページは検索候補に出さない
       if (topic.action === 'merge') {
@@ -105,6 +107,28 @@ function main() {
       };
     })
     .filter(Boolean);
+
+  const questionIndex = questionPages.map((question) => {
+    const html = readPage(question.href);
+    if (html === null) return null;
+    return {
+      href: question.href,
+      icon: question.icon || '💬',
+      title: question.question,
+      category: question.category || '質問',
+      hub: question.hub || '',
+      kind: 'よくある質問',
+      summary: question.answer.slice(0, 90),
+      keyword: question.keyword || '',
+      aliases: [question.context, ...(question.needs || [])].filter(Boolean),
+      needs: question.needs || [],
+      department: [],
+      audience: question.audience || [],
+      verified: question.verified_date || '',
+      lead: extractLead(html, question.href),
+    };
+  }).filter(Boolean);
+  const searchIndex = [...baseIndex, ...questionIndex];
 
   const outPath = path.join(ROOT, 'search-index.json');
   const json = JSON.stringify(searchIndex);
