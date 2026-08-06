@@ -156,9 +156,109 @@ def scene_cadastral(d):
     band(d, ["畑と山の境界は、", "現地に立つ前に確かめる"], "森町ライフハック／農地・山林・茶畑")
 
 
+def scene_smart_ic(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 62, 700, 742], 300)
+    # 中景：茶畑
+    d.polygon([(0, 296), (760, 288), (760, 352), (0, 362)], fill=(139, 183, 95))
+    for i in range(4):
+        d.line([(0, 306 + i * 14), (760, 298 + i * 14)], fill=(93, 138, 62), width=3)
+    # 新東名の高架橋
+    d.rectangle([0, 352, 760, 378], fill=(216, 221, 221))
+    d.rectangle([0, 346, 760, 354], fill=(242, 245, 245))
+    d.rectangle([0, 376, 760, 383], fill=(154, 164, 167))
+    for x in (74, 300, 552):
+        d.rectangle([x, 383, x + 28, 448], fill=(201, 208, 209))
+        d.rectangle([x - 6, 442, x + 34, 454], fill=(174, 183, 185))
+    # 高架上の車
+    d.rectangle([160, 330, 218, 350], fill=(233, 237, 236), outline=(154, 164, 167), width=2)
+    d.rectangle([160, 330, 182, 350], fill=(207, 216, 217))
+    d.rectangle([430, 328, 502, 350], fill=(127, 168, 196), outline=(95, 130, 153), width=2)
+    d.rectangle([482, 332, 500, 350], fill=(222, 231, 234))
+    # ETC専用ゲート
+    d.rectangle([232, 398, 246, 470], fill=(141, 149, 154))
+    d.rectangle([404, 396, 418, 468], fill=(141, 149, 154))
+    d.rectangle([226, 366, 424, 398], fill=(47, 95, 69), outline=(32, 69, 50), width=3)
+    f = ImageFont.truetype(FONT_BOLD, 24)
+    d.text((260, 372), "ETC専用", font=f, fill="#ffffff")
+    d.rectangle([248, 414, 402, 423], fill=(216, 132, 44))
+    for x in (258, 300, 342):
+        d.rectangle([x, 414, x + 16, 423], fill=(255, 255, 255))
+    # ゲート前で一旦停止する車
+    d.rectangle([310, 440, 386, 470], fill=(240, 243, 241), outline=(152, 161, 166), width=3)
+    d.rectangle([310, 440, 340, 470], fill=(217, 225, 226), outline=(152, 161, 166), width=3)
+    for cx in (330, 372):
+        d.ellipse([cx - 10, 464, cx + 10, 484], fill=(59, 68, 76))
+    # 手前：集落側の町道
+    d.polygon([(0, 486), (760, 466), (760, BAND_TOP), (0, BAND_TOP)], fill=(207, 200, 184))
+    d.polygon([(0, 470), (760, 452), (760, 486), (0, 504)], fill=(147, 184, 105))
+    for i in range(3):
+        d.line([(0, 528 + i * 22), (760, 510 + i * 22)], fill=(255, 255, 255), width=4)
+    # 木造駅舎
+    d.rectangle([28, 462, 158, 546], fill=(244, 236, 220), outline=(169, 143, 104), width=3)
+    d.polygon([(16, 462), (93, 424), (170, 462)], fill=(111, 90, 69))
+    d.rectangle([44, 484, 76, 526], fill=(201, 221, 229), outline=(150, 176, 187), width=2)
+    d.rectangle([92, 484, 124, 526], fill=(201, 221, 229), outline=(150, 176, 187), width=2)
+    d.rectangle([28, 540, 158, 550], fill=(176, 151, 119))
+    # 町営バスの停留所（要予約）
+    d.rectangle([596, 456, 604, 552], fill=(141, 149, 154))
+    d.rectangle([540, 436, 664, 480], fill=(255, 255, 255), outline=(44, 74, 82), width=3)
+    fs = ImageFont.truetype(FONT_BOLD, 19)
+    d.text((556, 442), "町営バス", font=fs, fill="#2c4a52")
+    d.text((548, 460), "要予約の便", font=ImageFont.truetype(FONT_REGULAR, 16), fill="#a8551a")
+    band(d, ["「ICが近い」は、", "暮らしやすさとは別"], "森町ライフハック／地区めぐり")
+
+
+def scene_water_routes(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [26, 70, 116, 664, 712], 300)
+    d.polygon([(0, 320), (760, 306), (760, BAND_TOP), (0, BAND_TOP)], fill=(210, 226, 196))
+    # 山の上の配水池
+    d.ellipse([548, 262, 700, 300], fill=(198, 208, 210))
+    d.rectangle([548, 240, 700, 282], fill=(226, 232, 232), outline=(150, 161, 164), width=3)
+    d.ellipse([548, 222, 700, 258], fill=(240, 244, 244), outline=(150, 161, 164), width=3)
+    d.line([(624, 300), (624, 336)], fill=(150, 161, 164), width=8)
+    # 配水管（本管）と分岐
+    d.line([(624, 336), (624, 396)], fill=(90, 140, 168), width=13)
+    d.line([(120, 396), (700, 396)], fill=(90, 140, 168), width=13)
+    for x in (180, 340, 520):
+        d.line([(x, 396), (x, 452)], fill=(90, 140, 168), width=9)
+    # 左：上水道の一戸建て
+    d.rectangle([120, 452, 244, 546], fill=(246, 241, 226), outline=(181, 166, 135), width=3)
+    d.polygon([(106, 452), (182, 410), (258, 452)], fill=(141, 106, 76))
+    d.rectangle([140, 476, 172, 512], fill=(198, 219, 228), outline=(154, 180, 192), width=2)
+    d.rectangle([192, 476, 224, 512], fill=(198, 219, 228), outline=(154, 180, 192), width=2)
+    # 中央：受水槽のある集合住宅
+    d.rectangle([292, 430, 404, 552], fill=(238, 240, 236), outline=(154, 164, 167), width=3)
+    for row in range(3):
+        for col in range(3):
+            d.rectangle([304 + col * 34, 444 + row * 36, 328 + col * 34, 468 + row * 36],
+                        fill=(190, 214, 224), outline=(148, 174, 186), width=2)
+    d.rectangle([310, 396, 386, 430], fill=(226, 232, 232), outline=(150, 161, 164), width=3)
+    d.line([(348, 430), (348, 444)], fill=(150, 161, 164), width=6)
+    # 右：簡易水道の家と山あいの沢
+    d.rectangle([470, 466, 570, 546], fill=(244, 238, 224), outline=(181, 166, 135), width=3)
+    d.polygon([(458, 466), (520, 430), (582, 466)], fill=(122, 96, 70))
+    d.rectangle([488, 486, 516, 516], fill=(198, 219, 228), outline=(154, 180, 192), width=2)
+    # 右端：給水区域外の井戸
+    d.ellipse([636, 486, 724, 522], fill=(120, 158, 178))
+    d.rectangle([636, 470, 724, 504], fill=(168, 152, 126), outline=(122, 108, 86), width=3)
+    d.ellipse([636, 456, 724, 486], fill=(200, 224, 234), outline=(122, 108, 86), width=3)
+    d.line([(648, 456), (648, 414)], fill=(122, 108, 86), width=7)
+    d.line([(712, 456), (712, 414)], fill=(122, 108, 86), width=7)
+    d.line([(640, 414), (720, 414)], fill=(122, 108, 86), width=7)
+    d.line([(680, 414), (680, 448)], fill=(90, 100, 108), width=4)
+    d.rectangle([664, 448, 696, 470], fill=(160, 140, 108), outline=(112, 96, 72), width=3)
+    band(d, ["同じ森町でも、", "水の来る経路は一つでない"], "森町ライフハック／地区めぐり")
+
+
 SCENES = {
     "20260806-electric-fence-subsidy": scene_electric_fence,
     "20260806-cadastral-survey-boundary": scene_cadastral,
+    "20260807-smart-ic-livability": scene_smart_ic,
+    "20260807-water-supply-routes": scene_water_routes,
 }
 
 
