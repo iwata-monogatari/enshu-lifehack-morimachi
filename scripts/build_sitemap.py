@@ -57,7 +57,7 @@ def git_lastmod_map():
     """
     try:
         out = subprocess.run(
-            ['git', 'log', '--name-only', '--pretty=format:@@%cs', '--', '*.html'],
+            ['git', 'log', '--name-status', '--pretty=format:@@%cs', '--', '*.html'],
             cwd=ROOT, capture_output=True, text=True, encoding='utf-8', timeout=120).stdout
     except Exception:
         return {}
@@ -69,12 +69,16 @@ def git_lastmod_map():
             continue
         if line.startswith('@@'):
             commits.append((line[2:], []))
-        elif commits and line.endswith('.html'):
-            commits[-1][1].append(line)
+        elif commits:
+            parts = line.split('\t')
+            if len(parts) >= 2 and parts[-1].endswith('.html'):
+                commits[-1][1].append((parts[0], parts[-1]))
     dates = {}
-    for date, files in commits:  # git log は新しい順
-        if len(files) >= MASS_COMMIT_THRESHOLD:
-            continue
+    for date, entries in commits:  # git log は新しい順
+        # 大規模コミットでも新規ページの公開日は意味がある。既存ページの
+        # 一括部品差し替えだけを除外し、追加(A)はlastmodに採用する。
+        files = [path for status, path in entries
+                 if len(entries) < MASS_COMMIT_THRESHOLD or status.startswith('A')]
         for f in files:
             dates.setdefault(f, date)  # 最初に出た＝最新の実質的変更
     return dates
@@ -192,8 +196,29 @@ def main():
     lines.append('</urlset>')
     out = ROOT / 'sitemap.xml'
     out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+
+    # 新設した100問だけの発見・登録状況をSearch Consoleで追えるよう、
+    # 一覧を含む専用sitemapも出力する。root sitemapとのURL重複は許容される。
+    question_urls = ['/questions/'] + [q['href'] for q in questions]
+    question_lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+                      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u in question_urls:
+        rel = page_path(u).relative_to(ROOT).as_posix()
+        date_candidates = [d for d in (
+            iso_date_or_none(lastmods.get(rel)),
+            iso_date_or_none(question_dates.get(u)),
+            today if rel in dirty else None,
+        ) if d]
+        lastmod = max(date_candidates) if date_candidates else None
+        suffix = f'<lastmod>{lastmod}</lastmod>' if lastmod else ''
+        question_lines.append(f'<url><loc>{SITE}{u}</loc>{suffix}</url>')
+    question_lines.append('</urlset>')
+    question_out = ROOT / 'sitemap-questions.xml'
+    question_out.write_text('\n'.join(question_lines) + '\n', encoding='utf-8')
+
     print(f'  lastmod を付けたURL: {dated} / {len(urls)}')
     print(f'生成完了: {out}（{len(urls)}件 / 質問{len(questions)}件 / ブログ記事{len(blog)}件）')
+    print(f'生成完了: {question_out}（質問一覧を含む{len(question_urls)}件）')
     if missing:
         print(f'実ファイルが無いため除外 {len(missing)}件: {missing}')
 

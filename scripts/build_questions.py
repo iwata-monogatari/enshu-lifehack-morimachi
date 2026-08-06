@@ -72,6 +72,25 @@ def plain(value: str) -> str:
     return re.sub(r"\s+", " ", unescape(TAG_RE.sub("", value or ""))).strip()
 
 
+def search_topic(row: dict) -> str:
+    """台帳の検索語を、タイトルで読める日本語に整える。"""
+    keyword = plain(row.get("keyword", ""))
+    if not keyword:
+        return plain(row.get("context", ""))
+    parts = keyword.split()
+    if parts and parts[0] == "森町":
+        return "森町の" + "・".join(parts[1:])
+    return "・".join(parts)
+
+
+def description_for(answer: str, limit: int = 132) -> str:
+    """検索結果の説明文を、途中で句点を足して壊さずに短くする。"""
+    value = plain(answer)
+    if len(value) <= limit:
+        return value if value.endswith(("。", "！", "？")) else value + "。"
+    return value[:limit].rstrip("、。！？ ") + "…"
+
+
 def normalize_internal_links(value: str) -> str:
     for source, target in REDIRECTS.items():
         value = value.replace(f'href="{source}"', f'href="{target}"')
@@ -180,8 +199,9 @@ def select_questions() -> list[dict]:
     for number, row in enumerate(selected, 1):
         row["number"] = number
         row["href"] = f'/questions/{row["slug"]}/'
-        row["title"] = f'{row["question"]}｜静岡県森町Q&A'
-        row["description"] = (row["answer"][:132].rstrip("。") + "。")
+        row["search_topic"] = search_topic(row)
+        row["title"] = f'{row["search_topic"]}｜{row["question"]}'
+        row["description"] = description_for(row["answer"])
     return selected
 
 
@@ -252,7 +272,56 @@ def share_box(row: dict) -> str:
     )
 
 
-def render_question(row: dict, previous: dict, following: dict) -> str:
+def related_questions_html(row: dict, rows: list[dict]) -> str:
+    """同じ生活場面を優先して、検索エンジンと読者に話題のまとまりを示す。"""
+    candidates = [item for item in rows if item["href"] != row["href"]]
+    candidates.sort(key=lambda item: (
+        0 if item["category"] == row["category"] else 1,
+        0 if item["hub"] == row["hub"] else 1,
+        PRIORITY.get(item["priority"], 9),
+        abs(item["number"] - row["number"]),
+    ))
+    links = []
+    for item in candidates[:4]:
+        links.append(
+            f'<li><a href="{esc(item["href"])}" data-track-click="question_related">'
+            f'<span>Q{item["number"]}</span><strong>{esc(item["question"])}</strong></a></li>'
+        )
+    return (
+        '<section class="question-related" aria-labelledby="question-related-title">'
+        '<h2 class="sec" id="question-related-title">同じ分野の質問</h2>'
+        '<ul>' + "".join(links) + '</ul></section>'
+    )
+
+
+def page_schema(row: dict) -> str:
+    data = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": row["question"],
+        "description": row["description"],
+        "url": SITE + row["href"],
+        "inLanguage": "ja",
+        "about": {
+            "@type": "Thing",
+            "name": row["search_topic"],
+        },
+        "mainEntity": {
+            "@type": "Question",
+            "name": row["question"],
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": row["answer"],
+                "url": SITE + row["href"],
+            },
+        },
+    }
+    if iso_date := re.fullmatch(r"\d{4}-\d{2}-\d{2}", row.get("verified_date", "")):
+        data["dateModified"] = iso_date.group(0)
+    return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + '</script>'
+
+
+def render_question(row: dict, previous: dict, following: dict, rows: list[dict]) -> str:
     premise = f'<p>{esc(row["lead"])}</p>' if row["lead"] else ""
     note = f'<div class="note">{esc(row["note"])}</div>' if row["note"] else ""
     return f"""<!doctype html>
@@ -262,7 +331,8 @@ def render_question(row: dict, previous: dict, following: dict) -> str:
 <meta name="description" content="{esc(row['description'])}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
-<link rel="stylesheet" href="/assets/questions.css?v=20260806a">
+<link rel="stylesheet" href="/assets/questions.css?v=20260806b">
+{page_schema(row)}
 </head><body class="question-page">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
 <!-- PART:disclaimer:START -->{PARTS['disclaimer']}<!-- PART:disclaimer:END -->
@@ -270,7 +340,7 @@ def render_question(row: dict, previous: dict, following: dict) -> str:
 <p class="breadcrumb"><a href="/">{SITE_NAME}</a> ／ <a href="/questions/">森町のよくある100の質問</a> ／ 質問{row['number']}</p>
 <article>
 <section class="hero question-hero"><p class="eyebrow"><span aria-hidden="true">{esc(row['icon'])}</span> {esc(row['context'])}</p>
-<h1>{esc(row['question'])}</h1><p class="lead">静岡県周智郡森町で「{esc(row['context'])}」ときに、最初に確認したい答えをまとめました。</p></section>
+<h1>{esc(row['question'])}</h1><p class="lead">静岡県周智郡森町で「{esc(row['context'])}」ときの答えです。{esc(row['search_topic'])}について、確認する順番と公式窓口をまとめました。</p></section>
 <section class="question-answer" aria-labelledby="answer-title"><p class="question-answer-kicker">先に結論</p>
 <h2 id="answer-title">回答</h2><div>{row['answer_html']}</div></section>
 <h2 class="sec">この回答の前提</h2>{premise}{note}
@@ -280,6 +350,7 @@ def render_question(row: dict, previous: dict, following: dict) -> str:
 {official_links(row)}</div>
 <h2 class="sec">詳しい案内を読む</h2><a class="question-parent-link" href="{esc(row['parent_href'])}" data-track-click="question_parent">
 <span>この質問の詳しいガイド</span><strong>{esc(row['parent_title'])}</strong><span aria-hidden="true">→</span></a>
+{related_questions_html(row, rows)}
 {share_box(row)}
 <nav class="question-pager" aria-label="前後の質問"><a href="{esc(previous['href'])}">← 質問{previous['number']}</a><a href="/questions/">100問の一覧</a><a href="{esc(following['href'])}">質問{following['number']} →</a></nav>
 <p class="verified">最終確認日：{esc(row['verified_date'])} ／ このページは公表情報を整理した非公式案内です。</p>
@@ -302,9 +373,13 @@ def render_index(rows: list[dict]) -> str:
                 f'<strong>{esc(row["question"])}</strong><span>{esc(row["context"])}</span></a></li>'
             )
         groups.append(
-            f'<section class="question-group" data-question-group><h2><span aria-hidden="true">{meta["emoji"]}</span> '
+            f'<section class="question-group" id="questions-{hub}" data-question-group><h2><span aria-hidden="true">{meta["emoji"]}</span> '
             f'{esc(meta["label"])} <small>{len(cards)}問</small></h2><ul class="question-grid">{"".join(cards)}</ul></section>'
         )
+    category_links = "".join(
+        f'<a href="#questions-{hub}"><span aria-hidden="true">{meta["emoji"]}</span>{esc(meta["label"])}</a>'
+        for hub, meta in HUBS.items()
+    )
     return f"""<!doctype html>
 <html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -312,7 +387,7 @@ def render_index(rows: list[dict]) -> str:
 <meta name="description" content="静岡県周智郡森町の手続き、子育て、介護、家・土地、防災、施設について、よくある100の質問から答えと公式確認先を探せます。">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
-<link rel="stylesheet" href="/assets/questions.css?v=20260806a">
+<link rel="stylesheet" href="/assets/questions.css?v=20260806b">
 </head><body class="hub questions-index">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
 <!-- PART:disclaimer:START -->{PARTS['disclaimer']}<!-- PART:disclaimer:END -->
@@ -320,6 +395,7 @@ def render_index(rows: list[dict]) -> str:
 <p class="breadcrumb"><a href="/">{SITE_NAME}</a> ／ 森町のよくある100の質問</p>
 <section class="hero"><p class="eyebrow"><span aria-hidden="true">💬</span> 困りごとを質問から探す</p>
 <h1>森町のよくある100の質問</h1><p class="lead">制度名が分からなくても大丈夫です。今の疑問に近い質問を選ぶと、先に結論、確認する順番、森町公式の確認先が分かります。</p></section>
+<nav class="question-category-nav" aria-label="質問の分野">{category_links}</nav>
 <section class="question-filter" aria-labelledby="question-filter-title"><label id="question-filter-title" for="question-filter-input">質問を絞り込む</label>
 <input id="question-filter-input" type="search" placeholder="例：住民票、介護、空き家、避難所"><p id="question-filter-count" aria-live="polite">100問を表示中</p></section>
 {"".join(groups)}
@@ -355,7 +431,7 @@ def main() -> int:
         previous = rows[index - 1] if index else rows[-1]
         following = rows[(index + 1) % len(rows)]
         (out_dir / "index.html").write_text(
-            render_question(row, previous, following), encoding="utf-8")
+            render_question(row, previous, following, rows), encoding="utf-8")
     (QUESTIONS_DIR / "index.html").write_text(render_index(rows), encoding="utf-8")
     write_manifest(rows)
     print(f"質問ページ {len(rows)}件 + 一覧1件を生成しました")
