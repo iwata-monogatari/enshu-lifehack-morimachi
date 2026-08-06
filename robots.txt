@@ -105,7 +105,6 @@ Disallow: /
 # 個別グループを作っていないため * が適用され、OGPカードは正常に表示される。
 
 Sitemap: https://morimachi.enshu-lifehack.com/sitemap.xml
-Sitemap: https://morimachi.enshu-lifehack.com/sitemap-questions.xml
 
 # AI検索クローラー向けのサイト概要（llmstxt.org 形式）
 # https://morimachi.enshu-lifehack.com/llms.txt
