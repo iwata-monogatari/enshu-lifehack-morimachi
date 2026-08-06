@@ -22,6 +22,11 @@ sys.stdout.reconfigure(encoding="utf-8")
 CITY = json.loads((ROOT / "data" / "city.json").read_text(encoding="utf-8"))
 SITE = CITY["site_url"].rstrip("/")
 SITE_NAME = CITY["site_name"]
+PRIORITY_PAGES = {
+    item["href"]: item
+    for item in json.loads(
+        (ROOT / "data" / "search-priority-pages.json").read_text(encoding="utf-8"))
+}
 
 START, END = "<!-- SEO-COMMON:START -->", "<!-- SEO-COMMON:END -->"
 SKIP = {".git", "_cache", "node_modules", "reports", "parts", "scripts", ".github", ".claude"}
@@ -79,6 +84,24 @@ def breadcrumb_jsonld(items: list[dict]) -> str:
             {"@type": "ListItem", "position": i + 1, "name": it["name"], "item": it["url"]}
             for i, it in enumerate(items)
         ],
+    }
+    return ('<script type="application/ld+json">'
+            + json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+            + "</script>")
+
+
+def priority_webpage_jsonld(url_path: str, title: str, desc: str) -> str:
+    """重要11ページの画面表示日と同じ更新日を構造化データへ出す。"""
+    item = PRIORITY_PAGES[url_path]
+    data = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": title.split(" | ")[0],
+        "description": desc,
+        "url": SITE + url_path,
+        "inLanguage": "ja",
+        "dateModified": item["updated"],
+        "isPartOf": {"@type": "WebSite", "@id": SITE + "/#website", "name": SITE_NAME},
     }
     return ('<script type="application/ld+json">'
             + json.dumps(data, ensure_ascii=False, separators=(",", ":"))
@@ -207,6 +230,8 @@ def process(path: Path) -> dict[str, bool]:
         if items:
             blocks.append(breadcrumb_jsonld(items))
             flags["breadcrumb"] = True
+        if url_path in PRIORITY_PAGES:
+            blocks.append(priority_webpage_jsonld(url_path, title, desc))
 
     if 'rel="canonical"' not in bare:
         image = SITE + "/assets/ogp/site-default.png"

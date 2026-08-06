@@ -1,0 +1,90 @@
+[
+  {
+    "href": "/life/start-living/how-to-garbage/",
+    "label": "2026年ごみ収集日・分別",
+    "description": "町内会別の次回収集日と、分別・持ち込み先を確認",
+    "emoji": "🗑️",
+    "updated": "2026-08-06",
+    "question_hubs": ["procedures", "property"]
+  },
+  {
+    "href": "/life/family-grow/nursery-school/",
+    "label": "保育園の年齢別空き状況",
+    "description": "0〜5歳の受入れ見込みと申込み先を確認",
+    "emoji": "🧸",
+    "updated": "2026-08-06",
+    "question_hubs": ["family"]
+  },
+  {
+    "href": "/life/family-grow/child-allowance/",
+    "label": "児童手当の期限・金額",
+    "description": "申請期限、支給額、必要書類を確認",
+    "emoji": "👶",
+    "updated": "2026-08-06",
+    "question_hubs": ["family"]
+  },
+  {
+    "href": "/life/education/school-zones/",
+    "label": "住所から小中学校の学区を確認",
+    "description": "住所を整理し、森町の学校教育窓口へ確認",
+    "emoji": "🏫",
+    "updated": "2026-08-06",
+    "question_hubs": ["family"]
+  },
+  {
+    "href": "/life/living-soon/about-morimachi/",
+    "label": "森町へ移住する前の基本情報",
+    "description": "交通、生活環境、相談先をまとめて確認",
+    "emoji": "🏡",
+    "updated": "2026-08-06",
+    "question_hubs": ["property", "procedures"]
+  },
+  {
+    "href": "/life/emergency/evacuation-hazard-map/",
+    "label": "洪水・土砂災害ハザードマップ",
+    "description": "自宅周辺の災害リスクと避難先を確認",
+    "emoji": "⚠️",
+    "updated": "2026-08-06",
+    "question_hubs": ["trouble"]
+  },
+  {
+    "href": "/life/housing/vacant-house/",
+    "label": "空き家バンク・補助金",
+    "description": "物件、登録、改修支援、相談先を確認",
+    "emoji": "🏚️",
+    "updated": "2026-08-06",
+    "question_hubs": ["property"]
+  },
+  {
+    "href": "/life/parents-care/long-term-care-insurance/",
+    "label": "介護保険の申請・保険料",
+    "description": "要介護認定、サービス利用、保険料を確認",
+    "emoji": "🤝",
+    "updated": "2026-08-06",
+    "question_hubs": ["care", "trouble"]
+  },
+  {
+    "href": "/life/play-out/visit-library/",
+    "label": "森町立図書館の開館日",
+    "description": "開館時間、休館日、利用方法を確認",
+    "emoji": "📚",
+    "updated": "2026-08-06",
+    "question_hubs": ["enjoy"]
+  },
+  {
+    "href": "/life/start-living/water-sewer/",
+    "label": "水道・下水道料金を計算",
+    "description": "2か月分の使用量から料金の概算を確認",
+    "emoji": "🚰",
+    "updated": "2026-08-06",
+    "question_hubs": ["procedures", "property"]
+  },
+  {
+    "href": "/life/work-life/subsidies/",
+    "label": "住宅・子育て・移住の補助金",
+    "description": "利用目的から候補制度と公式窓口を確認",
+    "emoji": "💴",
+    "updated": "2026-08-06",
+    "question_hubs": ["procedures", "property", "family"]
+  }
+]

@@ -28,9 +28,11 @@ sys.stdout.reconfigure(encoding="utf-8")
 CITY = json.loads((ROOT / "data" / "city.json").read_text(encoding="utf-8"))
 HUBS = json.loads((ROOT / "data" / "hubs.json").read_text(encoding="utf-8"))
 TOPICS = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
+SEARCH_PRIORITY = json.loads(
+    (ROOT / "data" / "search-priority-pages.json").read_text(encoding="utf-8"))
 SITE = CITY["site_url"].rstrip("/")
 SITE_NAME = CITY["site_name"]
-TODAY = "2026-08-05"
+TODAY = "2026-08-06"
 MORI_LP = "https://fudosan.atawi.link/areas/mori/"
 
 PARTS = {
@@ -91,6 +93,23 @@ def frequent_section() -> str:
     return ('<section class="frequent" aria-labelledby="freq-title">'
             '<h2 id="freq-title">よく使われる手続き</h2>'
             f'<ul class="freq-list">{items}</ul></section>')
+
+
+def search_priority_section() -> str:
+    """検索者がよく求める11ページへ、トップから直接たどれる入口を作る。"""
+    cards = "".join(
+        f'<a class="priority-search-card" href="{esc(item["href"])}">'
+        f'<span class="priority-search-icon" aria-hidden="true">{item["emoji"]}</span>'
+        f'<span><strong>{esc(item["label"])}</strong>'
+        f'<small>{esc(item["description"])}</small></span></a>'
+        for item in SEARCH_PRIORITY
+    )
+    return (
+        '<section class="priority-search" aria-labelledby="priority-search-title">'
+        '<h2 id="priority-search-title">森町でよく調べられること</h2>'
+        '<p class="lead">知りたい言葉に近い項目を選ぶと、答え・計算・公式確認先へ直接進めます。</p>'
+        f'<div class="priority-search-grid">{cards}</div></section>'
+    )
 
 
 def checklist_section() -> str:
@@ -214,6 +233,7 @@ def build() -> str:
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
 <link rel="stylesheet" href="/assets/home-blog.css?v=20260805a">
+<link rel="stylesheet" href="/assets/search-tools.css?v=20260806a">
 </head>
 <body class="hub home">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
@@ -261,6 +281,7 @@ def build() -> str:
 {emergency_section()}
 {hub_section()}
 {frequent_section()}
+{search_priority_section()}
 {checklist_section()}
 {database_section()}
 {freshness_section(st)}

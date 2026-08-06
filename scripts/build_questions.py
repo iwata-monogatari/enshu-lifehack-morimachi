@@ -62,6 +62,8 @@ def load_redirects() -> dict[str, str]:
 
 
 REDIRECTS = load_redirects()
+SEARCH_PRIORITY = json.loads(
+    (ROOT / "data" / "search-priority-pages.json").read_text(encoding="utf-8"))
 
 
 def esc(value: object) -> str:
@@ -294,6 +296,30 @@ def related_questions_html(row: dict, rows: list[dict]) -> str:
     )
 
 
+def cornerstone_links_html(row: dict) -> str:
+    """質問から重要11ガイドへ文脈の合う内部リンクを返す。"""
+    matching = [item for item in SEARCH_PRIORITY if row["hub"] in item["question_hubs"]]
+    if not matching:
+        return ""
+    exact = [item for item in matching if item["href"] == row["parent_href"]]
+    others = [item for item in matching if item["href"] != row["parent_href"]]
+    if others:
+        offset = row["number"] % len(others)
+        others = others[offset:] + others[:offset]
+    selected = (exact + others)[:3]
+    links = "".join(
+        f'<li><a href="{esc(item["href"])}" data-track-click="question_cornerstone">'
+        f'{item["emoji"]} <strong>{esc(item["label"])}</strong> — '
+        f'{esc(item["description"])}</a></li>'
+        for item in selected
+    )
+    return (
+        '<section class="question-cornerstones" aria-labelledby="question-cornerstones-title">'
+        '<h2 class="sec" id="question-cornerstones-title">この分野の重要ガイド</h2>'
+        f'<ul>{links}</ul></section>'
+    )
+
+
 def page_schema(row: dict) -> str:
     data = {
         "@context": "https://schema.org",
@@ -332,6 +358,7 @@ def render_question(row: dict, previous: dict, following: dict, rows: list[dict]
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
 <link rel="stylesheet" href="/assets/questions.css?v=20260806b">
+<link rel="stylesheet" href="/assets/search-tools.css?v=20260806a">
 {page_schema(row)}
 </head><body class="question-page">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
@@ -350,6 +377,7 @@ def render_question(row: dict, previous: dict, following: dict, rows: list[dict]
 {official_links(row)}</div>
 <h2 class="sec">詳しい案内を読む</h2><a class="question-parent-link" href="{esc(row['parent_href'])}" data-track-click="question_parent">
 <span>この質問の詳しいガイド</span><strong>{esc(row['parent_title'])}</strong><span aria-hidden="true">→</span></a>
+{cornerstone_links_html(row)}
 {related_questions_html(row, rows)}
 {share_box(row)}
 <nav class="question-pager" aria-label="前後の質問"><a href="{esc(previous['href'])}">← 質問{previous['number']}</a><a href="/questions/">100問の一覧</a><a href="{esc(following['href'])}">質問{following['number']} →</a></nav>
