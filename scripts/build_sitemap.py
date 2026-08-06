@@ -197,28 +197,8 @@ def main():
     out = ROOT / 'sitemap.xml'
     out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
 
-    # 新設した100問だけの発見・登録状況をSearch Consoleで追えるよう、
-    # 一覧を含む専用sitemapも出力する。root sitemapとのURL重複は許容される。
-    question_urls = ['/questions/'] + [q['href'] for q in questions]
-    question_lines = ['<?xml version="1.0" encoding="UTF-8"?>',
-                      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for u in question_urls:
-        rel = page_path(u).relative_to(ROOT).as_posix()
-        date_candidates = [d for d in (
-            iso_date_or_none(lastmods.get(rel)),
-            iso_date_or_none(question_dates.get(u)),
-            today if rel in dirty else None,
-        ) if d]
-        lastmod = max(date_candidates) if date_candidates else None
-        suffix = f'<lastmod>{lastmod}</lastmod>' if lastmod else ''
-        question_lines.append(f'<url><loc>{SITE}{u}</loc>{suffix}</url>')
-    question_lines.append('</urlset>')
-    question_out = ROOT / 'sitemap-questions.xml'
-    question_out.write_text('\n'.join(question_lines) + '\n', encoding='utf-8')
-
     print(f'  lastmod を付けたURL: {dated} / {len(urls)}')
     print(f'生成完了: {out}（{len(urls)}件 / 質問{len(questions)}件 / ブログ記事{len(blog)}件）')
-    print(f'生成完了: {question_out}（質問一覧を含む{len(question_urls)}件）')
     if missing:
         print(f'実ファイルが無いため除外 {len(missing)}件: {missing}')
 

@@ -43,21 +43,18 @@ def main() -> int:
         if f'<link rel="canonical" href="{SITE}{row["href"]}">' not in html:
             fail(f"canonicalが一致しません: {row['href']}", errors)
 
-    sitemap_path = ROOT / "sitemap-questions.xml"
+    sitemap_path = ROOT / "sitemap.xml"
     if not sitemap_path.is_file():
-        fail("sitemap-questions.xml がありません", errors)
+        fail("sitemap.xml がありません", errors)
     else:
         sitemap = sitemap_path.read_text(encoding="utf-8")
-        urls = re.findall(r"<loc>([^<]+)</loc>", sitemap)
+        urls = set(re.findall(r"<loc>([^<]+)</loc>", sitemap))
         expected = {SITE + "/questions/", *(SITE + row["href"] for row in rows)}
-        if len(urls) != 101 or set(urls) != expected:
-            fail(f"質問サイトマップが101URLと一致しません: {len(urls)}", errors)
+        missing = expected - urls
+        if missing:
+            fail(f"メインサイトマップに質問URLが不足しています: {len(missing)}", errors)
 
-    robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
-    if "Sitemap: https://morimachi.enshu-lifehack.com/sitemap-questions.xml" not in robots:
-        fail("robots.txt に質問サイトマップがありません", errors)
-
-    print(f"  質問ページ: {len(rows)} / 専用sitemap: 101 URL / エラー: {len(errors)}")
+    print(f"  質問ページ: {len(rows)} / sitemap掲載: 101 URL / エラー: {len(errors)}")
     return 1 if errors else 0
 
 
