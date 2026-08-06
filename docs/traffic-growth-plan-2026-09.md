@@ -73,3 +73,11 @@ Google Search Consoleの `enshu-lifehack.com` ドメインプロパティを、
 - 計測確認は `?fga_internal=1` を使い、`is_internal=true` を除外する
 - webdriver、HeadlessChrome、Playwright、Codex、ChatGPT等は計測スクリプト側で除外する
 - ローカル、プレビュー、Cloudflareの確認用アクセスは成果に含めない
+
+## 本人確認レポート
+
+- 公開用の証明ページは設けない
+- Search Consoleの森町ホスト・対象日1日分のクリック数を自然検索入口の主指標にする
+- 独自解析の森町サイト「人間PV」を照合し、両方が100以上のときだけ達成とする
+- 2つの数値は合算しない
+- 手順とコマンドは `docs/organic-100pv-verification.md` に記載する

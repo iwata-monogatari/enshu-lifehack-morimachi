@@ -161,18 +161,22 @@
  },
  {
   "href": "/life/start-living/how-to-garbage/",
-  "lead": "森町の家庭ごみの出し方は「家庭ごみの出し方ナビ」でかな検索ができ、分別表・分別ガイドブックは多言語対応もしています。迷ったらまずこのナビで品目を調べてみましょう。",
-  "note": "外国籍の方には「外国人町民のための生活ガイドブック」もあわせて案内すると安心です。",
+  "seo_description": "静岡県森町の2026年ごみ収集カレンダー、地区別のごみの日、分別方法、指定袋、持ち込み先を公式資料から確認できます。",
+  "lead": "森町の2026年ごみ収集日は、町公式の地区別カレンダーで確認できます。品目の分別は「家庭ごみの出し方ナビ」で検索し、通常収集に出せないごみは持ち込み先を確認しましょう。",
+  "note": "収集日は地区によって異なります。2026年の地区別カレンダーと最新の分別案内を照合し、変更がないか森町公式ページで確認してください。",
   "real_cards": [
+    {"icon": "📅", "title": "2026年のごみの日は地区別", "body": "森町公式の2026年ごみ収集カレンダーで、住んでいる地区の燃やせるごみ・資源ごみなどの収集日を確認します。年末年始や祝日前後は特にカレンダーを見直しましょう。"},
     {"icon": "🔍", "title": "ナビでかな検索できる", "body": "「家庭ごみの出し方ナビ」では品目のキーワード検索や50音（あ行～わ行）からの検索ができます。迷ったときはまずここで品目名を調べましょう。"},
     {"icon": "📖", "title": "分別表は保存版", "body": "「森町家庭ごみ分別表」「分別ガイドブック」はPDFで公開されており、印刷して手元に置いておくと便利です。"},
     {"icon": "🌐", "title": "多言語ガイドあり", "body": "英語・中国語・ポルトガル語・ベトナム語・クメール語の分別ガイドブックと、外国人町民向けの生活ガイドブックが用意されています。"}
   ],
   "qa": [
+    {"question": "2026年のごみ収集カレンダーはどこで見られますか", "answer": "<a href=\"https://www.town.morimachi.shizuoka.jp/material/files/group/6/karennda2026.pdf\" target=\"_blank\" rel=\"noopener\">2026年ごみ収集カレンダー（森町公式PDF）</a>で確認できます。地区ごとに収集日が異なるため、自宅の地区欄を見てください。"},
     {"question": "この品目は何ごみか分かりません", "answer": "「家庭ごみの出し方ナビ」でキーワード検索か50音検索を使うと、品目ごとの分別区分が確認できます。それでも分からない場合は住民生活課生活環境係（0538-85-6314）にお問い合わせください。"},
     {"question": "外国語の資料はありますか", "answer": "英語・中国語・ポルトガル語・ベトナム語・クメール語の分別ガイドブックがあります。あわせて「外国人町民のための生活ガイドブック」も生活全般の参考になります。"}
   ],
   "tabs": [
+    {"id": "type-calendar-2026", "label": "2026年のごみの日を知りたい", "heading": "地区別の収集カレンダーを確認する", "bullets": ["自宅の地区を確認する", "燃やせるごみ・資源ごみなどの収集日を見る", "祝日・年末年始前後は最新案内も確認する"], "actions": [{"label": "2026年ごみ収集カレンダーを見る", "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/6/karennda2026.pdf", "source": "森町公式PDF"}, {"label": "分別表・カレンダーの案内を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html", "source": "森町公式"}]},
     {"id": "type-search", "label": "品目を調べたい", "heading": "ナビで検索する", "bullets": ["キーワード検索と50音検索の2種類がある", "検索結果から分別区分と出し方が分かる", "分からなければ生活環境係に電話で確認"], "actions": [{"label": "家庭ごみの出し方ナビを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/gomi_navi/kateigomi/1101.html", "source": "森町公式"}, {"label": "生活環境係に電話する", "href": "tel:0538-85-6314", "source": "0538-85-6314"}]},
     {"id": "type-foreign", "label": "外国語の資料が必要", "heading": "多言語ガイドを確認する", "bullets": ["分別ガイドブックは5言語に対応", "外国人町民向けの生活ガイドブックもある", "ダウンロードして家族で共有できる"], "actions": [{"label": "分別表・多言語版を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html", "source": "森町公式"}, {"label": "外国人向け生活ガイドを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/tabunkakyousei/6821.html", "source": "森町公式"}]}
   ],
@@ -180,6 +184,7 @@
     "today": ["出したい品目を家庭ごみの出し方ナビで検索する"], "this_week": ["分別表・収集日カレンダーを手元に用意する"], "outside": ["外国籍の家族がいる場合は多言語ガイドを共有する"]
   },
   "action_grid": [
+    {"label": "2026年ごみ収集カレンダーを見る", "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/6/karennda2026.pdf"},
     {"label": "家庭ごみの出し方ナビを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/gomi_navi/kateigomi/1101.html"},
     {"label": "分別表・カレンダーを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html"},
     {"label": "外国人向け生活ガイドを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/tabunkakyousei/6821.html"},

@@ -222,7 +222,9 @@ def sources_html(sources, city_name):
 
 def related_links_html(item, category_items):
     others = [i for i in category_items
-              if i["href"] != item["href"] and i.get("status") in PUBLISHABLE_STATUSES][:8]
+              if i["href"] != item["href"]
+              and i.get("status") in PUBLISHABLE_STATUSES
+              and i.get("action") != "merge"][:8]
     if not others:
         return ""
     links = []
@@ -294,10 +296,16 @@ def render_page(item, city, category_items, content_map):
             action_grid_html(content.get("action_grid")),
         ])
 
+    seo_description = (
+        content.get("seo_description") or content.get("lead")
+        if content
+        else f"{city_name}の{category}に関する情報を公式資料から確認できます。"
+    )
+
     html = f"""<!doctype html><html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} | {esc(site_name)}</title>
-<meta name="description" content="{esc(city_name)}の{esc(category)}に関する情報を整理する非公式ナビです。最新・正確な情報は必ず{esc(city_name)}公式ページで確認してください。">
+<meta name="description" content="{esc(seo_description)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260702"><!-- PART:head-css:END --></head><body>
 <!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">{esc(site_name)}</a></div></header><!-- PART:header:END -->
@@ -321,11 +329,17 @@ def render_page(item, city, category_items, content_map):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--category")
+    ap.add_argument("--href", action="append", help="指定URLだけを再生成（複数指定可）")
     args = ap.parse_args()
 
     ledger, city = load()
     content_map = load_content_map()
-    items = [i for i in ledger if not args.category or i["category"] == args.category]
+    hrefs = set(args.href or [])
+    items = [
+        i for i in ledger
+        if (not args.category or i["category"] == args.category)
+        and (not hrefs or i["href"] in hrefs)
+    ]
 
     by_category = {}
     for i in ledger:
