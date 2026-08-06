@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig2Title fig2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="fig2Title">茶園を引き継いだあと、確認して歩く順番を描いたイラスト</title>
+  <desc id="fig2Desc">森町の茶畑と山並みを背景に、一本の農道が奥へ続き、道沿いに五つの場面が順に並びます。手前から、権利証と納税通知書を机に広げる場面、役場の窓口で相続の届出をする場面、茶園の畝で防霜ファンと道幅を確かめる場面、共同製茶工場で受け入れを相談する場面、家族が一枚の記録にまとめる場面です。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="t2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d5e8f2"/><stop offset="0.65" stop-color="#ecf4f0"/><stop offset="1" stop-color="#f6f9ee"/>
+    </linearGradient>
+    <linearGradient id="t2far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a3c0cd"/><stop offset="1" stop-color="#c0d6da"/>
+    </linearGradient>
+    <linearGradient id="t2tea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fbb68"/><stop offset="1" stop-color="#54843c"/>
+    </linearGradient>
+    <linearGradient id="t2road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9cdb0"/><stop offset="1" stop-color="#c3b48f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#t2sky)"/>
+  <circle cx="122" cy="70" r="28" fill="#ffffff" opacity="0.7"/>
+
+  <!-- 遠景 -->
+  <path fill="url(#t2far)" d="M0 154 L108 118 L200 150 L300 110 L404 150 L508 114 L612 152 L716 116 L820 154 L920 120 L1000 152 L1000 214 L0 214 Z"/>
+  <rect x="0" y="208" width="1000" height="352" fill="#e2ecd8"/>
+  <path fill="url(#t2tea)" d="M0 212 L1000 200 L1000 268 L0 282 Z"/>
+  <g stroke="#3e6f2e" stroke-width="2.4" opacity="0.5">
+    <path d="M0 224 L1000 212"/><path d="M0 238 L1000 226"/><path d="M0 252 L1000 240"/><path d="M0 266 L1000 254"/>
+  </g>
+  <path fill="#d5e3c8" d="M0 280 L1000 266 L1000 560 L0 560 Z"/>
+
+  <!-- 奥へ続く農道 -->
+  <path fill="url(#t2road)" d="M470 268 L530 268 L860 560 L120 560 Z"/>
+  <path fill="none" stroke="#ffffff" stroke-width="5" stroke-dasharray="16 26" opacity="0.8" d="M500 274 L500 560"/>
+
+  <!-- 場面1：書類を広げる -->
+  <g>
+    <rect x="34" y="404" width="196" height="126" rx="10" fill="#ffffff" stroke="#b7bfae" stroke-width="2"/>
+    <rect x="52" y="440" width="160" height="72" rx="6" fill="#8d6f4e" stroke="#66502f" stroke-width="2"/>
+    <rect x="66" y="452" width="60" height="48" rx="3" fill="#fbf7ea" stroke="#c3b48f" stroke-width="1.6"/>
+    <rect x="132" y="446" width="62" height="46" rx="3" fill="#eef3f7" stroke="#9db2c0" stroke-width="1.6"/>
+    <g stroke="#9a8f77" stroke-width="1.6"><path d="M74 464 h44 M74 472 h44 M74 480 h30"/></g>
+    <g stroke="#7d94a4" stroke-width="1.6"><path d="M140 458 h46 M140 466 h46 M140 474 h32"/></g>
+    <circle cx="98" cy="492" r="7" fill="#c8493a"/>
+    <text x="132" y="426" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#2a4a3f" text-anchor="middle">1 書類を集める</text>
+    <text x="132" y="524" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#4f5a52" text-anchor="middle">権利証・納税通知書・公図</text>
+  </g>
+
+  <!-- 場面2：役場の窓口 -->
+  <g>
+    <rect x="252" y="368" width="188" height="122" rx="10" fill="#ffffff" stroke="#b7bfae" stroke-width="2"/>
+    <rect x="268" y="428" width="156" height="14" rx="3" fill="#b39b73" stroke="#8a7550" stroke-width="1.6"/>
+    <rect x="272" y="404" width="52" height="24" rx="3" fill="#fbf7ea" stroke="#c3b48f" stroke-width="1.6"/>
+    <g stroke="#9a8f77" stroke-width="1.4"><path d="M280 412 h36 M280 419 h26"/></g>
+    <circle cx="292" cy="386" r="11" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M292 398 l0 26" stroke="#3f6b8c" stroke-width="11" stroke-linecap="round"/>
+    <path d="M292 404 l22 12" stroke="#3f6b8c" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <circle cx="396" cy="386" r="11" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M396 398 l0 26" stroke="#5b7f5a" stroke-width="11" stroke-linecap="round"/>
+    <path d="M396 404 l-22 12" stroke="#5b7f5a" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <text x="346" y="464" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#2a4a3f" text-anchor="middle">2 届出を確認する</text>
+    <text x="346" y="482" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#4f5a52" text-anchor="middle">相続を知って10か月以内</text>
+  </g>
+
+  <!-- 場面3：現地で畝と道を見る -->
+  <g>
+    <rect x="452" y="326" width="180" height="120" rx="10" fill="#ffffff" stroke="#b7bfae" stroke-width="2"/>
+    <path d="M468 402 q44 -22 88 0 q44 -22 60 0 l0 26 l-148 0 z" fill="#4f8039"/>
+    <g stroke="#2f5a24" stroke-width="1.8" opacity="0.6" fill="none"><path d="M470 408 q46 -18 92 0"/><path d="M540 416 q40 -16 80 0"/></g>
+    <g stroke="#4a5560" stroke-width="3.4" stroke-linecap="round" fill="none"><path d="M498 396 L498 344"/></g>
+    <circle cx="498" cy="342" r="6" fill="#6b7885"/>
+    <g fill="#95a3b0" stroke="#5b6874" stroke-width="1.4"><path d="M498 342 l26 -9 l0 18 z"/><path d="M498 342 l-26 9 l0 -18 z"/></g>
+    <circle cx="588" cy="366" r="11" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M588 378 l0 24" stroke="#8a5b3a" stroke-width="11" stroke-linecap="round"/>
+    <path d="M588 384 l-20 10" stroke="#8a5b3a" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <text x="542" y="428" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#2a4a3f" text-anchor="middle">3 現地を見る</text>
+    <text x="542" y="440" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#4f5a52" text-anchor="middle">道幅・防霜ファン・電気</text>
+  </g>
+
+  <!-- 場面4：共同製茶工場 -->
+  <g>
+    <rect x="646" y="292" width="176" height="120" rx="10" fill="#ffffff" stroke="#b7bfae" stroke-width="2"/>
+    <rect x="666" y="336" width="136" height="56" fill="#e6e1d3" stroke="#a89f88" stroke-width="2"/>
+    <path d="M660 338 L734 306 L808 338 Z" fill="#7c8a92" stroke="#5a6770" stroke-width="2"/>
+    <rect x="690" y="352" width="34" height="40" fill="#b9a58a" stroke="#8a7960" stroke-width="1.6"/>
+    <rect x="744" y="352" width="42" height="26" fill="#cdd8dc" stroke="#8f9aa1" stroke-width="1.6"/>
+    <rect x="778" y="300" width="14" height="38" fill="#8d97a0" stroke="#616c76" stroke-width="1.6"/>
+    <g fill="#ffffff" opacity="0.75"><ellipse cx="785" cy="292" rx="16" ry="8"/><ellipse cx="800" cy="280" rx="12" ry="6"/></g>
+    <rect x="666" y="392" width="40" height="16" rx="3" fill="#c7b18a" stroke="#9b8560" stroke-width="1.6"/>
+    <text x="734" y="404" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#2a4a3f" text-anchor="end">4 受け皿に聞く</text>
+  </g>
+  <text x="734" y="428" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#3c4a42" text-anchor="middle">生葉をどこへ持ち込むか</text>
+
+  <!-- 場面5：家族で一枚にまとめる -->
+  <g>
+    <rect x="828" y="264" width="152" height="116" rx="10" fill="#ffffff" stroke="#b7bfae" stroke-width="2"/>
+    <rect x="866" y="292" width="76" height="62" rx="4" fill="#fbf7ea" stroke="#c3b48f" stroke-width="2"/>
+    <g stroke="#9a8f77" stroke-width="1.6"><path d="M876 306 h56 M876 316 h56 M876 326 h56 M876 336 h38"/></g>
+    <circle cx="848" cy="288" r="10" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M848 299 l0 22" stroke="#5b7f5a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="960" cy="288" r="10" fill="#f0d6bd" stroke="#c9a684" stroke-width="1.6"/>
+    <path d="M960 299 l0 22" stroke="#a8623f" stroke-width="10" stroke-linecap="round"/>
+    <text x="904" y="372" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#2a4a3f" text-anchor="middle">5 一枚にまとめる</text>
+  </g>
+  <text x="904" y="398" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#3c4a42" text-anchor="middle">家族が読める記録にする</text>
+
+  <!-- 見出し帯 -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+    <rect x="24" y="24" width="330" height="34" rx="8" fill="#23504a" opacity="0.92"/>
+    <text x="42" y="47" font-size="17" font-weight="700" fill="#ffffff">摘採を決める前に歩く、五つの場面</text>
+    <rect x="24" y="64" width="252" height="28" rx="8" fill="#ffffff" opacity="0.92"/>
+    <text x="42" y="84" font-size="14" fill="#2a4a3f">逆から歩くと、何度も往復します</text>
+  </g>
+</svg>
