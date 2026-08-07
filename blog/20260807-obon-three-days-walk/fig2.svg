@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="obw2Title obw2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="obw2Title">お盆の三日間で確かめる五つの場面を道沿いに描いたイラスト</title>
+  <desc id="obw2Desc">画面の左下から右上へ一本の道が伸び、その道沿いに五つの場面が並びます。手前から、親と子が坂道を並んで歩く場面、路肩の水路と家の前の石段を指さして確かめる場面、縁側で地区別のハザードマップを一緒に開く場面、電話で相談窓口に問い合わせる場面、そして最後に台所の冷蔵庫へ救急医療情報キットの筒を入れ、食卓で紙一枚に書き残す場面です。奥には森町の山並みと茶畑が見えます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="obw2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe3ef"/><stop offset="0.62" stop-color="#edf3ec"/><stop offset="1" stop-color="#f7f9ef"/>
+    </linearGradient>
+    <linearGradient id="obw2far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93b3c5"/><stop offset="1" stop-color="#bacfd4"/>
+    </linearGradient>
+    <linearGradient id="obw2road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8d1be"/><stop offset="1" stop-color="#c3bca8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#obw2sky)"/>
+
+  <!-- 遠景 -->
+  <path fill="url(#obw2far)" d="M0 124 L98 88 L196 124 L296 82 L396 122 L496 84 L598 126 L698 86 L800 124 L900 88 L1000 126 L1000 184 L0 184 Z"/>
+  <g fill="#6ea07d">
+    <path d="M24 186 l20 -60 l20 60 z"/><path d="M70 186 l16 -48 l16 48 z"/>
+    <path d="M902 186 l20 -58 l20 58 z"/><path d="M948 186 l22 -64 l22 64 z"/>
+  </g>
+  <path fill="#7fa957" d="M0 184 C 200 166, 380 160, 540 178 C 700 196, 850 188, 1000 172 L1000 244 L0 244 Z"/>
+  <path fill="#96bf66" d="M0 238 L1000 222 L1000 292 L0 306 Z"/>
+  <g stroke="#7aa44c" stroke-width="4" opacity="0.5">
+    <path d="M0 256 L1000 240"/><path d="M0 280 L1000 264"/>
+  </g>
+  <path fill="#d3e2bb" d="M0 300 L1000 286 L1000 560 L0 560 Z"/>
+
+  <!-- 道 -->
+  <path fill="url(#obw2road)" d="M30 560 C 140 476, 116 428, 296 404 C 466 382, 516 348, 696 338 C 826 330, 900 344, 1000 338 L1000 380 C 900 386, 826 372, 700 380 C 524 392, 476 422, 308 444 C 164 464, 202 500, 122 560 Z"/>
+  <g stroke="#ffffff" stroke-width="5" stroke-dasharray="24 20" opacity="0.75" fill="none">
+    <path d="M78 552 C 168 476, 148 442, 302 424 C 472 404, 518 364, 698 358 C 830 354, 900 364, 1000 358"/>
+  </g>
+
+  <!-- 1 親と子が坂道を並んで歩く -->
+  <g>
+    <circle cx="66" cy="404" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M54 396 q12 -11 24 0" fill="none" stroke="#c8ccce" stroke-width="6"/>
+    <path d="M66 420 L66 466" stroke="#8a6f9c" stroke-width="18" stroke-linecap="round"/>
+    <path d="M58 466 L50 504 M74 466 L82 504" stroke="#43505a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M60 432 L44 458" stroke="#8a6f9c" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="124" cy="392" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M110 387 q14 -14 28 0 l0 -5 q-14 -13 -28 0 z" fill="#4a4038"/>
+    <path d="M124 408 L124 456" stroke="#3f6f86" stroke-width="18" stroke-linecap="round"/>
+    <path d="M116 456 L108 496 M132 456 L140 496" stroke="#43505a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M118 422 L100 446" stroke="#3f6f86" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="34" cy="366" r="17" fill="#2c4a52"/>
+    <text x="34" y="372" font-size="17" fill="#ffffff" text-anchor="middle">1</text>
+    <rect x="14" y="512" width="188" height="30" rx="7" fill="#ffffff" opacity="0.95"/>
+    <text x="108" y="533" font-size="15" fill="#2c4a52" text-anchor="middle">一緒に歩いてみる</text>
+  </g>
+
+  <!-- 2 水路と石段を指さして確かめる -->
+  <g>
+    <path d="M232 424 L376 402 L380 424 L236 446 Z" fill="#a8a08a"/>
+    <path d="M240 428 L372 408 L374 418 L242 438 Z" fill="#8fc0d8"/>
+    <g fill="#c9c3b1" stroke="#a49d89" stroke-width="2">
+      <rect x="286" y="380" width="76" height="12"/>
+      <rect x="294" y="366" width="76" height="12"/>
+      <rect x="302" y="352" width="76" height="12"/>
+    </g>
+    <circle cx="238" cy="342" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M238 358 L238 402" stroke="#3f6f86" stroke-width="17" stroke-linecap="round"/>
+    <path d="M230 402 L222 442 M246 402 L254 442" stroke="#43505a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M244 368 L292 356" stroke="#3f6f86" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="298" cy="354" r="6" fill="#e3c39d"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="216" cy="312" r="17" fill="#2c4a52"/>
+    <text x="216" y="318" font-size="17" fill="#ffffff" text-anchor="middle">2</text>
+    <rect x="204" y="470" width="212" height="30" rx="7" fill="#ffffff" opacity="0.95"/>
+    <text x="310" y="491" font-size="15" fill="#2c4a52" text-anchor="middle">水路と石段を確かめる</text>
+  </g>
+
+  <!-- 3 縁側で地区別のハザードマップを開く -->
+  <g>
+    <rect x="426" y="300" width="164" height="14" fill="#c19a68" stroke="#96754b" stroke-width="2"/>
+    <rect x="440" y="230" width="136" height="72" rx="6" fill="#ffffff" stroke="#7c8a90" stroke-width="3"/>
+    <path d="M448 240 L568 240 L568 292 L448 292 Z" fill="#e7efdc"/>
+    <path d="M452 288 C 490 262, 512 282, 564 254" fill="none" stroke="#7fb4d2" stroke-width="6"/>
+    <path d="M470 246 L502 244 L508 268 L474 272 Z" fill="#e6c9a6" stroke="#c09a6a" stroke-width="2"/>
+    <circle cx="536" cy="276" r="8" fill="#c0442c"/>
+    <circle cx="424" cy="268" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M410 262 q14 -12 28 0" fill="none" stroke="#c8ccce" stroke-width="6"/>
+    <path d="M424 284 L424 318" stroke="#8a6f9c" stroke-width="17" stroke-linecap="round"/>
+    <path d="M430 294 L446 282" stroke="#8a6f9c" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="406" cy="216" r="17" fill="#2c4a52"/>
+    <text x="406" y="222" font-size="17" fill="#ffffff" text-anchor="middle">3</text>
+    <rect x="418" y="426" width="234" height="30" rx="7" fill="#a8551a" opacity="0.95"/>
+    <text x="535" y="447" font-size="15" fill="#ffffff" text-anchor="middle">地区のハザードマップを開く</text>
+  </g>
+
+  <!-- 4 相談窓口へ電話する -->
+  <g>
+    <circle cx="682" cy="264" r="17" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M666 258 q16 -15 32 0 l0 -6 q-16 -14 -32 0 z" fill="#4a4038"/>
+    <path d="M682 282 L682 330" stroke="#5c7f57" stroke-width="18" stroke-linecap="round"/>
+    <path d="M674 330 L666 368 M690 330 L698 368" stroke="#43505a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M676 292 L662 272" stroke="#5c7f57" stroke-width="9" stroke-linecap="round"/>
+    <rect x="650" y="248" width="20" height="34" rx="5" fill="#37474f" stroke="#22303a" stroke-width="2"/>
+    <rect x="654" y="254" width="12" height="20" rx="2" fill="#8fc0d8"/>
+    <g stroke="#5c7f57" stroke-width="3" fill="none" opacity="0.85">
+      <path d="M636 244 q-10 -8 -8 -20"/><path d="M626 250 q-16 -12 -14 -30"/>
+    </g>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="640" cy="200" r="17" fill="#2c4a52"/>
+    <text x="640" y="206" font-size="17" fill="#ffffff" text-anchor="middle">4</text>
+    <rect x="512" y="396" width="228" height="30" rx="7" fill="#ffffff" opacity="0.95"/>
+    <text x="626" y="417" font-size="15" fill="#2c4a52" text-anchor="middle">相談窓口へ電話してみる</text>
+  </g>
+
+  <!-- 5 冷蔵庫にキットを入れ、食卓で紙一枚に残す -->
+  <g>
+    <rect x="880" y="262" width="86" height="148" rx="6" fill="#eef1f2" stroke="#98a1a6" stroke-width="3"/>
+    <path d="M880 316 L966 316" stroke="#98a1a6" stroke-width="3"/>
+    <rect x="952" y="288" width="7" height="22" rx="3" fill="#8d959a"/>
+    <rect x="952" y="328" width="7" height="22" rx="3" fill="#8d959a"/>
+    <rect x="906" y="336" width="26" height="54" rx="12" fill="#e8b34a" stroke="#b8862f" stroke-width="3"/>
+    <path d="M910 352 L928 352 M910 364 L928 364" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="758" y="468" width="200" height="12" rx="3" fill="#c19a68" stroke="#96754b" stroke-width="2"/>
+    <rect x="794" y="418" width="84" height="50" rx="3" fill="#ffffff" stroke="#7c8a90" stroke-width="3"/>
+    <g stroke="#9aa4a9" stroke-width="3">
+      <path d="M802 432 L870 432"/><path d="M802 444 L870 444"/><path d="M802 456 L852 456"/>
+    </g>
+    <path d="M878 456 L906 476" stroke="#c0442c" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="778" cy="430" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M778 446 L778 486" stroke="#3f6f86" stroke-width="17" stroke-linecap="round"/>
+    <path d="M770 486 L762 518 M786 486 L794 518" stroke="#43505a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M784 456 L806 448" stroke="#3f6f86" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="852" cy="232" r="17" fill="#2c4a52"/>
+    <text x="852" y="238" font-size="17" fill="#ffffff" text-anchor="middle">5</text>
+    <rect x="756" y="526" width="230" height="30" rx="7" fill="#2c4a52" opacity="0.93"/>
+    <text x="871" y="547" font-size="15" fill="#ffffff" text-anchor="middle">キットと紙一枚を残して帰る</text>
+  </g>
+
+  <!-- 見出しラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="24" y="24" width="332" height="34" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="190" y="47" font-size="17" fill="#2c4a52" text-anchor="middle">三日間で、決めずに確かめる</text>
+    <rect x="24" y="64" width="332" height="30" rx="8" fill="#2c4a52" opacity="0.92"/>
+    <text x="190" y="85" font-size="15" fill="#ffffff" text-anchor="middle">歩く・確かめる・書き残すの順で進む</text>
+  </g>
+</svg>

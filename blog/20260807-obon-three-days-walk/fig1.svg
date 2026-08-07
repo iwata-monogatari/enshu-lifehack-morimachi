@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="obw1Title obw1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="obw1Title">夏の森町の集落を親と子が並んで歩く様子を描いたイラスト</title>
+  <desc id="obw1Desc">奥に山並みと杉林、その手前に茶畑の畝が段になって広がり、集落の坂道が手前へ下ってきます。道の右側には蓋のない水路が沿い、左側には石段を上がった先に瓦屋根の家があります。坂の途中を、杖を持たない高齢の親と成人した子が並んでゆっくり歩いています。少し先には集会所とバス停の標識、電柱の上には防災無線のスピーカーが付いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="obw1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bedcee"/><stop offset="0.58" stop-color="#e6f1ec"/><stop offset="1" stop-color="#f5f8ed"/>
+    </linearGradient>
+    <linearGradient id="obw1far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8bacc0"/><stop offset="1" stop-color="#b4cbd0"/>
+    </linearGradient>
+    <linearGradient id="obw1tea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fbb60"/><stop offset="1" stop-color="#6a9a45"/>
+    </linearGradient>
+    <linearGradient id="obw1road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8d1be"/><stop offset="1" stop-color="#c1baa6"/>
+    </linearGradient>
+    <linearGradient id="obw1water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcdcec"/><stop offset="1" stop-color="#7fb4d2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#obw1sky)"/>
+  <circle cx="880" cy="62" r="28" fill="#ffffff" opacity="0.75"/>
+  <g fill="#ffffff" opacity="0.5">
+    <ellipse cx="228" cy="60" rx="62" ry="17"/><ellipse cx="284" cy="52" rx="40" ry="12"/>
+  </g>
+
+  <!-- 遠景の山並みと杉林 -->
+  <path fill="url(#obw1far)" d="M0 156 L96 110 L188 150 L288 104 L390 148 L490 108 L592 152 L692 110 L796 150 L898 112 L1000 154 L1000 226 L0 226 Z"/>
+  <g fill="#5f9370">
+    <path d="M18 228 l24 -76 l24 76 z"/><path d="M74 228 l18 -58 l18 58 z"/><path d="M120 228 l22 -70 l22 70 z"/>
+    <path d="M834 228 l20 -62 l20 62 z"/><path d="M886 228 l24 -76 l24 76 z"/><path d="M940 228 l20 -62 l20 62 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="url(#obw1tea)" d="M0 226 C 200 206, 380 200, 540 218 C 700 236, 850 226, 1000 208 L1000 306 L0 306 Z"/>
+  <g stroke="#5c8a3c" stroke-width="5" opacity="0.6">
+    <path d="M0 242 C 200 222, 380 216, 540 234 C 700 252, 850 242, 1000 224"/>
+    <path d="M0 264 C 200 244, 380 238, 540 256 C 700 274, 850 264, 1000 246"/>
+    <path d="M0 286 C 200 266, 380 260, 540 278 C 700 296, 850 286, 1000 268"/>
+  </g>
+  <path fill="#cfe0b0" d="M0 300 L1000 282 L1000 560 L0 560 Z"/>
+
+  <!-- 坂道（奥から手前へ下る） -->
+  <path fill="url(#obw1road)" d="M556 300 L676 300 L900 560 L336 560 Z"/>
+  <g stroke="#ffffff" stroke-width="6" stroke-dasharray="26 22" opacity="0.7" fill="none">
+    <path d="M616 302 L620 560"/>
+  </g>
+
+  <!-- 右側の蓋のない水路 -->
+  <path fill="#a8a08a" d="M676 300 L714 300 L960 560 L890 560 Z"/>
+  <path fill="url(#obw1water)" d="M684 304 L706 304 L936 552 L906 552 Z"/>
+  <g stroke="#ffffff" stroke-width="3" opacity="0.6" fill="none">
+    <path d="M704 344 L726 368"/><path d="M746 396 L768 420"/><path d="M792 452 L814 476"/>
+  </g>
+
+  <!-- 左：石段を上がった先の家 -->
+  <g>
+    <rect x="96" y="316" width="220" height="128" fill="#f5eedd" stroke="#b0977a" stroke-width="3"/>
+    <path d="M76 318 L206 250 L336 318 Z" fill="#7d6b57"/>
+    <path d="M76 318 L336 318 L336 330 L76 330 Z" fill="#645544"/>
+    <rect x="126" y="348" width="54" height="52" fill="#c6dbe4" stroke="#94aeba" stroke-width="2"/>
+    <rect x="196" y="348" width="54" height="52" fill="#c6dbe4" stroke="#94aeba" stroke-width="2"/>
+    <rect x="266" y="352" width="38" height="92" fill="#a8845e" stroke="#84663f" stroke-width="2"/>
+    <rect x="96" y="438" width="220" height="10" fill="#a98f70"/>
+  </g>
+  <!-- 石段 -->
+  <g fill="#c9c3b1" stroke="#a49d89" stroke-width="2">
+    <rect x="212" y="452" width="120" height="16"/>
+    <rect x="222" y="470" width="120" height="16"/>
+    <rect x="232" y="488" width="120" height="16"/>
+    <rect x="242" y="506" width="120" height="16"/>
+    <rect x="252" y="524" width="120" height="16"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="26" y="470" width="176" height="30" rx="7" fill="#ffffff" opacity="0.95"/>
+    <text x="114" y="491" font-size="15" fill="#2c4a52" text-anchor="middle">玄関までの石段</text>
+  </g>
+
+  <!-- 水路の向こうの集会所 -->
+  <g>
+    <rect x="790" y="272" width="132" height="66" fill="#eef1ee" stroke="#98a1a6" stroke-width="3"/>
+    <path d="M778 274 L856 242 L934 274 Z" fill="#8d959a"/>
+    <rect x="810" y="290" width="38" height="30" fill="#c6dbe4" stroke="#94aeba" stroke-width="2"/>
+    <rect x="864" y="290" width="38" height="30" fill="#c6dbe4" stroke="#94aeba" stroke-width="2"/>
+  </g>
+
+  <!-- 道の左手のバス停の標識 -->
+  <g>
+    <rect x="462" y="300" width="8" height="68" fill="#9aa3a6"/>
+    <rect x="422" y="276" width="88" height="30" rx="5" fill="#ffffff" stroke="#2c4a52" stroke-width="3"/>
+    <text x="466" y="297" font-size="15" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700" fill="#2c4a52" text-anchor="middle">バス停</text>
+  </g>
+
+  <!-- 電柱と防災無線のスピーカー -->
+  <g>
+    <rect x="382" y="210" width="12" height="130" fill="#a3a396"/>
+    <rect x="360" y="224" width="56" height="7" fill="#8d8d80"/>
+    <path d="M388 216 L418 206 L418 234 L388 224 Z" fill="#cfd6d8" stroke="#96a1a4" stroke-width="2"/>
+  </g>
+
+  <!-- 親と子が並んで歩く -->
+  <g>
+    <!-- 親 -->
+    <circle cx="524" cy="418" r="20" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M508 408 q16 -14 32 0" fill="none" stroke="#c8ccce" stroke-width="7"/>
+    <path d="M524 438 L524 494" stroke="#8a6f9c" stroke-width="22" stroke-linecap="round"/>
+    <path d="M514 494 L504 542 M534 494 L544 542" stroke="#43505a" stroke-width="11" stroke-linecap="round"/>
+    <path d="M516 452 L494 484" stroke="#8a6f9c" stroke-width="11" stroke-linecap="round"/>
+    <path d="M534 452 L556 480" stroke="#8a6f9c" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g>
+    <!-- 子 -->
+    <circle cx="606" cy="398" r="20" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M588 392 q18 -18 36 0 l0 -6 q-18 -16 -36 0 z" fill="#4a4038"/>
+    <path d="M606 418 L606 480" stroke="#3f6f86" stroke-width="22" stroke-linecap="round"/>
+    <path d="M596 480 L584 532 M616 480 L628 532" stroke="#43505a" stroke-width="11" stroke-linecap="round"/>
+    <path d="M598 434 L572 466" stroke="#3f6f86" stroke-width="11" stroke-linecap="round"/>
+    <path d="M616 434 L640 462" stroke="#3f6f86" stroke-width="11" stroke-linecap="round"/>
+  </g>
+
+  <!-- 夏草 -->
+  <g stroke="#6f9a48" stroke-width="4" stroke-linecap="round">
+    <path d="M340 552 L332 522"/><path d="M356 556 L354 526"/><path d="M372 552 L380 524"/>
+    <path d="M912 550 L906 522"/><path d="M930 554 L932 524"/><path d="M948 550 L956 524"/>
+  </g>
+
+  <!-- 見出しラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="24" y="24" width="352" height="34" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="200" y="47" font-size="17" fill="#2c4a52" text-anchor="middle">生活圏は、地図ではなく道でできている</text>
+    <rect x="24" y="64" width="352" height="30" rx="8" fill="#2c4a52" opacity="0.92"/>
+    <text x="200" y="85" font-size="15" fill="#ffffff" text-anchor="middle">坂・水路・石段は、歩けば数分で分かる</text>
+  </g>
+</svg>
