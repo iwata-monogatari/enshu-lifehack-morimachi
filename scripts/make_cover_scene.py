@@ -257,11 +257,70 @@ def scene_water_routes(d):
     band(d, ["同じ森町でも、", "水の来る経路は一つでない"], "森町ライフハック／地区めぐり")
 
 
+def scene_tenhama_station(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [20, 66, 112, 692, 736], 300)
+    # 中景：茶畑
+    d.polygon([(0, 296), (760, 288), (760, 356), (0, 366)], fill=(139, 183, 95))
+    for i in range(4):
+        d.line([(0, 306 + i * 15), (760, 298 + i * 15)], fill=(93, 138, 62), width=3)
+    d.polygon([(0, 360), (760, 350), (760, BAND_TOP), (0, BAND_TOP)], fill=(203, 221, 178))
+    # 単線の線路（枕木とレール）
+    d.polygon([(0, 372), (760, 362), (760, 424), (0, 434)], fill=(205, 197, 174))
+    for x in range(8, 760, 46):
+        d.line([(x, 428), (x, 378)], fill=(156, 143, 116), width=7)
+    d.line([(0, 386), (760, 376)], fill=(92, 98, 102), width=6)
+    d.line([(0, 418), (760, 408)], fill=(92, 98, 102), width=6)
+    # 左：木造駅舎と屋根付きホーム
+    d.rectangle([36, 274, 198, 366], fill=(245, 238, 221), outline=(176, 151, 122), width=3)
+    d.polygon([(20, 276), (117, 226), (214, 276)], fill=(125, 107, 87))
+    d.rectangle([20, 276, 214, 286], fill=(100, 85, 68))
+    d.rectangle([58, 296, 96, 336], fill=(198, 219, 228), outline=(148, 174, 186), width=2)
+    d.rectangle([110, 296, 148, 336], fill=(198, 219, 228), outline=(148, 174, 186), width=2)
+    d.rectangle([160, 300, 190, 366], fill=(168, 132, 94), outline=(132, 102, 63), width=2)
+    d.rectangle([14, 366, 224, 378], fill=(222, 215, 198), outline=(179, 171, 152), width=2)
+    d.line([(26, 366), (26, 322)], fill=(141, 149, 154), width=5)
+    d.line([(212, 366), (212, 322)], fill=(141, 149, 154), width=5)
+    d.rectangle([8, 310, 230, 324], fill=(95, 138, 156))
+    # 一両の気動車
+    d.rounded_rectangle([252, 296, 452, 386], radius=10, fill=(238, 242, 241),
+                        outline=(147, 160, 162), width=3)
+    d.rectangle([252, 320, 452, 331], fill=(63, 125, 95))
+    for x in (266, 314, 362, 410):
+        d.rectangle([x, 338, x + 34, 368], fill=(188, 215, 226), outline=(139, 167, 180), width=2)
+    d.rectangle([278, 302, 338, 314], fill=(44, 74, 82))
+    d.ellipse([272, 374, 296, 398], fill=(74, 82, 87))
+    d.ellipse([414, 374, 438, 398], fill=(74, 82, 87))
+    # 右：待合小屋だけの駅
+    d.rectangle([578, 366, 748, 378], fill=(222, 215, 198), outline=(179, 171, 152), width=2)
+    d.rectangle([614, 318, 704, 366], fill=(236, 238, 233), outline=(154, 163, 166), width=3)
+    d.polygon([(600, 318), (659, 290), (718, 318)], fill=(141, 149, 154))
+    d.rectangle([632, 332, 686, 350], fill=(198, 219, 228), outline=(148, 174, 186), width=2)
+    # 手前：町道と町営バスの停留所
+    d.polygon([(0, 470), (760, 452), (760, BAND_TOP), (0, BAND_TOP)], fill=(205, 197, 176))
+    for i in range(3):
+        d.line([(0, 502 + i * 26), (760, 484 + i * 26)], fill=(255, 255, 255), width=4)
+    d.rectangle([196, 452, 205, 560], fill=(141, 149, 154))
+    d.rectangle([138, 428, 264, 476], fill=(255, 255, 255), outline=(44, 74, 82), width=3)
+    d.text((152, 434), "町営バス", font=ImageFont.truetype(FONT_BOLD, 19), fill="#2c4a52")
+    d.text((146, 454), "要予約の便あり", font=ImageFont.truetype(FONT_REGULAR, 16), fill="#a8551a")
+    # 手前：駅へ向かう自転車
+    for cx in (520, 606):
+        d.ellipse([cx - 26, 500, cx + 26, 552], outline=(58, 66, 74), width=6)
+    d.line([(520, 526), (562, 490)], fill=(58, 66, 74), width=6)
+    d.line([(562, 490), (606, 526)], fill=(58, 66, 74), width=6)
+    d.line([(562, 490), (582, 526)], fill=(58, 66, 74), width=6)
+    d.line([(560, 490), (550, 470)], fill=(58, 66, 74), width=6)
+    band(d, ["「駅が近い」は、", "本数と接続を見てから"], "森町ライフハック／地区めぐり")
+
+
 SCENES = {
     "20260806-electric-fence-subsidy": scene_electric_fence,
     "20260806-cadastral-survey-boundary": scene_cadastral,
     "20260807-smart-ic-livability": scene_smart_ic,
     "20260807-water-supply-routes": scene_water_routes,
+    "20260807-tenhama-station-frequency": scene_tenhama_station,
 }
 
 

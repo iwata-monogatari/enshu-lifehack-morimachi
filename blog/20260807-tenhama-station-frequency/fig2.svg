@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tsf2Title tsf2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="tsf2Title">森町で駅の使い勝手を確かめる五つの場面を道沿いに描いたイラスト</title>
+  <desc id="tsf2Desc">画面の左下から右上へ一本の道が伸び、その道沿いに五つの場面が並びます。手前から、駅のホームで印刷した時刻表を数える人、赤いペンで終電の時刻に印を付ける手、机の上のノートに日中の長い空白を横棒で書き出す場面、駅前のバス停で予約が必要かどうかを確かめる人、そして最後に家の玄関先で家族と往復の運賃ぶんの現金を数える場面です。奥には森町の山並みと茶畑、単線の線路が見えます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="tsf2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3e5ef"/><stop offset="0.62" stop-color="#ecf3ec"/><stop offset="1" stop-color="#f6f8ee"/>
+    </linearGradient>
+    <linearGradient id="tsf2far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93b3c5"/><stop offset="1" stop-color="#b8ced3"/>
+    </linearGradient>
+    <linearGradient id="tsf2road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d6cfbc"/><stop offset="1" stop-color="#c2bba7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#tsf2sky)"/>
+
+  <!-- 遠景 -->
+  <path fill="url(#tsf2far)" d="M0 130 L96 92 L192 128 L292 86 L392 126 L492 88 L594 130 L692 90 L796 128 L898 92 L1000 132 L1000 190 L0 190 Z"/>
+  <g fill="#71a17f">
+    <path d="M28 192 l20 -62 l20 62 z"/><path d="M76 192 l16 -50 l16 50 z"/>
+    <path d="M896 192 l20 -60 l20 60 z"/><path d="M944 192 l22 -66 l22 66 z"/>
+  </g>
+  <path fill="#7fa957" d="M0 190 C 200 172, 380 166, 540 184 C 700 202, 850 194, 1000 178 L1000 250 L0 250 Z"/>
+  <path fill="#96bf66" d="M0 244 L1000 228 L1000 292 L0 306 Z"/>
+  <g stroke="#7aa44c" stroke-width="4" opacity="0.5">
+    <path d="M0 262 L1000 246"/><path d="M0 286 L1000 270"/>
+  </g>
+  <!-- 奥の単線 -->
+  <path fill="#cdc5ae" d="M0 300 L1000 286 L1000 318 L0 332 Z"/>
+  <g stroke="#5c6266" stroke-width="4">
+    <path d="M0 308 L1000 294"/><path d="M0 322 L1000 308"/>
+  </g>
+  <path fill="#d3e2bb" d="M0 330 L1000 316 L1000 560 L0 560 Z"/>
+
+  <!-- 道 -->
+  <path fill="url(#tsf2road)" d="M40 560 C 150 470, 120 420, 300 396 C 470 374, 520 340, 700 330 C 830 322, 900 336, 1000 330 L1000 372 C 900 378, 830 364, 704 372 C 528 384, 480 414, 312 436 C 168 456, 210 494, 130 560 Z"/>
+  <g stroke="#ffffff" stroke-width="5" stroke-dasharray="24 20" opacity="0.75" fill="none">
+    <path d="M86 552 C 176 470, 152 434, 306 416 C 476 396, 522 356, 702 350 C 834 346, 900 356, 1000 350"/>
+  </g>
+
+  <!-- 1 ホームで時刻表を数える -->
+  <g>
+    <rect x="30" y="430" width="150" height="12" fill="#ded7c6" stroke="#b3ab98" stroke-width="2"/>
+    <circle cx="86" cy="384" r="17" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M86 401 L86 434" stroke="#3f6f86" stroke-width="17" stroke-linecap="round"/>
+    <path d="M78 434 L70 466 M94 434 L102 466" stroke="#3d4a52" stroke-width="9" stroke-linecap="round"/>
+    <rect x="104" y="392" width="62" height="80" rx="4" fill="#ffffff" stroke="#7c8a90" stroke-width="3"/>
+    <rect x="104" y="392" width="62" height="14" fill="#3f7d5f"/>
+    <g stroke="#8d979c" stroke-width="3">
+      <path d="M112 418 L158 418"/><path d="M112 430 L158 430"/><path d="M112 442 L158 442"/><path d="M112 454 L146 454"/>
+    </g>
+    <path d="M92 400 L108 408" stroke="#3f6f86" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="46" cy="358" r="17" fill="#2c4a52"/>
+    <text x="46" y="364" font-size="17" fill="#ffffff" text-anchor="middle">1</text>
+    <rect x="16" y="490" width="204" height="30" rx="7" fill="#ffffff" opacity="0.95"/>
+    <text x="118" y="511" font-size="15" fill="#2c4a52" text-anchor="middle">時刻表を1枚数える</text>
+  </g>
+
+  <!-- 2 終電に赤で印を付ける -->
+  <g>
+    <rect x="252" y="316" width="118" height="104" rx="5" fill="#ffffff" stroke="#7c8a90" stroke-width="3"/>
+    <rect x="252" y="316" width="118" height="16" fill="#3f7d5f"/>
+    <g stroke="#98a2a7" stroke-width="3">
+      <path d="M262 346 L360 346"/><path d="M262 360 L360 360"/><path d="M262 374 L360 374"/><path d="M262 388 L360 388"/>
+    </g>
+    <circle cx="342" cy="402" r="15" fill="none" stroke="#c0442c" stroke-width="5"/>
+    <path d="M262 402 L318 402" stroke="#98a2a7" stroke-width="3"/>
+    <path d="M356 414 L410 452" stroke="#c0442c" stroke-width="11" stroke-linecap="round"/>
+    <path d="M406 448 L424 462" stroke="#6b7378" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="238" cy="296" r="17" fill="#2c4a52"/>
+    <text x="238" y="302" font-size="17" fill="#ffffff" text-anchor="middle">2</text>
+    <rect x="236" y="470" width="188" height="30" rx="7" fill="#ffffff" opacity="0.95"/>
+    <text x="330" y="491" font-size="15" fill="#2c4a52" text-anchor="middle">終電に印を付ける</text>
+  </g>
+
+  <!-- 3 空く時間帯を書き出す -->
+  <g>
+    <rect x="452" y="290" width="150" height="96" rx="5" fill="#fbf8ee" stroke="#b3ab98" stroke-width="3"/>
+    <path d="M452 306 L602 306" stroke="#d6cdb6" stroke-width="3"/>
+    <rect x="466" y="320" width="26" height="14" rx="3" fill="#8fb85f"/>
+    <rect x="500" y="320" width="26" height="14" rx="3" fill="#8fb85f"/>
+    <rect x="466" y="342" width="122" height="16" rx="4" fill="#e6d3a8" stroke="#c0a468" stroke-width="2"/>
+    <rect x="466" y="366" width="26" height="14" rx="3" fill="#8fb85f"/>
+    <rect x="534" y="366" width="26" height="14" rx="3" fill="#8fb85f"/>
+    <path d="M470 350 L584 350" stroke="#c0442c" stroke-width="4" stroke-dasharray="8 6"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="440" cy="272" r="17" fill="#2c4a52"/>
+    <text x="440" y="278" font-size="17" fill="#ffffff" text-anchor="middle">3</text>
+    <rect x="428" y="424" width="228" height="30" rx="7" fill="#a8551a" opacity="0.95"/>
+    <text x="542" y="445" font-size="15" fill="#ffffff" text-anchor="middle">いちばん長い空白を書く</text>
+  </g>
+
+  <!-- 4 駅前のバス停で予約の要否を確かめる -->
+  <g>
+    <rect x="700" y="266" width="9" height="86" fill="#9aa3a6"/>
+    <rect x="646" y="248" width="122" height="46" rx="6" fill="#ffffff" stroke="#2c4a52" stroke-width="3"/>
+    <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+      <text x="707" y="269" font-size="15" fill="#2c4a52" text-anchor="middle">町営バス</text>
+      <text x="707" y="287" font-size="14" fill="#a8551a" text-anchor="middle">要予約の便あり</text>
+    </g>
+    <circle cx="646" cy="300" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M646 316 L646 350" stroke="#5c7f57" stroke-width="16" stroke-linecap="round"/>
+    <path d="M638 350 L630 382 M654 350 L662 382" stroke="#3d4a52" stroke-width="9" stroke-linecap="round"/>
+    <path d="M652 322 L682 306" stroke="#5c7f57" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="620" cy="230" r="17" fill="#2c4a52"/>
+    <text x="620" y="236" font-size="17" fill="#ffffff" text-anchor="middle">4</text>
+    <rect x="588" y="396" width="212" height="30" rx="7" fill="#ffffff" opacity="0.95"/>
+    <text x="694" y="417" font-size="15" fill="#2c4a52" text-anchor="middle">予約の要否を確かめる</text>
+  </g>
+
+  <!-- 5 玄関先で運賃ぶんの現金を数える -->
+  <g>
+    <rect x="820" y="356" width="150" height="106" fill="#f5eedd" stroke="#b0977a" stroke-width="3"/>
+    <path d="M804 356 L895 306 L986 356 Z" fill="#7d6b57"/>
+    <rect x="838" y="382" width="40" height="34" fill="#c6dbe4" stroke="#94aeba" stroke-width="2"/>
+    <rect x="906" y="382" width="48" height="80" fill="#a8845e" stroke="#84663f" stroke-width="2"/>
+    <circle cx="916" cy="424" r="4" fill="#f0e2c2"/>
+    <rect x="820" y="456" width="150" height="8" fill="#a98f70"/>
+  </g>
+  <g>
+    <circle cx="796" cy="428" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M796 444 L796 486" stroke="#7a5a8c" stroke-width="17" stroke-linecap="round"/>
+    <path d="M788 486 L780 522 M804 486 L812 522" stroke="#3d4a52" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="856" cy="452" r="14" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M856 466 L856 498" stroke="#3f6f86" stroke-width="15" stroke-linecap="round"/>
+    <path d="M848 498 L842 526 M864 498 L870 526" stroke="#3d4a52" stroke-width="8" stroke-linecap="round"/>
+    <path d="M806 458 L846 466" stroke="#7a5a8c" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="826" cy="470" r="13" fill="#e8c667" stroke="#b8922f" stroke-width="3"/>
+    <circle cx="846" cy="486" r="11" fill="#cdd3d6" stroke="#93a0a4" stroke-width="3"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="792" cy="330" r="17" fill="#2c4a52"/>
+    <text x="792" y="336" font-size="17" fill="#ffffff" text-anchor="middle">5</text>
+    <rect x="770" y="524" width="216" height="30" rx="7" fill="#2c4a52" opacity="0.93"/>
+    <text x="878" y="545" font-size="15" fill="#ffffff" text-anchor="middle">運賃と現金を家族で決める</text>
+  </g>
+
+  <!-- 見出しラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="24" y="24" width="348" height="34" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="198" y="47" font-size="17" fill="#2c4a52" text-anchor="middle">駅の使い勝手は、数字にできる</text>
+    <rect x="24" y="64" width="348" height="30" rx="8" fill="#2c4a52" opacity="0.92"/>
+    <text x="198" y="85" font-size="15" fill="#ffffff" text-anchor="middle">この順で見れば、その日のうちに終わる</text>
+  </g>
+</svg>

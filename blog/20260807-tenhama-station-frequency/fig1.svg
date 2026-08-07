@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tsf1Title tsf1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="tsf1Title">森町の天竜浜名湖線の三つの駅を横から描いたイラスト</title>
+  <desc id="tsf1Desc">奥に山並みと杉林、その手前に茶畑の畝が広がり、画面を横切って単線の線路が一本走っています。左には瓦屋根の木造駅舎と屋根付きホームを持つ有人駅があり、一両の気動車が行き違いのために停まっています。中央と右にはホームと待合小屋だけの小さな駅が並び、右の駅では自転車を押した人が線路の先を見て立っています。駅前には予約が必要な便のある町営バスの停留所があります。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="tsf1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe3ef"/><stop offset="0.6" stop-color="#eaf2ec"/><stop offset="1" stop-color="#f5f8ed"/>
+    </linearGradient>
+    <linearGradient id="tsf1far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fb0c3"/><stop offset="1" stop-color="#b6ccd1"/>
+    </linearGradient>
+    <linearGradient id="tsf1hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fa957"/><stop offset="1" stop-color="#639242"/>
+    </linearGradient>
+    <linearGradient id="tsf1car" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3f5f4"/><stop offset="0.62" stop-color="#e2e7e6"/><stop offset="1" stop-color="#c2cbc9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#tsf1sky)"/>
+  <circle cx="912" cy="62" r="24" fill="#ffffff" opacity="0.72"/>
+  <g fill="#ffffff" opacity="0.5">
+    <ellipse cx="196" cy="58" rx="56" ry="15"/><ellipse cx="246" cy="50" rx="36" ry="11"/>
+  </g>
+
+  <!-- 遠景の山並み -->
+  <path fill="url(#tsf1far)" d="M0 158 L92 114 L184 152 L282 106 L382 150 L480 110 L582 154 L680 112 L784 152 L886 114 L976 156 L1000 142 L1000 222 L0 222 Z"/>
+  <g fill="#6d9e7c">
+    <path d="M22 224 l24 -74 l24 74 z"/><path d="M80 224 l18 -58 l18 58 z"/><path d="M126 224 l22 -70 l22 70 z"/>
+    <path d="M818 224 l20 -62 l20 62 z"/><path d="M868 224 l24 -74 l24 74 z"/><path d="M926 224 l18 -56 l18 56 z"/><path d="M962 224 l24 -72 l24 72 z"/>
+  </g>
+
+  <!-- 丘と茶畑 -->
+  <path fill="url(#tsf1hill)" d="M0 222 C 190 200, 350 190, 500 210 C 660 232, 830 220, 1000 202 L1000 300 L0 300 Z"/>
+  <path fill="#93bd63" d="M0 292 L1000 274 L1000 372 L0 388 Z"/>
+  <g stroke="#78a24a" stroke-width="5" opacity="0.55">
+    <path d="M0 306 L1000 288"/><path d="M0 328 L1000 310"/><path d="M0 350 L1000 332"/><path d="M0 372 L1000 354"/>
+  </g>
+  <path fill="#cfe0b2" d="M0 384 L1000 366 L1000 560 L0 560 Z"/>
+
+  <!-- 線路（単線） -->
+  <path fill="#cdc5ae" d="M0 398 L1000 388 L1000 452 L0 462 Z"/>
+  <g stroke="#9c8f74" stroke-width="7">
+    <path d="M20 456 L20 404"/><path d="M96 456 L96 404"/><path d="M172 455 L172 403"/><path d="M248 455 L248 403"/><path d="M324 454 L324 402"/><path d="M400 454 L400 402"/><path d="M476 453 L476 401"/><path d="M552 453 L552 401"/><path d="M628 452 L628 400"/><path d="M704 452 L704 400"/><path d="M780 451 L780 399"/><path d="M856 451 L856 399"/><path d="M932 450 L932 398"/>
+  </g>
+  <g stroke="#5c6266" stroke-width="6" stroke-linecap="round">
+    <path d="M0 412 L1000 402"/><path d="M0 444 L1000 434"/>
+  </g>
+
+  <!-- 手前の地面 -->
+  <path fill="#bcd39c" d="M0 462 L1000 452 L1000 560 L0 560 Z"/>
+
+  <!-- 左：有人駅（木造駅舎と屋根付きホーム） -->
+  <g>
+    <rect x="52" y="286" width="182" height="104" fill="#f5eedd" stroke="#b0977a" stroke-width="3"/>
+    <path d="M34 288 L143 232 L252 288 Z" fill="#7d6b57"/>
+    <path d="M34 288 L252 288 L252 298 L34 298 Z" fill="#645544"/>
+    <rect x="76" y="312" width="42" height="46" fill="#c6dbe4" stroke="#94aeba" stroke-width="2"/>
+    <rect x="132" y="312" width="42" height="46" fill="#c6dbe4" stroke="#94aeba" stroke-width="2"/>
+    <rect x="188" y="316" width="32" height="74" fill="#a8845e" stroke="#84663f" stroke-width="2"/>
+    <rect x="52" y="384" width="182" height="8" fill="#a98f70"/>
+    <!-- 屋根付きホーム -->
+    <rect x="24" y="392" width="252" height="14" fill="#ded7c6" stroke="#b3ab98" stroke-width="2"/>
+    <g stroke="#8d959a" stroke-width="5">
+      <path d="M40 392 L40 344"/><path d="M262 392 L262 344"/>
+    </g>
+    <rect x="18" y="332" width="266" height="14" rx="4" fill="#5f8a9c"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="24" y="472" width="256" height="32" rx="8" fill="#2c4a52" opacity="0.93"/>
+    <text x="152" y="494" font-size="16" fill="#ffffff" text-anchor="middle">駅員のいる時間がある駅</text>
+  </g>
+
+  <!-- 一両の気動車（行き違いで停車中） -->
+  <g>
+    <rect x="304" y="330" width="196" height="84" rx="10" fill="url(#tsf1car)" stroke="#93a0a2" stroke-width="3"/>
+    <rect x="304" y="352" width="196" height="10" fill="#3f7d5f"/>
+    <g fill="#bcd7e2" stroke="#8ba7b4" stroke-width="2">
+      <rect x="318" y="368" width="38" height="30" rx="3"/><rect x="366" y="368" width="38" height="30" rx="3"/><rect x="414" y="368" width="38" height="30" rx="3"/><rect x="462" y="368" width="26" height="30" rx="3"/>
+    </g>
+    <rect x="330" y="336" width="60" height="12" rx="3" fill="#2c4a52"/>
+    <circle cx="336" cy="414" r="12" fill="#4a5257"/><circle cx="470" cy="414" r="12" fill="#4a5257"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="288" y="248" width="230" height="32" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="403" y="270" font-size="16" fill="#2c4a52" text-anchor="middle">行き違いで数分停まる</text>
+    <path d="M403 280 L403 328" stroke="#2c4a52" stroke-width="3"/>
+  </g>
+
+  <!-- 中央：待合小屋だけの駅 -->
+  <g>
+    <rect x="556" y="392" width="150" height="14" fill="#ded7c6" stroke="#b3ab98" stroke-width="2"/>
+    <rect x="586" y="342" width="82" height="50" fill="#eceee9" stroke="#9aa3a6" stroke-width="3"/>
+    <path d="M574 342 L627 314 L680 342 Z" fill="#8d959a"/>
+    <rect x="600" y="358" width="54" height="18" fill="#c6dbe4" stroke="#94aeba" stroke-width="2"/>
+    <rect x="712" y="352" width="8" height="54" fill="#9aa3a6"/>
+    <rect x="694" y="336" width="44" height="20" rx="3" fill="#ffffff" stroke="#5f8a9c" stroke-width="3"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="540" y="472" width="222" height="32" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="651" y="494" font-size="16" fill="#2c4a52" text-anchor="middle">待合小屋だけの駅</text>
+  </g>
+
+  <!-- 右：待合小屋だけの駅と、自転車を押す人 -->
+  <g>
+    <rect x="806" y="390" width="164" height="14" fill="#ded7c6" stroke="#b3ab98" stroke-width="2"/>
+    <rect x="846" y="340" width="84" height="50" fill="#eceee9" stroke="#9aa3a6" stroke-width="3"/>
+    <path d="M834 340 L888 312 L942 340 Z" fill="#8d959a"/>
+    <rect x="860" y="356" width="56" height="18" fill="#c6dbe4" stroke="#94aeba" stroke-width="2"/>
+  </g>
+  <g>
+    <circle cx="836" cy="512" r="20" fill="none" stroke="#4a5257" stroke-width="5"/>
+    <circle cx="906" cy="512" r="20" fill="none" stroke="#4a5257" stroke-width="5"/>
+    <path d="M836 512 L868 486 L906 512 M868 486 L884 512" fill="none" stroke="#4a5257" stroke-width="5"/>
+    <path d="M866 486 L858 470" stroke="#4a5257" stroke-width="5"/>
+    <circle cx="806" cy="452" r="15" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M806 468 L806 508" stroke="#3f6f86" stroke-width="14" stroke-linecap="round"/>
+    <path d="M806 508 L796 538 M806 508 L818 538" stroke="#3d4a52" stroke-width="9" stroke-linecap="round"/>
+    <path d="M810 480 L854 470" stroke="#3f6f86" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- 町営バスの停留所 -->
+  <g>
+    <rect x="330" y="452" width="9" height="82" fill="#9aa3a6"/>
+    <rect x="278" y="440" width="120" height="46" rx="6" fill="#ffffff" stroke="#2c4a52" stroke-width="3"/>
+    <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+      <text x="338" y="461" font-size="15" fill="#2c4a52" text-anchor="middle">町営バス</text>
+      <text x="338" y="479" font-size="14" fill="#a8551a" text-anchor="middle">要予約の便あり</text>
+    </g>
+  </g>
+
+  <!-- 見出しラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="600" y="24" width="376" height="34" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="788" y="47" font-size="17" fill="#2c4a52" text-anchor="middle">線路は一本でも、駅は同じではない</text>
+    <rect x="600" y="64" width="376" height="30" rx="8" fill="#2c4a52" opacity="0.92"/>
+    <text x="788" y="85" font-size="15" fill="#ffffff" text-anchor="middle">本数・空く時間帯・終電が駅で変わる</text>
+  </g>
+</svg>
