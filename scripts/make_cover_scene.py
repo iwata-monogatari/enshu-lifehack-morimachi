@@ -373,6 +373,88 @@ def scene_obon_walk(d):
     band(d, ["お盆の三日間で、", "親の生活圏を歩く"], "森町ライフハック／地区めぐり")
 
 
+def firework(d, cx, cy, r, color, tip):
+    for dx, dy in ((0, -1), (0.7, -0.7), (1, 0), (0.7, 0.7), (0, 1), (-0.7, 0.7), (-1, 0), (-0.7, -0.7)):
+        x2, y2 = cx + dx * r, cy + dy * r
+        d.line([(cx, cy), (x2, y2)], fill=color, width=4)
+        d.ellipse([x2 - 4, y2 - 4, x2 + 4, y2 + 4], fill=tip)
+
+
+def scene_hanabi_river(d):
+    # 夕暮れの空
+    for y in range(0, 262):
+        t = y / 262
+        d.line([(0, y), (S, y)], fill=(int(58 + 190 * t), int(84 + 138 * t), int(118 + 66 * t)))
+    d.rectangle([0, 262, S, BAND_TOP], fill=(226, 236, 216))
+    firework(d, 148, 92, 56, (244, 208, 106), (249, 236, 192))
+    firework(d, 402, 64, 44, (232, 139, 106), (246, 203, 180))
+    firework(d, 626, 118, 40, (168, 216, 200), (222, 240, 234))
+    mountains(d, 300)
+    cedars(d, [22, 66, 690, 734], 300)
+    # 段になった茶畑
+    d.polygon([(0, 292), (760, 284), (760, 340), (0, 350)], fill=(112, 148, 88))
+    for i in range(3):
+        d.line([(0, 300 + i * 15), (760, 292 + i * 15)], fill=(88, 122, 68), width=3)
+    # 橋（右手）
+    d.rectangle([470, 306, 760, 320], fill=(200, 204, 198))
+    d.rectangle([470, 298, 760, 306], fill=(226, 229, 223))
+    for x in (520, 620, 720):
+        d.rectangle([x, 320, x + 14, 356], fill=(176, 181, 174))
+    # 堤防と葉桜の並木
+    d.polygon([(0, 348), (760, 338), (760, 386), (0, 400)], fill=(147, 168, 120))
+    for cx in (56, 152, 248, 344, 440):
+        d.ellipse([cx - 40, 300, cx + 40, 350], fill=(79, 122, 67))
+        d.line([(cx, 352), (cx, 322)], fill=(107, 82, 56), width=7)
+    for cx in (104, 200, 296, 392):
+        d.line([(cx, 356), (cx, 314)], fill=(141, 143, 136), width=4)
+        d.rectangle([cx - 11, 292, cx + 11, 316], fill=(240, 201, 106), outline=(195, 154, 60), width=2)
+    # 河川敷（芝生）
+    d.polygon([(0, 396), (760, 382), (760, 486), (0, 504)], fill=(156, 184, 119))
+    # ローラースケート場のトラック
+    d.ellipse([26, 414, 250, 480], fill=(185, 176, 160), outline=(154, 146, 133), width=4)
+    d.ellipse([62, 428, 214, 466], fill=(168, 189, 133))
+    # グラウンドのバックネットと内野
+    d.polygon([(292, 434), (292, 368), (386, 362), (386, 432)], fill=(201, 212, 194),
+              outline=(141, 154, 136))
+    for x in (316, 340, 364):
+        d.line([(x, 366), (x, 434)], fill=(141, 154, 136), width=2)
+    for y in (388, 410):
+        d.line([(292, y), (386, y - 4)], fill=(141, 154, 136), width=2)
+    d.polygon([(296, 452), (420, 444), (446, 458), (304, 468)], fill=(203, 184, 148))
+    # 並んだ車
+    for row, col_fill in ((392, (232, 236, 231)), (418, (207, 214, 208))):
+        for i in range(4):
+            x = 466 + i * 60
+            d.rounded_rectangle([x, row - i, x + 48, row + 18 - i], radius=5,
+                                fill=col_fill, outline=(154, 162, 156), width=3)
+    # 屋台のテント
+    d.polygon([(568, 452), (634, 430), (700, 452), (700, 458), (568, 458)], fill=(192, 68, 44))
+    d.rectangle([576, 458, 692, 486], fill=(240, 236, 224), outline=(195, 189, 169), width=3)
+    d.line([(578, 486), (578, 498)], fill=(168, 160, 148), width=4)
+    d.line([(690, 486), (690, 498)], fill=(168, 160, 148), width=4)
+    # 河原を歩く人
+    for cx, cy in ((236, 420), (274, 428), (440, 424)):
+        d.ellipse([cx - 9, cy - 9, cx + 9, cy + 9], fill=(227, 195, 157), outline=(185, 146, 107), width=2)
+        d.rounded_rectangle([cx - 8, cy + 9, cx + 8, cy + 36], radius=7, fill=(63, 111, 134))
+        d.line([(cx - 4, cy + 36), (cx - 7, cy + 56)], fill=(67, 80, 90), width=6)
+        d.line([(cx + 4, cy + 36), (cx + 7, cy + 56)], fill=(67, 80, 90), width=6)
+    # 玉石の河原
+    d.polygon([(0, 498), (760, 480), (760, 518), (0, 538)], fill=(205, 201, 187))
+    for cx, cy in ((84, 522), (176, 514), (292, 510), (420, 504), (548, 500), (676, 494)):
+        d.ellipse([cx - 15, cy - 7, cx + 15, cy + 7], fill=(180, 176, 162))
+    # 川の流れ
+    d.polygon([(0, 534), (760, 514), (760, BAND_TOP), (0, BAND_TOP)], fill=(111, 155, 178))
+    d.line([(40, 566), (400, 552)], fill=(185, 219, 230), width=5)
+    d.line([(470, 578), (740, 564)], fill=(185, 219, 230), width=5)
+    d.polygon([(198, 576), (330, 564), (392, 576), (300, 586), (206, 582)], fill=(198, 194, 178))
+    # 量水標
+    d.rectangle([446, 486, 462, 588], fill=(242, 242, 236), outline=(91, 106, 114), width=3)
+    for y in (506, 526, 546, 566):
+        d.line([(446, y), (462, y)], fill=(91, 106, 114), width=3)
+    d.line([(438, 516), (470, 516)], fill=(192, 68, 44), width=5)
+    band(d, ["花火の会場は、", "一年の大半が川の中"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
     "20260806-electric-fence-subsidy": scene_electric_fence,
     "20260806-cadastral-survey-boundary": scene_cadastral,
@@ -380,6 +462,7 @@ SCENES = {
     "20260807-water-supply-routes": scene_water_routes,
     "20260807-tenhama-station-frequency": scene_tenhama_station,
     "20260807-obon-three-days-walk": scene_obon_walk,
+    "20260808-hanabi-river-area": scene_hanabi_river,
 }
 
 

@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="hra2Title hra2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="hra2Title">花火の日と、そのあとに確かめる五つの場面を川沿いの道に並べたイラスト</title>
+  <desc id="hra2Desc">画面の左下から右上へ、堤防沿いの道が伸びています。道沿いに五つの場面が順に並びます。一つ目は台所でハザードマップを開き、自宅と会場の位置を指でたどる場面。二つ目は雨雲と川の水位計を見て当日の空を確かめる場面。三つ目は駐車場と帰り道を地図に書き込む場面。四つ目は中止の知らせを電話とスピーカーで受け取る場面。五つ目は花火の翌日に、自分の家の川沿いの土地で境界杭と法面を見て回る場面です。奥には森町の山並みと茶畑、太田川の流れが見えます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="hra2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe3ef"/><stop offset="0.6" stop-color="#eef3ea"/><stop offset="1" stop-color="#f7f9ef"/>
+    </linearGradient>
+    <linearGradient id="hra2far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93b3c5"/><stop offset="1" stop-color="#bacfd4"/>
+    </linearGradient>
+    <linearGradient id="hra2road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8d1be"/><stop offset="1" stop-color="#c3bca8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#hra2sky)"/>
+
+  <!-- 遠景 -->
+  <path fill="url(#hra2far)" d="M0 118 L98 84 L196 120 L296 78 L396 118 L496 80 L598 122 L698 82 L800 120 L900 84 L1000 122 L1000 178 L0 178 Z"/>
+  <g fill="#6ea07d">
+    <path d="M22 180 l19 -56 l19 56 z"/><path d="M66 180 l15 -44 l15 44 z"/>
+    <path d="M906 180 l19 -54 l19 54 z"/><path d="M950 180 l21 -60 l21 60 z"/>
+  </g>
+  <path fill="#7fa957" d="M0 176 C 200 160, 380 154, 540 172 C 700 190, 850 182, 1000 166 L1000 232 L0 240 Z"/>
+  <g stroke="#7aa44c" stroke-width="4" opacity="0.5">
+    <path d="M0 196 L1000 182"/><path d="M0 216 L1000 202"/>
+  </g>
+
+  <!-- 太田川の流れ -->
+  <path fill="#8fc0d8" d="M0 240 C 220 224, 440 258, 660 240 C 820 226, 920 244, 1000 234 L1000 276 C 920 286, 820 268, 660 282 C 440 300, 220 266, 0 282 Z"/>
+  <g stroke="#c9e3ee" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M60 262 C 240 250, 400 274, 560 262"/>
+  </g>
+  <path fill="#d3e2bb" d="M0 282 L1000 268 L1000 560 L0 560 Z"/>
+
+  <!-- 堤防沿いの道 -->
+  <path fill="url(#hra2road)" d="M26 560 C 136 480, 112 432, 292 408 C 462 386, 512 352, 692 342 C 822 334, 898 348, 1000 342 L1000 384 C 898 390, 822 376, 696 384 C 520 396, 472 426, 304 448 C 160 468, 198 502, 118 560 Z"/>
+  <g stroke="#ffffff" stroke-width="5" stroke-dasharray="24 20" opacity="0.75" fill="none">
+    <path d="M74 552 C 164 480, 144 446, 298 428 C 468 408, 514 368, 694 362 C 826 358, 898 368, 1000 362"/>
+  </g>
+
+  <!-- 1 台所でハザードマップを開く -->
+  <g>
+    <rect x="18" y="446" width="180" height="12" rx="3" fill="#c19a68" stroke="#96754b" stroke-width="2"/>
+    <rect x="52" y="392" width="132" height="54" rx="4" fill="#ffffff" stroke="#7c8a90" stroke-width="3"/>
+    <path d="M60 400 L176 400 L176 438 L60 438 Z" fill="#e7efdc"/>
+    <path d="M64 434 C 100 412, 128 430, 172 408" fill="none" stroke="#7fb4d2" stroke-width="6"/>
+    <rect x="86" y="404" width="30" height="18" fill="#e6c9a6" stroke="#c09a6a" stroke-width="2"/>
+    <circle cx="150" cy="424" r="7" fill="#c0442c"/>
+    <circle cx="34" cy="400" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M34 416 L34 462" stroke="#3f6f86" stroke-width="17" stroke-linecap="round"/>
+    <path d="M26 462 L18 500 M42 462 L50 500" stroke="#43505a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M40 428 L64 414" stroke="#3f6f86" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="30" cy="360" r="17" fill="#2c4a52"/>
+    <text x="30" y="366" font-size="17" fill="#ffffff" text-anchor="middle">1</text>
+    <rect x="14" y="514" width="212" height="30" rx="7" fill="#ffffff" opacity="0.95"/>
+    <text x="120" y="535" font-size="15" fill="#2c4a52" text-anchor="middle">地区の地図で会場を探す</text>
+  </g>
+
+  <!-- 2 雨雲と水位計を見る -->
+  <g>
+    <g fill="#9fb0bb">
+      <ellipse cx="268" cy="318" rx="42" ry="20"/><ellipse cx="304" cy="310" rx="32" ry="17"/>
+    </g>
+    <g stroke="#7fb4d2" stroke-width="4" stroke-linecap="round">
+      <path d="M244 340 L238 358"/><path d="M268 340 L262 358"/><path d="M292 338 L286 356"/><path d="M316 336 L310 354"/>
+    </g>
+    <rect x="352" y="330" width="16" height="96" fill="#f2f2ec" stroke="#5b6a72" stroke-width="3"/>
+    <g stroke="#5b6a72" stroke-width="3">
+      <path d="M352 350 L368 350"/><path d="M352 372 L368 372"/><path d="M352 394 L368 394"/>
+    </g>
+    <path d="M344 362 L376 362" stroke="#c0442c" stroke-width="5"/>
+    <circle cx="238" cy="392" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M238 408 L238 452" stroke="#5c7f57" stroke-width="17" stroke-linecap="round"/>
+    <path d="M230 452 L222 490 M246 452 L254 490" stroke="#43505a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M244 418 L286 400" stroke="#5c7f57" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="292" cy="398" r="6" fill="#e3c39d"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="216" cy="308" r="17" fill="#2c4a52"/>
+    <text x="216" y="314" font-size="17" fill="#ffffff" text-anchor="middle">2</text>
+    <rect x="212" y="472" width="222" height="30" rx="7" fill="#ffffff" opacity="0.95"/>
+    <text x="323" y="493" font-size="15" fill="#2c4a52" text-anchor="middle">雨と川の水位を確かめる</text>
+  </g>
+
+  <!-- 3 駐車場と帰り道を書き込む -->
+  <g>
+    <rect x="430" y="296" width="150" height="16" rx="3" fill="#c19a68" stroke="#96754b" stroke-width="2"/>
+    <rect x="446" y="238" width="122" height="58" rx="4" fill="#ffffff" stroke="#7c8a90" stroke-width="3"/>
+    <g stroke="#9aa4a9" stroke-width="3">
+      <path d="M456 254 L558 254"/><path d="M456 268 L558 268"/>
+    </g>
+    <path d="M456 284 L520 284" stroke="#a8551a" stroke-width="5"/>
+    <g fill="#4a7a9c">
+      <rect x="470" y="242" width="18" height="10" rx="2"/><rect x="496" y="242" width="18" height="10" rx="2"/>
+      <rect x="522" y="242" width="18" height="10" rx="2"/>
+    </g>
+    <path d="M566 282 L594 300" stroke="#c0442c" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="424" cy="258" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M424 274 L424 314" stroke="#8a6f9c" stroke-width="17" stroke-linecap="round"/>
+    <path d="M430 286 L450 274" stroke="#8a6f9c" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="404" cy="212" r="17" fill="#2c4a52"/>
+    <text x="404" y="218" font-size="17" fill="#ffffff" text-anchor="middle">3</text>
+    <rect x="414" y="428" width="244" height="30" rx="7" fill="#a8551a" opacity="0.95"/>
+    <text x="536" y="449" font-size="15" fill="#ffffff" text-anchor="middle">駐車場と帰り道を先に決める</text>
+  </g>
+
+  <!-- 4 中止の知らせを受け取る -->
+  <g>
+    <rect x="716" y="176" width="9" height="112" fill="#a3a396"/>
+    <rect x="700" y="188" width="42" height="7" fill="#8d8f88"/>
+    <path d="M722 182 L754 172 L754 202 L722 192 Z" fill="#cfd6d8" stroke="#96a0a3" stroke-width="3"/>
+    <g stroke="#5c7f57" stroke-width="3" fill="none" opacity="0.85">
+      <path d="M764 176 q10 -8 8 -20"/><path d="M776 184 q16 -12 14 -32"/>
+    </g>
+    <circle cx="672" cy="262" r="17" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M656 256 q16 -15 32 0 l0 -6 q-16 -14 -32 0 z" fill="#4a4038"/>
+    <path d="M672 280 L672 328" stroke="#3f6f86" stroke-width="18" stroke-linecap="round"/>
+    <path d="M664 328 L656 366 M680 328 L688 366" stroke="#43505a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M666 290 L652 270" stroke="#3f6f86" stroke-width="9" stroke-linecap="round"/>
+    <rect x="640" y="246" width="20" height="34" rx="5" fill="#37474f" stroke="#22303a" stroke-width="2"/>
+    <rect x="644" y="252" width="12" height="20" rx="2" fill="#8fc0d8"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="630" cy="200" r="17" fill="#2c4a52"/>
+    <text x="630" y="206" font-size="17" fill="#ffffff" text-anchor="middle">4</text>
+    <rect x="508" y="396" width="238" height="30" rx="7" fill="#ffffff" opacity="0.95"/>
+    <text x="627" y="417" font-size="15" fill="#2c4a52" text-anchor="middle">中止の知らせ方を決めておく</text>
+  </g>
+
+  <!-- 5 翌日、川沿いの自分の土地を見て回る -->
+  <g>
+    <path d="M792 470 L1000 440 L1000 520 L792 550 Z" fill="#b9c9a0"/>
+    <path d="M792 470 L1000 440" stroke="#8fa77a" stroke-width="4"/>
+    <g>
+      <rect x="898" y="424" width="16" height="34" fill="#f4f2ea" stroke="#9a9484" stroke-width="3"/>
+      <path d="M900 436 L912 436" stroke="#c0442c" stroke-width="4"/>
+      <rect x="956" y="416" width="16" height="34" fill="#f4f2ea" stroke="#9a9484" stroke-width="3"/>
+      <path d="M958 428 L970 428" stroke="#c0442c" stroke-width="4"/>
+    </g>
+    <path d="M792 470 C 856 462, 920 450, 1000 440" fill="none" stroke="#a8551a" stroke-width="5" stroke-dasharray="14 10"/>
+    <circle cx="836" cy="424" r="17" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M820 418 q16 -14 32 0" fill="none" stroke="#c8ccce" stroke-width="6"/>
+    <path d="M836 442 L836 492" stroke="#5c7f57" stroke-width="18" stroke-linecap="round"/>
+    <path d="M828 492 L818 530 M844 492 L854 530" stroke="#43505a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M842 454 L886 440" stroke="#5c7f57" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="892" cy="438" r="6" fill="#e3c39d"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <circle cx="806" cy="384" r="17" fill="#2c4a52"/>
+    <text x="806" y="390" font-size="17" fill="#ffffff" text-anchor="middle">5</text>
+    <rect x="756" y="526" width="230" height="30" rx="7" fill="#2c4a52" opacity="0.93"/>
+    <text x="871" y="547" font-size="15" fill="#ffffff" text-anchor="middle">翌日、自分の川沿いを見て回る</text>
+  </g>
+
+  <!-- 見出しラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="24" y="24" width="336" height="34" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="192" y="47" font-size="17" fill="#2c4a52" text-anchor="middle">花火を見る前と、見たあとに</text>
+    <rect x="24" y="64" width="336" height="30" rx="8" fill="#2c4a52" opacity="0.92"/>
+    <text x="192" y="85" font-size="15" fill="#ffffff" text-anchor="middle">地図・水位・道・連絡・土地の順で確かめる</text>
+  </g>
+</svg>
