@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ysoTitle ysoDesc" preserveAspectRatio="xMidYMid meet">
+  <title id="ysoTitle">森町の集落にある屋台蔵と太鼓蔵、神社の境内、集会所を並べて描いたイラスト</title>
+  <desc id="ysoDesc">集落の道沿いに、大きな引き戸のついた縦長の屋台蔵が建ち、その扉のすきまから御所車型の二輪の屋台の車輪と提灯が見えています。となりには太鼓と笛と鉦をしまう小さな蔵があり、軒下に締太鼓が置かれています。道の向かいには石段と鳥居のある神社の境内、その奥に瓦屋根の集会所が建ち、掲示板に回覧の紙がとまっています。手前で三人が図面を広げて敷地の線を確かめており、境界杭も描かれています。背景は森町の山並み、杉林、段になった茶畑です。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ysoSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe1ee"/><stop offset="0.6" stop-color="#eef3ea"/><stop offset="1" stop-color="#f7f9ef"/>
+    </linearGradient>
+    <linearGradient id="ysoFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#94b3c4"/><stop offset="1" stop-color="#bacfd4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#ysoSky)"/>
+
+  <!-- 遠景の山と杉 -->
+  <path fill="url(#ysoFar)" d="M0 122 L100 82 L200 124 L300 78 L404 120 L508 80 L612 124 L714 84 L818 122 L916 86 L1000 124 L1000 182 L0 182 Z"/>
+  <g fill="#5f8f6f">
+    <path d="M22 184 l20 -58 l20 58 z"/><path d="M66 184 l16 -46 l16 46 z"/>
+    <path d="M902 184 l20 -56 l20 56 z"/><path d="M948 184 l22 -62 l22 62 z"/>
+  </g>
+  <!-- 段になった茶畑 -->
+  <path fill="#7fa957" d="M0 178 C 210 162, 400 158, 580 174 C 740 188, 870 180, 1000 168 L1000 236 L0 246 Z"/>
+  <g stroke="#6d9448" stroke-width="4" opacity="0.55">
+    <path d="M0 198 L1000 184"/><path d="M0 218 L1000 204"/>
+  </g>
+  <path fill="#d5e3bd" d="M0 240 L1000 226 L1000 560 L0 560 Z"/>
+
+  <!-- 集落の道 -->
+  <path fill="#cdc6b2" d="M0 336 L1000 312 L1000 366 L0 394 Z"/>
+  <g stroke="#ffffff" stroke-width="4" stroke-dasharray="26 22" opacity="0.7" fill="none">
+    <path d="M0 366 L1000 340"/>
+  </g>
+
+  <!-- 神社の境内（右奥） -->
+  <g>
+    <path d="M672 300 L1000 286 L1000 320 L672 334 Z" fill="#b9c8a4"/>
+    <!-- 石段 -->
+    <g fill="#cbc6b6" stroke="#a9a493" stroke-width="2">
+      <rect x="700" y="300" width="86" height="10"/><rect x="704" y="288" width="86" height="10"/>
+      <rect x="708" y="276" width="86" height="10"/>
+    </g>
+    <!-- 鳥居 -->
+    <g fill="#b8503a">
+      <rect x="716" y="212" width="10" height="66"/><rect x="778" y="210" width="10" height="66"/>
+      <rect x="702" y="200" width="100" height="11"/><rect x="708" y="220" width="88" height="8"/>
+    </g>
+    <!-- 拝殿 -->
+    <path d="M836 252 L906 218 L976 252 L976 258 L836 258 Z" fill="#7d6a53"/>
+    <rect x="848" y="258" width="116" height="48" fill="#efe7d5" stroke="#b5a487" stroke-width="3"/>
+    <rect x="890" y="272" width="32" height="34" fill="#c2a074" stroke="#9d7f57" stroke-width="2"/>
+    <!-- 杉 -->
+    <g fill="#4f7a52"><path d="M812 300 l16 -52 l16 52 z"/><path d="M660 300 l14 -46 l14 46 z"/></g>
+  </g>
+
+  <!-- 集会所（中央奥）と掲示板 -->
+  <g>
+    <path d="M452 262 L534 226 L616 262 L616 268 L452 268 Z" fill="#8d949a"/>
+    <rect x="464" y="268" width="140" height="66" fill="#eff1ec" stroke="#aeb4ae" stroke-width="3"/>
+    <rect x="482" y="284" width="34" height="30" fill="#c3d9e3" stroke="#96b1bd" stroke-width="2"/>
+    <rect x="530" y="284" width="34" height="30" fill="#c3d9e3" stroke="#96b1bd" stroke-width="2"/>
+    <rect x="572" y="292" width="24" height="42" fill="#c2a074" stroke="#9d7f57" stroke-width="2"/>
+    <!-- 掲示板と回覧 -->
+    <g>
+      <rect x="392" y="272" width="52" height="6" fill="#8c8578"/>
+      <rect x="396" y="278" width="8" height="58" fill="#8c8578"/><rect x="432" y="278" width="8" height="58" fill="#8c8578"/>
+      <rect x="392" y="284" width="52" height="42" fill="#f6f4ea" stroke="#b3ac9a" stroke-width="3"/>
+      <g stroke="#a8551a" stroke-width="3"><path d="M400 296 L436 296"/><path d="M400 306 L436 306"/><path d="M400 316 L424 316"/></g>
+    </g>
+  </g>
+
+  <!-- 屋台蔵（左・主役） -->
+  <g>
+    <path d="M40 262 L176 190 L312 262 L312 270 L40 270 Z" fill="#6f5b45"/>
+    <rect x="40" y="266" width="272" height="8" fill="#54452f"/>
+    <rect x="58" y="274" width="236" height="152" fill="#efe9da" stroke="#b0a68e" stroke-width="4"/>
+    <!-- 大きな引き戸 -->
+    <rect x="92" y="298" width="168" height="128" fill="#c9ab77" stroke="#96754b" stroke-width="4"/>
+    <path d="M176 298 L176 426" stroke="#96754b" stroke-width="5"/>
+    <!-- 開いたすきまから見える屋台 -->
+    <rect x="158" y="306" width="42" height="120" fill="#3d3428"/>
+    <circle cx="179" cy="392" r="26" fill="none" stroke="#d3b46f" stroke-width="7"/>
+    <circle cx="179" cy="392" r="7" fill="#d3b46f"/>
+    <g stroke="#d3b46f" stroke-width="3">
+      <path d="M179 366 L179 418"/><path d="M153 392 L205 392"/><path d="M161 374 L197 410"/><path d="M197 374 L161 410"/>
+    </g>
+    <rect x="166" y="316" width="26" height="34" rx="12" fill="#f0d68e" stroke="#c39a3c" stroke-width="3"/>
+    <path d="M168 330 L190 330" stroke="#b8503a" stroke-width="3"/>
+    <!-- 蔵の札 -->
+    <rect x="220" y="312" width="56" height="34" fill="#ffffff" stroke="#8d9aa0" stroke-width="3"/>
+    <g stroke="#8d9aa0" stroke-width="3"><path d="M228 324 L268 324"/><path d="M228 334 L258 334"/></g>
+  </g>
+
+  <!-- 太鼓蔵（屋台蔵のとなり） -->
+  <g>
+    <path d="M320 302 L378 268 L436 302 L436 308 L320 308 Z" fill="#7d6a53"/>
+    <rect x="332" y="306" width="92" height="98" fill="#efe9da" stroke="#b0a68e" stroke-width="4"/>
+    <rect x="352" y="330" width="52" height="74" fill="#c9ab77" stroke="#96754b" stroke-width="3"/>
+    <!-- 軒下の締太鼓 -->
+    <ellipse cx="452" cy="392" rx="28" ry="22" fill="#b8503a" stroke="#8c3a29" stroke-width="3"/>
+    <ellipse cx="452" cy="392" rx="18" ry="14" fill="#f0e0c2" stroke="#c9b58e" stroke-width="3"/>
+    <path d="M480 372 L502 356 M480 412 L502 428" stroke="#c2a074" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 境界杭 -->
+  <g>
+    <rect x="612" y="392" width="16" height="40" fill="#f4f2ea" stroke="#9a9484" stroke-width="3"/>
+    <path d="M614 406 L626 406" stroke="#c0442c" stroke-width="4"/>
+    <rect x="836" y="374" width="16" height="38" fill="#f4f2ea" stroke="#9a9484" stroke-width="3"/>
+    <path d="M838 388 L850 388" stroke="#c0442c" stroke-width="4"/>
+    <path d="M620 392 C 700 386, 770 380, 844 374" fill="none" stroke="#a8551a" stroke-width="5" stroke-dasharray="16 12"/>
+  </g>
+
+  <!-- 手前：図面を広げて確かめる三人 -->
+  <g>
+    <rect x="524" y="486" width="270" height="14" rx="4" fill="#c19a68" stroke="#96754b" stroke-width="3"/>
+    <rect x="556" y="440" width="206" height="48" rx="4" fill="#fdfbf3" stroke="#7c8a90" stroke-width="3"/>
+    <g stroke="#c3bda9" stroke-width="2">
+      <path d="M590 440 L590 488"/><path d="M624 440 L624 488"/><path d="M658 440 L658 488"/><path d="M692 440 L692 488"/><path d="M726 440 L726 488"/>
+      <path d="M556 456 L762 456"/><path d="M556 472 L762 472"/>
+    </g>
+    <path d="M600 450 L690 448 L694 480 L604 482 Z" fill="#e2ecd6" stroke="#8fae7d" stroke-width="3"/>
+    <path d="M600 450 L604 482" stroke="#c0442c" stroke-width="5"/>
+    <circle cx="524" cy="430" r="17" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M508 424 q16 -14 32 0" fill="none" stroke="#c8ccce" stroke-width="6"/>
+    <path d="M524 448 L524 496" stroke="#5c7f57" stroke-width="19" stroke-linecap="round"/>
+    <path d="M516 496 L506 538 M532 496 L542 538" stroke="#43505a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M530 462 L560 452" stroke="#5c7f57" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="798" cy="424" r="17" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M782 418 q16 -15 32 0 l0 -6 q-16 -13 -32 0 z" fill="#4a4038"/>
+    <path d="M798 442 L798 492" stroke="#3f6f86" stroke-width="19" stroke-linecap="round"/>
+    <path d="M790 492 L780 534 M806 492 L816 534" stroke="#43505a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M792 456 L762 448" stroke="#3f6f86" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="664" cy="404" r="16" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M664 420 L664 442" stroke="#8a6f9c" stroke-width="18" stroke-linecap="round"/>
+    <path d="M672 430 L700 444" stroke="#8a6f9c" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- 見出しラベル -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700">
+    <rect x="24" y="24" width="352" height="34" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="200" y="47" font-size="17" fill="#2c4a52" text-anchor="middle">屋台と太鼓には、しまう建物がいる</text>
+    <rect x="24" y="64" width="352" height="30" rx="8" fill="#2c4a52" opacity="0.92"/>
+    <text x="200" y="85" font-size="15" fill="#ffffff" text-anchor="middle">その建物には、名義と敷地がある</text>
+  </g>
+</svg>

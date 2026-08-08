@@ -455,6 +455,97 @@ def scene_hanabi_river(d):
     band(d, ["花火の会場は、", "一年の大半が川の中"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_yatai_storage(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [18, 62, 700, 742], 300)
+    # 段になった茶畑
+    d.polygon([(0, 292), (760, 284), (760, 336), (0, 346)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 14), (760, 292 + i * 14)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 340), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(213, 227, 200))
+    # 右奥：神社の境内
+    d.polygon([(452, 340), (760, 330), (760, 380), (452, 390)], fill=(184, 200, 164))
+    for i in range(3):
+        d.rectangle([470 + i * 5, 356 - i * 12, 556 + i * 5, 366 - i * 12],
+                    fill=(203, 198, 182), outline=(169, 164, 147), width=2)
+    d.rectangle([566, 250, 578, 340], fill=(184, 80, 58))
+    d.rectangle([640, 248, 652, 338], fill=(184, 80, 58))
+    d.rectangle([552, 234, 666, 248], fill=(184, 80, 58))
+    d.rectangle([560, 266, 658, 276], fill=(184, 80, 58))
+    d.polygon([(660, 300), (704, 272), (748, 300)], fill=(125, 106, 83))
+    d.rectangle([668, 300, 742, 344], fill=(239, 231, 213), outline=(181, 164, 135), width=3)
+    d.rectangle([692, 314, 718, 344], fill=(194, 160, 116), outline=(157, 127, 87), width=2)
+    cedars(d, [452, 740], 344, h=44, color=(79, 122, 82))
+    # 中央奥：集会所と掲示板
+    d.polygon([(292, 302), (356, 270), (420, 302)], fill=(141, 148, 154))
+    d.rectangle([302, 302, 410, 352], fill=(239, 241, 236), outline=(174, 180, 174), width=3)
+    d.rectangle([316, 316, 344, 340], fill=(195, 217, 227), outline=(150, 177, 189), width=2)
+    d.rectangle([356, 316, 384, 340], fill=(195, 217, 227), outline=(150, 177, 189), width=2)
+    d.rectangle([392, 322, 406, 352], fill=(194, 160, 116), outline=(157, 127, 87), width=2)
+    d.rectangle([236, 308, 288, 314], fill=(140, 133, 120))
+    d.rectangle([240, 314, 248, 358], fill=(140, 133, 120))
+    d.rectangle([276, 314, 284, 358], fill=(140, 133, 120))
+    d.rectangle([236, 316, 288, 350], fill=(246, 244, 234), outline=(179, 172, 154), width=3)
+    for i in range(3):
+        d.line([(244, 326 + i * 8), (280 - i * 8, 326 + i * 8)], fill=(168, 85, 26), width=3)
+    # 左：屋台蔵（主役）
+    d.polygon([(10, 356), (146, 288), (282, 356)], fill=(111, 91, 69))
+    d.rectangle([10, 352, 282, 364], fill=(84, 69, 47))
+    d.rectangle([28, 362, 266, 506], fill=(239, 233, 218), outline=(176, 166, 142), width=4)
+    d.rectangle([58, 386, 238, 506], fill=(201, 171, 119), outline=(150, 117, 75), width=4)
+    d.line([(148, 386), (148, 506)], fill=(150, 117, 75), width=5)
+    # 開いたすきまから見える屋台
+    d.rectangle([130, 394, 174, 506], fill=(61, 52, 40))
+    d.ellipse([122, 428, 182, 488], outline=(211, 180, 111), width=7)
+    d.ellipse([148, 454, 156, 462], fill=(211, 180, 111))
+    d.line([(152, 430), (152, 486)], fill=(211, 180, 111), width=3)
+    d.line([(124, 458), (180, 458)], fill=(211, 180, 111), width=3)
+    d.line([(132, 438), (172, 478)], fill=(211, 180, 111), width=3)
+    d.line([(172, 438), (132, 478)], fill=(211, 180, 111), width=3)
+    d.rounded_rectangle([138, 400, 166, 424], radius=11, fill=(240, 214, 142),
+                        outline=(195, 154, 60), width=3)
+    d.line([(140, 412), (164, 412)], fill=(184, 80, 58), width=3)
+    # 蔵の札
+    d.rectangle([190, 398, 246, 432], fill=(255, 255, 255), outline=(141, 154, 160), width=3)
+    d.line([(198, 410), (238, 410)], fill=(141, 154, 160), width=3)
+    d.line([(198, 420), (228, 420)], fill=(141, 154, 160), width=3)
+    # 太鼓蔵
+    d.polygon([(288, 408), (340, 378), (392, 408)], fill=(125, 106, 83))
+    d.rectangle([298, 408, 382, 492], fill=(239, 233, 218), outline=(176, 166, 142), width=4)
+    d.rectangle([316, 428, 364, 492], fill=(201, 171, 119), outline=(150, 117, 75), width=3)
+    d.line([(400, 470), (386, 500)], fill=(140, 116, 84), width=8)
+    d.line([(444, 470), (458, 500)], fill=(140, 116, 84), width=8)
+    d.ellipse([392, 424, 452, 476], fill=(184, 80, 58), outline=(140, 58, 41), width=3)
+    d.ellipse([404, 434, 440, 466], fill=(240, 224, 194), outline=(201, 181, 142), width=3)
+    d.line([(398, 418), (450, 438)], fill=(214, 186, 140), width=7)
+    d.line([(450, 418), (398, 438)], fill=(214, 186, 140), width=7)
+    # 境界杭と敷地の線
+    for x, y in ((478, 486), (700, 462)):
+        d.rectangle([x, y, x + 16, y + 38], fill=(244, 242, 234), outline=(154, 148, 132), width=3)
+        d.line([(x + 2, y + 14), (x + 14, y + 14)], fill=(192, 68, 44), width=4)
+    for i in range(9):
+        x0 = 494 + i * 24
+        d.line([(x0, 486 - i * 3), (x0 + 14, 484 - i * 3)], fill=(168, 85, 26), width=5)
+    # 手前の道
+    d.polygon([(0, 520), (760, 502), (760, BAND_TOP), (0, BAND_TOP)], fill=(205, 197, 176))
+    for i in range(2):
+        d.line([(0, 548 + i * 26), (760, 530 + i * 26)], fill=(255, 255, 255), width=4)
+    # 図面を広げて確かめる二人
+    d.rectangle([516, 522, 664, 566], fill=(253, 251, 243), outline=(124, 138, 144), width=3)
+    for i in range(1, 4):
+        d.line([(516 + i * 37, 522), (516 + i * 37, 566)], fill=(199, 192, 172), width=2)
+    d.line([(516, 544), (664, 544)], fill=(199, 192, 172), width=2)
+    d.polygon([(552, 530), (620, 528), (624, 558), (556, 560)], fill=(226, 236, 214),
+              outline=(143, 174, 125), width=3)
+    for cx, body in ((492, (92, 127, 87)), (688, (63, 111, 134))):
+        d.ellipse([cx - 17, 496, cx + 17, 530], fill=(227, 195, 157), outline=(185, 146, 107), width=3)
+        d.rounded_rectangle([cx - 15, 530, cx + 15, 572], radius=13, fill=body)
+        d.line([(cx - 7, 572), (cx - 12, BAND_TOP)], fill=(67, 80, 90), width=10)
+        d.line([(cx + 7, 572), (cx + 12, BAND_TOP)], fill=(67, 80, 90), width=10)
+    band(d, ["屋台をしまう建物は、", "誰の名義で建っているか"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
     "20260806-electric-fence-subsidy": scene_electric_fence,
     "20260806-cadastral-survey-boundary": scene_cadastral,
@@ -463,6 +554,7 @@ SCENES = {
     "20260807-tenhama-station-frequency": scene_tenhama_station,
     "20260807-obon-three-days-walk": scene_obon_walk,
     "20260808-hanabi-river-area": scene_hanabi_river,
+    "20260808-yatai-storage-ownership": scene_yatai_storage,
 }
 
 
