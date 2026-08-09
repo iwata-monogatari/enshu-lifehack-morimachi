@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tcmTitle tcmDesc" preserveAspectRatio="xMidYMid meet">
+  <title id="tcmTitle">森町の家の縁側でパンフレットを開いて読む三人家族を描いたイラスト</title>
+  <desc id="tcmDesc">手前に瓦屋根の家の縁側があり、低い卓の上に開いた冊子と三枚の付せん、鉛筆、湯呑みが置かれています。縁側には大人二人と子どもが座り、冊子をのぞき込んでいます。庭の先には田と段になった茶畑が広がり、太田川と橋、集落の瓦屋根、鳥居と石段、遠くに山並みと杉林が見えます。道を軽自動車が一台走っています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="tcmSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe2ee"/><stop offset="0.6" stop-color="#eef4ea"/><stop offset="1" stop-color="#f7f9ef"/>
+    </linearGradient>
+    <linearGradient id="tcmFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93b2c3"/><stop offset="1" stop-color="#b9ced3"/>
+    </linearGradient>
+    <linearGradient id="tcmRiver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ec6dd"/><stop offset="1" stop-color="#c7dfe9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#tcmSky)"/>
+
+  <!-- 遠景の山 -->
+  <path fill="url(#tcmFar)" d="M0 118 L96 76 L196 120 L300 72 L404 116 L512 74 L616 120 L718 80 L822 118 L920 82 L1000 120 L1000 176 L0 176 Z"/>
+  <g fill="#5d8d6d">
+    <path d="M18 178 l20 -56 l20 56 z"/><path d="M60 178 l16 -44 l16 44 z"/>
+    <path d="M912 178 l20 -54 l20 54 z"/><path d="M954 178 l22 -60 l22 60 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="#7faa57" d="M0 172 C 220 156, 420 152, 600 168 C 760 182, 880 174, 1000 162 L1000 224 L0 234 Z"/>
+  <g stroke="#6c9448" stroke-width="4" opacity="0.55">
+    <path d="M0 192 L1000 178"/><path d="M0 210 L1000 196"/>
+  </g>
+
+  <!-- 集落と神社 -->
+  <g>
+    <rect x="86" y="196" width="96" height="42" fill="#e8e2d4"/>
+    <path d="M78 198 L134 172 L190 198 Z" fill="#8b9aa2"/>
+    <rect x="212" y="204" width="72" height="34" fill="#e8e2d4"/>
+    <path d="M204 206 L248 184 L292 206 Z" fill="#8b9aa2"/>
+    <!-- 鳥居と石段 -->
+    <g fill="#cbc6b6" stroke="#a9a493" stroke-width="2">
+      <rect x="330" y="228" width="72" height="9"/><rect x="334" y="217" width="72" height="9"/>
+      <rect x="338" y="206" width="72" height="9"/>
+    </g>
+    <g fill="#b8503a">
+      <rect x="346" y="152" width="9" height="56"/><rect x="392" y="152" width="9" height="56"/>
+      <rect x="334" y="142" width="78" height="10"/><rect x="340" y="162" width="66" height="7"/>
+    </g>
+    <rect x="430" y="200" width="84" height="38" fill="#e8e2d4"/>
+    <path d="M422 202 L472 178 L522 202 Z" fill="#8b9aa2"/>
+  </g>
+
+  <!-- 太田川 -->
+  <path fill="url(#tcmRiver)" d="M0 246 C 180 234, 330 262, 520 250 C 700 238, 860 262, 1000 248 L1000 288 C 860 302, 700 278, 520 290 C 330 302, 180 274, 0 286 Z"/>
+  <g stroke="#ffffff" stroke-width="3" opacity="0.6" fill="none">
+    <path d="M120 262 C 190 256, 240 272, 320 266"/>
+    <path d="M600 258 C 680 252, 740 270, 830 262"/>
+  </g>
+  <!-- 橋 -->
+  <g>
+    <rect x="624" y="240" width="180" height="10" fill="#d8d3c4"/>
+    <g fill="#b7b2a3">
+      <rect x="652" y="250" width="9" height="34"/><rect x="716" y="250" width="9" height="34"/><rect x="778" y="250" width="9" height="34"/>
+    </g>
+    <g stroke="#c3bfaf" stroke-width="4" fill="none"><path d="M624 232 L804 232"/></g>
+  </g>
+
+  <!-- 田と畦 -->
+  <path fill="#cfe0b2" d="M0 292 L1000 280 L1000 372 L0 388 Z"/>
+  <g stroke="#a8c489" stroke-width="4" opacity="0.8" fill="none">
+    <path d="M0 318 L1000 306"/><path d="M0 346 L1000 334"/>
+    <path d="M300 292 L288 384"/><path d="M660 286 L650 378"/>
+  </g>
+
+  <!-- 道と軽自動車 -->
+  <path fill="#cdc6b2" d="M0 392 L1000 374 L1000 418 L0 440 Z"/>
+  <g stroke="#ffffff" stroke-width="4" stroke-dasharray="24 20" opacity="0.75" fill="none">
+    <path d="M0 418 L1000 396"/>
+  </g>
+  <g>
+    <rect x="752" y="368" width="94" height="34" rx="6" fill="#f2f4f1" stroke="#9aa4a8" stroke-width="3"/>
+    <rect x="756" y="374" width="34" height="18" fill="#bcd6e0" stroke="#93aeb9" stroke-width="2"/>
+    <circle cx="774" cy="404" r="11" fill="#3d464e"/><circle cx="828" cy="402" r="11" fill="#3d464e"/>
+  </g>
+
+  <!-- 家と縁側 -->
+  <g>
+    <path d="M40 300 L300 210 L560 300 Z" fill="#8b9aa2"/>
+    <path d="M60 300 L300 218 L540 300 Z" fill="#9dabb2"/>
+    <rect x="80" y="300" width="440" height="120" fill="#efe9db"/>
+    <rect x="80" y="300" width="440" height="14" fill="#cfc7b5"/>
+    <!-- 障子 -->
+    <g fill="#f8f6ee" stroke="#c6bda8" stroke-width="3">
+      <rect x="104" y="322" width="92" height="76"/><rect x="204" y="322" width="92" height="76"/>
+      <rect x="304" y="322" width="92" height="76"/><rect x="404" y="322" width="92" height="76"/>
+    </g>
+    <g stroke="#d6cdb8" stroke-width="2">
+      <path d="M104 348 L496 348"/><path d="M104 374 L496 374"/>
+      <path d="M150 322 L150 398"/><path d="M250 322 L250 398"/><path d="M350 322 L350 398"/><path d="M450 322 L450 398"/>
+    </g>
+    <!-- 縁側の板 -->
+    <rect x="72" y="420" width="456" height="26" fill="#c9a877"/>
+    <g stroke="#b1905f" stroke-width="2">
+      <path d="M72 428 L528 428"/><path d="M72 438 L528 438"/>
+    </g>
+    <rect x="72" y="446" width="456" height="10" fill="#a98a5c"/>
+  </g>
+
+  <!-- 卓とパンフレット、付せん -->
+  <g>
+    <rect x="196" y="452" width="230" height="16" rx="4" fill="#b98f5d"/>
+    <rect x="216" y="468" width="12" height="40" fill="#a67f50"/><rect x="392" y="468" width="12" height="40" fill="#a67f50"/>
+    <!-- 開いた冊子 -->
+    <path d="M212 452 L306 438 L306 452 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="2"/>
+    <path d="M400 452 L306 438 L306 452 Z" fill="#f6f8f5" stroke="#b9c2c6" stroke-width="2"/>
+    <g stroke="#c5cdd1" stroke-width="2">
+      <path d="M228 448 L296 442"/><path d="M234 452 L296 447"/>
+      <path d="M316 442 L384 448"/><path d="M316 447 L378 452"/>
+    </g>
+    <!-- 三枚の付せん -->
+    <g>
+      <rect x="440" y="424" width="52" height="40" rx="3" fill="#f4d774" stroke="#cfae3f" stroke-width="2" transform="rotate(-6 466 444)"/>
+      <rect x="500" y="428" width="52" height="40" rx="3" fill="#a8d8b0" stroke="#6fa87c" stroke-width="2" transform="rotate(4 526 448)"/>
+      <rect x="560" y="422" width="52" height="40" rx="3" fill="#a9cfe8" stroke="#6f9bb8" stroke-width="2" transform="rotate(-3 586 442)"/>
+      <g stroke="#7d7c66" stroke-width="3" opacity="0.75">
+        <path d="M448 438 L482 434"/><path d="M448 448 L476 445"/>
+        <path d="M508 444 L542 446"/><path d="M508 454 L536 456"/>
+        <path d="M568 436 L602 434"/><path d="M568 446 L596 444"/>
+      </g>
+    </g>
+    <!-- 鉛筆と湯呑み -->
+    <g>
+      <rect x="626" y="450" width="66" height="9" rx="3" fill="#e0b04a" transform="rotate(-8 659 454)"/>
+      <path d="M690 444 L706 450 L690 458 Z" fill="#8a6b3a" transform="rotate(-8 698 451)"/>
+      <path d="M716 434 L764 434 L758 462 L722 462 Z" fill="#eef2ef" stroke="#b6c0c2" stroke-width="3"/>
+      <path d="M720 442 L760 442" stroke="#8fb0a2" stroke-width="4"/>
+    </g>
+  </g>
+
+  <!-- 三人家族 -->
+  <g>
+    <!-- 大人1 -->
+    <circle cx="150" cy="392" r="20" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M132 380 q18 -18 36 0 q-8 -12 -18 -12 q-10 0 -18 12 z" fill="#4d4238"/>
+    <path d="M124 412 q26 -14 52 0 l6 44 l-64 0 z" fill="#5c8b6d"/>
+    <path d="M176 424 q26 8 34 24" stroke="#e6c49d" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <!-- 子ども -->
+    <circle cx="316" cy="404" r="16" fill="#f0d3ad" stroke="#c4a077" stroke-width="3"/>
+    <path d="M300 396 q16 -16 32 0 q-6 -11 -16 -11 q-10 0 -16 11 z" fill="#5b4a36"/>
+    <path d="M296 420 q20 -10 40 0 l4 36 l-48 0 z" fill="#dc9a63"/>
+    <path d="M300 432 q-20 10 -24 22" stroke="#f0d3ad" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <!-- 大人2 -->
+    <circle cx="470" cy="392" r="20" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M450 386 q20 -22 40 0 q0 -18 -20 -18 q-20 0 -20 18 z" fill="#3f3a33"/>
+    <path d="M444 412 q26 -14 52 0 l6 44 l-64 0 z" fill="#4a7896"/>
+    <path d="M444 424 q-28 8 -36 26" stroke="#e6c49d" stroke-width="11" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- 前景の草 -->
+  <g stroke="#7f9e57" stroke-width="4" opacity="0.8" fill="none">
+    <path d="M30 540 q8 -26 20 -34"/><path d="M60 544 q10 -22 22 -30"/>
+    <path d="M900 536 q10 -26 22 -32"/><path d="M940 542 q8 -22 20 -30"/>
+  </g>
+  <path d="M0 500 C 200 490, 420 506, 640 496 C 800 488, 900 500, 1000 494 L1000 560 L0 560 Z" fill="#c6d9a8"/>
+</svg>

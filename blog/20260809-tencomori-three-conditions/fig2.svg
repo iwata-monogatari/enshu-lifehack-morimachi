@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tcm2Title tcm2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="tcm2Title">移住パンフレットを読む前後の順番を、一本の道の五つの場面として描いたイラスト</title>
+  <desc id="tcm2Desc">森町の山並みと茶畑を背景に、左下から右上へ一本の道が延び、その道沿いに五つの場面が順に並んでいます。一つ目は食卓で三枚の付せんに条件を書く場面、二つ目は開いたパンフレットを読み比べる場面、三つ目は役場の窓口で移住の相談をする場面、四つ目は車のそばで時計を見ながら通う時間を測る場面、五つ目は地区の集会所の前で町内会の話を聞く場面です。各場面に1から5までの丸い番号札が添えられています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="tcm2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3e3ee"/><stop offset="0.65" stop-color="#eff4ea"/><stop offset="1" stop-color="#f8faf1"/>
+    </linearGradient>
+    <linearGradient id="tcm2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#97b5c5"/><stop offset="1" stop-color="#bdd0d5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#tcm2Sky)"/>
+
+  <path fill="url(#tcm2Far)" d="M0 106 L110 66 L214 110 L322 64 L430 106 L540 66 L648 110 L756 70 L862 108 L954 70 L1000 100 L1000 158 L0 158 Z"/>
+  <g fill="#5c8c6c">
+    <path d="M22 160 l18 -50 l18 50 z"/><path d="M60 160 l14 -40 l14 40 z"/>
+    <path d="M918 160 l18 -48 l18 48 z"/><path d="M956 160 l20 -56 l20 56 z"/>
+  </g>
+  <path fill="#82ac59" d="M0 154 C 240 140, 460 136, 660 152 C 820 164, 900 156, 1000 146 L1000 200 L0 210 Z"/>
+  <g stroke="#6e9649" stroke-width="4" opacity="0.5">
+    <path d="M0 172 L1000 158"/><path d="M0 190 L1000 176"/>
+  </g>
+  <path fill="#dbe7c6" d="M0 214 L1000 202 L1000 560 L0 560 Z"/>
+
+  <!-- 道 -->
+  <path d="M-20 528 C 200 512, 250 430, 430 414 C 610 398, 660 322, 850 306 C 920 300, 980 290, 1020 282"
+        stroke="#cdc6b2" stroke-width="58" fill="none" stroke-linecap="round"/>
+  <path d="M-20 528 C 200 512, 250 430, 430 414 C 610 398, 660 322, 850 306 C 920 300, 980 290, 1020 282"
+        stroke="#ffffff" stroke-width="4" stroke-dasharray="22 20" opacity="0.8" fill="none"/>
+
+  <!-- 1. 食卓で三枚の付せんに条件を書く -->
+  <g>
+    <rect x="34" y="392" width="176" height="14" rx="4" fill="#b98f5d"/>
+    <rect x="52" y="406" width="12" height="42" fill="#a67f50"/><rect x="180" y="406" width="12" height="42" fill="#a67f50"/>
+    <g>
+      <rect x="48" y="360" width="44" height="34" rx="3" fill="#f4d774" stroke="#cfae3f" stroke-width="2" transform="rotate(-6 70 377)"/>
+      <rect x="100" y="362" width="44" height="34" rx="3" fill="#a8d8b0" stroke="#6fa87c" stroke-width="2"/>
+      <rect x="152" y="358" width="44" height="34" rx="3" fill="#a9cfe8" stroke="#6f9bb8" stroke-width="2" transform="rotate(5 174 375)"/>
+      <g stroke="#7d7c66" stroke-width="3" opacity="0.75">
+        <path d="M56 372 L84 369"/><path d="M56 381 L78 379"/>
+        <path d="M108 374 L136 374"/><path d="M108 383 L130 383"/>
+        <path d="M160 372 L188 370"/><path d="M160 381 L182 380"/>
+      </g>
+    </g>
+    <circle cx="122" cy="330" r="20" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M102 324 q20 -22 40 0 q0 -18 -20 -18 q-20 0 -20 18 z" fill="#463d33"/>
+    <path d="M96 350 q26 -14 52 0 l6 40 l-64 0 z" fill="#5c8b6d"/>
+    <path d="M148 362 q22 6 26 22" stroke="#e6c49d" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <rect x="164" y="372" width="40" height="8" rx="3" fill="#e0b04a" transform="rotate(18 184 376)"/>
+    <circle cx="42" cy="470" r="21" fill="#1f3e52"/>
+    <text x="42" y="478" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+  </g>
+
+  <!-- 2. パンフレットを読み比べる -->
+  <g>
+    <rect x="232" y="358" width="164" height="12" rx="4" fill="#b98f5d"/>
+    <path d="M244 358 L312 344 L312 358 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="2"/>
+    <path d="M380 358 L312 344 L312 358 Z" fill="#f6f8f5" stroke="#b9c2c6" stroke-width="2"/>
+    <g stroke="#c5cdd1" stroke-width="2">
+      <path d="M256 353 L304 348"/><path d="M260 356 L304 352"/>
+      <path d="M320 348 L368 353"/><path d="M320 352 L362 356"/>
+    </g>
+    <g fill="#c0563c"><circle cx="284" cy="350" r="5"/><circle cx="344" cy="351" r="5"/></g>
+    <circle cx="312" cy="300" r="20" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M294 288 q18 -18 36 0 q-8 -12 -18 -12 q-10 0 -18 12 z" fill="#5b4a36"/>
+    <path d="M286 320 q26 -14 52 0 l6 38 l-64 0 z" fill="#4a7896"/>
+    <circle cx="252" cy="316" r="16" fill="#f0d3ad" stroke="#c4a077" stroke-width="3"/>
+    <path d="M236 308 q16 -16 32 0 q-6 -11 -16 -11 q-10 0 -16 11 z" fill="#4d4238"/>
+    <path d="M232 332 q20 -10 40 0 l4 26 l-48 0 z" fill="#dc9a63"/>
+    <circle cx="242" cy="436" r="21" fill="#1f3e52"/>
+    <text x="242" y="444" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+  </g>
+
+  <!-- 3. 役場の窓口で相談 -->
+  <g>
+    <rect x="430" y="256" width="180" height="92" fill="#eee8da" stroke="#c9c0ab" stroke-width="3"/>
+    <path d="M420 258 L520 224 L620 258 Z" fill="#8b9aa2"/>
+    <rect x="452" y="276" width="136" height="12" rx="3" fill="#1f3e52"/>
+    <text x="520" y="286" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">移住の相談まどぐち</text>
+    <rect x="444" y="316" width="152" height="14" rx="4" fill="#c8b58e"/>
+    <rect x="452" y="330" width="10" height="18" fill="#b09a72"/><rect x="578" y="330" width="10" height="18" fill="#b09a72"/>
+    <!-- 職員 -->
+    <circle cx="576" cy="292" r="17" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M559 286 q17 -19 34 0 q0 -15 -17 -15 q-17 0 -17 15 z" fill="#3f3a33"/>
+    <path d="M554 310 q22 -12 44 0 l4 22 l-52 0 z" fill="#7a8f9b"/>
+    <!-- 相談者 -->
+    <circle cx="466" cy="294" r="17" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M449 284 q17 -16 34 0 q-7 -11 -17 -11 q-10 0 -17 11 z" fill="#4d4238"/>
+    <path d="M444 312 q22 -12 44 0 l4 22 l-52 0 z" fill="#5c8b6d"/>
+    <rect x="494" y="304" width="42" height="16" fill="#ffffff" stroke="#b9c2c6" stroke-width="2"/>
+    <circle cx="424" cy="378" r="21" fill="#1f3e52"/>
+    <text x="424" y="386" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+  </g>
+
+  <!-- 4. 車と時計で通う時間を測る -->
+  <g>
+    <rect x="656" y="300" width="112" height="40" rx="8" fill="#f2f4f1" stroke="#9aa4a8" stroke-width="3"/>
+    <rect x="662" y="308" width="40" height="22" fill="#bcd6e0" stroke="#93aeb9" stroke-width="2"/>
+    <circle cx="682" cy="344" r="12" fill="#3d464e"/><circle cx="744" cy="344" r="12" fill="#3d464e"/>
+    <circle cx="682" cy="344" r="4" fill="#9aa4a8"/><circle cx="744" cy="344" r="4" fill="#9aa4a8"/>
+    <g>
+      <circle cx="792" cy="262" r="30" fill="#ffffff" stroke="#4a6470" stroke-width="4"/>
+      <path d="M792 262 L792 242" stroke="#20323c" stroke-width="4" stroke-linecap="round"/>
+      <path d="M792 262 L810 270" stroke="#c0563c" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="792" cy="262" r="4" fill="#20323c"/>
+    </g>
+    <circle cx="654" cy="264" r="18" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M636 258 q18 -20 36 0 q0 -16 -18 -16 q-18 0 -18 16 z" fill="#463d33"/>
+    <path d="M632 282 q22 -12 44 0 l4 26 l-52 0 z" fill="#4a7896"/>
+    <circle cx="640" cy="382" r="21" fill="#1f3e52"/>
+    <text x="640" y="390" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+  </g>
+
+  <!-- 5. 集会所の前で町内会の話を聞く -->
+  <g>
+    <rect x="836" y="196" width="150" height="76" fill="#eee8da" stroke="#c9c0ab" stroke-width="3"/>
+    <path d="M826 198 L911 168 L996 198 Z" fill="#8b9aa2"/>
+    <rect x="856" y="222" width="40" height="50" fill="#d9d2c0" stroke="#bab19b" stroke-width="2"/>
+    <rect x="920" y="218" width="46" height="30" fill="#f8f6ee" stroke="#c6bda8" stroke-width="2"/>
+    <!-- 掲示板 -->
+    <g>
+      <rect x="800" y="212" width="34" height="42" fill="#f6f4ea" stroke="#9a8f74" stroke-width="3"/>
+      <rect x="806" y="220" width="22" height="12" fill="#dfe6d6"/>
+      <rect x="806" y="236" width="22" height="10" fill="#dfe6d6"/>
+      <rect x="814" y="254" width="6" height="22" fill="#9a8f74"/>
+    </g>
+    <circle cx="878" cy="292" r="17" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M861 284 q17 -17 34 0 q-7 -12 -17 -12 q-10 0 -17 12 z" fill="#575047"/>
+    <path d="M856 310 q22 -12 44 0 l4 22 l-52 0 z" fill="#8a6f5a"/>
+    <circle cx="936" cy="294" r="17" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M919 288 q17 -19 34 0 q0 -15 -17 -15 q-17 0 -17 15 z" fill="#3f3a33"/>
+    <path d="M914 312 q22 -12 44 0 l4 20 l-52 0 z" fill="#5c8b6d"/>
+    <circle cx="838" cy="336" r="21" fill="#1f3e52"/>
+    <text x="838" y="344" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+  </g>
+
+  <!-- 前景の草 -->
+  <g stroke="#7f9e57" stroke-width="4" opacity="0.75" fill="none">
+    <path d="M300 552 q8 -24 20 -30"/><path d="M334 556 q10 -22 22 -28"/>
+    <path d="M700 546 q8 -24 20 -30"/><path d="M734 550 q10 -22 22 -28"/>
+  </g>
+</svg>

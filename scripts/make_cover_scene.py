@@ -546,8 +546,75 @@ def scene_yatai_storage(d):
     band(d, ["屋台をしまう建物は、", "誰の名義で建っているか"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_tencomori(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [22, 66, 690, 734], 300)
+    # 段になった茶畑
+    d.polygon([(0, 292), (760, 284), (760, 340), (0, 350)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 15), (760, 292 + i * 15)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 344), (760, 334), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 228, 201))
+    # 奥：集落の家並みと鳥居
+    for x, w in ((44, 96), (168, 78), (600, 92)):
+        d.rectangle([x, 352, x + w, 392], fill=(233, 227, 214))
+        d.polygon([(x - 8, 354), (x + w // 2, 326), (x + w + 8, 354)], fill=(139, 154, 162))
+    d.rectangle([300, 336, 308, 388], fill=(184, 80, 58))
+    d.rectangle([352, 336, 360, 388], fill=(184, 80, 58))
+    d.rectangle([288, 326, 372, 336], fill=(184, 80, 58))
+    d.rectangle([294, 346, 366, 353], fill=(184, 80, 58))
+    # 太田川と橋
+    d.polygon([(0, 400), (760, 388), (760, 428), (0, 442)], fill=(158, 198, 221))
+    d.line([(60, 418), (330, 410)], fill=(226, 240, 246), width=5)
+    d.line([(420, 416), (700, 404)], fill=(226, 240, 246), width=5)
+    d.rectangle([448, 386, 700, 396], fill=(216, 211, 196))
+    for x in (472, 552, 632):
+        d.rectangle([x, 396, x + 9, 428], fill=(183, 178, 163))
+    # 手前：田と道
+    d.polygon([(0, 436), (760, 422), (760, 486), (0, 502)], fill=(206, 224, 178))
+    for i in range(2):
+        d.line([(0, 456 + i * 22), (760, 442 + i * 22)], fill=(168, 196, 137), width=4)
+    d.polygon([(0, 496), (760, 480), (760, 520), (0, 538)], fill=(205, 197, 176))
+    d.line([(0, 518), (760, 500)], fill=(255, 255, 255), width=4)
+    # 縁側の板張り
+    d.rectangle([0, 530, 760, BAND_TOP], fill=(201, 168, 119))
+    for y in (544, 560, 576):
+        d.line([(0, y), (760, y)], fill=(177, 144, 95), width=3)
+    # 縁側に座る三人（卓の向こう側）
+    for cx, body, rh in ((110, (92, 139, 109), 24), (378, (74, 120, 150), 24), (652, (220, 154, 99), 20)):
+        d.ellipse([cx - rh, 424 - rh, cx + rh, 424 + rh], fill=(230, 196, 157),
+                  outline=(189, 154, 114), width=3)
+        d.chord([cx - rh, 424 - rh - 6, cx + rh, 424 + rh - 6], 180, 360, fill=(70, 61, 51))
+        d.polygon([(cx - rh - 6, 452), (cx + rh + 6, 452), (cx + rh + 14, 522), (cx - rh - 14, 522)],
+                  fill=body)
+        d.line([(cx + rh + 4, 470), (cx + rh + 26, 500)], fill=(230, 196, 157), width=13)
+    # 低い卓（手前）と開いたパンフレット
+    d.rectangle([132, 520, 512, 542], fill=(185, 143, 93))
+    d.rectangle([132, 542, 512, 550], fill=(160, 120, 74))
+    d.polygon([(160, 520), (320, 486), (322, 520)], fill=(255, 255, 255),
+              outline=(150, 162, 168), width=4)
+    d.polygon([(484, 520), (324, 486), (322, 520)], fill=(243, 246, 244),
+              outline=(150, 162, 168), width=4)
+    d.line([(322, 486), (322, 520)], fill=(150, 162, 168), width=4)
+    for i in range(4):
+        d.line([(196 + i * 8, 508 - i * 6), (310, 496 - i * 6)], fill=(190, 199, 204), width=4)
+        d.line([(334, 496 - i * 6), (448 - i * 8, 508 - i * 6)], fill=(190, 199, 204), width=4)
+    # 三枚の付せん（卓の手前・右）
+    for x, fill, edge in ((536, (244, 215, 116), (207, 174, 63)),
+                          (610, (168, 216, 176), (111, 168, 124)),
+                          (684, (169, 207, 232), (111, 155, 184))):
+        d.rectangle([x, 522, x + 62, 570], fill=fill, outline=edge, width=3)
+        d.line([(x + 10, 538), (x + 50, 538)], fill=(125, 124, 102), width=4)
+        d.line([(x + 10, 552), (x + 42, 552)], fill=(125, 124, 102), width=4)
+    # 鉛筆
+    d.rectangle([176, 562, 254, 572], fill=(224, 176, 74))
+    d.polygon([(254, 560), (276, 567), (254, 574)], fill=(138, 107, 58))
+    band(d, ["パンフレットを開く前に、", "条件を三つ決めておく"], "森町ライフハック／移住・暮らし・データ")
+
+
 SCENES = {
     "20260806-electric-fence-subsidy": scene_electric_fence,
+    "20260809-tencomori-three-conditions": scene_tencomori,
     "20260806-cadastral-survey-boundary": scene_cadastral,
     "20260807-smart-ic-livability": scene_smart_ic,
     "20260807-water-supply-routes": scene_water_routes,
