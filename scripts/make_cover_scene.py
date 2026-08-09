@@ -802,7 +802,71 @@ def scene_obon_window(d):
     band(d, ["19時まで開くのは水曜だけ", "お盆週の窓口の使い方"], "森町ライフハック／手続き・制度")
 
 
+def scene_consult_split(d):
+    sky(d)
+    mountains(d, 250)
+    cedars(d, [14, 52, 700, 742], 250)
+    # 段になった茶畑
+    d.polygon([(0, 244), (760, 236), (760, 286), (0, 296)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 252 + i * 14), (760, 244 + i * 14)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 290), (760, 280), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 233, 210))
+    # 相談する建物
+    d.polygon([(226, 306), (380, 254), (534, 306)], fill=(139, 154, 162))
+    d.polygon([(246, 300), (380, 268), (514, 300)], fill=(162, 176, 182))
+    d.rectangle([246, 306, 514, 392], fill=(241, 243, 238), outline=(195, 200, 193), width=3)
+    d.rounded_rectangle([266, 314, 494, 340], radius=5, fill=(31, 62, 82))
+    d.text((380, 327), "相談窓口", font=ImageFont.truetype(FONT_BOLD, 20),
+           fill=(255, 255, 255), anchor="mm")
+    for x in (266, 328, 390, 452):
+        d.rectangle([x, 352, x + 44, 384], fill=(207, 224, 234), outline=(169, 191, 203), width=3)
+    # 左右を分ける破線
+    for y in range(404, BAND_TOP, 26):
+        d.line([(380, y), (380, min(y + 14, BAND_TOP))], fill=(150, 146, 132), width=4)
+    # 左：予約が要る（カレンダーと電話する人）
+    d.rounded_rectangle([56, 404, 320, 442], radius=10, fill=(31, 62, 82))
+    d.text((188, 423), "予約が要る", font=ImageFont.truetype(FONT_BOLD, 22),
+           fill=(255, 255, 255), anchor="mm")
+    d.rounded_rectangle([36, 460, 186, 576], radius=7, fill=(255, 255, 255),
+                        outline=(179, 173, 160), width=3)
+    d.rounded_rectangle([36, 460, 186, 486], radius=7, fill=(192, 86, 60))
+    marked = {(1, 1), (2, 2), (3, 0)}
+    for row in range(3):
+        for col in range(4):
+            cx, cy = 62 + col * 34, 506 + row * 26
+            if (col, row) in marked:
+                d.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill=(192, 86, 60))
+                d.ellipse([cx - 12, cy - 12, cx + 12, cy + 12], outline=(192, 86, 60), width=3)
+            else:
+                d.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill=(138, 132, 119))
+    d.ellipse([238, 466, 302, 530], fill=(230, 196, 157), outline=(189, 154, 114), width=3)
+    d.chord([238, 458, 302, 522], 180, 360, fill=(70, 61, 51))
+    d.polygon([(228, 540), (312, 540), (322, BAND_TOP), (218, BAND_TOP)], fill=(55, 83, 107))
+    d.rounded_rectangle([300, 452, 326, 502], radius=11, fill=(74, 79, 86))
+    for r in (18, 32):
+        d.arc([326 - r, 477 - r, 326 + r, 477 + r], -60, 60, fill=(74, 120, 150), width=5)
+    # 右：予約は要らない（掲示板と開いた扉）
+    d.rounded_rectangle([432, 404, 728, 442], radius=10, fill=(62, 107, 85))
+    d.text((580, 423), "予約は要らない", font=ImageFont.truetype(FONT_BOLD, 22),
+           fill=(255, 255, 255), anchor="mm")
+    d.rounded_rectangle([416, 460, 546, 562], radius=6, fill=(248, 246, 238),
+                        outline=(164, 156, 141), width=3)
+    d.rectangle([430, 474, 532, 490], fill=(62, 107, 85))
+    for i in range(3):
+        d.line([(430, 508 + i * 16), (532 - i * 18, 508 + i * 16)], fill=(195, 189, 174), width=4)
+    d.rectangle([476, 562, 486, BAND_TOP], fill=(138, 132, 119))
+    d.rectangle([588, 440, 728, BAND_TOP], fill=(231, 226, 212), outline=(179, 173, 160), width=3)
+    d.rectangle([606, 458, 710, BAND_TOP], fill=(255, 233, 168))
+    d.polygon([(606, 458), (652, 476), (652, BAND_TOP), (606, BAND_TOP)], fill=(201, 168, 106))
+    d.ellipse([638, 524, 648, 534], fill=(138, 111, 63))
+    d.ellipse([664, 486, 716, 538], fill=(230, 196, 157), outline=(189, 154, 114), width=3)
+    d.chord([664, 478, 716, 530], 180, 360, fill=(91, 74, 54))
+    d.polygon([(656, 546), (724, 546), (730, BAND_TOP), (650, BAND_TOP)], fill=(92, 139, 109))
+    band(d, ["予約が要る相談と、", "要らない相談"], "森町ライフハック／手続き・制度")
+
+
 SCENES = {
+    "20260810-consultation-reservation-split": scene_consult_split,
     "20260810-obon-week-town-hall-hours": scene_obon_window,
     "20260806-electric-fence-subsidy": scene_electric_fence,
     "20260809-tencomori-three-conditions": scene_tencomori,

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="crsTitle crsDesc" preserveAspectRatio="xMidYMid meet">
+  <title id="crsTitle">森町の相談窓口を予約の要否で二つに分けて描いたイラスト</title>
+  <desc id="crsDesc">森町の集落を背景に、町民生活センターと保健福祉センターの二棟が並んでいます。左手前では、受話器を持った人が電話で予約を取っており、その横に年に三回だけ丸印のついたカレンダーが立てかけられ、上に「予約が要る」の札が下がっています。右手前では、日程の貼り出された掲示板の横の開いた扉から、人がそのまま相談室へ入っていき、上に「予約は要らない」の札が下がっています。奥には太田川と橋、段になった茶畑、杉林、森町の山並みが広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="crsSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd6ea"/><stop offset="1" stop-color="#eef4ea"/>
+    </linearGradient>
+    <linearGradient id="crsFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa8bb"/><stop offset="1" stop-color="#b6cbd2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#e6ecdc"/>
+  <rect width="1000" height="200" fill="url(#crsSky)"/>
+
+  <!-- 山並み・杉 -->
+  <path fill="url(#crsFar)" d="M0 140 L100 96 L200 144 L306 92 L412 142 L520 90 L628 144 L734 94 L840 142 L936 94 L1000 138 L1000 172 L0 172 Z"/>
+  <g fill="#4f7f66">
+    <path d="M16 172 l15 -40 l15 40 z"/><path d="M48 172 l12 -32 l12 32 z"/>
+    <path d="M932 172 l14 -38 l14 38 z"/><path d="M960 172 l16 -44 l16 44 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="#7ba954" d="M0 166 C 250 156, 470 154, 660 164 C 820 172, 910 166, 1000 160 L1000 200 L0 206 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85">
+    <path d="M0 174 C 250 164, 470 162, 660 172 C 820 180, 910 174, 1000 168"/>
+    <path d="M0 186 C 250 176, 470 174, 660 184 C 820 192, 910 186, 1000 180"/>
+    <path d="M0 198 C 250 188, 470 186, 660 196 C 820 202, 910 196, 1000 190"/>
+  </g>
+
+  <!-- 太田川と橋 -->
+  <path fill="#9ec6dd" d="M0 202 L1000 194 L1000 232 L0 242 Z"/>
+  <g stroke="#e2f0f6" stroke-width="4">
+    <path d="M40 220 L280 213"/><path d="M700 216 L960 209"/>
+  </g>
+  <rect x="352" y="192" width="280" height="10" fill="#d8d3c4"/>
+  <g fill="#b7b2a3">
+    <rect x="400" y="202" width="10" height="30"/><rect x="486" y="202" width="10" height="30"/>
+    <rect x="572" y="202" width="10" height="30"/>
+  </g>
+  <path fill="#e6ecdc" d="M0 238 L1000 228 L1000 560 L0 560 Z"/>
+
+  <!-- 町民生活センター -->
+  <g>
+    <path d="M232 254 L360 208 L488 254 Z" fill="#8b9aa2"/>
+    <rect x="250" y="254" width="220" height="96" fill="#f1f3ee" stroke="#c3c8c1" stroke-width="3"/>
+    <rect x="268" y="264" width="184" height="24" rx="4" fill="#1f3e52"/>
+    <text x="360" y="281" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">町民生活センター</text>
+    <g fill="#cfe0ea" stroke="#a9bfcb" stroke-width="3">
+      <rect x="266" y="300" width="48" height="34"/><rect x="326" y="300" width="48" height="34"/>
+      <rect x="386" y="300" width="48" height="34"/>
+    </g>
+  </g>
+
+  <!-- 保健福祉センター -->
+  <g>
+    <path d="M522 254 L650 208 L778 254 Z" fill="#8b9aa2"/>
+    <rect x="540" y="254" width="220" height="96" fill="#f1f3ee" stroke="#c3c8c1" stroke-width="3"/>
+    <rect x="558" y="264" width="184" height="24" rx="4" fill="#3e6b55"/>
+    <text x="650" y="281" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">保健福祉センター</text>
+    <g fill="#cfe0ea" stroke="#a9bfcb" stroke-width="3">
+      <rect x="556" y="300" width="48" height="34"/><rect x="616" y="300" width="48" height="34"/>
+      <rect x="676" y="300" width="48" height="34"/>
+    </g>
+  </g>
+
+  <!-- 左：予約が要る -->
+  <g>
+    <rect x="46" y="372" width="216" height="34" rx="9" fill="#1f3e52"/>
+    <text x="154" y="396" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">予約が要る</text>
+    <!-- カレンダー -->
+    <rect x="46" y="420" width="164" height="126" rx="6" fill="#ffffff" stroke="#b3ada0" stroke-width="3"/>
+    <rect x="46" y="420" width="164" height="26" rx="6" fill="#c0563c"/>
+    <g fill="#8a8477">
+      <circle cx="72" cy="466" r="6"/><circle cx="102" cy="466" r="6"/><circle cx="132" cy="466" r="6"/><circle cx="162" cy="466" r="6"/><circle cx="190" cy="466" r="6"/>
+      <circle cx="72" cy="496" r="6"/><circle cx="132" cy="496" r="6"/><circle cx="162" cy="496" r="6"/><circle cx="190" cy="496" r="6"/>
+      <circle cx="72" cy="526" r="6"/><circle cx="102" cy="526" r="6"/><circle cx="162" cy="526" r="6"/><circle cx="190" cy="526" r="6"/>
+    </g>
+    <g fill="#c0563c">
+      <circle cx="102" cy="496" r="6"/><circle cx="132" cy="526" r="6"/>
+    </g>
+    <g fill="none" stroke="#c0563c" stroke-width="3">
+      <circle cx="102" cy="496" r="12"/><circle cx="132" cy="526" r="12"/><circle cx="190" cy="466" r="12"/>
+    </g>
+    <!-- 電話する人 -->
+    <circle cx="264" cy="452" r="26" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M238 445 q26 -27 52 0 q0 -21 -26 -21 q-26 0 -26 21 z" fill="#463d33"/>
+    <path d="M232 486 q32 -16 64 0 l8 74 l-80 0 z" fill="#37536b"/>
+    <path d="M292 452 q22 -6 26 -26" stroke="#e6c49d" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <rect x="286" y="416" width="22" height="46" rx="10" fill="#4a4f56"/>
+    <g stroke="#4a7896" stroke-width="4" fill="none" opacity="0.9">
+      <path d="M318 424 q14 12 0 26"/><path d="M334 414 q24 22 0 46"/>
+    </g>
+  </g>
+
+  <!-- 右：予約は要らない -->
+  <g>
+    <rect x="586" y="372" width="210" height="34" rx="9" fill="#3e6b55"/>
+    <text x="691" y="396" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">予約は要らない</text>
+    <!-- 日程の掲示板 -->
+    <rect x="586" y="420" width="156" height="112" rx="5" fill="#f8f6ee" stroke="#a49c8d" stroke-width="3"/>
+    <rect x="600" y="434" width="128" height="16" rx="3" fill="#3e6b55"/>
+    <g stroke="#b3ada0" stroke-width="4">
+      <path d="M600 468 L728 468"/><path d="M600 486 L706 486"/><path d="M600 504 L728 504"/><path d="M600 518 L688 518"/>
+    </g>
+    <rect x="656" y="532" width="10" height="26" fill="#8a8477"/>
+    <!-- 開いた扉と入っていく人 -->
+    <rect x="800" y="386" width="150" height="172" fill="#e7e2d4" stroke="#b3ada0" stroke-width="3"/>
+    <rect x="820" y="406" width="110" height="152" fill="#ffe9a8"/>
+    <path d="M820 406 L868 424 L868 558 L820 558 Z" fill="#c9a86a"/>
+    <circle cx="858" cy="492" r="5" fill="#8a6f3f"/>
+    <circle cx="906" cy="470" r="24" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M882 464 q24 -25 48 0 q0 -20 -24 -20 q-24 0 -24 20 z" fill="#5b4a36"/>
+    <path d="M878 502 q28 -14 56 0 l6 56 l-68 0 z" fill="#5c8b6d"/>
+  </g>
+</svg>

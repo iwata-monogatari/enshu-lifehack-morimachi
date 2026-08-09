@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="crs2Title crs2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="crs2Title">相談の準備を二つの道に分けて描いたイラスト</title>
+  <desc id="crs2Desc">森町の山並みと茶畑を上に置いた地面の上で、相談したいことを書いた紙を持つ人の足元から道が二手に分かれます。上の道は予約が要る相談で、丸印のついたカレンダー、受話器を持って電話する人、確認済みの予約票の三つの場面を順に通ります。下の道は予約が要らない相談で、曜日と時間を書いた掲示、開いている受付、机をはさんで話す二人の三つの場面を通ります。二本の道は右側で合流し、明かりのついた相談当日の扉に着きます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="crs2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6dcec"/><stop offset="1" stop-color="#edf3e8"/>
+    </linearGradient>
+    <linearGradient id="crs2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fadbe"/><stop offset="1" stop-color="#b8ccd2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#edf3e8"/>
+  <rect width="1000" height="62" fill="url(#crs2Sky)"/>
+
+  <!-- 山並み・杉・茶畑 -->
+  <path fill="url(#crs2Far)" d="M0 40 L96 14 L192 44 L296 10 L400 42 L508 8 L616 44 L720 12 L824 42 L920 12 L1000 38 L1000 56 L0 56 Z"/>
+  <g fill="#57876a">
+    <path d="M14 56 l10 -24 l10 24 z"/><path d="M38 56 l8 -18 l8 18 z"/>
+    <path d="M946 56 l9 -22 l9 22 z"/><path d="M968 56 l11 -26 l11 26 z"/>
+  </g>
+  <path fill="#7ba954" d="M0 52 C 250 44, 470 42, 660 50 C 820 56, 910 52, 1000 46 L1000 68 L0 72 Z"/>
+  <g stroke="#5f8a42" stroke-width="3" opacity="0.8">
+    <path d="M0 58 C 250 50, 470 48, 660 56 C 820 62, 910 58, 1000 52"/>
+    <path d="M0 68 C 250 60, 470 58, 660 66 C 820 70, 910 66, 1000 60"/>
+  </g>
+  <path fill="#edf3e8" d="M0 70 L1000 64 L1000 560 L0 560 Z"/>
+
+  <!-- 二本の道 -->
+  <g stroke="#cdc6b2" stroke-width="26" fill="none" stroke-linecap="round">
+    <path d="M172 300 C 196 244, 208 208, 240 200"/>
+    <path d="M172 300 C 196 356, 208 392, 240 400"/>
+    <path d="M240 200 L738 200"/>
+    <path d="M240 400 L738 400"/>
+    <path d="M738 200 C 782 200, 792 252, 806 300"/>
+    <path d="M738 400 C 782 400, 792 348, 806 300"/>
+    <path d="M806 300 L852 300"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="3" stroke-dasharray="14 14" opacity="0.75" fill="none">
+    <path d="M252 200 L728 200"/><path d="M252 400 L728 400"/>
+  </g>
+
+  <!-- 相談したいことを持つ人 -->
+  <g>
+    <circle cx="82" cy="264" r="24" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M58 258 q24 -25 48 0 q0 -20 -24 -20 q-24 0 -24 20 z" fill="#463d33"/>
+    <path d="M52 296 q30 -15 60 0 l7 68 l-74 0 z" fill="#4a7896"/>
+    <rect x="58" y="312" width="52" height="40" rx="4" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <g stroke="#a9bfcb" stroke-width="3">
+      <path d="M68 326 L100 326"/><path d="M68 336 L94 336"/>
+    </g>
+    <path d="M46 366 L118 366 L114 384 L50 384 Z" fill="#37536b"/>
+  </g>
+
+  <!-- 上の道の名前 -->
+  <rect x="60" y="132" width="146" height="30" rx="9" fill="#1f3e52"/>
+  <text x="133" y="153" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">予約が要る</text>
+
+  <!-- 上1. 日程を選ぶ（カレンダー） -->
+  <g>
+    <rect x="264" y="118" width="104" height="68" rx="5" fill="#ffffff" stroke="#b3ada0" stroke-width="3"/>
+    <rect x="264" y="118" width="104" height="16" rx="5" fill="#c0563c"/>
+    <g fill="#8a8477">
+      <circle cx="288" cy="150" r="5"/><circle cx="316" cy="150" r="5"/><circle cx="344" cy="150" r="5"/>
+      <circle cx="288" cy="172" r="5"/><circle cx="344" cy="172" r="5"/>
+    </g>
+    <circle cx="316" cy="172" r="5" fill="#c0563c"/>
+    <circle cx="316" cy="172" r="11" fill="none" stroke="#c0563c" stroke-width="3"/>
+    <rect x="250" y="214" width="132" height="28" rx="8" fill="#1f3e52"/>
+    <text x="316" y="234" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">日程を一つ選ぶ</text>
+  </g>
+
+  <!-- 上2. 電話する -->
+  <g>
+    <circle cx="480" cy="152" r="22" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M458 146 q22 -23 44 0 q0 -18 -22 -18 q-22 0 -22 18 z" fill="#5b4a36"/>
+    <path d="M458 182 q22 -12 44 0 l2 4 l-48 0 z" fill="#37536b"/>
+    <path d="M502 152 q18 -5 22 -22" stroke="#e6c49d" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <rect x="496" y="122" width="20" height="40" rx="9" fill="#4a4f56"/>
+    <g stroke="#4a7896" stroke-width="4" fill="none">
+      <path d="M528 130 q12 10 0 22"/><path d="M542 122 q20 18 0 38"/>
+    </g>
+    <rect x="414" y="214" width="146" height="28" rx="8" fill="#1f3e52"/>
+    <text x="487" y="234" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">開始日に電話する</text>
+  </g>
+
+  <!-- 上3. 予約が取れた -->
+  <g>
+    <rect x="630" y="118" width="112" height="68" rx="5" fill="#f8f6ee" stroke="#a49c8d" stroke-width="3"/>
+    <g stroke="#c3bdae" stroke-width="4">
+      <path d="M646 136 L726 136"/><path d="M646 150 L710 150"/>
+    </g>
+    <path d="M652 166 L668 180 L702 152" stroke="#3e6b55" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="612" y="214" width="150" height="28" rx="8" fill="#1f3e52"/>
+    <text x="687" y="234" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">日時と場所を控える</text>
+  </g>
+
+  <!-- 下の道の名前 -->
+  <rect x="34" y="440" width="176" height="30" rx="9" fill="#3e6b55"/>
+  <text x="122" y="461" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">予約は要らない</text>
+
+  <!-- 下1. 曜日と時間の掲示 -->
+  <g>
+    <rect x="250" y="354" width="132" height="28" rx="8" fill="#3e6b55"/>
+    <text x="316" y="374" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">曜日と時間を見る</text>
+    <rect x="260" y="424" width="112" height="66" rx="5" fill="#f8f6ee" stroke="#a49c8d" stroke-width="3"/>
+    <rect x="272" y="434" width="88" height="14" rx="3" fill="#3e6b55"/>
+    <g stroke="#c3bdae" stroke-width="4">
+      <path d="M272 462 L360 462"/><path d="M272 478 L340 478"/>
+    </g>
+    <rect x="311" y="490" width="10" height="24" fill="#8a8477"/>
+  </g>
+
+  <!-- 下2. 開いている受付 -->
+  <g>
+    <rect x="410" y="354" width="156" height="28" rx="8" fill="#3e6b55"/>
+    <text x="488" y="374" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">開いている時間に行く</text>
+    <rect x="426" y="424" width="134" height="68" fill="#eef1ec" stroke="#c3c8c1" stroke-width="3"/>
+    <rect x="440" y="432" width="106" height="20" rx="4" fill="#1f3e52"/>
+    <text x="493" y="448" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">受付</text>
+    <circle cx="470" cy="472" r="13" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M457 466 q13 -14 26 0 q-5 -10 -13 -10 q-8 0 -13 10 z" fill="#463d33"/>
+    <path d="M456 486 q14 -8 28 0 l1 6 l-30 0 z" fill="#5c8b6d"/>
+    <rect x="434" y="492" width="118" height="12" fill="#b98f5d"/>
+  </g>
+
+  <!-- 下3. その場で話す -->
+  <g>
+    <rect x="600" y="354" width="152" height="28" rx="8" fill="#3e6b55"/>
+    <text x="676" y="374" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">その場で相談する</text>
+    <circle cx="630" cy="446" r="17" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M613 440 q17 -18 34 0 q0 -14 -17 -14 q-17 0 -17 14 z" fill="#463d33"/>
+    <path d="M610 468 q20 -11 40 0 l3 12 l-46 0 z" fill="#4a7896"/>
+    <circle cx="722" cy="446" r="17" fill="#f0d3ad" stroke="#c4a077" stroke-width="3"/>
+    <path d="M705 440 q17 -17 34 0 q-7 -12 -17 -12 q-10 0 -17 12 z" fill="#5b4a36"/>
+    <path d="M702 468 q20 -11 40 0 l3 12 l-46 0 z" fill="#5c8b6d"/>
+    <rect x="600" y="480" width="152" height="12" rx="3" fill="#b98f5d"/>
+    <rect x="658" y="460" width="36" height="20" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+  </g>
+
+  <!-- 合流先：相談当日の扉 -->
+  <g>
+    <rect x="850" y="196" width="130" height="206" fill="#e7e2d4" stroke="#b3ada0" stroke-width="3"/>
+    <rect x="868" y="214" width="94" height="188" fill="#ffe9a8"/>
+    <path d="M868 214 L910 232 L910 402 L868 402 Z" fill="#c9a86a"/>
+    <circle cx="900" cy="314" r="5" fill="#8a6f3f"/>
+    <rect x="842" y="418" width="146" height="30" rx="9" fill="#1f3e52"/>
+    <text x="915" y="439" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">相談当日</text>
+  </g>
+</svg>
