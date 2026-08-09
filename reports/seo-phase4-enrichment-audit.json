@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-08-09",
+  "records": 100,
+  "id_min": 101,
+  "id_max": 200,
+  "verified_facts": 600,
+  "morimachi_conditions": 400,
+  "section_headings": 1500,
+  "faqs": 400,
+  "source_references": 300,
+  "unique_source_urls": 38,
+  "live_verified_200_urls": 38,
+  "invalid_source_urls": 0,
+  "source_requirements": {
+    "records_with_two_distinct_morimachi_official_urls": 100,
+    "records_with_external_authority_url": 100,
+    "records_with_only_verified_sources": 100
+  },
+  "guardrail_requirements": {
+    "legal_tax_agriculture_forest_records_checked": 55,
+    "records_with_deadline_target_desk_and_non_assertion_language": 55,
+    "categorical_legal_conclusions": 0
+  },
+  "errors": []
+}

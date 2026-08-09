@@ -37,6 +37,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("検索意図台帳で新設する14ガイドと統合項目を反映", [sys.executable, "scripts/build_search_expansion_pages.py"]),
     ("2026-08-09版200検索意図の全期中核ページを反映", [sys.executable, "scripts/build_seo_full_expansion.py"]),
     ("200ページ改修計画の第3期を反映", [sys.executable, "scripts/build_seo_phase3.py"]),
+    ("第4期300検索意図を反映", [sys.executable, "scripts/build_seo_phase4.py"]),
     ("共通部品の反映（ヘッダー・フッター）", [sys.executable, "scripts/inject_parts.py"]),
     ("既存ガイドから質問ページへの入口を追加", [sys.executable, "scripts/inject_question_links.py"]),
     ("重要11ガイドへ関連質問を集約", [sys.executable, "scripts/inject_priority_question_clusters.py"]),
@@ -64,6 +65,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("検索インデックスの生成", ["node", "scripts/build-search-index.mjs"]),
     ("検索テスト", ["node", "scripts/test-search.mjs"]),
     ("検索支援機能の計算テスト", ["node", "scripts/test-search-tools.mjs"]),
+    ("第4期300ページの公開前品質監査", [sys.executable, "scripts/audit_seo_phase4.py"]),
     ("sitemap.xml の生成", [sys.executable, "scripts/build_sitemap.py"]),
     ("200ページ計画・第1期の品質監査", [sys.executable, "scripts/audit_seo_phase1.py"]),
     ("200ページ計画・第3期の品質監査", [sys.executable, "scripts/audit_seo_phase3.py"]),
@@ -74,6 +76,11 @@ STEPS: list[tuple[str, list[str]]] = [
 ]
 
 CHECK = ("公開前検査", [sys.executable, "scripts/preflight_check.py"])
+RELEASE_STEPS = [
+    ("第4期300ページを公開状態へ切替", [sys.executable, "scripts/audit_seo_phase4.py", "--release"]),
+    ("公開状態の sitemap.xml を再生成", [sys.executable, "scripts/build_sitemap.py"]),
+]
+WITHDRAW = ("第4期の公開状態を解除", [sys.executable, "scripts/audit_seo_phase4.py", "--withdraw"])
 
 
 def run(label: str, cmd: list[str]) -> int:
@@ -93,21 +100,33 @@ def main() -> None:
     ap.add_argument("--skip-check", action="store_true", help="公開前検査を省略する")
     args = ap.parse_args()
 
-    failed = []
     for label, cmd in STEPS:
         if run(label, cmd) != 0:
-            failed.append(label)
-
-    if failed:
-        print("\n" + "=" * 60)
-        print("失敗した工程: " + " / ".join(failed))
-        sys.exit(1)
+            print("\n" + "=" * 60)
+            print("失敗した工程: " + label)
+            sys.exit(1)
 
     if args.skip_check:
-        print("\nビルド完了（公開前検査は省略）")
+        print("\nビルド完了（公開前検査を省略したため第4期は未公開）")
         return
 
     code = run(*CHECK)
+    if code != 0:
+        print("\n" + "=" * 60)
+        print("公開前検査に失敗したため第4期は未公開です")
+        sys.exit(code)
+
+    for label, cmd in RELEASE_STEPS:
+        if run(label, cmd) != 0:
+            run(*WITHDRAW)
+            print("\n" + "=" * 60)
+            print("公開切替に失敗したため第4期を未公開へ戻しました")
+            sys.exit(1)
+
+    code = run(*CHECK)
+    if code != 0:
+        run(*WITHDRAW)
+        run("未公開状態の sitemap.xml を再生成", [sys.executable, "scripts/build_sitemap.py"])
     print("\n" + "=" * 60)
     print("ビルド完了・検査合格" if code == 0 else "ビルドは完了しましたが検査で不整合があります")
     sys.exit(code)

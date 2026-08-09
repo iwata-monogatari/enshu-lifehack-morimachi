@@ -88,6 +88,8 @@ function main() {
   const fullPages = fs.existsSync(fullPath) ? JSON.parse(fs.readFileSync(fullPath, 'utf8')) : [];
   const fullLedgerPath = path.join(ROOT, 'data/seo-implementation-200.json');
   const fullLedger = fs.existsSync(fullLedgerPath) ? JSON.parse(fs.readFileSync(fullLedgerPath, 'utf8')) : [];
+  const phase4Path = path.join(ROOT, 'data/seo-phase4-publication.json');
+  const phase4Pages = fs.existsSync(phase4Path) ? JSON.parse(fs.readFileSync(phase4Path, 'utf8')) : [];
 
   let mergedSkipped = 0;
   const baseIndex = [...topicsMaster, ...auxPages]
@@ -201,7 +203,34 @@ function main() {
       lead: extractLead(html, page.url),
     };
   }).filter(Boolean);
-  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex, ...phase1Index, ...fullIndex];
+  const phase4ExistingHrefs = new Set([...allExistingHrefs, ...fullIndex.map((item) => item.href)]);
+  const phase4Index = phase4Pages.map((page) => {
+    if (phase4ExistingHrefs.has(page.url)) return null;
+    const html = readPage(page.url);
+    if (html === null) return null;
+    const title = extractMeta(html, /<h1\b[^>]*>([\s\S]*?)<\/h1>/i) || page.title;
+    const description = extractMeta(html, /<meta\s+name="description"\s+content="([^"]*)"/i);
+    const lead = extractLead(html, page.url);
+    return {
+      href: page.url,
+      icon: '🧭',
+      title,
+      category: page.category || '森町テーマ別ガイド',
+      hub: page.url.startsWith('/life/') ? 'procedures' : page.url.includes('/property/') || page.url.includes('/inheritance/') ? 'property' : 'enjoy',
+      kind: page.url.startsWith('/life/') ? '公式手続き' : '地域情報',
+      summary: description.slice(0, 90),
+      // 総合・親ページを短語検索の上位に保ち、第4期の細分ページは
+      // 固有タイトルで検索されたときに見つかるよう過剰な加点を避ける。
+      keyword: '',
+      aliases: [],
+      needs: [],
+      department: [],
+      audience: [],
+      verified: page.generated_at || '',
+      lead: '',
+    };
+  }).filter(Boolean);
+  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex, ...phase1Index, ...fullIndex, ...phase4Index];
 
   const outPath = path.join(ROOT, 'search-index.json');
   const json = JSON.stringify(searchIndex);

@@ -75,12 +75,13 @@ def main():
     args = ap.parse_args()
 
     targets = sorted(glob.glob(os.path.join(ROOT, "life", "**", "index.html"), recursive=True))
-    manifest = os.path.join(ROOT, "data", "seo-phase1-publication.json")
     protected = set()
-    if os.path.isfile(manifest):
-        import json
-        with open(manifest, encoding="utf-8") as f:
-            protected = {row["url"].strip("/") + "/index.html" for row in json.load(f)}
+    import json
+    for name in ("seo-phase1-publication.json", "seo-phase4-publication.json"):
+        manifest = os.path.join(ROOT, "data", name)
+        if os.path.isfile(manifest):
+            with open(manifest, encoding="utf-8") as f:
+                protected.update(row["url"].strip("/") + "/index.html" for row in json.load(f))
     changed, skipped = [], []
 
     for filepath in targets:

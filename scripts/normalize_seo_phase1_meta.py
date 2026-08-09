@@ -55,6 +55,11 @@ def main() -> None:
         by_url = {row["url"]: row for row in manifest}
         by_url.update({row["url"]: row for row in json.loads(phase3.read_text(encoding="utf-8"))})
         manifest = list(by_url.values())
+    phase4 = ROOT / "data" / "seo-phase4-publication.json"
+    if phase4.exists():
+        by_url = {row["url"]: row for row in manifest}
+        by_url.update({row["url"]: row for row in json.loads(phase4.read_text(encoding="utf-8"))})
+        manifest = list(by_url.values())
     changed = 0
     for row in manifest:
         url = row["url"]
