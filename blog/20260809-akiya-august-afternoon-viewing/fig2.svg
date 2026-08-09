@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="akv2Title akv2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="akv2Title">八月の午後の空き家の下見を、時間の流れに沿った五つの場面として描いたイラスト</title>
+  <desc id="akv2Desc">森町の山並みと茶畑を背景に、左から右へ時刻の帯が延び、その下に五つの場面が並んでいます。一つ目は木の日陰に車を止めて水筒と帽子を用意する場面、二つ目は雨戸を閉めたままの家に入り天井近くの熱を温度計で確かめる場面、三つ目は雨戸と窓を全部開けて風の通り道を見る場面、四つ目は西日が斜めに差し込む部屋で日の当たる範囲を確かめる場面、五つ目は床下点検口を懐中電灯で照らし押し入れのにおいを確かめる場面です。場面の上には13時30分から16時までの時刻の帯が渡されています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="akv2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ec8e4"/><stop offset="0.6" stop-color="#d8e8ee"/><stop offset="1" stop-color="#f4f8ea"/>
+    </linearGradient>
+    <linearGradient id="akv2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8daabb"/><stop offset="1" stop-color="#b8ccd1"/>
+    </linearGradient>
+    <linearGradient id="akv2West" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd98f" stop-opacity="0.95"/><stop offset="1" stop-color="#ffd98f" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="url(#akv2Sky)"/>
+
+  <path fill="url(#akv2Far)" d="M0 92 L104 54 L208 96 L314 50 L420 92 L528 52 L636 96 L742 56 L848 94 L944 56 L1000 88 L1000 140 L0 140 Z"/>
+  <g fill="#57876a">
+    <path d="M20 142 l16 -44 l16 44 z"/><path d="M54 142 l12 -34 l12 34 z"/>
+    <path d="M926 142 l16 -42 l16 42 z"/><path d="M960 142 l18 -50 l18 50 z"/>
+  </g>
+  <path fill="#7ba954" d="M0 136 C 240 122, 460 118, 640 134 C 800 148, 900 140, 1000 130 L1000 176 L0 186 Z"/>
+  <g stroke="#69934a" stroke-width="4" opacity="0.5">
+    <path d="M0 152 L1000 138"/><path d="M0 168 L1000 154"/>
+  </g>
+  <path fill="#dfe9c8" d="M0 180 L1000 168 L1000 560 L0 560 Z"/>
+
+  <!-- 時刻の帯 -->
+  <rect x="30" y="204" width="940" height="26" rx="13" fill="#1f3e52"/>
+  <g font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    <text x="120" y="222">13:30</text>
+    <text x="330" y="222">14:00</text>
+    <text x="520" y="222">14:30</text>
+    <text x="710" y="222">15:30</text>
+    <text x="890" y="222">16:00</text>
+  </g>
+  <g fill="#d6a83c">
+    <circle cx="120" cy="217" r="6"/><circle cx="330" cy="217" r="6"/><circle cx="520" cy="217" r="6"/>
+    <circle cx="710" cy="217" r="6"/><circle cx="890" cy="217" r="6"/>
+  </g>
+
+  <!-- 1. 日陰に車を止めて用意する -->
+  <g>
+    <rect x="98" y="316" width="14" height="52" fill="#7b6444"/>
+    <circle cx="105" cy="302" r="44" fill="#4f8355"/>
+    <circle cx="72" cy="318" r="28" fill="#5b9060"/>
+    <circle cx="140" cy="318" r="28" fill="#5b9060"/>
+    <ellipse cx="118" cy="386" rx="80" ry="16" fill="#adc08d" opacity="0.7"/>
+    <rect x="44" y="342" width="106" height="36" rx="8" fill="#f2f4f1" stroke="#9aa4a8" stroke-width="3"/>
+    <rect x="50" y="348" width="38" height="20" fill="#bcd6e0" stroke="#93aeb9" stroke-width="2"/>
+    <circle cx="68" cy="380" r="12" fill="#3d464e"/><circle cx="126" cy="380" r="12" fill="#3d464e"/>
+    <rect x="164" y="352" width="24" height="38" rx="6" fill="#4a7896" stroke="#37627c" stroke-width="3"/>
+    <ellipse cx="206" cy="386" rx="28" ry="10" fill="#e8dcb6" stroke="#c3b58a" stroke-width="3"/>
+    <ellipse cx="206" cy="379" rx="15" ry="10" fill="#f2e8c8" stroke="#c3b58a" stroke-width="3"/>
+  </g>
+
+  <!-- 2. 閉め切ったまま入り天井近くを測る -->
+  <g>
+    <rect x="248" y="268" width="180" height="140" fill="#e6e0d2" stroke="#c2b9a4" stroke-width="3"/>
+    <path d="M238 270 L338 236 L438 270 Z" fill="#8b9aa2"/>
+    <!-- 閉じた雨戸 -->
+    <rect x="262" y="288" width="152" height="82" fill="#a9906a" stroke="#8b7350" stroke-width="3"/>
+    <g stroke="#8b7350" stroke-width="3">
+      <path d="M300 288 L300 370"/><path d="M338 288 L338 370"/><path d="M376 288 L376 370"/>
+    </g>
+    <!-- 熱を表す波線 -->
+    <g stroke="#c0563c" stroke-width="4" fill="none" opacity="0.85">
+      <path d="M276 282 q10 -12 20 0 q10 12 20 0"/>
+      <path d="M330 278 q10 -12 20 0 q10 12 20 0"/>
+      <path d="M384 282 q10 -12 20 0 q10 12 20 0"/>
+    </g>
+    <!-- 温度計を掲げる人 -->
+    <circle cx="300" cy="404" r="18" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M282 398 q18 -20 36 0 q0 -16 -18 -16 q-18 0 -18 16 z" fill="#463d33"/>
+    <path d="M278 426 q22 -12 44 0 l6 46 l-56 0 z" fill="#4a7896"/>
+    <path d="M320 432 q22 -14 24 -38" stroke="#e6c49d" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <rect x="338" y="378" width="12" height="34" rx="5" fill="#f4f6f2" stroke="#7d878c" stroke-width="3"/>
+    <rect x="341" y="388" width="6" height="20" fill="#c0563c"/>
+  </g>
+
+  <!-- 3. 全部開けて風を見る -->
+  <g>
+    <rect x="452" y="288" width="164" height="120" fill="#e6e0d2" stroke="#c2b9a4" stroke-width="3"/>
+    <path d="M444 290 L534 258 L624 290 Z" fill="#8b9aa2"/>
+    <rect x="456" y="304" width="24" height="76" fill="#a9906a" stroke="#8b7350" stroke-width="3"/>
+    <rect x="588" y="304" width="24" height="76" fill="#a9906a" stroke="#8b7350" stroke-width="3"/>
+    <rect x="486" y="308" width="96" height="70" fill="#5f6f74" stroke="#8b949a" stroke-width="4"/>
+    <g stroke="#3f7ea4" stroke-width="6" fill="none" stroke-linecap="round">
+      <path d="M424 340 C 470 326, 530 356, 588 340"/>
+    </g>
+    <path d="M588 328 L616 340 L588 352 Z" fill="#3f7ea4"/>
+    <circle cx="500" cy="416" r="18" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M482 408 q18 -18 36 0 q-7 -12 -18 -12 q-11 0 -18 12 z" fill="#5b4a36"/>
+    <path d="M478 438 q22 -12 44 0 l6 42 l-56 0 z" fill="#5c8b6d"/>
+  </g>
+
+  <!-- 4. 西日の入る部屋 -->
+  <g>
+    <rect x="640" y="288" width="164" height="120" fill="#efe9db" stroke="#c2b9a4" stroke-width="3"/>
+    <path d="M632 290 L722 258 L812 290 Z" fill="#8b9aa2"/>
+    <rect x="758" y="306" width="42" height="80" fill="#ffdf9d" stroke="#d9b463" stroke-width="4"/>
+    <path d="M758 306 L644 402 L644 408 L800 408 L800 386 Z" fill="url(#akv2West)"/>
+    <g stroke="#d9b463" stroke-width="3">
+      <path d="M779 306 L779 386"/><path d="M758 346 L800 346"/>
+    </g>
+    <circle cx="836" cy="272" r="26" fill="#ffcf6a"/>
+    <g stroke="#ffcf6a" stroke-width="6" stroke-linecap="round">
+      <path d="M836 232 L836 218"/><path d="M872 272 L888 272"/><path d="M864 244 L876 232"/>
+    </g>
+    <circle cx="678" cy="410" r="18" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M660 402 q18 -20 36 0 q0 -16 -18 -16 q-18 0 -18 16 z" fill="#463d33"/>
+    <path d="M656 432 q22 -12 44 0 l6 40 l-56 0 z" fill="#8a6f5a"/>
+  </g>
+
+  <!-- 5. 床下点検口と押し入れ -->
+  <g>
+    <rect x="300" y="470" width="400" height="16" fill="#c9a877"/>
+    <rect x="300" y="486" width="400" height="10" fill="#a98a5c"/>
+    <rect x="392" y="470" width="86" height="16" fill="#8f7550"/>
+    <path d="M392 486 L478 486 L470 526 L400 526 Z" fill="#4a4a44"/>
+    <g stroke="#a08d6b" stroke-width="4">
+      <path d="M414 500 L414 522"/><path d="M456 500 L456 522"/>
+    </g>
+    <!-- 懐中電灯の光 -->
+    <path d="M540 452 L470 494 L470 520 L544 486 Z" fill="#ffe9a8" opacity="0.85"/>
+    <rect x="540" y="450" width="36" height="16" rx="5" fill="#3d464e"/>
+    <circle cx="614" cy="444" r="19" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M595 436 q19 -20 38 0 q0 -16 -19 -16 q-19 0 -19 16 z" fill="#5b4a36"/>
+    <path d="M590 466 q24 -12 48 0 l6 42 l-60 0 z" fill="#5c8b6d"/>
+    <path d="M592 478 q-30 -8 -46 -22" stroke="#e6c49d" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <!-- 押し入れ -->
+    <rect x="700" y="404" width="96" height="66" fill="#e2dccb" stroke="#bcb39c" stroke-width="3"/>
+    <path d="M748 404 L748 470" stroke="#bcb39c" stroke-width="3"/>
+    <path d="M700 404 L748 404 L748 470 L700 470 Z" fill="#cfc7b2"/>
+    <g stroke="#9fb0a6" stroke-width="4" fill="none" opacity="0.85">
+      <path d="M766 396 q9 -12 18 0 q9 12 18 0"/>
+      <path d="M770 380 q9 -12 18 0 q9 12 18 0"/>
+    </g>
+  </g>
+</svg>

@@ -612,9 +612,73 @@ def scene_tencomori(d):
     band(d, ["パンフレットを開く前に、", "条件を三つ決めておく"], "森町ライフハック／移住・暮らし・データ")
 
 
+def scene_akiya_august(d):
+    # 夏の強い空
+    for y in range(0, 300):
+        t = y / 300
+        d.line([(0, y), (S, y)], fill=(int(140 + 96 * t), int(190 + 44 * t), int(224 - 8 * t)))
+    d.rectangle([0, 300, S, BAND_TOP], fill=(226, 236, 216))
+    # 太陽
+    d.ellipse([44, 30, 148, 134], fill=(255, 224, 138))
+    d.ellipse([58, 44, 134, 120], fill=(255, 210, 94))
+    for dx, dy in ((0, -78), (0, 78), (-78, 0), (78, 0), (-56, -56), (56, 56), (-56, 56), (56, -56)):
+        d.line([(96 + dx // 2, 82 + dy // 2), (96 + dx, 82 + dy)], fill=(255, 210, 94), width=8)
+    # 入道雲
+    for cx, cy, r in ((470, 108, 52), (532, 78, 64), (604, 110, 50), (660, 94, 42),
+                      (528, 136, 50), (606, 140, 42)):
+        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(255, 255, 255))
+    d.rounded_rectangle([432, 128, 700, 164], radius=18, fill=(255, 255, 255))
+    mountains(d, 300)
+    cedars(d, [16, 58, 700, 742], 300)
+    # 段になった茶畑
+    d.polygon([(0, 294), (760, 286), (760, 336), (0, 346)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 302 + i * 14), (760, 294 + i * 14)], fill=(105, 147, 74), width=3)
+    d.polygon([(0, 340), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(219, 230, 193))
+    # 空き家（瓦屋根の平屋）
+    d.polygon([(96, 396), (352, 306), (608, 396)], fill=(127, 143, 151))
+    d.polygon([(122, 396), (352, 316), (582, 396)], fill=(147, 161, 168))
+    d.line([(176, 372), (416, 372)], fill=(119, 133, 140), width=4)
+    d.rectangle([140, 396, 566, 520], fill=(239, 233, 219))
+    d.rectangle([140, 396, 566, 408], fill=(207, 199, 181))
+    # 開いた雨戸
+    d.rectangle([144, 414, 176, 500], fill=(169, 144, 106), outline=(139, 115, 80), width=3)
+    d.rectangle([530, 414, 562, 500], fill=(169, 144, 106), outline=(139, 115, 80), width=3)
+    # 開け放った窓（奥が暗い）
+    d.rectangle([188, 418, 336, 498], fill=(95, 111, 116), outline=(139, 148, 154), width=4)
+    d.rectangle([368, 418, 516, 498], fill=(95, 111, 116), outline=(139, 148, 154), width=4)
+    d.rectangle([344, 414, 362, 502], fill=(216, 207, 186))
+    # 縁側
+    d.rectangle([132, 502, 574, 524], fill=(201, 168, 119))
+    d.rectangle([132, 524, 574, 534], fill=(169, 138, 92))
+    # 風の通り道
+    d.line([(72, 458), (188, 448)], fill=(63, 126, 164), width=7)
+    d.polygon([(188, 436), (216, 448), (188, 460)], fill=(63, 126, 164))
+    d.line([(516, 452), (620, 442)], fill=(63, 126, 164), width=7)
+    d.polygon([(620, 430), (650, 442), (620, 454)], fill=(63, 126, 164))
+    # 傾いた物置
+    d.polygon([(628, 424), (740, 414), (748, 500), (636, 508)], fill=(207, 212, 208))
+    d.polygon([(620, 426), (684, 392), (750, 416)], fill=(143, 153, 149))
+    d.rectangle([664, 448, 706, 500], fill=(180, 187, 183), outline=(152, 160, 156), width=3)
+    # 伸びた草（縁側より手前だけ）
+    for x in range(8, 760, 30):
+        d.line([(x, 588), (x + 8, 544)], fill=(111, 155, 70), width=5)
+        d.line([(x + 14, 590), (x + 20, 554)], fill=(127, 170, 82), width=4)
+    # 温度計・懐中電灯・水筒（手前の草の中）
+    d.rectangle([88, 528, 114, 588], fill=(244, 246, 242), outline=(125, 135, 140), width=3)
+    d.rectangle([95, 546, 107, 580], fill=(192, 86, 60))
+    d.rounded_rectangle([164, 556, 236, 582], radius=8, fill=(61, 70, 78))
+    d.polygon([(236, 550), (276, 569), (236, 588)], fill=(255, 233, 168))
+    d.rounded_rectangle([628, 540, 668, 588], radius=9, fill=(74, 120, 150),
+                        outline=(55, 98, 124), width=3)
+    d.rectangle([638, 530, 658, 542], fill=(55, 98, 124))
+    band(d, ["空き家の下見は、", "八月の午後に一度入る"], "森町ライフハック／移住・暮らし・データ")
+
+
 SCENES = {
     "20260806-electric-fence-subsidy": scene_electric_fence,
     "20260809-tencomori-three-conditions": scene_tencomori,
+    "20260809-akiya-august-afternoon-viewing": scene_akiya_august,
     "20260806-cadastral-survey-boundary": scene_cadastral,
     "20260807-smart-ic-livability": scene_smart_ic,
     "20260807-water-supply-routes": scene_water_routes,
