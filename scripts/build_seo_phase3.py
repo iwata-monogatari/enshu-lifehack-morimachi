@@ -107,6 +107,7 @@ def main() -> None:
         path = ROOT / spec[0].strip("/") / "index.html"
         path.parent.mkdir(parents=True, exist_ok=True)
         html = full.render(spec)
+        html = html.replace('<img src="figure-', '<img style="width:100%;height:auto" src="figure-')
         html = html.replace('<section><h2 class="sec">このページの使い方</h2>', SPECIFIC[spec[0]] + '<section><h2 class="sec">このページの使い方</h2>', 1)
         if spec[0] == "/life/work-life/tax/":
             feedback = '<section class="feedback-box"><h2 class="sec">この案内は役に立ちましたか</h2><p>税や寄附の条件は年度と個人状況で変わります。分かりにくい点は公式窓口で確認してください。</p></section>'

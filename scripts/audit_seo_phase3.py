@@ -34,6 +34,7 @@ def main():
             "H1一つ": html.count("<h1") == 1,
             "H2五つ以上": html.count("<h2") >= 5,
             "画像三点以上": html.count("<img ") >= 3,
+            "画像レスポンシブ": html.count('style="width:100%;height:auto"') >= 3 if p.get("generated_in_phase3") else True,
             "canonical一つ": html.count('rel="canonical"') == 1,
             "description一つ": html.count('name="description"') == 1,
             "OGP一式": all(html.count(x) == 1 for x in ['property="og:title"', 'property="og:description"', 'property="og:url"', 'property="og:image"']),
