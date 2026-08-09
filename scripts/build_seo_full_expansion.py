@@ -66,6 +66,17 @@ OFFICIAL = {
     "inheritance": [("https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/index.html", "森町 おくやみの手続き"), ("https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/kaoku/543.html", "森町 家屋の固定資産税")],
 }
 
+FIELDWORK = {
+    "history": ("原資料に書かれた名称・年代・場所をそのまま転記する", "現在の地図と旧村・字・街道の範囲を別レイヤーで照合する", "現地写真には撮影地点・向き・確認日を残す", "伝承・古写真・指定文化財の根拠を混同しない"),
+    "agriculture": ("品目・品種・生産者・販売主体を分けて記録する", "平年の旬と当年の生育・販売状況を分ける", "農地の地番・地目・耕作者・水路管理を確認する", "購入や見学の直前に生産者・直売所の当日情報を確かめる"),
+    "schools": ("住所から指定校を公式窓口で確認する", "入学・転校・放課後利用の期限を年度ごとに確認する", "通学路を登下校時刻と雨天時の両方で歩く", "家庭の希望と制度上の可否を別欄に整理する"),
+    "transport": ("平日・休日・朝夕で時刻表と所要時間を分ける", "往路だけでなく帰路・最終便・乗換待ちを確認する", "運休時の代替路と送迎の可否を決める", "駅から目的地までの徒歩環境・照明・高低差を見る"),
+    "living": ("子どもの年齢と利用開始希望日を先に置く", "対象要件・申請期限・必要書類を制度ごとに分ける", "施設の空き・開所時間・送迎動線を当事者へ確認する", "数年後の進級・進学まで生活動線をつなげて考える"),
+    "housing": ("住所ではなく地番・登記・現況を照合する", "接道・上下水道・境界・高低差を現地で確認する", "ハザード情報と避難路・道路寸断の可能性を重ねる", "取得費だけでなく修繕・管理・税・移動の年間負担を見積もる"),
+    "vacant-house": ("屋根・雨漏り・通風・草木・害虫を巡回ごとに撮影する", "鍵・郵便・近隣連絡・緊急対応の担当を決める", "税・保険・水道・電気・草刈りを年間費用にする", "台風や大雨の後は通常巡回と別に状態を確認する"),
+    "inheritance": ("相続人・名義・遺産分割の状況を一枚にまとめる", "土地・建物・農地・山林・未登記部分を分ける", "境界・接道・家財・管理費を売却判断より先に確認する", "登記・税務・農地届出の窓口と期限を別々に管理する"),
+}
+
 
 def e(v: object) -> str:
     return escape(str(v), quote=True)
@@ -136,6 +147,20 @@ def paragraphs(title: str, label: str, angle: str, cautions: list[str], index: i
     return "".join(f"<p>{e(p)}</p>" for p in seeds)
 
 
+def visible_chars(html: str) -> int:
+    visible = re.sub(r"<script.*?</script>|<style.*?</style>|<[^>]+>", "", html, flags=re.S)
+    return len(re.sub(r"\s+", "", visible))
+
+
+def depth_block(title: str, label: str, angle: str, caution: str, fieldwork: tuple[str, ...], number: int) -> str:
+    a, b, c, d = fieldwork
+    return f'''<div class="card"><h4>{e(label)}の深掘り確認 {number}</h4>
+<p><strong>確認する論点：</strong>{e(caution)}。この条件は、{e(title)}の結論を左右する前提です。一般的な説明が正しくても、対象地点、時期、利用者、所有関係が違えば、そのまま当てはめられません。まず「確認済み」「資料待ち」「現地で見る」「担当者へ聞く」の四つに分け、分からない項目を推測で埋めないようにします。</p>
+<p><strong>資料に残すこと：</strong>{e(a)}。続いて、{e(b)}。資料名、URL、作成年、対象範囲、確認日を一緒に残すと、後で情報が更新されたときに差分を追えます。数字や名称だけを抜き出さず、凡例、注記、適用条件も同じ記録へ含めてください。</p>
+<p><strong>森町での現地確認：</strong>{e(c)}。森町は中心部、鉄道沿線、平地、山間部で移動と管理の条件が異なるため、町全体の平均だけでは候補地点の実情を判断できません。平日と休日、昼と夕方、晴天と雨天のうち、実際に利用する条件に近い時間を一度は選びます。</p>
+<p><strong>判断へつなげる方法：</strong>{e(d)}。そのうえで「{e(angle)}」という目的へ戻り、安全、期限、権利・利用条件、費用、利便性の順に並べ直します。最後に、誰が次の確認を行うか、いつまでに行うか、どの一次情報を使うかを一行で決めれば、情報収集だけで止まりません。</p></div>'''
+
+
 def render(spec: tuple) -> str:
     url, title, label, angle, ids, cautions = spec
     cat = category(url)
@@ -192,13 +217,22 @@ def render(spec: tuple) -> str:
     breadcrumb = {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"森町ライフハック","item":SITE+"/"},{"@type":"ListItem","position":2,"name":title,"item":SITE+url}]}
     webpage = {"@type":"WebPage","name":title,"url":SITE+url,"dateModified":TODAY,"description":desc}
     faq_json = {"@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq_rows]}
-    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    html = f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)} | 森町ライフハック</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE}{url}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}{url}figure-1.svg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260702"><script type="application/ld+json">{json.dumps(breadcrumb, ensure_ascii=False)}</script><script type="application/ld+json">{json.dumps(webpage, ensure_ascii=False)}</script><script type="application/ld+json">{json.dumps(faq_json, ensure_ascii=False)}</script></head><body>
 <!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">森町ライフハック</a></div></header><!-- PART:header:END --><!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">森町ライフハックは森町公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END -->
 <main><div class="wrap"><p class="breadcrumb"><a href="/">森町ライフハック</a> ／ {e(title)}</p><section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(title)}</h1></div><div class="hero-body"><p class="lead">{e(angle)}ための確認順を、森町の地域条件に合わせてまとめました。</p></div></section>{''.join(body)}
 <section><h3>更新確認ノート</h3><p>{e(title)}の情報を使った日には、参照した公式ページ、確認した地点、担当者へ聞いた内容を短く記録してください。次に{e(label)}を調べる人が同じ前提から始められ、制度や運行、地域の状況が変わったときも差分を確認できます。公開情報を引用する場合は、意味を変えず、出典名と確認日を添えます。</p><p>半年後や実行直前には、今回の結論をそのまま使わず、期限、安全、権利、費用の順に再点検します。森町の地域情報は暮らしに近いからこそ、古い案内でも検索上位に残ることがあります。{e(angle)}という当初の目的に照らし、現在も必要な条件だけを更新してください。</p></section>
 <section><h2 class="sec">このページに統合した検索意図</h2><p>次の疑問は、内容を薄く分割せず、{e(title)}でまとめて確認できます。</p>{intent_html}</section>
 <section><h2 class="sec">よくある質問</h2><div class="qa">{faq}</div></section><section><h3>関連記事</h3><div class="official">{related_html}</div></section><section><h3>公式情報・出典</h3><div class="official">{source_html}</div></section><p class="verified">最終確認日：{TODAY} ／ 変動する情報は公式ページと当事者へ再確認してください。</p></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
+    if visible_chars(html) < 6100:
+        additions = []
+        for number, caution in enumerate(cautions, 1):
+            additions.append(depth_block(title, label, angle, caution, FIELDWORK[cat], number))
+            candidate = '<section class="depth-check"><h3>断定前の深掘り確認</h3>' + "".join(additions) + "</section>"
+            if visible_chars(html) + visible_chars(candidate) >= 6100:
+                break
+        html = html.replace('<section><h2 class="sec">よくある質問</h2>', candidate + '<section><h2 class="sec">よくある質問</h2>', 1)
+    return html
 
 
 def parse_topics() -> list[str]:
@@ -251,7 +285,7 @@ def audit() -> None:
         html=path.read_text(encoding="utf-8")
         visible=re.sub(r"<script.*?</script>|<style.*?</style>|<[^>]+>","",html,flags=re.S)
         compact=re.sub(r"\s+","",visible)
-        checks={"chars":len(compact)>=4000,"h1":html.count("<h1")==1,"h2":5<=html.count("<h2")<=12,"images":html.count("<img ")>=3,"canonical":html.count('rel="canonical"')==1,"faq":"FAQPage" in html,"sources":html.count('target="_blank"')>=2}
+        checks={"chars":6000<=len(compact)<=7000,"h1":html.count("<h1")==1,"h2":5<=html.count("<h2")<=12,"images":html.count("<img ")>=3,"canonical":html.count('rel="canonical"')==1,"faq":"FAQPage" in html,"sources":html.count('target="_blank"')>=2}
         if not all(checks.values()): raise RuntimeError(f"監査失敗 {spec[0]} {len(compact)} {checks}")
         texts.append((spec[0],compact))
     worst=("",0.0)
