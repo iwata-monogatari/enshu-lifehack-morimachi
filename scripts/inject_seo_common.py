@@ -33,7 +33,10 @@ SKIP = {".git", "_cache", "node_modules", "reports", "parts", "scripts", ".githu
 
 TRACKER_RE = re.compile(
     r'<script defer src="https://fujigaoka-analytics-worker[^"]*"[^>]*></script>')
-CRUMB_RE = re.compile(r'<p class="breadcrumb">(.*?)</p>', re.S)
+CRUMB_RE = re.compile(
+    r'(?:<p class="breadcrumb">(.*?)</p>|<nav class="breadcrumbs"[^>]*>(.*?)</nav>)',
+    re.S,
+)
 CRUMB_ITEM_RE = re.compile(r'<a href="([^"]+)"[^>]*>(.*?)</a>|(?<=／)([^／<]+)$', re.S)
 
 
@@ -54,9 +57,9 @@ def breadcrumb_items(html: str, page_url: str, title: str) -> list[dict] | None:
     m = CRUMB_RE.search(html)
     if not m:
         return None
-    inner = m.group(1)
+    inner = m.group(1) or m.group(2)
     items = []
-    for chunk in inner.split("／"):
+    for chunk in re.split(r"(?:／|&gt;|＞)", inner):
         chunk = chunk.strip()
         if not chunk:
             continue
@@ -206,6 +209,13 @@ def process(path: Path) -> dict[str, bool]:
     original = html
     rel = "/" + path.relative_to(ROOT).as_posix()
     url_path = rel[: -len("index.html")] if rel.endswith("index.html") else rel
+    phase1_path = ROOT / "data" / "seo-phase1-publication.json"
+    phase1_urls = {
+        row["url"] for row in json.loads(phase1_path.read_text(encoding="utf-8"))
+    } if phase1_path.exists() else set()
+    if url_path in phase1_urls:
+        jsonld_re = re.compile(r'<script\s+type="application/ld\+json">.*?</script>', re.I | re.S)
+        html = jsonld_re.sub(lambda m: "" if "BreadcrumbList" in m.group(0) else m.group(0), html)
     page_url = SITE + url_path
     flags = {"breadcrumb": False, "top": False, "canonical": False, "tracker": False}
 

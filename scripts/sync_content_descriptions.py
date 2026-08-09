@@ -51,6 +51,10 @@ def description_for(item: dict) -> str:
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     content: dict[str, dict] = {}
+    phase1_path = ROOT / "data" / "seo-phase1-publication.json"
+    phase1_urls = {
+        row["url"] for row in json.loads(phase1_path.read_text(encoding="utf-8"))
+    } if phase1_path.exists() else set()
     for source in sorted(CONTENT_DIR.glob("*.json")):
         if source.stem.startswith("_"):
             continue
@@ -85,6 +89,9 @@ def main() -> int:
 
     found = changed = skipped = 0
     for href, item in content.items():
+        # 第1期の全面改稿ページは、執筆時に個別最適化した説明文を正とする。
+        if href in phase1_urls:
+            continue
         description = description_for(item)
         if not description:
             skipped += 1

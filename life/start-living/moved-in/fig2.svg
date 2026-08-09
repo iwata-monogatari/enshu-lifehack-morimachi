@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="t d" data-illustration="mori-editorial">
+<title id="t">森町役場での転入手続きの道筋</title><desc id="d">書類を確認する机から住民係へ進み、世帯ごとに国保、子育て、学校、水道へ枝分かれする道筋</desc>
+<rect width="1000" height="560" fill="#f7f3e8"/><path d="M90 455C190 340 260 375 345 285S520 230 610 290S790 280 910 125" fill="none" stroke="#d8b66b" stroke-width="30" stroke-linecap="round"/><g font-family="sans-serif" text-anchor="middle">
+<g transform="translate(100 400)"><rect x="-75" y="-55" width="150" height="110" rx="18" fill="#fff" stroke="#447052" stroke-width="4"/><text y="-8" font-size="24" fill="#234a36">書類確認</text><text y="24" font-size="17" fill="#4c5c50">転出証明・本人確認</text></g>
+<g transform="translate(350 275)"><rect x="-75" y="-55" width="150" height="110" rx="18" fill="#fff" stroke="#447052" stroke-width="4"/><text y="-8" font-size="24" fill="#234a36">住民係</text><text y="24" font-size="17" fill="#4c5c50">転入届・カード</text></g>
+<g transform="translate(625 290)"><circle r="72" fill="#fff" stroke="#447052" stroke-width="4"/><text y="-8" font-size="22" fill="#234a36">世帯で分岐</text><text y="24" font-size="16" fill="#4c5c50">該当課だけ回る</text></g>
+<g transform="translate(875 115)"><rect x="-95" y="-65" width="190" height="130" rx="18" fill="#fff" stroke="#447052" stroke-width="4"/><text y="-25" font-size="19" fill="#234a36">国保・子育て・学校</text><text y="8" font-size="19" fill="#234a36">水道・犬・ごみ</text><text y="39" font-size="16" fill="#4c5c50">帰宅後も一つずつ</text></g></g>
+<path d="M630 220L730 120M675 325L800 395M555 345L530 455" stroke="#78936d" stroke-width="8" stroke-linecap="round"/><g fill="#78936d"><circle cx="730" cy="120" r="14"/><circle cx="800" cy="395" r="14"/><circle cx="530" cy="455" r="14"/></g><text x="50" y="55" font-size="34" font-weight="700" fill="#173e2b">全員同じではない。最初に住所、その後は該当者だけ</text>
+</svg>

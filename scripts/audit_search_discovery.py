@@ -75,7 +75,8 @@ def main() -> None:
     }
     for item in priority:
         url = SITE + item["href"]
-        if sitemap.get(url) != EXPECTED_DATE:
+        # 実質改稿したページは基準日より新しいlastmodでよい。古い日付や欠落だけを失敗にする。
+        if not sitemap.get(url) or sitemap[url] < EXPECTED_DATE:
             errors.append(f"sitemap lastmodが不一致: {item['href']} ({sitemap.get(url)})")
 
     redirects = {

@@ -1,0 +1,201 @@
+﻿id,phase,priority_20,cluster,primary_keyword,proposed_url,decision,final_url,decision_reason,unique_angle,source_notes,cta_level,status
+1,phase1,True,guide,森町 静岡 観光,/guide/morimachi-complete-guide/,CREATE,/guide/morimachi-complete-guide/,トップ・六地区ブログは生活中心で観光の総合回答ではない,初訪問者向けに地区、季節、移動、滞在時間を一枚で選べる入口,町・観光協会、施設公式、現地導線写真,L1,ready
+2,phase1,True,guide,森町 アクセス,/guide/access/,CREATE,/guide/access/,/life/play-out/parking-access/ と公共交通記事は町内移動が中心,町外から車・天浜線・バスで到着する比較と最終区間,町公共交通、天浜線、道路管理者、現地乗換確認,L1,ready
+3,phase3,False,guide,森町 観光 モデルコース,/guide/one-day-course/,CREATE,/guide/one-day-course/,既存に観光行程なし。No.4とは時間違いだけで競合,営業時間に依存しない複数の1日行程と雨天代替,施設営業日、交通時刻、実走・実歩時間,L0,ready
+4,phase3,False,guide,森町 半日 観光,/guide/half-day-course/,MERGE,/guide/one-day-course/,No.3の3時間・5時間章で疑問が完結,短時間用の離脱点、駐車回数、歩行量比較,No.3と同じ＋現地所要時間,L0,ready
+5,phase3,False,guide,森町 電車 観光,/guide/train-trip/,CREATE,/guide/train-trip/,/life/start-living/public-transit/ は生活交通,各駅から徒歩可能な範囲、帰りの列車を逃さない行程,天浜線公式時刻・駅設備、現地徒歩確認,L1,ready
+6,phase3,False,guide,森町 ドライブ,/guide/drive-course/,MERGE,/guide/access/,No.2の車章、No.3の行程と大半が重なる,狭路・右左折・休憩・給油を含む運転者向け注意,道路情報、駐車場管理者、実走,L1,ready
+7,phase3,False,guide,森町 雨の日,/guide/rainy-day/,HOLD,/guide/rainy-day/,文化施設・アクティ森候補と重複し、営業情報が変動,雨量別の屋内代替と濡れる移動区間,施設公式、当日運営、現地屋根・床・駐車確認,L0,blocked_on_fieldwork
+8,phase3,False,guide,森町 子連れ 観光,/guide/family-trip/,CREATE,/guide/family-trip/,公園記事は生活者向け、観光行程は未整備,年齢、昼寝、授乳、トイレ、暑熱を含む行程,施設設備・利用条件、現地バリア確認,L1,ready
+9,phase3,False,guide,森町 一人旅,/guide/solo-trip/,MERGE,/guide/one-day-course/,"一人という属性だけでは独立6,000字になりにくい",静かな時間帯・公共交通・安全をNo.3の派生行程にする,交通、施設、現地歩行確認,L0,ready
+10,phase3,False,guide,森町 高齢者 観光,/guide/senior-friendly-trip/,CREATE,/guide/senior-friendly-trip/,高齢者交通助成は住民制度で、来訪者の段差情報ではない,歩行距離、段差、座席、トイレを数値で比較,施設管理者、現地実測、介助設備確認,L2,ready
+11,phase1,True,guide,森町 小國神社,/guide/okuni-jinja/,EXPAND_EXISTING,/shrine/shrines/s4410001/,個別神社DBと舞楽ブログが既にある,由緒の出典階層、境内の見方、参拝マナー、周辺への分岐を一体化,神社公式、文化財資料、現地掲示・撮影許可,L0,ready
+12,phase1,True,guide,小國神社 駐車場,/guide/okuni-jinja-parking/,HOLD,/guide/okuni-jinja-parking/,No.2・6と重なるが、混雑時の検索意図は独立,通常日と繁忙日の入口、誘導、歩行距離を現況図で示す,神社・警察等の当期案内、現地計測、臨時規制,L0,blocked_on_fieldwork
+13,phase3,False,guide,小國神社 御朱印,/guide/okuni-jinja-goshuin/,MERGE,/shrine/shrines/s4410001/,授与情報だけで独立長文にするとNo.11を反復,参拝順序・受付確認方法としてNo.11内で完結,神社公式・授与所掲示,L0,ready
+14,phase3,False,guide,小國神社 ご利益,/guide/okuni-jinja-goriyaku/,MERGE,/shrine/shrines/s4410001/,祭神・由緒はNo.11の中核で分離すると重複,公式表現と俗説を分ける章,神社公式由緒・祭神資料,L0,ready
+15,phase1,True,guide,小國神社 初詣,/guide/okuni-jinja-hatsumode/,CREATE,/guide/okuni-jinja-hatsumode/,No.11では年始の交通・防寒・待機を十分扱えない,年度別発表を固定値化せず、到着・退出・代替交通を整理,神社の当年発表、交通事業者、臨時規制、現地下見,L0,ready
+16,phase1,True,guide,小國神社 紅葉,/guide/okuni-jinja-autumn-leaves/,HOLD,/guide/okuni-jinja-autumn-leaves/,No.87と完全競合するため代表を一つにする,定点写真、見頃の幅、雨後の足元、混雑を実測,神社当年情報、現地定点撮影、交通案内,L0,blocked_on_fieldwork
+17,phase3,False,guide,小國神社 新緑,/guide/okuni-jinja-fresh-green/,MERGE,/shrine/shrines/s4410001/,No.16の季節差し替え型になりやすい,新緑期の自然観察・参拝章として追加,神社公式、現地写真、植生確認,L0,ready
+18,phase3,False,guide,小國神社 花菖蒲,/guide/okuni-jinja-iris/,MERGE,/nature/flowers-calendar/,No.78の花暦と検索意図が近い,花菖蒲の場所と雨天動線を花暦内で詳説,神社・観光協会の当年開花情報、現地写真,L0,ready
+19,phase1,True,guide,小國ことまち横丁,/guide/kotomachi-yokocho/,HOLD,/guide/kotomachi-yokocho/,No.37・40・42・43と店舗・飲食が競合,テナント羅列でなく注文、座席、休憩、混雑の現況案内,施設公式、各店許諾・営業時間、現地取材・写真,L0,blocked_on_fieldwork
+20,phase3,False,guide,森町 天宮神社,/guide/amenomiya-jinja/,EXPAND_EXISTING,/shrine/shrines/s4410002/,神社DBと舞楽ブログが存在,なぎの木、社殿、舞楽を現地観覧の順序で接続,神社・町文化財資料、現地掲示,L0,ready
+21,phase3,False,guide,天宮神社 舞楽,/guide/amenomiya-bugaku/,EXPAND_EXISTING,/blog/20260711-three-bugaku/,三社舞楽記事と小國・天宮舞楽記事が既存,三社比較を保ち、天宮の演目・観覧心得を章拡張,文化庁・町、保存会または神社、当年開催発表,L0,ready
+22,phase3,False,guide,森町 三島神社,/guide/mishima-jinja/,EXPAND_EXISTING,/shrine/shrines/s4410004/,個別神社DBが正規URL,氏子圏と森の祭りの関係を事実と解釈に分ける,神社・町史・祭典本部、現地掲示,L0,ready
+23,phase3,False,guide,森町 山名神社,/guide/yamana-jinja/,EXPAND_EXISTING,/shrine/shrines/s4410003/,山名神社DBと祇園祭舞ブログが既存,建物・祭神・お舞・飯田地区の順に読む,神社、文化財資料、保存会、現地確認,L0,ready
+24,phase3,False,guide,森町 賀茂神社,/guide/kamo-jinja/,HOLD,/guide/kamo-jinja/,既存DBに明確な同名正規ページを確認できず、同定誤りの危険,所在地・祭神・飯田荘との関係を典拠付きで確定,宗教法人・神社側、町史、現地銘板・位置確認,L0,blocked_on_fieldwork
+25,phase3,False,guide,森町 蓮華寺,/guide/rengeji/,EXPAND_EXISTING,/temple/temples/t02/,寺院DBに正規ページあり,萩の季節、伽藍、参拝動線を寺院情報と統合,寺院、町文化財・観光協会、現地撮影許可,L0,ready
+26,phase1,True,food,森町 甘々娘,/food/kankanmusume/,CREATE,/food/kankanmusume/,既存主要URLなし。No.27〜31の親となる,品種の事実、旬、購入、持帰りまで一次情報で横断,生産者・JA等、町、現地取材・商品写真,L1,ready
+27,phase1,True,food,甘々娘 時期,/food/kankanmusume-season/,MERGE,/food/kankanmusume/,旬はNo.26の主要回答で、単独化すると反復,年ごとの差と販売情報の確認方法を章で明示,生産者の当年発表、気象・収穫状況,L0,ready
+28,phase1,True,food,甘々娘 直売所,/food/kankanmusume-farm-stands/,HOLD,/food/kankanmusume-farm-stands/,No.26・45と競合するが、当日購入意図は独立,販売者ごとの公開許諾、販売方法、並び方、売切れ対応,各生産者の掲載許諾・当年販売、現地動線,L1,blocked_on_fieldwork
+29,phase3,False,food,甘々娘 保存,/food/kankanmusume-storage/,MERGE,/food/kankanmusume/,保存・ゆで方はNo.26で購入直後に必要,生産者推奨と食品安全情報を分けた持帰り章,生産者、農水省等の食品保存資料,L0,ready
+30,phase3,False,food,甘々娘 レシピ,/food/kankanmusume-recipes/,HOLD,/food/kankanmusume-recipes/,No.29の一般調理と重複。独自レシピなしでは全国共通,試作量、歩留まり、写真、保存後の差を実測,生産者コメント、実調理・撮影、食品安全,L0,blocked_on_fieldwork
+31,phase3,False,food,森町 朝採り とうもろこし,/food/morimachi-corn-guide/,MERGE,/food/kankanmusume/,甘々娘以外の品種資料が揃わなければNo.26と同義,品種比較が取材で成立した場合のみ独立再審査,複数生産者・JA、品種表示、販売現地,L1,ready
+32,phase1,True,food,森町 お茶,/food/morimachi-tea/,EXPAND_EXISTING,/blog/20260716-mori-tea-history/,森の茶の歴史記事が既に長文・一次資料付き,歴史を残し、産地、味の選び方、買い方、茶園の暮らしへ拡張,町・県茶業資料、生産者、現地茶園・製茶確認,L1,ready
+33,phase3,False,food,森町茶 特徴,/food/morimachi-tea-taste/,MERGE,/blog/20260716-mori-tea-history/,味・香りだけ分けるとNo.32を反復し主観化する,品種・製法・淹れ条件ごとの差をNo.32内で示す,生産者・茶業団体、比較試飲記録,L0,ready
+34,phase3,False,food,森町 お茶屋,/food/tea-shops/,HOLD,/food/tea-shops/,No.32・43・45と重複、店舗情報は変動,目的別選択を、全掲載先の確認・許諾付きで作る,各店公式・取材・撮影許諾、営業現況,L1,blocked_on_fieldwork
+35,phase3,False,food,森町 茶畑,/food/tea-fields/,EXPAND_EXISTING,/blog/20260806-tea-garden-conditions/,茶園継承ブログに土地・管理の深い既存内容,景観消費にせず、農地・作業・私有地マナーを接続,生産者、町農業資料、現地撮影許可,L1,ready
+36,phase3,False,food,森町 茶摘み 体験,/food/tea-experience/,HOLD,/food/tea-experience/,アクティ森等の体験候補と競合、開催は季節変動,実施者ごとの対象年齢、服装、予約、雨天対応,主催者公式・当年予約、現地体験・撮影許諾,L0,blocked_on_fieldwork
+37,phase3,False,food,森町 和菓子,/food/wagashi/,HOLD,/food/wagashi/,No.19・40・42・43と店舗情報が競合,複数店を同条件で取材し、菓子文化と購入実務を分ける,店舗許諾、商品・価格確認、町史資料,L0,blocked_on_fieldwork
+38,phase3,False,food,森町 次郎柿,/food/jiro-persimmon/,EXPAND_EXISTING,/blog/20260805-cultural-assets/,次郎柿原木を扱う文化財ブログが既存,原木史を核に、旬・選び方は生産者取材後追記,町文化財、生産者・JA、原木現地確認,L1,ready
+39,phase3,False,food,森町 しいたけ,/food/shiitake/,HOLD,/food/shiitake/,森町固有の既存資料が確認できず一般食材記事化の恐れ,原木・菌床、産地、旬を生産者単位で裏付ける,生産者、県・町林業資料、現地取材,L1,blocked_on_fieldwork
+40,phase3,False,food,森町 わらび餅,/food/warabimochi/,MERGE,/guide/kotomachi-yokocho/,単品記事はNo.19・37・42と競合し店舗依存,施設取材ができた場合に商品章として掲載,販売店公式・取材・撮影許諾,L0,ready
+41,phase1,True,food,森町 ランチ,/food/lunch/,HOLD,/food/lunch/,No.19・42と店舗重複。古い営業時間は有害,地区・予約・子連れ・営業日を全店確認した比較台帳,各店の掲載許諾、営業日・価格、現地利用,L1,blocked_on_fieldwork
+42,phase3,False,food,森町 カフェ,/food/cafes/,MERGE,/food/lunch/,ランチ店との重複が大きく、母数確認前に別DB化しない,休憩利用の時間帯・席・駐車をNo.41のフィルタにする,No.41と同じ,L0,ready
+43,phase3,False,food,森町 お土産,/food/souvenirs/,CREATE,/food/souvenirs/,茶・菓子・農産物候補の横断需要は独立,保存性、予算、購入場所、製造者を用途別に選べる,製造者・販売者許諾、商品表示・価格、現地購入,L0,ready
+44,phase3,False,food,森町 ふるさと納税,/food/furusato-tax/,EXPAND_EXISTING,/life/work-life/tax/,税手続き記事と接点があり、返礼品一覧は公式に任せる,制度上の注意と森町公式申込先を簡潔に追加,総務省、森町当年度公式、指定サイト,L1,ready
+45,phase3,False,food,森町 直売所,/food/farmers-markets/,HOLD,/food/farmers-markets/,No.28・34・38・41と販売場所が重複,旬、支払、開店、売切れを全掲載先で確認した実用地図,各直売所・生産者許諾、現地営業確認,L1,blocked_on_fieldwork
+46,phase1,True,history,森町 遠州の小京都,/history/little-kyoto/,CREATE,/history/little-kyoto/,町並み・祭り・茶・文化財の既存記事は断片的,呼称の出典を示し、水・街道・建築・祭礼を歩行ルートで検証,町史・観光協会、全国京都会議等、現地町並み,L1,ready
+47,phase3,False,history,森町 森の石松,/history/mori-no-ishimatsu/,CREATE,/history/mori-no-ishimatsu/,既存主要URLなし,史料上の人物像と講談・浪曲上の伝承を明確に分ける,町史、資料館、著作権確認済み史料,L0,ready
+48,phase1,True,history,森町 祭り,/history/festivals/,EXPAND_EXISTING,/shrine/festivals/,祭礼DB、祭りブログ、舞楽ブログが複数存在,日付一覧から、地区差・担い手・観覧マナーへ正規ハブを拡張,神社・祭典本部・町、各年公式発表,L1,ready
+49,phase3,False,history,森のまつり 屋台,/history/mori-festival-floats/,EXPAND_EXISTING,/blog/20260808-yatai-storage-ownership/,屋台保管・所有の長文ブログとNo.48が既存,屋台の見方を建物・所有・保管・町内運営までつなぐ,祭典本部・町内、現地取材・撮影許可,L0,ready
+50,phase3,False,history,森町 歴史民俗資料館,/history/history-museum/,HOLD,/history/history-museum/,文化施設記事はあるが施設固有情報なし,展示内容、撮影可否、バリア、開館実態を現地確認,施設・町公式、現地取材・撮影許可,L0,blocked_on_fieldwork
+51,phase3,False,history,森町 森山焼,/history/moriyama-yaki/,HOLD,/history/moriyama-yaki/,No.43・66と工芸・体験で重複,窯ごとの違いを作り手の言葉と作品写真で示す,窯元取材・許諾、町史・観光協会,L0,blocked_on_fieldwork
+52,phase3,False,history,森町 吉川和紙,/history/yoshikawa-washi/,HOLD,/history/yoshikawa-washi/,No.66・168候補と体験で競合,現存する担い手・工程・体験可否を確認した記録,保存団体・職人、町史、現地取材,L0,blocked_on_fieldwork
+53,phase3,False,history,森町 城下 町並み,/history/joka-streetscape/,HOLD,/history/joka-streetscape/,No.46・60と町並み説明が重複,建物を無断で由緒付けず、公開道路から歩ける現況ルート,町史・文化財台帳、所有者配慮、現地歩行,L1,blocked_on_fieldwork
+54,phase3,False,history,森町 秋葉街道,/history/akiba-kaido/,CREATE,/history/akiba-kaido/,No.55・61と接点はあるが街道全体の意図は独立,古道と現道を混同せず、史料・地形・安全な歩行区間を重ねる,町史、国土地理院、道路管理者、現地踏査,L1,ready
+55,phase3,False,history,森町 戦国夢街道,/history/sengoku-yumekaido/,HOLD,/history/sengoku-yumekaido/,No.54・61と経路重複、伝承の断定リスク,史実・伝承・観光名称を三層に分け、歩行安全を確認,町史・案内整備主体、現地踏査,L0,blocked_on_fieldwork
+56,phase3,False,history,森町 天方城跡,/history/amagata-castle/,HOLD,/history/amagata-castle/,No.62と地区史が重なる,遺構の見方、登路、私有地・危険箇所を現況確認,文化財資料、土地管理者、現地踏査,L0,blocked_on_fieldwork
+57,phase3,False,history,森町 飯田城跡,/history/iida-castle/,HOLD,/history/iida-castle/,No.64と地区史が重なる,所在地・遺構の確度を示し、見学可能範囲を限定,町史・文化財資料、管理者、現地確認,L0,blocked_on_fieldwork
+58,phase3,False,history,森町 地名 由来,/history/place-names/,CREATE,/history/place-names/,六地区ブログは暮らし比較で語源記事ではない,典拠のある由来と不明・諸説を地区ごとに表示,町史・地名辞典・公文書,L1,ready
+59,phase3,False,history,森町 一宮 歴史,/history/ichinomiya-history/,MERGE,/history/place-names/,No.58とNo.11、地区生活ページに分散し独立は反復,一宮章から神社DB・生活ページへ分岐,町史、神社史、地区資料,L1,ready
+60,phase3,False,history,森町 森地区 歴史,/history/mori-district-history/,MERGE,/history/place-names/,No.46・48・53・58との重複が大きい,行政中心・町並み・祭りの変化を地区章で整理,町史・旧地図・統計,L1,ready
+61,phase3,False,history,森町 三倉 歴史,/history/mikura-history/,EXPAND_EXISTING,/blog/20260717-mikura-amagata-travel/,三倉・天方の移動史を含む長文ブログがある,秋葉街道と山間生活の変化を交通実務へつなぐ,町史、交通資料、地区取材,L1,ready
+62,phase3,False,history,森町 天方 歴史,/history/amagata-history/,MERGE,/blog/20260717-mikura-amagata-travel/,既存記事で三倉と対で扱い、分離すると共通説明が多い,天方城・集落の章を追加して比較軸を保つ,町史、文化財、地区取材,L1,ready
+63,phase3,False,history,森町 園田 歴史,/history/sonoda-history/,EXPAND_EXISTING,/life/living-soon/areas/sonoda/,園田生活ページと茶園記事が既存,歴史を現在の茶園・道路・土地確認につなぐ,町史、農業資料、地区取材,L1,ready
+64,phase3,False,history,森町 飯田 歴史,/history/iida-history/,EXPAND_EXISTING,/blog/20260718-yamana-dance/,山名神社祇園祭の歴史記事が既存,神社だけでなく集落・街道・現在の生活へ範囲拡張,町史、神社・保存会、地区資料,L1,ready
+65,phase3,False,history,森町 文化財,/history/cultural-properties/,EXPAND_EXISTING,/blog/20260805-cultural-assets/,代表文化財を横断する長文記事が既存,指定区分・公開可否・保存と暮らしを一覧化,国・県・町文化財台帳、所有者公開情報,L0,ready
+66,phase4,False,nature,森町 アクティ森,/nature/acty-mori/,HOLD,/nature/acty-mori/,文化施設・体験・食事候補と重複,対象年齢、予約、所要時間、雨天、食事を実利用で確認,施設公式、各体験運営、現地取材・撮影,L0,blocked_on_fieldwork
+67,phase4,False,nature,森町 カワセミの里,/nature/kawasemi-camp/,HOLD,/nature/kawasemi-camp/,No.73のキャンプ総合と重なる,サイト設備、搬入、通信、夜間、予約を現況で示す,施設公式、管理者取材、宿泊・現地写真,L0,blocked_on_fieldwork
+68,phase4,False,nature,森町 東海自然歩道,/nature/tokai-nature-trail/,HOLD,/nature/tokai-nature-trail/,No.69とコース説明が競合,通行可能区間、標識、離脱点をGPS・現地で確認,県・町、通行規制、現地踏査,L0,blocked_on_fieldwork
+69,phase4,False,nature,森町 ハイキング,/nature/hiking/,MERGE,/nature/tokai-nature-trail/,安全な複数コースを確認できるまで総合ページを別建てしない,難易度と撤退判断をNo.68内で比較,道路・登山道管理者、現地踏査,L0,ready
+70,phase4,False,nature,森町 太田川,/nature/ota-river/,CREATE,/nature/ota-river/,河川情報記事と花火ブログは防災・イベント断面のみ,流域、治水、利用、暮らしを公的地図で横断,県河川資料、町防災、国土地理院、現地観察,L1,ready
+71,phase4,False,nature,森町 太田川親水公園,/nature/ota-river-park/,HOLD,/nature/ota-river-park/,No.70・79・86と重複,設備、駐車、増水時立入、日陰を現況で確認,管理者、河川情報、現地設備調査,L0,blocked_on_fieldwork
+72,phase4,False,nature,森町 川遊び,/nature/river-play/,HOLD,/nature/river-play/,No.67・70・71と場所が重なり、安全上の高リスク,遊泳を安易に推奨せず、水位・天候・退避判断を示す,河川管理者、消防・県水位、現地危険確認,L0,blocked_on_fieldwork
+73,phase4,False,nature,森町 キャンプ,/nature/camping/,MERGE,/nature/kawasemi-camp/,確認できる主要施設がNo.67なら総合記事は重複,周辺買出し・季節装備を施設ページの章にする,施設・販売店、現地宿泊確認,L0,ready
+74,phase4,False,nature,森町 サイクリング,/nature/cycling/,HOLD,/nature/cycling/,No.5・35・75と経路競合,交通量、勾配、路面、退避、輪行を実走で記録,道路管理者、天浜線輪行条件、GPS実走,L0,blocked_on_fieldwork
+75,phase4,False,nature,森町 レンタサイクル,/nature/rental-cycle/,HOLD,/nature/rental-cycle/,No.74の一部で、貸出事業の継続確認が必須,台数、予約、返却、保険、故障時連絡を確認,貸出主体公式、現地利用確認,L0,blocked_on_fieldwork
+76,phase4,False,nature,森町 野鳥,/nature/birdwatching/,HOLD,/nature/birdwatching/,No.70・77と自然場所が共通、種の誤同定リスク,季節・環境別に専門家確認済みの観察マナーを示す,県自然資料、専門家・観察会、現地記録,L0,blocked_on_fieldwork
+77,phase4,False,nature,森町 星空,/nature/stargazing/,HOLD,/nature/stargazing/,一般論になりやすく、私有地・夜間安全の問題,合法的に滞在できる場所、照明、通信、退避を夜間確認,土地管理者、気象庁、現地夜間調査,L0,blocked_on_fieldwork
+78,phase4,False,nature,森町 花 見頃,/nature/flowers-calendar/,CREATE,/nature/flowers-calendar/,No.16・18・82・87を束ねる親がない,固定の「見頃」断定を避け、確認先と定点履歴を月別表示,施設・観光協会当年情報、現地定点写真,L0,ready
+79,phase4,False,nature,森町 公園,/nature/parks/,EXPAND_EXISTING,/life/play-out/find-parks/,公園選びの既存ページがある,遊具だけでなくトイレ、日陰、駐車、防災を現地台帳化,町公園管理、現地設備確認,L1,ready
+80,phase4,False,nature,森町 ゴルフ,/nature/golf/,HOLD,/nature/golf/,森町固有施設の所在・掲載価値を未確認,施設が町内にある場合のみアクセスと周辺利用を取材,各施設公式・掲載許諾、所在地確認,L1,blocked_on_fieldwork
+81,phase1,True,events,森町 イベント,/events/annual-calendar/,CREATE,/events/annual-calendar/,/shrine/festivals/ は祭礼のみで農産物・花・催しを横断しない,確定・例年・未発表を分け、月別に公式確認先を持つ,町、観光協会、各主催者の当年発表,L1,ready
+82,phase4,False,events,森町 桜,/events/cherry-blossoms/,MERGE,/nature/flowers-calendar/,No.78の春章で意図を満たせる,場所ごとの開花差・駐車注意を定点情報で追加,管理者、当年開花、現地写真,L0,ready
+83,phase4,False,events,森町 ゴールデンウィーク,/events/golden-week/,MERGE,/events/annual-calendar/,年次カレンダーとモデルコースを繋げれば独立不要,当年の営業・混雑リンク集を期間限定更新,各主催者当年発表、交通案内,L0,ready
+84,phase4,False,events,森町 梅雨 観光,/events/rainy-season/,MERGE,/guide/rainy-day/,No.7・18・72の組合せで検索意図が同じ,花と増水リスクを雨量別にNo.7へ追加,当年開花、河川・気象、施設運営,L0,ready
+85,phase4,False,events,森町 夏祭り,/events/summer-festivals/,MERGE,/shrine/festivals/,No.48・81に包含される,夏の祭礼だけを月別フィルタとして提供,主催者当年発表,L0,ready
+86,phase4,False,events,森町 花火大会,/events/fireworks/,EXPAND_EXISTING,/blog/20260808-hanabi-river-area/,会場と河川利用を扱う長文ブログが既存,当年案内への差替欄、退出動線、河川安全を追加,主催者、警察・交通、当年会場案内,L0,ready
+87,phase4,False,events,森町 紅葉,/events/autumn-leaves/,MERGE,/guide/okuni-jinja-autumn-leaves/,主要需要がNo.16と重なり、周辺情報は同ページで足りる,小國神社以外を確認できた場合のみ比較章を追加,各管理者、当年現地定点写真,L0,ready
+88,phase4,False,events,森のまつり 日程,/events/mori-festival/,MERGE,/shrine/festivals/,No.48の正規祭礼ハブで年次日程を更新すべき,公式発表日・交通規制・観覧心得の更新欄,祭典本部、町、警察・交通,L0,ready
+89,phase4,False,events,森町 初詣,/events/new-year-visits/,MERGE,/guide/okuni-jinja-hatsumode/,No.15が主要意図。寺社羅列は薄くなる,小國神社以外は公式発表確認済みの代替先として掲載,各寺社、交通の当年発表,L0,ready
+90,phase4,False,events,森町 節分,/events/setsubun/,HOLD,/events/setsubun/,No.81・89と寺社イベントで重複、開催有無が年次変動,実施寺社を主催者確認できた年だけ公開,各寺社の当年発表、現地取材,L0,blocked_on_fieldwork
+91,phase4,False,events,森町 とうもろこし 時期,/events/corn-season/,MERGE,/food/kankanmusume/,No.26・27と完全に近い,甘々娘以外の品種差は生産者確認後に同ページへ,生産者の当年収穫・販売発表,L1,ready
+92,phase4,False,events,森町 新茶 時期,/events/new-tea-season/,MERGE,/blog/20260716-mori-tea-history/,No.32・33・35と近接し季節差し替え化する,当年新茶の確認方法を常設ページに更新,生産者・茶業団体の当年発表,L1,ready
+93,phase4,False,events,森町 Kトラ市,/events/kei-truck-market/,HOLD,/events/kei-truck-market/,No.45・81と重複、開催・出店は都度変動,当日動線、出店、支払、交通を主催者確認,主催者当年発表、現地取材・撮影許可,L1,blocked_on_fieldwork
+94,phase4,False,events,森町 夏休み 子ども,/events/summer-vacation-family/,MERGE,/guide/family-trip/,No.8・66・72の季節組合せで、独立すると反復,暑熱・川の安全・予約を夏章に集約,施設当年情報、気象・河川、現地設備,L1,ready
+95,phase4,False,events,森町 冬 観光,/events/winter/,MERGE,/guide/one-day-course/,No.15・37・89の寄せ集めになりやすい,冬季の道路・日没・服装をモデルコースの季節章へ,道路・気象、施設冬季営業,L0,ready
+96,phase1,True,life,森町 転入届,/life/moving-in/,EXPAND_EXISTING,/life/start-living/moved-in/,同URLが転入→番号→水道→ごみを回答。/blog/20260706-moving-in-order/ と転入質問も存在,期限順ではなく「来庁前・窓口当日・帰宅後」の実行表、世帯別分岐、学校・国保・犬まで一枚化,"R1,R2",L2,ready
+97,phase2,False,life,森町 転出届,/life/moving-out/,EXPAND_EXISTING,/life/moving-out/moving-away/,move-out-notice/ と質問が届出を短答。広い転出全体は既存ハブが最適,14日前から退去後まで、水道・学校・犬・家の残置物を並列管理,"R1,R5",L2,ready
+98,phase2,False,life,森町 住民票,/life/resident-certificate/,MERGE,/life/start-living/resident-registration/,急ぎの住民票、コンビニ交付、窓口を既に直接回答,取得目的別の証明選択、本人・同一世帯・代理の分岐,R2,L1,ready
+99,phase2,False,life,森町 印鑑証明,/life/seal-certificate/,MERGE,/life/start-living/certificates/,住民票・戸籍・印鑑証明の選び方が同一意図を包含,登録前/登録済み、本人/代理、カード紛失の分岐を同ページ内で増補,R2,L1,ready
+100,phase2,False,life,森町 マイナンバーカード,/life/mynumber-card/,EXPAND_EXISTING,/life/start-living/mynumber/,申請から受取までの既存正本と質問がある,申請・受取・住所変更・更新・暗証番号・紛失を場面別に整理,R2,L1,ready
+101,phase2,False,life,森町 戸籍,/life/family-register/,MERGE,/life/start-living/certificates/,戸籍証明の取得方法は証明書ガイドと同じ窓口意図,相続・婚姻・旅券で必要な証明の違い、広域交付と郵送,"R2,R3",L2,ready
+102,phase2,False,life,森町 婚姻届,/life/marriage-divorce/,EXPAND_EXISTING,/life/family-grow/marriage/,婚姻届と結婚後手続きを既に回答,提出日から逆算し、氏・住所・保険・住まいを別タスク化,"R3,R1",L1,ready
+103,phase2,False,life,森町 出生届,/life/birth-registration/,EXPAND_EXISTING,/life/family-grow/childbirth/,出生届、児童手当、新生児通知が既存にまとまる,出生直後14日間の家族分担表、医療費・保険・手当への連結,"R3,C1",L1,ready
+104,phase2,False,life,森町 死亡 手続き,/life/after-death-procedures/,EXPAND_EXISTING,/life/end-of-life/bereavement/,期限順の既存正本。おくやみ質問・介護ブログとも接続済み,死亡直後/葬儀後/相続の三段階、町手続きと民間契約を分離,"R3,R6",L2,ready
+105,phase2,False,life,森町 ごみ 出し方,/life/garbage-guide/,EXPAND_EXISTING,/life/start-living/how-to-garbage/,年度カレンダー、分別、持込みを既に回答,地区・曜日の調べ方、迷いやすい品目、持込み前確認を実物例で,R4,L1,ready
+106,phase2,False,life,森町 ごみ カレンダー,/life/garbage-calendar/,MERGE,/life/start-living/how-to-garbage/,同ページの主題そのもの。別URLはカニバリ,地区特定→PDFの読み方→前日準備のチェック欄を追加,R4,L1,ready
+107,phase2,False,life,森町 ごみ 分別,/life/garbage-separation/,MERGE,/life/start-living/how-to-garbage/,分別表・質問が既存ガイドを補完,品名検索に頼れない例と問い合わせ先を追記,R4,L1,ready
+108,phase2,False,life,森町 粗大ごみ,/life/bulky-waste/,EXPAND_EXISTING,/life/start-living/bulky-garbage-dropoff/,持込み先と流れを直接回答。転出片付けページも近接,寸法・材質で迷う物、車載、本人確認、家電四品目を分岐,R4,L2,ready
+109,phase2,False,life,森町 リサイクル,/life/recycling/,MERGE,/life/start-living/how-to-garbage/,"資源回収はごみ分別の一部で独立6,000字は重複",資源物、店頭回収、家電の出口を比較表にする,R4,L1,ready
+110,phase2,False,life,森町 水道 開始,/life/water-service/,EXPAND_EXISTING,/life/start-living/water-start-stop-fees/,開始・中止・料金を既に直接回答,鍵渡し日から逆算、名義・開栓・支払・漏水確認を一工程化,R5,L2,ready
+111,phase2,False,life,森町 下水道 浄化槽,/life/sewer-septic-tank/,EXPAND_EXISTING,/life/start-living/water-sewer/,上下水道料金は既存。浄化槽と地区差が不足,住所別の接続確認、受益者負担、浄化槽保守、購入前現地確認,"R5,X",L2,ready
+112,phase2,False,life,森町 電気 ガス,/life/utilities/,CREATE,/life/start-living/utilities/,停電ページは緊急時で意図違い。開始手続きの正本なし,住所・設備から電気/都市ガス/LPガスを見分け、契約・立会い・安全確認,"X,R1",L2,ready
+113,phase2,False,life,森町 税金,/life/taxes/,EXPAND_EXISTING,/life/work-life/tax/,税目別窓口を案内する既存税ハブ,生活イベント×税目、通知書の読み方、払えない時の相談まで,R6,L2,ready
+114,phase2,False,life,森町 住民税,/life/resident-tax/,MERGE,/life/work-life/resident-tax/,町県民税、納付、電子申告を直接回答,1月1日基準、退職・転居、普通/特別徴収を増補,R6,L1,ready
+115,phase2,False,life,森町 固定資産税,/life/property-tax/,MERGE,/life/housing/property-tax/,土地・家屋の固定資産税正本が存在。相続版も別にある,納税通知から土地家屋、名義、空き家、相続へ分岐,R6,L3,ready
+116,phase2,False,life,森町 国民健康保険,/life/national-health-insurance/,EXPAND_EXISTING,/life/work-life/nhk-pension/,国保・年金の加入窓口を既に回答。保険税ページも存在,加入/脱退/転職/転入、資格確認書、保険税を時系列化,R6,L1,ready
+117,phase2,False,life,森町 国民年金,/life/national-pension/,MERGE,/life/work-life/nhk-pension/,同じ異動窓口・ライフイベントで国保と同時に動く,退職・扶養外れ・学生・住所変更の分岐を増補,R6,L1,ready
+118,phase2,False,life,森町 犬 登録,/life/pet-registration/,MERGE,/life/start-living/dog-registration/,登録・鑑札・狂犬病予防を直接回答,転入・転出・死亡・迷子時のカードを追加,R7,L1,ready
+119,phase2,False,life,森町 図書館,/life/library/,EXPAND_EXISTING,/life/play-out/visit-library/,開館・休館・利用カードを直接回答,初回登録、子連れ、調べもの、返却、休館日確認を利用場面別に,R7,L0,ready
+120,phase2,False,life,森町 文化会館,/life/cultural-hall/,MERGE,/life/play-out/cultural-facilities/,ミキホールの利用・予約・交通を直接回答,主催者/参加者別の確認欄を追加,R7,L0,ready
+121,phase2,False,life,森町 体育館,/life/sports-facilities/,MERGE,/life/play-out/sports-facilities/,予約、料金、持ち物を直接回答,施設ごとの用途・床・屋外・減免を比較,R7,L1,ready
+122,phase2,False,life,森町 公共施設,/life/public-facilities/,EXPAND_EXISTING,/life/play-out/facilities-library-parks/,目的別施設ガイドが既存。役場窓口ページもある,目的→施設→予約要否→移動手段の選択表,R7,L1,ready
+123,phase2,False,life,森町 相談窓口,/life/consultation-desks/,EXPAND_EXISTING,/life/troubles-consult/,暮らしの困りごとハブと法律相談ページが既存,緊急性・分野・匿名可否で入口を選ぶフロー,"R7,C1,A1",L2,ready
+124,phase2,False,life,森町 求人 仕事,/life/jobs/,EXPAND_EXISTING,/life/work-life/job-change/,ハローワーク磐田と町支援を直接回答,町内就業だけでなく通勤、職業訓練、子育てとの両立を比較,R7,L2,ready
+125,phase2,False,life,森町 インターネット,/life/internet-mobile/,CREATE,/life/living-soon/internet-mobile/,全URLに住所別通信確認の正本なし,番地別エリア判定、山間/平野の現地下見、固定回線工事、代替回線,X,L2,ready
+126,phase2,False,childcare,森町 妊娠 出産,/childcare/pregnancy-birth/,EXPAND_EXISTING,/life/family-grow/pregnancy/,妊娠届・母子手帳の既存正本。出生は別ページ,妊娠判明→届出→健診→出産→産後を家族分担表で,"C1,R3",L1,ready
+127,phase2,False,childcare,森町 出産 支援,/childcare/birth-support/,MERGE,/life/family-grow/parenting-support/,妊娠、出生、児童手当等の各正本があり、別の総合ページは145と競合,145の年齢別表から各制度正本へリンク,"C1,R3",L1,ready
+128,phase2,False,childcare,森町 こども 医療費,/childcare/child-medical-expenses/,CREATE,/life/family-grow/child-medical-expenses/,ひとり親医療はあるが、一般のこども医療費助成正本なし,受給者証、県内/県外、保険変更、学校事故、払い戻しをケース別に,"C1,R6",L1,ready
+129,phase2,False,childcare,森町 保育園,/childcare/nursery-schools/,EXPAND_EXISTING,/life/family-grow/nursery-school/,園一覧・空き・申込みを直接回答,年度申込逆算、見学、保育時間、送迎動線、年度途中を比較,C2,L2,ready
+130,phase2,False,childcare,森町 幼稚園,/childcare/kindergartens/,MERGE,/life/family-grow/nursery-school/,現行ページが保育園と幼稚園を比較する検索意図を包含,教育/保育時間、預かり、送迎、費用の比較欄を増補,C2,L2,ready
+131,phase2,False,childcare,森町 こども誰でも通園制度,/childcare/drop-in-childcare/,HOLD,/life/family-grow/drop-in-childcare/,既存正本なし。ただし森町の開始時期・実施園・定員を一次資料で確定できない段階の量産は危険,実施確定後、対象月齢、利用上限、登録・面談・予約・通常保育との差を独立化,"C2,X",L1,blocked_on_fieldwork
+132,phase2,False,childcare,森町 放課後児童クラブ,/childcare/after-school-clubs/,EXPAND_EXISTING,/life/education/after-school-club/,対象学年と申込時期の既存正本・質問あり,学校別、長期休業、就労証明、送迎、申込後の流れ,C3,L2,ready
+133,phase2,False,childcare,森町 児童館,/childcare/childrens-center/,EXPAND_EXISTING,/life/family-grow/parenting-support/,児童館・こども家庭センター・アプリの使い分けを既に回答,遊ぶ/相談/計測/交流の目的別、年齢別に施設を使い分ける,C1,L1,ready
+134,phase2,False,childcare,森町 病児保育,/childcare/sick-child-care/,MERGE,/life/family-grow/nursery-childcare/,病児・病後児保育の対象、利用料、連携施設を直接回答,事前登録→発症→医療機関→予約→持参品の流れを増補,"C2,H1",L1,ready
+135,phase2,False,childcare,森町 学区,/childcare/school-districts/,MERGE,/life/education/school-zones/,住所から通学区域を確認する専用正本あり,転居候補番地、指定校変更相談、現地通学確認を追加,C3,L2,ready
+136,phase2,False,childcare,森町 小学校,/childcare/elementary-schools/,MERGE,/life/education/elementary-middle-school/,小3校・中2校の一覧と手続きが同じ意図,各校比較ではなく、住所→学校→転入→放課後を一連化,C3,L2,ready
+137,phase2,False,childcare,森町 中学校,/childcare/junior-high-schools/,MERGE,/life/education/elementary-middle-school/,136と同じ学校一覧正本。分割は共通説明が過半,進路ではなく通学、転校、部活動情報の確認方法を増補,C3,L2,ready
+138,phase2,False,childcare,森町 転校,/childcare/school-transfer/,EXPAND_EXISTING,/life/education/school-district-transfer/,住所異動と学校手続きの既存正本・質問あり,転出元/転入先、書類、教科書、給食、学童を二自治体で並べる,"C3,R1",L2,ready
+139,phase2,False,childcare,森町 習い事 スポーツ,/childcare/lessons-sports/,HOLD,/life/education/lessons-sports/,施設ページはあるが、民間教室を含む網羅・更新可能な一次台帳なし,町主催/学校外/民間を分離し、年齢・送迎・費用の確認法に限定すれば制作可,"R7,C3,X",L1,blocked_on_fieldwork
+140,phase2,False,childcare,森町 学校給食,/childcare/school-lunch/,EXPAND_EXISTING,/life/education/school-meals/,献立・費用・アレルギー対応を直接回答,献立確認、欠食、転校初日、食物アレルギー相談の時系列,C3,L1,ready
+141,phase2,False,childcare,森町 通学 安全,/childcare/school-route-safety/,CREATE,/life/education/school-route-safety/,学区ページは区域のみ。道路・歩行・災害・送迎の現地確認は独立意図,朝夕に親子で歩く点検表、危険交差点の通報、雨天・災害・バス代替,"C3,R7",L2,ready
+142,phase2,False,childcare,森町 子ども 図書館,/childcare/children-library/,MERGE,/life/play-out/visit-library/,図書館正本内で子連れ利用を解決可能,年齢別資料、読み聞かせ、親子の滞在、返却を増補,R7,L0,ready
+143,phase2,False,childcare,森町 子ども 遊び場,/childcare/playgrounds/,MERGE,/life/play-out/find-parks/,公園を年齢・遊具・アクセスで選ぶ既存正本。児童館は133へ,年齢、トイレ、日陰、駐車、雨天代替を比較欄に,"R7,C1",L1,ready
+144,phase2,False,childcare,森町 高校 通学,/childcare/high-school-commute/,CREATE,/life/education/high-school-commute/,公共交通、天浜線ブログはあるが、町外高校への毎日通学判断は未回答,始業から逆算、駅/バス/自転車/送迎、雨天、定期、最終便、3年間費用,"C3,X",L2,ready
+145,phase1,True,childcare,森町 子育て 支援,/childcare/support-summary/,EXPAND_EXISTING,/life/family-grow/parenting-support/,同URLが相談・児童館・アプリを回答。/blog/20260802-parenting-migration/ と127が近接,妊娠〜高校を年齢軸×「平時/病気/仕事/発達/家計」で整理し各正本へ送る,"C1,C2,C3",L2,ready
+146,phase4,False,health,公立森町病院,/health/morimachi-hospital/,MERGE,/life/health-medical/find-hospitals/,同ページが公立森町病院と町内診療所の探し分けを直接回答,病院固有の診療科一覧を複製せず、紹介状・受付・交通の確認法を増補,H1,L1,ready
+147,phase4,False,health,森町 病院 クリニック,/health/clinics/,MERGE,/life/health-medical/find-hospitals/,完全同一の検索意図,症状、診療科、距離、時間外、交通で公式検索を使う手順,H1,L1,ready
+148,phase4,False,health,森町 休日当番医,/health/holiday-doctors/,EXPAND_EXISTING,/life/health-medical/night-holiday-medical/,夜間・休日の緊急度別受診先を直接回答・質問あり,日付→当番→電話→移動、子ども/成人、夜間の相談番号を一画面化,H2,L1,ready
+149,phase4,False,health,森町 救急,/health/emergency-care/,EXPAND_EXISTING,/life/emergency/fire-ambulance/,119と袋井消防管轄を回答。夜間休日・子ども救急は別正本あり,119/救急相談/休日受診の分岐、住所を伝える準備、山間部の到達説明,H2,L1,ready
+150,phase4,False,health,森町 健康診断 がん検診,/health/checkups/,MERGE,/life/health-medical/health-checkups/,総合・特定健診の受診券と対象を直接回答。がん専用既存もあり,年齢・加入保険・検診種類・申込時期の選択表,H3,L1,ready
+151,phase4,False,health,森町 予防接種,/health/vaccinations/,MERGE,/life/health-medical/vaccinations/,子ども・成人の受け方を束ねる既存正本,定期/任意、年齢、接種間隔は各専用ページへ分岐,H3,L1,ready
+152,phase4,False,health,森町 熱中症,/health/heatstroke/,CREATE,/life/health-medical/heatstroke/,既存に独立正本なし。救急・公園ページとは平時予防の意図が異なる,森町の暑さ情報、クーリングシェルター、屋外作業・高齢者・子どもの行動表,"H2,X",L1,ready
+153,phase4,False,health,森町 障害 福祉,/health/disability-support/,EXPAND_EXISTING,/life/health-medical/disability-welfare/,手帳種類と申請窓口を直接回答,診断前相談、手帳、サービス、医療費、就労を「入口」中心に整理,H4,L1,ready
+154,phase4,False,health,森町 介護保険,/health/long-term-care-insurance/,EXPAND_EXISTING,/life/parents-care/long-term-care-insurance/,申請・保険料・施設相談の既存正本・質問あり,相談→認定→ケアプラン→利用→更新、費用通知を家族向けに,A1,L2,ready
+155,phase4,False,health,森町 要介護認定,/health/care-needs-certification/,MERGE,/life/parents-care/long-term-care-insurance/,介護保険利用の中核工程で別URLにすると説明重複,訪問調査前の生活記録、主治医意見書、結果後の選択を増補,A1,L2,ready
+156,phase4,False,health,森町 介護サービス,/health/care-services/,MERGE,/life/parents-care/long-term-care-insurance/,認定からサービス利用まで同一連続意図。施設探し専用は別に既存,在宅/通所/短期/施設を本人希望・介護力・費用で比較,A1,L2,ready
+157,phase4,False,health,森町 地域包括支援センター,/health/community-support-center/,EXPAND_EXISTING,/life/parents-care/community-support-center/,相談できる内容と準備を直接回答・質問あり,相談前メモ、本人拒否、遠方家族、虐待疑い、介護予防の入口,A1,L2,ready
+158,phase4,False,health,森町 高齢者 支援,/health/senior-support/,EXPAND_EXISTING,/life/parents-care/,在宅、交通、見守り、介護の既存各ページを束ねる親ハブ,自立/フレイル/要介護の段階別に、移動・食事・見守り・住まいを整理,A1,L2,ready
+159,phase4,False,health,森町 認知症 相談,/health/dementia-support/,EXPAND_EXISTING,/life/parents-care/dementia-consultation/,地域包括への相談開始を直接回答・質問あり,気づきの記録、受診準備、金銭・運転・家の安全、家族分担,"A1,H1",L2,ready
+160,phase4,False,health,親 森町 実家 介護,/health/parents-home-care/,EXPAND_EXISTING,/life/parents-care/care-started/,介護開始の既存正本と /blog/20260720-care-first-consultation/ が近接。家の選択は inherited-house/ に既存,遠方家族が「介護」「家の維持」「名義・費用」を別台帳で同時管理し、売却を急がない,"A1,R6",L3,ready
+161,phase2,False,areas,森町 天竜浜名湖鉄道,/areas/tenhama-line/,EXPAND_EXISTING,/life/start-living/public-transit/,既存が天浜線・町営バス・民間バスを横断。別の路線総合ページは公共交通ページと答えが重なる。鉄道章を5駅・乗換・通学/通院・観光に拡張する。,,T1、T3。5駅の正式名称・設備・最新ダイヤを確認,L2,ready
+162,phase2,False,areas,遠州森駅,/areas/enshu-mori-station/,CREATE,/life/start-living/public-transit/enshu-mori-station/,駅単位の徒歩圏・乗換・生活施設は既存にない。路線総合は要約に留め、当ページは駅前の実地動線に限定。,,T1、T3、駅周辺施設の運営者公式、現地写真,L2,ready
+163,phase2,False,areas,戸綿駅,/areas/towata-station/,CREATE,/life/start-living/public-transit/towata-station/,太田川・高低差・徒歩/自転車動線という固有角度を持てる。地区ページへ同じ一般説明を複製しない。,,T1、T3、A1、河川・防災資料、現地写真,L2,ready
+164,phase2,False,areas,森町病院前駅,/areas/morimachi-byoin-mae-station/,CREATE,/life/start-living/public-transit/morimachi-byoin-mae-station/,病院・文化会館への移動意図が固有。病院案内ページとは「駅からの動線」に限定して差別化。,,T1、T3、公立森町病院・文化会館公式、現地バリア確認,L2,ready
+165,phase2,False,areas,円田駅,/areas/enda-station/,CREATE,/life/start-living/public-transit/enda-station/,駅周辺の通勤・住宅動線は未収載。園田地区ページは地区全体、当ページは駅徒歩圏に限定。,,T1、T3、A1、現地写真,L2,ready
+166,phase2,False,areas,遠江一宮駅,/areas/totomi-ichinomiya-station/,CREATE,/life/start-living/public-transit/totomi-ichinomiya-station/,小國神社アクセスと居住動線の両方を扱えるが、神社観光記事とは駅利用の実務に限定する。,,T1、T3、小國神社公式の交通案内、現地写真,L2,ready
+167,phase2,False,areas,森町 町営バス,/areas/town-bus/,EXPAND_EXISTING,/life/start-living/public-transit/,既存の主検索語が「森町 バス 時刻表」。候補URL新設は完全競合。最新路線・予約便・運賃・代替交通を同URLで全面更新する。,,T2、T3,L2,ready
+168,phase2,False,areas,森町 大河内線 バス,/areas/okochi-bus/,HOLD,公開後の統合先は /life/start-living/public-transit/,"現行titleの「岡幸線」と本文データの「大河内線」が不一致。名称・運行区間・予約条件を確定できるまで新規公開不可。確定後も単独6,000字の固有価値が不足するなら路線章へ統合。",,T2の最新PDF・改定日・町担当課確認、現地停留所表示,L2,blocked_on_fieldwork
+169,phase2,False,areas,森町 吉川線 バス,/areas/yoshikawa-bus/,MERGE,/life/start-living/public-transit/,既存ページ内に吉川線があり、時刻表中心の単独ページは改定のたびに二重更新となる。路線別アンカーを設ける。,,T2、T3,L2,ready
+170,phase2,False,areas,森町 地域タクシー,/areas/community-taxi/,EXPAND_EXISTING,/life/start-living/public-transit/,既存本文に一宮・園田地区の地域タクシーがある。利用条件・予約・対象区域を不足分として追記。,,T2、運行事業者公式、A1,L2,ready
+171,phase4,False,areas,森町 車 生活,/areas/car-life/,CREATE,/life/living-soon/car-life/,公共交通の制度案内とは「車を持つ判断」の意図が異なる。買い物・通勤・通院を地区別ケースで比較し、車必須と一律断定しない。,,T2、T3、A1、駐車・軽自動車税の町公式,L2,ready
+172,phase4,False,areas,森町 駐車場,/areas/parking/,MERGE,/life/play-out/parking-access/,既存の主検索意図が施設駐車場・地図・公共交通。町全体の空き状況を保証する新ページは維持不能。観光・駅・行事別の確認先を既存へ統合。,,T3、各施設/主催者の最新公式案内,L1,ready
+173,phase4,False,areas,森町 森地区 住みやすさ,/areas/mori/,EXPAND_EXISTING,/life/living-soon/areas/mori/,同一地区・同一居住意図のページが公開済み。買い物・学校・医療・交通・防災を独自実測で拡張。,,A1、T1〜T3、現地生活動線,L3,ready
+174,phase4,False,areas,森町 一宮 住みやすさ,/areas/ichinomiya/,EXPAND_EXISTING,/life/living-soon/areas/ichinomiya/,完全一致。神社観光の説明を増やすのではなく、駅・地域タクシー・学校区・土地条件を強化。,,A1、T1〜T3、H1,L3,ready
+175,phase4,False,areas,森町 飯田 住みやすさ,/areas/iida/,EXPAND_EXISTING,/life/living-soon/areas/iida/,完全一致。地区名だけを差し替えず、生活施設への実動線と災害リスクを固有化。,,A1、T2、T3、現地写真,L3,ready
+176,phase4,False,areas,森町 園田 住みやすさ,/areas/sonoda/,EXPAND_EXISTING,/life/living-soon/areas/sonoda/,完全一致。円田駅・地域タクシー・茶畑周辺の土地利用を固有角度にする。,,A1、T1〜T3、H3,L3,ready
+177,phase4,False,areas,森町 天方 住みやすさ,/areas/amagata/,EXPAND_EXISTING,/life/living-soon/areas/amagata/,完全一致。山間部の通信を推測で書かず、道路・移動・防災・維持管理を実測する。,,A1、T2、T3、通信各社のエリア情報,L3,ready
+178,phase4,False,areas,森町 三倉 住みやすさ,/areas/mikura/,EXPAND_EXISTING,/life/living-soon/areas/mikura/,完全一致。空き家一般論ではなく、道路・斜面・移動・管理頻度の現地差を記録。,,A1、T2、T3、H1、H5,L3,ready
+179,phase4,False,areas,森町 袋井 磐田 通勤,/areas/commute-fukuroi-iwata/,CREATE,/life/living-soon/commute-fukuroi-iwata/,移住総合・車生活とは目的地別の朝夕ルート比較で差別化できる。単一の所要時間を断定せず条件別に示す。,,T1〜T3、国/県道路情報、実走条件と確認日,L2,ready
+180,phase4,False,areas,森町 掛川 浜松 通勤,/areas/commute-kakegawa-hamamatsu/,CREATE,/life/living-soon/commute-kakegawa-hamamatsu/,鉄道乗換を含む生活圏が179と異なる。共通説明は交通総合へ寄せ、掛川/浜松の比較に限定。,,T1〜T3、実走・乗換確認,L2,ready
+181,phase1,True,home,森町 不動産,/home/real-estate/,EXPAND_EXISTING,/life/housing/,「家・土地・賃貸・空き家・売却」の総合意図は既存ハブの役割。/home/real-estate/を作ると入口が二つになる。詳細ページの要約をコピーせず、判断分岐と地区/物件種別の比較に集中。,,H1〜H6。免許・民間サービス開示、行政情報との区別を必須化,L3,ready
+182,phase4,False,home,森町 土地,/home/land/,CREATE,/life/housing/land/,買い家・固定資産税・地区ページはあるが、土地選びの道路、接道、高低差、上下水道、農地、災害を横断するページはない。,,H2、H3、H5、現地・登記確認,L3,ready
+183,phase4,False,home,森町 賃貸,/home/rentals/,EXPAND_EXISTING,/life/housing/rent-house/,同じ意図。空き家バンク、町営住宅、民間賃貸の三択と地区・通勤を拡張する。,,H1、町営住宅公式、民間掲載は取得日付きスナップショット,L3,ready
+184,phase4,False,home,森町 家賃 相場,/home/rent-market/,MERGE,/life/housing/rent-house/,"在庫が少ない地域で間取り別「相場」を独立6,000字にすると、薄い集計・短期変動・183との競合になりやすい。調べ方と取得日付き例を賃貸ページへ統合。",,町営住宅家賃、空き家バンク、複数民間掲載の取得日・母数,L3,ready
+185,phase4,False,home,森町 土地 相場,/home/land-prices/,CREATE,/life/housing/land-prices/,182は土地の選び方、185は公的価格と実取引の読み方。価格の種類・時点・個別差を説明できれば分離可能。,,H2、鑑定評価の前提、データ取得日,L3,ready
+186,phase1,True,home,森町 空き家バンク,/home/vacant-house-bank/,EXPAND_EXISTING,/life/housing/vacant-house/,現行titleが既に「空き家バンク」。/home/vacant-house-bank/は完全競合。登録側/利用側の分岐、物件公開、交渉、契約、補助、更新確認を同URLで全面改修。,,H1、様式・登録要件・公開物件・町が仲介しない範囲、H6,L3,ready
+187,phase4,False,home,森町 空き家 購入,/home/buy-vacant-house/,CREATE,/life/housing/buy-vacant-house/,buy-houseは住宅購入一般、vacant-houseは制度総合。修繕、境界、残置物、農地、再建築、防災の購入前調査は独立意図。,,H1〜H5、建物状況調査、現地確認,L3,ready
+188,phase4,False,home,森町 空き家 売却,/home/sell-vacant-house/,EXPAND_EXISTING,/life/housing/sell-house/,現行ページが空き家バンクと一般売却を扱う。199と同じ正規URLに集約し、空き家所有者向け章・遠方手順を追加。,,H1、H2、H4〜H6,L3,ready
+189,phase4,False,home,森町 空き家 維持費,/home/vacant-house-costs/,CREATE,/life/housing/vacant-house-costs/,売却とは異なり「保有を続ける費用」の判断意図。税・草木・保険・点検・修繕を実額の根拠/見積条件付きで扱う。,,固定資産税、H1、保険会社・事業者の一次見積条件、現地管理記録,L3,ready
+190,phase4,False,home,森町 古民家 リフォーム,/home/old-house-renovation/,CREATE,/life/housing/old-house-renovation/,耐震・解体ページと購入ページを横断するが、改修可否・費用・確認順序は固有。伝統構法を未調査で断定しない。,,H5、建築士/施工者確認、町の補助、現地建物調査,L3,ready
+191,phase4,False,home,森町 農地 購入,/home/farmland-purchase/,CREATE,/life/troubles-consult/farmland/purchase/,既存は農地相続・転用・売貸相談。買主側の3条許可、営農要件、農地付き空き家の分離確認は独立した高リスク意図。,,H3、H1、法務局資料、専門家レビュー,L3,ready
+192,phase4,False,home,森町 農地転用,/home/farmland-conversion/,EXPAND_EXISTING,/life/troubles-consult/farmland/conversion/,主検索語が既存と完全一致。新URL禁止。4条/5条、農振除外との順序、受付・審査の最新情報を拡張。,,H3、対象地別の担当課確認,L3,ready
+193,phase4,False,home,森町 相続 不動産,/home/inherited-property/,EXPAND_EXISTING,/life/end-of-life/inherited-house/,既存が相続した親の家の使う/貸す/売る/解体を扱う。一般相続ページとは不動産の選択に限定して差別化。,,H4、H1、H2、H6,L3,ready
+194,phase4,False,home,森町 相続登記,/home/inheritance-registration/,CREATE,/life/end-of-life/inheritance-registration/,既存相続ページは町の戸籍・税と家族判断が中心。法務局で行う登記の期限・書類・相談先は独立意図。ただし町固有情報を無理に増やさない。,,H4、法務省の最新制度・様式、専門家レビュー,L3,ready
+195,phase4,False,home,森町 実家じまい,/home/parents-home/,EXPAND_EXISTING,/life/housing/close-parents-house/,現行titleが完全一致。parents-home新設は重複。介護前後、相続前後、片付け、名義、維持、家族記録を既存へ拡張。,,H1、H4〜H6、町のごみ案内,L3,ready
+196,phase4,False,home,森町 不動産 査定,/home/property-valuation/,CREATE,/life/housing/property-valuation/,土地価格ページは公的データ、売却ページは全工程。査定種別、根拠、媒介前の比較、道路・境界・農地による個別差に限定すれば独立可能。,,H2、H3、H6、国交省の媒介/価格査定関連資料,L3,ready
+197,phase1,True,home,森町 移住,/home/moving-to-morimachi/,EXPAND_EXISTING,/life/living-soon/about-morimachi/,現行title・主検索語が移住そのもの。/home/moving-to-morimachi/は完全競合。仕事・子育て・交通・6地区・住まいの比較ハブに全面拡張。,,H1、A1、T1〜T3、学校・医療・統計、現地生活動線,L3,ready
+198,phase4,False,home,森町 ハザードマップ 不動産,/home/hazard-map-property/,EXPAND_EXISTING,/life/living-soon/disaster-risk/,既存主検索語が「ハザードマップ 土地」。防災一般ページとは「転居/物件選び」に限定。新URLは不要。,,H5、H2、現地高低差・避難路,L3,ready
+199,phase4,False,home,森町 家 売る,/home/sell-property/,EXPAND_EXISTING,/life/housing/sell-house/,主検索語が既存と完全一致。188を空き家章として同じURLに統合し、一般売却・相続・空き家バンクの分岐を作る。,,H1、H2、H4、H6,L3,ready
+200,phase4,False,home,森町 不動産 相談,/home/consultation/,CREATE,/life/housing/real-estate-consultation/,既存public-housing-consultationは住まいに困窮した人の公的相談であり、売買・空き家の民間相談とは混同禁止。事業者情報・相談範囲・費用/次の手順を明示した専用入口が必要。,,H6、行政窓口との違い、相談後の流れ、計測/同意/個人情報,L3,ready

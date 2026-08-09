@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "primary_keyword": "森町 静岡 観光",
+    "decision": "CREATE",
+    "url": "/guide/morimachi-complete-guide/",
+    "proposed_title_h1": "静岡県森町完全ガイド｜観光・暮らし・特産品・アクセス",
+    "cta_level": "L1",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 2,
+    "primary_keyword": "森町 アクセス",
+    "decision": "CREATE",
+    "url": "/guide/access/",
+    "proposed_title_h1": "森町へのアクセス完全ガイド｜車・電車・バス別",
+    "cta_level": "L1",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 11,
+    "primary_keyword": "森町 小國神社",
+    "decision": "EXPAND_EXISTING",
+    "url": "/shrine/shrines/s4410001/",
+    "proposed_title_h1": "森町・小國神社完全ガイド｜由緒・見どころ・参拝",
+    "cta_level": "L0",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 15,
+    "primary_keyword": "小國神社 初詣",
+    "decision": "CREATE",
+    "url": "/guide/okuni-jinja-hatsumode/",
+    "proposed_title_h1": "小國神社の初詣｜混雑・交通・服装・参拝前の確認",
+    "cta_level": "L0",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 26,
+    "primary_keyword": "森町 甘々娘",
+    "decision": "CREATE",
+    "url": "/food/kankanmusume/",
+    "proposed_title_h1": "森町の甘々娘完全ガイド｜特徴・旬・買い方",
+    "cta_level": "L1",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 32,
+    "primary_keyword": "森町 お茶",
+    "decision": "EXPAND_EXISTING",
+    "url": "/blog/20260716-mori-tea-history/",
+    "proposed_title_h1": "森町のお茶完全ガイド｜産地・味・歴史",
+    "cta_level": "L1",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 46,
+    "primary_keyword": "森町 遠州の小京都",
+    "decision": "CREATE",
+    "url": "/history/little-kyoto/",
+    "proposed_title_h1": "なぜ森町は「遠州の小京都」なのか｜町並み・文化・水",
+    "cta_level": "L1",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 48,
+    "primary_keyword": "森町 祭り",
+    "decision": "EXPAND_EXISTING",
+    "url": "/shrine/festivals/",
+    "proposed_title_h1": "森町の祭り完全ガイド｜森・飯田・一宮の伝統行事",
+    "cta_level": "L1",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 81,
+    "primary_keyword": "森町 イベント",
+    "decision": "CREATE",
+    "url": "/events/annual-calendar/",
+    "proposed_title_h1": "森町イベント年間カレンダー｜祭り・花・農産物",
+    "cta_level": "L1",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 96,
+    "primary_keyword": "森町 転入届",
+    "decision": "EXPAND_EXISTING",
+    "url": "/life/start-living/moved-in/",
+    "proposed_title_h1": "森町へ引っ越すときの手続き｜転入届から生活開始まで",
+    "cta_level": "L2",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 145,
+    "primary_keyword": "森町 子育て 支援",
+    "decision": "EXPAND_EXISTING",
+    "url": "/life/family-grow/parenting-support/",
+    "proposed_title_h1": "森町子育て支援完全ガイド｜年齢別に制度を整理",
+    "cta_level": "L2",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 181,
+    "primary_keyword": "森町 不動産",
+    "decision": "EXPAND_EXISTING",
+    "url": "/life/housing/",
+    "proposed_title_h1": "森町の不動産完全ガイド｜家・土地・売却・相談",
+    "cta_level": "L3",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 186,
+    "primary_keyword": "森町 空き家バンク",
+    "decision": "EXPAND_EXISTING",
+    "url": "/life/housing/vacant-house/",
+    "proposed_title_h1": "森町空き家・空き地バンク｜登録・利用・注意点",
+    "cta_level": "L3",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  },
+  {
+    "id": 197,
+    "primary_keyword": "森町 移住",
+    "decision": "EXPAND_EXISTING",
+    "url": "/life/living-soon/about-morimachi/",
+    "proposed_title_h1": "森町移住完全ガイド｜仕事・子育て・交通・住まい",
+    "cta_level": "L3",
+    "exists": true,
+    "fact_checked_at": "2026-08-09"
+  }
+]

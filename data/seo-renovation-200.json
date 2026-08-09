@@ -1,0 +1,6672 @@
+[
+  {
+    "id": 1,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "guide",
+    "primary_keyword": "森町 静岡 観光",
+    "proposed_url": "/guide/morimachi-complete-guide/",
+    "proposed_title_h1": "静岡県森町完全ガイド｜観光・暮らし・特産品・アクセス",
+    "related_ids": [
+      2,
+      96,
+      173
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-overview/",
+        "title": "静岡県森町の転入・手続き｜役場以外にも確認することはありますか | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/guide/morimachi-complete-guide/",
+    "decision_reason": "トップ・六地区ブログは生活中心で観光の総合回答ではない",
+    "unique_angle": "初訪問者向けに地区、季節、移動、滞在時間を一枚で選べる入口",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町・観光協会、施設公式、現地導線写真"
+  },
+  {
+    "id": 2,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "guide",
+    "primary_keyword": "森町 アクセス",
+    "proposed_url": "/guide/access/",
+    "proposed_title_h1": "森町へのアクセス完全ガイド｜車・電車・バス別",
+    "related_ids": [
+      5,
+      6,
+      161
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/guide/access/",
+    "decision_reason": "/life/play-out/parking-access/ と公共交通記事は町内移動が中心",
+    "unique_angle": "町外から車・天浜線・バスで到着する比較と最終区間",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町公共交通、天浜線、道路管理者、現地乗換確認"
+  },
+  {
+    "id": 3,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 観光 モデルコース",
+    "proposed_url": "/guide/one-day-course/",
+    "proposed_title_h1": "森町1日観光モデルコース｜小國神社から町並みまで",
+    "related_ids": [
+      11,
+      19,
+      52
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/guide/one-day-course/",
+    "decision_reason": "既存に観光行程なし。No.4とは時間違いだけで競合",
+    "unique_angle": "営業時間に依存しない複数の1日行程と雨天代替",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "施設営業日、交通時刻、実走・実歩時間"
+  },
+  {
+    "id": 4,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 半日 観光",
+    "proposed_url": "/guide/half-day-course/",
+    "proposed_title_h1": "森町半日モデルコース｜3時間・5時間別",
+    "related_ids": [
+      11,
+      19,
+      41
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/guide/one-day-course/",
+    "decision_reason": "No.3の3時間・5時間章で疑問が完結",
+    "unique_angle": "短時間用の離脱点、駐車回数、歩行量比較",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "No.3と同じ＋現地所要時間"
+  },
+  {
+    "id": 5,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 電車 観光",
+    "proposed_url": "/guide/train-trip/",
+    "proposed_title_h1": "電車で巡る森町｜天浜線の駅から歩ける場所",
+    "related_ids": [
+      161,
+      162,
+      166
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/guide/train-trip/",
+    "decision_reason": "/life/start-living/public-transit/ は生活交通",
+    "unique_angle": "各駅から徒歩可能な範囲、帰りの列車を逃さない行程",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "天浜線公式時刻・駅設備、現地徒歩確認"
+  },
+  {
+    "id": 6,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 ドライブ",
+    "proposed_url": "/guide/drive-course/",
+    "proposed_title_h1": "森町ドライブガイド｜駐車場・休憩・回り方",
+    "related_ids": [
+      12,
+      19,
+      172
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/play-out-parking-access/",
+        "title": "静岡県森町の施設・駐車場｜森町営バスの時刻表はどこで見られますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/play-out/parking-access/",
+        "title": "静岡県森町内を移動する前に、駐車場・地図・公共交通を確認する | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/play-out/find-parks/",
+        "title": "静岡県森町の公園は、駐車場・遊具の有無など目的・年齢・アクセスで選ぶ | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/guide/access/",
+    "decision_reason": "No.2の車章、No.3の行程と大半が重なる",
+    "unique_angle": "狭路・右左折・休憩・給油を含む運転者向け注意",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "道路情報、駐車場管理者、実走"
+  },
+  {
+    "id": 7,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 雨の日",
+    "proposed_url": "/guide/rainy-day/",
+    "proposed_title_h1": "雨の日の森町｜屋内で楽しめる場所と注意点",
+    "related_ids": [
+      51,
+      66,
+      119
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/guide/rainy-day/",
+    "decision_reason": "文化施設・アクティ森候補と重複し、営業情報が変動",
+    "unique_angle": "雨量別の屋内代替と濡れる移動区間",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "施設公式、当日運営、現地屋根・床・駐車確認"
+  },
+  {
+    "id": 8,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 子連れ 観光",
+    "proposed_url": "/guide/family-trip/",
+    "proposed_title_h1": "子連れで森町へ｜年齢別の遊び場・食事・休憩",
+    "related_ids": [
+      66,
+      79,
+      143
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/guide/family-trip/",
+    "decision_reason": "公園記事は生活者向け、観光行程は未整備",
+    "unique_angle": "年齢、昼寝、授乳、トイレ、暑熱を含む行程",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "施設設備・利用条件、現地バリア確認"
+  },
+  {
+    "id": 9,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 一人旅",
+    "proposed_url": "/guide/solo-trip/",
+    "proposed_title_h1": "森町ひとり旅｜静かに歩く神社・町並み・茶",
+    "related_ids": [
+      11,
+      35,
+      53
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/guide/one-day-course/",
+    "decision_reason": "一人という属性だけでは独立6,000字になりにくい",
+    "unique_angle": "静かな時間帯・公共交通・安全をNo.3の派生行程にする",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "交通、施設、現地歩行確認"
+  },
+  {
+    "id": 10,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 高齢者 観光",
+    "proposed_url": "/guide/senior-friendly-trip/",
+    "proposed_title_h1": "高齢の家族と森町へ｜段差・休憩・移動の実用情報",
+    "related_ids": [
+      12,
+      41,
+      146
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/parents-care-elderly-transportation/",
+        "title": "静岡県森町の公共交通利用券・高齢者｜通院の送迎をしてもらえるサービスですか | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/guide/senior-friendly-trip/",
+    "decision_reason": "高齢者交通助成は住民制度で、来訪者の段差情報ではない",
+    "unique_angle": "歩行距離、段差、座席、トイレを数値で比較",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "施設管理者、現地実測、介助設備確認"
+  },
+  {
+    "id": 11,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "guide",
+    "primary_keyword": "森町 小國神社",
+    "proposed_url": "/guide/okuni-jinja/",
+    "proposed_title_h1": "森町・小國神社完全ガイド｜由緒・見どころ・参拝",
+    "related_ids": [
+      12,
+      13,
+      19
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410001/",
+        "title": "小國神社（おくにじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260805-bugaku-shaji-rinchi/",
+        "title": "静岡県森町・国指定の舞楽が三件ある町で、社寺の隣に土地を持つということ | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260711-three-bugaku/",
+        "title": "静岡県森町の三社に伝わる舞楽は、三つの舞をひと括りにしない方が面白い | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/shrine/shrines/s4410001/",
+    "decision_reason": "個別神社DBと舞楽ブログが既にある",
+    "unique_angle": "由緒の出典階層、境内の見方、参拝マナー、周辺への分岐を一体化",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "神社公式、文化財資料、現地掲示・撮影許可"
+  },
+  {
+    "id": 12,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "guide",
+    "primary_keyword": "小國神社 駐車場",
+    "proposed_url": "/guide/okuni-jinja-parking/",
+    "proposed_title_h1": "小國神社の駐車場と混雑｜入口・時間帯・迂回の考え方",
+    "related_ids": [
+      2,
+      6,
+      15
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410001/",
+        "title": "小國神社（おくにじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/play-out-parking-access/",
+        "title": "静岡県森町の施設・駐車場｜森町営バスの時刻表はどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/parking-access/",
+        "title": "静岡県森町内を移動する前に、駐車場・地図・公共交通を確認する | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/find-parks/",
+        "title": "静岡県森町の公園は、駐車場・遊具の有無など目的・年齢・アクセスで選ぶ | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "HOLD",
+    "final_url": "/guide/okuni-jinja-parking/",
+    "decision_reason": "No.2・6と重なるが、混雑時の検索意図は独立",
+    "unique_angle": "通常日と繁忙日の入口、誘導、歩行距離を現況図で示す",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "神社・警察等の当期案内、現地計測、臨時規制"
+  },
+  {
+    "id": 13,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "小國神社 御朱印",
+    "proposed_url": "/guide/okuni-jinja-goshuin/",
+    "proposed_title_h1": "小國神社の御朱印・授与所・参拝順序ガイド",
+    "related_ids": [
+      11,
+      14,
+      19
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410001/",
+        "title": "小國神社（おくにじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260805-bugaku-shaji-rinchi/",
+        "title": "静岡県森町・国指定の舞楽が三件ある町で、社寺の隣に土地を持つということ | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260711-three-bugaku/",
+        "title": "静岡県森町の三社に伝わる舞楽は、三つの舞をひと括りにしない方が面白い | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/shrine/shrines/s4410001/",
+    "decision_reason": "授与情報だけで独立長文にするとNo.11を反復",
+    "unique_angle": "参拝順序・受付確認方法としてNo.11内で完結",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "神社公式・授与所掲示"
+  },
+  {
+    "id": 14,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "小國神社 ご利益",
+    "proposed_url": "/guide/okuni-jinja-goriyaku/",
+    "proposed_title_h1": "小國神社のご利益と御祭神｜縁結び・祈願を正しく知る",
+    "related_ids": [
+      11,
+      13,
+      18
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410001/",
+        "title": "小國神社（おくにじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260805-bugaku-shaji-rinchi/",
+        "title": "静岡県森町・国指定の舞楽が三件ある町で、社寺の隣に土地を持つということ | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260711-three-bugaku/",
+        "title": "静岡県森町の三社に伝わる舞楽は、三つの舞をひと括りにしない方が面白い | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/shrine/shrines/s4410001/",
+    "decision_reason": "祭神・由緒はNo.11の中核で分離すると重複",
+    "unique_angle": "公式表現と俗説を分ける章",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "神社公式由緒・祭神資料"
+  },
+  {
+    "id": 15,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "guide",
+    "primary_keyword": "小國神社 初詣",
+    "proposed_url": "/guide/okuni-jinja-hatsumode/",
+    "proposed_title_h1": "小國神社の初詣｜混雑・交通・服装・参拝前の確認",
+    "related_ids": [
+      12,
+      89,
+      161
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410001/",
+        "title": "小國神社（おくにじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/life/living-soon/areas/iida/",
+        "title": "静岡県森町・飯田地区の暮らし｜住む前の生活動線確認 | 森町ライフハック",
+        "score": 0.143
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/guide/okuni-jinja-hatsumode/",
+    "decision_reason": "No.11では年始の交通・防寒・待機を十分扱えない",
+    "unique_angle": "年度別発表を固定値化せず、到着・退出・代替交通を整理",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "神社の当年発表、交通事業者、臨時規制、現地下見"
+  },
+  {
+    "id": 16,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "guide",
+    "primary_keyword": "小國神社 紅葉",
+    "proposed_url": "/guide/okuni-jinja-autumn-leaves/",
+    "proposed_title_h1": "小國神社の紅葉ガイド｜見頃・歩き方・混雑",
+    "related_ids": [
+      11,
+      87,
+      172
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410001/",
+        "title": "小國神社（おくにじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260805-bugaku-shaji-rinchi/",
+        "title": "静岡県森町・国指定の舞楽が三件ある町で、社寺の隣に土地を持つということ | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260711-three-bugaku/",
+        "title": "静岡県森町の三社に伝わる舞楽は、三つの舞をひと括りにしない方が面白い | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "HOLD",
+    "final_url": "/guide/okuni-jinja-autumn-leaves/",
+    "decision_reason": "No.87と完全競合するため代表を一つにする",
+    "unique_angle": "定点写真、見頃の幅、雨後の足元、混雑を実測",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "神社当年情報、現地定点撮影、交通案内"
+  },
+  {
+    "id": 17,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "小國神社 新緑",
+    "proposed_url": "/guide/okuni-jinja-fresh-green/",
+    "proposed_title_h1": "小國神社の新緑と青もみじ｜初夏の歩き方",
+    "related_ids": [
+      11,
+      78,
+      92
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410001/",
+        "title": "小國神社（おくにじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/blog/20260805-bugaku-shaji-rinchi/",
+        "title": "静岡県森町・国指定の舞楽が三件ある町で、社寺の隣に土地を持つということ | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/blog/20260711-three-bugaku/",
+        "title": "静岡県森町の三社に伝わる舞楽は、三つの舞をひと括りにしない方が面白い | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/shrine/shrines/s4410001/",
+    "decision_reason": "No.16の季節差し替え型になりやすい",
+    "unique_angle": "新緑期の自然観察・参拝章として追加",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "神社公式、現地写真、植生確認"
+  },
+  {
+    "id": 18,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "小國神社 花菖蒲",
+    "proposed_url": "/guide/okuni-jinja-iris/",
+    "proposed_title_h1": "小國神社の花菖蒲｜時期・場所・雨の日の楽しみ方",
+    "related_ids": [
+      7,
+      11,
+      84
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410001/",
+        "title": "小國神社（おくにじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260805-bugaku-shaji-rinchi/",
+        "title": "静岡県森町・国指定の舞楽が三件ある町で、社寺の隣に土地を持つということ | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260711-three-bugaku/",
+        "title": "静岡県森町の三社に伝わる舞楽は、三つの舞をひと括りにしない方が面白い | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/nature/flowers-calendar/",
+    "decision_reason": "No.78の花暦と検索意図が近い",
+    "unique_angle": "花菖蒲の場所と雨天動線を花暦内で詳説",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "神社・観光協会の当年開花情報、現地写真"
+  },
+  {
+    "id": 19,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "guide",
+    "primary_keyword": "小國ことまち横丁",
+    "proposed_url": "/guide/kotomachi-yokocho/",
+    "proposed_title_h1": "小國ことまち横丁ガイド｜食べ歩き・お茶・休憩",
+    "related_ids": [
+      11,
+      37,
+      43
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/guide/kotomachi-yokocho/",
+    "decision_reason": "No.37・40・42・43と店舗・飲食が競合",
+    "unique_angle": "テナント羅列でなく注文、座席、休憩、混雑の現況案内",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "施設公式、各店許諾・営業時間、現地取材・写真"
+  },
+  {
+    "id": 20,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 天宮神社",
+    "proposed_url": "/guide/amenomiya-jinja/",
+    "proposed_title_h1": "森町・天宮神社｜由緒・なぎの木・参拝ガイド",
+    "related_ids": [
+      21,
+      47,
+      65
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410002/",
+        "title": "天宮神社（あめのみやじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/blog/20260805-bugaku-shaji-rinchi/",
+        "title": "静岡県森町・国指定の舞楽が三件ある町で、社寺の隣に土地を持つということ | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/blog/20260711-three-bugaku/",
+        "title": "静岡県森町の三社に伝わる舞楽は、三つの舞をひと括りにしない方が面白い | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/blog/20260708-shrine-architecture/",
+        "title": "静岡県森町の神社は、名前だけでなく建物の年代から見ても面白い | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/shrine/shrines/s4410002/",
+    "decision_reason": "神社DBと舞楽ブログが存在",
+    "unique_angle": "なぎの木、社殿、舞楽を現地観覧の順序で接続",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "神社・町文化財資料、現地掲示"
+  },
+  {
+    "id": 21,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "天宮神社 舞楽",
+    "proposed_url": "/guide/amenomiya-bugaku/",
+    "proposed_title_h1": "天宮神社の十二段舞楽｜歴史・見どころ・観覧の心得",
+    "related_ids": [
+      20,
+      48,
+      65
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410002/",
+        "title": "天宮神社（あめのみやじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260805-bugaku-shaji-rinchi/",
+        "title": "静岡県森町・国指定の舞楽が三件ある町で、社寺の隣に土地を持つということ | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260711-three-bugaku/",
+        "title": "静岡県森町の三社に伝わる舞楽は、三つの舞をひと括りにしない方が面白い | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260708-shrine-architecture/",
+        "title": "静岡県森町の神社は、名前だけでなく建物の年代から見ても面白い | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/blog/20260711-three-bugaku/",
+    "decision_reason": "三社舞楽記事と小國・天宮舞楽記事が既存",
+    "unique_angle": "三社比較を保ち、天宮の演目・観覧心得を章拡張",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "文化庁・町、保存会または神社、当年開催発表"
+  },
+  {
+    "id": 22,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 三島神社",
+    "proposed_url": "/guide/mishima-jinja/",
+    "proposed_title_h1": "森町・三島神社｜森のまつりと地域の氏神",
+    "related_ids": [
+      48,
+      49,
+      53
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410004/",
+        "title": "三島神社（みしまじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.5
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/shrine/shrines/s4410004/",
+    "decision_reason": "個別神社DBが正規URL",
+    "unique_angle": "氏子圏と森の祭りの関係を事実と解釈に分ける",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "神社・町史・祭典本部、現地掲示"
+  },
+  {
+    "id": 23,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 山名神社",
+    "proposed_url": "/guide/yamana-jinja/",
+    "proposed_title_h1": "森町・山名神社｜飯田の祇園祭と歴史",
+    "related_ids": [
+      48,
+      64,
+      65
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/shrine/shrines/s4410003/",
+        "title": "山名神社（やまなじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.5
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/shrine/shrines/s4410003/",
+    "decision_reason": "山名神社DBと祇園祭舞ブログが既存",
+    "unique_angle": "建物・祭神・お舞・飯田地区の順に読む",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "神社、文化財資料、保存会、現地確認"
+  },
+  {
+    "id": 24,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 賀茂神社",
+    "proposed_url": "/guide/kamo-jinja/",
+    "proposed_title_h1": "森町・賀茂神社｜飯田荘と文化財を訪ねる",
+    "related_ids": [
+      64,
+      65,
+      87
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/guide/kamo-jinja/",
+    "decision_reason": "既存DBに明確な同名正規ページを確認できず、同定誤りの危険",
+    "unique_angle": "所在地・祭神・飯田荘との関係を典拠付きで確定",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "宗教法人・神社側、町史、現地銘板・位置確認"
+  },
+  {
+    "id": 25,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "guide",
+    "primary_keyword": "森町 蓮華寺",
+    "proposed_url": "/guide/rengeji/",
+    "proposed_title_h1": "森町・蓮華寺｜萩の寺の歴史と参拝案内",
+    "related_ids": [
+      65,
+      78,
+      173
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/temple/temples/t02/",
+        "title": "蓮華寺 | 静岡県森町ライフハック",
+        "score": 0.5
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/temple/temples/t02/",
+    "decision_reason": "寺院DBに正規ページあり",
+    "unique_angle": "萩の季節、伽藍、参拝動線を寺院情報と統合",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "寺院、町文化財・観光協会、現地撮影許可"
+  },
+  {
+    "id": 26,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "food",
+    "primary_keyword": "森町 甘々娘",
+    "proposed_url": "/food/kankanmusume/",
+    "proposed_title_h1": "森町の甘々娘完全ガイド｜特徴・旬・買い方",
+    "related_ids": [
+      27,
+      28,
+      29
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/food/kankanmusume/",
+    "decision_reason": "既存主要URLなし。No.27〜31の親となる",
+    "unique_angle": "品種の事実、旬、購入、持帰りまで一次情報で横断",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "生産者・JA等、町、現地取材・商品写真"
+  },
+  {
+    "id": 27,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "food",
+    "primary_keyword": "甘々娘 時期",
+    "proposed_url": "/food/kankanmusume-season/",
+    "proposed_title_h1": "甘々娘の旬はいつ？森町の販売時期と探し方",
+    "related_ids": [
+      26,
+      28,
+      91
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/food/kankanmusume/",
+    "decision_reason": "旬はNo.26の主要回答で、単独化すると反復",
+    "unique_angle": "年ごとの差と販売情報の確認方法を章で明示",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "生産者の当年発表、気象・収穫状況"
+  },
+  {
+    "id": 28,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "food",
+    "primary_keyword": "甘々娘 直売所",
+    "proposed_url": "/food/kankanmusume-farm-stands/",
+    "proposed_title_h1": "森町で甘々娘を買う｜直売所の探し方・時間・マナー",
+    "related_ids": [
+      26,
+      27,
+      45
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-city-hall-branches/",
+        "title": "静岡県森町役場・窓口・時間｜支所や出張所はどこにありますか | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "HOLD",
+    "final_url": "/food/kankanmusume-farm-stands/",
+    "decision_reason": "No.26・45と競合するが、当日購入意図は独立",
+    "unique_angle": "販売者ごとの公開許諾、販売方法、並び方、売切れ対応",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "各生産者の掲載許諾・当年販売、現地動線"
+  },
+  {
+    "id": 29,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "甘々娘 保存",
+    "proposed_url": "/food/kankanmusume-storage/",
+    "proposed_title_h1": "甘々娘の選び方・持ち帰り・保存・ゆで方",
+    "related_ids": [
+      26,
+      30,
+      43
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/food/kankanmusume/",
+    "decision_reason": "保存・ゆで方はNo.26で購入直後に必要",
+    "unique_angle": "生産者推奨と食品安全情報を分けた持帰り章",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "生産者、農水省等の食品保存資料"
+  },
+  {
+    "id": 30,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "甘々娘 レシピ",
+    "proposed_url": "/food/kankanmusume-recipes/",
+    "proposed_title_h1": "甘々娘を味わうレシピ｜素材を生かす家庭料理",
+    "related_ids": [
+      26,
+      29,
+      41
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/food/kankanmusume-recipes/",
+    "decision_reason": "No.29の一般調理と重複。独自レシピなしでは全国共通",
+    "unique_angle": "試作量、歩留まり、写真、保存後の差を実測",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "生産者コメント、実調理・撮影、食品安全"
+  },
+  {
+    "id": 31,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 朝採り とうもろこし",
+    "proposed_url": "/food/morimachi-corn-guide/",
+    "proposed_title_h1": "森町の朝採りとうもろこし｜品種・買い方・注意点",
+    "related_ids": [
+      26,
+      28,
+      45
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/food/kankanmusume/",
+    "decision_reason": "甘々娘以外の品種資料が揃わなければNo.26と同義",
+    "unique_angle": "品種比較が取材で成立した場合のみ独立再審査",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "複数生産者・JA、品種表示、販売現地"
+  },
+  {
+    "id": 32,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "food",
+    "primary_keyword": "森町 お茶",
+    "proposed_url": "/food/morimachi-tea/",
+    "proposed_title_h1": "森町のお茶完全ガイド｜産地・味・歴史",
+    "related_ids": [
+      33,
+      34,
+      35
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/blog/20260716-mori-tea-history/",
+    "decision_reason": "森の茶の歴史記事が既に長文・一次資料付き",
+    "unique_angle": "歴史を残し、産地、味の選び方、買い方、茶園の暮らしへ拡張",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町・県茶業資料、生産者、現地茶園・製茶確認"
+  },
+  {
+    "id": 33,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町茶 特徴",
+    "proposed_url": "/food/morimachi-tea-taste/",
+    "proposed_title_h1": "森町茶の特徴｜香り・味・淹れ方を知る",
+    "related_ids": [
+      32,
+      34,
+      36
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/blog/20260716-mori-tea-history/",
+    "decision_reason": "味・香りだけ分けるとNo.32を反復し主観化する",
+    "unique_angle": "品種・製法・淹れ条件ごとの差をNo.32内で示す",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "生産者・茶業団体、比較試飲記録"
+  },
+  {
+    "id": 34,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 お茶屋",
+    "proposed_url": "/food/tea-shops/",
+    "proposed_title_h1": "森町のお茶屋・茶販売店の選び方｜目的別案内",
+    "related_ids": [
+      32,
+      43,
+      45
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/food/tea-shops/",
+    "decision_reason": "No.32・43・45と重複、店舗情報は変動",
+    "unique_angle": "目的別選択を、全掲載先の確認・許諾付きで作る",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "各店公式・取材・撮影許諾、営業現況"
+  },
+  {
+    "id": 35,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 茶畑",
+    "proposed_url": "/food/tea-fields/",
+    "proposed_title_h1": "森町の茶畑景観｜大久保など山間の茶産地を知る",
+    "related_ids": [
+      32,
+      63,
+      78
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/blog/20260806-tea-garden-conditions/",
+    "decision_reason": "茶園継承ブログに土地・管理の深い既存内容",
+    "unique_angle": "景観消費にせず、農地・作業・私有地マナーを接続",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "生産者、町農業資料、現地撮影許可"
+  },
+  {
+    "id": 36,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 茶摘み 体験",
+    "proposed_url": "/food/tea-experience/",
+    "proposed_title_h1": "森町でお茶を体験する｜茶摘み・淹れ方・予約確認",
+    "related_ids": [
+      32,
+      92,
+      66
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/food/tea-experience/",
+    "decision_reason": "アクティ森等の体験候補と競合、開催は季節変動",
+    "unique_angle": "実施者ごとの対象年齢、服装、予約、雨天対応",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "主催者公式・当年予約、現地体験・撮影許諾"
+  },
+  {
+    "id": 37,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 和菓子",
+    "proposed_url": "/food/wagashi/",
+    "proposed_title_h1": "森町の和菓子ガイド｜小京都の菓子文化を味わう",
+    "related_ids": [
+      19,
+      38,
+      43
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/food/wagashi/",
+    "decision_reason": "No.19・40・42・43と店舗情報が競合",
+    "unique_angle": "複数店を同条件で取材し、菓子文化と購入実務を分ける",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "店舗許諾、商品・価格確認、町史資料"
+  },
+  {
+    "id": 38,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 次郎柿",
+    "proposed_url": "/food/jiro-persimmon/",
+    "proposed_title_h1": "森町の次郎柿｜旬・特徴・買い方・保存",
+    "related_ids": [
+      39,
+      43,
+      45
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/blog/20260805-cultural-assets/",
+    "decision_reason": "次郎柿原木を扱う文化財ブログが既存",
+    "unique_angle": "原木史を核に、旬・選び方は生産者取材後追記",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町文化財、生産者・JA、原木現地確認"
+  },
+  {
+    "id": 39,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 しいたけ",
+    "proposed_url": "/food/shiitake/",
+    "proposed_title_h1": "森町のしいたけ｜山の恵み・旬・選び方",
+    "related_ids": [
+      38,
+      41,
+      45
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/food/shiitake/",
+    "decision_reason": "森町固有の既存資料が確認できず一般食材記事化の恐れ",
+    "unique_angle": "原木・菌床、産地、旬を生産者単位で裏付ける",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "生産者、県・町林業資料、現地取材"
+  },
+  {
+    "id": 40,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 わらび餅",
+    "proposed_url": "/food/warabimochi/",
+    "proposed_title_h1": "森町でわらび餅を楽しむ｜参拝と一緒に巡る",
+    "related_ids": [
+      19,
+      37,
+      42
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/guide/kotomachi-yokocho/",
+    "decision_reason": "単品記事はNo.19・37・42と競合し店舗依存",
+    "unique_angle": "施設取材ができた場合に商品章として掲載",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "販売店公式・取材・撮影許諾"
+  },
+  {
+    "id": 41,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "food",
+    "primary_keyword": "森町 ランチ",
+    "proposed_url": "/food/lunch/",
+    "proposed_title_h1": "森町ランチの選び方｜地域・目的・子連れ別",
+    "related_ids": [
+      42,
+      43,
+      173
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/food/lunch/",
+    "decision_reason": "No.19・42と店舗重複。古い営業時間は有害",
+    "unique_angle": "地区・予約・子連れ・営業日を全店確認した比較台帳",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "各店の掲載許諾、営業日・価格、現地利用"
+  },
+  {
+    "id": 42,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 カフェ",
+    "proposed_url": "/food/cafes/",
+    "proposed_title_h1": "森町のカフェ・甘味処｜休憩と町歩きの組み立て方",
+    "related_ids": [
+      19,
+      37,
+      41
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/food/lunch/",
+    "decision_reason": "ランチ店との重複が大きく、母数確認前に別DB化しない",
+    "unique_angle": "休憩利用の時間帯・席・駐車をNo.41のフィルタにする",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "No.41と同じ"
+  },
+  {
+    "id": 43,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 お土産",
+    "proposed_url": "/food/souvenirs/",
+    "proposed_title_h1": "森町のお土産完全ガイド｜茶・菓子・工芸・農産物",
+    "related_ids": [
+      32,
+      37,
+      51
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/food/souvenirs/",
+    "decision_reason": "茶・菓子・農産物候補の横断需要は独立",
+    "unique_angle": "保存性、予算、購入場所、製造者を用途別に選べる",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "製造者・販売者許諾、商品表示・価格、現地購入"
+  },
+  {
+    "id": 44,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 ふるさと納税",
+    "proposed_url": "/food/furusato-tax/",
+    "proposed_title_h1": "森町ふるさと納税ガイド｜返礼品・申込み・確認事項",
+    "related_ids": [
+      32,
+      38,
+      96
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/family-grow-nursery-childcare/",
+        "title": "静岡県森町の保育園・申込み｜保育園に入れなかったらどうなりますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/family-grow/nursery-school/",
+        "title": "静岡県森町の保育園・幼稚園｜空き状況・申込み・施設一覧 | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/work-life/tax/",
+    "decision_reason": "税手続き記事と接点があり、返礼品一覧は公式に任せる",
+    "unique_angle": "制度上の注意と森町公式申込先を簡潔に追加",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "総務省、森町当年度公式、指定サイト"
+  },
+  {
+    "id": 45,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "food",
+    "primary_keyword": "森町 直売所",
+    "proposed_url": "/food/farmers-markets/",
+    "proposed_title_h1": "森町の直売所・農産物販売｜旬を買う実用ガイド",
+    "related_ids": [
+      28,
+      31,
+      38
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/food/farmers-markets/",
+    "decision_reason": "No.28・34・38・41と販売場所が重複",
+    "unique_angle": "旬、支払、開店、売切れを全掲載先で確認した実用地図",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "各直売所・生産者許諾、現地営業確認"
+  },
+  {
+    "id": 46,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "history",
+    "primary_keyword": "森町 遠州の小京都",
+    "proposed_url": "/history/little-kyoto/",
+    "proposed_title_h1": "なぜ森町は「遠州の小京都」なのか｜町並み・文化・水",
+    "related_ids": [
+      47,
+      53,
+      65
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/temple/areas/mori/",
+        "title": "森地区の寺院 | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/shrine/areas/mori/",
+        "title": "森地区の神社 | 静岡県森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/history/little-kyoto/",
+    "decision_reason": "町並み・祭り・茶・文化財の既存記事は断片的",
+    "unique_angle": "呼称の出典を示し、水・街道・建築・祭礼を歩行ルートで検証",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町史・観光協会、全国京都会議等、現地町並み"
+  },
+  {
+    "id": 47,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 森の石松",
+    "proposed_url": "/history/mori-no-ishimatsu/",
+    "proposed_title_h1": "森の石松と森町｜人物像・伝承・地域との関係",
+    "related_ids": [
+      46,
+      50,
+      53
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/history/mori-no-ishimatsu/",
+    "decision_reason": "既存主要URLなし",
+    "unique_angle": "史料上の人物像と講談・浪曲上の伝承を明確に分ける",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町史、資料館、著作権確認済み史料"
+  },
+  {
+    "id": 48,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "history",
+    "primary_keyword": "森町 祭り",
+    "proposed_url": "/history/festivals/",
+    "proposed_title_h1": "森町の祭り完全ガイド｜森・飯田・一宮の伝統行事",
+    "related_ids": [
+      49,
+      81,
+      88
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/shrine/festivals/",
+    "decision_reason": "祭礼DB、祭りブログ、舞楽ブログが複数存在",
+    "unique_angle": "日付一覧から、地区差・担い手・観覧マナーへ正規ハブを拡張",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "神社・祭典本部・町、各年公式発表"
+  },
+  {
+    "id": 49,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森のまつり 屋台",
+    "proposed_url": "/history/mori-festival-floats/",
+    "proposed_title_h1": "森のまつりの屋台と町内｜見方・歴史・地域文化",
+    "related_ids": [
+      22,
+      48,
+      53
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/blog/20260808-yatai-storage-ownership/",
+    "decision_reason": "屋台保管・所有の長文ブログとNo.48が既存",
+    "unique_angle": "屋台の見方を建物・所有・保管・町内運営までつなぐ",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "祭典本部・町内、現地取材・撮影許可"
+  },
+  {
+    "id": 50,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 歴史民俗資料館",
+    "proposed_url": "/history/history-museum/",
+    "proposed_title_h1": "森町歴史民俗資料館ガイド｜旧周智郡役所と展示",
+    "related_ids": [
+      46,
+      47,
+      65
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/history/history-museum/",
+    "decision_reason": "文化施設記事はあるが施設固有情報なし",
+    "unique_angle": "展示内容、撮影可否、バリア、開館実態を現地確認",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "施設・町公式、現地取材・撮影許可"
+  },
+  {
+    "id": 51,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 森山焼",
+    "proposed_url": "/history/moriyama-yaki/",
+    "proposed_title_h1": "森山焼とは｜森町の窯・特徴・陶芸文化",
+    "related_ids": [
+      43,
+      52,
+      66
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/history/moriyama-yaki/",
+    "decision_reason": "No.43・66と工芸・体験で重複",
+    "unique_angle": "窯ごとの違いを作り手の言葉と作品写真で示す",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "窯元取材・許諾、町史・観光協会"
+  },
+  {
+    "id": 52,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 吉川和紙",
+    "proposed_url": "/history/yoshikawa-washi/",
+    "proposed_title_h1": "吉川和紙とは｜森町に伝わる手仕事と体験",
+    "related_ids": [
+      51,
+      66,
+      168
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/history/yoshikawa-washi/",
+    "decision_reason": "No.66・168候補と体験で競合",
+    "unique_angle": "現存する担い手・工程・体験可否を確認した記録",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "保存団体・職人、町史、現地取材"
+  },
+  {
+    "id": 53,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 城下 町並み",
+    "proposed_url": "/history/joka-streetscape/",
+    "proposed_title_h1": "森町・城下の町並みを歩く｜蔵・路地・暮らし",
+    "related_ids": [
+      46,
+      58,
+      173
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-overview/",
+        "title": "静岡県森町の転入・手続き｜役場以外にも確認することはありますか | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "HOLD",
+    "final_url": "/history/joka-streetscape/",
+    "decision_reason": "No.46・60と町並み説明が重複",
+    "unique_angle": "建物を無断で由緒付けず、公開道路から歩ける現況ルート",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "町史・文化財台帳、所有者配慮、現地歩行"
+  },
+  {
+    "id": 54,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 秋葉街道",
+    "proposed_url": "/history/akiba-kaido/",
+    "proposed_title_h1": "森町を通る秋葉街道｜宿・信仰・道の歴史",
+    "related_ids": [
+      55,
+      61,
+      62
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/history/akiba-kaido/",
+    "decision_reason": "No.55・61と接点はあるが街道全体の意図は独立",
+    "unique_angle": "古道と現道を混同せず、史料・地形・安全な歩行区間を重ねる",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町史、国土地理院、道路管理者、現地踏査"
+  },
+  {
+    "id": 55,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 戦国夢街道",
+    "proposed_url": "/history/sengoku-yumekaido/",
+    "proposed_title_h1": "戦国夢街道を歩く｜徳川・武田の伝承と三倉",
+    "related_ids": [
+      54,
+      61,
+      69
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/history/sengoku-yumekaido/",
+    "decision_reason": "No.54・61と経路重複、伝承の断定リスク",
+    "unique_angle": "史実・伝承・観光名称を三層に分け、歩行安全を確認",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "町史・案内整備主体、現地踏査"
+  },
+  {
+    "id": 56,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 天方城跡",
+    "proposed_url": "/history/amagata-castle/",
+    "proposed_title_h1": "天方城跡ガイド｜森町の戦国史と歩き方",
+    "related_ids": [
+      55,
+      62,
+      65
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/history/amagata-castle/",
+    "decision_reason": "No.62と地区史が重なる",
+    "unique_angle": "遺構の見方、登路、私有地・危険箇所を現況確認",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "文化財資料、土地管理者、現地踏査"
+  },
+  {
+    "id": 57,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 飯田城跡",
+    "proposed_url": "/history/iida-castle/",
+    "proposed_title_h1": "飯田城跡と飯田地区｜地域史をたどる",
+    "related_ids": [
+      23,
+      24,
+      64
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/history/iida-castle/",
+    "decision_reason": "No.64と地区史が重なる",
+    "unique_angle": "所在地・遺構の確度を示し、見学可能範囲を限定",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "町史・文化財資料、管理者、現地確認"
+  },
+  {
+    "id": 58,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 地名 由来",
+    "proposed_url": "/history/place-names/",
+    "proposed_title_h1": "森町の地名の由来｜森・一宮・天方・三倉など",
+    "related_ids": [
+      59,
+      60,
+      65
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/blog/20260703-six-districts/",
+        "title": "静岡県森町を「六つの地区」から見ると、暮らしの輪郭が分かる | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/shrine/systems/ichinomiya/",
+        "title": "一宮・国造系の神社 | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260724-three-eastern-districts/",
+        "title": "一宮・園田・飯田を、地図の近さだけで同じ暮らしと考えない | 静岡県森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/history/place-names/",
+    "decision_reason": "六地区ブログは暮らし比較で語源記事ではない",
+    "unique_angle": "典拠のある由来と不明・諸説を地区ごとに表示",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町史・地名辞典・公文書"
+  },
+  {
+    "id": 59,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 一宮 歴史",
+    "proposed_url": "/history/ichinomiya-history/",
+    "proposed_title_h1": "森町一宮の歴史｜小國神社・街道・集落",
+    "related_ids": [
+      11,
+      54,
+      174
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/shrine/systems/ichinomiya/",
+        "title": "一宮・国造系の神社 | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/shrine/shrines/s4410001/",
+        "title": "小國神社（おくにじんじゃ） | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/shrine/festivals/",
+        "title": "静岡県森町の祭礼カレンダー | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260805-bugaku-shaji-rinchi/",
+        "title": "静岡県森町・国指定の舞楽が三件ある町で、社寺の隣に土地を持つということ | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/history/place-names/",
+    "decision_reason": "No.58とNo.11、地区生活ページに分散し独立は反復",
+    "unique_angle": "一宮章から神社DB・生活ページへ分岐",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町史、神社史、地区資料"
+  },
+  {
+    "id": 60,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 森地区 歴史",
+    "proposed_url": "/history/mori-district-history/",
+    "proposed_title_h1": "森町森地区の歴史｜町並み・祭り・行政の中心",
+    "related_ids": [
+      22,
+      49,
+      173
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/history/place-names/",
+    "decision_reason": "No.46・48・53・58との重複が大きい",
+    "unique_angle": "行政中心・町並み・祭りの変化を地区章で整理",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町史・旧地図・統計"
+  },
+  {
+    "id": 61,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 三倉 歴史",
+    "proposed_url": "/history/mikura-history/",
+    "proposed_title_h1": "森町三倉の歴史｜秋葉街道・山里・伝承",
+    "related_ids": [
+      54,
+      55,
+      178
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260717-mikura-amagata-travel/",
+        "title": "三倉・天方で暮らすなら、距離より「移動の代替」を見る | 静岡県森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/blog/20260717-mikura-amagata-travel/",
+    "decision_reason": "三倉・天方の移動史を含む長文ブログがある",
+    "unique_angle": "秋葉街道と山間生活の変化を交通実務へつなぐ",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町史、交通資料、地区取材"
+  },
+  {
+    "id": 62,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 天方 歴史",
+    "proposed_url": "/history/amagata-history/",
+    "proposed_title_h1": "森町天方の歴史｜城跡・山間集落・暮らし",
+    "related_ids": [
+      56,
+      69,
+      177
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-overview/",
+        "title": "静岡県森町の転入・手続き｜役場以外にも確認することはありますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260703-six-districts/",
+        "title": "静岡県森町を「六つの地区」から見ると、暮らしの輪郭が分かる | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/blog/20260717-mikura-amagata-travel/",
+    "decision_reason": "既存記事で三倉と対で扱い、分離すると共通説明が多い",
+    "unique_angle": "天方城・集落の章を追加して比較軸を保つ",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町史、文化財、地区取材"
+  },
+  {
+    "id": 63,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 園田 歴史",
+    "proposed_url": "/history/sonoda-history/",
+    "proposed_title_h1": "森町園田の歴史｜茶畑・集落・現在の暮らし",
+    "related_ids": [
+      35,
+      176,
+      185
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260724-three-eastern-districts/",
+        "title": "一宮・園田・飯田を、地図の近さだけで同じ暮らしと考えない | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260703-six-districts/",
+        "title": "静岡県森町を「六つの地区」から見ると、暮らしの輪郭が分かる | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/living-soon/areas/sonoda/",
+    "decision_reason": "園田生活ページと茶園記事が既存",
+    "unique_angle": "歴史を現在の茶園・道路・土地確認につなぐ",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町史、農業資料、地区取材"
+  },
+  {
+    "id": 64,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 飯田 歴史",
+    "proposed_url": "/history/iida-history/",
+    "proposed_title_h1": "森町飯田の歴史｜神社・祭り・集落の歩み",
+    "related_ids": [
+      23,
+      24,
+      175
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/blog/20260718-yamana-dance/",
+    "decision_reason": "山名神社祇園祭の歴史記事が既存",
+    "unique_angle": "神社だけでなく集落・街道・現在の生活へ範囲拡張",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町史、神社・保存会、地区資料"
+  },
+  {
+    "id": 65,
+    "phase": "phase3",
+    "priority_20": false,
+    "cluster": "history",
+    "primary_keyword": "森町 文化財",
+    "proposed_url": "/history/cultural-properties/",
+    "proposed_title_h1": "森町の文化財ガイド｜建築・舞楽・仏像・史跡",
+    "related_ids": [
+      20,
+      21,
+      50
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/blog/20260805-cultural-assets/",
+    "decision_reason": "代表文化財を横断する長文記事が既存",
+    "unique_angle": "指定区分・公開可否・保存と暮らしを一覧化",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "国・県・町文化財台帳、所有者公開情報"
+  },
+  {
+    "id": 66,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 アクティ森",
+    "proposed_url": "/nature/acty-mori/",
+    "proposed_title_h1": "森町体験の里アクティ森｜体験・食事・家族利用",
+    "related_ids": [
+      8,
+      51,
+      52
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/nature/acty-mori/",
+    "decision_reason": "文化施設・体験・食事候補と重複",
+    "unique_angle": "対象年齢、予約、所要時間、雨天、食事を実利用で確認",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "施設公式、各体験運営、現地取材・撮影"
+  },
+  {
+    "id": 67,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 カワセミの里",
+    "proposed_url": "/nature/kawasemi-camp/",
+    "proposed_title_h1": "吉川キャンプ場カワセミの里｜設備・予約・持ち物",
+    "related_ids": [
+      68,
+      73,
+      168
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/questions/play-out-sports-facilities/",
+        "title": "静岡県森町の体育館・予約｜予約はいつからできますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/questions/play-out-rent-public-facilities/",
+        "title": "静岡県森町の施設・予約｜公共施設を借りたいときはどこに問い合わせればいいですか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/play-out/sports-facilities/",
+        "title": "静岡県森町のスポーツ施設は、予約・料金・持ち物を先に確認する | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/play-out/cultural-facilities/",
+        "title": "静岡県森町の文化施設（ミキホール）は、開館日・予約・アクセスを先に確認する | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "HOLD",
+    "final_url": "/nature/kawasemi-camp/",
+    "decision_reason": "No.73のキャンプ総合と重なる",
+    "unique_angle": "サイト設備、搬入、通信、夜間、予約を現況で示す",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "施設公式、管理者取材、宿泊・現地写真"
+  },
+  {
+    "id": 68,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 東海自然歩道",
+    "proposed_url": "/nature/tokai-nature-trail/",
+    "proposed_title_h1": "森町の東海自然歩道｜コース・難易度・安全",
+    "related_ids": [
+      69,
+      77,
+      178
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/nature/tokai-nature-trail/",
+    "decision_reason": "No.69とコース説明が競合",
+    "unique_angle": "通行可能区間、標識、離脱点をGPS・現地で確認",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "県・町、通行規制、現地踏査"
+  },
+  {
+    "id": 69,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 ハイキング",
+    "proposed_url": "/nature/hiking/",
+    "proposed_title_h1": "森町ハイキング完全ガイド｜初心者・歴史・山道",
+    "related_ids": [
+      55,
+      68,
+      78
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/nature/tokai-nature-trail/",
+    "decision_reason": "安全な複数コースを確認できるまで総合ページを別建てしない",
+    "unique_angle": "難易度と撤退判断をNo.68内で比較",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "道路・登山道管理者、現地踏査"
+  },
+  {
+    "id": 70,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 太田川",
+    "proposed_url": "/nature/ota-river/",
+    "proposed_title_h1": "森町を流れる太田川｜自然・治水・暮らし",
+    "related_ids": [
+      71,
+      77,
+      198
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-overview/",
+        "title": "静岡県森町の転入・手続き｜役場以外にも確認することはありますか | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/nature/ota-river/",
+    "decision_reason": "河川情報記事と花火ブログは防災・イベント断面のみ",
+    "unique_angle": "流域、治水、利用、暮らしを公的地図で横断",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "県河川資料、町防災、国土地理院、現地観察"
+  },
+  {
+    "id": 71,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 太田川親水公園",
+    "proposed_url": "/nature/ota-river-park/",
+    "proposed_title_h1": "太田川親水公園ガイド｜散歩・花火・安全",
+    "related_ids": [
+      79,
+      86,
+      173
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/nature/ota-river-park/",
+    "decision_reason": "No.70・79・86と重複",
+    "unique_angle": "設備、駐車、増水時立入、日陰を現況で確認",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "管理者、河川情報、現地設備調査"
+  },
+  {
+    "id": 72,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 川遊び",
+    "proposed_url": "/nature/river-play/",
+    "proposed_title_h1": "森町で川遊びを考える｜場所選び・増水・安全対策",
+    "related_ids": [
+      67,
+      70,
+      94
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/nature/river-play/",
+    "decision_reason": "No.67・70・71と場所が重なり、安全上の高リスク",
+    "unique_angle": "遊泳を安易に推奨せず、水位・天候・退避判断を示す",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "河川管理者、消防・県水位、現地危険確認"
+  },
+  {
+    "id": 73,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 キャンプ",
+    "proposed_url": "/nature/camping/",
+    "proposed_title_h1": "森町キャンプガイド｜施設・季節・買い出し",
+    "related_ids": [
+      67,
+      72,
+      77
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/nature/kawasemi-camp/",
+    "decision_reason": "確認できる主要施設がNo.67なら総合記事は重複",
+    "unique_angle": "周辺買出し・季節装備を施設ページの章にする",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "施設・販売店、現地宿泊確認"
+  },
+  {
+    "id": 74,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 サイクリング",
+    "proposed_url": "/nature/cycling/",
+    "proposed_title_h1": "森町サイクリング｜天浜線・神社・茶畑ルート",
+    "related_ids": [
+      35,
+      75,
+      161
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/nature/cycling/",
+    "decision_reason": "No.5・35・75と経路競合",
+    "unique_angle": "交通量、勾配、路面、退避、輪行を実走で記録",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "道路管理者、天浜線輪行条件、GPS実走"
+  },
+  {
+    "id": 75,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 レンタサイクル",
+    "proposed_url": "/nature/rental-cycle/",
+    "proposed_title_h1": "森町レンタサイクル｜借り方・返却・おすすめ経路",
+    "related_ids": [
+      5,
+      74,
+      162
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/nature/rental-cycle/",
+    "decision_reason": "No.74の一部で、貸出事業の継続確認が必須",
+    "unique_angle": "台数、予約、返却、保険、故障時連絡を確認",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "貸出主体公式、現地利用確認"
+  },
+  {
+    "id": 76,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 野鳥",
+    "proposed_url": "/nature/birdwatching/",
+    "proposed_title_h1": "森町の野鳥観察｜里山・川辺で守りたいマナー",
+    "related_ids": [
+      68,
+      70,
+      77
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/nature/birdwatching/",
+    "decision_reason": "No.70・77と自然場所が共通、種の誤同定リスク",
+    "unique_angle": "季節・環境別に専門家確認済みの観察マナーを示す",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "県自然資料、専門家・観察会、現地記録"
+  },
+  {
+    "id": 77,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 星空",
+    "proposed_url": "/nature/stargazing/",
+    "proposed_title_h1": "森町で星空を見る｜場所選び・季節・安全",
+    "related_ids": [
+      61,
+      62,
+      73
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/nature/stargazing/",
+    "decision_reason": "一般論になりやすく、私有地・夜間安全の問題",
+    "unique_angle": "合法的に滞在できる場所、照明、通信、退避を夜間確認",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "土地管理者、気象庁、現地夜間調査"
+  },
+  {
+    "id": 78,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 花 見頃",
+    "proposed_url": "/nature/flowers-calendar/",
+    "proposed_title_h1": "森町の花カレンダー｜桜・花菖蒲・萩・紅葉",
+    "related_ids": [
+      18,
+      25,
+      82
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/nature/flowers-calendar/",
+    "decision_reason": "No.16・18・82・87を束ねる親がない",
+    "unique_angle": "固定の「見頃」断定を避け、確認先と定点履歴を月別表示",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "施設・観光協会当年情報、現地定点写真"
+  },
+  {
+    "id": 79,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 公園",
+    "proposed_url": "/nature/parks/",
+    "proposed_title_h1": "森町の公園・散歩場所｜子ども・休憩・設備別",
+    "related_ids": [
+      8,
+      71,
+      143
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/play-out-overview/",
+        "title": "静岡県森町の施設｜森町でお出かけ先を探すには何を見ればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/family-grow-child-vaccination/",
+        "title": "静岡県森町の予防接種・子ども｜予診票はどこでもらえますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/",
+        "title": "🌳 遊ぶ・使う・出かける | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/health-medical/vaccinations/",
+        "title": "静岡県森町の予防接種｜子ども・おとなの対象と受け方を選ぶ | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/hub/family/",
+        "title": "子ども・家族｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/play-out/find-parks/",
+    "decision_reason": "公園選びの既存ページがある",
+    "unique_angle": "遊具だけでなくトイレ、日陰、駐車、防災を現地台帳化",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町公園管理、現地設備確認"
+  },
+  {
+    "id": 80,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "nature",
+    "primary_keyword": "森町 ゴルフ",
+    "proposed_url": "/nature/golf/",
+    "proposed_title_h1": "森町のゴルフ場と周辺案内｜アクセス・食事・宿泊",
+    "related_ids": [
+      2,
+      41,
+      197
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/nature/golf/",
+    "decision_reason": "森町固有施設の所在・掲載価値を未確認",
+    "unique_angle": "施設が町内にある場合のみアクセスと周辺利用を取材",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "各施設公式・掲載許諾、所在地確認"
+  },
+  {
+    "id": 81,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "events",
+    "primary_keyword": "森町 イベント",
+    "proposed_url": "/events/annual-calendar/",
+    "proposed_title_h1": "森町イベント年間カレンダー｜祭り・花・農産物",
+    "related_ids": [
+      82,
+      86,
+      88
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/events/annual-calendar/",
+    "decision_reason": "/shrine/festivals/ は祭礼のみで農産物・花・催しを横断しない",
+    "unique_angle": "確定・例年・未発表を分け、月別に公式確認先を持つ",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町、観光協会、各主催者の当年発表"
+  },
+  {
+    "id": 82,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 桜",
+    "proposed_url": "/events/cherry-blossoms/",
+    "proposed_title_h1": "森町の桜スポットと見頃｜混雑・駐車・散策",
+    "related_ids": [
+      78,
+      83,
+      172
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/nature/flowers-calendar/",
+    "decision_reason": "No.78の春章で意図を満たせる",
+    "unique_angle": "場所ごとの開花差・駐車注意を定点情報で追加",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "管理者、当年開花、現地写真"
+  },
+  {
+    "id": 83,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 ゴールデンウィーク",
+    "proposed_url": "/events/golden-week/",
+    "proposed_title_h1": "ゴールデンウィークの森町｜混雑を避ける回り方",
+    "related_ids": [
+      3,
+      6,
+      17
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/events/annual-calendar/",
+    "decision_reason": "年次カレンダーとモデルコースを繋げれば独立不要",
+    "unique_angle": "当年の営業・混雑リンク集を期間限定更新",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "各主催者当年発表、交通案内"
+  },
+  {
+    "id": 84,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 梅雨 観光",
+    "proposed_url": "/events/rainy-season/",
+    "proposed_title_h1": "梅雨の森町｜花菖蒲・雨の日・川の注意",
+    "related_ids": [
+      7,
+      18,
+      72
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/guide/rainy-day/",
+    "decision_reason": "No.7・18・72の組合せで検索意図が同じ",
+    "unique_angle": "花と増水リスクを雨量別にNo.7へ追加",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "当年開花、河川・気象、施設運営"
+  },
+  {
+    "id": 85,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 夏祭り",
+    "proposed_url": "/events/summer-festivals/",
+    "proposed_title_h1": "森町の夏祭りガイド｜地域行事と観覧マナー",
+    "related_ids": [
+      23,
+      81,
+      86
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/shrine/festivals/",
+    "decision_reason": "No.48・81に包含される",
+    "unique_angle": "夏の祭礼だけを月別フィルタとして提供",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "主催者当年発表"
+  },
+  {
+    "id": 86,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 花火大会",
+    "proposed_url": "/events/fireworks/",
+    "proposed_title_h1": "森町納涼花火大会｜会場・交通・帰り方",
+    "related_ids": [
+      71,
+      85,
+      172
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/iida/",
+        "title": "静岡県森町・飯田地区の暮らし｜住む前の生活動線確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/ichinomiya/",
+        "title": "静岡県森町・一宮地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/blog/20260808-hanabi-river-area/",
+    "decision_reason": "会場と河川利用を扱う長文ブログが既存",
+    "unique_angle": "当年案内への差替欄、退出動線、河川安全を追加",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "主催者、警察・交通、当年会場案内"
+  },
+  {
+    "id": 87,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 紅葉",
+    "proposed_url": "/events/autumn-leaves/",
+    "proposed_title_h1": "森町の紅葉完全ガイド｜小國神社と周辺の秋",
+    "related_ids": [
+      16,
+      24,
+      78
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/guide/okuni-jinja-autumn-leaves/",
+    "decision_reason": "主要需要がNo.16と重なり、周辺情報は同ページで足りる",
+    "unique_angle": "小國神社以外を確認できた場合のみ比較章を追加",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "各管理者、当年現地定点写真"
+  },
+  {
+    "id": 88,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森のまつり 日程",
+    "proposed_url": "/events/mori-festival/",
+    "proposed_title_h1": "遠州森のまつり｜日程・屋台・交通・観覧心得",
+    "related_ids": [
+      22,
+      48,
+      49
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/iida/",
+        "title": "静岡県森町・飯田地区の暮らし｜住む前の生活動線確認 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/ichinomiya/",
+        "title": "静岡県森町・一宮地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/shrine/festivals/",
+    "decision_reason": "No.48の正規祭礼ハブで年次日程を更新すべき",
+    "unique_angle": "公式発表日・交通規制・観覧心得の更新欄",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "祭典本部、町、警察・交通"
+  },
+  {
+    "id": 89,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 初詣",
+    "proposed_url": "/events/new-year-visits/",
+    "proposed_title_h1": "森町の初詣｜小國神社ほか寺社と交通",
+    "related_ids": [
+      11,
+      15,
+      20
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/guide/okuni-jinja-hatsumode/",
+    "decision_reason": "No.15が主要意図。寺社羅列は薄くなる",
+    "unique_angle": "小國神社以外は公式発表確認済みの代替先として掲載",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "各寺社、交通の当年発表"
+  },
+  {
+    "id": 90,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 節分",
+    "proposed_url": "/events/setsubun/",
+    "proposed_title_h1": "森町の節分行事｜寺社の発表を確認する方法",
+    "related_ids": [
+      81,
+      89,
+      119
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/events/setsubun/",
+    "decision_reason": "No.81・89と寺社イベントで重複、開催有無が年次変動",
+    "unique_angle": "実施寺社を主催者確認できた年だけ公開",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "各寺社の当年発表、現地取材"
+  },
+  {
+    "id": 91,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 とうもろこし 時期",
+    "proposed_url": "/events/corn-season/",
+    "proposed_title_h1": "森町とうもろこしシーズン｜早朝購入と周遊案内",
+    "related_ids": [
+      26,
+      27,
+      28
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/food/kankanmusume/",
+    "decision_reason": "No.26・27と完全に近い",
+    "unique_angle": "甘々娘以外の品種差は生産者確認後に同ページへ",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "生産者の当年収穫・販売発表"
+  },
+  {
+    "id": 92,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 新茶 時期",
+    "proposed_url": "/events/new-tea-season/",
+    "proposed_title_h1": "森町の新茶シーズン｜旬・買い方・茶畑のマナー",
+    "related_ids": [
+      32,
+      34,
+      35
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/blog/20260716-mori-tea-history/",
+    "decision_reason": "No.32・33・35と近接し季節差し替え化する",
+    "unique_angle": "当年新茶の確認方法を常設ページに更新",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "生産者・茶業団体の当年発表"
+  },
+  {
+    "id": 93,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 Kトラ市",
+    "proposed_url": "/events/kei-truck-market/",
+    "proposed_title_h1": "森町のKトラ市｜開催情報・買い物・アクセス",
+    "related_ids": [
+      41,
+      45,
+      81
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/mikura/",
+        "title": "静岡県森町・三倉地区の暮らし｜住む前の移動・土地確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/iida/",
+        "title": "静岡県森町・飯田地区の暮らし｜住む前の生活動線確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/ichinomiya/",
+        "title": "静岡県森町・一宮地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "HOLD",
+    "final_url": "/events/kei-truck-market/",
+    "decision_reason": "No.45・81と重複、開催・出店は都度変動",
+    "unique_angle": "当日動線、出店、支払、交通を主催者確認",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "主催者当年発表、現地取材・撮影許可"
+  },
+  {
+    "id": 94,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 夏休み 子ども",
+    "proposed_url": "/events/summer-vacation-family/",
+    "proposed_title_h1": "夏休みに子どもと森町へ｜体験・川・暑さ対策",
+    "related_ids": [
+      66,
+      72,
+      143
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/family-grow-child-vaccination/",
+        "title": "静岡県森町の予防接種・子ども｜予診票はどこでもらえますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/health-medical/vaccinations/",
+        "title": "静岡県森町の予防接種｜子ども・おとなの対象と受け方を選ぶ | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/hub/family/",
+        "title": "子ども・家族｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/guide/family-trip/",
+    "decision_reason": "No.8・66・72の季節組合せで、独立すると反復",
+    "unique_angle": "暑熱・川の安全・予約を夏章に集約",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "施設当年情報、気象・河川、現地設備"
+  },
+  {
+    "id": 95,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "events",
+    "primary_keyword": "森町 冬 観光",
+    "proposed_url": "/events/winter/",
+    "proposed_title_h1": "冬の森町ガイド｜初詣・食・道路・服装",
+    "related_ids": [
+      15,
+      37,
+      89
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/guide/one-day-course/",
+    "decision_reason": "No.15・37・89の寄せ集めになりやすい",
+    "unique_angle": "冬季の道路・日没・服装をモデルコースの季節章へ",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "道路・気象、施設冬季営業"
+  },
+  {
+    "id": 96,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "life",
+    "primary_keyword": "森町 転入届",
+    "proposed_url": "/life/moving-in/",
+    "proposed_title_h1": "森町へ引っ越すときの手続き｜転入届から生活開始まで",
+    "related_ids": [
+      98,
+      110,
+      126
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/start-living/moved-in/",
+    "decision_reason": "同URLが転入→番号→水道→ごみを回答。/blog/20260706-moving-in-order/ と転入質問も存在",
+    "unique_angle": "期限順ではなく「来庁前・窓口当日・帰宅後」の実行表、世帯別分岐、学校・国保・犬まで一枚化",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R1,R2"
+  },
+  {
+    "id": 97,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 転出届",
+    "proposed_url": "/life/moving-out/",
+    "proposed_title_h1": "森町から転出するときの手続き・家の整理",
+    "related_ids": [
+      105,
+      188,
+      199
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/moving-out/",
+        "title": "📦 新しい場所へ（転出時の手続きまとめ） | 静岡県森町ライフハック",
+        "score": 0.333
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/moving-out/moving-away/",
+    "decision_reason": "move-out-notice/ と質問が届出を短答。広い転出全体は既存ハブが最適",
+    "unique_angle": "14日前から退去後まで、水道・学校・犬・家の残置物を並列管理",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R1,R5"
+  },
+  {
+    "id": 98,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 住民票",
+    "proposed_url": "/life/resident-certificate/",
+    "proposed_title_h1": "森町で住民票を取る方法｜窓口・持ち物・代理",
+    "related_ids": [
+      99,
+      100,
+      122
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-city-hall-branches/",
+        "title": "静岡県森町役場・窓口・時間｜支所や出張所はどこにありますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/work-life/tax-certificates/",
+        "title": "静岡県森町の税務証明書（所得・課税・納税証明書等）は、窓口・郵送・委任状で申請できる | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/start-living/certificates/",
+        "title": "静岡県森町の証明書の選び方｜住民票・戸籍・印鑑証明の取り方 | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/start-living/resident-registration/",
+    "decision_reason": "急ぎの住民票、コンビニ交付、窓口を既に直接回答",
+    "unique_angle": "取得目的別の証明選択、本人・同一世帯・代理の分岐",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R2"
+  },
+  {
+    "id": 99,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 印鑑証明",
+    "proposed_url": "/life/seal-certificate/",
+    "proposed_title_h1": "森町の印鑑登録・印鑑証明｜必要なものと注意点",
+    "related_ids": [
+      98,
+      100,
+      181
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/life/start-living/certificates/",
+        "title": "静岡県森町の証明書の選び方｜住民票・戸籍・印鑑証明の取り方 | 森町ライフハック",
+        "score": 0.333
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/start-living/certificates/",
+    "decision_reason": "住民票・戸籍・印鑑証明の選び方が同一意図を包含",
+    "unique_angle": "登録前/登録済み、本人/代理、カード紛失の分岐を同ページ内で増補",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R2"
+  },
+  {
+    "id": 100,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 マイナンバーカード",
+    "proposed_url": "/life/mynumber-card/",
+    "proposed_title_h1": "森町のマイナンバーカード手続き｜申請・更新・紛失",
+    "related_ids": [
+      98,
+      116,
+      122
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-mynumber/",
+        "title": "静岡県森町のマイナンバーカード・申請｜代理人に受け取ってもらえますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/parents-care/long-term-care-insurance/",
+        "title": "静岡県森町の介護保険｜申請・保険料・施設の相談先 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/hub/procedures/",
+        "title": "手続きしたい｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/start-living/mynumber/",
+    "decision_reason": "申請から受取までの既存正本と質問がある",
+    "unique_angle": "申請・受取・住所変更・更新・暗証番号・紛失を場面別に整理",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R2"
+  },
+  {
+    "id": 101,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 戸籍",
+    "proposed_url": "/life/family-register/",
+    "proposed_title_h1": "森町の戸籍謄本・抄本｜請求方法と相続での使い方",
+    "related_ids": [
+      104,
+      193,
+      194
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/start-living/certificates/",
+        "title": "静岡県森町の証明書の選び方｜住民票・戸籍・印鑑証明の取り方 | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/start-living/certificates/",
+    "decision_reason": "戸籍証明の取得方法は証明書ガイドと同じ窓口意図",
+    "unique_angle": "相続・婚姻・旅券で必要な証明の違い、広域交付と郵送",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R2,R3"
+  },
+  {
+    "id": 102,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 婚姻届",
+    "proposed_url": "/life/marriage-divorce/",
+    "proposed_title_h1": "森町の婚姻届・離婚届｜関連手続きの確認表",
+    "related_ids": [
+      96,
+      113,
+      126
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/family-grow/marriage/",
+    "decision_reason": "婚姻届と結婚後手続きを既に回答",
+    "unique_angle": "提出日から逆算し、氏・住所・保険・住まいを別タスク化",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R3,R1"
+  },
+  {
+    "id": 103,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 出生届",
+    "proposed_url": "/life/birth-registration/",
+    "proposed_title_h1": "森町の出生届と出産後の手続き一覧",
+    "related_ids": [
+      126,
+      127,
+      128
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/life/family-grow/childbirth/",
+        "title": "赤ちゃんが生まれたら、出生届・児童手当・新生児出生通知をまとめて進める。 | 静岡県森町ライフハック",
+        "score": 0.5
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/family-grow/childbirth/",
+    "decision_reason": "出生届、児童手当、新生児通知が既存にまとまる",
+    "unique_angle": "出生直後14日間の家族分担表、医療費・保険・手当への連結",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R3,C1"
+  },
+  {
+    "id": 104,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 死亡 手続き",
+    "proposed_url": "/life/after-death-procedures/",
+    "proposed_title_h1": "森町で家族が亡くなった後の手続き整理",
+    "related_ids": [
+      101,
+      160,
+      193
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/work-life-nhk-pension/",
+        "title": "静岡県森町の国民年金・手続き｜転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/questions/start-living-overview/",
+        "title": "静岡県森町の転入・手続き｜役場以外にも確認することはありますか | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/questions/moving-out-school-nursery-procedures/",
+        "title": "静岡県森町の転校・手続き｜保育所に通っている子どもがいる場合、どこに相談すればいいですか | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/questions/family-grow-overview/",
+        "title": "静岡県森町の子育て・手続き｜何から手を付ければいいですか | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/questions/end-of-life-pension-inheritance/",
+        "title": "静岡県森町の死亡・年金・手続き｜亡くなった家族の年金はどこに相談すればいいですか | 森町ライフハック",
+        "score": 0.333
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/end-of-life/bereavement/",
+    "decision_reason": "期限順の既存正本。おくやみ質問・介護ブログとも接続済み",
+    "unique_angle": "死亡直後/葬儀後/相続の三段階、町手続きと民間契約を分離",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R3,R6"
+  },
+  {
+    "id": 105,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 ごみ 出し方",
+    "proposed_url": "/life/garbage-guide/",
+    "proposed_title_h1": "森町のごみ出し完全ガイド｜分別・曜日・持込み",
+    "related_ids": [
+      106,
+      107,
+      108
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/moving-out-bulk-garbage-cleaning/",
+        "title": "静岡県森町の引っ越し・ごみ・処分｜粗大ごみが大量に出るときはどうすればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/start-living/how-to-garbage/",
+        "title": "静岡県森町のごみ収集カレンダー2026｜分別・ごみの日・持ち込み | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/start-living/",
+        "title": "🧭 静岡県森町で暮らし始めた | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/moving-out/moving-away/",
+        "title": "静岡県森町から引っ越すときは、転出届と水道廃止・ごみ・学校の手続きを一緒に確認する | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/hub/procedures/",
+        "title": "手続きしたい｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/start-living/how-to-garbage/",
+    "decision_reason": "年度カレンダー、分別、持込みを既に回答",
+    "unique_angle": "地区・曜日の調べ方、迷いやすい品目、持込み前確認を実物例で",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R4"
+  },
+  {
+    "id": 106,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 ごみ カレンダー",
+    "proposed_url": "/life/garbage-calendar/",
+    "proposed_title_h1": "森町ごみ収集カレンダーの見方｜地区別確認",
+    "related_ids": [
+      105,
+      107,
+      173
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-how-to-garbage/",
+        "title": "静岡県森町のごみ・カレンダー・2026｜2026年のごみ収集カレンダーはどこで見られますか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/questions/moving-out-bulk-garbage-cleaning/",
+        "title": "静岡県森町の引っ越し・ごみ・処分｜粗大ごみが大量に出るときはどうすればいいですか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/start-living/",
+        "title": "🧭 静岡県森町で暮らし始めた | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/moving-out/moving-away/",
+        "title": "静岡県森町から引っ越すときは、転出届と水道廃止・ごみ・学校の手続きを一緒に確認する | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/hub/procedures/",
+        "title": "手続きしたい｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/start-living/how-to-garbage/",
+    "decision_reason": "同ページの主題そのもの。別URLはカニバリ",
+    "unique_angle": "地区特定→PDFの読み方→前日準備のチェック欄を追加",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R4"
+  },
+  {
+    "id": 107,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 ごみ 分別",
+    "proposed_url": "/life/garbage-separation/",
+    "proposed_title_h1": "森町のごみ分別｜迷いやすい品目と確認先",
+    "related_ids": [
+      105,
+      108,
+      109
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/moving-out-bulk-garbage-cleaning/",
+        "title": "静岡県森町の引っ越し・ごみ・処分｜粗大ごみが大量に出るときはどうすればいいですか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/start-living/how-to-garbage/",
+        "title": "静岡県森町のごみ収集カレンダー2026｜分別・ごみの日・持ち込み | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/start-living/",
+        "title": "🧭 静岡県森町で暮らし始めた | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/moving-out/moving-away/",
+        "title": "静岡県森町から引っ越すときは、転出届と水道廃止・ごみ・学校の手続きを一緒に確認する | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/hub/procedures/",
+        "title": "手続きしたい｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/start-living/how-to-garbage/",
+    "decision_reason": "分別表・質問が既存ガイドを補完",
+    "unique_angle": "品名検索に頼れない例と問い合わせ先を追記",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R4"
+  },
+  {
+    "id": 108,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 粗大ごみ",
+    "proposed_url": "/life/bulky-waste/",
+    "proposed_title_h1": "森町で粗大ごみを処分する方法｜片付け前の確認",
+    "related_ids": [
+      105,
+      189,
+      195
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/start-living/bulky-garbage-dropoff/",
+    "decision_reason": "持込み先と流れを直接回答。転出片付けページも近接",
+    "unique_angle": "寸法・材質で迷う物、車載、本人確認、家電四品目を分岐",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R4"
+  },
+  {
+    "id": 109,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 リサイクル",
+    "proposed_url": "/life/recycling/",
+    "proposed_title_h1": "森町の資源回収・リサイクル｜出せる物と場所",
+    "related_ids": [
+      105,
+      107,
+      108
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/life/start-living/how-to-garbage/",
+    "decision_reason": "資源回収はごみ分別の一部で独立6,000字は重複",
+    "unique_angle": "資源物、店頭回収、家電の出口を比較表にする",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R4"
+  },
+  {
+    "id": 110,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 水道 開始",
+    "proposed_url": "/life/water-service/",
+    "proposed_title_h1": "森町の水道開始・中止・料金｜引越しチェック",
+    "related_ids": [
+      96,
+      111,
+      112
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-water-start-stop-fees/",
+        "title": "静岡県森町の水道・開栓・中止｜給水届はどこで手に入りますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/start-living-water-sewer/",
+        "title": "静岡県森町の水道料金｜水道の使用量が急に増えました。漏水でしょうか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/start-living/water-sewer/",
+        "title": "静岡県森町の水道料金・下水道料金｜計算方法と問い合わせ先 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/start-living/",
+        "title": "🧭 静岡県森町で暮らし始めた | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/swimming-pools/",
+        "title": "静岡県森町のプールは、営業日・料金・持ち物を先に確認する | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/start-living/water-start-stop-fees/",
+    "decision_reason": "開始・中止・料金を既に直接回答",
+    "unique_angle": "鍵渡し日から逆算、名義・開栓・支払・漏水確認を一工程化",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R5"
+  },
+  {
+    "id": 111,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 下水道 浄化槽",
+    "proposed_url": "/life/sewer-septic-tank/",
+    "proposed_title_h1": "森町の下水道・浄化槽｜地域差と住宅購入時の確認",
+    "related_ids": [
+      110,
+      190,
+      198
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/start-living/water-sewer/",
+    "decision_reason": "上下水道料金は既存。浄化槽と地区差が不足",
+    "unique_angle": "住所別の接続確認、受益者負担、浄化槽保守、購入前現地確認",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R5,X"
+  },
+  {
+    "id": 112,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 電気 ガス",
+    "proposed_url": "/life/utilities/",
+    "proposed_title_h1": "森町の電気・ガス・生活インフラ開始ガイド",
+    "related_ids": [
+      96,
+      110,
+      125
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/life/start-living/utilities/",
+    "decision_reason": "停電ページは緊急時で意図違い。開始手続きの正本なし",
+    "unique_angle": "住所・設備から電気/都市ガス/LPガスを見分け、契約・立会い・安全確認",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "X,R1"
+  },
+  {
+    "id": 113,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 税金",
+    "proposed_url": "/life/taxes/",
+    "proposed_title_h1": "森町で暮らす人の税金ガイド｜町県民税・固定資産税",
+    "related_ids": [
+      114,
+      115,
+      117
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/troubles-consult-cannot-pay-tax/",
+        "title": "静岡県森町の税金・払えない｜今月の町税が払えそうにありません。どうすればいいですか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/work-life/",
+        "title": "💴 働く・暮らす（静岡県森町版） | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/troubles-consult/cannot-pay-tax/",
+        "title": "静岡県森町で税金が払えないとき｜差押えの前に納税相談をする | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/troubles-consult/",
+        "title": "🧩 困った・相談したい（静岡県森町の相談窓口まとめ） | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/housing/sell-house/",
+        "title": "静岡県森町で家を売る前に、固定資産税・空き家バンクを確認する | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/work-life/tax/",
+    "decision_reason": "税目別窓口を案内する既存税ハブ",
+    "unique_angle": "生活イベント×税目、通知書の読み方、払えない時の相談まで",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R6"
+  },
+  {
+    "id": 114,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 住民税",
+    "proposed_url": "/life/resident-tax/",
+    "proposed_title_h1": "森町の町県民税｜納付・転居・問い合わせの基本",
+    "related_ids": [
+      113,
+      116,
+      117
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/work-life-tax/",
+        "title": "静岡県森町の税金｜税金の窓口はどこに電話すればいいですか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/questions/work-life-city-tax-payment/",
+        "title": "静岡県森町の町税・納付｜口座振替はいつから始まりますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/work-life/tax/",
+        "title": "静岡県森町の税金手続きは、税目ごとに税務課の各係で確認する | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/work-life/resident-tax/",
+    "decision_reason": "町県民税、納付、電子申告を直接回答",
+    "unique_angle": "1月1日基準、退職・転居、普通/特別徴収を増補",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R6"
+  },
+  {
+    "id": 115,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 固定資産税",
+    "proposed_url": "/life/property-tax/",
+    "proposed_title_h1": "森町の固定資産税｜土地・家屋・空き家所有者向け",
+    "related_ids": [
+      185,
+      189,
+      193
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/end-of-life-property-tax-inheritance/",
+        "title": "静岡県森町の固定資産税・相続人代表者｜相続人代表者指定届はいつ提出すればいいですか | 森町ライフハック",
+        "score": 0.4
+      },
+      {
+        "url": "/questions/end-of-life-inheritance/",
+        "title": "静岡県森町の相続・手続き｜相続人代表者指定届とは何ですか | 森町ライフハック",
+        "score": 0.4
+      },
+      {
+        "url": "/life/housing/property-tax/",
+        "title": "静岡県森町の土地・家屋の税金は、固定資産税・都市計画税の課税内容と手続きを分けて確認する | 森町ライフハック",
+        "score": 0.4
+      },
+      {
+        "url": "/hub/property/",
+        "title": "家・土地｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.4
+      },
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/housing/property-tax/",
+    "decision_reason": "土地・家屋の固定資産税正本が存在。相続版も別にある",
+    "unique_angle": "納税通知から土地家屋、名義、空き家、相続へ分岐",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R6"
+  },
+  {
+    "id": 116,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 国民健康保険",
+    "proposed_url": "/life/national-health-insurance/",
+    "proposed_title_h1": "森町の国民健康保険｜加入・脱退・保険税",
+    "related_ids": [
+      96,
+      117,
+      151
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/life/work-life/nhk-pension/",
+        "title": "静岡県森町の国民健康保険・国民年金は、住民生活課国保年金係で手続きする | 森町ライフハック",
+        "score": 0.6
+      },
+      {
+        "url": "/questions/work-life-nhk-pension/",
+        "title": "静岡県森町の国民年金・手続き｜転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/work-life/nhk-pension/",
+    "decision_reason": "国保・年金の加入窓口を既に回答。保険税ページも存在",
+    "unique_angle": "加入/脱退/転職/転入、資格確認書、保険税を時系列化",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R6"
+  },
+  {
+    "id": 117,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 国民年金",
+    "proposed_url": "/life/national-pension/",
+    "proposed_title_h1": "森町の国民年金手続き｜転職・退職・住所変更",
+    "related_ids": [
+      96,
+      116,
+      123
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/life/work-life/nhk-pension/",
+    "decision_reason": "同じ異動窓口・ライフイベントで国保と同時に動く",
+    "unique_angle": "退職・扶養外れ・学生・住所変更の分岐を増補",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R6"
+  },
+  {
+    "id": 118,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 犬 登録",
+    "proposed_url": "/life/pet-registration/",
+    "proposed_title_h1": "森町で犬を飼う手続き｜登録・予防注射・生活マナー",
+    "related_ids": [
+      96,
+      107,
+      173
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-dog-registration/",
+        "title": "静岡県森町の犬・登録｜登録と注射はどこでできますか | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/start-living/dog-registration/",
+    "decision_reason": "登録・鑑札・狂犬病予防を直接回答",
+    "unique_angle": "転入・転出・死亡・迷子時のカードを追加",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R7"
+  },
+  {
+    "id": 119,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 図書館",
+    "proposed_url": "/life/library/",
+    "proposed_title_h1": "森町立図書館ガイド｜利用登録・子ども・調べもの",
+    "related_ids": [
+      50,
+      142,
+      173
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/questions/play-out-overview/",
+        "title": "静岡県森町の施設｜森町でお出かけ先を探すには何を見ればいいですか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/questions/play-out-facilities-library-parks/",
+        "title": "静岡県森町の公共施設｜施設の電話番号や住所はどこで確認できますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/questions/family-grow-child-vaccination/",
+        "title": "静岡県森町の予防接種・子ども｜予診票はどこでもらえますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/play-out/",
+        "title": "🌳 遊ぶ・使う・出かける | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/health-medical/vaccinations/",
+        "title": "静岡県森町の予防接種｜子ども・おとなの対象と受け方を選ぶ | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/play-out/visit-library/",
+    "decision_reason": "開館・休館・利用カードを直接回答",
+    "unique_angle": "初回登録、子連れ、調べもの、返却、休館日確認を利用場面別に",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R7"
+  },
+  {
+    "id": 120,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 文化会館",
+    "proposed_url": "/life/cultural-hall/",
+    "proposed_title_h1": "森町文化会館ミキホール｜利用・催し・アクセス",
+    "related_ids": [
+      81,
+      119,
+      162
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/life/play-out/cultural-facilities/",
+    "decision_reason": "ミキホールの利用・予約・交通を直接回答",
+    "unique_angle": "主催者/参加者別の確認欄を追加",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R7"
+  },
+  {
+    "id": 121,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 体育館",
+    "proposed_url": "/life/sports-facilities/",
+    "proposed_title_h1": "森町の体育館・スポーツ施設｜予約と利用方法",
+    "related_ids": [
+      139,
+      143,
+      173
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/play-out-facilities-library-parks/",
+        "title": "静岡県森町の公共施設｜施設の電話番号や住所はどこで確認できますか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/play-out/facilities-library-parks/",
+        "title": "静岡県森町の公共施設は、施設ガイドから目的別に探す | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/play-out/sports-facilities/",
+    "decision_reason": "予約、料金、持ち物を直接回答",
+    "unique_angle": "施設ごとの用途・床・屋外・減免を比較",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R7"
+  },
+  {
+    "id": 122,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 公共施設",
+    "proposed_url": "/life/public-facilities/",
+    "proposed_title_h1": "森町の公共施設一覧｜役場・支所・図書館・体育館",
+    "related_ids": [
+      98,
+      119,
+      120
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/play-out-facilities-library-parks/",
+        "title": "静岡県森町の公共施設｜施設の電話番号や住所はどこで確認できますか | 森町ライフハック",
+        "score": 0.5
+      },
+      {
+        "url": "/questions/play-out-overview/",
+        "title": "静岡県森町の施設｜森町でお出かけ先を探すには何を見ればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/start-living/city-hall-branches/",
+        "title": "静岡県森町の役場窓口は本庁舎1か所。支所・出張所はなく、水曜は時間外窓口あり。 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/facilities-library-parks/",
+        "title": "静岡県森町の公共施設は、施設ガイドから目的別に探す | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/",
+        "title": "🌳 遊ぶ・使う・出かける | 静岡県森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/play-out/facilities-library-parks/",
+    "decision_reason": "目的別施設ガイドが既存。役場窓口ページもある",
+    "unique_angle": "目的→施設→予約要否→移動手段の選択表",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R7"
+  },
+  {
+    "id": 123,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 相談窓口",
+    "proposed_url": "/life/consultation-desks/",
+    "proposed_title_h1": "森町の暮らし相談窓口｜困りごと別の連絡先",
+    "related_ids": [
+      145,
+      153,
+      195
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/hub/care/",
+        "title": "親・介護｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.333
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/troubles-consult/",
+    "decision_reason": "暮らしの困りごとハブと法律相談ページが既存",
+    "unique_angle": "緊急性・分野・匿名可否で入口を選ぶフロー",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R7,C1,A1"
+  },
+  {
+    "id": 124,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 求人 仕事",
+    "proposed_url": "/life/jobs/",
+    "proposed_title_h1": "森町で働く｜求人の探し方・通勤・就業支援",
+    "related_ids": [
+      96,
+      179,
+      180
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/work-life/",
+        "title": "💴 働く・暮らす（静岡県森町版） | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/about-morimachi/",
+        "title": "静岡県森町への移住｜補助金・仕事・住まい・子育て | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/work-life/job-change/",
+    "decision_reason": "ハローワーク磐田と町支援を直接回答",
+    "unique_angle": "町内就業だけでなく通勤、職業訓練、子育てとの両立を比較",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R7"
+  },
+  {
+    "id": 125,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "life",
+    "primary_keyword": "森町 インターネット",
+    "proposed_url": "/life/internet-mobile/",
+    "proposed_title_h1": "森町のインターネット・携帯電波｜転居前の確認方法",
+    "related_ids": [
+      96,
+      177,
+      178
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/life/living-soon/internet-mobile/",
+    "decision_reason": "全URLに住所別通信確認の正本なし",
+    "unique_angle": "番地別エリア判定、山間/平野の現地下見、固定回線工事、代替回線",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "X"
+  },
+  {
+    "id": 126,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 妊娠 出産",
+    "proposed_url": "/childcare/pregnancy-birth/",
+    "proposed_title_h1": "森町の妊娠・出産支援｜届出・健診・相談の流れ",
+    "related_ids": [
+      103,
+      127,
+      128
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/family-grow-overview/",
+        "title": "静岡県森町の子育て・手続き｜何から手を付ければいいですか | 森町ライフハック",
+        "score": 0.286
+      },
+      {
+        "url": "/life/family-grow/",
+        "title": "👶 家族が増える | 静岡県森町ライフハック",
+        "score": 0.286
+      },
+      {
+        "url": "/hub/family/",
+        "title": "子ども・家族｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.286
+      },
+      {
+        "url": "/tools/life-timeline/",
+        "title": "ライフイベント・タイムライン | 静岡県森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/questions/health-medical-overview/",
+        "title": "静岡県森町の医療｜森町の健康・医療の窓口はどこにありますか | 森町ライフハック",
+        "score": 0.143
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/family-grow/pregnancy/",
+    "decision_reason": "妊娠届・母子手帳の既存正本。出生は別ページ",
+    "unique_angle": "妊娠判明→届出→健診→出産→産後を家族分担表で",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C1,R3"
+  },
+  {
+    "id": 127,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 出産 支援",
+    "proposed_url": "/childcare/birth-support/",
+    "proposed_title_h1": "森町の出産・子育て給付と支援制度｜最新確認ガイド",
+    "related_ids": [
+      126,
+      128,
+      145
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/tools/life-timeline/",
+        "title": "ライフイベント・タイムライン | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/questions/family-grow-overview/",
+        "title": "静岡県森町の子育て・手続き｜何から手を付ければいいですか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/family-grow/",
+        "title": "👶 家族が増える | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/hub/family/",
+        "title": "子ども・家族｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/family-grow/parenting-support/",
+    "decision_reason": "妊娠、出生、児童手当等の各正本があり、別の総合ページは145と競合",
+    "unique_angle": "145の年齢別表から各制度正本へリンク",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C1,R3"
+  },
+  {
+    "id": 128,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 こども 医療費",
+    "proposed_url": "/childcare/child-medical-expenses/",
+    "proposed_title_h1": "森町こども医療費助成｜対象・受給者証・手続き",
+    "related_ids": [
+      103,
+      126,
+      150
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/work-life-nhk-pension/",
+        "title": "静岡県森町の国民年金・手続き｜転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/start-living-overview/",
+        "title": "静岡県森町の転入・手続き｜役場以外にも確認することはありますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/moving-out-school-nursery-procedures/",
+        "title": "静岡県森町の転校・手続き｜保育所に通っている子どもがいる場合、どこに相談すればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/family-grow-overview/",
+        "title": "静岡県森町の子育て・手続き｜何から手を付ければいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/end-of-life-pension-inheritance/",
+        "title": "静岡県森町の死亡・年金・手続き｜亡くなった家族の年金はどこに相談すればいいですか | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/family-grow/child-medical-expenses/",
+    "decision_reason": "ひとり親医療はあるが、一般のこども医療費助成正本なし",
+    "unique_angle": "受給者証、県内/県外、保険変更、学校事故、払い戻しをケース別に",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C1,R6"
+  },
+  {
+    "id": 129,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 保育園",
+    "proposed_url": "/childcare/nursery-schools/",
+    "proposed_title_h1": "森町の保育園｜申込み・選び方・送迎の確認",
+    "related_ids": [
+      130,
+      131,
+      145
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/family-grow/nursery-school/",
+        "title": "静岡県森町の保育園・幼稚園｜空き状況・申込み・施設一覧 | 森町ライフハック",
+        "score": 0.4
+      },
+      {
+        "url": "/questions/family-grow-nursery-childcare/",
+        "title": "静岡県森町の保育園・申込み｜保育園に入れなかったらどうなりますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/family-grow/",
+        "title": "👶 家族が増える | 静岡県森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/family-grow/nursery-school/",
+    "decision_reason": "園一覧・空き・申込みを直接回答",
+    "unique_angle": "年度申込逆算、見学、保育時間、送迎動線、年度途中を比較",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C2"
+  },
+  {
+    "id": 130,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 幼稚園",
+    "proposed_url": "/childcare/kindergartens/",
+    "proposed_title_h1": "森町の幼稚園｜入園・預かり保育・生活圏",
+    "related_ids": [
+      129,
+      135,
+      143
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/family-grow-nursery-school/",
+        "title": "静岡県森町の保育園・空き状況｜2026年度の保育園の空き状況はどこで確認できますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/family-grow/nursery-school/",
+        "title": "静岡県森町の保育園・幼稚園｜空き状況・申込み・施設一覧 | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/family-grow/nursery-school/",
+    "decision_reason": "現行ページが保育園と幼稚園を比較する検索意図を包含",
+    "unique_angle": "教育/保育時間、預かり、送迎、費用の比較欄を増補",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C2"
+  },
+  {
+    "id": 131,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 こども誰でも通園制度",
+    "proposed_url": "/childcare/drop-in-childcare/",
+    "proposed_title_h1": "森町のこども誰でも通園制度｜利用前の確認事項",
+    "related_ids": [
+      129,
+      133,
+      145
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/life/family-grow/drop-in-childcare/",
+    "decision_reason": "既存正本なし。ただし森町の開始時期・実施園・定員を一次資料で確定できない段階の量産は危険",
+    "unique_angle": "実施確定後、対象月齢、利用上限、登録・面談・予約・通常保育との差を独立化",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "C2,X"
+  },
+  {
+    "id": 132,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 放課後児童クラブ",
+    "proposed_url": "/childcare/after-school-clubs/",
+    "proposed_title_h1": "森町の放課後児童クラブ・教室｜申込みと利用",
+    "related_ids": [
+      135,
+      139,
+      145
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/education/after-school-club/",
+    "decision_reason": "対象学年と申込時期の既存正本・質問あり",
+    "unique_angle": "学校別、長期休業、就労証明、送迎、申込後の流れ",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C3"
+  },
+  {
+    "id": 133,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 児童館",
+    "proposed_url": "/childcare/childrens-center/",
+    "proposed_title_h1": "森町児童館・子育て支援センター｜利用・行事・相談",
+    "related_ids": [
+      131,
+      142,
+      143
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/parents-care-dementia-consultation/",
+        "title": "静岡県森町の認知症・相談｜もの忘れが心配なとき、まず何をすればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/family-grow/parenting-support/",
+        "title": "子育てで迷ったら、こども家庭センターと児童館・子育て応援アプリを使い分ける。 | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260802-parenting-migration/",
+        "title": "子育て移住は、支援制度の数より「困った日の相談先」で比べる | 静岡県森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/family-grow/parenting-support/",
+    "decision_reason": "児童館・こども家庭センター・アプリの使い分けを既に回答",
+    "unique_angle": "遊ぶ/相談/計測/交流の目的別、年齢別に施設を使い分ける",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C1"
+  },
+  {
+    "id": 134,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 病児保育",
+    "proposed_url": "/childcare/sick-child-care/",
+    "proposed_title_h1": "森町の病児・病後児保育｜利用までの準備",
+    "related_ids": [
+      129,
+      145,
+      146
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/life/family-grow/nursery-childcare/",
+    "decision_reason": "病児・病後児保育の対象、利用料、連携施設を直接回答",
+    "unique_angle": "事前登録→発症→医療機関→予約→持参品の流れを増補",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C2,H1"
+  },
+  {
+    "id": 135,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 学区",
+    "proposed_url": "/childcare/school-districts/",
+    "proposed_title_h1": "森町の小学校・中学校区｜住所と通学を確認する方法",
+    "related_ids": [
+      136,
+      137,
+      173
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/living-soon/",
+        "title": "🏡 これから暮らす | 静岡県森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/education/school-zones/",
+        "title": "静岡県森町の小学校・中学校の学区｜住所から通学区域を確認 | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/education/",
+        "title": "🎒 学ぶ・育つ | 静岡県森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/education/school-zones/",
+    "decision_reason": "住所から通学区域を確認する専用正本あり",
+    "unique_angle": "転居候補番地、指定校変更相談、現地通学確認を追加",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C3"
+  },
+  {
+    "id": 136,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 小学校",
+    "proposed_url": "/childcare/elementary-schools/",
+    "proposed_title_h1": "森町の小学校ガイド｜学区・転校・放課後",
+    "related_ids": [
+      132,
+      135,
+      140
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/education/",
+        "title": "🎒 学ぶ・育つ | 静岡県森町ライフハック",
+        "score": 0.4
+      },
+      {
+        "url": "/life/living-soon/",
+        "title": "🏡 これから暮らす | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/education/school-zones/",
+        "title": "静岡県森町の小学校・中学校の学区｜住所から通学区域を確認 | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/education/elementary-middle-school/",
+    "decision_reason": "小3校・中2校の一覧と手続きが同じ意図",
+    "unique_angle": "各校比較ではなく、住所→学校→転入→放課後を一連化",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C3"
+  },
+  {
+    "id": 137,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 中学校",
+    "proposed_url": "/childcare/junior-high-schools/",
+    "proposed_title_h1": "森町の中学校ガイド｜学区・通学・進路準備",
+    "related_ids": [
+      135,
+      138,
+      144
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/living-soon/",
+        "title": "🏡 これから暮らす | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/education/",
+        "title": "🎒 学ぶ・育つ | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260807-smart-ic-livability/",
+        "title": "静岡県森町・「遠州森町スマートICが近い」は、暮らしやすさと同じ意味ではない | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/education/elementary-middle-school/",
+    "decision_reason": "136と同じ学校一覧正本。分割は共通説明が過半",
+    "unique_angle": "進路ではなく通学、転校、部活動情報の確認方法を増補",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C3"
+  },
+  {
+    "id": 138,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 転校",
+    "proposed_url": "/childcare/school-transfer/",
+    "proposed_title_h1": "森町へ転校するときの手続き｜小中学校別",
+    "related_ids": [
+      96,
+      135,
+      137
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/education/school-zones/",
+        "title": "静岡県森町の小学校・中学校の学区｜住所から通学区域を確認 | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/life/education/",
+        "title": "🎒 学ぶ・育つ | 静岡県森町ライフハック",
+        "score": 0.333
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/education/school-district-transfer/",
+    "decision_reason": "住所異動と学校手続きの既存正本・質問あり",
+    "unique_angle": "転出元/転入先、書類、教科書、給食、学童を二自治体で並べる",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C3,R1"
+  },
+  {
+    "id": 139,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 習い事 スポーツ",
+    "proposed_url": "/childcare/lessons-sports/",
+    "proposed_title_h1": "森町の習い事・スポーツ｜探し方と移動の考え方",
+    "related_ids": [
+      121,
+      132,
+      143
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "HOLD",
+    "final_url": "/life/education/lessons-sports/",
+    "decision_reason": "施設ページはあるが、民間教室を含む網羅・更新可能な一次台帳なし",
+    "unique_angle": "町主催/学校外/民間を分離し、年齢・送迎・費用の確認法に限定すれば制作可",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "R7,C3,X"
+  },
+  {
+    "id": 140,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 学校給食",
+    "proposed_url": "/childcare/school-lunch/",
+    "proposed_title_h1": "森町の学校給食｜献立・アレルギー・情報確認",
+    "related_ids": [
+      136,
+      137,
+      145
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/life/education/school-meals/",
+        "title": "学校給食は、献立・費用・アレルギー対応を学校教育課に分けて確認する | 静岡県森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/education/school-meals/",
+    "decision_reason": "献立・費用・アレルギー対応を直接回答",
+    "unique_angle": "献立確認、欠食、転校初日、食物アレルギー相談の時系列",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C3"
+  },
+  {
+    "id": 141,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 通学 安全",
+    "proposed_url": "/childcare/school-route-safety/",
+    "proposed_title_h1": "森町の通学路と安全｜転居前に歩いて確認する項目",
+    "related_ids": [
+      135,
+      167,
+      198
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/blog/20260807-smart-ic-livability/",
+        "title": "静岡県森町・「遠州森町スマートICが近い」は、暮らしやすさと同じ意味ではない | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/education/school-route-safety/",
+    "decision_reason": "学区ページは区域のみ。道路・歩行・災害・送迎の現地確認は独立意図",
+    "unique_angle": "朝夕に親子で歩く点検表、危険交差点の通報、雨天・災害・バス代替",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C3,R7"
+  },
+  {
+    "id": 142,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 子ども 図書館",
+    "proposed_url": "/childcare/children-library/",
+    "proposed_title_h1": "子どもと森町立図書館へ｜絵本・行事・利用案内",
+    "related_ids": [
+      119,
+      133,
+      143
+    ],
+    "cta_level": "L0",
+    "existing_candidates": [
+      {
+        "url": "/questions/play-out-overview/",
+        "title": "静岡県森町の施設｜森町でお出かけ先を探すには何を見ればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/play-out-facilities-library-parks/",
+        "title": "静岡県森町の公共施設｜施設の電話番号や住所はどこで確認できますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/family-grow-child-vaccination/",
+        "title": "静岡県森町の予防接種・子ども｜予診票はどこでもらえますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/",
+        "title": "🌳 遊ぶ・使う・出かける | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/health-medical/vaccinations/",
+        "title": "静岡県森町の予防接種｜子ども・おとなの対象と受け方を選ぶ | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/play-out/visit-library/",
+    "decision_reason": "図書館正本内で子連れ利用を解決可能",
+    "unique_angle": "年齢別資料、読み聞かせ、親子の滞在、返却を増補",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R7"
+  },
+  {
+    "id": 143,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 子ども 遊び場",
+    "proposed_url": "/childcare/playgrounds/",
+    "proposed_title_h1": "森町の子どもの遊び場｜公園・児童館・体験施設",
+    "related_ids": [
+      66,
+      79,
+      133
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/play-out-overview/",
+        "title": "静岡県森町の施設｜森町でお出かけ先を探すには何を見ればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/family-grow-child-vaccination/",
+        "title": "静岡県森町の予防接種・子ども｜予診票はどこでもらえますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/",
+        "title": "🌳 遊ぶ・使う・出かける | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/health-medical/vaccinations/",
+        "title": "静岡県森町の予防接種｜子ども・おとなの対象と受け方を選ぶ | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/family-grow/parenting-support/",
+        "title": "子育てで迷ったら、こども家庭センターと児童館・子育て応援アプリを使い分ける。 | 静岡県森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/play-out/find-parks/",
+    "decision_reason": "公園を年齢・遊具・アクセスで選ぶ既存正本。児童館は133へ",
+    "unique_angle": "年齢、トイレ、日陰、駐車、雨天代替を比較欄に",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "R7,C1"
+  },
+  {
+    "id": 144,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "childcare",
+    "primary_keyword": "森町 高校 通学",
+    "proposed_url": "/childcare/high-school-commute/",
+    "proposed_title_h1": "森町から高校へ通う｜鉄道・バス・送迎の考え方",
+    "related_ids": [
+      137,
+      161,
+      167
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-public-transit/",
+        "title": "静岡県森町のバス・時刻表｜町営バスは誰でも乗れますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/start-living/public-transit/",
+        "title": "静岡県森町の公共交通。町営バス（岡幸線・吉川線）と天竜浜名湖鉄道・秋葉バスサービスを使い分ける。 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260807-smart-ic-livability/",
+        "title": "静岡県森町・「遠州森町スマートICが近い」は、暮らしやすさと同じ意味ではない | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/education/high-school-commute/",
+    "decision_reason": "公共交通、天浜線ブログはあるが、町外高校への毎日通学判断は未回答",
+    "unique_angle": "始業から逆算、駅/バス/自転車/送迎、雨天、定期、最終便、3年間費用",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C3,X"
+  },
+  {
+    "id": 145,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "childcare",
+    "primary_keyword": "森町 子育て 支援",
+    "proposed_url": "/childcare/support-summary/",
+    "proposed_title_h1": "森町子育て支援完全ガイド｜年齢別に制度を整理",
+    "related_ids": [
+      126,
+      128,
+      133
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/",
+        "title": "静岡県森町のよくある100の質問｜手続き・介護・家・防災 | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/work-life/subsidies/",
+        "title": "静岡県森町の補助金｜住宅・子育て・移住の制度を探す | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/troubles-consult/",
+        "title": "🧩 困った・相談したい（静岡県森町の相談窓口まとめ） | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/living-soon/about-morimachi/",
+        "title": "静岡県森町への移住｜補助金・仕事・住まい・子育て | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/",
+        "title": "静岡県森町ライフハック｜手続き・介護・空き家を困りごとから探す",
+        "score": 0.25
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/family-grow/parenting-support/",
+    "decision_reason": "同URLが相談・児童館・アプリを回答。/blog/20260802-parenting-migration/ と127が近接",
+    "unique_angle": "妊娠〜高校を年齢軸×「平時/病気/仕事/発達/家計」で整理し各正本へ送る",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "C1,C2,C3"
+  },
+  {
+    "id": 146,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "公立森町病院",
+    "proposed_url": "/health/morimachi-hospital/",
+    "proposed_title_h1": "公立森町病院の利用ガイド｜診療・交通・受診前確認",
+    "related_ids": [
+      147,
+      148,
+      164
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/health-medical-overview/",
+        "title": "静岡県森町の医療｜森町の健康・医療の窓口はどこにありますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/iida/",
+        "title": "静岡県森町・飯田地区の暮らし｜住む前の生活動線確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/ichinomiya/",
+        "title": "静岡県森町・一宮地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/health-medical/find-hospitals/",
+    "decision_reason": "同ページが公立森町病院と町内診療所の探し分けを直接回答",
+    "unique_angle": "病院固有の診療科一覧を複製せず、紹介状・受付・交通の確認法を増補",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H1"
+  },
+  {
+    "id": 147,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 病院 クリニック",
+    "proposed_url": "/health/clinics/",
+    "proposed_title_h1": "森町の病院・診療所の探し方｜診療科・距離・時間",
+    "related_ids": [
+      146,
+      148,
+      150
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-city-hall-branches/",
+        "title": "静岡県森町役場・窓口・時間｜支所や出張所はどこにありますか | 森町ライフハック",
+        "score": 0.143
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/health-medical/find-hospitals/",
+    "decision_reason": "完全同一の検索意図",
+    "unique_angle": "症状、診療科、距離、時間外、交通で公式検索を使う手順",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H1"
+  },
+  {
+    "id": 148,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 休日当番医",
+    "proposed_url": "/health/holiday-doctors/",
+    "proposed_title_h1": "森町の休日当番医・夜間相談｜緊急時の確認手順",
+    "related_ids": [
+      146,
+      147,
+      149
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/health-medical/night-holiday-medical/",
+    "decision_reason": "夜間・休日の緊急度別受診先を直接回答・質問あり",
+    "unique_angle": "日付→当番→電話→移動、子ども/成人、夜間の相談番号を一画面化",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H2"
+  },
+  {
+    "id": 149,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 救急",
+    "proposed_url": "/health/emergency-care/",
+    "proposed_title_h1": "森町で急病・けが｜救急車・相談・受診判断",
+    "related_ids": [
+      148,
+      198,
+      123
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/parents-care-dementia-consultation/",
+        "title": "静岡県森町の認知症・相談｜もの忘れが心配なとき、まず何をすればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/health-medical-night-holiday-medical/",
+        "title": "静岡県森町の夜間・休日・救急｜夜間や休日に急に具合が悪くなったらどうすればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/emergency-fire-ambulance/",
+        "title": "静岡県森町の消防・救急・119｜森町で火事や救急のときはどこに連絡すればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260802-parenting-migration/",
+        "title": "子育て移住は、支援制度の数より「困った日の相談先」で比べる | 静岡県森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/emergency/fire-ambulance/",
+    "decision_reason": "119と袋井消防管轄を回答。夜間休日・子ども救急は別正本あり",
+    "unique_angle": "119/救急相談/休日受診の分岐、住所を伝える準備、山間部の到達説明",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H2"
+  },
+  {
+    "id": 150,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 健康診断 がん検診",
+    "proposed_url": "/health/checkups/",
+    "proposed_title_h1": "森町の健康診査・がん検診｜対象と申込み",
+    "related_ids": [
+      116,
+      146,
+      151
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/life/health-medical/health-checkups/",
+    "decision_reason": "総合・特定健診の受診券と対象を直接回答。がん専用既存もあり",
+    "unique_angle": "年齢・加入保険・検診種類・申込時期の選択表",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H3"
+  },
+  {
+    "id": 151,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 予防接種",
+    "proposed_url": "/health/vaccinations/",
+    "proposed_title_h1": "森町の予防接種｜子ども・成人・高齢者別",
+    "related_ids": [
+      126,
+      150,
+      152
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/health-medical-adult-vaccination/",
+        "title": "静岡県森町の高齢者・予防接種｜自分が高齢者肺炎球菌予防接種の対象かどうか、どう確認しますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/questions/family-grow-child-vaccination/",
+        "title": "静岡県森町の予防接種・子ども｜予診票はどこでもらえますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/health-medical/vaccinations/",
+        "title": "静岡県森町の予防接種｜子ども・おとなの対象と受け方を選ぶ | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/hub/family/",
+        "title": "子ども・家族｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/checklist/baby/",
+        "title": "子どもが生まれた | チェックリスト | 静岡県森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/health-medical/vaccinations/",
+    "decision_reason": "子ども・成人の受け方を束ねる既存正本",
+    "unique_angle": "定期/任意、年齢、接種間隔は各専用ページへ分岐",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H3"
+  },
+  {
+    "id": 152,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 熱中症",
+    "proposed_url": "/health/heatstroke/",
+    "proposed_title_h1": "森町の熱中症対策｜クーリングシェルターと救急判断",
+    "related_ids": [
+      94,
+      149,
+      150
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/life/health-medical/heatstroke/",
+    "decision_reason": "既存に独立正本なし。救急・公園ページとは平時予防の意図が異なる",
+    "unique_angle": "森町の暑さ情報、クーリングシェルター、屋外作業・高齢者・子どもの行動表",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H2,X"
+  },
+  {
+    "id": 153,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 障害 福祉",
+    "proposed_url": "/health/disability-support/",
+    "proposed_title_h1": "森町の障がい福祉｜手帳・相談・支援の入口",
+    "related_ids": [
+      123,
+      146,
+      154
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/parents-care-dementia-consultation/",
+        "title": "静岡県森町の認知症・相談｜もの忘れが心配なとき、まず何をすればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/parents-care-community-support-center/",
+        "title": "静岡県森町の地域包括支援センター｜地域包括支援センターとは何をするところですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/troubles-consult/",
+        "title": "🧩 困った・相談したい（静岡県森町の相談窓口まとめ） | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260802-parenting-migration/",
+        "title": "子育て移住は、支援制度の数より「困った日の相談先」で比べる | 静岡県森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/health-medical/disability-welfare/",
+    "decision_reason": "手帳種類と申請窓口を直接回答",
+    "unique_angle": "診断前相談、手帳、サービス、医療費、就労を「入口」中心に整理",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H4"
+  },
+  {
+    "id": 154,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 介護保険",
+    "proposed_url": "/health/long-term-care-insurance/",
+    "proposed_title_h1": "森町の介護保険完全ガイド｜保険料・申請・サービス",
+    "related_ids": [
+      155,
+      156,
+      157
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/parents-care/long-term-care-insurance/",
+        "title": "静岡県森町の介護保険｜申請・保険料・施設の相談先 | 森町ライフハック",
+        "score": 0.4
+      },
+      {
+        "url": "/questions/start-living-mynumber/",
+        "title": "静岡県森町のマイナンバーカード・申請｜代理人に受け取ってもらえますか | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/parents-care/long-term-care-insurance/",
+    "decision_reason": "申請・保険料・施設相談の既存正本・質問あり",
+    "unique_angle": "相談→認定→ケアプラン→利用→更新、費用通知を家族向けに",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1"
+  },
+  {
+    "id": 155,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 要介護認定",
+    "proposed_url": "/health/care-needs-certification/",
+    "proposed_title_h1": "森町で要介護認定を申請する流れ｜家族向け",
+    "related_ids": [
+      154,
+      156,
+      157
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/hub/care/",
+        "title": "親・介護｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.333
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/parents-care/long-term-care-insurance/",
+    "decision_reason": "介護保険利用の中核工程で別URLにすると説明重複",
+    "unique_angle": "訪問調査前の生活記録、主治医意見書、結果後の選択を増補",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1"
+  },
+  {
+    "id": 156,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 介護サービス",
+    "proposed_url": "/health/care-services/",
+    "proposed_title_h1": "森町の介護サービス・事業所を選ぶ前の確認事項",
+    "related_ids": [
+      154,
+      155,
+      158
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/life/parents-care/long-term-care-insurance/",
+    "decision_reason": "認定からサービス利用まで同一連続意図。施設探し専用は別に既存",
+    "unique_angle": "在宅/通所/短期/施設を本人希望・介護力・費用で比較",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1"
+  },
+  {
+    "id": 157,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 地域包括支援センター",
+    "proposed_url": "/health/community-support-center/",
+    "proposed_title_h1": "森町地域包括支援センター｜相談できることと準備",
+    "related_ids": [
+      155,
+      158,
+      160
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/parents-care/community-support-center/",
+    "decision_reason": "相談できる内容と準備を直接回答・質問あり",
+    "unique_angle": "相談前メモ、本人拒否、遠方家族、虐待疑い、介護予防の入口",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1"
+  },
+  {
+    "id": 158,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 高齢者 支援",
+    "proposed_url": "/health/senior-support/",
+    "proposed_title_h1": "森町の高齢者支援｜在宅福祉・交通・見守り",
+    "related_ids": [
+      157,
+      159,
+      167
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/parents-care-elderly-transportation/",
+        "title": "静岡県森町の公共交通利用券・高齢者｜通院の送迎をしてもらえるサービスですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/parents-care-check-parents/",
+        "title": "静岡県森町の高齢者・見守り｜離れて暮らしていても相談できますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/iida/",
+        "title": "静岡県森町・飯田地区の暮らし｜住む前の生活動線確認 | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/parents-care/",
+    "decision_reason": "在宅、交通、見守り、介護の既存各ページを束ねる親ハブ",
+    "unique_angle": "自立/フレイル/要介護の段階別に、移動・食事・見守り・住まいを整理",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1"
+  },
+  {
+    "id": 159,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "森町 認知症 相談",
+    "proposed_url": "/health/dementia-support/",
+    "proposed_title_h1": "森町で認知症が心配なとき｜相談先と家族の準備",
+    "related_ids": [
+      157,
+      158,
+      160
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/parents-care-dementia-consultation/",
+        "title": "静岡県森町の認知症・相談｜もの忘れが心配なとき、まず何をすればいいですか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/blog/20260802-parenting-migration/",
+        "title": "子育て移住は、支援制度の数より「困った日の相談先」で比べる | 静岡県森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/parents-care/dementia-consultation/",
+    "decision_reason": "地域包括への相談開始を直接回答・質問あり",
+    "unique_angle": "気づきの記録、受診準備、金銭・運転・家の安全、家族分担",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1,H1"
+  },
+  {
+    "id": 160,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "health",
+    "primary_keyword": "親 森町 実家 介護",
+    "proposed_url": "/health/parents-home-care/",
+    "proposed_title_h1": "森町の親の介護と実家｜遠方家族が整理すること",
+    "related_ids": [
+      157,
+      195,
+      193
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/tools/life-timeline/",
+        "title": "ライフイベント・タイムライン | 静岡県森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/questions/parents-care-community-support-center/",
+        "title": "静岡県森町の地域包括支援センター｜地域包括支援センターとは何をするところですか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/questions/",
+        "title": "静岡県森町のよくある100の質問｜手続き・介護・家・防災 | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/troubles-consult/",
+        "title": "🧩 困った・相談したい（静岡県森町の相談窓口まとめ） | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/hub/care/",
+        "title": "親・介護｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/parents-care/care-started/",
+    "decision_reason": "介護開始の既存正本と /blog/20260720-care-first-consultation/ が近接。家の選択は inherited-house/ に既存",
+    "unique_angle": "遠方家族が「介護」「家の維持」「名義・費用」を別台帳で同時管理し、売却を急がない",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1,R6"
+  },
+  {
+    "id": 161,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 天竜浜名湖鉄道",
+    "proposed_url": "/areas/tenhama-line/",
+    "proposed_title_h1": "森町と天竜浜名湖鉄道｜5駅・乗換・観光・通学",
+    "related_ids": [
+      162,
+      166,
+      179
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/play-out/parking-access/",
+        "title": "静岡県森町内を移動する前に、駐車場・地図・公共交通を確認する | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260807-smart-ic-livability/",
+        "title": "静岡県森町・「遠州森町スマートICが近い」は、暮らしやすさと同じ意味ではない | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/start-living/public-transit/",
+    "decision_reason": "既存が天浜線・町営バス・民間バスを横断。別の路線総合ページは公共交通ページと答えが重なる。鉄道章を5駅・乗換・通学/通院・観光に拡張する。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T1、T3。5駅の正式名称・設備・最新ダイヤを確認"
+  },
+  {
+    "id": 162,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "遠州森駅",
+    "proposed_url": "/areas/enshu-mori-station/",
+    "proposed_title_h1": "遠州森駅ガイド｜周辺施設・移動・暮らし",
+    "related_ids": [
+      120,
+      161,
+      173
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-overview/",
+        "title": "静岡県森町の転入・手続き｜役場以外にも確認することはありますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/play-out/parking-access/",
+        "title": "静岡県森町内を移動する前に、駐車場・地図・公共交通を確認する | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260703-six-districts/",
+        "title": "静岡県森町を「六つの地区」から見ると、暮らしの輪郭が分かる | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/start-living/public-transit/enshu-mori-station/",
+    "decision_reason": "駅単位の徒歩圏・乗換・生活施設は既存にない。路線総合は要約に留め、当ページは駅前の実地動線に限定。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T1、T3、駅周辺施設の運営者公式、現地写真"
+  },
+  {
+    "id": 163,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "戸綿駅",
+    "proposed_url": "/areas/towata-station/",
+    "proposed_title_h1": "戸綿駅周辺ガイド｜太田川・住宅地・生活動線",
+    "related_ids": [
+      70,
+      161,
+      173
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/life/start-living/public-transit/towata-station/",
+    "decision_reason": "太田川・高低差・徒歩/自転車動線という固有角度を持てる。地区ページへ同じ一般説明を複製しない。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T1、T3、A1、河川・防災資料、現地写真"
+  },
+  {
+    "id": 164,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町病院前駅",
+    "proposed_url": "/areas/morimachi-byoin-mae-station/",
+    "proposed_title_h1": "森町病院前駅周辺｜病院・買い物・住環境",
+    "related_ids": [
+      146,
+      161,
+      173
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/play-out/parking-access/",
+        "title": "静岡県森町内を移動する前に、駐車場・地図・公共交通を確認する | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/mikura/",
+        "title": "静岡県森町・三倉地区の暮らし｜住む前の移動・土地確認 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/iida/",
+        "title": "静岡県森町・飯田地区の暮らし｜住む前の生活動線確認 | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/start-living/public-transit/morimachi-byoin-mae-station/",
+    "decision_reason": "病院・文化会館への移動意図が固有。病院案内ページとは「駅からの動線」に限定して差別化。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T1、T3、公立森町病院・文化会館公式、現地バリア確認"
+  },
+  {
+    "id": 165,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "円田駅",
+    "proposed_url": "/areas/enda-station/",
+    "proposed_title_h1": "円田駅周辺ガイド｜通勤・生活施設・住宅",
+    "related_ids": [
+      161,
+      176,
+      185
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/life/work-life/subsidies/",
+        "title": "静岡県森町の補助金｜住宅・子育て・移住の制度を探す | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260805-cultural-assets/",
+        "title": "友田家住宅、次郎柿原木、三つの舞楽——静岡県森町の文化財を暮らしにつなぐ | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/start-living/public-transit/enda-station/",
+    "decision_reason": "駅周辺の通勤・住宅動線は未収載。園田地区ページは地区全体、当ページは駅徒歩圏に限定。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T1、T3、A1、現地写真"
+  },
+  {
+    "id": 166,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "遠江一宮駅",
+    "proposed_url": "/areas/totomi-ichinomiya-station/",
+    "proposed_title_h1": "遠江一宮駅周辺｜小國神社への移動と暮らし",
+    "related_ids": [
+      11,
+      161,
+      174
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/life/start-living/public-transit/totomi-ichinomiya-station/",
+    "decision_reason": "小國神社アクセスと居住動線の両方を扱えるが、神社観光記事とは駅利用の実務に限定する。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T1、T3、小國神社公式の交通案内、現地写真"
+  },
+  {
+    "id": 167,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 町営バス",
+    "proposed_url": "/areas/town-bus/",
+    "proposed_title_h1": "森町営バス完全ガイド｜路線・予約便・利用方法",
+    "related_ids": [
+      168,
+      169,
+      170
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-public-transit/",
+        "title": "静岡県森町のバス・時刻表｜町営バスは誰でも乗れますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/start-living/public-transit/",
+        "title": "静岡県森町の公共交通。町営バス（岡幸線・吉川線）と天竜浜名湖鉄道・秋葉バスサービスを使い分ける。 | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/play-out/parking-access/",
+        "title": "静岡県森町内を移動する前に、駐車場・地図・公共交通を確認する | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/start-living/public-transit/",
+    "decision_reason": "既存の主検索語が「森町 バス 時刻表」。候補URL新設は完全競合。最新路線・予約便・運賃・代替交通を同URLで全面更新する。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T2、T3"
+  },
+  {
+    "id": 168,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 大河内線 バス",
+    "proposed_url": "/areas/okochi-bus/",
+    "proposed_title_h1": "森町営バス大河内線｜時刻表確認・予約・沿線",
+    "related_ids": [
+      61,
+      167,
+      178
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-public-transit/",
+        "title": "静岡県森町のバス・時刻表｜町営バスは誰でも乗れますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/play-out-sports-facilities/",
+        "title": "静岡県森町の体育館・予約｜予約はいつからできますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/play-out-rent-public-facilities/",
+        "title": "静岡県森町の施設・予約｜公共施設を借りたいときはどこに問い合わせればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/start-living/public-transit/",
+        "title": "静岡県森町の公共交通。町営バス（岡幸線・吉川線）と天竜浜名湖鉄道・秋葉バスサービスを使い分ける。 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/sports-facilities/",
+        "title": "静岡県森町のスポーツ施設は、予約・料金・持ち物を先に確認する | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "HOLD",
+    "final_url": "公開後の統合先は /life/start-living/public-transit/",
+    "decision_reason": "現行titleの「岡幸線」と本文データの「大河内線」が不一致。名称・運行区間・予約条件を確定できるまで新規公開不可。確定後も単独6,000字の固有価値が不足するなら路線章へ統合。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "blocked_on_fieldwork",
+    "source_notes": "T2の最新PDF・改定日・町担当課確認、現地停留所表示"
+  },
+  {
+    "id": 169,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 吉川線 バス",
+    "proposed_url": "/areas/yoshikawa-bus/",
+    "proposed_title_h1": "森町営バス吉川線｜時刻表確認・予約・沿線",
+    "related_ids": [
+      52,
+      67,
+      167
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/play-out-sports-facilities/",
+        "title": "静岡県森町の体育館・予約｜予約はいつからできますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/play-out-rent-public-facilities/",
+        "title": "静岡県森町の施設・予約｜公共施設を借りたいときはどこに問い合わせればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/start-living/public-transit/",
+        "title": "静岡県森町の公共交通。町営バス（岡幸線・吉川線）と天竜浜名湖鉄道・秋葉バスサービスを使い分ける。 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/sports-facilities/",
+        "title": "静岡県森町のスポーツ施設は、予約・料金・持ち物を先に確認する | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/play-out/cultural-facilities/",
+        "title": "静岡県森町の文化施設（ミキホール）は、開館日・予約・アクセスを先に確認する | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/start-living/public-transit/",
+    "decision_reason": "既存ページ内に吉川線があり、時刻表中心の単独ページは改定のたびに二重更新となる。路線別アンカーを設ける。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T2、T3"
+  },
+  {
+    "id": 170,
+    "phase": "phase2",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 地域タクシー",
+    "proposed_url": "/areas/community-taxi/",
+    "proposed_title_h1": "森町の地域タクシー｜一宮・園田地区の利用確認",
+    "related_ids": [
+      167,
+      174,
+      176
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/shrine/systems/ichinomiya/",
+        "title": "一宮・国造系の神社 | 静岡県森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/blog/20260724-three-eastern-districts/",
+        "title": "一宮・園田・飯田を、地図の近さだけで同じ暮らしと考えない | 静岡県森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/blog/20260703-six-districts/",
+        "title": "静岡県森町を「六つの地区」から見ると、暮らしの輪郭が分かる | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/start-living/public-transit/",
+    "decision_reason": "既存本文に一宮・園田地区の地域タクシーがある。利用条件・予約・対象区域を不足分として追記。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T2、運行事業者公式、A1"
+  },
+  {
+    "id": 171,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 車 生活",
+    "proposed_url": "/areas/car-life/",
+    "proposed_title_h1": "森町は車が必要？買い物・通院・通勤から考える",
+    "related_ids": [
+      124,
+      147,
+      179
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/blog/20260807-smart-ic-livability/",
+        "title": "静岡県森町・「遠州森町スマートICが近い」は、暮らしやすさと同じ意味ではない | 森町ライフハック",
+        "score": 0.4
+      },
+      {
+        "url": "/blog/20260705-test-daily-travel/",
+        "title": "静岡県森町への移住前、家より先に「一日の移動」を試してみる | 森町ライフハック",
+        "score": 0.4
+      },
+      {
+        "url": "/questions/parents-care-overview/",
+        "title": "静岡県森町の介護｜親の介護で最初に相談すべき窓口はどこですか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/parents-care/elderly-transportation/",
+        "title": "通院・買い物の「足」に、静岡県森町の公共交通利用券助成事業を確認する | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/living-soon/car-life/",
+    "decision_reason": "公共交通の制度案内とは「車を持つ判断」の意図が異なる。買い物・通勤・通院を地区別ケースで比較し、車必須と一律断定しない。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T2、T3、A1、駐車・軽自動車税の町公式"
+  },
+  {
+    "id": 172,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 駐車場",
+    "proposed_url": "/areas/parking/",
+    "proposed_title_h1": "森町の駐車場ガイド｜観光・駅・行事別",
+    "related_ids": [
+      6,
+      12,
+      86
+    ],
+    "cta_level": "L1",
+    "existing_candidates": [
+      {
+        "url": "/questions/play-out-parking-access/",
+        "title": "静岡県森町の施設・駐車場｜森町営バスの時刻表はどこで見られますか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/play-out/parking-access/",
+        "title": "静岡県森町内を移動する前に、駐車場・地図・公共交通を確認する | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/play-out/find-parks/",
+        "title": "静岡県森町の公園は、駐車場・遊具の有無など目的・年齢・アクセスで選ぶ | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "MERGE",
+    "final_url": "/life/play-out/parking-access/",
+    "decision_reason": "既存の主検索意図が施設駐車場・地図・公共交通。町全体の空き状況を保証する新ページは維持不能。観光・駅・行事別の確認先を既存へ統合。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T3、各施設/主催者の最新公式案内"
+  },
+  {
+    "id": 173,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 森地区 住みやすさ",
+    "proposed_url": "/areas/mori/",
+    "proposed_title_h1": "森町森地区の暮らし｜買い物・学校・病院・交通",
+    "related_ids": [
+      60,
+      162,
+      181
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.429
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.429
+      },
+      {
+        "url": "/life/living-soon/areas/iida/",
+        "title": "静岡県森町・飯田地区の暮らし｜住む前の生活動線確認 | 森町ライフハック",
+        "score": 0.429
+      },
+      {
+        "url": "/life/living-soon/areas/ichinomiya/",
+        "title": "静岡県森町・一宮地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.429
+      },
+      {
+        "url": "/life/living-soon/areas/amagata/",
+        "title": "静岡県森町・天方地区の暮らし｜住む前の移動・防災確認 | 森町ライフハック",
+        "score": 0.286
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/living-soon/areas/mori/",
+    "decision_reason": "同一地区・同一居住意図のページが公開済み。買い物・学校・医療・交通・防災を独自実測で拡張。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1、T1〜T3、現地生活動線"
+  },
+  {
+    "id": 174,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 一宮 住みやすさ",
+    "proposed_url": "/areas/ichinomiya/",
+    "proposed_title_h1": "森町一宮地区の暮らし｜神社・駅・交通・住まい",
+    "related_ids": [
+      59,
+      166,
+      181
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/shrine/systems/ichinomiya/",
+        "title": "一宮・国造系の神社 | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/housing-overview/",
+        "title": "静岡県森町の住まい｜森町にも磐田市のような住宅補助はありますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/living-soon/areas/ichinomiya/",
+    "decision_reason": "完全一致。神社観光の説明を増やすのではなく、駅・地域タクシー・学校区・土地条件を強化。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1、T1〜T3、H1"
+  },
+  {
+    "id": 175,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 飯田 住みやすさ",
+    "proposed_url": "/areas/iida/",
+    "proposed_title_h1": "森町飯田地区の暮らし｜学校・交通・住まい",
+    "related_ids": [
+      64,
+      135,
+      181
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/life/living-soon/areas/iida/",
+        "title": "静岡県森町・飯田地区の暮らし｜住む前の生活動線確認 | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/life/living-soon/areas/ichinomiya/",
+        "title": "静岡県森町・一宮地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/living-soon/areas/iida/",
+    "decision_reason": "完全一致。地区名だけを差し替えず、生活施設への実動線と災害リスクを固有化。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1、T2、T3、現地写真"
+  },
+  {
+    "id": 176,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 園田 住みやすさ",
+    "proposed_url": "/areas/sonoda/",
+    "proposed_title_h1": "森町園田地区の暮らし｜茶畑・駅・住宅",
+    "related_ids": [
+      63,
+      165,
+      181
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/life/work-life/subsidies/",
+        "title": "静岡県森町の補助金｜住宅・子育て・移住の制度を探す | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260805-cultural-assets/",
+        "title": "友田家住宅、次郎柿原木、三つの舞楽——静岡県森町の文化財を暮らしにつなぐ | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260724-three-eastern-districts/",
+        "title": "一宮・園田・飯田を、地図の近さだけで同じ暮らしと考えない | 静岡県森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260703-six-districts/",
+        "title": "静岡県森町を「六つの地区」から見ると、暮らしの輪郭が分かる | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/living-soon/areas/sonoda/",
+    "decision_reason": "完全一致。円田駅・地域タクシー・茶畑周辺の土地利用を固有角度にする。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1、T1〜T3、H3"
+  },
+  {
+    "id": 177,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 天方 住みやすさ",
+    "proposed_url": "/areas/amagata/",
+    "proposed_title_h1": "森町天方地区の暮らし｜山間部の交通・通信・家",
+    "related_ids": [
+      62,
+      125,
+      189
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/blog/20260703-six-districts/",
+        "title": "静岡県森町を「六つの地区」から見ると、暮らしの輪郭が分かる | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/living-soon/areas/amagata/",
+    "decision_reason": "完全一致。山間部の通信を推測で書かず、道路・移動・防災・維持管理を実測する。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1、T2、T3、通信各社のエリア情報"
+  },
+  {
+    "id": 178,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 三倉 住みやすさ",
+    "proposed_url": "/areas/mikura/",
+    "proposed_title_h1": "森町三倉地区の暮らし｜山里・交通・空き家",
+    "related_ids": [
+      61,
+      125,
+      186
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/housing-overview/",
+        "title": "静岡県森町の住まい｜森町にも磐田市のような住宅補助はありますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/sonoda/",
+        "title": "静岡県森町・園田地区の暮らし｜住む前の交通・土地確認 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/mori/",
+        "title": "静岡県森町・森地区の暮らし｜住む前に交通と土地を確認 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/areas/iida/",
+        "title": "静岡県森町・飯田地区の暮らし｜住む前の生活動線確認 | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/living-soon/areas/mikura/",
+    "decision_reason": "完全一致。空き家一般論ではなく、道路・斜面・移動・管理頻度の現地差を記録。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "A1、T2、T3、H1、H5"
+  },
+  {
+    "id": 179,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 袋井 磐田 通勤",
+    "proposed_url": "/areas/commute-fukuroi-iwata/",
+    "proposed_title_h1": "森町から袋井・磐田へ通勤｜車・時間・生活圏",
+    "related_ids": [
+      124,
+      161,
+      171
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-city-hall-branches/",
+        "title": "静岡県森町役場・窓口・時間｜支所や出張所はどこにありますか | 森町ライフハック",
+        "score": 0.143
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/living-soon/commute-fukuroi-iwata/",
+    "decision_reason": "移住総合・車生活とは目的地別の朝夕ルート比較で差別化できる。単一の所要時間を断定せず条件別に示す。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T1〜T3、国/県道路情報、実走条件と確認日"
+  },
+  {
+    "id": 180,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "areas",
+    "primary_keyword": "森町 掛川 浜松 通勤",
+    "proposed_url": "/areas/commute-kakegawa-hamamatsu/",
+    "proposed_title_h1": "森町から掛川・浜松へ通勤｜鉄道・車・乗換",
+    "related_ids": [
+      124,
+      161,
+      171
+    ],
+    "cta_level": "L2",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-public-transit/",
+        "title": "静岡県森町のバス・時刻表｜町営バスは誰でも乗れますか | 森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/life/start-living/public-transit/",
+        "title": "静岡県森町の公共交通。町営バス（岡幸線・吉川線）と天竜浜名湖鉄道・秋葉バスサービスを使い分ける。 | 森町ライフハック",
+        "score": 0.143
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/living-soon/commute-kakegawa-hamamatsu/",
+    "decision_reason": "鉄道乗換を含む生活圏が179と異なる。共通説明は交通総合へ寄せ、掛川/浜松の比較に限定。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "T1〜T3、実走・乗換確認"
+  },
+  {
+    "id": 181,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "home",
+    "primary_keyword": "森町 不動産",
+    "proposed_url": "/home/real-estate/",
+    "proposed_title_h1": "森町の不動産完全ガイド｜家・土地・売却・相談",
+    "related_ids": [
+      182,
+      188,
+      199
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/parents-care-dementia-consultation/",
+        "title": "静岡県森町の認知症・相談｜もの忘れが心配なとき、まず何をすればいいですか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/questions/housing-sell-house/",
+        "title": "静岡県森町の家・売却｜家を売った年の固定資産税は誰が払うのですか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/questions/housing-property-tax/",
+        "title": "静岡県森町の固定資産税｜固定資産税はいつ払えばいいですか | 森町ライフハック",
+        "score": 0.2
+      },
+      {
+        "url": "/questions/end-of-life-property-tax-inheritance/",
+        "title": "静岡県森町の固定資産税・相続人代表者｜相続人代表者指定届はいつ提出すればいいですか | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/housing/",
+    "decision_reason": "「家・土地・賃貸・空き家・売却」の総合意図は既存ハブの役割。/home/real-estate/を作ると入口が二つになる。詳細ページの要約をコピーせず、判断分岐と地区/物件種別の比較に集中。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H1〜H6。免許・民間サービス開示、行政情報との区別を必須化"
+  },
+  {
+    "id": 182,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 土地",
+    "proposed_url": "/home/land/",
+    "proposed_title_h1": "森町で土地を探す｜地区・地形・法規・生活条件",
+    "related_ids": [
+      185,
+      191,
+      198
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/housing-property-tax/",
+        "title": "静岡県森町の固定資産税｜固定資産税はいつ払えばいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/end-of-life-property-tax-inheritance/",
+        "title": "静岡県森町の固定資産税・相続人代表者｜相続人代表者指定届はいつ提出すればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/end-of-life-inheritance/",
+        "title": "静岡県森町の相続・手続き｜相続人代表者指定届とは何ですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/",
+        "title": "静岡県森町のよくある100の質問｜手続き・介護・家・防災 | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/housing/land/",
+    "decision_reason": "買い家・固定資産税・地区ページはあるが、土地選びの道路、接道、高低差、上下水道、農地、災害を横断するページはない。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H2、H3、H5、現地・登記確認"
+  },
+  {
+    "id": 183,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 賃貸",
+    "proposed_url": "/home/rentals/",
+    "proposed_title_h1": "森町の賃貸住宅を探す｜物件数・地区・通勤から考える",
+    "related_ids": [
+      184,
+      171,
+      197
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/life/housing/close-parents-house/",
+        "title": "静岡県森町の実家じまい｜売却を決める前の確認順序 | 森町ライフハック",
+        "score": 0.2
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/housing/rent-house/",
+    "decision_reason": "同じ意図。空き家バンク、町営住宅、民間賃貸の三択と地区・通勤を拡張する。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H1、町営住宅公式、民間掲載は取得日付きスナップショット"
+  },
+  {
+    "id": 184,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 家賃 相場",
+    "proposed_url": "/home/rent-market/",
+    "proposed_title_h1": "森町の家賃相場を調べる方法｜間取り・地域・比較",
+    "related_ids": [
+      183,
+      179,
+      180
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [],
+    "decision": "MERGE",
+    "final_url": "/life/housing/rent-house/",
+    "decision_reason": "在庫が少ない地域で間取り別「相場」を独立6,000字にすると、薄い集計・短期変動・183との競合になりやすい。調べ方と取得日付き例を賃貸ページへ統合。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "町営住宅家賃、空き家バンク、複数民間掲載の取得日・母数"
+  },
+  {
+    "id": 185,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 土地 相場",
+    "proposed_url": "/home/land-prices/",
+    "proposed_title_h1": "森町の土地相場を調べる｜公示地価・取引・個別差",
+    "related_ids": [
+      182,
+      186,
+      196
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/living-soon-disaster-risk/",
+        "title": "静岡県森町のハザードマップ・土地｜候補地のハザードマップはどこで見られますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/housing-property-tax/",
+        "title": "静岡県森町の固定資産税｜固定資産税はいつ払えばいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/end-of-life-property-tax-inheritance/",
+        "title": "静岡県森町の固定資産税・相続人代表者｜相続人代表者指定届はいつ提出すればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/end-of-life-inheritance/",
+        "title": "静岡県森町の相続・手続き｜相続人代表者指定届とは何ですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/",
+        "title": "静岡県森町のよくある100の質問｜手続き・介護・家・防災 | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/housing/land-prices/",
+    "decision_reason": "182は土地の選び方、185は公的価格と実取引の読み方。価格の種類・時点・個別差を説明できれば分離可能。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H2、鑑定評価の前提、データ取得日"
+  },
+  {
+    "id": 186,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "home",
+    "primary_keyword": "森町 空き家バンク",
+    "proposed_url": "/home/vacant-house-bank/",
+    "proposed_title_h1": "森町空き家・空き地バンク｜登録・利用・注意点",
+    "related_ids": [
+      187,
+      188,
+      197
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/start-living-dog-registration/",
+        "title": "静岡県森町の犬・登録｜登録と注射はどこでできますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/living-soon/about-morimachi/",
+        "title": "静岡県森町への移住｜補助金・仕事・住まい・子育て | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/housing/vacant-house/",
+        "title": "静岡県森町の空き家バンク｜物件・補助金・相談先を確認 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/housing/buy-house/",
+        "title": "静岡県森町で家を買う前に、固定資産税・空き家バンク・結婚新生活支援を確認する。 | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/housing/vacant-house/",
+    "decision_reason": "現行titleが既に「空き家バンク」。/home/vacant-house-bank/は完全競合。登録側/利用側の分岐、物件公開、交渉、契約、補助、更新確認を同URLで全面改修。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H1、様式・登録要件・公開物件・町が仲介しない範囲、H6"
+  },
+  {
+    "id": 187,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 空き家 購入",
+    "proposed_url": "/home/buy-vacant-house/",
+    "proposed_title_h1": "森町で空き家を買う前に｜修繕・境界・農地・災害",
+    "related_ids": [
+      186,
+      190,
+      198
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/housing-overview/",
+        "title": "静岡県森町の住まい｜森町にも磐田市のような住宅補助はありますか | 森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/questions/housing-buy-house/",
+        "title": "静岡県森町の家・購入｜森町で家を買うときに使える町の補助はありますか | 森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/questions/farmland-sell-or-rent/",
+        "title": "農地・売りたい・貸したい｜耕作していない農地を貸したいのですが、どうすればいいですか | 静岡県森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/questions/farmland-inheritance/",
+        "title": "農地・相続・届出｜農地を相続しました。まず何をすればいいですか | 静岡県森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/questions/emergency-earthquake/",
+        "title": "静岡県森町の地震・備え｜感震ブレーカーの補助はどれくらいもらえますか | 森町ライフハック",
+        "score": 0.143
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/housing/buy-vacant-house/",
+    "decision_reason": "buy-houseは住宅購入一般、vacant-houseは制度総合。修繕、境界、残置物、農地、再建築、防災の購入前調査は独立意図。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H1〜H5、建物状況調査、現地確認"
+  },
+  {
+    "id": 188,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 空き家 売却",
+    "proposed_url": "/home/sell-vacant-house/",
+    "proposed_title_h1": "森町の空き家を売却する流れ｜遠方所有者向け",
+    "related_ids": [
+      189,
+      196,
+      199
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/housing-sell-house/",
+        "title": "静岡県森町の家・売却｜家を売った年の固定資産税は誰が払うのですか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/questions/housing-overview/",
+        "title": "静岡県森町の住まい｜森町にも磐田市のような住宅補助はありますか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/housing/close-parents-house/",
+        "title": "静岡県森町の実家じまい｜売却を決める前の確認順序 | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/housing/",
+        "title": "🏠 家・住まい（静岡県森町版） | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/blog/",
+        "title": "ブログ | 静岡県森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/housing/sell-house/",
+    "decision_reason": "現行ページが空き家バンクと一般売却を扱う。199と同じ正規URLに集約し、空き家所有者向け章・遠方手順を追加。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H1、H2、H4〜H6"
+  },
+  {
+    "id": 189,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 空き家 維持費",
+    "proposed_url": "/home/vacant-house-costs/",
+    "proposed_title_h1": "森町の空き家にかかる費用｜税・草木・保険・修繕",
+    "related_ids": [
+      108,
+      115,
+      188
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/housing-overview/",
+        "title": "静岡県森町の住まい｜森町にも磐田市のような住宅補助はありますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/work-life/",
+        "title": "💴 働く・暮らす（静岡県森町版） | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/housing/",
+        "title": "🏠 家・住まい（静岡県森町版） | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/checklist/married/",
+        "title": "結婚した | チェックリスト | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260727-bereavement-order/",
+        "title": "家族が亡くなった後の手続きは、期限と窓口を一枚にまとめる | 静岡県森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/housing/vacant-house-costs/",
+    "decision_reason": "売却とは異なり「保有を続ける費用」の判断意図。税・草木・保険・点検・修繕を実額の根拠/見積条件付きで扱う。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "固定資産税、H1、保険会社・事業者の一次見積条件、現地管理記録"
+  },
+  {
+    "id": 190,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 古民家 リフォーム",
+    "proposed_url": "/home/old-house-renovation/",
+    "proposed_title_h1": "森町の古民家・中古住宅リフォーム｜費用と確認事項",
+    "related_ids": [
+      111,
+      187,
+      198
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/life/housing/old-house-renovation/",
+    "decision_reason": "耐震・解体ページと購入ページを横断するが、改修可否・費用・確認順序は固有。伝統構法を未調査で断定しない。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H5、建築士/施工者確認、町の補助、現地建物調査"
+  },
+  {
+    "id": 191,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 農地 購入",
+    "proposed_url": "/home/farmland-purchase/",
+    "proposed_title_h1": "森町で農地付き物件を買う前に｜農地法と利用確認",
+    "related_ids": [
+      182,
+      192,
+      198
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/housing-buy-house/",
+        "title": "静岡県森町の家・購入｜森町で家を買うときに使える町の補助はありますか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/questions/farmland-sell-or-rent/",
+        "title": "農地・売りたい・貸したい｜耕作していない農地を貸したいのですが、どうすればいいですか | 静岡県森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/questions/farmland-inheritance/",
+        "title": "農地・相続・届出｜農地を相続しました。まず何をすればいいですか | 静岡県森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/questions/emergency-earthquake/",
+        "title": "静岡県森町の地震・備え｜感震ブレーカーの補助はどれくらいもらえますか | 森町ライフハック",
+        "score": 0.25
+      },
+      {
+        "url": "/life/troubles-consult/",
+        "title": "🧩 困った・相談したい（静岡県森町の相談窓口まとめ） | 森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/troubles-consult/farmland/purchase/",
+    "decision_reason": "既存は農地相続・転用・売貸相談。買主側の3条許可、営農要件、農地付き空き家の分離確認は独立した高リスク意図。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H3、H1、法務局資料、専門家レビュー"
+  },
+  {
+    "id": 192,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 農地転用",
+    "proposed_url": "/home/farmland-conversion/",
+    "proposed_title_h1": "森町の農地転用｜土地購入・売却前に確認すること",
+    "related_ids": [
+      191,
+      182,
+      199
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/troubles-consult/farmland/conversion/",
+    "decision_reason": "主検索語が既存と完全一致。新URL禁止。4条/5条、農振除外との順序、受付・審査の最新情報を拡張。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H3、対象地別の担当課確認"
+  },
+  {
+    "id": 193,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 相続 不動産",
+    "proposed_url": "/home/inherited-property/",
+    "proposed_title_h1": "森町の不動産を相続したら｜名義・税・管理・売却",
+    "related_ids": [
+      101,
+      194,
+      195
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/life/housing/close-parents-house/",
+        "title": "静岡県森町の実家じまい｜売却を決める前の確認順序 | 森町ライフハック",
+        "score": 0.333
+      },
+      {
+        "url": "/tools/life-timeline/",
+        "title": "ライフイベント・タイムライン | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/troubles-consult-farmland/",
+        "title": "静岡県森町の農地・相続｜相続した農地をどうすればいいか全く分かりません | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/housing-sell-house/",
+        "title": "静岡県森町の家・売却｜家を売った年の固定資産税は誰が払うのですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/farmland-inheritance/",
+        "title": "農地・相続・届出｜農地を相続しました。まず何をすればいいですか | 静岡県森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/end-of-life/inherited-house/",
+    "decision_reason": "既存が相続した親の家の使う/貸す/売る/解体を扱う。一般相続ページとは不動産の選択に限定して差別化。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H4、H1、H2、H6"
+  },
+  {
+    "id": 194,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 相続登記",
+    "proposed_url": "/home/inheritance-registration/",
+    "proposed_title_h1": "森町の家・土地の相続登記｜期限・書類・相談先",
+    "related_ids": [
+      101,
+      193,
+      199
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/life/work-life/tax/",
+        "title": "静岡県森町の税金手続きは、税目ごとに税務課の各係で確認する | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/work-life/tax-certificates/",
+        "title": "静岡県森町の税務証明書（所得・課税・納税証明書等）は、窓口・郵送・委任状で申請できる | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/work-life/subsidies/",
+        "title": "静岡県森町の補助金｜住宅・子育て・移住の制度を探す | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/work-life/start-farming/",
+        "title": "静岡県森町の就農準備は、産業課農政係で農地情報・空き家付き農地制度を確認する | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/work-life/resident-tax/",
+        "title": "静岡県森町の住民税（町・県民税）は、納付方法と電子申告を税務課で確認する | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/end-of-life/inheritance-registration/",
+    "decision_reason": "既存相続ページは町の戸籍・税と家族判断が中心。法務局で行う登記の期限・書類・相談先は独立意図。ただし町固有情報を無理に増やさない。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H4、法務省の最新制度・様式、専門家レビュー"
+  },
+  {
+    "id": 195,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 実家じまい",
+    "proposed_url": "/home/parents-home/",
+    "proposed_title_h1": "森町の実家をどうする？介護後・相続前後の整理",
+    "related_ids": [
+      108,
+      160,
+      193
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/temple/guide/",
+        "title": "法要・帰省・実家じまいのガイド | 静岡県森町ライフハック",
+        "score": 0.25
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/housing/close-parents-house/",
+    "decision_reason": "現行titleが完全一致。parents-home新設は重複。介護前後、相続前後、片付け、名義、維持、家族記録を既存へ拡張。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H1、H4〜H6、町のごみ案内"
+  },
+  {
+    "id": 196,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 不動産 査定",
+    "proposed_url": "/home/property-valuation/",
+    "proposed_title_h1": "森町の不動産査定｜価格だけで決めない確認項目",
+    "related_ids": [
+      185,
+      188,
+      199
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [],
+    "decision": "CREATE",
+    "final_url": "/life/housing/property-valuation/",
+    "decision_reason": "土地価格ページは公的データ、売却ページは全工程。査定種別、根拠、媒介前の比較、道路・境界・農地による個別差に限定すれば独立可能。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H2、H3、H6、国交省の媒介/価格査定関連資料"
+  },
+  {
+    "id": 197,
+    "phase": "phase1",
+    "priority_20": true,
+    "cluster": "home",
+    "primary_keyword": "森町 移住",
+    "proposed_url": "/home/moving-to-morimachi/",
+    "proposed_title_h1": "森町移住完全ガイド｜仕事・子育て・交通・住まい",
+    "related_ids": [
+      96,
+      145,
+      181
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/life/living-soon/about-morimachi/",
+        "title": "静岡県森町への移住｜補助金・仕事・住まい・子育て | 森町ライフハック",
+        "score": 0.5
+      },
+      {
+        "url": "/questions/housing-overview/",
+        "title": "静岡県森町の住まい｜森町にも磐田市のような住宅補助はありますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/",
+        "title": "静岡県森町のよくある100の質問｜手続き・介護・家・防災 | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/work-life/subsidies/",
+        "title": "静岡県森町の補助金｜住宅・子育て・移住の制度を探す | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/troubles-consult/",
+        "title": "🧩 困った・相談したい（静岡県森町の相談窓口まとめ） | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/living-soon/about-morimachi/",
+    "decision_reason": "現行title・主検索語が移住そのもの。/home/moving-to-morimachi/は完全競合。仕事・子育て・交通・6地区・住まいの比較ハブに全面拡張。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H1、A1、T1〜T3、学校・医療・統計、現地生活動線"
+  },
+  {
+    "id": 198,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 ハザードマップ 不動産",
+    "proposed_url": "/home/hazard-map-property/",
+    "proposed_title_h1": "森町で家を選ぶ前の防災確認｜洪水・土砂・避難",
+    "related_ids": [
+      70,
+      141,
+      182
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/emergency-evacuation-hazard-map/",
+        "title": "静岡県森町のハザードマップ・避難｜警戒レベルはどこで知ることができますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/emergency/evacuation-hazard-map/",
+        "title": "静岡県森町のハザードマップ｜洪水・土砂災害・避難所を確認 | 森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/living-soon/disaster-risk/",
+    "decision_reason": "既存主検索語が「ハザードマップ 土地」。防災一般ページとは「転居/物件選び」に限定。新URLは不要。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H5、H2、現地高低差・避難路"
+  },
+  {
+    "id": 199,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 家 売る",
+    "proposed_url": "/home/sell-property/",
+    "proposed_title_h1": "森町で家・土地を売る流れ｜準備・査定・契約・引渡し",
+    "related_ids": [
+      188,
+      193,
+      196
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/end-of-life-inherited-house/",
+        "title": "親の家・相続・どうする｜親の家をどうするか決まっていません。まず何をすればいいですか | 静岡県森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/life/housing/",
+        "title": "🏠 家・住まい（静岡県森町版） | 森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/life/end-of-life/inherited-house/",
+        "title": "静岡県森町の親の家をどうするか｜使う・貸す・売る・解体の決め方 | 森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/hub/property/",
+        "title": "家・土地｜静岡県森町の手続き・相談先｜森町ライフハック",
+        "score": 0.143
+      },
+      {
+        "url": "/blog/20260725-supporting-festivals/",
+        "title": "祭礼を残すのは、当日の人出だけではない | 静岡県森町ライフハック",
+        "score": 0.143
+      }
+    ],
+    "decision": "EXPAND_EXISTING",
+    "final_url": "/life/housing/sell-house/",
+    "decision_reason": "主検索語が既存と完全一致。188を空き家章として同じURLに統合し、一般売却・相続・空き家バンクの分岐を作る。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H1、H2、H4、H6"
+  },
+  {
+    "id": 200,
+    "phase": "phase4",
+    "priority_20": false,
+    "cluster": "home",
+    "primary_keyword": "森町 不動産 相談",
+    "proposed_url": "/home/consultation/",
+    "proposed_title_h1": "森町の不動産・空き家・実家相談｜状況別の相談入口",
+    "related_ids": [
+      181,
+      188,
+      195
+    ],
+    "cta_level": "L3",
+    "existing_candidates": [
+      {
+        "url": "/questions/parents-care-dementia-consultation/",
+        "title": "静岡県森町の認知症・相談｜もの忘れが心配なとき、まず何をすればいいですか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/questions/housing-overview/",
+        "title": "静岡県森町の住まい｜森町にも磐田市のような住宅補助はありますか | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/life/housing/",
+        "title": "🏠 家・住まい（静岡県森町版） | 森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/20260802-parenting-migration/",
+        "title": "子育て移住は、支援制度の数より「困った日の相談先」で比べる | 静岡県森町ライフハック",
+        "score": 0.167
+      },
+      {
+        "url": "/blog/",
+        "title": "ブログ | 静岡県森町ライフハック",
+        "score": 0.167
+      }
+    ],
+    "decision": "CREATE",
+    "final_url": "/life/housing/real-estate-consultation/",
+    "decision_reason": "既存public-housing-consultationは住まいに困窮した人の公的相談であり、売買・空き家の民間相談とは混同禁止。事業者情報・相談範囲・費用/次の手順を明示した専用入口が必要。",
+    "unique_angle": "",
+    "source_urls": [],
+    "status": "ready",
+    "source_notes": "H6、行政窓口との違い、相談後の流れ、計測/同意/個人情報"
+  }
+]

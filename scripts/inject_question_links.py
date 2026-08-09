@@ -46,6 +46,8 @@ def main() -> int:
             )
             pos = next((html.find(anchor) for anchor in anchors if html.find(anchor) >= 0), -1)
             if pos < 0:
+                pos = html.find("</article>")
+            if pos < 0:
                 print(f"挿入位置が見つかりません: {row['parent_href']}")
                 return 1
             updated = html[:pos] + rendered + html[pos:]

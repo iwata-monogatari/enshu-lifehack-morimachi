@@ -78,7 +78,13 @@ def main() -> int:
         return 1
 
     changed = 0
+    phase1_path = ROOT / "data" / "seo-phase1-publication.json"
+    phase1_urls = {
+        row["url"] for row in json.loads(phase1_path.read_text(encoding="utf-8"))
+    } if phase1_path.exists() else set()
     for href in sorted(PRIORITY_HREFS):
+        if href in phase1_urls:
+            continue
         path = ROOT / href.strip("/") / "index.html"
         if not path.exists():
             print(f"[失敗] HTMLがない: {href}")

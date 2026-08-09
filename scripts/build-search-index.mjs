@@ -51,6 +51,11 @@ function extractVerified(html) {
   return m ? m[1] : '';
 }
 
+function extractMeta(html, pattern) {
+  const match = html.match(pattern);
+  return match ? stripTags(match[1]) : '';
+}
+
 // 検索結果に出す種別ラベル（改修指示書 9.2）
 function kindOf(topic) {
   const href = topic.href;
@@ -77,6 +82,8 @@ function main() {
   const auxPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/aux-pages.json'), 'utf8'));
   const questionPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/questions.json'), 'utf8'));
   const expansionPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/search-expansion-pages.json'), 'utf8'));
+  const phase1Path = path.join(ROOT, 'data/seo-phase1-publication.json');
+  const phase1Pages = fs.existsSync(phase1Path) ? JSON.parse(fs.readFileSync(phase1Path, 'utf8')) : [];
 
   let mergedSkipped = 0;
   const baseIndex = [...topicsMaster, ...auxPages]
@@ -150,7 +157,32 @@ function main() {
       lead: extractLead(html, page.href),
     };
   }).filter(Boolean);
-  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex];
+  const existingHrefs = new Set([...baseIndex, ...questionIndex, ...expansionIndex].map((item) => item.href));
+  const phase1Index = phase1Pages.map((page) => {
+    if (existingHrefs.has(page.url)) return null;
+    const html = readPage(page.url);
+    if (html === null) return null;
+    const lead = extractLead(html, page.url);
+    const title = extractMeta(html, /<h1\b[^>]*>([\s\S]*?)<\/h1>/i) || page.proposed_title_h1;
+    const description = extractMeta(html, /<meta\s+name="description"\s+content="([^"]*)"/i);
+    return {
+      href: page.url,
+      icon: '🧭',
+      title,
+      category: '検索意図別ガイド',
+      hub: page.url.startsWith('/food/') || page.url.startsWith('/events/') ? 'enjoy' : '',
+      kind: page.url.startsWith('/life/') ? '公式手続き' : '地域情報',
+      summary: description.slice(0, 90),
+      keyword: page.primary_keyword || '',
+      aliases: [page.primary_keyword, page.proposed_title_h1].filter(Boolean),
+      needs: [],
+      department: [],
+      audience: [],
+      verified: extractVerified(html) || page.fact_checked_at || '',
+      lead,
+    };
+  }).filter(Boolean);
+  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex, ...phase1Index];
 
   const outPath = path.join(ROOT, 'search-index.json');
   const json = JSON.stringify(searchIndex);

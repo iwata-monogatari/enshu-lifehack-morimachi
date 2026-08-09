@@ -29,6 +29,22 @@ SITE = "https://morimachi.enshu-lifehack.com"
 SITE_NAME = "森町ライフハック"
 VERIFIED = "2026-08-04"
 
+
+def protected_phase1_urls():
+    """人手で全面改稿したフェーズ1ページをDB再生成から守る。"""
+    manifest = os.path.join(ROOT, "data", "seo-phase1-publication.json")
+    if not os.path.isfile(manifest):
+        return set()
+    with open(manifest, encoding="utf-8") as f:
+        rows = json.load(f)
+    return {
+        row["url"] for row in rows
+        if row.get("decision") == "EXPAND_EXISTING" and row.get("url", "").startswith("/shrine/")
+    }
+
+
+PROTECTED_PHASE1 = protected_phase1_urls()
+
 MONTHS = ["", "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
 
 
@@ -80,6 +96,9 @@ def shell(path, emoji, title, lead, body, parts, crumbs):
 
 
 def write(rel, content):
+    url = "/shrine/" + (rel.strip("/") + "/" if rel else "")
+    if url in PROTECTED_PHASE1 and os.path.isfile(os.path.join(OUT, rel, "index.html")):
+        return os.path.join("shrine", rel, "index.html").replace(os.sep, "/") + " (phase1 preserved)"
     p = os.path.join(OUT, rel, "index.html") if rel else os.path.join(OUT, "index.html")
     os.makedirs(os.path.dirname(p), exist_ok=True)
     with open(p, "w", encoding="utf-8", newline="") as f:

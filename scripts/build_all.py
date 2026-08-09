@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.stdout.reconfigure(encoding="utf-8")
 
 STEPS: list[tuple[str, list[str]]] = [
+    ("200検索意図の第1期公開対象を確定", [sys.executable, "scripts/build_seo_phase1_manifest.py"]),
     ("森町のよくある100の質問を生成", [sys.executable, "scripts/build_questions.py"]),
     ("寺社データベースの生成", [sys.executable, "scripts/generate_shrine_pages.py"]),
     ("寺院データベースの生成", [sys.executable, "scripts/generate_temple_pages.py"]),
@@ -55,12 +56,14 @@ STEPS: list[tuple[str, list[str]]] = [
     ("検索対象ページの説明文を90〜130字へ最終同期", [sys.executable, "scripts/sync_content_descriptions.py"]),
     ("生活ガイドのOGP画像生成", [sys.executable, "scripts/generate_ogp_images.py"]),
     ("OGP・SNS表示をtitleとdescriptionへ同期", [sys.executable, "scripts/inject_ogp_meta.py"]),
+    ("第1期ページのcanonical・OGP重複を正規化", [sys.executable, "scripts/normalize_seo_phase1_meta.py"]),
     ("共通SEO（canonical・OGP・構造化データ）", [sys.executable, "scripts/inject_seo_common.py"]),
     ("統合元の検索辞書の引き継ぎ", [sys.executable, "scripts/merge_search_dictionary.py"]),
     ("検索インデックスの生成", ["node", "scripts/build-search-index.mjs"]),
     ("検索テスト", ["node", "scripts/test-search.mjs"]),
     ("検索支援機能の計算テスト", ["node", "scripts/test-search-tools.mjs"]),
     ("sitemap.xml の生成", [sys.executable, "scripts/build_sitemap.py"]),
+    ("200ページ計画・第1期の品質監査", [sys.executable, "scripts/audit_seo_phase1.py"]),
     ("重要11ページと検索発見基盤の監査", [sys.executable, "scripts/audit_search_discovery.py"]),
     ("自然検索向け100問の監査", [sys.executable, "scripts/audit_organic_search.py"]),
     ("llms.txt の生成", [sys.executable, "scripts/build_llms.py"]),

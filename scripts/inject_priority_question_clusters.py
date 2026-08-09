@@ -50,6 +50,8 @@ def main() -> None:
                 "</head>",
                 '<link rel="stylesheet" href="/assets/search-tools.css?v=20260806a"></head>', 1)
         anchor = "<!-- QUESTION-LINK:START -->" if "<!-- QUESTION-LINK:START -->" in html else "<!-- CTA-BLOCK:START -->"
+        if anchor not in html and "</article>" in html:
+            anchor = "</article>"
         if anchor not in html:
             raise RuntimeError(f"挿入位置が見つかりません: {item['href']}")
         html = html.replace(anchor, block + anchor, 1)
