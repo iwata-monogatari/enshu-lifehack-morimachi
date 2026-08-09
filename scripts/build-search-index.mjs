@@ -84,6 +84,10 @@ function main() {
   const expansionPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/search-expansion-pages.json'), 'utf8'));
   const phase1Path = path.join(ROOT, 'data/seo-phase1-publication.json');
   const phase1Pages = fs.existsSync(phase1Path) ? JSON.parse(fs.readFileSync(phase1Path, 'utf8')) : [];
+  const fullPath = path.join(ROOT, 'data/seo-full-publication.json');
+  const fullPages = fs.existsSync(fullPath) ? JSON.parse(fs.readFileSync(fullPath, 'utf8')) : [];
+  const fullLedgerPath = path.join(ROOT, 'data/seo-implementation-200.json');
+  const fullLedger = fs.existsSync(fullLedgerPath) ? JSON.parse(fs.readFileSync(fullLedgerPath, 'utf8')) : [];
 
   let mergedSkipped = 0;
   const baseIndex = [...topicsMaster, ...auxPages]
@@ -182,7 +186,22 @@ function main() {
       lead,
     };
   }).filter(Boolean);
-  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex, ...phase1Index];
+  const allExistingHrefs = new Set([...existingHrefs, ...phase1Index.map((item) => item.href)]);
+  const fullIndex = fullPages.map((page) => {
+    if (allExistingHrefs.has(page.url)) return null;
+    const html = readPage(page.url);
+    if (html === null) return null;
+    const title = extractMeta(html, /<h1\b[^>]*>([\s\S]*?)<\/h1>/i) || page.title;
+    const description = extractMeta(html, /<meta\s+name="description"\s+content="([^"]*)"/i);
+    const aliases = fullLedger.filter((row) => row.final_url === page.url).map((row) => row.target_query);
+    return {
+      href: page.url, icon: '🧭', title, category: '森町テーマ別ガイド', hub: '', kind: '地域情報',
+      summary: description.slice(0, 90), keyword: title.split('｜')[0], aliases,
+      needs: aliases, department: [], audience: [], verified: extractVerified(html) || page.fact_checked_at || '',
+      lead: extractLead(html, page.url),
+    };
+  }).filter(Boolean);
+  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex, ...phase1Index, ...fullIndex];
 
   const outPath = path.join(ROOT, 'search-index.json');
   const json = JSON.stringify(searchIndex);

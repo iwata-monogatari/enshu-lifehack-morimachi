@@ -1,0 +1,1402 @@
+[
+  {
+    "number": 1,
+    "target_query": "第1波：1～20（小國神社・甘々娘・総合ハブ）",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/shrines/s4410001/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 2,
+    "target_query": "第2波：21～80（地区・地名・歴史文化）",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/shrines/s4410001/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 3,
+    "target_query": "第3波：81～145（農業・学校・交通）",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/guide/access/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 4,
+    "target_query": "第4波：146～200（移住・住宅・空き家・相続）",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/shrines/s4410001/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 5,
+    "target_query": "小國神社の初詣",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/guide/okuni-jinja-hatsumode/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 6,
+    "target_query": "小國神社の紅葉",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/shrines/s4410001/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 7,
+    "target_query": "甘々娘完全ガイド",
+    "action": "CREATE",
+    "final_url": "/agriculture/corn/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 8,
+    "target_query": "甘々娘の旬・販売時期",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/corn/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 9,
+    "target_query": "甘々娘とは",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/corn/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 10,
+    "target_query": "森町のとうもろこし",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/corn/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 11,
+    "target_query": "森町の特産品",
+    "action": "CREATE",
+    "final_url": "/agriculture/overview/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 12,
+    "target_query": "森町はどんな町か",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/about-morimachi/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 13,
+    "target_query": "森町の歴史",
+    "action": "CREATE",
+    "final_url": "/history/morimachi-timeline/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 14,
+    "target_query": "森町の神社",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 15,
+    "target_query": "森町の寺院",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/temple/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 16,
+    "target_query": "森町の地名",
+    "action": "CREATE",
+    "final_url": "/history/place-names/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 17,
+    "target_query": "森町の人口",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/about-morimachi/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 18,
+    "target_query": "森町の地図",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/guide/morimachi-complete-guide/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 19,
+    "target_query": "森町へのアクセス",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/guide/access/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 20,
+    "target_query": "森町で暮らす",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/about-morimachi/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 21,
+    "target_query": "森地区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/areas/mori/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 22,
+    "target_query": "一宮地区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/areas/ichinomiya/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 23,
+    "target_query": "飯田地区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/areas/iida/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 24,
+    "target_query": "園田地区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/areas/sonoda/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 25,
+    "target_query": "天方地区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/areas/amagata/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 26,
+    "target_query": "三倉地区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/areas/mikura/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 27,
+    "target_query": "一宮で暮らす",
+    "action": "CREATE",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 28,
+    "target_query": "飯田で暮らす",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 29,
+    "target_query": "園田で暮らす",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 30,
+    "target_query": "天方で暮らす",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 31,
+    "target_query": "三倉で暮らす",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 32,
+    "target_query": "森地区で暮らす",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 33,
+    "target_query": "一宮の歴史",
+    "action": "CREATE",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 34,
+    "target_query": "飯田の歴史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 35,
+    "target_query": "園田の歴史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 36,
+    "target_query": "天方の歴史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 37,
+    "target_query": "三倉の歴史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 38,
+    "target_query": "森地区の歴史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 39,
+    "target_query": "一宮の神社・寺院",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 40,
+    "target_query": "飯田の神社・寺院",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 41,
+    "target_query": "園田の神社・寺院",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 42,
+    "target_query": "天方の神社・寺院",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 43,
+    "target_query": "三倉の神社・寺院",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 44,
+    "target_query": "森地区の神社・寺院",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 45,
+    "target_query": "森町の旧村",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/place-names/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 46,
+    "target_query": "森町の字・大字",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/place-names/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 47,
+    "target_query": "森町の地名の由来",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/place-names/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 48,
+    "target_query": "森町の山間地域",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 49,
+    "target_query": "森町の中心市街地",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 50,
+    "target_query": "遠州森町とは",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 51,
+    "target_query": "天宮神社",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/shrines/s4410002/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 52,
+    "target_query": "山名神社",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/shrines/s4410003/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 53,
+    "target_query": "小國神社と一宮地区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 54,
+    "target_query": "森町神社一覧",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 55,
+    "target_query": "森町神社地図",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 56,
+    "target_query": "森町の祭神",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 57,
+    "target_query": "森町の式内社",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 58,
+    "target_query": "神社と森町の地域社会",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 59,
+    "target_query": "森町の祭り",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/festivals/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 60,
+    "target_query": "森町の祭礼文化",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/shrine/festivals/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 61,
+    "target_query": "森町寺院一覧",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/temple/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 62,
+    "target_query": "森町寺院地図",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/temple/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 63,
+    "target_query": "森町の仏教文化",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/temple/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 64,
+    "target_query": "森町の街道",
+    "action": "CREATE",
+    "final_url": "/history/roads/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 65,
+    "target_query": "秋葉街道と森町",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/roads/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 66,
+    "target_query": "森町の交通史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/roads/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 67,
+    "target_query": "森町の古道",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/roads/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 68,
+    "target_query": "森町の古写真",
+    "action": "CREATE",
+    "final_url": "/history/cultural-heritage/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 69,
+    "target_query": "森町の文化財",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/cultural-heritage/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 70,
+    "target_query": "森町の指定文化財",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/cultural-heritage/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 71,
+    "target_query": "森町の史跡",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/cultural-heritage/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 72,
+    "target_query": "森町の石碑",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/roads/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 73,
+    "target_query": "森町の道標",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/roads/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 74,
+    "target_query": "森町の伝承",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/cultural-heritage/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 75,
+    "target_query": "森町の昔話",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/cultural-heritage/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 76,
+    "target_query": "森町の近代史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/morimachi-timeline/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 77,
+    "target_query": "森町の昭和史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/morimachi-timeline/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 78,
+    "target_query": "森町の平成史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/morimachi-timeline/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 79,
+    "target_query": "森町の町村合併史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/morimachi-timeline/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 80,
+    "target_query": "森町歴史年表",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/history/morimachi-timeline/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 81,
+    "target_query": "森町の農業",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/overview/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 82,
+    "target_query": "森町のとうもろこし栽培",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/corn/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 83,
+    "target_query": "甘々娘の特徴",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/corn/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 84,
+    "target_query": "甘々娘の歴史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/corn/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 85,
+    "target_query": "甘々娘の旬",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/corn/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 86,
+    "target_query": "甘々娘の保存方法",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/corn/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 87,
+    "target_query": "甘々娘のおいしい食べ方",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/corn/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 88,
+    "target_query": "甘々娘と森町の農業",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/overview/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 89,
+    "target_query": "森町のお茶",
+    "action": "CREATE",
+    "final_url": "/agriculture/tea/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 90,
+    "target_query": "森町茶の歴史",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/tea/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 91,
+    "target_query": "森町の茶畑",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/tea/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 92,
+    "target_query": "森町の米づくり",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/overview/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 93,
+    "target_query": "森町の野菜",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/overview/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 94,
+    "target_query": "森町の果物",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/overview/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 95,
+    "target_query": "森町の農産物直売",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/overview/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 96,
+    "target_query": "森町の農産物カレンダー",
+    "action": "CREATE",
+    "final_url": "/agriculture/products-calendar/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 97,
+    "target_query": "森町の春の味覚",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/products-calendar/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 98,
+    "target_query": "森町の夏の味覚",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/products-calendar/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 99,
+    "target_query": "森町の秋の味覚",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/products-calendar/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 100,
+    "target_query": "森町の冬の味覚",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/products-calendar/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 101,
+    "target_query": "森町の農地",
+    "action": "CREATE",
+    "final_url": "/agriculture/farmland-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 102,
+    "target_query": "森町で農業を始める",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/farmland-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 103,
+    "target_query": "森町の耕作放棄地",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/farmland-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 104,
+    "target_query": "森町の農地相続",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/farmland-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 105,
+    "target_query": "森町の農地を持つ家族が確認すべきこと",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/farmland-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 106,
+    "target_query": "森町の小学校",
+    "action": "CREATE",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 107,
+    "target_query": "森町の中学校",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 108,
+    "target_query": "森町の学区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 109,
+    "target_query": "森町小学校区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 110,
+    "target_query": "宮園小学校区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 111,
+    "target_query": "飯田小学校区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 112,
+    "target_query": "森町中学校区",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 113,
+    "target_query": "森町の保育・幼児教育施設",
+    "action": "CREATE",
+    "final_url": "/living/child-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 114,
+    "target_query": "森町で子育て",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/living/child-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 115,
+    "target_query": "森町の子育て支援",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/living/child-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 116,
+    "target_query": "森町の児童手当",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/living/child-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 117,
+    "target_query": "森町の入学手続き",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 118,
+    "target_query": "森町への転校",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 119,
+    "target_query": "森町の通学",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 120,
+    "target_query": "森町の放課後児童クラブ",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/living/child-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 121,
+    "target_query": "森町の図書館・読書環境",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/living/child-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 122,
+    "target_query": "森町の公園",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/living/child-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 123,
+    "target_query": "子どもと暮らす森町",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/living/child-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 124,
+    "target_query": "森町へ子育て移住",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/living/child-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 125,
+    "target_query": "森町の教育環境",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/schools/school-districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 126,
+    "target_query": "遠州森駅",
+    "action": "CREATE",
+    "final_url": "/transport/tenhama-stations/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 127,
+    "target_query": "戸綿駅",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/tenhama-stations/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 128,
+    "target_query": "円田駅",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/tenhama-stations/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 129,
+    "target_query": "森町病院前駅",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/tenhama-stations/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 130,
+    "target_query": "遠江一宮駅",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/tenhama-stations/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 131,
+    "target_query": "天竜浜名湖鉄道と森町",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/tenhama-stations/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 132,
+    "target_query": "森町の公共交通",
+    "action": "CREATE",
+    "final_url": "/transport/car-free-life/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 133,
+    "target_query": "森町のバス",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/car-free-life/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 134,
+    "target_query": "森町から磐田への移動",
+    "action": "CREATE",
+    "final_url": "/transport/commuting/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 135,
+    "target_query": "森町から袋井への移動",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/commuting/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 136,
+    "target_query": "森町から掛川への移動",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/commuting/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 137,
+    "target_query": "森町から浜松への移動",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/commuting/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 138,
+    "target_query": "森町の買い物環境",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/car-free-life/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 139,
+    "target_query": "森町の医療環境",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/car-free-life/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 140,
+    "target_query": "森町の生活圏",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/car-free-life/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 141,
+    "target_query": "森町で車なし生活は可能か",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/car-free-life/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 142,
+    "target_query": "森町の通勤事情",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/commuting/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 143,
+    "target_query": "森町の道路",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/commuting/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 144,
+    "target_query": "新東名と森町",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/commuting/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 145,
+    "target_query": "森掛川IC周辺の暮らし",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/commuting/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 146,
+    "target_query": "森町へ移住",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 147,
+    "target_query": "森町移住のメリット",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/about-morimachi/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 148,
+    "target_query": "森町移住前に確認したいこと",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/life/living-soon/want-to-live/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 149,
+    "target_query": "森町で家を探す",
+    "action": "CREATE",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 150,
+    "target_query": "森町で土地を探す",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 151,
+    "target_query": "森町の土地相場",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 152,
+    "target_query": "森町の地価",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 153,
+    "target_query": "森町の中古住宅",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 154,
+    "target_query": "森町の一戸建て",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 155,
+    "target_query": "森町の賃貸",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 156,
+    "target_query": "森町で家を建てる",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 157,
+    "target_query": "森町の住宅地",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 158,
+    "target_query": "一宮の住宅事情",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 159,
+    "target_query": "飯田の住宅事情",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 160,
+    "target_query": "園田の住宅事情",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 161,
+    "target_query": "天方の住宅事情",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 162,
+    "target_query": "三倉の住宅事情",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 163,
+    "target_query": "森地区の住宅事情",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 164,
+    "target_query": "森町の山間部で暮らす",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/districts/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 165,
+    "target_query": "森町で古民家を探す",
+    "action": "CREATE",
+    "final_url": "/housing/kominka/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 166,
+    "target_query": "森町の古民家暮らし",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/kominka/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 167,
+    "target_query": "森町の土地選び",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 168,
+    "target_query": "森町の学区と住宅選び",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/land-selection/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 169,
+    "target_query": "森町の通勤と住宅選び",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/transport/commuting/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 170,
+    "target_query": "森町の災害リスクと住宅選び",
+    "action": "CREATE",
+    "final_url": "/housing/disaster-risk/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 171,
+    "target_query": "森町のハザードマップと家探し",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/disaster-risk/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 172,
+    "target_query": "森町の浸水リスク",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/disaster-risk/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 173,
+    "target_query": "森町の土砂災害リスク",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/disaster-risk/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 174,
+    "target_query": "森町で親と近居する",
+    "action": "CREATE",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 175,
+    "target_query": "森町へUターン",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 176,
+    "target_query": "森町の空き家",
+    "action": "CREATE",
+    "final_url": "/vacant-house/management-cost/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 177,
+    "target_query": "森町で空き家を相続したら",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 178,
+    "target_query": "森町の実家を相続したら",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 179,
+    "target_query": "森町の親の家をどうするか",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 180,
+    "target_query": "森町の実家じまい",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 181,
+    "target_query": "森町の空き家管理",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/vacant-house/management-cost/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 182,
+    "target_query": "森町の空き家売却",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 183,
+    "target_query": "森町の中古住宅売却",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 184,
+    "target_query": "森町の土地売却",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 185,
+    "target_query": "森町の農地相続",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/farmland-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 186,
+    "target_query": "森町の農地を手放したいとき",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/agriculture/farmland-family/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 187,
+    "target_query": "森町の古い家を相続したとき",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/housing/kominka/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 188,
+    "target_query": "森町の空き家の片付け",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/vacant-house/management-cost/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 189,
+    "target_query": "森町の実家の家財整理",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/vacant-house/management-cost/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 190,
+    "target_query": "森町の相続登記",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 191,
+    "target_query": "森町の共有名義不動産",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 192,
+    "target_query": "森町の未登記建物",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 193,
+    "target_query": "森町の境界確認",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 194,
+    "target_query": "森町の空き家と固定資産税",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/vacant-house/management-cost/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 195,
+    "target_query": "森町の空き家の維持費",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/vacant-house/management-cost/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 196,
+    "target_query": "森町の実家を残すか売るか",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 197,
+    "target_query": "森町の親が施設へ入った後の家",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 198,
+    "target_query": "遠方から森町の実家を管理する",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/vacant-house/management-cost/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 199,
+    "target_query": "森町の実家カルテ",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  },
+  {
+    "number": 200,
+    "target_query": "森町の家・土地・相続相談ガイド \\## 内部リンク",
+    "action": "MERGE_OR_EXPAND",
+    "final_url": "/inheritance/property-checklist/",
+    "reason": "同一の確認手順で解決できる検索意図は中核ページへ統合し、固有意図だけを新設"
+  }
+]

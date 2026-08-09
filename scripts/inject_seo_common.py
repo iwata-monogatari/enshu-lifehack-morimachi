@@ -213,7 +213,11 @@ def process(path: Path) -> dict[str, bool]:
     phase1_urls = {
         row["url"] for row in json.loads(phase1_path.read_text(encoding="utf-8"))
     } if phase1_path.exists() else set()
-    if url_path in phase1_urls:
+    full_path = ROOT / "data" / "seo-full-publication.json"
+    full_urls = {
+        row["url"] for row in json.loads(full_path.read_text(encoding="utf-8"))
+    } if full_path.exists() else set()
+    if url_path in phase1_urls | full_urls:
         jsonld_re = re.compile(r'<script\s+type="application/ld\+json">.*?</script>', re.I | re.S)
         html = jsonld_re.sub(lambda m: "" if "BreadcrumbList" in m.group(0) else m.group(0), html)
     page_url = SITE + url_path
