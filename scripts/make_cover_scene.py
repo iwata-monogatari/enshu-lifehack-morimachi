@@ -675,10 +675,67 @@ def scene_akiya_august(d):
     band(d, ["空き家の下見は、", "八月の午後に一度入る"], "森町ライフハック／移住・暮らし・データ")
 
 
+def scene_quiet_sunday(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [14, 56, 704, 746], 300)
+    # 段になった茶畑
+    d.polygon([(0, 292), (760, 284), (760, 332), (0, 342)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 13), (760, 292 + i * 13)], fill=(105, 147, 74), width=3)
+    # 太田川と橋
+    d.polygon([(0, 340), (760, 330), (760, 366), (0, 378)], fill=(158, 198, 221))
+    d.line([(40, 356), (300, 348)], fill=(226, 240, 246), width=4)
+    d.line([(430, 354), (700, 344)], fill=(226, 240, 246), width=4)
+    d.rectangle([460, 328, 700, 337], fill=(216, 211, 196))
+    for x in (492, 566, 640):
+        d.rectangle([x, 337, x + 8, 366], fill=(183, 178, 163))
+    d.polygon([(0, 372), (760, 360), (760, BAND_TOP), (0, BAND_TOP)], fill=(219, 231, 195))
+    # 図書館
+    d.rectangle([28, 394, 200, 480], fill=(240, 236, 224), outline=(201, 192, 171), width=3)
+    d.polygon([(16, 396), (114, 358), (212, 396)], fill=(139, 154, 162))
+    d.rectangle([48, 412, 180, 424], fill=(31, 62, 82))
+    d.rectangle([46, 434, 84, 468], fill=(207, 224, 234), outline=(169, 191, 203), width=3)
+    d.rectangle([96, 434, 134, 468], fill=(207, 224, 234), outline=(169, 191, 203), width=3)
+    d.rectangle([148, 434, 180, 480], fill=(185, 163, 124), outline=(154, 133, 96), width=3)
+    # 資料館（瓦屋根の古い建物）
+    d.rectangle([248, 400, 404, 480], fill=(234, 227, 211), outline=(196, 186, 162), width=3)
+    d.polygon([(234, 402), (326, 364), (418, 402)], fill=(127, 143, 151))
+    d.polygon([(250, 396), (326, 370), (402, 396)], fill=(147, 161, 168))
+    for x in (266, 310, 354):
+        d.rectangle([x, 420, x + 32, 458], fill=(217, 210, 192), outline=(186, 177, 155), width=2)
+    d.rectangle([304, 458, 348, 480], fill=(185, 163, 124), outline=(154, 133, 96), width=3)
+    # 体育館（丸い屋根）
+    d.rectangle([456, 414, 626, 480], fill=(238, 240, 236), outline=(195, 200, 193), width=3)
+    d.pieslice([450, 358, 632, 470], 180, 360, fill=(147, 167, 173))
+    for x in (476, 526, 576):
+        d.rectangle([x, 430, x + 32, 456], fill=(207, 224, 234), outline=(169, 191, 203), width=2)
+    d.rectangle([524, 456, 570, 480], fill=(185, 163, 124), outline=(154, 133, 96), width=3)
+    # バス停の標柱
+    d.rectangle([690, 414, 700, 500], fill=(125, 135, 140))
+    d.rectangle([662, 386, 728, 422], fill=(246, 244, 234), outline=(125, 135, 140), width=3)
+    for y in (396, 405, 414):
+        d.line([(670, y), (720, y)], fill=(152, 162, 166), width=3)
+    d.ellipse([683, 366, 707, 390], fill=(74, 120, 150))
+    # 集落の道
+    d.polygon([(0, 492), (760, 476), (760, 540), (0, 560)], fill=(205, 197, 176))
+    d.line([(0, 528), (760, 510)], fill=(255, 255, 255), width=4)
+    # 歩く三人家族
+    for cx, body, r, base in ((176, (92, 139, 109), 24, 500), (264, (220, 154, 99), 19, 512),
+                              (352, (74, 120, 150), 24, 504)):
+        d.ellipse([cx - r, base - r * 2 - 8, cx + r, base - 8], fill=(230, 196, 157),
+                  outline=(189, 154, 114), width=3)
+        d.chord([cx - r, base - r * 2 - 14, cx + r, base - 14], 180, 360, fill=(70, 61, 51))
+        d.polygon([(cx - r - 6, base + 2), (cx + r + 6, base + 2),
+                   (cx + r + 12, BAND_TOP), (cx - r - 12, BAND_TOP)], fill=body)
+    band(d, ["何もない日曜日を、", "家族で一日過ごす"], "森町ライフハック／移住・暮らし・データ")
+
+
 SCENES = {
     "20260806-electric-fence-subsidy": scene_electric_fence,
     "20260809-tencomori-three-conditions": scene_tencomori,
     "20260809-akiya-august-afternoon-viewing": scene_akiya_august,
+    "20260809-nothing-special-sunday": scene_quiet_sunday,
     "20260806-cadastral-survey-boundary": scene_cadastral,
     "20260807-smart-ic-livability": scene_smart_ic,
     "20260807-water-supply-routes": scene_water_routes,
