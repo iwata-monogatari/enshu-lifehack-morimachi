@@ -151,6 +151,7 @@ def main():
         raise RuntimeError(f'第4期公開台帳の監査状態が不完全です: {partially_released[:5]}')
     phase4_urls = {p['url'] for p in phase4_all}
     released_phase4_urls = {p['url'] for p in phase4}
+    released_phase4_roots = {p['url'].strip('/').split('/', 1)[0] for p in phase4}
     phase4_hub_urls = []
     for path in ROOT.glob('*/index.html'):
         try:
@@ -158,7 +159,9 @@ def main():
         except OSError:
             continue
         if 'SEO-PHASE4-HUB' in html:
-            phase4_hub_urls.append('/' + path.parent.name + '/')
+            hub_root = path.parent.name
+            if hub_root in released_phase4_roots and 'data-phase4-pending' not in html:
+                phase4_hub_urls.append('/' + hub_root + '/')
 
     # 寺社DBはページ数が多く台帳を二重管理したくないので、実ディレクトリを走査する
     section_urls = []
@@ -220,6 +223,7 @@ def main():
     full_dates = {p['url']: p.get('fact_checked_at') for p in full}
     phase3_dates = {p['url']: p.get('fact_checked_at') or p.get('generated_at') for p in phase3}
     phase4_dates = {p['url']: p.get('fact_checked_at') or p.get('generated_at') for p in phase4}
+    phase4_hub_dates = {url: today for url in phase4_hub_urls}
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -237,6 +241,7 @@ def main():
             iso_date_or_none(full_dates.get(u)),
             iso_date_or_none(phase3_dates.get(u)),
             iso_date_or_none(phase4_dates.get(u)),
+            iso_date_or_none(phase4_hub_dates.get(u)),
             today if rel in dirty else None,
         ) if d]
         lastmod = max(candidates) if candidates else None  # YYYY-MM-DD は辞書順=時系列順

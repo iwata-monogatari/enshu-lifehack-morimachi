@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""第4期300ページを25件単位で読解監査する公開ゲート。
+"""第4期300ページを25件単位で機械読解監査する安全ゲート。
 
 文字数やタグの有無だけでなく、読者向けではない編集語、不自然な句読点、
 長すぎる段落、同一ページ内の文の反復、descriptionの日本語を検査する。
@@ -20,6 +20,15 @@ EDITORIAL_TERMS = (
     "焦点「", "断定防止", "第1論点", "第2論点", "第3論点", "第4論点",
     "第5論点", "編集上の印", "生成用", "テンプレート", "カニバリ",
 )
+REPETITIVE_PHRASES = (
+    "ここでは、", "の資料を集めるだけの作業ではありません",
+    "検索結果の短い説明ではなく", "この内容が当てはまるとは限らないため",
+)
+CRITICAL_REQUIRED = {
+    82: ("警戒レベル4", "避難"),
+    131: ("3年以内", "2027年3月31日"),
+    245: ("2週間以内", "2,000平方メートル", "5,000平方メートル", "10,000平方メートル"),
+}
 
 
 def text_of(fragment: str) -> str:
@@ -48,6 +57,9 @@ def audit_page(item: dict) -> dict:
     for term in EDITORIAL_TERMS:
         if term in editorial or term in description:
             failures.append(f"編集用語が露出:{term}")
+    for phrase in REPETITIVE_PHRASES:
+        if phrase in editorial:
+            failures.append(f"旧反復構文が残存:{phrase}")
     if "。。" in editorial or "？？" in editorial or "。。" in description:
         failures.append("句読点の重複")
     if re.search(r"「「|」」", editorial):
@@ -62,7 +74,16 @@ def audit_page(item: dict) -> dict:
     duplicates = [paragraph for paragraph in paragraph_counts if paragraph_counts[paragraph] > 1 and len(paragraph) >= 80]
     if duplicates:
         failures.append(f"同一段落反復:{len(duplicates)}")
-    if "先に答えを確認する" not in html:
+    title_stem = str(item["title"]).split("｜", 1)[0]
+    title_repetitions = editorial.count(title_stem)
+    if title_repetitions > 12:
+        failures.append(f"タイトル相当語句の反復過多:{title_repetitions}")
+    if re.search(r"(.{8,80})のうち\1を扱います", editorial):
+        failures.append("見出し自己反復")
+    for required in CRITICAL_REQUIRED.get(int(item["id"]), ()):
+        if required not in editorial:
+            failures.append(f"核心事実なし:{required}")
+    if "先に結論を確認する" not in html:
         failures.append("質問への直接回答なし")
     if "大石の視点" not in html:
         failures.append("大石の視点なし")
@@ -71,7 +92,8 @@ def audit_page(item: dict) -> dict:
     return {
         "id": item["id"], "url": item["url"], "title": item["title"],
         "editorial_chars": len(editorial), "paragraphs": len(paragraphs),
-        "description_chars": len(description), "failures": sorted(set(failures)),
+        "description_chars": len(description), "title_repetitions": title_repetitions,
+        "failures": sorted(set(failures)),
         "sample": paragraphs[:3],
     }
 

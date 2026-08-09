@@ -204,7 +204,13 @@ function main() {
     };
   }).filter(Boolean);
   const phase4ExistingHrefs = new Set([...allExistingHrefs, ...fullIndex.map((item) => item.href)]);
-  const phase4Index = phase4Pages.map((page) => {
+  const phase4Index = phase4Pages.filter((page) =>
+    page.publish_ready === true &&
+    page.human_reviewed === true &&
+    page.source_validation === 'verified' &&
+    page.uniqueness_validation === 'verified' &&
+    page.visual_validation === 'verified'
+  ).map((page) => {
     if (phase4ExistingHrefs.has(page.url)) return null;
     const html = readPage(page.url);
     if (html === null) return null;
@@ -221,9 +227,9 @@ function main() {
       summary: description.slice(0, 90),
       // 総合・親ページを短語検索の上位に保ち、第4期の細分ページは
       // 固有タイトルで検索されたときに見つかるよう過剰な加点を避ける。
-      keyword: '',
-      aliases: [],
-      needs: [],
+      keyword: title.replace(/[｜|].*$/, ''),
+      aliases: [title.replace(/[｜|].*$/, ''), ...(page.search_aliases || [])],
+      needs: page.search_intent ? [page.search_intent] : [],
       department: [],
       audience: [],
       verified: page.generated_at || '',

@@ -29,5 +29,6 @@
   { "query": "生活が苦しい", "expectedHrefIncludesAny": ["/life/troubles-consult/living-costs-trouble/"], "note": "困りごとの文章での検索" },
   { "query": "学童", "expectedHrefIncludesAny": ["/life/education/after-school-club/"], "note": "日常語での検索" },
   { "query": "地域包括支援センター", "expectedHrefIncludesAny": ["/life/parents-care/community-support-center/"], "note": "担当課名での検索（指示書9.1 department）" },
-  { "query": "税務課", "expectedHrefIncludesAny": ["/life/work-life/tax/", "/life/work-life/resident-tax/", "/life/work-life/city-tax-payment/", "/life/troubles-consult/cannot-pay-tax/", "/life/housing/property-tax/", "/life/work-life/tax-certificates/"], "note": "担当課名での検索" }
+  { "query": "税務課", "expectedHrefIncludesAny": ["/life/work-life/tax/", "/life/work-life/resident-tax/", "/life/work-life/city-tax-payment/", "/life/troubles-consult/cannot-pay-tax/", "/life/housing/property-tax/", "/life/work-life/tax-certificates/"], "note": "担当課名での検索" },
+  { "query": "相続登記", "expectedHrefIncludesAny": ["/inheritance/property-checklist/", "/life/end-of-life/inheritance/", "/life/end-of-life/inherited-house/"], "note": "未承認の第4期記事ではなく、確認済みの相続親ページを上位表示する" }
 ]

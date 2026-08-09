@@ -48,7 +48,7 @@ def main():
     pub=json.loads((ROOT/'data/seo-phase4-publication.json').read_text(encoding='utf-8'))
     if args.withdraw:
         for item in pub:
-            item.update(source_validation='pending',uniqueness_validation='pending',visual_validation='pending',publish_ready=False)
+            item.update(source_validation='pending',uniqueness_validation='pending',visual_validation='pending',human_reviewed=False,publish_ready=False)
         (ROOT/'data/seo-phase4-publication.json').write_text(json.dumps(pub,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         from build_seo_phase4 import load_rows, set_release_state
         set_release_state(load_rows(), False)
@@ -119,6 +119,12 @@ def main():
     if len(svg_structures) < 30: failures.append(f'SVG構造の種類不足: {len(svg_structures)}')
     if failures: raise SystemExit('第4期監査失敗\n- '+'\n- '.join(failures[:80]))
     if args.release:
+        not_reviewed=[item.get('url') for item in pub if item.get('human_reviewed') is not True]
+        if not_reviewed:
+            raise SystemExit(
+                '第4期は人間による全文読解が未完了のため公開しません。'
+                f' 未承認={len(not_reviewed)}件'
+            )
         for item in pub:
             item.update(source_validation='verified',uniqueness_validation='verified',visual_validation='verified',publish_ready=True)
         (ROOT/'data/seo-phase4-publication.json').write_text(json.dumps(pub,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

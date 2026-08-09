@@ -263,7 +263,12 @@ def check_sitemap() -> None:
             err(f"sitemap に実在しないURL: {p}")
         if p in REDIRECTS:
             err(f"sitemap にリダイレクト元が入っている: {p}")
-    missing = [u for u in ALL if u not in paths and not u.startswith("/blog/")]
+    missing = [
+        u for u, html in ALL.items()
+        if u not in paths
+        and not u.startswith("/blog/")
+        and not re.search(r'<meta\s+name=["\']robots["\'][^>]+content=["\'][^"\']*noindex', html, re.I)
+    ]
     if missing:
         warn(f"sitemap に載っていない実在ページ {len(missing)} 件: {missing[:8]}")
     print(f"   掲載 {len(paths)} URL / 実在ページ {len(ALL)}")

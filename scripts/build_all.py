@@ -79,7 +79,8 @@ STEPS: list[tuple[str, list[str]]] = [
 
 CHECK = ("公開前検査", [sys.executable, "scripts/preflight_check.py"])
 RELEASE_STEPS = [
-    ("第4期300ページを公開状態へ切替", [sys.executable, "scripts/audit_seo_phase4.py", "--release"]),
+    # 第4期は human_reviewed=true の記事だけを別工程で公開する。
+    # 全件を機械監査だけで一括公開する処理は再発防止のため置かない。
     ("公開状態の sitemap.xml を再生成", [sys.executable, "scripts/build_sitemap.py"]),
     ("トップページの公開件数をsitemapへ同期", [sys.executable, "scripts/sync_home_page_count.py"]),
 ]
