@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="pcTitle pcDesc" preserveAspectRatio="xMidYMid meet">
+  <title id="pcTitle">実家の座敷で親子が委任状を書いている場面のイラスト</title>
+  <desc id="pcDesc">畳の座敷に置いた低い丸机を親と子がはさんで座っています。机の上には委任状の用紙、朱肉と印鑑、運転免許証と保険証、切手を貼った返信用封筒、定額小為替が並び、親が筆を持って署名しようとし、子が用紙を押さえています。右手の開いた障子の向こうには縁側と庭、白壁に瓦屋根をのせた蔵、段になった茶畑と杉林、森町の山並みが見えます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="pcOut" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd8ea"/><stop offset="1" stop-color="#e9f1e4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 座敷の壁 -->
+  <rect width="1000" height="560" fill="#eae3d3"/>
+  <rect y="352" width="1000" height="208" fill="#ded7b8"/>
+  <g stroke="#c9c2a2" stroke-width="3">
+    <path d="M0 400 L1000 400"/><path d="M0 452 L1000 452"/><path d="M0 504 L1000 504"/>
+    <path d="M250 352 L250 560"/><path d="M600 352 L600 560"/><path d="M880 352 L880 560"/>
+  </g>
+  <rect y="86" width="1000" height="10" fill="#a8875e"/>
+
+  <!-- 床の間の掛け軸 -->
+  <g>
+    <rect x="64" y="108" width="132" height="10" rx="4" fill="#6b5539"/>
+    <rect x="72" y="118" width="116" height="176" fill="#f5f0e2" stroke="#d8cfb4" stroke-width="3"/>
+    <rect x="64" y="294" width="132" height="12" rx="4" fill="#6b5539"/>
+    <path d="M86 236 L108 194 L130 232 L152 186 L176 234" fill="none" stroke="#8fa5b0" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="150" cy="150" r="14" fill="#d8a48a"/>
+    <path d="M92 258 L172 254" stroke="#c7bda4" stroke-width="4"/>
+  </g>
+
+  <!-- 開いた障子の向こう -->
+  <g>
+    <rect x="628" y="102" width="348" height="226" fill="url(#pcOut)"/>
+    <path fill="#9db6c4" d="M628 200 L676 172 L724 202 L776 168 L828 200 L880 168 L932 202 L976 176 L976 224 L628 224 Z"/>
+    <g fill="#4f7f66">
+      <path d="M636 224 l11 -28 l11 28 z"/><path d="M950 224 l12 -30 l12 30 z"/>
+    </g>
+    <path fill="#7ba954" d="M628 218 C 728 210, 860 208, 976 216 L976 246 L628 250 Z"/>
+    <g stroke="#5f8a42" stroke-width="3" opacity="0.8">
+      <path d="M628 228 C 728 220, 860 218, 976 226"/>
+      <path d="M628 240 C 728 232, 860 230, 976 238"/>
+    </g>
+    <path fill="#d9e3c6" d="M628 248 L976 242 L976 328 L628 328 Z"/>
+    <!-- 白壁に瓦屋根の蔵 -->
+    <path d="M660 258 L724 226 L788 258 Z" fill="#7d8b93"/>
+    <path d="M672 252 L724 232 L776 252 Z" fill="#98a5ab"/>
+    <rect x="672" y="258" width="104" height="60" fill="#f2f0e6" stroke="#cfc9b6" stroke-width="3"/>
+    <rect x="706" y="282" width="36" height="36" fill="#8a7a63" stroke="#6d604c" stroke-width="3"/>
+    <!-- 庭木 -->
+    <rect x="856" y="286" width="10" height="32" fill="#8a6f4f"/>
+    <circle cx="861" cy="276" r="26" fill="#5c8b6d"/>
+    <circle cx="892" cy="288" r="18" fill="#6d9c79"/>
+    <!-- 縁側 -->
+    <rect x="628" y="328" width="348" height="24" fill="#c9a86a"/>
+    <rect x="628" y="344" width="348" height="8" fill="#a98a52"/>
+    <!-- 障子の枠と、左に寄せた一枚 -->
+    <rect x="620" y="94" width="364" height="242" fill="none" stroke="#8a6f4f" stroke-width="10"/>
+    <rect x="620" y="94" width="76" height="242" fill="#f6f3e6" stroke="#8a6f4f" stroke-width="6"/>
+    <g stroke="#c9bda0" stroke-width="3">
+      <path d="M658 100 L658 330"/><path d="M624 150 L692 150"/><path d="M624 206 L692 206"/><path d="M624 262 L692 262"/>
+    </g>
+  </g>
+
+  <!-- 親（左・筆を持つ） -->
+  <g>
+    <circle cx="248" cy="286" r="36" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M212 280 q36 -38 72 0 q0 -30 -36 -30 q-36 0 -36 30 z" fill="#d8d3cb"/>
+    <path d="M206 334 q42 -22 84 0 l10 74 l-104 0 z" fill="#6b7f8c"/>
+    <path d="M290 356 q40 4 52 34" stroke="#e6c49d" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <rect x="330" y="356" width="12" height="52" rx="5" fill="#3b3630" transform="rotate(24 336 382)"/>
+  </g>
+
+  <!-- 子（右・用紙を押さえる） -->
+  <g>
+    <circle cx="512" cy="292" r="32" fill="#f0d3ad" stroke="#c4a077" stroke-width="3"/>
+    <path d="M480 286 q32 -34 64 0 q0 -26 -32 -26 q-32 0 -32 26 z" fill="#463d33"/>
+    <path d="M476 336 q36 -18 72 0 l8 72 l-88 0 z" fill="#4a7896"/>
+    <path d="M474 362 q-38 6 -50 30" stroke="#f0d3ad" stroke-width="15" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- 卓袱台 -->
+  <ellipse cx="360" cy="440" rx="288" ry="52" fill="#b98f5d"/>
+  <ellipse cx="360" cy="430" rx="288" ry="52" fill="#d3a56b"/>
+  <rect x="196" y="474" width="18" height="52" fill="#a2793f"/>
+  <rect x="504" y="474" width="18" height="52" fill="#a2793f"/>
+
+  <!-- 机の上：委任状・朱肉と印鑑・身分証・封筒・定額小為替 -->
+  <g>
+    <path d="M198 400 L364 392 L378 442 L210 452 Z" fill="#ffffff" stroke="#c6cbc7" stroke-width="3"/>
+    <g stroke="#b9c2c6" stroke-width="3">
+      <path d="M216 412 L346 406"/><path d="M218 424 L322 418"/><path d="M222 436 L300 430"/>
+    </g>
+    <ellipse cx="424" cy="414" rx="20" ry="13" fill="#e0dbd0" stroke="#b6b0a2" stroke-width="3"/>
+    <ellipse cx="424" cy="411" rx="12" ry="7" fill="#c0563c"/>
+    <rect x="452" y="392" width="16" height="34" rx="4" fill="#8a6f4f" stroke="#6d5539" stroke-width="2"/>
+    <rect x="452" y="420" width="16" height="8" fill="#c0563c"/>
+    <path d="M492 404 L560 398 L564 424 L496 430 Z" fill="#eef3f7" stroke="#b6c2ca" stroke-width="3"/>
+    <circle cx="510" cy="414" r="7" fill="#c8cfd4"/>
+    <g stroke="#c8cfd4" stroke-width="3"><path d="M526 410 L554 408"/><path d="M527 419 L548 417"/></g>
+    <path d="M504 438 L570 432 L574 456 L508 462 Z" fill="#e6f0e2" stroke="#b3c7ad" stroke-width="3"/>
+    <path d="M110 424 L196 416 L202 456 L116 464 Z" fill="#f6f1e2" stroke="#cabf9f" stroke-width="3"/>
+    <path d="M110 424 L156 444 L196 416" fill="none" stroke="#cabf9f" stroke-width="3"/>
+    <rect x="163" y="420" width="22" height="14" fill="#dc9a63" stroke="#b87a45" stroke-width="2"/>
+    <path d="M252 456 L322 450 L324 474 L254 480 Z" fill="#fdf6d8" stroke="#cfc08a" stroke-width="3"/>
+    <g stroke="#cfc08a" stroke-width="3"><path d="M264 466 L310 462"/></g>
+  </g>
+</svg>

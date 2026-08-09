@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="pc2Title pc2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="pc2Title">証明書ごとに委任状の要否を振り分ける順番を描いたイラスト</title>
+  <desc id="pc2Desc">森町の山並みと茶畑を上に置いた地面の上で、書類の束を抱えた人の足元から道が二手に分かれます。上の道は委任状を省略できる書類へ続き、戸籍謄本・抄本の札が置かれています。下の道は委任状が要る書類へ続き、住民票の写し、評価証明と所得課税証明、印鑑登録の代理申請の三枚の札が並びます。二本の道は右側で合流し、委任状と身分証、現金、切手を貼った封筒がのぞく鞄に着きます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="pc2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6dcec"/><stop offset="1" stop-color="#eef3e9"/>
+    </linearGradient>
+    <linearGradient id="pc2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fadbe"/><stop offset="1" stop-color="#b8ccd2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="62" fill="url(#pc2Sky)"/>
+
+  <!-- 山並み・杉・茶畑 -->
+  <path fill="url(#pc2Far)" d="M0 40 L96 14 L192 44 L296 10 L400 42 L508 8 L616 44 L720 12 L824 42 L920 12 L1000 38 L1000 56 L0 56 Z"/>
+  <g fill="#57876a">
+    <path d="M14 56 l10 -24 l10 24 z"/><path d="M38 56 l8 -18 l8 18 z"/>
+    <path d="M946 56 l9 -22 l9 22 z"/><path d="M968 56 l11 -26 l11 26 z"/>
+  </g>
+  <path fill="#7ba954" d="M0 52 C 250 44, 470 42, 660 50 C 820 56, 910 52, 1000 46 L1000 68 L0 72 Z"/>
+  <g stroke="#5f8a42" stroke-width="3" opacity="0.8">
+    <path d="M0 58 C 250 50, 470 48, 660 56 C 820 62, 910 58, 1000 52"/>
+    <path d="M0 68 C 250 60, 470 58, 660 66 C 820 70, 910 66, 1000 60"/>
+  </g>
+  <path fill="#eef3e9" d="M0 70 L1000 64 L1000 560 L0 560 Z"/>
+
+  <!-- 二本の道 -->
+  <g stroke="#cdc6b2" stroke-width="26" fill="none" stroke-linecap="round">
+    <path d="M188 300 C 214 250, 226 200, 258 192"/>
+    <path d="M188 300 C 214 352, 226 402, 258 412"/>
+    <path d="M258 192 L708 192"/>
+    <path d="M258 412 L708 412"/>
+    <path d="M708 192 C 752 192, 764 250, 778 300"/>
+    <path d="M708 412 C 752 412, 764 356, 778 300"/>
+    <path d="M778 300 L818 300"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="3" stroke-dasharray="14 14" opacity="0.75" fill="none">
+    <path d="M270 192 L698 192"/><path d="M270 412 L698 412"/>
+  </g>
+
+  <!-- 書類の束を抱えた人 -->
+  <g>
+    <circle cx="92" cy="264" r="26" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M66 258 q26 -27 52 0 q0 -21 -26 -21 q-26 0 -26 21 z" fill="#463d33"/>
+    <path d="M60 298 q32 -16 64 0 l8 74 l-80 0 z" fill="#4a7896"/>
+    <path d="M62 322 L124 314 L130 358 L68 366 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <g stroke="#a9bfcb" stroke-width="3">
+      <path d="M74 334 L116 329"/><path d="M75 345 L108 341"/>
+    </g>
+    <path d="M52 374 L132 374 L128 392 L56 392 Z" fill="#37536b"/>
+  </g>
+
+  <!-- 上の道：委任状を省略できる -->
+  <rect x="256" y="120" width="230" height="34" rx="9" fill="#3e6b55"/>
+  <text x="371" y="144" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">委任状を省略できる</text>
+  <g>
+    <rect x="290" y="164" width="120" height="56" rx="5" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <g stroke="#c3d6c8" stroke-width="4">
+      <path d="M304 180 L396 180"/><path d="M304 194 L376 194"/>
+    </g>
+    <path d="M308 208 L320 218 L344 200" stroke="#3e6b55" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="446" y="172" width="250" height="40" rx="9" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="571" y="198" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">戸籍謄本・抄本（直系）</text>
+  </g>
+
+  <!-- 下の道：委任状が要る -->
+  <rect x="256" y="470" width="196" height="34" rx="9" fill="#1f3e52"/>
+  <text x="354" y="494" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">委任状が要る</text>
+  <g>
+    <rect x="290" y="392" width="120" height="62" rx="5" fill="#ffffff" stroke="#a49c8d" stroke-width="3"/>
+    <g stroke="#cfc7b6" stroke-width="4">
+      <path d="M304 410 L396 410"/><path d="M304 424 L376 424"/>
+    </g>
+    <path d="M330 448 L378 430" stroke="#3b3630" stroke-width="8" stroke-linecap="round"/>
+    <path d="M378 430 L392 424 L396 434 L382 440 Z" fill="#c0563c"/>
+    <rect x="446" y="356" width="262" height="36" rx="9" fill="#ffffff" stroke="#a49c8d" stroke-width="3"/>
+    <text x="577" y="380" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">住民票の写し（別世帯）</text>
+    <rect x="446" y="398" width="262" height="36" rx="9" fill="#ffffff" stroke="#a49c8d" stroke-width="3"/>
+    <text x="577" y="422" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">評価証明・所得課税（町外）</text>
+    <rect x="446" y="440" width="262" height="36" rx="9" fill="#ffffff" stroke="#a49c8d" stroke-width="3"/>
+    <text x="577" y="464" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">印鑑登録の代理申請</text>
+  </g>
+
+  <!-- 合流先：窓口へ持っていく鞄 -->
+  <g>
+    <!-- 鞄からのぞくもの -->
+    <path d="M824 216 L876 210 L882 274 L830 280 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <g stroke="#a9bfcb" stroke-width="3">
+      <path d="M836 232 L868 228"/><path d="M837 244 L862 241"/>
+    </g>
+    <path d="M888 226 L940 220 L944 258 L892 264 Z" fill="#eef3f7" stroke="#b6c2ca" stroke-width="3"/>
+    <circle cx="904" cy="238" r="7" fill="#c8cfd4"/>
+    <g stroke="#c8cfd4" stroke-width="3"><path d="M918 234 L936 232"/><path d="M919 244 L932 242"/></g>
+    <!-- 鞄本体 -->
+    <path d="M886 232 q0 -26 26 -26 q26 0 26 26" fill="none" stroke="#6b5443" stroke-width="8"/>
+    <rect x="812" y="268" width="164" height="120" rx="12" fill="#8a6f5a" stroke="#6b5443" stroke-width="4"/>
+    <rect x="812" y="304" width="164" height="16" fill="#6b5443"/>
+    <rect x="880" y="296" width="28" height="32" rx="5" fill="#d8b25e" stroke="#a8842f" stroke-width="3"/>
+    <!-- 現金と封筒 -->
+    <circle cx="846" cy="352" r="14" fill="#d8b25e" stroke="#a8842f" stroke-width="3"/>
+    <circle cx="874" cy="360" r="11" fill="#c9c2b0" stroke="#9a9384" stroke-width="3"/>
+    <path d="M900 340 L956 336 L958 370 L902 374 Z" fill="#f6f1e2" stroke="#cabf9f" stroke-width="3"/>
+    <path d="M900 340 L930 356 L956 336" fill="none" stroke="#cabf9f" stroke-width="3"/>
+    <rect x="800" y="406" width="188" height="32" rx="9" fill="#1f3e52"/>
+    <text x="894" y="428" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">窓口へ持っていくもの</text>
+  </g>
+</svg>
