@@ -731,7 +731,79 @@ def scene_quiet_sunday(d):
     band(d, ["何もない日曜日を、", "家族で一日過ごす"], "森町ライフハック／移住・暮らし・データ")
 
 
+def scene_obon_window(d):
+    # 夕暮れの空
+    for y in range(0, 250):
+        t = y / 250
+        d.line([(0, y), (S, y)], fill=(int(95 + 148 * t), int(126 + 76 * t), int(166 - 6 * t)))
+    d.rectangle([0, 250, S, BAND_TOP], fill=(226, 236, 216))
+    d.ellipse([608, 148, 692, 232], fill=(255, 209, 140))
+    mountains(d, 250)
+    cedars(d, [12, 50, 700, 742], 250)
+    # 段になった茶畑
+    d.polygon([(0, 244), (760, 236), (760, 288), (0, 298)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 252 + i * 14), (760, 244 + i * 14)], fill=(105, 147, 74), width=3)
+    d.polygon([(0, 292), (760, 282), (760, BAND_TOP), (0, BAND_TOP)], fill=(219, 231, 195))
+    # 役場の庁舎
+    d.polygon([(28, 320), (210, 254), (392, 320)], fill=(139, 154, 162))
+    d.polygon([(48, 314), (210, 268), (372, 314)], fill=(162, 176, 182))
+    d.rectangle([50, 320, 390, 430], fill=(238, 241, 236), outline=(195, 200, 193), width=3)
+    d.rounded_rectangle([76, 330, 364, 362], radius=6, fill=(31, 62, 82))
+    d.text((220, 346), "森町役場", font=ImageFont.truetype(FONT_BOLD, 24),
+           fill=(255, 255, 255), anchor="mm")
+    for x in (68, 140, 212):
+        d.rectangle([x, 376, x + 58, 416], fill=(255, 233, 168), outline=(201, 171, 106), width=3)
+    d.rectangle([288, 376, 336, 430], fill=(207, 224, 234), outline=(169, 191, 203), width=3)
+    d.rectangle([344, 384, 384, 430], fill=(185, 143, 93), outline=(148, 112, 63), width=3)
+    # コンビニとマルチコピー機
+    d.rectangle([430, 344, 730, 430], fill=(244, 242, 232), outline=(201, 192, 171), width=3)
+    d.rectangle([430, 344, 730, 370], fill=(47, 125, 90))
+    d.text((580, 357), "コンビニ", font=ImageFont.truetype(FONT_BOLD, 18),
+           fill=(255, 255, 255), anchor="mm")
+    d.rectangle([446, 380, 570, 424], fill=(207, 224, 234), outline=(169, 191, 203), width=3)
+    d.rectangle([600, 376, 700, 428], fill=(232, 235, 232), outline=(152, 162, 166), width=3)
+    d.rectangle([610, 384, 690, 400], fill=(255, 233, 168), outline=(201, 171, 106), width=2)
+    d.rectangle([622, 408, 678, 424], fill=(195, 200, 193))
+    # 七枚の日めくり札
+    d.line([(16, 436), (744, 432)], fill=(139, 133, 119), width=3)
+    labels = ("月", "火", "水", "木", "金", "土", "日")
+    subs = ("17:15", "閉庁", "19時まで", "17:15", "17:15", "閉庁", "閉庁")
+    closed = (1, 5, 6)
+    f_day = ImageFont.truetype(FONT_BOLD, 30)
+    f_sub = ImageFont.truetype(FONT_REGULAR, 15)
+    f_sub_b = ImageFont.truetype(FONT_BOLD, 15)
+    for i, name in enumerate(labels):
+        x = 22 + 106 * i
+        d.line([(x + 47, 434), (x + 47, 446)], fill=(139, 133, 119), width=2)
+        if i == 2:
+            d.rounded_rectangle([x, 444, x + 94, 548], radius=8,
+                                fill=(31, 62, 82), outline=(18, 41, 58), width=3)
+            d.text((x + 47, 484), name, font=f_day, fill=(255, 255, 255), anchor="mm")
+            d.text((x + 47, 524), subs[i], font=f_sub_b, fill=(255, 217, 138), anchor="mm")
+            continue
+        if i in closed:
+            fill, line, day_c, sub_c = (221, 216, 205), (164, 156, 141), (107, 95, 82), (122, 59, 48)
+        else:
+            fill, line, day_c, sub_c = (244, 246, 238), (154, 167, 155), (31, 62, 82), (62, 107, 85)
+        d.rounded_rectangle([x, 444, x + 94, 516], radius=8, fill=fill, outline=line, width=3)
+        d.text((x + 47, 476), name, font=f_day, fill=day_c, anchor="mm")
+        d.text((x + 47, 502), subs[i], font=f_sub, fill=sub_c, anchor="mm")
+    # 手前の道と、庁舎へ向かう人・コンビニへ向かう親子
+    d.polygon([(0, 552), (760, 542), (760, BAND_TOP), (0, BAND_TOP)], fill=(205, 197, 176))
+    d.ellipse([97, 533, 123, 559], fill=(230, 196, 157), outline=(189, 154, 114), width=3)
+    d.chord([97, 527, 123, 553], 180, 360, fill=(70, 61, 51))
+    d.polygon([(95, 562), (125, 562), (131, BAND_TOP), (89, BAND_TOP)], fill=(55, 83, 107))
+    d.ellipse([628, 536, 652, 560], fill=(230, 196, 157), outline=(189, 154, 114), width=3)
+    d.chord([628, 530, 652, 554], 180, 360, fill=(91, 74, 54))
+    d.polygon([(626, 563), (654, 563), (660, BAND_TOP), (620, BAND_TOP)], fill=(92, 139, 109))
+    d.ellipse([668, 548, 688, 568], fill=(240, 211, 173), outline=(196, 160, 119), width=3)
+    d.polygon([(667, 570), (689, 570), (693, BAND_TOP), (663, BAND_TOP)], fill=(220, 154, 99))
+    band(d, ["19時まで開くのは水曜だけ", "お盆週の窓口の使い方"], "森町ライフハック／手続き・制度")
+
+
 SCENES = {
+    "20260810-obon-week-town-hall-hours": scene_obon_window,
     "20260806-electric-fence-subsidy": scene_electric_fence,
     "20260809-tencomori-three-conditions": scene_tencomori,
     "20260809-akiya-august-afternoon-viewing": scene_akiya_august,
