@@ -1,0 +1,110 @@
+# 森町ライフハック robots.txt
+#
+# 方針: 「検索と引用には出したい。モデルの学習には使わせない。」
+#   02戦略編のKPI「主要AIに質問した際に自社が言及される状態」を満たすため、
+#   AI検索・ユーザー起点のクローラーは明示的に許可する。
+#   一方、モデル学習用のクローラーは拒否する。
+#
+# 注意: robots.txt は user-agent ごとに「最も限定的な1グループだけ」が適用され、
+#   自分専用のグループがあると User-agent: * のルールは無視される。
+#   そのため個別グループにも Disallow: /admin/ を書く必要がある。
+#   (以前は Googlebot / Bingbot に書き忘れており、両者だけ /admin/ を
+#    クロールできる状態になっていた。2026-08-04に修正)
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+# --- 通常の検索エンジン ---------------------------------------------------
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+
+# --- AI検索・ユーザー起点のアクセスは許可 ---------------------------------
+# 学習用クローラーとは別物。ここを拒否すると生成AIの回答に引用されなくなる。
+# 出典: OpenAI developers.openai.com/api/docs/bots
+#       Anthropic support.claude.com (ClaudeBotは学習用、検索はClaude-SearchBot)
+
+# ChatGPTの検索インデックス
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /admin/
+
+# ChatGPTがユーザーの質問に答えるためにページを見に来る場合
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /admin/
+
+# Claudeの検索インデックス
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /admin/
+
+# Claudeがユーザーの質問に答えるためにページを見に来る場合
+User-agent: Claude-User
+Allow: /
+Disallow: /admin/
+
+# Perplexityの検索インデックス
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin/
+
+# --- モデル学習用クローラーは拒否 -----------------------------------------
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+# 現在Anthropicの公式ドキュメントには記載が無い旧トークン。念のため残す。
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+# --- 要判断: Google-Extended ----------------------------------------------
+# Google-Extended は「Geminiの学習」と「Geminiのグラウンディング(回答時の参照)」を
+# まとめて制御するトークンで、両者を分けられない。
+#   拒否したまま  -> 学習に使われない代わりに、Geminiの回答で引用されない
+#   許可に変える  -> Geminiに引用され得るが、学習にも使われる
+# Google検索の順位・インデックスには**どちらでも影響しない**
+# (出典: developers.google.com/search/docs/crawling-indexing/google-common-crawlers)
+# 現状は「学習に使わせない」を優先して拒否のまま。方針変更時はここを消すこと。
+User-agent: Google-Extended
+Disallow: /
+
+# --- SNSのリンクプレビュー用は上の * で許可済み ---------------------------
+# facebookexternalhit / Twitterbot / LinkedInBot / Slackbot は
+# 個別グループを作っていないため * が適用され、OGPカードは正常に表示される。
+
+Sitemap: https://morimachi.enshu-lifehack.com/sitemap.xml
+
+# AI検索クローラー向けのサイト概要（llmstxt.org 形式）
+# https://morimachi.enshu-lifehack.com/llms.txt

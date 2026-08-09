@@ -129,6 +129,7 @@ def main():
     aux = json.loads((ROOT / 'data/aux-pages.json').read_text(encoding='utf-8'))
     blog = json.loads((ROOT / 'data/blog-posts.json').read_text(encoding='utf-8'))['posts']
     questions = json.loads((ROOT / 'data/questions.json').read_text(encoding='utf-8'))
+    expansion = json.loads((ROOT / 'data/search-expansion-pages.json').read_text(encoding='utf-8'))
 
     # 寺社DBはページ数が多く台帳を二重管理したくないので、実ディレクトリを走査する
     section_urls = []
@@ -151,6 +152,7 @@ def main():
                   + sorted(t['href'] for t in published)
                   + [a['href'] for a in aux]
                   + [q['href'] for q in questions]
+                  + [p['href'] for p in expansion]
                   + [f"/blog/{p['slug']}/" for p in sorted(blog, key=lambda x: x['date'], reverse=True)]
                   + section_urls)
 
@@ -176,6 +178,7 @@ def main():
                        if t.get('content_updated')}
     blog_dates = {f"/blog/{p['slug']}/": p['date'] for p in blog if p.get('date')}
     question_dates = {q['href']: q['verified_date'] for q in questions if q.get('verified_date')}
+    expansion_dates = {p['href']: '2026-08-09' for p in expansion}
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -188,6 +191,7 @@ def main():
             iso_date_or_none(verified.get(u)),
             iso_date_or_none(blog_dates.get(u)),
             iso_date_or_none(question_dates.get(u)),
+            iso_date_or_none(expansion_dates.get(u)),
             today if rel in dirty else None,
         ) if d]
         lastmod = max(candidates) if candidates else None  # YYYY-MM-DD は辞書順=時系列順

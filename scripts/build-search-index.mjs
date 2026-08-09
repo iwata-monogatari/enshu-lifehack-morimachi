@@ -76,6 +76,7 @@ function main() {
   // /tools/ と /checklist/ は固有の出典を持たない集約ページなので topics_master とは別台帳で管理する。
   const auxPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/aux-pages.json'), 'utf8'));
   const questionPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/questions.json'), 'utf8'));
+  const expansionPages = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/search-expansion-pages.json'), 'utf8'));
 
   let mergedSkipped = 0;
   const baseIndex = [...topicsMaster, ...auxPages]
@@ -128,7 +129,28 @@ function main() {
       lead: extractLead(html, question.href),
     };
   }).filter(Boolean);
-  const searchIndex = [...baseIndex, ...questionIndex];
+  const expansionIndex = expansionPages.map((page) => {
+    const html = readPage(page.href);
+    if (html === null) return null;
+    return {
+      href: page.href,
+      icon: '🧭',
+      title: page.title,
+      category: '検索意図別ガイド',
+      hub: page.href.includes('/living-soon/') ? 'procedures' :
+        page.href.includes('/housing/') ? 'property' : 'trouble',
+      kind: page.href.includes('/living-soon/') ? '地域情報' : '公式手続き',
+      summary: page.conclusion.slice(0, 90),
+      keyword: page.title.split('｜')[0],
+      aliases: [page.audience, ...page.faq.map((row) => row.q)],
+      needs: page.steps,
+      department: [page.window],
+      audience: [page.audience],
+      verified: extractVerified(html),
+      lead: extractLead(html, page.href),
+    };
+  }).filter(Boolean);
+  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex];
 
   const outPath = path.join(ROOT, 'search-index.json');
   const json = JSON.stringify(searchIndex);

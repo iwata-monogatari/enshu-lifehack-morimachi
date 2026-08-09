@@ -1,0 +1,18 @@
+{
+  "captured_at_jst": "2026-08-09T09:49:09+09:00",
+  "git_commit": "3afd137a24ccebb2cc30898e625d0fc794d4939e",
+  "sitemap_url": "https://morimachi.enshu-lifehack.com/sitemap.xml",
+  "sitemap_status": 200,
+  "robots_url": "https://morimachi.enshu-lifehack.com/robots.txt",
+  "robots_status": 200,
+  "robots_error": "",
+  "sitemap_url_count": 402,
+  "fetched_url_count": 402,
+  "http_200_count": 402,
+  "non_200_count": 0,
+  "indexable_count": 402,
+  "life_page_count": 129,
+  "orphan_life_page_count": 0,
+  "life_pages_under_3_incoming": 0,
+  "life_pages_under_3_outgoing": 0
+}

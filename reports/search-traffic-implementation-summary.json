@@ -1,0 +1,39 @@
+{
+  "baseline": {
+    "captured_at_jst": "2026-08-09T09:49:09+09:00",
+    "git_commit": "3afd137a24ccebb2cc30898e625d0fc794d4939e",
+    "public_urls": 402,
+    "http_200": 402,
+    "indexable_urls": 402,
+    "life_pages": 129,
+    "orphan_life_pages": 0
+  },
+  "implementation": {
+    "candidate_queries": 200,
+    "final_target_urls": 82,
+    "actions": {
+      "CREATE": 14,
+      "UPDATE": 26,
+      "MERGE": 127,
+      "KEEP": 33
+    },
+    "priorities": {
+      "P0": 80,
+      "P1": 100,
+      "P2": 20
+    },
+    "high_confidence_decisions": 200
+  },
+  "post_build": {
+    "public_urls": 416,
+    "life_pages": 143,
+    "sitemap_urls": 416,
+    "broken_internal_links": 0,
+    "duplicate_titles": 0,
+    "duplicate_descriptions": 0,
+    "search_tests": "30/30 passed",
+    "search_intent_audit": "passed",
+    "desktop_visual_qa": "passed at 1440x1000",
+    "mobile_visual_qa": "passed at 390x844"
+  }
+}

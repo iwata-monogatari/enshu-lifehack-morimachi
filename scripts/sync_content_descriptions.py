@@ -11,7 +11,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "data" / "content"
-MAX_LENGTH = 132
+EXPANSION_DATA = ROOT / "data" / "search-expansion-pages.json"
+DECISION_DATA = ROOT / "data" / "search-intent-200-decisions.json"
+MIN_LENGTH = 90
+MAX_LENGTH = 130
 
 
 def plain_text(value: str) -> str:
@@ -25,16 +28,24 @@ def shorten(value: str) -> str:
     return value[: MAX_LENGTH - 1].rstrip("、。 ") + "。"
 
 
+def fit_standard(value: str) -> str:
+    """作業指示書の90〜130字へ収める。本文の説明を補う場合だけ定型を足す。"""
+    value = value.rstrip("。 ") + "。"
+    if len(value) < MIN_LENGTH:
+        value += "対象、手順、必要書類、費用、期限、森町の窓口と注意点を、公式情報へのリンクとともに案内します。"
+    return shorten(value)
+
+
 def description_for(item: dict) -> str:
     explicit = plain_text(item.get("seo_description", ""))
     if explicit:
-        return shorten(explicit)
+        return fit_standard(explicit)
     lead = plain_text(item.get("lead", ""))
     if not lead:
         return ""
     if "森町" not in lead[:30]:
         lead = "静岡県森町で、" + lead
-    return shorten(lead)
+    return fit_standard(lead)
 
 
 def main() -> int:
@@ -46,6 +57,31 @@ def main() -> int:
         for item in json.loads(source.read_text(encoding="utf-8")):
             if item.get("href"):
                 content[item["href"]] = item
+
+    if EXPANSION_DATA.exists():
+        for item in json.loads(EXPANSION_DATA.read_text(encoding="utf-8")):
+            if item.get("href"):
+                content[item["href"]] = {
+                    "href": item["href"],
+                    "seo_description": item.get("description", ""),
+                    "lead": item.get("conclusion", ""),
+                }
+
+    # The decision ledger is the final authority for pages in this project.  Some
+    # older generators do not have a data/content entry, so retain their written
+    # description and only bring its length into the agreed range.
+    if DECISION_DATA.exists():
+        for decision in json.loads(DECISION_DATA.read_text(encoding="utf-8")):
+            href = decision.get("final_url", "")
+            if not href.startswith("/life/") or href in content:
+                continue
+            path = ROOT / href.strip("/") / "index.html"
+            if not path.exists():
+                continue
+            current = path.read_text(encoding="utf-8")
+            match = re.search(r'<meta name="description" content="(.*?)">', current, re.S)
+            if match:
+                content[href] = {"href": href, "seo_description": plain_text(match.group(1))}
 
     found = changed = skipped = 0
     for href, item in content.items():
