@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "page_count": 300,
+  "batch_size": 25,
+  "batch_count": 12,
+  "failed_pages": 0,
+  "min_chars": 6057,
+  "max_chars": 7855,
+  "min_paragraphs": 35,
+  "failed": []
+}

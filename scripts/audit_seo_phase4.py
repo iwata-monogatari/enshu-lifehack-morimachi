@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """第4期300ページの公開ゲート。"""
-import argparse, json, re, xml.etree.ElementTree as ET
+import argparse, json, re, subprocess, sys, xml.etree.ElementTree as ET
 from collections import Counter
 from html import unescape
 from pathlib import Path
@@ -54,6 +54,12 @@ def main():
         set_release_state(load_rows(), False)
         print('第4期公開状態を解除しました')
         return
+    readability=subprocess.run(
+        [sys.executable, str(ROOT/'scripts/audit_phase4_readability.py')],
+        cwd=ROOT, capture_output=True, text=True, encoding='utf-8', errors='replace'
+    )
+    if readability.returncode != 0:
+        raise SystemExit(readability.stdout + readability.stderr)
     enriched=enrichment_rows()
     topics={int(r['id']):r for r in json.loads((ROOT/'data/seo-phase4-topics.json').read_text(encoding='utf-8'))}
     from build_seo_phase4 import canonical_url
@@ -70,7 +76,7 @@ def main():
         source_urls=[s.get('url','') for s in row.get('sources',[])]
         fact_urls=[f.get('source_url','') for f in row.get('verified_facts',[]) if isinstance(f,dict)]
         checks={
-            '6000文字':n>=6000, 'H1一つ':h.count('<h1')==1, 'H2十個以上':h.count('<h2')>=10,
+            '6000〜8000文字':6000<=n<=8000, 'H1一つ':h.count('<h1')==1, 'H2十個以上':h.count('<h2')>=10,
             '画像三点':h.count('<img ')>=3, '画像レスポンシブ':h.count('style="width:100%;height:auto"')>=3,
             'canonical一つ':h.count('rel="canonical"')==1, 'description一つ':h.count('name="description"')==1,
             'OGP':all(h.count(x)==1 for x in ['property="og:title"','property="og:description"','property="og:url"','property="og:image"']),
@@ -84,6 +90,8 @@ def main():
             '台帳とHTMLの対応':p.get('url')==expected_urls.get(int(p['id'])) and p.get('title')==row.get('title') and p.get('category')==row.get('category') and p.get('editorial_chars')==n,
             '公開状態とnoindexの整合':h.count('data-phase4-pending')==(0 if p.get('publish_ready') is True else 1),
             '大石の視点':'大石の視点' in h, '禁止語なし':('政'+'策') not in h,
+            '編集語なし':not any(term in h for term in ('焦点「','断定防止','第1論点','第2論点','第3論点','テンプレート','カニバリ')),
+            '句読点正常':'。。' not in h and '？？' not in h,
         }
         bad=[k for k,v in checks.items() if not v]
         if bad: failures.append(f"{p['url']} {n}字: {','.join(bad)}")

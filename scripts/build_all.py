@@ -38,6 +38,8 @@ STEPS: list[tuple[str, list[str]]] = [
     ("2026-08-09版200検索意図の全期中核ページを反映", [sys.executable, "scripts/build_seo_full_expansion.py"]),
     ("200ページ改修計画の第3期を反映", [sys.executable, "scripts/build_seo_phase3.py"]),
     ("第4期300検索意図を反映", [sys.executable, "scripts/build_seo_phase4.py"]),
+    ("第4期12テーマの判断ハブを生成", [sys.executable, "scripts/build_phase4_hubs.py"]),
+    ("公開ページ件数を再集計してトップページへ反映", [sys.executable, "scripts/build_home.py"]),
     ("共通部品の反映（ヘッダー・フッター）", [sys.executable, "scripts/inject_parts.py"]),
     ("既存ガイドから質問ページへの入口を追加", [sys.executable, "scripts/inject_question_links.py"]),
     ("重要11ガイドへ関連質問を集約", [sys.executable, "scripts/inject_priority_question_clusters.py"]),
@@ -79,6 +81,7 @@ CHECK = ("公開前検査", [sys.executable, "scripts/preflight_check.py"])
 RELEASE_STEPS = [
     ("第4期300ページを公開状態へ切替", [sys.executable, "scripts/audit_seo_phase4.py", "--release"]),
     ("公開状態の sitemap.xml を再生成", [sys.executable, "scripts/build_sitemap.py"]),
+    ("トップページの公開件数をsitemapへ同期", [sys.executable, "scripts/sync_home_page_count.py"]),
 ]
 WITHDRAW = ("第4期の公開状態を解除", [sys.executable, "scripts/audit_seo_phase4.py", "--withdraw"])
 

@@ -151,6 +151,14 @@ def main():
         raise RuntimeError(f'第4期公開台帳の監査状態が不完全です: {partially_released[:5]}')
     phase4_urls = {p['url'] for p in phase4_all}
     released_phase4_urls = {p['url'] for p in phase4}
+    phase4_hub_urls = []
+    for path in ROOT.glob('*/index.html'):
+        try:
+            html = path.read_text(encoding='utf-8')
+        except OSError:
+            continue
+        if 'SEO-PHASE4-HUB' in html:
+            phase4_hub_urls.append('/' + path.parent.name + '/')
 
     # 寺社DBはページ数が多く台帳を二重管理したくないので、実ディレクトリを走査する
     section_urls = []
@@ -181,6 +189,7 @@ def main():
                   + [p['url'] for p in full]
                   + [p['url'] for p in phase3]
                   + [p['url'] for p in phase4]
+                  + phase4_hub_urls
                   + [f"/blog/{p['slug']}/" for p in sorted(blog, key=lambda x: x['date'], reverse=True)]
                   + section_urls)
 

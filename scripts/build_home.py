@@ -151,8 +151,9 @@ def freshness_section(stats: dict) -> str:
     return (
         '<section class="freshness" aria-labelledby="fresh-title">'
         '<h2 id="fresh-title">情報の確認状況</h2>'
-        f'<p>暮らしのページは {stats["pages"]} 件です。'
-        f'このうち {stats["verified"]} 件は、窓口名・電話番号・受付時間・費用・期限・必要書類・'
+        f'<p>サイト全体の公開ページは {stats["total_pages"]} 件です。'
+        f'このうち、制度や手続きの確認状況を個別台帳で管理する暮らしページは {stats["pages"]} 件で、'
+        f'{stats["verified"]} 件は、窓口名・電話番号・受付時間・費用・期限・必要書類・'
         f'公式リンクを確認したうえで最終確認日を表示しています'
         f'（{stats["oldest"]}〜{stats["latest"]}）。</p>'
         + (f"<ul>{extra}</ul>" if extra else "")
@@ -211,7 +212,13 @@ def stats() -> dict:
     partial = [r for r in ledger if r["review_status"] == "partial"]
     needs = [r for r in ledger if r["review_status"] == "needs_review"]
     dates = sorted(r["last_verified_at"] for r in verified if r["last_verified_at"])
+    excluded = {".git", "_cache", "data", "docs", "reports", "scripts", "work"}
+    public_indexes = [
+        path for path in ROOT.rglob("index.html")
+        if path.relative_to(ROOT).parts and path.relative_to(ROOT).parts[0] not in excluded
+    ]
     return {
+        "total_pages": len(public_indexes),
         "pages": len(ledger),
         "verified": len(verified),
         "partial": len(partial),

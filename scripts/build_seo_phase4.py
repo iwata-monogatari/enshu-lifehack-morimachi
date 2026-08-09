@@ -22,6 +22,10 @@ ROBOTS_PENDING = '<meta name="robots" content="noindex,nofollow" data-phase4-pen
 CATEGORY_PATH = {
     "行政手続き": "/life/start-living/", "子育て": "/life/family-grow/", "教育": "/life/education/",
     "健康": "/life/health-medical/", "防災": "/life/emergency/", "交通生活": "/life/play-out/",
+    "住宅": "/hub/property/", "空き家": "/vacant-house/", "相続": "/inheritance/", "土地": "/land/",
+    "農地": "/farmland/", "山林": "/forest/", "事業": "/life/work-life/", "仕事": "/life/work-life/",
+    "文化財": "/hub/enjoy/", "神社": "/shrine/", "寺院": "/temple/", "祭り": "/hub/enjoy/",
+    "歴史": "/hub/enjoy/", "観光": "/hub/enjoy/", "食": "/hub/enjoy/", "農業": "/farmland/",
 }
 
 CATEGORY_CONTEXT = {
@@ -99,6 +103,19 @@ def load_rows() -> list[dict]:
 
 def category_context(category: str) -> tuple[str, str, str]:
     return CATEGORY_CONTEXT.get(category, ("対象・時点・担当者・根拠を分ける", "森町と所管機関の一次情報", "対象地、目的、時期、確認資料"))
+
+def topic_details(row: dict) -> list[str]:
+    """タイトル・検索意図・構成案から、その記事だけの確認項目を取り出す。"""
+    title_parts = [part.strip() for part in str(row["title"]).split("｜") if part.strip()]
+    intent_parts = [part.strip() for part in re.split(r"[、，。]|または|そのうえで", str(row["search_intent"])) if len(part.strip()) >= 5]
+    blueprint = row.get("required_sections") or row.get("content_blueprint") or []
+    candidates = title_parts + intent_parts + list(blueprint) + list(row.get("section_headings", []))
+    unique = []
+    for value in candidates:
+        value = re.sub(r"^森町で", "", str(value)).strip(" 「」。")
+        if 5 <= len(value) <= 80 and value not in unique:
+            unique.append(value)
+    return unique or [str(row["title"]).split("｜", 1)[0]]
 
 def paragraph_set(row: dict, section: int) -> list[str]:
     title, intent, category = row["title"], row["search_intent"], row["category"]
@@ -206,35 +223,82 @@ def specific_blocks(row: dict) -> str:
     headings = list(row["section_headings"])
     facts = row["verified_facts"]
     conditions = row["morimachi_conditions"]
-    focus = re.sub(r"^(で|の|を|が|に)+", "", row["title"].split("｜", 1)[0].replace("森町", "").strip())
-    boundary = row.get("editorial_boundary") or row.get("cannibalization", {}).get("editorial_boundary") or row.get("reason", "")
-    guardrail = row.get("legal_tax_guardrail") or row.get("guardrail") or "個別の可否を断定せず、一次情報と当事者確認へつなぎます。"
+    title = row["title"]
+    intent = row["search_intent"]
+    article_key = re.sub(r"^森町(?:で|の)?", "", title.split("｜", 1)[0]).strip()
+    method, authorities, memo = category_context(row["category"])
+    details = topic_details(row)
+
+    def clean_fact(value: object) -> str:
+        """台帳の編集メモを、読者が理解できる事実文へ整える。"""
+        text = str(value).strip().replace("。。", "。").replace("。です。", "です。")
+        text = re.sub(r"^「(.+?)」は「.+?」の判断を分ける確認項目である。", r"\1は、確認結果を左右する項目です。", text)
+        text = re.sub(r"森町公式の担当情報を根拠に、", "森町公式の案内を基に、", text)
+        text = re.sub(r"対象地番・対象者・資料基準日を一致させて確認する。", "対象地、対象者、資料の日付をそろえて確認します。", text)
+        return text
+
+    # FAQは検索者の問いそのものなので、本文冒頭で短く先に答える。
+    direct = ['<section class="direct-answer"><h2 class="sec">先に答えを確認する</h2>']
+    for item in row["faqs"][:4]:
+        question = str(item["question"]).rstrip("？?")
+        answer = str(item["answer"]).replace("。。", "。").strip()
+        direct.append(f'<p><strong>{e(question)}。</strong>{e(answer)}</p>')
+    direct.append("</section>")
+
     blocks = []
-    for number, heading in enumerate(headings[:10], 1):
+    for number, heading in enumerate(headings[:12], 1):
         fact = facts[(number - 1) % len(facts)]
-        fact_text = fact.get("statement") if isinstance(fact, dict) else str(fact)
-        source_url = fact.get("source_url", "") if isinstance(fact, dict) else ""
+        fact_text = clean_fact(fact.get("statement") if isinstance(fact, dict) else fact)
         condition = conditions[(number - 1) % len(conditions)]
-        variants = [
-            f"「{heading}」で根拠にする確認事項は、{fact_text}です。この記載が今回の対象と一致するか、対象者、対象日、場所、例外を資料本文で照合します。確認元は {source_url} として記録し、検索結果の要約だけで判断しません。",
-            f"森町で特に分けて考える条件は「{condition}」です。{row['search_intent']}という目的に照らし、住所、利用者、実行時期のどれが違えば結論が変わるかを確認表へ書きます。町全体の一般論を個別地点の答えへ置き換えません。",
-            f"{row['title']}について家族や担当窓口へ尋ねるときは、「{heading}」「{fact_text}」「未確認の個別条件」の三点を一組で伝えます。返答は可否だけでなく、根拠資料名、担当部署、再確認が必要な時点まで残します。",
-            f"実行前の記録には、第{number}の論点「{heading}」、確認日、対象年度、担当者へ伝えた前提を書きます。{boundary}。このページで断定できない事項は推測で補わず、確認待ちとして次の担当と期限を決めます。",
-            f"この論点を後回しにすると、必要資料、移動、家族の役割、費用のいずれかで手戻りが起こります。まず「{condition}」を確かめ、次に「{fact_text}」が自分のケースへ適用されるかを所管情報と窓口で照合してください。",
-        ]
-        variants = [f"焦点「{focus}」の論点「{heading}」として、{text}" for text in variants]
-        shift = (int(row["id"]) * 3 + number) % len(variants)
-        variants = variants[shift:] + variants[:shift]
-        variants = variants[:2]
-        blocks.append(f'''<section class="topic-specific"><h2 class="sec">{e(heading)}</h2>{''.join(f'<p>{e(p)}</p>' for p in variants)}<p><strong>{e(focus)}・第{number}論点の断定防止：</strong>{e(guardrail)}。「{e(fact_text)}」を確認できない場合は結論を保留し、一次情報の所管窓口または必要な専門家へ確認します。</p></section>''')
+        detail = details[(number - 1) % len(details)]
+        styles = number % 4
+        if styles == 0:
+            paragraphs = [
+                f"{heading}では、特に{detail}を確かめます。{fact_text}資料の対象と自分の住所、立場、予定日が一致するかを読み、当てはまらない条件は未確認のまま残します。",
+                f"{article_key}のうち{detail}について森町で実際に動く際は、{condition}条件が違えば必要な資料や相談先も変わります。町全体の説明を個別の答えへ置き換えないことが大切です。",
+                f"{heading}を尋ねる窓口へは、{detail}と{memo}を一枚にして持参します。質問は「できるか」だけで終わらせず、根拠資料、次の部署、再確認時期まで聞けば、家族へ正確に共有できます。",
+            ]
+        elif styles == 1:
+            paragraphs = [
+                f"{intent}なら、{detail}から確認します。結論を急ぐ前に、誰の、どの場所の、いつの話かを書き出すと、別の制度や別年度の案内を混ぜにくくなります。",
+                f"{article_key}に関して、{detail}の公式資料から読める要点は次のとおりです。{fact_text}ただし、ページの更新日と適用日、実施日、書類の有効期間は同じとは限りません。",
+                f"{heading}を整理する段階では、{detail}を起点に{method}順序で進めます。分からない項目を推測で埋めず、確認先と期限を決める方が手戻りを減らせます。",
+            ]
+        elif styles == 2:
+            paragraphs = [
+                f"{heading}は、{detail}の資料を集めるだけの作業ではありません。今決められることと、現地や窓口でなければ決められないことを分ける作業です。",
+                f"{article_key}で{detail}の判断材料になる公表事項は、{fact_text}検索結果の短い説明ではなく、本文の対象者、場所、日付、例外まで確認し、ページ名と確認日を記録します。",
+                f"{heading}について森町で注意する条件は、{condition}{detail}を家族へ伝えるときも、結論だけでなく未確認事項を添えてください。",
+            ]
+        else:
+            paragraphs = [
+                f"ここでは、{heading}のうち{detail}を扱います。{authorities}の役割を分け、同じ言葉でも担当範囲が同じかを確かめます。",
+                f"{article_key}における{detail}の確認の土台は、{fact_text}この内容が当てはまるとは限らないため、住所、対象者、実行日を添えて担当窓口へ照会します。",
+                f"{heading}の実行前メモには、{detail}を含め、確認済み、未確認、対象外の三欄を作ります。{condition}保留事項にも次の担当と再確認日を付けます。",
+            ]
+        blocks.append(
+            f'<section class="topic-specific"><h2 class="sec">{e(heading)}</h2>'
+            + ''.join(f'<p>{e(p.replace("。。", "。"))}</p>' for p in paragraphs)
+            + '</section>'
+        )
         if number == 4:
             blocks.append(f'<figure><img style="width:100%;height:auto" src="fig1.svg" width="1000" height="560" loading="lazy" alt="森町で{e(row["search_intent"])}ため、資料と現地条件を照合する場面"><figcaption>対象地点と一次資料を同じ確認表へ置きます。</figcaption></figure>')
         if number == 9:
             blocks.append(f'<figure><img style="width:100%;height:auto" src="fig2.svg" width="1000" height="560" loading="lazy" alt="{e(row["title"])}について、窓口確認から家族共有へ進む図"><figcaption>未確認事項、次の担当、再確認日を残します。</figcaption></figure>')
-    return "".join(blocks)
+    closing = [
+        '<section class="editorial-conclusion"><h2 class="sec">大石の視点と次の一歩</h2>',
+        f'<p>{e(title)}について、私は結論を急ぐより、分かっている事実と未確認事項を分けることを優先します。特に{e(details[0])}を先に確かめ、申請や契約を最初の行動にしない方が選択肢を守れます。</p>',
+        f'<p>{e(article_key)}では、森町内の地区による移動、道路、周辺施設、土地の使われ方の違いも確認します。現地を見ていない内容を体験談のように語らず、{e(memo)}を公式資料と照合してください。</p>',
+        f'<p>{e(article_key)}について今日できることは、{e(details[1 % len(details)])}に関係する一次情報を一件開き、自分に当てはまる条件へ印を付けることです。資料名、部署名、確認日、残った疑問を記録します。</p>',
+        f'<p>{e(article_key)}のうち{e(details[2 % len(details)])}が対象外なら、その理由も記録します。対象外と未確認を分けておけば、条件が変わったときに必要な箇所だけ確認し直せます。</p>',
+        '</section>',
+    ]
+    return "".join(direct + blocks + closing)
 
 def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     title, intent, category = row["title"], row["search_intent"], row["category"]
+    details = topic_details(row)
+    article_key = re.sub(r"^森町(?:で|の)?", "", title.split("｜", 1)[0]).strip()
     focus = re.sub(r"^(で|の|を|が|に)+", "", title.split("｜", 1)[0].replace("森町", "").strip())
     out_dir = ROOT / url.strip("/")
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -258,22 +322,45 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     faq = [(item["question"], item["answer"]) for item in row["faqs"][:5]]
     faq_html = "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in faq)
     faq_json = {"@context":"https://schema.org", "@type":"FAQPage", "mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
-    desc = f"静岡県{intent}人向けに、一次情報、現地確認、期限、費用、家族共有、大石の視点を順序立てて整理した実用ガイドです。"
+    subject = title.split("｜", 1)[0]
+    desc = f"{subject}について、対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     webpage = {"@context":"https://schema.org", "@type":"WebPage", "name":title, "url":SITE+url, "description":desc, "dateModified":TODAY, "author":{"@type":"Person","name":"大石博之"}}
     breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"静岡県森町ライフハック","item":SITE+"/"},{"@type":"ListItem","position":2,"name":category,"item":SITE+CATEGORY_PATH.get(category,"/guide/")},{"@type":"ListItem","position":3,"name":title,"item":SITE+url}]}
     sources = "".join(f'<a class="official-link" href="{e(src["url"])}" target="_blank" rel="noopener">{e(src.get("title") or "一次情報")} <span>{e(src.get("role") or "公式確認")}</span></a>' for src in row["sources"][:5])
-    related = "".join([f'<a class="official-link" href="{prev_url}">前の第4期ガイド</a>', f'<a class="official-link" href="{next_url}">次の第4期ガイド</a>', '<a class="official-link" href="/guide/morimachi-complete-guide/">森町総合ガイド</a>', '<a class="official-link" href="/life/living-soon/about-morimachi/">森町を知る</a>', '<a class="official-link" href="/questions/">森町のよくある質問</a>'])
+    category_hub = CATEGORY_PATH.get(category, "/guide/")
+    related = "".join([f'<a class="official-link" href="{category_hub}">{e(category)}の記事を状況から選ぶ</a>', f'<a class="official-link" href="{prev_url}">前の第4期ガイド</a>', f'<a class="official-link" href="{next_url}">次の第4期ガイド</a>', '<a class="official-link" href="/guide/morimachi-complete-guide/">森町総合ガイド</a>', '<a class="official-link" href="/life/living-soon/about-morimachi/">森町を知る</a>', '<a class="official-link" href="/questions/">森町のよくある質問</a>'])
     related += f'<script type="application/ld+json">{json.dumps(breadcrumb, ensure_ascii=False, separators=(",", ":"))}</script>'
-    common = []
-    for heading, offset in (("このページの結論", 0), ("大石の視点", 2), ("まとめと次の一歩", 4)):
-        common.append(f'<section><h2 class="sec">{heading}</h2>')
-        for pos in range(4):
-            fact = row["verified_facts"][(offset + pos) % len(row["verified_facts"])]
-            fact_text = fact.get("statement") if isinstance(fact, dict) else str(fact)
-            condition = row["morimachi_conditions"][(offset + pos) % len(row["morimachi_conditions"])]
-            common.append(f'<p>焦点「{e(focus)}」の{heading}で私が重視する第{pos+1}の判断材料は「{e(fact_text)}」と「{e(condition)}」の照合です。まだ実行を決めていなくても、確認日、対象、根拠、未確認事項を一枚に残せば、家族や担当者が同じ前提から話せます。確認できない事項は結論に混ぜず、次の確認先と期限を記録してください。</p>')
-        common.append("</section>")
-    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | 森町ライフハック</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE}{url}"><meta property="og:type" content="website"><meta property="og:site_name" content="森町ライフハック"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}{url}cover.svg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260702"><script type="application/ld+json">{json.dumps(webpage, ensure_ascii=False, separators=(',', ':'))}</script><script type="application/ld+json">{json.dumps(faq_json, ensure_ascii=False, separators=(',', ':'))}</script></head><body><!-- SEO-PHASE4-PAGE --><!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">森町ライフハック</a></div></header><!-- PART:header:END --><!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">森町ライフハックは森町公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END --><main><div class="wrap"><p class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {e(category)} ／ {e(title)}</p><section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(title)}</h1></div><div class="hero-body"><p class="lead">{e(intent)}人が、事実と未確認事項を分けて次の一歩を決めるためのガイドです。</p><img style="width:100%;height:auto" src="cover.svg" width="1000" height="560" alt="{e(title)}の確認場面を森町の山並み、家、道、資料で描いた表紙"></div></section><article class="post-editorial-body">{specific_blocks(row)}{''.join(common)}</article><section><h2 class="sec">よくある質問</h2><div class="qa">{faq_html}</div></section><section><h2 class="sec">公式情報源</h2><p>リンク先の対象年度、担当部署、更新日を確認し、実行直前に再確認してください。</p><div class="official">{sources}</div></section><section><h2 class="sec">関連ページ</h2><div class="official">{related}</div></section><p class="verified">生成日：{TODAY} ／ 個別の可否は公式窓口・当事者・必要な専門家へ確認してください。</p></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
+    html = f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | 森町ライフハック</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE}{url}"><meta property="og:type" content="website"><meta property="og:site_name" content="森町ライフハック"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}{url}cover.svg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260702"><script type="application/ld+json">{json.dumps(webpage, ensure_ascii=False, separators=(',', ':'))}</script><script type="application/ld+json">{json.dumps(faq_json, ensure_ascii=False, separators=(',', ':'))}</script></head><body><!-- SEO-PHASE4-PAGE --><!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">森町ライフハック</a></div></header><!-- PART:header:END --><!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">森町ライフハックは森町公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END --><main><div class="wrap"><p class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {e(category)} ／ {e(title)}</p><section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(title)}</h1></div><div class="hero-body"><p class="lead">{e(intent)}人が、事実と未確認事項を分けて次の一歩を決めるためのガイドです。</p><img style="width:100%;height:auto" src="cover.svg" width="1000" height="560" alt="{e(title)}の確認場面を森町の山並み、家、道、資料で描いた表紙"></div></section><article class="post-editorial-body">{specific_blocks(row)}</article><section><h2 class="sec">よくある質問</h2><div class="qa">{faq_html}</div></section><section><h2 class="sec">公式情報源</h2><p>リンク先の対象年度、担当部署、更新日を確認し、実行直前に再確認してください。</p><div class="official">{sources}</div></section><section><h2 class="sec">関連ページ</h2><div class="official">{related}</div></section><p class="verified">生成日：{TODAY} ／ 個別の可否は公式窓口・当事者・必要な専門家へ確認してください。</p></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
+    # 固有データが長い記事は、末尾の補助論点から減らして上限を守る。
+    # 主要10論点、直接回答、大石の視点は必ず残す。
+    while editorial_chars(html) > 7800:
+        matches = list(re.finditer(r'<section class="topic-specific">.*?</section>', html, re.S))
+        if len(matches) <= 9:
+            break
+        target = matches[-1]
+        html = html[:target.start()] + html[target.end():]
+
+    supplements = [
+        f"{article_key}の確認表には、{details[0]}、公式ページ名、確認日、対象となる住所や人、予定日、問い合わせ先を書きます。目的が広がった場合は欄を分けます。",
+        f"{article_key}で{details[1 % len(details)]}の資料を家族へ渡す際は、まだ分からない点も示します。{row['category']}の情報は年度や個別条件で変わるため、確認日を付けます。",
+        f"{article_key}のうち{details[2 % len(details)]}の予定は、資料を集める日、窓口へ確認する日、現地を見る日、最終判断をする日に分けます。回答待ちの時間も含めます。",
+        f"{article_key}で{details[3 % len(details)]}に必要な費用は、申請や契約だけでなく、交通、郵送、証明書、立会い、管理、休業時間も別欄にします。",
+        f"{article_key}と{details[4 % len(details)]}の確認後は、本人、家族、所有者、利用者、町の担当部署、専門家の役割を残します。担当が替わっても記録を引き継げます。",
+        f"{article_key}で{details[5 % len(details)]}の現地を見る場合は、写真の撮影日と方向を残し、見えていない範囲を明記します。時期で変わる条件も確認します。",
+        f"{article_key}の{details[6 % len(details)]}について判断を見直す日を決めます。公式案内、家族構成、所有関係、実行予定日が変わったときは確認し直します。",
+        f"{article_key}の記録を閉じる前に、{details[7 % len(details)]}を誰が再確認するか決めます。回答が得られなかった項目は空欄にせず、未確認の理由と次の確認日を残します。",
+    ]
+    if editorial_chars(html) < 6000:
+        extra = ['<section class="practical-notes"><h2 class="sec">実行前の確認メモ</h2>']
+        for paragraph in supplements:
+            extra.append(f'<p>{e(paragraph)}</p>')
+            candidate = html.replace('</article>', ''.join(extra) + '</section></article>', 1)
+            if editorial_chars(candidate) >= 6100:
+                html = candidate
+                break
+        else:
+            html = html.replace('</article>', ''.join(extra) + '</section></article>', 1)
+    return html
 
 def inject_discovery(rows: list[dict]) -> None:
     guide = ROOT / "guide" / "morimachi-complete-guide" / "index.html"
@@ -324,8 +411,8 @@ def main() -> None:
         html = render(row, url, urls[index-1], urls[(index+1) % len(urls)])
         html = html.replace("<head>", f"<head>{ROBOTS_PENDING}", 1)
         chars = editorial_chars(html)
-        if chars < 6000:
-            raise RuntimeError(f"編集本文が6000文字未満: {url} {chars}")
+        if not 6000 <= chars <= 8000:
+            raise RuntimeError(f"編集本文が6000〜8000文字の範囲外: {url} {chars}")
         path.write_text(html, encoding="utf-8", newline="\n")
         publication.append({
             "id": row["id"],
