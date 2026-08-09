@@ -134,6 +134,8 @@ def main():
     phase1 = json.loads(phase1_path.read_text(encoding='utf-8')) if phase1_path.exists() else []
     full_path = ROOT / 'data/seo-full-publication.json'
     full = json.loads(full_path.read_text(encoding='utf-8')) if full_path.exists() else []
+    phase3_path = ROOT / 'data/seo-phase3-publication.json'
+    phase3 = json.loads(phase3_path.read_text(encoding='utf-8')) if phase3_path.exists() else []
 
     # 寺社DBはページ数が多く台帳を二重管理したくないので、実ディレクトリを走査する
     section_urls = []
@@ -159,6 +161,7 @@ def main():
                   + [p['href'] for p in expansion]
                   + [p['url'] for p in phase1]
                   + [p['url'] for p in full]
+                  + [p['url'] for p in phase3]
                   + [f"/blog/{p['slug']}/" for p in sorted(blog, key=lambda x: x['date'], reverse=True)]
                   + section_urls)
 

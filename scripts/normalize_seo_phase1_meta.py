@@ -50,6 +50,11 @@ def image_for(url: str, source: str) -> str:
 
 def main() -> None:
     manifest = json.loads((ROOT / "data" / "seo-phase1-publication.json").read_text(encoding="utf-8"))
+    phase3 = ROOT / "data" / "seo-phase3-publication.json"
+    if phase3.exists():
+        by_url = {row["url"]: row for row in manifest}
+        by_url.update({row["url"]: row for row in json.loads(phase3.read_text(encoding="utf-8"))})
+        manifest = list(by_url.values())
     changed = 0
     for row in manifest:
         url = row["url"]
