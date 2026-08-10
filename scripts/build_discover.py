@@ -13,6 +13,7 @@ import html
 import json
 import re
 from collections import Counter
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -33,7 +34,6 @@ LISTING_TABS = [
 TAB_BY_CATEGORY = {category: (key, label) for key, label, categories in LISTING_TABS for category in categories}
 
 PICKUP_SLUGS = [
-    "oguni-shrine-autumn-leaves",
     "morimachi-lunch-complete-guide",
     "acty-mori-complete-guide",
     "kotomachi-yokocho-complete-guide",
@@ -42,6 +42,21 @@ PICKUP_SLUGS = [
     "morimachi-disaster-map",
     "morimachi-moving-in-procedures",
 ]
+
+SEASONAL_PICKUP_BY_MONTH = {
+    1: "morimachi-events-calendar",
+    2: "morimachi-wagashi-guide",
+    3: "morimachi-cherry-blossoms",
+    4: "morimachi-cherry-blossoms",
+    5: "morimachi-flower-calendar",
+    6: "gokurakuji-hydrangeas",
+    7: "acty-mori-river-play-summer",
+    8: "acty-mori-river-play-summer",
+    9: "morimachi-events-calendar",
+    10: "mori-festival",
+    11: "oguni-shrine-autumn-leaves",
+    12: "morimachi-souvenir-guide",
+}
 
 POPULAR_SLUGS = [
     "oguni-shrine-autumn-leaves",
@@ -117,6 +132,18 @@ def released(row: dict) -> bool:
         and row.get("uniqueness_validation") == VERIFIED
         and row.get("visual_validation") == VERIFIED
     )
+
+
+def pickup_slugs(today: date | None = None) -> list[str]:
+    """季節記事を先頭にし、通年ガイドを続ける8件を返す。"""
+    target = today or date.today()
+    seasonal = SEASONAL_PICKUP_BY_MONTH[target.month]
+    candidates = [seasonal, *PICKUP_SLUGS]
+    unique: list[str] = []
+    for slug in candidates:
+        if slug not in unique:
+            unique.append(slug)
+    return unique[:8]
 
 
 def visible_text(row: dict) -> str:
@@ -278,14 +305,15 @@ def index_html(rows: list[dict]) -> str:
         })
     listing_json = json.dumps(listing_rows, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
-    pickup_rows = [by_slug[slug] for slug in PICKUP_SLUGS if slug in by_slug]
+    selected_pickup_slugs = pickup_slugs()
+    pickup_rows = [by_slug[slug] for slug in selected_pickup_slugs if slug in by_slug]
     if len(pickup_rows) != 8:
-        missing = sorted(set(PICKUP_SLUGS) - set(by_slug))
-        raise ValueError(f"今日のピックアップが8件になりません: {missing}")
+        missing = sorted(set(selected_pickup_slugs) - set(by_slug))
+        raise ValueError(f"今月のピックアップが8件になりません: {missing}")
     pickup_main = pickup_rows[0]
     pickup_src, pickup_media = hero_media(pickup_main, card=True)
     pickup_hero = f'''<a class="pickup-feature" href="/discover/{e(pickup_main["slug"])}/">
-        <span class="pickup-image">{pickup_media}</span><span class="pickup-copy"><small>今日の1本</small>
+        <span class="pickup-image">{pickup_media}</span><span class="pickup-copy"><small>{date.today().month}月の1本</small>
         <strong>{e(short_title(pickup_main))}</strong><span>{e(pickup_main["description"])}</span></span></a>'''
     pickup_links = "".join(
         f'<li><a href="/discover/{e(row["slug"])}/"><small>{e(listing_tab(row)[1])}</small><span>{e(short_title(row))}</span></a></li>'
@@ -314,7 +342,7 @@ def index_html(rows: list[dict]) -> str:
     schema = {"@context": "https://schema.org", "@graph": [collection, breadcrumb]}
     return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>静岡県森町を深く知る{published_count}ガイド｜検索・8分類対応</title><meta name="description" content="静岡県周智郡森町の観光、食、交通、子育て、健康、防災、行政手続、住まいを検索と8分類から探せる{published_count}本の長文ガイドです。{keyword_count}の固有キーワードを一次情報と判断順に沿って解説します。"><link rel="canonical" href="https://morimachi.enshu-lifehack.com/discover/"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260810"><link rel="stylesheet" href="/assets/discover.css?v=20260810b"><script defer src="/assets/discover.js?v=20260810b"></script><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-index"><!-- PART:header:START --><!-- PART:header:END --><!-- PART:disclaimer:START --><!-- PART:disclaimer:END --><main><div class="wrap"><nav class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {published_count}ガイド</nav><header class="discover-hero"><p class="eyebrow">公式情報を、暮らしと訪問の判断順に</p><h1>静岡県森町の実用ガイド</h1><p>知りたいことを検索するか、8つの分類から選んでください。記事本文とURLはそのままに、{published_count}本を探しやすく整理しました。</p><p class="publication-count"><strong>{published_count}本</strong>公開中／固有キーワード <strong>{keyword_count}語</strong></p></header>
 <section class="discover-tools" aria-labelledby="guide-search-title"><h2 id="guide-search-title">目的のガイドを探す</h2><label for="discover-search">キーワード検索</label><div class="search-row"><input id="discover-search" type="search" autocomplete="off" inputmode="search" placeholder="例：小國神社、保育料、バス、防災"><button id="discover-clear" type="button">クリア</button></div><div class="popular-keywords" aria-label="よく探されるキーワード"><span>人気の検索</span>{keyword_buttons}</div><div class="guide-tabs" role="tablist" aria-label="8分類で絞り込む">{''.join(tabs)}</div></section>
-<section class="pickup" aria-labelledby="pickup-title"><div class="section-heading"><p>迷ったときの入口</p><h2 id="pickup-title">今日のピックアップ</h2></div><div class="pickup-grid">{pickup_hero}<ul class="pickup-list">{pickup_links}</ul></div></section>
+<section class="pickup" data-pickup-month="{date.today().month}" aria-labelledby="pickup-title"><div class="section-heading"><p>季節に合う入口</p><h2 id="pickup-title">今月のピックアップ</h2></div><div class="pickup-grid">{pickup_hero}<ul class="pickup-list">{pickup_links}</ul></div></section>
 <div class="discover-layout"><div class="discover-main"><div class="list-heading"><div><p id="discover-current-tab">すべての分類</p><h2>ガイド一覧</h2></div><p id="discover-result" class="result-count" aria-live="polite">{published_count}件中10件を表示</p></div><ul id="discover-list" class="guide-list" aria-live="polite"></ul><div id="discover-empty" class="discover-empty" hidden><h2>該当するガイドがありません</h2><p>別の言葉で探すか、下の候補から選んでください。</p><ul id="discover-suggestions"></ul><button id="discover-reset" type="button">すべてのガイドへ戻る</button></div><button id="discover-more" class="load-more" type="button">もっと見る <span>次の20件</span></button></div>
 <aside class="discover-sidebar" aria-label="人気と新着のガイド"><section><h2>人気ガイド TOP5</h2><ol class="ranking-list">{popular_links}</ol></section><section><h2>新着ガイド</h2><ul class="newest-list">{newest_links}</ul></section><p class="sidebar-note">料金・日程・制度は更新されることがあります。各記事の公式確認先で最新情報をご確認ください。</p></aside></div>
 <noscript><section class="noscript-guides"><h2>全{published_count}ガイド</h2><p>一覧の検索・絞り込みにはJavaScriptを使用します。無効の場合はこちらから選べます。</p><ul>{noscript_links}</ul></section></noscript><script id="discover-data" type="application/json">{listing_json}</script></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''

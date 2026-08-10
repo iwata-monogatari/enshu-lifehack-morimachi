@@ -6,6 +6,7 @@ import json
 import argparse
 import re
 import sys
+from datetime import date
 import xml.etree.ElementTree as ET
 from collections import Counter
 from pathlib import Path
@@ -201,7 +202,20 @@ def main() -> None:
             if f'id="{required_id}"' not in index:
                 fail(errors, f"一覧UI要素がありません: {required_id}")
         if index.count('class="pickup-feature"') != 1 or index.count('class="pickup-list"') != 1:
-            fail(errors, "今日のピックアップ構造が不正です")
+            fail(errors, "今月のピックアップ構造が不正です")
+        expected_seasonal = {
+            1: "morimachi-events-calendar", 2: "morimachi-wagashi-guide",
+            3: "morimachi-cherry-blossoms", 4: "morimachi-cherry-blossoms",
+            5: "morimachi-flower-calendar", 6: "gokurakuji-hydrangeas",
+            7: "acty-mori-river-play-summer", 8: "acty-mori-river-play-summer",
+            9: "morimachi-events-calendar", 10: "mori-festival",
+            11: "oguni-shrine-autumn-leaves", 12: "morimachi-souvenir-guide",
+        }[date.today().month]
+        pickup_match = re.search(r'class="pickup-feature" href="/discover/([^/]+)/"', index)
+        if not pickup_match or pickup_match.group(1) != expected_seasonal:
+            fail(errors, f"今月の主記事が季節不一致です: {pickup_match.group(1) if pickup_match else 'なし'}")
+        if f'data-pickup-month="{date.today().month}"' not in index:
+            fail(errors, "ピックアップ対象月の記録がありません")
         if len(re.findall(r'class="keyword-chip"', index)) not in range(6, 9):
             fail(errors, "人気キーワードは6〜8個必須です")
         if index.count('class="guide-list-item"') > 20:
