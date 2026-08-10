@@ -27,7 +27,11 @@ PARTS_DIR = os.path.join(ROOT, "parts")
 OUT = os.path.join(ROOT, "shrine")
 SITE = "https://morimachi.enshu-lifehack.com"
 SITE_NAME = "森町ライフハック"
-VERIFIED = "2026-08-04"
+VERIFIED = "2026-08-10"
+
+from sacred_research import research_figure, shrine_research  # noqa: E402
+
+DEEP_RESEARCH_EXCLUDED = {"s4410001", "s4410002", "s4410003"}
 
 
 def protected_phase1_urls():
@@ -187,6 +191,21 @@ def main():
             body.append('<p>「%s」という呼び名でも知られています。通称と正式な社名を並べておくと、案内を探すときや問い合わせるときの行き違いを減らせます。</p>' % esc(s["tsusho"]))
         body.append('</section>')
 
+        research_sources = []
+        if s["slug"] not in DEEP_RESEARCH_EXCLUDED:
+            research_paragraphs, research_sources = shrine_research(s)
+            body.append('<section class="deep-research" data-research-checked="2026-08-10">'
+                        '<h2 class="sec">一次資料から読み解く%s</h2>' % esc(s["name"]))
+            body.append(research_figure(s, "shrine"))
+            split_at = min(5, len(research_paragraphs))
+            for paragraph in research_paragraphs[:split_at]:
+                body.append('<p>%s</p>' % esc(paragraph))
+            body.append('</section>')
+            body.append('<section class="deep-research-visit"><h2 class="sec">%sを訪ねる前の調べ方</h2>' % esc(s["name"]))
+            for paragraph in research_paragraphs[split_at:]:
+                body.append('<p>%s</p>' % esc(paragraph))
+            body.append('</section>')
+
         fl = fest_by_shrine.get(s["slug"], [])
         if fl:
             body.append('<section><h2 class="sec">祭礼と地域行事</h2><div class="official">')
@@ -236,6 +255,12 @@ def main():
         body.append('<section><h2 class="sec">出典と更新日</h2><ul class="post-sources">')
         for src in s["sources"]:
             body.append('<li><a href="%s" target="_blank" rel="noopener">%s</a>（%s）</li>' % (esc(src["url"]), esc(src["title"]), esc(src.get("note", ""))))
+        source_urls = {src["url"] for src in s["sources"]}
+        for title, url, note in research_sources:
+            if url not in source_urls:
+                body.append('<li><a href="%s" target="_blank" rel="noopener">%s</a>（%s）</li>'
+                            % (esc(url), esc(title), esc(note)))
+                source_urls.add(url)
         body.append('<li><a href="https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunkazai/index.html" target="_blank" rel="noopener">森町 文化財情報</a>（町内の文化財に関する公式案内）</li>')
         body.append('</ul><p>基本情報の確認日は%sです。由緒本文の転載や、資料にない設備・行事の補完はしていません。神社または関係者から訂正の連絡をいただいた場合は、出典とともに更新します。</p></section></div>' % esc(s["last_verified_at"]))
 

@@ -33,6 +33,9 @@ INTERNAL_PHRASES = (
     "結論を左右する前提です",
 )
 
+DEEP_RESEARCH_EXCLUDED = {"s4410001", "s4410002", "s4410003", "t02"}
+DEEP_RESEARCH_EXPECTED = 70
+
 
 def visible_text(source: str) -> str:
     source = re.sub(r"<script.*?</script>|<style.*?</style>", "", source, flags=re.S | re.I)
@@ -49,6 +52,8 @@ def main() -> None:
     titles: dict[str, str] = {}
     descriptions: dict[str, str] = {}
     totals: list[tuple[str, int, int]] = []
+    deep_research_pages = 0
+    research_paragraphs: dict[str, list[str]] = {}
 
     for label, ledger_path, key, directory, expected in COLLECTIONS:
         rows = json.loads(ledger_path.read_text(encoding="utf-8-sig"))[key]
@@ -97,6 +102,29 @@ def main() -> None:
             if found_internal:
                 page_failures.append("内部管理文: " + " / ".join(found_internal))
 
+            if slug not in DEEP_RESEARCH_EXCLUDED:
+                deep_research_pages += 1
+                if 'data-research-checked="2026-08-10"' not in source:
+                    page_failures.append("深掘り調査マーカーなし")
+                if f'data-sacred-illustration="{slug}"' not in source:
+                    page_failures.append("固有挿絵なし")
+                if len(compact) < 2500:
+                    page_failures.append(f"深掘り本文不足 {len(compact)}字")
+                if source.count("<h2") < 7:
+                    page_failures.append("深掘りH2が7個未満")
+                if source.count("<p") < 28:
+                    page_failures.append("深掘り段落が28個未満")
+                urls = set(re.findall(r'<a href="(https?://[^"]+)"[^>]*target="_blank"', source))
+                if len(urls) < 4:
+                    page_failures.append(f"一次情報URL不足 {len(urls)}件")
+                if "政策" in source:
+                    page_failures.append("禁止語あり")
+                for block in re.findall(r'<section class="deep-research(?:-visit)?".*?</section>', source, re.S):
+                    for paragraph in re.findall(r"<p[^>]*>(.*?)</p>", block, re.S):
+                        normalized = re.sub(r"\s+", "", unescape(re.sub(r"<[^>]+>", "", paragraph)))
+                        if len(normalized) >= 60:
+                            research_paragraphs.setdefault(normalized, []).append(slug)
+
             title_match = re.search(r"<title>(.*?)</title>", source, re.S | re.I)
             title = unescape(title_match.group(1)).strip() if title_match else ""
             desc = meta_value(source, "description")
@@ -113,6 +141,22 @@ def main() -> None:
                 failures.append(f"{rel}: " + ", ".join(page_failures))
             totals.append((label, len(compact), source.count("<h2")))
 
+    if deep_research_pages != DEEP_RESEARCH_EXPECTED:
+        failures.append(
+            f"深掘り対象件数不一致: {deep_research_pages} / 想定 {DEEP_RESEARCH_EXPECTED}"
+        )
+    duplicated = {
+        paragraph: sorted(set(slugs))
+        for paragraph, slugs in research_paragraphs.items()
+        if len(set(slugs)) >= 3
+    }
+    if duplicated:
+        examples = list(duplicated.items())[:5]
+        failures.append(
+            "深掘り本文の3ページ以上完全重複: "
+            + " / ".join(f"{','.join(slugs)}:{paragraph[:35]}" for paragraph, slugs in examples)
+        )
+
     if failures:
         raise SystemExit("社寺個別ページ監査失敗\n- " + "\n- ".join(failures))
 
@@ -121,7 +165,8 @@ def main() -> None:
     print(
         "社寺個別ページ監査: 合格 "
         f"神社{len(shrine_lengths)}件（最短{min(shrine_lengths)}字） / "
-        f"寺院{len(temple_lengths)}件（最短{min(temple_lengths)}字） / 内部管理文0件"
+        f"寺院{len(temple_lengths)}件（最短{min(temple_lengths)}字） / "
+        f"深掘り{deep_research_pages}件 / 内部管理文0件"
     )
 
 

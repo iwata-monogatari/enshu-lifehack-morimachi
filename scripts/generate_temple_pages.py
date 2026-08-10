@@ -26,7 +26,11 @@ PARTS_DIR = os.path.join(ROOT, "parts")
 OUT = os.path.join(ROOT, "temple")
 SITE = "https://morimachi.enshu-lifehack.com"
 SITE_NAME = "森町ライフハック"
-VERIFIED = "2026-08-04"
+VERIFIED = "2026-08-10"
+
+from sacred_research import research_figure, temple_research  # noqa: E402
+
+DEEP_RESEARCH_EXCLUDED = {"t02"}
 
 SECT_SLUG = {"曹洞宗": "soto", "日蓮宗": "nichiren", "真言宗": "shingon", "天台宗": "tendai", "浄土宗": "jodo"}
 SECT_DESC = {
@@ -156,6 +160,21 @@ def main():
             body.append('<p>本尊については、今回参照した公開資料から確かな案内を得られませんでした。宗派や寺名から推し量らず、公開されている所在地と宗派だけを掲載しています。</p>')
         body.append('</section>')
 
+        research_sources = []
+        if t["slug"] not in DEEP_RESEARCH_EXCLUDED:
+            research_paragraphs, research_sources = temple_research(t)
+            body.append('<section class="deep-research" data-research-checked="2026-08-10">'
+                        '<h2 class="sec">一次資料から読み解く%s</h2>' % esc(t["name"]))
+            body.append(research_figure(t, "temple"))
+            split_at = min(5, len(research_paragraphs))
+            for paragraph in research_paragraphs[:split_at]:
+                body.append('<p>%s</p>' % esc(paragraph))
+            body.append('</section>')
+            body.append('<section class="deep-research-visit"><h2 class="sec">%sを訪ねる前の調べ方</h2>' % esc(t["name"]))
+            for paragraph in research_paragraphs[split_at:]:
+                body.append('<p>%s</p>' % esc(paragraph))
+            body.append('</section>')
+
         if t.get("history_summary"):
             body.append('<section><h2 class="sec">建物・文化財の記録</h2><div class="note">%s</div>'
                         '<p>文化財の指定は、建物すべての公開や自由な見学を意味しません。見学できる範囲と撮影の可否は、現地掲示や寺院の案内に従ってください。</p></section>' % esc(t["history_summary"]))
@@ -199,6 +218,11 @@ def main():
         for s in t["sources"]:
             body.append('<li><a href="%s" target="_blank" rel="noopener">%s</a>（%s）</li>' % (esc(s["url"]), esc(s["title"]), esc(s["note"])))
             source_urls.add(s["url"])
+        for title, url, note in research_sources:
+            if url not in source_urls:
+                body.append('<li><a href="%s" target="_blank" rel="noopener">%s</a>（%s）</li>'
+                            % (esc(url), esc(title), esc(note)))
+                source_urls.add(url)
         temple_architecture_url = "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/2/774.html"
         if temple_architecture_url not in source_urls:
             body.append('<li><a href="%s" target="_blank" rel="noopener">森町教育委員会「森町の寺院建築」</a>（町内寺院の建築に関する公式資料）</li>' % temple_architecture_url)
