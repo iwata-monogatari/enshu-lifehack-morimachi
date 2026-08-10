@@ -12,6 +12,7 @@ import hashlib
 import html
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -118,7 +119,20 @@ def source_list(row: dict) -> str:
     return "".join(items)
 
 
-def article_html(row: dict, rows_by_slug: dict[str, dict]) -> str:
+def hero_media(row: dict, *, card: bool = False) -> tuple[str, str]:
+    photo = row.get("hero_photo", "")
+    if photo:
+        src = photo
+        alt = row.get("cover_alt", row["title"])
+        kind = "写真"
+    else:
+        src = f'/discover/{row["slug"]}/cover.svg' if card else "cover.svg"
+        alt = row.get("cover_alt", f'{row["title"]}の編集イラスト')
+        kind = "編集イラスト"
+    return src, f'<img src="{e(src)}" width="1200" height="630"{ " loading=\"lazy\"" if card else "" } alt="{e(alt)}"><span class="media-kind">{kind}</span>'
+
+
+def article_html(row: dict, rows_by_slug: dict[str, dict], published_count: int) -> str:
     canonical = f'https://morimachi.enshu-lifehack.com/discover/{row["slug"]}/'
     robots = '' if released(row) else '<meta name="robots" content="noindex,nofollow" data-discover-pending>'
     keywords = "、".join([row["primary_keyword"], *row["secondary_keywords"]])
@@ -146,25 +160,36 @@ def article_html(row: dict, rows_by_slug: dict[str, dict]) -> str:
             ]},
         ]
     }
-    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{robots}<title>{e(row["title"])}</title><meta name="description" content="{e(row["description"])}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="article"><meta property="og:title" content="{e(row["title"])}"><meta property="og:description" content="{e(row["description"])}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{canonical}cover.svg"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260810"><link rel="stylesheet" href="/assets/discover.css?v=20260810"><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-article"><!-- PART:header:START --><!-- PART:header:END --><!-- PART:disclaimer:START --><!-- PART:disclaimer:END --><main><article class="wrap editorial"><nav class="breadcrumb" aria-label="パンくず"><a href="/">静岡県森町ライフハック</a> ／ <a href="/discover/">静岡県森町100ガイド</a> ／ {e(row["category_label"])}</nav><header class="article-header"><p class="eyebrow">{e(row["category_label"])}｜最終確認 {e(row["fact_checked_at"])}</p><h1>{e(row["title"])}</h1><p class="lead">{e(row["lead"])}</p><figure><img src="cover.svg" width="1200" height="630" alt="{e(row["cover_alt"])}"><figcaption>{e(row.get("cover_caption", "記事内容を整理した編集イラスト"))}</figcaption></figure><aside class="answer-box"><h2>先に結論</h2><p>{e(row["direct_answer"])}</p></aside></header>{''.join(body)}<section class="official-sources"><h2>公式情報・確認先</h2><p>掲載内容は次の一次情報を基礎に整理しました。営業、料金、催し、交通は変わるため、出発前または手続き前にリンク先で最新情報を確認してください。</p><ul>{source_list(row)}</ul></section><section class="related-guides"><h2>静岡県森町の関連ガイド</h2><ul>{''.join(related)}</ul><p><a class="btn" href="/discover/">100ガイドの索引へ戻る</a></p></section></article></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
+    _, hero = hero_media(row)
+    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{robots}<title>{e(row["title"])}</title><meta name="description" content="{e(row["description"])}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="article"><meta property="og:title" content="{e(row["title"])}"><meta property="og:description" content="{e(row["description"])}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{canonical}cover.svg"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260810"><link rel="stylesheet" href="/assets/discover.css?v=20260810"><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-article"><!-- PART:header:START --><!-- PART:header:END --><!-- PART:disclaimer:START --><!-- PART:disclaimer:END --><main><article class="wrap editorial"><nav class="breadcrumb" aria-label="パンくず"><a href="/">静岡県森町ライフハック</a> ／ <a href="/discover/">静岡県森町{published_count}ガイド</a> ／ {e(row["category_label"])}</nav><header class="article-header"><p class="eyebrow">{e(row["category_label"])}｜最終確認 {e(row["fact_checked_at"])}</p><h1>{e(row["title"])}</h1><p class="lead">{e(row["lead"])}</p><figure class="hero-media">{hero}<figcaption>{e(row.get("cover_caption", "記事内容を整理した編集イラスト"))}</figcaption></figure><aside class="answer-box"><h2>先に結論</h2><p>{e(row["direct_answer"])}</p></aside></header>{''.join(body)}<section class="official-sources"><h2>公式情報・確認先</h2><p>掲載内容は次の一次情報を基礎に整理しました。営業、料金、催し、交通は変わるため、出発前または手続き前にリンク先で最新情報を確認してください。</p><ul>{source_list(row)}</ul></section><section class="related-guides"><h2>静岡県森町の関連ガイド</h2><ul>{''.join(related)}</ul><p><a class="btn" href="/discover/">{published_count}ガイドの検索・分類へ戻る</a></p></section></article></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
 
 
 def index_html(rows: list[dict]) -> str:
     published = [row for row in rows if released(row)]
+    published_count = len(published)
+    keyword_count = published_count * 3
     groups: dict[str, list[dict]] = {}
     for row in published:
-        groups.setdefault(row["category_label"], []).append(row)
+        groups.setdefault(row.get("broad_category", row["category_label"]), []).append(row)
+    category_counts = Counter(row.get("broad_category", row["category_label"]) for row in published)
+    chips = ['<button class="filter-chip is-active" type="button" data-category="all" aria-pressed="true">すべて <span>' + str(len(published)) + '</span></button>']
+    for category, count in sorted(category_counts.items(), key=lambda item: (-item[1], item[0])):
+        chips.append(f'<button class="filter-chip" type="button" data-category="{e(category)}" aria-pressed="false">{e(category)} <span>{count}</span></button>')
     sections = []
-    for category, items in groups.items():
-        cards = "".join(f'<li><a href="/discover/{e(x["slug"])}/"><strong>{e(x["title"])}</strong><span>{e(x["description"])}</span></a></li>' for x in items)
-        sections.append(f'<section><h2>{e(category)}</h2><ul class="discover-grid">{cards}</ul></section>')
-    collection = {"@type": "CollectionPage", "name": "静岡県森町を深く知る100ガイド", "url": "https://morimachi.enshu-lifehack.com/discover/", "mainEntity": {"@type": "ItemList", "numberOfItems": len(published), "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f'https://morimachi.enshu-lifehack.com/discover/{x["slug"]}/', "name": x["title"]} for i, x in enumerate(published)]}}
+    for category, items in sorted(groups.items()):
+        cards = []
+        for x in sorted(items, key=lambda row: row["title"]):
+            _, media = hero_media(x, card=True)
+            search_text = " ".join([x["title"], x["description"], x["primary_keyword"], *x["secondary_keywords"], *x.get("audience", [])])
+            cards.append(f'<li class="discover-card" data-category="{e(category)}" data-search="{e(search_text.lower())}"><a href="/discover/{e(x["slug"])}/"><span class="card-media">{media}</span><span class="card-copy"><small>{e(x["category_label"])}</small><strong>{e(x["title"])}</strong><span>{e(x["description"])}</span><em>{e(x["primary_keyword"])}</em></span></a></li>')
+        sections.append(f'<section class="discover-section" data-section-category="{e(category)}"><h2>{e(category)} <span>{len(items)}本</span></h2><ul class="discover-grid">{"".join(cards)}</ul></section>')
+    collection = {"@type": "CollectionPage", "name": f"静岡県森町を深く知る{published_count}ガイド", "url": "https://morimachi.enshu-lifehack.com/discover/", "mainEntity": {"@type": "ItemList", "numberOfItems": published_count, "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f'https://morimachi.enshu-lifehack.com/discover/{x["slug"]}/', "name": x["title"]} for i, x in enumerate(published)]}}
     breadcrumb = {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "静岡県森町ライフハック", "item": "https://morimachi.enshu-lifehack.com/"},
-        {"@type": "ListItem", "position": 2, "name": "静岡県森町100ガイド", "item": "https://morimachi.enshu-lifehack.com/discover/"},
+        {"@type": "ListItem", "position": 2, "name": f"静岡県森町{published_count}ガイド", "item": "https://morimachi.enshu-lifehack.com/discover/"},
     ]}
     schema = {"@context": "https://schema.org", "@graph": [collection, breadcrumb]}
-    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>静岡県森町を深く知る100ガイド｜森町ライフハック</title><meta name="description" content="静岡県周智郡森町の食、観光、寺社、交通、季節、滞在、特産品、住まいを、一次情報と現地での判断順に沿って読む100本の長文ガイドです。"><link rel="canonical" href="https://morimachi.enshu-lifehack.com/discover/"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260810"><link rel="stylesheet" href="/assets/discover.css?v=20260810"><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-index"><!-- PART:header:START --><!-- PART:header:END --><!-- PART:disclaimer:START --><!-- PART:disclaimer:END --><main><div class="wrap"><nav class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ 100ガイド</nav><header class="hero"><p class="eyebrow">100の質問とは別の、読み応えある編集ガイド</p><h1>静岡県森町を深く知る100ガイド</h1><p class="lead">検索語への短い回答を並べるのではなく、公式情報、現地で確かめる順番、良い点、注文したい点、代案まで一つの記事で読み切れる形にしました。</p><p>現在公開中：{len(published)}本</p></header>{''.join(sections)}</div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
+    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>静岡県森町を深く知る{published_count}ガイド｜検索・分類対応</title><meta name="description" content="静岡県周智郡森町の観光、食、交通、子育て、健康、防災、行政手続、住まいを検索・分類から探せる{published_count}本の長文ガイドです。{keyword_count}の固有キーワードを一次情報と判断順に沿って解説します。"><link rel="canonical" href="https://morimachi.enshu-lifehack.com/discover/"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260810"><link rel="stylesheet" href="/assets/discover.css?v=20260810"><script defer src="/assets/discover.js?v=20260810"></script><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-index"><!-- PART:header:START --><!-- PART:header:END --><!-- PART:disclaimer:START --><!-- PART:disclaimer:END --><main><div class="wrap"><nav class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {published_count}ガイド</nav><header class="hero"><p class="eyebrow">100の質問とは別の、読み応えある編集ガイド</p><h1>静岡県森町を深く知る{published_count}ガイド</h1><p class="lead">観光・食・交通から、子育て・健康・防災・行政手続・住まいまで、公式情報、良い点、注文したい点、代案を一つの記事で読み切れる形にしました。検索欄と分類ボタンから目的の記事を絞れます。</p><p class="publication-count">現在公開中：<strong>{published_count}本</strong>／固有キーワード <strong>{keyword_count}語</strong></p></header><section class="discover-tools" aria-labelledby="guide-search-title"><h2 id="guide-search-title">目的のガイドを探す</h2><label for="discover-search">キーワード検索</label><div class="search-row"><input id="discover-search" type="search" autocomplete="off" placeholder="例：小國神社、保育料、バス、防災"><button id="discover-clear" type="button">クリア</button></div><div class="filter-chips" aria-label="分類で絞り込む">{''.join(chips)}</div><p id="discover-result" class="result-count" aria-live="polite">{published_count}件を表示中</p></section><div id="discover-empty" class="discover-empty" hidden><h2>該当するガイドがありません</h2><p>言葉を短くするか、「すべて」を選んで再検索してください。</p></div><div id="discover-results">{''.join(sections)}</div></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
 
 
 def main() -> None:
@@ -180,7 +205,7 @@ def main() -> None:
     for row in rows:
         dest = OUT / row["slug"]
         dest.mkdir(parents=True, exist_ok=True)
-        page_html = article_html(row, by_slug)
+        page_html = article_html(row, by_slug, sum(1 for item in rows if released(item)))
         (dest / "index.html").write_text(page_html, encoding="utf-8", newline="\n")
         (dest / "cover.svg").write_text(cover_svg(row), encoding="utf-8", newline="\n")
         for number in (1, 2):

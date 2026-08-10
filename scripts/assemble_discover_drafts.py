@@ -13,7 +13,10 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
-DRAFTS = ROOT / "work" / "discover-drafts"
+DRAFT_DIRS = (
+    ROOT / "work" / "discover-drafts",
+    ROOT / "work" / "discover-expansion-drafts",
+)
 OUTPUT = ROOT / "data" / "discover-pages.json"
 RELEASE = ROOT / "data" / "discover-release.json"
 
@@ -72,6 +75,29 @@ def illustration_objects(row: dict) -> list[dict]:
     return result
 
 
+def broad_category(row: dict, category: str) -> str:
+    explicit = row.get("broad_category")
+    if explicit:
+        return explicit
+    text = " ".join((category, row.get("title", ""), row.get("primary_keyword", "")))
+    groups = (
+        ("小國神社・ことまち横丁", ("小國神社", "ことまち")),
+        ("アクティ森・自然体験", ("アクティ", "川遊び", "キャンプ", "ハイキング", "サイクリング")),
+        ("食・お茶・買い物", ("ランチ", "カフェ", "食", "茶", "和菓子", "土産", "直売", "スーパー", "コンビニ")),
+        ("交通・宿泊・行程", ("交通", "駅", "バス", "PA", "IC", "駐車", "宿泊", "日帰り", "タクシー")),
+        ("花・祭り・文化", ("花", "桜", "紅葉", "祭", "文化", "歴史", "寺", "資料館", "図書館")),
+        ("健康・医療", ("病院", "医療", "健康", "歯", "薬", "動物病院")),
+        ("子育て・教育", ("子育て", "保育", "学校", "高校", "子連れ")),
+        ("防災・安全", ("防災", "災害", "熊", "天気", "水位", "火災")),
+        ("住まい・土地・移住", ("住宅", "不動産", "土地", "空き家", "相続", "農地", "移住", "賃貸")),
+        ("行政手続・暮らし", ("手続", "証明", "郵便", "ごみ", "住所")),
+    )
+    for label, words in groups:
+        if any(word in text for word in words):
+            return label
+    return "森町観光・暮らし"
+
+
 def normalize(row: dict, released: bool) -> dict:
     sections = row.get("body_sections") or row.get("sections") or []
     related = (
@@ -83,10 +109,12 @@ def normalize(row: dict, released: bool) -> dict:
     checked = row.get("fact_checked_at") or row.get("verified_at") or "2026-08-10"
     lead = row.get("lead") or row.get("direct_answer") or sections[0]["paragraphs"][0]
     motif = row.get("visual_motif") or row.get("illustrations", [{}])[0].get("concept") or category
+    hero_photo = row.get("hero_photo") or ""
     return {
         "id": row.get("id") or row["slug"],
         "slug": row["slug"],
         "category_label": category,
+        "broad_category": broad_category(row, category),
         "primary_keyword": row["primary_keyword"],
         "secondary_keywords": row["secondary_keywords"],
         "intent": row["intent"],
@@ -103,9 +131,14 @@ def normalize(row: dict, released: bool) -> dict:
         "visual_motif": motif,
         "cover_alt": row.get("cover_alt") or f'{row["title"]}の内容を森町の風景で表した編集イラスト',
         "cover_caption": row.get("cover_caption", "記事の判断点を静岡県森町の風景に重ねた編集イラスト"),
+        "hero_photo": hero_photo,
+        "media_type": "photo" if hero_photo else "illustration",
         "fact_checked_at": checked,
         "published_at": "2026-08-10",
         "updated_at": "2026-08-10",
+        "editorial_rewrite_complete": bool(
+            row.get("publication", {}).get("editorial_rewrite_complete")
+        ),
         "status": "published" if released else "draft",
         "editor_reviewed": released,
         "publish_ready": released,
@@ -123,17 +156,28 @@ def main() -> None:
     if RELEASE.exists():
         release_slugs = set(json.loads(RELEASE.read_text(encoding="utf-8")).get("reviewed_slugs", []))
     drafts: list[dict] = []
-    for path in sorted(DRAFTS.glob("*.json")):
-        value = json.loads(path.read_text(encoding="utf-8"))
-        drafts.extend(rows_from(value))
+    for directory in DRAFT_DIRS:
+        for path in sorted(directory.glob("*.json")):
+            value = json.loads(path.read_text(encoding="utf-8"))
+            drafts.extend(rows_from(value))
     slugs = [row["slug"] for row in drafts]
     if len(slugs) != len(set(slugs)):
         raise RuntimeError("draft slugが重複しています")
-    if not args.allow_partial and len(drafts) != 100:
-        raise RuntimeError(f"完成原稿が100件ではありません: {len(drafts)}")
+    if not args.allow_partial and len(drafts) != 200:
+        raise RuntimeError(f"完成原稿が200件ではありません: {len(drafts)}")
     if not release_slugs.issubset(slugs):
         raise RuntimeError("release台帳に存在しないslugがあります")
-    pages = [normalize(row, row["slug"] in release_slugs) for row in drafts]
+    pages = []
+    for row in drafts:
+        released = row["slug"] in release_slugs
+        # The second 100 guides remain isolated until each source draft has
+        # passed a human editorial rewrite. A release-manifest entry alone is
+        # deliberately insufficient for these generated planning drafts.
+        if row["slug"].startswith("guide-"):
+            released = released and bool(
+                row.get("publication", {}).get("editorial_rewrite_complete")
+            )
+        pages.append(normalize(row, released))
     # Keep author-selected links when they resolve, then complete each set with
     # other guides from the same editorial category. Drafts may refer to an
     # article's planning slug before its final slug is fixed; unresolved links

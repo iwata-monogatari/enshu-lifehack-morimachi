@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-"""Fail closed quality audit for the 100 Discover guides."""
+"""Fail closed quality audit for the 200 Discover guides."""
 from __future__ import annotations
 
 import json
+import argparse
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -12,8 +13,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "discover-pages.json"
 BANNED = (
-    "placeholder", "TODO", "lorem ipsum", "ここに", "架空の体験", "undefined",
+    "placeholder", "lorem ipsum", "架空の体験", "undefined",
     "本稿で扱う中心は", "これが本稿の結論です", "固有の角度から",
+    # The second 100 planning drafts originally contained these mechanically
+    # inflected stock phrases.  They are blocked even in --allow-pending mode
+    # so a numerically complete but unreadable batch cannot pass again.
+    "を確認する人へ", "を進める場合", "について家族で共有する際は",
+    "一枚につなぐための実用ガイド", "同じ答えで済ませず",
 )
 TITLE_PREFIX = ("静岡県森町", "静岡県周智郡森町", "遠州森町")
 MIN_CHARS = 5000
@@ -29,11 +35,14 @@ def fail(errors: list[str], message: str) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--allow-pending", action="store_true", help="本文監査用。公開フラグとnoindexだけを許容する")
+    args = parser.parse_args()
     data = json.loads(DATA.read_text(encoding="utf-8"))
     rows = data.get("pages", [])
     errors: list[str] = []
-    if len(rows) != 100:
-        fail(errors, f"台帳は100件必須です: {len(rows)}")
+    if len(rows) != 200:
+        fail(errors, f"台帳は200件必須です: {len(rows)}")
     slugs = [row.get("slug") for row in rows]
     if len(set(slugs)) != len(slugs):
         fail(errors, "slugが重複しています")
@@ -55,10 +64,13 @@ def main() -> None:
         if len(keywords) != 3 or any(not x for x in keywords):
             fail(errors, f"{prefix} キーワードは主1＋副2の3語必須")
         all_keywords.extend(keywords)
-        if row.get("editor_reviewed") is not True or row.get("publish_ready") is not True:
+        if slug.startswith("guide-") and not args.allow_pending:
+            if row.get("editorial_rewrite_complete") is not True:
+                fail(errors, f"{prefix} 人手による全面改稿の完了記録がありません")
+        if not args.allow_pending and (row.get("editor_reviewed") is not True or row.get("publish_ready") is not True):
             fail(errors, f"{prefix} 編集確認・公開可フラグが未完了")
         for gate in ("source_validation", "uniqueness_validation", "visual_validation"):
-            if row.get(gate) != "verified":
+            if not args.allow_pending and row.get(gate) != "verified":
                 fail(errors, f"{prefix} {gate}がverifiedではありません")
         sections = row.get("body_sections", [])
         headings = [x.get("heading", "") for x in sections]
@@ -96,7 +108,7 @@ def main() -> None:
             fail(errors, f"{prefix} index.htmlがありません")
             continue
         source = html_path.read_text(encoding="utf-8")
-        if "data-discover-pending" in source or re.search(r'<meta[^>]+name="robots"[^>]+noindex', source, re.I):
+        if not args.allow_pending and ("data-discover-pending" in source or re.search(r'<meta[^>]+name="robots"[^>]+noindex', source, re.I)):
             fail(errors, f"{prefix} 公開記事にnoindexがあります")
         if len(re.findall(r"<h1[ >]", source)) != 1:
             fail(errors, f"{prefix} H1は1つ必須")
@@ -127,13 +139,18 @@ def main() -> None:
             "source_titles": [s.get("title", "") for s in row.get("sources", [])],
         }
         # URL中の文字列（例: *todoke*）をTODOと誤判定しない。
-        visible_source = re.sub(r"<[^>]+>", " ", source)
+        # JSON-LD and href/src values can legitimately contain strings such as
+        # ``todoke``.  Audit only rendered prose, not script/style payloads.
+        visible_source = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", source, flags=re.I | re.S)
+        visible_source = re.sub(r"<[^>]+>", " ", visible_source)
         haystack = compact(json.dumps(editorial_fields, ensure_ascii=False)) + compact(visible_source)
+        if re.search(r"(?<![A-Za-z0-9_])TODO(?![A-Za-z0-9_])", haystack):
+            fail(errors, f"{prefix} 禁止語: TODO")
         for banned in BANNED:
             if banned.lower() in haystack.lower():
                 fail(errors, f"{prefix} 禁止語: {banned}")
-    if len(all_keywords) != 300:
-        fail(errors, f"全キーワードは300語必須: {len(all_keywords)}")
+    if len(all_keywords) != 600:
+        fail(errors, f"全キーワードは600語必須: {len(all_keywords)}")
     duplicate_keywords = [x for x, count in Counter(all_keywords).items() if count > 1]
     if duplicate_keywords:
         fail(errors, f"キーワード重複: {duplicate_keywords[:12]}")
@@ -150,7 +167,8 @@ def main() -> None:
         fail(errors, "/discover/index.htmlがありません")
     else:
         index = index_path.read_text(encoding="utf-8")
-        for slug in slugs:
+        required_index_slugs = slugs if not args.allow_pending else [row["slug"] for row in rows if row.get("publish_ready")]
+        for slug in required_index_slugs:
             if f'/discover/{slug}/' not in index:
                 fail(errors, f"親indexから未到達: {slug}")
     if errors:
@@ -160,7 +178,7 @@ def main() -> None:
         if len(errors) > 120:
             print(f" ...ほか{len(errors) - 120}件")
         sys.exit(1)
-    print("discover品質監査: 合格（100ページ / 300固有キーワード）")
+    print("discover品質監査: 合格（200ページ / 600固有キーワード）")
 
 
 if __name__ == "__main__":

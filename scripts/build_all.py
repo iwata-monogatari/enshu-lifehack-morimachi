@@ -31,9 +31,9 @@ STEPS: list[tuple[str, list[str]]] = [
     ("関連サイト一覧の生成", [sys.executable, "scripts/build_related_sites.py"]),
     ("トップページの生成", [sys.executable, "scripts/build_home.py"]),
     ("ブログ一覧の生成・品質確認", [sys.executable, "scripts/build_blog.py"]),
-    ("100本の確認済み原稿を公開台帳へ同期", [sys.executable, "scripts/assemble_discover_drafts.py"]),
-    ("静岡県森町100ガイドを生成", [sys.executable, "scripts/build_discover.py"]),
-    ("静岡県森町100ガイドを公開前監査", [sys.executable, "scripts/audit_discover.py"]),
+    ("200本の確認済み原稿を公開台帳へ同期", [sys.executable, "scripts/assemble_discover_drafts.py"]),
+    ("静岡県森町200ガイドを生成", [sys.executable, "scripts/build_discover.py"]),
+    ("静岡県森町200ガイドを公開前監査", [sys.executable, "scripts/audit_discover.py"]),
     ("検索需要を確認した優先ページのタイトル同期", [sys.executable, "scripts/apply_search_demand_titles.py"]),
     ("個別ガイドの検索説明文を本文から同期", [sys.executable, "scripts/sync_content_descriptions.py"]),
     ("検索者がその場で使える5機能を反映", [sys.executable, "scripts/inject_search_tools.py"]),
@@ -72,7 +72,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("検索支援機能の計算テスト", ["node", "scripts/test-search-tools.mjs"]),
     # 第4期300ページは品質監査不合格を理由に撤回済み。公開対象として
     # 再監査せず、preflightでnoindex・検索・sitemap隔離だけを検証する。
-    ("静岡県森町100ガイドの品質監査", [sys.executable, "scripts/audit_discover.py"]),
+    ("静岡県森町200ガイドの品質監査", [sys.executable, "scripts/audit_discover.py"]),
     ("sitemap.xml の生成", [sys.executable, "scripts/build_sitemap.py"]),
     ("200ページ計画・第1期の品質監査", [sys.executable, "scripts/audit_seo_phase1.py"]),
     ("200ページ計画・第3期の品質監査", [sys.executable, "scripts/audit_seo_phase3.py"]),

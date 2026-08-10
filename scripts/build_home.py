@@ -262,7 +262,7 @@ def build() -> str:
 <div class="home-shortcuts" aria-label="読み物とよくある質問">
 <a class="home-blog-shortcut" href="/discover/">
 <span class="home-blog-shortcut-icon" aria-hidden="true">📚</span>
-<span><strong>静岡県森町を深く知る100ガイド</strong><small>食・観光・交通・滞在・住まいを、一次情報から読み解く</small></span>
+<span><strong>静岡県森町を深く知る200ガイド</strong><small>食・観光・交通・手続き・子育て・防災を、検索と分類から探せる</small></span>
 <span class="home-blog-shortcut-arrow" aria-hidden="true">→</span>
 </a>
 <a class="home-blog-shortcut" href="/blog/">
