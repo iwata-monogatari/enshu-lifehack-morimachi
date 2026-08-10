@@ -16,6 +16,7 @@ DECISIONS = ROOT / "data" / "seo-phase3-decisions.json"
 PUBLICATION = ROOT / "data" / "seo-phase3-publication.json"
 LINK_START = "<!-- SEO-PHASE3-LINKS:START -->"
 LINK_END = "<!-- SEO-PHASE3-LINKS:END -->"
+SACRED_DETAIL_PREFIXES = ("/shrine/shrines/", "/temple/temples/")
 
 loader = importlib.util.spec_from_file_location("full", ROOT / "scripts" / "build_seo_full_expansion.py")
 full = importlib.util.module_from_spec(loader)
@@ -102,8 +103,9 @@ def main() -> None:
     full.TOPIC_TITLES = keywords
     full.OFFICIAL.update(OFFICIAL)
     full.FIELDWORK.update(FIELDWORK)
-    rendered = {s[0] for s in SPECS}
-    for spec in SPECS:
+    active_specs = [s for s in SPECS if not s[0].startswith(SACRED_DETAIL_PREFIXES)]
+    rendered = {s[0] for s in active_specs}
+    for spec in active_specs:
         path = ROOT / spec[0].strip("/") / "index.html"
         path.parent.mkdir(parents=True, exist_ok=True)
         html = full.render(spec)
@@ -134,6 +136,8 @@ def main() -> None:
         if row["decision"] not in {"CREATE", "EXPAND_EXISTING"}:
             continue
         url = row["final_url"]
+        if url.startswith(SACRED_DETAIL_PREFIXES):
+            continue
         if url in seen:
             continue
         seen.add(url)

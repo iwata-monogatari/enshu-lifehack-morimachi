@@ -86,6 +86,11 @@ def main() -> None:
     for old_image, new_figure in REPLACEMENTS.items():
         source = replace_figure(source, old_image, new_figure)
 
+    source = source.replace(
+        "公式発表が見つからない可変情報は未確認として残します。",
+        "公式発表が見つからない可変情報は掲載を見送り、根拠を確認できた時点で更新します。",
+    )
+
     source = re.sub(
         r'(<meta property="og:image" content=")[^"]+("[^>]*>)',
         rf"\g<1>{IMAGE_URL}\g<2>",

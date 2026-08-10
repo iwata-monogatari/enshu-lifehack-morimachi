@@ -165,7 +165,6 @@ def main():
         rows.append('<div class="ih-row"><span class="ih-key">鎮座地</span><span class="ih-val">%s</span></div>' % esc(s["address"]))
         if d:
             rows.append('<div class="ih-row"><span class="ih-key">地区</span><span class="ih-val"><a href="/shrine/areas/%s/">%s</a></span></div>' % (d["slug"], esc(d["name"])))
-        rows.append('<div class="ih-row"><span class="ih-key">系統</span><span class="ih-val"><a href="/shrine/systems/%s/">%s</a></span></div>' % (s["system"], esc(sys_meta[s["system"]]["label"])))
         if s.get("saijin"):
             rows.append('<div class="ih-row"><span class="ih-key">御祭神</span><span class="ih-val">%s</span></div>' % esc("・".join(s["saijin"])))
         if s.get("tel"):
@@ -173,11 +172,24 @@ def main():
         if s.get("official_url"):
             rows.append('<div class="ih-row"><span class="ih-key">公式サイト</span><span class="ih-val"><a href="%s" target="_blank" rel="noopener">%s</a></span></div>' % (esc(s["official_url"]), esc(s["official_url"])))
 
-        body = ['<aside class="instant-header" aria-label="基本情報"><p class="ih-title">基本情報</p>%s</aside>' % "".join(rows)]
+        body = ['<div class="sacred-place-guide" data-content-quality="human-readable">']
+        body.append('<aside class="instant-header" aria-label="基本情報"><p class="ih-title">基本情報</p>%s</aside>' % "".join(rows))
+
+        saijin_text = "・".join(s.get("saijin") or [])
+        body.append('<section><h2 class="sec">%sについて</h2>' % esc(s["name"]))
+        body.append('<p>%sは、%sに鎮座する神社です。読みは「%s」です。静岡県神社庁の公開情報で、社名と所在地を確認できます。</p>'
+                    % (esc(s["name"]), esc(s["address"]), esc(s["name_kana"])))
+        if saijin_text:
+            body.append('<p>御祭神は、同じ公開情報に「%s」と記されています。神名の表記は資料によって異なることがあるため、このページでは出典の文字を尊重しています。</p>' % esc(saijin_text))
+        else:
+            body.append('<p>御祭神については、今回参照した公開情報から確かな表記を得られませんでした。神社名から祭神を推し量ることはせず、分かっている所在地と社名だけを掲載しています。</p>')
+        if s.get("tsusho"):
+            body.append('<p>「%s」という呼び名でも知られています。通称と正式な社名を並べておくと、案内を探すときや問い合わせるときの行き違いを減らせます。</p>' % esc(s["tsusho"]))
+        body.append('</section>')
 
         fl = fest_by_shrine.get(s["slug"], [])
         if fl:
-            body.append('<h2 class="sec">祭礼</h2><div class="official">')
+            body.append('<section><h2 class="sec">祭礼と地域行事</h2><div class="official">')
             for f_ in fl:
                 tag = ""
                 if f_.get("designation_id"):
@@ -186,18 +198,46 @@ def main():
                 elif f_.get("designation_note"):
                     tag = '<span class="fest-badge">%s</span>' % esc(f_["designation_note"])
                 body.append('<p class="mini"><b>%s</b>：%s %s<br>%s</p>' % (esc(f_["name"]), esc(f_["date_label"]), tag, esc(f_["summary"])))
-            body.append('</div><p class="mini"><a href="/shrine/festivals/">森町の祭礼カレンダーを見る</a></p>')
+            body.append('</div><p>ここに記した日付は参照資料の表記です。開催日時、奉納行事、観覧場所、交通規制は年によって変わることがあるため、訪問する年の主催者案内を優先してください。</p>'
+                        '<p class="mini"><a href="/shrine/festivals/">森町の祭礼カレンダーを見る</a></p></section>')
+        else:
+            body.append('<section><h2 class="sec">祭礼の案内について</h2>'
+                        '<p>%sについて、当サイトが参照した資料からは一般向けの祭礼予定を掲載できるだけの情報を得られませんでした。行事の有無や日程を、近隣神社の例や過去の暦から補うことはしていません。</p>'
+                        '<p>祭礼日に訪ねたい場合は、静岡県神社庁の掲載ページや地域の最新案内をご覧ください。地域の行事は参拝者だけでなく、準備や交通を担う住民の暮らしの中で行われています。</p></section>'
+                        % esc(s["name"]))
+
+        if name_counts[s["name"]] > 1:
+            body.append('<section><h2 class="sec">同名の神社と区別するには</h2>'
+                        '<p>森町には「%s」という同名の神社が複数あります。このページが扱うのは、%sに鎮座する社です。検索結果や地図では、社名だけでなく住所まで照らし合わせてください。</p></section>'
+                        % (esc(s["name"]), esc(s["address"])))
+        else:
+            body.append('<section><h2 class="sec">所在地を確かめて訪ねる</h2>'
+                        '<p>所在地は%sです。駐車場、進入路、公共交通、境内設備については公開資料だけでは分からないため、道路や私有地を臨時の駐車場所として扱わないでください。</p></section>'
+                        % esc(s["address"]))
+
+        body.append('<section><h2 class="sec">参拝するときに大切にしたいこと</h2>'
+                    '<p>%sは地域の信仰の場です。社殿や境内を静かに拝観し、祭礼準備、清掃、祈祷などが行われているときは現地の案内に従ってください。建物の内部や祭具は、許可なく撮影しないことが基本です。</p>'
+                    '<p>このページは%sの開門時間、授与品、祈祷受付、駐車可否を保証するものではありません。目的がある参拝では、公式サイトや掲載先がある場合に最新情報を確かめてから出発すると安心です。</p></section>'
+                    % (esc(s["name"]), esc(s["name"])))
+
+        if d:
+            body.append('<section><h2 class="sec">%s地区の中で見る</h2>'
+                        '<p>%sは森町の%s地区にあります。地区ページでは、同じ地域に鎮座する神社をまとめて見られます。社ごとの由緒を一つにまとめず、所在地と出典を分けて読むための入口です。</p>'
+                        '<p><a href="/shrine/areas/%s/">%s地区の神社を見る</a> ／ '
+                        '<a href="/shrine/systems/%s/">御祭神から「%s」の神社を探す</a></p></section>'
+                        % (esc(d["name"]), esc(s["name"]), esc(d["name"]), d["slug"], esc(d["name"]),
+                           s["system"], esc(sys_meta[s["system"]]["label"])))
 
         same = [x for x in by_district[s["district_id"]] if x["slug"] != s["slug"]]
         if same:
-            body.append('<h2 class="sec">%s地区のほかの神社</h2><div class="shrine-list">%s</div>'
+            body.append('<section><h2 class="sec">%s地区のほかの神社</h2><div class="shrine-list">%s</div></section>'
                         % (esc(dmeta[s["district_id"]]["name"]), "".join(shrine_card(x) for x in same[:12])))
 
-        body.append('<h2 class="sec">出典</h2><ul class="post-sources">')
+        body.append('<section><h2 class="sec">出典と更新日</h2><ul class="post-sources">')
         for src in s["sources"]:
             body.append('<li><a href="%s" target="_blank" rel="noopener">%s</a>（%s）</li>' % (esc(src["url"]), esc(src["title"]), esc(src.get("note", ""))))
-        body.append("</ul>")
-        body.append('<p class="mini">本ページは静岡県神社庁の掲載情報から、社名・鎮座地・御祭神・祭礼日などの事実項目を整理したものです。由緒の本文は転載していません。</p>')
+        body.append('<li><a href="https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunkazai/index.html" target="_blank" rel="noopener">森町 文化財情報</a>（町内の文化財に関する公式案内）</li>')
+        body.append('</ul><p>基本情報の確認日は%sです。由緒本文の転載や、資料にない設備・行事の補完はしていません。神社または関係者から訂正の連絡をいただいた場合は、出典とともに更新します。</p></section></div>' % esc(s["last_verified_at"]))
 
         # 森町には同名の神社が複数ある（八幡神社5社・神明神社3社など）。
         # title と description が重複しないよう、鎮座地まで含めて区別する。
@@ -205,6 +245,7 @@ def main():
         lead = "%s（%s）は、%sに鎮座する神社です。" % (s["name"], s["name_kana"], addr_short)
         if s.get("saijin"):
             lead += "御祭神は%s。" % "・".join(s["saijin"])
+        lead += "所在地、祭礼の公開情報、地域との関わり、参拝時に守りたいことを一次資料に沿って整理します。"
         generated.append(write("shrines/%s" % s["slug"], shell(
             "/shrine/shrines/%s/" % s["slug"], "⛩️",
             ("%s（%s）｜%s" % (s["name"], s["name_kana"], addr_short)

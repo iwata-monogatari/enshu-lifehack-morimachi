@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """2026-08-09版200検索意図を、重複を避けた中核ページへ集約して生成する。"""
 from __future__ import annotations
@@ -269,8 +269,13 @@ def build_ledger(topics: list[str]) -> list[dict]:
     return rows
 
 
+def is_sacred_detail(url: str) -> bool:
+    """社寺個別ページは専用DB生成器と専用監査に任せる。"""
+    return url.startswith("/shrine/shrines/") or url.startswith("/temple/temples/")
+
+
 def inject_hub_links() -> None:
-    targets = [s[0] for s in SPECS]
+    targets = [s[0] for s in SPECS if not is_sacred_detail(s[0])]
     path = ROOT / "guide" / "morimachi-complete-guide" / "index.html"
     html = path.read_text(encoding="utf-8")
     block = MARK_START + '<section class="seo-full-expansion"><h2 class="sec">森町をテーマ別に深く調べる</h2><div class="official">' + "".join(f'<a class="official-link" href="{u}">{next(s[1] for s in SPECS if s[0]==u)}</a>' for u in targets) + "</div></section>" + MARK_END
@@ -281,6 +286,8 @@ def inject_hub_links() -> None:
 def audit() -> None:
     texts=[]
     for spec in SPECS:
+        if is_sacred_detail(spec[0]):
+            continue
         path=ROOT/spec[0].strip("/")/"index.html"
         html=path.read_text(encoding="utf-8")
         visible=re.sub(r"<script.*?</script>|<style.*?</style>|<[^>]+>","",html,flags=re.S)
@@ -298,7 +305,7 @@ def audit() -> None:
     missing = [row for row in ledger if not (ROOT / row["final_url"].strip("/") / "index.html").is_file()]
     if missing:
         raise RuntimeError(f"200検索意図に実在しない公開先があります: {missing}")
-    print(f"全期SEO監査: {len(SPECS)}ページ合格 / 最大類似度 {worst[1]:.3f} ({worst[0]})")
+    print(f"全期SEO監査: {len(texts)}ページ合格 / 最大類似度 {worst[1]:.3f} ({worst[0]})")
 
 
 def main() -> None:
@@ -309,6 +316,8 @@ def main() -> None:
     LEDGER.write_text(json.dumps(ledger,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     pub=[]
     for spec in SPECS:
+        if is_sacred_detail(spec[0]):
+            continue
         path=ROOT/spec[0].strip("/")/"index.html"
         path.parent.mkdir(parents=True,exist_ok=True)
         path.write_text(render(spec),encoding="utf-8",newline="\n")
@@ -316,7 +325,7 @@ def main() -> None:
     PUBLICATION.write_text(json.dumps(pub,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     inject_hub_links()
     audit()
-    print(f"200検索意図の公開先確定: {len(ledger)}件 / 新設中核ページ: {len(pub)}件")
+    print(f"200検索意図の公開先確定: {len(ledger)}件 / 新設中核ページ: {len(pub)}件（社寺個別は専用生成）")
 
 
 if __name__ == "__main__": main()

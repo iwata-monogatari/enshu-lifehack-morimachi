@@ -92,6 +92,27 @@ def main() -> None:
     for old_image, new_figure in REPLACEMENTS.items():
         source = replace_figure(source, old_image, new_figure)
 
+    if "yamana-shrine-torii.jpg" not in source:
+        source = source.replace(
+            '<section><h2 class="sec">参拝するときに大切にしたいこと</h2>',
+            REPLACEMENTS["figure-1.svg"]
+            + '<section><h2 class="sec">参拝するときに大切にしたいこと</h2>',
+            1,
+        )
+    if "yamana-shrine-dance-stage.jpg" not in source:
+        source = source.replace(
+            '<section><h2 class="sec">飯田地区の中で見る</h2>',
+            REPLACEMENTS["figure-2.svg"]
+            + '<section><h2 class="sec">飯田地区の中で見る</h2>',
+            1,
+        )
+    if "yamana-shrine-cultural-property-sign.jpg" not in source:
+        source = source.replace(
+            '<section><h2 class="sec">飯田地区の中で見る</h2>',
+            FACT_PHOTO + '<section><h2 class="sec">飯田地区の中で見る</h2>',
+            1,
+        )
+
     source = re.sub(
         r'<img (?!style="width:100%;height:auto")(?=[^>]*src="yamana-shrine-[^"]+\.jpg")',
         '<img style="width:100%;height:auto" ',
