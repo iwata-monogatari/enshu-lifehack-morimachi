@@ -138,10 +138,20 @@ def main():
     phase3 = json.loads(phase3_path.read_text(encoding='utf-8')) if phase3_path.exists() else []
     phase4_path = ROOT / 'data/seo-phase4-publication.json'
     phase4_all = json.loads(phase4_path.read_text(encoding='utf-8')) if phase4_path.exists() else []
+    discover_path = ROOT / 'data/discover-pages.json'
+    discover_all = json.loads(discover_path.read_text(encoding='utf-8')).get('pages', []) if discover_path.exists() else []
+    discover = [p for p in discover_all
+                if p.get('status') == 'published'
+                and p.get('editor_reviewed') is True
+                and p.get('publish_ready') is True
+                and p.get('source_validation') == 'verified'
+                and p.get('uniqueness_validation') == 'verified'
+                and p.get('visual_validation') == 'verified']
     # 第4期は文字数だけで自動公開しない。出典・固有性・表示の各監査を
     # 終え、明示的に公開可としたページだけ検索発見面へ載せる。
     phase4 = [p for p in phase4_all
               if p.get('publish_ready') is True
+              and p.get('human_reviewed') is True
               and p.get('source_validation') == 'verified'
               and p.get('uniqueness_validation') == 'verified'
               and p.get('visual_validation') == 'verified']
@@ -193,6 +203,8 @@ def main():
                   + [p['url'] for p in phase3]
                   + [p['url'] for p in phase4]
                   + phase4_hub_urls
+                  + (['/discover/'] if discover else [])
+                  + [f"/discover/{p['slug']}/" for p in discover]
                   + [f"/blog/{p['slug']}/" for p in sorted(blog, key=lambda x: x['date'], reverse=True)]
                   + section_urls)
 
@@ -224,6 +236,9 @@ def main():
     phase3_dates = {p['url']: p.get('fact_checked_at') or p.get('generated_at') for p in phase3}
     phase4_dates = {p['url']: p.get('fact_checked_at') or p.get('generated_at') for p in phase4}
     phase4_hub_dates = {url: today for url in phase4_hub_urls}
+    discover_dates = {f"/discover/{p['slug']}/": p.get('updated_at') or p.get('fact_checked_at') for p in discover}
+    if discover:
+        discover_dates['/discover/'] = max(filter(None, discover_dates.values()), default=today)
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -242,6 +257,7 @@ def main():
             iso_date_or_none(phase3_dates.get(u)),
             iso_date_or_none(phase4_dates.get(u)),
             iso_date_or_none(phase4_hub_dates.get(u)),
+            iso_date_or_none(discover_dates.get(u)),
             today if rel in dirty else None,
         ) if d]
         lastmod = max(candidates) if candidates else None  # YYYY-MM-DD は辞書順=時系列順

@@ -90,6 +90,8 @@ function main() {
   const fullLedger = fs.existsSync(fullLedgerPath) ? JSON.parse(fs.readFileSync(fullLedgerPath, 'utf8')) : [];
   const phase4Path = path.join(ROOT, 'data/seo-phase4-publication.json');
   const phase4Pages = fs.existsSync(phase4Path) ? JSON.parse(fs.readFileSync(phase4Path, 'utf8')) : [];
+  const discoverPath = path.join(ROOT, 'data/discover-pages.json');
+  const discoverPages = fs.existsSync(discoverPath) ? JSON.parse(fs.readFileSync(discoverPath, 'utf8')).pages : [];
 
   let mergedSkipped = 0;
   const baseIndex = [...topicsMaster, ...auxPages]
@@ -236,7 +238,30 @@ function main() {
       lead: '',
     };
   }).filter(Boolean);
-  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex, ...phase1Index, ...fullIndex, ...phase4Index];
+  const discoverIndex = discoverPages.filter((page) =>
+    page.status === 'published' &&
+    page.editor_reviewed === true &&
+    page.publish_ready === true &&
+    page.source_validation === 'verified' &&
+    page.uniqueness_validation === 'verified' &&
+    page.visual_validation === 'verified'
+  ).map((page) => ({
+    href: `/discover/${page.slug}/`,
+    icon: '📚',
+    title: page.title,
+    category: page.category_label,
+    hub: 'enjoy',
+    kind: '読み物',
+    summary: page.direct_answer.slice(0, 90),
+    keyword: page.primary_keyword,
+    aliases: page.secondary_keywords,
+    needs: [page.intent],
+    department: [],
+    audience: page.audience || [],
+    verified: page.fact_checked_at,
+    lead: page.lead.slice(0, LEAD_MAX_CHARS),
+  }));
+  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex, ...phase1Index, ...fullIndex, ...phase4Index, ...discoverIndex];
 
   const outPath = path.join(ROOT, 'search-index.json');
   const json = JSON.stringify(searchIndex);

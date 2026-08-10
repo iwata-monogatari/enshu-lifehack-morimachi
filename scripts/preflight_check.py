@@ -18,6 +18,7 @@
  14. 空見出し・空セクション
  15. 経過した予定表現
  16. canonical・og:url・サイトマップのパラメータ混入
+ 17. 未公開台帳の隔離（noindex・sitemap・検索・公開ページからのリンク）
 
 終了コード: 致命的な不整合があれば 1
 """
@@ -427,6 +428,59 @@ def check_canonical_params() -> None:
     print(f"   検出 {hits} 件")
 
 
+def check_pending_isolation() -> None:
+    """撤回済み・未承認ページが検索発見面へ戻る事故を止める。"""
+    print("17. 未公開台帳の隔離")
+    phase4_path = ROOT / "data" / "seo-phase4-publication.json"
+    phase4 = json.loads(phase4_path.read_text(encoding="utf-8")) if phase4_path.exists() else []
+    pending = {
+        row["url"] for row in phase4
+        if not (
+            row.get("publish_ready") is True
+            and row.get("human_reviewed") is True
+            and row.get("source_validation") == "verified"
+            and row.get("uniqueness_validation") == "verified"
+            and row.get("visual_validation") == "verified"
+        )
+    }
+    discover_path = ROOT / "data" / "discover-pages.json"
+    if discover_path.exists():
+        discover = json.loads(discover_path.read_text(encoding="utf-8")).get("pages", [])
+        pending |= {
+            f'/discover/{row["slug"]}/' for row in discover
+            if not (
+                row.get("status") == "published"
+                and row.get("editor_reviewed") is True
+                and row.get("publish_ready") is True
+                and row.get("source_validation") == "verified"
+                and row.get("uniqueness_validation") == "verified"
+                and row.get("visual_validation") == "verified"
+            )
+        }
+    sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
+    sitemap_paths = {u.replace(SITE, "") for u in re.findall(r"<loc>([^<]+)</loc>", sitemap)}
+    search_data = json.loads((ROOT / "search-index.json").read_text(encoding="utf-8"))
+    search_paths = {row.get("href") for row in search_data}
+    public = {url: source for url, source in ALL.items()
+              if url not in pending and "noindex" not in source.lower()}
+    links_to_pending = []
+    for source_url, source in public.items():
+        for target in pending:
+            if f'href="{target}"' in source:
+                links_to_pending.append((source_url, target))
+    for target in sorted(pending):
+        source = ALL.get(target, "")
+        if source and "noindex" not in source.lower():
+            err(f"未公開ページにnoindexが無い: {target}")
+        if target in sitemap_paths:
+            err(f"未公開ページがsitemapに混入: {target}")
+        if target in search_paths:
+            err(f"未公開ページが検索indexに混入: {target}")
+    for source_url, target in links_to_pending[:30]:
+        err(f"公開ページから未公開ページへリンク: {source_url} → {target}")
+    print(f"   未公開 {len(pending)} URL / 公開面からのリンク {len(links_to_pending)}")
+
+
 def main() -> None:
     print(f"公開前検査: {len(ALL)} ページ\n")
     check_internal_links()
@@ -444,6 +498,7 @@ def main() -> None:
     check_empty_sections()
     check_temporal_claims()
     check_canonical_params()
+    check_pending_isolation()
 
     print("\n" + "=" * 60)
     if warnings:

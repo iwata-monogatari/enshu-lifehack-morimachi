@@ -260,6 +260,11 @@ def build() -> str:
 森町ライフハックは、<b>静岡県周智郡森町（遠州森町）</b>の暮らしと手続きを整理する案内サイトです。
 <b>森町公式サイトではありません</b>。公式情報を整理し、最後は必ず公式ページへご案内します。</p>
 <div class="home-shortcuts" aria-label="読み物とよくある質問">
+<a class="home-blog-shortcut" href="/discover/">
+<span class="home-blog-shortcut-icon" aria-hidden="true">📚</span>
+<span><strong>静岡県森町を深く知る100ガイド</strong><small>食・観光・交通・滞在・住まいを、一次情報から読み解く</small></span>
+<span class="home-blog-shortcut-arrow" aria-hidden="true">→</span>
+</a>
 <a class="home-blog-shortcut" href="/blog/">
 <span class="home-blog-shortcut-icon" aria-hidden="true">✍️</span>
 <span><strong>森町ブログ</strong><small>大石浩之が書く、森町の暮らしの記事</small></span>

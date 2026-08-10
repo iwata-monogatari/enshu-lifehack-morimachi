@@ -18,3 +18,11 @@ _staging
 _staging/**
 _cache
 _cache/**
+data
+data/**
+scripts
+scripts/**
+work
+work/**
+tests
+tests/**

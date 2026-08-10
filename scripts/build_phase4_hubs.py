@@ -94,7 +94,14 @@ def main() -> None:
         items = [item for item in publication if item["url"].startswith(f"/{theme}/")]
         if not items:
             raise RuntimeError(f"判断ハブへ掲載する記事がありません: {theme}")
-        released = all(item.get("publish_ready") is True and item.get("human_reviewed") is True for item in items)
+        released = all(
+            item.get("publish_ready") is True
+            and item.get("human_reviewed") is True
+            and item.get("source_validation") == "verified"
+            and item.get("uniqueness_validation") == "verified"
+            and item.get("visual_validation") == "verified"
+            for item in items
+        )
         (ROOT / theme / "index.html").write_text(build_hub(theme, items, released), encoding="utf-8", newline="\n")
         counts[theme] = len(items)
     print("第4期判断ハブ生成: " + " / ".join(f"{key} {value}件" for key, value in counts.items()))

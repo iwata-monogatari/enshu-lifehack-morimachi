@@ -1,0 +1,167 @@
+# -*- coding: utf-8 -*-
+"""Fail closed quality audit for the 100 Discover guides."""
+from __future__ import annotations
+
+import json
+import re
+import sys
+import xml.etree.ElementTree as ET
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data" / "discover-pages.json"
+BANNED = (
+    "placeholder", "TODO", "lorem ipsum", "ここに", "架空の体験", "undefined",
+    "本稿で扱う中心は", "これが本稿の結論です", "固有の角度から",
+)
+TITLE_PREFIX = ("静岡県森町", "静岡県周智郡森町", "遠州森町")
+MIN_CHARS = 5000
+MIN_PARAGRAPHS = 35
+
+
+def compact(text: str) -> str:
+    return re.sub(r"\s+", "", text)
+
+
+def fail(errors: list[str], message: str) -> None:
+    errors.append(message)
+
+
+def main() -> None:
+    data = json.loads(DATA.read_text(encoding="utf-8"))
+    rows = data.get("pages", [])
+    errors: list[str] = []
+    if len(rows) != 100:
+        fail(errors, f"台帳は100件必須です: {len(rows)}")
+    slugs = [row.get("slug") for row in rows]
+    if len(set(slugs)) != len(slugs):
+        fail(errors, "slugが重複しています")
+    all_keywords: list[str] = []
+    paragraph_owners: dict[str, list[str]] = {}
+    paragraph_prefixes: dict[str, set[str]] = {}
+    title_starts = Counter()
+    for row in rows:
+        slug = row.get("slug", "(no-slug)")
+        prefix = f"[{slug}]"
+        title = row.get("title", "")
+        if not title.startswith(TITLE_PREFIX):
+            fail(errors, f"{prefix} titleは静岡県森町等で始めてください")
+        title_starts[title[:18]] += 1
+        description = compact(row.get("description", ""))
+        if not 70 <= len(description) <= 135:
+            fail(errors, f"{prefix} descriptionは70〜135字: {len(description)}")
+        keywords = [row.get("primary_keyword", ""), *row.get("secondary_keywords", [])]
+        if len(keywords) != 3 or any(not x for x in keywords):
+            fail(errors, f"{prefix} キーワードは主1＋副2の3語必須")
+        all_keywords.extend(keywords)
+        if row.get("editor_reviewed") is not True or row.get("publish_ready") is not True:
+            fail(errors, f"{prefix} 編集確認・公開可フラグが未完了")
+        for gate in ("source_validation", "uniqueness_validation", "visual_validation"):
+            if row.get(gate) != "verified":
+                fail(errors, f"{prefix} {gate}がverifiedではありません")
+        sections = row.get("body_sections", [])
+        headings = [x.get("heading", "") for x in sections]
+        required_heading_groups = (
+            ("良い点",), ("注文したい点",), ("代案・結論", "対案・結論"), ("大石の視点",),
+        )
+        for alternatives in required_heading_groups:
+            if not any(any(required in h for required in alternatives) for h in headings):
+                fail(errors, f"{prefix} 必須見出しがありません: {' / '.join(alternatives)}")
+        paragraphs = [compact(p) for s in sections for p in s.get("paragraphs", []) if compact(p)]
+        if len(paragraphs) < MIN_PARAGRAPHS:
+            fail(errors, f"{prefix} 段落不足: {len(paragraphs)}")
+        chars = sum(len(p) for p in paragraphs)
+        if chars < MIN_CHARS:
+            fail(errors, f"{prefix} 本文不足: {chars}字")
+        for paragraph in paragraphs:
+            if len(paragraph) >= 35:
+                paragraph_owners.setdefault(paragraph, []).append(slug)
+                paragraph_prefixes.setdefault(paragraph[:28], set()).add(slug)
+        sources = row.get("sources", [])
+        town_urls = {s.get("url") for s in sources if "www.town.morimachi.shizuoka.jp" in s.get("url", "")}
+        if len(town_urls) < 2:
+            fail(errors, f"{prefix} 内容の異なる森町公式URLが2件未満")
+        if len({s.get("url") for s in sources}) != len(sources):
+            fail(errors, f"{prefix} 出典URLが重複")
+        if len(row.get("related_slugs", [])) < 5:
+            fail(errors, f"{prefix} 関連記事は5件以上必須")
+        if any(x == slug or x not in slugs for x in row.get("related_slugs", [])):
+            fail(errors, f"{prefix} 関連slugに自己参照または不明値")
+        if len(row.get("illustrations", [])) != 2:
+            fail(errors, f"{prefix} 図解指定は2点必須")
+        page = ROOT / "discover" / slug
+        html_path = page / "index.html"
+        if not html_path.exists():
+            fail(errors, f"{prefix} index.htmlがありません")
+            continue
+        source = html_path.read_text(encoding="utf-8")
+        if "data-discover-pending" in source or re.search(r'<meta[^>]+name="robots"[^>]+noindex', source, re.I):
+            fail(errors, f"{prefix} 公開記事にnoindexがあります")
+        if len(re.findall(r"<h1[ >]", source)) != 1:
+            fail(errors, f"{prefix} H1は1つ必須")
+        if f'<h1>{title}</h1>' not in source:
+            fail(errors, f"{prefix} H1と台帳titleが不一致")
+        for filename in ("cover.svg", "fig1.svg", "fig2.svg"):
+            asset = page / filename
+            if not asset.exists():
+                fail(errors, f"{prefix} {filename}がありません")
+                continue
+            try:
+                ET.parse(asset)
+            except ET.ParseError as exc:
+                fail(errors, f"{prefix} {filename} XML不正: {exc}")
+        for filename in ("fig1.svg", "fig2.svg"):
+            asset = page / filename
+            if asset.exists() and 'data-illustration="mori-editorial"' not in asset.read_text(encoding="utf-8"):
+                fail(errors, f"{prefix} {filename} 固有図解markerなし")
+        editorial_fields = {
+            "title": row.get("title", ""),
+            "description": row.get("description", ""),
+            "lead": row.get("lead", ""),
+            "direct_answer": row.get("direct_answer", ""),
+            "category_label": row.get("category_label", ""),
+            "cover_alt": row.get("cover_alt", ""),
+            "body_sections": row.get("body_sections", []),
+            "illustrations": row.get("illustrations", []),
+            "source_titles": [s.get("title", "") for s in row.get("sources", [])],
+        }
+        # URL中の文字列（例: *todoke*）をTODOと誤判定しない。
+        visible_source = re.sub(r"<[^>]+>", " ", source)
+        haystack = compact(json.dumps(editorial_fields, ensure_ascii=False)) + compact(visible_source)
+        for banned in BANNED:
+            if banned.lower() in haystack.lower():
+                fail(errors, f"{prefix} 禁止語: {banned}")
+    if len(all_keywords) != 300:
+        fail(errors, f"全キーワードは300語必須: {len(all_keywords)}")
+    duplicate_keywords = [x for x, count in Counter(all_keywords).items() if count > 1]
+    if duplicate_keywords:
+        fail(errors, f"キーワード重複: {duplicate_keywords[:12]}")
+    repeated = [(p, owners) for p, owners in paragraph_owners.items() if len(set(owners)) > 1]
+    if repeated:
+        fail(errors, f"記事間の同一長文段落: {[(x[:30], y) for x, y in repeated[:5]]}")
+    repeated_prefixes = [(prefix, owners) for prefix, owners in paragraph_prefixes.items() if len(owners) >= 3]
+    if repeated_prefixes:
+        fail(errors, f"記事間の量産文頭（3記事以上）: {[(x, sorted(y)[:4]) for x, y in repeated_prefixes[:8]]}")
+    if any(count > 2 for count in title_starts.values()):
+        fail(errors, "タイトル先頭18字の反復が多すぎます")
+    index_path = ROOT / "discover" / "index.html"
+    if not index_path.exists():
+        fail(errors, "/discover/index.htmlがありません")
+    else:
+        index = index_path.read_text(encoding="utf-8")
+        for slug in slugs:
+            if f'/discover/{slug}/' not in index:
+                fail(errors, f"親indexから未到達: {slug}")
+    if errors:
+        print("discover品質監査: 不合格")
+        for message in errors[:120]:
+            print(" - " + message)
+        if len(errors) > 120:
+            print(f" ...ほか{len(errors) - 120}件")
+        sys.exit(1)
+    print("discover品質監査: 合格（100ページ / 300固有キーワード）")
+
+
+if __name__ == "__main__":
+    main()

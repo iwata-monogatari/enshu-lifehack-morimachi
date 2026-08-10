@@ -245,7 +245,7 @@ def process(path: Path) -> dict[str, bool]:
         flags["top"] = True
     else:
         items = breadcrumb_items(html, url_path, title)
-        if items:
+        if items and "BreadcrumbList" not in bare:
             blocks.append(breadcrumb_jsonld(items))
             flags["breadcrumb"] = True
         if url_path in PRIORITY_PAGES:

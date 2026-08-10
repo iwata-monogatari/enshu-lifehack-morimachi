@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">静岡県森町の年間イベントカレンダー｜花・祭り・初詣を当年情報で選ぶの表紙</title><desc id="desc">年間行事・祭り・季節の花を、遠州森町の山並みと川を背景に描いた編集イラスト。</desc>
+<rect width="1200" height="630" fill="#fffaf0"/><path d="M0 330Q180 190 350 305T700 270T1200 300V630H0Z" fill="#dcebdd"/>
+<path d="M0 430Q210 330 410 420T820 385T1200 420V630H0Z" fill="#183f35" opacity=".92"/>
+<path d="M0 525Q260 465 520 520T900 495T1200 520" fill="none" stroke="#f4b942" stroke-width="18" opacity=".9"/>
+<circle cx="1035" cy="122" r="63" fill="#f4b942"/><path d="M88 86h710" stroke="#183f35" stroke-width="4"/>
+<g transform="translate(880 310)"><ellipse cx="110" cy="62" rx="48" ry="72" transform="rotate(0 110 62)" fill="#f4b942" opacity=".9"/><ellipse cx="172" cy="62" rx="48" ry="72" transform="rotate(55 172 62)" fill="#f4b942" opacity=".9"/><ellipse cx="234" cy="62" rx="48" ry="72" transform="rotate(110 234 62)" fill="#f4b942" opacity=".9"/><ellipse cx="110" cy="128" rx="48" ry="72" transform="rotate(165 110 128)" fill="#f4b942" opacity=".9"/><ellipse cx="172" cy="128" rx="48" ry="72" transform="rotate(220 172 128)" fill="#f4b942" opacity=".9"/><ellipse cx="234" cy="128" rx="48" ry="72" transform="rotate(275 234 128)" fill="#f4b942" opacity=".9"/><circle cx="170" cy="130" r="34" fill="#183f35"/></g>
+<text x="88" y="70" font-family="sans-serif" font-size="28" fill="#183f35" letter-spacing="3">静岡県周智郡森町｜年間行事・祭り・季節の花</text>
+<foreignObject x="82" y="112" width="875" height="245"><div xmlns="http://www.w3.org/1999/xhtml" style="font:700 54px/1.38 sans-serif;color:#183f35;">静岡県森町の年間イベントカレンダー｜花・祭り・初詣を当年情報で選ぶ</div></foreignObject>
+<text x="88" y="592" font-family="sans-serif" font-size="25" fill="#fff">森町ライフハック　現地判断ガイド</text>
+</svg>
