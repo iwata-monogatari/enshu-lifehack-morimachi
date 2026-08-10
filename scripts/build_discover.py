@@ -20,9 +20,92 @@ DATA = ROOT / "data" / "discover-pages.json"
 OUT = ROOT / "discover"
 VERIFIED = "verified"
 
+LISTING_TABS = [
+    ("parenting", "子育て・学び", ("妊娠・子育て手続", "学校・就学・家庭記録", "子育て・教育")),
+    ("tourism", "観光・レジャー", ("小國神社・ことまち横丁", "アクティ森・自然体験", "花・祭り・文化", "森町観光・暮らし")),
+    ("transport", "交通・おでかけ", ("交通・宿泊・行程", "交通・外出・生活動線")),
+    ("admin", "行政・税金", ("行政手続・証明書", "行政手続・暮らし", "税金・不動産", "税金・納付")),
+    ("disaster", "防災・安全", ("防災・家族の備え", "防災・安全")),
+    ("health", "健康・医療", ("健康・医療・保険", "健康・医療")),
+    ("food", "食・買い物", ("食・お茶・買い物",)),
+    ("housing", "住まい・移住", ("住まい・土地・移住",)),
+]
+TAB_BY_CATEGORY = {category: (key, label) for key, label, categories in LISTING_TABS for category in categories}
+
+PICKUP_SLUGS = [
+    "oguni-shrine-autumn-leaves",
+    "morimachi-lunch-complete-guide",
+    "acty-mori-complete-guide",
+    "kotomachi-yokocho-complete-guide",
+    "enshu-morimachi-pa-up",
+    "morimachi-childcare-support",
+    "morimachi-disaster-map",
+    "morimachi-moving-in-procedures",
+]
+
+POPULAR_SLUGS = [
+    "oguni-shrine-autumn-leaves",
+    "morimachi-lunch-complete-guide",
+    "acty-mori-complete-guide",
+    "kotomachi-yokocho-complete-guide",
+    "morimachi-disaster-map",
+]
+
+POPULAR_KEYWORDS = ["小國神社", "子育て", "防災", "アクティ森", "移住", "お茶", "マイナンバー", "交通"]
+
 
 def e(value: object) -> str:
     return html.escape(str(value), quote=True)
+
+
+def listing_tab(row: dict) -> tuple[str, str]:
+    category = row.get("broad_category", "")
+    if category not in TAB_BY_CATEGORY:
+        raise ValueError(f"一覧8分類へ未割当のカテゴリです: {category} ({row.get('slug')})")
+    return TAB_BY_CATEGORY[category]
+
+
+def short_title(row: dict) -> str:
+    """Create a compact, readable listing label without changing the article H1."""
+    text = row["title"].split("｜", 1)[0]
+    text = re.sub(r"^静岡県周智郡森町[・のではへをから]*", "", text)
+    text = re.sub(r"^静岡県森町[・のではへをから]*", "", text)
+    text = re.sub(r"^遠州森町[・のではへをから]*", "", text)
+    text = text.strip(" ・｜")
+    replacements = (
+        ("マイナンバーカード", "マイナカード"),
+        ("国民健康保険", "国保"),
+        ("確認する方法", "確認"),
+        ("確認する", "確認"),
+        ("ガイド", "案内"),
+        ("チェックリスト", "確認表"),
+        ("モデルコース", "コース"),
+        ("インターネット", "ネット"),
+        ("ハザードマップ", "防災地図"),
+        ("子どもの", "子ども"),
+        ("するとき", "時"),
+        ("する前に", "前の"),
+        ("したとき", "時"),
+        ("について", ""),
+    )
+    for old, new in replacements:
+        text = text.replace(old, new)
+    text = re.sub(r"[「」『』・／/ ]+", "", text)
+    text = re.sub(r"(を|が|で|へ|から|まで|には)$", "", text)
+    if len(text) < 5:
+        text = row.get("primary_keyword", text)
+        text = re.sub(r"静岡県|周智郡|森町|[「」『』・／/ 　]", "", text)
+        for old, new in replacements:
+            text = text.replace(old, new)
+    if len(text) <= 15:
+        return text
+
+    # Prefer a complete phrase before a Japanese particle instead of cutting a word.
+    for marker in ("を", "へ", "で", "から", "時", "前", "後", "と", "の"):
+        prefix = text.split(marker, 1)[0]
+        if 7 <= len(prefix) <= 15:
+            return prefix
+    return text[:14].rstrip("をがでへとの") + "…"
 
 
 def released(row: dict) -> bool:
@@ -168,28 +251,73 @@ def index_html(rows: list[dict]) -> str:
     published = [row for row in rows if released(row)]
     published_count = len(published)
     keyword_count = published_count * 3
-    groups: dict[str, list[dict]] = {}
-    for row in published:
-        groups.setdefault(row.get("broad_category", row["category_label"]), []).append(row)
-    category_counts = Counter(row.get("broad_category", row["category_label"]) for row in published)
-    chips = ['<button class="filter-chip is-active" type="button" data-category="all" aria-pressed="true">すべて <span>' + str(len(published)) + '</span></button>']
-    for category, count in sorted(category_counts.items(), key=lambda item: (-item[1], item[0])):
-        chips.append(f'<button class="filter-chip" type="button" data-category="{e(category)}" aria-pressed="false">{e(category)} <span>{count}</span></button>')
-    sections = []
-    for category, items in sorted(groups.items()):
-        cards = []
-        for x in sorted(items, key=lambda row: row["title"]):
-            _, media = hero_media(x, card=True)
-            search_text = " ".join([x["title"], x["description"], x["primary_keyword"], *x["secondary_keywords"], *x.get("audience", [])])
-            cards.append(f'<li class="discover-card" data-category="{e(category)}" data-search="{e(search_text.lower())}"><a href="/discover/{e(x["slug"])}/"><span class="card-media">{media}</span><span class="card-copy"><small>{e(x["category_label"])}</small><strong>{e(x["title"])}</strong><span>{e(x["description"])}</span><em>{e(x["primary_keyword"])}</em></span></a></li>')
-        sections.append(f'<section class="discover-section" data-section-category="{e(category)}"><h2>{e(category)} <span>{len(items)}本</span></h2><ul class="discover-grid">{"".join(cards)}</ul></section>')
+    by_slug = {row["slug"]: row for row in published}
+    missing_categories = sorted({row.get("broad_category", "") for row in published} - set(TAB_BY_CATEGORY))
+    if missing_categories:
+        raise ValueError(f"一覧8分類へ未割当のカテゴリがあります: {missing_categories}")
+
+    tab_counts = Counter(listing_tab(row)[0] for row in published)
+    tabs = [f'<button class="guide-tab is-active" type="button" role="tab" aria-selected="true" data-tab="all">すべて<span>{published_count}</span></button>']
+    for key, label, _ in LISTING_TABS:
+        tabs.append(f'<button class="guide-tab" type="button" role="tab" aria-selected="false" data-tab="{key}">{e(label)}<span>{tab_counts[key]}</span></button>')
+
+    listing_rows = []
+    for row in sorted(published, key=lambda item: (item.get("published_at", ""), item["id"]), reverse=True):
+        tab_key, tab_label = listing_tab(row)
+        src, _ = hero_media(row, card=True)
+        search_text = " ".join([
+            row["title"], row["description"], row["primary_keyword"], *row["secondary_keywords"],
+            *row.get("audience", []), row.get("category_label", ""), row.get("broad_category", ""), tab_label,
+        ])
+        listing_rows.append({
+            "slug": row["slug"], "title": row["title"], "shortTitle": short_title(row),
+            "description": row["description"], "category": row["category_label"],
+            "tab": tab_key, "tabLabel": tab_label, "image": src,
+            "imageAlt": row.get("cover_alt", row["title"]), "mediaType": "写真" if row.get("hero_photo") else "挿絵",
+            "publishedAt": row.get("published_at", ""), "search": search_text,
+        })
+    listing_json = json.dumps(listing_rows, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+
+    pickup_rows = [by_slug[slug] for slug in PICKUP_SLUGS if slug in by_slug]
+    if len(pickup_rows) != 8:
+        missing = sorted(set(PICKUP_SLUGS) - set(by_slug))
+        raise ValueError(f"今日のピックアップが8件になりません: {missing}")
+    pickup_main = pickup_rows[0]
+    pickup_src, pickup_media = hero_media(pickup_main, card=True)
+    pickup_hero = f'''<a class="pickup-feature" href="/discover/{e(pickup_main["slug"])}/">
+        <span class="pickup-image">{pickup_media}</span><span class="pickup-copy"><small>今日の1本</small>
+        <strong>{e(short_title(pickup_main))}</strong><span>{e(pickup_main["description"])}</span></span></a>'''
+    pickup_links = "".join(
+        f'<li><a href="/discover/{e(row["slug"])}/"><small>{e(listing_tab(row)[1])}</small><span>{e(short_title(row))}</span></a></li>'
+        for row in pickup_rows[1:]
+    )
+
+    popular_rows = [by_slug[slug] for slug in POPULAR_SLUGS if slug in by_slug]
+    if len(popular_rows) != 5:
+        raise ValueError("人気ガイドは5件必要です")
+    popular_links = "".join(
+        f'<li><span>{index}</span><a href="/discover/{e(row["slug"])}/">{e(short_title(row))}</a></li>'
+        for index, row in enumerate(popular_rows, 1)
+    )
+    newest_rows = sorted(published, key=lambda row: (row.get("published_at", ""), row["id"]), reverse=True)[:5]
+    newest_links = "".join(
+        f'<li><time datetime="{e(row.get("published_at", ""))}">{e(row.get("published_at", "").replace("-", "."))}</time><a href="/discover/{e(row["slug"])}/">{e(short_title(row))}</a></li>'
+        for row in newest_rows
+    )
+    keyword_buttons = "".join(f'<button type="button" class="keyword-chip" data-keyword="{e(word)}">{e(word)}</button>' for word in POPULAR_KEYWORDS)
+    noscript_links = "".join(f'<li><a href="/discover/{e(row["slug"])}/">{e(row["title"])}</a></li>' for row in published)
     collection = {"@type": "CollectionPage", "name": f"静岡県森町を深く知る{published_count}ガイド", "url": "https://morimachi.enshu-lifehack.com/discover/", "mainEntity": {"@type": "ItemList", "numberOfItems": published_count, "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f'https://morimachi.enshu-lifehack.com/discover/{x["slug"]}/', "name": x["title"]} for i, x in enumerate(published)]}}
     breadcrumb = {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "静岡県森町ライフハック", "item": "https://morimachi.enshu-lifehack.com/"},
         {"@type": "ListItem", "position": 2, "name": f"静岡県森町{published_count}ガイド", "item": "https://morimachi.enshu-lifehack.com/discover/"},
     ]}
     schema = {"@context": "https://schema.org", "@graph": [collection, breadcrumb]}
-    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>静岡県森町を深く知る{published_count}ガイド｜検索・分類対応</title><meta name="description" content="静岡県周智郡森町の観光、食、交通、子育て、健康、防災、行政手続、住まいを検索・分類から探せる{published_count}本の長文ガイドです。{keyword_count}の固有キーワードを一次情報と判断順に沿って解説します。"><link rel="canonical" href="https://morimachi.enshu-lifehack.com/discover/"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260810"><link rel="stylesheet" href="/assets/discover.css?v=20260810"><script defer src="/assets/discover.js?v=20260810"></script><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-index"><!-- PART:header:START --><!-- PART:header:END --><!-- PART:disclaimer:START --><!-- PART:disclaimer:END --><main><div class="wrap"><nav class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {published_count}ガイド</nav><header class="hero"><p class="eyebrow">100の質問とは別の、読み応えある編集ガイド</p><h1>静岡県森町を深く知る{published_count}ガイド</h1><p class="lead">観光・食・交通から、子育て・健康・防災・行政手続・住まいまで、公式情報、良い点、注文したい点、代案を一つの記事で読み切れる形にしました。検索欄と分類ボタンから目的の記事を絞れます。</p><p class="publication-count">現在公開中：<strong>{published_count}本</strong>／固有キーワード <strong>{keyword_count}語</strong></p></header><section class="discover-tools" aria-labelledby="guide-search-title"><h2 id="guide-search-title">目的のガイドを探す</h2><label for="discover-search">キーワード検索</label><div class="search-row"><input id="discover-search" type="search" autocomplete="off" placeholder="例：小國神社、保育料、バス、防災"><button id="discover-clear" type="button">クリア</button></div><div class="filter-chips" aria-label="分類で絞り込む">{''.join(chips)}</div><p id="discover-result" class="result-count" aria-live="polite">{published_count}件を表示中</p></section><div id="discover-empty" class="discover-empty" hidden><h2>該当するガイドがありません</h2><p>言葉を短くするか、「すべて」を選んで再検索してください。</p></div><div id="discover-results">{''.join(sections)}</div></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
+    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>静岡県森町を深く知る{published_count}ガイド｜検索・8分類対応</title><meta name="description" content="静岡県周智郡森町の観光、食、交通、子育て、健康、防災、行政手続、住まいを検索と8分類から探せる{published_count}本の長文ガイドです。{keyword_count}の固有キーワードを一次情報と判断順に沿って解説します。"><link rel="canonical" href="https://morimachi.enshu-lifehack.com/discover/"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260810"><link rel="stylesheet" href="/assets/discover.css?v=20260810b"><script defer src="/assets/discover.js?v=20260810b"></script><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-index"><!-- PART:header:START --><!-- PART:header:END --><!-- PART:disclaimer:START --><!-- PART:disclaimer:END --><main><div class="wrap"><nav class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {published_count}ガイド</nav><header class="discover-hero"><p class="eyebrow">公式情報を、暮らしと訪問の判断順に</p><h1>静岡県森町の実用ガイド</h1><p>知りたいことを検索するか、8つの分類から選んでください。記事本文とURLはそのままに、{published_count}本を探しやすく整理しました。</p><p class="publication-count"><strong>{published_count}本</strong>公開中／固有キーワード <strong>{keyword_count}語</strong></p></header>
+<section class="discover-tools" aria-labelledby="guide-search-title"><h2 id="guide-search-title">目的のガイドを探す</h2><label for="discover-search">キーワード検索</label><div class="search-row"><input id="discover-search" type="search" autocomplete="off" inputmode="search" placeholder="例：小國神社、保育料、バス、防災"><button id="discover-clear" type="button">クリア</button></div><div class="popular-keywords" aria-label="よく探されるキーワード"><span>人気の検索</span>{keyword_buttons}</div><div class="guide-tabs" role="tablist" aria-label="8分類で絞り込む">{''.join(tabs)}</div></section>
+<section class="pickup" aria-labelledby="pickup-title"><div class="section-heading"><p>迷ったときの入口</p><h2 id="pickup-title">今日のピックアップ</h2></div><div class="pickup-grid">{pickup_hero}<ul class="pickup-list">{pickup_links}</ul></div></section>
+<div class="discover-layout"><div class="discover-main"><div class="list-heading"><div><p id="discover-current-tab">すべての分類</p><h2>ガイド一覧</h2></div><p id="discover-result" class="result-count" aria-live="polite">{published_count}件中10件を表示</p></div><ul id="discover-list" class="guide-list" aria-live="polite"></ul><div id="discover-empty" class="discover-empty" hidden><h2>該当するガイドがありません</h2><p>別の言葉で探すか、下の候補から選んでください。</p><ul id="discover-suggestions"></ul><button id="discover-reset" type="button">すべてのガイドへ戻る</button></div><button id="discover-more" class="load-more" type="button">もっと見る <span>次の20件</span></button></div>
+<aside class="discover-sidebar" aria-label="人気と新着のガイド"><section><h2>人気ガイド TOP5</h2><ol class="ranking-list">{popular_links}</ol></section><section><h2>新着ガイド</h2><ul class="newest-list">{newest_links}</ul></section><p class="sidebar-note">料金・日程・制度は更新されることがあります。各記事の公式確認先で最新情報をご確認ください。</p></aside></div>
+<noscript><section class="noscript-guides"><h2>全{published_count}ガイド</h2><p>一覧の検索・絞り込みにはJavaScriptを使用します。無効の場合はこちらから選べます。</p><ul>{noscript_links}</ul></section></noscript><script id="discover-data" type="application/json">{listing_json}</script></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
 
 
 def main() -> None:

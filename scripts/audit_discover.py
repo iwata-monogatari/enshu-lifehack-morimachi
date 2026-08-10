@@ -171,6 +171,43 @@ def main() -> None:
         for slug in required_index_slugs:
             if f'/discover/{slug}/' not in index:
                 fail(errors, f"親indexから未到達: {slug}")
+        listing_match = re.search(r'<script id="discover-data" type="application/json">(.*?)</script>', index, re.S)
+        if not listing_match:
+            fail(errors, "親indexに遅延描画用discover-dataがありません")
+        else:
+            try:
+                listing = json.loads(listing_match.group(1))
+            except json.JSONDecodeError as exc:
+                fail(errors, f"discover-dataのJSONが不正: {exc}")
+                listing = []
+            if len(listing) != 200 or len({item.get("slug") for item in listing}) != 200:
+                fail(errors, f"一覧データは200固有記事必須: {len(listing)}")
+            short_titles = [item.get("shortTitle", "") for item in listing]
+            bad_short = [title for title in short_titles if not title or len(title) > 15]
+            if bad_short:
+                fail(errors, f"一覧短見出しは1〜15字必須: {bad_short[:8]}")
+            if len(set(short_titles)) != len(short_titles):
+                fail(errors, "一覧短見出しが重複しています")
+            expected_tabs = {
+                "parenting": 42, "tourism": 39, "transport": 28, "admin": 24,
+                "disaster": 23, "health": 21, "food": 15, "housing": 8,
+            }
+            if Counter(item.get("tab") for item in listing) != Counter(expected_tabs):
+                fail(errors, f"8分類の割当件数が不正: {Counter(item.get('tab') for item in listing)}")
+        tab_buttons = re.findall(r'class="guide-tab(?: is-active)?"', index)
+        if len(tab_buttons) != 9:
+            fail(errors, f"分類タブは「すべて」＋8分類の9個必須: {len(tab_buttons)}")
+        for required_id in ("discover-search", "discover-clear", "discover-list", "discover-more", "discover-empty", "discover-suggestions"):
+            if f'id="{required_id}"' not in index:
+                fail(errors, f"一覧UI要素がありません: {required_id}")
+        if index.count('class="pickup-feature"') != 1 or index.count('class="pickup-list"') != 1:
+            fail(errors, "今日のピックアップ構造が不正です")
+        if len(re.findall(r'class="keyword-chip"', index)) not in range(6, 9):
+            fail(errors, "人気キーワードは6〜8個必須です")
+        if index.count('class="guide-list-item"') > 20:
+            fail(errors, "初期HTMLの記事一覧は20件以下にしてください")
+        if index.count('class="ranking-list"') != 1 or index.count('class="newest-list"') != 1:
+            fail(errors, "人気TOP5または新着5件がありません")
     if errors:
         print("discover品質監査: 不合格")
         for message in errors[:120]:
