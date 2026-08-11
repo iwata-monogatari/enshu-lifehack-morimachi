@@ -10,6 +10,8 @@ from pathlib import Path
 import re
 from urllib.parse import urlparse
 
+from build_seo_phase4 import substantive_facts
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_TARGET = ROOT / "data" / "seo-phase4-enrichment-201-300.json"
@@ -167,6 +169,13 @@ def validate_candidate(row: dict, source: Path) -> dict:
         normalized_facts.append({"statement": statement, "source_url": fact_url})
     normalized["verified_facts"] = normalized_facts
     normalized["sources"] = normalized_sources
+    accepted_facts = substantive_facts(normalized)
+    if len(accepted_facts) < 6:
+        rejected = len(normalized_facts) - len(accepted_facts)
+        raise ValueError(
+            f"{source}: ID{item_id} 実内容の固有事実が6件未満です "
+            f"({len(accepted_facts)}/6、除外{rejected}件)"
+        )
     return normalized
 
 

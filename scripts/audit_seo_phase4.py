@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 """第4期300ページの公開ゲート。"""
 import argparse, json, re, subprocess, sys, xml.etree.ElementTree as ET
-from collections import Counter
+from collections import Counter, defaultdict
+from difflib import SequenceMatcher
 from html import unescape
 from pathlib import Path
 from urllib.parse import urlparse
@@ -49,6 +50,87 @@ def is_verified(row):
 def normalized_identity(value):
     value=visible_text(value).replace('森町ライフハック','').replace('静岡県','')
     return re.sub(r'[^0-9A-Za-zぁ-んァ-ヶ一-龠々ー]+','',value).lower()
+
+def audit_semantic_repetition(paragraphs_by_id, failures):
+    """長文の語句差替え型反復と、記事をまたぐ本文使い回しを検査する。"""
+    minimum_long_chars=80
+    phrase_chars=24
+    long=[]
+    exact_owners=defaultdict(set)
+    for item_id,paragraphs in paragraphs_by_id.items():
+        long_in_article=[]
+        phrase_paragraphs=defaultdict(list)
+        for index,text in enumerate(paragraphs):
+            normalized=re.sub(r'\s+','',text)
+            if len(normalized) < minimum_long_chars:
+                continue
+            long.append((item_id,index,normalized))
+            long_in_article.append(normalized)
+            exact_owners[normalized].add(item_id)
+            # 段落境界をまたいだ一致や、一段落内の重複窓は数えない。
+            for phrase in set(normalized[pos:pos+phrase_chars]
+                              for pos in range(len(normalized)-phrase_chars+1)):
+                phrase_paragraphs[phrase].append(normalized)
+        repeated=[]
+        for phrase,owners in phrase_paragraphs.items():
+            count=len(owners); ratio=count/max(1,len(long_in_article))
+            if count < 8 or ratio < 0.20:
+                continue
+            # 中心語を必要な箇所で使う記事を誤検知せず、同じ文型まで本文を支配する場合だけ止める。
+            pair_ratios=[
+                SequenceMatcher(None,left,right,autojunk=False).ratio()
+                for left_index,left in enumerate(owners)
+                for right in owners[left_index+1:]
+            ]
+            family_similarity=sum(pair_ratios)/max(1,len(pair_ratios))
+            if family_similarity >= 0.90:
+                repeated.append((count,ratio,family_similarity,phrase))
+        if repeated:
+            count,ratio,family_similarity,phrase=max(repeated)
+            failures.append(
+                '記事内で24文字以上の同一句が本文を支配: '
+                f'ID {item_id} {count}段落/{len(long_in_article)} ({ratio:.1%}, 文型類似{family_similarity:.1%})'
+                f'「{phrase[:36]}」'
+            )
+
+    cross_article=[(text,owners) for text,owners in exact_owners.items() if len(owners) >= 2]
+    if cross_article:
+        text,owners=max(cross_article,key=lambda item:(len(item[1]),len(item[0])))
+        failures.append(
+            '同一長文段落が複数記事で反復: '
+            f'IDs {",".join(map(str,sorted(owners)))}「{text[:48]}」'
+        )
+
+    if len(long) < 2:
+        return
+    # 12文字片の逆引きで候補を絞る。90%近似する長文は多数の文字片を共有するため、
+    # 全段落総当たりを避けても語句差替え型の反復を取りこぼさない。
+    grams=defaultdict(list)
+    for pos,(item_id,index,text) in enumerate(long):
+        for gram in set(text[i:i+12] for i in range(max(0,len(text)-11))):
+            grams[gram].append(pos)
+    candidate_hits=Counter()
+    for postings in grams.values():
+        if len(postings) < 2 or len(postings) > 40:
+            continue
+        for left_index,left in enumerate(postings):
+            for right in postings[left_index+1:]:
+                if long[left][0] != long[right][0]:
+                    candidate_hits[(left,right)] += 1
+    similar=set()
+    for (left,right),shared_grams in candidate_hits.items():
+        if shared_grams < 2:
+            continue
+        left_text=long[left][2]; right_text=long[right][2]
+        if abs(len(left_text)-len(right_text)) > max(len(left_text),len(right_text))*0.15:
+            continue
+        matcher=SequenceMatcher(None,left_text,right_text,autojunk=False)
+        if matcher.quick_ratio() >= 0.90 and matcher.ratio() >= 0.90:
+            similar.add((long[left][0],long[left][1]))
+            similar.add((long[right][0],long[right][1]))
+    ratio=len(similar)/len(long)
+    if ratio > 0.25:
+        failures.append(f'類似度90%以上の長文段落比率が25%超: {ratio:.1%} ({len(similar)}/{len(long)})')
 
 def audit_existing_duplicates(selected, publication, failures):
     """選択IDと、すでに公開されているページの衝突を検査する。"""
@@ -174,6 +256,7 @@ def main():
     expected_urls={item_id:canonical_url(row) for item_id,row in topics.items()}
     failures=[]
     paragraphs=[]; normalized_paragraphs=[]; faq_questions=[]; svg_structures=set()
+    paragraphs_by_id=defaultdict(list)
     if len(pub)!=300 or len({int(p['id']) for p in pub})!=300 or len({p['url'] for p in pub})!=300:
         failures.append('公開台帳が300固有ID・URLではありません')
     for p in selected_pub:
@@ -210,6 +293,7 @@ def main():
             text=visible_text(fragment)
             if not text: continue
             paragraphs.append(text)
+            paragraphs_by_id[int(p['id'])].append(text)
             normalized=text.replace(p['title'],'').replace(row.get('search_intent',''),'')
             # 主題語だけを引用符内で差し替えた定型段落も同一として検出する。
             normalized=re.sub(r'「[^」]{1,90}」','「固有語」',normalized)
@@ -227,6 +311,7 @@ def main():
     normalized_ratio=sum(v for v in normalized.values() if v>1)/max(1,len(normalized_paragraphs))
     if exact_ratio>0.25: failures.append(f'完全一致段落率が25%超: {exact_ratio:.1%}')
     if normalized_ratio>0.25: failures.append(f'正規化後反復率が25%超: {normalized_ratio:.1%}')
+    audit_semantic_repetition(paragraphs_by_id,failures)
     if args.ids is None and len(set(faq_questions)) < 1100: failures.append(f'FAQ質問の固有数不足: {len(set(faq_questions))}/1200')
     if args.ids is not None and len(set(faq_questions)) != len(faq_questions): failures.append('選択コホート内でFAQ質問が重複しています')
     if args.ids is None and len(svg_structures) < 30: failures.append(f'SVG構造の種類不足: {len(svg_structures)}')

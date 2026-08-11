@@ -3609,13 +3609,13 @@
       "森町の文化財指定を読み解く",
       "森町の文化財について指定区分と確認方法を知りたい"
     ],
-    "editorial_chars": 6424,
+    "editorial_chars": 6592,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 202,
@@ -3879,13 +3879,13 @@
       "森町で地区別人口表の地区名と行政区を照合する",
       "地区別数値を自宅の行政区へ正しく対応させたい"
     ],
-    "editorial_chars": 6441,
+    "editorial_chars": 6737,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 217,
@@ -3969,13 +3969,13 @@
       "森町で住民票の住所と不動産の所在地を別欄で管理する",
       "生活上の住所と登記上の土地建物所在地を混同したくない"
     ],
-    "editorial_chars": 6489,
+    "editorial_chars": 6864,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 222,
@@ -4059,13 +4059,13 @@
       "森町でお悔やみ手続きの受付先を名義別に仕分ける",
       "亡くなった人名義の契約と行政手続きを担当先別に整理したい"
     ],
-    "editorial_chars": 6493,
+    "editorial_chars": 6578,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 227,
@@ -4149,13 +4149,13 @@
       "森町で水道検針票の使用量変化を空き家管理記録にする",
       "無人期間の漏水兆候を検針記録から追いたい"
     ],
-    "editorial_chars": 6436,
+    "editorial_chars": 6847,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 232,
@@ -4257,13 +4257,13 @@
       "森町で道路名・路線番号・管理者を三段階で確認する",
       "家の前の道を通称だけで判断せず管理者まで調べたい"
     ],
-    "editorial_chars": 6459,
+    "editorial_chars": 6469,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 238,
@@ -4311,13 +4311,13 @@
       "森町で法定外公共物の用途廃止資料を読む前の確認順序",
       "赤道や水路に関する申請資料の意味を整理したい"
     ],
-    "editorial_chars": 6447,
+    "editorial_chars": 6095,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 241,
@@ -4347,13 +4347,13 @@
       "森町で土地利用事業の対象面積と事前相談記録を整理する",
       "土地活用案が町への相談対象か検討する材料を揃えたい"
     ],
-    "editorial_chars": 6480,
+    "editorial_chars": 6073,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 243,
@@ -4383,13 +4383,13 @@
       "森町で開発許可と建築確認の相談先を分ける資料表",
       "造成と建築で確認先が異なることを家族で共有したい"
     ],
-    "editorial_chars": 6465,
+    "editorial_chars": 6030,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 245,
@@ -4635,13 +4635,13 @@
       "森町で家財整理で町収集不可品を先に仕分ける",
       "実家片付けで通常収集に出せない物を早期に分けたい"
     ],
-    "editorial_chars": 6449,
+    "editorial_chars": 6109,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 259,
@@ -4797,13 +4797,13 @@
       "森町で駅・バス停・自宅間の家族送迎条件を図にする",
       "公共交通と家族送迎の接続を共有したい"
     ],
-    "editorial_chars": 6414,
+    "editorial_chars": 5442,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 268,
@@ -4869,13 +4869,13 @@
       "森町で服薬・通院・介護連絡先を空き家資料と分離して管理する",
       "介護情報と実家の権利資料を安全に分けて引き継ぎたい"
     ],
-    "editorial_chars": 6495,
+    "editorial_chars": 5499,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 272,
@@ -4941,13 +4941,13 @@
       "森町の遊休農地を家族で整理する",
       "相続した耕作していない農地をどう整理するか知りたい"
     ],
-    "editorial_chars": 6419,
+    "editorial_chars": 5418,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 276,
@@ -5337,13 +5337,13 @@
       "森町で山林の入口・作業道・境界目印を写真地図にする",
       "家族が現地へ行く前に山林への入り方を共有したい"
     ],
-    "editorial_chars": 6456,
+    "editorial_chars": 5404,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 298,
