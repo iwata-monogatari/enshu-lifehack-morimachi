@@ -1,0 +1,1227 @@
+{
+  "checked_at": "2026-08-11",
+  "as_of": "2026-08-11",
+  "sources": [
+    {
+      "id": "acty-home",
+      "name": "トップページ",
+      "url": "https://actymori.co.jp/",
+      "scope": "全体案内",
+      "expected_records": 0,
+      "indexed_records": 0,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-sitemap",
+      "name": "サイトマップ",
+      "url": "https://actymori.co.jp/sitemap",
+      "scope": "恒常ページ一覧",
+      "expected_records": 0,
+      "indexed_records": 0,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-company",
+      "name": "施設概要・周辺案内",
+      "url": "https://actymori.co.jp/company",
+      "scope": "施設種別、周辺宿泊・キャンプ",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-enjoy",
+      "name": "楽しみ方",
+      "url": "https://actymori.co.jp/company/enjoy",
+      "scope": "モデル所要時間",
+      "expected_records": 0,
+      "indexed_records": 0,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-guide",
+      "name": "ご利用ガイド",
+      "url": "https://actymori.co.jp/company/guide",
+      "scope": "受付、予約方法、服装、ペット制限",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-profile",
+      "name": "営業案内",
+      "url": "https://actymori.co.jp/profile",
+      "scope": "営業時間、休業日、入場料、駐車場",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-access",
+      "name": "アクセス",
+      "url": "https://actymori.co.jp/access",
+      "scope": "所在地、電話、車・鉄道、駐車台数",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-guidemap",
+      "name": "園内マップ・設備一覧",
+      "url": "https://actymori.co.jp/guidemap",
+      "scope": "園内設備、支払い、受付場所",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-make",
+      "name": "創作体験",
+      "url": "https://actymori.co.jp/make",
+      "scope": "陶芸、和紙、草木染め、樹脂粘土",
+      "expected_records": 6,
+      "indexed_records": 6,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-play",
+      "name": "アウトドア体験",
+      "url": "https://actymori.co.jp/play",
+      "scope": "自転車、テニス、カヌー、グラウンド・ゴルフ",
+      "expected_records": 4,
+      "indexed_records": 4,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-eat",
+      "name": "食事・BBQ",
+      "url": "https://actymori.co.jp/eat",
+      "scope": "レストラン、軽食、BBQ",
+      "expected_records": 3,
+      "indexed_records": 3,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-shopping",
+      "name": "特産品販売",
+      "url": "https://actymori.co.jp/shopping",
+      "scope": "売店営業時間、取扱品",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-pet",
+      "name": "ペット・ドッグラン",
+      "url": "https://actymori.co.jp/pet",
+      "scope": "利用時間、料金、入場条件",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-booking",
+      "name": "予約一覧",
+      "url": "https://actymori.co.jp/booking",
+      "scope": "予約対象、予約経路",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-booking-ayu",
+      "name": "鮎のつかみ取り予約",
+      "url": "https://actymori.co.jp/booking/booking-post/ayu",
+      "scope": "予約掲載状態",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-booking-sup",
+      "name": "SUP予約",
+      "url": "https://actymori.co.jp/booking/booking-post/booking-sup",
+      "scope": "予約掲載状態",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-faq",
+      "name": "よくある質問",
+      "url": "https://actymori.co.jp/faq",
+      "scope": "年少者、予約、交通の補足条件",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-group",
+      "name": "団体利用",
+      "url": "https://actymori.co.jp/group",
+      "scope": "団体人数、予約期限、定員、取消条件",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "verified",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    }
+  ],
+  "records": [
+    {
+      "id": "acty-facility",
+      "name": "森町体験の里 アクティ森",
+      "categories": [
+        "施設",
+        "体験"
+      ],
+      "facts": [
+        {
+          "label": "営業時間",
+          "value": "9:00～17:30"
+        },
+        {
+          "label": "冬季営業時間",
+          "value": "12月～2月は17:00まで"
+        },
+        {
+          "label": "定休日",
+          "value": "水曜日、年末年始"
+        },
+        {
+          "label": "祝日",
+          "value": "水曜日が祝日の場合は営業し、原則木曜日を休館"
+        },
+        {
+          "label": "入場料",
+          "value": "無料"
+        },
+        {
+          "label": "駐車場",
+          "value": "無料"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/profile",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-access",
+      "name": "アクティ森へのアクセス",
+      "categories": [
+        "アクセス",
+        "施設"
+      ],
+      "facts": [
+        {
+          "label": "所在地",
+          "value": "〒437-0204 静岡県周智郡森町問詰1115-1"
+        },
+        {
+          "label": "電話",
+          "value": "0538-85-0115"
+        },
+        {
+          "label": "遠州森町スマートIC",
+          "value": "車で15分"
+        },
+        {
+          "label": "森掛川IC",
+          "value": "車で15分"
+        },
+        {
+          "label": "袋井IC",
+          "value": "車で30分"
+        },
+        {
+          "label": "掛川IC",
+          "value": "車で40分"
+        },
+        {
+          "label": "普通車",
+          "value": "200台"
+        },
+        {
+          "label": "大型バス",
+          "value": "5台"
+        },
+        {
+          "label": "遠州森駅",
+          "value": "タクシーで15分"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/access",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-reception-guide",
+      "name": "アクティ森の受付・予約方法",
+      "categories": [
+        "利用案内",
+        "予約"
+      ],
+      "facts": [
+        {
+          "label": "体験センター受付",
+          "value": [
+            "陶芸",
+            "吉川和紙",
+            "草木染め",
+            "ポリマークレイ",
+            "ドッグラン",
+            "バーベキュー",
+            "テニス",
+            "SUP",
+            "カヌー",
+            "グラウンド・ゴルフ"
+          ]
+        },
+        {
+          "label": "専用受付",
+          "value": [
+            "マウンテンバイクパーク",
+            "レンタサイクル"
+          ]
+        },
+        {
+          "label": "ネット予約",
+          "value": [
+            "陶芸",
+            "吉川和紙",
+            "草木染め",
+            "ポリマークレイ",
+            "バーベキュー",
+            "テニス"
+          ]
+        },
+        {
+          "label": "問い合わせ予約",
+          "value": [
+            "グラウンド・ゴルフ",
+            "SUP",
+            "カヌー",
+            "ドッグラン貸切",
+            "手ぶらBBQ注文内容"
+          ]
+        },
+        {
+          "label": "ペット制限",
+          "value": [
+            "体験センター",
+            "よんな市",
+            "レストラン",
+            "グラウンド・ゴルフ場",
+            "テニスコート",
+            "BBQ場パーゴラ席付近"
+          ]
+        }
+      ],
+      "source_url": "https://actymori.co.jp/company/guide",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-facilities",
+      "name": "アクティ森の園内設備",
+      "categories": [
+        "施設",
+        "設備"
+      ],
+      "facts": [
+        {
+          "label": "トイレ",
+          "value": [
+            "体験センター内",
+            "レストラン内",
+            "体験センター前駐車場東側",
+            "テニスコート東側"
+          ]
+        },
+        {
+          "label": "車いす",
+          "value": "体験センター受付で無料貸出"
+        },
+        {
+          "label": "おむつ交換台",
+          "value": [
+            "体験センター内",
+            "体験センター駐車場東側トイレ"
+          ]
+        },
+        {
+          "label": "授乳室",
+          "value": "スポーツ体験受付棟"
+        },
+        {
+          "label": "キャッシュレス",
+          "value": [
+            "クレジットカード",
+            "PayPay"
+          ]
+        },
+        {
+          "label": "キャッシュレス対応場所",
+          "value": [
+            "体験センター",
+            "森のよんな市",
+            "レストラン"
+          ]
+        },
+        {
+          "label": "こども広場",
+          "value": [
+            "砂場",
+            "お絵描き黒板",
+            "幼児用滑り台",
+            "輪投げ"
+          ]
+        },
+        {
+          "label": "テニスコート",
+          "value": "2面"
+        },
+        {
+          "label": "グラウンド・ゴルフ場",
+          "value": "18ホール"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/guidemap",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-nearby-stays-camps",
+      "name": "アクティ森周辺の宿泊・キャンプ",
+      "categories": [
+        "周辺施設",
+        "宿泊",
+        "キャンプ"
+      ],
+      "facts": [
+        {
+          "label": "コテージ・アクティ",
+          "value": "アクティ森から車で2分"
+        },
+        {
+          "label": "リバ・ウッド・リゾート",
+          "value": "グランピング、アクティ森から車で5分"
+        },
+        {
+          "label": "吉川キャンプ場カワセミの里",
+          "value": "キャンプ場、アクティ森から車で9分"
+        },
+        {
+          "label": "位置付け",
+          "value": "アクティ森周辺の別施設"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/company#spot",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-pottery-handbuilding",
+      "name": "陶芸 手ひねりコース",
+      "categories": [
+        "創作体験",
+        "陶芸"
+      ],
+      "facts": [
+        {
+          "label": "料金",
+          "value": "1個・粘土1kg以内 2,200円"
+        },
+        {
+          "label": "団体料金",
+          "value": "20名以上 2,000円"
+        },
+        {
+          "label": "所要時間",
+          "value": "1時間30分"
+        },
+        {
+          "label": "予約期限",
+          "value": "Webは24時間前、メールは前日15:59、電話は当日可"
+        },
+        {
+          "label": "定員",
+          "value": "20名"
+        },
+        {
+          "label": "受付枠",
+          "value": [
+            "9:45～11:15",
+            "10:45～12:15",
+            "11:30～13:00",
+            "12:30～14:00",
+            "13:15～14:45",
+            "14:15～15:45",
+            "15:00～16:30",
+            "16:00～17:30"
+          ]
+        },
+        {
+          "label": "作品受取",
+          "value": "約1か月半～2か月後、再来場または着払い宅配"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/make#tehineri_ryoukin",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-pottery-painting",
+      "name": "陶芸 絵付けコース",
+      "categories": [
+        "創作体験",
+        "陶芸"
+      ],
+      "facts": [
+        {
+          "label": "料金",
+          "value": [
+            "湯のみ 1,430円",
+            "茶碗 1,650円",
+            "マグカップ 1,980円",
+            "皿 1,980円"
+          ]
+        },
+        {
+          "label": "団体料金",
+          "value": "20名以上の湯のみ 1,230円"
+        },
+        {
+          "label": "所要時間",
+          "value": "1時間30分"
+        },
+        {
+          "label": "予約期限",
+          "value": "Webは24時間前、メールは前日15:59、電話は当日可"
+        },
+        {
+          "label": "定員",
+          "value": "10名"
+        },
+        {
+          "label": "作品受取",
+          "value": "約1か月半～2か月後、再来場または着払い宅配"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/make#etuke_ryoukin",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-pottery-wheel",
+      "name": "陶芸 電動ろくろコース",
+      "categories": [
+        "創作体験",
+        "陶芸"
+      ],
+      "facts": [
+        {
+          "label": "料金",
+          "value": "1個・粘土2kg以内 3,410円"
+        },
+        {
+          "label": "所要時間",
+          "value": "1時間30分"
+        },
+        {
+          "label": "受付枠",
+          "value": [
+            "9:30～11:00",
+            "10:30～12:00",
+            "13:30～15:00",
+            "14:30～16:00"
+          ]
+        },
+        {
+          "label": "予約期限",
+          "value": "Webは24時間前、メールは前日15:59、電話は当日可"
+        },
+        {
+          "label": "定員",
+          "value": "午前5名、午後5名"
+        },
+        {
+          "label": "作品受取",
+          "value": "約1か月半～2か月後、再来場または着払い宅配"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/make#rokuro_ryoukin",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-washi",
+      "name": "和紙体験",
+      "categories": [
+        "創作体験",
+        "和紙"
+      ],
+      "facts": [
+        {
+          "label": "料金",
+          "value": [
+            "葉すき小 1,100円",
+            "葉すき大 1,320円",
+            "はがき8枚 1,540円",
+            "うちわ 1,540円",
+            "カレンダー 1,870円",
+            "ランプ 3,740円"
+          ]
+        },
+        {
+          "label": "所要時間",
+          "value": "45分"
+        },
+        {
+          "label": "受付枠",
+          "value": [
+            "9:30～10:15",
+            "11:00～11:45",
+            "12:45～13:30",
+            "14:00～14:45",
+            "15:15～16:00"
+          ]
+        },
+        {
+          "label": "予約期限",
+          "value": "Webは24時間前、メールは前日15:59、電話は当日可"
+        },
+        {
+          "label": "定員",
+          "value": "6名"
+        },
+        {
+          "label": "作品受取",
+          "value": "約1時間乾燥後、当日持ち帰り"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/make#washi",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-natural-dyeing",
+      "name": "草木染め",
+      "categories": [
+        "創作体験",
+        "染色"
+      ],
+      "facts": [
+        {
+          "label": "料金",
+          "value": [
+            "ハンカチ 1,540円",
+            "巾着 1,650円",
+            "A4エコバッグ 1,650円",
+            "A3エコバッグ 1,980円",
+            "バンダナ 1,980円",
+            "手ぬぐい 1,980円",
+            "ストール 2,530円"
+          ]
+        },
+        {
+          "label": "所要時間",
+          "value": "45分"
+        },
+        {
+          "label": "受付枠",
+          "value": [
+            "10:00～10:45",
+            "11:15～12:00",
+            "13:00～13:45",
+            "14:30～15:15",
+            "15:45～16:30"
+          ]
+        },
+        {
+          "label": "予約期限",
+          "value": "Webは24時間前、メールは前日15:59、電話は当日可"
+        },
+        {
+          "label": "定員",
+          "value": "9名"
+        },
+        {
+          "label": "作品受取",
+          "value": "当日持ち帰り"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/make#kusakizome",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-polymer-clay",
+      "name": "ポリマークレイ",
+      "categories": [
+        "創作体験",
+        "樹脂粘土"
+      ],
+      "facts": [
+        {
+          "label": "料金",
+          "value": [
+            "自由創作 1,210円",
+            "スプーン小 1,540円",
+            "フォーク小 1,540円",
+            "スプーン大 1,870円"
+          ]
+        },
+        {
+          "label": "所要時間",
+          "value": "45分"
+        },
+        {
+          "label": "予約期限",
+          "value": "Webは24時間前、メールは前日15:59、電話は当日可"
+        },
+        {
+          "label": "定員",
+          "value": "18名"
+        },
+        {
+          "label": "作品受取",
+          "value": "約30分焼成後、当日持ち帰り"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/make#porimakurei",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-mtb-cycle",
+      "name": "マウンテンバイクパーク・レンタサイクル",
+      "categories": [
+        "アウトドア体験",
+        "自転車"
+      ],
+      "facts": [
+        {
+          "label": "コース",
+          "value": "初級から上級まで5コース"
+        },
+        {
+          "label": "未就学児",
+          "value": "超初級コースを利用可"
+        },
+        {
+          "label": "案内先",
+          "value": "Mountain Ride Hub"
+        }
+      ],
+      "related_url": "https://mountain-ride-hub.jp/park/forecha",
+      "source_url": "https://actymori.co.jp/play#rentasaikuru",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-tennis",
+      "name": "レンタルテニスコート",
+      "categories": [
+        "アウトドア体験",
+        "テニス"
+      ],
+      "facts": [
+        {
+          "label": "コート",
+          "value": "砂入り人工芝2面"
+        },
+        {
+          "label": "料金",
+          "value": [
+            "平日1時間 1,430円",
+            "土日祝1時間 1,980円",
+            "森町在住・平日1時間 1,100円",
+            "森町在住・土日祝1時間 1,650円"
+          ]
+        },
+        {
+          "label": "貸出",
+          "value": "ラケット1本110円、ボール2個無料"
+        },
+        {
+          "label": "受付時間",
+          "value": "9:00～16:30、12月～2月は16:00まで"
+        },
+        {
+          "label": "服装",
+          "value": "運動靴、貸靴なし"
+        },
+        {
+          "label": "予約",
+          "value": "インターネットまたは電話を推奨"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/play#tenisu",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-canoe",
+      "name": "カヌー体験",
+      "categories": [
+        "アウトドア体験",
+        "水上体験"
+      ],
+      "facts": [
+        {
+          "label": "開催期間",
+          "value": "4月中旬～9月中旬の土日祝日"
+        },
+        {
+          "label": "料金",
+          "value": "1人2,200円"
+        },
+        {
+          "label": "小学3年生以下",
+          "value": "保護者と2人乗り、追加330円"
+        },
+        {
+          "label": "小学4年生以上の単独乗艇",
+          "value": "保護者同伴が必要"
+        },
+        {
+          "label": "所要時間",
+          "value": "約60分"
+        },
+        {
+          "label": "予約期限",
+          "value": "5営業日前、完全予約制"
+        },
+        {
+          "label": "定員",
+          "value": "6名"
+        },
+        {
+          "label": "持ち物",
+          "value": [
+            "濡れてもよい服装",
+            "着替え",
+            "タオル"
+          ]
+        }
+      ],
+      "source_url": "https://actymori.co.jp/play#kanu",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-ground-golf",
+      "name": "グラウンド・ゴルフ",
+      "categories": [
+        "アウトドア体験",
+        "ゴルフ"
+      ],
+      "facts": [
+        {
+          "label": "料金",
+          "value": [
+            "4時間 440円",
+            "8時間 550円",
+            "貸しクラブ・ボール付 220円"
+          ]
+        },
+        {
+          "label": "コース",
+          "value": "1ラウンド16ホール"
+        },
+        {
+          "label": "受付時間",
+          "value": "9:00～16:30、12月～2月は16:00まで"
+        },
+        {
+          "label": "予約",
+          "value": "個人は不要、団体は必要"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/play#guraund_gorufu",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-restaurant-kawasemi",
+      "name": "森のレストラン かわせみ",
+      "categories": [
+        "食事",
+        "レストラン"
+      ],
+      "facts": [
+        {
+          "label": "席数",
+          "value": "70席"
+        },
+        {
+          "label": "営業時間",
+          "value": "10:00～16:00、ラストオーダー15:00"
+        },
+        {
+          "label": "定休日",
+          "value": "火曜日・水曜日、祝日は営業して別日に休業"
+        },
+        {
+          "label": "団体",
+          "value": "旅行、宴会、法事は予算に応じた食事を相談可"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/eat#kawasemi",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-hakkakuan",
+      "name": "八角庵",
+      "categories": [
+        "食事",
+        "軽食"
+      ],
+      "facts": [
+        {
+          "label": "営業日",
+          "value": "土日祝日"
+        },
+        {
+          "label": "営業時間",
+          "value": "10:00～15:00"
+        },
+        {
+          "label": "商品",
+          "value": "あまごの塩焼き"
+        },
+        {
+          "label": "価格",
+          "value": "700円"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/eat#hakkakuan",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-bbq",
+      "name": "アクティ森 バーベキュー",
+      "categories": [
+        "食事",
+        "バーベキュー"
+      ],
+      "facts": [
+        {
+          "label": "利用時間",
+          "value": "10:00～15:00"
+        },
+        {
+          "label": "手ぶら料金",
+          "value": [
+            "Aコース 2,750円",
+            "Bコース 3,300円",
+            "食事なし・中学生以上 550円"
+          ]
+        },
+        {
+          "label": "手ぶら予約",
+          "value": "5営業日前まで、完全予約制、1区画最低4食"
+        },
+        {
+          "label": "手ぶら取消料",
+          "value": "前日50%、当日100%"
+        },
+        {
+          "label": "場所貸し料金",
+          "value": "8名まで1区画4,400円、4名まで追加可・1人550円"
+        },
+        {
+          "label": "場所貸し器材",
+          "value": "1セット2,200円"
+        },
+        {
+          "label": "場所貸し予約",
+          "value": "利用日前日まで、完全予約制"
+        },
+        {
+          "label": "屋根",
+          "value": "全席あり"
+        },
+        {
+          "label": "ペット",
+          "value": "同伴不可"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/eat#bbq",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-yonnaichi",
+      "name": "森のよんな市",
+      "categories": [
+        "売店",
+        "特産品"
+      ],
+      "facts": [
+        {
+          "label": "営業時間",
+          "value": "9:30～16:00"
+        },
+        {
+          "label": "取扱例",
+          "value": [
+            "梅衣",
+            "みそまんじゅう",
+            "麦こがしまんじゅう アクティ森",
+            "次郎柿ワイン"
+          ]
+        }
+      ],
+      "source_url": "https://actymori.co.jp/shopping#yonnaichi",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-dog-run",
+      "name": "アクティ森 ドッグラン",
+      "categories": [
+        "ペット",
+        "ドッグラン"
+      ],
+      "facts": [
+        {
+          "label": "小・中型犬",
+          "value": "12kg未満"
+        },
+        {
+          "label": "大型犬",
+          "value": "12kg以上"
+        },
+        {
+          "label": "利用枠",
+          "value": "小・中型犬と大型犬を1時間交代"
+        },
+        {
+          "label": "通常料金",
+          "value": "施設利用者は無料"
+        },
+        {
+          "label": "貸切",
+          "value": "1団体33,000円"
+        },
+        {
+          "label": "年少者",
+          "value": "中学生以下は保護者同伴"
+        },
+        {
+          "label": "対象動物",
+          "value": "犬のみ"
+        },
+        {
+          "label": "入場不可",
+          "value": [
+            "1年以内に狂犬病・各種ワクチンを受けていない犬",
+            "発情期の犬",
+            "伝染性の病気の犬"
+          ]
+        },
+        {
+          "label": "受付",
+          "value": "体験センターで同意書記入とメンバーカード発行"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/pet#dogrun",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-ayu-booking",
+      "name": "夏季限定 鮎のつかみ取り",
+      "categories": [
+        "アウトドア体験",
+        "季節体験"
+      ],
+      "facts": [
+        {
+          "label": "掲載状態",
+          "value": "予約一覧に掲載"
+        },
+        {
+          "label": "予約経路",
+          "value": "公式予約ページ"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/booking/booking-post/ayu",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-sup-booking",
+      "name": "SUP",
+      "categories": [
+        "アウトドア体験",
+        "水上体験"
+      ],
+      "facts": [
+        {
+          "label": "予約掲載",
+          "value": "公式予約一覧に掲載"
+        },
+        {
+          "label": "現在の予約カレンダー",
+          "value": "利用不可表示"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/booking/booking-post/booking-sup",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-pattern-golf-booking",
+      "name": "パターゴルフ",
+      "categories": [
+        "アウトドア体験",
+        "ゴルフ"
+      ],
+      "facts": [
+        {
+          "label": "掲載状態",
+          "value": "予約一覧に掲載"
+        },
+        {
+          "label": "案内先",
+          "value": "問い合わせ"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/booking",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-faq-conditions",
+      "name": "アクティ森 FAQ利用条件",
+      "categories": [
+        "利用案内",
+        "予約"
+      ],
+      "facts": [
+        {
+          "label": "見学",
+          "value": "自由"
+        },
+        {
+          "label": "年少者",
+          "value": "保護者が補助すれば電動ろくろ以外を体験可"
+        },
+        {
+          "label": "予約なし",
+          "value": "電動ろくろ以外は空きがあれば可能"
+        },
+        {
+          "label": "要予約",
+          "value": [
+            "カヌー",
+            "レンタルマウンテンバイク"
+          ]
+        },
+        {
+          "label": "公共交通",
+          "value": "遠州森駅から町営バス、便数が少ない"
+        }
+      ],
+      "source_url": "https://actymori.co.jp/faq",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    },
+    {
+      "id": "acty-group-use",
+      "name": "アクティ森 団体利用",
+      "categories": [
+        "団体",
+        "予約"
+      ],
+      "facts": [
+        {
+          "label": "団体料金の基準",
+          "value": "20名以上"
+        },
+        {
+          "label": "基本予約期限",
+          "value": "2週間前"
+        },
+        {
+          "label": "連絡先",
+          "value": "0538-85-0115"
+        },
+        {
+          "label": "陶芸手ひねり定員",
+          "value": "120名"
+        },
+        {
+          "label": "陶芸絵付け定員",
+          "value": "150名"
+        },
+        {
+          "label": "ポリマークレイ定員",
+          "value": "120名"
+        },
+        {
+          "label": "草木染め定員",
+          "value": "20名、ハンカチのみ40名"
+        },
+        {
+          "label": "レストラン最終人数",
+          "value": "3営業日前17時"
+        },
+        {
+          "label": "団体BBQ席数",
+          "value": "144席"
+        },
+        {
+          "label": "取消料発生日",
+          "value": [
+            "体験はなし",
+            "レストランは2日前",
+            "BBQは5日前"
+          ]
+        }
+      ],
+      "source_url": "https://actymori.co.jp/group",
+      "checked_at": "2026-08-11",
+      "as_of": "2026-08-11"
+    }
+  ]
+}

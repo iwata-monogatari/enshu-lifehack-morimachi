@@ -18,6 +18,30 @@ DATA_DIR = ROOT / "data"
 PARTS_DIR = ROOT / "parts"
 OUT = ROOT / "mori-directory" / "index.html"
 SITE = "https://morimachi.enshu-lifehack.com"
+EXTRA_DATA_FILES = (
+    "mori-core-facts.json",
+    "mori-web-discovery.json",
+    "acty-mori-directory.json",
+)
+STATUS_LABELS = {
+    "case-study-claim": "事例記事の掲載値",
+    "current-monthly-value": "月別人口の掲載値",
+    "dated-source-value": "基準日付き掲載値",
+    "document-basis": "資料掲載値",
+    "document-index": "資料目次",
+    "document-release": "資料公開記録",
+    "historical": "沿革資料",
+    "historical-plan-value": "過去計画の掲載値",
+    "interview-claim": "取材記事の掲載内容",
+    "legacy-value": "過去掲載値",
+    "official-link-index": "公式リンク集",
+    "official-page-mention": "公式ページ掲載事項",
+    "page-value-recheck-before-use": "利用前に再確認",
+    "listed-current": "出典掲載中",
+    "secondary-source-indexed": "二次情報源で確認",
+    "source-confirmed": "出典確認済み",
+    "time-estimate": "掲載所要時間",
+}
 
 
 def esc(value: object) -> str:
@@ -167,6 +191,16 @@ def source_links(row: dict) -> list[dict]:
             "label": first(row, "source_name", "website_name") or "公式・確認先",
             "checked_at": first(row, "checked_at", "verified_at", "accessed_at"),
         })
+    raw_source_urls = row.get("source_urls", [])
+    if isinstance(raw_source_urls, list):
+        for value in raw_source_urls:
+            url = clean_url(value)
+            if url:
+                found.append({
+                    "url": url,
+                    "label": first(row, "source_name", "website_name") or "掲載元・確認先",
+                    "checked_at": first(row, "checked_at", "verified_at", "accessed_at"),
+                })
     official_url = clean_url(first(row, "official_url", "official_homepage", "website"))
     if official_url:
         found.append({"url": official_url, "label": "当事者の公式サイト", "checked_at": ""})
@@ -189,6 +223,7 @@ FIELD_MAP = (
     (("access", "交通・行き方"), ("access", "transport")),
     (("season", "時期・季節"), ("season", "best_season")),
     (("reservation", "予約"), ("reservation", "booking")),
+    (("established", "成立・創建年"), ("established_year", "founded_year", "opened_year")),
 )
 
 
@@ -207,7 +242,7 @@ def fact_rows(row: dict) -> list[tuple[str, str]]:
         for fact in facts:
             if not isinstance(fact, dict):
                 continue
-            label = first(fact, "label", "name")
+            label = first(fact, "label", "name", "key")
             value = first(fact, "value", "text")
             as_of = first(fact, "as_of")
             if label and value and label not in used_labels:
@@ -233,7 +268,7 @@ def card(row: dict, index: int) -> str:
     if reading:
         metadata.append('<span>読み：%s</span>' % esc(reading))
     if status:
-        metadata.append('<span>収録状況：%s</span>' % esc(status))
+        metadata.append('<span>収録状況：%s</span>' % esc(STATUS_LABELS.get(status, "確認済み")))
     facts = fact_rows(row)
     details = ""
     if facts:
@@ -267,13 +302,13 @@ def coverage_source(source: dict, fallback_count: int) -> str:
     scope = first(source, "scope")
     checked = first(source, "checked_at", "verified_at")
     expected = first(source, "expected_records", "expected", "total")
-    indexed = first(source, "indexed_records", "imported_records", "indexed", "count") or str(fallback_count)
+    indexed = first(source, "indexed_records", "imported_records", "indexed", "count")
     notes = first(source, "notes", "note")
     title = '<a href="%s" target="_blank" rel="noopener noreferrer">%s<span class="visually-hidden">（外部サイト）</span></a>' % (esc(url), esc(name)) if url else esc(name)
     values = ['<p class="coverage-name">%s</p>' % title]
     if scope:
         values.append('<p>%s</p>' % esc(scope))
-    counts = "収録 %s件" % esc(indexed)
+    counts = "収録 %s件" % esc(indexed) if indexed else "出典登録"
     if expected:
         counts += " ／ 確認対象 %s件" % esc(expected)
     values.append('<p class="coverage-count">%s</p>' % counts)
@@ -308,6 +343,70 @@ def coverage_source(source: dict, fallback_count: int) -> str:
     return '<article class="coverage-card">%s</article>' % "".join(values)
 
 
+def knowledge_sections(payloads: list[dict]) -> tuple[str, int]:
+    rendered = []
+    fact_count = 0
+    for payload in payloads:
+        if not isinstance(payload, dict):
+            continue
+        sections = payload.get("sections", [])
+        if isinstance(payload.get("facts"), list):
+            sections = list(sections) if isinstance(sections, list) else []
+            sections.append({"title": first(payload, "title", "name") or "森町の基礎情報", "facts": payload["facts"]})
+        if not isinstance(sections, list):
+            continue
+        for section in sections:
+            if not isinstance(section, dict):
+                continue
+            title = first(section, "title", "name", "label")
+            facts = section.get("facts", [])
+            if isinstance(facts, dict):
+                facts = [{"label": key, "value": value} for key, value in facts.items()]
+            if not title or not isinstance(facts, list):
+                continue
+            rows = []
+            for fact in facts:
+                if not isinstance(fact, dict):
+                    continue
+                label = first(fact, "label", "name", "title")
+                value = first(fact, "value", "text", "count")
+                if not label or not value:
+                    continue
+                suffix = []
+                as_of = first(fact, "as_of", "date", "reference_date")
+                status = first(fact, "status")
+                if as_of:
+                    suffix.append("%s時点" % as_of)
+                status_label = STATUS_LABELS.get(status, "")
+                if status_label:
+                    suffix.append(status_label)
+                source_url = clean_url(first(fact, "source_url", "url"))
+                source = (
+                    ' <a href="%s" target="_blank" rel="noopener noreferrer">出典<span class="visually-hidden">（外部サイト）</span></a>'
+                    % esc(source_url)
+                    if source_url else ""
+                )
+                note = "（%s）" % esc("・".join(suffix)) if suffix else ""
+                rows.append('<div><dt>%s</dt><dd>%s%s%s</dd></div>' % (esc(label), esc(value), note, source))
+                fact_count += 1
+            if not rows:
+                continue
+            scope = first(section, "scope", "note")
+            rendered.append(
+                '<article class="knowledge-card"><h3>%s</h3>%s<dl class="knowledge-facts">%s</dl></article>'
+                % (esc(title), '<p>%s</p>' % esc(scope) if scope else "", "".join(rows))
+            )
+    if not rendered:
+        return "", 0
+    return (
+        '<section id="mori-facts" class="knowledge-section" aria-labelledby="mori-facts-title">'
+        '<h2 id="mori-facts-title">数字と事実で調べる森町</h2>'
+        '<p>人口、地勢、交通、暮らし、移住、公共施設などを、基準日と出典を分けて整理しています。</p>'
+        '<div class="knowledge-grid">%s</div></section>' % "".join(rendered),
+        fact_count,
+    )
+
+
 def load_parts() -> dict[str, str]:
     result = {}
     for name in ("head-css", "header", "disclaimer", "footer"):
@@ -322,7 +421,14 @@ def part(name: str, content: str) -> str:
 def main() -> int:
     main_payload = load_json(DATA_DIR / "mori-directory.json")
     supplement = load_json(DATA_DIR / "mori-directory-supplement.json", required=False)
-    rows = merge_records(records_from(main_payload), records_from(supplement))
+    payloads = [item for item in (main_payload, supplement) if isinstance(item, dict)]
+    for filename in EXTRA_DATA_FILES:
+        payload = load_json(DATA_DIR / filename, required=False)
+        if isinstance(payload, dict) and payload:
+            payloads.append(payload)
+    rows: list[dict] = []
+    for payload in payloads:
+        rows = merge_records(rows, records_from(payload))
     if not rows:
         raise ValueError("収録データが0件です")
     rows.sort(key=lambda row: (category_of(row), key_name(first(row, "name", "title", "facility_name", "spot_name"))))
@@ -333,10 +439,9 @@ def main() -> int:
         source.setdefault("checked_at", first(main_payload, "checked_at", "generated_at"))
         source.setdefault("indexed_records", len(records_from(main_payload)))
         sources.append(source)
-    if isinstance(main_payload, dict) and isinstance(main_payload.get("sources"), list):
-        sources.extend(item for item in main_payload["sources"] if isinstance(item, dict))
-    if isinstance(supplement, dict) and isinstance(supplement.get("sources"), list):
-        sources.extend(item for item in supplement["sources"] if isinstance(item, dict))
+    for payload in payloads:
+        if isinstance(payload.get("sources"), list):
+            sources.extend(item for item in payload["sources"] if isinstance(item, dict))
     generated_at = first(main_payload if isinstance(main_payload, dict) else {}, "generated_at", "checked_at")
     parts = load_parts()
     chips = '<button type="button" class="category-chip is-active" data-category-filter="all" aria-pressed="true">すべて <span>%d</span></button>' % len(rows)
@@ -347,11 +452,14 @@ def main() -> int:
     if not source_html:
         source_html = coverage_source({"name": "地域情報台帳", "indexed_records": len(rows), "checked_at": generated_at}, len(rows))
     cards = "".join(card(row, index + 1) for index, row in enumerate(rows))
+    knowledge_html, knowledge_count = knowledge_sections(payloads)
     schema_items = []
     for position, row in enumerate(rows, 1):
         name = first(row, "name", "title", "facility_name", "spot_name") or "名称未確認"
         item = {"@type": "ListItem", "position": position, "name": name}
         url = clean_url(first(row, "official_url", "website", "source_url", "url"))
+        if not url and isinstance(row.get("source_urls"), list):
+            url = next((clean_url(value) for value in row["source_urls"] if clean_url(value)), "")
         if url:
             item["url"] = url
         schema_items.append(item)
@@ -365,17 +473,18 @@ def main() -> int:
         "mainEntity": {"@type": "ItemList", "numberOfItems": len(rows), "itemListElement": schema_items},
     }
     title = "静岡県周智郡森町の地域情報台帳｜施設・店舗・文化・自然"
-    description = "静岡県周智郡森町の施設、店舗、農園、史跡、自然、特産品など%d件を、分類とキーワードから探せる地域情報台帳です。" % len(rows)
+    description = "静岡県周智郡森町の施設、店舗、農園、史跡、自然、特産品など%d件と基礎事実%d項目を、分類とキーワードから探せる地域情報台帳です。" % (len(rows), knowledge_count)
     body = f'''<!doctype html><html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} | 森町ライフハック</title><meta name="description" content="{esc(description)}">
 <link rel="canonical" href="{SITE}/mori-directory/"><meta property="og:type" content="website"><meta property="og:site_name" content="森町ライフハック"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{SITE}/mori-directory/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-{part("head-css", parts["head-css"])}<link rel="stylesheet" href="/assets/mori-directory.css?v=20260811">
+{part("head-css", parts["head-css"])}<link rel="stylesheet" href="/assets/mori-directory.css?v=20260811b">
 <script defer src="/assets/mori-directory.js?v=20260811"></script><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')}</script>
 </head><body class="mori-directory-page">{part("header", parts["header"])}{part("disclaimer", parts["disclaimer"])}
 <main id="main"><div class="wrap"><nav class="breadcrumbs" aria-label="パンくず"><a href="/">静岡県森町ライフハック</a> ／ 地域情報台帳</nav>
-<header class="directory-hero"><p class="eyebrow">名前から引ける、出典付きの地域索引</p><h1>静岡県周智郡森町の地域情報台帳</h1><p class="lead">施設、店舗、農園、史跡、自然、特産品などを、固有名詞と分類から探せます。紹介文の転載ではなく、所在地や営業情報などの事実を確認先とともに整理しています。</p><p class="directory-total"><strong>{len(rows)}件</strong>収録{(' ／ データ作成 ' + esc(generated_at)) if generated_at else ''}</p></header>
+<header class="directory-hero"><p class="eyebrow">名前から引ける、出典付きの地域索引</p><h1>静岡県周智郡森町の地域情報台帳</h1><p class="lead">施設、店舗、農園、史跡、自然、特産品に加え、人口、交通、移住、公共施設などを横断して探せます。紹介文の転載ではなく、確認可能な事実を出典と基準日付きで整理しています。</p><p class="directory-total"><strong>{len(rows)}件</strong>の固有名詞 ／ <strong>{knowledge_count}項目</strong>の基礎事実{(' ／ データ作成 ' + esc(generated_at)) if generated_at else ''}</p></header>
+{knowledge_html}
 <section class="directory-controls" aria-labelledby="directory-search-title"><h2 id="directory-search-title">台帳を検索する</h2><label for="directory-search">名称・地区・内容・住所など</label><div class="search-row"><input id="directory-search" type="search" inputmode="search" autocomplete="off" placeholder="例：とうもろこし、一宮、駐車場" aria-describedby="search-help"><button type="button" id="search-clear">入力を消す</button></div><p id="search-help" class="search-help">複数の語を空白で区切ると、すべてを含む情報に絞れます。</p><div class="category-chips" aria-label="分類で絞り込む">{chips}</div><p id="result-count" class="result-count" aria-live="polite">{len(rows)}件を表示</p></section>
 <div id="directory-list" class="directory-list">{cards}</div><p id="no-results" class="no-results" hidden>条件に合う情報がありません。検索語を短くするか、「すべて」を選んでください。</p>
 <section id="coverage" class="coverage-section" aria-labelledby="coverage-title"><h2 id="coverage-title">情報源ごとの収録状況</h2><p>対象件数と収録件数を出典単位で表示します。件数は重複整理や公開範囲により、元ページの表示件数と一致しない場合があります。</p><div class="coverage-grid">{source_html}</div></section>

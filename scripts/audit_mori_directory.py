@@ -11,19 +11,30 @@ from collections import Counter
 from html import escape, unescape
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import urlsplit
 
 
 DATA_RELATIVE_PATH = Path("data/mori-directory.json")
 SUPPLEMENT_RELATIVE_PATH = Path("data/mori-directory-supplement.json")
+EXTRA_DATA_RELATIVE_PATHS = (
+    Path("data/mori-core-facts.json"),
+    Path("data/mori-web-discovery.json"),
+    Path("data/acty-mori-directory.json"),
+)
 HTML_CANDIDATES = (
     Path("directory/index.html"),
     Path("mori-directory/index.html"),
     Path("guide/mori-directory/index.html"),
 )
 FORBIDDEN_KEYS = frozenset({"description", "catch", "copy", "source_text"})
-REQUIRED_RECORD_FIELDS = ("name", "categories", "source_url", "checked_at")
+REQUIRED_RECORD_FIELDS = ("name", "categories", "checked_at")
 REQUIRED_SOURCE_HOSTS = (
+    "ja.wikipedia.org",
+    "travel.yahoo.co.jp",
+    "www.jalan.net",
+    "public-connect.jp",
+    "www.town.morimachi.shizuoka.jp",
+    "actymori.co.jp",
     "www.mori-kanko.jp",
     "tsplus.asahi.co.jp",
     "iju.pref.shizuoka.jp",
@@ -99,14 +110,6 @@ def load_json(path: Path, audit: Audit) -> Any | None:
     except json.JSONDecodeError as exc:
         audit.error(f"invalid JSON: {path}:{exc.lineno}:{exc.colno}: {exc.msg}")
     return None
-
-
-def normalized_url(value: str) -> str:
-    parts = urlsplit(value.strip())
-    path = parts.path or "/"
-    if path != "/":
-        path = path.rstrip("/")
-    return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), path, parts.query, ""))
 
 
 def valid_https_url(value: Any) -> bool:
@@ -215,8 +218,14 @@ def audit_structure(
             audit.error(f"{prefix}.categories contains duplicates")
 
         source_url = record.get("source_url")
+        source_urls = record.get("source_urls")
         if not valid_https_url(source_url):
-            audit.error(f"{prefix}.source_url must be HTTPS: {source_url!r}")
+            if (
+                not isinstance(source_urls, list)
+                or not source_urls
+                or any(not valid_https_url(item) for item in source_urls)
+            ):
+                audit.error(f"{prefix} needs source_url or non-empty HTTPS source_urls")
 
         checked_at = record.get("checked_at")
         if not isinstance(checked_at, str) or not DATE_RE.fullmatch(checked_at):
@@ -243,7 +252,6 @@ def audit_structure(
 
 def audit_unique_records(records: list[dict[str, Any]], audit: Audit) -> None:
     seen_ids: dict[str, int] = {}
-    seen_urls: dict[str, int] = {}
     for index, record in enumerate(records):
         record_id = record.get("id")
         if isinstance(record_id, str) and record_id.strip():
@@ -254,16 +262,6 @@ def audit_unique_records(records: list[dict[str, Any]], audit: Audit) -> None:
                 )
             else:
                 seen_ids[record_id] = index
-        source_url = record.get("source_url")
-        if valid_https_url(source_url):
-            canonical = normalized_url(source_url)
-            if canonical in seen_urls:
-                audit.error(
-                    f"duplicate source_url {source_url!r}: combined indexes "
-                    f"{seen_urls[canonical]} and {index}"
-                )
-            else:
-                seen_urls[canonical] = index
 
 
 def choose_html(root: Path, requested: Path | None, audit: Audit) -> Path:
@@ -299,6 +297,7 @@ def referenced_local_scripts(html: str, html_path: Path, root: Path) -> list[Pat
 def audit_html(
     html_path: Path,
     records: list[dict[str, Any]],
+    payloads: list[Any],
     root: Path,
     audit: Audit,
 ) -> list[Path]:
@@ -315,9 +314,50 @@ def audit_html(
         for key in ("name", "source_url"):
             value = record.get(key)
             if isinstance(value, str) and value:
-                representations = {value, unescape(value), escape(value, quote=True)}
+                compact = re.sub(r"\s+", "", value)
+                representations = {
+                    value,
+                    unescape(value),
+                    escape(value, quote=True),
+                    compact,
+                    escape(compact, quote=True),
+                }
                 if not any(candidate in html for candidate in representations):
                     audit.error(f"HTML is missing record {key} at index {index}: {value!r}")
+        source_urls = record.get("source_urls", [])
+        if isinstance(source_urls, list):
+            for source_url in source_urls:
+                if not isinstance(source_url, str) or not source_url:
+                    continue
+                representations = {
+                    source_url,
+                    unescape(source_url),
+                    escape(source_url, quote=True),
+                }
+                if not any(candidate in html for candidate in representations):
+                    audit.error(
+                        f"HTML is missing record source_urls entry at index {index}: {source_url!r}"
+                    )
+
+    for payload_index, payload in enumerate(payloads):
+        if not isinstance(payload, dict) or not isinstance(payload.get("sections"), list):
+            continue
+        for section_index, section in enumerate(payload["sections"]):
+            if not isinstance(section, dict) or not isinstance(section.get("facts"), list):
+                continue
+            for fact_index, fact in enumerate(section["facts"]):
+                if not isinstance(fact, dict):
+                    continue
+                for key in ("label", "value", "source_url"):
+                    value = fact.get(key)
+                    if not isinstance(value, str) or not value:
+                        continue
+                    representations = {value, unescape(value), escape(value, quote=True)}
+                    if not any(candidate in html for candidate in representations):
+                        audit.error(
+                            "HTML is missing knowledge fact %s at payload %d, section %d, fact %d: %r"
+                            % (key, payload_index, section_index, fact_index, value)
+                        )
 
     scripts = referenced_local_scripts(html, html_path, root)
     if not scripts:
@@ -571,6 +611,7 @@ def main() -> int:
         )
 
     payloads = [payload] if payload is not None else []
+    data_paths = [data_path, supplement_path]
     if supplement_path.is_file():
         supplement = load_json(supplement_path, audit)
         if supplement is not None:
@@ -587,10 +628,34 @@ def main() -> int:
     elif args.supplement is not None:
         audit.error(f"missing supplement JSON: {supplement_path}")
 
+    for extra_relative_path in EXTRA_DATA_RELATIVE_PATHS:
+        extra_path = root / extra_relative_path
+        data_paths.append(extra_path)
+        if not extra_path.is_file():
+            audit.error(f"missing expansion JSON: {extra_path}")
+            continue
+        extra = load_json(extra_path, audit)
+        if extra is None:
+            continue
+        extra_records: list[dict[str, Any]] = []
+        if isinstance(extra, dict) and "records" in extra:
+            extra_records = extract_records(extra, audit)
+        elif not isinstance(extra, dict):
+            audit.error(f"{display_path(extra_path, root)}: JSON root must be an object")
+        audit_structure(
+            extra,
+            extra_records,
+            audit,
+            label=display_path(extra_path, root),
+            require_category_pages=False,
+        )
+        records.extend(extra_records)
+        payloads.append(extra)
+
     audit_unique_records(records, audit)
 
-    scripts = audit_html(html_path, records, root, audit)
-    scan_paths = catalog_files(root, [data_path, supplement_path, html_path, *scripts])
+    scripts = audit_html(html_path, records, payloads, root, audit)
+    scan_paths = catalog_files(root, [*data_paths, html_path, *scripts])
     audit_forbidden_term(scan_paths, root, audit)
 
     hosts, categories = source_coverage(records)

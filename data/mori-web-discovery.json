@@ -1,0 +1,909 @@
+{
+  "checked_at": "2026-08-11",
+  "sources": [
+    {
+      "id": "yahoo-travel",
+      "name": "Yahoo!トラベル",
+      "url": "https://travel.yahoo.co.jp/tokai/pr22/ct22028000/",
+      "scope": "周智郡の宿泊一覧",
+      "expected_records": 1,
+      "indexed_records": 1,
+      "status": "ok"
+    },
+    {
+      "id": "yahoo-kanko",
+      "name": "Yahoo!トラベル 観光",
+      "url": "https://travel.yahoo.co.jp/kanko/prefecture-shizuoka/city-22461/",
+      "scope": "周智郡森町の観光スポット",
+      "expected_records": 3,
+      "indexed_records": 3,
+      "status": "ok"
+    },
+    {
+      "id": "jalan-1",
+      "name": "じゃらんnet",
+      "url": "https://www.jalan.net/kankou/cit_224610000/",
+      "scope": "森町観光スポット1～30件",
+      "expected_records": 12,
+      "indexed_records": 12,
+      "status": "ok"
+    },
+    {
+      "id": "jalan-2",
+      "name": "じゃらんnet",
+      "url": "https://www.jalan.net/kankou/cit_224610000/page_2/",
+      "scope": "森町観光スポット31～41件",
+      "expected_records": 7,
+      "indexed_records": 7,
+      "status": "ok"
+    },
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia 森町（静岡県）",
+      "url": "https://ja.wikipedia.org/wiki/%E6%A3%AE%E7%94%BA_%28%E9%9D%99%E5%B2%A1%E7%9C%8C%29",
+      "scope": "観光・文化欄の固有名詞と年",
+      "expected_records": 6,
+      "indexed_records": 6,
+      "status": "ok"
+    },
+    {
+      "id": "bunka",
+      "name": "文化遺産オンライン",
+      "url": "https://bunka.nii.ac.jp/heritages/region/22/22461",
+      "scope": "周智郡森町の国指定文化財一覧",
+      "expected_records": 4,
+      "indexed_records": 4,
+      "status": "ok"
+    }
+  ],
+  "records": [
+    {
+      "id": "web-jalan-1-b9f9023a1eb2",
+      "name": "30日間の小さなマルシェ",
+      "categories": [
+        "買い物"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-2-e1d3184ee4a2",
+      "name": "floresta fabrica glass atelier",
+      "categories": [
+        "ガラス工芸",
+        "体験"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-2"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/page_2/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-364664a5721d",
+      "name": "ナギの木",
+      "categories": [
+        "天然記念物",
+        "樹木"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-yahoo-travel-0b21d6735780",
+      "name": "リバウッドリゾート",
+      "categories": [
+        "宿泊",
+        "グランピング"
+      ],
+      "address": "静岡県周智郡森町大鳥居1",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "yahoo-travel"
+      ],
+      "source_urls": [
+        "https://travel.yahoo.co.jp/tokai/pr22/ct22028000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-wikipedia-bd67235ae0ce",
+      "name": "ワンダーガーデン",
+      "categories": [
+        "娯楽施設"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "wikipedia"
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/%E6%A3%AE%E7%94%BA_%28%E9%9D%99%E5%B2%A1%E7%9C%8C%29"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-1a4d5f993df1",
+      "name": "三木の里カントリークラブ",
+      "categories": [
+        "ゴルフ場"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-yahoo-kanko-f47e2e019ab9",
+      "name": "吉川キャンプ場カワセミの里",
+      "categories": [
+        "キャンプ場"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "supplement",
+      "existing_id": "mori-kanko-kawaseminosato",
+      "source_ids": [
+        "yahoo-kanko"
+      ],
+      "source_urls": [
+        "https://travel.yahoo.co.jp/kanko/prefecture-shizuoka/city-22461/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-d1a25b6582b6",
+      "name": "城ケ平公園",
+      "categories": [
+        "公園",
+        "城跡"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "戸綿駅から徒歩45分",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-bunka-e06b63b64ab3",
+      "name": "天竜浜名湖鉄道太田川橋梁",
+      "categories": [
+        "登録有形文化財",
+        "橋梁"
+      ],
+      "address": "静岡県周智郡森町森地先",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "bunka"
+      ],
+      "source_urls": [
+        "https://bunka.nii.ac.jp/heritages/region/22/22461"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-bunka-e3f925fc993d",
+      "name": "天竜浜名湖鉄道遠州森駅本屋及び上りプラットホーム",
+      "categories": [
+        "登録有形文化財",
+        "鉄道施設"
+      ],
+      "address": "静岡県周智郡森町森字十七夜前980-2",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "bunka"
+      ],
+      "source_urls": [
+        "https://bunka.nii.ac.jp/heritages/region/22/22461"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-bunka-0211aa9d1cc7",
+      "name": "天竜浜名湖鉄道遠江一宮駅本屋",
+      "categories": [
+        "登録有形文化財",
+        "鉄道施設"
+      ],
+      "address": "静岡県周智郡森町一宮字郷戸2431-2",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "bunka"
+      ],
+      "source_urls": [
+        "https://bunka.nii.ac.jp/heritages/region/22/22461"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-2-16b13aa8cd04",
+      "name": "太田川ダム",
+      "categories": [
+        "ダム",
+        "景観"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-2"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/page_2/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-2-69f3183b53f3",
+      "name": "太田川桜堤",
+      "categories": [
+        "花",
+        "景観"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-2"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/page_2/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-yahoo-kanko-4349ac781671",
+      "name": "小國神社",
+      "categories": [
+        "神社"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "yahoo-kanko"
+      ],
+      "source_urls": [
+        "https://travel.yahoo.co.jp/kanko/prefecture-shizuoka/city-22461/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-2-b5d2a5558136",
+      "name": "小國神社花菖蒲園",
+      "categories": [
+        "花",
+        "神社"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-2"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/page_2/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-wikipedia-78f7cdbe6f10",
+      "name": "山名神社",
+      "categories": [
+        "神社"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": 706,
+      "facts": [],
+      "match_status": "supplement",
+      "existing_id": "mori-kanko-6018",
+      "source_ids": [
+        "wikipedia"
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/%E6%A3%AE%E7%94%BA_%28%E9%9D%99%E5%B2%A1%E7%9C%8C%29"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-wikipedia-2f6dff1c7c46",
+      "name": "崇信寺",
+      "categories": [
+        "寺院"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [
+        {
+          "key": "宗派",
+          "value": "曹洞宗"
+        }
+      ],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "wikipedia"
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/%E6%A3%AE%E7%94%BA_%28%E9%9D%99%E5%B2%A1%E7%9C%8C%29"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-2-b7d9e6f1e0b7",
+      "name": "己書心笑み道場 cafe flat幸座",
+      "categories": [
+        "体験",
+        "カフェ"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-2"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/page_2/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-9737b5bd1e6b",
+      "name": "彩の月",
+      "categories": [
+        "体験"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-2-017300e1e9a2",
+      "name": "手打ちそば「ほっとり」",
+      "categories": [
+        "飲食店",
+        "そば"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-2"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/page_2/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-8825e8ac896a",
+      "name": "森町レンタサイクル",
+      "categories": [
+        "レンタサイクル"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "普通自転車500円",
+      "access": "天竜浜名湖鉄道遠州森駅",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-47399305d136",
+      "name": "森町観光協会",
+      "categories": [
+        "観光案内所"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "月～金 08:30～17:15",
+      "closed": "土・日・祝日、年末年始等",
+      "fee": "",
+      "access": "天竜浜名湖鉄道戸綿駅から徒歩10分",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-2-35277d60badf",
+      "name": "真田城跡",
+      "categories": [
+        "城跡"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-2"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/page_2/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-ab1c490a984c",
+      "name": "石松の墓",
+      "categories": [
+        "史跡"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-fbe5abd89dd0",
+      "name": "神明の里",
+      "categories": [
+        "体験"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-wikipedia-35f36ffc6b3a",
+      "name": "秋葉山常夜灯",
+      "categories": [
+        "史跡",
+        "街道"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "wikipedia"
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/%E6%A3%AE%E7%94%BA_%28%E9%9D%99%E5%B2%A1%E7%9C%8C%29"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-wikipedia-ecec71a7300e",
+      "name": "秋葉街道 森宿",
+      "categories": [
+        "宿場町",
+        "街道"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "wikipedia"
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/%E6%A3%AE%E7%94%BA_%28%E9%9D%99%E5%B2%A1%E7%9C%8C%29"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-wikipedia-847ff2c8cbfd",
+      "name": "蓮華寺",
+      "categories": [
+        "寺院"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": 704,
+      "facts": [],
+      "match_status": "supplement",
+      "existing_id": "mori-kanko-3031",
+      "source_ids": [
+        "wikipedia"
+      ],
+      "source_urls": [
+        "https://ja.wikipedia.org/wiki/%E6%A3%AE%E7%94%BA_%28%E9%9D%99%E5%B2%A1%E7%9C%8C%29"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-a7d749987f5b",
+      "name": "蓮華寺のはぎ",
+      "categories": [
+        "花",
+        "寺院"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "見学無料",
+      "access": "遠州森駅から徒歩15分",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-c947cb5aa299",
+      "name": "遠州森町パーキングエリア（下り線）",
+      "categories": [
+        "サービスエリア"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-bunka-b88cf54f2052",
+      "name": "遠江森町の舞楽",
+      "categories": [
+        "重要無形民俗文化財",
+        "伝統芸能"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "bunka"
+      ],
+      "source_urls": [
+        "https://bunka.nii.ac.jp/heritages/region/22/22461"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-yahoo-kanko-816053def068",
+      "name": "香勝寺",
+      "categories": [
+        "寺院",
+        "花"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "",
+      "access": "",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "yahoo-kanko"
+      ],
+      "source_urls": [
+        "https://travel.yahoo.co.jp/kanko/prefecture-shizuoka/city-22461/"
+      ],
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "web-jalan-1-b6c4a8d48cf5",
+      "name": "香勝寺のききょう",
+      "categories": [
+        "花",
+        "寺院"
+      ],
+      "address": "",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "fee": "大人500円、子供100円、団体20名以上450円",
+      "access": "遠州森駅から徒歩25分",
+      "geocode": null,
+      "established_year": null,
+      "facts": [],
+      "match_status": "new",
+      "existing_id": "",
+      "source_ids": [
+        "jalan-1"
+      ],
+      "source_urls": [
+        "https://www.jalan.net/kankou/cit_224610000/"
+      ],
+      "checked_at": "2026-08-11"
+    }
+  ]
+}

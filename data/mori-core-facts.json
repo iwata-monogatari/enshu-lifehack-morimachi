@@ -1,0 +1,1209 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-08-11",
+  "scope": "森町の交通、地勢、沿革、人口、産業、教育、医療、買物、移住、町役場、主要施設の事実台帳",
+  "editorial_note": "説明文は転載せず、短い事実単位に分解。時点のある数値と取材発言を状態欄で区別する。",
+  "sources": [
+    {
+      "id": "profile",
+      "name": "森町公式 町のプロフィール",
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/1162.html",
+      "type": "primary",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "land",
+      "name": "森町公式 第3次国土利用計画",
+      "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/4/3d-morimachikokudoyiroukeikaku.pdf",
+      "type": "primary",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "history",
+      "name": "森町公式 合併70周年",
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/6540.html",
+      "type": "primary",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "access",
+      "name": "森町観光協会 交通案内",
+      "url": "https://www.mori-kanko.jp/access/index.html",
+      "type": "official-local",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "pref_move",
+      "name": "静岡県公式 移住・定住情報 森町",
+      "url": "https://iju.pref.shizuoka.jp/390/mori.html",
+      "type": "primary",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "town_move",
+      "name": "森町公式 移住・定住情報",
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+      "type": "primary",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "consult",
+      "name": "森町公式 オンライン移住相談",
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/1/3443.html",
+      "type": "primary",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "population",
+      "name": "森町公式 月別人口",
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/tokei/1249.html",
+      "type": "primary",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "statistics",
+      "name": "森町公式 森町の統計 令和4年度版",
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4891.html",
+      "type": "primary",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "staff",
+      "name": "森町公式 職員インタビューブログ",
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/shokuingakari/1/5072.html",
+      "type": "primary-index",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "public_connect",
+      "name": "PUBLIC CONNECT 採用担当者インタビュー",
+      "url": "https://public-connect.jp/employer/13/blog/4107",
+      "type": "interview",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "town_intro",
+      "name": "PUBLIC CONNECT 森町役場PR",
+      "url": "https://public-connect.jp/employer/13/blog/133",
+      "type": "official-pr",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "recruit_result",
+      "name": "PUBLIC CONNECT 導入事例",
+      "url": "https://public-connect.co.jp/magazine/-453OceZ",
+      "type": "case-study",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "facilities",
+      "name": "森町公式 主要施設・諸団体一覧",
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "type": "primary",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "asset_plan",
+      "name": "森町公式 公共施設等総合管理計画",
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/1/462.html",
+      "type": "primary",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "asset_pdf",
+      "name": "森町公共施設等総合管理計画 PDF",
+      "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/4/koukyoushisetsutousougoukanrikeikaku.pdf",
+      "type": "primary-document",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    },
+    {
+      "id": "asset_progress",
+      "name": "森町公式 行財政改革プラン進行管理表",
+      "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/4/R4gyoukaku-puran.pdf",
+      "type": "primary-document",
+      "checked_at": "2026-08-11",
+      "fetch_status": "not-requested"
+    }
+  ],
+  "sections": [
+    {
+      "id": "geography",
+      "title": "位置・地勢",
+      "scope": "町域の寸法、標高、河川と土地の構成",
+      "facts": [
+        {
+          "label": "面積",
+          "value": "133.91平方キロメートル",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/1162.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "町域の東西幅",
+          "value": "13キロメートル",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/1162.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "町域の南北幅",
+          "value": "24キロメートル",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/1162.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "最高標高",
+          "value": "941.0メートル",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/1162.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "最低標高",
+          "value": "15.4メートル",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/1162.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "役場標高",
+          "value": "43.6メートル",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/1162.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "位置関係",
+          "value": "静岡県西部。東は掛川市、西は浜松市・磐田市、南は袋井市、北は浜松市・島田市に接する",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/material/files/group/4/3d-morimachikokudoyiroukeikaku.pdf",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "地形",
+          "value": "北部は三倉川・吉川流域の谷底低地、中部は太田川沿いの市街地、南部は田園地帯",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/material/files/group/4/3d-morimachikokudoyiroukeikaku.pdf",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "町の中央を流れる河川",
+          "value": "太田川",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.mori-kanko.jp/access/index.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "地域の呼ばれ方",
+          "value": "遠州の小京都、三木の里、PASのふるさと森町",
+          "as_of": "2023-12-06",
+          "status": "dated-source-value",
+          "source_url": "https://public-connect.jp/employer/13/blog/133",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "沿革",
+      "scope": "現在の町域成立と交通上の歴史",
+      "facts": [
+        {
+          "label": "5町村合併",
+          "value": "旧天方村・森町・一宮村・園田村・飯田村が合併",
+          "as_of": "1955-04-01",
+          "status": "historical",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/6540.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "現在の町域成立",
+          "value": "旧三倉村と嵯塚地区が加わった",
+          "as_of": "1956-09-30",
+          "status": "historical",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/6540.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "街道の役割",
+          "value": "秋葉山へ通じる秋葉街道の宿場町として栄えた",
+          "as_of": null,
+          "status": "historical",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "全国京都会議",
+          "value": "加盟",
+          "as_of": "2012",
+          "status": "historical",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "交通・アクセス",
+      "scope": "鉄道、高速道路、出典掲載の所要時間",
+      "facts": [
+        {
+          "label": "町内の鉄道",
+          "value": "天竜浜名湖鉄道",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.mori-kanko.jp/access/index.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "町内の鉄道駅数",
+          "value": "5駅",
+          "as_of": "2023-06-01",
+          "status": "dated-source-value",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "遠州森駅への鉄道時間",
+          "value": "掛川駅から約25分",
+          "as_of": null,
+          "status": "time-estimate",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "東京駅から掛川駅",
+          "value": "東海道新幹線こだまで約1時間50分",
+          "as_of": null,
+          "status": "time-estimate",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "名古屋駅から掛川駅",
+          "value": "東海道新幹線こだまで約1時間",
+          "as_of": null,
+          "status": "time-estimate",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "東京ICから",
+          "value": "2時間少々",
+          "as_of": null,
+          "status": "time-estimate",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "名古屋ICから",
+          "value": "1時間少々",
+          "as_of": null,
+          "status": "time-estimate",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "町内の高速道路IC",
+          "value": "森掛川IC、遠州森町スマートIC",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "遠州森町スマートIC",
+          "value": "ETC専用",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.mori-kanko.jp/access/index.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "遠州森町スマートIC利用開始",
+          "value": "2014年",
+          "as_of": "2014",
+          "status": "historical",
+          "source_url": "https://www.mori-kanko.jp/access/index.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "町内バス路線数",
+          "value": "8路線（民間3、町営2、患者輸送3）",
+          "as_of": "2023-06-01",
+          "status": "dated-source-value",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "population",
+      "title": "人口・世帯",
+      "scope": "町公式月次人口と県移住ページ掲載値",
+      "facts": [
+        {
+          "label": "人口",
+          "value": "16,432人",
+          "as_of": "2026-07-01",
+          "status": "current-monthly-value",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/tokei/1249.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "男性人口",
+          "value": "8,225人",
+          "as_of": "2026-07-01",
+          "status": "current-monthly-value",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/tokei/1249.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "女性人口",
+          "value": "8,207人",
+          "as_of": "2026-07-01",
+          "status": "current-monthly-value",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/tokei/1249.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "世帯数",
+          "value": "6,737世帯",
+          "as_of": "2026-07-01",
+          "status": "current-monthly-value",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/tokei/1249.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "県移住ページ掲載人口",
+          "value": "17,300人",
+          "as_of": "2023-06-01",
+          "status": "legacy-value",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "title": "産業・特産",
+      "scope": "農産物、製造業、地域産業",
+      "facts": [
+        {
+          "label": "主な特産品",
+          "value": "茶、とうもろこし、次郎柿、メロン、レタス、米",
+          "as_of": "2023-06-01",
+          "status": "dated-source-value",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "産業統計の公開範囲",
+          "value": "産業別就業人口、地区別事業所、産業分類別事業所・従業者など",
+          "as_of": "2023-03-29",
+          "status": "document-index",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4891.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "町内企業の例",
+          "value": "ヤマハ発動機 遠州森町工場、デイトナ",
+          "as_of": null,
+          "status": "official-page-mention",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/shokuingakari/1/5072.html",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "title": "教育",
+      "scope": "県移住ページに掲載された施設数",
+      "facts": [
+        {
+          "label": "教育施設",
+          "value": "保育園5、幼稚園5、小学校3、中学校2、高校1",
+          "as_of": "2023-06-01",
+          "status": "legacy-value",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "小学校",
+          "value": "森小学校、宮園小学校、飯田小学校",
+          "as_of": "2024-12-13",
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "中学校",
+          "value": "森中学校、旭が丘中学校",
+          "as_of": "2024-12-13",
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "healthcare",
+      "title": "医療・福祉",
+      "scope": "県移住ページに掲載された施設数と主要機関",
+      "facts": [
+        {
+          "label": "医療施設",
+          "value": "病院1、診療所10、歯科診療所6",
+          "as_of": "2023-06-01",
+          "status": "legacy-value",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "自治体病院",
+          "value": "公立森町病院",
+          "as_of": "2024-12-13",
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "地域医療機関",
+          "value": "森町家庭医療クリニック",
+          "as_of": "2024-12-13",
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "title": "買物・生活施設",
+      "scope": "県移住ページ掲載の店舗・金融・郵便施設数",
+      "facts": [
+        {
+          "label": "買物施設",
+          "value": "スーパーマーケット2、ドラッグストア3、コンビニ5",
+          "as_of": "2023-06-01",
+          "status": "legacy-value",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "飲食関連店",
+          "value": "約40店舗",
+          "as_of": "2023-06-01",
+          "status": "legacy-value",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "金融・郵便",
+          "value": "銀行・信用金庫2行、郵便局9局",
+          "as_of": "2023-06-01",
+          "status": "legacy-value",
+          "source_url": "https://iju.pref.shizuoka.jp/390/mori.html",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "移住相談",
+      "scope": "相談窓口とオンライン相談条件",
+      "facts": [
+        {
+          "label": "移住相談窓口",
+          "value": "森町役場 定住推進課 移住交流係",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "移住相談電話",
+          "value": "0538-85-6321",
+          "as_of": null,
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "オンライン相談時間",
+          "value": "9時から17時、最終受付16時",
+          "as_of": "2022-01-06",
+          "status": "page-value-recheck-before-use",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/1/3443.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "オンライン相談の目安",
+          "value": "1回40分程度、希望日の3営業日前までに申込み",
+          "as_of": "2022-01-06",
+          "status": "page-value-recheck-before-use",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/1/3443.html",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "workplace",
+      "title": "町役場・職員",
+      "scope": "町公式リンク先と取材記事にある組織の事実・発言",
+      "facts": [
+        {
+          "label": "正規職員数",
+          "value": "約180人",
+          "as_of": "2026-07",
+          "status": "interview-claim",
+          "source_url": "https://public-connect.jp/employer/13/blog/4107",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "自治体規模",
+          "value": "静岡県西部で最も小さい自治体",
+          "as_of": "2026-07",
+          "status": "interview-claim",
+          "source_url": "https://public-connect.jp/employer/13/blog/4107",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "職場の配置",
+          "value": "庁舎が複数地点へ大きく分散しておらず、部署間で顔を合わせやすいとの採用担当者発言",
+          "as_of": "2026-07",
+          "status": "interview-claim",
+          "source_url": "https://public-connect.jp/employer/13/blog/4107",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "採用選考で見る点",
+          "value": "理解力、表現力、社会性、積極性",
+          "as_of": "2026-07",
+          "status": "interview-claim",
+          "source_url": "https://public-connect.jp/employer/13/blog/4107",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "地域業務で重視する点",
+          "value": "地域住民との信頼関係",
+          "as_of": "2026-07",
+          "status": "interview-claim",
+          "source_url": "https://public-connect.jp/employer/13/blog/4107",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "事務職応募者",
+          "value": "導入前14人、導入後48人",
+          "as_of": "2023年度",
+          "status": "case-study-claim",
+          "source_url": "https://public-connect.co.jp/magazine/-453OceZ",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "一次試験受験者",
+          "value": "10人から42人へ増加",
+          "as_of": "2023年度",
+          "status": "case-study-claim",
+          "source_url": "https://public-connect.co.jp/magazine/-453OceZ",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "職員取材の職種例",
+          "value": "土木職、保健師、移住担当、地域おこし協力隊",
+          "as_of": "2026-06-26",
+          "status": "official-link-index",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/shokuingakari/1/5072.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "採用問い合わせ",
+          "value": "総務課 人材育成係 0538-85-6301",
+          "as_of": "2026-06-26",
+          "status": "source-confirmed",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/shokuingakari/1/5072.html",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "title": "統計資料",
+      "scope": "町公式で公開されている統計資料の範囲",
+      "facts": [
+        {
+          "label": "森町の統計 令和4年度版",
+          "value": "2023年3月29日公開",
+          "as_of": "2023-03-29",
+          "status": "document-release",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4891.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "統計資料の主区分",
+          "value": "土地・気象、人口、事業所、農林業、工業、商業、運輸・通信、教育・文化、保健・福祉など",
+          "as_of": "2023-03-29",
+          "status": "document-index",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4891.html",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "public_assets",
+      "title": "公共施設資料",
+      "scope": "総合管理資料の対象基準日と施設数",
+      "facts": [
+        {
+          "label": "総合管理計画の改訂",
+          "value": "2022年3月改訂",
+          "as_of": "2022-03",
+          "status": "document-release",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/1/462.html",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "公共施設の調査基準日",
+          "value": "2021年3月末（学校教育系施設は2021年4月1日）",
+          "as_of": "2021-03-31",
+          "status": "document-basis",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/material/files/group/4/koukyoushisetsutousougoukanrikeikaku.pdf",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "個別施設計画の対象施設数",
+          "value": "116施設",
+          "as_of": "2018-09-30",
+          "status": "historical-plan-value",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/material/files/group/4/R4gyoukaku-puran.pdf",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "学校施設を除く策定対象",
+          "value": "103施設・9類型",
+          "as_of": "2018-09-30",
+          "status": "historical-plan-value",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/material/files/group/4/R4gyoukaku-puran.pdf",
+          "checked_at": "2026-08-11"
+        },
+        {
+          "label": "学校施設",
+          "value": "13施設",
+          "as_of": "2018-09-30",
+          "status": "historical-plan-value",
+          "source_url": "https://www.town.morimachi.shizuoka.jp/material/files/group/4/R4gyoukaku-puran.pdf",
+          "checked_at": "2026-08-11"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "mori-core-125c96331e07",
+      "name": "森町役場（代表）",
+      "categories": [
+        "行政"
+      ],
+      "phone": "0538-85-2111",
+      "address": "森町森2101-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-38e1e9cf846a",
+      "name": "森町町民生活センター",
+      "categories": [
+        "行政"
+      ],
+      "phone": "0538-85-2111",
+      "address": "森町森2101-2",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-e38578b63788",
+      "name": "森町文化会館",
+      "categories": [
+        "教育・文化"
+      ],
+      "phone": "0538-85-1111",
+      "address": "森町森1485",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-77d2599a2639",
+      "name": "森町立図書館",
+      "categories": [
+        "教育・文化"
+      ],
+      "phone": "0538-85-1113",
+      "address": "森町森1485",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-b504ef62df60",
+      "name": "森町総合体育館",
+      "categories": [
+        "スポーツ"
+      ],
+      "phone": "0538-85-4191",
+      "address": "森町森92-8",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-2f7fe74297a7",
+      "name": "森町歴史民俗資料館",
+      "categories": [
+        "教育・文化"
+      ],
+      "phone": "0538-85-0108",
+      "address": "森町森2144",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-09257ec65c01",
+      "name": "森小学校",
+      "categories": [
+        "小学校"
+      ],
+      "phone": "0538-85-2134",
+      "address": "森町森125",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-0b9487317abc",
+      "name": "宮園小学校",
+      "categories": [
+        "小学校"
+      ],
+      "phone": "0538-85-3766",
+      "address": "森町谷中650",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-2eb29e773360",
+      "name": "飯田小学校",
+      "categories": [
+        "小学校"
+      ],
+      "phone": "0538-85-2931",
+      "address": "森町飯田3310-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-394f5d1cffbc",
+      "name": "森中学校",
+      "categories": [
+        "中学校"
+      ],
+      "phone": "0538-85-3124",
+      "address": "森町天宮888-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-9a199ac57e37",
+      "name": "旭が丘中学校",
+      "categories": [
+        "中学校"
+      ],
+      "phone": "0538-85-4101",
+      "address": "森町谷中556",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-38b3d8599b80",
+      "name": "県立遠江総合高等学校",
+      "categories": [
+        "高校"
+      ],
+      "phone": "0538-85-6000",
+      "address": "森町森2085",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-1689497b2adc",
+      "name": "森町保健福祉センター",
+      "categories": [
+        "保健・福祉"
+      ],
+      "phone": "0538-85-1800",
+      "address": "森町森50-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-1ab189482510",
+      "name": "森町地域包括支援センター",
+      "categories": [
+        "保健・福祉"
+      ],
+      "phone": "0538-85-6341",
+      "address": "森町森50-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-293461517ccc",
+      "name": "子育て支援センター",
+      "categories": [
+        "子育て"
+      ],
+      "phone": "0538-84-4255",
+      "address": "森町森50-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-9c1206bd0510",
+      "name": "森町児童館",
+      "categories": [
+        "子育て"
+      ],
+      "phone": "0538-85-2839",
+      "address": "森町森50-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-aea6f69a0d20",
+      "name": "公立森町病院",
+      "categories": [
+        "医療"
+      ],
+      "phone": "0538-85-2181",
+      "address": "森町草ヶ谷391-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-916a6e75f2a7",
+      "name": "森町家庭医療クリニック",
+      "categories": [
+        "医療"
+      ],
+      "phone": "0538-85-1340",
+      "address": "森町草ヶ谷387-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-da74c19fcef5",
+      "name": "袋井消防署森分署",
+      "categories": [
+        "消防"
+      ],
+      "phone": "0538-85-0119",
+      "address": "森町森48-2",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-4ce6259bd644",
+      "name": "袋井警察署森分庁舎",
+      "categories": [
+        "警察"
+      ],
+      "phone": "0538-85-0110",
+      "address": "森町森1524-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-cce16a95d485",
+      "name": "天方駐在所",
+      "categories": [
+        "警察"
+      ],
+      "phone": "0538-85-0517",
+      "address": "森町大鳥居25-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-418d3acf3c5c",
+      "name": "一宮駐在所",
+      "categories": [
+        "警察"
+      ],
+      "phone": "0538-89-7004",
+      "address": "森町一宮1239-3",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-23a51e2bde05",
+      "name": "森町商工会",
+      "categories": [
+        "産業団体"
+      ],
+      "phone": "0538-85-3126",
+      "address": "森町森20-9",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-fc27aa3a867b",
+      "name": "森町体験の里アクティ森",
+      "categories": [
+        "観光・体験"
+      ],
+      "phone": "0538-85-0115",
+      "address": "森町問詰1115-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-3b583ab6edcc",
+      "name": "三倉総合センター",
+      "categories": [
+        "集会施設"
+      ],
+      "phone": "0538-86-0211",
+      "address": "森町三倉826-2",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-c4763962dd02",
+      "name": "天方生活改善センター",
+      "categories": [
+        "集会施設"
+      ],
+      "phone": "0538-85-0148",
+      "address": "森町大鳥居96-2",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-7e334d17fcc9",
+      "name": "一宮総合センター",
+      "categories": [
+        "集会施設"
+      ],
+      "phone": "0538-89-7730",
+      "address": "森町一宮1845-10",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-2d1abaabb05a",
+      "name": "園田総合センター",
+      "categories": [
+        "集会施設"
+      ],
+      "phone": "0538-85-0143",
+      "address": "森町谷中513-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-d30f0ad62380",
+      "name": "飯田総合センター",
+      "categories": [
+        "集会施設"
+      ],
+      "phone": "0538-85-7557",
+      "address": "森町飯田4040-28",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-c6e13135c590",
+      "name": "森町郵便局",
+      "categories": [
+        "郵便"
+      ],
+      "phone": "0538-85-3403",
+      "address": "森町森38-8",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-ce365eca06a0",
+      "name": "三倉郵便局",
+      "categories": [
+        "郵便"
+      ],
+      "phone": "0538-86-0001",
+      "address": "森町三倉769",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-f93615c2cec0",
+      "name": "天方郵便局",
+      "categories": [
+        "郵便"
+      ],
+      "phone": "0538-87-0342",
+      "address": "森町鍛治島6-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-b9dbde1ad185",
+      "name": "城下郵便局",
+      "categories": [
+        "郵便"
+      ],
+      "phone": "0538-85-3404",
+      "address": "森町城下307",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-d976dec663b4",
+      "name": "一ノ宮郵便局",
+      "categories": [
+        "郵便"
+      ],
+      "phone": "0538-89-7001",
+      "address": "森町一宮1265-5",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-7f879f58f4b0",
+      "name": "飯田郵便局",
+      "categories": [
+        "郵便"
+      ],
+      "phone": "0538-85-3405",
+      "address": "森町飯田2796-15",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-135ca849eade",
+      "name": "遠州森駅",
+      "categories": [
+        "交通"
+      ],
+      "phone": "0538-85-2211",
+      "address": "森町森1111",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-core-4b0248ac7d75",
+      "name": "秋葉バスサービス株式会社",
+      "categories": [
+        "交通"
+      ],
+      "phone": "0538-85-2141",
+      "address": "森町森2368-1",
+      "as_of": "2024-12-13",
+      "status": "listed-current",
+      "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "checked_at": "2026-08-11"
+    }
+  ]
+}
