@@ -6,6 +6,12 @@ README.md
 .git/**
 .wrangler
 .wrangler/**
+.xdg
+.xdg/**
+node_modules
+node_modules/**
+package.json
+package-lock.json
 parts
 parts/**
 reports
@@ -26,3 +32,6 @@ work
 work/**
 tests
 tests/**
+tmp
+tmp/**
+**/__pycache__/**
