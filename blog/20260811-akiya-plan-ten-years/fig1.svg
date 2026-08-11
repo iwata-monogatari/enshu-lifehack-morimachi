@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ap1Title ap1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ap1Title">森町の谷あいの集落で空き家の傷みを外から数えている場面のイラスト</title>
+  <desc id="ap1Desc">奥に段になった茶畑と杉林、山並み、太田川と橋があり、その手前に瓦屋根の家が点在します。右側には雨戸を閉めた空き家が大きく描かれ、傾いたブロック塀、伸びた雑草、外れかけた樋、割れた窓ガラス、屋根の欠けた瓦が見えます。左側では調査員がバインダーを持って建物を見上げ、足元に門・塀、雑草、屋根材、樋、窓ガラスと書いた札が並んでいます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ap1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3dbee"/><stop offset="1" stop-color="#e8f0e4"/>
+    </linearGradient>
+    <linearGradient id="ap1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa9bd"/><stop offset="1" stop-color="#b5cad2"/>
+    </linearGradient>
+    <linearGradient id="ap1Near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f9c7f"/><stop offset="1" stop-color="#94b98f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="230" fill="url(#ap1Sky)"/>
+
+  <!-- 山並み -->
+  <path fill="url(#ap1Far)" d="M0 150 L110 88 L214 148 L322 76 L432 146 L548 70 L664 148 L772 84 L880 146 L1000 96 L1000 200 L0 200 Z"/>
+  <path fill="url(#ap1Near)" d="M0 186 L124 132 L246 190 L378 128 L512 188 L648 130 L780 190 L900 138 L1000 182 L1000 236 L0 236 Z"/>
+  <g fill="#3f6b52">
+    <path d="M24 236 l14 -38 l14 38 z"/><path d="M56 236 l11 -30 l11 30 z"/>
+    <path d="M86 236 l13 -34 l13 34 z"/>
+    <path d="M902 236 l13 -36 l13 36 z"/><path d="M934 236 l11 -28 l11 28 z"/>
+    <path d="M962 236 l14 -38 l14 38 z"/>
+  </g>
+
+  <!-- 太田川と橋 -->
+  <path fill="#8fb9cf" d="M0 250 C 180 236, 380 262, 560 248 C 720 236, 870 258, 1000 246 L1000 274 C 870 286, 720 266, 560 278 C 380 292, 180 266, 0 280 Z"/>
+  <g stroke="#c8d6dc" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M120 258 C 200 252, 260 268, 340 262"/>
+    <path d="M640 258 C 720 250, 790 268, 870 260"/>
+  </g>
+  <g>
+    <rect x="392" y="238" width="196" height="10" rx="3" fill="#d8d2c2"/>
+    <rect x="404" y="248" width="12" height="34" fill="#bdb7a6"/>
+    <rect x="562" y="248" width="12" height="34" fill="#bdb7a6"/>
+    <g stroke="#bdb7a6" stroke-width="4"><path d="M392 232 L588 232"/><path d="M400 232 L400 240"/><path d="M470 232 L470 240"/><path d="M540 232 L540 240"/></g>
+  </g>
+
+  <!-- 茶畑の段 -->
+  <path fill="#7fae57" d="M0 286 C 240 274, 480 300, 700 288 C 840 280, 930 294, 1000 288 L1000 336 L0 344 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 296 C 240 284, 480 310, 700 298 C 840 290, 930 304, 1000 298"/>
+    <path d="M0 312 C 240 300, 480 326, 700 314 C 840 306, 930 320, 1000 314"/>
+    <path d="M0 328 C 240 316, 480 342, 700 330 C 840 322, 930 336, 1000 330"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 340 L1000 330 L1000 560 L0 560 Z"/>
+
+  <!-- 奥の集落 -->
+  <g>
+    <path d="M296 348 L346 320 L396 348 Z" fill="#7f8b8f"/>
+    <rect x="306" y="348" width="80" height="40" fill="#efeade" stroke="#c6bfae" stroke-width="2"/>
+    <rect x="328" y="360" width="20" height="28" fill="#b8c4c8"/>
+    <path d="M416 352 L460 328 L504 352 Z" fill="#7f8b8f"/>
+    <rect x="424" y="352" width="72" height="36" fill="#efeade" stroke="#c6bfae" stroke-width="2"/>
+    <rect x="442" y="362" width="18" height="26" fill="#b8c4c8"/>
+    <path d="M520 350 L560 328 L600 350 Z" fill="#7f8b8f"/>
+    <rect x="528" y="350" width="64" height="34" fill="#efeade" stroke="#c6bfae" stroke-width="2"/>
+  </g>
+
+  <!-- 右：雨戸を閉めた空き家 -->
+  <g>
+    <!-- 屋根 -->
+    <path d="M596 372 L744 288 L892 372 Z" fill="#6f7c82"/>
+    <path d="M612 372 L744 296 L876 372 Z" fill="#8b979b"/>
+    <g stroke="#66737a" stroke-width="3">
+      <path d="M642 356 L846 356"/><path d="M628 366 L860 366"/>
+    </g>
+    <!-- 屋根の欠け -->
+    <path d="M792 322 L820 340 L800 344 L778 330 Z" fill="#4d585e"/>
+    <!-- 本体 -->
+    <rect x="612" y="372" width="264" height="126" fill="#efe9db" stroke="#c2baa7" stroke-width="3"/>
+    <!-- 雨戸 -->
+    <rect x="636" y="396" width="106" height="78" fill="#b39a76" stroke="#8f7a5b" stroke-width="3"/>
+    <g stroke="#8f7a5b" stroke-width="3">
+      <path d="M662 396 L662 474"/><path d="M690 396 L690 474"/><path d="M716 396 L716 474"/>
+    </g>
+    <!-- 割れた窓ガラス -->
+    <rect x="768" y="396" width="84" height="62" fill="#c3d6dd" stroke="#93a7ae" stroke-width="3"/>
+    <g stroke="#5d6f77" stroke-width="3" fill="none">
+      <path d="M772 402 L816 428 L848 412"/><path d="M810 396 L802 456"/>
+    </g>
+    <!-- 外れかけた樋 -->
+    <path d="M596 376 L616 376" stroke="#9aa5a9" stroke-width="7" stroke-linecap="round"/>
+    <path d="M880 376 L906 386 L900 452 L924 484" fill="none" stroke="#9aa5a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 傾いたブロック塀 -->
+  <g>
+    <g fill="#cfcabb" stroke="#a9a292" stroke-width="3">
+      <rect x="560" y="470" width="44" height="26"/>
+      <rect x="606" y="470" width="44" height="26"/>
+      <rect x="652" y="470" width="44" height="26"/>
+      <rect x="560" y="498" width="44" height="26"/>
+      <rect x="606" y="498" width="44" height="26"/>
+      <rect x="652" y="498" width="44" height="26"/>
+    </g>
+    <g fill="#c4bfaf" stroke="#a9a292" stroke-width="3" transform="rotate(9 720 512)">
+      <rect x="700" y="470" width="44" height="26"/>
+      <rect x="746" y="470" width="44" height="26"/>
+      <rect x="700" y="498" width="44" height="26"/>
+      <rect x="746" y="498" width="44" height="26"/>
+    </g>
+  </g>
+
+  <!-- 伸びた雑草 -->
+  <g stroke="#79953f" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M600 528 C 596 506, 608 496, 604 480"/>
+    <path d="M620 530 C 616 512, 628 500, 622 486"/>
+    <path d="M642 532 C 638 510, 650 500, 646 484"/>
+    <path d="M818 520 C 814 500, 826 490, 822 474"/>
+    <path d="M840 524 C 836 504, 848 494, 844 478"/>
+    <path d="M862 520 C 858 502, 870 492, 866 476"/>
+    <path d="M884 526 C 880 506, 892 496, 888 480"/>
+  </g>
+
+  <!-- 左：バインダーを持って見上げる調査員 -->
+  <g>
+    <circle cx="196" cy="418" r="28" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M168 412 q28 -30 56 0 q0 -23 -28 -23 q-28 0 -28 23 z" fill="#3f3830"/>
+    <path d="M162 454 q34 -18 68 0 l10 82 l-88 0 z" fill="#4a7896"/>
+    <path d="M166 480 L232 472 L238 522 L172 530 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <g stroke="#a9bfcb" stroke-width="3">
+      <path d="M180 494 L224 489"/><path d="M181 506 L214 502"/>
+    </g>
+    <rect x="188" y="466" width="26" height="10" rx="3" fill="#8d9aa0"/>
+  </g>
+
+  <!-- 足元の調査項目の札 -->
+  <g font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">
+    <rect x="36" y="356" width="104" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="88" y="377" fill="#1f3e52">門・塀</text>
+    <rect x="36" y="394" width="104" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="88" y="415" fill="#1f3e52">雑草</text>
+    <rect x="36" y="432" width="104" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="88" y="453" fill="#1f3e52">屋根材</text>
+    <rect x="36" y="470" width="104" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="88" y="491" fill="#1f3e52">樋</text>
+    <rect x="36" y="508" width="104" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="88" y="529" fill="#1f3e52">窓ガラス</text>
+  </g>
+</svg>

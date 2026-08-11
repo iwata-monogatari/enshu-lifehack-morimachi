@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ap2Title ap2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ap2Title">実家の傷みを自分で数えて相談窓口へ向かう順番を描いたイラスト</title>
+  <desc id="ap2Desc">上に森町の山並み、杉、段になった茶畑があります。左に実家を見上げる人が立ち、そこから右へ一本の道が伸びます。道沿いに門・塀、雑草と立木、屋根材と樋、窓ガラス、におい・害獣という五つの点検地点が順に置かれ、それぞれ札と丸印が並びます。道は右で二手に分かれ、上の道は瑕疵が四つまでの家（要適正管理）へ、下の道は五つ以上の家（管理不全）へ続き、二本は合流して定住推進課の相談窓口の建物に着きます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ap2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6dcec"/><stop offset="1" stop-color="#eef3e9"/>
+    </linearGradient>
+    <linearGradient id="ap2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fadbe"/><stop offset="1" stop-color="#b8ccd2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="64" fill="url(#ap2Sky)"/>
+
+  <!-- 山並み・杉・茶畑 -->
+  <path fill="url(#ap2Far)" d="M0 42 L98 14 L196 46 L300 10 L404 44 L512 8 L620 46 L724 12 L828 44 L924 12 L1000 40 L1000 58 L0 58 Z"/>
+  <g fill="#57876a">
+    <path d="M16 58 l10 -24 l10 24 z"/><path d="M40 58 l8 -18 l8 18 z"/>
+    <path d="M944 58 l9 -22 l9 22 z"/><path d="M966 58 l11 -26 l11 26 z"/>
+  </g>
+  <path fill="#7ba954" d="M0 54 C 250 46, 470 44, 660 52 C 820 58, 910 54, 1000 48 L1000 70 L0 74 Z"/>
+  <g stroke="#5f8a42" stroke-width="3" opacity="0.8" fill="none">
+    <path d="M0 60 C 250 52, 470 50, 660 58 C 820 64, 910 60, 1000 54"/>
+    <path d="M0 70 C 250 62, 470 60, 660 68 C 820 72, 910 68, 1000 62"/>
+  </g>
+  <path fill="#eef3e9" d="M0 72 L1000 66 L1000 560 L0 560 Z"/>
+
+  <!-- 道 -->
+  <g stroke="#cdc6b2" stroke-width="28" fill="none" stroke-linecap="round">
+    <path d="M172 300 L640 300"/>
+    <path d="M640 300 C 682 300, 694 250, 712 206"/>
+    <path d="M640 300 C 682 300, 694 350, 712 394"/>
+    <path d="M712 206 L790 206"/>
+    <path d="M712 394 L790 394"/>
+    <path d="M790 206 C 834 206, 846 254, 858 300"/>
+    <path d="M790 394 C 834 394, 846 346, 858 300"/>
+    <path d="M858 300 L872 300"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="3" stroke-dasharray="16 16" opacity="0.75" fill="none">
+    <path d="M196 300 L624 300"/>
+  </g>
+
+  <!-- 左：実家を見上げる人と家 -->
+  <g>
+    <path d="M28 214 L92 168 L156 214 Z" fill="#7f8b8f"/>
+    <rect x="40" y="214" width="104" height="66" fill="#efe9db" stroke="#c2baa7" stroke-width="3"/>
+    <rect x="60" y="234" width="34" height="34" fill="#b39a76" stroke="#8f7a5b" stroke-width="3"/>
+    <rect x="106" y="234" width="26" height="24" fill="#c3d6dd" stroke="#93a7ae" stroke-width="3"/>
+    <g stroke="#79953f" stroke-width="4" stroke-linecap="round" fill="none">
+      <path d="M36 296 C 32 280, 44 272, 40 258"/>
+      <path d="M56 298 C 52 282, 64 274, 60 260"/>
+      <path d="M132 296 C 128 280, 140 272, 136 258"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="106" cy="352" r="24" fill="#e6c49d" stroke="#bd9a72" stroke-width="3"/>
+    <path d="M82 346 q24 -26 48 0 q0 -20 -24 -20 q-24 0 -24 20 z" fill="#463d33"/>
+    <path d="M78 382 q28 -15 56 0 l8 70 l-72 0 z" fill="#4a7896"/>
+    <path d="M80 404 L134 397 L139 440 L85 447 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <g stroke="#a9bfcb" stroke-width="3">
+      <path d="M92 416 L128 412"/><path d="M93 427 L120 423"/>
+    </g>
+  </g>
+
+  <!-- 点検地点 -->
+  <g font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">
+    <circle cx="228" cy="300" r="13" fill="#3e6b55"/>
+    <text x="228" y="305" fill="#ffffff" font-size="14">1</text>
+    <rect x="176" y="212" width="106" height="34" rx="9" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="229" y="235" fill="#1f3e52">門・塀</text>
+    <path d="M228 246 L228 286" stroke="#8fb79c" stroke-width="3"/>
+
+    <circle cx="322" cy="300" r="13" fill="#3e6b55"/>
+    <text x="322" y="305" fill="#ffffff" font-size="14">2</text>
+    <rect x="262" y="342" width="120" height="34" rx="9" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="322" y="365" fill="#1f3e52">雑草・立木</text>
+    <path d="M322 314 L322 342" stroke="#8fb79c" stroke-width="3"/>
+
+    <circle cx="418" cy="300" r="13" fill="#3e6b55"/>
+    <text x="418" y="305" fill="#ffffff" font-size="14">3</text>
+    <rect x="354" y="212" width="128" height="34" rx="9" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="418" y="235" fill="#1f3e52">屋根材・樋</text>
+    <path d="M418 246 L418 286" stroke="#8fb79c" stroke-width="3"/>
+
+    <circle cx="512" cy="300" r="13" fill="#3e6b55"/>
+    <text x="512" y="305" fill="#ffffff" font-size="14">4</text>
+    <rect x="450" y="342" width="124" height="34" rx="9" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="512" y="365" fill="#1f3e52">窓ガラス</text>
+    <path d="M512 314 L512 342" stroke="#8fb79c" stroke-width="3"/>
+
+    <circle cx="604" cy="300" r="13" fill="#3e6b55"/>
+    <text x="604" y="305" fill="#ffffff" font-size="14">5</text>
+    <rect x="536" y="212" width="140" height="34" rx="9" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="606" y="235" fill="#1f3e52">におい・害獣</text>
+    <path d="M604 246 L604 286" stroke="#8fb79c" stroke-width="3"/>
+  </g>
+
+  <!-- 上の道：瑕疵4つまで＝要適正管理 -->
+  <g>
+    <path d="M700 196 L742 170 L784 196 Z" fill="#7f8b8f"/>
+    <rect x="708" y="196" width="68" height="36" fill="#f4f1e6" stroke="#bdb5a2" stroke-width="3"/>
+    <rect x="726" y="206" width="20" height="26" fill="#b39a76"/>
+    <rect x="668" y="124" width="272" height="34" rx="9" fill="#3e6b55"/>
+    <text x="804" y="147" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">瑕疵4つまで＝要適正管理</text>
+  </g>
+
+  <!-- 下の道：瑕疵5つ以上＝管理不全 -->
+  <g>
+    <path d="M700 420 L742 394 L784 420 Z" fill="#6f7c82"/>
+    <rect x="708" y="420" width="68" height="36" fill="#e8e2d4" stroke="#b0a894" stroke-width="3"/>
+    <path d="M756 394 L774 406 L762 410 L748 400 Z" fill="#4d585e"/>
+    <path d="M714 456 C 710 442, 722 436, 718 424" fill="none" stroke="#79953f" stroke-width="4" stroke-linecap="round"/>
+    <rect x="668" y="470" width="272" height="34" rx="9" fill="#1f3e52"/>
+    <text x="804" y="493" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">瑕疵5つ以上＝管理不全</text>
+  </g>
+
+  <!-- 合流先：定住推進課の窓口 -->
+  <g>
+    <path d="M846 268 L906 232 L966 268 Z" fill="#6f8391"/>
+    <rect x="856" y="268" width="100" height="72" fill="#f2f0e6" stroke="#c0b9a6" stroke-width="3"/>
+    <rect x="870" y="286" width="32" height="30" fill="#c3d6dd" stroke="#93a7ae" stroke-width="3"/>
+    <rect x="918" y="286" width="28" height="54" fill="#b39a76" stroke="#8f7a5b" stroke-width="3"/>
+    <circle cx="924" cy="316" r="6" fill="#4a7896"/>
+    <rect x="806" y="352" width="188" height="34" rx="9" fill="#1f3e52"/>
+    <text x="900" y="375" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">定住推進課の窓口</text>
+  </g>
+</svg>
