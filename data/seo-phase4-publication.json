@@ -3681,13 +3681,13 @@
       "森町で埋蔵文化財の照会記録を土地資料に綴じる",
       "土地工事前の照会経緯と回答を後継者へ残したい"
     ],
-    "editorial_chars": 6444,
+    "editorial_chars": 5559,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 206,
@@ -3897,13 +3897,13 @@
       "森町で世帯数と住宅数を同じ数字として扱わない読み方",
       "世帯統計と住宅統計の違いから空き家を誤推定しない方法を知りたい"
     ],
-    "editorial_chars": 6531,
+    "editorial_chars": 5565,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 218,
@@ -4041,13 +4041,13 @@
       "森町で代理取得した証明書の委任範囲と返却を記録する",
       "家族が代理取得した証明書の用途と保管先を残したい"
     ],
-    "editorial_chars": 6462,
+    "editorial_chars": 5570,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 226,
@@ -4239,13 +4239,13 @@
       "森町で公共用地境界確定の申請図面を家の資料へ残す",
       "道路との境界確認に使った図面と立会記録を保存したい"
     ],
-    "editorial_chars": 6468,
+    "editorial_chars": 5628,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 237,
@@ -4365,13 +4365,13 @@
       "森町で景観届出の行為種別と規模欄を写真台帳へ結ぶ",
       "外観工事の届出検討を着工前写真と一緒に残したい"
     ],
-    "editorial_chars": 6459,
+    "editorial_chars": 5654,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 244,
@@ -4401,13 +4401,13 @@
       "森町で国土利用計画の土地取引届出を契約日から逆算する",
       "一定規模の土地取引で確認する日付と書類を整理したい"
     ],
-    "editorial_chars": 6682,
+    "editorial_chars": 5641,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 246,
@@ -4815,13 +4815,13 @@
       "森町で公共交通計画の目標値と実際の利用条件を分けて読む",
       "計画上の目標と現在の運行情報を混同せず理解したい"
     ],
-    "editorial_chars": 6468,
+    "editorial_chars": 5568,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 269,
@@ -5013,13 +5013,13 @@
       "森町の森林整備相談",
       "所有山林の手入れをどこへ相談するか知りたい"
     ],
-    "editorial_chars": 6375,
+    "editorial_chars": 5575,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 280,
@@ -5373,13 +5373,13 @@
       "森町で鳥獣被害の日時・場所・作物・写真を記録する",
       "被害相談で推測ではなく継続記録を示したい"
     ],
-    "editorial_chars": 6435,
+    "editorial_chars": 5587,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 300,

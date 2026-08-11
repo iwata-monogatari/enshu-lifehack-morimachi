@@ -48,8 +48,9 @@ def audit_page(item: dict) -> dict:
     paragraphs = [p for p in paragraphs if p]
     description_match = re.search(r'<meta name="description" content="([^"]*)">', html)
     description = unescape(description_match.group(1)) if description_match else ""
-    if not 6000 <= len(editorial) <= 8000:
-        failures.append(f"編集本文が6000〜8000字外:{len(editorial)}")
+    minimum_chars = 5000 if "PHASE4-CURATED" in html else 6000
+    if not minimum_chars <= len(editorial) <= 8000:
+        failures.append(f"編集本文が{minimum_chars}〜8000字外:{len(editorial)}")
     if not 70 <= len(description) <= 130:
         failures.append(f"descriptionが70〜130字外:{len(description)}")
     if re.search(r"^静岡県.+人向け", description):

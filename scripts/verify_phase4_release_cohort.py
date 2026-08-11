@@ -42,6 +42,26 @@ COHORT = (
 )
 
 
+def cohort_for_ids(raw_ids: str | None) -> tuple[tuple[int, str, str, str], ...]:
+    if not raw_ids:
+        return COHORT
+    from build_seo_phase4 import canonical_url, load_rows, parse_ids
+
+    rows = load_rows()
+    available = {int(row["id"]) for row in rows}
+    selected = parse_ids(raw_ids, available)
+    return tuple(
+        (
+            int(row["id"]),
+            canonical_url(row),
+            str(row["title"]),
+            str(row["search_intent"]),
+        )
+        for row in rows
+        if int(row["id"]) in selected
+    )
+
+
 def cache_bust(url: str, token: str) -> str:
     return f"{url}{'&' if '?' in url else '?'}audit={token}"
 
@@ -178,12 +198,15 @@ def live_surfaces(token: str, errors: list[str]) -> None:
 
 
 def main() -> int:
+    global COHORT
     parser = argparse.ArgumentParser()
     parser.add_argument("--local", action="store_true", help="read the worktree instead of production")
     parser.add_argument("--expect-pending", action="store_true", help="expect noindex and exclusion from local public surfaces")
+    parser.add_argument("--ids", help="検証するPhase4 ID。例: 205,217,225")
     args = parser.parse_args()
     if args.expect_pending and not args.local:
         parser.error("--expect-pending is only valid with --local")
+    COHORT = cohort_for_ids(args.ids)
     errors: list[str] = []
     token = str(time.time_ns())
     for _, path, title, marker in COHORT:

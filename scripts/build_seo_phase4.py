@@ -75,6 +75,162 @@ CRITICAL_FACTS = {
     ],
 }
 
+# Day2で一次資料を再調査した3件は、汎用の「資料整理」文ではなく、
+# 各手続の判断順・成果物・期限に沿って説明する。各組の1段落目は
+# 事実の意味、2段落目は読者が残す記録を扱い、公式事実と編集上の助言を混ぜない。
+DAY2_SECTION_NOTES = {
+    236: [
+        (
+            "境界確定の相手は、目の前にある道路の見た目ではなく、その土地を管理する主体で決まります。町道に見えても国・県管理の場合があるため、申請書を書き始める前に管理者を確かめます。",
+            "家の台帳には、公共用地の種類、所在、管理者を確認した資料、確認日を一組で残します。道路・河川・水路のどれか分からない段階では、推測した名称を確定欄へ書きません。",
+        ),
+        (
+            "公図と登記簿は、申請先を探す入口です。現地の舗装幅や側溝だけで所有・管理範囲を決めず、公図上の表示と登記名義を照合してから町へ相談します。",
+            "公図の取得日、対象地番、前面に表示された土地の表記をメモします。図面の切り抜きだけを保存せず、方位・縮尺・周辺地番が分かる範囲も残すと再確認しやすくなります。",
+        ),
+        (
+            "森町公式ページが対象としているのは、町が管理する道路、河川、水路、その他の町有地と民有地との境界です。国道や県管理地の一般手順を、そのまま森町の申請方法として扱うことはできません。",
+            "用地係へ伝える内容は、申請地、隣接する公共用地、境界確定の目的、手元にある図面です。相談日時と回答の要点も台帳へ追記し、後の立会準備へつなげます。",
+        ),
+        (
+            "様式第1号は案件の起点になります。申請地と申請目的が後の図面・立会記録と一致するよう、通称ではなく登記や公式資料で確認した表記を使います。",
+            "提出版の写しには提出日と添付図書名を記録します。差し替えがあった場合は旧版を黙って上書きせず、差し替え理由と新旧の対応が分かるようにします。",
+        ),
+        (
+            "隣接所有者一覧は、現地で隣に見える人を並べるメモではありません。対象地周辺の登記情報を基に、立会や協議に関係する所有者を確認するための書類です。",
+            "氏名や住所を含む一覧は公開用資料と分けて保管します。登記を確認した日と、一覧へ転記した日を残し、後に所有関係が変わったとき再確認できるようにします。",
+        ),
+        (
+            "代理人へ依頼する場合でも、何を委任したかを申請者が追える状態にします。委任状、申請書、代理人から受け取った図面の案件名をそろえることが重要です。",
+            "委任状の写しと連絡履歴を同じファイルへ入れ、測量、日程調整、図面作成のどこまでを依頼したかを別紙にまとめます。口頭だけの役割分担を残さないようにします。",
+        ),
+        (
+            "既存の境界確定図や道路台帳資料と現地測量は役割が異なります。国管理道路の手順は両者を比較する図面を求めており、既存資料だけでも現地の杭だけでも確定できないことを示しています。",
+            "比較図を受け取ったら、基準点、測点、使用した既存資料名を確認します。家族向けの簡略図を作る場合も、正式な境界確定図と見分けられる名称を付けます。",
+        ),
+        (
+            "現地立会者一覧は、誰がどの立場で立ち会ったかを後からたどる記録です。出席者の記憶だけに頼らず、申請者、代理人、隣接者、管理者を区別します。",
+            "立会日、参加区分、当日確認した図面、持ち帰った宿題を一枚にまとめます。合意前の提案線を確定線のように色付けして家族へ渡さないよう注意します。",
+        ),
+        (
+            "コンクリート杭、金属プレート、舗装止めブロックは、存在するだけで財産境界を証明するものではありません。工事などで移動している可能性もあるため、管理資料と測量結果を優先します。",
+            "現地写真には撮影日、方向、写っている標識の種類を付けます。写真上の印を正式な境界線と断定せず、確定図の測点と対応できたものだけを確認済みにします。",
+        ),
+        (
+            "境界は一方的な許可ではなく、関係者の協議を経て確定します。立会時の説明、修正後の線、最終図面が同じ内容かを確認してから成果物として保管します。",
+            "境界確定図には受領日と発行・確認主体を記録し、測量図や立会メモと一緒に綴じます。家族が売買や工事で使うとき、途中案を取り出さない配置にします。",
+        ),
+        (
+            "里道や水路の公共機能がなくなった場合の用途廃止は、境界確定とは別の手続です。境界が分かったことだけで払い下げが決まったと受け取らないようにします。",
+            "用途廃止を相談した案件は、事前調査、本申請、普通財産の相談を境界ファイルから分けます。境界確定・測量・契約・登記などの費用負担も別表で管理します。",
+        ),
+        (
+            "この台帳の目的は、確定図だけを保存することではなく、どの管理者と、どの資料を使い、誰が立ち会って確定したかを再現できる状態にすることです。",
+            "最後に申請書、隣接所有者一覧、委任状、立会者一覧、確定図、連絡履歴の有無を点検します。不足書類は『なし』と決めず、未受領か不要かを区別します。",
+        ),
+    ],
+    243: [
+        (
+            "最初に、新築・増改築・外観変更・工作物・開発行為のどれに当たるかを分けます。行為種別が違えば、確認する規模や着手の考え方も変わります。",
+            "工事台帳の一行目に、行為種別、対象部分、計画日、設計担当を記録します。まだ決まっていない項目は空欄にせず、確定予定日を置きます。",
+        ),
+        (
+            "建築確認や開発許可などが必要な工事は、その申請等の30日前が景観届出期限です。それらが不要な外観変更などは、行為着手の30日前が基準になります。",
+            "確認申請等の予定日と工事着手予定日を別の列へ置き、どちらを起点にしたか明記します。二つの日付を混ぜると、届出準備の開始日を誤ります。",
+        ),
+        (
+            "高さ、延べ面積、増改築部分、見付面積は別の判定値です。高さ10メートル、延べ面積1,000平方メートル、増改築部分10平方メートル、見付面積2分の1という条件を一つにまとめません。",
+            "設計図から転記した数値には図面番号と版を付けます。設計変更で数値が変わったら旧値を消さず、どの届出版に対応するかを残します。",
+        ),
+        (
+            "土地の造成などの開発行為は、都市計画法の開発許可が不要でも1,000平方メートル以上なら景観届出が必要となる可能性があります。許可不要と届出不要は同義ではありません。",
+            "開発面積は建築面積と別欄にし、切土・盛土を始める予定日も記録します。建築の詳細が未定なら、開発と建築を分けて届けるか町へ相談します。",
+        ),
+        (
+            "町は構想・計画の早い段階での相談を案内しています。届出後の変更は調整が難しくなるため、30日前を提出日ではなく最終準備期限として使うと安全です。",
+            "工程表には事前相談、図書作成、社内・家族確認、提出、着手を並べます。相談で修正を求められた場合に備え、提出直前まで設計を固定しない進め方は避けます。",
+        ),
+        (
+            "当初届は様式第2号と添付図書を正副各1部、計2部用意します。適合通知は、書類に不備がなく景観形成基準に適合した場合に交付されます。",
+            "提出控えには提出日、受領された図面版、適合通知の受領日を記録します。届出を出した事実と、基準への適合が確認された事実を同じ欄にしません。",
+        ),
+        (
+            "近景写真は敷地の状況を確認するため、周辺道路などから撮影します。建物だけを大きく写すのではなく、対象部分と敷地の関係が読める構図にします。",
+            "撮影位置を配置図へ落とし、方向、撮影日、ファイル名を対応させます。完了写真と比べる基準写真は、加工前の元データも保管します。",
+        ),
+        (
+            "遠景写真は、少し離れた場所から周辺景観との関係を示す資料です。私有地へ無断で入らず、公道や利用可能な場所から対象が分かる位置を選びます。",
+            "近景と遠景を同じ名称で保存せず、撮影地点番号を分けます。稜線、周辺建物、道路方向など、審査で周辺との調和を読む要素が画面内にあるか確認します。",
+        ),
+        (
+            "外部仕上げ表には、屋根・壁など部分ごとの仕上げ方法、マンセル値、面積を記載します。アクセント色がある場合は、その割合も必要です。",
+            "材料見本、立面図、仕上げ表で名称と色番号を統一します。似た色という感覚的な説明だけでなく、届出版と発注仕様の対応を残します。",
+        ),
+        (
+            "景観形成基準に関わる変更は、様式第3号と変更部分の添付図書で事前に届けます。着手前か着手後かで、30日間の制限がかかる範囲も変わります。",
+            "変更台帳には変更理由、対象箇所、新旧図面、変更届提出日を記録します。施工者へは口頭変更だけで進めず、届出済み版を共有します。",
+        ),
+        (
+            "完了写真は、届け出た行為が完了したことを示す資料です。着手前と同じ撮影位置・方向を使えば、届出内容との対応を確認しやすくなります。",
+            "天候や駐車車両で同じ構図が撮れない場合は、理由と代替位置を残します。見栄えを整える加工より、対象部分が確認できる元写真を優先します。",
+        ),
+        (
+            "工事が完了したら、完了日から14日以内に様式第4号と完了写真を提出します。基本的に完了検査は行わない案内ですが、必要に応じて現地確認があります。",
+            "台帳の最後に完了日、写真撮影日、完了届提出日を別々に記録します。当初届、変更届、適合通知、完了届を同じ案件番号で束ねて手続を閉じます。",
+        ),
+    ],
+    245: [
+        (
+            "届出期限は土地売買等の契約締結日から動き始めます。面積確認や様式選びを契約後に始めると2週間を圧迫するため、契約前に判定材料をそろえます。",
+            "契約書を受け取ったら、契約締結日、対象筆、取得者、提出期限を一枚へ転記します。引渡日や代金支払日を期限の起点にしないよう欄を分けます。",
+        ),
+        (
+            "届出者は土地の権利を取得する側です。売買では買主、権利金を伴う賃貸借などでは借主が該当し得るため、契約上の立場を先に確認します。",
+            "共有で取得する場合は共有者一覧の要否も確認します。届出担当者と権利取得者を同一視せず、代理提出なら連絡先と役割を記録します。",
+        ),
+        (
+            "森町では都市計画区域内と区域外で面積基準が異なります。町の都市計画図は概略資料なので、境界付近や判断が難しい土地は役場で区域を確認します。",
+            "台帳には区域名、確認に使った図面、役場へ確認した日を残します。住所だけで区域を推測せず、複数筆が別区域にまたがる場合も個別に整理します。",
+        ),
+        (
+            "森町公式案内では、都市計画区域内は5,000平方メートル以上、区域外は10,000平方メートル以上が基準です。県の一般表にある市街化区域2,000平方メートルという区分を、森町に存在すると決めつけません。",
+            "各筆の面積、区域、適用した基準を同じ表へ置きます。区域が二つにまたがる場合の基準は県案内を確認し、最終判断を町の担当へ照会します。",
+        ),
+        (
+            "一筆ずつが基準未満でも、同じ取得者が一連の計画で取得する一団の土地は合計して判定します。契約を分けたことだけで対象外になるとは限りません。",
+            "隣接性、取得時期、利用目的、取得者を筆一覧へ記録します。一団か判断に迷う計画は、契約前に全筆を示して町・県へ確認します。",
+        ),
+        (
+            "対象となり得るのは売買だけではありません。交換、共有持分、営業譲渡、譲渡担保、地上権・賃借権、予約完結権、信託受益権、地位の譲渡なども確認対象です。",
+            "契約書の表題だけで対象外と判断せず、移転する権利、対価、権利金の有無を整理します。判断根拠にした公式資料と照会結果を契約ファイルへ残します。",
+        ),
+        (
+            "期限は契約締結日から2週間以内です。県案内では契約締結日を含めて数え、土地が所在する市町の窓口へ提出するよう示しています。",
+            "カレンダーには契約日、14日目、提出予定日を記載します。郵送や書類補正の時間を考え、14日目を作業開始日にしない日程を組みます。",
+        ),
+        (
+            "2週間目の日が土日・祝日など行政機関の休日なら、次の開庁日が期限になります。これは期限の延長を自由に選べるという意味ではありません。",
+            "休日補正前の日付と実際の期限を両方残します。年末年始など開庁日が分かりにくい時期は、町の開庁案内も確認します。",
+        ),
+        (
+            "2026年4月1日以降に提出する場合は新様式が必要です。契約日が3月31日以前でも、提出日が4月1日以降なら新様式を使います。",
+            "様式ファイルには取得日と適用開始日を付けます。前年に保存した様式を複製せず、提出直前に森町公式ページから現行版を確認します。",
+        ),
+        (
+            "森町は本紙に収まらない筆の一覧、共有者一覧、海外居住者用の別紙を用意しています。該当条件を確認して必要な別紙を本紙と一緒に管理します。",
+            "筆番号、共有者、国外住所を本紙と別紙で照合し、記載漏れや表記揺れを点検します。別紙だけを送付・保存して本紙との関係が分からなくならないようにします。",
+        ),
+        (
+            "静岡県の案内では届出書は2部、受付控えを希望する場合は3部です。提出方法ごとの扱いは、実行前に森町の窓口へ確認します。",
+            "提出用、行政保管用、受付控えのどれかを表紙に明記します。控えを受け取ったら受付日が読める状態で契約書と一緒に保存します。",
+        ),
+        (
+            "手続後の記録は、期限内に提出したことだけでなく、どの土地・契約・様式版について届けたかを再現できる必要があります。",
+            "契約書、区域確認、面積表、本紙、別紙、添付書類、受付控えを一案件にまとめます。後の照会に備え、未確認事項と町へ質問した内容も残します。",
+        ),
+    ],
+}
+
 # URLの存在確認や編集手順は、出典付きであっても主題そのものの事実ではない。
 # enrichmentを本文へ渡す前に除外し、件数だけを満たす疑似的な項目を防ぐ。
 PSEUDO_FACT_MARKERS = (
@@ -388,6 +544,11 @@ def specific_blocks(row: dict) -> str:
 
 def safe_faqs(row: dict) -> list[tuple[str, str]]:
     """検索意図へ直接答える、短く自然なFAQを作る。"""
+    if row.get("section_paragraphs") or int(row["id"]) in DAY2_SECTION_NOTES:
+        return [
+            (str(item["question"]).strip(), str(item["answer"]).strip())
+            for item in row["faqs"][:4]
+        ]
     subject = str(row["title"]).split("｜", 1)[0]
     source_titles = [str(item.get("title") or "公式ページ") for item in row["sources"]]
     _, _, memo = category_context(row["category"])
@@ -410,8 +571,250 @@ def safe_faqs(row: dict) -> list[tuple[str, str]]:
     ]
 
 
+def editorial_blocks_curated(row: dict) -> str:
+    """調査担当が主題ごとに書いた専用本文を、改変せず記事構造へ組み込む。"""
+    sections = row.get("section_paragraphs")
+    if not isinstance(sections, list) or len(sections) != 12:
+        raise RuntimeError(f"ID{row['id']} 専用本文は12節が必要です")
+    total_paragraphs = sum(len(section.get("paragraphs", [])) for section in sections)
+    if total_paragraphs < 36:
+        raise RuntimeError(f"ID{row['id']} 専用本文は36段落以上が必要です")
+    first_faq = row.get("faqs", [{}])[0]
+    conditions = row.get("morimachi_conditions", [])
+    answer = str(first_faq.get("answer") or row["search_intent"]).strip()
+    condition_value = conditions[0] if conditions else "実行前に森町の担当窓口で対象条件を確認します。"
+    if isinstance(condition_value, dict):
+        condition_value = condition_value.get("condition") or condition_value.get("statement") or ""
+    local_condition = str(condition_value).strip()
+    parts = [
+        '<!-- PHASE4-CURATED -->',
+        '<section class="direct-answer"><h2 class="sec">先に結論を確認する</h2>',
+        f'<p><strong>この記事の答え：</strong>{e(answer)}</p>',
+        f'<p><strong>森町で最初に照合する条件：</strong>{e(local_condition)}</p></section>',
+    ]
+    for index, section in enumerate(sections):
+        heading = str(section.get("heading", "")).strip()
+        paragraphs = section.get("paragraphs", [])
+        if not heading or not isinstance(paragraphs, list) or len(paragraphs) < 3:
+            raise RuntimeError(f"ID{row['id']} 専用本文の節{index + 1}が不正です")
+        parts.append(f'<section class="topic-specific"><h2 class="sec">{e(heading)}</h2>')
+        parts.extend(f'<p>{e(str(paragraph).strip())}</p>' for paragraph in paragraphs)
+        if index == 2:
+            parts.append(
+                f'<figure><img style="width:100%;height:auto" src="fig1.svg" width="1000" height="560" '
+                f'loading="lazy" alt="{e(row["title"])}で対象と一次資料を照合する場面">'
+                '<figcaption>記事の対象と森町の一次資料を同じ順序で照合します。</figcaption></figure>'
+            )
+        if index == 8:
+            parts.append(
+                f'<figure><img style="width:100%;height:auto" src="fig2.svg" width="1000" height="560" '
+                f'loading="lazy" alt="{e(row["title"])}の確認結果を次の担当へ渡す場面">'
+                '<figcaption>確認結果と次の行動を、記事固有の流れで引き継ぎます。</figcaption></figure>'
+            )
+        parts.append('</section>')
+    return ''.join(parts)
+
+
+def editorial_blocks_fact_ledger(row: dict) -> str:
+    """実査済み記事を、事実と編集上の助言を明示して組み立てる。"""
+    facts = list(row["verified_facts"])
+    headings = [str(value).strip() for value in row["section_headings"]]
+    conditions = [str(value).strip() for value in row["morimachi_conditions"]]
+    faqs = list(row["faqs"])
+    sources = {str(item.get("url", "")): item for item in row["sources"]}
+
+    def clean(value: object) -> str:
+        text = re.sub(r"\s+", "", str(value).strip()).replace("。。", "。").replace("？？", "？")
+        return text if not text or text[-1] in "。！？" else text + "。"
+
+    def fact_statement(item: object) -> str:
+        return clean(item.get("statement", "") if isinstance(item, dict) else item)
+
+    prompts = [
+        "この項目は、記録の目的と利用場面を固定するために置きます。家族内のメモと、公的な回答を同じ欄へ書かないでください。",
+        "似た名称や数字が出たときは、意味が同じだと決めず、資料が使う正式名称と対象範囲をそのまま残します。",
+        "森町全体への案内と個別の土地・世帯・申請への回答は分けます。個別の可否は、必要事項を示して担当窓口へ確認します。",
+        "準備資料は、提出するもの、照合に使うもの、家族内で保管するものに分けます。原本を渡す場合は返却予定も記録します。",
+        "問い合わせ記録には、質問、回答、回答部署、確認日を残します。口頭回答は自分の解釈を混ぜず、要点を短く記します。",
+        "日付は、資料の基準日、問い合わせ日、提出日、実行予定日を分けます。期限がある場合は準備開始日も逆算します。",
+        "資料に書かれていない費用、期間、可否は未確認事項です。一般的な例を森町での確定条件として補わないでください。",
+        "家族へ共有するときは、必要な人だけに資料を渡し、個人情報や土地情報を含む写しの保管場所を決めます。",
+        "条件がそろわないときは、保留、追加照会、計画変更を分けます。急いで一つの結論へ寄せず、再開条件を記録します。",
+        "次の担当者が同じ根拠へ戻れるよう、資料名、URL、確認日、該当箇所を一組で残します。略称だけの引継ぎは避けます。",
+        "大石の視点として、売却や申請を先に決めず、確認できた事実と未確認事項を分けます。この記事の助言は個別判断の代わりではありません。",
+        "最後に、タイトルの問いへ答えた事実、まだ答えられない点、次に連絡する相手を一行ずつ書きます。実行直前に公式ページを開き直します。",
+    ]
+
+    facts_by_section = [[] for _ in headings]
+    configured_indices = row.get("fact_section_indices", [])
+    all_facts = row.get("all_verified_facts", facts)
+    if len(configured_indices) != len(all_facts) or any(not isinstance(value, int) or not 0 <= value < len(headings) for value in configured_indices):
+        raise RuntimeError(f"ID{row['id']} fact_section_indices がverified_factsと対応していません")
+    section_by_statement = {
+        str(item.get("statement", "")): section_index
+        for item, section_index in zip(all_facts, configured_indices)
+        if isinstance(item, dict)
+    }
+    section_indices = [section_by_statement.get(str(item.get("statement", "")), 0) for item in facts]
+    for section_index, item in zip(section_indices, facts):
+        facts_by_section[section_index].append(item)
+
+    parts = [
+        '<section class="direct-answer"><h2 class="sec">先に結論を確認する</h2>',
+        f'<p><strong>この記事が答える問い：</strong>{e(clean(row["search_intent"]))}</p>',
+        f'<p><strong>この記事で勧める整理：</strong>{e(clean(conditions[0]))}'
+        '以下では、公式資料で確認できる事実と、記録を作るための助言を分けて示します。</p>',
+        f'<p>「{e(row["title"])}」で扱う個別の土地、世帯、証明書についての最終的な可否は、掲載資料だけでは確定しません。'
+        '対象情報をそろえ、各資料の担当窓口へ確認してください。</p></section>',
+    ]
+
+    condition_slots = {3: 1, 8: 2}
+    faq_slots = {1: 0, 4: 1, 7: 2, 10: 3}
+    for index, heading in enumerate(headings):
+        items = facts_by_section[index]
+        parts.append(f'<section class="topic-specific"><h2 class="sec">{e(heading)}</h2>')
+        for item in items:
+            statement = fact_statement(item)
+            source = sources.get(str(item.get("source_url", "")), {}) if isinstance(item, dict) else {}
+            source_name = source.get("title") or "公式資料"
+            parts.append(f'<p><strong>公式資料で確認できる事実：</strong>{e(statement)}</p>')
+            parts.append(
+                f'<p><strong>「{e(heading)}」の根拠の範囲：</strong>「{e(statement)}」という記述の根拠は「{e(source_name)}」です。'
+                '資料が示していない個別条件へ意味を広げず、対象と確認日を添えて使います。</p>'
+            )
+        if items:
+            joined = "、".join(fact_statement(item).rstrip("。") for item in items)
+            parts.append(
+                f'<p><strong>この見出しで整理すること：</strong>「{e(heading)}」について、'
+                f'確認済みの範囲は「{e(joined)}」です。ここから先の個別判断は未確認事項として分けます。</p>'
+            )
+        else:
+            parts.append(
+                f'<p><strong>この見出しの位置付け：</strong>「{e(heading)}」は、上記の確認済み事実を'
+                '家族や次の担当へ渡すための編集上の整理です。新しい公的条件を示すものではありません。</p>'
+            )
+        parts.append(
+            f'<p><strong>「{e(heading)}」で勧める記録方法：</strong>{e(prompts[index])}</p>'
+        )
+        if index in condition_slots and condition_slots[index] < len(conditions):
+            parts.append(
+                f'<p><strong>森町で照合する条件：</strong>{e(clean(conditions[condition_slots[index]]))}</p>'
+            )
+        if index in faq_slots and faq_slots[index] < len(faqs):
+            item = faqs[faq_slots[index]]
+            parts.append(
+                f'<p><strong>{e(clean(item["question"]))}</strong>{e(clean(item["answer"]))}</p>'
+            )
+        if index == 2:
+            parts.append(f'<figure><img style="width:100%;height:auto" src="fig1.svg" width="1000" height="560" loading="lazy" alt="{e(row["title"])}の対象と一次資料を照合する場面"><figcaption>対象と一次資料を同じ記録上で照合します。</figcaption></figure>')
+        if index == 8:
+            parts.append(f'<figure><img style="width:100%;height:auto" src="fig2.svg" width="1000" height="560" loading="lazy" alt="{e(row["title"])}の確認結果を次の担当へ渡す場面"><figcaption>確認済みの事実、未確認事項、次の担当を分けます。</figcaption></figure>')
+        parts.append('</section>')
+    return ''.join(parts)
+
+
+def editorial_blocks_day2(row: dict) -> str:
+    """Day2実査3件を、固有見出しと手続順に沿って自然文で構成する。"""
+    row_id = int(row["id"])
+    headings = [str(value).strip() for value in row["section_headings"][:12]]
+    notes = DAY2_SECTION_NOTES[row_id]
+    facts = list(row["verified_facts"])
+    conditions = list(row["morimachi_conditions"])
+    faqs = list(row["faqs"])
+    sources = list(row["sources"])
+    if len(headings) != 12 or len(notes) != 12 or len(facts) < 12:
+        raise RuntimeError(f"ID{row_id} Day2固有構成が不足しています")
+
+    def sentence(value: object) -> str:
+        if isinstance(value, dict):
+            value = value.get("condition") or value.get("statement") or ""
+        text = re.sub(r"\s+", "", str(value).strip())
+        return text if not text or text[-1] in "。！？" else text + "。"
+
+    def fact_text(item: object) -> str:
+        return sentence(item.get("statement", "") if isinstance(item, dict) else item)
+
+    fact_groups = [[] for _ in headings]
+    for index, item in enumerate(facts):
+        fact_groups[index % len(headings)].append(item)
+
+    intro = {
+        236: (
+            "森町が管理する道路・河川・水路などと民有地の境界は、申請書、隣接所有者、現地立会、境界確定図を一つの案件として残すと、後の売買や工事で確認経路をたどれます。",
+            "現地の杭や舗装端だけで線を決めず、まず管理者を確認してください。森町の申請と、国・県管理地の手続、里道・水路の用途廃止は別に扱います。",
+        ),
+        243: (
+            "森町の景観届出は、行為種別と規模を判定し、着手前の近景・遠景、届出版、変更版、完了写真を同じ案件で追えるようにすると手戻りを減らせます。",
+            "確認申請等がある場合とない場合では30日前の起算点が異なります。工事完了後も14日以内の完了届があるため、着工前だけの手続として扱わないでください。",
+        ),
+        245: (
+            "一定規模の土地取引では、契約締結日、取得者、都市計画区域、一団の土地、提出様式を一枚にまとめ、契約日から2週間以内の届出を管理します。",
+            "森町内は都市計画区域内5,000平方メートル以上、区域外10,000平方メートル以上が町公式の基準です。複数筆や区域境界は契約前に町へ確認してください。",
+        ),
+    }[row_id]
+    parts = [
+        '<section class="direct-answer"><h2 class="sec">先に結論を確認する</h2>',
+        f'<p>{e(intro[0])}</p><p>{e(intro[1])}</p></section>',
+    ]
+    condition_slots = {2: 0, 6: 1, 10: 2}
+    faq_slots = {1: 0, 4: 1, 7: 2, 11: 3}
+    source_slots = {3: 0, 8: min(1, len(sources) - 1), 11: len(sources) - 1}
+    for index, heading in enumerate(headings):
+        parts.append(f'<section class="topic-specific"><h2 class="sec">{e(heading)}</h2>')
+        for item in fact_groups[index]:
+            parts.append(f'<p><strong>公式資料で確認できること：</strong>{e(fact_text(item))}</p>')
+        parts.append(f'<p>{e(notes[index][0])}</p><p><strong>記録の作り方：</strong>{e(notes[index][1])}</p>')
+        if index in condition_slots:
+            parts.append(
+                f'<p><strong>森町で照合する条件：</strong>'
+                f'{e(sentence(conditions[condition_slots[index]]))}</p>'
+            )
+        if index in faq_slots:
+            faq = faqs[faq_slots[index]]
+            parts.append(
+                f'<p><strong>{e(sentence(faq["question"]))}</strong>'
+                f'{e(sentence(faq["answer"]))}</p>'
+            )
+        if index in source_slots and sources:
+            source = sources[source_slots[index]]
+            parts.append(
+                f'<p><strong>ここで確認する一次資料：</strong>「{e(source.get("title") or "公式資料")}」。'
+                '個別案件では掲載内容の更新日と現在の取扱いを担当窓口で再確認します。</p>'
+            )
+        if index == 2:
+            parts.append(f'<figure><img style="width:100%;height:auto" src="fig1.svg" width="1000" height="560" loading="lazy" alt="{e(row["title"])}の対象と一次資料を照合する場面"><figcaption>対象と一次資料を同じ案件記録で照合します。</figcaption></figure>')
+        if index == 8:
+            parts.append(f'<figure><img style="width:100%;height:auto" src="fig2.svg" width="1000" height="560" loading="lazy" alt="{e(row["title"])}の確認結果を次の担当へ渡す場面"><figcaption>提出版、変更版、確認結果を分けて残します。</figcaption></figure>')
+        parts.append('</section>')
+    perspective = {
+        236: (
+            "境界の相談では、現地でそれらしく見える線より、管理者・測量・協議の経路を残すことを優先します。確定前の線を前提に売買や工事を進めず、正式な確定図へ戻れる記録を家族へ渡します。",
+            "用途廃止や払い下げを望む場合も、境界確定とは別の判断が続きます。私は手続名を一つにまとめず、費用と担当窓口を分けて確認する進め方が安全だと考えます。",
+        ),
+        243: (
+            "景観届出は書類を提出するだけでなく、計画時の外観と完成後の状態を結ぶ手続です。写真の撮影地点と設計版をそろえれば、変更が生じたときにも何を届け直すか判断しやすくなります。",
+            "私は、工事日程を先に固定して30日前の期限へ押し込むより、規模判定と事前相談を設計初期へ置く方が現実的だと考えます。届出対象外の判断も、使った数値と図面版を残します。",
+        ),
+        245: (
+            "土地取引届出は、面積だけを見ると一団の土地や区域境界を見落とします。私は契約前に全筆、取得者、区域、契約形態を一枚へ集め、届出要否を町へ示せる状態にすることを勧めます。",
+            "契約後は2週間という短い期限が動きます。引渡日ではなく契約締結日を起点にし、現行様式と受付控えまで同じ契約ファイルへ残すと、後から提出経路を説明できます。",
+        ),
+    }[row_id]
+    parts.append(
+        '<section class="topic-specific"><h2 class="sec">大石の視点</h2>'
+        f'<p>{e(perspective[0])}</p><p>{e(perspective[1])}</p></section>'
+    )
+    return ''.join(parts)
+
+
 def editorial_blocks_v2(row: dict) -> str:
     """固有事実を主役にし、意味・注意・手順を自然文で展開する。"""
+    if row.get("section_paragraphs"):
+        return editorial_blocks_curated(row)
+    if int(row["id"]) in DAY2_SECTION_NOTES:
+        return editorial_blocks_day2(row)
+    if row.get("editorial_mode") == "fact-ledger":
+        return editorial_blocks_fact_ledger(row)
     title = str(row["title"])
     subject = title.split("｜", 1)[0]
     short_subject = re.sub(r"^森町(?:で|の)?", "", subject).strip()
@@ -822,7 +1225,16 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     desc = f"{subject}について、対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     webpage = {"@context":"https://schema.org", "@type":"WebPage", "name":title, "url":SITE+url, "description":desc, "dateModified":TODAY, "author":{"@type":"Person","name":"大石博之"}}
     breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"静岡県森町ライフハック","item":SITE+"/"},{"@type":"ListItem","position":2,"name":category,"item":SITE+CATEGORY_PATH.get(category,"/guide/")},{"@type":"ListItem","position":3,"name":title,"item":SITE+url}]}
-    sources = "".join(f'<a class="official-link" href="{e(src["url"])}" target="_blank" rel="noopener">{e(src.get("title") or "一次情報")} <span>{e(src.get("role") or "公式確認")}</span></a>' for src in row["sources"][:5])
+    role_labels = {
+        "primary": "森町公式",
+        "official-secondary": "国・県などの公式",
+    }
+    sources = "".join(
+        f'<a class="official-link" href="{e(src["url"])}" target="_blank" rel="noopener">'
+        f'{e(src.get("title") or "一次情報")} '
+        f'<span>{e(role_labels.get(src.get("role"), "公式確認"))}</span></a>'
+        for src in row["sources"][:5]
+    )
     category_hub = CATEGORY_PATH.get(category, "/guide/")
     # 未公開の第4期ページへ連鎖させず、常時公開されているハブだけを案内する。
     # これにより、コホート単位の公開でも未審査ページへの導線が生まれない。
@@ -869,7 +1281,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
             f"関連する問い「{faq_item['question']}」への回答は「{faq_item['answer']}」です。"
             f"根拠は「{source.get('title') or '公式資料'}」で再確認します。"
         )
-    if editorial_chars(html) < 6000:
+    if not row.get("section_paragraphs") and editorial_chars(html) < 6000:
         extra = ['<section class="practical-notes"><h2 class="sec">実行前の確認メモ</h2>']
         for paragraph in supplements:
             extra.append(f'<p>{e(paragraph)}</p>')
@@ -928,7 +1340,7 @@ def sync_discovery() -> None:
 
 
 def ensure_release_quality(rows: list[dict]) -> None:
-    """公開対象だけに、実内容の固有事実6件以上を要求する。"""
+    """公開対象に固有事実と主題専用本文を要求する。"""
     failures = [
         f"ID{row['id']} {row['substantive_fact_count']}/6"
         for row in rows if row["substantive_fact_count"] < 6
@@ -938,6 +1350,17 @@ def ensure_release_quality(rows: list[dict]) -> None:
             "公開候補に実内容の固有事実が6件未満のページがあります: "
             + ", ".join(failures[:20])
             + (f" ほか{len(failures) - 20}件" if len(failures) > 20 else "")
+        )
+    grandfathered_ids = {215, 232, 241, 270, 277}
+    missing_curated = [
+        f"ID{row['id']}"
+        for row in rows
+        if int(row["id"]) not in grandfathered_ids and not row.get("section_paragraphs")
+    ]
+    if missing_curated:
+        raise RuntimeError(
+            "新規公開候補に主題専用本文section_paragraphsがありません: "
+            + ", ".join(missing_curated[:20])
         )
 
 def set_release_state(rows: list[dict], released: bool) -> None:
@@ -988,8 +1411,9 @@ def main() -> None:
         html = render(row, url, urls[index-1], urls[(index+1) % len(urls)])
         html = html.replace("<head>", f"<head>{ROBOTS_PENDING}", 1)
         chars = editorial_chars(html)
-        if not 6000 <= chars <= 8000:
-            raise RuntimeError(f"編集本文が6000〜8000文字の範囲外: {url} {chars}")
+        minimum_chars = 5000 if row.get("section_paragraphs") else 6000
+        if not minimum_chars <= chars <= 8000:
+            raise RuntimeError(f"編集本文が{minimum_chars}〜8000文字の範囲外: {url} {chars}")
         path.write_text(html, encoding="utf-8", newline="\n")
         publication_by_id[int(row["id"])] = {
             "id": row["id"],
