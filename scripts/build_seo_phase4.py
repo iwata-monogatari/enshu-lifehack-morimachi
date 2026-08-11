@@ -610,6 +610,21 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="farmland-rights-parcel-branches"><path d="M260 270 425 225l105 85-55 155-195 10Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M335 245l35 220M265 370l235 55" stroke="{accent}" stroke-width="8"/><rect x="565" y="205" width="175" height="80" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="565" y="325" width="175" height="80" rx="12" fill="{pale}" stroke="{dark}" stroke-width="8"/><rect x="565" y="445" width="175" height="80" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><path d="M500 350 565 245M500 350h65M500 350l65 135" stroke="{dark}" stroke-width="12"/><circle cx="500" cy="350" r="22" fill="{accent}"/><g font-family="sans-serif" font-size="19" font-weight="700" fill="{dark}" text-anchor="middle"><text x="335" y="310">地番</text><text x="390" y="370">登記地目</text><text x="405" y="430">現況地目</text><text x="652" y="255">所有権</text><text x="652" y="375">賃借権</text><text x="652" y="495">使用貸借</text></g></g>',
             f'<g data-scene="farmland-deadline-field-meeting-calendar"><rect x="250" y="230" width="500" height="240" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M250 300h500M415 230v240M585 230v240" stroke="{accent}" stroke-width="8"/><circle cx="330" cy="370" r="34" fill="{pale}" stroke="{dark}" stroke-width="8"/><path d="M500 338v70m-35-35h70" stroke="{dark}" stroke-width="14"/><path d="M645 405V330l48-38 48 38v75Z" fill="{pale}" stroke="{dark}" stroke-width="8"/><path d="m305 420 24 24 50-65" fill="none" stroke="{accent}" stroke-width="11"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="332" y="275">締切</text><text x="500" y="275">現地調査</text><text x="668" y="275">農業委員会</text></g></g>',
         ],
+        191: [
+            f'<g data-scene="corporate-tax-single-file-route"><rect x="230" y="250" width="540" height="210" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M230 320h540M365 250v210M500 250v210M635 250v210" stroke="{accent}" stroke-width="8"/><path d="M285 370h70M420 370h70M555 370h70M690 370h55" stroke="{dark}" stroke-width="9"/><path d="M300 415h420" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="298" y="292">設立届</text><text x="432" y="292">初回申告</text><text x="568" y="292">納付</text><text x="702" y="292">異動届</text></g></g>',
+            f'<g data-scene="office-opening-fact-sheet"><path d="M250 430V300l110-85 110 85v130Z" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="525" y="225" width="235" height="235" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M560 285h165M560 335h135M560 385h155" stroke="{accent}" stroke-width="9"/><path d="M360 215v-55h130v90" fill="none" stroke="{dark}" stroke-width="10"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="642" y="275">登記事項</text><text x="642" y="325">定款</text><text x="642" y="375">事業年度</text><text x="642" y="425">事務所設置日</text></g></g>',
+            f'<g data-scene="filing-payment-change-loop"><rect x="250" y="255" width="150" height="125" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="600" y="255" width="150" height="125" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="425" y="405" width="150" height="95" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M400 315h200m-35-30 35 30-35 30M670 380q-15 95-95 95M425 455q-95-10-100-75" fill="none" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="19" font-weight="700" fill="{dark}" text-anchor="middle"><text x="325" y="325">申告</text><text x="675" y="325">納付</text><text x="500" y="463">異動届</text></g></g>',
+        ],
+        103: [
+            f'<g data-scene="septic-record-handover-desk"><path d="M245 430V305l105-82 105 82v125Z" fill="#fff" stroke="{dark}" stroke-width="10"/><ellipse cx="350" cy="450" rx="105" ry="42" fill="{pale}" stroke="{accent}" stroke-width="10"/><rect x="525" y="235" width="235" height="225" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M560 295h165M560 345h145M560 395h155" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="642" y="285">設備票</text><text x="642" y="335">保守点検</text><text x="642" y="385">法定検査</text></g></g>',
+            f'<g data-scene="septic-equipment-identification"><path d="M245 455V300l105-80 105 80v155Z" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="515" y="250" width="245" height="205" rx="95" fill="#fff" stroke="{dark}" stroke-width="10"/><ellipse cx="575" cy="290" rx="35" ry="18" fill="{pale}" stroke="{accent}" stroke-width="8"/><ellipse cx="685" cy="290" rx="35" ry="18" fill="{pale}" stroke="{accent}" stroke-width="8"/><path d="M630 250v205M550 360h160" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="630" y="342">合併・単独</text><text x="585" y="405">人槽</text><text x="685" y="405">設置年</text></g></g>',
+            f'<g data-scene="maintenance-and-manager-change-route"><rect x="240" y="230" width="185" height="90" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="240" y="360" width="185" height="90" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="575" y="230" width="185" height="90" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="575" y="360" width="185" height="90" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><circle cx="500" cy="340" r="38" fill="{accent}"/><path d="M425 275l75 50m-75 80 75-50m75-80-75 50m75 80-75-50" stroke="{dark}" stroke-width="12"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="332" y="270">管理者変更</text><text x="332" y="292">報告</text><text x="332" y="410">契約名義</text><text x="668" y="270">保守・清掃</text><text x="668" y="292">法定検査</text><text x="668" y="410">一年予定表</text></g></g>',
+        ],
+        162: [
+            f'<g data-scene="twelve-month-farmland-calendar"><rect x="235" y="215" width="530" height="270" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M235 285h530M235 352h530M235 419h530M367 215v270M500 215v270M633 215v270" stroke="{accent}" stroke-width="7"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="301" y="258">4月</text><text x="434" y="258">5月</text><text x="566" y="258">6月</text><text x="699" y="258">7月</text><text x="301" y="326">8月</text><text x="434" y="326">9月</text><text x="566" y="326">10月</text><text x="699" y="326">11月</text><text x="301" y="393">12月</text><text x="434" y="393">1月</text><text x="566" y="393">2月</text><text x="699" y="393">3月</text></g></g>',
+            f'<g data-scene="four-column-calendar-desk"><rect x="240" y="235" width="520" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M240 305h520M370 235v235M500 235v235M630 235v235" stroke="{accent}" stroke-width="8"/><path d="M275 355h60M405 355h60M535 355h60M665 355h60M275 410h60M405 410h60M535 410h60M665 410h60" stroke="{dark}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="305" y="280">締切</text><text x="435" y="280">発送</text><text x="565" y="280">現地調査</text><text x="695" y="280">総会</text></g></g>',
+            f'<g data-scene="planned-actual-version-archive"><rect x="235" y="255" width="170" height="160" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="415" y="305" width="170" height="160" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="595" y="235" width="170" height="180" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M405 335h10M585 355h10" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="19" font-weight="700" fill="{dark}" text-anchor="middle"><text x="320" y="325">予定表</text><text x="500" y="375">実績表</text><text x="680" y="300">変更確認</text><text x="680" y="355">次年度版</text></g></g>',
+        ],
     }
     special_labels = {
         249: ["固定資産・証明書ルート", "固定資産・必要項目から選ぶ", "固定資産・年度と範囲"],
@@ -628,6 +643,9 @@ def svg(row: dict, index: int) -> str:
         246: ["課税明細・資料の役割", "課税明細・一筆一棟", "課税明細・単有と共有"],
         284: ["児童クラブ・利用時間の比較", "児童クラブ・三つの実施場所", "児童クラブ・迎え経路"],
         292: ["農地・譲渡人と譲受人", "農地・一筆と権利の種類", "農地・締切と現地と総会"],
+        191: ["法人町民税・一件ファイル", "法人町民税・設立情報を固定", "法人町民税・申告から異動"],
+        103: ["浄化槽・設備と記録の引継ぎ", "浄化槽・設備票を確認", "浄化槽・管理者変更と維持管理"],
+        162: ["農業委員会・令和8年度12か月", "農業委員会・四つの日付", "農業委員会・予定と実績"],
     }
     special_descriptions = {
         249: [
@@ -674,6 +692,21 @@ def svg(row: dict, index: int) -> str:
             "茶畑の一筆を挟み、譲渡人と譲受人が権利種別を分けて確認する図",
             "農地一筆の地番、登記地目、現況地目と所有権・賃借権・使用貸借を分岐して照合する図",
             "農地手続の締切日、現地調査日、農業委員会の日を別々に管理する図",
+        ],
+        191: [
+            "法人の設立・設置届、初回申告、納付、異動届を一件ファイルでつなぐ図",
+            "登記事項、定款、事業年度、森町内の事務所設置日を基礎情報票へ照合する図",
+            "法人町民税の申告と納付の証跡を保管し、その後の変更を異動届へ戻す図",
+        ],
+        103: [
+            "浄化槽付き住宅の設備票と保守点検・清掃・法定検査の記録を引き継ぐ図",
+            "住宅と浄化槽の銘板・点検口・ブロワを照合し、合併・単独、人槽、設置年を設備票へ記す図",
+            "県への管理者変更報告、維持管理三業務、民間契約名義を別経路で確認し一年予定表へ結ぶ図",
+        ],
+        162: [
+            "森町農業委員会の令和8年度12か月を、締切・発送・現地調査・総会の予定とともに一覧化する図",
+            "公式PDFの議案締切、議案発送、現地調査、農業委員会の四列を別々に転記する図",
+            "公式予定表、開催後の実績、変更確認、次年度の空白表を版ごとに分けて保存する図",
         ],
     }
     item_id = int(row["id"])
@@ -1514,6 +1547,10 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     # 未公開の第4期ページへ連鎖させず、常時公開されているハブだけを案内する。
     # これにより、コホート単位の公開でも未審査ページへの導線が生まれない。
     related = "".join([f'<a class="official-link" href="{category_hub}">{e(category)}の記事を状況から選ぶ</a>', '<a class="official-link" href="/guide/morimachi-complete-guide/">森町総合ガイド</a>', '<a class="official-link" href="/life/living-soon/about-morimachi/">森町を知る</a>', '<a class="official-link" href="/questions/">森町のよくある質問</a>'])
+    if int(row["id"]) == 292:
+        related = '<a class="official-link" href="/farmland/farmland-application-calendar/">令和8年度農業委員会カレンダーで日程を確認する</a>' + related
+    elif int(row["id"]) == 162:
+        related = '<a class="official-link" href="/records/farmland-transfer-party-sheet/">農地売買・貸借の当事者情報を整理する</a>' + related
     related += f'<script type="application/ld+json">{json.dumps(breadcrumb, ensure_ascii=False, separators=(",", ":"))}</script>'
     html = f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | 森町ライフハック</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE}{url}"><meta property="og:type" content="website"><meta property="og:site_name" content="森町ライフハック"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}{url}cover.svg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260702"><script type="application/ld+json">{json.dumps(webpage, ensure_ascii=False, separators=(',', ':'))}</script><script type="application/ld+json">{json.dumps(faq_json, ensure_ascii=False, separators=(',', ':'))}</script></head><body><!-- SEO-PHASE4-PAGE --><!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">森町ライフハック</a></div></header><!-- PART:header:END --><!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">森町ライフハックは森町公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END --><main><div class="wrap"><p class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {e(category)} ／ {e(title)}</p><section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(title)}</h1></div><div class="hero-body"><p class="lead">{e(intent)}人が、事実と未確認事項を分けて次の一歩を決めるためのガイドです。</p><img style="width:100%;height:auto" src="cover.svg" width="1000" height="560" alt="{e(cover_alt)}"></div></section><article class="post-editorial-body">{editorial_blocks_v2(row)}</article><section><h2 class="sec">よくある質問</h2><div class="qa">{faq_html}</div></section><section><h2 class="sec">公式情報源</h2><p>リンク先の対象年度、担当部署、更新日を確認し、実行直前に再確認してください。</p><div class="official">{sources}</div></section><section><h2 class="sec">関連ページ</h2><div class="official">{related}</div></section><p class="verified">生成日：{TODAY} ／ 個別の可否は公式窓口・当事者・必要な専門家へ確認してください。</p></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
     # 固有データが長い記事は、各節で重ねている出典説明だけを減らす。

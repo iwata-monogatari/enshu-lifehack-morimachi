@@ -184,6 +184,11 @@ def main() -> int:
     parser.add_argument("proposals", nargs="+", type=Path)
     parser.add_argument("--target", type=Path, default=DEFAULT_TARGET)
     parser.add_argument("--check-only", action="store_true")
+    parser.add_argument(
+        "--allow-published",
+        action="store_true",
+        help="監査済みの既公開記事を意図的に改稿する場合だけ上書きを許可する",
+    )
     args = parser.parse_args()
 
     publication = json.loads(PUBLICATION.read_text(encoding="utf-8"))
@@ -195,7 +200,7 @@ def main() -> int:
         for raw in records_from(document, path):
             row = validate_candidate(raw, path)
             item_id = row["id"]
-            if item_id in published_ids:
+            if item_id in published_ids and not args.allow_published:
                 raise ValueError(f"ID{item_id} は公開済みのため上書きできません")
             if item_id in updates:
                 raise ValueError(f"ID{item_id} が複数の調査ファイルにあります")

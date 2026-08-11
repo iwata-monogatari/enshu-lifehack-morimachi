@@ -1838,20 +1838,20 @@
   {
     "id": 103,
     "url": "/property/septic-tank-home-check/",
-    "title": "森町の浄化槽付き住宅を引き継ぐ前に確認すること",
+    "title": "森町の浄化槽付き住宅を設備票と維持管理記録で引き継ぐ",
     "category": "住宅",
-    "search_intent": "浄化槽のある家の保守、名義、記録を整理したい",
+    "search_intent": "浄化槽の設備情報、維持管理三業務、管理者変更報告を引継ぎ表へ整理したい",
     "search_aliases": [
-      "森町の浄化槽付き住宅を引き継ぐ前に確認すること",
-      "浄化槽のある家の保守、名義、記録を整理したい"
+      "森町の浄化槽付き住宅を設備票と維持管理記録で引き継ぐ",
+      "浄化槽の設備情報、維持管理三業務、管理者変更報告を引継ぎ表へ整理したい"
     ],
-    "editorial_chars": 6909,
+    "editorial_chars": 6336,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 104,
@@ -2900,20 +2900,20 @@
   {
     "id": 162,
     "url": "/farmland/farmland-application-calendar/",
-    "title": "森町農業委員会の申請締切から逆算する農地手続き",
+    "title": "森町の令和8年度農業委員会カレンダー｜締切・発送・現地調査・総会の48日付",
     "category": "農地",
-    "search_intent": "売買、貸借、転用の相談日程を早めに組みたい",
+    "search_intent": "令和8年度12か月の議案締切、発送、現地調査、総会予定を版管理したい",
     "search_aliases": [
-      "森町農業委員会の申請締切から逆算する農地手続き",
-      "売買、貸借、転用の相談日程を早めに組みたい"
+      "森町の令和8年度農業委員会カレンダー",
+      "令和8年度12か月の議案締切、発送、現地調査、総会予定を版管理したい"
     ],
-    "editorial_chars": 6882,
+    "editorial_chars": 6093,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 163,
@@ -3422,20 +3422,20 @@
   {
     "id": 191,
     "url": "/business/corporate-town-tax/",
-    "title": "森町で法人を設立した後の町税手続き",
+    "title": "森町で法人の設立届・初回申告・納付・異動届を一件管理する",
     "category": "事業",
-    "search_intent": "法人町民税の届出と納付の入口を知りたい",
+    "search_intent": "法人の設立・設置届から法人町民税の申告、納付、異動届まで一件ファイルで管理したい",
     "search_aliases": [
-      "森町で法人を設立した後の町税手続き",
-      "法人町民税の届出と納付の入口を知りたい"
+      "森町で法人の設立届・初回申告・納付・異動届を一件管理する",
+      "法人の設立・設置届から法人町民税の申告、納付、異動届まで一件ファイルで管理したい"
     ],
-    "editorial_chars": 6895,
+    "editorial_chars": 6108,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 192,
@@ -5247,7 +5247,7 @@
       "森町で農地売買・貸借の当事者情報を申請前に揃える",
       "農地の権利移動相談で必要な名義と利用目的を整理したい"
     ],
-    "editorial_chars": 6095,
+    "editorial_chars": 6037,
     "generated_at": "2026-08-09",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
