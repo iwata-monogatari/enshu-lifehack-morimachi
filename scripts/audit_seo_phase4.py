@@ -202,6 +202,10 @@ def refresh_public_surfaces():
         ([sys.executable,str(ROOT/'scripts/build_sitemap.py')],'sitemap'),
         (['node',str(ROOT/'scripts/build-search-index.mjs')],'search index'),
         ([sys.executable,str(ROOT/'scripts/preflight_check.py')],'preflight'),
+        # Publishing a cohort must not lower the site below the user's
+        # historical ~5,030 visible-character level. The official count only
+        # supplies the progress target here; the quality gate is site average.
+        ([sys.executable,str(ROOT/'scripts/audit_page_growth_goal.py'),'--official-count','2758'],'page-growth quality'),
     ]
     for command,label in commands:
         result=subprocess.run(command,cwd=ROOT,capture_output=True,text=True,encoding='utf-8',errors='replace')

@@ -196,7 +196,10 @@ def build_metrics(official_count: int) -> dict:
         "noindex_in_sitemap_count": len(noindex),
         "exact_duplicate_text_groups": duplicate_groups,
         "structural_error_count": structural_errors,
-        "quality_error_count": structural_errors + int(average < MEASURED_BASELINE_AVERAGE_CHARS),
+        # The user-facing objective is the historical ~5,030 visible-character
+        # level.  The lower parser-normalized baseline remains diagnostic only;
+        # it must not let a release below the agreed reference pass.
+        "quality_error_count": structural_errors + int(average < REFERENCE_AVERAGE_CHARS),
         "missing_html_sample": missing[:10],
         "noindex_sample": noindex[:10],
     }
@@ -229,9 +232,9 @@ def main() -> int:
     if metrics["structural_error_count"]:
         print("[失敗] 公開対象に欠損、noindex、または完全重複があります", file=sys.stderr)
         return 1
-    if not metrics["average_baseline_met"]:
+    if not metrics["reference_average_met"]:
         print(
-            f"[失敗] 平均可視文字数が実測基準未満です: {metrics['average_visible_chars']} < {MEASURED_BASELINE_AVERAGE_CHARS}",
+            f"[失敗] 平均可視文字数が目標基準未満です: {metrics['average_visible_chars']} < {REFERENCE_AVERAGE_CHARS}",
             file=sys.stderr,
         )
         return 1
