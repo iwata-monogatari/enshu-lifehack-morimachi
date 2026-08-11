@@ -1368,7 +1368,69 @@ def scene_ishimatsu(d):
     band(d, ["削られた墓は建て直され、", "誰も来ない墓は残る"], "森町ライフハック／寺社・歴史")
 
 
+def scene_nagi(d):
+    """標柱の立つ神木と、誰も測っていない庭の大木を並べた場面。"""
+    sky(d)
+    mountains(d)
+    d.polygon([(0, 292), (760, 284), (760, 328), (0, 338)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 332), (760, 322), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    cedars(d, [8, 46, 712, 744], 332, h=48)
+    # 左：社殿
+    d.polygon([(14, 396), (100, 348), (186, 396)], fill=(107, 86, 67))
+    d.polygon([(32, 396), (100, 356), (168, 396)], fill=(138, 113, 84))
+    d.rectangle([8, 396, 192, 406], fill=(89, 72, 58))
+    d.rectangle([32, 406, 168, 476], fill=(239, 231, 214), outline=(189, 180, 159), width=4)
+    d.rectangle([44, 420, 60, 476], fill=(176, 60, 48))
+    d.rectangle([140, 420, 156, 476], fill=(176, 60, 48))
+    d.rectangle([68, 420, 132, 476], fill=(200, 189, 168), outline=(162, 151, 127), width=3)
+    # ナギの大木
+    d.polygon([(206, 520), (214, 384), (256, 384), (264, 520)], fill=(122, 98, 71))
+    d.ellipse([132, 216, 340, 400], fill=(44, 92, 56))
+    d.ellipse([112, 288, 236, 380], fill=(36, 76, 46))
+    d.ellipse([238, 284, 356, 376], fill=(36, 76, 46))
+    d.ellipse([148, 508, 324, 542], fill=(185, 199, 174))
+    for x in (140, 190, 288, 336):
+        d.line([(x, 540), (x, 500)], fill=(138, 122, 94), width=6)
+    d.line([(136, 512), (340, 508)], fill=(138, 122, 94), width=6)
+    d.rounded_rectangle([120, 546, 292, 580], radius=7, fill=(255, 255, 255),
+                        outline=(62, 107, 85), width=3)
+    d.text((132, 552), "県指定天然記念物", font=ImageFont.truetype(FONT_BOLD, 22), fill=(31, 62, 82))
+    # 右：実家
+    d.polygon([(396, 424), (486, 366), (576, 424)], fill=(111, 124, 130))
+    d.polygon([(412, 424), (486, 376), (560, 424)], fill=(139, 151, 155))
+    d.rectangle([412, 424, 560, 500], fill=(233, 227, 211), outline=(189, 180, 159), width=4)
+    for x0 in (426, 500):
+        d.rectangle([x0, 442, x0 + 48, 488], fill=(185, 172, 145), outline=(148, 138, 114), width=3)
+        d.line([(x0 + 24, 442), (x0 + 24, 488)], fill=(148, 138, 114), width=3)
+    # 電柱と電線
+    d.line([(724, 520), (724, 320)], fill=(154, 163, 159), width=9)
+    d.line([(696, 344), (752, 344)], fill=(154, 163, 159), width=6)
+    d.line([(696, 348), (560, 366)], fill=(107, 117, 112), width=4)
+    # 庭の大木
+    d.polygon([(620, 528), (628, 404), (664, 404), (672, 528)], fill=(122, 98, 71))
+    d.line([(630, 410), (556, 386)], fill=(122, 98, 71), width=8)
+    d.line([(662, 408), (740, 380)], fill=(122, 98, 71), width=8)
+    d.ellipse([516, 336, 660, 424], fill=(79, 124, 70))
+    d.ellipse([648, 328, 760, 412], fill=(79, 124, 70))
+    d.ellipse([572, 288, 716, 384], fill=(93, 139, 78))
+    # 枯れ枝
+    d.line([(668, 438), (740, 410)], fill=(156, 138, 106), width=5)
+    d.line([(716, 420), (734, 400)], fill=(156, 138, 106), width=4)
+    # 巻尺
+    d.arc([604, 452, 690, 496], 0, 180, fill=(240, 216, 120), width=8)
+    d.ellipse([692, 448, 730, 486], fill=(216, 137, 47), outline=(168, 104, 30), width=4)
+    d.ellipse([704, 460, 718, 474], fill=(244, 231, 205))
+    d.rounded_rectangle([440, 540, 728, 578], radius=8, fill=(255, 255, 255),
+                        outline=(192, 86, 60), width=3)
+    d.text((454, 548), "測った人は、まだいない", font=ImageFont.truetype(FONT_BOLD, 22),
+           fill=(192, 86, 60))
+    band(d, ["守られる木と、", "誰も測っていない木"], "森町ライフハック／寺社・歴史")
+
+
 SCENES = {
+    "20260812-amenomiya-nagi-garden-tree": scene_nagi,
     "20260812-ishimatsu-grave-rebuilt": scene_ishimatsu,
     "20260812-tomodake-kayabuki-value-cost": scene_tomodake,
     "20260811-obon-clean-center-days": scene_obon_clean_center,
