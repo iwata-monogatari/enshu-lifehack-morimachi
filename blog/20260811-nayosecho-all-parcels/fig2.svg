@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ny2Title ny2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ny2Title">森町で親名義の土地をすべて数える順番を場面として描いたイラスト</title>
+  <desc id="ny2Desc">背景に山並みと段になった茶畑が広がります。左端で相続人が納税通知書の封筒を開けているところから一本の道が右へ伸びます。道の最初に瓦屋根の実家と「課税明細を数える」の立て札があり、次に役場の建物と「名寄帳 三百円」の札があります。その先が二股に分かれ、上の道は法務局の建物と「所有不動産記録証明 千六百円」の札へ、下の道は隣の市の役場へ続きます。道の終わりでは二人が筆ごとの一覧表を広げ、境界杭の並んだ図を指さしています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ny2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6ddec"/><stop offset="1" stop-color="#eaf1e5"/>
+    </linearGradient>
+    <linearGradient id="ny2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b7ccd3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="182" fill="url(#ny2Sky)"/>
+
+  <!-- 山並み -->
+  <path fill="url(#ny2Far)" d="M0 116 L108 60 L216 114 L328 50 L442 112 L558 46 L674 114 L788 58 L896 112 L1000 72 L1000 160 L0 160 Z"/>
+  <g fill="#3f6b52">
+    <path d="M26 182 l12 -32 l12 32 z"/><path d="M54 182 l10 -26 l10 26 z"/>
+    <path d="M930 182 l12 -32 l12 32 z"/><path d="M958 182 l13 -34 l13 34 z"/>
+  </g>
+
+  <!-- 茶畑 -->
+  <path fill="#7fae57" d="M0 182 C 220 172, 440 196, 660 184 C 760 178, 850 188, 1000 182 L1000 226 L0 232 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 192 C 220 182, 440 206, 660 194 C 760 188, 850 198, 1000 192"/>
+    <path d="M0 208 C 220 198, 440 222, 660 210 C 760 204, 850 214, 1000 208"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 228 L1000 222 L1000 560 L0 560 Z"/>
+
+  <!-- 道（本線と分岐） -->
+  <path fill="#e8e2d2" stroke="#cfc7b3" stroke-width="3"
+        d="M0 452 C 150 448, 280 436, 400 412 C 500 392, 560 372, 640 356 L640 392 C 566 406, 508 424, 414 446 C 292 474, 154 484, 0 488 Z"/>
+  <path fill="#e8e2d2" stroke="#cfc7b3" stroke-width="3"
+        d="M640 356 C 720 340, 800 312, 872 288 L884 320 C 812 344, 730 372, 646 390 Z"/>
+  <path fill="#e0dccb" stroke="#cfc7b3" stroke-width="3"
+        d="M640 392 C 720 400, 800 424, 878 448 L866 478 C 790 456, 714 434, 636 424 Z"/>
+
+  <!-- 左端：封筒を開ける相続人 -->
+  <g>
+    <circle cx="70" cy="352" r="20" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <path d="M50 348 q20 -22 40 0 q-4 -22 -20 -22 q-16 0 -20 22 z" fill="#4a4038"/>
+    <path d="M46 380 q24 -12 48 0 l10 68 l-68 0 z" fill="#5a7f9c" stroke="#43647d" stroke-width="3"/>
+    <path d="M96 402 L136 388" stroke="#e8cdae" stroke-width="12" stroke-linecap="round"/>
+    <g>
+      <rect x="112" y="352" width="86" height="56" rx="4" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+      <path d="M112 352 L155 384 L198 352" fill="none" stroke="#b9c2c6" stroke-width="3"/>
+      <rect x="140" y="316" width="72" height="26" rx="6" fill="#c0563c"/>
+      <text x="176" y="335" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">納税通知書</text>
+    </g>
+  </g>
+
+  <!-- 段1：実家と立て札 -->
+  <g>
+    <path d="M196 344 L262 306 L328 344 Z" fill="#6f7c82"/>
+    <path d="M210 344 L262 314 L314 344 Z" fill="#8b979b"/>
+    <rect x="212" y="344" width="100" height="60" fill="#f3efe3" stroke="#c2baa7" stroke-width="4"/>
+    <rect x="228" y="360" width="30" height="28" fill="#e3e9ea" stroke="#b5bfc2" stroke-width="3"/>
+    <rect x="272" y="366" width="26" height="38" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <path d="M262 404 L262 424" stroke="#8a7a5e" stroke-width="6"/>
+    <rect x="180" y="424" width="164" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="262" y="445" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">課税明細を数える</text>
+  </g>
+
+  <!-- 段2：役場と名寄帳の札 -->
+  <g>
+    <rect x="396" y="290" width="140" height="82" fill="#e4e8e5" stroke="#b2bab6" stroke-width="3"/>
+    <path d="M386 290 L466 252 L546 290 Z" fill="#98a4a6"/>
+    <rect x="452" y="330" width="30" height="42" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <g fill="#cfe0e6" stroke="#a9bcc2" stroke-width="3">
+      <rect x="410" y="308" width="28" height="24"/><rect x="496" y="308" width="28" height="24"/>
+    </g>
+    <rect x="418" y="264" width="96" height="24" rx="6" fill="#3e6b55"/>
+    <text x="466" y="282" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">森町役場</text>
+    <path d="M466 372 L466 388" stroke="#8a7a5e" stroke-width="6"/>
+    <rect x="376" y="388" width="182" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="467" y="409" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">名寄帳 300円</text>
+  </g>
+
+  <!-- 分かれ道の問い -->
+  <g>
+    <rect x="566" y="286" width="188" height="30" rx="8" fill="#1f3e52"/>
+    <text x="660" y="307" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">森町の外にもあるか</text>
+    <path d="M660 316 L660 344" stroke="#1f3e52" stroke-width="4"/>
+  </g>
+
+  <!-- 上の道：法務局 -->
+  <g>
+    <rect x="768" y="186" width="150" height="72" fill="#e4e8e5" stroke="#b2bab6" stroke-width="3"/>
+    <path d="M758 186 L843 150 L928 186 Z" fill="#98a4a6"/>
+    <g fill="#cfe0e6" stroke="#a9bcc2" stroke-width="3">
+      <rect x="786" y="204" width="24" height="22"/><rect x="832" y="204" width="24" height="22"/>
+      <rect x="878" y="204" width="24" height="22"/>
+    </g>
+    <rect x="828" y="230" width="30" height="28" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <rect x="792" y="160" width="104" height="24" rx="6" fill="#3e6b55"/>
+    <text x="844" y="178" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">法務局</text>
+    <rect x="716" y="262" width="256" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="844" y="283" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">所有不動産記録証明 1,600円</text>
+  </g>
+
+  <!-- 下の道：隣の市の役場 -->
+  <g>
+    <rect x="794" y="486" width="112" height="52" fill="#e4e8e5" stroke="#b2bab6" stroke-width="3"/>
+    <path d="M786 486 L850 458 L914 486 Z" fill="#98a4a6"/>
+    <rect x="836" y="510" width="26" height="28" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <rect x="756" y="446" width="188" height="28" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="850" y="466" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">隣の市町で名寄帳</text>
+  </g>
+
+  <!-- 終点：筆の一覧表を囲む二人 -->
+  <g>
+    <path d="M96 504 L318 494 L326 552 L104 560 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <g stroke="#8fb79c" stroke-width="5" fill="none" stroke-linecap="round">
+      <path d="M116 518 L300 509"/><path d="M118 532 L302 523"/><path d="M120 546 L304 537"/>
+    </g>
+    <g fill="#8a7a5e">
+      <rect x="352" y="494" width="8" height="34" rx="2"/><rect x="382" y="500" width="8" height="30" rx="2"/>
+      <rect x="412" y="492" width="8" height="36" rx="2"/><rect x="442" y="502" width="8" height="28" rx="2"/>
+    </g>
+    <g fill="#c0563c">
+      <rect x="350" y="490" width="12" height="8" rx="2"/><rect x="380" y="496" width="12" height="8" rx="2"/>
+      <rect x="410" y="488" width="12" height="8" rx="2"/><rect x="440" y="498" width="12" height="8" rx="2"/>
+    </g>
+    <circle cx="512" cy="470" r="18" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <path d="M494 466 q18 -20 36 0 q-3 -20 -18 -20 q-15 0 -18 20 z" fill="#5b4a3c"/>
+    <path d="M490 496 q22 -12 44 0 l8 64 l-60 0 z" fill="#7e9c72" stroke="#5f7d56" stroke-width="3"/>
+    <path d="M490 512 L446 520" stroke="#e8cdae" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="580" cy="476" r="18" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <path d="M562 472 q18 -20 36 0 q-3 -20 -18 -20 q-15 0 -18 20 z" fill="#8d8a86"/>
+    <path d="M558 502 q22 -12 44 0 l8 58 l-60 0 z" fill="#b0655a" stroke="#8d4f45" stroke-width="3"/>
+    <rect x="472" y="404" width="192" height="30" rx="8" fill="#1f3e52"/>
+    <text x="568" y="425" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">筆ごとに並べ終わる</text>
+  </g>
+</svg>

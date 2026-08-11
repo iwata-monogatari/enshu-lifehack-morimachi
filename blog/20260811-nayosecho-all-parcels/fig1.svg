@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ny1Title ny1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ny1Title">森町の実家をめぐって散らばる土地の筆を一枚に描いたイラスト</title>
+  <desc id="ny1Desc">奥に山並みと杉林、段になった茶畑が広がり、その手前を太田川と橋が横切ります。中央に瓦屋根の実家と庭があり、その周囲に境界杭を立てた小さな区画が点在しています。家の隣の畑、道を隔てた茶畑、川べりの細長い雑種地、山の斜面の杉林、墓地へ続く小道の脇の小さな一筆です。左手前には課税明細書の紙が広げられ、載っている行が三つだけであることが示されています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ny1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3dbee"/><stop offset="1" stop-color="#e8f0e4"/>
+    </linearGradient>
+    <linearGradient id="ny1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa9bd"/><stop offset="1" stop-color="#b5cad2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="190" fill="url(#ny1Sky)"/>
+
+  <!-- 山並み -->
+  <path fill="url(#ny1Far)" d="M0 122 L104 66 L214 120 L326 54 L440 118 L556 50 L672 120 L786 64 L894 118 L1000 76 L1000 168 L0 168 Z"/>
+  <g fill="#3f6b52">
+    <path d="M18 190 l13 -34 l13 34 z"/><path d="M48 190 l10 -26 l10 26 z"/>
+    <path d="M78 190 l12 -30 l12 30 z"/>
+    <path d="M920 190 l12 -32 l12 32 z"/><path d="M950 190 l14 -36 l14 36 z"/>
+  </g>
+
+  <!-- 茶畑（奥） -->
+  <path fill="#7fae57" d="M0 190 C 220 180, 440 204, 660 192 C 760 186, 850 196, 1000 190 L1000 236 L0 242 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 200 C 220 190, 440 214, 660 202 C 760 196, 850 206, 1000 200"/>
+    <path d="M0 216 C 220 206, 440 230, 660 218 C 760 212, 850 222, 1000 216"/>
+    <path d="M0 232 C 220 222, 440 246, 660 234 C 760 228, 850 238, 1000 232"/>
+  </g>
+
+  <!-- 川と橋 -->
+  <path fill="#a9cede" d="M0 258 C 180 244, 380 274, 560 262 C 720 251, 860 272, 1000 262 L1000 292 C 860 302, 720 281, 560 292 C 380 304, 180 274, 0 288 Z"/>
+  <g>
+    <rect x="300" y="252" width="130" height="12" rx="3" fill="#c4b79c" stroke="#a2937a" stroke-width="3"/>
+    <path d="M312 264 L312 288 M418 264 L418 290" stroke="#a2937a" stroke-width="5"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 288 L1000 292 L1000 560 L0 560 Z"/>
+
+  <!-- 道 -->
+  <path fill="#e8e2d2" stroke="#cfc7b3" stroke-width="3" d="M0 400 C 200 380, 420 424, 640 400 C 800 382, 900 396, 1000 388 L1000 414 C 900 422, 800 408, 640 426 C 420 450, 200 406, 0 426 Z"/>
+
+  <!-- 山の斜面の杉林（筆5） -->
+  <g>
+    <path d="M792 250 L900 214 L968 258 L860 300 Z" fill="#5d7f5c" stroke="#3f6b52" stroke-width="3"/>
+    <g fill="#33604a">
+      <path d="M820 268 l11 -28 l11 28 z"/><path d="M848 258 l11 -28 l11 28 z"/>
+      <path d="M876 272 l11 -28 l11 28 z"/><path d="M904 250 l11 -28 l11 28 z"/>
+    </g>
+    <path d="M792 250 L792 268" stroke="#8a7a5e" stroke-width="5"/>
+    <rect x="796" y="196" width="106" height="26" rx="7" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="849" y="215" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">山林 一筆</text>
+  </g>
+
+  <!-- 川べりの細長い雑種地（筆4） -->
+  <g>
+    <path d="M96 306 L308 300 L316 336 L104 344 Z" fill="#cfc9ac" stroke="#a99f80" stroke-width="3"/>
+    <g stroke="#a99f80" stroke-width="3" opacity="0.7">
+      <path d="M150 302 L156 340"/><path d="M204 301 L210 339"/><path d="M258 300 L264 338"/>
+    </g>
+    <path d="M96 306 L96 288" stroke="#8a7a5e" stroke-width="5"/>
+    <path d="M316 336 L316 318" stroke="#8a7a5e" stroke-width="5"/>
+    <rect x="112" y="350" width="130" height="26" rx="7" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="177" y="369" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">雑種地 一筆</text>
+  </g>
+
+  <!-- 実家（中央） -->
+  <g>
+    <path d="M372 400 L494 336 L616 400 Z" fill="#6f7c82"/>
+    <path d="M392 400 L494 346 L596 400 Z" fill="#8b979b"/>
+    <g stroke="#66737a" stroke-width="3" fill="none">
+      <path d="M414 388 L574 388"/><path d="M400 394 L588 394"/>
+    </g>
+    <rect x="396" y="400" width="196" height="104" fill="#f3efe3" stroke="#c2baa7" stroke-width="4"/>
+    <rect x="418" y="424" width="60" height="46" fill="#e3e9ea" stroke="#b5bfc2" stroke-width="3"/>
+    <path d="M448 424 L448 470 M418 447 L478 447" stroke="#b5bfc2" stroke-width="3"/>
+    <rect x="508" y="430" width="56" height="74" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <path d="M536 430 L536 504" stroke="#a3aca8" stroke-width="3"/>
+    <path d="M396 504 L396 520 M592 504 L592 520" stroke="#8a7a5e" stroke-width="5"/>
+    <rect x="418" y="516" width="152" height="28" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="494" y="536" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">実家の宅地 一筆</text>
+  </g>
+
+  <!-- 隣の畑（筆2） -->
+  <g>
+    <path d="M628 428 L788 416 L800 486 L640 500 Z" fill="#b9a884" stroke="#95856a" stroke-width="3"/>
+    <g stroke="#95856a" stroke-width="4" opacity="0.75" fill="none">
+      <path d="M636 448 L792 436"/><path d="M638 464 L794 452"/><path d="M640 480 L796 468"/>
+    </g>
+    <path d="M628 428 L628 410" stroke="#8a7a5e" stroke-width="5"/>
+    <rect x="652" y="508" width="122" height="26" rx="7" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="713" y="527" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">畑 二筆</text>
+  </g>
+
+  <!-- 墓地脇の小さな一筆（筆6） -->
+  <g>
+    <path d="M846 336 L936 330 L942 380 L852 386 Z" fill="#cdd6c4" stroke="#a3ac9c" stroke-width="3"/>
+    <g fill="#9aa39a">
+      <rect x="864" y="344" width="14" height="26" rx="3"/><rect x="890" y="342" width="14" height="28" rx="3"/>
+      <rect x="916" y="340" width="14" height="26" rx="3"/>
+    </g>
+    <path d="M846 336 L846 320" stroke="#8a7a5e" stroke-width="5"/>
+    <rect x="828" y="392" width="140" height="26" rx="7" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="898" y="411" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">墓地脇 一筆</text>
+  </g>
+
+  <!-- 左手前：課税明細書 -->
+  <g>
+    <path d="M24 402 L192 388 L206 528 L38 542 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <rect x="30" y="372" width="150" height="28" rx="7" fill="#3e6b55"/>
+    <text x="105" y="392" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">課税明細書</text>
+    <g stroke="#8fb79c" stroke-width="6" fill="none" stroke-linecap="round">
+      <path d="M44 428 L170 417"/><path d="M46 452 L172 441"/><path d="M48 476 L174 465"/>
+    </g>
+    <g stroke="#d8dee0" stroke-width="4" fill="none" stroke-dasharray="8 8">
+      <path d="M50 500 L176 489"/><path d="M52 520 L178 509"/>
+    </g>
+    <text x="118" y="556" font-family="sans-serif" font-size="15" font-weight="bold" fill="#42535c" text-anchor="middle">載っているのは三行だけ</text>
+  </g>
+</svg>
