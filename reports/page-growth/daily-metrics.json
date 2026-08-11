@@ -159,5 +159,28 @@
     "quality_error_count": 0,
     "missing_html_sample": [],
     "noindex_sample": []
+  },
+  {
+    "measured_at_jst": "2026-08-12T05:30:04+09:00",
+    "git_commit": "bb443640af1563b8bc1b16d0b8a8a3f91736efe7",
+    "official_sitemap_pages": 2758,
+    "target_pages": 5516,
+    "site_sitemap_pages": 723,
+    "page_gap": 4793,
+    "goal_page_ratio": 0.131073,
+    "measured_html_pages": 723,
+    "total_visible_chars": 3680409,
+    "average_visible_chars": 5090,
+    "measured_baseline_average_chars": 4883,
+    "reference_average_chars": 5030,
+    "average_baseline_met": true,
+    "reference_average_met": true,
+    "missing_html_count": 0,
+    "noindex_in_sitemap_count": 0,
+    "exact_duplicate_text_groups": 0,
+    "structural_error_count": 0,
+    "quality_error_count": 0,
+    "missing_html_sample": [],
+    "noindex_sample": []
   }
 ]
