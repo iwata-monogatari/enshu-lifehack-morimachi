@@ -545,10 +545,20 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="catalog-shelf-page-route"><rect x="245" y="275" width="150" height="150" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M395 350h100m-28-28 28 28-28 28" fill="none" stroke="{accent}" stroke-width="12"/><path d="M535 235h210v220H535Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M575 280h130M575 330h105M575 380h120" stroke="{accent}" stroke-width="9"/></g>',
             f'<g data-scene="family-local-history-index"><path d="M270 250h220v210H270Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M310 300h140M310 350h115M310 400h130" stroke="{accent}" stroke-width="9"/><path d="M540 420V300l85-70 85 70v120Z" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="625" cy="350" r="35" fill="{pale}" stroke="{accent}" stroke-width="9"/></g>',
         ],
+        212: [
+            f'<g data-scene="old-map-place-name-crosswalk"><path d="M255 245 430 210l120 70-45 180-205 20Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M330 225l35 245M255 355l270 55" stroke="{accent}" stroke-width="8"/><path d="M570 260h175v195H570Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M605 310h105M605 355h85M605 400h100" stroke="{accent}" stroke-width="9"/><path d="M520 350h50" stroke="{dark}" stroke-width="14"/></g>',
+            f'<g data-scene="landmark-to-current-map"><path d="M260 265 430 225l90 85-55 155-185 10Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M335 245l35 220M265 370l230 55" stroke="{accent}" stroke-width="8"/><circle cx="390" cy="335" r="25" fill="{dark}"/><path d="M530 345h95m-32-30 32 30-32 30" fill="none" stroke="{accent}" stroke-width="13"/><path d="M650 280h105v165H650Z" fill="#fff" stroke="{dark}" stroke-width="9"/><circle cx="702" cy="355" r="30" fill="{pale}" stroke="{accent}" stroke-width="8"/></g>',
+            f'<g data-scene="place-name-confidence-ledger"><rect x="270" y="245" width="460" height="225" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M270 315h460M430 245v225M580 245v225" stroke="{accent}" stroke-width="8"/><circle cx="350" cy="365" r="24" fill="{accent}"/><circle cx="505" cy="365" r="24" fill="{pale}" stroke="{dark}" stroke-width="7"/><circle cx="655" cy="365" r="24" fill="#fff" stroke="{dark}" stroke-width="7"/><path d="M320 425h60M475 425h60M625 425h60" stroke="{dark}" stroke-width="9"/></g>',
+        ],
         219: [
             f'<g data-scene="statistics-date-unit-notes"><rect x="275" y="240" width="450" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M275 310h450M425 240v235M575 240v235" stroke="{accent}" stroke-width="8"/><circle cx="350" cy="380" r="30" fill="{pale}" stroke="{dark}" stroke-width="8"/><path d="M470 360h60M470 400h60M620 360h60M620 400h60" stroke="{dark}" stroke-width="9"/></g>',
             f'<g data-scene="statistics-three-table-scope"><rect x="250" y="285" width="190" height="175" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="405" y="240" width="190" height="175" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="560" y="195" width="190" height="175" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M285 330h120M440 285h120M595 240h120" stroke="{accent}" stroke-width="9"/></g>',
             f'<g data-scene="statistics-citation-card"><path d="M280 265h280v200H280Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M320 315h200M320 360h165M320 405h185" stroke="{accent}" stroke-width="9"/><path d="M610 240v220M575 280h145M575 350h145M575 420h145" stroke="{dark}" stroke-width="10"/><circle cx="610" cy="350" r="24" fill="{accent}"/></g>',
+        ],
+        230: [
+            f'<g data-scene="inheritance-document-purpose-map"><rect x="255" y="255" width="190" height="205" rx="14" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M295 305h110M295 350h85M295 395h100" stroke="{accent}" stroke-width="9"/><path d="M445 355h95" stroke="{dark}" stroke-width="14"/><path d="M540 355 630 285M540 355l90 70" stroke="{accent}" stroke-width="13"/><rect x="630" y="225" width="135" height="115" rx="12" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="630" y="380" width="135" height="115" rx="12" fill="{pale}" stroke="{dark}" stroke-width="9"/></g>',
+            f'<g data-scene="inheritance-office-acceptance-gates"><rect x="240" y="270" width="170" height="170" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M280 315h90M280 360h70M280 405h85" stroke="{accent}" stroke-width="8"/><path d="M410 355h105" stroke="{dark}" stroke-width="13"/><path d="M515 355 600 285M515 355l85 70" stroke="{accent}" stroke-width="12"/><rect x="600" y="225" width="170" height="120" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="600" y="375" width="170" height="120" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M625 275h120M625 425h120" stroke="{accent}" stroke-width="8"/><circle cx="600" cy="285" r="18" fill="{accent}"/><circle cx="600" cy="435" r="18" fill="{accent}"/></g>',
+            f'<g data-scene="original-copy-return-ledger"><rect x="260" y="245" width="480" height="225" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M260 315h480M420 245v225M580 245v225" stroke="{accent}" stroke-width="8"/><path d="M300 365h80M460 365h80M620 365h80M300 415h80M460 415h80M620 415h80" stroke="{dark}" stroke-width="8"/><path d="m342 285 18 18 35-42m107 24 18 18 35-42m107 24 18 18 35-42" fill="none" stroke="{accent}" stroke-width="9"/></g>',
         ],
         253: [
             f'<g data-scene="hazard-map-property-date"><path d="M260 270 430 225l95 85-60 150-185 10Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M335 250l40 205M270 365l230 55" stroke="{accent}" stroke-width="8"/><rect x="575" y="245" width="165" height="210" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><circle cx="658" cy="355" r="45" fill="{pale}" stroke="{accent}" stroke-width="10"/></g>',
@@ -569,18 +579,33 @@ def svg(row: dict, index: int) -> str:
     special_labels = {
         207: ["古写真・原本と来歴", "古写真・撮影時期と場所", "古写真・権利と公開範囲"],
         209: ["郷土資料・請求記号", "郷土資料・書架からページ", "郷土資料・家族の索引"],
+        212: ["古地名・原表記と現在候補", "古地名・目印の照合", "古地名・確度と確認先"],
         219: ["森町統計・基準日と単位", "森町統計・表の範囲", "森町統計・引用カード"],
+        230: ["相続書類・用途を分ける", "相続書類・受入可否を確認", "相続書類・原本と返却"],
         253: ["防災地図・版の日付", "防災地図・地区図の照合", "防災地図・新旧版"],
         280: ["見守り・普段の連絡", "見守り・三段階", "見守り・支援の接続"],
         246: ["課税明細・資料の役割", "課税明細・一筆一棟", "課税明細・単有と共有"],
         284: ["児童クラブ・利用時間の比較", "児童クラブ・三つの実施場所", "児童クラブ・迎え経路"],
+    }
+    special_descriptions = {
+        212: [
+            "古絵図の原表記と現在地候補を分けて対照表へ記録する図",
+            "古絵図の方角、水路、道、目印を現在地図の候補と照合する図",
+            "古地名の一致、有力、未確認を分けて確認先とともに残す図",
+        ],
+        230: [
+            "戸籍束、法定相続情報一覧図、町への提出書類を用途別に分ける図",
+            "町の各手続で法定相続情報一覧図の受入可否を確認してから提出先を分ける図",
+            "相続書類の原本、写し、提示、返却、再交付を表で管理する図",
+        ],
     }
     item_id = int(row["id"])
     special_scene_orders = {246: (1, 0, 2), 284: (1, 0, 2)}
     special_index = special_scene_orders.get(item_id, (0, 1, 2))[(index - 1) % 3]
     scene = special_scenes.get(item_id, scenes)[special_index] if item_id in special_scenes else scenes[scene_kind]
     label = special_labels[item_id][(index - 1) % 3] if item_id in special_labels else f"{motif}・{row['section_headings'][(index+2)%len(row['section_headings'])][:16]}"
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial" data-topic-id="{item_id}" data-scene-index="{index}"><title id="title">{e(row['title'])}の挿絵{index}</title><desc id="desc">森町の山並み、道、{e(row['section_headings'][(index-1)%len(row['section_headings'])])}の確認場面</desc><rect width="1000" height="560" rx="32" fill="{pale}"/><polygon points="{ridge} 1000,350 0,350" fill="{dark}" opacity=".22"/><path d="M0 430 Q250 {rng.randint(330,410)} 500 430 T1000 410 V560 H0Z" fill="{dark}" opacity=".18"/><path d="M60 500 C230 {rng.randint(350,440)} 360 {rng.randint(360,450)} 520 450 S780 {rng.randint(330,430)} 940 390" fill="none" stroke="{accent}" stroke-width="24" stroke-linecap="round"/>{decorations}{scene}<text x="500" y="72" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="{dark}">{e(label)}</text></svg>'''
+    description = special_descriptions.get(item_id, [])[index - 1] if item_id in special_descriptions else f"森町の山並み、道、{row['section_headings'][(index-1)%len(row['section_headings'])]}の確認場面"
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial" data-topic-id="{item_id}" data-scene-index="{index}"><title id="title">{e(row['title'])}の挿絵{index}</title><desc id="desc">{e(description)}</desc><rect width="1000" height="560" rx="32" fill="{pale}"/><polygon points="{ridge} 1000,350 0,350" fill="{dark}" opacity=".22"/><path d="M0 430 Q250 {rng.randint(330,410)} 500 430 T1000 410 V560 H0Z" fill="{dark}" opacity=".18"/><path d="M60 500 C230 {rng.randint(350,440)} 360 {rng.randint(360,450)} 520 450 S780 {rng.randint(330,430)} 940 390" fill="none" stroke="{accent}" stroke-width="24" stroke-linecap="round"/>{decorations}{scene}<text x="500" y="72" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="{dark}">{e(label)}</text></svg>'''
 
 def specific_blocks(row: dict) -> str:
     headings = list(row["section_headings"])
@@ -709,6 +734,17 @@ def editorial_blocks_curated(row: dict) -> str:
         f'<p><strong>この記事の答え：</strong>{e(answer)}</p>',
         f'<p><strong>森町で最初に照合する条件：</strong>{e(local_condition)}</p></section>',
     ]
+    item_id = int(row["id"])
+    special_figures = {
+        212: {
+            4: ("fig1.svg", "古絵図の方角、水路、道、目印を現在地図の候補と照合する図", "古絵図の目印を言葉に置き換え、現在地図の候補と照合します。"),
+            8: ("fig2.svg", "古地名の一致、有力、未確認を分けて確認先とともに残す図", "一致、有力、未確認を分け、次の確認先まで対照表へ残します。"),
+        },
+        230: {
+            7: ("fig1.svg", "町の各手続で法定相続情報一覧図の受入可否を確認する図", "一覧図を受け入れられるか各提出先へ確認してから、書類の経路を分けます。"),
+            8: ("fig2.svg", "相続書類の原本、写し、提示、返却、再交付を管理する図", "原本、写し、提示のみ、返却、再交付を手続ごとに記録します。"),
+        },
+    }
     for index, section in enumerate(sections):
         heading = str(section.get("heading", "")).strip()
         paragraphs = section.get("paragraphs", [])
@@ -716,13 +752,20 @@ def editorial_blocks_curated(row: dict) -> str:
             raise RuntimeError(f"ID{row['id']} 専用本文の節{index + 1}が不正です")
         parts.append(f'<section class="topic-specific"><h2 class="sec">{e(heading)}</h2>')
         parts.extend(f'<p>{e(str(paragraph).strip())}</p>' for paragraph in paragraphs)
-        if index == 2:
+        if item_id in special_figures and index in special_figures[item_id]:
+            filename, alt_text, caption = special_figures[item_id][index]
+            parts.append(
+                f'<figure><img style="width:100%;height:auto" src="{filename}" width="1000" height="560" '
+                f'loading="lazy" alt="{e(alt_text)}">'
+                f'<figcaption>{e(caption)}</figcaption></figure>'
+            )
+        elif item_id not in special_figures and index == 2:
             parts.append(
                 f'<figure><img style="width:100%;height:auto" src="fig1.svg" width="1000" height="560" '
                 f'loading="lazy" alt="{e(row["title"])}で対象と一次資料を照合する場面">'
                 f'<figcaption>{e(heading)}の対象と森町の一次資料を同じ順序で照合します。</figcaption></figure>'
             )
-        if index == 8:
+        if item_id not in special_figures and index == 8:
             parts.append(
                 f'<figure><img style="width:100%;height:auto" src="fig2.svg" width="1000" height="560" '
                 f'loading="lazy" alt="{e(row["title"])}の確認結果を次の担当へ渡す場面">'
@@ -1339,7 +1382,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     faq_html = "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in faq)
     faq_json = {"@context":"https://schema.org", "@type":"FAQPage", "mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
     subject = title.split("｜", 1)[0]
-    desc = f"{subject}ために、対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
+    desc = f"{subject}について、対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     webpage = {"@context":"https://schema.org", "@type":"WebPage", "name":title, "url":SITE+url, "description":desc, "dateModified":TODAY, "author":{"@type":"Person","name":"大石博之"}}
     breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"静岡県森町ライフハック","item":SITE+"/"},{"@type":"ListItem","position":2,"name":category,"item":SITE+CATEGORY_PATH.get(category,"/guide/")},{"@type":"ListItem","position":3,"name":title,"item":SITE+url}]}
     role_labels = {
@@ -1350,7 +1393,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
         f'<a class="official-link" href="{e(src["url"])}" target="_blank" rel="noopener">'
         f'{e(src.get("title") or "一次情報")} '
         f'<span>{e(role_labels.get(src.get("role"), "公式確認"))}</span></a>'
-        for src in row["sources"][:5]
+        for src in row["sources"]
     )
     category_hub = CATEGORY_PATH.get(category, "/guide/")
     # 未公開の第4期ページへ連鎖させず、常時公開されているハブだけを案内する。

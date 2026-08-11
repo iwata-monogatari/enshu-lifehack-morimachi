@@ -3807,13 +3807,13 @@
       "森町で古い字名を現在地図へ重ねる前の対照表づくり",
       "古い住所表記と現在の地番を混同せず整理したい"
     ],
-    "editorial_chars": 6446,
+    "editorial_chars": 5944,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 213,
@@ -4131,13 +4131,13 @@
       "森町で法定相続情報一覧図と町への提出書類を分けて管理する",
       "同じ戸籍束を何度も取り寄せないため書類用途を整理したい"
     ],
-    "editorial_chars": 6496,
+    "editorial_chars": 5963,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 231,
