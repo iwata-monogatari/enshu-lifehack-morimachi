@@ -3710,20 +3710,20 @@
   {
     "id": 207,
     "url": "/records/cultural-photo-provenance/",
-    "title": "森町で文化財写真の撮影日・場所・出典を一枚ずつ残す",
+    "title": "森町の祭礼・建物古写真の撮影時期・場所・来歴を一枚ずつ残す",
     "category": "文化財記録",
-    "search_intent": "古い文化財写真の由来と利用条件を整理したい",
+    "search_intent": "祭礼や建物の古写真の来歴と公開前の確認事項を整理したい",
     "search_aliases": [
-      "森町で文化財写真の撮影日・場所・出典を一枚ずつ残す",
-      "古い文化財写真の由来と利用条件を整理したい"
+      "森町の祭礼・建物古写真の撮影時期・場所・来歴を一枚ずつ残す",
+      "祭礼や建物の古写真の来歴と公開前の確認事項を整理したい"
     ],
-    "editorial_chars": 6435,
+    "editorial_chars": 7164,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 208,
@@ -4412,20 +4412,20 @@
   {
     "id": 246,
     "url": "/records/property-tax-land-building-ledger/",
-    "title": "森町で固定資産税通知書の土地欄と家屋欄を分けて転記する",
+    "title": "森町の固定資産税課税明細書を一筆一棟で整理する",
     "category": "固定資産記録",
-    "search_intent": "納税通知書から土地と家屋を別々に整理したい",
+    "search_intent": "課税明細書の土地と家屋を一筆一棟で台帳化したい",
     "search_aliases": [
-      "森町で固定資産税通知書の土地欄と家屋欄を分けて転記する",
-      "納税通知書から土地と家屋を別々に整理したい"
+      "森町の固定資産税課税明細書を一筆一棟で整理する",
+      "課税明細書の土地と家屋を一筆一棟で台帳化したい"
     ],
-    "editorial_chars": 6446,
+    "editorial_chars": 6490,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 247,
@@ -5096,20 +5096,20 @@
   {
     "id": 284,
     "url": "/records/after-school-option-comparison/",
-    "title": "森町で放課後の居場所候補を申込条件と送迎で比較する",
+    "title": "森町の令和8年度放課後児童クラブを利用区分・送迎条件で比べる",
     "category": "子育て・生活記録",
-    "search_intent": "放課後児童クラブ等を家族の移動条件と照合したい",
+    "search_intent": "令和8年度の通年・長期休業・土曜・延長利用と送迎条件を比較したい",
     "search_aliases": [
-      "森町で放課後の居場所候補を申込条件と送迎で比較する",
-      "放課後児童クラブ等を家族の移動条件と照合したい"
+      "森町の令和8年度放課後児童クラブを利用区分・送迎条件で比べる",
+      "令和8年度の通年・長期休業・土曜・延長利用と送迎条件を比較したい"
     ],
-    "editorial_chars": 6471,
+    "editorial_chars": 6019,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 285,

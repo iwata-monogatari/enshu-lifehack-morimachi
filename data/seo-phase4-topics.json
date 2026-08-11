@@ -9086,14 +9086,16 @@
   },
   {
     "id": 207,
-    "title": "森町で文化財写真の撮影日・場所・出典を一枚ずつ残す",
+    "title": "森町の祭礼・建物古写真の撮影時期・場所・来歴を一枚ずつ残す",
     "slug": "/records/cultural-photo-provenance/",
     "category": "文化財記録",
-    "search_intent": "古い文化財写真の由来と利用条件を整理したい",
+    "search_intent": "祭礼や建物の古写真の来歴と公開前の確認事項を整理したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/1096.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/rekishi/index.html",
-      "https://kunishitei.bunka.go.jp/bsys/index"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/2/781.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/2/553.html",
+      "https://www.ndl.go.jp/preservation/digitization",
+      "https://archive.bunka.go.jp/guide.html",
+      "https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/chosakukensha_fumei/"
     ],
     "risk": "low",
     "origin": "replacement_after_independent_review",
@@ -11112,14 +11114,15 @@
   },
   {
     "id": 246,
-    "title": "森町で固定資産税通知書の土地欄と家屋欄を分けて転記する",
+    "title": "森町の固定資産税課税明細書を一筆一棟で整理する",
     "slug": "/records/property-tax-land-building-ledger/",
     "category": "固定資産記録",
-    "search_intent": "納税通知書から土地と家屋を別々に整理したい",
+    "search_intent": "課税明細書の土地と家屋を一筆一棟で台帳化したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/534.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/faq/1051.html",
-      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/"
+      "https://laws.e-gov.go.jp/law/325AC0000000226"
     ],
     "risk": "low",
     "origin": "replacement_after_independent_review",
@@ -13085,14 +13088,14 @@
   },
   {
     "id": 284,
-    "title": "森町で放課後の居場所候補を申込条件と送迎で比較する",
+    "title": "森町の令和8年度放課後児童クラブを利用区分・送迎条件で比べる",
     "slug": "/records/after-school-option-comparison/",
     "category": "子育て・生活記録",
-    "search_intent": "放課後児童クラブ等を家族の移動条件と照合したい",
+    "search_intent": "令和8年度の通年・長期休業・土曜・延長利用と送迎条件を比較したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/index.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/index.html",
-      "https://www.mext.go.jp/a_menu/shotou/zyosei/index.htm"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6230.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/houkagozidou/6148.html",
+      "https://www.cfa.go.jp/policies/kosodateshien/houkago-jidou"
     ],
     "risk": "low",
     "origin": "replacement_after_independent_review",
