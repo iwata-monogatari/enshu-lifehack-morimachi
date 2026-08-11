@@ -1020,7 +1020,70 @@ def scene_akiya_plan(d):
     band(d, ["町は10年計画で", "空き家を見ている"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_water_shutoff(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 58, 100, 686, 728], 300)
+    # 丘の上の配水池
+    d.polygon([(556, 300), (620, 250), (720, 244), (760, 262), (760, 300)], fill=(159, 185, 143))
+    d.rectangle([636, 208, 716, 250], fill=(223, 228, 226), outline=(169, 178, 176), width=3)
+    d.polygon([(628, 208), (676, 186), (724, 208)], fill=(148, 163, 166))
+    d.rectangle([654, 250, 664, 268], fill=(169, 178, 176))
+    d.rectangle([690, 250, 700, 268], fill=(169, 178, 176))
+    # 段になった茶畑
+    d.polygon([(0, 292), (760, 284), (760, 336), (0, 344)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 14), (760, 292 + i * 14)], fill=(105, 147, 74), width=3)
+    d.polygon([(0, 340), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(219, 230, 193))
+    # 左：雨戸を閉めた空き家
+    d.polygon([(6, 424), (166, 340), (326, 424)], fill=(111, 124, 130))
+    d.polygon([(30, 424), (166, 352), (302, 424)], fill=(139, 151, 155))
+    d.line([(62, 408), (270, 408)], fill=(102, 115, 122), width=4)
+    d.rectangle([34, 424, 298, 526], fill=(239, 233, 219), outline=(194, 186, 167), width=3)
+    d.rectangle([60, 446, 158, 508], fill=(179, 154, 118), outline=(143, 122, 91), width=3)
+    for x in (84, 110, 134):
+        d.line([(x, 446), (x, 508)], fill=(143, 122, 91), width=3)
+    d.rectangle([186, 446, 268, 496], fill=(195, 214, 221), outline=(147, 167, 174), width=3)
+    # 伸びた草
+    for x in range(10, 320, 26):
+        d.line([(x, 570), (x + 7, 536)], fill=(121, 149, 63), width=5)
+    # 手前：開いたメーターボックス
+    d.ellipse([88, 528, 300, 588], fill=(207, 202, 189))
+    d.ellipse([98, 524, 290, 580], fill=(142, 154, 160), outline=(111, 122, 128), width=3)
+    d.ellipse([116, 528, 272, 572], fill=(60, 74, 82))
+    d.rectangle([136, 534, 200, 562], fill=(201, 204, 196), outline=(141, 147, 140), width=3)
+    d.ellipse([158, 540, 180, 558], fill=(238, 242, 243), outline=(141, 147, 140), width=3)
+    d.line([(169, 549), (169, 542)], fill=(192, 86, 60), width=3)
+    d.rectangle([220, 538, 246, 558], fill=(169, 178, 176), outline=(125, 135, 133), width=3)
+    d.line([(233, 538), (233, 524)], fill=(125, 135, 133), width=4)
+    d.line([(216, 524), (250, 524)], fill=(192, 86, 60), width=7)
+    # 開けた蓋
+    d.polygon([(300, 522), (372, 500), (384, 532), (312, 554)], fill=(180, 188, 187),
+              outline=(141, 150, 148), width=3)
+    # 右：二つの札
+    d.rounded_rectangle([404, 372, 736, 432], radius=12, fill=(31, 62, 82))
+    f = ImageFont.truetype(FONT_BOLD, 25)
+    d.text((422, 390), "廃止 → 再開は新規扱い", font=f, fill="#ffffff")
+    d.rounded_rectangle([404, 444, 736, 504], radius=12, fill=(255, 255, 255),
+                        outline=(143, 183, 156), width=4)
+    d.text((422, 462), "継続 → 毎月の基本料金", font=f, fill="#1f3e52")
+    # 加入金の札束
+    d.rounded_rectangle([432, 300, 604, 350], radius=8, fill=(232, 223, 194),
+                        outline=(185, 169, 112), width=3)
+    d.rounded_rectangle([444, 286, 616, 336], radius=8, fill=(242, 234, 208),
+                        outline=(185, 169, 112), width=3)
+    d.ellipse([514, 296, 546, 326], fill=(216, 178, 94), outline=(168, 132, 47), width=3)
+    # 硬貨
+    for cx in (654, 690, 726):
+        d.ellipse([cx - 20, 306, cx + 20, 346], fill=(201, 194, 176), outline=(154, 147, 132), width=3)
+    fs = ImageFont.truetype(FONT_REGULAR, 19)
+    d.text((408, 518), "加入金 38,500円（口径13ミリ）", font=fs, fill=(63, 73, 80))
+    d.text((408, 546), "基本料金 1,100円（1か月）", font=fs, fill=(63, 73, 80))
+    band(d, ["止めると再開に", "加入金がかかる"], "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260811-water-shutoff-joining-fee": scene_water_shutoff,
     "20260811-akiya-plan-ten-years": scene_akiya_plan,
     "20260810-proxy-certificates-for-parents": scene_proxy_certificates,
     "20260810-consultation-reservation-split": scene_consult_split,
