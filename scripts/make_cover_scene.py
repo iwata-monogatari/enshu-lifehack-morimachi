@@ -1141,7 +1141,66 @@ def scene_nayosecho(d):
     band(d, ["親の土地は課税明細", "だけでは数え切れない"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_souzoku_houki(d):
+    """継がないと決める3か月と、放棄しても残る保存義務を並べた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [24, 68, 690, 730], 300)
+    d.polygon([(0, 296), (760, 288), (760, 336), (0, 346)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 304 + i * 13), (760, 296 + i * 13)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 340), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 左：雨戸を閉めた実家
+    d.polygon([(16, 384), (146, 310), (276, 384)], fill=(111, 124, 130))
+    d.polygon([(34, 384), (146, 320), (258, 384)], fill=(139, 151, 155))
+    d.rectangle([34, 384, 258, 500], fill=(233, 227, 211), outline=(189, 180, 159), width=4)
+    for x0 in (54, 156):
+        d.rectangle([x0, 408, x0 + 84, 484], fill=(185, 172, 145), outline=(148, 138, 114), width=3)
+        for i in range(3):
+            d.line([(x0 + 21 * (i + 1), 408), (x0 + 21 * (i + 1), 484)], fill=(148, 138, 114), width=3)
+    # 外れかけた樋
+    d.line([(30, 390), (150, 390)], fill=(163, 172, 168), width=7)
+    d.line([(150, 390), (176, 414)], fill=(163, 172, 168), width=7)
+    # 伸びた草
+    for x in (24, 46, 68, 246, 268, 290):
+        d.line([(x, 528), (x + 6, 486)], fill=(121, 149, 63), width=4)
+    # 右：三か月のカレンダー
+    for i, x0 in enumerate((408, 528, 648)):
+        last = i == 2
+        head_fill = (192, 86, 60) if last else (95, 125, 140)
+        d.rounded_rectangle([x0, 328, x0 + 100, 452], radius=8, fill=(255, 255, 255),
+                            outline=head_fill, width=4)
+        d.rounded_rectangle([x0, 328, x0 + 100, 356], radius=8, fill=head_fill)
+        for row in range(4):
+            for col in range(5):
+                d.rounded_rectangle([x0 + 10 + col * 17, 368 + row * 20,
+                                     x0 + 22 + col * 17, 378 + row * 20],
+                                    radius=2, fill=(207, 215, 218))
+        if last:
+            d.ellipse([x0 + 60, 402, x0 + 92, 434], outline=(192, 86, 60), width=6)
+    f = ImageFont.truetype(FONT_BOLD, 21)
+    d.text((418, 334), "1か月", font=f, fill="#ffffff")
+    d.text((538, 334), "2か月", font=f, fill="#ffffff")
+    d.text((658, 334), "3か月", font=f, fill="#ffffff")
+    # 手前：申述書と印紙と鍵
+    d.polygon([(292, 470), (462, 462), (470, 560), (300, 568)], fill=(255, 255, 255),
+              outline=(185, 194, 198), width=3)
+    d.rounded_rectangle([302, 478, 456, 508], radius=7, fill=(62, 107, 85))
+    d.text((312, 484), "相続放棄申述書", font=ImageFont.truetype(FONT_BOLD, 19), fill="#ffffff")
+    for i in range(3):
+        d.line([(310, 524 + i * 14), (452, 520 + i * 14)], fill=(169, 191, 203), width=4)
+    d.rounded_rectangle([474, 476, 528, 544], radius=4, fill=(220, 201, 168),
+                        outline=(179, 159, 124), width=3)
+    d.ellipse([485, 495, 517, 527], fill=(176, 101, 90))
+    d.ellipse([566, 496, 598, 528], outline=(138, 122, 94), width=6)
+    d.line([(596, 508), (662, 480)], fill=(138, 122, 94), width=7)
+    d.line([(646, 486), (652, 470)], fill=(138, 122, 94), width=6)
+    d.line([(624, 496), (630, 480)], fill=(138, 122, 94), width=6)
+    band(d, ["継がないと決めるなら", "3か月"], "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260811-souzoku-houki-three-months": scene_souzoku_houki,
     "20260811-nayosecho-all-parcels": scene_nayosecho,
     "20260811-water-shutoff-joining-fee": scene_water_shutoff,
     "20260811-akiya-plan-ten-years": scene_akiya_plan,

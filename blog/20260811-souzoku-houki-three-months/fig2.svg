@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="sh2Title sh2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="sh2Title">森町で相続放棄を決めるまでの三か月の道筋を描いたイラスト</title>
+  <desc id="sh2Desc">背景に山並みと段になった茶畑が広がります。左端に「知った日」と書かれた標識が立ち、そこから一本の道が右へ伸びます。道沿いに一か月目と二か月目の区切りがあり、一か月目には実家と名寄帳を調べる場面、二か月目には郵便物と登記を調べる場面が描かれています。三か月目の手前で道が二股に分かれ、上の道は掛川の家庭裁判所の建物と「相続放棄 印紙800円」の札へ、下の道は空き家バンクの看板が立つ実家と「継いで登記 3年以内」の札へ続きます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="sh2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6ddec"/><stop offset="1" stop-color="#eaf1e5"/>
+    </linearGradient>
+    <linearGradient id="sh2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b7ccd3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="176" fill="url(#sh2Sky)"/>
+
+  <path fill="url(#sh2Far)" d="M0 112 L106 58 L214 110 L326 48 L440 108 L556 44 L672 110 L786 56 L894 108 L1000 70 L1000 156 L0 156 Z"/>
+  <g fill="#3f6b52">
+    <path d="M22 176 l12 -32 l12 32 z"/><path d="M50 176 l10 -26 l10 26 z"/>
+    <path d="M934 176 l12 -32 l12 32 z"/><path d="M962 176 l13 -34 l13 34 z"/>
+  </g>
+
+  <path fill="#7fae57" d="M0 176 C 220 166, 440 190, 660 178 C 760 172, 850 182, 1000 176 L1000 218 L0 224 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 186 C 220 176, 440 200, 660 188 C 760 182, 850 192, 1000 186"/>
+    <path d="M0 202 C 220 192, 440 216, 660 204 C 760 198, 850 208, 1000 202"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 220 L1000 214 L1000 560 L0 560 Z"/>
+
+  <!-- 道：本線 -->
+  <path fill="#e8e2d2" stroke="#cfc7b3" stroke-width="3"
+        d="M0 430 C 130 428, 260 420, 380 404 C 470 392, 540 378, 606 364 L610 398 C 546 412, 476 426, 388 438 C 264 456, 132 464, 0 466 Z"/>
+  <!-- 上へ分岐 -->
+  <path fill="#e8e2d2" stroke="#cfc7b3" stroke-width="3"
+        d="M606 364 C 686 344, 762 314, 830 290 L842 322 C 774 346, 698 376, 612 398 Z"/>
+  <!-- 下へ分岐 -->
+  <path fill="#e0dccb" stroke="#cfc7b3" stroke-width="3"
+        d="M610 398 C 690 408, 764 432, 836 460 L822 490 C 752 462, 682 440, 604 430 Z"/>
+
+  <!-- 左端：知った日の標識 -->
+  <g>
+    <rect x="34" y="374" width="12" height="86" fill="#8a7a5e"/>
+    <rect x="6" y="330" width="150" height="48" rx="8" fill="#c0563c"/>
+    <text x="81" y="361" font-family="sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">知った日</text>
+  </g>
+
+  <!-- 1か月目：実家と名寄帳 -->
+  <g>
+    <path d="M170 372 L226 336 L282 372 Z" fill="#6f7c82"/>
+    <path d="M182 372 L226 344 L270 372 Z" fill="#8b979b"/>
+    <rect x="184" y="372" width="84" height="52" fill="#f3efe3" stroke="#c2baa7" stroke-width="4"/>
+    <rect x="198" y="388" width="24" height="22" fill="#e3e9ea" stroke="#b5bfc2" stroke-width="3"/>
+    <rect x="234" y="392" width="22" height="32" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <path d="M296 380 L370 374 L376 424 L302 430 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <g stroke="#8fb79c" stroke-width="4" fill="none">
+      <path d="M306 392 L364 388"/><path d="M307 404 L365 400"/><path d="M308 416 L366 412"/>
+    </g>
+    <rect x="164" y="440" width="216" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="272" y="461" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">1か月目：筆と家を見る</text>
+  </g>
+
+  <!-- 2か月目：郵便物と登記 -->
+  <g>
+    <rect x="418" y="336" width="86" height="58" rx="4" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <path d="M418 336 L461 370 L504 336" fill="none" stroke="#b9c2c6" stroke-width="3"/>
+    <rect x="430" y="302" width="62" height="24" rx="6" fill="#c0563c"/>
+    <text x="461" y="320" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">郵便物</text>
+    <path d="M518 344 L586 338 L592 396 L524 402 Z" fill="#f6f2e4" stroke="#c9bf9f" stroke-width="3"/>
+    <circle cx="572" cy="386" r="12" fill="#b0655a"/>
+    <rect x="406" y="410" width="216" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="514" y="431" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">2か月目：借金と登記</text>
+  </g>
+
+  <!-- 分岐の問い -->
+  <g>
+    <rect x="556" y="248" width="196" height="30" rx="8" fill="#1f3e52"/>
+    <text x="654" y="269" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">3か月目の分かれ道</text>
+    <path d="M654 278 L654 344" stroke="#1f3e52" stroke-width="4"/>
+  </g>
+
+  <!-- 上の道：家庭裁判所 -->
+  <g>
+    <rect x="782" y="176" width="164" height="76" fill="#e4e8e5" stroke="#b2bab6" stroke-width="3"/>
+    <path d="M772 176 L864 138 L956 176 Z" fill="#98a4a6"/>
+    <g fill="#cfe0e6" stroke="#a9bcc2" stroke-width="3">
+      <rect x="800" y="194" width="24" height="24"/><rect x="852" y="194" width="24" height="24"/>
+      <rect x="904" y="194" width="24" height="24"/>
+    </g>
+    <rect x="850" y="224" width="28" height="28" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <rect x="800" y="148" width="128" height="24" rx="6" fill="#3e6b55"/>
+    <text x="864" y="166" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">掛川支部</text>
+    <rect x="736" y="256" width="240" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="856" y="277" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">相続放棄 印紙800円</text>
+  </g>
+
+  <!-- 下の道：継いで登記 -->
+  <g>
+    <path d="M786 470 L842 436 L898 470 Z" fill="#6f7c82"/>
+    <rect x="798" y="470" width="86" height="56" fill="#f3efe3" stroke="#c2baa7" stroke-width="4"/>
+    <rect x="812" y="486" width="24" height="22" fill="#e3e9ea" stroke="#b5bfc2" stroke-width="3"/>
+    <rect x="848" y="490" width="22" height="36" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <rect x="908" y="470" width="10" height="56" fill="#8a7a5e"/>
+    <rect x="890" y="440" width="94" height="32" rx="6" fill="#3e6b55"/>
+    <text x="937" y="462" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">空き家バンク</text>
+    <rect x="640" y="492" width="228" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="754" y="513" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">継いで登記 3年以内</text>
+  </g>
+
+  <!-- 手前：940条の札 -->
+  <g>
+    <rect x="24" y="486" width="368" height="34" rx="8" fill="#1f3e52"/>
+    <text x="208" y="510" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">放棄しても、占有していた分は保存</text>
+  </g>
+</svg>

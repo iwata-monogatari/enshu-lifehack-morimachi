@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="sh1Title sh1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="sh1Title">森町の実家を前に相続放棄を考える場面を描いたイラスト</title>
+  <desc id="sh1Desc">奥に山並みと杉林、段になった茶畑が広がります。左には雨戸を閉めた瓦屋根の実家があり、伸びた草と外れかけた樋が見えます。その前に鍵束を手にした人が立っています。右には三か月分のカレンダーが壁に掛かり、三枚目の月に赤い丸印がついています。カレンダーの下の机には相続放棄申述書の用紙、収入印紙、戸籍謄本の束、封筒が置かれています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="sh1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3dbee"/><stop offset="1" stop-color="#e8f0e4"/>
+    </linearGradient>
+    <linearGradient id="sh1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa9bd"/><stop offset="1" stop-color="#b5cad2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="196" fill="url(#sh1Sky)"/>
+
+  <!-- 山並み -->
+  <path fill="url(#sh1Far)" d="M0 126 L110 70 L220 124 L332 58 L446 122 L560 54 L676 124 L790 68 L898 122 L1000 80 L1000 172 L0 172 Z"/>
+  <g fill="#3f6b52">
+    <path d="M20 196 l13 -34 l13 34 z"/><path d="M50 196 l10 -26 l10 26 z"/>
+    <path d="M924 196 l12 -32 l12 32 z"/><path d="M954 196 l14 -36 l14 36 z"/>
+  </g>
+
+  <!-- 茶畑 -->
+  <path fill="#7fae57" d="M0 196 C 220 186, 440 210, 660 198 C 760 192, 850 202, 1000 196 L1000 244 L0 250 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 206 C 220 196, 440 220, 660 208 C 760 202, 850 212, 1000 206"/>
+    <path d="M0 222 C 220 212, 440 236, 660 224 C 760 218, 850 228, 1000 222"/>
+    <path d="M0 238 C 220 228, 440 252, 660 240 C 760 234, 850 244, 1000 238"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 246 L1000 240 L1000 560 L0 560 Z"/>
+
+  <!-- 実家（雨戸を閉めた家） -->
+  <g>
+    <path d="M40 314 L214 216 L388 314 Z" fill="#6f7c82"/>
+    <path d="M64 314 L214 226 L364 314 Z" fill="#8b979b"/>
+    <g stroke="#66737a" stroke-width="3" fill="none">
+      <path d="M108 296 L320 296"/><path d="M92 304 L336 304"/>
+    </g>
+    <rect x="64" y="314" width="300" height="156" fill="#e9e3d3" stroke="#bdb49f" stroke-width="4"/>
+    <!-- 雨戸 -->
+    <g fill="#b9ac91" stroke="#948a72" stroke-width="3">
+      <rect x="88" y="344" width="112" height="98"/>
+      <rect x="228" y="344" width="112" height="98"/>
+    </g>
+    <g stroke="#948a72" stroke-width="3">
+      <path d="M116 344 L116 442 M144 344 L144 442 M172 344 L172 442"/>
+      <path d="M256 344 L256 442 M284 344 L284 442 M312 344 L312 442"/>
+    </g>
+    <!-- 外れかけた樋 -->
+    <path d="M60 320 L200 320 L226 344" fill="none" stroke="#a3aca8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M226 344 L248 374" fill="none" stroke="#a3aca8" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  <!-- 伸びた草 -->
+  <g stroke="#79953f" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M46 508 C 42 484, 54 474, 50 452"/>
+    <path d="M74 512 C 70 488, 82 478, 78 456"/>
+    <path d="M102 508 C 98 486, 110 476, 106 454"/>
+    <path d="M320 510 C 316 488, 328 478, 324 456"/>
+    <path d="M348 514 C 344 490, 356 480, 352 458"/>
+    <path d="M376 508 C 372 486, 384 476, 380 454"/>
+  </g>
+
+  <!-- 鍵束を持つ人 -->
+  <g>
+    <circle cx="214" cy="440" r="22" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <path d="M192 436 q22 -24 44 0 q-4 -24 -22 -24 q-18 0 -22 24 z" fill="#4a4038"/>
+    <path d="M188 474 q26 -14 52 0 l10 76 l-72 0 z" fill="#5a7f9c" stroke="#43647d" stroke-width="3"/>
+    <path d="M244 490 L286 474" stroke="#e8cdae" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="296" cy="468" r="11" fill="none" stroke="#8a7a5e" stroke-width="4"/>
+    <path d="M304 462 L326 450 M320 452 L324 444 M312 456 L316 448" stroke="#8a7a5e" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <rect x="252" y="500" width="112" height="28" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="308" y="520" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">実家の鍵</text>
+  </g>
+
+  <!-- 三か月分のカレンダー -->
+  <g>
+    <rect x="528" y="264" width="132" height="132" rx="8" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <rect x="528" y="264" width="132" height="28" rx="8" fill="#5f7d8c"/>
+    <text x="594" y="284" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">1か月目</text>
+    <g fill="#cfd7da">
+      <rect x="542" y="304" width="14" height="12" rx="2"/><rect x="566" y="304" width="14" height="12" rx="2"/>
+      <rect x="590" y="304" width="14" height="12" rx="2"/><rect x="614" y="304" width="14" height="12" rx="2"/>
+      <rect x="638" y="304" width="14" height="12" rx="2"/>
+      <rect x="542" y="326" width="14" height="12" rx="2"/><rect x="566" y="326" width="14" height="12" rx="2"/>
+      <rect x="590" y="326" width="14" height="12" rx="2"/><rect x="614" y="326" width="14" height="12" rx="2"/>
+      <rect x="638" y="326" width="14" height="12" rx="2"/>
+      <rect x="542" y="348" width="14" height="12" rx="2"/><rect x="566" y="348" width="14" height="12" rx="2"/>
+      <rect x="590" y="348" width="14" height="12" rx="2"/><rect x="614" y="348" width="14" height="12" rx="2"/>
+      <rect x="638" y="348" width="14" height="12" rx="2"/>
+      <rect x="542" y="370" width="14" height="12" rx="2"/><rect x="566" y="370" width="14" height="12" rx="2"/>
+      <rect x="590" y="370" width="14" height="12" rx="2"/>
+    </g>
+  </g>
+  <g>
+    <rect x="676" y="264" width="132" height="132" rx="8" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <rect x="676" y="264" width="132" height="28" rx="8" fill="#5f7d8c"/>
+    <text x="742" y="284" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">2か月目</text>
+    <g fill="#cfd7da">
+      <rect x="690" y="304" width="14" height="12" rx="2"/><rect x="714" y="304" width="14" height="12" rx="2"/>
+      <rect x="738" y="304" width="14" height="12" rx="2"/><rect x="762" y="304" width="14" height="12" rx="2"/>
+      <rect x="786" y="304" width="14" height="12" rx="2"/>
+      <rect x="690" y="326" width="14" height="12" rx="2"/><rect x="714" y="326" width="14" height="12" rx="2"/>
+      <rect x="738" y="326" width="14" height="12" rx="2"/><rect x="762" y="326" width="14" height="12" rx="2"/>
+      <rect x="786" y="326" width="14" height="12" rx="2"/>
+      <rect x="690" y="348" width="14" height="12" rx="2"/><rect x="714" y="348" width="14" height="12" rx="2"/>
+      <rect x="738" y="348" width="14" height="12" rx="2"/><rect x="762" y="348" width="14" height="12" rx="2"/>
+      <rect x="786" y="348" width="14" height="12" rx="2"/>
+      <rect x="690" y="370" width="14" height="12" rx="2"/><rect x="714" y="370" width="14" height="12" rx="2"/>
+      <rect x="738" y="370" width="14" height="12" rx="2"/>
+    </g>
+  </g>
+  <g>
+    <rect x="824" y="264" width="132" height="132" rx="8" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+    <rect x="824" y="264" width="132" height="28" rx="8" fill="#c0563c"/>
+    <text x="890" y="284" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">3か月目</text>
+    <g fill="#cfd7da">
+      <rect x="838" y="304" width="14" height="12" rx="2"/><rect x="862" y="304" width="14" height="12" rx="2"/>
+      <rect x="886" y="304" width="14" height="12" rx="2"/><rect x="910" y="304" width="14" height="12" rx="2"/>
+      <rect x="934" y="304" width="14" height="12" rx="2"/>
+      <rect x="838" y="326" width="14" height="12" rx="2"/><rect x="862" y="326" width="14" height="12" rx="2"/>
+      <rect x="886" y="326" width="14" height="12" rx="2"/><rect x="910" y="326" width="14" height="12" rx="2"/>
+      <rect x="934" y="326" width="14" height="12" rx="2"/>
+      <rect x="838" y="348" width="14" height="12" rx="2"/><rect x="862" y="348" width="14" height="12" rx="2"/>
+      <rect x="886" y="348" width="14" height="12" rx="2"/><rect x="934" y="348" width="14" height="12" rx="2"/>
+      <rect x="838" y="370" width="14" height="12" rx="2"/><rect x="862" y="370" width="14" height="12" rx="2"/>
+      <rect x="886" y="370" width="14" height="12" rx="2"/>
+    </g>
+    <circle cx="917" cy="354" r="17" fill="none" stroke="#c0563c" stroke-width="5"/>
+  </g>
+
+  <!-- 机の上：申述書・印紙・戸籍・封筒 -->
+  <g>
+    <rect x="500" y="410" width="472" height="18" rx="4" fill="#c4a97f" stroke="#a48d68" stroke-width="3"/>
+    <path d="M528 428 L528 512 M940 428 L940 512" stroke="#a48d68" stroke-width="8"/>
+    <path d="M556 434 L716 428 L726 528 L566 536 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <rect x="562" y="446" width="118" height="24" rx="6" fill="#3e6b55"/>
+    <text x="621" y="464" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">相続放棄申述書</text>
+    <g stroke="#a9bfcb" stroke-width="4" fill="none">
+      <path d="M572 486 L706 479"/><path d="M574 502 L692 495"/><path d="M576 518 L700 511"/>
+    </g>
+    <rect x="748" y="452" width="52" height="64" rx="4" fill="#dcc9a8" stroke="#b39f7c" stroke-width="3"/>
+    <circle cx="774" cy="480" r="16" fill="#b0655a"/>
+    <text x="774" y="536" font-family="sans-serif" font-size="14" font-weight="bold" fill="#42535c" text-anchor="middle">印紙800円</text>
+    <g>
+      <rect x="826" y="464" width="120" height="20" rx="3" fill="#f4efe0" stroke="#c9bf9f" stroke-width="3"/>
+      <rect x="832" y="484" width="120" height="20" rx="3" fill="#f4efe0" stroke="#c9bf9f" stroke-width="3"/>
+      <rect x="826" y="504" width="120" height="20" rx="3" fill="#f4efe0" stroke="#c9bf9f" stroke-width="3"/>
+      <text x="886" y="546" font-family="sans-serif" font-size="14" font-weight="bold" fill="#42535c" text-anchor="middle">戸籍謄本</text>
+    </g>
+  </g>
+</svg>
