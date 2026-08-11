@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ig2Title ig2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ig2Title">お盆に実家の墓の前で確かめる順番を道筋として描いたイラスト</title>
+  <desc id="ig2Desc">左端に線香と花を供えた墓石があり、そこから右へ道が伸びます。最初の区間では墓の前で使用者の氏名と管理料の支払い先をノートに書き込みます。次の区間では寺の庫裏の前で管理者の連絡先を確かめます。三つ目の地点で道が二股に分かれ、上の道は役場の窓口へ続いて改葬許可の申請と書かれた札が立ち、下の道は墓を守り続ける家へ続いて連絡先を更新すると書かれた札が立ちます。奥には段になった茶畑と杉林、山並みが広がります。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ig2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6dced"/><stop offset="1" stop-color="#e9f1e4"/>
+    </linearGradient>
+    <linearGradient id="ig2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b6cbd2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="148" fill="url(#ig2Sky)"/>
+  <path fill="url(#ig2Far)" d="M0 94 L98 44 L202 92 L320 38 L440 92 L558 36 L678 92 L792 46 L900 92 L1000 58 L1000 130 L0 130 Z"/>
+  <g fill="#3f6b52">
+    <path d="M18 148 l13 -32 l13 32 z"/><path d="M46 148 l11 -26 l11 26 z"/>
+    <path d="M938 148 l12 -30 l12 30 z"/><path d="M966 148 l12 -28 l12 28 z"/>
+  </g>
+  <path fill="#7fae57" d="M0 148 C 240 140, 460 162, 690 150 C 790 144, 880 154, 1000 148 L1000 186 L0 192 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 158 C 240 150, 460 172, 690 160 C 790 154, 880 164, 1000 158"/>
+    <path d="M0 174 C 240 166, 460 188, 690 176 C 790 170, 880 180, 1000 174"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 188 L1000 182 L1000 560 L0 560 Z"/>
+
+  <!-- 道 -->
+  <path d="M86 344 L568 344 L868 226" fill="none" stroke="#cbbfa4" stroke-width="34" stroke-linecap="round"/>
+  <path d="M568 344 L868 470" fill="none" stroke="#cbbfa4" stroke-width="34" stroke-linecap="round"/>
+  <g stroke="#f2ece0" stroke-width="4" stroke-dasharray="18 16" fill="none">
+    <path d="M104 344 L568 344"/><path d="M574 342 L856 232"/><path d="M574 346 L856 464"/>
+  </g>
+
+  <!-- 左端：供えられた墓 -->
+  <g>
+    <rect x="30" y="336" width="92" height="16" rx="3" fill="#b9bdb4" stroke="#93988e" stroke-width="3"/>
+    <rect x="42" y="320" width="68" height="18" rx="3" fill="#c8ccc3" stroke="#93988e" stroke-width="3"/>
+    <rect x="56" y="256" width="40" height="66" rx="4" fill="#d5d8cf" stroke="#93988e" stroke-width="3"/>
+    <g stroke="#3f8f5e" stroke-width="4" fill="none" stroke-linecap="round">
+      <path d="M34 320 L26 292"/><path d="M118 320 L126 292"/>
+    </g>
+    <circle cx="24" cy="286" r="8" fill="#d98aa0"/><circle cx="128" cy="286" r="8" fill="#d98aa0"/>
+    <g stroke="#b7c3c8" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.9">
+      <path d="M76 318 C 88 298, 68 288, 80 268"/>
+    </g>
+    <text x="76" y="382" font-family="sans-serif" font-size="16" font-weight="bold" fill="#42535c" text-anchor="middle">実家の墓</text>
+  </g>
+
+  <!-- 区間1：ノートに書き出す -->
+  <g>
+    <circle cx="222" cy="344" r="19" fill="#3e6b55"/>
+    <text x="222" y="351" font-family="sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+    <!-- 人 -->
+    <circle cx="212" cy="242" r="18" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <path d="M194 238 q18 -20 36 0 q-2 -20 -18 -20 q-16 0 -18 20 z" fill="#4a4038"/>
+    <path d="M192 272 q20 -12 40 0 l6 44 l-52 0 z" fill="#6e8fa6" stroke="#527389" stroke-width="3"/>
+    <path d="M232 288 L268 300" stroke="#e8cdae" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <!-- ノート -->
+    <path d="M254 292 L328 288 L334 340 L260 344 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <g stroke="#a9bfcb" stroke-width="3" fill="none">
+      <path d="M264 304 L322 301"/><path d="M265 316 L318 313"/><path d="M266 328 L324 325"/>
+    </g>
+    <rect x="140" y="392" width="180" height="30" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="230" y="413" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">使用者の氏名を書く</text>
+    <rect x="164" y="428" width="132" height="26" rx="6" fill="#3e6b55"/>
+    <text x="230" y="447" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">管理料は誰が</text>
+  </g>
+
+  <!-- 区間2：寺の庫裏で連絡先を確かめる -->
+  <g>
+    <circle cx="416" cy="344" r="19" fill="#3e6b55"/>
+    <text x="416" y="351" font-family="sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+    <path d="M334 246 L416 202 L498 246 Z" fill="#5c4a3a"/>
+    <path d="M352 246 L416 212 L480 246 Z" fill="#7a6450"/>
+    <rect x="348" y="246" width="136" height="68" fill="#f0ece2" stroke="#bdb49f" stroke-width="4"/>
+    <rect x="366" y="264" width="46" height="42" fill="#cfe0e6" stroke="#9fadb2" stroke-width="3"/>
+    <rect x="428" y="264" width="40" height="50" fill="#b9ac91" stroke="#948a72" stroke-width="3"/>
+    <rect x="332" y="392" width="168" height="30" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="416" y="413" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">管理者の連絡先</text>
+  </g>
+
+  <!-- 分岐点 -->
+  <g>
+    <circle cx="568" cy="344" r="19" fill="#c0563c"/>
+    <text x="568" y="351" font-family="sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+  </g>
+
+  <!-- 上の道：役場の窓口 -->
+  <g>
+    <rect x="706" y="128" width="152" height="82" rx="6" fill="#f0f2ee" stroke="#9fadb2" stroke-width="4"/>
+    <path d="M698 128 L782 92 L866 128 Z" fill="#5f7d8c"/>
+    <rect x="726" y="156" width="112" height="34" rx="4" fill="#cfe0e6" stroke="#9fadb2" stroke-width="3"/>
+    <circle cx="744" cy="173" r="11" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <circle cx="818" cy="173" r="11" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <rect x="676" y="222" width="212" height="30" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="782" y="243" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">改葬許可を申請する</text>
+    <rect x="712" y="258" width="140" height="26" rx="6" fill="#3e6b55"/>
+    <text x="782" y="277" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">骨がある町の役場</text>
+  </g>
+
+  <!-- 下の道：守り続ける -->
+  <g>
+    <path d="M700 434 L776 388 L852 434 Z" fill="#8b979b"/>
+    <rect x="714" y="434" width="124" height="58" fill="#e9e3d3" stroke="#bdb49f" stroke-width="4"/>
+    <rect x="732" y="450" width="40" height="34" fill="#cfe0e6" stroke="#9fadb2" stroke-width="3"/>
+    <rect x="788" y="450" width="34" height="42" fill="#b9ac91" stroke="#948a72" stroke-width="3"/>
+    <rect x="640" y="504" width="252" height="30" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="766" y="525" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">守り続け、連絡先を更新する</text>
+  </g>
+</svg>

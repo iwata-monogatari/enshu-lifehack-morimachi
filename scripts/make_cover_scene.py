@@ -1310,7 +1310,66 @@ def scene_tomodake(d):
     band(d, ["茅葺きは戻された。", "古さを二つに分ける"], "森町ライフハック／寺社・歴史")
 
 
+def scene_ishimatsu(d):
+    """門前の削られた墓石と、訪ねる人のいない斜面の墓地を並べた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 296, 340], 300)
+    d.polygon([(0, 296), (760, 288), (760, 332), (0, 342)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 304 + i * 12), (760, 296 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 336), (760, 326), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 左：山門
+    d.polygon([(24, 366), (168, 300), (312, 366)], fill=(92, 74, 58))
+    d.polygon([(48, 366), (168, 310), (288, 366)], fill=(122, 100, 80))
+    d.rectangle([18, 368, 318, 380], fill=(74, 60, 47))
+    d.rectangle([60, 380, 82, 470], fill=(107, 86, 67))
+    d.rectangle([254, 380, 276, 470], fill=(107, 86, 67))
+    d.rectangle([82, 392, 254, 470], fill=(60, 51, 42))
+    d.rectangle([120, 408, 216, 470], fill=(44, 38, 31))
+    # 削られた墓石
+    d.rectangle([116, 528, 220, 548], fill=(185, 189, 180), outline=(147, 152, 142), width=3)
+    d.rectangle([128, 508, 208, 530], fill=(200, 204, 195), outline=(147, 152, 142), width=3)
+    d.rounded_rectangle([142, 436, 194, 510], radius=22, fill=(213, 216, 207),
+                        outline=(147, 152, 142), width=3)
+    d.arc([132, 452, 160, 486], 300, 60, fill=(169, 173, 163), width=6)
+    d.arc([176, 452, 204, 486], 120, 240, fill=(169, 173, 163), width=6)
+    # 線香の煙
+    for x in (232, 250):
+        d.line([(x, 528), (x + 10, 500)], fill=(183, 195, 200), width=4)
+        d.line([(x + 10, 500), (x - 2, 474)], fill=(183, 195, 200), width=4)
+    d.rectangle([222, 528, 262, 540], fill=(138, 122, 94))
+    # 三代目の札
+    d.line([(74, 560), (74, 512)], fill=(138, 122, 94), width=5)
+    d.rounded_rectangle([26, 480, 124, 514], radius=7, fill=(255, 255, 255),
+                        outline=(192, 86, 60), width=3)
+    d.text((38, 486), "三代目", font=ImageFont.truetype(FONT_BOLD, 22), fill=(192, 86, 60))
+    # 右：草の伸びた斜面の墓地
+    d.polygon([(392, 356), (760, 336), (760, BAND_TOP), (392, BAND_TOP)], fill=(213, 224, 201))
+    d.line([(396, 434), (760, 418)], fill=(189, 180, 159), width=6)
+    d.line([(400, 512), (760, 494)], fill=(189, 180, 159), width=6)
+    graves = ((424, 396, -8), (528, 386, 6), (648, 378, -10), (452, 486, 7), (584, 478, -6),
+              (700, 470, 8))
+    for x, y, tilt in graves:
+        d.rectangle([x, y, x + 62, y + 14], fill=(185, 189, 180), outline=(150, 154, 144), width=3)
+        off = tilt // 2
+        d.polygon([(x + 12 + off, y), (x + 10, y - 52), (x + 52, y - 52), (x + 50 - off, y)],
+                  fill=(205, 208, 199), outline=(150, 154, 144))
+    # 倒れた花立てと枯れ花
+    d.rounded_rectangle([600, 522, 646, 540], radius=6, fill=(169, 173, 163),
+                        outline=(131, 135, 126), width=3)
+    for dx, dy in ((0, -14), (6, -4), (10, 6)):
+        d.line([(646 + dx, 528 + dy), (692 + dx, 512 + dy)], fill=(160, 138, 82), width=4)
+    # 伸びた草
+    for x in (404, 470, 556, 622, 712, 740):
+        d.line([(x, 576), (x + 8, 534)], fill=(138, 165, 82), width=4)
+    for x in (436, 512, 668):
+        d.line([(x, 470), (x + 6, 436)], fill=(138, 165, 82), width=4)
+    band(d, ["削られた墓は建て直され、", "誰も来ない墓は残る"], "森町ライフハック／寺社・歴史")
+
+
 SCENES = {
+    "20260812-ishimatsu-grave-rebuilt": scene_ishimatsu,
     "20260812-tomodake-kayabuki-value-cost": scene_tomodake,
     "20260811-obon-clean-center-days": scene_obon_clean_center,
     "20260811-souzoku-houki-three-months": scene_souzoku_houki,
