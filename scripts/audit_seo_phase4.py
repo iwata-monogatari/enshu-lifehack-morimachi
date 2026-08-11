@@ -132,6 +132,87 @@ def audit_semantic_repetition(paragraphs_by_id, failures):
     if ratio > 0.25:
         failures.append(f'類似度90%以上の長文段落比率が25%超: {ratio:.1%} ({len(similar)}/{len(long)})')
 
+def audit_sentence_and_four_paragraph_skeleton(paragraphs_by_id, failures, grandfathered_ids=frozenset()):
+    """段落全体の差替えでは隠せない文単位流用と4段落生成骨格を止める。"""
+    sentence_owners=defaultdict(set)
+    paragraph_sentences={}
+    for item_id,paragraphs in paragraphs_by_id.items():
+        for index,text in enumerate(paragraphs):
+            sentences={
+                normalized_identity(part) for part in re.split(r'(?<=[。！？])',text)
+                if len(normalized_identity(part)) >= 25
+            }
+            paragraph_sentences[(item_id,index)]=sentences
+            for sentence in sentences:
+                sentence_owners[sentence].add(item_id)
+
+    shared={sentence for sentence,owners in sentence_owners.items() if len(owners) >= 2}
+    if shared:
+        for item_id,paragraphs in paragraphs_by_id.items():
+            if item_id in grandfathered_ids:
+                continue
+            dominated=sum(bool(paragraph_sentences[(item_id,index)] & shared)
+                          for index in range(len(paragraphs)))
+            ratio=dominated/max(1,len(paragraphs))
+            if dominated >= 8 and ratio > 0.25:
+                failures.append(
+                    f'記事間の文単位完全一致が本文の25%超: ID {item_id} '
+                    f'{dominated}/{len(paragraphs)} ({ratio:.1%})'
+                )
+
+    # 12節×4段落のような生成物では、同じ接続骨格が毎節の同じ段落位置へ現れる。
+    # 6文字片を使うが、90%以上の節を支配し、8節以上ある場合だけ止める。
+    for item_id,paragraphs in paragraphs_by_id.items():
+        if item_id in grandfathered_ids:
+            continue
+        if len(paragraphs) < 32:
+            continue
+        anchors=[]
+        for offset in range(4):
+            usable=(len(paragraphs)-offset)//4*4
+            blocks=[paragraphs[pos:pos+4] for pos in range(offset,offset+usable,4)]
+            if len(blocks) < 8:
+                continue
+            for slot in range(4):
+                owners=Counter()
+                for block in blocks:
+                    text=normalized_identity(block[slot])
+                    owners.update(set(text[pos:pos+6] for pos in range(max(0,len(text)-5))))
+                phrase,count=max(owners.items(),key=lambda item:item[1],default=('',0))
+                ratio=count/len(blocks)
+                if ratio >= 0.90:
+                    anchors.append((offset,slot,phrase,count,ratio,len(blocks)))
+        if anchors:
+            offset,slot,phrase,count,ratio,block_count=max(anchors,key=lambda item:item[4])
+            failures.append(
+                f'同一の4段落生成骨格が記事を支配: ID {item_id} '
+                f'offset {offset} 第{slot+1}段落「{phrase}」が{count}/{block_count}節 ({ratio:.1%})'
+            )
+
+def svg_semantic_skeleton(svg):
+    """色・座標・背景装飾・文言を除き、主題場面の要素骨格だけを返す。"""
+    root=ET.parse(svg).getroot()
+    scenes=[]
+    for elem in root.iter():
+        scene=elem.attrib.get('data-scene')
+        if not scene:
+            continue
+        tags=tuple(child.tag.rsplit('}',1)[-1] for child in elem.iter())
+        scenes.append((scene,tags))
+    return tuple(scenes)
+
+def audit_svg_skeleton_dominance(svg_skeletons_by_id, failures, grandfathered_ids=frozenset()):
+    owners=defaultdict(list)
+    for item_id,skeletons in svg_skeletons_by_id.items():
+        owners[tuple(skeletons)].append(item_id)
+    for skeleton,ids in owners.items():
+        new_ids=[item_id for item_id in ids if item_id not in grandfathered_ids]
+        if skeleton and len(ids) >= 2 and new_ids:
+            failures.append(
+                'SVGの装飾差を除く3点骨格が複数記事で一致: '
+                f'IDs {",".join(map(str,sorted(ids)))}'
+            )
+
 def audit_existing_duplicates(selected, publication, failures):
     """選択IDと、すでに公開されているページの衝突を検査する。"""
     selected_ids={int(row['id']) for row in selected}
@@ -220,6 +301,8 @@ def main():
     ap.add_argument('--ids',help='監査・公開するID。例: 1,4,10-12（省略時は全300件）')
     args=ap.parse_args()
     pub=json.loads((ROOT/'data/seo-phase4-publication.json').read_text(encoding='utf-8'))
+    grandfathered_ids={int(item['id']) for item in pub
+                       if item.get('publish_ready') is True and is_verified(item)}
     from build_seo_phase4 import ensure_release_quality, load_rows, parse_ids, set_release_state
     all_rows=load_rows()
     try:
@@ -261,6 +344,7 @@ def main():
     failures=[]
     paragraphs=[]; normalized_paragraphs=[]; faq_questions=[]; svg_structures=set()
     paragraphs_by_id=defaultdict(list)
+    svg_skeletons_by_id=defaultdict(list)
     if len(pub)!=300 or len({int(p['id']) for p in pub})!=300 or len({p['url'] for p in pub})!=300:
         failures.append('公開台帳が300固有ID・URLではありません')
     for p in selected_pub:
@@ -309,6 +393,7 @@ def main():
             try:
                 tree=ET.parse(svg)
                 svg_structures.add(tuple(elem.tag.rsplit('}',1)[-1] for elem in tree.getroot().iter()))
+                svg_skeletons_by_id[int(p['id'])].append(svg_semantic_skeleton(svg))
             except Exception as ex: failures.append(f"SVG不正 {svg}: {ex}")
     exact=Counter(paragraphs); normalized=Counter(normalized_paragraphs)
     exact_ratio=sum(v for v in exact.values() if v>1)/max(1,len(paragraphs))
@@ -316,6 +401,8 @@ def main():
     if exact_ratio>0.25: failures.append(f'完全一致段落率が25%超: {exact_ratio:.1%}')
     if normalized_ratio>0.25: failures.append(f'正規化後反復率が25%超: {normalized_ratio:.1%}')
     audit_semantic_repetition(paragraphs_by_id,failures)
+    audit_sentence_and_four_paragraph_skeleton(paragraphs_by_id,failures,grandfathered_ids)
+    audit_svg_skeleton_dominance(svg_skeletons_by_id,failures,grandfathered_ids)
     if args.ids is None and len(set(faq_questions)) < 1100: failures.append(f'FAQ質問の固有数不足: {len(set(faq_questions))}/1200')
     if args.ids is not None and len(set(faq_questions)) != len(faq_questions): failures.append('選択コホート内でFAQ質問が重複しています')
     if args.ids is None and len(svg_structures) < 30: failures.append(f'SVG構造の種類不足: {len(svg_structures)}')

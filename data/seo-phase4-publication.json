@@ -4203,13 +4203,13 @@
       "森町で給水開始・休止の連絡日を引越し台帳へ反映する",
       "入退去時の水道連絡漏れを防ぎたい"
     ],
-    "editorial_chars": 6400,
+    "editorial_chars": 7393,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 235,
@@ -4437,13 +4437,13 @@
       "森町で共有不動産の納税通知送付先を家族台帳へ残す",
       "共有者の誰に通知が届くか家族で確認したい"
     ],
-    "editorial_chars": 6431,
+    "editorial_chars": 7508,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 248,
@@ -4833,13 +4833,13 @@
       "森町で高齢者相談の経緯を相談日・困り事・次の連絡で残す",
       "地域包括支援センターへの相談内容を兄弟姉妹で共有したい"
     ],
-    "editorial_chars": 6504,
+    "editorial_chars": 6928,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 270,
@@ -5139,13 +5139,13 @@
       "森町で公共施設予約の申請者・利用目的・取消条件を記録する",
       "団体利用の予約経緯を次の担当へ引き続ぎたい"
     ],
-    "editorial_chars": 6450,
+    "editorial_chars": 6968,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 287,
@@ -5229,13 +5229,13 @@
       "森町で農地相続届の地番一覧を登記事項と照合する",
       "相続した農地の地番漏れを防ぎたい"
     ],
-    "editorial_chars": 6395,
+    "editorial_chars": 6917,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 292,
