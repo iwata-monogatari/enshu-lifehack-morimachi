@@ -1199,7 +1199,56 @@ def scene_souzoku_houki(d):
     band(d, ["継がないと決めるなら", "3か月"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_obon_clean_center(d):
+    """お盆週に家財を軽トラックへ積み、受入日を見比べる場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [22, 66, 700, 738], 300)
+    d.polygon([(0, 296), (760, 288), (760, 334), (0, 344)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 304 + i * 13), (760, 296 + i * 13)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 338), (760, 328), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    d.polygon([(0, 490), (760, 478), (760, 534), (0, 546)], fill=(232, 226, 210))
+    # 左：実家
+    d.polygon([(6, 388), (104, 332), (202, 388)], fill=(111, 124, 130))
+    d.rectangle([22, 388, 186, 470], fill=(243, 239, 227), outline=(194, 186, 167), width=4)
+    d.rectangle([40, 408, 84, 444], fill=(227, 233, 234), outline=(181, 191, 194), width=3)
+    d.rectangle([116, 412, 152, 470], fill=(200, 207, 203), outline=(163, 172, 168), width=3)
+    # 軽トラック
+    d.rectangle([250, 372, 512, 460], fill=(230, 233, 230), outline=(169, 178, 176), width=4)
+    d.polygon([(512, 460), (512, 366), (596, 366), (626, 412), (626, 460)],
+              fill=(230, 233, 230), outline=(169, 178, 176), width=4)
+    d.polygon([(536, 378), (588, 378), (610, 410), (536, 410)], fill=(207, 224, 230),
+              outline=(169, 188, 194), width=3)
+    # 荷物
+    d.rectangle([264, 316, 336, 370], fill=(214, 191, 148), outline=(172, 151, 112), width=3)
+    d.line([(300, 316), (300, 370)], fill=(172, 151, 112), width=3)
+    d.rectangle([346, 330, 424, 370], fill=(238, 241, 234), outline=(184, 192, 182), width=3)
+    d.rectangle([434, 308, 504, 370], fill=(214, 191, 148), outline=(172, 151, 112), width=3)
+    d.line([(434, 340), (504, 340)], fill=(172, 151, 112), width=3)
+    d.ellipse([300, 288, 420, 318], fill=(185, 143, 93), outline=(143, 108, 67), width=3)
+    d.rectangle([242, 452, 630, 470], fill=(139, 151, 155))
+    for cx in (312, 566):
+        d.ellipse([cx - 30, 462, cx + 30, 522], fill=(60, 74, 82))
+        d.ellipse([cx - 13, 479, cx + 13, 505], fill=(169, 178, 176))
+    # 右：受入日の三枚札
+    f = ImageFont.truetype(FONT_BOLD, 22)
+    fs = ImageFont.truetype(FONT_REGULAR, 18)
+    rows = (("火 8/11", "休み", (192, 86, 60)),
+            ("水〜金", "9時〜17時", (62, 107, 85)),
+            ("土", "午前だけ", (184, 134, 15)))
+    for i, (day, note, col) in enumerate(rows):
+        y0 = 336 + i * 76
+        d.rounded_rectangle([624, y0, 744, y0 + 62], radius=10, fill=(255, 255, 255),
+                            outline=col, width=4)
+        d.rounded_rectangle([624, y0, 744, y0 + 28], radius=10, fill=col)
+        d.text((636, y0 + 3), day, font=f, fill="#ffffff")
+        d.text((636, y0 + 34), note, font=fs, fill=(66, 83, 92))
+    band(d, ["家財を運び出す前に、", "受入日を見る"], "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260811-obon-clean-center-days": scene_obon_clean_center,
     "20260811-souzoku-houki-three-months": scene_souzoku_houki,
     "20260811-nayosecho-all-parcels": scene_nayosecho,
     "20260811-water-shutoff-joining-fee": scene_water_shutoff,

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ob1Title ob1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ob1Title">お盆に森町の実家の家財を運び出す場面を描いたイラスト</title>
+  <desc id="ob1Desc">奥に山並みと杉林、段になった茶畑が広がります。左に瓦屋根の実家があり、玄関先に仕分けた山が二つ並んでいます。片方には燃えるものの札、もう片方には金属と電化製品の札が立っています。中央から右にかけて軽トラックが停まり、荷台にたたんだ布団、段ボール箱、ちゃぶ台、座布団が積まれています。二人がかりで箱を持ち上げているところで、荷台の脇には扇風機と自転車が別に置かれ、行き先が違うことを示す札が付いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ob1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3dbee"/><stop offset="1" stop-color="#e8f0e4"/>
+    </linearGradient>
+    <linearGradient id="ob1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa9bd"/><stop offset="1" stop-color="#b5cad2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="192" fill="url(#ob1Sky)"/>
+
+  <path fill="url(#ob1Far)" d="M0 124 L108 68 L218 122 L330 56 L444 120 L558 52 L674 122 L788 66 L896 120 L1000 78 L1000 170 L0 170 Z"/>
+  <g fill="#3f6b52">
+    <path d="M18 192 l13 -34 l13 34 z"/><path d="M48 192 l10 -26 l10 26 z"/>
+    <path d="M926 192 l12 -32 l12 32 z"/><path d="M956 192 l14 -36 l14 36 z"/>
+  </g>
+
+  <path fill="#7fae57" d="M0 192 C 220 182, 440 206, 660 194 C 760 188, 850 198, 1000 192 L1000 240 L0 246 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 202 C 220 192, 440 216, 660 204 C 760 198, 850 208, 1000 202"/>
+    <path d="M0 218 C 220 208, 440 232, 660 220 C 760 214, 850 224, 1000 218"/>
+    <path d="M0 234 C 220 224, 440 248, 660 236 C 760 230, 850 240, 1000 234"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 242 L1000 236 L1000 560 L0 560 Z"/>
+  <path fill="#e8e2d2" stroke="#cfc7b3" stroke-width="3" d="M0 466 L1000 452 L1000 512 L0 526 Z"/>
+
+  <!-- 実家 -->
+  <g>
+    <path d="M14 320 L146 246 L278 320 Z" fill="#6f7c82"/>
+    <path d="M34 320 L146 258 L258 320 Z" fill="#8b979b"/>
+    <g stroke="#66737a" stroke-width="3" fill="none">
+      <path d="M62 306 L230 306"/><path d="M48 313 L244 313"/>
+    </g>
+    <rect x="34" y="320" width="224" height="126" fill="#f3efe3" stroke="#c2baa7" stroke-width="4"/>
+    <rect x="58" y="352" width="66" height="60" fill="#e3e9ea" stroke="#b5bfc2" stroke-width="3"/>
+    <path d="M91 352 L91 412 M58 382 L124 382" stroke="#b5bfc2" stroke-width="3"/>
+    <rect x="164" y="356" width="70" height="90" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <path d="M199 356 L199 446" stroke="#a3aca8" stroke-width="3"/>
+  </g>
+
+  <!-- 玄関先：仕分けた山（燃えるもの） -->
+  <g>
+    <path d="M40 446 q34 -34 68 0 q14 14 6 26 l-80 0 q-8 -12 6 -26 z" fill="#cbbf9e" stroke="#a89b78" stroke-width="3"/>
+    <g stroke="#a89b78" stroke-width="3" fill="none">
+      <path d="M52 458 L98 458"/><path d="M48 468 L104 468"/>
+    </g>
+    <rect x="20" y="482" width="120" height="28" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="80" y="502" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">燃えるもの</text>
+  </g>
+  <!-- 仕分けた山（金属） -->
+  <g>
+    <path d="M164 448 l30 -26 l30 26 l14 22 l-88 0 z" fill="#b3bcbe" stroke="#8b9598" stroke-width="3"/>
+    <g stroke="#8b9598" stroke-width="3" fill="none">
+      <path d="M172 458 L216 458"/><path d="M168 468 L222 468"/>
+    </g>
+    <rect x="150" y="482" width="160" height="28" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="230" y="502" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">金属・電化製品</text>
+  </g>
+
+  <!-- 軽トラック -->
+  <g>
+    <!-- 荷台 -->
+    <rect x="470" y="356" width="290" height="96" fill="#e6e9e6" stroke="#a9b2b0" stroke-width="4"/>
+    <!-- 荷物 -->
+    <rect x="486" y="296" width="76" height="58" fill="#d6bf94" stroke="#ac9770" stroke-width="3"/>
+    <path d="M524 296 L524 354 M486 322 L562 322" stroke="#ac9770" stroke-width="3"/>
+    <rect x="572" y="310" width="86" height="44" rx="4" fill="#eef1ea" stroke="#b8c0b6" stroke-width="3"/>
+    <path d="M572 332 L658 332" stroke="#b8c0b6" stroke-width="3"/>
+    <rect x="668" y="286" width="76" height="68" fill="#d6bf94" stroke="#ac9770" stroke-width="3"/>
+    <path d="M706 286 L706 354 M668 320 L744 320" stroke="#ac9770" stroke-width="3"/>
+    <!-- ちゃぶ台 -->
+    <ellipse cx="616" cy="286" rx="60" ry="16" fill="#b98f5d" stroke="#8f6c43" stroke-width="3"/>
+    <path d="M580 290 L572 310 M652 290 L660 310" stroke="#8f6c43" stroke-width="5"/>
+    <!-- 運転席 -->
+    <path d="M760 356 L760 288 L862 288 L900 340 L900 356 Z" fill="#e6e9e6" stroke="#a9b2b0" stroke-width="4"/>
+    <path d="M796 300 L856 300 L884 338 L796 338 Z" fill="#cfe0e6" stroke="#a9bcc2" stroke-width="3"/>
+    <rect x="460" y="440" width="450" height="18" rx="6" fill="#8b979b"/>
+    <circle cx="546" cy="466" r="30" fill="#3c4a52"/><circle cx="546" cy="466" r="13" fill="#a9b2b0"/>
+    <circle cx="838" cy="466" r="30" fill="#3c4a52"/><circle cx="838" cy="466" r="13" fill="#a9b2b0"/>
+  </g>
+
+  <!-- 別行きの荷物：扇風機と自転車 -->
+  <g>
+    <path d="M334 476 L334 428" stroke="#9aa3a5" stroke-width="6"/>
+    <circle cx="334" cy="408" r="26" fill="#e2e6e4" stroke="#a3aca8" stroke-width="3"/>
+    <path d="M334 408 L352 396 M334 408 L318 424 M334 408 L352 420" stroke="#a3aca8" stroke-width="4" fill="none"/>
+    <rect x="308" y="476" width="52" height="10" rx="4" fill="#9aa3a5"/>
+    <circle cx="400" cy="452" r="26" fill="none" stroke="#6f7c82" stroke-width="5"/>
+    <circle cx="454" cy="452" r="26" fill="none" stroke="#6f7c82" stroke-width="5"/>
+    <path d="M400 452 L424 420 L454 452 M424 420 L442 420" fill="none" stroke="#6f7c82" stroke-width="5"/>
+    <rect x="300" y="502" width="176" height="28" rx="8" fill="#1f3e52"/>
+    <text x="388" y="522" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">これは磐田へ</text>
+  </g>
+
+  <!-- 荷物を運ぶ二人 -->
+  <g>
+    <circle cx="502" cy="392" r="19" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <path d="M483 388 q19 -21 38 0 q-3 -21 -19 -21 q-16 0 -19 21 z" fill="#4a4038"/>
+    <path d="M480 418 q22 -12 44 0 l8 40 l-60 0 z" fill="#7e9c72" stroke="#5f7d56" stroke-width="3"/>
+    <circle cx="424" cy="372" r="19" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <path d="M405 368 q19 -21 38 0 q-3 -21 -19 -21 q-16 0 -19 21 z" fill="#8d8a86"/>
+    <path d="M402 398 q22 -12 44 0 l8 44 l-60 0 z" fill="#b0655a" stroke="#8d4f45" stroke-width="3"/>
+    <rect x="418" y="326" width="72" height="44" fill="#d6bf94" stroke="#ac9770" stroke-width="3"/>
+    <path d="M454 326 L454 370" stroke="#ac9770" stroke-width="3"/>
+    <path d="M414 400 L424 372 M484 404 L472 372" stroke="#e8cdae" stroke-width="11" stroke-linecap="round"/>
+  </g>
+
+  <!-- 右上：受入日の札 -->
+  <g>
+    <rect x="762" y="188" width="222" height="72" rx="10" fill="#ffffff" stroke="#8fb79c" stroke-width="4"/>
+    <text x="873" y="216" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">可燃は袋井へ</text>
+    <text x="873" y="244" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">金属は磐田へ</text>
+  </g>
+</svg>

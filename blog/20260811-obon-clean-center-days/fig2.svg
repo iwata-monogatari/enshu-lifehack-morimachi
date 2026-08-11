@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ob2Title ob2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ob2Title">森町のお盆週に家財を持ち込める日と行き先を場面として描いたイラスト</title>
+  <desc id="ob2Desc">背景に山並みと段になった茶畑が広がります。上段に火曜から日曜までの六つの札が並び、火曜と日曜には休みを示す赤い斜線、水曜から金曜には終日開いていることを示す緑の帯、土曜には午前だけの短い帯が描かれています。下段では実家の玄関先から二本の道が伸び、一本は袋井の可燃ごみ施設の煙突のある建物へ、もう一本は磐田の粗大ごみ施設の建物へ続き、それぞれ軽トラックが走っています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ob2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6ddec"/><stop offset="1" stop-color="#eaf1e5"/>
+    </linearGradient>
+    <linearGradient id="ob2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b7ccd3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="150" fill="url(#ob2Sky)"/>
+
+  <path fill="url(#ob2Far)" d="M0 96 L104 46 L212 94 L324 38 L438 92 L554 34 L670 94 L784 46 L892 92 L1000 58 L1000 132 L0 132 Z"/>
+  <g fill="#3f6b52">
+    <path d="M20 150 l12 -30 l12 30 z"/><path d="M934 150 l12 -30 l12 30 z"/>
+  </g>
+  <path fill="#7fae57" d="M0 150 C 220 142, 440 164, 660 152 C 760 146, 850 156, 1000 150 L1000 186 L0 192 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 160 C 220 152, 440 174, 660 162 C 760 156, 850 166, 1000 160"/>
+    <path d="M0 176 C 220 168, 440 190, 660 178 C 760 172, 850 182, 1000 176"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 188 L1000 182 L1000 560 L0 560 Z"/>
+
+  <!-- 上段：一週間の札 -->
+  <g>
+    <rect x="24" y="206" width="146" height="112" rx="10" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+    <rect x="24" y="206" width="146" height="30" rx="10" fill="#c0563c"/>
+    <text x="97" y="228" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">8/11 火</text>
+    <path d="M40 250 L156 306 M156 250 L40 306" stroke="#c0563c" stroke-width="7" stroke-linecap="round"/>
+    <text x="97" y="338" font-family="sans-serif" font-size="15" font-weight="bold" fill="#42535c" text-anchor="middle">山の日</text>
+  </g>
+  <g>
+    <rect x="182" y="206" width="146" height="112" rx="10" fill="#ffffff" stroke="#8fb79c" stroke-width="4"/>
+    <rect x="182" y="206" width="146" height="30" rx="10" fill="#3e6b55"/>
+    <text x="255" y="228" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">8/12 水</text>
+    <rect x="196" y="256" width="118" height="20" rx="6" fill="#8fb79c"/>
+    <rect x="196" y="286" width="118" height="20" rx="6" fill="#8fb79c"/>
+  </g>
+  <g>
+    <rect x="340" y="206" width="146" height="112" rx="10" fill="#ffffff" stroke="#8fb79c" stroke-width="4"/>
+    <rect x="340" y="206" width="146" height="30" rx="10" fill="#3e6b55"/>
+    <text x="413" y="228" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">8/13 木</text>
+    <rect x="354" y="256" width="118" height="20" rx="6" fill="#8fb79c"/>
+    <rect x="354" y="286" width="118" height="20" rx="6" fill="#8fb79c"/>
+  </g>
+  <g>
+    <rect x="498" y="206" width="146" height="112" rx="10" fill="#ffffff" stroke="#8fb79c" stroke-width="4"/>
+    <rect x="498" y="206" width="146" height="30" rx="10" fill="#3e6b55"/>
+    <text x="571" y="228" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">8/14 金</text>
+    <rect x="512" y="256" width="118" height="20" rx="6" fill="#8fb79c"/>
+    <rect x="512" y="286" width="118" height="20" rx="6" fill="#8fb79c"/>
+  </g>
+  <g>
+    <rect x="656" y="206" width="146" height="112" rx="10" fill="#ffffff" stroke="#d2a24a" stroke-width="4"/>
+    <rect x="656" y="206" width="146" height="30" rx="10" fill="#b8860f"/>
+    <text x="729" y="228" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">8/15 土</text>
+    <rect x="670" y="256" width="56" height="20" rx="6" fill="#e3c07a"/>
+    <text x="729" y="302" font-family="sans-serif" font-size="15" font-weight="bold" fill="#42535c" text-anchor="middle">午前だけ</text>
+  </g>
+  <g>
+    <rect x="814" y="206" width="146" height="112" rx="10" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+    <rect x="814" y="206" width="146" height="30" rx="10" fill="#c0563c"/>
+    <text x="887" y="228" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">8/16 日</text>
+    <path d="M830 250 L946 306 M946 250 L830 306" stroke="#c0563c" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- 実家から二本の道 -->
+  <path fill="#e8e2d2" stroke="#cfc7b3" stroke-width="3"
+        d="M172 462 C 300 452, 420 434, 540 412 L546 442 C 428 464, 306 482, 176 492 Z"/>
+  <path fill="#e0dccb" stroke="#cfc7b3" stroke-width="3"
+        d="M176 496 C 320 508, 460 524, 596 542 L590 560 L172 528 Z"/>
+
+  <!-- 実家 -->
+  <g>
+    <path d="M28 424 L108 380 L188 424 Z" fill="#6f7c82"/>
+    <rect x="46" y="424" width="124" height="72" fill="#f3efe3" stroke="#c2baa7" stroke-width="4"/>
+    <rect x="64" y="444" width="36" height="32" fill="#e3e9ea" stroke="#b5bfc2" stroke-width="3"/>
+    <rect x="118" y="448" width="32" height="48" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <rect x="20" y="352" width="176" height="28" rx="8" fill="#1f3e52"/>
+    <text x="108" y="372" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">森町の実家</text>
+  </g>
+
+  <!-- 上の道の軽トラック -->
+  <g>
+    <rect x="344" y="404" width="72" height="34" fill="#e6e9e6" stroke="#a9b2b0" stroke-width="3"/>
+    <path d="M416 438 L416 408 L446 408 L462 430 L462 438 Z" fill="#e6e9e6" stroke="#a9b2b0" stroke-width="3"/>
+    <circle cx="374" cy="442" r="11" fill="#3c4a52"/><circle cx="442" cy="442" r="11" fill="#3c4a52"/>
+  </g>
+  <!-- 下の道の軽トラック -->
+  <g>
+    <rect x="334" y="500" width="72" height="34" fill="#e6e9e6" stroke="#a9b2b0" stroke-width="3"/>
+    <path d="M406 534 L406 504 L436 504 L452 526 L452 534 Z" fill="#e6e9e6" stroke="#a9b2b0" stroke-width="3"/>
+    <circle cx="364" cy="538" r="11" fill="#3c4a52"/><circle cx="432" cy="538" r="11" fill="#3c4a52"/>
+  </g>
+
+  <!-- 袋井：可燃ごみ施設 -->
+  <g>
+    <rect x="640" y="376" width="150" height="68" fill="#e4e8e5" stroke="#b2bab6" stroke-width="3"/>
+    <rect x="750" y="316" width="26" height="60" fill="#cfd6d2" stroke="#a9b2ae" stroke-width="3"/>
+    <path d="M754 316 q6 -22 20 -30" fill="none" stroke="#cfd8da" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#cfe0e6" stroke="#a9bcc2" stroke-width="3">
+      <rect x="660" y="392" width="26" height="24"/><rect x="702" y="392" width="26" height="24"/>
+    </g>
+    <rect x="684" y="418" width="34" height="26" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <rect x="596" y="452" width="292" height="30" rx="8" fill="#ffffff" stroke="#8fb79c" stroke-width="3"/>
+    <text x="742" y="473" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">袋井：可燃ごみ 17時まで</text>
+  </g>
+
+  <!-- 磐田：粗大ごみ施設 -->
+  <g>
+    <rect x="808" y="504" width="128" height="52" fill="#e4e8e5" stroke="#b2bab6" stroke-width="3"/>
+    <path d="M798 504 L872 476 L946 504 Z" fill="#98a4a6"/>
+    <rect x="854" y="524" width="30" height="32" fill="#c8cfcb" stroke="#a3aca8" stroke-width="3"/>
+    <rect x="486" y="504" width="298" height="30" rx="8" fill="#1f3e52"/>
+    <text x="635" y="525" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">磐田：金属 16時30分まで</text>
+  </g>
+</svg>
