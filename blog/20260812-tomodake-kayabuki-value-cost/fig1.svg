@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tk1Title tk1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="tk1Title">森町の茅葺き民家と、隣に建つ瓦屋根の実家を並べて描いたイラスト</title>
+  <desc id="tk1Desc">奥に遠州の山並みと杉林、段になった茶畑が広がります。左には寄棟造で茅葺きの古民家が建ち、屋根の右半分に丸太を組んだ足場がかかって、職人が茅の束を運び上げています。軒下には「重要文化財」と書かれた小さな標識が立っています。右には雨戸を閉めた瓦屋根の実家があり、その手前の台に登記事項証明書と巻尺、電卓が置かれています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="tk1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6dced"/><stop offset="1" stop-color="#e9f1e4"/>
+    </linearGradient>
+    <linearGradient id="tk1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b6cbd2"/>
+    </linearGradient>
+    <linearGradient id="tk1Kaya" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b39a63"/><stop offset="1" stop-color="#8d7745"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="200" fill="url(#tk1Sky)"/>
+
+  <!-- 山並み -->
+  <path fill="url(#tk1Far)" d="M0 132 L104 68 L214 128 L330 56 L450 126 L566 52 L682 128 L796 66 L902 126 L1000 84 L1000 176 L0 176 Z"/>
+  <g fill="#3f6b52">
+    <path d="M14 200 l13 -36 l13 36 z"/><path d="M44 200 l11 -28 l11 28 z"/>
+    <path d="M72 200 l10 -24 l10 24 z"/>
+    <path d="M932 200 l12 -34 l12 34 z"/><path d="M962 200 l14 -38 l14 38 z"/>
+  </g>
+
+  <!-- 茶畑 -->
+  <path fill="#7fae57" d="M0 200 C 230 190, 450 214, 670 202 C 770 196, 860 206, 1000 200 L1000 250 L0 256 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 210 C 230 200, 450 224, 670 212 C 770 206, 860 216, 1000 210"/>
+    <path d="M0 227 C 230 217, 450 241, 670 229 C 770 223, 860 233, 1000 227"/>
+    <path d="M0 244 C 230 234, 450 258, 670 246 C 770 240, 860 250, 1000 244"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 252 L1000 246 L1000 560 L0 560 Z"/>
+
+  <!-- 左：茅葺きの民家 -->
+  <g>
+    <!-- 分厚い茅の寄棟屋根 -->
+    <path d="M22 322 L110 200 L318 200 L406 322 Z" fill="url(#tk1Kaya)"/>
+    <path d="M22 322 L110 200 L318 200 L406 322 Z" fill="none" stroke="#6f5c34" stroke-width="4"/>
+    <g stroke="#9c8452" stroke-width="3" fill="none" opacity="0.9">
+      <path d="M52 322 L128 212"/><path d="M92 322 L152 212"/><path d="M132 322 L176 212"/>
+      <path d="M296 322 L252 212"/><path d="M336 322 L276 212"/><path d="M376 322 L300 212"/>
+    </g>
+    <path d="M104 200 L324 200" stroke="#5d4d2b" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M22 326 L406 326" stroke="#6f5c34" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <!-- 軸部 -->
+    <rect x="44" y="326" width="342" height="148" fill="#e7ded0" stroke="#b8ab97" stroke-width="4"/>
+    <!-- 土間の入口 -->
+    <rect x="60" y="352" width="86" height="122" fill="#5a4b3d" stroke="#3f3529" stroke-width="3"/>
+    <!-- 格子（狼よけの太い縦格子） -->
+    <rect x="166" y="352" width="106" height="90" fill="#efe7d6" stroke="#a8987e" stroke-width="3"/>
+    <g stroke="#7d6b4f" stroke-width="6" fill="none">
+      <path d="M182 352 L182 442"/><path d="M204 352 L204 442"/>
+      <path d="M226 352 L226 442"/><path d="M248 352 L248 442"/>
+    </g>
+    <rect x="292" y="352" width="76" height="90" fill="#efe7d6" stroke="#a8987e" stroke-width="3"/>
+    <g stroke="#a8987e" stroke-width="3" fill="none">
+      <path d="M330 352 L330 442"/><path d="M292 397 L368 397"/>
+    </g>
+    <!-- 棟通りの柱 -->
+    <g stroke="#8a7a5e" stroke-width="7" fill="none">
+      <path d="M154 474 L154 442"/><path d="M280 474 L280 442"/>
+    </g>
+  </g>
+
+  <!-- 足場と職人 -->
+  <g>
+    <g stroke="#a97f4b" stroke-width="7" fill="none" stroke-linecap="round">
+      <path d="M300 208 L300 340"/><path d="M366 232 L366 340"/><path d="M424 262 L424 340"/>
+      <path d="M290 268 L434 268"/><path d="M290 312 L434 312"/>
+    </g>
+    <path d="M286 226 L440 296" stroke="#a97f4b" stroke-width="5" fill="none"/>
+    <!-- 職人 -->
+    <circle cx="378" cy="240" r="15" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <path d="M362 236 q16 -20 32 0 q0 -18 -16 -18 q-16 0 -16 18 z" fill="#c8843c"/>
+    <path d="M362 262 q16 -10 32 0 l7 44 l-46 0 z" fill="#4c7a92" stroke="#3a6076" stroke-width="3"/>
+    <path d="M362 274 L330 250" stroke="#e8cdae" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <!-- 茅の束 -->
+    <g>
+      <path d="M292 226 L336 244 L330 260 L286 242 Z" fill="#c9ac6d" stroke="#9c8452" stroke-width="3"/>
+      <g stroke="#9c8452" stroke-width="2" fill="none">
+        <path d="M296 232 L332 247"/><path d="M292 240 L328 255"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- 重要文化財の標識 -->
+  <g>
+    <path d="M62 512 L62 474" stroke="#8a7a5e" stroke-width="6" fill="none"/>
+    <rect x="18" y="482" width="130" height="30" rx="6" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="83" y="503" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">重要文化財</text>
+  </g>
+
+  <!-- 右：瓦屋根の実家 -->
+  <g>
+    <path d="M556 332 L692 246 L828 332 Z" fill="#6f7c82"/>
+    <path d="M576 332 L692 256 L808 332 Z" fill="#8b979b"/>
+    <g stroke="#66737a" stroke-width="3" fill="none">
+      <path d="M600 316 L784 316"/><path d="M588 324 L796 324"/>
+    </g>
+    <rect x="576" y="332" width="232" height="120" fill="#e9e3d3" stroke="#bdb49f" stroke-width="4"/>
+    <g fill="#b9ac91" stroke="#948a72" stroke-width="3">
+      <rect x="596" y="356" width="86" height="76"/>
+      <rect x="702" y="356" width="86" height="76"/>
+    </g>
+    <g stroke="#948a72" stroke-width="3" fill="none">
+      <path d="M617 356 L617 432 M638 356 L638 432 M659 356 L659 432"/>
+      <path d="M723 356 L723 432 M744 356 L744 432 M765 356 L765 432"/>
+    </g>
+  </g>
+  <!-- 伸びた草 -->
+  <g stroke="#79953f" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M560 476 C 556 458, 566 450, 562 434"/>
+    <path d="M584 480 C 580 462, 590 454, 586 438"/>
+    <path d="M812 476 C 808 458, 818 450, 814 434"/>
+  </g>
+
+  <!-- 手前の台：登記事項証明書・巻尺・電卓 -->
+  <g>
+    <path d="M556 466 L928 460 L946 552 L570 558 Z" fill="#c4a97f" stroke="#a48d68" stroke-width="3"/>
+    <path d="M586 476 L742 471 L752 540 L594 546 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <rect x="594" y="484" width="122" height="22" rx="5" fill="#3e6b55"/>
+    <text x="655" y="500" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">登記事項証明書</text>
+    <g stroke="#a9bfcb" stroke-width="4" fill="none">
+      <path d="M600 518 L736 513"/><path d="M602 532 L722 527"/>
+    </g>
+    <!-- 巻尺 -->
+    <circle cx="800" cy="510" r="27" fill="#d8892f" stroke="#a8681e" stroke-width="4"/>
+    <circle cx="800" cy="510" r="9" fill="#f4e7cd"/>
+    <path d="M824 498 L878 484" stroke="#f4e7cd" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <g stroke="#a8681e" stroke-width="2" fill="none">
+      <path d="M838 496 L840 502"/><path d="M852 493 L854 499"/><path d="M866 490 L868 496"/>
+    </g>
+    <!-- 電卓 -->
+    <rect x="856" y="504" width="70" height="46" rx="6" fill="#4a5a63" stroke="#33434b" stroke-width="3"/>
+    <rect x="864" y="510" width="54" height="14" rx="2" fill="#cfe0d8"/>
+    <g fill="#8fa2ac">
+      <rect x="864" y="530" width="12" height="8" rx="2"/><rect x="882" y="530" width="12" height="8" rx="2"/>
+      <rect x="900" y="530" width="12" height="8" rx="2"/>
+      <rect x="864" y="542" width="12" height="6" rx="2"/><rect x="882" y="542" width="12" height="6" rx="2"/>
+      <rect x="900" y="542" width="12" height="6" rx="2"/>
+    </g>
+  </g>
+</svg>

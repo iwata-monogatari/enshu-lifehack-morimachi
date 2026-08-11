@@ -1247,7 +1247,71 @@ def scene_obon_clean_center(d):
     band(d, ["家財を運び出す前に、", "受入日を見る"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_tomodake(d):
+    """茅葺きに戻された民家と、隣で建築年を数えている実家を並べた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [20, 64, 108, 700, 740], 300)
+    d.polygon([(0, 296), (760, 288), (760, 336), (0, 346)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 304 + i * 13), (760, 296 + i * 13)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 340), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 左：茅葺きの寄棟屋根
+    d.polygon([(8, 424), (86, 314), (250, 314), (328, 424)], fill=(150, 128, 82))
+    d.line([(82, 314), (254, 314)], fill=(93, 77, 43), width=9)
+    for x0, x1 in ((40, 100), (74, 122), (108, 144), (232, 190), (266, 212), (300, 234)):
+        d.line([(x0, 424), (x1, 324)], fill=(174, 152, 100), width=3)
+    d.line([(8, 426), (328, 426)], fill=(111, 92, 52), width=8)
+    d.rectangle([28, 428, 308, 528], fill=(231, 222, 208), outline=(184, 171, 151), width=4)
+    d.rectangle([44, 452, 110, 528], fill=(90, 75, 61), outline=(63, 53, 41), width=3)
+    d.rectangle([128, 452, 210, 512], fill=(239, 231, 214), outline=(168, 152, 126), width=3)
+    for x in (144, 160, 176, 192):
+        d.line([(x, 452), (x, 512)], fill=(125, 107, 79), width=5)
+    d.rectangle([228, 452, 292, 512], fill=(239, 231, 214), outline=(168, 152, 126), width=3)
+    d.line([(260, 452), (260, 512)], fill=(168, 152, 126), width=3)
+    # 足場と茅の束
+    for x in (238, 292, 340):
+        d.line([(x, 322), (x, 452)], fill=(169, 127, 75), width=6)
+    for y in (368, 414):
+        d.line([(232, y), (346, y)], fill=(169, 127, 75), width=6)
+    d.polygon([(236, 340), (300, 364), (294, 384), (230, 360)], fill=(201, 172, 109),
+              outline=(156, 132, 82))
+    # 標識
+    d.line([(66, 570), (66, 528)], fill=(138, 122, 94), width=6)
+    d.rounded_rectangle([12, 536, 148, 570], radius=7, fill=(255, 255, 255),
+                        outline=(62, 107, 85), width=3)
+    d.text((26, 543), "重要文化財", font=ImageFont.truetype(FONT_BOLD, 21), fill=(31, 62, 82))
+    # 右：瓦屋根の実家
+    d.polygon([(410, 428), (536, 348), (662, 428)], fill=(111, 124, 130))
+    d.polygon([(428, 428), (536, 358), (644, 428)], fill=(139, 151, 155))
+    d.rectangle([428, 428, 644, 524], fill=(233, 227, 211), outline=(189, 180, 159), width=4)
+    for x0 in (446, 550):
+        d.rectangle([x0, 450, x0 + 78, 512], fill=(185, 172, 145), outline=(148, 138, 114), width=3)
+        for i in range(3):
+            d.line([(x0 + 19 * (i + 1), 450), (x0 + 19 * (i + 1), 512)], fill=(148, 138, 114), width=3)
+    # 手前：書類と巻尺と電卓
+    d.polygon([(392, 536), (752, 528), (760, 584), (400, 592)], fill=(196, 169, 127),
+              outline=(164, 141, 104))
+    d.polygon([(406, 540), (546, 536), (552, 580), (412, 584)], fill=(255, 255, 255),
+              outline=(185, 194, 198))
+    d.text((416, 544), "建築年", font=ImageFont.truetype(FONT_BOLD, 19), fill=(62, 107, 85))
+    for i in range(2):
+        d.line([(416, 566 + i * 10), (540, 563 + i * 10)], fill=(169, 191, 203), width=3)
+    d.ellipse([576, 538, 634, 584], fill=(216, 137, 47), outline=(168, 104, 30), width=4)
+    d.ellipse([598, 553, 614, 569], fill=(244, 231, 205))
+    d.line([(630, 546), (686, 534)], fill=(244, 231, 205), width=8)
+    d.rounded_rectangle([664, 546, 744, 588], radius=6, fill=(74, 90, 99),
+                        outline=(51, 67, 75), width=3)
+    d.rectangle([674, 552, 734, 566], fill=(207, 224, 216))
+    for r in range(2):
+        for c in range(3):
+            d.rounded_rectangle([674 + c * 21, 572 + r * 9, 686 + c * 21, 578 + r * 9],
+                                radius=2, fill=(143, 162, 172))
+    band(d, ["茅葺きは戻された。", "古さを二つに分ける"], "森町ライフハック／寺社・歴史")
+
+
 SCENES = {
+    "20260812-tomodake-kayabuki-value-cost": scene_tomodake,
     "20260811-obon-clean-center-days": scene_obon_clean_center,
     "20260811-souzoku-houki-three-months": scene_souzoku_houki,
     "20260811-nayosecho-all-parcels": scene_nayosecho,

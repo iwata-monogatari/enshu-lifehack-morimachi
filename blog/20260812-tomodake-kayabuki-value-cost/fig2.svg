@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tk2Title tk2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="tk2Title">森町の実家の古さを値打ちと費用に分けて確かめる順番を道筋として描いたイラスト</title>
+  <desc id="tk2Desc">左端に雨戸を閉めた瓦屋根の実家が建ち、そこから右へ道が伸びます。最初の区間では課税明細書と登記事項証明書を机に広げて建築年を確かめ、次の区間では役場の窓口で無料の耐震診断を申し込みます。三つ目の地点で道が三方向に分かれ、上は足場をかけた耐震改修工事へ、真ん中は重機のある解体現場へ、下は空き家バンクの看板が立つ家へ続きます。それぞれに補助の上限を書いた札が立っています。奥には段になった茶畑と山並みが広がります。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="tk2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6dced"/><stop offset="1" stop-color="#e9f1e4"/>
+    </linearGradient>
+    <linearGradient id="tk2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b6cbd2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="150" fill="url(#tk2Sky)"/>
+  <path fill="url(#tk2Far)" d="M0 96 L96 46 L200 94 L318 40 L438 94 L556 38 L676 94 L790 48 L898 94 L1000 60 L1000 132 L0 132 Z"/>
+  <g fill="#3f6b52">
+    <path d="M22 150 l12 -30 l12 30 z"/><path d="M50 150 l10 -24 l10 24 z"/>
+    <path d="M936 150 l12 -30 l12 30 z"/><path d="M964 150 l12 -28 l12 28 z"/>
+  </g>
+  <path fill="#7fae57" d="M0 150 C 240 142, 460 164, 690 152 C 790 146, 880 156, 1000 150 L1000 190 L0 196 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 160 C 240 152, 460 174, 690 162 C 790 156, 880 166, 1000 160"/>
+    <path d="M0 176 C 240 168, 460 190, 690 178 C 790 172, 880 182, 1000 176"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 192 L1000 186 L1000 560 L0 560 Z"/>
+
+  <!-- 道 -->
+  <path d="M78 350 L560 350 L864 214" fill="none" stroke="#cbbfa4" stroke-width="34" stroke-linecap="round"/>
+  <path d="M560 350 L864 350" fill="none" stroke="#cbbfa4" stroke-width="34" stroke-linecap="round"/>
+  <path d="M560 350 L864 486" fill="none" stroke="#cbbfa4" stroke-width="34" stroke-linecap="round"/>
+  <g stroke="#f2ece0" stroke-width="4" stroke-dasharray="18 16" fill="none">
+    <path d="M96 350 L560 350"/><path d="M566 348 L852 220"/>
+    <path d="M566 350 L852 350"/><path d="M566 352 L852 480"/>
+  </g>
+
+  <!-- 左端：実家 -->
+  <g>
+    <path d="M14 316 L86 268 L158 316 Z" fill="#6f7c82"/>
+    <path d="M28 316 L86 276 L144 316 Z" fill="#8b979b"/>
+    <rect x="28" y="316" width="116" height="72" fill="#e9e3d3" stroke="#bdb49f" stroke-width="4"/>
+    <g fill="#b9ac91" stroke="#948a72" stroke-width="3">
+      <rect x="42" y="332" width="40" height="46"/><rect x="92" y="332" width="40" height="46"/>
+    </g>
+    <text x="86" y="410" font-family="sans-serif" font-size="16" font-weight="bold" fill="#42535c" text-anchor="middle">実家</text>
+  </g>
+
+  <!-- 区間1：建築年を確かめる机 -->
+  <g>
+    <circle cx="216" cy="350" r="19" fill="#3e6b55"/>
+    <text x="216" y="357" font-family="sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+    <path d="M162 448 L292 444 L300 500 L168 504 Z" fill="#c4a97f" stroke="#a48d68" stroke-width="3"/>
+    <path d="M176 452 L246 450 L252 492 L182 494 Z" fill="#ffffff" stroke="#b9c2c6" stroke-width="3"/>
+    <g stroke="#a9bfcb" stroke-width="3" fill="none">
+      <path d="M184 464 L242 462"/><path d="M185 474 L236 472"/>
+    </g>
+    <path d="M254 450 L292 449 L296 488 L258 490 Z" fill="#f4efe0" stroke="#c9bf9f" stroke-width="3"/>
+    <rect x="146" y="398" width="146" height="30" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="219" y="419" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">建築年を確かめる</text>
+  </g>
+
+  <!-- 区間2：役場の窓口で無料診断を申し込む -->
+  <g>
+    <circle cx="400" cy="350" r="19" fill="#3e6b55"/>
+    <text x="400" y="357" font-family="sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+    <rect x="330" y="228" width="148" height="86" rx="6" fill="#f0f2ee" stroke="#9fadb2" stroke-width="4"/>
+    <path d="M322 228 L404 194 L486 228 Z" fill="#5f7d8c"/>
+    <rect x="348" y="256" width="112" height="34" rx="4" fill="#cfe0e6" stroke="#9fadb2" stroke-width="3"/>
+    <circle cx="366" cy="273" r="11" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <circle cx="440" cy="273" r="11" fill="#e8cdae" stroke="#c0a184" stroke-width="3"/>
+    <rect x="322" y="398" width="156" height="30" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="400" y="419" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">無料の耐震診断</text>
+    <rect x="342" y="434" width="116" height="26" rx="6" fill="#3e6b55"/>
+    <text x="400" y="453" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">評点を知る</text>
+  </g>
+
+  <!-- 分岐点 -->
+  <g>
+    <circle cx="560" cy="350" r="19" fill="#c0563c"/>
+    <text x="560" y="357" font-family="sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+  </g>
+
+  <!-- 上の道：耐震改修 -->
+  <g>
+    <rect x="700" y="120" width="128" height="72" fill="#e9e3d3" stroke="#bdb49f" stroke-width="4"/>
+    <path d="M688 120 L764 78 L840 120 Z" fill="#8b979b"/>
+    <g stroke="#a97f4b" stroke-width="5" fill="none" stroke-linecap="round">
+      <path d="M694 96 L694 196"/><path d="M834 96 L834 196"/>
+      <path d="M694 130 L834 130"/><path d="M694 166 L834 166"/>
+    </g>
+    <rect x="676" y="204" width="196" height="30" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="774" y="225" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">耐震改修 上限120万円</text>
+  </g>
+
+  <!-- 真ん中の道：解体 -->
+  <g>
+    <path d="M690 336 L760 336 L760 300 L800 300 L800 336 L836 336 L836 366 L690 366 Z" fill="#c8bda8" stroke="#a2977f" stroke-width="3"/>
+    <g stroke="#a2977f" stroke-width="3" fill="none">
+      <path d="M712 336 L712 366"/><path d="M778 300 L778 336"/>
+    </g>
+    <path d="M866 250 L866 316 L822 316" fill="none" stroke="#d8892f" stroke-width="9" stroke-linecap="round"/>
+    <rect x="852" y="230" width="42" height="30" rx="5" fill="#d8892f" stroke="#a8681e" stroke-width="3"/>
+    <path d="M812 306 L822 328 L802 328 Z" fill="#a8681e"/>
+    <rect x="662" y="382" width="240" height="30" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="782" y="403" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">解体 事業費23％・上限40万円</text>
+  </g>
+
+  <!-- 下の道：空き家バンク -->
+  <g>
+    <path d="M690 458 L760 414 L830 458 Z" fill="#8b979b"/>
+    <rect x="702" y="458" width="116" height="56" fill="#e9e3d3" stroke="#bdb49f" stroke-width="4"/>
+    <rect x="718" y="472" width="38" height="32" fill="#cfe0e6" stroke="#9fadb2" stroke-width="3"/>
+    <rect x="768" y="472" width="34" height="42" fill="#b9ac91" stroke="#948a72" stroke-width="3"/>
+    <path d="M860 514 L860 448" stroke="#8a7a5e" stroke-width="6" fill="none"/>
+    <rect x="846" y="412" width="132" height="34" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="3"/>
+    <text x="912" y="435" font-family="sans-serif" font-size="15" font-weight="bold" fill="#c0563c" text-anchor="middle">空き家バンク</text>
+    <rect x="640" y="522" width="234" height="30" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="757" y="543" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">残置物10万円・改修30万円</text>
+  </g>
+</svg>
