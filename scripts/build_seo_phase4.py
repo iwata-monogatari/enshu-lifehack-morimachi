@@ -540,6 +540,26 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="facility-room-capacity-layout"><rect x="280" y="225" width="440" height="245" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M500 225v245M280 315h440" stroke="{accent}" stroke-width="8"/><rect x="315" y="255" width="150" height="35" rx="8" fill="{pale}" stroke="{dark}" stroke-width="6"/><circle cx="340" cy="365" r="18" fill="{accent}"/><circle cx="405" cy="365" r="18" fill="{accent}"/><circle cx="340" cy="420" r="18" fill="{accent}"/><circle cx="405" cy="420" r="18" fill="{accent}"/><path d="M550 350h120v85H550Z" fill="{pale}" stroke="{dark}" stroke-width="8"/><path d="M570 375h80M570 405h55" stroke="{accent}" stroke-width="7"/></g>',
             f'<g data-scene="reservation-counter-key-route"><rect x="270" y="250" width="170" height="205" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M305 300h100M305 345h78M305 390h95" stroke="{accent}" stroke-width="8"/><path d="M455 355h105m-38-35 38 35-38 35" fill="none" stroke="{dark}" stroke-width="13"/><path d="M595 420v-95h145v95" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="635" cy="300" r="38" fill="{pale}" stroke="{accent}" stroke-width="9"/><path d="M673 300h80v25h-26v28h-28v-28h-26" fill="none" stroke="{dark}" stroke-width="12"/></g>',
         ],
+        209: [
+            f'<g data-scene="library-call-number-card"><rect x="270" y="255" width="175" height="220" rx="14" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M310 300h95M310 345h70M310 390h90" stroke="{accent}" stroke-width="9"/><path d="M500 235h225v240H500Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M550 235v240M615 235v240M680 235v240" stroke="{accent}" stroke-width="8"/></g>',
+            f'<g data-scene="catalog-shelf-page-route"><rect x="245" y="275" width="150" height="150" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M395 350h100m-28-28 28 28-28 28" fill="none" stroke="{accent}" stroke-width="12"/><path d="M535 235h210v220H535Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M575 280h130M575 330h105M575 380h120" stroke="{accent}" stroke-width="9"/></g>',
+            f'<g data-scene="family-local-history-index"><path d="M270 250h220v210H270Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M310 300h140M310 350h115M310 400h130" stroke="{accent}" stroke-width="9"/><path d="M540 420V300l85-70 85 70v120Z" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="625" cy="350" r="35" fill="{pale}" stroke="{accent}" stroke-width="9"/></g>',
+        ],
+        219: [
+            f'<g data-scene="statistics-date-unit-notes"><rect x="275" y="240" width="450" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M275 310h450M425 240v235M575 240v235" stroke="{accent}" stroke-width="8"/><circle cx="350" cy="380" r="30" fill="{pale}" stroke="{dark}" stroke-width="8"/><path d="M470 360h60M470 400h60M620 360h60M620 400h60" stroke="{dark}" stroke-width="9"/></g>',
+            f'<g data-scene="statistics-three-table-scope"><rect x="250" y="285" width="190" height="175" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="405" y="240" width="190" height="175" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="560" y="195" width="190" height="175" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M285 330h120M440 285h120M595 240h120" stroke="{accent}" stroke-width="9"/></g>',
+            f'<g data-scene="statistics-citation-card"><path d="M280 265h280v200H280Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M320 315h200M320 360h165M320 405h185" stroke="{accent}" stroke-width="9"/><path d="M610 240v220M575 280h145M575 350h145M575 420h145" stroke="{dark}" stroke-width="10"/><circle cx="610" cy="350" r="24" fill="{accent}"/></g>',
+        ],
+        253: [
+            f'<g data-scene="hazard-map-property-date"><path d="M260 270 430 225l95 85-60 150-185 10Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M335 250l40 205M270 365l230 55" stroke="{accent}" stroke-width="8"/><rect x="575" y="245" width="165" height="210" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><circle cx="658" cy="355" r="45" fill="{pale}" stroke="{accent}" stroke-width="10"/></g>',
+            f'<g data-scene="hazard-map-district-zoom"><rect x="270" y="235" width="220" height="220" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="570" y="285" width="170" height="170" fill="{pale}" stroke="{dark}" stroke-width="10"/><circle cx="470" cy="330" r="65" fill="none" stroke="{accent}" stroke-width="14"/><path d="M515 375l80 70" stroke="{accent}" stroke-width="18"/></g>',
+            f'<g data-scene="hazard-map-version-timeline"><rect x="250" y="260" width="185" height="180" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="565" y="230" width="185" height="210" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M435 350h130m-35-30 35 30-35 30" fill="none" stroke="{accent}" stroke-width="14"/><path d="M290 310h105M605 285h105M605 335h105" stroke="{dark}" stroke-width="8"/></g>',
+        ],
+        280: [
+            f'<g data-scene="family-checkin-network"><path d="M420 430V315l80-65 80 65v115Z" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="275" cy="300" r="34" fill="{accent}"/><circle cx="725" cy="300" r="34" fill="{pale}" stroke="{dark}" stroke-width="8"/><circle cx="500" cy="190" r="34" fill="#fff" stroke="{dark}" stroke-width="8"/><path d="M305 310l115 55M695 310l-115 55M500 224v26" stroke="{accent}" stroke-width="12"/></g>',
+            f'<g data-scene="three-level-watch-plan"><circle cx="300" cy="350" r="42" fill="#fff" stroke="{dark}" stroke-width="9"/><circle cx="500" cy="350" r="42" fill="{pale}" stroke="{dark}" stroke-width="9"/><circle cx="700" cy="350" r="42" fill="{accent}"/><path d="M342 350h116m84 0h116" stroke="{dark}" stroke-width="14"/><path d="m430 325 28 25-28 25m200-50 28 25-28 25" fill="none" stroke="{accent}" stroke-width="10"/></g>',
+            f'<g data-scene="emergency-kit-support-route"><rect x="250" y="285" width="170" height="180" rx="14" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M285 330h100M285 375h75" stroke="{accent}" stroke-width="9"/><path d="M420 375h120" stroke="{dark}" stroke-width="14"/><circle cx="600" cy="300" r="38" fill="{accent}"/><path d="M600 338v115M545 453h110M600 385h130" stroke="{dark}" stroke-width="14"/></g>',
+        ],
         291: [
             f'<g data-scene="inherited-farmland-parcel-map"><path d="M275 255 430 220l80 95-72 145-168-45Zm235 60 115-92 115 50-28 142-150 45-124-5Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M350 238l35 202M510 315l202 100M625 223l-63 237" stroke="{accent}" stroke-width="8"/><circle cx="500" cy="190" r="29" fill="{accent}"/><circle cx="445" cy="145" r="23" fill="#fff" stroke="{dark}" stroke-width="7"/><circle cx="555" cy="145" r="23" fill="#fff" stroke="{dark}" stroke-width="7"/><path d="M500 175 460 155M500 175l40-20" stroke="{dark}" stroke-width="8"/></g>',
             f'<g data-scene="registry-to-farmland-crosscheck"><rect x="275" y="245" width="215" height="205" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M310 300h145M310 345h110M310 390h130" stroke="{accent}" stroke-width="8"/><path d="M545 250 705 225l55 90-42 135-185 10-48-105Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M600 242l15 207M545 330l194 65" stroke="{accent}" stroke-width="8"/><circle cx="520" cy="365" r="65" fill="none" stroke="{dark}" stroke-width="12"/><path d="M565 412l70 65" stroke="{dark}" stroke-width="17" stroke-linecap="round"/></g>',
@@ -548,6 +568,10 @@ def svg(row: dict, index: int) -> str:
     }
     special_labels = {
         207: ["古写真・原本と来歴", "古写真・撮影時期と場所", "古写真・権利と公開範囲"],
+        209: ["郷土資料・請求記号", "郷土資料・書架からページ", "郷土資料・家族の索引"],
+        219: ["森町統計・基準日と単位", "森町統計・表の範囲", "森町統計・引用カード"],
+        253: ["防災地図・版の日付", "防災地図・地区図の照合", "防災地図・新旧版"],
+        280: ["見守り・普段の連絡", "見守り・三段階", "見守り・支援の接続"],
         246: ["課税明細・資料の役割", "課税明細・一筆一棟", "課税明細・単有と共有"],
         284: ["児童クラブ・利用時間の比較", "児童クラブ・三つの実施場所", "児童クラブ・迎え経路"],
     }
@@ -1315,7 +1339,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     faq_html = "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in faq)
     faq_json = {"@context":"https://schema.org", "@type":"FAQPage", "mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
     subject = title.split("｜", 1)[0]
-    desc = f"{subject}について、対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
+    desc = f"{subject}ために、対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     webpage = {"@context":"https://schema.org", "@type":"WebPage", "name":title, "url":SITE+url, "description":desc, "dateModified":TODAY, "author":{"@type":"Person","name":"大石博之"}}
     breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"静岡県森町ライフハック","item":SITE+"/"},{"@type":"ListItem","position":2,"name":category,"item":SITE+CATEGORY_PATH.get(category,"/guide/")},{"@type":"ListItem","position":3,"name":title,"item":SITE+url}]}
     role_labels = {

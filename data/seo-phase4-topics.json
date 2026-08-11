@@ -11479,10 +11479,10 @@
   },
   {
     "id": 253,
-    "title": "森町でハザードマップ改訂日を不動産資料へ記録する",
+    "title": "森町でハザードマップのページ更新日・取得日・PDF版表示を分けて記録する",
     "slug": "/records/hazard-map-version-control/",
     "category": "防災・不動産記録",
-    "search_intent": "印刷した地図がいつの版か後から確認したい",
+    "search_intent": "不動産資料に使った地図について、ページ更新日・取得日・PDF内の版表示を混同せず後から確認したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
       "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1130.html",

@@ -3753,13 +3753,13 @@
       "森町で郷土資料の請求記号と閲覧メモを再利用できる形で残す",
       "図書館で調べた郷土資料を家族が再確認できるようにしたい"
     ],
-    "editorial_chars": 6500,
+    "editorial_chars": 5995,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 210,
@@ -3933,13 +3933,13 @@
       "森町で統計表の基準日・単位・注記を家族メモへ転記する",
       "行政統計を後から検証できる形で引用したい"
     ],
-    "editorial_chars": 6426,
+    "editorial_chars": 5967,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 220,
@@ -4538,20 +4538,20 @@
   {
     "id": 253,
     "url": "/records/hazard-map-version-control/",
-    "title": "森町でハザードマップ改訂日を不動産資料へ記録する",
+    "title": "森町でハザードマップのページ更新日・取得日・PDF版表示を分けて記録する",
     "category": "防災・不動産記録",
-    "search_intent": "印刷した地図がいつの版か後から確認したい",
+    "search_intent": "不動産資料に使った地図について、ページ更新日・取得日・PDF内の版表示を混同せず後から確認したい",
     "search_aliases": [
-      "森町でハザードマップ改訂日を不動産資料へ記録する",
-      "印刷した地図がいつの版か後から確認したい"
+      "森町でハザードマップのページ更新日・取得日・PDF版表示を分けて記録する",
+      "不動産資料に使った地図について、ページ更新日・取得日・PDF内の版表示を混同せず後から確認したい"
     ],
-    "editorial_chars": 6437,
+    "editorial_chars": 5954,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 254,
@@ -5031,13 +5031,13 @@
       "森町で遠方家族の見守り連絡を担当・頻度・異常時で決める",
       "高齢の親と実家の異変を誰がどう共有するか決めたい"
     ],
-    "editorial_chars": 6471,
+    "editorial_chars": 6183,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 281,
