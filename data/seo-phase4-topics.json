@@ -3023,17 +3023,17 @@
   },
   {
     "id": 91,
-    "title": "森町で運転免許を自主返納した後の移動手段｜支援と家族の段取り",
+    "title": "森町の免許返納助成を二つの期限で管理する｜経歴証明書と交通利用券",
     "slug": "drivers-license-return-mobility",
     "category": "交通・生活",
-    "search_intent": "高齢者が免許返納する前後に県の支援、町の交通、買い物・通院手段を比較したい",
+    "search_intent": "運転経歴証明書交付手数料助成の交付後1年と公共交通利用券助成の購入後3か月を、担当課・証憑・口座条件を分けた一件台帳で管理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/kokyokotsu/1580.html",
       "https://www.pref.shizuoka.jp/police/menkyo/henno/index.html"
     ],
     "risk": "medium",
     "decision": "CREATE",
-    "reason": "高齢者交通助成や公共交通総合記事とは異なる生活転換の時系列意図で、家族の準備まで扱える",
+    "reason": "免許返納後の移動手段を扱う既存記事とは分け、二つの町助成の異なる起算日・期限・申請書類だけを一件台帳で管理する",
     "review_status": "retained-create",
     "minimum_visible_characters": 6000,
     "safety_guardrails": [
@@ -7643,10 +7643,10 @@
     "id": 180,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の山林で伐採前に届出を確認する",
+    "title": "森町の伐採届と二つの完了報告を一件工程表でつなぐ",
     "slug": "/forest/forest-felling-notice/",
     "category": "山林",
-    "search_intent": "立木伐採の届出対象と提出時期を確認したい",
+    "search_intent": "伐採開始90日前から30日前までの届出、伐採完了後30日以内の報告、造林完了後30日以内の報告を別起算日で一件工程表へ記録したい",
     "risk": "HIGH",
     "cannibalization": {
       "level": "MEDIUM",

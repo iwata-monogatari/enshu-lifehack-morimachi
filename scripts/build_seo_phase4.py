@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://morimachi.enshu-lifehack.com"
-TODAY = "2026-08-09"
+TODAY = "2026-08-12"
 TOPICS = ROOT / "data" / "seo-phase4-topics.json"
 PUBLICATION = ROOT / "data" / "seo-phase4-publication.json"
 ENRICHMENT_FILES = tuple(ROOT / "data" / f"seo-phase4-enrichment-{start:03d}-{start+99:03d}.json" for start in (1, 101, 201))
@@ -645,8 +645,20 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="four-column-calendar-desk"><rect x="240" y="235" width="520" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M240 305h520M370 235v235M500 235v235M630 235v235" stroke="{accent}" stroke-width="8"/><path d="M275 355h60M405 355h60M535 355h60M665 355h60M275 410h60M405 410h60M535 410h60M665 410h60" stroke="{dark}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="305" y="280">締切</text><text x="435" y="280">発送</text><text x="565" y="280">現地調査</text><text x="695" y="280">総会</text></g></g>',
             f'<g data-scene="planned-actual-version-archive"><rect x="235" y="255" width="170" height="160" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="415" y="305" width="170" height="160" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="595" y="235" width="170" height="180" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M405 335h10M585 355h10" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="19" font-weight="700" fill="{dark}" text-anchor="middle"><text x="320" y="325">予定表</text><text x="500" y="375">実績表</text><text x="680" y="300">変更確認</text><text x="680" y="355">次年度版</text></g></g>',
         ],
+        91: [
+            f'<g data-scene="license-return-two-subsidy-ledger"><rect x="220" y="235" width="250" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="530" y="235" width="250" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M250 315h190M560 315h190M250 385h190M560 385h190" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="345" y="278">経歴証明書助成</text><text x="655" y="278">交通利用券助成</text><text x="345" y="355">交付日から1年</text><text x="655" y="355">購入日から3か月</text><text x="345" y="430">危機管理課</text><text x="655" y="430">保健福祉課</text></g></g>',
+            f'<g data-scene="subsidy-two-starting-dates"><circle cx="335" cy="340" r="105" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="665" cy="340" r="105" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M335 340V275M335 340l55 30M665 340V285M665 340l-45 55" stroke="{accent}" stroke-width="13" stroke-linecap="round"/><path d="M440 340h120" stroke="{dark}" stroke-width="10" stroke-dasharray="15 12"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="335" y="500">経歴証明書交付日</text><text x="665" y="500">利用券購入日</text></g></g>',
+            f'<g data-scene="subsidy-evidence-account-route"><rect x="215" y="245" width="185" height="105" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="215" y="395" width="185" height="105" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="600" y="245" width="185" height="105" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="600" y="395" width="185" height="105" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="435" y="315" width="130" height="115" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M400 300l35 55M400 445l35-55M565 355l35-55M565 390l35 55" stroke="{accent}" stroke-width="11"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="307" y="308">領収証</text><text x="307" y="458">交付資料</text><text x="500" y="375">申請台帳</text><text x="692" y="308">口座</text><text x="692" y="458">担当課</text></g></g>',
+        ],
+        180: [
+            f'<g data-scene="forest-three-deadline-workflow"><rect x="190" y="265" width="190" height="150" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="405" y="265" width="190" height="150" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="620" y="265" width="190" height="150" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M380 340h25M595 340h25" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="285" y="305">伐採届</text><text x="285" y="350">開始90〜30日前</text><text x="500" y="305">伐採完了報告</text><text x="500" y="350">完了後30日</text><text x="715" y="305">造林完了報告</text><text x="715" y="350">完了後30日</text></g></g>',
+            f'<g data-scene="forest-parcel-method-reforestation-sheet"><path d="M205 445 315 255l110 190Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M285 445 395 235l110 210Z" fill="{pale}" stroke="{dark}" stroke-width="10"/><rect x="555" y="225" width="235" height="245" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M590 290h165M590 350h165M590 410h165" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="672" y="278">対象地番</text><text x="672" y="338">伐採方法</text><text x="672" y="398">造林方法</text><text x="672" y="452">面積</text></g></g>',
+            f'<g data-scene="forest-planned-actual-report-archive"><rect x="205" y="250" width="180" height="210" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="410" y="250" width="180" height="210" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="615" y="250" width="180" height="210" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M385 355h25M590 355h25" stroke="{accent}" stroke-width="13"/><path d="m245 390 30 30 65-80M450 390l30 30 65-80M655 390l30 30 65-80" fill="none" stroke="{dark}" stroke-width="11"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="295" y="305">届出計画</text><text x="500" y="305">伐採実績</text><text x="705" y="305">造林実績</text></g></g>',
+        ],
     }
     special_labels = {
+        91: ["返納助成・二つの期限", "返納助成・二つの起算日", "返納助成・証憑と口座"],
+        180: ["森林伐採・三つの期限", "森林伐採・地番と方法", "森林伐採・予定と実績"],
         149: ["接道確認・四本の線", "接道確認・GISと現地", "接道確認・図面の版"],
         159: ["土地価格・比較条件カード", "土地価格・種類と期間", "土地価格・質問へ変換"],
         166: ["農地転用・許可後の着工前", "農地転用・図面を重ねる", "農地転用・進捗と完了"],
@@ -672,6 +684,16 @@ def svg(row: dict, index: int) -> str:
         162: ["農業委員会・令和8年度12か月", "農業委員会・四つの日付", "農業委員会・予定と実績"],
     }
     special_descriptions = {
+        91: [
+            "運転経歴証明書交付手数料助成と公共交通利用券助成を、起算日・期限・担当課ごとに分ける図",
+            "運転経歴証明書の交付日と公共交通利用券の購入日を、別々の時計で管理する図",
+            "二つの助成申請について、領収証・交付資料・口座・担当課を一件台帳へ振り分ける図",
+        ],
+        180: [
+            "伐採開始前の届出、伐採完了報告、造林完了報告を三つの期限でつなぐ工程図",
+            "森林の対象地番、伐採方法、造林方法、面積を一件の確認票へそろえる図",
+            "伐採の届出計画、伐採実績、造林実績を別書類として保存する図",
+        ],
         149: [
             "狭い道路沿いの建替え前に、道路区域、町有道路境界、基準時中心線、後退候補線を別々に照合する図",
             "静岡県指定道路図のGIS、町と県の窓口、地番資料と現地写真を順に照合する図",
@@ -890,6 +912,14 @@ def editorial_blocks_curated(row: dict) -> str:
     ]
     item_id = int(row["id"])
     special_figures = {
+        91: {
+            1: ("fig1.svg", "運転経歴証明書の交付日と公共交通利用券の購入日を別々の起算日として管理する図", "交付日から一年と購入日から三か月を、別々の期限として台帳へ置きます。"),
+            9: ("fig2.svg", "二つの免許返納助成について領収証・交付資料・口座・担当課を振り分ける図", "証憑、口座、担当課を二つの申請へ分け、提出済みか確認します。"),
+        },
+        180: {
+            4: ("fig1.svg", "森林の対象地番・伐採方法・造林方法・面積を一件の確認票へそろえる図", "対象地番と伐採・造林の方法をそろえ、事前届の期間へつなぎます。"),
+            8: ("fig2.svg", "森林の届出計画・伐採実績・造林実績を別書類として保存する図", "伐採と造林の完了日を別々に記録し、それぞれの報告期限を管理します。"),
+        },
         149: {
             3: ("fig1.svg", "静岡県指定道路図GIS、町と県の窓口、地番資料と現地を照合する図", "GIS表示を確定線とせず、窓口回答と地番・現地資料へ順に照合します。"),
             9: ("fig2.svg", "接道照会前の未確認線、窓口回答、設計者の配置図を版ごとに分ける図", "回答日と担当を残し、設計へ渡した線を前の版へ上書きしません。"),
@@ -1580,8 +1610,10 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     faq_html = "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in faq)
     faq_json = {"@context":"https://schema.org", "@type":"FAQPage", "mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
     subject = title.split("｜", 1)[0]
-    desc = f"{subject}について、対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
+    desc = f"{subject}。対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     cover_alts = {
+        91: "運転経歴証明書助成と公共交通利用券助成を、起算日・期限・担当課ごとに分ける二申請台帳",
+        180: "伐採開始前の届出、伐採完了報告、造林完了報告を三つの期限でつなぐ森林工程表",
         149: "狭い道路沿いの建替え前に、道路区域・町有道路境界・基準時中心線・後退候補線を分ける接道確認図",
         159: "地価公示・取引価格情報・森町用途図を別資料として置く土地価格の比較条件カード",
         166: "農地転用の許可書・申請図と着工前の工事範囲を照合する一件ファイル",

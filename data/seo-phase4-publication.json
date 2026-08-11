@@ -1622,20 +1622,20 @@
   {
     "id": 91,
     "url": "/guide/drivers-license-return-mobility/",
-    "title": "森町で運転免許を自主返納した後の移動手段｜支援と家族の段取り",
+    "title": "森町の免許返納助成を二つの期限で管理する｜経歴証明書と交通利用券",
     "category": "交通・生活",
-    "search_intent": "高齢者が免許返納する前後に県の支援、町の交通、買い物・通院手段を比較したい",
+    "search_intent": "運転経歴証明書交付手数料助成の交付後1年と公共交通利用券助成の購入後3か月を、担当課・証憑・口座条件を分けた一件台帳で管理したい",
     "search_aliases": [
-      "森町で運転免許を自主返納した後の移動手段",
-      "高齢者が免許返納する前後に県の支援、町の交通、買い物・通院手段を比較したい"
+      "森町の免許返納助成を二つの期限で管理する",
+      "運転経歴証明書交付手数料助成の交付後1年と公共交通利用券助成の購入後3か月を、担当課・証憑・口座条件を分けた一件台帳で管理したい"
     ],
-    "editorial_chars": 6544,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 5994,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 92,
@@ -3224,20 +3224,20 @@
   {
     "id": 180,
     "url": "/forest/forest-felling-notice/",
-    "title": "森町の山林で伐採前に届出を確認する",
+    "title": "森町の伐採届と二つの完了報告を一件工程表でつなぐ",
     "category": "山林",
-    "search_intent": "立木伐採の届出対象と提出時期を確認したい",
+    "search_intent": "伐採開始90日前から30日前までの届出、伐採完了後30日以内の報告、造林完了後30日以内の報告を別起算日で一件工程表へ記録したい",
     "search_aliases": [
-      "森町の山林で伐採前に届出を確認する",
-      "立木伐採の届出対象と提出時期を確認したい"
+      "森町の伐採届と二つの完了報告を一件工程表でつなぐ",
+      "伐採開始90日前から30日前までの届出、伐採完了後30日以内の報告、造林完了後30日以内の報告を別起算日で一件工程表へ記録したい"
     ],
-    "editorial_chars": 6873,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6027,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 181,
