@@ -465,6 +465,21 @@ def svg(row: dict, index: int) -> str:
     ]
     # 公開監査済みのDay5記事は、主題を一目で識別できる固有モチーフを使う。
     special_scenes = {
+        1: [
+            f'<g data-scene="mori-divorce-effective-date-fork-ledger"><path d="M165 445 330 285l95 75 90-125 125 105 110-95 105 200Z" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M500 195v90M500 285 330 405M500 285l170 120" fill="none" stroke="{accent}" stroke-width="12"/><rect x="210" y="390" width="240" height="105" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="550" y="390" width="240" height="105" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="500" y="175">離婚成立日</text><text x="330" y="430">2026年3月31日以前</text><text x="330" y="470">旧ルール欄</text><text x="670" y="430">2026年4月1日以後</text><text x="670" y="470">新ルール欄</text></g></g>',
+            f'<g data-scene="four-issue-effective-date-routing-board"><rect x="165" y="235" width="670" height="250" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M165 310h670M332 235v250M500 235v250M668 235v250" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="248" y="280">親権</text><text x="416" y="280">法定養育費</text><text x="584" y="280">既存合意</text><text x="752" y="280">財産分与</text><text x="248" y="365">成立日</text><text x="416" y="365">適用・暫定</text><text x="584" y="365">各期を分離</text><text x="752" y="365">二年・五年</text></g></g>',
+            f'<g data-scene="two-clocks-two-counters-safe-handoff"><circle cx="290" cy="320" r="92" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="505" cy="320" r="92" fill="{pale}" stroke="{dark}" stroke-width="10"/><path d="M290 320v-55m0 55 42 28M505 320v-55m0 55-38 32" stroke="{accent}" stroke-width="11"/><rect x="650" y="235" width="190" height="170" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M650 320h190" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="290" y="450">二年</text><text x="505" y="450">五年</text><text x="745" y="280">森町窓口</text><text x="745" y="365">法律相談</text></g></g>',
+        ],
+        168: [
+            f'<g data-scene="regional-plan-four-column-parcel-sheet"><path d="M150 440 300 230l120 210 110-180 120 180 115-155 85 155Z" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="205" y="265" width="590" height="220" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M205 330h590M352 265v220M500 265v220M648 265v220" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="278" y="305">所有者</text><text x="426" y="305">現在耕作者</text><text x="574" y="305">将来担い手</text><text x="722" y="305">更新日</text></g></g>',
+            f'<g data-scene="goal-map-number-to-actor-list"><path d="M195 245 445 215l75 105-65 155-250-15Z" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="285" cy="330" r="28" fill="{accent}"/><circle cx="400" cy="390" r="28" fill="{pale}" stroke="{dark}" stroke-width="7"/><path d="M520 350h65m-28-28 28 28-28 28" fill="none" stroke="{dark}" stroke-width="12"/><rect x="610" y="225" width="210" height="250" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M610 290h210M680 225v250" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="285" y="337">12</text><text x="400" y="397">27</text><text x="645" y="267">番号</text><text x="750" y="267">担い手</text><text x="715" y="355">一覧へ照合</text></g></g>',
+            f'<g data-scene="regional-plan-version-timeline"><path d="M180 360h640" stroke="{dark}" stroke-width="14"/><circle cx="260" cy="360" r="28" fill="{accent}"/><circle cx="500" cy="360" r="28" fill="#fff" stroke="{accent}" stroke-width="9"/><circle cx="740" cy="360" r="28" fill="{pale}" stroke="{dark}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="260" y="275">2025年3月26日</text><text x="260" y="310">策定</text><text x="500" y="275">2026年3月12日</text><text x="500" y="310">第1回変更</text><text x="740" y="275">2035年度</text><text x="740" y="310">将来像</text><text x="500" y="445">現在の権利とは別欄</text></g></g>',
+        ],
+        172: [
+            f'<g data-scene="electric-fence-prepurchase-safety-layout"><path d="M170 450h660M230 450V245h540v205" fill="none" stroke="{dark}" stroke-width="10"/><path d="M275 420V280m90 140V280m90 140V280m90 140V280m90 140V280m90 140V280" stroke="{accent}" stroke-width="8"/><path d="M230 335h540" stroke="{accent}" stroke-width="7" stroke-dasharray="15 10"/><path d="M150 500h700" stroke="{dark}" stroke-width="20"/><path d="M620 245q70-90 145 0" fill="none" stroke="{dark}" stroke-width="12"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="500" y="220">柵線・出入口・草刈り動線</text><text x="500" y="530">道路・水路側</text><text x="690" y="275">電源装置</text></g></g>',
+            f'<g data-scene="public-boundary-and-warning-sign-plan"><path d="M170 440h660" stroke="{dark}" stroke-width="18"/><path d="M245 420V245m145 175V245m145 175V245m145 175V245" stroke="{accent}" stroke-width="9"/><rect x="285" y="275" width="150" height="75" rx="8" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="565" y="275" width="150" height="75" rx="8" fill="#fff" stroke="{dark}" stroke-width="8"/><path d="M210 470h580" stroke="{pale}" stroke-width="14"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="360" y="322">危険表示</text><text x="640" y="322">危険表示</text><text x="500" y="505">公共境界</text></g></g>',
+            f'<g data-scene="power-device-and-maintenance-check-route"><rect x="190" y="245" width="180" height="200" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="410" y="215" width="180" height="230" rx="16" fill="{pale}" stroke="{dark}" stroke-width="10"/><rect x="630" y="245" width="180" height="200" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M370 345h40m180 0h40" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="280" y="285">電源装置</text><text x="280" y="335">30V超</text><text x="280" y="385">仕様確認</text><text x="500" y="270">立入り条件</text><text x="500" y="325">漏電遮断器</text><text x="500" y="380">専用開閉器</text><text x="720" y="285">草・断線</text><text x="720" y="335">傾き・接地</text><text x="720" y="385">点検履歴</text></g></g>',
+        ],
         149: [
             f'<g data-scene="mori-narrow-road-four-lines"><path d="M180 455 420 205M820 455 580 205" stroke="{dark}" stroke-width="12"/><path d="M265 455 455 230M735 455 545 230" stroke="{accent}" stroke-width="9" stroke-dasharray="18 12"/><path d="M500 185v300" stroke="{dark}" stroke-width="8" stroke-dasharray="10 12"/><path d="M410 410V300l90-70 90 70v110Z" fill="#fff" stroke="{dark}" stroke-width="9"/><g font-family="sans-serif" font-size="16" font-weight="700" fill="{dark}" text-anchor="middle"><text x="245" y="490">町有道路境界</text><text x="390" y="460">後退候補線</text><text x="500" y="520">基準時中心線</text><text x="755" y="490">道路区域の線</text></g></g>',
             f'<g data-scene="gis-counter-field-crosscheck"><rect x="220" y="235" width="180" height="210" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="410" y="285" width="180" height="160" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="600" y="235" width="180" height="210" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M400 340h10m180 0h10" stroke="{accent}" stroke-width="14"/><g font-family="sans-serif" font-size="19" font-weight="700" fill="{dark}" text-anchor="middle"><text x="310" y="275">指定道路図</text><text x="310" y="355">GIS</text><text x="500" y="325">町・県</text><text x="500" y="365">窓口確認</text><text x="690" y="275">地番・写真</text><text x="690" y="355">現地確認</text></g></g>',
@@ -657,6 +672,9 @@ def svg(row: dict, index: int) -> str:
         ],
     }
     special_labels = {
+        1: ["離婚成立日で分ける", "四論点を別欄へ", "期限と確認先を分ける"],
+        168: ["所有・現在・将来・更新日", "番号を一覧へつなぐ", "版と将来像を分ける"],
+        172: ["購入前の安全配置図", "公共境界と注意表示", "電源と点検動線"],
         91: ["返納助成・二つの期限", "返納助成・二つの起算日", "返納助成・証憑と口座"],
         180: ["森林伐採・三つの期限", "森林伐採・地番と方法", "森林伐採・予定と実績"],
         149: ["接道確認・四本の線", "接道確認・GISと現地", "接道確認・図面の版"],
@@ -684,6 +702,21 @@ def svg(row: dict, index: int) -> str:
         162: ["農業委員会・令和8年度12か月", "農業委員会・四つの日付", "農業委員会・予定と実績"],
     }
     special_descriptions = {
+        1: [
+            "離婚成立日を2026年3月31日以前と4月1日以後へ分け、親権・養育費・財産分与を整理する図",
+            "親権、法定養育費、既存合意、財産分与期限を四つの別欄へ振り分ける図",
+            "財産分与の二年と五年の時計、森町窓口、法律相談を分けて安全に引き継ぐ図",
+        ],
+        168: [
+            "地域計画と目標地図を読み、所有者・現在耕作者・将来担い手・更新日を一筆ごとに分ける図",
+            "目標地図の表示番号を担い手一覧へつなぎ、番号と氏名を照合する図",
+            "地域計画の策定日、変更日、2035年度の将来像を現在の権利と分ける図",
+        ],
+        172: [
+            "電気柵を買う前に、柵線・出入口・道路水路・電源装置・点検動線を一枚へ置く図",
+            "道路や水路との公共境界と、人が近づく方向の危険表示を分けて描く図",
+            "電源仕様、立入り条件、漏電遮断器、専用開閉器、設置後の点検を別欄で確認する図",
+        ],
         91: [
             "運転経歴証明書交付手数料助成と公共交通利用券助成を、起算日・期限・担当課ごとに分ける図",
             "運転経歴証明書の交付日と公共交通利用券の購入日を、別々の時計で管理する図",
@@ -912,6 +945,18 @@ def editorial_blocks_curated(row: dict) -> str:
     ]
     item_id = int(row["id"])
     special_figures = {
+        1: {
+            7: ("fig1.svg", "親権・法定養育費・既存合意・財産分与期限を四つの別欄へ振り分ける図", "離婚成立日を基準に、四つの論点を一件表の別欄へ置きます。"),
+            8: ("fig2.svg", "財産分与の二年と五年の期限、森町窓口、法律相談を分けて引き継ぐ図", "期限の時計と確認先を分け、安全上の事情も別に扱います。"),
+        },
+        168: {
+            3: ("fig1.svg", "目標地図の表示番号を担い手一覧へつなぎ、番号と氏名を照合する図", "地図上の番号だけで担い手を決めず、同じ版の一覧へ照合します。"),
+            6: ("fig2.svg", "地域計画の策定日・変更日・2035年度の将来像を現在の権利と分ける図", "資料の版と将来像を残し、現在の所有や貸借を上書きしません。"),
+        },
+        172: {
+            5: ("fig1.svg", "道路・水路との公共境界と、人が近づく方向の危険表示を分ける図", "公共境界と危険表示を別の線で描き、人が近づく方向ごとに確認します。"),
+            7: ("fig2.svg", "電源仕様・立入り条件・漏電遮断器・専用開閉器・点検履歴を分ける図", "二つの漏電遮断器条件と専用開閉器を分け、設置後の点検へつなぎます。"),
+        },
         91: {
             1: ("fig1.svg", "運転経歴証明書の交付日と公共交通利用券の購入日を別々の起算日として管理する図", "交付日から一年と購入日から三か月を、別々の期限として台帳へ置きます。"),
             9: ("fig2.svg", "二つの免許返納助成について領収証・交付資料・口座・担当課を振り分ける図", "証憑、口座、担当課を二つの申請へ分け、提出済みか確認します。"),
@@ -1612,6 +1657,9 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     subject = title.split("｜", 1)[0]
     desc = f"{subject}。対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     cover_alts = {
+        1: "離婚成立日を2026年3月31日以前と4月1日以後へ分け、親権・養育費・財産分与を整理する一件表",
+        168: "森町の地域計画と目標地図を、所有者・現在耕作者・将来担い手・更新日の四欄へ分ける一筆照合票",
+        172: "電気柵を買う前に柵線・道路水路・注意表示・電源装置・点検動線を一枚へ置く安全配置図",
         91: "運転経歴証明書助成と公共交通利用券助成を、起算日・期限・担当課ごとに分ける二申請台帳",
         180: "伐採開始前の届出、伐採完了報告、造林完了報告を三つの期限でつなぐ森林工程表",
         149: "狭い道路沿いの建替え前に、道路区域・町有道路境界・基準時中心線・後退候補線を分ける接道確認図",

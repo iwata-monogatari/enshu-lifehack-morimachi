@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "森町で離婚届を出す前に確認すること｜戸籍・住所・子どもの手続きを分けて整理",
+    "title": "森町で2026年4月1日前後の離婚成立日を分ける｜親権・養育費・財産分与の一件表",
     "slug": "divorce-notification-checklist",
     "category": "行政手続き",
-    "search_intent": "森町で離婚届を提出する場所、必要書類、届出後に別途必要な住所・氏・子どもの手続きを知りたい",
+    "search_intent": "離婚成立日を2026年3月31日以前と4月1日以後に分け、親権、法定養育費、既存合意の経過措置、財産分与の申立期間を一件表へ振り分けたい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
       "https://www.moj.go.jp/MINJI/minji15.html"
@@ -6992,10 +6992,10 @@
     "id": 168,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の地域計画の目標地図で自分の農地を確認する",
+    "title": "森町の地域計画・目標地図を一筆ごとの照合票へする｜所有者・耕作者・将来の担い手を分けて記録",
     "slug": "/farmland/regional-plan-farmland-map/",
     "category": "農地",
-    "search_intent": "将来の担い手想定と自分の農地の位置を確認したい",
+    "search_intent": "地域計画、農業を担う者一覧、目標地図を同時に読み、各筆の所有者、現在耕作者、将来の担い手、資料更新日を四欄で記録したい",
     "risk": "HIGH",
     "cannibalization": {
       "level": "LOW",
@@ -7210,10 +7210,10 @@
     "id": 172,
     "original_decision": "MERGE",
     "decision": "CREATE",
-    "title": "森町の農地に電気柵を置く前に道路・水路・隣地との位置を確認する",
+    "title": "森町で電気柵を買う前に安全配置図を作る｜道路・水路・注意表示・電源を一枚で確認",
     "slug": "/farmland/electric-fence-site-layout/",
     "category": "農地",
-    "search_intent": "補助制度の紹介ではなく、安全表示と設置位置の現地確認に絞る",
+    "search_intent": "対象地番、柵線、道路・水路、注意表示、電源装置、安全装置、出入口、草刈り動線を一枚へ落とし、補助申請用位置図と安全確認をつなぎたい",
     "risk": "MEDIUM",
     "cannibalization": {
       "level": "LOW",
