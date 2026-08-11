@@ -19,6 +19,7 @@
  15. 経過した予定表現
  16. canonical・og:url・サイトマップのパラメータ混入
  17. 未公開台帳の隔離（noindex・sitemap・検索・公開ページからのリンク）
+ 18. 森町の施設・店舗・農園・史跡台帳
 
 終了コード: 致命的な不整合があれば 1
 """
@@ -26,6 +27,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 import sys
 from html import unescape
 from pathlib import Path
@@ -481,6 +483,31 @@ def check_pending_isolation() -> None:
     print(f"   未公開 {len(pending)} URL / 公開面からのリンク {len(links_to_pending)}")
 
 
+def check_mori_directory() -> None:
+    """施設・店舗・農園・史跡台帳のデータと生成HTMLを専用監査へ渡す。"""
+    print("18. 森町情報台帳")
+    proc = subprocess.run(
+        [sys.executable, "scripts/audit_mori_directory.py", str(ROOT)],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+    if proc.returncode:
+        detail = " / ".join(
+            line.strip() for line in (proc.stdout + proc.stderr).splitlines()
+            if line.strip().startswith(("ERROR:", "FAIL:"))
+        )
+        err("森町情報台帳の監査に失敗" + (f": {detail}" if detail else ""))
+    else:
+        summary = next(
+            (line.strip() for line in proc.stdout.splitlines() if line.startswith("PASS:")),
+            "PASS",
+        )
+        print(f"   {summary}")
+
+
 def main() -> None:
     print(f"公開前検査: {len(ALL)} ページ\n")
     check_internal_links()
@@ -499,6 +526,7 @@ def main() -> None:
     check_temporal_claims()
     check_canonical_params()
     check_pending_isolation()
+    check_mori_directory()
 
     print("\n" + "=" * 60)
     if warnings:

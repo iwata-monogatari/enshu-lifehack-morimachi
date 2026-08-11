@@ -29,6 +29,8 @@ STEPS: list[tuple[str, list[str]]] = [
     ("6つの生活場面ハブの生成", [sys.executable, "scripts/build_hubs.py"]),
     ("記事台帳の作成（確認状態・リスク区分）", [sys.executable, "scripts/build_article_ledger.py"]),
     ("関連サイト一覧の生成", [sys.executable, "scripts/build_related_sites.py"]),
+    ("森町の施設・店舗・農園・史跡台帳を生成", [sys.executable, "scripts/build_mori_directory.py"]),
+    ("森町情報台帳の網羅性監査", [sys.executable, "scripts/audit_mori_directory.py"]),
     ("トップページの生成", [sys.executable, "scripts/build_home.py"]),
     ("ブログ一覧の生成・品質確認", [sys.executable, "scripts/build_blog.py"]),
     ("200本の確認済み原稿を公開台帳へ同期", [sys.executable, "scripts/assemble_discover_drafts.py"]),

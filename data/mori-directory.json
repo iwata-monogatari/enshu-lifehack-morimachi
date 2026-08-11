@@ -1,0 +1,2341 @@
+{
+  "schema_version": 1,
+  "source": {
+    "name": "静岡県森町観光協会",
+    "directory_url": "https://www.mori-kanko.jp/tourist/list/",
+    "note": "定型の事実項目のみを収録し、紹介文・キャッチコピーは収録しない。"
+  },
+  "checked_at": "2026-08-11",
+  "category_pages": [
+    {
+      "id": 1,
+      "name": "お土産",
+      "url": "https://www.mori-kanko.jp/tourist/search/index/?template_id=9&category=1"
+    },
+    {
+      "id": 2,
+      "name": "グルメ",
+      "url": "https://www.mori-kanko.jp/tourist/search/index/?template_id=9&category=2"
+    },
+    {
+      "id": 3,
+      "name": "神社・仏閣",
+      "url": "https://www.mori-kanko.jp/tourist/search/index/?template_id=9&category=3"
+    },
+    {
+      "id": 4,
+      "name": "体験・レジャー",
+      "url": "https://www.mori-kanko.jp/tourist/search/index/?template_id=9&category=4"
+    },
+    {
+      "id": 5,
+      "name": "買い物・特産品",
+      "url": "https://www.mori-kanko.jp/tourist/search/index/?template_id=9&category=5"
+    },
+    {
+      "id": 6,
+      "name": "宿泊・休憩処",
+      "url": "https://www.mori-kanko.jp/tourist/search/index/?template_id=9&category=6"
+    },
+    {
+      "id": 7,
+      "name": "温泉",
+      "url": "https://www.mori-kanko.jp/tourist/search/index/?template_id=9&category=7"
+    },
+    {
+      "id": 8,
+      "name": "自然・景観",
+      "url": "https://www.mori-kanko.jp/tourist/search/index/?template_id=9&category=8"
+    },
+    {
+      "id": 9,
+      "name": "公園",
+      "url": "https://www.mori-kanko.jp/tourist/search/index/?template_id=9&category=9"
+    },
+    {
+      "id": 10,
+      "name": "その他",
+      "url": "https://www.mori-kanko.jp/tourist/search/index/?template_id=9&category=10"
+    }
+  ],
+  "records": [
+    {
+      "id": "mori-kanko-4018",
+      "name": "(株)久米吉",
+      "reading": "かぶしきがいしゃくめきち",
+      "categories": [
+        "お土産",
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町一宮3843-7",
+      "phone": "0538-89-0015",
+      "hours": "10:00〜16:00",
+      "closed": "火曜",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "http://www.kumekichi.co.jp",
+      "geocode": {
+        "lat": 34.8396313,
+        "lon": 137.89779899999996
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/4018.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3039",
+      "name": "いしだ茶屋（有限会社石田茶店）",
+      "reading": "いしだちゃや（ゆうげんがいしゃいしだちゃてん）",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町森1525-1",
+      "phone": "0538-85-2446",
+      "hours": "9:00～17:30",
+      "closed": "年中無休",
+      "parking": "有（普通車10台）",
+      "fee": "煎茶ソフトクリーム 1個 250円",
+      "inquiry": "0538-85-2446",
+      "official_homepage": "http://www.ishida-chaya.jp/",
+      "geocode": {
+        "lat": 34.8246784,
+        "lon": 137.9204585
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3039.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-ukokkeien",
+      "name": "うこっけい苑",
+      "reading": "うこっけいえん",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町一宮5595",
+      "phone": "0538-89-7533",
+      "hours": "9:30～16:30",
+      "closed": "なし",
+      "parking": "大型駐車場あり",
+      "fee": "烏骨鶏卵４個入り 500円～",
+      "inquiry": "info@ukokkeien.com",
+      "official_homepage": "https://ukokkeien.com",
+      "geocode": {
+        "lat": 34.8196739,
+        "lon": 137.8783009
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/ukokkeien.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-6001",
+      "name": "お茶の山本 （有）山本商店",
+      "reading": "おちゃのやまもと ゆうげんがいしゃ やまもとしょうてん",
+      "categories": [
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町睦実638-2",
+      "phone": "0538-85-7577",
+      "hours": "9:00〜17:00",
+      "closed": "火曜",
+      "parking": "約10台",
+      "fee": "100g／400円・500円・600円・800円・1000円・1500円",
+      "inquiry": "0538-85-7577",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8250761,
+        "lon": 137.93848179999998
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/6001.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-kawasemiko",
+      "name": "かわせみ湖",
+      "reading": "かわせみこ",
+      "categories": [
+        "自然・景観",
+        "公園"
+      ],
+      "address": "437-0202 静岡県周智郡森町亀久保",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.90789061783727,
+        "lon": 137.99308737841795
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/kawasemiko.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1166",
+      "name": "さの農園",
+      "reading": "さののうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町飯田",
+      "phone": "0538-48-7619（090-4085-6451）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.79988730210866,
+        "lon": 137.9061766071486
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1166.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-sasakawa1078",
+      "name": "さゝ川",
+      "reading": "ささかわ",
+      "categories": [
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町森177",
+      "phone": "0538-85-3636",
+      "hours": "17:00〜23:00（L.O.22:00）",
+      "closed": "月曜、火曜",
+      "parking": "5〜6台程度",
+      "fee": "",
+      "inquiry": "0538-85-3636",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.839294546220884,
+        "lon": 137.931301228836
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/sasakawa1078.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1126",
+      "name": "しんちゃん農園",
+      "reading": "しんちゃん農園",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町円田1464",
+      "phone": "090-1983-0489（ＦＡＸ：0538-85-4424）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "http://www.shinchan-nouen.com/",
+      "geocode": {
+        "lat": 34.819041401627594,
+        "lon": 137.90779391111448
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1126.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1150",
+      "name": "まるだい 大石商店",
+      "reading": "まるだい おおいししょうてん",
+      "categories": [
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町睦実2016",
+      "phone": "0538-85-2702",
+      "hours": "9:00〜17:00",
+      "closed": "日曜・祝日",
+      "parking": "",
+      "fee": "",
+      "inquiry": "0538-85-2702",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.831564,
+        "lon": 137.93104340000002
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1150.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-maruyoshinouen",
+      "name": "まるよし農園",
+      "reading": "まるよしのうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町草ヶ谷",
+      "phone": "0538-85-3816※FAX共通",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8252204,
+        "lon": 137.9131641
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/maruyoshinouen.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1170",
+      "name": "もりした園",
+      "reading": "もりしたえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町飯田",
+      "phone": "0538-85-6223※FAX共通",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8094028419428,
+        "lon": 137.91654162275393
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1170.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1101",
+      "name": "ザ・フォレストカントリークラブ",
+      "reading": "ざ・ふぉれすとかんとりーくらぶ",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "体験・レジャー",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町橘576-3",
+      "phone": "0538-85-4141",
+      "hours": "7:00～18:30（レストラン10:00～14:30ラストオーダー）",
+      "closed": "1月1日、他施設点検日年３日程",
+      "parking": "約300台",
+      "fee": "担々麺1,188円、親子丼1,317円 など",
+      "inquiry": "0538-85-4141",
+      "official_homepage": "http://www.forest-country-club.co.jp/",
+      "geocode": {
+        "lat": 34.8492439,
+        "lon": 137.90665379999996
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1101.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-takayanagi1029",
+      "name": "ジェラートの店アリア／高柳米穀店",
+      "reading": "ジェラートのみせアリア たかやなぎべいこくてん",
+      "categories": [
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町森214",
+      "phone": "0538-85-2354",
+      "hours": "9:00～19:00",
+      "closed": "無休",
+      "parking": "5台",
+      "fee": "",
+      "inquiry": "0538-85-2354",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8393241,
+        "lon": 137.93189600000005
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/takayanagi1029.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1140",
+      "name": "フジタファーム",
+      "reading": "ふじたふぁーむ",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町谷中",
+      "phone": "0538-85-3017（090-1781-8848）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.809645117567115,
+        "lon": 137.90168474841005
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1140.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3051",
+      "name": "三島神社",
+      "reading": "三島神社",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "静岡県周智郡森町森363-1-3",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "県道（主要地方道）58号袋井春野線沿いの無料駐車場約10台",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "https://mishimajinja.jimdofree.com/",
+      "geocode": {
+        "lat": 34.8373577,
+        "lon": 137.93201650000003
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3051.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1074",
+      "name": "中島屋（株）",
+      "reading": "なかじまやかぶしきがいしゃ",
+      "categories": [
+        "お土産",
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町森1555-2",
+      "phone": "0538-85-2310",
+      "hours": "8:00～19:00",
+      "closed": "毎週水曜日",
+      "parking": "有（普通車4台）",
+      "fee": "梅衣 130円、Richクラウンメロンロール 1,050円",
+      "inquiry": "0538-85-2310",
+      "official_homepage": "http://mori-nakajimaya.com",
+      "geocode": {
+        "lat": 34.8288751,
+        "lon": 137.91965570000002
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1074.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1047",
+      "name": "中村陶房",
+      "reading": "なかむらとうぼう",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町森1632-2",
+      "phone": "0538-85-4611",
+      "hours": "9:00〜17:00頃 ※応相談",
+      "closed": "不定休",
+      "parking": "約10台",
+      "fee": "",
+      "inquiry": "0538-85-4611",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.83049768905336,
+        "lon": 137.91779742824178
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1047.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-chukasoba_azusa",
+      "name": "中華そば あずさ",
+      "reading": "ちゅうかそば あずさ",
+      "categories": [
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町飯田2744-1",
+      "phone": "0538-31-3343",
+      "hours": "10:00～14:00、16:00～21:00",
+      "closed": "元日",
+      "parking": "有（店前5台、他10台）",
+      "fee": "ラーメン800円～",
+      "inquiry": "0538-31-3343",
+      "official_homepage": "https://twitter.com/S6E2ma9b5r9Wl8P",
+      "geocode": {
+        "lat": 34.804982501213516,
+        "lon": 137.9186064037353
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/chukasoba_azusa.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1172",
+      "name": "佐野園",
+      "reading": "さのえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町飯田",
+      "phone": "0538-48-7001（0538-31-5270）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.79518172691316,
+        "lon": 137.90716634227522
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1172.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1168",
+      "name": "倉嶋農園 倉嶋いとし",
+      "reading": "くらしまのうえん くらしまいとし",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町飯田",
+      "phone": "090-2776-9346（FAX0538-48-7526）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.79814731125695,
+        "lon": 137.919936339395
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1168.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3098",
+      "name": "八幡屋茶舗(株)",
+      "reading": "やわたやちゃほかぶしきがいしゃ",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町天宮581-1",
+      "phone": "0538-85-3039",
+      "hours": "８:00～17:00",
+      "closed": "日曜日、祭日",
+      "parking": "有",
+      "fee": "",
+      "inquiry": "0120-13-2388",
+      "official_homepage": "http://www.yawatayachaho.co.jp",
+      "geocode": {
+        "lat": 34.8442791,
+        "lon": 137.9362039
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3098.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-tomoda",
+      "name": "友田家住宅",
+      "reading": "ともだけじゅうたく",
+      "categories": [
+        "体験・レジャー",
+        "自然・景観"
+      ],
+      "address": "437-0202 静岡県周智郡森町亀久保336",
+      "phone": "0538-87-0221",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.9007685,
+        "lon": 137.98809559999995
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/tomoda.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-kawaseminosato",
+      "name": "吉川キャンプ場 カワセミの里",
+      "reading": "よしかわきゃんぷじょう かわせみのさと",
+      "categories": [
+        "体験・レジャー",
+        "宿泊・休憩処"
+      ],
+      "address": "437-0202 静岡県周智郡森町亀久保85-2",
+      "phone": "0538-85-9800",
+      "hours": "予約時間 午前8:30～午後5:00",
+      "closed": "年末年始休",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "http://www.cottage-acty.net/index.html",
+      "geocode": {
+        "lat": 34.891533,
+        "lon": 137.97796340000002
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/kawaseminosato.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-yoshikawakeikoku",
+      "name": "吉川渓谷",
+      "reading": "よしかわけいこく",
+      "categories": [
+        "体験・レジャー",
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町 天方地区",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡：0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.868114406592305,
+        "lon": 137.94885830222165
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/yoshikawakeikoku.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-syuuchinourinsousetusyakennsyouteien",
+      "name": "周智農林学校創設者顕彰庭園",
+      "reading": "しゅうちのうりんがっこうそうせつしゃけんしょうていえん",
+      "categories": [
+        "公園"
+      ],
+      "address": "静岡県周智郡森町森92-1",
+      "phone": "",
+      "hours": "自由見学",
+      "closed": "無休",
+      "parking": "有",
+      "fee": "",
+      "inquiry": "森町観光協会 0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8379227,
+        "lon": 137.9270173
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/syuuchinourinsousetusyakennsyouteien.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-shiroshitanomachinami",
+      "name": "城下の町並み",
+      "reading": "しろしたのまちなみ",
+      "categories": [
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町城下",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡:0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8509405294262,
+        "lon": 137.94080802023768
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/shiroshitanomachinami.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1139",
+      "name": "堀井農園",
+      "reading": "ほりいのうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町一宮",
+      "phone": "0538-85-3821（090-4865-5946）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.820165551186555,
+        "lon": 137.88172382045445
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1139.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1002",
+      "name": "大日山金剛院",
+      "reading": "だいにちさんこんごういん",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "〒437-0208 静岡県周智郡森町三倉2308",
+      "phone": "0547-53-2083",
+      "hours": "拝観自由 年中無休",
+      "closed": "",
+      "parking": "15台（無料）",
+      "fee": "無料",
+      "inquiry": "0547-53-2083",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.9434695,
+        "lon": 138.0151287
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1002.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-yamamenosato",
+      "name": "大河内清流 やまめの里",
+      "reading": "おおこうちせいりゅう やまめのさと",
+      "categories": [
+        "体験・レジャー",
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町三倉2314-1",
+      "phone": "0538-86-0588",
+      "hours": "9:00～16:00",
+      "closed": "1月～2月（毎週月～金）、3月（毎週木・金）、4月～9月（毎週木）、10月～12月（毎週木・金）※臨時休業の場合あり",
+      "parking": "有",
+      "fee": "大人：2,000円（竿、餌付き。5匹以上釣る場合は別途追加料金となります。）\n150 場内美化協力費（小学生以上）",
+      "inquiry": "やまめの里 ℡：0538-86-0588",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.9513295,
+        "lon": 138.0035911
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/yamamenosato.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-oishi_koji",
+      "name": "大石糀店",
+      "reading": "おおいしこうじてん",
+      "categories": [
+        "お土産",
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町森270",
+      "phone": "0538-85-2222",
+      "hours": "10:00〜16:30",
+      "closed": "ほぼ無休",
+      "parking": "2台",
+      "fee": "",
+      "inquiry": "0538-85-2222",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8382911,
+        "lon": 137.9318792
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/oishi_koji.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-odorii",
+      "name": "大鳥居月花園",
+      "reading": "おおどりいげっかえん",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町大鳥居279-1",
+      "phone": "0538-85-2447",
+      "hours": "8:30～18:30",
+      "closed": "水曜",
+      "parking": "4台（無料）",
+      "fee": "かりんとう饅頭100円／森町銘菓梅衣145円／遠州の森（白あん・こしあん・お茶あん）120円／茶とら180円／友田家最中160円／ふわっとろーる750円／とろりんプリン150円／生クリーム大福130円／森のお菓子とうふ180円",
+      "inquiry": "0538-85-2447",
+      "official_homepage": "http://gekka.moon.bindcloud.jp",
+      "geocode": {
+        "lat": 34.8568221,
+        "lon": 137.9419173
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/odorii.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3097",
+      "name": "天宮神社",
+      "reading": "あめのみやじんじゃ",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "437-0216 静岡県周智郡森町天宮576",
+      "phone": "0538-85-5544",
+      "hours": "拝観自由",
+      "closed": "年中無休",
+      "parking": "50台（無料）",
+      "fee": "無料",
+      "inquiry": "0538-85-5544",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8439014,
+        "lon": 137.93429579999997
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3097.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-amagata",
+      "name": "天方城跡",
+      "reading": "あまがたじょうせき",
+      "categories": [
+        "自然・景観",
+        "公園"
+      ],
+      "address": "静岡県周智郡森町向天方",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "有（普通車20台）",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡：0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.84782191820912,
+        "lon": 137.9493897155869
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/amagata.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-amagata-honjyoshi",
+      "name": "天方本城址",
+      "reading": "あまがたほんじょうし",
+      "categories": [
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町大鳥居地内",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "なし",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡:0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.86223752199127,
+        "lon": 137.94134656859285
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/amagata-honjyoshi.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3031",
+      "name": "宗教法人 蓮華寺",
+      "reading": "しゅうきょうほうじん れんげじ",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "静岡県周智郡森町森2144",
+      "phone": "0538-85-5374",
+      "hours": "拝観自由",
+      "closed": "年中無休",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "http://www.rengeji.com/",
+      "geocode": {
+        "lat": 34.839617406338284,
+        "lon": 137.92524307361066
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3031.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-yamachou-kotomachiyokochou1065",
+      "name": "小國神社指定売店 小國ことまち横丁",
+      "reading": "おくにじんじゃしていばいてん おくにことまちよこちょう",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品"
+      ],
+      "address": "周智郡森町一宮3956-1",
+      "phone": "0538-89-7010",
+      "hours": "9:30～16:30(ヤマチョウ本店は9:00～17:30)",
+      "closed": "なし",
+      "parking": "有（無料約900台・大型バス専用駐車場有り）",
+      "fee": "真っ赤な袋のお茶の詰め放題1本1,050円（税込）",
+      "inquiry": "0538-85-2023（株式会社鈴木長十商店）",
+      "official_homepage": "http://www.kotomachi.com/",
+      "geocode": {
+        "lat": 34.84481914641927,
+        "lon": 137.8999555841308
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/yamachou-kotomachiyokochou1065.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-6018",
+      "name": "山名神社",
+      "reading": "やまなじんじゃ",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "静岡県周智郡森町飯田2590",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "なし",
+      "fee": "無料",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8044737237657,
+        "lon": 137.91843433187717
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/6018.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-anyama",
+      "name": "庵山の観音様",
+      "reading": "あんやまのかんのんさま",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "437-0215静岡県周智郡森町森",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.83953436771116,
+        "lon": 137.9283976732503
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/anyama.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-sengokuyumekaido",
+      "name": "戦国夢街道ハイキングコース",
+      "reading": "せんごくゆめかいどうはいきんぐこーす",
+      "categories": [
+        "体験・レジャー",
+        "自然・景観"
+      ],
+      "address": "静岡県 森町 三倉一ノ瀬バス停付近",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "有",
+      "fee": "",
+      "inquiry": "0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.9117703136066,
+        "lon": 137.93712262603265
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/sengokuyumekaido.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-fujiya.chafushi",
+      "name": "日本烏龍紅茶会社発祥の地 フジヤ・茶風詩（森町旧藤江勝太郎家住宅）",
+      "reading": "にほんうーろんこうちゃがいしゃはっしょうのち ふじや・ちゃふうし（もりまちきゅうふじえかつたろうけじゅうたく）",
+      "categories": [
+        "グルメ",
+        "宿泊・休憩処"
+      ],
+      "address": "静岡県周智郡森町城下369番地２",
+      "phone": "",
+      "hours": "フジヤ：9:00～17:00、カフェ「茶風詩」：10:00～16:00",
+      "closed": "月曜日・火曜日（月・火が祝日の場合は営業し、翌営業日に振替とします。）",
+      "parking": "有り（８台）",
+      "fee": "○茶風詩\n・烏龍茶：800円\n・ランチ：1,200円 など",
+      "inquiry": "メール（shiroshitashachu@gmail.com)",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8508752,
+        "lon": 137.94058
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/fujiya.chafushi.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-kyushirositagakkou",
+      "name": "旧城下学校",
+      "reading": "きゅうしろしたがっこう",
+      "categories": [
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町城下",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡:0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.85134883839196,
+        "lon": 137.93981157958865
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/kyushirositagakkou.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1046",
+      "name": "晴山陶房【※現在、見学できません】",
+      "reading": "せいざんとうぼう",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "〒437-0215 静岡県周智郡森町森1611",
+      "phone": "0538-85-6316",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "0538-85-2382",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8302804,
+        "lon": 137.91799190000006
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1046.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3029",
+      "name": "月花園 新町",
+      "reading": "げっかえん しんまち",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町森211",
+      "phone": "0538-85-3086",
+      "hours": "8:30～19:00",
+      "closed": "水曜日",
+      "parking": "４台（無料）",
+      "fee": "",
+      "inquiry": "0538-85-3086",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8392436,
+        "lon": 137.93175150000002
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3029.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-honmachinomachinami",
+      "name": "本町の町並み",
+      "reading": "ほんまちのまちなみ",
+      "categories": [
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町森",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡:0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8359305365175,
+        "lon": 137.93004401261976
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/honmachinomachinami.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1164",
+      "name": "村松さとる農園",
+      "reading": "むらまつさとるのうえん",
+      "categories": [
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町飯田下飯田橋西",
+      "phone": "090-3386-4536",
+      "hours": "6月上旬～7月下旬 6:00～売切りまで",
+      "closed": "なし、収穫がない日",
+      "parking": "有",
+      "fee": "直売所にて表示",
+      "inquiry": "090-3386-4536",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.803256962229334,
+        "lon": 137.91459535683907
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1164.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1169",
+      "name": "村松修農園",
+      "reading": "むらまつおさむのうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県袋井市宇刈",
+      "phone": "080-5293-1434（0538-48-6384※FAX共通）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.79687947742245,
+        "lon": 137.9303745647262
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1169.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-muramatsumasayoshinouen",
+      "name": "村松正義農園",
+      "reading": "むらまつまさよしのうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町森町牛飼378",
+      "phone": "0538-48-6300※FAX共通",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.7945926,
+        "lon": 137.894652
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/muramatsumasayoshinouen.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1138",
+      "name": "村松農園",
+      "reading": "むらまつのうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町一宮",
+      "phone": "0538-85-2939",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.82435180084113,
+        "lon": 137.90100032229816
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1138.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1173",
+      "name": "村松農園 村松りょうすけ",
+      "reading": "むらまつのうえん むらまつりょうすけ",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町飯田",
+      "phone": "0538-48-7325※FAX共通",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.80468198968553,
+        "lon": 137.91904720615162
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1173.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-murato_ya",
+      "name": "村登屋",
+      "reading": "むらとや",
+      "categories": [
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町天宮688-1",
+      "phone": "0538-85-2714",
+      "hours": "水曜〜土曜の10:30〜18:30頃 ※商品がなくなり次第終了",
+      "closed": "日曜、月曜、火曜",
+      "parking": "有",
+      "fee": "",
+      "inquiry": "0538-85-2714",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8401489,
+        "lon": 137.9332135
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/murato_ya.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-tokaido",
+      "name": "東海自然歩道",
+      "reading": "とうかいしぜんほどう",
+      "categories": [
+        "体験・レジャー",
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町三倉",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.956723672364404,
+        "lon": 138.0182186021658
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/tokaido.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-zouunin",
+      "name": "松岩山 蔵雲院",
+      "reading": "しょうがんざん ぞううんいん",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "437-0205 静岡県周智郡森町大鳥居540-1",
+      "phone": "0538-85-2236",
+      "hours": "",
+      "closed": "",
+      "parking": "有",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8587083,
+        "lon": 137.94855559999996
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/zouunin.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1064",
+      "name": "松浦製茶株式会社",
+      "reading": "まつうらせいちゃかぶしきがいしゃ",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町城下165-1",
+      "phone": "0538-85-4188",
+      "hours": "9:00〜17:30",
+      "closed": "年末年始",
+      "parking": "10台",
+      "fee": "",
+      "inquiry": "0538-85-4188",
+      "official_homepage": "http://matsuura-seicha.com",
+      "geocode": {
+        "lat": 34.8545974,
+        "lon": 137.9412562
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1064.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-kashiwaya1071",
+      "name": "柏屋",
+      "reading": "かしわや",
+      "categories": [
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町森135",
+      "phone": "0538-85-5418",
+      "hours": "11:30〜14:00",
+      "closed": "水曜",
+      "parking": "30台",
+      "fee": "",
+      "inquiry": "0538-85-5418",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8372633,
+        "lon": 137.93030450000003
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/kashiwaya1071.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-eisyodo1034",
+      "name": "栄正堂",
+      "reading": "えいしょうどう",
+      "categories": [
+        "お土産",
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町森584-1",
+      "phone": "0538-85-2517",
+      "hours": "8:00～18:00",
+      "closed": "水曜",
+      "parking": "5台",
+      "fee": "「梅衣」170円（税込）、「みそまんじゅう」120円（税込）",
+      "inquiry": "0538-85-2517",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8339876,
+        "lon": 137.92969530000005
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/eisyodo1034.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-2002",
+      "name": "栗田商店",
+      "reading": "くりたしょうてん",
+      "categories": [
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町問詰543",
+      "phone": "0538-85-2823",
+      "hours": "8:30頃～19:00頃",
+      "closed": "年中無休",
+      "parking": "あり",
+      "fee": "",
+      "inquiry": "0538-85-2823",
+      "official_homepage": "",
+      "geocode": null,
+      "source_url": "https://www.mori-kanko.jp/touristdetail/2002.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-sakuragozennohi",
+      "name": "桜御前の碑",
+      "reading": "さくらごぜんのひ",
+      "categories": [
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町森125（森小学校内）",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡：0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.838152206938275,
+        "lon": 137.92995534987642
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/sakuragozennohi.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-morinosobakoyasan",
+      "name": "森のそば粉屋さん",
+      "reading": "もりのそばこやさん",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品",
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町問詰1223-12",
+      "phone": "0538-85-0355",
+      "hours": "10:00～16:00",
+      "closed": "不定休",
+      "parking": "有り（普通車３台）",
+      "fee": "・そば粉は100ｇから量り売り\n・そば粉のドーナツ ２８０円\n・そば茶 ６８０円\n・ガレット粉 ５８０円\n・二八蕎麦 １０００円",
+      "inquiry": "お電話または、ＤＭ・メール（morinosobako@gmail.com)",
+      "official_homepage": "https://www.rakuten.co.jp/morino-sobako/",
+      "geocode": {
+        "lat": 34.870837679350856,
+        "lon": 137.95102280618627
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/morinosobakoyasan.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3005",
+      "name": "森乃茶園 船木茶店",
+      "reading": "もりのちゃえん ふなきちゃてん",
+      "categories": [
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町城下179-2",
+      "phone": "0538-85-2476",
+      "hours": "9:00〜18:00",
+      "closed": "水曜※不定休あり",
+      "parking": "5台",
+      "fee": "100g／500円・800円・1000円・1200円・1500円・2000円",
+      "inquiry": "0538-85-2476",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8535031,
+        "lon": 137.9417201
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3005.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-bairinin",
+      "name": "森渕山 梅林院",
+      "reading": "しんえんざん ばいりんいん",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "437-0215 静岡県周智郡森町森2345",
+      "phone": "0538-85-2921",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "http://bairinin.net/index.html",
+      "geocode": {
+        "lat": 34.8393157,
+        "lon": 137.9291018
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/bairinin.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-2003",
+      "name": "森町体験の里アクティ森",
+      "reading": "もりまちたいけんのさとあくてぃーもり",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "体験・レジャー",
+        "買い物・特産品",
+        "自然・景観",
+        "公園"
+      ],
+      "address": "〒437-0204 静岡県周智郡森町問詰1115-1",
+      "phone": "0538-85-0115",
+      "hours": "9:00～17:30（12月～2月は17:00まで）",
+      "closed": "水曜日（祝日・春・夏休み営業）",
+      "parking": "200台（無料）大型バスも駐車可",
+      "fee": "入場無料",
+      "inquiry": "0538-85-0115",
+      "official_homepage": "http://actymori.jp/",
+      "geocode": {
+        "lat": 34.866100653343146,
+        "lon": 137.94866025833585
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/2003.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1066",
+      "name": "森町茶商組合",
+      "reading": "もりまちちゃしょうくみあい",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町森1731-1",
+      "phone": "0538-85-2643（10:00～15:00）※FAX兼用",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "https://www.morinocha.info/",
+      "geocode": {
+        "lat": 34.83364102392629,
+        "lon": 137.92358544662704
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1066.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-4012",
+      "name": "極楽寺 あじさい寺",
+      "reading": "ごくらくじ",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "静岡県周智郡森町一宮5709",
+      "phone": "0538-89-7407",
+      "hours": "9:00～17:00",
+      "closed": "あじさい期間（６月上旬～７月上旬）は無休",
+      "parking": "60台（無料）",
+      "fee": "大人500円（中学生以上）、\n小学生100円、未就学無料",
+      "inquiry": "0538-89-7407",
+      "official_homepage": "http://www.ajisaidera.com/index.html",
+      "geocode": {
+        "lat": 34.821839,
+        "lon": 137.87912660000006
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/4012.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1102",
+      "name": "橘谷山 大洞院",
+      "reading": "きっこくざん だいとういん",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "437-0227 静岡県周智郡森町橘249",
+      "phone": "0538-85-2009",
+      "hours": "拝観：年中無休",
+      "closed": "",
+      "parking": "有 ※紅葉時期はバスのみ駐車料金1,000円",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8557349,
+        "lon": 137.91556130000004
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1102.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-rekisinosannpomichi",
+      "name": "歴史の散歩道",
+      "reading": "れきしのさんぽみち",
+      "categories": [
+        "体験・レジャー",
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町森",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡:0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.84030376649739,
+        "lon": 137.9236777895229
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/rekisinosannpomichi.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-rekisiminzousiryokan",
+      "name": "歴史民俗資料館",
+      "reading": "れきしみんぞくしりょうかん",
+      "categories": [
+        "体験・レジャー"
+      ],
+      "address": "437-0215 静岡県周智郡森町森2144",
+      "phone": "0538-85-0108",
+      "hours": "午前9時30分～午後4時30分",
+      "closed": "月曜日・火曜日・年末年始",
+      "parking": "",
+      "fee": "無料",
+      "inquiry": "",
+      "official_homepage": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunka/1160.html",
+      "geocode": {
+        "lat": 34.83915290227952,
+        "lon": 137.9255220233482
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/rekisiminzousiryokan.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-emake",
+      "name": "江間家土蔵",
+      "reading": "えまけどぞう",
+      "categories": [
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町森",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.84015252902017,
+        "lon": 137.9330987805323
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/emake.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-jirougakigenboku",
+      "name": "治郎柿（次郎柿）原木",
+      "reading": "じろうがき（じろうがき）げんぼく",
+      "categories": [
+        "買い物・特産品",
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町森",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "有",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡:0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.83413626722752,
+        "lon": 137.92916156585386
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/jirougakigenboku.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1171",
+      "name": "清佑園",
+      "reading": "せいゆうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町飯田1879-1",
+      "phone": "0538-48-6234",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.7951041,
+        "lon": 137.9080331
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1171.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-dainichido",
+      "name": "片吹大日堂",
+      "reading": "かたぶき だいにちどう",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "静岡県周智郡森町亀久保",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.91324428767396,
+        "lon": 137.9866661700363
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/dainichido.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1127",
+      "name": "田中農園",
+      "reading": "たなかのうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町円田455",
+      "phone": "0538-85-3613※FAX共通（070-1623-0391）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "http://www.tanaka-nouen.net/",
+      "geocode": {
+        "lat": 34.8171293,
+        "lon": 137.91848389999996
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1127.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-tyouminnomori",
+      "name": "町民の森",
+      "reading": "ちょうみんのもり",
+      "categories": [
+        "体験・レジャー",
+        "自然・景観",
+        "公園"
+      ],
+      "address": "静岡県周智郡森",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡:0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.83978590691238,
+        "lon": 137.91788846051327
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/tyouminnomori.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1151",
+      "name": "緑葉ＫＭファーム森一弥",
+      "reading": "",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町睦実",
+      "phone": "0538-85-0170",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.82509475880453,
+        "lon": 137.93878884357764
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1151.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1024",
+      "name": "菓匠 あさおか",
+      "reading": "かしょう あさおか",
+      "categories": [
+        "お土産",
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町草ヶ谷389-1",
+      "phone": "0538-85-2440",
+      "hours": "8:30～18:30 （水曜：10:00～17:00）",
+      "closed": "年中無休",
+      "parking": "6台",
+      "fee": "",
+      "inquiry": "0538-85-2440",
+      "official_homepage": "https://kasho-asaoka.jimdofree.com",
+      "geocode": {
+        "lat": 34.8264198,
+        "lon": 137.91854749999993
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1024.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1042",
+      "name": "菓子司 福むら",
+      "reading": "かしつかさ ふくむら",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町森207-1",
+      "phone": "0538-85-2412",
+      "hours": "9:00〜19:00",
+      "closed": "水曜",
+      "parking": "",
+      "fee": "梅衣150円／栗むし羊羹980円／みそまんじゅう90円／クレープ（イチゴ・クリームチーズ・コーヒーゼリー・チョコ・バナナ・抹茶など６種類程度）170円",
+      "inquiry": "0538-85-2412",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8389058,
+        "lon": 137.93160869999997
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1042.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1142",
+      "name": "藤正農園",
+      "reading": "ふじまさのうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町谷中",
+      "phone": "0538-85-4056（080-5121-4056）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.80539909700445,
+        "lon": 137.90002177882081
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1142.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-kine",
+      "name": "許禰神社",
+      "reading": "きねじんじゃ",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "437-0208 静岡県周智郡森町三倉830",
+      "phone": "0538-86-0713",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.9000524,
+        "lon": 137.944294
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/kine.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-4006",
+      "name": "谷崎天神社",
+      "reading": "やざきてんじんじゃ",
+      "categories": [
+        "神社・仏閣",
+        "公園"
+      ],
+      "address": "静岡県周智郡森町一宮3175",
+      "phone": "0538-89-7787",
+      "hours": "",
+      "closed": "なし",
+      "parking": "有（５～６台）",
+      "fee": "なし",
+      "inquiry": "0538-89-7787",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8272553,
+        "lon": 137.8934666
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/4006.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-kamo",
+      "name": "賀茂神社",
+      "reading": "かもじんじゃ",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "437-0213 周智郡森町睦実795",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8259624,
+        "lon": 137.93578350000007
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/kamo.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3048",
+      "name": "遠州みもろ焼 別所窯（田米陶房）",
+      "reading": "えんしゅうみもろやき べっしょがま ためとうぼう",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町一宮3957-14（小國神社境内）",
+      "phone": "0538-89-6031",
+      "hours": "9:30〜17:00",
+      "closed": "不定休",
+      "parking": "小國神社の駐車場を利用",
+      "fee": "",
+      "inquiry": "0538-89-6031",
+      "official_homepage": "http://mimoroyaki.com/",
+      "geocode": {
+        "lat": 34.8456943,
+        "lon": 137.90092930000003
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3048.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1136",
+      "name": "遠州森鈴木農園（株）",
+      "reading": "えんしゅうもりすずきのうえんかぶしきがいしゃ",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町谷中260-1",
+      "phone": "0538-85-4815",
+      "hours": "",
+      "closed": "不定休",
+      "parking": "有（普通車40台）",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "http://www.suzukinouen.jp/",
+      "geocode": {
+        "lat": 34.8101023,
+        "lon": 137.9019277
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1136.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-station",
+      "name": "遠州森駅",
+      "reading": "えんしゅうもりえき",
+      "categories": [
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町森",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.83094127243303,
+        "lon": 137.92376495935127
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/station.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-4015",
+      "name": "遠江國一宮 小國神社",
+      "reading": "とおとうみのくに いちのみや おくにじんじゃ",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "〒437-0226 静岡県周智郡森町一宮 3956-1",
+      "phone": "0538-89-7302",
+      "hours": "",
+      "closed": "",
+      "parking": "無料駐車場約900台（大型バスは専用駐車場をご利用ください）",
+      "fee": "",
+      "inquiry": "0538-89-7302",
+      "official_homepage": "http://www.okunijinja.or.jp/",
+      "geocode": {
+        "lat": 34.847355,
+        "lon": 137.89944059999993
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/4015.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3096",
+      "name": "野口製茶所",
+      "reading": "のぐちせいちゃじょ",
+      "categories": [
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町天宮1327",
+      "phone": "0120-13-2243 ／ 0538-85-2243",
+      "hours": "8:30頃〜17:00頃",
+      "closed": "不定休",
+      "parking": "あり",
+      "fee": "「森の雅」100g1080円など",
+      "inquiry": "0538-85-2243",
+      "official_homepage": "https://www.maru-cha.com",
+      "geocode": {
+        "lat": 34.8422543,
+        "lon": 137.93192380000005
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3096.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1132",
+      "name": "野末農園",
+      "reading": "のずえのうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町中川1251-1",
+      "phone": "0538-48-7030（080-2659-7527）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.791645424581475,
+        "lon": 137.88641402352596
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1132.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1035",
+      "name": "金与食堂",
+      "reading": "かねよしょくどう",
+      "categories": [
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町森1705-4",
+      "phone": "0538-85-2325",
+      "hours": "11:30～14:00 17:30～21:00",
+      "closed": "毎週月曜日・月１回連休有",
+      "parking": "有",
+      "fee": "・陳麻婆飯930円\n・担々めん730円",
+      "inquiry": "0538-85-2325",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8334663,
+        "lon": 137.9221275
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1035.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1051",
+      "name": "金守神社",
+      "reading": "かなもりじんじゃ",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "静岡県周智郡森町森926-12",
+      "phone": "0538-85-2913",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.832922216350795,
+        "lon": 137.92662699814764
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1051.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3046",
+      "name": "長谷川健一商店",
+      "reading": "はせがわけんいちしょうてん",
+      "categories": [
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町森743-3",
+      "phone": "0538-85-3553",
+      "hours": "9:00〜18:00",
+      "closed": "日曜（繁忙期を除く）、年末年始",
+      "parking": "",
+      "fee": "",
+      "inquiry": "0538-85-3553",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8343913,
+        "lon": 137.92787699999997
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3046.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-asahimeduka",
+      "name": "阿佐姫塚",
+      "reading": "あさひめづか",
+      "categories": [
+        "神社・仏閣",
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町城下894-1",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "森町観光協会 ℡:0538-85-6316",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.85366548567056,
+        "lon": 137.9460168701446
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/asahimeduka.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1057",
+      "name": "静邨陶房",
+      "reading": "せいそんとうぼう",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "〒437-0215 静岡県周智郡森町森1759-3",
+      "phone": "0538-85-3536",
+      "hours": "9:00〜17:00頃",
+      "closed": "9:00〜17:00頃",
+      "parking": "約10台",
+      "fee": "",
+      "inquiry": "0538-85-3536",
+      "official_homepage": "https://seison-plus.jimdofree.com",
+      "geocode": {
+        "lat": 34.8332683,
+        "lon": 137.92087349999997
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1057.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-iida",
+      "name": "飯田城址",
+      "reading": "いいだじょうし",
+      "categories": [
+        "自然・景観"
+      ],
+      "address": "静岡県周智郡森町飯田",
+      "phone": "",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.80518633954324,
+        "lon": 137.9216379322047
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/iida.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-henshouji",
+      "name": "高平山 遍照寺",
+      "reading": "たかひらさん へんしょうじ",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "437-0222 静岡県周智郡森町飯田２１３０",
+      "phone": "0538-88-9201",
+      "hours": "拝観自由",
+      "closed": "年中無休",
+      "parking": "有",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.7970754,
+        "lon": 137.91546330000006
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/henshouji.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-uoi",
+      "name": "魚伊",
+      "reading": "うおい",
+      "categories": [
+        "グルメ"
+      ],
+      "address": "静岡県周智郡森町睦実1670-1-1-1",
+      "phone": "0538-85-2012",
+      "hours": "（昼の部）11:30～14:00、（夜の部）17:00～22:00",
+      "closed": "毎週月・火曜日",
+      "parking": "有（店舗まわりと店裏の道沿い 約10台）",
+      "fee": "昼御膳1,300円（税込）\n宴会コース4,400円～（食事・税込）",
+      "inquiry": "0538-85-2012",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.83200369003926,
+        "lon": 137.93072699077263
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/uoi.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-5002",
+      "name": "鹿苑山 香勝寺",
+      "reading": "ろくおんざん こうしょうじ",
+      "categories": [
+        "神社・仏閣"
+      ],
+      "address": "437-0214 静岡県周智郡森町草々谷968",
+      "phone": "0538-85-3630",
+      "hours": "",
+      "closed": "",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.82764201045986,
+        "lon": 137.91311900092012
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/5002.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1143",
+      "name": "（有）佐野ファーム",
+      "reading": "さのふぁーむ",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町谷中33",
+      "phone": "090-5004-2732",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "info@sano-farm.com",
+      "official_homepage": "http://www.sano-farm.com/",
+      "geocode": {
+        "lat": 34.80476481789239,
+        "lon": 137.89972137141115
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1143.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3052",
+      "name": "（有）太田茶店",
+      "reading": "おおたちゃてん",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品",
+        "宿泊・休憩処"
+      ],
+      "address": "静岡県周智郡森町一宮3822",
+      "phone": "0538-84-2020",
+      "hours": "9:00～16:00 ランチタイム11:00～13:30",
+      "closed": "火曜日",
+      "parking": "20台以上",
+      "fee": "無料",
+      "inquiry": "0538-84-2020",
+      "official_homepage": "http://www.otachaten.com",
+      "geocode": {
+        "lat": 34.8383343,
+        "lon": 137.8979574
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3052.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-3080",
+      "name": "（株）おさだ製茶",
+      "reading": "かぶしきがいしゃおさだせいちゃ",
+      "categories": [
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町森1522-1",
+      "phone": "0538-85-1500",
+      "hours": "9:00～18:00",
+      "closed": "年中無休",
+      "parking": "25台",
+      "fee": "",
+      "inquiry": "0538-85-1500",
+      "official_homepage": "https://www.osadaenhonten.com/",
+      "geocode": {
+        "lat": 34.8251849,
+        "lon": 137.92039049999994
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/3080.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-aottage-acty1006",
+      "name": "（株）アマガタ [コテージ・アクティ／吉川キャンプ場 カワセミの里／山里の市]",
+      "reading": "かぶしきがいしゃ あまがた",
+      "categories": [
+        "グルメ",
+        "体験・レジャー",
+        "自然・景観",
+        "公園"
+      ],
+      "address": "コテージ・アクティ／吉川キャンプ場 カワセミの里：静岡県周智郡森町門詰879-5、山里の市：静岡県周智郡森町門詰1115-1 アクティ森内",
+      "phone": "コテージ・アクティ／吉川キャンプ場 カワセミの里：0538-85-9800、山里の市：090-8150-1665",
+      "hours": "コテージ・アクティ／吉川キャンプ場 カワセミの里：8:30〜17:00（受付）、山里の市：8:00〜15:00",
+      "closed": "コテージ・アクティ／吉川キャンプ場 カワセミの里：年中無休、山里の市：水曜",
+      "parking": "あり",
+      "fee": "",
+      "inquiry": "コテージ・アクティ／吉川キャンプ場 カワセミの里：0538-85-9800、山里の市：090-8150-1665",
+      "official_homepage": "http://www.cottage-acty.net",
+      "geocode": {
+        "lat": 34.8650101,
+        "lon": 137.94524760000002
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/aottage-acty1006.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-1145",
+      "name": "（誠）伊藤農園",
+      "reading": "まるせい いとうのうえん",
+      "categories": [
+        "お土産",
+        "買い物・特産品"
+      ],
+      "address": "静岡県袋井市",
+      "phone": "0538-48-6563（090-2615-9732）",
+      "hours": "売り切れ次第終了",
+      "closed": "不定休（収穫による）",
+      "parking": "",
+      "fee": "",
+      "inquiry": "",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.76390659036403,
+        "lon": 137.91179386789236
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/1145.html",
+      "checked_at": "2026-08-11"
+    },
+    {
+      "id": "mori-kanko-morinoichi",
+      "name": "ＪＡ遠州中央 農産物直売所 森の市",
+      "reading": "じぇいえいえんしゅうちゅうおう のうさんぶつちょくばいじょ もりのいち",
+      "categories": [
+        "お土産",
+        "グルメ",
+        "買い物・特産品"
+      ],
+      "address": "静岡県周智郡森町森1731-2",
+      "phone": "0538-85-0831",
+      "hours": "9:00～18:00（年末年始、盆は多少異なります）",
+      "closed": "年中無休（年末年始、盆は休日の日があります）",
+      "parking": "有（約30台完備）",
+      "fee": "",
+      "inquiry": "0538-85-0831",
+      "official_homepage": "",
+      "geocode": {
+        "lat": 34.8304055,
+        "lon": 137.92138599999998
+      },
+      "source_url": "https://www.mori-kanko.jp/touristdetail/morinoichi.html",
+      "checked_at": "2026-08-11"
+    }
+  ]
+}

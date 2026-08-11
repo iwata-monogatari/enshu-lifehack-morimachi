@@ -198,6 +198,12 @@
  ],
  "databases": [
   {
+   "href": "/mori-directory/",
+   "emoji": "🗺️",
+   "label": "森町の施設・店舗・農園・史跡",
+   "note": "観光協会などの公開情報を、固有名詞と分類から検索"
+  },
+  {
    "href": "/shrine/",
    "emoji": "⛩️",
    "label": "森町の神社",

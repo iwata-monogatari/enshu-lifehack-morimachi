@@ -1,0 +1,130 @@
+{
+  "checked_at": "2026-08-11",
+  "sources": [
+    {
+      "id": "mori-kanko-facilities",
+      "name": "静岡県森町観光協会 観光案内",
+      "url": "https://www.mori-kanko.jp/tourist/list/",
+      "scope": "観光施設、店舗、農園、社寺、史跡、自然、体験、宿泊",
+      "expected_records": 100,
+      "indexed_records": 100,
+      "status": "indexed",
+      "notes": "名称、分類、住所、電話、営業情報などの事実欄を台帳化。紹介文は複製しません。"
+    },
+    {
+      "id": "mori-kanko-speciality",
+      "name": "静岡県森町観光協会 特産品・お土産",
+      "url": "https://www.mori-kanko.jp/speciality/index.html",
+      "scope": "農産物、茶、和菓子、森山焼",
+      "expected_records": 16,
+      "indexed_records": 16,
+      "status": "indexed",
+      "facts": [
+        {"label": "農産物", "value": "次郎柿、とうもろこし、メロン、米、レタス、しいたけ、自然薯"},
+        {"label": "加工品・菓子", "value": "次郎柿ワイン、梅衣、次郎柿羊羹、みそまんじゅう、栗蒸し羊羹"},
+        {"label": "茶", "value": "遠州森町の煎茶と茶商"},
+        {"label": "工芸", "value": "森山焼と町内の窯元"}
+      ]
+    },
+    {
+      "id": "shizuoka-iju",
+      "name": "静岡県公式 移住・定住情報サイト 森町",
+      "url": "https://iju.pref.shizuoka.jp/390/mori.html",
+      "scope": "町の基本情報、生活環境、交通、移住相談",
+      "expected_records": 12,
+      "indexed_records": 12,
+      "status": "indexed-with-dates",
+      "notes": "数値は掲載時点を保持し、現在値とは分けて表示します。",
+      "facts": [
+        {"label": "面積", "value": "133.91平方キロメートル", "status": "source-value"},
+        {"label": "人口", "value": "17,300人", "as_of": "2023-06-01", "status": "legacy-value"},
+        {"label": "特産品", "value": "お茶、とうもろこし、次郎柿、メロン、レタス、米", "status": "source-value"},
+        {"label": "鉄道", "value": "天竜浜名湖鉄道5駅", "status": "source-value"},
+        {"label": "教育施設", "value": "保育園5、幼稚園5、小学校3、中学校2、高校1", "status": "source-value"},
+        {"label": "医療施設", "value": "病院1、診療所10、歯科診療所6", "status": "source-value"},
+        {"label": "買い物", "value": "スーパーマーケット2、ドラッグストア3、コンビニ5", "status": "source-value"},
+        {"label": "移住相談", "value": "森町役場 定住推進課 移住交流係 0538-85-6321", "status": "source-value"}
+      ]
+    },
+    {
+      "id": "tabisalad-plus-13",
+      "name": "旅サラダPlus 周智郡森町13選",
+      "url": "https://tsplus.asahi.co.jp/spot/Shizuoka/city-22461/",
+      "scope": "観光地、店舗、工房の補助的な確認",
+      "expected_records": 13,
+      "indexed_records": 13,
+      "status": "indexed-secondary",
+      "notes": "当事者・公式情報が見つかる場合は、そちらを優先して再確認します。"
+    },
+    {
+      "id": "mori-kanko-navigation",
+      "name": "静岡県森町観光協会 利用案内",
+      "url": "https://www.mori-kanko.jp/",
+      "scope": "さんぽコース、レンタサイクル、観光ガイド、催し、アクセス、パンフレット",
+      "status": "source-registered",
+      "notes": "写真・動画は複製せず、利用案内と公式確認先を扱います。",
+      "links": [
+        {"label": "さんぽコース", "url": "https://www.mori-kanko.jp/sanpo/index.html"},
+        {"label": "レンタサイクル", "url": "https://www.mori-kanko.jp/cycling/index.html"},
+        {"label": "観光ボランティアガイド", "url": "https://www.mori-kanko.jp/volunteer.html"},
+        {"label": "催し", "url": "https://www.mori-kanko.jp/event/list/"},
+        {"label": "アクセス", "url": "https://www.mori-kanko.jp/access/index.html"},
+        {"label": "観光パンフレット", "url": "https://www.mori-kanko.jp/catalog/index.html"}
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "tsplus-seison-plus",
+      "name": "静邨陶房／seison plus",
+      "reading": "せいそんとうぼう／せいそんぷらす",
+      "categories": ["工芸品", "森山焼", "買い物・特産品"],
+      "address": "静岡県周智郡森町森1759-3",
+      "phone": "0538-85-3536",
+      "hours": "10:00～17:00",
+      "source_url": "https://tsplus.asahi.co.jp/spot/t6809",
+      "source_name": "旅サラダPlus",
+      "checked_at": "2026-08-11",
+      "status": "secondary-source-indexed"
+    },
+    {
+      "id": "tsplus-osadaen",
+      "name": "おさだ苑本店",
+      "categories": ["お茶", "グルメ", "買い物・特産品"],
+      "address": "静岡県周智郡森町森1522-1",
+      "phone": "0538-85-1500",
+      "hours": "9:30～18:00",
+      "parking": "20台",
+      "source_url": "https://tsplus.asahi.co.jp/spot/t6808",
+      "source_name": "旅サラダPlus",
+      "checked_at": "2026-08-11",
+      "status": "secondary-source-indexed"
+    },
+    {
+      "id": "tsplus-kasho-asaoka",
+      "name": "菓匠 あさおか",
+      "categories": ["和・洋菓子", "グルメ", "お土産"],
+      "address": "静岡県周智郡森町草ケ谷389-1",
+      "phone": "0538-85-2440",
+      "hours": "9:00～18:30（水曜10:00～17:00）",
+      "parking": "6台",
+      "source_url": "https://tsplus.asahi.co.jp/spot/t6813",
+      "source_name": "旅サラダPlus",
+      "checked_at": "2026-08-11",
+      "status": "secondary-source-indexed"
+    },
+    {
+      "id": "tsplus-momoya",
+      "name": "百々や",
+      "reading": "ももや",
+      "categories": ["そば", "グルメ", "駅"],
+      "address": "静岡県周智郡森町一宮2431-2",
+      "phone": "0538-89-7077",
+      "hours": "11:30～15:00（売り切れ次第終了）",
+      "source_url": "https://tsplus.asahi.co.jp/spot/t6806",
+      "source_name": "旅サラダPlus",
+      "checked_at": "2026-08-11",
+      "status": "secondary-source-indexed"
+    }
+  ]
+}
