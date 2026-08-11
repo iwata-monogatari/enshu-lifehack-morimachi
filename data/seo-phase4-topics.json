@@ -513,13 +513,15 @@
   },
   {
     "id": 17,
-    "title": "森町で戸籍の氏名の振り仮名を確認するとき｜通知から届出までの読み方",
+    "title": "森町の戸籍フリガナ通知を家族別判定表にする｜氏・名の担当と現在記載",
     "slug": "family-register-name-furigana",
     "category": "行政手続き",
-    "search_intent": "戸籍に記載される氏名の振り仮名について、通知の見方、正しい場合と異なる場合の対応を知りたい",
+    "search_intent": "2025年の戸籍フリガナ通知一通を家族一人ずつの行へ分け、氏と名の届出担当、期限内の届出控え、2026年5月26日以後の現在記載を照合する家族別判定表を作りたい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
-      "https://www.moj.go.jp/MINJI/furigana/index.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2/2893.html",
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/1/HP_202506kouhou.pdf",
+      "https://www.moj.go.jp/MINJI/furigana/flow.html",
+      "https://www.moj.go.jp/MINJI/furigana/faq.html"
     ],
     "risk": "low",
     "decision": "CREATE",

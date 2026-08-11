@@ -290,20 +290,20 @@
   {
     "id": 17,
     "url": "/life/start-living/family-register-name-furigana/",
-    "title": "森町で戸籍の氏名の振り仮名を確認するとき｜通知から届出までの読み方",
+    "title": "森町の戸籍フリガナ通知を家族別判定表にする｜氏・名の担当と現在記載",
     "category": "行政手続き",
-    "search_intent": "戸籍に記載される氏名の振り仮名について、通知の見方、正しい場合と異なる場合の対応を知りたい",
+    "search_intent": "2025年の戸籍フリガナ通知一通を家族一人ずつの行へ分け、氏と名の届出担当、期限内の届出控え、2026年5月26日以後の現在記載を照合する家族別判定表を作りたい",
     "search_aliases": [
-      "森町で戸籍の氏名の振り仮名を確認するとき",
-      "戸籍に記載される氏名の振り仮名について、通知の見方、正しい場合と異なる場合の対応を知りたい"
+      "森町の戸籍フリガナ通知を家族別判定表にする",
+      "2025年の戸籍フリガナ通知一通を家族一人ずつの行へ分け、氏と名の届出担当、期限内の届出控え、2026年5月26日以後の現在記載を照合する家族別判定表を作りたい"
     ],
-    "editorial_chars": 6519,
+    "editorial_chars": 6454,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 18,
@@ -3411,13 +3411,13 @@
       "森町で屋外広告物を設置する前に",
       "看板の場所、規模、許可要否を確認したい"
     ],
-    "editorial_chars": 6834,
+    "editorial_chars": 7076,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 191,
@@ -3485,11 +3485,11 @@
     ],
     "editorial_chars": 6919,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 195,
@@ -4473,13 +4473,13 @@
       "森町で固定資産評価証明と課税明細の用途を分ける",
       "相続や売買で使う税資料の違いを知りたい"
     ],
-    "editorial_chars": 6413,
+    "editorial_chars": 6043,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 250,
@@ -5175,13 +5175,13 @@
       "森町で公共施設の修繕履歴を町資料から追うための索引を作る",
       "身近な施設の修繕情報を年度別に確認したい"
     ],
-    "editorial_chars": 6441,
+    "editorial_chars": 6026,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 289,

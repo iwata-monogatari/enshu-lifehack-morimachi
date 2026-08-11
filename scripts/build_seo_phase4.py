@@ -465,6 +465,31 @@ def svg(row: dict, index: int) -> str:
     ]
     # 公開監査済みのDay5記事は、主題を一目で識別できる固有モチーフを使う。
     special_scenes = {
+        249: [
+            f'<g data-scene="property-tax-certificate-router"><rect x="235" y="245" width="190" height="210" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M270 300h120M270 345h95M270 390h110" stroke="{accent}" stroke-width="8"/><path d="M425 350h75m-25-25 25 25-25 25" fill="none" stroke="{dark}" stroke-width="12"/><rect x="535" y="205" width="210" height="275" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M535 270h210M535 335h210M535 400h210M640 205v275" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="330" y="285">課税明細</text><text x="585" y="245">評価</text><text x="690" y="245">通知</text><text x="585" y="310">公課</text><text x="690" y="310">資産</text><text x="640" y="375">提出先の必要項目</text><text x="640" y="445">年度・対象</text></g></g>',
+            f'<g data-scene="five-purpose-certificate-branches"><circle cx="500" cy="235" r="42" fill="{accent}"/><path d="M500 277v55M500 332 285 415M500 332 390 415M500 332v83M500 332l110 83M500 332l215 83" fill="none" stroke="{dark}" stroke-width="11"/><g fill="#fff" stroke="{accent}" stroke-width="8"><rect x="225" y="415" width="120" height="70" rx="12"/><rect x="350" y="415" width="120" height="70" rx="12"/><rect x="475" y="415" width="120" height="70" rx="12"/><rect x="600" y="415" width="120" height="70" rx="12"/><rect x="725" y="415" width="120" height="70" rx="12"/></g><g font-family="sans-serif" font-size="15" font-weight="700" fill="{dark}" text-anchor="middle"><text x="500" y="242">必要項目</text><text x="285" y="457">年次確認</text><text x="410" y="457">一般用</text><text x="535" y="457">登記用</text><text x="660" y="448">記載項目</text><text x="660" y="469">を確認</text><text x="785" y="448">所有資産</text><text x="785" y="469">を確認</text></g></g>',
+            f'<g data-scene="property-certificate-scope-dials"><g fill="#fff" stroke="{dark}" stroke-width="8"><circle cx="270" cy="285" r="48"/><circle cx="385" cy="285" r="48"/><circle cx="500" cy="285" r="48"/><circle cx="615" cy="285" r="48"/><circle cx="730" cy="285" r="48"/></g><path d="M270 285l20-24M385 285l-22-20M500 285l25 15M615 285l-20 25M730 285l18-25" stroke="{accent}" stroke-width="10"/><path d="M500 345v55M500 400 375 465M500 400l125 65" fill="none" stroke="{dark}" stroke-width="12"/><rect x="285" y="445" width="180" height="65" rx="12" fill="#fff" stroke="{accent}" stroke-width="8"/><rect x="535" y="445" width="180" height="65" rx="12" fill="{pale}" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="16" font-weight="700" fill="{dark}" text-anchor="middle"><text x="270" y="220">年度</text><text x="385" y="220">名義</text><text x="500" y="220">土地家屋</text><text x="615" y="220">範囲</text><text x="730" y="220">番号</text><text x="375" y="486">窓口用</text><text x="625" y="486">郵便用</text></g></g>',
+        ],
+        288: [
+            f'<g data-scene="public-facility-evidence-index"><path d="M220 420V335l65-50 65 50v85Zm190 0V315l75-58 75 58v105Zm205 0V335l65-50 65 50v85Z" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M350 365h60m150 0h55" stroke="{accent}" stroke-width="11"/><rect x="250" y="445" width="500" height="70" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M375 445v70M500 445v70M625 445v70" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="285" y="470">計画</text><text x="435" y="470">予算</text><text x="560" y="470">入札</text><text x="688" y="470">完了</text></g></g>',
+            f'<g data-scene="repair-renovation-renewal-cutaway"><path d="M230 455V260h540v195Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M410 260v195M590 260v195" stroke="{accent}" stroke-width="9"/><path d="m270 320 35 28-28 35 38 25" fill="none" stroke="{dark}" stroke-width="10"/><path d="M465 400v-95h70v95M445 325h110" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M635 410 720 300M675 410l55-70M625 315h105" fill="none" stroke="{dark}" stroke-width="12"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="320" y="225">修繕</text><text x="500" y="225">改修</text><text x="680" y="225">更新等</text></g></g>',
+            f'<g data-scene="plan-budget-bid-completion-route"><path d="M225 385h550" stroke="{dark}" stroke-width="14"/><path d="m360 350 35 35-35 35m135-70 35 35-35 35m135-70 35 35-35 35" fill="none" stroke="{accent}" stroke-width="11"/><g fill="#fff" stroke="{dark}" stroke-width="9"><rect x="195" y="250" width="120" height="105" rx="12"/><rect x="335" y="250" width="120" height="105" rx="12"/><rect x="475" y="250" width="120" height="105" rx="12"/><rect x="615" y="250" width="150" height="105" rx="12"/></g><path d="M220 290h70M220 320h55M360 290h70M360 320h55M500 290h70M500 320h55M645 290h90M645 320h70" stroke="{accent}" stroke-width="7"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="255" y="225">計画</text><text x="395" y="225">予算</text><text x="535" y="225">入札</text><text x="690" y="225">完了確認</text></g></g>',
+        ],
+        190: [
+            f'<g data-scene="outdoor-sign-two-permit-route"><path d="M285 455V320l125-95 125 95v135Z" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="355" y="330" width="110" height="65" rx="8" fill="{accent}"/><path d="M535 350h65m-35-35 35 35-35 35" fill="none" stroke="{dark}" stroke-width="13"/><rect x="620" y="235" width="145" height="105" rx="12" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="620" y="385" width="145" height="105" rx="12" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M650 280h85M650 430h85" stroke="{accent}" stroke-width="8"/></g>',
+            f'<g data-scene="sign-location-dimension-survey"><path d="M270 455V275h250v180Z" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="325" y="325" width="140" height="75" rx="8" fill="{pale}" stroke="{accent}" stroke-width="9"/><path d="M295 245h200m-200-20v40m200-40v40M240 285v160m-20-160h40m-40 160h40" stroke="{dark}" stroke-width="8"/><path d="M585 255h165v210H585Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M620 305h95M620 350h75M620 395h90" stroke="{accent}" stroke-width="9"/></g>',
+            f'<g data-scene="advertisement-building-action-split"><rect x="245" y="255" width="210" height="190" rx="14" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M285 305h130M285 355h100M285 405h115" stroke="{accent}" stroke-width="9"/><path d="M455 350h90m-30-28 30 28-30 28" fill="none" stroke="{dark}" stroke-width="13"/><path d="M585 455V315l80-65 80 65v140Z" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="620" y="335" width="90" height="60" fill="{pale}" stroke="{accent}" stroke-width="8"/></g>',
+        ],
+        194: [
+            f'<g data-scene="procurement-four-stage-entry-route"><path d="M245 410h510" stroke="{dark}" stroke-width="14"/><circle cx="290" cy="410" r="32" fill="{accent}"/><circle cx="430" cy="410" r="32" fill="#fff" stroke="{dark}" stroke-width="8"/><circle cx="570" cy="410" r="32" fill="{pale}" stroke="{dark}" stroke-width="8"/><circle cx="710" cy="410" r="32" fill="{accent}"/><path d="M290 378V255h420v123M430 255v123M570 255v123" fill="none" stroke="{accent}" stroke-width="9"/></g>',
+            f'<g data-scene="three-procurement-category-desks"><rect x="235" y="285" width="155" height="155" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="422" y="245" width="155" height="195" rx="15" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="610" y="285" width="155" height="155" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M275 335h75M275 380h75M462 300h75M462 350h75M462 400h75M650 335h75M650 380h75" stroke="{accent}" stroke-width="8"/></g>',
+            f'<g data-scene="ledger-to-electronic-registration"><rect x="245" y="260" width="210" height="190" rx="15" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M285 310h130M285 355h105M285 400h120" stroke="{accent}" stroke-width="9"/><path d="M455 355h100m-32-30 32 30-32 30" fill="none" stroke="{dark}" stroke-width="13"/><rect x="595" y="235" width="165" height="225" rx="14" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M630 285h95M630 330h75M630 375h90" stroke="{accent}" stroke-width="8"/><rect x="645" y="400" width="65" height="35" rx="8" fill="{pale}" stroke="{dark}" stroke-width="7"/></g>',
+        ],
+        17: [
+            f'<g data-scene="family-furigana-notice-rows"><path d="M250 225h245v245H250Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="m250 225 122 92 123-92M275 355h195M275 405h195" fill="none" stroke="{accent}" stroke-width="9"/><path d="M535 225h230v245H535Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M535 285h230M535 345h230M535 405h230M610 225v245M690 225v245" stroke="{accent}" stroke-width="7"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="372" y="205">圧着はがき</text><text x="575" y="260">家族</text><text x="650" y="260">氏</text><text x="728" y="260">名</text><text x="575" y="323">1</text><text x="575" y="383">2</text><text x="575" y="443">3・4</text></g></g>',
+            f'<g data-scene="furigana-responsibility-lines"><circle cx="280" cy="285" r="39" fill="{accent}"/><circle cx="280" cy="415" r="39" fill="#fff" stroke="{dark}" stroke-width="8"/><path d="M320 285h145M320 415h145" stroke="{dark}" stroke-width="13"/><rect x="465" y="235" width="245" height="100" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="465" y="365" width="245" height="100" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M710 285h55M710 415h55" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="280" y="292">氏</text><text x="280" y="422">名</text><text x="587" y="278">原則・筆頭者</text><text x="587" y="408">本人</text><text x="587" y="438">または法定代理人</text></g></g>',
+            f'<g data-scene="furigana-three-time-crosscheck"><rect x="225" y="245" width="185" height="190" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="410" y="245" width="185" height="190" rx="15" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="595" y="245" width="185" height="190" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M260 320h115M260 365h90M445 320h115M445 365h90M630 320h115M630 365h90" stroke="{accent}" stroke-width="8"/><path d="M410 465h185M502 435v55" stroke="{dark}" stroke-width="10"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="317" y="285">2025年通知</text><text x="502" y="285">届出控え</text><text x="687" y="285">現在記載</text><text x="502" y="520">家族番号で照合</text></g></g>',
+        ],
         207: [
             f'<g data-scene="festival-photo-envelope"><rect x="285" y="245" width="280" height="210" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M315 400l75-82 58 55 52-42 35 69" fill="none" stroke="{accent}" stroke-width="12"/><circle cx="365" cy="300" r="27" fill="{pale}" stroke="{dark}" stroke-width="8"/><path d="M595 300h145v150H595Zm0 0 72 62 73-62" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M625 395h85" stroke="{accent}" stroke-width="9"/></g>',
             f'<g data-scene="photo-provenance-chain"><rect x="250" y="285" width="155" height="135" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="595" y="285" width="155" height="135" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><circle cx="500" cy="350" r="55" fill="{pale}" stroke="{accent}" stroke-width="10"/><path d="M405 350h40m110 0h40" stroke="{dark}" stroke-width="14"/><path d="m430 330 20 20-20 20m140-40 20 20-20 20" fill="none" stroke="{accent}" stroke-width="9"/><path d="M285 325h85m-85 45h60m285-45h85m-85 45h60" stroke="{accent}" stroke-width="8"/></g>',
@@ -587,6 +612,11 @@ def svg(row: dict, index: int) -> str:
         ],
     }
     special_labels = {
+        249: ["固定資産・証明書ルート", "固定資産・必要項目から選ぶ", "固定資産・年度と範囲"],
+        288: ["施設修繕・証拠段階索引", "施設修繕・直し方を分ける", "施設修繕・予定から完了"],
+        190: ["看板設置・二つの制度確認", "場所・寸法・色を固定", "広告物と建築行為を分ける"],
+        194: ["入札参加・四段階確認", "受注内容から区分を選ぶ", "名簿の次に電子登録"],
+        17: ["戸籍フリガナ・家族別判定表", "戸籍フリガナ・氏と名の担当", "戸籍フリガナ・三時点照合"],
         207: ["古写真・原本と来歴", "古写真・撮影時期と場所", "古写真・権利と公開範囲"],
         208: ["森町史・最初の一冊", "森町史・年代と巻の分岐", "森町史・問いから巻へ"],
         209: ["郷土資料・請求記号", "郷土資料・書架からページ", "郷土資料・家族の索引"],
@@ -600,6 +630,31 @@ def svg(row: dict, index: int) -> str:
         292: ["農地・譲渡人と譲受人", "農地・一筆と権利の種類", "農地・締切と現地と総会"],
     }
     special_descriptions = {
+        249: [
+            "課税明細書と評価証明・評価通知・公課証明・資産証明を、提出先の必要項目と年度で選ぶ図",
+            "年次確認・一般用・登記用・記載項目確認・所有資産確認を五つの書類へ結ぶ分岐図",
+            "年度・名義・土地家屋・一部全部・物件番号を確認して窓口用と郵便用へ分ける図",
+        ],
+        288: [
+            "森町の公共施設を計画・予算・入札・完了の証拠段階ごとに索引へ結ぶ図",
+            "一棟の公共施設を三分割し、修繕・改修・更新等の違いを示す図",
+            "計画資料から予算・入札を経て工事の完了確認へ進む証拠経路の図",
+        ],
+        190: [
+            "森町の店舗看板から静岡県の屋外広告物許可と森町の景観届出へ二本の確認経路を分ける図",
+            "看板の設置場所、縦横寸法、地上高、色を位置図と立面図へ固定する図",
+            "広告面だけの変更と建物・支持工作物を含む建築行為を分けて確認する図",
+        ],
+        194: [
+            "資格区分、申請受付、資格者名簿、電子入札登録の四段階を順に確認する図",
+            "受注したい仕事を建設工事、測量・建設コンサルタント等、物品製造等へ振り分ける図",
+            "資格者名簿の登載確認から利用届、登録番号、電子入札利用者登録へ進む図",
+        ],
+        17: [
+            "圧着はがきに記載された最大4名を家族別の行へ分け、氏と名を個別に確認する図",
+            "氏は原則筆頭者、名は本人または法定代理人へ割り当て、届出の責任線を分ける図",
+            "2025年通知、期限までの届出控え、2026年5月26日以後の現在記載を家族番号で照合する図",
+        ],
         208: [
             "年代と資料種別の二軸から、森町史の最初の一冊を選ぶ巻別ルーティング表",
             "先史から近現代の年代軸へ資料編1から4を置き、通史・民俗・別冊を別レーンに分ける図",
@@ -758,6 +813,26 @@ def editorial_blocks_curated(row: dict) -> str:
     ]
     item_id = int(row["id"])
     special_figures = {
+        17: {
+            4: ("fig1.svg", "戸籍の氏は原則筆頭者、名は本人または法定代理人へ届出担当を分ける図", "氏と名で届出担当が異なるため、家族の行ごとに責任線を分けます。"),
+            8: ("fig2.svg", "2025年の通知、届出控え、2026年5月26日以後の現在記載を家族番号で照合する図", "通知だけで決めず、届出控えと現在の戸籍記載を家族番号ごとに照合します。"),
+        },
+        190: {
+            1: ("fig1.svg", "屋外広告物の設置場所、寸法、地上高、色を図面へ固定する図", "住所と道路条件に加え、看板の寸法・高さ・色を図面へ固定します。"),
+            5: ("fig2.svg", "屋外広告物の変更と建物・支持工作物を含む建築行為を分ける図", "看板だけの変更と、建物や支持工作物を含む行為を分けて確認します。"),
+        },
+        194: {
+            1: ("fig1.svg", "受注したい仕事を建設工事、測量等、物品製造等の三区分へ振り分ける図", "受注内容から、森町へ申請する入札参加資格の区分を選びます。"),
+            7: ("fig2.svg", "資格者名簿の登載確認から電子入札利用者登録へ進む図", "名簿登載と電子入札登録を同じ手続だと考えず、順番に確認します。"),
+        },
+        249: {
+            6: ("fig1.svg", "提出先の必要項目を課税明細・評価証明・評価通知・公課証明・資産証明へ結ぶ図", "書類名を先に決めず、提出先が必要とする項目から五つの書類へ振り分けます。"),
+            7: ("fig2.svg", "固定資産証明の年度・名義・土地家屋・範囲・物件番号を確認する図", "年度、名義、土地・家屋、一部・全部、物件番号をそろえてから申請方法を分けます。"),
+        },
+        288: {
+            4: ("fig1.svg", "公共施設の修繕・改修・更新等を三つに分ける図", "原資料の区分を保ち、修繕・改修・更新等を同じ実績としてまとめません。"),
+            7: ("fig2.svg", "公共施設の計画資料から予算・入札を経て完了確認へ進む図", "計画、予算、入札、完了を別の証拠段階として順に追います。"),
+        },
         208: {
             6: ("fig1.svg", "森町史の資料編1から4を年代軸へ置き、通史編と民俗・別冊を別レーンに分ける図", "先史から近現代までの年代に対応する資料編と、年代を横断する通史・民俗・別冊を分けます。"),
             10: ("fig2.svg", "検地帳、舞楽、棟札、古写真、特定家文書の問いを対応する森町史の巻へ振り分ける図", "調べたい資料種別を、資料編3・資料編5・別冊・図説・所在古文書目録の入口へ振り分けます。"),
@@ -1414,11 +1489,16 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     subject = title.split("｜", 1)[0]
     desc = f"{subject}について、対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     cover_alts = {
+        17: "戸籍の振り仮名通知に載る家族を行へ分け、氏と名を個別に確認する判定表",
+        190: "店舗の看板から静岡県の屋外広告物許可と森町の景観届出へ確認経路を分ける図",
+        194: "入札参加の資格区分・申請受付・名簿登載・電子入札登録を四段階で確認する図",
+        249: "課税明細と四つの固定資産証明を提出先の必要項目から選ぶ書類ルーティング図",
+        288: "森町の公共施設を計画・予算・入札・完了の証拠段階ごとに結ぶ修繕資料索引",
         208: "年代と資料種別の二軸から、森町史の最初の一冊を選ぶ巻別ルーティング表",
         292: "茶畑の一筆を挟み、譲渡人と譲受人が権利の種類を分けて当事者情報票を確認する場面",
     }
     cover_alt = cover_alts.get(int(row["id"]), f"{title}の確認場面を森町の山並み、家、道、資料で描いた表紙")
-    webpage = {"@context":"https://schema.org", "@type":"WebPage", "name":title, "url":SITE+url, "description":desc, "dateModified":TODAY, "author":{"@type":"Person","name":"大石博之"}}
+    webpage = {"@context":"https://schema.org", "@type":"WebPage", "name":title, "url":SITE+url, "description":desc, "dateModified":TODAY, "author":{"@type":"Person","name":"大石浩之"}}
     breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"静岡県森町ライフハック","item":SITE+"/"},{"@type":"ListItem","position":2,"name":category,"item":SITE+CATEGORY_PATH.get(category,"/guide/")},{"@type":"ListItem","position":3,"name":title,"item":SITE+url}]}
     role_labels = {
         "primary": "森町公式",

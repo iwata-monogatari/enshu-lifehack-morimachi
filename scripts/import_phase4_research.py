@@ -50,8 +50,8 @@ def validate_candidate(row: dict, source: Path) -> dict:
         item_id = int(row["id"])
     except (KeyError, TypeError, ValueError) as exc:
         raise ValueError(f"{source}: idが不正です") from exc
-    if not 201 <= item_id <= 300:
-        raise ValueError(f"{source}: ID{item_id} は201-300の範囲外です")
+    if not 1 <= item_id <= 300:
+        raise ValueError(f"{source}: ID{item_id} は1-300の範囲外です")
 
     normalized = {"id": item_id}
     for field in ALLOWED_FIELDS:
