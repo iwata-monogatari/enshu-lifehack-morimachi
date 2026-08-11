@@ -2673,13 +2673,13 @@
       "森町の狭い道路沿いで建替え前に確認すること",
       "後退部分や道路種別を建築前に確認したい"
     ],
-    "editorial_chars": 6851,
+    "editorial_chars": 6376,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 150,
@@ -2846,20 +2846,20 @@
   {
     "id": 159,
     "url": "/land/land-price-public-data/",
-    "title": "森町の土地価格を不動産情報ライブラリで調べる",
+    "title": "森町の土地価格を公的データで比べる｜査定前の比較条件カード",
     "category": "土地",
-    "search_intent": "公示地価や取引価格情報を査定前に確認したい",
+    "search_intent": "査定前に不動産情報ライブラリの公示地価・取引価格情報を物件種類、期間、面積等でそろえ、比較できる事例とできない事例を分けたい",
     "search_aliases": [
-      "森町の土地価格を不動産情報ライブラリで調べる",
-      "公示地価や取引価格情報を査定前に確認したい"
+      "森町の土地価格を公的データで比べる",
+      "査定前に不動産情報ライブラリの公示地価・取引価格情報を物件種類、期間、面積等でそろえ、比較できる事例とできない事例を分けたい"
     ],
-    "editorial_chars": 6871,
+    "editorial_chars": 6564,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 160,
@@ -2979,13 +2979,13 @@
       "森町の農地転用手続き後、着工前に許可条件を読み直す",
       "転用制度の入口ではなく、通知書・図面・工事範囲を着工前に照合したい"
     ],
-    "editorial_chars": 6947,
+    "editorial_chars": 6008,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 167,
@@ -3159,13 +3159,13 @@
       "森町の森林土地所有者届に添える位置図を準備する",
       "届出制度全般と分け、取得した森林の位置を示す添付資料づくりに絞る"
     ],
-    "editorial_chars": 6917,
+    "editorial_chars": 5987,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 177,

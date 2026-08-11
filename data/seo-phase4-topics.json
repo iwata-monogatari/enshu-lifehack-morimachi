@@ -6506,10 +6506,10 @@
     "id": 159,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の土地価格を不動産情報ライブラリで調べる",
+    "title": "森町の土地価格を公的データで比べる｜査定前の比較条件カード",
     "slug": "/land/land-price-public-data/",
     "category": "土地",
-    "search_intent": "公示地価や取引価格情報を査定前に確認したい",
+    "search_intent": "査定前に不動産情報ライブラリの公示地価・取引価格情報を物件種類、期間、面積等でそろえ、比較できる事例とできない事例を分けたい",
     "risk": "MEDIUM",
     "cannibalization": {
       "level": "LOW",
@@ -6539,9 +6539,9 @@
     },
     "review_note": "既存ページとの役割境界を冒頭と内部リンク文で明示する。",
     "primary_sources": [
-      "https://www.reinfolib.mlit.go.jp/",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/index.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/1255.html"
+      "https://www.reinfolib.mlit.go.jp/realEstatePrices/about/",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/5802.html"
     ],
     "required_sections": [
       "誰が、どの時点で「土地価格を不動産情報ライブラリで調べる」を確認する記事か",

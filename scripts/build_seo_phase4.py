@@ -465,6 +465,26 @@ def svg(row: dict, index: int) -> str:
     ]
     # 公開監査済みのDay5記事は、主題を一目で識別できる固有モチーフを使う。
     special_scenes = {
+        149: [
+            f'<g data-scene="mori-narrow-road-four-lines"><path d="M180 455 420 205M820 455 580 205" stroke="{dark}" stroke-width="12"/><path d="M265 455 455 230M735 455 545 230" stroke="{accent}" stroke-width="9" stroke-dasharray="18 12"/><path d="M500 185v300" stroke="{dark}" stroke-width="8" stroke-dasharray="10 12"/><path d="M410 410V300l90-70 90 70v110Z" fill="#fff" stroke="{dark}" stroke-width="9"/><g font-family="sans-serif" font-size="16" font-weight="700" fill="{dark}" text-anchor="middle"><text x="245" y="490">町有道路境界</text><text x="390" y="460">後退候補線</text><text x="500" y="520">基準時中心線</text><text x="755" y="490">道路区域の線</text></g></g>',
+            f'<g data-scene="gis-counter-field-crosscheck"><rect x="220" y="235" width="180" height="210" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="410" y="285" width="180" height="160" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="600" y="235" width="180" height="210" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M400 340h10m180 0h10" stroke="{accent}" stroke-width="14"/><g font-family="sans-serif" font-size="19" font-weight="700" fill="{dark}" text-anchor="middle"><text x="310" y="275">指定道路図</text><text x="310" y="355">GIS</text><text x="500" y="325">町・県</text><text x="500" y="365">窓口確認</text><text x="690" y="275">地番・写真</text><text x="690" y="355">現地確認</text></g></g>',
+            f'<g data-scene="setback-design-version-route"><rect x="215" y="255" width="175" height="170" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="415" y="225" width="175" height="200" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="615" y="275" width="175" height="150" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M390 340h25m175 0h25" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="302" y="305">照会前図</text><text x="302" y="365">未確認線</text><text x="502" y="285">確認回答</text><text x="502" y="345">日付・担当</text><text x="702" y="325">配置図版</text><text x="702" y="375">設計者確認</text></g></g>',
+        ],
+        159: [
+            f'<g data-scene="public-land-price-comparison-card"><rect x="210" y="245" width="180" height="195" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="410" y="215" width="180" height="225" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="610" y="245" width="180" height="195" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M250 310h100M250 360h85M450 285h100M450 340h85M650 310h100M650 360h85" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="300" y="275">地価公示</text><text x="500" y="255">取引価格</text><text x="700" y="275">用途図</text><text x="500" y="405">比較条件カード</text></g></g>',
+            f'<g data-scene="property-type-period-filter-board"><rect x="210" y="235" width="580" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M210 305h580M355 235v235M500 235v235M645 235v235" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="282" y="280">土地</text><text x="427" y="280">土地建物</text><text x="572" y="280">農地</text><text x="717" y="280">林地</text><text x="282" y="355">地域</text><text x="427" y="355">期間</text><text x="572" y="355">面積帯</text><text x="717" y="355">採否理由</text></g><path d="m665 420 25 25 55-75" fill="none" stroke="{dark}" stroke-width="12"/></g>',
+            f'<g data-scene="comparable-sale-question-sheet"><path d="M230 245h230v210H230Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M270 300h150M270 345h115M270 390h140" stroke="{accent}" stroke-width="8"/><path d="M460 350h85m-30-28 30 28-30 28" fill="none" stroke="{dark}" stroke-width="13"/><rect x="570" y="230" width="210" height="240" rx="16" fill="{pale}" stroke="{dark}" stroke-width="10"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="345" y="275">比較候補</text><text x="675" y="275">査定前の質問</text><text x="675" y="330">面積・形状</text><text x="675" y="375">接道・時点</text><text x="675" y="420">未確認項目</text></g></g>',
+        ],
+        166: [
+            f'<g data-scene="conversion-permit-construction-brief"><rect x="220" y="240" width="210" height="205" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M260 295h130M260 340h100M260 385h115" stroke="{accent}" stroke-width="8"/><path d="M430 345h85m-30-28 30 28-30 28" fill="none" stroke="{dark}" stroke-width="13"/><path d="M565 440V305l90-70 90 70v135Z" fill="#fff" stroke="{dark}" stroke-width="10"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="325" y="275">許可書・申請図</text><text x="655" y="285">着工前</text><text x="655" y="375">対象範囲を照合</text></g></g>',
+            f'<g data-scene="parcel-road-water-plan-overlay"><path d="M230 250 455 215l90 100-55 155-235 10Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M330 235l45 235M240 365l270 55" stroke="{accent}" stroke-width="8"/><path d="M555 420q85-155 205-85" fill="none" stroke="{dark}" stroke-width="18"/><path d="M555 455q85-155 205-85" fill="none" stroke="{accent}" stroke-width="12"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}"><text x="265" y="300">申請地</text><text x="585" y="300">道路</text><text x="665" y="410">排水</text></g></g>',
+            f'<g data-scene="construction-progress-completion-route"><rect x="190" y="285" width="160" height="130" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="420" y="235" width="160" height="180" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="650" y="285" width="160" height="130" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M350 350h70m160 0h70" stroke="{accent}" stroke-width="14"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="270" y="335">許可条件</text><text x="270" y="380">計画変更</text><text x="500" y="300">工事進捗</text><text x="500" y="355">写真・日付</text><text x="730" y="335">完了報告</text><text x="730" y="380">結果保管</text></g></g>',
+        ],
+        176: [
+            f'<g data-scene="forest-notice-all-parcels-map"><path d="M210 250 390 205l105 90-65 175-205 5Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M300 228l35 237M220 360l245 55" stroke="{accent}" stroke-width="8"/><rect x="555" y="225" width="230" height="245" rx="15" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M555 290h230M630 225v245M705 225v245" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="290" y="320">図上1</text><text x="390" y="400">図上2</text><text x="592" y="265">行</text><text x="667" y="265">地番</text><text x="745" y="265">図番</text></g></g>',
+            f'<g data-scene="forest-map-source-comparison-desk"><rect x="200" y="250" width="170" height="190" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="415" y="215" width="170" height="225" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="630" y="250" width="170" height="190" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="285" y="300">地理院地図</text><text x="285" y="370">縮尺・取得日</text><text x="500" y="270">町の案内図</text><text x="500" y="350">概略位置</text><text x="715" y="300">手元の地図</text><text x="715" y="370">出典未確認</text></g></g>',
+            f'<g data-scene="parcel-row-map-number-handover"><rect x="205" y="235" width="260" height="230" rx="15" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M205 300h260M290 235v230M380 235v230" stroke="{accent}" stroke-width="8"/><path d="M465 350h80m-30-28 30 28-30 28" fill="none" stroke="{dark}" stroke-width="13"/><path d="M585 250 770 225l45 105-65 135-195-20-35-105Z" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="635" cy="330" r="24" fill="{accent}"/><circle cx="735" cy="380" r="24" fill="{pale}" stroke="{dark}" stroke-width="7"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="248" y="275">届出行</text><text x="335" y="275">地番</text><text x="422" y="275">図番</text><text x="675" y="475">全筆照合</text></g></g>',
+        ],
         249: [
             f'<g data-scene="property-tax-certificate-router"><rect x="235" y="245" width="190" height="210" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M270 300h120M270 345h95M270 390h110" stroke="{accent}" stroke-width="8"/><path d="M425 350h75m-25-25 25 25-25 25" fill="none" stroke="{dark}" stroke-width="12"/><rect x="535" y="205" width="210" height="275" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M535 270h210M535 335h210M535 400h210M640 205v275" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="330" y="285">課税明細</text><text x="585" y="245">評価</text><text x="690" y="245">通知</text><text x="585" y="310">公課</text><text x="690" y="310">資産</text><text x="640" y="375">提出先の必要項目</text><text x="640" y="445">年度・対象</text></g></g>',
             f'<g data-scene="five-purpose-certificate-branches"><circle cx="500" cy="235" r="42" fill="{accent}"/><path d="M500 277v55M500 332 285 415M500 332 390 415M500 332v83M500 332l110 83M500 332l215 83" fill="none" stroke="{dark}" stroke-width="11"/><g fill="#fff" stroke="{accent}" stroke-width="8"><rect x="225" y="415" width="120" height="70" rx="12"/><rect x="350" y="415" width="120" height="70" rx="12"/><rect x="475" y="415" width="120" height="70" rx="12"/><rect x="600" y="415" width="120" height="70" rx="12"/><rect x="725" y="415" width="120" height="70" rx="12"/></g><g font-family="sans-serif" font-size="15" font-weight="700" fill="{dark}" text-anchor="middle"><text x="500" y="242">必要項目</text><text x="285" y="457">年次確認</text><text x="410" y="457">一般用</text><text x="535" y="457">登記用</text><text x="660" y="448">記載項目</text><text x="660" y="469">を確認</text><text x="785" y="448">所有資産</text><text x="785" y="469">を確認</text></g></g>',
@@ -627,6 +647,10 @@ def svg(row: dict, index: int) -> str:
         ],
     }
     special_labels = {
+        149: ["接道確認・四本の線", "接道確認・GISと現地", "接道確認・図面の版"],
+        159: ["土地価格・比較条件カード", "土地価格・種類と期間", "土地価格・質問へ変換"],
+        166: ["農地転用・許可後の着工前", "農地転用・図面を重ねる", "農地転用・進捗と完了"],
+        176: ["森林届・全対象筆の位置図", "森林届・地図の出典", "森林届・地番と図番"],
         249: ["固定資産・証明書ルート", "固定資産・必要項目から選ぶ", "固定資産・年度と範囲"],
         288: ["施設修繕・証拠段階索引", "施設修繕・直し方を分ける", "施設修繕・予定から完了"],
         190: ["看板設置・二つの制度確認", "場所・寸法・色を固定", "広告物と建築行為を分ける"],
@@ -648,6 +672,26 @@ def svg(row: dict, index: int) -> str:
         162: ["農業委員会・令和8年度12か月", "農業委員会・四つの日付", "農業委員会・予定と実績"],
     }
     special_descriptions = {
+        149: [
+            "狭い道路沿いの建替え前に、道路区域、町有道路境界、基準時中心線、後退候補線を別々に照合する図",
+            "静岡県指定道路図のGIS、町と県の窓口、地番資料と現地写真を順に照合する図",
+            "照会前の未確認線、窓口回答、設計者が使う配置図を版ごとに分ける図",
+        ],
+        159: [
+            "地価公示、取引価格情報、森町用途図を別資料として一枚の比較条件カードへ置く図",
+            "土地・土地建物・農地・林地を分け、地域・期間・面積帯・採否理由をそろえる検索盤",
+            "面積・形状・接道・時点の違いを比較候補から査定前の質問表へ移す図",
+        ],
+        166: [
+            "農地転用の許可書と申請図を、許可対象の工事範囲と着工前に照合する図",
+            "申請地、道路、排水計画を別の線として重ね、変更の有無を確認する図",
+            "許可条件と計画変更、工事進捗、完了報告を一件の記録経路でつなぐ図",
+        ],
+        176: [
+            "森林土地所有者届の全対象地番を、位置図上の番号と一対一で対応させる図",
+            "地理院地図、町の案内図、手元の地図を出典・縮尺・取得日ごとに分ける図",
+            "届出書の行番号、地番、位置図番号を照合し、全筆を示したか確認する図",
+        ],
         249: [
             "課税明細書と評価証明・評価通知・公課証明・資産証明を、提出先の必要項目と年度で選ぶ図",
             "年次確認・一般用・登記用・記載項目確認・所有資産確認を五つの書類へ結ぶ分岐図",
@@ -846,6 +890,22 @@ def editorial_blocks_curated(row: dict) -> str:
     ]
     item_id = int(row["id"])
     special_figures = {
+        149: {
+            3: ("fig1.svg", "静岡県指定道路図GIS、町と県の窓口、地番資料と現地を照合する図", "GIS表示を確定線とせず、窓口回答と地番・現地資料へ順に照合します。"),
+            9: ("fig2.svg", "接道照会前の未確認線、窓口回答、設計者の配置図を版ごとに分ける図", "回答日と担当を残し、設計へ渡した線を前の版へ上書きしません。"),
+        },
+        159: {
+            3: ("fig1.svg", "土地・土地建物・農地・林地を分け、地域・期間・面積帯をそろえる検索盤", "物件種類と期間を混ぜず、比較候補の採否理由まで同じ表へ残します。"),
+            9: ("fig2.svg", "面積・形状・接道・時点の違いを査定前の質問表へ移す図", "公的データの数字を価格結論にせず、比較できない条件を質問へ変えます。"),
+        },
+        166: {
+            3: ("fig1.svg", "農地転用の申請地、公図の道路・水路、現地の施工範囲を重ねて照合する図", "許可申請時の道路・水路・隣接地と、着工前の現地条件を別の線で確認します。"),
+            8: ("fig2.svg", "農地転用の許可条件、工事進捗、完了報告を一件でつなぐ図", "許可済み、着工済み、完了報告済みを同じ状態とせず、証拠を段階別に残します。"),
+        },
+        176: {
+            3: ("fig1.svg", "地理院地図、町の案内図、手元の地図を出典・縮尺・取得日で分ける図", "位置図の候補を一種類へ決めつけず、出典と縮尺を記して森町へ確認します。"),
+            9: ("fig2.svg", "森林届の行番号、全対象地番、位置図番号を一対一で照合する図", "差替え後も全対象筆が位置図に残るよう、届出行と図上番号を版ごとに確認します。"),
+        },
         17: {
             4: ("fig1.svg", "戸籍の氏は原則筆頭者、名は本人または法定代理人へ届出担当を分ける図", "氏と名で届出担当が異なるため、家族の行ごとに責任線を分けます。"),
             8: ("fig2.svg", "2025年の通知、届出控え、2026年5月26日以後の現在記載を家族番号で照合する図", "通知だけで決めず、届出控えと現在の戸籍記載を家族番号ごとに照合します。"),
@@ -1522,6 +1582,10 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     subject = title.split("｜", 1)[0]
     desc = f"{subject}について、対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     cover_alts = {
+        149: "狭い道路沿いの建替え前に、道路区域・町有道路境界・基準時中心線・後退候補線を分ける接道確認図",
+        159: "地価公示・取引価格情報・森町用途図を別資料として置く土地価格の比較条件カード",
+        166: "農地転用の許可書・申請図と着工前の工事範囲を照合する一件ファイル",
+        176: "森林土地所有者届の全対象地番と位置図番号を一対一で照合する全筆位置図",
         17: "戸籍の振り仮名通知に載る家族を行へ分け、氏と名を個別に確認する判定表",
         190: "店舗の看板から静岡県の屋外広告物許可と森町の景観届出へ確認経路を分ける図",
         194: "入札参加の資格区分・申請受付・名簿登載・電子入札登録を四段階で確認する図",
