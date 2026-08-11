@@ -3728,20 +3728,20 @@
   {
     "id": 208,
     "url": "/records/town-history-volume-index/",
-    "title": "森町史の巻・章・索引から地区記述を探す",
+    "title": "森町史のどの巻を先に開くか｜年代・資料種別から選ぶ",
     "category": "地域史調査",
-    "search_intent": "町史のどの巻を見れば地区や家の手掛かりが得られるか知りたい",
+    "search_intent": "調べたい年代と資料種別から森町史の最初の一冊を選びたい",
     "search_aliases": [
-      "森町史の巻・章・索引から地区記述を探す",
-      "町史のどの巻を見れば地区や家の手掛かりが得られるか知りたい"
+      "森町史のどの巻を先に開くか",
+      "調べたい年代と資料種別から森町史の最初の一冊を選びたい"
     ],
-    "editorial_chars": 6494,
+    "editorial_chars": 6499,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 209,
@@ -5247,13 +5247,13 @@
       "森町で農地売買・貸借の当事者情報を申請前に揃える",
       "農地の権利移動相談で必要な名義と利用目的を整理したい"
     ],
-    "editorial_chars": 6485,
+    "editorial_chars": 6095,
     "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 293,

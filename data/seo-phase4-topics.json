@@ -9140,10 +9140,10 @@
   },
   {
     "id": 208,
-    "title": "森町史の巻・章・索引から地区記述を探す",
+    "title": "森町史のどの巻を先に開くか｜年代・資料種別から選ぶ",
     "slug": "/records/town-history-volume-index/",
     "category": "地域史調査",
-    "search_intent": "町史のどの巻を見れば地区や家の手掛かりが得られるか知りたい",
+    "search_intent": "調べたい年代と資料種別から森町史の最初の一冊を選びたい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/index.html",
       "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunka/1160.html",

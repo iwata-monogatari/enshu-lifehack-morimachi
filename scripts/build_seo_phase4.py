@@ -540,6 +540,11 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="facility-room-capacity-layout"><rect x="280" y="225" width="440" height="245" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M500 225v245M280 315h440" stroke="{accent}" stroke-width="8"/><rect x="315" y="255" width="150" height="35" rx="8" fill="{pale}" stroke="{dark}" stroke-width="6"/><circle cx="340" cy="365" r="18" fill="{accent}"/><circle cx="405" cy="365" r="18" fill="{accent}"/><circle cx="340" cy="420" r="18" fill="{accent}"/><circle cx="405" cy="420" r="18" fill="{accent}"/><path d="M550 350h120v85H550Z" fill="{pale}" stroke="{dark}" stroke-width="8"/><path d="M570 375h80M570 405h55" stroke="{accent}" stroke-width="7"/></g>',
             f'<g data-scene="reservation-counter-key-route"><rect x="270" y="250" width="170" height="205" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M305 300h100M305 345h78M305 390h95" stroke="{accent}" stroke-width="8"/><path d="M455 355h105m-38-35 38 35-38 35" fill="none" stroke="{dark}" stroke-width="13"/><path d="M595 420v-95h145v95" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="635" cy="300" r="38" fill="{pale}" stroke="{accent}" stroke-width="9"/><path d="M673 300h80v25h-26v28h-28v-28h-26" fill="none" stroke="{dark}" stroke-width="12"/></g>',
         ],
+        208: [
+            f'<g data-scene="town-history-routing-table"><path d="M265 450h470M330 490V225" stroke="{dark}" stroke-width="12"/><path d="M330 390h360M330 320h300M330 250h230" stroke="{accent}" stroke-width="10"/><rect x="360" y="360" width="100" height="55" rx="10" fill="#fff" stroke="{dark}" stroke-width="7"/><rect x="500" y="290" width="100" height="55" rx="10" fill="{pale}" stroke="{dark}" stroke-width="7"/><rect x="640" y="220" width="100" height="55" rx="10" fill="#fff" stroke="{dark}" stroke-width="7"/><path d="m445 345 28-25-28-25m140-20 28-25-28-25" fill="none" stroke="{accent}" stroke-width="9"/></g>',
+            f'<g data-scene="town-history-period-volume-lanes"><path d="M255 445h490" stroke="{dark}" stroke-width="12"/><circle cx="300" cy="445" r="18" fill="{accent}"/><circle cx="430" cy="445" r="18" fill="{accent}"/><circle cx="560" cy="445" r="18" fill="{accent}"/><circle cx="700" cy="445" r="18" fill="{accent}"/><rect x="260" y="235" width="95" height="145" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="390" y="235" width="95" height="145" rx="12" fill="{pale}" stroke="{dark}" stroke-width="8"/><rect x="520" y="235" width="95" height="145" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="655" y="235" width="95" height="145" rx="12" fill="{pale}" stroke="{dark}" stroke-width="8"/><path d="M310 380v45M440 380v45M570 380v45M705 380v45" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="307" y="315">資料編1</text><text x="437" y="315">資料編2</text><text x="567" y="315">資料編3</text><text x="702" y="315">資料編4</text><text x="360" y="195">通史</text><text x="500" y="195">資料編5</text><text x="640" y="195">別冊</text></g></g>',
+            f'<g data-scene="town-history-question-sorter"><rect x="250" y="220" width="500" height="110" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M300 330v105M400 330v105M500 330v105M600 330v105M700 330v105" stroke="{accent}" stroke-width="10"/><path d="m280 405 20 24 20-24m60 0 20 24 20-24m60 0 20 24 20-24m60 0 20 24 20-24m60 0 20 24 20-24" fill="none" stroke="{dark}" stroke-width="9"/><rect x="260" y="448" width="80" height="48" rx="8" fill="{pale}"/><rect x="360" y="448" width="80" height="48" rx="8" fill="#fff" stroke="{dark}" stroke-width="6"/><rect x="460" y="448" width="80" height="48" rx="8" fill="{pale}"/><rect x="560" y="448" width="80" height="48" rx="8" fill="#fff" stroke="{dark}" stroke-width="6"/><rect x="660" y="448" width="80" height="48" rx="8" fill="{pale}"/><g font-family="sans-serif" font-size="16" font-weight="700" fill="{dark}" text-anchor="middle"><text x="300" y="270">検地帳</text><text x="400" y="270">舞楽</text><text x="500" y="270">棟札</text><text x="600" y="270">古写真</text><text x="700" y="270">家文書</text><text x="300" y="478">資料編3</text><text x="400" y="478">資料編5</text><text x="500" y="478">別冊</text><text x="600" y="478">図説</text><text x="700" y="478">目録</text></g></g>',
+        ],
         209: [
             f'<g data-scene="library-call-number-card"><rect x="270" y="255" width="175" height="220" rx="14" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M310 300h95M310 345h70M310 390h90" stroke="{accent}" stroke-width="9"/><path d="M500 235h225v240H500Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M550 235v240M615 235v240M680 235v240" stroke="{accent}" stroke-width="8"/></g>',
             f'<g data-scene="catalog-shelf-page-route"><rect x="245" y="275" width="150" height="150" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M395 350h100m-28-28 28 28-28 28" fill="none" stroke="{accent}" stroke-width="12"/><path d="M535 235h210v220H535Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M575 280h130M575 330h105M575 380h120" stroke="{accent}" stroke-width="9"/></g>',
@@ -575,9 +580,15 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="registry-to-farmland-crosscheck"><rect x="275" y="245" width="215" height="205" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M310 300h145M310 345h110M310 390h130" stroke="{accent}" stroke-width="8"/><path d="M545 250 705 225l55 90-42 135-185 10-48-105Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M600 242l15 207M545 330l194 65" stroke="{accent}" stroke-width="8"/><circle cx="520" cy="365" r="65" fill="none" stroke="{dark}" stroke-width="12"/><path d="M565 412l70 65" stroke="{dark}" stroke-width="17" stroke-linecap="round"/></g>',
             f'<g data-scene="parcel-heir-verification-route"><circle cx="300" cy="360" r="34" fill="#fff" stroke="{dark}" stroke-width="8"/><circle cx="300" cy="265" r="25" fill="{accent}"/><circle cx="245" cy="215" r="20" fill="#fff" stroke="{dark}" stroke-width="7"/><circle cx="355" cy="215" r="20" fill="#fff" stroke="{dark}" stroke-width="7"/><path d="M300 240 260 222M300 240l40-18M335 350h120" stroke="{dark}" stroke-width="10"/><path d="m425 322 32 28-32 28" fill="none" stroke="{accent}" stroke-width="10"/><path d="M480 275 620 235l115 70-30 135-175 25-75-95Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M550 255l-20 210M620 235l85 205M480 355l245-15" stroke="{accent}" stroke-width="8"/><circle cx="650" cy="365" r="26" fill="{dark}"/></g>',
         ],
+        292: [
+            f'<g data-scene="farmland-transfer-parties"><path d="M260 455Q420 300 740 265M285 495Q455 350 760 330" fill="none" stroke="{dark}" stroke-width="18"/><path d="M355 420q35-72 70 0M520 350q35-72 70 0M650 305q35-72 70 0" fill="none" stroke="{accent}" stroke-width="12"/><circle cx="300" cy="245" r="34" fill="{accent}"/><circle cx="700" cy="245" r="34" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="405" y="220" width="190" height="150" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M440 265h120M440 310h95" stroke="{accent}" stroke-width="8"/><path d="M330 260l75 35m265-35-75 35" stroke="{dark}" stroke-width="10"/></g>',
+            f'<g data-scene="farmland-rights-parcel-branches"><path d="M260 270 425 225l105 85-55 155-195 10Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M335 245l35 220M265 370l235 55" stroke="{accent}" stroke-width="8"/><rect x="565" y="205" width="175" height="80" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="565" y="325" width="175" height="80" rx="12" fill="{pale}" stroke="{dark}" stroke-width="8"/><rect x="565" y="445" width="175" height="80" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><path d="M500 350 565 245M500 350h65M500 350l65 135" stroke="{dark}" stroke-width="12"/><circle cx="500" cy="350" r="22" fill="{accent}"/><g font-family="sans-serif" font-size="19" font-weight="700" fill="{dark}" text-anchor="middle"><text x="335" y="310">地番</text><text x="390" y="370">登記地目</text><text x="405" y="430">現況地目</text><text x="652" y="255">所有権</text><text x="652" y="375">賃借権</text><text x="652" y="495">使用貸借</text></g></g>',
+            f'<g data-scene="farmland-deadline-field-meeting-calendar"><rect x="250" y="230" width="500" height="240" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M250 300h500M415 230v240M585 230v240" stroke="{accent}" stroke-width="8"/><circle cx="330" cy="370" r="34" fill="{pale}" stroke="{dark}" stroke-width="8"/><path d="M500 338v70m-35-35h70" stroke="{dark}" stroke-width="14"/><path d="M645 405V330l48-38 48 38v75Z" fill="{pale}" stroke="{dark}" stroke-width="8"/><path d="m305 420 24 24 50-65" fill="none" stroke="{accent}" stroke-width="11"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="332" y="275">締切</text><text x="500" y="275">現地調査</text><text x="668" y="275">農業委員会</text></g></g>',
+        ],
     }
     special_labels = {
         207: ["古写真・原本と来歴", "古写真・撮影時期と場所", "古写真・権利と公開範囲"],
+        208: ["森町史・最初の一冊", "森町史・年代と巻の分岐", "森町史・問いから巻へ"],
         209: ["郷土資料・請求記号", "郷土資料・書架からページ", "郷土資料・家族の索引"],
         212: ["古地名・原表記と現在候補", "古地名・目印の照合", "古地名・確度と確認先"],
         219: ["森町統計・基準日と単位", "森町統計・表の範囲", "森町統計・引用カード"],
@@ -586,8 +597,14 @@ def svg(row: dict, index: int) -> str:
         280: ["見守り・普段の連絡", "見守り・三段階", "見守り・支援の接続"],
         246: ["課税明細・資料の役割", "課税明細・一筆一棟", "課税明細・単有と共有"],
         284: ["児童クラブ・利用時間の比較", "児童クラブ・三つの実施場所", "児童クラブ・迎え経路"],
+        292: ["農地・譲渡人と譲受人", "農地・一筆と権利の種類", "農地・締切と現地と総会"],
     }
     special_descriptions = {
+        208: [
+            "年代と資料種別の二軸から、森町史の最初の一冊を選ぶ巻別ルーティング表",
+            "先史から近現代の年代軸へ資料編1から4を置き、通史・民俗・別冊を別レーンに分ける図",
+            "検地帳、舞楽、棟札、古写真、特定家文書の問いを対応する森町史の巻へ振り分ける図",
+        ],
         212: [
             "古絵図の原表記と現在地候補を分けて対照表へ記録する図",
             "古絵図の方角、水路、道、目印を現在地図の候補と照合する図",
@@ -597,6 +614,11 @@ def svg(row: dict, index: int) -> str:
             "戸籍束、法定相続情報一覧図、町への提出書類を用途別に分ける図",
             "町の各手続で法定相続情報一覧図の受入可否を確認してから提出先を分ける図",
             "相続書類の原本、写し、提示、返却、再交付を表で管理する図",
+        ],
+        292: [
+            "茶畑の一筆を挟み、譲渡人と譲受人が権利種別を分けて確認する図",
+            "農地一筆の地番、登記地目、現況地目と所有権・賃借権・使用貸借を分岐して照合する図",
+            "農地手続の締切日、現地調査日、農業委員会の日を別々に管理する図",
         ],
     }
     item_id = int(row["id"])
@@ -736,6 +758,10 @@ def editorial_blocks_curated(row: dict) -> str:
     ]
     item_id = int(row["id"])
     special_figures = {
+        208: {
+            6: ("fig1.svg", "森町史の資料編1から4を年代軸へ置き、通史編と民俗・別冊を別レーンに分ける図", "先史から近現代までの年代に対応する資料編と、年代を横断する通史・民俗・別冊を分けます。"),
+            10: ("fig2.svg", "検地帳、舞楽、棟札、古写真、特定家文書の問いを対応する森町史の巻へ振り分ける図", "調べたい資料種別を、資料編3・資料編5・別冊・図説・所在古文書目録の入口へ振り分けます。"),
+        },
         212: {
             4: ("fig1.svg", "古絵図の方角、水路、道、目印を現在地図の候補と照合する図", "古絵図の目印を言葉に置き換え、現在地図の候補と照合します。"),
             8: ("fig2.svg", "古地名の一致、有力、未確認を分けて確認先とともに残す図", "一致、有力、未確認を分け、次の確認先まで対照表へ残します。"),
@@ -743,6 +769,10 @@ def editorial_blocks_curated(row: dict) -> str:
         230: {
             7: ("fig1.svg", "町の各手続で法定相続情報一覧図の受入可否を確認する図", "一覧図を受け入れられるか各提出先へ確認してから、書類の経路を分けます。"),
             8: ("fig2.svg", "相続書類の原本、写し、提示、返却、再交付を管理する図", "原本、写し、提示のみ、返却、再交付を手続ごとに記録します。"),
+        },
+        292: {
+            3: ("fig1.svg", "農地一筆の地番と地目を、所有権・賃借権・使用貸借の権利種別へ分ける図", "一筆ごとの土地情報と、取得する権利の種類を同じ確認表で照合します。"),
+            9: ("fig2.svg", "農地手続の締切日、現地調査日、農業委員会の日を別々に管理する図", "締切、現地調査、農業委員会の日を混同せず、別々の予定として残します。"),
         },
     }
     for index, section in enumerate(sections):
@@ -1383,6 +1413,11 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     faq_json = {"@context":"https://schema.org", "@type":"FAQPage", "mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in faq]}
     subject = title.split("｜", 1)[0]
     desc = f"{subject}について、対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
+    cover_alts = {
+        208: "年代と資料種別の二軸から、森町史の最初の一冊を選ぶ巻別ルーティング表",
+        292: "茶畑の一筆を挟み、譲渡人と譲受人が権利の種類を分けて当事者情報票を確認する場面",
+    }
+    cover_alt = cover_alts.get(int(row["id"]), f"{title}の確認場面を森町の山並み、家、道、資料で描いた表紙")
     webpage = {"@context":"https://schema.org", "@type":"WebPage", "name":title, "url":SITE+url, "description":desc, "dateModified":TODAY, "author":{"@type":"Person","name":"大石博之"}}
     breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"静岡県森町ライフハック","item":SITE+"/"},{"@type":"ListItem","position":2,"name":category,"item":SITE+CATEGORY_PATH.get(category,"/guide/")},{"@type":"ListItem","position":3,"name":title,"item":SITE+url}]}
     role_labels = {
@@ -1400,7 +1435,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     # これにより、コホート単位の公開でも未審査ページへの導線が生まれない。
     related = "".join([f'<a class="official-link" href="{category_hub}">{e(category)}の記事を状況から選ぶ</a>', '<a class="official-link" href="/guide/morimachi-complete-guide/">森町総合ガイド</a>', '<a class="official-link" href="/life/living-soon/about-morimachi/">森町を知る</a>', '<a class="official-link" href="/questions/">森町のよくある質問</a>'])
     related += f'<script type="application/ld+json">{json.dumps(breadcrumb, ensure_ascii=False, separators=(",", ":"))}</script>'
-    html = f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | 森町ライフハック</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE}{url}"><meta property="og:type" content="website"><meta property="og:site_name" content="森町ライフハック"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}{url}cover.svg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260702"><script type="application/ld+json">{json.dumps(webpage, ensure_ascii=False, separators=(',', ':'))}</script><script type="application/ld+json">{json.dumps(faq_json, ensure_ascii=False, separators=(',', ':'))}</script></head><body><!-- SEO-PHASE4-PAGE --><!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">森町ライフハック</a></div></header><!-- PART:header:END --><!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">森町ライフハックは森町公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END --><main><div class="wrap"><p class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {e(category)} ／ {e(title)}</p><section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(title)}</h1></div><div class="hero-body"><p class="lead">{e(intent)}人が、事実と未確認事項を分けて次の一歩を決めるためのガイドです。</p><img style="width:100%;height:auto" src="cover.svg" width="1000" height="560" alt="{e(title)}の確認場面を森町の山並み、家、道、資料で描いた表紙"></div></section><article class="post-editorial-body">{editorial_blocks_v2(row)}</article><section><h2 class="sec">よくある質問</h2><div class="qa">{faq_html}</div></section><section><h2 class="sec">公式情報源</h2><p>リンク先の対象年度、担当部署、更新日を確認し、実行直前に再確認してください。</p><div class="official">{sources}</div></section><section><h2 class="sec">関連ページ</h2><div class="official">{related}</div></section><p class="verified">生成日：{TODAY} ／ 個別の可否は公式窓口・当事者・必要な専門家へ確認してください。</p></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
+    html = f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | 森町ライフハック</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE}{url}"><meta property="og:type" content="website"><meta property="og:site_name" content="森町ライフハック"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}{url}cover.svg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260702"><script type="application/ld+json">{json.dumps(webpage, ensure_ascii=False, separators=(',', ':'))}</script><script type="application/ld+json">{json.dumps(faq_json, ensure_ascii=False, separators=(',', ':'))}</script></head><body><!-- SEO-PHASE4-PAGE --><!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">森町ライフハック</a></div></header><!-- PART:header:END --><!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">森町ライフハックは森町公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END --><main><div class="wrap"><p class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {e(category)} ／ {e(title)}</p><section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(title)}</h1></div><div class="hero-body"><p class="lead">{e(intent)}人が、事実と未確認事項を分けて次の一歩を決めるためのガイドです。</p><img style="width:100%;height:auto" src="cover.svg" width="1000" height="560" alt="{e(cover_alt)}"></div></section><article class="post-editorial-body">{editorial_blocks_v2(row)}</article><section><h2 class="sec">よくある質問</h2><div class="qa">{faq_html}</div></section><section><h2 class="sec">公式情報源</h2><p>リンク先の対象年度、担当部署、更新日を確認し、実行直前に再確認してください。</p><div class="official">{sources}</div></section><section><h2 class="sec">関連ページ</h2><div class="official">{related}</div></section><p class="verified">生成日：{TODAY} ／ 個別の可否は公式窓口・当事者・必要な専門家へ確認してください。</p></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
     # 固有データが長い記事は、各節で重ねている出典説明だけを減らす。
     # 節ごとの事実・森町条件・FAQと、12見出しは必ず残す。
     while editorial_chars(html) > 7800:
