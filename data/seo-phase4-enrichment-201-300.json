@@ -1235,87 +1235,123 @@
     "id": 215,
     "verified_facts": [
       {
-        "statement": "「森町で国勢調査と住民基本台帳の人口差を混同しない」の確認対象は、統計名称と基準日を別項目として記録する実務であり、一方から他方を推定しない。",
+        "statement": "森町が公表する住民基本台帳人口は、2026年8月1日現在で16,422人である。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/4/569.html"
       },
       {
-        "statement": "国勢調査と住民基本台帳の人口差を混同しないでは、集計単位を資料の更新日と混同せず、対象となる日付・年度として転記する。",
+        "statement": "2026年8月1日現在の住民基本台帳人口の内訳は、男性8,213人、女性8,209人である。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/4/569.html"
       },
       {
-        "statement": "地区区分は表の注記だけから断定できないため、森町公式の補完資料または担当窓口で照合する。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/1069.html"
+        "statement": "2026年8月1日現在の住民基本台帳上の世帯数は6,763世帯である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/4/569.html"
       },
       {
-        "statement": "「二つの人口統計の基準日と対象の違いを知りたい」という問いに答えるには、統計名称・集計単位・比較対象年を同じ確認記録へ結び付ける必要がある。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/1069.html"
+        "statement": "森町の人口ページでは、人口集計表に加えて年齢別人口、町名別人口、行政区別人口の各資料を公開している。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/4/569.html"
       },
       {
-        "statement": "森町公式の主資料と補完資料は別URLで公開されており、2026年8月9日に両方のHTTP 200応答を確認した。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/1069.html"
+        "statement": "令和2年国勢調査の基準日は2020年10月1日で、森町の人口は17,475人である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4044.html"
       },
       {
-        "statement": "国勢調査と住民基本台帳の人口差を混同しないの制度・分類の上位枠は所管機関の公式資料で照合し、森町の個別運用を国・県の一般説明だけで決めない。2026年8月9日に参照先のHTTP 200応答を確認した。",
+        "statement": "令和2年国勢調査における森町の男女別人口は、男性8,708人、女性8,767人である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4044.html"
+      },
+      {
+        "statement": "令和2年国勢調査における森町の世帯数は6,240世帯である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4044.html"
+      },
+      {
+        "statement": "住民基本台帳の2026年8月値と令和2年国勢調査は基準日が異なるため、数値差を同一時点の差として扱えない。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4044.html"
+      },
+      {
+        "statement": "森町統計書は、住民基本台帳、人口動態、国勢調査、世帯に関する統計を別表として収録している。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4891.html"
+      },
+      {
+        "statement": "住民基本台帳人口は町の人口ページで毎月の基準日を付して更新されるため、引用時には確認年月日を併記する必要がある。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/4/569.html"
+      },
+      {
+        "statement": "国勢調査は国内の人口・世帯の実態を明らかにする統計調査であり、住民基本台帳の月次集計とは調査体系が異なる。",
         "source_url": "https://www.e-stat.go.jp/"
+      },
+      {
+        "statement": "e-Statでは統計名、地域、調査年を指定して国勢調査結果を確認できる。",
+        "source_url": "https://www.e-stat.go.jp/"
+      },
+      {
+        "statement": "人口の増減を説明するときは、同じ統計系列の連続した基準日を比較し、国勢調査値と住民基本台帳値を直接つながない。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4891.html"
       }
     ],
     "morimachi_conditions": [
-      "森町公式主資料の統計名称と補完資料の基準日を別々に確認し、それぞれの確認日を残す。",
-      "森町内でも表の注記が異なれば条件が変わるため、対象住所・地番・施設を特定せず町全体の説明を個別案件へ当てはめない。",
-      "実行・申請・訪問の直前に集計単位と比較対象年を森町の所管窓口または当事者へ再確認する。"
+      "住民基本台帳人口を使う場合は、森町人口ページの「何年何月1日現在」かを明記する。",
+      "国勢調査値を使う場合は、調査年と2020年10月1日などの基準日を明記する。",
+      "地区別・年齢別の説明は、同じ基準日の森町公式資料同士で比較する。"
     ],
     "section_headings": [
-      "国勢調査と住民基本台帳の人口差を混同しないで統計名称と基準日を混ぜない",
-      "国勢調査と住民基本台帳の人口差を混同しないの集計単位を森町公式主資料から転記する",
-      "国勢調査と住民基本台帳の人口差を混同しないの地区区分を補完資料で照合する",
-      "国勢調査と住民基本台帳の人口差を混同しないの表の注記を一件に特定する",
-      "国勢調査と住民基本台帳の人口差を混同しないで統計名称の定義が資料間で違うときの止め方",
-      "国勢調査と住民基本台帳の人口差を混同しないの基準日に旧表記・略称がある場合の残し方",
-      "国勢調査と住民基本台帳の人口差を混同しないの集計単位とウェブページ更新日を取り違えない",
-      "国勢調査と住民基本台帳の人口差を混同しないで地区区分が未確認のときに尋ねる担当",
-      "国勢調査と住民基本台帳の人口差を混同しないの表の注記を家族へ渡す記録様式",
-      "国勢調査と住民基本台帳の人口差を混同しないの比較対象年を写真・図面・書類へ結び付ける",
-      "「二つの人口統計の基準日と対象の違いを知りたい」を確認済みと判断する条件",
-      "大石の視点：国勢調査と住民基本台帳の人口差を混同しないは結論より先に統計名称を記録する",
-      "森町で国勢調査と住民基本台帳の人口差を混同しないで断定を保留する境界",
-      "国勢調査と住民基本台帳の人口差を混同しないの再確認日と次の担当を決める"
+      "最初に統計名と基準日を確認する",
+      "住民基本台帳人口が示す範囲",
+      "国勢調査が示す人口と世帯",
+      "16,422人という数字の読み方",
+      "17,475人という数字の読み方",
+      "男女別人口を比較する際の注意",
+      "世帯数6,763と6,240の違い",
+      "月次人口資料の探し方",
+      "年齢別・町名別・行政区別資料",
+      "森町統計書で時系列を補う",
+      "e-Statで国勢調査を再確認する",
+      "引用時に残すべき確認記録"
     ],
     "faqs": [
       {
-        "question": "国勢調査と住民基本台帳の人口差を混同しないでは統計名称と基準日を同じ欄に書いてよいですか？",
-        "answer": "同じ欄にまとめません。森町公式主資料の表記を保ったまま、統計名称と基準日を別欄にし、出典URLと確認日を添えます。"
+        "question": "森町の最新人口は何人ですか。",
+        "answer": "森町公式の住民基本台帳では、2026年8月1日現在16,422人です。引用時には基準日も必ず添えてください。"
       },
       {
-        "question": "国勢調査と住民基本台帳の人口差を混同しないの二つの森町公式資料で記載が違うときはどうしますか？",
-        "answer": "対象年度、対象地域、資料の更新日、集計単位の定義を比べます。解消しない場合は両URLを示して所管へ確認し、回答日を記録します。"
+        "question": "令和2年国勢調査の森町人口は何人ですか。",
+        "answer": "2020年10月1日を基準日として17,475人、6,240世帯です。"
       },
       {
-        "question": "国勢調査と住民基本台帳の人口差を混同しないの地区区分が分からないまま記録を作れますか？",
-        "answer": "未確認と明記して作れます。ただし表の注記を推測で埋めず、確認先、次の担当、再確認日を同じ欄に残します。"
+        "question": "住民基本台帳人口と国勢調査人口をそのまま比較できますか。",
+        "answer": "調査体系と基準日が異なります。同じ統計系列・同じ条件で比較し、数値差を単純な増減とは扱わないでください。"
       },
       {
-        "question": "国勢調査と住民基本台帳の人口差を混同しないはいつ再確認すべきですか？",
-        "answer": "申請、契約、訪問、家族への引継ぎなど実行直前です。集計単位と比較対象年が前回確認時から変わっていないか、公式資料と当事者情報を再確認します。"
+        "question": "地区別や年齢別の人口はどこで確認できますか。",
+        "answer": "森町の人口ページに年齢別、町名別、行政区別の資料があります。資料の基準日をそろえて確認します。"
       }
     ],
     "sources": [
       {
         "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/4/569.html",
-        "role": "森町公式・主資料",
-        "title": "森町公式：統計資料の主確認資料",
-        "status": "verified-http-200-2026-08-09"
+        "role": "primary",
+        "title": "森町の人口",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       },
       {
-        "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/1069.html",
-        "role": "森町公式・補完資料",
-        "title": "森町公式：国勢調査と住民基本台帳の人口差を混同しないの補完確認資料",
-        "status": "verified-http-200-2026-08-09"
+        "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4044.html",
+        "role": "primary",
+        "title": "令和2年国勢調査結果",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
+      },
+      {
+        "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/11/4891.html",
+        "role": "primary",
+        "title": "令和4年版森町統計書",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       },
       {
         "url": "https://www.e-stat.go.jp/",
-        "role": "国・県・所管機関",
+        "role": "official-secondary",
         "title": "政府統計の総合窓口 e-Stat",
-        "status": "verified-http-200-2026-08-09"
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       }
     ]
   },
@@ -2731,87 +2767,135 @@
     "id": 232,
     "verified_facts": [
       {
-        "statement": "「森町で水道料金と下水道使用料の請求区分を読み分ける」の確認対象は、使用者名義とお客さま番号を別項目として記録する実務であり、一方から他方を推定しない。",
+        "statement": "森町の水道メーター検針と料金支払いは2か月ごとに行われる。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/667.html"
       },
       {
-        "statement": "水道料金と下水道使用料の請求区分を読み分けるでは、検針日と使用量を資料の更新日と混同せず、対象となる日付・年度として転記する。",
+        "statement": "大鳥居・森・一宮地区と公営の簡易水道は奇数月に検針される。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/667.html"
       },
       {
-        "statement": "請求対象期間は開始・休止日だけから断定できないため、森町公式の補完資料または担当窓口で照合する。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html"
+        "statement": "飯田・園田地区は偶数月に検針される。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/667.html"
       },
       {
-        "statement": "「請求書の内訳と対象期間を家族で確認したい」という問いに答えるには、使用者名義・検針日と使用量・配管・修理記録を同じ確認記録へ結び付ける必要がある。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html"
+        "statement": "2023年10月1日以降の水道使用水量のお知らせは、適格請求書に対応している。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/667.html"
       },
       {
-        "statement": "森町公式の主資料と補完資料は別URLで公開されており、2026年8月9日に両方のHTTP 200応答を確認した。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html"
+        "statement": "水道料金は基本料金と超過料金の合計に1.10を乗じて計算する。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/667.html"
       },
       {
-        "statement": "水道料金と下水道使用料の請求区分を読み分けるの制度・分類の上位枠は所管機関の公式資料で照合し、森町の個別運用を国・県の一般説明だけで決めない。2026年8月9日に参照先のHTTP 200応答を確認した。",
+        "statement": "口径13ミリの1か月当たり基本水量は8立方メートル、基本料金は1,100円である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/667.html"
+      },
+      {
+        "statement": "水道料金の支払いは口座振替またはバーコード付き納入通知書で行う。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/667.html"
+      },
+      {
+        "statement": "森町の水道料金はクレジットカード払いと集金払いに対応していない。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/667.html"
+      },
+      {
+        "statement": "下水道使用料は公共下水道へ流した汚水量を基に算定する。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1208.html"
+      },
+      {
+        "statement": "水道水だけを使用する世帯では、水道使用量を下水道の汚水量として扱う。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1208.html"
+      },
+      {
+        "statement": "下水道使用料の1か月当たり基本料金は、汚水量10立方メートルまで税抜き1,000円である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1208.html"
+      },
+      {
+        "statement": "下水道使用料は水道料金と合わせて2か月ごとに徴収される。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1208.html"
+      },
+      {
+        "statement": "水道水を農業用などに使い下水道へ流さない場合、下水道使用料の減量認定を申請できる。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1210.html"
+      },
+      {
+        "statement": "減量認定には、下水道へ流していない水量を確認できるメーターなどの根拠が必要である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1210.html"
+      },
+      {
+        "statement": "減量の申告は対象となる使用のたびに行う必要があり、自動的には継続されない。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1210.html"
+      },
+      {
+        "statement": "下水道の役割や仕組みは国土交通省の下水道案内で制度全体を確認できる。",
         "source_url": "https://www.mlit.go.jp/mizukokudo/sewerage/"
       }
     ],
     "morimachi_conditions": [
-      "森町公式主資料の使用者名義と補完資料のお客さま番号を別々に確認し、それぞれの確認日を残す。",
-      "森町内でも開始・休止日が異なれば条件が変わるため、対象住所・地番・施設を特定せず町全体の説明を個別案件へ当てはめない。",
-      "実行・申請・訪問の直前に検針日と使用量と配管・修理記録を森町の所管窓口または当事者へ再確認する。"
+      "検針月は住所の地区区分により奇数月と偶数月に分かれるため、地区名を先に確認する。",
+      "水道料金と下水道使用料は計算根拠が異なるため、請求内訳を分けて読む。",
+      "農業用などの使用水を減量対象にする場合は、事前に上下水道課へ根拠資料と申告方法を確認する。"
     ],
     "section_headings": [
-      "水道料金と下水道使用料の請求区分を読み分けるで使用者名義とお客さま番号を混ぜない",
-      "水道料金と下水道使用料の請求区分を読み分けるの検針日と使用量を森町公式主資料から転記する",
-      "水道料金と下水道使用料の請求区分を読み分けるの請求対象期間を補完資料で照合する",
-      "水道料金と下水道使用料の請求区分を読み分けるの開始・休止日を一件に特定する",
-      "水道料金と下水道使用料の請求区分を読み分けるで使用者名義の定義が資料間で違うときの止め方",
-      "水道料金と下水道使用料の請求区分を読み分けるのお客さま番号に旧表記・略称がある場合の残し方",
-      "水道料金と下水道使用料の請求区分を読み分けるの検針日と使用量とウェブページ更新日を取り違えない",
-      "水道料金と下水道使用料の請求区分を読み分けるで請求対象期間が未確認のときに尋ねる担当",
-      "水道料金と下水道使用料の請求区分を読み分けるの開始・休止日を家族へ渡す記録様式",
-      "水道料金と下水道使用料の請求区分を読み分けるの配管・修理記録を写真・図面・書類へ結び付ける",
-      "「請求書の内訳と対象期間を家族で確認したい」を確認済みと判断する条件",
-      "大石の視点：水道料金と下水道使用料の請求区分を読み分けるは結論より先に使用者名義を記録する",
-      "森町で水道料金と下水道使用料の請求区分を読み分けるで断定を保留する境界",
-      "水道料金と下水道使用料の請求区分を読み分けるの再確認日と次の担当を決める"
+      "請求書で水道と下水道を分ける",
+      "2か月検針の基本日程",
+      "奇数月に検針する地区",
+      "偶数月に検針する地区",
+      "水道料金の計算式",
+      "口径13ミリの基本水量と料金",
+      "支払い方法と非対応の決済",
+      "適格請求書としてのお知らせ票",
+      "下水道使用料の算定基準",
+      "水道使用量を汚水量とする場合",
+      "農業用水などの減量認定",
+      "問い合わせ前にそろえる資料"
     ],
     "faqs": [
       {
-        "question": "水道料金と下水道使用料の請求区分を読み分けるでは使用者名義とお客さま番号を同じ欄に書いてよいですか？",
-        "answer": "同じ欄にまとめません。森町公式主資料の表記を保ったまま、使用者名義とお客さま番号を別欄にし、出典URLと確認日を添えます。"
+        "question": "森町の水道料金は毎月請求されますか。",
+        "answer": "検針と支払いは2か月ごとです。検針月は地区により奇数月または偶数月に分かれます。"
       },
       {
-        "question": "水道料金と下水道使用料の請求区分を読み分けるの二つの森町公式資料で記載が違うときはどうしますか？",
-        "answer": "対象年度、対象地域、資料の更新日、検針日と使用量の定義を比べます。解消しない場合は両URLを示して所管へ確認し、回答日を記録します。"
+        "question": "水道料金をクレジットカードで払えますか。",
+        "answer": "森町公式案内では対応していません。口座振替またはバーコード付き納入通知書を利用します。"
       },
       {
-        "question": "水道料金と下水道使用料の請求区分を読み分けるの請求対象期間が分からないまま記録を作れますか？",
-        "answer": "未確認と明記して作れます。ただし開始・休止日を推測で埋めず、確認先、次の担当、再確認日を同じ欄に残します。"
+        "question": "下水道使用料は何を基に決まりますか。",
+        "answer": "公共下水道へ流した汚水量が基準です。水道水だけを使う世帯では水道使用量を汚水量として扱います。"
       },
       {
-        "question": "水道料金と下水道使用料の請求区分を読み分けるはいつ再確認すべきですか？",
-        "answer": "申請、契約、訪問、家族への引継ぎなど実行直前です。検針日と使用量と配管・修理記録が前回確認時から変わっていないか、公式資料と当事者情報を再確認します。"
+        "question": "畑に使った水も下水道使用料の対象ですか。",
+        "answer": "下水道へ流れない水量は減量認定の対象になり得ますが、確認用メーターなどの根拠と使用のたびの申告が必要です。"
       }
     ],
     "sources": [
       {
         "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/667.html",
-        "role": "森町公式・主資料",
-        "title": "森町公式：上下水道記録の主確認資料",
-        "status": "verified-http-200-2026-08-09"
+        "role": "primary",
+        "title": "水道料金・検針・支払い",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       },
       {
-        "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html",
-        "role": "森町公式・補完資料",
-        "title": "森町公式：水道料金と下水道使用料の請求区分を読み分けるの補完確認資料",
-        "status": "verified-http-200-2026-08-09"
+        "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1208.html",
+        "role": "primary",
+        "title": "下水道使用料",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
+      },
+      {
+        "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1210.html",
+        "role": "primary",
+        "title": "下水道使用料の減量認定",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       },
       {
         "url": "https://www.mlit.go.jp/mizukokudo/sewerage/",
-        "role": "国・県・所管機関",
-        "title": "国土交通省・所管制度案内",
-        "status": "verified-http-200-2026-08-09"
+        "role": "official-secondary",
+        "title": "国土交通省 下水道",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       }
     ]
   },
@@ -3523,87 +3607,120 @@
     "id": 241,
     "verified_facts": [
       {
-        "statement": "「森町で都市計画図の色と凡例と境界線を順に読む」の確認対象は、対象地番と計画図の凡例を別項目として記録する実務であり、一方から他方を推定しない。",
+        "statement": "森町の都市計画図は、中遠広域都市計画区域のうち森町域を示す図として公開されている。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html"
       },
       {
-        "statement": "都市計画図の色と凡例と境界線を順に読むでは、行為種別を資料の更新日と混同せず、対象となる日付・年度として転記する。",
+        "statement": "公開されている森町都市計画図の縮尺は1万分の1である。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html"
       },
       {
-        "statement": "対象面積は契約・着手日だけから断定できないため、森町公式の補完資料または担当窓口で照合する。",
+        "statement": "都市計画図はPDFで閲覧できる。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html"
+      },
+      {
+        "statement": "都市計画図では用途地域などの土地利用区分を色分けと凡例で確認できる。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html"
+      },
+      {
+        "statement": "都市計画図は建築に関する規制を確認するための参考資料として利用できる。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html"
+      },
+      {
+        "statement": "公開図は概略を示すもので、境界付近などの詳細は建設課で確認する必要がある。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html"
+      },
+      {
+        "statement": "紙の都市計画図は森町役場の窓口で1枚1,300円で販売されている。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html"
+      },
+      {
+        "statement": "都市計画図に関する窓口は建設課都市計画係である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html"
+      },
+      {
+        "statement": "森町では、連続する土地で面積1,000平方メートル以上の開発行為が町の土地利用事業承認の対象となる。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/748.html"
       },
       {
-        "statement": "「用途図を住所検索だけで断定せず読みたい」という問いに答えるには、対象地番・行為種別・相談先と回答日を同じ確認記録へ結び付ける必要がある。",
+        "statement": "対象となる開発行為には、土地の区画または形質を変更する事業が含まれる。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/748.html"
       },
       {
-        "statement": "森町公式の主資料と補完資料は別URLで公開されており、2026年8月9日に両方のHTTP 200応答を確認した。",
+        "statement": "対象事業は工事着手前に町長の承認を受ける必要がある。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/748.html"
       },
       {
-        "statement": "都市計画図の色と凡例と境界線を順に読むの制度・分類の上位枠は所管機関の公式資料で照合し、森町の個別運用を国・県の一般説明だけで決めない。2026年8月9日に参照先のHTTP 200応答を確認した。",
+        "statement": "土地利用事業の案内ページでは、事前協議、承認申請、変更手続きに使う様式を公開している。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/748.html"
+      },
+      {
+        "statement": "森町の土地利用事業承認制度は、災害の防止と良好な環境の確保を目的としている。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/748.html"
+      },
+      {
+        "statement": "用途地域は土地利用の基本的な枠組みであり、建築物の用途や規模に関する制限と関係する。",
         "source_url": "https://www.mlit.go.jp/toshi/city_plan/"
       }
     ],
     "morimachi_conditions": [
-      "森町公式主資料の対象地番と補完資料の計画図の凡例を別々に確認し、それぞれの確認日を残す。",
-      "森町内でも契約・着手日が異なれば条件が変わるため、対象住所・地番・施設を特定せず町全体の説明を個別案件へ当てはめない。",
-      "実行・申請・訪問の直前に行為種別と相談先と回答日を森町の所管窓口または当事者へ再確認する。"
+      "色や線の意味は森町都市計画図の凡例と同じ版のPDFで確認する。",
+      "境界付近の敷地や個別の建築可否は公開図だけで断定せず、建設課都市計画係へ確認する。",
+      "連続する土地で1,000平方メートル以上の区画・形質変更を伴う場合は、着手前の承認要否を確認する。"
     ],
     "section_headings": [
-      "都市計画図の色と凡例と境界線を順に読むで対象地番と計画図の凡例を混ぜない",
-      "都市計画図の色と凡例と境界線を順に読むの行為種別を森町公式主資料から転記する",
-      "都市計画図の色と凡例と境界線を順に読むの対象面積を補完資料で照合する",
-      "都市計画図の色と凡例と境界線を順に読むの契約・着手日を一件に特定する",
-      "都市計画図の色と凡例と境界線を順に読むで対象地番の定義が資料間で違うときの止め方",
-      "都市計画図の色と凡例と境界線を順に読むの計画図の凡例に旧表記・略称がある場合の残し方",
-      "都市計画図の色と凡例と境界線を順に読むの行為種別とウェブページ更新日を取り違えない",
-      "都市計画図の色と凡例と境界線を順に読むで対象面積が未確認のときに尋ねる担当",
-      "都市計画図の色と凡例と境界線を順に読むの契約・着手日を家族へ渡す記録様式",
-      "都市計画図の色と凡例と境界線を順に読むの相談先と回答日を写真・図面・書類へ結び付ける",
-      "「用途図を住所検索だけで断定せず読みたい」を確認済みと判断する条件",
-      "大石の視点：都市計画図の色と凡例と境界線を順に読むは結論より先に対象地番を記録する",
-      "森町で都市計画図の色と凡例と境界線を順に読むで断定を保留する境界",
-      "都市計画図の色と凡例と境界線を順に読むの再確認日と次の担当を決める"
+      "都市計画図で分かること",
+      "縮尺1万分の1の読み方",
+      "色分けと凡例の照合方法",
+      "用途地域と建築制限の関係",
+      "線や境界を読むときの注意",
+      "PDF版の確認手順",
+      "紙図面を購入する方法",
+      "境界付近は窓口で確認する",
+      "1,000平方メートル基準の考え方",
+      "区画・形質変更に当たる事業",
+      "着手前承認と提出様式",
+      "建設課へ伝える敷地情報"
     ],
     "faqs": [
       {
-        "question": "都市計画図の色と凡例と境界線を順に読むでは対象地番と計画図の凡例を同じ欄に書いてよいですか？",
-        "answer": "同じ欄にまとめません。森町公式主資料の表記を保ったまま、対象地番と計画図の凡例を別欄にし、出典URLと確認日を添えます。"
+        "question": "森町の都市計画図はオンラインで見られますか。",
+        "answer": "森町公式ページで縮尺1万分の1のPDFを閲覧できます。"
       },
       {
-        "question": "都市計画図の色と凡例と境界線を順に読むの二つの森町公式資料で記載が違うときはどうしますか？",
-        "answer": "対象年度、対象地域、資料の更新日、行為種別の定義を比べます。解消しない場合は両URLを示して所管へ確認し、回答日を記録します。"
+        "question": "都市計画図の色だけで建築可否を判断できますか。",
+        "answer": "図は概略確認用です。境界付近や個別敷地の規制は建設課都市計画係へ確認してください。"
       },
       {
-        "question": "都市計画図の色と凡例と境界線を順に読むの対象面積が分からないまま記録を作れますか？",
-        "answer": "未確認と明記して作れます。ただし契約・着手日を推測で埋めず、確認先、次の担当、再確認日を同じ欄に残します。"
+        "question": "紙の都市計画図はどこで買えますか。",
+        "answer": "森町役場の窓口で1枚1,300円で販売されています。"
       },
       {
-        "question": "都市計画図の色と凡例と境界線を順に読むはいつ再確認すべきですか？",
-        "answer": "申請、契約、訪問、家族への引継ぎなど実行直前です。行為種別と相談先と回答日が前回確認時から変わっていないか、公式資料と当事者情報を再確認します。"
+        "question": "広い土地を造成するときは何が必要ですか。",
+        "answer": "連続する土地で1,000平方メートル以上の区画・形質変更を伴う事業は、工事着手前の町長承認が必要となるため、事前に対象要件を確認します。"
       }
     ],
     "sources": [
       {
         "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html",
-        "role": "森町公式・主資料",
-        "title": "森町公式：都市計画資料の主確認資料",
-        "status": "verified-http-200-2026-08-09"
+        "role": "primary",
+        "title": "森町都市計画図",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       },
       {
         "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/748.html",
-        "role": "森町公式・補完資料",
-        "title": "森町公式：都市計画図の色と凡例と境界線を順に読むの補完確認資料",
-        "status": "verified-http-200-2026-08-09"
+        "role": "primary",
+        "title": "森町土地利用事業の承認",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       },
       {
         "url": "https://www.mlit.go.jp/toshi/city_plan/",
-        "role": "国・県・所管機関",
-        "title": "国土交通省・所管制度案内",
-        "status": "verified-http-200-2026-08-09"
+        "role": "official-secondary",
+        "title": "国土交通省 都市計画",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       }
     ]
   },
@@ -6075,87 +6192,128 @@
     "id": 270,
     "verified_facts": [
       {
-        "statement": "「森町で在宅福祉サービスの対象条件を本人情報と照合する」の確認対象は、本人の希望と生活上の変化を別項目として記録する実務であり、一方から他方を推定しない。",
+        "statement": "森町地域包括支援センターは森町が設置・運営する高齢者の総合相談窓口である。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html"
       },
       {
-        "statement": "在宅福祉サービスの対象条件を本人情報と照合するでは、相談日を資料の更新日と混同せず、対象となる日付・年度として転記する。",
+        "statement": "地域包括支援センターは、高齢者本人だけでなく家族や地域住民からの相談も受け付ける。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html"
       },
       {
-        "statement": "服薬・通院情報は担当窓口だけから断定できないため、森町公式の補完資料または担当窓口で照合する。",
+        "statement": "地域包括支援センターは、介護支援専門員からの相談にも対応する。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html"
+      },
+      {
+        "statement": "森町地域包括支援センターの所在地は森町森50番地の1である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html"
+      },
+      {
+        "statement": "森町地域包括支援センターの電話番号は0538-85-6341である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html"
+      },
+      {
+        "statement": "通常の相談受付は平日の午前8時30分から午後5時15分までである。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html"
+      },
+      {
+        "statement": "受付時間外の緊急連絡は森町役場代表0538-85-2111で受け付ける。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html"
+      },
+      {
+        "statement": "はり・きゅう・マッサージ治療費助成は、当該年度の4月1日時点で70歳以上の人を対象とする。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html"
       },
       {
-        "statement": "「家族が利用候補を条件別に整理したい」という問いに答えるには、本人の希望・相談日・次回連絡日を同じ確認記録へ結び付ける必要がある。",
+        "statement": "はり・きゅう・マッサージ治療費助成は、1枚1,000円の助成券を年度内5枚交付する。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html"
       },
       {
-        "statement": "森町公式の主資料と補完資料は別URLで公開されており、2026年8月9日に両方のHTTP 200応答を確認した。",
+        "statement": "治療費助成の申請は本人または同居の親族が行える。",
         "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html"
       },
       {
-        "statement": "在宅福祉サービスの対象条件を本人情報と照合するの制度・分類の上位枠は所管機関の公式資料で照合し、森町の個別運用を国・県の一般説明だけで決めない。2026年8月9日に参照先のHTTP 200応答を確認した。",
+        "statement": "緊急通報システムは、65歳以上のひとり暮らし高齢者や高齢者のみの世帯などを対象とする。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html"
+      },
+      {
+        "statement": "緊急通報システムの設置費と撤去費は町が助成し、機器の賃借料は利用者負担である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html"
+      },
+      {
+        "statement": "救急医療情報キットは、要件を満たす75歳以上のひとり暮らし高齢者や高齢者のみの世帯などへ無料で配布する。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html"
+      },
+      {
+        "statement": "高齢者短期入所事業は原則1回7日以内、年2回まで利用できる。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html"
+      },
+      {
+        "statement": "森町の在宅福祉サービスには、食生活を支援する配食に関する事業も掲載されている。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html"
+      },
+      {
+        "statement": "介護保険サービスと市町村の高齢者福祉事業は別制度であり、厚生労働省は介護保険制度の全体像を案内している。",
         "source_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/kaigo_koureisha/index.html"
       }
     ],
     "morimachi_conditions": [
-      "森町公式主資料の本人の希望と補完資料の生活上の変化を別々に確認し、それぞれの確認日を残す。",
-      "森町内でも担当窓口が異なれば条件が変わるため、対象住所・地番・施設を特定せず町全体の説明を個別案件へ当てはめない。",
-      "実行・申請・訪問の直前に相談日と次回連絡日を森町の所管窓口または当事者へ再確認する。"
+      "本人の年齢だけでなく、ひとり暮らし・高齢者のみ世帯・身体状況など各事業固有の要件を確認する。",
+      "助成額、利用回数、自己負担の有無を事業ごとに分けて確認する。",
+      "緊急時と通常相談で電話番号・受付時間が異なるため、連絡先を使い分ける。"
     ],
     "section_headings": [
-      "在宅福祉サービスの対象条件を本人情報と照合するで本人の希望と生活上の変化を混ぜない",
-      "在宅福祉サービスの対象条件を本人情報と照合するの相談日を森町公式主資料から転記する",
-      "在宅福祉サービスの対象条件を本人情報と照合するの服薬・通院情報を補完資料で照合する",
-      "在宅福祉サービスの対象条件を本人情報と照合するの担当窓口を一件に特定する",
-      "在宅福祉サービスの対象条件を本人情報と照合するで本人の希望の定義が資料間で違うときの止め方",
-      "在宅福祉サービスの対象条件を本人情報と照合するの生活上の変化に旧表記・略称がある場合の残し方",
-      "在宅福祉サービスの対象条件を本人情報と照合するの相談日とウェブページ更新日を取り違えない",
-      "在宅福祉サービスの対象条件を本人情報と照合するで服薬・通院情報が未確認のときに尋ねる担当",
-      "在宅福祉サービスの対象条件を本人情報と照合するの担当窓口を家族へ渡す記録様式",
-      "在宅福祉サービスの対象条件を本人情報と照合するの次回連絡日を写真・図面・書類へ結び付ける",
-      "「家族が利用候補を条件別に整理したい」を確認済みと判断する条件",
-      "大石の視点：在宅福祉サービスの対象条件を本人情報と照合するは結論より先に本人の希望を記録する",
-      "森町で在宅福祉サービスの対象条件を本人情報と照合するで断定を保留する境界",
-      "在宅福祉サービスの対象条件を本人情報と照合するの再確認日と次の担当を決める"
+      "在宅福祉サービスを探す入口",
+      "地域包括支援センターの役割",
+      "本人・家族・地域からの相談",
+      "平日の受付時間と電話番号",
+      "時間外の緊急連絡先",
+      "治療費助成の年齢要件",
+      "助成券の金額と枚数",
+      "緊急通報システムの対象者",
+      "設置費と賃借料の負担区分",
+      "救急医療情報キットの配布",
+      "短期宿泊の回数と日数",
+      "相談時に伝える生活状況"
     ],
     "faqs": [
       {
-        "question": "在宅福祉サービスの対象条件を本人情報と照合するでは本人の希望と生活上の変化を同じ欄に書いてよいですか？",
-        "answer": "同じ欄にまとめません。森町公式主資料の表記を保ったまま、本人の希望と生活上の変化を別欄にし、出典URLと確認日を添えます。"
+        "question": "どのサービスが使えるか分からない場合、どこへ相談しますか。",
+        "answer": "森町地域包括支援センターへ相談できます。高齢者本人、家族、地域住民からの相談に対応します。"
       },
       {
-        "question": "在宅福祉サービスの対象条件を本人情報と照合するの二つの森町公式資料で記載が違うときはどうしますか？",
-        "answer": "対象年度、対象地域、資料の更新日、相談日の定義を比べます。解消しない場合は両URLを示して所管へ確認し、回答日を記録します。"
+        "question": "地域包括支援センターの受付時間はいつですか。",
+        "answer": "平日の午前8時30分から午後5時15分です。時間外の緊急連絡は森町役場代表0538-85-2111です。"
       },
       {
-        "question": "在宅福祉サービスの対象条件を本人情報と照合するの服薬・通院情報が分からないまま記録を作れますか？",
-        "answer": "未確認と明記して作れます。ただし担当窓口を推測で埋めず、確認先、次の担当、再確認日を同じ欄に残します。"
+        "question": "70歳なら治療費助成を受けられますか。",
+        "answer": "当該年度の4月1日時点で70歳以上が年齢要件です。ほかの条件と申請方法も窓口で確認してください。"
       },
       {
-        "question": "在宅福祉サービスの対象条件を本人情報と照合するはいつ再確認すべきですか？",
-        "answer": "申請、契約、訪問、家族への引継ぎなど実行直前です。相談日と次回連絡日が前回確認時から変わっていないか、公式資料と当事者情報を再確認します。"
+        "question": "緊急通報システムは無料ですか。",
+        "answer": "設置費と撤去費は町の助成対象ですが、機器の賃借料は利用者負担です。"
       }
     ],
     "sources": [
       {
         "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/3999.html",
-        "role": "森町公式・主資料",
-        "title": "森町公式：高齢者福祉の主確認資料",
-        "status": "verified-http-200-2026-08-09"
+        "role": "primary",
+        "title": "森町地域包括支援センター",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       },
       {
         "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/chiikihokatsushiencenterkakari/2/4000.html",
-        "role": "森町公式・補完資料",
-        "title": "森町公式：在宅福祉サービスの対象条件を本人情報と照合するの補完確認資料",
-        "status": "verified-http-200-2026-08-09"
+        "role": "primary",
+        "title": "高齢者在宅福祉サービス",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       },
       {
         "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/kaigo_koureisha/index.html",
-        "role": "国・県・所管機関",
-        "title": "厚生労働省・介護高齢者福祉案内",
-        "status": "verified-http-200-2026-08-09"
+        "role": "official-secondary",
+        "title": "厚生労働省 介護・高齢者福祉",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       }
     ]
   },
@@ -6691,87 +6849,124 @@
     "id": 277,
     "verified_facts": [
       {
-        "statement": "「森町の森林所有者届出｜相続・売買後の確認」の確認対象は、森林の地番と取得原因と日付を別項目として記録する実務であり、一方から他方を推定しない。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
-      },
-      {
-        "statement": "森林所有者届出では、所有者を資料の更新日と混同せず、対象となる日付・年度として転記する。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
-      },
-      {
-        "statement": "面積・現況は境界・作業道だけから断定できないため、森町公式の補完資料または担当窓口で照合する。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html"
-      },
-      {
-        "statement": "「森町の森林を取得した後の届出を知りたい」という問いに答えるには、森林の地番・所有者・届出・相談記録を同じ確認記録へ結び付ける必要がある。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html"
-      },
-      {
-        "statement": "森町公式の主資料と補完資料は別URLで公開されており、2026年8月9日に両方のHTTP 200応答を確認した。",
-        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html"
-      },
-      {
-        "statement": "森林所有者届出の制度・分類の上位枠は所管機関の公式資料で照合し、森町の個別運用を国・県の一般説明だけで決めない。2026年8月9日に参照先のHTTP 200応答を確認した。",
+        "statement": "森林の土地の所有者届出制度は2012年4月に始まった。",
         "source_url": "https://www.rinya.maff.go.jp/j/keikaku/todokede/"
+      },
+      {
+        "statement": "届出対象は、森林法第5条の地域森林計画の対象となっている民有林である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
+      },
+      {
+        "statement": "売買で森林の土地を取得した個人または法人は届出対象となる。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
+      },
+      {
+        "statement": "相続で森林の土地を取得した場合も届出対象となる。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
+      },
+      {
+        "statement": "届出期限は森林の土地の所有者となった日から90日以内である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
+      },
+      {
+        "statement": "相続の場合、90日の起算日は前所有者が死亡した日である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
+      },
+      {
+        "statement": "届出の対象は取得した森林の面積にかかわらない。",
+        "source_url": "https://www.rinya.maff.go.jp/j/keikaku/todokede/"
+      },
+      {
+        "statement": "登記上の地目が山林でなくても、現況が森林で地域森林計画の対象なら届出が必要となる場合がある。",
+        "source_url": "https://www.rinya.maff.go.jp/j/keikaku/todokede/"
+      },
+      {
+        "statement": "国土利用計画法に基づく土地売買等届出を2週間以内に提出した場合は、森林所有者届出を別に提出する必要がない。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
+      },
+      {
+        "statement": "提出書類には森林の土地の所有者届出書が含まれる。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
+      },
+      {
+        "statement": "提出時には取得した土地の位置を示す図面の写しが必要である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
+      },
+      {
+        "statement": "登記事項証明書や売買契約書など、取得原因を証明する書類の写しが必要である。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
+      },
+      {
+        "statement": "2026年4月1日から届出様式が改められ、国籍などの記載欄が追加された。",
+        "source_url": "https://www.rinya.maff.go.jp/j/keikaku/todokede/"
+      },
+      {
+        "statement": "森林所有者届出は不動産登記とは別の手続きである。",
+        "source_url": "https://www.rinya.maff.go.jp/j/keikaku/todokede/"
+      },
+      {
+        "statement": "森町の農林業案内では、森林所有者届出のほか伐採や林業に関する町の手続きを確認できる。",
+        "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html"
       }
     ],
     "morimachi_conditions": [
-      "森町公式主資料の森林の地番と補完資料の取得原因と日付を別々に確認し、それぞれの確認日を残す。",
-      "森町内でも境界・作業道が異なれば条件が変わるため、対象住所・地番・施設を特定せず町全体の説明を個別案件へ当てはめない。",
-      "実行・申請・訪問の直前に所有者と届出・相談記録を森町の所管窓口または当事者へ再確認する。"
+      "取得した土地が森林法第5条の地域森林計画対象民有林かを森町の担当窓口で確認する。",
+      "相続は死亡日、売買などは所有者となった日を起点に90日以内の提出日を管理する。",
+      "国土利用計画法の届出を提出した場合は、森林所有者届出の免除に該当するか提出状況と期限を照合する。"
     ],
     "section_headings": [
-      "森林所有者届出で森林の地番と取得原因と日付を混ぜない",
-      "森林所有者届出の所有者を森町公式主資料から転記する",
-      "森林所有者届出の面積・現況を補完資料で照合する",
-      "森林所有者届出の境界・作業道を一件に特定する",
-      "森林所有者届出で森林の地番の定義が資料間で違うときの止め方",
-      "森林所有者届出の取得原因と日付に旧表記・略称がある場合の残し方",
-      "森林所有者届出の所有者とウェブページ更新日を取り違えない",
-      "森林所有者届出で面積・現況が未確認のときに尋ねる担当",
-      "森林所有者届出の境界・作業道を家族へ渡す記録様式",
-      "森林所有者届出の届出・相談記録を写真・図面・書類へ結び付ける",
-      "「森町の森林を取得した後の届出を知りたい」を確認済みと判断する条件",
-      "大石の視点：森林所有者届出は結論より先に森林の地番を記録する",
-      "森町の森林所有者届出｜相続・売買後の確認で断定を保留する境界",
-      "森林所有者届出の再確認日と次の担当を決める"
+      "森林を取得したら最初に確認すること",
+      "地域森林計画対象民有林とは",
+      "売買で取得した場合の対象者",
+      "相続で取得した場合の対象者",
+      "面積にかかわらず届出が必要",
+      "登記地目と現況が異なる場合",
+      "90日の起算日を決める",
+      "国土利用計画法届出との関係",
+      "届出書の入手と記入",
+      "位置図に示す情報",
+      "取得原因を証明する添付書類",
+      "不動産登記と別に管理する"
     ],
     "faqs": [
       {
-        "question": "森林所有者届出では森林の地番と取得原因と日付を同じ欄に書いてよいですか？",
-        "answer": "同じ欄にまとめません。森町公式主資料の表記を保ったまま、森林の地番と取得原因と日付を別欄にし、出典URLと確認日を添えます。"
+        "question": "小さな森林でも届出が必要ですか。",
+        "answer": "地域森林計画の対象民有林であれば、取得面積にかかわらず届出対象です。"
       },
       {
-        "question": "森林所有者届出の二つの森町公式資料で記載が違うときはどうしますか？",
-        "answer": "対象年度、対象地域、資料の更新日、所有者の定義を比べます。解消しない場合は両URLを示して所管へ確認し、回答日を記録します。"
+        "question": "相続した場合の90日はいつから数えますか。",
+        "answer": "森町公式案内では、前所有者が死亡した日が起算日です。"
       },
       {
-        "question": "森林所有者届出の面積・現況が分からないまま記録を作れますか？",
-        "answer": "未確認と明記して作れます。ただし境界・作業道を推測で埋めず、確認先、次の担当、再確認日を同じ欄に残します。"
+        "question": "登記地目が山林でなければ対象外ですか。",
+        "answer": "地目だけでは決まりません。現況が森林で地域森林計画の対象なら必要となる場合があるため、町へ確認してください。"
       },
       {
-        "question": "森林所有者届出はいつ再確認すべきですか？",
-        "answer": "申請、契約、訪問、家族への引継ぎなど実行直前です。所有者と届出・相談記録が前回確認時から変わっていないか、公式資料と当事者情報を再確認します。"
+        "question": "森林所有者届出を出せば相続登記も完了しますか。",
+        "answer": "完了しません。森林所有者届出と不動産登記は別の手続きです。"
       }
     ],
     "sources": [
       {
         "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html",
-        "role": "森町公式・主資料",
-        "title": "森町公式：森林の主確認資料",
-        "status": "verified-http-200-2026-08-09"
+        "role": "primary",
+        "title": "森林の土地の所有者届出制度",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       },
       {
         "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html",
-        "role": "森町公式・補完資料",
-        "title": "森町公式：森林所有者届出の補完確認資料",
-        "status": "verified-http-200-2026-08-09"
+        "role": "primary",
+        "title": "森町の農林業・林業案内",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       },
       {
         "url": "https://www.rinya.maff.go.jp/j/keikaku/todokede/",
-        "role": "国・県・所管機関",
-        "title": "林野庁・森林所有者届出案内",
-        "status": "verified-http-200-2026-08-09"
+        "role": "official-secondary",
+        "title": "林野庁 森林の土地の所有者届出制度",
+        "status": "verified-http-200",
+        "checked_at": "2026-08-11"
       }
     ]
   },

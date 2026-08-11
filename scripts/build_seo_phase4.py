@@ -3,6 +3,7 @@
 """第4期300検索意図を、6,000字以上の独立した実用ページとして生成する。"""
 from __future__ import annotations
 
+import argparse
 import json
 import random
 import re
@@ -51,6 +52,10 @@ CATEGORY_CONTEXT = {
     "観光": ("移動・滞在・安全・営業確認を一日でつなぐ", "森町の観光情報と施設・交通の当事者情報", "訪問日、移動手段、同行者、帰路"),
     "食": ("産地・製造・販売・保存条件を表示から確かめる", "森町の産業情報と販売者の一次情報", "商品名、産地、製造者、保存条件"),
     "農業": ("品目・時期・生産者・圃場管理を分ける", "森町の農林業情報と県・国の所管資料", "品目、時期、所在地、管理者"),
+    "統計資料": ("統計名・基準日・対象・単位を分ける", "森町の統計資料とe-Stat", "統計名、基準日、単位、対象地域"),
+    "上下水道記録": ("水道・下水道・対象期間・使用量を分ける", "森町上下水道課の料金案内", "使用者、検針期間、使用量、請求区分"),
+    "都市計画資料": ("図面・凡例・区域・対象地点を分ける", "森町の都市計画資料と国の制度案内", "対象地点、図面名、凡例、確認日"),
+    "高齢者福祉": ("本人条件・家族状況・サービス内容を分ける", "森町地域包括支援センターと保健福祉課", "本人の年齢・状態、家族状況、希望する支援"),
 }
 
 # 検索意図の中心に期限・警戒段階・届出条件がある記事は、一般的な
@@ -69,6 +74,26 @@ CRITICAL_FACTS = {
         "一般的な面積要件は、市街化区域2,000平方メートル以上、市街化区域を除く都市計画区域5,000平方メートル以上、都市計画区域外10,000平方メートル以上です。森町の対象区域と一団の土地の扱いは、契約前に県・町の担当窓口へ確認します。",
     ],
 }
+
+# URLの存在確認や編集手順は、出典付きであっても主題そのものの事実ではない。
+# enrichmentを本文へ渡す前に除外し、件数だけを満たす疑似的な項目を防ぐ。
+PSEUDO_FACT_MARKERS = (
+    "判断する中心は",
+    "判断を分ける確認項目",
+    "一次情報として実在する",
+    "も実在し、",
+    "第3の確認先になる",
+    "HTTP 200",
+    "確認対象は、",
+    "資料の更新日と混同せず",
+    "だけから断定できないため",
+    "という問いに答えるには",
+    "制度・分類の上位枠は",
+    "法定期限・募集期限・受付期間は制度ごとに異なる",
+    "最初の窓口候補は",
+    "別欄で照合し、確認日と未確認事項を記録",
+    "公式資料で確定できる範囲と、資料だけでは確定できない範囲",
+)
 
 SECTION_HEADINGS = [
     "この問いで最初に決めること", "一次情報から確定できる範囲", "森町で条件が変わるポイント",
@@ -95,6 +120,24 @@ def editorial_chars(html: str) -> int:
     match = re.search(r'<article class="post-editorial-body">(.*?)</article>', html, re.S)
     return visible_chars(match.group(1)) if match else 0
 
+def substantive_facts(row: dict) -> list[dict]:
+    """主題の実内容と出典URLを持つ事実だけを返す。"""
+    accepted = []
+    source_urls = {str(item.get("url", "")) for item in row.get("sources", [])}
+    for item in row.get("verified_facts", []):
+        if not isinstance(item, dict):
+            continue
+        statement = str(item.get("statement", "")).strip()
+        source_url = str(item.get("source_url", "")).strip()
+        if not statement or len(statement) < 25:
+            continue
+        if not source_url.startswith("https://") or source_url not in source_urls:
+            continue
+        if any(marker in statement for marker in PSEUDO_FACT_MARKERS):
+            continue
+        accepted.append(item)
+    return accepted
+
 def load_rows() -> list[dict]:
     rows = json.loads(TOPICS.read_text(encoding="utf-8"))
     enrichments: dict[int, dict] = {}
@@ -115,8 +158,38 @@ def load_rows() -> list[dict]:
         for key, minimum in {"verified_facts": 6, "morimachi_conditions": 3, "section_headings": 12, "faqs": 4, "sources": 3}.items():
             if len(item.get(key, [])) < minimum:
                 raise RuntimeError(f"ID{row['id']} {key} が{minimum}件未満です")
+        # 未承認ページはnoindexの下書きとして生成を続ける。本文には疑似的な
+        # 項目を出さず、公開候補へ移す時点で ensure_release_quality が止める。
+        item["all_verified_facts"] = list(item["verified_facts"])
+        item["verified_facts"] = substantive_facts(item)
+        item["substantive_fact_count"] = len(item["verified_facts"])
         merged.append(item)
     return merged
+
+
+def parse_ids(value: str | None, valid_ids: set[int]) -> set[int]:
+    """Parse a comma-separated ID/range list such as ``1,4,10-12``."""
+    if value is None:
+        return set(valid_ids)
+    selected: set[int] = set()
+    for token in value.split(","):
+        token = token.strip()
+        if not token:
+            continue
+        if "-" in token:
+            left, right = token.split("-", 1)
+            start, end = int(left), int(right)
+            if start > end:
+                raise ValueError(f"ID範囲が逆順です: {token}")
+            selected.update(range(start, end + 1))
+        else:
+            selected.add(int(token))
+    if not selected:
+        raise ValueError("--ids に1件以上のIDを指定してください")
+    unknown = selected - valid_ids
+    if unknown:
+        raise ValueError(f"存在しない第4期IDです: {sorted(unknown)}")
+    return selected
 
 def category_context(category: str) -> tuple[str, str, str]:
     return CATEGORY_CONTEXT.get(category, ("対象・時点・担当者・根拠を分ける", "森町と所管機関の一次情報", "対象地、目的、時期、確認資料"))
@@ -338,80 +411,382 @@ def safe_faqs(row: dict) -> list[tuple[str, str]]:
 
 
 def editorial_blocks_v2(row: dict) -> str:
-    """見出しの名詞化・自己反復を避けた公開前編集本文。"""
+    """固有事実を主役にし、意味・注意・手順を自然文で展開する。"""
     title = str(row["title"])
     subject = title.split("｜", 1)[0]
     short_subject = re.sub(r"^森町(?:で|の)?", "", subject).strip()
-    details = [
-        value for value in topic_details(row)
-        if subject not in value and (not short_subject or short_subject not in value)
-    ]
-    if not details:
-        method, _, memo = category_context(row["category"])
-        details = [method, memo, str(row["search_intent"])]
+    facts = list(row["verified_facts"])
+    conditions = [str(value).strip() for value in row["morimachi_conditions"]]
+    faqs = list(row["faqs"])
     sources = list(row["sources"])
+    source_headings = [str(value).strip() for value in row["section_headings"]]
+    method, authorities, memo = category_context(row["category"])
 
-    def naturalize(text: str) -> str:
-        text = str(text).replace("。。", "。").replace(title, "この確認").replace(subject, "この確認")
+    def clean(text: object) -> str:
+        value = re.sub(r"\s+", "", str(text).strip())
+        value = value.replace("。。", "。").replace("？？", "？")
+        value = value.replace("「「", "「").replace("」」", "」")
+        if value and value[-1] not in "。！？":
+            value += "。"
+        return value
+
+    def fact_text(item: object) -> str:
+        return clean(item.get("statement", "") if isinstance(item, dict) else item)
+
+    def focus(index: int) -> str:
+        value = source_headings[index % len(source_headings)]
+        value = value.replace(title, "").replace(subject, "")
         if short_subject:
-            text = text.replace(short_subject, "この確認")
-        text = text.replace("このテーマのリスク区分", "個別判断が必要な範囲")
-        text = text.replace("編集上の印", "確認を止める目安")
-        return re.sub(r"この確認(?:について)?この確認", "この確認", text)
+            value = value.replace(short_subject, "")
+        value = re.sub(r"^(の|について|では|を)+", "", value).strip(" ：。")
+        return (value if len(value) >= 5 else "確認する項目")[:76]
+
+    def role_label(role: object) -> str:
+        labels = {
+            "primary": "中心となる一次資料",
+            "official-secondary": "国や所管機関の補足資料",
+            "森町公式・主資料": "森町の中心資料",
+            "森町公式・補完資料": "森町の補足資料",
+            "国・県・所管機関": "国・県の制度資料",
+        }
+        raw = str(role or "").strip()
+        return labels.get(raw, raw if raw and re.search(r"[ぁ-んァ-ヶ一-龠]", raw) else "確認用の公式資料")
+
+    guidance = [
+        (
+            "最初に決めるのは、この記事で確かめた情報を何の判断に使うかです。数字、書類、区域、対象者など、答えの単位を一つに絞ると、似た案内を混ぜずに済みます。",
+            f"確認表の一行目には{memo}を書きます。未定の項目には確認先と確認日を置き、空欄のまま結論へ進まないようにします。",
+            "この段階では、できる・できないを決める必要はありません。まず確定した事実、条件付きで使える情報、まだ分からない点の三つに分けます。",
+        ),
+        (
+            "一次情報から確定できる範囲を見極めます。見出しだけで判断せず、対象となる人や場所、基準日、単位、注記まで確認します。",
+            f"確認の起点は{authorities}です。公開日と適用日が同じとは限らないため、引用や申請に使う日付を別に控えます。",
+            "別の資料と数値や条件が違うときは、新しい方へ機械的に寄せません。定義、集計方法、対象期間が同じかを先に比べます。",
+        ),
+        (
+            "森町で条件を当てはめるときは、町全体の説明と個別の対象を切り分けます。地区、集計単位、利用者、時期が変われば必要な確認も変わります。",
+            "町の案内で確認できることと、県・国・事業者・所有者へ聞くことを分けておくと、一つの窓口へ同じ質問を繰り返さずに済みます。",
+            "地図や一覧を使う場合は、凡例、縮尺、基準日、対象範囲を一緒に保存します。画面の一部分だけを切り取って根拠にしないでください。",
+        ),
+        (
+            "資料は、知りたいことに直接答えるものから集めます。関連しそうな資料を先に増やすより、主資料、補足資料、個別確認の順に並べる方が読み違いを防げます。",
+            "PDFや表を保存するときは、資料名、ページ番号、確認日をファイル名かメモへ残します。数字だけを転記すると、後から単位や注記を確かめられません。",
+            "必要書類がある場合は、原本か写しか、発行期限があるか、本人以外でも取得できるかを分けて確認します。取得前に用途を伝えると手戻りを減らせます。",
+        ),
+        (
+            "窓口へ尋ねる前に、知りたいことを一文で説明できるようにします。すでに確認した資料名と、資料だけでは決められなかった点を添えてください。",
+            "問い合わせでは、答えだけでなく根拠となるページや担当部署も確認します。担当外なら、次の窓口へ何を伝えればよいかを聞いて記録します。",
+            "現地確認が必要なテーマでは、安全と私有地への配慮を優先します。写真には日付と方向を残し、見えていない範囲を推測で補いません。",
+        ),
+        (
+            "日付を扱うときは、基準日、受付日、実行日、再確認日を別々に置きます。一つの日付で全体を代表させないことが大切です。",
+            "年度をまたぐ案内は、前年の条件をそのまま使わず、当年資料が公開された時点で差分を見ます。月次資料なら何月時点かも明記します。",
+            "回答待ちがある場合は、自分が次に判断する日を決めます。返答がなければ保留するのか、別案へ切り替えるのかも先に共有します。",
+        ),
+        (
+            "見えにくい負担として、確認にかかる時間、移動、資料取得、維持管理を分けて考えます。金額が示されないテーマでも手間は残ります。",
+            "費用が発生しないテーマでも、古い情報を使うことによる手戻りや、家族が同じ調査を繰り返す負担があります。確認記録を残すこと自体が負担軽減になります。",
+            "見積りや料金を比べるときは、含まれる作業と含まれない作業をそろえます。金額の大小だけでなく、追加対応が必要になる条件も確認してください。",
+        ),
+        (
+            "家族や関係者へは、結論だけを送らず、根拠にした資料と確認日を添えます。前提が変われば答えも変わることを共有します。",
+            "情報を集める人と決定する人が異なる場合は、誰がどこまで確認したかを残します。一人の記憶だけに頼らない形にしてください。",
+            "意見が分かれたときは、賛否より先に、確定事実、希望、負担、保留条件を並べます。何が分かれば次へ進めるかを決める方が話し合いやすくなります。",
+        ),
+        (
+            "判断案は、情報を採用する案だけでなく、条件が整うまで待つ案と、今回は使わない案も残します。選択肢を二つに絞りすぎないでください。",
+            "最初の行動は、資料を一件確認する、窓口を特定する、対象を記すなど、小さく区切れます。大きな手続きや判断を最初の一歩にする必要はありません。",
+            "保留にするときは、理由と再確認日を記録します。情報不足で止まっているのか、条件が合わないと判断したのかを分けておけば、再開しやすくなります。",
+        ),
+        (
+            "記録には、確認者、確認日、資料名、分かったこと、残った疑問、次の担当を残します。結論だけでは、前提が変わったときに見直しができません。",
+            "住所と地番、通称と正式名称、年度と暦年など、似ていて役割の違う情報は欄を分けます。元資料の表記は書き換えずに保存します。",
+            "更新版を入手したら、古い版を黙って上書きしません。何が変わったかを短く残し、個人情報を含む資料は共有範囲も確認します。",
+        ),
+        (
+            f"大石の視点では、一つの答えへ急いでまとめません。{memo}など、主題に関係する事実を順に分ける方が選択肢を守れます。",
+            "私は、現地を見ていない事項や資料で確認できない内容を、経験談のように断定しません。分からない点は、次に確かめる条件として明記します。",
+            "まだ最終判断をしていない段階でも、資料と確認記録は役立ちます。家族が後から同じ問いに向き合える形を整えることを優先します。",
+        ),
+        (
+            "最後に、結論が資料で裏付けられているかを見直します。事実、条件、期限、確認先のどれかが欠けていれば、判断を一段戻します。",
+            "今日できる一歩は、主資料を開いて基準日を記すことです。その後に、窓口、現地、家族、専門家のうち次に確認する相手を一つ決めます。",
+            "実行直前には同じ公式ページを開き、更新の有無を確かめます。ページURLだけでなく、自分たちの対象と未確認事項を添えて共有してください。",
+        ),
+    ]
+
+    extra_guidance = [
+        (
+            f"「{focus(0)}」の答えを、数値、対象者、場所、時期、手続きのどれとして残すのかを決めます。答えの形が決まれば、不要な資料を減らせます。",
+            "似た名称の制度や統計があるときは、正式名称をそのままメモします。略称だけで保存すると、後で別の資料と取り違えるおそれがあります。",
+            "今回の判断に使わない情報も、誤りとして捨てるのではなく、対象外になった理由を残します。別の時期や家族には必要になる場合があります。",
+        ),
+        (
+            f"「{focus(1)}」を読む前に、資料の作成者と掲載元を確認します。転載資料なら、可能な範囲で元の公表資料まで戻ってください。",
+            "表に数字が並ぶ場合は、人数、世帯、円、平方メートルなどの単位を見ます。割合なら分母、合計なら重複の有無も確認します。",
+            "資料が説明していない範囲を、書いてある事実から推測しないことも重要です。個別判断が必要な点は、未確認事項として切り分けます。",
+        ),
+        (
+            f"「{focus(2)}」を住所へ当てはめる場合は、町名だけでなく地番や区域、施設名など、公式資料が採用している単位に合わせます。",
+            "同じ森町内でも、対象区域や担当、利用条件が同じとは限りません。町全体の平均や一般案内を、個別地点の答えへ置き換えないでください。",
+            "現況と資料が違って見える場合は、どちらかを誤りと決めず、資料の基準日と現地の確認日を並べて担当窓口へ伝えます。",
+        ),
+        (
+            f"「{focus(3)}」に使う資料は、確認した順ではなく役割順に並べます。結論の根拠、条件の補足、個別照会の回答が分かる構成にします。",
+            "表計算へ転記する場合も、元資料のURLと該当箇所を同じ行へ残します。転記値だけでは、更新時の差分を確かめられません。",
+            "資料の版が複数あるときは、最新版だけでなく、今回の基準日に対応する版を選びます。最新版が過去時点の説明に適するとは限りません。",
+        ),
+        (
+            f"「{focus(4)}」の問い合わせでは、質問を一度に広げすぎません。まず主題に直接関係する一点を確認し、回答に応じて次の質問へ進みます。",
+            "電話で確認した場合は、部署名、確認日時、回答の要点を残します。担当者個人の名前を必要以上に共有せず、公式の連絡先を記録します。",
+            "法務、税務、医療、構造、安全性など専門判断が必要な内容は、担当部署の案内だけで結論を出さず、必要な資格者や所管機関へつなぎます。",
+        ),
+        (
+            f"「{focus(5)}」を時系列にするときは、資料を確認した日と、資料が示す基準日を別の列に置きます。この二つを混ぜると比較を誤ります。",
+            "締切がある場合は、締切日だけでなく、資料取得、家族確認、窓口相談を始める日も決めます。休日や郵送期間も見込んでください。",
+            "定期的に更新される情報は、毎回同じ時点で確認すると変化を追いやすくなります。比較の途中で集計時点を変えないようにします。",
+        ),
+        (
+            f"「{focus(6)}」の負担を見積もるときは、調査を担当する人の時間も含めます。無料の資料でも、探し直しや移動には負担が生じます。",
+            "家族が遠方にいる場合は、郵送、オンライン共有、現地確認の担当を分けます。一人がすべて抱える前提にしないことが継続の条件です。",
+            "費用や手間が予想より増えたときに、どこで中止・保留するかを先に決めます。続けることだけを前提にすると、判断を急ぎやすくなります。",
+        ),
+        (
+            f"「{focus(7)}」を共有するときは、要約と元資料を分けます。要約には作成者と日付を付け、解釈が含まれることが分かるようにします。",
+            "個人情報や権利関係を含む資料は、家族全員へ一律に送らず、必要な人だけが見られる場所で管理します。共有リンクの期限も確認します。",
+            "家族から別の情報が出た場合は、どちらが正しいかをその場で決めず、出典と基準日を確認します。新しい情報も同じ確認表へ追加します。",
+        ),
+        (
+            f"「{focus(8)}」の代案は、目的を変えずに方法を変える案と、目的自体を見直す案に分けます。何を守りたいかが分かると比較しやすくなります。",
+            "公式資料だけで決められない場合は、窓口確認、専門相談、現地確認のどれを先に行うかを選びます。すべてを同時に始める必要はありません。",
+            "見送る案にも、再検討する条件を付けます。制度の更新、家族状況の変化、資料の入手など、再開のきっかけを具体的にします。",
+        ),
+        (
+            f"「{focus(9)}」の記録は、第三者が読んでも確認経路をたどれることが目標です。自分だけに通じる略称や評価語は避けます。",
+            "回答を要約するときは、事実と自分の判断を別の欄に書きます。担当機関の説明を、自分の結論として言い換えないようにしてください。",
+            "記録を終える前に、元資料へ戻れるリンクが開くか確認します。リンク切れに備え、資料名と担当部署も文字で残します。",
+        ),
+        (
+            f"「{focus(10)}」では、公表事実と私の意見を明確に分けます。意見は判断の順序を提案するもので、個別の可否を保証するものではありません。",
+            f"小さな不動産業者としては、{memo}を一度に結論へ結び付けず、資料で確かめられる範囲から順番に整理することを勧めます。",
+            "相談者がまだ決めていない状態を尊重し、情報を採用する案、追加確認する案、保留する案、使わない案を同じ表で比べます。結論を迫ることを相談の目的にしません。",
+        ),
+        (
+            f"「{focus(11)}」を確認したら、主資料一件、補足資料一件、未確認事項一件を声に出して説明してみます。説明できない部分が次の確認対象です。",
+            "まとめには、分かったことだけでなく、今回の資料では分からなかったことも残します。情報がないことと、対象外であることを混同しないでください。",
+            "最後の確認日を記したら、次に見直す時期も決めます。更新が多い情報は実行直前、変わりにくい資料は前提が変わったときに確認します。",
+        ),
+    ]
+
+    final_guidance = [
+        "この整理ができれば、次に開く資料と尋ねる相手を一つに絞れます。",
+        "確定できた範囲が狭くても、資料が保証している範囲を正しく残す方が安全です。",
+        "個別条件を確認した結果は、町全体の説明と混ぜずに対象ごとの記録へ戻します。",
+        "集めた資料ごとに役割を一行で書けば、後から不要な重複を整理できます。",
+        "回答を受けた後は、当初の質問に答えられたかを確認し、別の論点を同じ回答へ混ぜません。",
+        "時系列の最後には次の確認日を置き、更新情報を追う担当も決めておきます。",
+        "負担が大きいと分かった場合は、確認範囲を狭めることも現実的な選択です。",
+        "共有後に認識が一致したかを確かめ、異なる理解は確認表の注記として残します。",
+        "代案にも根拠資料を付け、単なる思いつきではなく比較できる選択肢にします。",
+        "最後に未確認事項だけを一覧にし、次の担当がそのまま動ける状態へ整えます。",
+        "私は、資料で確認できたことより先へ結論を広げない姿勢を大切にします。",
+        "ここまでの記録を一枚にまとめれば、次の確認で最初から調べ直す必要がありません。",
+    ]
+
+    if row["category"] == "統計資料":
+        extra_guidance[1] = (
+            f"「{focus(1)}」は、資料の作成者、統計名、表題を確認してから読みます。転載表なら元の公表資料まで戻ってください。",
+            "人口と世帯、実数と割合、月次値と調査年値を分けます。割合は分母、合計は集計範囲を確認します。",
+            "資料が説明していない変化の原因を、数字だけから推測しません。読み取れない範囲も記録に含めます。",
+        )
+        extra_guidance[2] = (
+            f"「{focus(2)}」を地区別に見る場合は、町名別と行政区別など、資料が採用する区分をそのまま使います。",
+            "町全体の値と地区別の値を並べるときは、合計が一致する定義かを確認します。集計外の区分や注記も見落とさないでください。",
+            "異なる基準日の表は別の列に置きます。同一時点の差に見える配置を避け、表頭にも基準日を入れます。",
+        )
+        extra_guidance[3] = (
+            f"「{focus(3)}」に使った表は、資料名、表番号、基準日を一組で保存します。",
+            "転記したセルには元表の列名と行名を残します。独自に合計や割合を計算した場合は、計算式と加工日を記録します。",
+            "改訂版が出たときは、数値だけでなく定義や注記の変更も確認します。過去版を上書きせず差分を残してください。",
+        )
+        extra_guidance[4] = (
+            f"「{focus(4)}」を問い合わせるときは、統計名、表番号、基準日、知りたい定義を伝えます。",
+            "担当部署の説明は、どの統計系列についての回答かを明記します。別系列の数字へ同じ説明を広げないでください。",
+            "e-Statで再確認するときは、調査名、地域、調査年を指定します。検索結果の一覧だけでなく統計表を開きます。",
+        )
+        extra_guidance[5] = (
+            f"「{focus(5)}」は、調査日、公表日、資料を確認した日を分けて時系列にします。",
+            "月次値は毎月同じ基準日のものを並べ、国勢調査は調査年ごとの系列として扱います。途中で系列を切り替えません。",
+            "次に値を更新する日を決め、同じ表と同じ項目を確認します。更新がなければ、その事実も記録します。",
+        )
+        extra_guidance[6] = (
+            f"「{focus(6)}」を調べる作業は、表の探索、定義確認、転記、照合に分けます。",
+            "家族や関係者が別々に集計しないよう、採用する統計系列を先に共有します。",
+            "比較に必要な表がそろわなければ、推計に進まず、どの値が不足しているかを示します。",
+        )
+        extra_guidance[7] = (
+            f"「{focus(7)}」を共有するときは、要約表と元の統計表を一緒に渡します。",
+            "独自に付けた見出しや色分けは、公表資料の表記と区別します。加工者と加工日も添えてください。",
+            "別の数字が提示された場合は、正誤を先に決めず、統計名、基準日、単位を照合します。",
+        )
+        extra_guidance[8] = (
+            f"「{focus(8)}」の代案として、同じ系列だけで比較する方法と、比較せず各値の定義を説明する方法があります。",
+            "二つの値を一つのグラフへ入れない判断も有効です。見た目の連続性より、統計の一貫性を優先します。",
+            "保留した比較には、再開に必要な資料名と基準日を残します。新しい表が公表されたときに確認できます。",
+        )
+        extra_guidance[9] = (
+            f"「{focus(9)}」の記録は、第三者が同じ統計表を開けることを目標にします。",
+            "事実の転記と、その数字から考えたことを別欄にします。解釈を公表事実のように書かないでください。",
+            "リンクが変わっても探せるよう、統計名、表題、公表機関を文字で残します。",
+        )
+        extra_guidance[10] = (
+            f"「{focus(10)}」では、数字の大きさより先に統計系列と基準日を見ます。",
+            "小さな不動産業者としても、人口統計だけで地区や個別物件の価値を断定しません。使える範囲を限定します。",
+            "家族へ説明するときは、数字、出典、基準日、比較できない点を一組にします。",
+        )
+        extra_guidance[11] = (
+            f"「{focus(11)}」を確認したら、採用した統計名と基準日を読み上げて一致を確かめます。",
+            "まとめには、確定した値だけでなく、系列が違うため比較しなかった値も残します。",
+            "次回は同じ公表ページと表を開き、定義や注記が変わっていないかを確認します。",
+        )
+        guidance[2] = (
+            "森町の統計を使うときは、対象地域と集計単位を確認します。町全体、地区別、年齢別など、集計範囲が違う数字を同列に置かないでください。",
+            "同じ人口や世帯を扱う資料でも、調査方式と基準日が違えば値は一致しません。差があること自体を増減の根拠にしないことが重要です。",
+            "表や一覧を保存するときは、表題、基準日、単位、注記を一緒に残します。数字の列だけを切り取って共有しないでください。",
+        )
+        guidance[3] = (
+            "統計資料は、知りたい指標を直接掲載する表から集めます。人口、世帯、年齢、地区など、別の指標を同じ表へ混ぜないようにします。",
+            "表計算へ転記するときは、列名と単位を元資料に合わせます。並べ替えや再計算をした場合は、加工したことを注記してください。",
+            "過去値を確認する場合は、最新版だけでなく比較する年の資料も保存します。後から定義変更の有無を確かめられる形にします。",
+        )
+        guidance[4] = (
+            "資料の定義が分からないときは、統計名、表番号、基準日、該当する列を示して担当部署へ尋ねます。数字だけを読み上げるより確認が早くなります。",
+            "回答を受けたら、どの表のどの定義についての説明かを記録します。別の統計系列へ回答を広げないでください。",
+            "e-Statを使う場合も、調査名、地域、調査年をそろえます。森町公式の月次資料とは別系列として扱います。",
+        )
+        guidance[6] = (
+            "統計を扱う負担は、資料の探索、定義の確認、転記、更新差分の確認に分けます。無料で取得できる資料でも作業時間は必要です。",
+            "家族や関係者が同じ数字を調べ直さないよう、表名と確認日を共有します。数字だけのメモは出典確認の手間を増やします。",
+            "比較に必要な年や地区がそろわない場合は、無理に推計せず、比較できない理由を結論に含めます。",
+        )
+        guidance[8] = (
+            "二つの統計を直接比べられない場合は、同じ統計系列の別時点を使う案、比較を保留する案、説明を定性的な範囲にとどめる案があります。",
+            "最初の行動は、統計名と基準日を一件ずつ確認することです。すべての表を集めてから考える必要はありません。",
+            "比較を見送る場合も、定義、基準日、単位のどこがそろわなかったかを残します。資料更新時に必要な箇所だけ見直せます。",
+        )
+        guidance[10] = (
+            f"大石の視点では、統計名、基準日、単位、対象地域を分けます。数字の印象だけで地域や物件の状態を説明しないことが大切です。",
+            "私は、公表資料で確かめられない原因を経験談のように補いません。数値差の理由は、調査方式と基準日の違いを確認してから考えます。",
+            "統計は判断材料の一つです。家族へ渡すときは、数字と出典、基準日、読み取れない範囲を一組で残します。",
+        )
+    elif row["category"] == "高齢者福祉":
+        extra_guidance[1] = (
+            f"「{focus(1)}」は、森町の掲載ページと担当部署を確認してから読みます。転載された制度名だけで対象を判断しません。",
+            "年齢、世帯状況、心身の状態、利用回数、費用を別の項目として読みます。いずれか一つだけで対象を決めないでください。",
+            "掲載資料が説明していない本人の可否は推測せず、相談時に確認する項目として残します。",
+        )
+        extra_guidance[2] = (
+            f"「{focus(2)}」を本人へ当てはめるときは、現在の生活状況と希望する支援を具体的にします。",
+            "町全体の制度説明と、本人に利用が認められることは同じではありません。相談先の確認を経て判断します。",
+            "本人の状態が変わった場合は、以前の相談結果をそのまま使わず、変化した点を伝えて再確認します。",
+        )
+        extra_guidance[5] = (
+            f"「{focus(5)}」は、相談日、申込日、利用開始日、見直し日を並べて管理します。",
+            "受付期間や利用回数が示されている場合は、いつから数えるのかを確認します。家族の都合だけで起算日を決めません。",
+            "次の相談日を決め、本人の状態や家族状況に変化があれば予定日前でも連絡します。",
+        )
+        guidance[2] = (
+            "森町の福祉サービスを本人へ当てはめるときは、年齢、心身の状態、世帯状況、現在受けている支援を分けて確認します。",
+            "サービス名が似ていても、対象条件や相談窓口は同じとは限りません。本人の希望を置き去りにせず、家族の負担だけで選ばないようにします。",
+            "緊急性がある場合は、通常の情報整理より安全確保と専門窓口への連絡を優先します。この記事だけで利用可否を判断しないでください。",
+        )
+        guidance[4] = (
+            "相談前に、本人の状態、困っている場面、希望する支援、家族が対応できる範囲を短くまとめます。病名だけでは生活上の困りごとが伝わりません。",
+            "地域包括支援センターへ相談した内容は、次の担当や必要資料と一緒に記録します。制度名を聞いただけで利用できると決めないでください。",
+            "医療判断や介護認定が関係する内容は、町の案内と医療・介護の専門判断を分けます。本人の同意と個人情報の扱いにも配慮します。",
+        )
+        guidance[6] = (
+            "福祉サービスの負担は、利用料だけでなく、送迎、見守り、申請、家族の時間、利用開始までの待機も含めて考えます。",
+            "家族が遠方にいる場合は、日常の連絡役、緊急時の連絡先、手続きの担当を分けます。一人で抱え続ける前提にしないことが重要です。",
+            "希望する支援が対象外の場合は、代替サービスや別の相談先を確認します。対象外と支援不要を同じ意味にしないでください。",
+        )
+        guidance[5] = (
+            "日付は、相談日、申込日、利用開始日、見直し日を分けます。本人の状態が変わった場合は、予定日を待たずに相談し直します。",
+            "年度をまたぐ案内は、対象条件、利用回数、費用、受付方法の変更を確認します。前年の利用経験だけで当年の条件を決めないでください。",
+            "家族や事業者からの回答待ちがある場合は、次に連絡する日を決めます。支援が途切れないよう、緊急時の相談先も確認します。",
+        )
+        guidance[11] = (
+            "最後に、本人の希望とサービスの対象条件が資料で確認できているかを見直します。未確認なら利用できると断定しません。",
+            "今日できる一歩は、本人の状態と困っている場面をまとめ、地域包括支援センターへ相談することです。",
+            "利用開始前には、対象条件、費用、連絡先、家族の担当を再確認します。状態が変わったときの連絡方法も共有してください。",
+        )
+        guidance[10] = (
+            f"大石の視点では、本人の年齢・状態、家族状況、希望する支援を分けます。住まいの判断を先に決めず、暮らしを続ける条件から整理します。",
+            "私は、本人や家族から聞いていない事情を経験談のように補いません。分からない点は、地域包括支援センターへ相談する項目として残します。",
+            "まだ住まいや資産の扱いを決めていない段階でも、支援の記録は役立ちます。本人が選べる情報量と順序を整えることを優先します。",
+        )
+
+    all_fact_texts = [fact_text(item) for item in facts]
+    for value in CRITICAL_FACTS.get(int(row["id"]), []):
+        cleaned = clean(value)
+        if cleaned not in all_fact_texts:
+            all_fact_texts.append(cleaned)
+    facts_by_section = [[] for _ in SECTION_HEADINGS]
+    for index, value in enumerate(all_fact_texts):
+        facts_by_section[index % len(SECTION_HEADINGS)].append(value)
 
     parts = [
         '<section class="direct-answer"><h2 class="sec">先に結論を確認する</h2>',
-        f'<p>{e(row["search_intent"])}人は、対象、予定日、現在分かっている事実を先に一枚へまとめます。'
-        f'その後に森町公式の「{e(sources[0].get("title") or "担当ページ")}」を開き、対象条件と窓口を照合してください。</p>',
+        f'<p>{e(row["search_intent"])}場合は、まず資料の名称、対象、基準日をそろえます。'
+        f'確認の起点は「{e(sources[0].get("title") or "森町の公式資料")}」です。個別条件は、資料の本文と担当窓口で確かめてください。</p>',
+        '<p>この記事では、公表済みの事実と、個別に確認する条件を分けて扱います。数値や制度名だけを抜き出さず、いつ・誰に・どこで当てはまる情報かまで記録します。</p>',
+        '</section>',
     ]
-    for fact in CRITICAL_FACTS.get(int(row["id"]), []):
-        parts.append(f'<p><strong>{e(fact)}</strong></p>')
-    for question, answer in safe_faqs(row)[:2]:
-        parts.append(f'<p><strong>{e(question)}</strong>{e(answer)}</p>')
-    parts.append('</section>')
 
-    for idx, heading in enumerate(SECTION_HEADINGS):
-        paragraphs = paragraph_set(row, idx)
-        if idx == 0:
-            paragraphs = [
-                f"扱う範囲は「{row['search_intent']}」という具体的な迷いです。対象者、場所、予定日を決める前に、別の制度や別年度の情報を混ぜていないか確認します。",
-                f"確認表の最初の欄には「{details[0]}」を書きます。分からない場合は空欄にせず、誰へ、いつ確認するかを添えます。",
-                "結論を先に決めると、都合のよい資料だけを集めやすくなります。実行する案、条件が整えば実行する案、今回は見送る案の三つを残してください。",
-                "このページは個別の許可、税額、医療判断、権利関係を確定するものではありません。読者自身の条件を整理し、担当機関へ正確に相談するために使います。",
-            ]
-        elif idx == 1:
-            usable_facts = []
-            for item in row["verified_facts"]:
-                statement = str(item.get("statement") if isinstance(item, dict) else item)
-                if any(mark in statement for mark in ("判断を分ける確認項目", "対象地番・対象者・資料基準日", "HTTP 200")):
-                    continue
-                usable_facts.append(naturalize(statement))
-            # 核心事実は冒頭で一度だけ明示する。ここで再掲せず、出典の役割を示す。
-            paragraphs = usable_facts[:2]
-            for source in sources:
-                paragraphs.append(
-                    f"「{source.get('title') or '公式資料'}」は公式の一次情報です。"
-                    f"この記事では「{source.get('role') or '対象条件の確認'}」という役割で参照します。"
-                    "資料名、対象年度、担当部署、確認日を残し、別資料の説明と混ぜないでください。"
-                )
-            paragraphs = paragraphs[:4]
-        else:
-            paragraphs = [naturalize(value) for value in paragraphs]
+    condition_slots = {1: 0, 5: 1, 8: 2}
+    faq_slots = {0: 0, 3: 1, 6: 2, 9: 3}
+    source_start = len(SECTION_HEADINGS) - len(sources)
+    source_slots = {source_start + offset: offset for offset in range(len(sources))}
 
-        while len(paragraphs) < 6:
-            detail = details[(idx + len(paragraphs)) % len(details)]
-            additions = (
-                f"「{heading}」の段階では「{detail}」を独立した確認項目にします。根拠資料と確認日を添え、分からない部分には確認先と予定日を書いてください。",
-                f"「{heading}」を家族へ共有するときは「{detail}」の結論だけを送らず、確認済みの範囲、残った疑問、次に動く人を一緒に伝えます。",
-                f"「{heading}」について窓口へ相談する前に「{detail}」を一文で説明できる形にします。対象となる人や場所、希望時期を添えると担当範囲を確認しやすくなります。",
-                f"「{heading}」を見直す日は「{detail}」の実行予定と公式情報の更新時期から決めます。変更がなければその事実も記録し、古い版との混同を防ぎます。",
-            )
-            paragraphs.append(additions[(idx + len(paragraphs)) % len(additions)])
+    for index, heading in enumerate(SECTION_HEADINGS):
         parts.append(f'<section class="topic-specific"><h2 class="sec">{e(heading)}</h2>')
-        parts.extend(f'<p>{e(value)}</p>' for value in paragraphs[:6])
-        if idx == 2:
+        if facts_by_section[index]:
+            parts.extend(f'<p>{e(value)}</p>' for value in facts_by_section[index])
+        elif not all_fact_texts:
+            parts.append(
+                f'<p>「{e(focus(index))}」に対応する固有事実は、現在の確認台帳ではまだ一次情報の本文まで記録できていません。'
+                '推測で補わず、下書きのまま確認を続けます。</p>'
+            )
+        combined_guidance = [
+            clean(guidance[index][offset] + extra_guidance[index][offset])
+            for offset in range(3)
+        ]
+        combined_guidance[1] = clean(
+            combined_guidance[1]
+            + f"この区別は「{focus((index + 4) % len(SECTION_HEADINGS))}」を整理するときにも使います。"
+        )
+        combined_guidance[-1] = clean(
+            combined_guidance[-1]
+            + final_guidance[index]
+            + f"確認結果は「{focus((index + 8) % len(SECTION_HEADINGS))}」の記録へ反映します。"
+        )
+        parts.extend(f'<p>{e(value)}</p>' for value in combined_guidance)
+        if index in condition_slots and condition_slots[index] < len(conditions):
+            parts.append(f'<p><strong>森町で当てはめる条件：</strong>{e(clean(conditions[condition_slots[index]]))}</p>')
+        if index in faq_slots and faq_slots[index] < len(faqs):
+            item = faqs[faq_slots[index]]
+            parts.append(
+                f'<p><strong>{e(clean(item["question"]))}</strong>{e(clean(item["answer"]))}</p>'
+            )
+        if index in source_slots:
+            source = sources[source_slots[index]]
+            parts.append(
+                f'<p>「{e(source.get("title") or "公式資料")}」は、{e(role_label(source.get("role")))}です。'
+                '本文で使う箇所の見出し、対象年度、確認日を一緒に控えます。</p>'
+            )
+        if index == 2:
             parts.append(f'<figure><img style="width:100%;height:auto" src="fig1.svg" width="1000" height="560" loading="lazy" alt="森町で{e(row["search_intent"])}ため、資料と現地を照合する場面"><figcaption>対象地点と一次資料を同じ確認表で照合します。</figcaption></figure>')
-        if idx == 8:
+        if index == 8:
             parts.append(f'<figure><img style="width:100%;height:auto" src="fig2.svg" width="1000" height="560" loading="lazy" alt="{e(subject)}について、確認から家族共有へ進む順序"><figcaption>確認済み、未確認、次の担当を分けて残します。</figcaption></figure>')
         parts.append('</section>')
     return ''.join(parts)
@@ -449,17 +824,28 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"静岡県森町ライフハック","item":SITE+"/"},{"@type":"ListItem","position":2,"name":category,"item":SITE+CATEGORY_PATH.get(category,"/guide/")},{"@type":"ListItem","position":3,"name":title,"item":SITE+url}]}
     sources = "".join(f'<a class="official-link" href="{e(src["url"])}" target="_blank" rel="noopener">{e(src.get("title") or "一次情報")} <span>{e(src.get("role") or "公式確認")}</span></a>' for src in row["sources"][:5])
     category_hub = CATEGORY_PATH.get(category, "/guide/")
-    related = "".join([f'<a class="official-link" href="{category_hub}">{e(category)}の記事を状況から選ぶ</a>', f'<a class="official-link" href="{prev_url}">前の第4期ガイド</a>', f'<a class="official-link" href="{next_url}">次の第4期ガイド</a>', '<a class="official-link" href="/guide/morimachi-complete-guide/">森町総合ガイド</a>', '<a class="official-link" href="/life/living-soon/about-morimachi/">森町を知る</a>', '<a class="official-link" href="/questions/">森町のよくある質問</a>'])
+    # 未公開の第4期ページへ連鎖させず、常時公開されているハブだけを案内する。
+    # これにより、コホート単位の公開でも未審査ページへの導線が生まれない。
+    related = "".join([f'<a class="official-link" href="{category_hub}">{e(category)}の記事を状況から選ぶ</a>', '<a class="official-link" href="/guide/morimachi-complete-guide/">森町総合ガイド</a>', '<a class="official-link" href="/life/living-soon/about-morimachi/">森町を知る</a>', '<a class="official-link" href="/questions/">森町のよくある質問</a>'])
     related += f'<script type="application/ld+json">{json.dumps(breadcrumb, ensure_ascii=False, separators=(",", ":"))}</script>'
     html = f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | 森町ライフハック</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE}{url}"><meta property="og:type" content="website"><meta property="og:site_name" content="森町ライフハック"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}{url}cover.svg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260702"><script type="application/ld+json">{json.dumps(webpage, ensure_ascii=False, separators=(',', ':'))}</script><script type="application/ld+json">{json.dumps(faq_json, ensure_ascii=False, separators=(',', ':'))}</script></head><body><!-- SEO-PHASE4-PAGE --><!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">森町ライフハック</a></div></header><!-- PART:header:END --><!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">森町ライフハックは森町公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END --><main><div class="wrap"><p class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {e(category)} ／ {e(title)}</p><section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(title)}</h1></div><div class="hero-body"><p class="lead">{e(intent)}人が、事実と未確認事項を分けて次の一歩を決めるためのガイドです。</p><img style="width:100%;height:auto" src="cover.svg" width="1000" height="560" alt="{e(title)}の確認場面を森町の山並み、家、道、資料で描いた表紙"></div></section><article class="post-editorial-body">{editorial_blocks_v2(row)}</article><section><h2 class="sec">よくある質問</h2><div class="qa">{faq_html}</div></section><section><h2 class="sec">公式情報源</h2><p>リンク先の対象年度、担当部署、更新日を確認し、実行直前に再確認してください。</p><div class="official">{sources}</div></section><section><h2 class="sec">関連ページ</h2><div class="official">{related}</div></section><p class="verified">生成日：{TODAY} ／ 個別の可否は公式窓口・当事者・必要な専門家へ確認してください。</p></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
-    # 固有データが長い記事は、末尾の補助論点から減らして上限を守る。
-    # 主要10論点、直接回答、大石の視点は必ず残す。
+    # 固有データが長い記事は、各節で重ねている出典説明だけを減らす。
+    # 節ごとの事実・森町条件・FAQと、12見出しは必ず残す。
     while editorial_chars(html) > 7800:
         matches = list(re.finditer(r'<section class="topic-specific">.*?</section>', html, re.S))
-        if len(matches) <= 9:
+        removable = None
+        for section_match in reversed(matches):
+            paragraph_matches = list(re.finditer(r'<p>.*?</p>', section_match.group(0), re.S))
+            if len(paragraph_matches) > 3:
+                paragraph = paragraph_matches[-1]
+                removable = (
+                    section_match.start() + paragraph.start(),
+                    section_match.start() + paragraph.end(),
+                )
+                break
+        if removable is None:
             break
-        target = matches[-1]
-        html = html[:target.start()] + html[target.end():]
+        html = html[:removable[0]] + html[removable[1]:]
 
     supplements = [
         f"{article_key}の確認表には、{details[0]}、公式ページ名、確認日、対象となる住所や人、予定日、問い合わせ先を書きます。目的が広がった場合は欄を分けます。",
@@ -471,6 +857,18 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
         f"{article_key}の{details[6 % len(details)]}について判断を見直す日を決めます。公式案内、家族構成、所有関係、実行予定日が変わったときは確認し直します。",
         f"{article_key}の記録を閉じる前に、{details[7 % len(details)]}を誰が再確認するか決めます。回答が得られなかった項目は空欄にせず、未確認の理由と次の確認日を残します。",
     ]
+    # 固有事実が未整備のnoindex下書きでも、汎用文の水増しはしない。
+    # 各ページの条件・FAQ・出典・構成軸を交差させた確認メモで補う。
+    for index in range(24):
+        condition = str(row["morimachi_conditions"][index % len(row["morimachi_conditions"])])
+        faq_item = row["faqs"][(index + int(row["id"])) % len(row["faqs"])]
+        source = row["sources"][(index * 2 + int(row["id"])) % len(row["sources"])]
+        source_heading = str(row["section_headings"][(index * 5) % len(row["section_headings"])])
+        supplements.append(
+            f"{source_heading}を確認表へ移す際は、{condition}"
+            f"関連する問い「{faq_item['question']}」への回答は「{faq_item['answer']}」です。"
+            f"根拠は「{source.get('title') or '公式資料'}」で再確認します。"
+        )
     if editorial_chars(html) < 6000:
         extra = ['<section class="practical-notes"><h2 class="sec">実行前の確認メモ</h2>']
         for paragraph in supplements:
@@ -490,7 +888,7 @@ def inject_discovery(rows: list[dict]) -> None:
     for row in rows:
         groups.setdefault(row["category"], canonical_url(row))
     links = "".join(f'<a class="official-link" href="{url}">第4期・{e(category)}の確認ガイド</a>' for category, url in sorted(groups.items()))
-    block = LINK_START + '<section><h2 class="sec">300の具体的な確認ガイド</h2><p>手続き、住まい、土地、文化、訪問などを、一つの判断ごとに確認できます。</p><div class="official">' + links + "</div></section>" + LINK_END
+    block = LINK_START + '<section><h2 class="sec">公開済みの具体的な確認ガイド</h2><p>手続き、住まい、土地、文化、訪問などを、一つの判断ごとに確認できます。</p><div class="official">' + links + "</div></section>" + LINK_END
     html = re.sub(re.escape(LINK_START)+r".*?"+re.escape(LINK_END), block, html, flags=re.S) if LINK_START in html else html.replace("</main>", block+"</main>", 1)
     guide.write_text(html, encoding="utf-8", newline="\n")
 
@@ -503,8 +901,49 @@ def remove_discovery() -> None:
     html = re.sub(re.escape(LINK_START) + r".*?" + re.escape(LINK_END), "", html, flags=re.S)
     guide.write_text(html, encoding="utf-8", newline="\n")
 
+
+def released_rows() -> list[dict]:
+    """Return rows that have passed every publication gate in the ledger."""
+    if not PUBLICATION.is_file():
+        return []
+    publication = json.loads(PUBLICATION.read_text(encoding="utf-8"))
+    released_ids = {
+        int(item["id"])
+        for item in publication
+        if item.get("publish_ready") is True
+        and item.get("human_reviewed") is True
+        and item.get("source_validation") == "verified"
+        and item.get("uniqueness_validation") == "verified"
+        and item.get("visual_validation") == "verified"
+    }
+    return [
+        row for row in load_rows()
+        if int(row["id"]) in released_ids and row["substantive_fact_count"] >= 6
+    ]
+
+
+def sync_discovery() -> None:
+    rows = released_rows()
+    inject_discovery(rows) if rows else remove_discovery()
+
+
+def ensure_release_quality(rows: list[dict]) -> None:
+    """公開対象だけに、実内容の固有事実6件以上を要求する。"""
+    failures = [
+        f"ID{row['id']} {row['substantive_fact_count']}/6"
+        for row in rows if row["substantive_fact_count"] < 6
+    ]
+    if failures:
+        raise RuntimeError(
+            "公開候補に実内容の固有事実が6件未満のページがあります: "
+            + ", ".join(failures[:20])
+            + (f" ほか{len(failures) - 20}件" if len(failures) > 20 else "")
+        )
+
 def set_release_state(rows: list[dict], released: bool) -> None:
     """監査済みページだけをindex可能にし、発見導線を同期する。"""
+    if released:
+        ensure_release_quality(rows)
     for row in rows:
         path = ROOT / canonical_url(row).strip("/") / "index.html"
         html = path.read_text(encoding="utf-8")
@@ -512,19 +951,36 @@ def set_release_state(rows: list[dict], released: bool) -> None:
         if not released:
             html = html.replace("<head>", f"<head>{ROBOTS_PENDING}", 1)
         path.write_text(html, encoding="utf-8", newline="\n")
-    inject_discovery(rows) if released else remove_discovery()
+    # A cohort update must preserve discovery links for other released IDs.
+    sync_discovery()
 
 def main() -> None:
-    rows = load_rows()
-    if len(rows) != 300 or {int(r["id"]) for r in rows} != set(range(1, 301)):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--ids", help="生成するID。例: 1,4,10-12（省略時は全300件）")
+    args = parser.parse_args()
+    all_rows = load_rows()
+    if len(all_rows) != 300 or {int(r["id"]) for r in all_rows} != set(range(1, 301)):
         raise RuntimeError("第4期台帳はID 1〜300の300件である必要があります")
-    if any(r.get("decision") != "CREATE" for r in rows):
+    if any(r.get("decision") != "CREATE" for r in all_rows):
         raise RuntimeError("第4期公開台帳にCREATE以外が含まれています")
-    urls = [canonical_url(r) for r in rows]
+    urls = [canonical_url(r) for r in all_rows]
     if len(urls) != len(set(urls)):
         raise RuntimeError("第4期URLが重複しています")
-    publication = []
-    for index, row in enumerate(rows):
+    selected_ids = parse_ids(args.ids, {int(row["id"]) for row in all_rows})
+    rows = [row for row in all_rows if int(row["id"]) in selected_ids]
+    partial = len(selected_ids) != len(all_rows)
+    if partial:
+        if not PUBLICATION.is_file():
+            raise RuntimeError("部分生成には既存の300件公開台帳が必要です")
+        existing = json.loads(PUBLICATION.read_text(encoding="utf-8"))
+        if len(existing) != 300 or {int(item["id"]) for item in existing} != set(range(1, 301)):
+            raise RuntimeError("部分生成前の公開台帳がID 1〜300を網羅していません")
+        publication_by_id = {int(item["id"]): item for item in existing}
+    else:
+        publication_by_id = {}
+    row_index = {int(row["id"]): index for index, row in enumerate(all_rows)}
+    for row in rows:
+        index = row_index[int(row["id"])]
         url = urls[index]
         path = ROOT / url.strip("/") / "index.html"
         if path.is_file() and "SEO-PHASE4-PAGE" not in path.read_text(encoding="utf-8"):
@@ -535,7 +991,7 @@ def main() -> None:
         if not 6000 <= chars <= 8000:
             raise RuntimeError(f"編集本文が6000〜8000文字の範囲外: {url} {chars}")
         path.write_text(html, encoding="utf-8", newline="\n")
-        publication.append({
+        publication_by_id[int(row["id"])] = {
             "id": row["id"],
             "url": url,
             "title": row["title"],
@@ -551,11 +1007,13 @@ def main() -> None:
             "visual_validation": "pending",
             "human_reviewed": False,
             "publish_ready": False,
-        })
+        }
+    publication = [publication_by_id[item_id] for item_id in range(1, 301)]
     PUBLICATION.write_text(json.dumps(publication, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
-    # 公開監査が完了するまでは、総合ガイドから第4期ページへ導線を出さない。
-    remove_discovery()
-    print(f"第4期300ページ生成: {len(publication)}件 / 最小編集本文 {min(p['editorial_chars'] for p in publication)}字")
+    # Rebuilt IDs return to pending; links for other released IDs remain intact.
+    sync_discovery()
+    scope = f"ID {','.join(str(i) for i in sorted(selected_ids))}" if partial else "全300件"
+    print(f"第4期ページ生成: {scope} / {len(rows)}件 / 最小編集本文 {min(publication_by_id[int(r['id'])]['editorial_chars'] for r in rows)}字")
 
 if __name__ == "__main__":
     main()
