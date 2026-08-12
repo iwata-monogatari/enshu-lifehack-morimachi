@@ -643,13 +643,14 @@
   },
   {
     "id": 21,
-    "title": "森町の妊婦健康診査｜受診票・県外受診・転入時の確認順序",
+    "title": "森町の妊婦健診受診票を週数・受診先・精算方法で管理する",
     "slug": "prenatal-health-checkups",
     "category": "子育て",
-    "search_intent": "妊婦健診の受診票の使い方、県外医療機関、森町へ転入した場合の手続きを知りたい",
+    "search_intent": "妊婦健診一回ごとに、週数・受診先・通常受診票・多胎妊婦追加受診票・超音波等受診票・県外受診の未使用票と精算状況を一行で管理したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/morikko_20_1.html",
-      "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4811.html"
+      "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4805.html",
+      "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4811.html",
+      "https://www.cfa.go.jp/policies/boshihoken/nimpukenshin"
     ],
     "risk": "medium",
     "decision": "CREATE",

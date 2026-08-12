@@ -4,8 +4,8 @@
   "batch_size": 25,
   "batch_count": 12,
   "failed_pages": 0,
-  "min_chars": 6282,
-  "max_chars": 7133,
-  "min_paragraphs": 75,
+  "min_chars": 5404,
+  "max_chars": 7508,
+  "min_paragraphs": 42,
   "failed": []
 }

@@ -362,20 +362,20 @@
   {
     "id": 21,
     "url": "/life/family-grow/prenatal-health-checkups/",
-    "title": "森町の妊婦健康診査｜受診票・県外受診・転入時の確認順序",
+    "title": "森町の妊婦健診受診票を週数・受診先・精算方法で管理する",
     "category": "子育て",
-    "search_intent": "妊婦健診の受診票の使い方、県外医療機関、森町へ転入した場合の手続きを知りたい",
+    "search_intent": "妊婦健診一回ごとに、週数・受診先・通常受診票・多胎妊婦追加受診票・超音波等受診票・県外受診の未使用票と精算状況を一行で管理したい",
     "search_aliases": [
-      "森町の妊婦健康診査",
-      "妊婦健診の受診票の使い方、県外医療機関、森町へ転入した場合の手続きを知りたい"
+      "森町の妊婦健診受診票を週数・受診先・精算方法で管理する",
+      "妊婦健診一回ごとに、週数・受診先・通常受診票・多胎妊婦追加受診票・超音波等受診票・県外受診の未使用票と精算状況を一行で管理したい"
     ],
-    "editorial_chars": 6585,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 5569,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 22,

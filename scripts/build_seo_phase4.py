@@ -660,6 +660,11 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="four-column-calendar-desk"><rect x="240" y="235" width="520" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M240 305h520M370 235v235M500 235v235M630 235v235" stroke="{accent}" stroke-width="8"/><path d="M275 355h60M405 355h60M535 355h60M665 355h60M275 410h60M405 410h60M535 410h60M665 410h60" stroke="{dark}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="305" y="280">締切</text><text x="435" y="280">発送</text><text x="565" y="280">現地調査</text><text x="695" y="280">総会</text></g></g>',
             f'<g data-scene="planned-actual-version-archive"><rect x="235" y="255" width="170" height="160" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="415" y="305" width="170" height="160" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="595" y="235" width="170" height="180" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M405 335h10M585 355h10" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="19" font-weight="700" fill="{dark}" text-anchor="middle"><text x="320" y="325">予定表</text><text x="500" y="375">実績表</text><text x="680" y="300">変更確認</text><text x="680" y="355">次年度版</text></g></g>',
         ],
+        21: [
+            f'<g data-scene="mori-pregnancy-checkup-ticket-ledger"><path d="M180 438 300 260l96 104 92-146 116 151 90-104 126 173" fill="none" stroke="{dark}" stroke-width="18" stroke-linejoin="round"/><path d="M180 466h640" stroke="{accent}" stroke-width="14"/><rect x="245" y="250" width="170" height="190" rx="18" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M275 305h110M275 350h110M275 395h80" stroke="{accent}" stroke-width="8"/><rect x="585" y="245" width="175" height="198" rx="18" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M585 302h175M625 245v198" stroke="{accent}" stroke-width="8"/><circle cx="505" cy="335" r="45" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M505 310v50m-25-25h50" stroke="{accent}" stroke-width="11"/></g>',
+            f'<g data-scene="pregnancy-week-clinic-ticket-route"><path d="M175 425Q335 225 500 345T825 260" fill="none" stroke="{dark}" stroke-width="18"/><circle cx="250" cy="345" r="35" fill="{accent}"/><circle cx="475" cy="330" r="35" fill="{pale}" stroke="{dark}" stroke-width="8"/><circle cx="700" cy="315" r="35" fill="{accent}"/><path d="M760 420V300l80-62 80 62v120Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M840 320v70M805 355h70" stroke="{accent}" stroke-width="11"/><rect x="170" y="210" width="160" height="75" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="390" y="190" width="170" height="75" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="610" y="175" width="180" height="75" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="250" y="257">通常受診票</text><text x="475" y="237">超音波等</text><text x="700" y="222">多胎追加票</text></g></g>',
+            f'<g data-scene="unused-ticket-receipt-refund-route"><path d="M180 390V285l75-58 75 58v105Z" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M255 315v55M228 342h55" stroke="{accent}" stroke-width="10"/><rect x="385" y="215" width="165" height="225" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M415 275h105M415 325h105M415 375h80" stroke="{accent}" stroke-width="8"/><rect x="670" y="265" width="165" height="155" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M550 325h120m-35-30 35 30-35 30" fill="none" stroke="{accent}" stroke-width="12"/><circle cx="610" cy="455" r="46" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M610 455v-28M610 455l24 18" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="255" y="445">県外受診</text><text x="468" y="475">未使用票・領収書</text><text x="752" y="330">森町へ申請</text><text x="752" y="372">出産月から一年</text></g></g>',
+        ],
         91: [
             f'<g data-scene="license-return-two-subsidy-ledger"><rect x="220" y="235" width="250" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="530" y="235" width="250" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M250 315h190M560 315h190M250 385h190M560 385h190" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="345" y="278">経歴証明書助成</text><text x="655" y="278">交通利用券助成</text><text x="345" y="355">交付日から1年</text><text x="655" y="355">購入日から3か月</text><text x="345" y="430">危機管理課</text><text x="655" y="430">保健福祉課</text></g></g>',
             f'<g data-scene="subsidy-two-starting-dates"><circle cx="335" cy="340" r="105" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="665" cy="340" r="105" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M335 340V275M335 340l55 30M665 340V285M665 340l-45 55" stroke="{accent}" stroke-width="13" stroke-linecap="round"/><path d="M440 340h120" stroke="{dark}" stroke-width="10" stroke-dasharray="15 12"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="335" y="500">経歴証明書交付日</text><text x="665" y="500">利用券購入日</text></g></g>',
@@ -672,6 +677,7 @@ def svg(row: dict, index: int) -> str:
         ],
     }
     special_labels = {
+        21: ["受診票を一回一行へ", "週数と票を分ける", "未使用票を申請へ"],
         1: ["離婚成立日で分ける", "四論点を別欄へ", "期限と確認先を分ける"],
         168: ["所有・現在・将来・更新日", "番号を一覧へつなぐ", "版と将来像を分ける"],
         172: ["購入前の安全配置図", "公共境界と注意表示", "電源と点検動線"],
@@ -702,6 +708,11 @@ def svg(row: dict, index: int) -> str:
         162: ["農業委員会・令和8年度12か月", "農業委員会・四つの日付", "農業委員会・予定と実績"],
     }
     special_descriptions = {
+        21: [
+            "妊婦健診一回ごとに、週数・受診先・通常受診票・追加票・精算方法を一行へまとめる図",
+            "妊娠週数の流れに通常受診票、超音波等受診票、多胎妊婦追加受診票、受診先を分けて置く図",
+            "県外受診から未使用受診票・領収書・母子健康手帳をそろえ、森町への申請期限へつなぐ図",
+        ],
         1: [
             "離婚成立日を2026年3月31日以前と4月1日以後へ分け、親権・養育費・財産分与を整理する図",
             "親権、法定養育費、既存合意、財産分与期限を四つの別欄へ振り分ける図",
@@ -945,6 +956,10 @@ def editorial_blocks_curated(row: dict) -> str:
     ]
     item_id = int(row["id"])
     special_figures = {
+        21: {
+            4: ("fig1.svg", "妊娠週数に通常受診票・超音波等受診票・多胎妊婦追加受診票と受診先を分けて置く図", "週数の目安だけで票を決めず、健診ごとに受診先と使った票を一行へ残します。"),
+            7: ("fig2.svg", "県外受診から未使用受診票・領収書・母子健康手帳をそろえ、森町への申請期限へつなぐ図", "県外受診の支払い記録と未使用票をそろえ、出産月から一年以内の申請へつなぎます。"),
+        },
         1: {
             7: ("fig1.svg", "親権・法定養育費・既存合意・財産分与期限を四つの別欄へ振り分ける図", "離婚成立日を基準に、四つの論点を一件表の別欄へ置きます。"),
             8: ("fig2.svg", "財産分与の二年と五年の期限、森町窓口、法律相談を分けて引き継ぐ図", "期限の時計と確認先を分け、安全上の事情も別に扱います。"),
@@ -1657,6 +1672,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     subject = title.split("｜", 1)[0]
     desc = f"{subject}。対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     cover_alts = {
+        21: "妊婦健診一回ごとに週数・受診先・通常受診票・追加票・精算方法を一行へまとめる受診票台帳",
         1: "離婚成立日を2026年3月31日以前と4月1日以後へ分け、親権・養育費・財産分与を整理する一件表",
         168: "森町の地域計画と目標地図を、所有者・現在耕作者・将来担い手・更新日の四欄へ分ける一筆照合票",
         172: "電気柵を買う前に柵線・道路水路・注意表示・電源装置・点検動線を一枚へ置く安全配置図",
