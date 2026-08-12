@@ -465,6 +465,11 @@ def svg(row: dict, index: int) -> str:
     ]
     # 公開監査済みのDay5記事は、主題を一目で識別できる固有モチーフを使う。
     special_scenes = {
+        65: [
+            f'<g data-scene="third-party-accident-four-contact-lines"><path d="M120 455 290 245l120 155 100-180 120 180 115-140 135 195Z" fill="{pale}" stroke="{dark}" stroke-width="9"/><circle cx="500" cy="340" r="54" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M475 330h50m-25-25v50M455 375l-42 38m132-38 42 38M455 305l-45-45m135 45 45-45" stroke="{accent}" stroke-width="11"/><rect x="155" y="210" width="145" height="75" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="700" y="210" width="145" height="75" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="227" y="257">警察</text><text x="772" y="257">森町国保</text><text x="500" y="430">事故地点</text></g></g>',
+            f'<g data-scene="accident-police-town-document-desk"><path d="M140 420h720M210 420V275h170v145M620 420V275h170v145" fill="none" stroke="{dark}" stroke-width="10"/><path d="M210 275l85-70 85 70M620 275l85-70 85 70" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="405" y="235" width="190" height="225" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M435 285h130M435 330h130M435 375h105" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="295" y="455">警察</text><text x="500" y="500">傷病届</text><text x="705" y="455">森町役場</text></g></g>',
+            f'<g data-scene="settlement-stopline-claim-route"><path d="M120 365h760" stroke="{dark}" stroke-width="18"/><path d="M250 315v100M500 285v160M750 315v100" stroke="{accent}" stroke-width="13"/><rect x="415" y="210" width="170" height="95" rx="16" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M455 235 545 280M545 235l-90 45" stroke="#b0443c" stroke-width="12"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="250" y="460">治療・届出</text><text x="500" y="485">示談前相談</text><text x="750" y="460">相手方請求</text></g></g>',
+        ],
         57: [
             f'<g data-scene="high-cost-medical-monthly-ledger"><rect x="145" y="240" width="710" height="245" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M145 310h710M305 240v245M485 240v245M665 240v245" stroke="{accent}" stroke-width="8"/><path d="M210 190h170l35 50H175Z" fill="{pale}" stroke="{dark}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="225" y="280">暦月</text><text x="395" y="280">受診者</text><text x="575" y="280">医療機関</text><text x="760" y="280">入院・外来</text><text x="295" y="220">8月受診分</text></g></g>',
             f'<g data-scene="age-calculation-order-desk"><rect x="130" y="230" width="335" height="250" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="535" y="230" width="335" height="250" rx="18" fill="{pale}" stroke="{dark}" stroke-width="10"/><path d="M210 330h170m-25-25 30 25-30 25M615 300h170m-25-25 30 25-30 25M615 390h170" fill="none" stroke="{accent}" stroke-width="11"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="297" y="270">70歳未満</text><text x="297" y="315">個別行</text><text x="297" y="405">世帯合算</text><text x="702" y="270">70～74歳</text><text x="702" y="355">外来個人</text><text x="702" y="440">世帯</text></g></g>',
@@ -692,6 +697,7 @@ def svg(row: dict, index: int) -> str:
         ],
     }
     special_labels = {
+        65: ["事故後の四本線", "届出書を役割別に", "示談前に町へ相談"],
         57: ["高額療養費・暦月台帳", "年齢別の計算順", "申請と支給月をつなぐ"],
         20: ["町届出と滅失登記へ", "壊した棟と残す棟", "翌年度明細まで確認"],
         21: ["受診票を一回一行へ", "週数と票を分ける", "未使用票を申請へ"],
@@ -726,6 +732,7 @@ def svg(row: dict, index: int) -> str:
         162: ["農業委員会・令和8年度12か月", "農業委員会・四つの日付", "農業委員会・予定と実績"],
     }
     special_descriptions = {
+        65: ["事故地点から治療、警察、森町国保、相手方保険へ連絡線を分ける", "警察、医療機関、森町役場と第三者行為届の役割を照合する", "治療と国保届出から相手方請求へ進む道に示談前相談の停止線を置く"],
         57: ["暦月ごとに受診者、医療機関、入院・外来を別欄へ分ける高額療養費台帳", "70歳未満と70歳以上75歳未満で異なる計算順を左右に分ける", "申請書到着から決定通知までを過去12か月の支給月へつなぐ"],
         20: ["取り壊した家屋から森町の課税台帳と法務局の登記記録へ二本の確認路を分ける図", "道路側から見た母屋跡と残存物置を棟番号付き配置図へ対応させる図", "町届出・現地確認・滅失登記・翌年度課税明細を別の節目として進む図"],
         21: [
@@ -981,6 +988,10 @@ def editorial_blocks_curated(row: dict) -> str:
     ]
     item_id = int(row["id"])
     special_figures = {
+        65: {
+            4: ("fig1.svg", "事故地点・警察・医療機関・森町役場と第三者行為の提出書類を役割別に照合する図", "警察への届出と森町国保への提出を分け、各書類を事故番号へ結びます。"),
+            7: ("fig2.svg", "治療と国保届出から相手方請求へ進む道に示談前の森町相談という停止線を置く図", "治療費の受領や示談を進める前に、国保の求償への影響を森町へ確認します。"),
+        },
         57: {
             3: ("fig1.svg", "70歳未満と70歳以上75歳未満の高額療養費計算順を左右に分けた図", "年齢区分ごとの計算順を混ぜず、町へ確認する単位を残します。"),
             8: ("fig2.svg", "高額療養費の申請書到着、提出、決定通知と過去12か月の支給月をつなぐ図", "申請の進捗と多数回該当を確認する支給月を同じ一件ファイルへつなぎます。"),
@@ -1709,6 +1720,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     subject = title.split("｜", 1)[0]
     desc = f"{subject}。対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     cover_alts = {
+        65: "森町の道路事故地点から治療・警察・森町国保・相手方保険へ四本の連絡線を分ける事故連絡票",
         57: "森町国保の領収書を暦月・受診者・医療機関・入院外来へ分ける高額療養費台帳",
         20: "取り壊した家屋の輪郭から森町の課税台帳と法務局の登記記録へ二本の確認路を分ける一件台帳",
         21: "妊婦健診一回ごとに週数・受診先・通常受診票・追加票・精算方法を一行へまとめる受診票台帳",

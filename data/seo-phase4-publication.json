@@ -1154,20 +1154,20 @@
   {
     "id": 65,
     "url": "/life/health-medical/national-health-insurance-third-party-injury/",
-    "title": "森町の国民健康保険で第三者行為の届出が必要なとき｜交通事故後の連絡順序",
+    "title": "森町国保で交通事故後に第三者行為届を出す順序を一件管理する",
     "category": "健康",
-    "search_intent": "交通事故など相手方の行為で国保を使う可能性があるとき、保険者への届出と示談前の確認を知りたい",
+    "search_intent": "森町国保加入者が交通事故等で負傷したとき、救護・警察・医療機関・森町国保の連絡、傷病届等の提出、示談前相談を一件管理したい",
     "search_aliases": [
-      "森町の国民健康保険で第三者行為の届出が必要なとき",
-      "交通事故など相手方の行為で国保を使う可能性があるとき、保険者への届出と示談前の確認を知りたい"
+      "森町国保で交通事故後に第三者行為届を出す順序を一件管理する",
+      "森町国保加入者が交通事故等で負傷したとき、救護・警察・医療機関・森町国保の連絡、傷病届等の提出、示談前相談を一件管理したい"
     ],
-    "editorial_chars": 6545,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6332,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 66,

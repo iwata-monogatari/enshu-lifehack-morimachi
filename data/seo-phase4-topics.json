@@ -2198,13 +2198,16 @@
   },
   {
     "id": 65,
-    "title": "森町の国民健康保険で第三者行為の届出が必要なとき｜交通事故後の連絡順序",
+    "title": "森町国保で交通事故後に第三者行為届を出す順序を一件管理する",
     "slug": "national-health-insurance-third-party-injury",
     "category": "健康",
-    "search_intent": "交通事故など相手方の行為で国保を使う可能性があるとき、保険者への届出と示談前の確認を知りたい",
+    "search_intent": "森町国保加入者が交通事故等で負傷したとき、救護・警察・医療機関・森町国保の連絡、傷病届等の提出、示談前相談を一件管理したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/index.html",
-      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/third_party.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/528.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/5128.html",
+      "https://www.shizukokuhoren.or.jp/accident/jiko/",
+      "https://www.shizukokuhoren.or.jp/accident/youshiki/",
+      "https://www.pref.shizuoka.jp/kenkofukushi/iryo/kenkohoken/1024889.html"
     ],
     "risk": "medium",
     "decision": "CREATE",
