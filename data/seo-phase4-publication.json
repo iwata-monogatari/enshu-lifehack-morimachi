@@ -416,20 +416,20 @@
   {
     "id": 24,
     "url": "/life/family-grow/newborn-health-insurance-enrollment/",
-    "title": "森町で出生後に赤ちゃんの健康保険を整える｜加入先を決めて申請を分ける",
+    "title": "森町で出生後の健康保険とこども医療費助成を一件でつなぐ",
     "category": "子育て",
-    "search_intent": "出生後、赤ちゃんを国民健康保険または家族の被用者保険へ加入させる順序と、医療費助成との関係を知りたい",
+    "search_intent": "出生後に国民健康保険か勤務先等の健康保険かを確認し、資格情報の受領、こども医療費受給者証の申請、初回受診と払い戻しまでを一件票で管理したい",
     "search_aliases": [
-      "森町で出生後に赤ちゃんの健康保険を整える",
-      "出生後、赤ちゃんを国民健康保険または家族の被用者保険へ加入させる順序と、医療費助成との関係を知りたい"
+      "森町で出生後の健康保険とこども医療費助成を一件でつなぐ",
+      "出生後に国民健康保険か勤務先等の健康保険かを確認し、資格情報の受領、こども医療費受給者証の申請、初回受診と払い戻しまでを一件票で管理したい"
     ],
-    "editorial_chars": 6566,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6598,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 25,

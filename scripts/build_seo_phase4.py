@@ -665,6 +665,11 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="pregnancy-week-clinic-ticket-route"><path d="M175 425Q335 225 500 345T825 260" fill="none" stroke="{dark}" stroke-width="18"/><circle cx="250" cy="345" r="35" fill="{accent}"/><circle cx="475" cy="330" r="35" fill="{pale}" stroke="{dark}" stroke-width="8"/><circle cx="700" cy="315" r="35" fill="{accent}"/><path d="M760 420V300l80-62 80 62v120Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M840 320v70M805 355h70" stroke="{accent}" stroke-width="11"/><rect x="170" y="210" width="160" height="75" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="390" y="190" width="170" height="75" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="610" y="175" width="180" height="75" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="250" y="257">通常受診票</text><text x="475" y="237">超音波等</text><text x="700" y="222">多胎追加票</text></g></g>',
             f'<g data-scene="unused-ticket-receipt-refund-route"><path d="M180 390V285l75-58 75 58v105Z" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M255 315v55M228 342h55" stroke="{accent}" stroke-width="10"/><rect x="385" y="215" width="165" height="225" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M415 275h105M415 325h105M415 375h80" stroke="{accent}" stroke-width="8"/><rect x="670" y="265" width="165" height="155" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M550 325h120m-35-30 35 30-35 30" fill="none" stroke="{accent}" stroke-width="12"/><circle cx="610" cy="455" r="46" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M610 455v-28M610 455l24 18" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="255" y="445">県外受診</text><text x="468" y="475">未使用票・領収書</text><text x="752" y="330">森町へ申請</text><text x="752" y="372">出産月から一年</text></g></g>',
         ],
+        24: [
+            f'<g data-scene="newborn-insurance-medical-aid-handover"><path d="M170 445 300 270l110 120 95-165 135 165 95-115 115 170" fill="none" stroke="{dark}" stroke-width="18"/><path d="M170 470h660" stroke="{accent}" stroke-width="14"/><circle cx="500" cy="330" r="58" fill="{pale}" stroke="{dark}" stroke-width="9"/><circle cx="500" cy="312" r="20" fill="{accent}"/><path d="M465 375q35-48 70 0" fill="none" stroke="{dark}" stroke-width="11"/><rect x="225" y="270" width="170" height="145" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M255 320h110M255 365h90" stroke="{accent}" stroke-width="8"/><rect x="610" y="260" width="180" height="160" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M610 315h180M660 260v160" stroke="{accent}" stroke-width="8"/></g>',
+            f'<g data-scene="newborn-two-insurance-branches"><path d="M190 430V315l85-68 85 68v115Z" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="275" cy="350" r="28" fill="{accent}"/><path d="M360 365Q470 210 575 300M360 385Q490 475 620 390" fill="none" stroke="{accent}" stroke-width="14"/><rect x="560" y="205" width="210" height="120" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="620" y="370" width="215" height="120" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M600 255h130M660 420h135" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="19" font-weight="700" fill="{dark}" text-anchor="middle"><text x="665" y="285">森町国保</text><text x="727" y="455">勤務先等の保険</text></g></g>',
+            f'<g data-scene="newborn-receipt-reimbursement-route"><path d="M165 405V285l80-62 80 62v120Z" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M245 312v65M212 345h66" stroke="{accent}" stroke-width="10"/><rect x="385" y="220" width="175" height="225" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M420 280h105M420 330h105M420 380h82" stroke="{accent}" stroke-width="8"/><path d="M560 335h105m-35-30 35 30-35 30" fill="none" stroke="{accent}" stroke-width="12"/><rect x="665" y="260" width="180" height="165" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><circle cx="755" cy="470" r="45" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M755 470v-27M755 470l24 17" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="245" y="455">県外医療機関</text><text x="472" y="485">領収書・資格情報</text><text x="755" y="325">森町へ申請</text><text x="755" y="370">受診日から一年</text></g></g>',
+        ],
         91: [
             f'<g data-scene="license-return-two-subsidy-ledger"><rect x="220" y="235" width="250" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="530" y="235" width="250" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M250 315h190M560 315h190M250 385h190M560 385h190" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="345" y="278">経歴証明書助成</text><text x="655" y="278">交通利用券助成</text><text x="345" y="355">交付日から1年</text><text x="655" y="355">購入日から3か月</text><text x="345" y="430">危機管理課</text><text x="655" y="430">保健福祉課</text></g></g>',
             f'<g data-scene="subsidy-two-starting-dates"><circle cx="335" cy="340" r="105" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="665" cy="340" r="105" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M335 340V275M335 340l55 30M665 340V285M665 340l-45 55" stroke="{accent}" stroke-width="13" stroke-linecap="round"/><path d="M440 340h120" stroke="{dark}" stroke-width="10" stroke-dasharray="15 12"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="335" y="500">経歴証明書交付日</text><text x="665" y="500">利用券購入日</text></g></g>',
@@ -678,6 +683,7 @@ def svg(row: dict, index: int) -> str:
     }
     special_labels = {
         21: ["受診票を一回一行へ", "週数と票を分ける", "未使用票を申請へ"],
+        24: ["保険加入から受給者証へ", "加入先を先に決める", "領収書を払い戻しへ"],
         1: ["離婚成立日で分ける", "四論点を別欄へ", "期限と確認先を分ける"],
         168: ["所有・現在・将来・更新日", "番号を一覧へつなぐ", "版と将来像を分ける"],
         172: ["購入前の安全配置図", "公共境界と注意表示", "電源と点検動線"],
@@ -712,6 +718,11 @@ def svg(row: dict, index: int) -> str:
             "妊婦健診一回ごとに、週数・受診先・通常受診票・追加票・精算方法を一行へまとめる図",
             "妊娠週数の流れに通常受診票、超音波等受診票、多胎妊婦追加受診票、受診先を分けて置く図",
             "県外受診から未使用受診票・領収書・母子健康手帳をそろえ、森町への申請期限へつなぐ図",
+        ],
+        24: [
+            "出生後に国民健康保険または勤務先等の健康保険へ加入し、資格情報を森町こども医療費受給者証へつなぐ図",
+            "赤ちゃんの家から森町国保と勤務先等の健康保険へ道を分け、加入先を確認する図",
+            "県外受診の領収書・資格情報・受給者証をそろえ、森町への払い戻しと一年期限へつなぐ図",
         ],
         1: [
             "離婚成立日を2026年3月31日以前と4月1日以後へ分け、親権・養育費・財産分与を整理する図",
@@ -959,6 +970,10 @@ def editorial_blocks_curated(row: dict) -> str:
         21: {
             4: ("fig1.svg", "妊娠週数に通常受診票・超音波等受診票・多胎妊婦追加受診票と受診先を分けて置く図", "週数の目安だけで票を決めず、健診ごとに受診先と使った票を一行へ残します。"),
             7: ("fig2.svg", "県外受診から未使用受診票・領収書・母子健康手帳をそろえ、森町への申請期限へつなぐ図", "県外受診の支払い記録と未使用票をそろえ、出産月から一年以内の申請へつなぎます。"),
+        },
+        24: {
+            2: ("fig1.svg", "赤ちゃんの家から森町国保と勤務先等の健康保険へ道を分け、加入先を確認する図", "国保と勤務先等の保険を同時に申請せず、各保険者へ加入先を確認します。"),
+            8: ("fig2.svg", "県外受診の領収書・資格情報・受給者証をそろえ、森町への払い戻しと一年期限へつなぐ図", "県外受診の支払いを一件ずつ残し、受診日から一年以内の申請へつなぎます。"),
         },
         1: {
             7: ("fig1.svg", "親権・法定養育費・既存合意・財産分与期限を四つの別欄へ振り分ける図", "離婚成立日を基準に、四つの論点を一件表の別欄へ置きます。"),
@@ -1673,6 +1688,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     desc = f"{subject}。対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     cover_alts = {
         21: "妊婦健診一回ごとに週数・受診先・通常受診票・追加票・精算方法を一行へまとめる受診票台帳",
+        24: "赤ちゃんの健康保険加入先を分け、資格情報から森町こども医療費受給者証へつなぐ一件引継ぎ票",
         1: "離婚成立日を2026年3月31日以前と4月1日以後へ分け、親権・養育費・財産分与を整理する一件表",
         168: "森町の地域計画と目標地図を、所有者・現在耕作者・将来担い手・更新日の四欄へ分ける一筆照合票",
         172: "電気柵を買う前に柵線・道路水路・注意表示・電源装置・点検動線を一枚へ置く安全配置図",

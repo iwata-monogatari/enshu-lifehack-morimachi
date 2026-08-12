@@ -730,13 +730,15 @@
   },
   {
     "id": 24,
-    "title": "森町で出生後に赤ちゃんの健康保険を整える｜加入先を決めて申請を分ける",
+    "title": "森町で出生後の健康保険とこども医療費助成を一件でつなぐ",
     "slug": "newborn-health-insurance-enrollment",
     "category": "子育て",
-    "search_intent": "出生後、赤ちゃんを国民健康保険または家族の被用者保険へ加入させる順序と、医療費助成との関係を知りたい",
+    "search_intent": "出生後に国民健康保険か勤務先等の健康保険かを確認し、資格情報の受領、こども医療費受給者証の申請、初回受診と払い戻しまでを一件票で管理したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/index.html",
-      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/index.html"
+      "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/morikko_20_1.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/528.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1_1/2637.html",
+      "https://www.mhlw.go.jp/web/t_doc?dataId=00tc5892&dataType=1"
     ],
     "risk": "medium",
     "decision": "CREATE",
