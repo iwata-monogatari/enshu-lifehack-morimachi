@@ -465,6 +465,11 @@ def svg(row: dict, index: int) -> str:
     ]
     # 公開監査済みのDay5記事は、主題を一目で識別できる固有モチーフを使う。
     special_scenes = {
+        57: [
+            f'<g data-scene="high-cost-medical-monthly-ledger"><rect x="145" y="240" width="710" height="245" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M145 310h710M305 240v245M485 240v245M665 240v245" stroke="{accent}" stroke-width="8"/><path d="M210 190h170l35 50H175Z" fill="{pale}" stroke="{dark}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="225" y="280">暦月</text><text x="395" y="280">受診者</text><text x="575" y="280">医療機関</text><text x="760" y="280">入院・外来</text><text x="295" y="220">8月受診分</text></g></g>',
+            f'<g data-scene="age-calculation-order-desk"><rect x="130" y="230" width="335" height="250" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="535" y="230" width="335" height="250" rx="18" fill="{pale}" stroke="{dark}" stroke-width="10"/><path d="M210 330h170m-25-25 30 25-30 25M615 300h170m-25-25 30 25-30 25M615 390h170" fill="none" stroke="{accent}" stroke-width="11"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="297" y="270">70歳未満</text><text x="297" y="315">個別行</text><text x="297" y="405">世帯合算</text><text x="702" y="270">70～74歳</text><text x="702" y="355">外来個人</text><text x="702" y="440">世帯</text></g></g>',
+            f'<g data-scene="application-decision-twelve-month-route"><rect x="110" y="225" width="210" height="105" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="395" y="225" width="210" height="105" rx="15" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="680" y="225" width="210" height="105" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M320 277h75M605 277h75" stroke="{accent}" stroke-width="12"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="215" y="285">申請書到着</text><text x="500" y="285">提出</text><text x="785" y="285">決定通知</text></g><g fill="{accent}"><rect x="130" y="390" width="48" height="55" rx="8"/><rect x="192" y="390" width="48" height="55" rx="8"/><rect x="254" y="390" width="48" height="55" rx="8"/><rect x="316" y="390" width="48" height="55" rx="8"/><rect x="378" y="390" width="48" height="55" rx="8"/><rect x="440" y="390" width="48" height="55" rx="8"/><rect x="502" y="390" width="48" height="55" rx="8"/><rect x="564" y="390" width="48" height="55" rx="8"/><rect x="626" y="390" width="48" height="55" rx="8"/><rect x="688" y="390" width="48" height="55" rx="8"/><rect x="750" y="390" width="48" height="55" rx="8"/><rect x="812" y="390" width="48" height="55" rx="8"/></g><text x="500" y="485" font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle">過去12か月の支給月</text></g>',
+        ],
         20: [
             f'<g data-scene="house-demolition-two-public-records"><path d="M170 445 300 270l105 115 95-160 135 160 95-115 120 175" fill="none" stroke="{dark}" stroke-width="18"/><path d="M170 470h660" stroke="{accent}" stroke-width="14"/><path d="M390 420V300l110-85 110 85v120Z" fill="none" stroke="{dark}" stroke-width="11" stroke-dasharray="18 12"/><rect x="205" y="285" width="145" height="145" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="650" y="285" width="145" height="145" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M235 335h85M235 380h85M680 335h85M680 380h85" stroke="{accent}" stroke-width="8"/></g>',
             f'<g data-scene="demolished-and-remaining-building-map"><path d="M180 450V250h640v200Z" fill="{pale}" stroke="{dark}" stroke-width="10"/><path d="M180 370h640" stroke="{accent}" stroke-width="14"/><path d="M245 350V275l70-55 70 55v75Z" fill="none" stroke="{dark}" stroke-width="9" stroke-dasharray="15 10"/><path d="M580 350V275l70-55 70 55v75Z" fill="#fff" stroke="{dark}" stroke-width="9"/><circle cx="315" cy="400" r="25" fill="{accent}"/><circle cx="650" cy="400" r="25" fill="{accent}"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="315" y="410">1</text><text x="650" y="410">2</text></g></g>',
@@ -687,6 +692,7 @@ def svg(row: dict, index: int) -> str:
         ],
     }
     special_labels = {
+        57: ["高額療養費・暦月台帳", "年齢別の計算順", "申請と支給月をつなぐ"],
         20: ["町届出と滅失登記へ", "壊した棟と残す棟", "翌年度明細まで確認"],
         21: ["受診票を一回一行へ", "週数と票を分ける", "未使用票を申請へ"],
         24: ["保険加入から受給者証へ", "加入先を先に決める", "領収書を払い戻しへ"],
@@ -720,6 +726,7 @@ def svg(row: dict, index: int) -> str:
         162: ["農業委員会・令和8年度12か月", "農業委員会・四つの日付", "農業委員会・予定と実績"],
     }
     special_descriptions = {
+        57: ["暦月ごとに受診者、医療機関、入院・外来を別欄へ分ける高額療養費台帳", "70歳未満と70歳以上75歳未満で異なる計算順を左右に分ける", "申請書到着から決定通知までを過去12か月の支給月へつなぐ"],
         20: ["取り壊した家屋から森町の課税台帳と法務局の登記記録へ二本の確認路を分ける図", "道路側から見た母屋跡と残存物置を棟番号付き配置図へ対応させる図", "町届出・現地確認・滅失登記・翌年度課税明細を別の節目として進む図"],
         21: [
             "妊婦健診一回ごとに、週数・受診先・通常受診票・追加票・精算方法を一行へまとめる図",
@@ -974,6 +981,10 @@ def editorial_blocks_curated(row: dict) -> str:
     ]
     item_id = int(row["id"])
     special_figures = {
+        57: {
+            3: ("fig1.svg", "70歳未満と70歳以上75歳未満の高額療養費計算順を左右に分けた図", "年齢区分ごとの計算順を混ぜず、町へ確認する単位を残します。"),
+            8: ("fig2.svg", "高額療養費の申請書到着、提出、決定通知と過去12か月の支給月をつなぐ図", "申請の進捗と多数回該当を確認する支給月を同じ一件ファイルへつなぎます。"),
+        },
         20: {
             4: ("fig1.svg", "道路、母屋跡、残した物置を俯瞰し、課税明細の棟番号と配置図番号を対応させる図", "壊した棟と残した棟へ同じ番号を振り、町の現地確認へつなぎます。"),
             9: ("fig2.svg", "町届出・現地確認・滅失登記・翌年度課税明細を別の節目として進む道筋", "町の受付と登記の受付を分け、翌年度明細の照合まで進捗を残します。"),
@@ -1698,6 +1709,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     subject = title.split("｜", 1)[0]
     desc = f"{subject}。対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     cover_alts = {
+        57: "森町国保の領収書を暦月・受診者・医療機関・入院外来へ分ける高額療養費台帳",
         20: "取り壊した家屋の輪郭から森町の課税台帳と法務局の登記記録へ二本の確認路を分ける一件台帳",
         21: "妊婦健診一回ごとに週数・受診先・通常受診票・追加票・精算方法を一行へまとめる受診票台帳",
         24: "赤ちゃんの健康保険加入先を分け、資格情報から森町こども医療費受給者証へつなぐ一件引継ぎ票",

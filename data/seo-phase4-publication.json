@@ -1010,20 +1010,20 @@
   {
     "id": 57,
     "url": "/life/health-medical/national-health-insurance-high-cost-medical/",
-    "title": "森町の国民健康保険で高額療養費を申請する方法",
+    "title": "森町国保の高額療養費を暦月・世帯・医療機関別に整理する",
     "category": "健康",
-    "search_intent": "医療費の自己負担が高くなったとき、高額療養費の対象、申請、振込までを知りたい",
+    "search_intent": "森町国保の医療費を暦月、受診者、医療機関・薬局、入院・外来へ分け、年齢別の計算順、申請書、多数回該当、決定通知を一件台帳で照合したい",
     "search_aliases": [
-      "森町の国民健康保険で高額療養費を申請する方法",
-      "医療費の自己負担が高くなったとき、高額療養費の対象、申請、振込までを知りたい"
+      "森町国保の高額療養費を暦月・世帯・医療機関別に整理する",
+      "森町国保の医療費を暦月、受診者、医療機関・薬局、入院・外来へ分け、年齢別の計算順、申請書、多数回該当、決定通知を一件台帳で照合したい"
     ],
-    "editorial_chars": 6558,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6563,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 58,

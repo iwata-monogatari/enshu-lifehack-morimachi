@@ -2000,13 +2000,15 @@
   },
   {
     "id": 57,
-    "title": "森町の国民健康保険で高額療養費を申請する方法",
+    "title": "森町国保の高額療養費を暦月・世帯・医療機関別に整理する",
     "slug": "national-health-insurance-high-cost-medical",
     "category": "健康",
-    "search_intent": "医療費の自己負担が高くなったとき、高額療養費の対象、申請、振込までを知りたい",
+    "search_intent": "森町国保の医療費を暦月、受診者、医療機関・薬局、入院・外来へ分け、年齢別の計算順、申請書、多数回該当、決定通知を一件台帳で照合したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/index.html",
-      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/juuyou/kougakuiryou.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/528.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/2/1/742.html",
+      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/juuyou/kougakuiryou/index.html",
+      "https://www.mhlw.go.jp/web/t_doc?dataId=84082000&dataType=0&pageNo=2"
     ],
     "risk": "medium",
     "decision": "CREATE",
