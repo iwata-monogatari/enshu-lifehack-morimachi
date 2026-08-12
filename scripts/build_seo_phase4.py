@@ -465,6 +465,11 @@ def svg(row: dict, index: int) -> str:
     ]
     # 公開監査済みのDay5記事は、主題を一目で識別できる固有モチーフを使う。
     special_scenes = {
+        20: [
+            f'<g data-scene="house-demolition-two-public-records"><path d="M170 445 300 270l105 115 95-160 135 160 95-115 120 175" fill="none" stroke="{dark}" stroke-width="18"/><path d="M170 470h660" stroke="{accent}" stroke-width="14"/><path d="M390 420V300l110-85 110 85v120Z" fill="none" stroke="{dark}" stroke-width="11" stroke-dasharray="18 12"/><rect x="205" y="285" width="145" height="145" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="650" y="285" width="145" height="145" rx="15" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M235 335h85M235 380h85M680 335h85M680 380h85" stroke="{accent}" stroke-width="8"/></g>',
+            f'<g data-scene="demolished-and-remaining-building-map"><path d="M180 450V250h640v200Z" fill="{pale}" stroke="{dark}" stroke-width="10"/><path d="M180 370h640" stroke="{accent}" stroke-width="14"/><path d="M245 350V275l70-55 70 55v75Z" fill="none" stroke="{dark}" stroke-width="9" stroke-dasharray="15 10"/><path d="M580 350V275l70-55 70 55v75Z" fill="#fff" stroke="{dark}" stroke-width="9"/><circle cx="315" cy="400" r="25" fill="{accent}"/><circle cx="650" cy="400" r="25" fill="{accent}"/><g font-family="sans-serif" font-size="20" font-weight="700" fill="{dark}" text-anchor="middle"><text x="315" y="410">1</text><text x="650" y="410">2</text></g></g>',
+            f'<g data-scene="town-notice-registry-next-year-route"><rect x="160" y="275" width="185" height="130" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="410" y="275" width="185" height="130" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="660" y="275" width="185" height="130" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M345 340h65M595 340h65" stroke="{accent}" stroke-width="14"/><circle cx="500" cy="475" r="45" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M500 475v-28M500 475l25 18" stroke="{accent}" stroke-width="9"/></g>',
+        ],
         1: [
             f'<g data-scene="mori-divorce-effective-date-fork-ledger"><path d="M165 445 330 285l95 75 90-125 125 105 110-95 105 200Z" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M500 195v90M500 285 330 405M500 285l170 120" fill="none" stroke="{accent}" stroke-width="12"/><rect x="210" y="390" width="240" height="105" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="550" y="390" width="240" height="105" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="500" y="175">離婚成立日</text><text x="330" y="430">2026年3月31日以前</text><text x="330" y="470">旧ルール欄</text><text x="670" y="430">2026年4月1日以後</text><text x="670" y="470">新ルール欄</text></g></g>',
             f'<g data-scene="four-issue-effective-date-routing-board"><rect x="165" y="235" width="670" height="250" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M165 310h670M332 235v250M500 235v250M668 235v250" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="248" y="280">親権</text><text x="416" y="280">法定養育費</text><text x="584" y="280">既存合意</text><text x="752" y="280">財産分与</text><text x="248" y="365">成立日</text><text x="416" y="365">適用・暫定</text><text x="584" y="365">各期を分離</text><text x="752" y="365">二年・五年</text></g></g>',
@@ -682,6 +687,7 @@ def svg(row: dict, index: int) -> str:
         ],
     }
     special_labels = {
+        20: ["町届出と滅失登記へ", "壊した棟と残す棟", "翌年度明細まで確認"],
         21: ["受診票を一回一行へ", "週数と票を分ける", "未使用票を申請へ"],
         24: ["保険加入から受給者証へ", "加入先を先に決める", "領収書を払い戻しへ"],
         1: ["離婚成立日で分ける", "四論点を別欄へ", "期限と確認先を分ける"],
@@ -714,6 +720,7 @@ def svg(row: dict, index: int) -> str:
         162: ["農業委員会・令和8年度12か月", "農業委員会・四つの日付", "農業委員会・予定と実績"],
     }
     special_descriptions = {
+        20: ["取り壊した家屋から森町の課税台帳と法務局の登記記録へ二本の確認路を分ける図", "道路側から見た母屋跡と残存物置を棟番号付き配置図へ対応させる図", "町届出・現地確認・滅失登記・翌年度課税明細を別の節目として進む図"],
         21: [
             "妊婦健診一回ごとに、週数・受診先・通常受診票・追加票・精算方法を一行へまとめる図",
             "妊娠週数の流れに通常受診票、超音波等受診票、多胎妊婦追加受診票、受診先を分けて置く図",
@@ -967,6 +974,10 @@ def editorial_blocks_curated(row: dict) -> str:
     ]
     item_id = int(row["id"])
     special_figures = {
+        20: {
+            4: ("fig1.svg", "道路、母屋跡、残した物置を俯瞰し、課税明細の棟番号と配置図番号を対応させる図", "壊した棟と残した棟へ同じ番号を振り、町の現地確認へつなぎます。"),
+            9: ("fig2.svg", "町届出・現地確認・滅失登記・翌年度課税明細を別の節目として進む道筋", "町の受付と登記の受付を分け、翌年度明細の照合まで進捗を残します。"),
+        },
         21: {
             4: ("fig1.svg", "妊娠週数に通常受診票・超音波等受診票・多胎妊婦追加受診票と受診先を分けて置く図", "週数の目安だけで票を決めず、健診ごとに受診先と使った票を一行へ残します。"),
             7: ("fig2.svg", "県外受診から未使用受診票・領収書・母子健康手帳をそろえ、森町への申請期限へつなぐ図", "県外受診の支払い記録と未使用票をそろえ、出産月から一年以内の申請へつなぎます。"),
@@ -1687,6 +1698,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
     subject = title.split("｜", 1)[0]
     desc = f"{subject}。対象条件、必要資料、森町の公式窓口、確認する順番を分かりやすく整理します。実行前の注意点と家族へ残す記録も案内します。"
     cover_alts = {
+        20: "取り壊した家屋の輪郭から森町の課税台帳と法務局の登記記録へ二本の確認路を分ける一件台帳",
         21: "妊婦健診一回ごとに週数・受診先・通常受診票・追加票・精算方法を一行へまとめる受診票台帳",
         24: "赤ちゃんの健康保険加入先を分け、資格情報から森町こども医療費受給者証へつなぐ一件引継ぎ票",
         1: "離婚成立日を2026年3月31日以前と4月1日以後へ分け、親権・養育費・財産分与を整理する一件表",

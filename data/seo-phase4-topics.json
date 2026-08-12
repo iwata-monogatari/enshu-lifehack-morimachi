@@ -621,13 +621,15 @@
   },
   {
     "id": 20,
-    "title": "森町で家屋を取り壊した後の固定資産税手続き｜登記と町への届出を分ける",
+    "title": "森町で家屋を取り壊した後の町届出と滅失登記を一件で管理する",
     "slug": "property-tax-house-demolition-notice",
     "category": "行政手続き",
-    "search_intent": "家屋解体後に法務局の滅失登記と森町税務課への届出のどちらが必要か知りたい",
+    "search_intent": "解体済み家屋を一棟ずつ特定し、森町の取り壊し届と法務局の滅失登記を別の受付・完了欄で管理し、翌年度課税明細まで照合したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/kaoku/543.html",
-      "https://houmukyoku.moj.go.jp/homu/static/fudousantouki.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/faq/1053.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/yousiki/544.html",
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/5/kaokutorikowashikinyuurei.pdf",
+      "https://houmukyoku.moj.go.jp/homu/fudosan_online04.html"
     ],
     "risk": "medium",
     "decision": "CREATE",
