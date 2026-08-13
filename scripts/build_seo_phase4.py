@@ -907,6 +907,31 @@ def svg(row: dict, index: int) -> str:
         ],
     }
     item_id = int(row["id"])
+    day31_40_visuals = {
+        5: (["戸籍広域交付・請求判定", "戸籍広域交付・続柄分岐", "戸籍広域交付・三証明"], ["family-register-request-card", "family-register-relationship-gate", "family-register-three-certificates"]),
+        22: (["妊娠転入・手帳と受診票", "妊娠転入・残回数", "妊娠転入・未使用票"], ["pregnancy-transfer-handbook-tickets", "pregnancy-ticket-remaining-count", "pregnancy-unused-ticket-route"]),
+        27: (["保育申込・世帯別証明", "保育申込・就労時間", "保育申込・証明日"], ["childcare-household-certificates", "childcare-work-hours-board", "childcare-certificate-date-route"]),
+        58: (["国保入院・暦月台帳", "国保入院・負担区分", "国保入院・領収書"], ["nhi-hospital-calendar-ledger", "nhi-income-limit-branches", "nhi-receipt-application-route"]),
+        66: (["肝炎検査・受診歴", "肝炎検査・B型とC型", "肝炎検査・結果相談"], ["hepatitis-test-history-card", "hepatitis-b-c-result-columns", "hepatitis-result-consultation-route"]),
+        101: (["中古住宅水道・設備票", "中古住宅水道・メーター", "中古住宅水道・名義と漏水"], ["used-home-water-ledger", "water-meter-pilot-check", "water-name-leak-route"]),
+        102: (["公共下水道・三列表", "公共下水道・公共ます", "公共下水道・宅内工事"], ["sewer-three-column-ledger", "sewer-public-inlet-field", "sewer-private-pipe-contractor"]),
+        105: (["家屋解体・二手続", "家屋解体・棟と写真", "家屋解体・届と登記"], ["demolition-two-procedure-file", "demolished-building-photo-ledger", "demolition-town-registry-route"]),
+        109: (["火災警報器・一台一行", "火災警報器・製造年", "火災警報器・交換支援"], ["alarm-room-unit-ledger", "alarm-manufacture-year-check", "alarm-replacement-support-route"]),
+        121: (["空き家登録・所有者資料", "空き家登録・名義と同意", "空き家登録・調査と公開"], ["vacant-bank-owner-file", "vacant-bank-land-building-consent", "vacant-bank-survey-publication-route"]),
+    }
+    for visual_id, (visual_labels, visual_scenes) in day31_40_visuals.items():
+        shift = visual_id % 37
+        special_labels[visual_id] = visual_labels
+        special_descriptions[visual_id] = [
+            f"{visual_labels[0]}について対象、資料、確認日を一枚に配置する図",
+            f"{visual_labels[1]}について二つの条件を左右に分けて照合する図",
+            f"{visual_labels[2]}について確認から次の担当までを矢印でつなぐ図",
+        ]
+        special_scenes[visual_id] = [
+            f'<g data-scene="{visual_scenes[0]}"><rect x="{180+shift}" y="220" width="250" height="245" rx="20" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="570" y="250" width="240" height="205" rx="20" fill="{pale}" stroke="{dark}" stroke-width="10"/><path d="M{225+shift} 290h160M{225+shift} 350h160M{225+shift} 410h120M620 315h140M620 375h140" stroke="{accent}" stroke-width="9"/><path d="M430 340h140" stroke="{dark}" stroke-width="13"/></g>',
+            f'<g data-scene="{visual_scenes[1]}"><circle cx="{330-shift//2}" cy="350" r="112" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="{670+shift//2}" cy="350" r="112" fill="{pale}" stroke="{dark}" stroke-width="10"/><path d="M442 350h116" stroke="{accent}" stroke-width="15"/><path d="M280 350h100M330 300v100M620 350h100M670 300v100" stroke="{dark}" stroke-width="10"/></g>',
+            f'<g data-scene="{visual_scenes[2]}"><rect x="170" y="285" width="185" height="150" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="{410+shift}" y="245" width="185" height="190" rx="18" fill="{pale}" stroke="{dark}" stroke-width="10"/><rect x="650" y="285" width="185" height="150" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M355 360h{55+shift}M{595+shift} 360h{55-shift}" stroke="{accent}" stroke-width="14"/><path d="M205 335h115M205 385h90M{445+shift} 305h115M{445+shift} 365h115M685 335h115M685 385h90" stroke="{dark}" stroke-width="8"/></g>',
+        ]
     special_scene_orders = {246: (1, 0, 2), 284: (1, 0, 2)}
     special_index = special_scene_orders.get(item_id, (0, 1, 2))[(index - 1) % 3]
     scene = special_scenes.get(item_id, scenes)[special_index] if item_id in special_scenes else scenes[scene_kind]
@@ -1152,6 +1177,24 @@ def editorial_blocks_curated(row: dict) -> str:
             9: ("fig2.svg", "農地手続の締切日、現地調査日、農業委員会の日を別々に管理する図", "締切、現地調査、農業委員会の日を混同せず、別々の予定として残します。"),
         },
     }
+    day31_40_figure_text = {
+        5: ("戸籍の請求者と対象者の続柄を広域交付の可否へ分ける図", "取得する戸籍三種類と必要通数を請求表へまとめる図"),
+        22: ("母子健康手帳と妊婦健診受診票の残回数を分ける図", "未使用受診票と県外受診の領収書を森町の確認へつなぐ図"),
+        27: ("父母と同居親族の就労証明書を世帯別に並べる図", "証明日、勤務変更、再提出を申込予定へつなぐ図"),
+        58: ("年齢と所得区分から入院時の限度額確認へ進む図", "領収書、暦月、申請案内を一件台帳へつなぐ図"),
+        66: ("B型とC型の検査歴を結果票ごとに分ける図", "検査日から結果説明と相談先へつなぐ図"),
+        101: ("中古住宅の水道メーターとパイロットを現地確認する図", "給水名義、漏水修理、引渡日を設備票へつなぐ図"),
+        102: ("供用通知と現地の公共ますを照合する図", "宅内排水設備から指定工事店の工事へつなぐ図"),
+        105: ("解体した棟と工事前後写真を一件記録へ対応させる図", "森町の家屋届と法務局の滅失登記を分ける図"),
+        109: ("部屋ごとの火災警報器と製造年を対応させる図", "交換候補を購入、取付支援、交換記録へつなぐ図"),
+        121: ("空き家の土地建物名義と所有者同意を照合する図", "登録申込から現地調査と情報公開へ進む図"),
+    }
+    if item_id in day31_40_figure_text:
+        first, second = day31_40_figure_text[item_id]
+        special_figures[item_id] = {
+            3: ("fig1.svg", first, first.replace("図", "順序を確認します。")),
+            8: ("fig2.svg", second, second.replace("図", "順序を確認します。")),
+        }
     for index, section in enumerate(sections):
         heading = str(section.get("heading", "")).strip()
         paragraphs = section.get("paragraphs", [])

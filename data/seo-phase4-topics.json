@@ -109,18 +109,19 @@
   },
   {
     "id": 5,
-    "title": "森町で戸籍証明を広域交付で取る方法｜本籍地以外で請求する前の確認",
+    "title": "森町で戸籍証明を広域交付で取る前の請求判定表",
     "slug": "family-register-wide-area-issuance",
     "category": "行政手続き",
-    "search_intent": "本籍が森町外でも森町窓口で戸籍証明を取れるか、対象証明と本人確認を知りたい",
+    "search_intent": "本籍地、必要な戸籍、請求者との続柄、窓口本人確認を一件ずつ分け、広域交付で取れるか判断したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/5291.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2913.html",
       "https://www.moj.go.jp/MINJI/minji04_00082.html"
     ],
     "risk": "medium",
     "decision": "CREATE",
     "reason": "広域交付は郵送・コンビニ交付と条件が異なり、全国制度と町窓口を横断する独立意図がある",
-    "review_status": "retained-create",
+    "review_status": "day31-40-researched",
     "minimum_visible_characters": 6000,
     "safety_guardrails": [
       "一次情報を本文公開時に再確認",
@@ -668,18 +669,19 @@
   },
   {
     "id": 22,
-    "title": "森町へ妊娠中に転入したとき｜母子健康手帳と受診票の切替を分けて確認",
+    "title": "森町へ妊娠中に転入したときの母子手帳・受診票切替表",
     "slug": "pregnancy-transfer-in-checklist",
     "category": "子育て",
-    "search_intent": "妊娠中に森町へ転入するとき、母子健康手帳を引き続き使えるか、妊婦健診受診票や相談先をどう切り替えるか知りたい",
+    "search_intent": "転入前の母子健康手帳と森町の妊婦健診受診票を混同せず、残回数と相談先を整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4811.html",
+      "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4805.html",
       "https://www.cfa.go.jp/policies/boshihoken"
     ],
     "risk": "medium",
     "decision": "CREATE",
     "reason": "利用枠が変動するサービスを避け、転入日を軸に自治体発行の受診票を切り替える実務なら安全に長文化できる",
-    "review_status": "replaced-from-hold-or-merge",
+    "review_status": "day31-40-researched",
     "minimum_visible_characters": 6000,
     "content_blueprint": [
       "転入日から逆算",
@@ -860,18 +862,19 @@
   },
   {
     "id": 27,
-    "title": "森町の保育所申込みで就労証明書を準備する｜勤務先依頼から提出前確認まで",
+    "title": "森町の保育所申込みで就労証明書を世帯別にそろえる",
     "slug": "childcare-employment-certificate",
     "category": "子育て",
-    "search_intent": "保育所申込みに必要な就労証明書を勤務先へ依頼し、就労時間、復職日、記載漏れを確認したい",
+    "search_intent": "父母と同居親族の誰に就労証明書が必要かを分け、証明日と勤務変更を提出前に点検したい",
     "primary_sources": [
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6286.html",
       "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/4624.html",
-      "https://www.cfa.go.jp/policies/hoiku/ninkahoikushisetsu/shuroushoumeisho"
+      "https://laws.e-gov.go.jp/law/322AC0000000164"
     ],
     "risk": "medium",
     "decision": "CREATE",
     "reason": "実施未確認の預かり事業を案内せず、全国標準様式と町の申込案内で保護者の準備を具体化できる",
-    "review_status": "replaced-from-hold-or-merge",
+    "review_status": "day31-40-researched",
     "minimum_visible_characters": 6000,
     "content_blueprint": [
       "証明書の目的",
@@ -2024,18 +2027,19 @@
   },
   {
     "id": 58,
-    "title": "森町の国民健康保険で限度額の扱いを確認する｜入院前の準備",
+    "title": "森町国保の入院費を限度額・食事代・申請月で分ける",
     "slug": "national-health-insurance-payment-limit",
     "category": "健康",
-    "search_intent": "入院や高額治療の前に、窓口負担の上限確認とマイナ保険証・認定証の扱いを知りたい",
+    "search_intent": "入院前に所得区分、マイナ保険証、食事代、暦月、申請書到着時期を一枚で確認したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/index.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/2173.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/1383.html",
       "https://www.mhlw.go.jp/stf/newpage_08277.html"
     ],
     "risk": "medium",
     "decision": "CREATE",
     "reason": "支払後の高額療養費とは時間軸が異なり、入院前に検索される具体的な手続きである",
-    "review_status": "retained-create",
+    "review_status": "day31-40-researched",
     "minimum_visible_characters": 6000,
     "safety_guardrails": [
       "一次情報を本文公開時に再確認",
@@ -2246,18 +2250,19 @@
   },
   {
     "id": 66,
-    "title": "森町で肝炎ウイルス検診を受ける方法｜対象と受診歴を確認",
+    "title": "森町で肝炎ウイルス検査の受診歴を一回ずつ確認する",
     "slug": "hepatitis-virus-screening",
     "category": "健康",
-    "search_intent": "B型・C型肝炎ウイルス検診の対象、受診券、過去の受診歴、医療機関を知りたい",
+    "search_intent": "B型・C型の検査歴、受診日、結果説明、次の相談先を混同せず確認したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/2937.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/index.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/6/4837.html",
       "https://www.mhlw.go.jp/bunya/kenkou/kekkaku-kansenshou09/"
     ],
     "risk": "medium",
     "decision": "CREATE",
     "reason": "総合健診の記事から分けても検索意図と対象条件が明確で、受診歴確認の注意を示せる",
-    "review_status": "retained-create",
+    "review_status": "day31-40-researched",
     "minimum_visible_characters": 6000,
     "safety_guardrails": [
       "一次情報を本文公開時に再確認",
@@ -3381,10 +3386,10 @@
     "id": 101,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町で中古住宅を買う前の上水道確認｜メーター・口径・名義",
+    "title": "森町で中古住宅の水道をメーター・名義・漏水で確認する",
     "slug": "/property/used-home-water-check/",
     "category": "住宅",
-    "search_intent": "中古住宅の契約前に給水状況と手続き先を確認したい",
+    "search_intent": "購入前に給水届、所有者名義、メーターパイロット、漏水修理歴、廃止の有無を現地で照合したい",
     "risk": "MEDIUM",
     "cannibalization": {
       "level": "LOW",
@@ -3414,10 +3419,9 @@
     },
     "review_note": "元案の汎用的な住宅支援ページ2件だけでは根拠不足。各候補URLは執筆開始時と公開直前の二度確認する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/josuido/1402.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/josuido/2225.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/index.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/1405.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/1407.html",
+      "https://laws.e-gov.go.jp/law/332AC0000000177"
     ],
     "required_sections": [
       "誰が、どの時点で「中古住宅を買う前の上水道確認」を確認する記事か",
@@ -3430,16 +3434,17 @@
       "大石の視点：売却や契約を急がず、道路・境界・登記・農地・家族共有へつなぐ",
       "読者が今日作れる一枚の確認表と公式情報源"
     ],
-    "guardrail": "再建築可否、法適合、欠陥、飲用可否、保険適用を断定しない。資料の基準日を示し、現地確認後に町担当、県、専門資格者へ照会する順番を書く。"
+    "guardrail": "再建築可否、法適合、欠陥、飲用可否、保険適用を断定しない。資料の基準日を示し、現地確認後に町担当、県、専門資格者へ照会する順番を書く。",
+    "review_status": "day31-40-researched"
   },
   {
     "id": 102,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の公共下水道接続確認｜対象区域と宅内工事を分けて考える",
+    "title": "森町の公共下水道を供用通知・公共ます・宅内工事で確認する",
     "slug": "/property/sewer-connection-check/",
     "category": "住宅",
-    "search_intent": "住宅候補地が下水道区域か、接続に何が必要か知りたい",
+    "search_intent": "対象区域という情報だけで接続済みと判断せず、供用通知、公共ます、宅内排水設備、指定工事店を照合したい",
     "risk": "MEDIUM",
     "cannibalization": {
       "level": "LOW",
@@ -3469,10 +3474,9 @@
     },
     "review_note": "元案の汎用的な住宅支援ページ2件だけでは根拠不足。各候補URLは執筆開始時と公開直前の二度確認する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/gesuidokanrigakari/1/1/394.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/index.html",
-      "https://www.pref.shizuoka.jp/machizukuri/kenchiku/index.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1127.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1242.html",
+      "https://laws.e-gov.go.jp/law/333AC0000000079"
     ],
     "required_sections": [
       "誰が、どの時点で「公共下水道接続確認」を確認する記事か",
@@ -3485,7 +3489,8 @@
       "大石の視点：売却や契約を急がず、道路・境界・登記・農地・家族共有へつなぐ",
       "読者が今日作れる一枚の確認表と公式情報源"
     ],
-    "guardrail": "再建築可否、法適合、欠陥、飲用可否、保険適用を断定しない。資料の基準日を示し、現地確認後に町担当、県、専門資格者へ照会する順番を書く。"
+    "guardrail": "再建築可否、法適合、欠陥、飲用可否、保険適用を断定しない。資料の基準日を示し、現地確認後に町担当、県、専門資格者へ照会する順番を書く。",
+    "review_status": "day31-40-researched"
   },
   {
     "id": 103,
@@ -3600,10 +3605,10 @@
     "id": 105,
     "original_decision": "MERGE",
     "decision": "CREATE",
-    "title": "森町で家屋を取り壊した後の記録整理｜町への届出と滅失登記を分ける",
+    "title": "森町で家屋を取り壊した後の町届・滅失登記記録",
     "slug": "/property/demolished-house-records/",
     "category": "住宅",
-    "search_intent": "解体後に、町の家屋関係届と法務局の滅失登記を別手続きとして整理したい",
+    "search_intent": "解体日、町の家屋取り壊し届、法務局の建物滅失登記、写真と契約書を別手続として管理したい",
     "risk": "HIGH",
     "cannibalization": {
       "level": "LOW",
@@ -3635,8 +3640,7 @@
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/kaoku/543.html",
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/yousiki/544.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/index.html"
+      "https://laws.e-gov.go.jp/law/416AC0000000123"
     ],
     "required_sections": [
       "誰が、どの時点で「家屋を取り壊した後の記録整理」を確認する記事か",
@@ -3649,7 +3653,8 @@
       "大石の視点：売却や契約を急がず、道路・境界・登記・農地・家族共有へつなぐ",
       "読者が今日作れる一枚の確認表と公式情報源"
     ],
-    "guardrail": "再建築可否、法適合、欠陥、飲用可否、保険適用を断定しない。資料の基準日を示し、現地確認後に町担当、県、専門資格者へ照会する順番を書く。"
+    "guardrail": "再建築可否、法適合、欠陥、飲用可否、保険適用を断定しない。資料の基準日を示し、現地確認後に町担当、県、専門資格者へ照会する順番を書く。",
+    "review_status": "day31-40-researched"
   },
   {
     "id": 106,
@@ -3817,10 +3822,10 @@
     "id": 109,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の古い家で住宅用火災警報器を点検する",
+    "title": "森町の住宅用火災警報器を部屋・製造年・交換支援で点検する",
     "slug": "/property/home-fire-alarm-check/",
     "category": "住宅",
-    "search_intent": "設置場所、交換時期、相談先を確認したい",
+    "search_intent": "住宅内の警報器を一台ずつ数え、設置場所、製造年、作動音、交換予定、取付支援の対象を整理したい",
     "risk": "LOW",
     "cannibalization": {
       "level": "LOW",
@@ -3851,9 +3856,8 @@
     "review_note": "元案の汎用的な住宅支援ページ2件だけでは根拠不足。各候補URLは執筆開始時と公開直前の二度確認する。",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/shoubou/3966.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/index.html",
-      "https://www.pref.shizuoka.jp/machizukuri/kenchiku/index.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/syoubou/3983.html",
+      "https://www.fdma.go.jp/relocation/html/life/yobou_contents/qa/"
     ],
     "required_sections": [
       "誰が、どの時点で「古い家で住宅用火災警報器を点検する」を確認する記事か",
@@ -3866,7 +3870,8 @@
       "大石の視点：売却や契約を急がず、道路・境界・登記・農地・家族共有へつなぐ",
       "読者が今日作れる一枚の確認表と公式情報源"
     ],
-    "guardrail": "再建築可否、法適合、欠陥、飲用可否、保険適用を断定しない。資料の基準日を示し、現地確認後に町担当、県、専門資格者へ照会する順番を書く。"
+    "guardrail": "再建築可否、法適合、欠陥、飲用可否、保険適用を断定しない。資料の基準日を示し、現地確認後に町担当、県、専門資格者へ照会する順番を書く。",
+    "review_status": "day31-40-researched"
   },
   {
     "id": 110,
@@ -4467,10 +4472,10 @@
     "id": 121,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の空き家バンク登録に必要な書類を家族で集める",
+    "title": "森町空き家バンク登録の所有者・土地・同意書をそろえる",
     "slug": "/vacant-house/vacant-bank-owner-documents/",
     "category": "空き家",
-    "search_intent": "所有者側の登録準備を漏れなく進めたい",
+    "search_intent": "登録申込書、所有者、土地建物の名義差、同意書、現地調査、残置物処分を一件ファイルにまとめたい",
     "risk": "MEDIUM",
     "cannibalization": {
       "level": "MEDIUM",
@@ -4500,9 +4505,9 @@
     },
     "review_note": "既存ページとの役割境界を冒頭と内部リンク文で明示する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/akiyabank/index.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/gomi_navi/kateigomi/1101.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/akiyabank/1460.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/3043akiyakazaisyobun.html",
+      "https://laws.e-gov.go.jp/law/426AC1000000127"
     ],
     "required_sections": [
       "誰が、どの時点で「空き家バンク登録に必要な書類を家族で集める」を確認する記事か",
@@ -4515,7 +4520,8 @@
       "大石の視点：売却や契約を急がず、道路・境界・登記・農地・家族共有へつなぐ",
       "読者が今日作れる一枚の確認表と公式情報源"
     ],
-    "guardrail": "補助対象、契約成立、近隣責任、保険適用を断定しない。所有者・管理者・委託業者の役割を分け、最新の町要綱と個別契約を確認する。"
+    "guardrail": "補助対象、契約成立、近隣責任、保険適用を断定しない。所有者・管理者・委託業者の役割を分け、最新の町要綱と個別契約を確認する。",
+    "review_status": "day31-40-researched"
   },
   {
     "id": 122,
