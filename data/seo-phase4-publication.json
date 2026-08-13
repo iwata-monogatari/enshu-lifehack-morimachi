@@ -20,56 +20,56 @@
   {
     "id": 2,
     "url": "/life/start-living/transfer-registered-domicile/",
-    "title": "森町で転籍届を出すときの確認順序｜本籍を移す前後の戸籍請求まで",
+    "title": "森町で転籍届を出す前に本籍・筆頭者・戸籍請求を一件表にする",
     "category": "行政手続き",
-    "search_intent": "森町へ本籍を移す、または森町から本籍を移す場合の窓口と戸籍への影響を知りたい",
+    "search_intent": "森町で転籍届を出す前に本籍・筆頭者・戸籍請求を一件表にするについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "search_aliases": [
-      "森町で転籍届を出すときの確認順序",
-      "森町へ本籍を移す、または森町から本籍を移す場合の窓口と戸籍への影響を知りたい"
+      "森町で転籍届を出す前に本籍・筆頭者・戸籍請求を一件表にする",
+      "森町で転籍届を出す前に本籍・筆頭者・戸籍請求を一件表にするについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい"
     ],
-    "editorial_chars": 6656,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 7714,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 3,
     "url": "/life/start-living/household-head-change-notification/",
-    "title": "森町で世帯主変更届が必要になる場面｜世帯分離・合併との違いを確認",
+    "title": "森町で世帯主変更・世帯分離・世帯合併を一件ずつ判断する",
     "category": "行政手続き",
-    "search_intent": "同じ住所で世帯主を変えるとき、世帯変更届の種類、期限、本人確認、国民健康保険への影響を知りたい",
+    "search_intent": "森町で世帯主変更・世帯分離・世帯合併を一件ずつ判断するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "search_aliases": [
-      "森町で世帯主変更届が必要になる場面",
-      "同じ住所で世帯主を変えるとき、世帯変更届の種類、期限、本人確認、国民健康保険への影響を知りたい"
+      "森町で世帯主変更・世帯分離・世帯合併を一件ずつ判断する",
+      "森町で世帯主変更・世帯分離・世帯合併を一件ずつ判断するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい"
     ],
-    "editorial_chars": 6537,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 7720,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 4,
     "url": "/life/start-living/family-register-nonacceptance-request/",
-    "title": "森町で戸籍届の不受理申出をするとき｜対象届と本人確認を整理",
+    "title": "森町で戸籍届の不受理申出を本人確認・対象届・取下げで整理する",
     "category": "行政手続き",
-    "search_intent": "本人の意思に反する婚姻届などを防ぐ不受理申出の対象、窓口、本人確認書類を知りたい",
+    "search_intent": "森町で戸籍届の不受理申出を本人確認・対象届・取下げで整理するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "search_aliases": [
-      "森町で戸籍届の不受理申出をするとき",
-      "本人の意思に反する婚姻届などを防ぐ不受理申出の対象、窓口、本人確認書類を知りたい"
+      "森町で戸籍届の不受理申出を本人確認・対象届・取下げで整理する",
+      "森町で戸籍届の不受理申出を本人確認・対象届・取下げで整理するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい"
     ],
-    "editorial_chars": 6657,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 7793,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 5,
@@ -92,110 +92,110 @@
   {
     "id": 6,
     "url": "/life/start-living/family-register-address-history/",
-    "title": "森町で戸籍の附票を請求するとき｜住所の履歴と必要な表示を先に確認",
+    "title": "森町で戸籍の附票を住所履歴・本籍・必要表示で請求する",
     "category": "行政手続き",
-    "search_intent": "戸籍の附票で過去の住所を確認したいときの請求先、表示項目、本人確認を知りたい",
+    "search_intent": "森町で戸籍の附票を住所履歴・本籍・必要表示で請求するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "search_aliases": [
-      "森町で戸籍の附票を請求するとき",
-      "戸籍の附票で過去の住所を確認したいときの請求先、表示項目、本人確認を知りたい"
+      "森町で戸籍の附票を住所履歴・本籍・必要表示で請求する",
+      "森町で戸籍の附票を住所履歴・本籍・必要表示で請求するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい"
     ],
-    "editorial_chars": 6656,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 7733,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 7,
     "url": "/life/start-living/resident-record-items-certificate/",
-    "title": "森町で住民票記載事項証明書を求められたとき｜住民票の写しとの違い",
+    "title": "森町で住民票記載事項証明の指定様式と必要項目を照合する",
     "category": "行政手続き",
-    "search_intent": "勤務先や学校から指定様式の住民票記載事項証明を求められたとき、住民票の写しとの違いと請求方法を知りたい",
+    "search_intent": "森町で住民票記載事項証明の指定様式と必要項目を照合するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "search_aliases": [
-      "森町で住民票記載事項証明書を求められたとき",
-      "勤務先や学校から指定様式の住民票記載事項証明を求められたとき、住民票の写しとの違いと請求方法を知りたい"
+      "森町で住民票記載事項証明の指定様式と必要項目を照合する",
+      "森町で住民票記載事項証明の指定様式と必要項目を照合するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい"
     ],
-    "editorial_chars": 6588,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 7769,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 8,
     "url": "/life/start-living/lost-seal-registration-card/",
-    "title": "森町で印鑑登録証をなくしたとき｜証明書が必要になる前の確認順序",
+    "title": "森町で印鑑登録証を紛失したとき廃止・再登録・証明取得を分ける",
     "category": "行政手続き",
-    "search_intent": "印鑑登録証を紛失したときの届出、登録廃止、再登録、本人確認の順序を知りたい",
+    "search_intent": "森町で印鑑登録証を紛失したとき廃止・再登録・証明取得を分けるについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "search_aliases": [
-      "森町で印鑑登録証をなくしたとき",
-      "印鑑登録証を紛失したときの届出、登録廃止、再登録、本人確認の順序を知りたい"
+      "森町で印鑑登録証を紛失したとき廃止・再登録・証明取得を分ける",
+      "森町で印鑑登録証を紛失したとき廃止・再登録・証明取得を分けるについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい"
     ],
-    "editorial_chars": 6481,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 7757,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 9,
     "url": "/life/start-living/my-number-electronic-certificate-renewal/",
-    "title": "森町でマイナンバーカードの電子証明書を更新する前に確認すること",
+    "title": "森町で電子証明書の期限・暗証番号・更新後利用を一枚にする",
     "category": "行政手続き",
-    "search_intent": "電子証明書の有効期限通知が届いた後の更新窓口、暗証番号、持ち物を知りたい",
+    "search_intent": "森町で電子証明書の期限・暗証番号・更新後利用を一枚にするについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "search_aliases": [
-      "森町でマイナンバーカードの電子証明書を更新する前に確認すること",
-      "電子証明書の有効期限通知が届いた後の更新窓口、暗証番号、持ち物を知りたい"
+      "森町で電子証明書の期限・暗証番号・更新後利用を一枚にする",
+      "森町で電子証明書の期限・暗証番号・更新後利用を一枚にするについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい"
     ],
-    "editorial_chars": 6660,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 7670,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 10,
     "url": "/life/start-living/my-number-card-lost/",
-    "title": "森町でマイナンバーカードを紛失したときの停止・再交付の順番",
+    "title": "森町でマイナンバーカード紛失時の停止・警察届・再交付をつなぐ",
     "category": "行政手続き",
-    "search_intent": "マイナンバーカード紛失時に直ちに停止し、警察届出と再交付を進める順番を知りたい",
+    "search_intent": "森町でマイナンバーカード紛失時の停止・警察届・再交付をつなぐについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "search_aliases": [
-      "森町でマイナンバーカードを紛失したときの停止・再交付の順番",
-      "マイナンバーカード紛失時に直ちに停止し、警察届出と再交付を進める順番を知りたい"
+      "森町でマイナンバーカード紛失時の停止・警察届・再交付をつなぐ",
+      "森町でマイナンバーカード紛失時の停止・警察届・再交付をつなぐについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい"
     ],
-    "editorial_chars": 6764,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 7630,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 11,
     "url": "/life/start-living/my-number-pin-reset/",
-    "title": "森町でマイナンバーカードの暗証番号を忘れたとき｜初期化と再設定",
+    "title": "森町でマイナンバーカード暗証番号の種類・ロック・再設定を分ける",
     "category": "行政手続き",
-    "search_intent": "暗証番号をロックまたは失念したときに、スマートフォンや窓口で再設定する方法を知りたい",
+    "search_intent": "森町でマイナンバーカード暗証番号の種類・ロック・再設定を分けるについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "search_aliases": [
-      "森町でマイナンバーカードの暗証番号を忘れたとき",
-      "暗証番号をロックまたは失念したときに、スマートフォンや窓口で再設定する方法を知りたい"
+      "森町でマイナンバーカード暗証番号の種類・ロック・再設定を分ける",
+      "森町でマイナンバーカード暗証番号の種類・ロック・再設定を分けるについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい"
     ],
-    "editorial_chars": 6569,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 7651,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 12,
@@ -236,20 +236,20 @@
   {
     "id": 14,
     "url": "/life/start-living/moving-notification-by-proxy/",
-    "title": "森町で代理人が住民異動届を出すとき｜委任状と本人確認を先に整える",
+    "title": "森町で代理人が転入・転居・転出届を出す前の委任状確認表",
     "category": "行政手続き",
-    "search_intent": "本人が来庁できないとき、代理人による転入・転居・転出届の委任状、本人確認、追加手続きを知りたい",
+    "search_intent": "森町で代理人が転入・転居・転出届を出す前の委任状確認表について、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "search_aliases": [
-      "森町で代理人が住民異動届を出すとき",
-      "本人が来庁できないとき、代理人による転入・転居・転出届の委任状、本人確認、追加手続きを知りたい"
+      "森町で代理人が転入・転居・転出届を出す前の委任状確認表",
+      "森町で代理人が転入・転居・転出届を出す前の委任状確認表について、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい"
     ],
-    "editorial_chars": 6552,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 7788,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 15,

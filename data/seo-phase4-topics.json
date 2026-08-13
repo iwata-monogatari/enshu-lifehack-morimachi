@@ -23,10 +23,10 @@
   },
   {
     "id": 2,
-    "title": "森町で転籍届を出すときの確認順序｜本籍を移す前後の戸籍請求まで",
+    "title": "森町で転籍届を出す前に本籍・筆頭者・戸籍請求を一件表にする",
     "slug": "transfer-registered-domicile",
     "category": "行政手続き",
-    "search_intent": "森町へ本籍を移す、または森町から本籍を移す場合の窓口と戸籍への影響を知りたい",
+    "search_intent": "森町で転籍届を出す前に本籍・筆頭者・戸籍請求を一件表にするについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
       "https://www.moj.go.jp/MINJI/minji15.html"
@@ -45,10 +45,10 @@
   },
   {
     "id": 3,
-    "title": "森町で世帯主変更届が必要になる場面｜世帯分離・合併との違いを確認",
+    "title": "森町で世帯主変更・世帯分離・世帯合併を一件ずつ判断する",
     "slug": "household-head-change-notification",
     "category": "行政手続き",
-    "search_intent": "同じ住所で世帯主を変えるとき、世帯変更届の種類、期限、本人確認、国民健康保険への影響を知りたい",
+    "search_intent": "森町で世帯主変更・世帯分離・世帯合併を一件ずつ判断するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
       "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/daityo/"
@@ -87,10 +87,10 @@
   },
   {
     "id": 4,
-    "title": "森町で戸籍届の不受理申出をするとき｜対象届と本人確認を整理",
+    "title": "森町で戸籍届の不受理申出を本人確認・対象届・取下げで整理する",
     "slug": "family-register-nonacceptance-request",
     "category": "行政手続き",
-    "search_intent": "本人の意思に反する婚姻届などを防ぐ不受理申出の対象、窓口、本人確認書類を知りたい",
+    "search_intent": "森町で戸籍届の不受理申出を本人確認・対象届・取下げで整理するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
       "https://www.moj.go.jp/MINJI/minji15.html"
@@ -132,10 +132,10 @@
   },
   {
     "id": 6,
-    "title": "森町で戸籍の附票を請求するとき｜住所の履歴と必要な表示を先に確認",
+    "title": "森町で戸籍の附票を住所履歴・本籍・必要表示で請求する",
     "slug": "family-register-address-history",
     "category": "行政手続き",
-    "search_intent": "戸籍の附票で過去の住所を確認したいときの請求先、表示項目、本人確認を知りたい",
+    "search_intent": "森町で戸籍の附票を住所履歴・本籍・必要表示で請求するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
       "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/daityo/"
@@ -154,10 +154,10 @@
   },
   {
     "id": 7,
-    "title": "森町で住民票記載事項証明書を求められたとき｜住民票の写しとの違い",
+    "title": "森町で住民票記載事項証明の指定様式と必要項目を照合する",
     "slug": "resident-record-items-certificate",
     "category": "行政手続き",
-    "search_intent": "勤務先や学校から指定様式の住民票記載事項証明を求められたとき、住民票の写しとの違いと請求方法を知りたい",
+    "search_intent": "森町で住民票記載事項証明の指定様式と必要項目を照合するについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
       "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/daityo/"
@@ -196,10 +196,10 @@
   },
   {
     "id": 8,
-    "title": "森町で印鑑登録証をなくしたとき｜証明書が必要になる前の確認順序",
+    "title": "森町で印鑑登録証を紛失したとき廃止・再登録・証明取得を分ける",
     "slug": "lost-seal-registration-card",
     "category": "行政手続き",
-    "search_intent": "印鑑登録証を紛失したときの届出、登録廃止、再登録、本人確認の順序を知りたい",
+    "search_intent": "森町で印鑑登録証を紛失したとき廃止・再登録・証明取得を分けるについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
       "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/2940.html"
@@ -238,10 +238,10 @@
   },
   {
     "id": 9,
-    "title": "森町でマイナンバーカードの電子証明書を更新する前に確認すること",
+    "title": "森町で電子証明書の期限・暗証番号・更新後利用を一枚にする",
     "slug": "my-number-electronic-certificate-renewal",
     "category": "行政手続き",
-    "search_intent": "電子証明書の有効期限通知が届いた後の更新窓口、暗証番号、持ち物を知りたい",
+    "search_intent": "森町で電子証明書の期限・暗証番号・更新後利用を一枚にするについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
       "https://www.kojinbango-card.go.jp/card/renewal/"
@@ -260,10 +260,10 @@
   },
   {
     "id": 10,
-    "title": "森町でマイナンバーカードを紛失したときの停止・再交付の順番",
+    "title": "森町でマイナンバーカード紛失時の停止・警察届・再交付をつなぐ",
     "slug": "my-number-card-lost",
     "category": "行政手続き",
-    "search_intent": "マイナンバーカード紛失時に直ちに停止し、警察届出と再交付を進める順番を知りたい",
+    "search_intent": "森町でマイナンバーカード紛失時の停止・警察届・再交付をつなぐについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
       "https://www.kojinbango-card.go.jp/faq_lost/"
@@ -282,10 +282,10 @@
   },
   {
     "id": 11,
-    "title": "森町でマイナンバーカードの暗証番号を忘れたとき｜初期化と再設定",
+    "title": "森町でマイナンバーカード暗証番号の種類・ロック・再設定を分ける",
     "slug": "my-number-pin-reset",
     "category": "行政手続き",
-    "search_intent": "暗証番号をロックまたは失念したときに、スマートフォンや窓口で再設定する方法を知りたい",
+    "search_intent": "森町でマイナンバーカード暗証番号の種類・ロック・再設定を分けるについて、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
       "https://www.kojinbango-card.go.jp/apprec/abroad/"
@@ -388,10 +388,10 @@
   },
   {
     "id": 14,
-    "title": "森町で代理人が住民異動届を出すとき｜委任状と本人確認を先に整える",
+    "title": "森町で代理人が転入・転居・転出届を出す前の委任状確認表",
     "slug": "moving-notification-by-proxy",
     "category": "行政手続き",
-    "search_intent": "本人が来庁できないとき、代理人による転入・転居・転出届の委任状、本人確認、追加手続きを知りたい",
+    "search_intent": "森町で代理人が転入・転居・転出届を出す前の委任状確認表について、対象・本人確認・期限・後続手続きを一件の確認表へ整理したい",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/koseki_juminhyo_inkanshomei/index.html",
       "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/daityo/"

@@ -918,6 +918,16 @@ def svg(row: dict, index: int) -> str:
         105: (["家屋解体・二手続", "家屋解体・棟と写真", "家屋解体・届と登記"], ["demolition-two-procedure-file", "demolished-building-photo-ledger", "demolition-town-registry-route"]),
         109: (["火災警報器・一台一行", "火災警報器・製造年", "火災警報器・交換支援"], ["alarm-room-unit-ledger", "alarm-manufacture-year-check", "alarm-replacement-support-route"]),
         121: (["空き家登録・所有者資料", "空き家登録・名義と同意", "空き家登録・調査と公開"], ["vacant-bank-owner-file", "vacant-bank-land-building-consent", "vacant-bank-survey-publication-route"]),
+        2: (["転籍・本籍と筆頭者", "転籍・現在と新本籍", "転籍・届出と戸籍請求"], ["domicile-transfer-ledger", "old-new-domicile-bridge", "transfer-filing-certificate-route"]),
+        3: (["世帯変更・三つの届", "世帯変更・住所と生計", "世帯変更・届出後確認"], ["household-change-three-forms", "address-livelihood-households", "household-result-check-route"]),
+        4: (["不受理申出・本人意思", "不受理申出・対象届", "不受理申出・取下げ"], ["nonacceptance-personal-intent", "nonacceptance-filing-types", "nonacceptance-withdrawal-route"]),
+        6: (["戸籍附票・住所履歴", "戸籍附票・必要表示", "戸籍附票・提出範囲"], ["family-register-address-history", "address-history-display-fields", "address-history-purpose-route"]),
+        7: (["記載事項証明・指定様式", "記載事項証明・必要項目", "記載事項証明・提出"], ["resident-items-form", "resident-items-field-selector", "resident-items-submission-route"]),
+        8: (["印鑑登録証・紛失記録", "印鑑登録証・廃止と再登録", "印鑑登録証・証明取得"], ["seal-card-loss-ledger", "seal-card-cancel-reregister", "seal-card-certificate-route"]),
+        9: (["電子証明書・二期限", "電子証明書・二暗証番号", "電子証明書・更新後利用"], ["digital-certificate-two-expiries", "digital-certificate-two-pins", "digital-certificate-renewal-route"]),
+        10: (["カード紛失・停止記録", "カード紛失・警察届", "カード紛失・再交付"], ["my-number-loss-stop-ledger", "my-number-police-report", "my-number-reissue-route"]),
+        11: (["暗証番号・四種類", "暗証番号・失念とロック", "暗証番号・安全な再設定"], ["my-number-four-pins", "pin-forgotten-locked", "pin-reset-safe-route"]),
+        14: (["代理届・委任状確認", "代理届・三つの異動", "代理届・受付結果"], ["proxy-moving-authorization", "proxy-three-moving-types", "proxy-filing-result-route"]),
     }
     for visual_id, (visual_labels, visual_scenes) in day31_40_visuals.items():
         shift = visual_id % 37
