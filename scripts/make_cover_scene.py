@@ -1429,7 +1429,70 @@ def scene_nagi(d):
     band(d, ["守られる木と、", "誰も測っていない木"], "森町ライフハック／寺社・歴史")
 
 
+def scene_tanbo_lease(d):
+    """他人が作っている実家の田と、空欄のままの契約書を並べた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [12, 56, 100, 700, 744], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 稲の育った田（奥）
+    d.polygon([(0, 336), (760, 326), (760, 404), (0, 416)], fill=(156, 203, 105))
+    for i in range(4):
+        d.line([(0, 348 + i * 18), (760, 338 + i * 18)], fill=(101, 146, 69), width=5)
+    # 畦
+    d.polygon([(0, 416), (760, 404), (760, 428), (0, 440)], fill=(201, 192, 164))
+    # 二枚目の田
+    d.polygon([(0, 440), (760, 428), (760, 486), (0, 500)], fill=(140, 190, 92))
+    for i in range(3):
+        d.line([(0, 452 + i * 18), (760, 440 + i * 18)], fill=(94, 136, 64), width=5)
+    # 他人の耕うん機
+    d.polygon([(150, 350), (256, 344), (260, 388), (146, 394)], fill=(200, 80, 58))
+    d.polygon([(252, 352), (300, 350), (306, 382), (256, 384)], fill=(226, 230, 226))
+    d.rectangle([264, 358, 294, 376], fill=(182, 211, 224), outline=(138, 168, 182), width=3)
+    d.line([(160, 346), (160, 316)], fill=(107, 115, 112), width=6)
+    d.line([(160, 316), (198, 316)], fill=(107, 115, 112), width=6)
+    d.ellipse([154, 372, 202, 420], fill=(75, 84, 80), outline=(47, 55, 51), width=5)
+    d.ellipse([170, 388, 186, 404], fill=(168, 176, 172))
+    d.ellipse([262, 380, 298, 416], fill=(75, 84, 80), outline=(47, 55, 51), width=5)
+    d.ellipse([274, 392, 286, 404], fill=(168, 176, 172))
+    d.ellipse([196, 306, 230, 340], fill=(227, 195, 157), outline=(185, 146, 107), width=3)
+    d.polygon([(190, 310), (236, 310), (232, 300), (194, 300)], fill=(111, 124, 130))
+    d.polygon([(200, 324), (226, 324), (232, 350), (194, 350)], fill=(63, 111, 134))
+    # 字の消えた古い杭
+    d.line([(600, 500), (600, 420)], fill=(155, 138, 108), width=13)
+    d.rectangle([540, 424, 664, 456], fill=(243, 241, 230), outline=(168, 154, 124), width=3)
+    for y in (436, 446):
+        d.line([(554, y), (650 - (y - 436) * 3, y)], fill=(195, 184, 156), width=5)
+    # 手前：縁側の卓と書類一式
+    d.rectangle([0, 500, 760, BAND_TOP], fill=(201, 168, 119))
+    for y in (516, 536, 556, 576):
+        d.line([(0, y), (760, y)], fill=(177, 144, 95), width=3)
+    d.rounded_rectangle([36, 486, 300, 588], radius=6, fill=(255, 255, 255),
+                        outline=(138, 148, 154), width=4)
+    d.rectangle([58, 504, 278, 522], fill=(223, 230, 233))
+    for i in range(3):
+        d.line([(58, 542 + i * 16), (278 - i * 26, 542 + i * 16)], fill=(198, 206, 210), width=5)
+    d.rectangle([214, 552, 278, 580], fill=(253, 246, 230), outline=(192, 86, 60), width=3)
+    d.polygon([(340, 588), (340, 512), (352, 496), (416, 496), (428, 512), (428, 588)],
+              fill=(230, 221, 198), outline=(179, 166, 133))
+    d.rectangle([358, 526, 410, 558], fill=(200, 162, 90))
+    d.rounded_rectangle([460, 512, 578, 578], radius=5, fill=(63, 111, 134),
+                        outline=(44, 84, 104), width=4)
+    d.rectangle([474, 526, 546, 540], fill=(207, 224, 232))
+    d.rectangle([474, 550, 528, 562], fill=(143, 178, 196))
+    d.rounded_rectangle([612, 496, 728, 582], radius=5, fill=(246, 242, 228),
+                        outline=(168, 154, 124), width=4)
+    for y in (514, 532, 550):
+        d.line([(626, y), (714, y)], fill=(195, 184, 156), width=3)
+    d.line([(670, 496), (670, 582)], fill=(195, 184, 156), width=3)
+    band(d, ["作っているのは親ではない。", "紙は、どこにもない"], "森町ライフハック／農地・山林・茶畑")
+
+
 SCENES = {
+    "20260813-tanbo-lease-contract": scene_tanbo_lease,
     "20260812-amenomiya-nagi-garden-tree": scene_nagi,
     "20260812-ishimatsu-grave-rebuilt": scene_ishimatsu,
     "20260812-tomodake-kayabuki-value-cost": scene_tomodake,

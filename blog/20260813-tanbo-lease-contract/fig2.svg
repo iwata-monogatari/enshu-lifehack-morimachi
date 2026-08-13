@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tl2Title tl2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="tl2Title">お盆に実家の田んぼの貸し借りを確かめる順番を、一本の道と三つの分かれ道として描いたイラスト</title>
+  <desc id="tl2Desc">左端に稲の育った田と瓦屋根の実家があり、そこから右へ農道が伸びます。最初の区間では縁側で親から借り手の名前と始まった年を聞き取り、子がノートに書いています。次の区間では名寄帳と通帳を並べ、筆と入金を突き合わせています。三つ目の地点で道が三方向に分かれ、上の道は役場の農業委員会の窓口へ続いて「許可の記録を照会」の札が、真ん中の道は借り手の家へ続いて「書面にして残す」の札が、下の道は掲示された目標地図へ続いて「10年後の耕作者」の札が立っています。奥には段になった茶畑と杉林、遠州の山並みが広がります。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="tl2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3daea"/><stop offset="1" stop-color="#ebf2e6"/>
+    </linearGradient>
+    <linearGradient id="tl2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fadbe"/><stop offset="1" stop-color="#bacfd5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="164" fill="url(#tl2Sky)"/>
+  <path fill="url(#tl2Far)" d="M0 106 L96 52 L200 104 L312 44 L426 104 L540 42 L654 104 L766 52 L874 104 L1000 68 L1000 150 L0 150 Z"/>
+  <path fill="#7fae57" d="M0 166 C 240 156, 460 180, 690 168 C 790 162, 880 172, 1000 166 L1000 204 L0 210 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 176 C 240 166, 460 190, 690 178 C 790 172, 880 182, 1000 176"/>
+    <path d="M0 192 C 240 182, 460 206, 690 194 C 790 188, 880 198, 1000 192"/>
+  </g>
+  <path fill="#e0e9d7" d="M0 206 L1000 200 L1000 560 L0 560 Z"/>
+  <g fill="#3f6b52">
+    <path d="M8 206 l15 -54 l15 54 z"/><path d="M40 206 l12 -44 l12 44 z"/>
+    <path d="M954 206 l15 -54 l15 54 z"/>
+  </g>
+
+  <!-- 農道（左から右へ） -->
+  <path d="M0 470 C 180 470, 300 448, 430 404 C 520 374, 580 344, 660 318"
+        stroke="#c9c0a4" stroke-width="54" fill="none" stroke-linecap="round"/>
+  <path d="M0 470 C 180 470, 300 448, 430 404 C 520 374, 580 344, 660 318"
+        stroke="#e0d9c2" stroke-width="8" fill="none" stroke-dasharray="20 22"/>
+
+  <!-- 左端：稲の田と実家 -->
+  <g>
+    <path fill="#9ccb69" d="M0 300 L188 292 L182 386 L0 396 Z"/>
+    <g stroke="#659245" stroke-width="5" fill="none" opacity="0.85">
+      <path d="M0 318 L186 310"/><path d="M0 342 L184 334"/><path d="M0 368 L182 360"/>
+    </g>
+    <path d="M108 292 L182 244 L256 292 Z" fill="#6f7c82"/>
+    <path d="M122 292 L182 252 L242 292 Z" fill="#8b979b"/>
+    <rect x="122" y="292" width="120" height="72" fill="#e9e3d3" stroke="#bdb49f" stroke-width="4"/>
+    <rect x="140" y="308" width="40" height="46" fill="#4e5a5f" stroke="#948a72" stroke-width="3"/>
+    <rect x="192" y="308" width="36" height="46" fill="#4e5a5f" stroke="#948a72" stroke-width="3"/>
+    <rect x="112" y="364" width="140" height="16" fill="#c9a877" stroke="#a4854f" stroke-width="3"/>
+  </g>
+
+  <!-- 区間1：親から聞き取る -->
+  <g>
+    <circle cx="150" cy="416" r="20" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M130 414 A20 20 0 0 1 170 414 Z" fill="#8c8e88"/>
+    <path d="M134 438 L166 438 L174 484 L126 484 Z" fill="#7d9a6e"/>
+    <path d="M166 448 L206 430" stroke="#7d9a6e" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="252" cy="410" r="20" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M232 408 A20 20 0 0 1 272 408 Z" fill="#4a4038"/>
+    <path d="M236 432 L268 432 L276 480 L228 480 Z" fill="#3f6f86"/>
+    <rect x="262" y="436" width="54" height="40" rx="4" fill="#ffffff" stroke="#8a949a" stroke-width="3"/>
+    <g stroke="#b7c0c5" stroke-width="3" fill="none">
+      <path d="M272 448 L306 448 M272 458 L306 458 M272 468 L294 468"/>
+    </g>
+    <rect x="60" y="502" width="264" height="34" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="192" y="525" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">名前と地番と、始まった年</text>
+  </g>
+
+  <!-- 区間2：名寄帳と通帳を突き合わせる -->
+  <g>
+    <rect x="356" y="404" width="248" height="88" rx="6" fill="#b98f5d" stroke="#8f6b3f" stroke-width="4" transform="rotate(-9 480 448)"/>
+    <g transform="rotate(-9 480 448)">
+      <rect x="372" y="396" width="102" height="82" rx="4" fill="#f6f2e4" stroke="#a89a7c" stroke-width="4"/>
+      <g stroke="#c3b89c" stroke-width="3" fill="none">
+        <path d="M384 412 L462 412 M384 428 L462 428 M384 444 L462 444 M384 460 L440 460"/>
+        <path d="M424 396 L424 478"/>
+      </g>
+      <rect x="490" y="410" width="98" height="60" rx="4" fill="#3f6f86" stroke="#2c5468" stroke-width="4"/>
+      <rect x="500" y="422" width="58" height="12" fill="#cfe0e8"/>
+      <rect x="500" y="442" width="44" height="10" fill="#8fb2c4"/>
+      <path d="M474 436 L490 436" stroke="#c0563c" stroke-width="6"/>
+      <path d="M484 428 L494 436 L484 444 Z" fill="#c0563c"/>
+    </g>
+    <rect x="344" y="512" width="272" height="34" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="480" y="535" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">筆と入金を突き合わせる</text>
+  </g>
+
+  <!-- 三方向の分かれ道 -->
+  <g fill="none" stroke="#c9c0a4" stroke-width="34" stroke-linecap="round">
+    <path d="M660 318 C 740 292, 810 256, 900 234"/>
+    <path d="M660 318 C 748 320, 820 328, 906 336"/>
+    <path d="M660 318 C 736 344, 800 396, 880 438"/>
+  </g>
+
+  <!-- 上の道：役場の窓口 -->
+  <g>
+    <rect x="836" y="176" width="140" height="66" fill="#eef0ec" stroke="#a8b0ac" stroke-width="4"/>
+    <path d="M824 176 L906 138 L988 176 Z" fill="#7f8b90"/>
+    <rect x="852" y="196" width="46" height="34" fill="#b6d3e0" stroke="#8aa8b6" stroke-width="3"/>
+    <rect x="914" y="196" width="46" height="34" fill="#b6d3e0" stroke="#8aa8b6" stroke-width="3"/>
+    <rect x="856" y="242" width="140" height="30" rx="6" fill="#3e6b55"/>
+    <text x="926" y="263" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">許可の記録を照会</text>
+  </g>
+
+  <!-- 中の道：借り手の家 -->
+  <g>
+    <path d="M780 344 L840 306 L900 344 Z" fill="#6f7c82"/>
+    <rect x="790" y="344" width="100" height="60" fill="#e9e3d3" stroke="#bdb49f" stroke-width="4"/>
+    <rect x="806" y="358" width="32" height="34" fill="#4e5a5f" stroke="#948a72" stroke-width="3"/>
+    <rect x="848" y="358" width="28" height="34" fill="#b9ac91" stroke="#948a72" stroke-width="3"/>
+    <rect x="908" y="322" width="60" height="76" rx="4" fill="#ffffff" stroke="#8a949a" stroke-width="4"/>
+    <g stroke="#c6ced2" stroke-width="4" fill="none">
+      <path d="M920 340 L956 340 M920 354 L956 354 M920 368 L944 368"/>
+    </g>
+    <rect x="924" y="374" width="32" height="18" rx="3" fill="#fdf6e6" stroke="#c0563c" stroke-width="3"/>
+    <rect x="774" y="410" width="196" height="30" rx="6" fill="#3e6b55"/>
+    <text x="872" y="431" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">書面にして残す</text>
+  </g>
+
+  <!-- 下の道：掲示された目標地図 -->
+  <g>
+    <path d="M700 540 L700 470 M816 540 L816 470" stroke="#9aa39f" stroke-width="10" fill="none"/>
+    <rect x="672" y="446" width="172" height="94" rx="5" fill="#f6f2e4" stroke="#a89a7c" stroke-width="4"/>
+    <g fill="#cfe2bd" stroke="#8fae74" stroke-width="3">
+      <rect x="686" y="460" width="52" height="34"/><rect x="746" y="460" width="42" height="34"/>
+      <rect x="686" y="502" width="42" height="26"/><rect x="736" y="502" width="52" height="26"/>
+    </g>
+    <rect x="796" y="460" width="34" height="68" fill="#e3ecd8" stroke="#8fae74" stroke-width="3"/>
+    <g fill="#c0563c">
+      <circle cx="712" cy="477" r="6"/><circle cx="767" cy="477" r="6"/><circle cx="762" cy="515" r="6"/>
+    </g>
+    <rect x="666" y="540" width="184" height="0.1" fill="none"/>
+    <rect x="856" y="470" width="140" height="30" rx="6" fill="#3e6b55"/>
+    <text x="926" y="491" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">10年後の耕作者</text>
+  </g>
+
+  <rect x="600" y="228" width="200" height="34" rx="7" fill="#ffffff" stroke="#c0563c" stroke-width="3"/>
+  <text x="700" y="251" font-family="sans-serif" font-size="17" font-weight="bold" fill="#c0563c" text-anchor="middle">分かれ道は三つ目</text>
+</svg>
