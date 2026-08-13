@@ -2371,13 +2371,14 @@
   },
   {
     "id": 70,
-    "title": "森町の国民健康保険料を産前産後に確認する｜対象期間と届出資料を整理",
+    "title": "森町の産前産後国民健康保険税免除｜単胎・多胎の対象月と届出を一件表にする",
     "slug": "national-health-insurance-prenatal-postnatal-reduction",
     "category": "健康",
-    "search_intent": "国保加入者が出産予定または出産したとき、産前産後期間の保険料負担軽減と届出の要否を知りたい",
+    "search_intent": "森町国保へ加入する出産予定者が、単胎・多胎別の免除対象月、届出資料、受付結果、税額通知の反映を一件表で確認したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/index.html",
-      "https://www.mhlw.go.jp/stf/newpage_36099.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/5236.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/2/1/742.html",
+      "https://www.mhlw.go.jp/content/11908000/001076365.pdf"
     ],
     "risk": "medium",
     "decision": "CREATE",
