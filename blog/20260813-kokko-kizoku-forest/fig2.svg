@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kk2Title kk2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="kk2Title">実家の山について確かめる順番を、一本の林道と三つの分かれ道として描いたイラスト</title>
+  <desc id="kk2Desc">左端に杉林の斜面と瓦屋根の実家があり、そこから右へ林道が伸びます。最初の区間では課税明細と名寄帳を開き、山林の地番と地積を書き出しています。次の区間では森林計画図を広げ、現地の尾根と谷に照らし合わせています。三つ目の地点で道が三方向に分かれ、上の道は法務局の建物へ続いて「一筆14,000円・事前相談」の札が、真ん中の道は境界杭を打つ二人へ続いて「境界が示せるか」の札が、下の道は役場の林政の窓口へ続いて「取得から90日以内の届出」の札が立っています。奥には段になった茶畑と杉林、遠州の山並みが広がります。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="kk2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3daea"/><stop offset="1" stop-color="#ebf2e6"/>
+    </linearGradient>
+    <linearGradient id="kk2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fadbe"/><stop offset="1" stop-color="#bacfd5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="160" fill="url(#kk2Sky)"/>
+  <path fill="url(#kk2Far)" d="M0 102 L96 48 L200 100 L312 40 L426 100 L540 38 L654 100 L766 48 L874 100 L1000 64 L1000 148 L0 148 Z"/>
+  <path fill="#7fae57" d="M0 162 C 240 152, 460 176, 690 164 C 790 158, 880 168, 1000 162 L1000 200 L0 206 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 172 C 240 162, 460 186, 690 174 C 790 168, 880 178, 1000 172"/>
+    <path d="M0 188 C 240 178, 460 202, 690 190 C 790 184, 880 194, 1000 188"/>
+  </g>
+  <path fill="#e0e9d7" d="M0 202 L1000 196 L1000 560 L0 560 Z"/>
+
+  <!-- 林道 -->
+  <path d="M0 480 C 170 480, 290 458, 420 414 C 510 384, 570 352, 650 326"
+        stroke="#c9c0a4" stroke-width="52" fill="none" stroke-linecap="round"/>
+  <path d="M0 480 C 170 480, 290 458, 420 414 C 510 384, 570 352, 650 326"
+        stroke="#e0d9c2" stroke-width="8" fill="none" stroke-dasharray="20 22"/>
+
+  <!-- 左端：杉林の斜面と実家 -->
+  <g>
+    <path fill="#7d9f68" d="M0 206 L210 200 L200 384 L0 396 Z"/>
+    <g fill="#3f6b52">
+      <path d="M14 336 l20 -80 l20 80 z"/><path d="M70 328 l18 -72 l18 72 z"/>
+      <path d="M124 342 l20 -80 l20 80 z"/><path d="M40 268 l16 -64 l16 64 z"/>
+      <path d="M156 274 l16 -64 l16 64 z"/>
+    </g>
+    <path d="M96 300 L164 258 L232 300 Z" fill="#6f7c82"/>
+    <path d="M110 300 L164 268 L218 300 Z" fill="#8b979b"/>
+    <rect x="110" y="300" width="108" height="64" fill="#e9e3d3" stroke="#bdb49f" stroke-width="4"/>
+    <rect x="126" y="314" width="34" height="40" fill="#4e5a5f" stroke="#948a72" stroke-width="3"/>
+    <rect x="172" y="314" width="32" height="40" fill="#4e5a5f" stroke="#948a72" stroke-width="3"/>
+  </g>
+
+  <!-- 区間1：課税明細と名寄帳 -->
+  <g>
+    <rect x="24" y="410" width="240" height="76" rx="6" fill="#b98f5d" stroke="#8f6b3f" stroke-width="4"/>
+    <rect x="40" y="398" width="104" height="80" rx="4" fill="#f6f2e4" stroke="#a89a7c" stroke-width="4"/>
+    <g stroke="#c3b89c" stroke-width="3" fill="none">
+      <path d="M52 414 L132 414 M52 430 L132 430 M52 446 L132 446 M52 462 L112 462"/>
+      <path d="M92 398 L92 478"/>
+    </g>
+    <rect x="156" y="404" width="98" height="72" rx="4" fill="#ffffff" stroke="#8a949a" stroke-width="4"/>
+    <rect x="168" y="416" width="60" height="12" fill="#dfe6e9"/>
+    <g stroke="#c6ced2" stroke-width="4" fill="none">
+      <path d="M168 440 L242 440 M168 454 L242 454 M168 466 L220 466"/>
+    </g>
+    <rect x="204" y="432" width="42" height="18" rx="3" fill="#fdf6e6" stroke="#c0563c" stroke-width="3"/>
+    <rect x="14" y="500" width="268" height="34" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="148" y="523" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">山林の地番と地積を数える</text>
+  </g>
+
+  <!-- 区間2：森林計画図を現地に照らす -->
+  <g>
+    <rect x="316" y="356" width="212" height="132" rx="5" fill="#f2f6ec" stroke="#8fae74" stroke-width="4" transform="rotate(-7 422 422)"/>
+    <g transform="rotate(-7 422 422)">
+      <path d="M330 470 C 372 420, 402 400, 442 396 C 480 392, 506 410, 516 442"
+            stroke="#8fae74" stroke-width="4" fill="none"/>
+      <path d="M330 432 C 380 396, 420 378, 468 374" stroke="#b5cba4" stroke-width="4" fill="none"/>
+      <g fill="#cfe2bd" stroke="#8fae74" stroke-width="3">
+        <path d="M340 376 L400 370 L412 404 L346 410 Z"/>
+        <path d="M424 368 L500 364 L508 396 L432 402 Z"/>
+      </g>
+      <path d="M406 366 L418 490" stroke="#c0563c" stroke-width="5" fill="none"/>
+      <g fill="#c0563c">
+        <circle cx="406" cy="380" r="6"/><circle cx="412" cy="440" r="6"/><circle cx="417" cy="480" r="6"/>
+      </g>
+    </g>
+    <!-- 図面を見る二人 -->
+    <circle cx="300" cy="396" r="19" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M281 394 A19 19 0 0 1 319 394 Z" fill="#8c8e88"/>
+    <path d="M285 418 L315 418 L322 462 L278 462 Z" fill="#7d9a6e"/>
+    <circle cx="556" cy="378" r="19" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M537 376 A19 19 0 0 1 575 376 Z" fill="#4a4038"/>
+    <path d="M541 400 L571 400 L578 444 L534 444 Z" fill="#3f6f86"/>
+    <rect x="300" y="502" width="292" height="34" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+    <text x="446" y="525" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">森林計画図と現地を照らす</text>
+  </g>
+
+  <!-- 三方向の分かれ道 -->
+  <g fill="none" stroke="#c9c0a4" stroke-width="32" stroke-linecap="round">
+    <path d="M650 326 C 726 296, 800 258, 886 236"/>
+    <path d="M650 326 C 736 328, 806 336, 890 344"/>
+    <path d="M650 326 C 722 352, 786 400, 862 442"/>
+  </g>
+
+  <!-- 上：法務局 -->
+  <g>
+    <rect x="824" y="180" width="150" height="64" fill="#eef0ec" stroke="#a8b0ac" stroke-width="4"/>
+    <path d="M812 180 L899 142 L986 180 Z" fill="#7f8b90"/>
+    <g fill="#b6d3e0" stroke="#8aa8b6" stroke-width="3">
+      <rect x="840" y="198" width="40" height="32"/><rect x="898" y="198" width="40" height="32"/>
+    </g>
+    <rect x="768" y="246" width="228" height="52" rx="6" fill="#3e6b55"/>
+    <text x="882" y="268" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">一筆14,000円</text>
+    <text x="882" y="288" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">事前相談を先に</text>
+  </g>
+
+  <!-- 中：境界杭を打つ二人 -->
+  <g>
+    <circle cx="768" cy="336" r="18" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M750 334 A18 18 0 0 1 786 334 Z" fill="#8c8e88"/>
+    <path d="M754 356 L782 356 L788 396 L748 396 Z" fill="#7d9a6e"/>
+    <path d="M782 366 L812 350" stroke="#7d9a6e" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <circle cx="880" cy="330" r="18" fill="#e3c39d" stroke="#b9926b" stroke-width="3"/>
+    <path d="M862 328 A18 18 0 0 1 898 328 Z" fill="#4a4038"/>
+    <path d="M866 350 L894 350 L900 392 L860 392 Z" fill="#3f6f86"/>
+    <rect x="820" y="352" width="20" height="46" rx="3" fill="#f6f4ec" stroke="#a89a7c" stroke-width="4"/>
+    <path d="M823 368 L837 368" stroke="#c0563c" stroke-width="6"/>
+    <rect x="806" y="404" width="180" height="30" rx="6" fill="#3e6b55"/>
+    <text x="896" y="425" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">境界が示せるか</text>
+  </g>
+
+  <!-- 下：役場の林政の窓口 -->
+  <g>
+    <rect x="656" y="452" width="164" height="70" fill="#eef0ec" stroke="#a8b0ac" stroke-width="4"/>
+    <path d="M644 452 L738 418 L832 452 Z" fill="#7f8b90"/>
+    <rect x="674" y="472" width="128" height="16" fill="#3e6b55"/>
+    <g fill="#b6d3e0" stroke="#8aa8b6" stroke-width="3">
+      <rect x="676" y="496" width="48" height="26"/><rect x="748" y="496" width="48" height="26"/>
+    </g>
+    <rect x="838" y="470" width="152" height="52" rx="6" fill="#3e6b55"/>
+    <text x="914" y="492" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">取得から90日</text>
+    <text x="914" y="512" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">以内の届出</text>
+  </g>
+
+  <rect x="576" y="232" width="200" height="34" rx="7" fill="#ffffff" stroke="#c0563c" stroke-width="3"/>
+  <text x="676" y="255" font-family="sans-serif" font-size="17" font-weight="bold" fill="#c0563c" text-anchor="middle">分かれ道は三つ目</text>
+</svg>

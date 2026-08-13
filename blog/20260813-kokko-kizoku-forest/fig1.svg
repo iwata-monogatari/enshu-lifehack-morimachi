@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kk1Title kk1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="kk1Title">境界の示せる杉の人工林と、示せない放置された斜面を並べて描いたイラスト</title>
+  <desc id="kk1Desc">奥に遠州の山並みと段になった茶畑、集落の家並みが広がります。左には等間隔に並んだ杉の人工林があり、幹に赤いテープが巻かれ、根元に白い境界杭が立っています。右には手入れされていない斜面が広がり、倒木と笹が茂って杭が見当たらず、右端には切り立った崖が描かれています。斜面の下には細い林道が通り、途中に行き止まりの標識が立っています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="kk1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3daea"/><stop offset="1" stop-color="#eaf1e5"/>
+    </linearGradient>
+    <linearGradient id="kk1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b6cbd2"/>
+    </linearGradient>
+    <linearGradient id="kk1Slope" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f9a5c"/><stop offset="1" stop-color="#8fb073"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="150" fill="url(#kk1Sky)"/>
+  <path fill="url(#kk1Far)" d="M0 96 L104 40 L212 94 L326 32 L444 94 L560 30 L676 94 L790 40 L898 94 L1000 58 L1000 142 L0 142 Z"/>
+  <path fill="#7fae57" d="M0 152 C 240 142, 460 168, 690 156 C 790 150, 880 160, 1000 154 L1000 186 L0 192 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 162 C 240 152, 460 178, 690 166 C 790 160, 880 170, 1000 164"/>
+    <path d="M0 176 C 240 166, 460 192, 690 180 C 790 174, 880 184, 1000 178"/>
+  </g>
+  <!-- 集落 -->
+  <g>
+    <g fill="#e9e3d3" stroke="#bdb49f" stroke-width="3">
+      <rect x="60" y="192" width="58" height="30"/><rect x="150" y="196" width="48" height="26"/>
+      <rect x="856" y="194" width="54" height="28"/>
+    </g>
+    <g fill="#7f8b90">
+      <path d="M52 192 L89 172 L126 192 Z"/><path d="M143 196 L174 180 L205 196 Z"/>
+      <path d="M848 194 L883 176 L918 194 Z"/>
+    </g>
+  </g>
+  <path fill="#dfe8d6" d="M0 222 L1000 216 L1000 560 L0 560 Z"/>
+
+  <!-- 左：手入れされた杉の人工林 -->
+  <path fill="url(#kk1Slope)" d="M0 226 L470 218 L458 440 L0 462 Z"/>
+  <g>
+    <g fill="#3f6b52">
+      <path d="M40 380 l26 -104 l26 104 z"/><path d="M110 372 l24 -98 l24 98 z"/>
+      <path d="M176 388 l26 -104 l26 104 z"/><path d="M248 376 l24 -96 l24 96 z"/>
+      <path d="M316 392 l26 -104 l26 104 z"/><path d="M388 380 l24 -98 l24 98 z"/>
+      <path d="M76 300 l22 -88 l22 88 z"/><path d="M212 302 l22 -88 l22 88 z"/>
+      <path d="M350 306 l22 -88 l22 88 z"/>
+    </g>
+    <g fill="#6b5238">
+      <rect x="62" y="378" width="9" height="26"/><rect x="130" y="370" width="9" height="26"/>
+      <rect x="198" y="386" width="9" height="26"/><rect x="268" y="374" width="9" height="26"/>
+      <rect x="338" y="390" width="9" height="26"/><rect x="408" y="378" width="9" height="26"/>
+    </g>
+    <!-- 赤いテープ -->
+    <g fill="#c8503a">
+      <rect x="59" y="384" width="15" height="8"/><rect x="127" y="376" width="15" height="8"/>
+      <rect x="195" y="392" width="15" height="8"/><rect x="265" y="380" width="15" height="8"/>
+      <rect x="335" y="396" width="15" height="8"/><rect x="405" y="384" width="15" height="8"/>
+    </g>
+  </g>
+  <!-- 境界杭 -->
+  <g>
+    <rect x="196" y="440" width="20" height="52" rx="3" fill="#f6f4ec" stroke="#a89a7c" stroke-width="4"/>
+    <path d="M199 458 L213 458" stroke="#c0563c" stroke-width="6"/>
+    <rect x="366" y="428" width="20" height="52" rx="3" fill="#f6f4ec" stroke="#a89a7c" stroke-width="4"/>
+    <path d="M369 446 L383 446" stroke="#c0563c" stroke-width="6"/>
+  </g>
+  <rect x="60" y="500" width="290" height="34" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+  <text x="205" y="523" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">ここまで、と言える山</text>
+
+  <!-- 右：放置された斜面 -->
+  <path fill="#7d9169" d="M480 218 L1000 214 L1000 452 L490 440 Z"/>
+  <g fill="#4b6b48">
+    <path d="M520 372 l22 -86 l22 86 z"/><path d="M600 388 l20 -78 l20 78 z"/>
+    <path d="M676 360 l24 -92 l24 92 z"/><path d="M760 386 l20 -78 l20 78 z"/>
+  </g>
+  <!-- 倒木 -->
+  <g stroke="#7a6247" stroke-width="13" fill="none" stroke-linecap="round">
+    <path d="M520 402 L668 372"/><path d="M596 424 L724 414"/>
+  </g>
+  <g stroke="#6b5238" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M614 380 L596 356 M648 374 L664 352"/>
+  </g>
+  <!-- 笹の茂み -->
+  <g stroke="#5f8a42" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M508 440 L516 404 M528 444 L534 410 M548 440 L556 406"/>
+    <path d="M700 438 L708 402 M722 442 L728 408 M744 438 L752 404"/>
+    <path d="M786 434 L794 400 M808 438 L814 404"/>
+  </g>
+  <!-- 崖 -->
+  <path fill="#a89a80" d="M866 268 L1000 258 L1000 448 L878 440 Z"/>
+  <g stroke="#8a7d64" stroke-width="5" fill="none">
+    <path d="M886 300 L1000 292 M880 344 L1000 336 M884 390 L1000 382"/>
+  </g>
+  <path d="M866 268 L878 440" stroke="#c0563c" stroke-width="6" fill="none"/>
+  <rect x="812" y="240" width="176" height="30" rx="6" fill="#c0563c"/>
+  <text x="900" y="261" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">勾配30度・高さ5m</text>
+
+  <!-- 林道と行き止まりの標識 -->
+  <path d="M0 496 C 200 470, 420 458, 640 452 C 760 448, 860 452, 1000 460"
+        stroke="#c9c0a4" stroke-width="40" fill="none"/>
+  <path d="M0 496 C 200 470, 420 458, 640 452 C 760 448, 860 452, 1000 460"
+        stroke="#e0d9c2" stroke-width="6" fill="none" stroke-dasharray="18 20"/>
+  <g>
+    <path d="M690 540 L690 476" stroke="#9aa39f" stroke-width="9" fill="none"/>
+    <rect x="612" y="480" width="156" height="34" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="3"/>
+    <text x="690" y="503" font-family="sans-serif" font-size="16" font-weight="bold" fill="#c0563c" text-anchor="middle">この先 行き止まり</text>
+  </g>
+  <rect x="500" y="524" width="304" height="0.1" fill="none"/>
+  <rect x="828" y="500" width="164" height="34" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+  <text x="910" y="523" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">言えない山</text>
+</svg>

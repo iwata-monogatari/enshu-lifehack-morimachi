@@ -1491,7 +1491,58 @@ def scene_tanbo_lease(d):
     band(d, ["作っているのは親ではない。", "紙は、どこにもない"], "森町ライフハック／農地・山林・茶畑")
 
 
+def scene_kokko_forest(d):
+    """境界杭の立つ杉林と、崖と倒木で境界の分からない斜面を並べた場面。"""
+    sky(d)
+    mountains(d)
+    d.polygon([(0, 288), (760, 280), (760, 322), (0, 332)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 296 + i * 12), (760, 288 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 326), (760, 316), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 左：手入れされた杉の人工林
+    d.polygon([(0, 322), (368, 314), (356, 470), (0, 486)], fill=(126, 166, 96))
+    for x, top in ((22, 250), (76, 262), (130, 246), (186, 264), (242, 250), (298, 266)):
+        d.polygon([(x, 400), (x + 24, top), (x + 48, 400)], fill=(63, 107, 82))
+        d.rectangle([x + 20, 398, x + 28, 424], fill=(107, 82, 56))
+        d.rectangle([x + 17, 404, x + 31, 412], fill=(200, 80, 58))
+    for x, top in ((48, 210), (160, 214), (272, 208)):
+        d.polygon([(x, 300), (x + 20, top), (x + 40, 300)], fill=(52, 92, 70))
+    # 境界杭
+    for x, y in ((116, 452), (272, 442)):
+        d.rectangle([x, y, x + 18, y + 46], fill=(246, 244, 236), outline=(168, 154, 124), width=4)
+        d.line([(x + 3, y + 16), (x + 15, y + 16)], fill=(192, 86, 60), width=6)
+    # 右：放置された斜面
+    d.polygon([(388, 314), (760, 308), (760, 456), (396, 466)], fill=(125, 145, 105))
+    for x, top in ((408, 268), (472, 282), (540, 262)):
+        d.polygon([(x, 386), (x + 20, top), (x + 40, 386)], fill=(75, 107, 72))
+    # 倒木
+    d.line([(404, 412), (528, 388)], fill=(122, 98, 71), width=11)
+    d.line([(452, 434), (566, 424)], fill=(122, 98, 71), width=11)
+    d.line([(478, 392), (462, 370)], fill=(107, 82, 56), width=5)
+    d.line([(508, 388), (524, 366)], fill=(107, 82, 56), width=5)
+    # 笹
+    for x in (398, 418, 438, 556, 578, 600, 622):
+        d.line([(x, 462), (x + 7, 428)], fill=(95, 138, 66), width=5)
+    # 崖
+    d.polygon([(650, 320), (760, 312), (760, 462), (660, 456)], fill=(168, 154, 128))
+    for y in (352, 390, 428):
+        d.line([(664, y), (760, y - 6)], fill=(138, 125, 100), width=5)
+    d.line([(650, 320), (660, 456)], fill=(192, 86, 60), width=6)
+    # 林道と行き止まりの標識
+    d.polygon([(0, 512), (760, 480), (760, 522), (0, 556)], fill=(201, 192, 164))
+    for i in range(6):
+        x = 40 + i * 130
+        d.line([(x, 528 - i * 5), (x + 46, 526 - i * 5)], fill=(224, 217, 194), width=6)
+    d.line([(560, 560), (560, 500)], fill=(154, 163, 159), width=8)
+    d.rectangle([466, 464, 668, 500], fill=(255, 255, 255), outline=(192, 86, 60), width=3)
+    d.text((480, 472), "この先 行き止まり", font=ImageFont.truetype(FONT_BOLD, 19), fill=(192, 86, 60))
+    d.rectangle([20, 452, 242, 488], fill=(255, 255, 255), outline=(62, 107, 85), width=3)
+    d.text((34, 460), "ここまで、と言える", font=ImageFont.truetype(FONT_BOLD, 19), fill=(31, 62, 82))
+    band(d, ["国が見ているのは", "木の値段ではなく境界"], "森町ライフハック／農地・山林・茶畑")
+
+
 SCENES = {
+    "20260813-kokko-kizoku-forest": scene_kokko_forest,
     "20260813-tanbo-lease-contract": scene_tanbo_lease,
     "20260812-amenomiya-nagi-garden-tree": scene_nagi,
     "20260812-ishimatsu-grave-rebuilt": scene_ishimatsu,
