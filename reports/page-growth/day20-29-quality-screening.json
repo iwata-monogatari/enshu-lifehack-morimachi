@@ -1,0 +1,100 @@
+{
+  "executed_at_jst": "2026-08-13T12:59:15+09:00",
+  "scope": "Day20-Day29 only",
+  "starting_commit": "ed22e218886314bf763ce456f3011c24814be2c5",
+  "official_sitemap_pages": 2765,
+  "target_pages": 5530,
+  "site_sitemap_pages": 743,
+  "page_gap": 4787,
+  "goal_page_ratio": 0.134358,
+  "total_visible_chars": 3861583,
+  "average_visible_chars": 5197,
+  "measured_baseline_average_chars": 4883,
+  "reference_average_chars": 5030,
+  "exact_duplicate_text_groups": 0,
+  "structural_error_count": 0,
+  "quality_error_count": 0,
+  "published_pages_in_scope": 0,
+  "decision": "quality_hold",
+  "days": [
+    {
+      "day": 20,
+      "candidate_id": 58,
+      "candidate": "入院前の限度額確認",
+      "result": "no_publish",
+      "reason": "Day18の高額療養費台帳がマイナ保険証、限度額情報、入院外来、申請書まで扱っており、独立成果物を作らない限り検索目的が重複する"
+    },
+    {
+      "day": 21,
+      "candidate_id": 60,
+      "candidate": "国民健康保険の葬祭費",
+      "result": "no_publish",
+      "reason": "現行候補資料では葬祭費5万円の町案内以外に、申請者と必要書類を直接支える内容の異なる森町公式資料が2件そろわない"
+    },
+    {
+      "day": 22,
+      "candidate_id": 61,
+      "candidate": "国保資格情報の確認",
+      "result": "no_publish",
+      "reason": "国保総合案内と既存の出生後保険加入記事が資格確認書・資格情報のお知らせ・マイナ保険証の利用場面を既に扱い、現候補は入口案内の再編になる"
+    },
+    {
+      "day": 23,
+      "candidate_id": 64,
+      "candidate": "国保療養費の立替払い",
+      "result": "no_publish",
+      "reason": "森町公式の療養費本文だけでは、治療用装具や柔道整復等を含む候補全体の事実12件を主題一致の一次情報で構成できない"
+    },
+    {
+      "day": 24,
+      "candidate_id": 66,
+      "candidate": "肝炎ウイルス検診",
+      "result": "no_publish",
+      "reason": "年度別対象、受診券、過去受診歴、実施医療機関を同時に確定できる当年度の森町一次資料が不足し、期限情報の推測を避けるため保留した"
+    },
+    {
+      "day": 25,
+      "candidate_id": 69,
+      "candidate": "医療費控除の申告前整理",
+      "result": "no_publish",
+      "reason": "制度の中心根拠は国税庁にあり、通知・領収書・交通費という成果物を直接支える内容の異なる森町公式資料2件を満たさない"
+    },
+    {
+      "day": 26,
+      "candidate_id": 70,
+      "candidate": "国保税の産前産後軽減",
+      "result": "no_publish",
+      "reason": "Day16の出生後保険加入・医療費助成記事と妊娠出産期の届出資料が隣接し、現候補の一般案内では独立検索成果物まで絞り切れない"
+    },
+    {
+      "day": 27,
+      "candidate_id": 73,
+      "candidate": "在宅避難の条件確認",
+      "result": "no_publish",
+      "reason": "既存の森町防災地図、家族書込みハザードマップ、避難所・経路記事が自宅安全、備蓄、情報取得を既に扱い、主目的が重複する"
+    },
+    {
+      "day": 28,
+      "candidate_id": 76,
+      "candidate": "ペット同行避難",
+      "result": "no_publish",
+      "reason": "環境省資料は強いが、避難先でのペット受入条件を直接示す森町公式資料が現候補に2件なく、町内運用を全国一般論から作らないため保留した"
+    },
+    {
+      "day": 29,
+      "candidate_id": 80,
+      "candidate": "住宅用火災警報器の点検",
+      "result": "no_publish",
+      "reason": "消防庁の設置・点検情報に対し、森町固有の設置場所と交換確認を別内容で支える公式資料が不足し、町内固有ページ基準を満たさない"
+    }
+  ],
+  "audits": {
+    "phase4_selected_pages": "PASS",
+    "phase4_readability": "300/300 PASS",
+    "official_source_catalog": "2726/2726 fetched; PASS",
+    "preflight": "PASS",
+    "missing_html_count": 0,
+    "noindex_in_sitemap_count": 0
+  },
+  "next_day_started": false
+}
