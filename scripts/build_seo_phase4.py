@@ -475,6 +475,11 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="single-multiple-exemption-months"><g fill="#fff" stroke="{dark}" stroke-width="7"><rect x="210" y="235" width="120" height="78" rx="12"/><rect x="340" y="235" width="120" height="78" rx="12"/><rect x="470" y="235" width="120" height="78" rx="12"/><rect x="600" y="235" width="120" height="78" rx="12"/></g><g fill="{pale}" stroke="{accent}" stroke-width="7"><rect x="80" y="375" width="120" height="78" rx="12"/><rect x="210" y="375" width="120" height="78" rx="12"/><rect x="340" y="375" width="120" height="78" rx="12"/><rect x="470" y="375" width="120" height="78" rx="12"/><rect x="600" y="375" width="120" height="78" rx="12"/><rect x="730" y="375" width="120" height="78" rx="12"/></g><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="140" y="285">単胎</text><text x="140" y="425">多胎</text><text x="400" y="345">予定月を中心に月単位で確認</text></g></g>',
             f'<g data-scene="notification-document-tax-notice-route"><rect x="110" y="250" width="190" height="155" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="405" y="250" width="190" height="155" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="700" y="250" width="190" height="155" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M300 327h105M595 327h105" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="205" y="300">本人確認</text><text x="205" y="350">母子健康手帳</text><text x="500" y="300">届出・受付</text><text x="500" y="350">届出不要確認</text><text x="795" y="300">税額通知</text><text x="795" y="350">対象月照合</text></g></g>',
         ],
+        60: [
+            f'<g data-scene="funeral-benefit-claim-ledger"><rect x="135" y="235" width="730" height="245" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M135 310h730M330 235v245M525 235v245M700 235v245" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="232" y="280">亡くなった人</text><text x="427" y="280">葬祭を行った人</text><text x="612" y="280">請求書</text><text x="782" y="280">受付・入金</text><text x="232" y="390">国保資格</text><text x="427" y="390">請求者確認</text><text x="612" y="390">様式1の2</text><text x="782" y="390">状態更新</text></g></g>',
+            f'<g data-scene="funeral-performer-claimant-roles"><circle cx="500" cy="335" r="62" fill="{pale}" stroke="{dark}" stroke-width="10"/><rect x="105" y="245" width="195" height="105" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="105" y="395" width="195" height="105" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="700" y="245" width="195" height="105" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="700" y="395" width="195" height="105" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M300 300 438 330M300 445 450 370M562 330 700 300M550 370 700 445" stroke="{accent}" stroke-width="11"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="202" y="310">葬祭を行った人</text><text x="202" y="460">問い合わせる人</text><text x="500" y="342">町へ確認</text><text x="797" y="310">請求書の人</text><text x="797" y="460">口座名義人</text></g></g>',
+            f'<g data-scene="claim-receipt-payment-stages"><rect x="95" y="270" width="140" height="115" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="260" y="270" width="140" height="115" rx="14" fill="{pale}" stroke="{dark}" stroke-width="8"/><rect x="425" y="270" width="140" height="115" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="590" y="270" width="140" height="115" rx="14" fill="{pale}" stroke="{dark}" stroke-width="8"/><rect x="755" y="270" width="140" height="115" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><path d="M235 327h25M400 327h25M565 327h25M730 327h25" stroke="{accent}" stroke-width="12"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="165" y="335">様式取得</text><text x="330" y="335">資料確認</text><text x="495" y="335">提出</text><text x="660" y="335">受付・決定</text><text x="825" y="335">入金確認</text></g></g>',
+        ],
         65: [
             f'<g data-scene="third-party-accident-four-contact-lines"><path d="M120 455 290 245l120 155 100-180 120 180 115-140 135 195Z" fill="{pale}" stroke="{dark}" stroke-width="9"/><circle cx="500" cy="340" r="54" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M475 330h50m-25-25v50M455 375l-42 38m132-38 42 38M455 305l-45-45m135 45 45-45" stroke="{accent}" stroke-width="11"/><rect x="155" y="210" width="145" height="75" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="700" y="210" width="145" height="75" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="227" y="257">警察</text><text x="772" y="257">森町国保</text><text x="500" y="430">事故地点</text></g></g>',
             f'<g data-scene="accident-police-town-document-desk"><path d="M140 420h720M210 420V275h170v145M620 420V275h170v145" fill="none" stroke="{dark}" stroke-width="10"/><path d="M210 275l85-70 85 70M620 275l85-70 85 70" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="405" y="235" width="190" height="225" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M435 285h130M435 330h130M435 375h105" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="295" y="455">警察</text><text x="500" y="500">傷病届</text><text x="705" y="455">森町役場</text></g></g>',
@@ -709,6 +714,7 @@ def svg(row: dict, index: int) -> str:
     special_labels = {
         80: ["火災警報器・部屋別台帳", "火災警報器・音と製造年", "火災警報器・交換と支援"],
         70: ["国保税・産前産後の対象月", "国保税・単胎と多胎", "国保税・届出から通知"],
+        60: ["国保葬祭費・一件表", "国保葬祭費・役割を分ける", "国保葬祭費・受付から入金"],
         65: ["事故後の四本線", "届出書を役割別に", "示談前に町へ相談"],
         57: ["高額療養費・暦月台帳", "年齢別の計算順", "申請と支給月をつなぐ"],
         20: ["町届出と滅失登記へ", "壊した棟と残す棟", "翌年度明細まで確認"],
@@ -753,6 +759,11 @@ def svg(row: dict, index: int) -> str:
             "出産予定月、単胎四か月、多胎六か月、届出資料、税額通知を一件表で結ぶ図",
             "単胎四か月と多胎六か月の免除対象月を上下の月札で分ける図",
             "本人確認書類と母子健康手帳から届出、受付、税額通知の照合へ進む図",
+        ],
+        60: [
+            "亡くなった人、葬祭を行った人、請求書、受付、入金を一枚で分ける図",
+            "葬祭を行った人、問い合わせる人、請求者、口座名義人を別欄で確認する図",
+            "様式取得、資料確認、提出、受付、決定、入金を段階別に追う図",
         ],
         65: ["事故地点から治療、警察、森町国保、相手方保険へ連絡線を分ける", "警察、医療機関、森町役場と第三者行為届の役割を照合する", "治療と国保届出から相手方請求へ進む道に示談前相談の停止線を置く"],
         57: ["暦月ごとに受診者、医療機関、入院・外来を別欄へ分ける高額療養費台帳", "70歳未満と70歳以上75歳未満で異なる計算順を左右に分ける", "申請書到着から決定通知までを過去12か月の支給月へつなぐ"],
@@ -1013,6 +1024,10 @@ def editorial_blocks_curated(row: dict) -> str:
         70: {
             2: ("fig1.svg", "単胎四か月と多胎六か月の国民健康保険税免除対象月を上下に並べた図", "出産予定月または出産月を中心に、単胎は前月から四か月、多胎は三か月前から六か月を月単位で分けます。"),
             8: ("fig2.svg", "本人確認書類と母子健康手帳から届出受付と税額通知の照合へ進む図", "届出資料、提出または郵送、受付・届出不要の確認、税額通知の対象月照合を別の工程として残します。"),
+        },
+        60: {
+            2: ("fig1.svg", "葬祭を行った人、問い合わせる人、請求者、口座名義人を別欄で確認する図", "家族内の立場だけで請求者を決めず、森町の確認結果を役割別に残します。"),
+            8: ("fig2.svg", "葬祭費請求書の取得から資料確認、提出、受付、決定、入金へ進む図", "請求書を提出した時点で完了にせず、受付結果と入金まで段階別に追います。"),
         },
         65: {
             4: ("fig1.svg", "事故地点・警察・医療機関・森町役場と第三者行為の提出書類を役割別に照合する図", "警察への届出と森町国保への提出を分け、各書類を事故番号へ結びます。"),

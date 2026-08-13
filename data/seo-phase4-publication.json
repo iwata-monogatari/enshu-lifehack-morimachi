@@ -1064,20 +1064,20 @@
   {
     "id": 60,
     "url": "/life/health-medical/national-health-insurance-funeral-benefit/",
-    "title": "森町の国民健康保険の葬祭費｜亡くなった後の申請者と必要書類",
+    "title": "森町の国民健康保険葬祭費｜葬祭を行った人・請求書・受付結果を一件表にする",
     "category": "健康",
-    "search_intent": "国保加入者が亡くなったとき、葬祭費を誰がどこへ申請するか知りたい",
+    "search_intent": "森町国保加入者の死亡後、葬祭を行った人、五万円、様式第一の二、必要資料の窓口回答、受付、入金を一件表で確認したい",
     "search_aliases": [
-      "森町の国民健康保険の葬祭費",
-      "国保加入者が亡くなったとき、葬祭費を誰がどこへ申請するか知りたい"
+      "森町の国民健康保険葬祭費",
+      "森町国保加入者の死亡後、葬祭を行った人、五万円、様式第一の二、必要資料の窓口回答、受付、入金を一件表で確認したい"
     ],
-    "editorial_chars": 6613,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6344,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 61,

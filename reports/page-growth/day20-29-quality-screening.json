@@ -1,20 +1,20 @@
 {
-  "executed_at_jst": "2026-08-13T12:59:15+09:00",
+  "executed_at_jst": "2026-08-13T13:43:46+09:00",
   "scope": "Day20-Day29 only",
   "starting_commit": "ed22e218886314bf763ce456f3011c24814be2c5",
   "official_sitemap_pages": 2765,
   "target_pages": 5530,
-  "site_sitemap_pages": 744,
-  "page_gap": 4786,
-  "goal_page_ratio": 0.134539,
-  "total_visible_chars": 3868093,
-  "average_visible_chars": 5199,
+  "site_sitemap_pages": 746,
+  "page_gap": 4784,
+  "goal_page_ratio": 0.134901,
+  "total_visible_chars": 3882199,
+  "average_visible_chars": 5204,
   "measured_baseline_average_chars": 4883,
   "reference_average_chars": 5030,
   "exact_duplicate_text_groups": 0,
   "structural_error_count": 0,
   "quality_error_count": 0,
-  "published_pages_in_scope": 1,
+  "published_pages_in_scope": 3,
   "decision": "partial_release_after_research_and_rewrite",
   "days": [
     {
@@ -28,8 +28,8 @@
       "day": 21,
       "candidate_id": 60,
       "candidate": "国民健康保険の葬祭費",
-      "result": "no_publish",
-      "reason": "現行候補資料では葬祭費5万円の町案内以外に、申請者と必要書類を直接支える内容の異なる森町公式資料が2件そろわない"
+      "result": "published_after_research_and_rewrite",
+      "reason": "森町のお悔やみ案内、国民健康保険案内、葬祭費請求書を掲載する押印不要一覧を再確認し、国民健康保険法と条例参考例を追加。必要書類を推測せず、葬祭を行った人・五万円・様式第一の二・窓口回答・受付・入金の一件表へ全面改稿し、全ゲートに合格"
     },
     {
       "day": 22,
@@ -63,8 +63,8 @@
       "day": 26,
       "candidate_id": 70,
       "candidate": "国保税の産前産後軽減",
-      "result": "no_publish",
-      "reason": "Day16の出生後保険加入・医療費助成記事と妊娠出産期の届出資料が隣接し、現候補の一般案内では独立検索成果物まで絞り切れない"
+      "result": "published_after_research_and_rewrite",
+      "reason": "森町の産前産後免除専用案内、国保税総合案内、厚生労働省資料を再確認し、単胎四か月・多胎六か月、届出資料、受付、税額通知を一件表で照合する固有成果物へ全面改稿。全ゲートに合格"
     },
     {
       "day": 27,

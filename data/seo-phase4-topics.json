@@ -2068,13 +2068,15 @@
   },
   {
     "id": 60,
-    "title": "森町の国民健康保険の葬祭費｜亡くなった後の申請者と必要書類",
+    "title": "森町の国民健康保険葬祭費｜葬祭を行った人・請求書・受付結果を一件表にする",
     "slug": "national-health-insurance-funeral-benefit",
     "category": "健康",
-    "search_intent": "国保加入者が亡くなったとき、葬祭費を誰がどこへ申請するか知りたい",
+    "search_intent": "森町国保加入者の死亡後、葬祭を行った人、五万円、様式第一の二、必要資料の窓口回答、受付、入金を一件表で確認したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/index.html",
-      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/index.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/1830.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/528.html",
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/2/ouintoufuyouitiran.pdf",
+      "https://www.mhlw.go.jp/web/t_doc?dataId=84079000&dataType=0"
     ],
     "risk": "medium",
     "decision": "CREATE",
