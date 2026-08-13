@@ -480,6 +480,11 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="funeral-performer-claimant-roles"><circle cx="500" cy="335" r="62" fill="{pale}" stroke="{dark}" stroke-width="10"/><rect x="105" y="245" width="195" height="105" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="105" y="395" width="195" height="105" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="700" y="245" width="195" height="105" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="700" y="395" width="195" height="105" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M300 300 438 330M300 445 450 370M562 330 700 300M550 370 700 445" stroke="{accent}" stroke-width="11"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="202" y="310">葬祭を行った人</text><text x="202" y="460">問い合わせる人</text><text x="500" y="342">町へ確認</text><text x="797" y="310">請求書の人</text><text x="797" y="460">口座名義人</text></g></g>',
             f'<g data-scene="claim-receipt-payment-stages"><rect x="95" y="270" width="140" height="115" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="260" y="270" width="140" height="115" rx="14" fill="{pale}" stroke="{dark}" stroke-width="8"/><rect x="425" y="270" width="140" height="115" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="590" y="270" width="140" height="115" rx="14" fill="{pale}" stroke="{dark}" stroke-width="8"/><rect x="755" y="270" width="140" height="115" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><path d="M235 327h25M400 327h25M565 327h25M730 327h25" stroke="{accent}" stroke-width="12"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="165" y="335">様式取得</text><text x="330" y="335">資料確認</text><text x="495" y="335">提出</text><text x="660" y="335">受付・決定</text><text x="825" y="335">入金確認</text></g></g>',
         ],
+        64: [
+            f'<g data-scene="medical-expense-claim-packet"><rect x="105" y="235" width="790" height="250" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M105 315h790M300 235v250M500 235v250M700 235v250" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="202" y="285">支払理由</text><text x="400" y="285">専用証明</text><text x="600" y="285">資格・口座</text><text x="797" y="285">受付・決定</text><text x="202" y="405">一件を選ぶ</text><text x="400" y="405">資料名を照合</text><text x="600" y="405">共通欄</text><text x="797" y="405">状態更新</text></g></g>',
+            f'<g data-scene="five-payment-reason-document-branches"><rect x="405" y="210" width="190" height="95" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><g fill="#fff" stroke="{dark}" stroke-width="7"><rect x="55" y="385" width="155" height="85" rx="13"/><rect x="235" y="385" width="155" height="85" rx="13"/><rect x="415" y="385" width="155" height="85" rx="13"/><rect x="595" y="385" width="155" height="85" rx="13"/><rect x="775" y="385" width="155" height="85" rx="13"/></g><path d="M500 305v45M500 350H132v35M500 350H312v35M500 350v35M500 350h172v35M500 350h352v35" fill="none" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="15" font-weight="700" fill="{dark}" text-anchor="middle"><text x="500" y="268">全額支払の理由</text><text x="132" y="435">資格未提示</text><text x="312" y="435">柔道整復</text><text x="492" y="435">はり等</text><text x="672" y="435">治療用装具</text><text x="852" y="435">生血代</text></g></g>',
+            f'<g data-scene="receipt-review-payment-status-route"><g fill="#fff" stroke="{dark}" stroke-width="8"><rect x="70" y="280" width="145" height="115" rx="14"/><rect x="250" y="280" width="145" height="115" rx="14"/><rect x="430" y="280" width="145" height="115" rx="14"/><rect x="610" y="280" width="145" height="115" rx="14"/><rect x="790" y="280" width="145" height="115" rx="14"/></g><path d="M215 337h35M395 337h35M575 337h35M755 337h35" stroke="{accent}" stroke-width="12"/><g font-family="sans-serif" font-size="16" font-weight="700" fill="{dark}" text-anchor="middle"><text x="142" y="345">資料確認</text><text x="322" y="345">提出・受付</text><text x="502" y="345">追加照会</text><text x="682" y="345">支給決定</text><text x="862" y="345">入金照合</text></g></g>',
+        ],
         65: [
             f'<g data-scene="third-party-accident-four-contact-lines"><path d="M120 455 290 245l120 155 100-180 120 180 115-140 135 195Z" fill="{pale}" stroke="{dark}" stroke-width="9"/><circle cx="500" cy="340" r="54" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M475 330h50m-25-25v50M455 375l-42 38m132-38 42 38M455 305l-45-45m135 45 45-45" stroke="{accent}" stroke-width="11"/><rect x="155" y="210" width="145" height="75" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="700" y="210" width="145" height="75" rx="14" fill="#fff" stroke="{dark}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="227" y="257">警察</text><text x="772" y="257">森町国保</text><text x="500" y="430">事故地点</text></g></g>',
             f'<g data-scene="accident-police-town-document-desk"><path d="M140 420h720M210 420V275h170v145M620 420V275h170v145" fill="none" stroke="{dark}" stroke-width="10"/><path d="M210 275l85-70 85 70M620 275l85-70 85 70" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="405" y="235" width="190" height="225" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M435 285h130M435 330h130M435 375h105" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="295" y="455">警察</text><text x="500" y="500">傷病届</text><text x="705" y="455">森町役場</text></g></g>',
@@ -715,6 +720,7 @@ def svg(row: dict, index: int) -> str:
         80: ["火災警報器・部屋別台帳", "火災警報器・音と製造年", "火災警報器・交換と支援"],
         70: ["国保税・産前産後の対象月", "国保税・単胎と多胎", "国保税・届出から通知"],
         60: ["国保葬祭費・一件表", "国保葬祭費・役割を分ける", "国保葬祭費・受付から入金"],
+        64: ["療養費・申請束の一件表", "療養費・五つの支払理由", "療養費・受付から入金"],
         65: ["事故後の四本線", "届出書を役割別に", "示談前に町へ相談"],
         57: ["高額療養費・暦月台帳", "年齢別の計算順", "申請と支給月をつなぐ"],
         20: ["町届出と滅失登記へ", "壊した棟と残す棟", "翌年度明細まで確認"],
@@ -764,6 +770,11 @@ def svg(row: dict, index: int) -> str:
             "亡くなった人、葬祭を行った人、請求書、受付、入金を一枚で分ける図",
             "葬祭を行った人、問い合わせる人、請求者、口座名義人を別欄で確認する図",
             "様式取得、資料確認、提出、受付、決定、入金を段階別に追う図",
+        ],
+        64: [
+            "支払理由、専用証明、資格・口座、受付・決定を一件表で分ける図",
+            "資格未提示、柔道整復、はり等、治療用装具、生血代を五本に分岐する図",
+            "資料確認、提出・受付、追加照会、支給決定、入金照合を順に追う図",
         ],
         65: ["事故地点から治療、警察、森町国保、相手方保険へ連絡線を分ける", "警察、医療機関、森町役場と第三者行為届の役割を照合する", "治療と国保届出から相手方請求へ進む道に示談前相談の停止線を置く"],
         57: ["暦月ごとに受診者、医療機関、入院・外来を別欄へ分ける高額療養費台帳", "70歳未満と70歳以上75歳未満で異なる計算順を左右に分ける", "申請書到着から決定通知までを過去12か月の支給月へつなぐ"],
@@ -1028,6 +1039,10 @@ def editorial_blocks_curated(row: dict) -> str:
         60: {
             2: ("fig1.svg", "葬祭を行った人、問い合わせる人、請求者、口座名義人を別欄で確認する図", "家族内の立場だけで請求者を決めず、森町の確認結果を役割別に残します。"),
             8: ("fig2.svg", "葬祭費請求書の取得から資料確認、提出、受付、決定、入金へ進む図", "請求書を提出した時点で完了にせず、受付結果と入金まで段階別に追います。"),
+        },
+        64: {
+            5: ("fig1.svg", "全額を支払った理由を五つに分け、各場面の専用証明を選ぶ図", "資格未提示、柔道整復、はり等、治療用補装具、生血代を混ぜず、支払理由と資料を一対一で結びます。"),
+            9: ("fig2.svg", "療養費申請の資料確認から受付、追加照会、決定、入金を追う図", "提出した時点で完了にせず、追加照会と支給決定を経て通帳の入金まで状態を更新します。"),
         },
         65: {
             4: ("fig1.svg", "事故地点・警察・医療機関・森町役場と第三者行為の提出書類を役割別に照合する図", "警察への届出と森町国保への提出を分け、各書類を事故番号へ結びます。"),

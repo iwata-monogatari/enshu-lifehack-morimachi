@@ -1136,20 +1136,20 @@
   {
     "id": 64,
     "url": "/life/health-medical/national-health-insurance-medical-expense-reimbursement/",
-    "title": "森町の国民健康保険で療養費を申請する場面｜立替払いと必要書類を確認",
+    "title": "森町国保の療養費申請束｜支払理由・専用証明・受付結果を一件表にする",
     "category": "健康",
-    "search_intent": "国保加入者が医療費を全額立て替えた場合など、療養費申請の対象になり得る場面と書類を知りたい",
+    "search_intent": "森町国保の療養費について、資格未提示、柔道整復、はり等、治療用補装具、生血代の支払理由ごとに専用証明、資格資料、振込先、受付、決定、入金を一件表で管理したい",
     "search_aliases": [
-      "森町の国民健康保険で療養費を申請する場面",
-      "国保加入者が医療費を全額立て替えた場合など、療養費申請の対象になり得る場面と書類を知りたい"
+      "森町国保の療養費申請束",
+      "森町国保の療養費について、資格未提示、柔道整復、はり等、治療用補装具、生血代の支払理由ごとに専用証明、資格資料、振込先、受付、決定、入金を一件表で管理したい"
     ],
-    "editorial_chars": 6549,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6834,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 65,

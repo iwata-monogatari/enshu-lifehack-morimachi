@@ -2158,17 +2158,18 @@
   },
   {
     "id": 64,
-    "title": "森町の国民健康保険で療養費を申請する場面｜立替払いと必要書類を確認",
+    "title": "森町国保の療養費申請束｜支払理由・専用証明・受付結果を一件表にする",
     "slug": "national-health-insurance-medical-expense-reimbursement",
     "category": "健康",
-    "search_intent": "国保加入者が医療費を全額立て替えた場合など、療養費申請の対象になり得る場面と書類を知りたい",
+    "search_intent": "森町国保の療養費について、資格未提示、柔道整復、はり等、治療用補装具、生血代の支払理由ごとに専用証明、資格資料、振込先、受付、決定、入金を一件表で管理したい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/index.html",
-      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/juudou/index.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/528.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/5812.html",
+      "https://www.mhlw.go.jp/stf/newpage_21736.html"
     ],
     "risk": "medium",
     "decision": "CREATE",
-    "reason": "歯科検診の既存記事との競合を避け、診療内容の判断ではなく保険給付の事後手続きに限定する",
+    "reason": "既存の制度解説ガイドとは役割を分け、五つの支払理由別に申請資料と受付後の状態を管理する一件表へ限定する",
     "review_status": "replaced-from-hold-or-merge",
     "minimum_visible_characters": 6000,
     "content_blueprint": [
