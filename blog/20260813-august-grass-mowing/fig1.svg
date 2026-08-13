@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ag1Title ag1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ag1Title">草の伸びた実家の畑と、刈り終えた直後の空き地を並べて描いたイラスト</title>
+  <desc id="ag1Desc">奥に遠州の山並みと杉林、段になった茶畑が広がります。左には腰の高さまで草が伸びた畑があり、奥に傾いた物置が立ち、畦道が草に埋もれています。右には刈り終えた直後の空き地があり、刈った草が山に積まれ、軽トラックの荷台に草の袋が積まれています。境の畦には刈払機が立てかけられ、地面に手袋と水筒が置かれています。空き地の隅には空き家・空き地バンクと書かれた小さな看板があります。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ag1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8ccdf"/><stop offset="1" stop-color="#eaf1e4"/>
+    </linearGradient>
+    <linearGradient id="ag1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b6cbd2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="170" fill="url(#ag1Sky)"/>
+  <!-- 夏の日ざしと入道雲 -->
+  <circle cx="112" cy="56" r="38" fill="#ffd664"/>
+  <g fill="#ffffff">
+    <circle cx="700" cy="72" r="38"/><circle cx="752" cy="50" r="46"/>
+    <circle cx="808" cy="74" r="36"/><circle cx="756" cy="94" r="36"/>
+  </g>
+  <path fill="url(#ag1Far)" d="M0 116 L104 58 L214 114 L330 48 L450 114 L566 46 L682 114 L796 58 L902 114 L1000 74 L1000 160 L0 160 Z"/>
+  <path fill="#7fae57" d="M0 176 C 230 166, 450 190, 670 178 C 770 172, 860 182, 1000 176 L1000 214 L0 220 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 186 C 230 176, 450 200, 670 188 C 770 182, 860 192, 1000 186"/>
+    <path d="M0 202 C 230 192, 450 216, 670 204 C 770 198, 860 208, 1000 202"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M8 218 l16 -56 l16 56 z"/><path d="M42 218 l13 -46 l13 46 z"/>
+    <path d="M952 218 l15 -52 l15 52 z"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 216 L1000 210 L1000 560 L0 560 Z"/>
+
+  <!-- 左：草の伸びた畑 -->
+  <path fill="#8aa552" d="M0 224 L468 216 L458 500 L0 520 Z"/>
+  <g stroke="#6d8a3c" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M18 500 C 26 440, 20 400, 34 356"/><path d="M62 508 C 72 448, 64 408, 78 364"/>
+    <path d="M108 500 C 116 442, 110 400, 124 358"/><path d="M154 508 C 164 446, 156 406, 170 362"/>
+    <path d="M200 496 C 208 438, 202 398, 216 354"/><path d="M246 504 C 256 444, 248 404, 262 360"/>
+    <path d="M292 494 C 300 436, 294 396, 308 352"/><path d="M338 502 C 348 442, 340 402, 354 358"/>
+    <path d="M384 492 C 392 434, 386 394, 400 350"/><path d="M430 500 C 440 440, 432 400, 446 356"/>
+  </g>
+  <g stroke="#9cb862" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M40 504 C 48 452, 42 416, 56 380"/><path d="M132 506 C 140 454, 134 418, 148 382"/>
+    <path d="M224 500 C 232 448, 226 412, 240 376"/><path d="M316 502 C 324 450, 318 414, 332 378"/>
+    <path d="M408 498 C 416 446, 410 410, 424 374"/>
+  </g>
+  <!-- 傾いた物置 -->
+  <g>
+    <path d="M296 244 L378 210 L462 250 L458 320 L300 322 Z" fill="#cfd6d2" stroke="#a3aca7" stroke-width="4"/>
+    <path d="M290 246 L378 206 L468 250 Z" fill="#8f9a96"/>
+    <rect x="342" y="266" width="52" height="54" fill="#aeb7b2" stroke="#8f9a96" stroke-width="3"/>
+  </g>
+  <rect x="36" y="176" width="216" height="34" rx="7" fill="#ffffff" stroke="#c0563c" stroke-width="3"/>
+  <text x="144" y="199" font-family="sans-serif" font-size="17" font-weight="bold" fill="#c0563c" text-anchor="middle">八月のはじめ</text>
+
+  <!-- 右：刈り終えた空き地 -->
+  <path fill="#c5cf9a" d="M492 214 L1000 210 L1000 560 L482 560 Z"/>
+  <g stroke="#adb884" stroke-width="4" fill="none">
+    <path d="M492 262 L1000 258 M488 306 L1000 302 M486 350 L1000 346 M484 396 L1000 392"/>
+  </g>
+  <!-- 刈った草の山 -->
+  <path d="M560 434 C 578 380, 626 366, 664 388 C 700 370, 744 392, 748 434 Z"
+        fill="#a8a04e" stroke="#877f36" stroke-width="4"/>
+  <g stroke="#877f36" stroke-width="3" fill="none">
+    <path d="M596 428 C 606 400, 626 388, 648 390"/>
+    <path d="M676 430 C 686 402, 706 392, 726 398"/>
+  </g>
+  <!-- 軽トラック -->
+  <g>
+    <rect x="792" y="376" width="120" height="72" fill="#e6eae6" stroke="#9aa39f" stroke-width="4"/>
+    <rect x="912" y="392" width="70" height="56" fill="#f0f3f0" stroke="#9aa39f" stroke-width="4"/>
+    <rect x="924" y="404" width="44" height="26" fill="#b6d3e0" stroke="#8aa8b6" stroke-width="3"/>
+    <g fill="#c8bf7e" stroke="#a29a5f" stroke-width="3">
+      <rect x="806" y="336" width="42" height="42" rx="6"/><rect x="856" y="342" width="42" height="36" rx="6"/>
+    </g>
+    <circle cx="836" cy="454" r="22" fill="#4b5450" stroke="#2f3733" stroke-width="5"/>
+    <circle cx="836" cy="454" r="7" fill="#a8b0ac"/>
+    <circle cx="946" cy="454" r="22" fill="#4b5450" stroke="#2f3733" stroke-width="5"/>
+    <circle cx="946" cy="454" r="7" fill="#a8b0ac"/>
+  </g>
+  <!-- 空き家・空き地バンクの看板 -->
+  <g>
+    <path d="M584 560 L584 490" stroke="#9aa39f" stroke-width="9" fill="none"/>
+    <rect x="486" y="452" width="216" height="42" rx="6" fill="#ffffff" stroke="#3e6b55" stroke-width="4"/>
+    <text x="594" y="480" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">空き家・空き地バンク</text>
+  </g>
+  <rect x="740" y="176" width="228" height="34" rx="7" fill="#ffffff" stroke="#3e6b55" stroke-width="3"/>
+  <text x="854" y="199" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">刈り終えた同じ土地</text>
+
+  <!-- 境の畦：刈払機と手袋と水筒 -->
+  <path fill="#c9c0a4" d="M462 216 L500 214 L490 560 L446 560 Z"/>
+  <g>
+    <path d="M470 520 L482 330" stroke="#6b7370" stroke-width="9" fill="none"/>
+    <path d="M470 520 L448 540" stroke="#6b7370" stroke-width="8" fill="none"/>
+    <circle cx="482" cy="322" r="20" fill="#c8503a" stroke="#96331f" stroke-width="4"/>
+    <path d="M462 400 L502 392" stroke="#6b7370" stroke-width="7" fill="none"/>
+  </g>
+  <g>
+    <rect x="386" y="496" width="42" height="44" rx="7" fill="#3f6f86" stroke="#2c5468" stroke-width="3"/>
+    <rect x="396" y="484" width="22" height="14" fill="#2c5468"/>
+    <path d="M320 528 C 320 504, 338 496, 356 502 L366 532 Z" fill="#e0d7bb" stroke="#b3a685" stroke-width="3"/>
+    <path d="M356 502 C 372 494, 388 502, 386 522 L366 532 Z" fill="#e0d7bb" stroke="#b3a685" stroke-width="3"/>
+  </g>
+</svg>

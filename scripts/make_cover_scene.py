@@ -1541,7 +1541,64 @@ def scene_kokko_forest(d):
     band(d, ["国が見ているのは", "木の値段ではなく境界"], "森町ライフハック／農地・山林・茶畑")
 
 
+def scene_august_grass(d):
+    """草の伸びた畑と、刈り終えた空き地を並べた場面。"""
+    # 夏の強い空
+    for y in range(0, 300):
+        t = y / 300
+        d.line([(0, y), (S, y)], fill=(int(150 + 86 * t), int(196 + 38 * t), int(226 - 10 * t)))
+    d.rectangle([0, 300, S, BAND_TOP], fill=(226, 236, 216))
+    d.ellipse([46, 32, 142, 128], fill=(255, 214, 100))
+    for cx, cy, r in ((520, 96, 44), (572, 70, 54), (628, 98, 42), (574, 122, 42)):
+        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(255, 255, 255))
+    mountains(d, 300)
+    cedars(d, [14, 58, 706, 748], 300)
+    d.polygon([(0, 292), (760, 284), (760, 326), (0, 336)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 330), (760, 320), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 左：草の伸びた畑
+    d.polygon([(0, 326), (352, 318), (344, 540), (0, 560)], fill=(138, 165, 82))
+    for i in range(11):
+        x = 12 + i * 32
+        d.line([(x, 546 - i), (x + 10, 424 - i)], fill=(109, 138, 60), width=7)
+        d.line([(x + 16, 550), (x + 24, 452)], fill=(156, 184, 98), width=5)
+    # 傾いた物置
+    d.polygon([(196, 372), (268, 340), (340, 376), (336, 442), (200, 444)], fill=(207, 214, 210))
+    d.polygon([(190, 374), (268, 336), (346, 376)], fill=(143, 154, 150))
+    d.rectangle([236, 392, 288, 442], fill=(174, 183, 178), outline=(143, 154, 150), width=3)
+    # 右：刈り終えた空き地
+    d.polygon([(408, 318), (760, 312), (760, BAND_TOP), (400, BAND_TOP)], fill=(197, 207, 154))
+    for i in range(4):
+        d.line([(404, 366 + i * 46), (760, 358 + i * 46)], fill=(173, 184, 132), width=4)
+    # 刈った草の山
+    d.polygon([(430, 500), (452, 444), (494, 428), (536, 448), (556, 500)], fill=(168, 160, 78))
+    d.line([(462, 492), (492, 448)], fill=(135, 127, 54), width=4)
+    d.line([(516, 494), (536, 456)], fill=(135, 127, 54), width=4)
+    # 軽トラック
+    d.rectangle([588, 434, 692, 500], fill=(230, 234, 230), outline=(154, 163, 159), width=4)
+    d.rectangle([692, 448, 752, 500], fill=(240, 243, 240), outline=(154, 163, 159), width=4)
+    d.rectangle([702, 458, 742, 480], fill=(182, 211, 224), outline=(138, 168, 182), width=3)
+    d.rounded_rectangle([600, 400, 640, 436], radius=6, fill=(200, 191, 126), outline=(162, 154, 95), width=3)
+    d.rounded_rectangle([646, 406, 686, 436], radius=6, fill=(200, 191, 126), outline=(162, 154, 95), width=3)
+    for cx in (624, 722):
+        d.ellipse([cx - 20, 484, cx + 20, 524], fill=(75, 84, 80), outline=(47, 55, 51), width=5)
+        d.ellipse([cx - 6, 498, cx + 6, 510], fill=(168, 176, 172))
+    # 境の畦と刈払機
+    d.polygon([(354, 320), (404, 318), (396, BAND_TOP), (338, BAND_TOP)], fill=(201, 192, 164))
+    d.line([(370, 552), (382, 388)], fill=(107, 115, 112), width=9)
+    d.ellipse([362, 366, 402, 406], fill=(200, 80, 58), outline=(150, 51, 31), width=4)
+    d.line([(358, 456), (398, 448)], fill=(107, 115, 112), width=7)
+    # 札
+    d.rectangle([20, 336, 250, 372], fill=(255, 255, 255), outline=(192, 86, 60), width=3)
+    d.text((36, 344), "八月のはじめ", font=ImageFont.truetype(FONT_BOLD, 21), fill=(192, 86, 60))
+    d.rectangle([448, 336, 744, 372], fill=(255, 255, 255), outline=(62, 107, 85), width=3)
+    d.text((462, 344), "刈り終えた同じ土地", font=ImageFont.truetype(FONT_BOLD, 21), fill=(31, 62, 82))
+    band(d, ["刈っても月内に戻る。", "回数で決まる費用"], "森町ライフハック／農地・山林・茶畑")
+
+
 SCENES = {
+    "20260813-august-grass-mowing": scene_august_grass,
     "20260813-kokko-kizoku-forest": scene_kokko_forest,
     "20260813-tanbo-lease-contract": scene_tanbo_lease,
     "20260812-amenomiya-nagi-garden-tree": scene_nagi,
