@@ -1431,13 +1431,13 @@
       "森町の住宅用火災警報器を点検する",
       "自宅の住宅用火災警報器について、設置場所、定期点検、電池切れ表示、交換時の確認先を知りたい"
     ],
-    "editorial_chars": 6473,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 5680,
+    "generated_at": "2026-08-13",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 81,

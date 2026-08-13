@@ -4,18 +4,18 @@
   "starting_commit": "ed22e218886314bf763ce456f3011c24814be2c5",
   "official_sitemap_pages": 2765,
   "target_pages": 5530,
-  "site_sitemap_pages": 743,
-  "page_gap": 4787,
-  "goal_page_ratio": 0.134358,
-  "total_visible_chars": 3861583,
-  "average_visible_chars": 5197,
+  "site_sitemap_pages": 744,
+  "page_gap": 4786,
+  "goal_page_ratio": 0.134539,
+  "total_visible_chars": 3868093,
+  "average_visible_chars": 5199,
   "measured_baseline_average_chars": 4883,
   "reference_average_chars": 5030,
   "exact_duplicate_text_groups": 0,
   "structural_error_count": 0,
   "quality_error_count": 0,
-  "published_pages_in_scope": 0,
-  "decision": "quality_hold",
+  "published_pages_in_scope": 1,
+  "decision": "partial_release_after_research_and_rewrite",
   "days": [
     {
       "day": 20,
@@ -84,8 +84,8 @@
       "day": 29,
       "candidate_id": 80,
       "candidate": "住宅用火災警報器の点検",
-      "result": "no_publish",
-      "reason": "消防庁の設置・点検情報に対し、森町固有の設置場所と交換確認を別内容で支える公式資料が不足し、町内固有ページ基準を満たさない"
+      "result": "published_after_rewrite",
+      "reason": "森町公式の取付支援と本体交換を別資料として再確認し、消防庁Q&Aを加えて、部屋別の設置・製造年・作動音・交換判断台帳へ全面改稿。本文・出典・重複・固有SVG・画面幅別表示の全ゲートに合格"
     }
   ],
   "audits": {
