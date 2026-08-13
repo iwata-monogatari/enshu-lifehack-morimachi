@@ -1928,20 +1928,20 @@
   {
     "id": 108,
     "url": "/property/seismic-estimate-reading/",
-    "title": "森町の木造住宅耐震改修｜診断結果から見積書を読み合わせる",
+    "title": "森町の木造住宅耐震改修｜診断結果と工事見積書を照合する",
     "category": "住宅",
-    "search_intent": "耐震診断の結果と改修見積りの工事項目を対応させて相談したい",
+    "search_intent": "耐震診断の指摘・補強計画・工事見積書を同じ表で照合し、着工前申請と実績報告まで確認したい",
     "search_aliases": [
       "森町の木造住宅耐震改修",
-      "耐震診断の結果と改修見積りの工事項目を対応させて相談したい"
+      "耐震診断の指摘・補強計画・工事見積書を同じ表で照合し、着工前申請と実績報告まで確認したい"
     ],
-    "editorial_chars": 6920,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 5791,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 109,

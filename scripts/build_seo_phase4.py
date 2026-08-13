@@ -918,6 +918,7 @@ def svg(row: dict, index: int) -> str:
         105: (["家屋解体・二手続", "家屋解体・棟と写真", "家屋解体・届と登記"], ["demolition-two-procedure-file", "demolished-building-photo-ledger", "demolition-town-registry-route"]),
         109: (["火災警報器・一台一行", "火災警報器・製造年", "火災警報器・交換支援"], ["alarm-room-unit-ledger", "alarm-manufacture-year-check", "alarm-replacement-support-route"]),
         121: (["空き家登録・所有者資料", "空き家登録・名義と同意", "空き家登録・調査と公開"], ["vacant-bank-owner-file", "vacant-bank-land-building-consent", "vacant-bank-survey-publication-route"]),
+        108: (["耐震改修・診断と見積", "耐震改修・弱点と工事項目", "耐震改修・申請と完了"], ["seismic-diagnosis-estimate-ledger", "seismic-weakness-work-item-crosscheck", "seismic-application-completion-route"]),
         2: (["転籍・本籍と筆頭者", "転籍・現在と新本籍", "転籍・届出と戸籍請求"], ["domicile-transfer-ledger", "old-new-domicile-bridge", "transfer-filing-certificate-route"]),
         3: (["世帯変更・三つの届", "世帯変更・住所と生計", "世帯変更・届出後確認"], ["household-change-three-forms", "address-livelihood-households", "household-result-check-route"]),
         4: (["不受理申出・本人意思", "不受理申出・対象届", "不受理申出・取下げ"], ["nonacceptance-personal-intent", "nonacceptance-filing-types", "nonacceptance-withdrawal-route"]),
@@ -1198,6 +1199,7 @@ def editorial_blocks_curated(row: dict) -> str:
         105: ("解体した棟と工事前後写真を一件記録へ対応させる図", "森町の家屋届と法務局の滅失登記を分ける図"),
         109: ("部屋ごとの火災警報器と製造年を対応させる図", "交換候補を購入、取付支援、交換記録へつなぐ図"),
         121: ("空き家の土地建物名義と所有者同意を照合する図", "登録申込から現地調査と情報公開へ進む図"),
+        108: ("耐震診断の指摘箇所、補強図面、工事見積項目を一行ずつ照合する図", "着工前申請、変更確認、工事写真、完了報告を順に管理する図"),
     }
     if item_id in day31_40_figure_text:
         first, second = day31_40_figure_text[item_id]
@@ -1865,6 +1867,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
         288: "森町の公共施設を計画・予算・入札・完了の証拠段階ごとに結ぶ修繕資料索引",
         208: "年代と資料種別の二軸から、森町史の最初の一冊を選ぶ巻別ルーティング表",
         292: "茶畑の一筆を挟み、譲渡人と譲受人が権利の種類を分けて当事者情報票を確認する場面",
+        108: "木造住宅の耐震診断結果、補強計画、工事見積書を同じ行で照合する確認表",
     }
     cover_alt = cover_alts.get(int(row["id"]), f"{title}の確認場面を森町の山並み、家、道、資料で描いた表紙")
     webpage = {"@context":"https://schema.org", "@type":"WebPage", "name":title, "url":SITE+url, "description":desc, "dateModified":TODAY, "author":{"@type":"Person","name":"大石浩之"}}

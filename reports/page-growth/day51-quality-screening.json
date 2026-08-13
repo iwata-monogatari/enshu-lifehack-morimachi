@@ -1,0 +1,33 @@
+{
+  "day": 51,
+  "published_ids": [108],
+  "published_url": "/property/seismic-estimate-reading/",
+  "title": "森町の木造住宅耐震改修｜診断結果と工事見積書を照合する",
+  "quality": {
+    "official_primary_sources": 4,
+    "morimachi_sources": 3,
+    "substantive_facts": 15,
+    "editorial_visible_chars": 5791,
+    "paragraphs": 62,
+    "exact_duplicate_rate": 0.0,
+    "normalized_duplicate_rate": 0.0,
+    "unique_svg_scenes": 3,
+    "desktop_visual_pass": true,
+    "mobile_visual_pass": true,
+    "structural_errors": 0,
+    "quality_errors": 0
+  },
+  "site_metrics": {
+    "official_sitemap_pages": 2769,
+    "target_pages": 5538,
+    "site_sitemap_pages": 769,
+    "added_pages": 1,
+    "average_visible_chars": 5321,
+    "reference_average_chars": 5030,
+    "measured_baseline_average_chars": 4883,
+    "total_visible_chars": 4092178,
+    "official_target_ratio": 0.138859,
+    "remaining_pages": 4769
+  },
+  "day52_started": false
+}

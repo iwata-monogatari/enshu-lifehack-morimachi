@@ -3768,10 +3768,10 @@
     "id": 108,
     "original_decision": "MERGE",
     "decision": "CREATE",
-    "title": "森町の木造住宅耐震改修｜診断結果から見積書を読み合わせる",
+    "title": "森町の木造住宅耐震改修｜診断結果と工事見積書を照合する",
     "slug": "/property/seismic-estimate-reading/",
     "category": "住宅",
-    "search_intent": "耐震診断の結果と改修見積りの工事項目を対応させて相談したい",
+    "search_intent": "耐震診断の指摘・補強計画・工事見積書を同じ表で照合し、着工前申請と実績報告まで確認したい",
     "risk": "MEDIUM",
     "cannibalization": {
       "level": "LOW",
@@ -3802,8 +3802,9 @@
     "review_note": "元案の汎用的な住宅支援ページ2件だけでは根拠不足。各候補URLは執筆開始時と公開直前の二度確認する。",
     "primary_sources": [
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/index.html",
-      "https://www.pref.shizuoka.jp/machizukuri/kenchiku/index.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/5985.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/5986.html",
+      "https://www.pref.shizuoka.jp/kurashikankyo/kenchiku/taishinka/1041569/1083763/1083765.html"
     ],
     "required_sections": [
       "誰が、どの時点で「木造住宅耐震改修」を確認する記事か",
