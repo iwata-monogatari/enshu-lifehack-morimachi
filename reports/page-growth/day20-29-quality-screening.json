@@ -1,20 +1,20 @@
 {
-  "executed_at_jst": "2026-08-13T13:43:46+09:00",
+  "executed_at_jst": "2026-08-13T17:09:53+09:00",
   "scope": "Day20-Day29 only",
   "starting_commit": "ed22e218886314bf763ce456f3011c24814be2c5",
   "official_sitemap_pages": 2765,
   "target_pages": 5530,
-  "site_sitemap_pages": 746,
-  "page_gap": 4784,
-  "goal_page_ratio": 0.134901,
-  "total_visible_chars": 3882199,
-  "average_visible_chars": 5204,
+  "site_sitemap_pages": 747,
+  "page_gap": 4783,
+  "goal_page_ratio": 0.135081,
+  "total_visible_chars": 3889840,
+  "average_visible_chars": 5207,
   "measured_baseline_average_chars": 4883,
   "reference_average_chars": 5030,
   "exact_duplicate_text_groups": 0,
   "structural_error_count": 0,
   "quality_error_count": 0,
-  "published_pages_in_scope": 3,
+  "published_pages_in_scope": 4,
   "decision": "partial_release_after_research_and_rewrite",
   "days": [
     {
@@ -42,8 +42,8 @@
       "day": 23,
       "candidate_id": 64,
       "candidate": "国保療養費の立替払い",
-      "result": "no_publish",
-      "reason": "森町公式の療養費本文だけでは、治療用装具や柔道整復等を含む候補全体の事実12件を主題一致の一次情報で構成できない"
+      "result": "published_after_research_and_rewrite",
+      "reason": "森町国保の療養費案内、マイナ保険証・資格確認書案内、厚生労働省の国保給付案内を再確認。資格未提示、柔道整復、はり等、治療用補装具、生血代の支払理由ごとに専用証明、資格資料、振込先、受付、決定、入金を分ける申請束へ全面改稿し、既存の制度案内とは実務成果物を分離。本文6,834字、固有事実15件、重複0%、固有SVG3点で全ゲートに合格"
     },
     {
       "day": 24,
