@@ -2737,17 +2737,19 @@
   },
   {
     "id": 81,
-    "title": "森町で山火事を防ぐ・発見したとき｜火入れと119番の確認",
+    "title": "森町の山林で火を使う前・煙を見た後の二枚表｜許可・届出・119番",
     "slug": "wildfire-prevention-reporting",
     "category": "防災",
-    "search_intent": "山林や農地周辺での火の扱い、煙や炎を発見した際の通報、場所の伝え方を知りたい",
+    "search_intent": "森町の山林や農地周辺で火を使う前に許可・消防への届出・発令情報・現地条件を確認し、煙や炎を見た後は安全な場所から119番へ現在地と方向を伝える二枚表を作りたい",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/shoubou/3966.html",
-      "https://www.fdma.go.jp/disaster/sanrin/"
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/8/01_R7_morimachishinrinseibikeikaku.pdf",
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/3/hoankyo89.pdf",
+      "https://www.fdma.go.jp/mission/prevention/rinyakasai/sonae.html",
+      "https://www.fdma.go.jp/mission/enrichment/kyukyumusen_kinkyutuhou/119.html"
     ],
     "risk": "medium",
     "decision": "CREATE",
-    "reason": "一般の火災・救急連絡に加え、山間地で現在地を伝える課題と火災予防を扱う独立意図がある",
+    "reason": "火を使う前の許可・届出・当日中止判断と、煙発見後の安全確保・119番通報を二枚に分ける固有成果物",
     "review_status": "retained-create",
     "minimum_visible_characters": 6000,
     "safety_guardrails": [

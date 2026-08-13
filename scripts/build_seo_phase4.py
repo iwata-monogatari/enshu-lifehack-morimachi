@@ -465,6 +465,11 @@ def svg(row: dict, index: int) -> str:
     ]
     # 公開監査済みのDay5記事は、主題を一目で識別できる固有モチーフを使う。
     special_scenes = {
+        81: [
+            f'<g data-scene="wildfire-two-sheet-ledger"><path d="M120 455 270 255l105 125 120-175 115 175 120-125 150 200Z" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="155" y="245" width="265" height="210" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><rect x="580" y="245" width="265" height="210" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M195 310h185M195 365h185M620 310h185M620 365h185" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="287" y="285">火を使う前</text><text x="287" y="410">許可・届出・発令</text><text x="712" y="285">煙を見た後</text><text x="712" y="410">安全・119番・場所</text></g></g>',
+            f'<g data-scene="wildfire-alert-cancel-field"><path d="M110 455 270 235l110 145 120-190 125 190 105-145 160 220Z" fill="{pale}" stroke="{dark}" stroke-width="10"/><path d="M500 215q-38 45 0 85q38-45 0-85M472 320q28-34 56 0q-28 34-56 0" fill="{accent}"/><path d="M330 430h340" stroke="{dark}" stroke-width="12"/><rect x="685" y="225" width="190" height="155" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M720 275h120M720 325h120" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="500" y="475">風・乾燥・水・人数</text><text x="780" y="260">注意報</text><text x="780" y="355">中止連絡</text></g></g>',
+            f'<g data-scene="wildfire-safe-119-location-route"><path d="M130 445 260 265l105 120 110-165 125 165 105-120 165 180Z" fill="{pale}" stroke="{dark}" stroke-width="10"/><circle cx="275" cy="365" r="48" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M275 315v100M225 365h100" stroke="{accent}" stroke-width="10"/><path d="M345 365h120M625 365h120" stroke="{accent}" stroke-width="13"/><rect x="465" y="285" width="160" height="160" rx="28" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M505 325q40 65 80 0M505 405q40-65 80 0" fill="none" stroke="{accent}" stroke-width="11"/><circle cx="785" cy="365" r="54" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M785 325v80M745 365h80" stroke="{accent}" stroke-width="10"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="275" y="470">安全な退避</text><text x="545" y="485">119番</text><text x="785" y="470">現在地と方向</text></g></g>',
+        ],
         80: [
             f'<g data-scene="fire-alarm-room-ledger"><path d="M150 455h700M210 455V250h580v205M500 250v205M210 350h580" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="350" cy="300" r="34" fill="{accent}"/><circle cx="650" cy="300" r="34" fill="{accent}"/><circle cx="350" cy="400" r="34" fill="#fff" stroke="{accent}" stroke-width="9"/><circle cx="650" cy="400" r="34" fill="#fff" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="350" y="307">A1</text><text x="650" y="307">A2</text><text x="350" y="407">S1</text><text x="650" y="407">K1</text><text x="500" y="500">部屋と機器を一行で対応</text></g></g>',
             f'<g data-scene="fire-alarm-test-and-age-check"><circle cx="300" cy="330" r="105" fill="#fff" stroke="{dark}" stroke-width="10"/><circle cx="300" cy="330" r="32" fill="{accent}"/><path d="M435 270q55 60 0 120M480 240q90 90 0 180" fill="none" stroke="{accent}" stroke-width="12"/><rect x="610" y="230" width="200" height="220" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M650 290h120M650 345h120M650 400h90" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="300" y="480">点検ボタン</text><text x="710" y="270">製造年</text><text x="710" y="330">電源・方式</text><text x="710" y="385">十年目安</text></g></g>',
@@ -717,6 +722,7 @@ def svg(row: dict, index: int) -> str:
         ],
     }
     special_labels = {
+        81: ["林野火災・二枚の確認票", "林野火災・発令時は中止", "林野火災・安全から119番"],
         80: ["火災警報器・部屋別台帳", "火災警報器・音と製造年", "火災警報器・交換と支援"],
         70: ["国保税・産前産後の対象月", "国保税・単胎と多胎", "国保税・届出から通知"],
         60: ["国保葬祭費・一件表", "国保葬祭費・役割を分ける", "国保葬祭費・受付から入金"],
@@ -756,6 +762,11 @@ def svg(row: dict, index: int) -> str:
         162: ["農業委員会・令和8年度12か月", "農業委員会・四つの日付", "農業委員会・予定と実績"],
     }
     special_descriptions = {
+        81: [
+            "森町の山林を背景に、火を使う前の許可・届出・発令確認と、煙を見た後の安全・119番・場所情報を二枚に分ける図",
+            "森町の山並みと火気使用地点、風・乾燥・消火用水・作業人数を確認し、林野火災注意報で中止連絡へ進む図",
+            "煙や炎を見た人が安全に退避し、119番へ現在地と火が見える方向を伝える流れを森町の山林で示す図",
+        ],
         80: [
             "寝室、階段、台所の警報器へ番号を付け、部屋別台帳へ対応させる図",
             "住宅用火災警報器の点検ボタン、警報音、製造年、電源、十年目安を分けて確認する図",
@@ -1032,6 +1043,10 @@ def editorial_blocks_curated(row: dict) -> str:
     ]
     item_id = int(row["id"])
     special_figures = {
+        81: {
+            4: ("fig1.svg", "森町の山林で発令情報、風、乾燥、消火用水、作業人数を照合して火の使用を中止する図", "許可や届出だけで実施を決めず、発令情報と現地条件を当日に照合します。"),
+            6: ("fig2.svg", "山林の煙を見た人が安全に退避し、119番へ現在地と火が見える方向を伝える図", "火元へ近づかず、安全な場所から現在地・方向・目標物・見えた事実を伝えます。"),
+        },
         70: {
             2: ("fig1.svg", "単胎四か月と多胎六か月の国民健康保険税免除対象月を上下に並べた図", "出産予定月または出産月を中心に、単胎は前月から四か月、多胎は三か月前から六か月を月単位で分けます。"),
             8: ("fig2.svg", "本人確認書類と母子健康手帳から届出受付と税額通知の照合へ進む図", "届出資料、提出または郵送、受付・届出不要の確認、税額通知の対象月照合を別の工程として残します。"),
