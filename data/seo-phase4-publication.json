@@ -81,7 +81,7 @@
       "森町で戸籍証明を広域交付で取る前の請求判定表",
       "本籍地、必要な戸籍、請求者との続柄、窓口本人確認を一件ずつ分け、広域交付で取れるか判断したい"
     ],
-    "editorial_chars": 7679,
+    "editorial_chars": 7683,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -387,7 +387,7 @@
       "森町へ妊娠中に転入したときの母子手帳・受診票切替表",
       "転入前の母子健康手帳と森町の妊婦健診受診票を混同せず、残回数と相談先を整理したい"
     ],
-    "editorial_chars": 7730,
+    "editorial_chars": 7734,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -477,7 +477,7 @@
       "森町の保育所申込みで就労証明書を世帯別にそろえる",
       "父母と同居親族の誰に就労証明書が必要かを分け、証明日と勤務変更を提出前に点検したい"
     ],
-    "editorial_chars": 7609,
+    "editorial_chars": 7613,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -1035,7 +1035,7 @@
       "森町国保の入院費を限度額・食事代・申請月で分ける",
       "入院前に所得区分、マイナ保険証、食事代、暦月、申請書到着時期を一枚で確認したい"
     ],
-    "editorial_chars": 7645,
+    "editorial_chars": 7649,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -1071,7 +1071,7 @@
       "森町の国民健康保険葬祭費",
       "森町国保加入者の死亡後、葬祭を行った人、五万円、様式第一の二、必要資料の窓口回答、受付、入金を一件表で確認したい"
     ],
-    "editorial_chars": 6344,
+    "editorial_chars": 6348,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -1179,7 +1179,7 @@
       "森町で肝炎ウイルス検査の受診歴を一回ずつ確認する",
       "B型・C型の検査歴、受診日、結果説明、次の相談先を混同せず確認したい"
     ],
-    "editorial_chars": 7667,
+    "editorial_chars": 7671,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -1251,8 +1251,8 @@
       "森町の産前産後国民健康保険税免除",
       "森町国保へ加入する出産予定者が、単胎・多胎別の免除対象月、届出資料、受付結果、税額通知の反映を一件表で確認したい"
     ],
-    "editorial_chars": 5810,
-    "generated_at": "2026-08-13",
+    "editorial_chars": 5814,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -1809,7 +1809,7 @@
       "森町で中古住宅の水道をメーター・名義・漏水で確認する",
       "購入前に給水届、所有者名義、メーターパイロット、漏水修理歴、廃止の有無を現地で照合したい"
     ],
-    "editorial_chars": 7737,
+    "editorial_chars": 7741,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -1827,7 +1827,7 @@
       "森町の公共下水道を供用通知・公共ます・宅内工事で確認する",
       "対象区域という情報だけで接続済みと判断せず、供用通知、公共ます、宅内排水設備、指定工事店を照合したい"
     ],
-    "editorial_chars": 7668,
+    "editorial_chars": 7672,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -1881,7 +1881,7 @@
       "森町で家屋を取り壊した後の町届・滅失登記記録",
       "解体日、町の家屋取り壊し届、法務局の建物滅失登記、写真と契約書を別手続として管理したい"
     ],
-    "editorial_chars": 7685,
+    "editorial_chars": 7689,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -1953,7 +1953,7 @@
       "森町の住宅用火災警報器を部屋・製造年・交換支援で点検する",
       "住宅内の警報器を一台ずつ数え、設置場所、製造年、作動音、交換予定、取付支援の対象を整理したい"
     ],
-    "editorial_chars": 7620,
+    "editorial_chars": 7624,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -2169,7 +2169,7 @@
       "森町空き家バンク登録の所有者・土地・同意書をそろえる",
       "登録申込書、所有者、土地建物の名義差、同意書、現地調査、残置物処分を一件ファイルにまとめたい"
     ],
-    "editorial_chars": 7658,
+    "editorial_chars": 7662,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -3231,7 +3231,7 @@
       "森町の伐採届と二つの完了報告を一件工程表でつなぐ",
       "伐採開始90日前から30日前までの届出、伐採完了後30日以内の報告、造林完了後30日以内の報告を別起算日で一件工程表へ記録したい"
     ],
-    "editorial_chars": 6027,
+    "editorial_chars": 6031,
     "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
@@ -3609,8 +3609,8 @@
       "森町の文化財指定を読み解く",
       "森町の文化財について指定区分と確認方法を知りたい"
     ],
-    "editorial_chars": 6592,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 7794,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -3879,8 +3879,8 @@
       "森町で地区別人口表の地区名と行政区を照合する",
       "地区別数値を自宅の行政区へ正しく対応させたい"
     ],
-    "editorial_chars": 6737,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 7696,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -3969,8 +3969,8 @@
       "森町で住民票の住所と不動産の所在地を別欄で管理する",
       "生活上の住所と登記上の土地建物所在地を混同したくない"
     ],
-    "editorial_chars": 6864,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 7643,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -4059,8 +4059,8 @@
       "森町でお悔やみ手続きの受付先を名義別に仕分ける",
       "亡くなった人名義の契約と行政手続きを担当先別に整理したい"
     ],
-    "editorial_chars": 6578,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 7687,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -4149,8 +4149,8 @@
       "森町で水道検針票の使用量変化を空き家管理記録にする",
       "無人期間の漏水兆候を検針記録から追いたい"
     ],
-    "editorial_chars": 6847,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 7700,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -4257,8 +4257,8 @@
       "森町で道路名・路線番号・管理者を三段階で確認する",
       "家の前の道を通称だけで判断せず管理者まで調べたい"
     ],
-    "editorial_chars": 6469,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 6442,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -4311,8 +4311,8 @@
       "森町で法定外公共物の用途廃止資料を読む前の確認順序",
       "赤道や水路に関する申請資料の意味を整理したい"
     ],
-    "editorial_chars": 6095,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 6064,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -4347,8 +4347,8 @@
       "森町で土地利用事業の対象面積と事前相談記録を整理する",
       "土地活用案が町への相談対象か検討する材料を揃えたい"
     ],
-    "editorial_chars": 6073,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 6045,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -4383,8 +4383,8 @@
       "森町で開発許可と建築確認の相談先を分ける資料表",
       "造成と建築で確認先が異なることを家族で共有したい"
     ],
-    "editorial_chars": 6030,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 6002,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -4437,8 +4437,8 @@
       "森町で共有不動産の納税通知送付先を家族台帳へ残す",
       "共有者の誰に通知が届くか家族で確認したい"
     ],
-    "editorial_chars": 7508,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 7512,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -4635,8 +4635,8 @@
       "森町で家財整理で町収集不可品を先に仕分ける",
       "実家片付けで通常収集に出せない物を早期に分けたい"
     ],
-    "editorial_chars": 6109,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 6081,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -5229,8 +5229,8 @@
       "森町で農地相続届の地番一覧を登記事項と照合する",
       "相続した農地の地番漏れを防ぎたい"
     ],
-    "editorial_chars": 6917,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 6921,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
@@ -5391,8 +5391,8 @@
       "森町で山林の固定資産資料と森林届出資料を別冊にする",
       "課税資料と森林手続きを混同せず後継者へ渡したい"
     ],
-    "editorial_chars": 5711,
-    "generated_at": "2026-08-09",
+    "editorial_chars": 5750,
+    "generated_at": "2026-08-12",
     "source_validation": "verified",
     "uniqueness_validation": "verified",
     "visual_validation": "verified",
