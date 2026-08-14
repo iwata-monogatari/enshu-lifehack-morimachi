@@ -1597,7 +1597,67 @@ def scene_august_grass(d):
     band(d, ["刈っても月内に戻る。", "回数で決まる費用"], "森町ライフハック／農地・山林・茶畑")
 
 
+def scene_license_return(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 700, 742], 300)
+    # 中景：段になった茶畑
+    d.polygon([(0, 296), (760, 288), (760, 348), (0, 358)], fill=(139, 183, 95))
+    for i in range(3):
+        d.line([(0, 306 + i * 16), (760, 298 + i * 16)], fill=(93, 138, 62), width=3)
+    d.polygon([(0, 352), (760, 342), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 226, 200))
+    # 左：山あいの斜面と細い道
+    d.polygon([(0, 352), (250, 344), (300, 404), (140, 436), (0, 420)], fill=(147, 176, 117))
+    cedars(d, [24, 66, 108], 404, h=46, color=(66, 112, 90))
+    d.polygon([(0, 470), (330, 440), (330, 486), (0, 520)], fill=(200, 195, 180))
+    for x in range(10, 320, 56):
+        d.line([(x, 500 - x // 12), (x + 30, 497 - x // 12)], fill=(255, 255, 255), width=5)
+    # 左：小型の町営バス
+    d.rounded_rectangle([120, 386, 300, 452], radius=9, fill=(244, 247, 243),
+                        outline=(92, 111, 102), width=5)
+    for x in (134, 186, 234):
+        d.rectangle([x, 400, x + 42, 428], fill=(188, 220, 234), outline=(127, 165, 182), width=3)
+    d.rectangle([128, 366, 236, 388], fill=(47, 107, 83))
+    d.text((142, 369), "町営バス", font=ImageFont.truetype(FONT_BOLD, 17), fill="#ffffff")
+    for cx in (158, 264):
+        d.ellipse([cx - 19, 440, cx + 19, 478], fill=(75, 84, 80), outline=(47, 55, 51), width=5)
+    # 左：バス停で待つ人
+    d.rectangle([56, 400, 64, 520], fill=(143, 154, 150))
+    d.ellipse([38, 372, 82, 416], fill=(255, 255, 255), outline=(47, 107, 83), width=5)
+    d.ellipse([80, 462, 108, 490], fill=(232, 201, 168), outline=(185, 154, 124), width=3)
+    d.polygon([(80, 470), (94, 452), (108, 470)], fill=(141, 143, 148))
+    d.polygon([(78, 494), (110, 494), (114, 560), (74, 560)], fill=(179, 87, 123))
+    # 右：瓦屋根の家と地域タクシー
+    d.polygon([(596, 396), (664, 356), (732, 396), (732, 470), (596, 470)],
+              fill=(239, 233, 220), outline=(167, 159, 140), width=4)
+    d.polygon([(584, 400), (664, 350), (744, 400)], fill=(109, 122, 128))
+    d.rectangle([632, 420, 692, 470], fill=(201, 180, 140), outline=(156, 135, 99), width=3)
+    d.polygon([(392, 470), (420, 428), (536, 428), (564, 470), (564, 508), (392, 508)],
+              fill=(63, 143, 106), outline=(44, 107, 78), width=5)
+    d.rectangle([428, 436, 474, 464], fill=(207, 230, 240), outline=(127, 165, 182), width=3)
+    d.rectangle([482, 436, 528, 464], fill=(207, 230, 240), outline=(127, 165, 182), width=3)
+    d.rectangle([444, 404, 512, 430], fill=(255, 255, 255), outline=(44, 107, 78), width=3)
+    d.text((456, 407), "TAXI", font=ImageFont.truetype(FONT_BOLD, 17), fill="#1f5d44")
+    for cx in (434, 522):
+        d.ellipse([cx - 20, 500, cx + 20, 540], fill=(75, 84, 80), outline=(47, 55, 51), width=5)
+    # 中央：返した免許証を載せた小さな机
+    d.rectangle([310, 526, 386, 534], fill=(156, 135, 99))
+    d.rectangle([316, 534, 322, 560], fill=(156, 135, 99))
+    d.rectangle([374, 534, 380, 560], fill=(156, 135, 99))
+    d.rectangle([316, 496, 384, 526], fill=(243, 244, 239), outline=(143, 154, 150), width=3)
+    d.rectangle([322, 502, 338, 518], fill=(198, 207, 201))
+    d.line([(344, 506), (378, 506)], fill=(177, 187, 181), width=4)
+    d.line([(344, 516), (366, 516)], fill=(177, 187, 181), width=4)
+    # 札
+    d.rectangle([20, 314, 262, 350], fill=(255, 255, 255), outline=(62, 107, 85), width=3)
+    d.text((34, 322), "平日だけ来る路線", font=ImageFont.truetype(FONT_BOLD, 21), fill=(31, 62, 82))
+    d.rectangle([424, 314, 744, 350], fill=(255, 255, 255), outline=(192, 86, 60), width=3)
+    d.text((438, 322), "一宮・園田は1台500円", font=ImageFont.truetype(FONT_BOLD, 21), fill=(192, 86, 60))
+    band(d, ["車を返した日に、", "その地区に残る足"], "森町ライフハック／地区めぐり")
+
+
 SCENES = {
+    "20260814-license-return-district-feet": scene_license_return,
     "20260813-august-grass-mowing": scene_august_grass,
     "20260813-kokko-kizoku-forest": scene_kokko_forest,
     "20260813-tanbo-lease-contract": scene_tanbo_lease,
