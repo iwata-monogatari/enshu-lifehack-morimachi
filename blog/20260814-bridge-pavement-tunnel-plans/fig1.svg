@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="bp1Title bp1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="bp1Title">森町の山あいの集落へ渡る一本の橋と、その先の細い舗装路、山肌のトンネルを描いたイラスト</title>
+  <desc id="bp1Desc">手前に川が流れ、対岸の集落へ渡る小さなコンクリート橋が一本だけ架かっています。橋のたもとには「迂回路のない橋」と書かれた札が立っています。橋の下では作業員が桁の下面を見上げ、脇に橋梁点検車が停まっています。対岸には瓦屋根の家と蔵があり、そこから続く細い舗装路にはひび割れが描かれています。道の先の山肌には小さなトンネルの坑口が開き、「町に一本」と書かれた札があります。奥には段になった茶畑と杉林、遠州の山並みが広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="bp1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a6cade"/><stop offset="1" stop-color="#e9f0e5"/>
+    </linearGradient>
+    <linearGradient id="bp1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#84a3b8"/><stop offset="1" stop-color="#b2c7cf"/>
+    </linearGradient>
+    <linearGradient id="bp1River" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ec8dd"/><stop offset="1" stop-color="#6ea3c0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="176" fill="url(#bp1Sky)"/>
+  <circle cx="118" cy="50" r="30" fill="#ffd664"/>
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="712" cy="60" r="28"/><circle cx="756" cy="44" r="34"/><circle cx="800" cy="62" r="26"/>
+  </g>
+  <path fill="url(#bp1Far)" d="M0 118 L98 54 L204 116 L316 48 L430 116 L544 44 L658 116 L772 56 L880 116 L1000 74 L1000 164 L0 164 Z"/>
+
+  <!-- 遠景の杉林と茶畑 -->
+  <g fill="#3f6b52">
+    <path d="M8 168 l15 -50 l15 50 z"/><path d="M40 168 l12 -42 l12 42 z"/><path d="M70 168 l14 -46 l14 46 z"/>
+    <path d="M932 168 l14 -46 l14 46 z"/><path d="M962 168 l16 -52 l16 52 z"/>
+  </g>
+  <path fill="#7fae57" d="M0 172 C 220 164, 420 188, 640 176 C 780 166, 880 180, 1000 172 L1000 218 L0 224 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 186 C 220 178, 420 202, 640 190 C 780 180, 880 194, 1000 186"/>
+    <path d="M0 202 C 220 194, 420 218, 640 206 C 780 196, 880 210, 1000 202"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 220 L1000 214 L1000 560 L0 560 Z"/>
+
+  <!-- 山肌とトンネル坑口 -->
+  <path fill="#9db487" d="M700 224 L840 226 L1000 300 L1000 470 L724 460 Z"/>
+  <g fill="#8aa176"><path d="M742 292 C 742 258, 806 258, 806 292 L806 372 L742 372 Z"/></g>
+  <path d="M752 300 C 752 272, 796 272, 796 300 L796 372 L752 372 Z" fill="#3b4550"/>
+  <path d="M736 288 C 736 250, 812 250, 812 288 L812 300 L736 300 Z" fill="#c6cec5" stroke="#98a396" stroke-width="4"/>
+  <rect x="840" y="300" width="146" height="34" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+  <text x="913" y="323" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">町に一本</text>
+
+  <!-- 対岸の細い舗装路（ひび割れ） -->
+  <path fill="#c8c3b4" d="M470 458 C 570 430, 660 402, 758 374 L790 396 C 690 428, 594 460, 500 494 Z"/>
+  <g stroke="#8f8a7c" stroke-width="3" fill="none">
+    <path d="M520 470 L546 452 M556 462 L580 444 M600 444 L622 428 M642 428 L664 414 M690 412 L710 398"/>
+    <path d="M540 480 L552 466 M612 452 L624 440 M676 424 L688 412"/>
+  </g>
+
+  <!-- 対岸の家と蔵 -->
+  <g>
+    <path d="M556 300 L622 260 L688 300 L688 372 L556 372 Z" fill="#efe9dc" stroke="#a79f8c" stroke-width="4"/>
+    <path d="M544 304 L622 254 L700 304 Z" fill="#6d7a80"/>
+    <rect x="592" y="326" width="56" height="46" fill="#c9b48c" stroke="#9c8763" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="452" y="308" width="86" height="64" fill="#f3f1e8" stroke="#a79f8c" stroke-width="4"/>
+    <path d="M442 310 L495 282 L548 310 Z" fill="#7d8a86"/>
+    <rect x="480" y="330" width="30" height="42" fill="#b3a37e" stroke="#93835f" stroke-width="3"/>
+  </g>
+
+  <!-- 川 -->
+  <path fill="url(#bp1River)" d="M0 424 C 140 400, 300 404, 470 436 C 560 452, 620 480, 700 500 L700 560 L0 560 Z"/>
+  <g stroke="#ffffff" stroke-width="4" opacity="0.65" fill="none">
+    <path d="M60 486 C 150 470, 240 476, 330 498"/>
+    <path d="M120 526 C 210 510, 300 518, 390 540"/>
+  </g>
+
+  <!-- 橋 -->
+  <g>
+    <rect x="176" y="386" width="330" height="26" fill="#d3d7d2" stroke="#98a196" stroke-width="4"/>
+    <rect x="176" y="412" width="330" height="16" fill="#b7bdb6"/>
+    <g stroke="#98a196" stroke-width="7" fill="none">
+      <path d="M196 428 L196 486 M486 428 L486 470"/>
+    </g>
+    <g stroke="#8f9a96" stroke-width="5" fill="none">
+      <path d="M182 386 L182 350 M262 386 L262 350 M342 386 L342 350 M422 386 L422 350 M500 386 L500 350"/>
+      <path d="M180 354 L502 354"/>
+    </g>
+  </g>
+
+  <!-- 手前の河原 -->
+  <path fill="#cfc9b6" d="M0 466 C 96 468, 206 492, 300 560 L0 560 Z"/>
+  <g fill="#b3ac97">
+    <circle cx="52" cy="522" r="9"/><circle cx="104" cy="538" r="7"/><circle cx="150" cy="550" r="8"/>
+  </g>
+
+  <!-- 橋梁点検車（橋の上から桁下を点検） -->
+  <g>
+    <path d="M416 350 L470 350 L470 432" stroke="#e0873c" stroke-width="9" fill="none" stroke-linejoin="round"/>
+    <rect x="446" y="426" width="48" height="26" rx="4" fill="#f2f4ef" stroke="#e0873c" stroke-width="4"/>
+    <rect x="296" y="318" width="126" height="56" rx="6" fill="#f2f4ef" stroke="#5c6f66" stroke-width="4"/>
+    <rect x="306" y="330" width="42" height="26" rx="3" fill="#bcdcea" stroke="#7fa5b6" stroke-width="3"/>
+    <circle cx="324" cy="380" r="15" fill="#4b5450" stroke="#2f3733" stroke-width="4"/>
+    <circle cx="396" cy="380" r="15" fill="#4b5450" stroke="#2f3733" stroke-width="4"/>
+  </g>
+
+  <!-- 河原から桁下を見上げる点検作業員 -->
+  <g>
+    <circle cx="192" cy="498" r="14" fill="#e8c9a8" stroke="#b99a7c" stroke-width="3"/>
+    <path d="M178 494 C 180 478, 206 478, 208 494 Z" fill="#e8a33c" stroke="#bf7f24" stroke-width="3"/>
+    <path d="M178 514 C 178 538, 184 550, 186 560 L206 560 C 208 548, 214 536, 212 514 Z" fill="#4d6f8c" stroke="#33506a" stroke-width="3"/>
+  </g>
+
+  <!-- 迂回路のない橋の札 -->
+  <g>
+    <path d="M120 560 L120 356" stroke="#8f7f5e" stroke-width="9" fill="none"/>
+    <rect x="16" y="304" width="216" height="42" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+    <text x="124" y="333" font-family="sans-serif" font-size="19" font-weight="bold" fill="#c0563c" text-anchor="middle">迂回路のない橋</text>
+  </g>
+</svg>

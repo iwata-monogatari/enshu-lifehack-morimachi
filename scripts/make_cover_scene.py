@@ -1656,7 +1656,61 @@ def scene_license_return(d):
     band(d, ["車を返した日に、", "その地区に残る足"], "森町ライフハック／地区めぐり")
 
 
+def scene_bridge_plans(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 100, 704, 744], 300)
+    # 中景：段になった茶畑
+    d.polygon([(0, 296), (760, 288), (760, 344), (0, 354)], fill=(139, 183, 95))
+    for i in range(3):
+        d.line([(0, 304 + i * 15), (760, 296 + i * 15)], fill=(93, 138, 62), width=3)
+    d.polygon([(0, 348), (760, 338), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 226, 200))
+    # 右：山肌とトンネル坑口
+    d.polygon([(520, 348), (640, 342), (760, 396), (760, 540), (556, 528)], fill=(157, 180, 135))
+    d.polygon([(596, 470), (596, 424), (600, 412), (620, 402), (640, 412), (644, 424), (644, 470)],
+              fill=(59, 69, 80))
+    d.polygon([(588, 428), (592, 410), (608, 396), (632, 396), (648, 410), (652, 428)],
+              fill=(198, 206, 197), outline=(152, 163, 150), width=4)
+    # 対岸の家と蔵、ひび割れた細い道
+    d.polygon([(392, 396), (444, 364), (496, 396), (496, 452), (392, 452)],
+              fill=(239, 233, 220), outline=(167, 159, 140), width=4)
+    d.polygon([(382, 400), (444, 358), (506, 400)], fill=(109, 122, 128))
+    d.rectangle([420, 416, 466, 452], fill=(201, 180, 140), outline=(156, 135, 99), width=3)
+    d.polygon([(330, 490), (596, 424), (612, 444), (352, 516)], fill=(200, 195, 180))
+    for x0, y0 in ((376, 496), (426, 486), (476, 472), (526, 458)):
+        d.line([(x0, y0 + 12), (x0 + 16, y0 - 6)], fill=(143, 138, 124), width=3)
+        d.line([(x0 + 16, y0 - 6), (x0 + 30, y0 + 4)], fill=(143, 138, 124), width=3)
+    # 川
+    d.polygon([(0, 470), (140, 452), (300, 466), (420, 502), (420, BAND_TOP), (0, BAND_TOP)],
+              fill=(140, 186, 212))
+    d.line([(40, 512), (240, 500)], fill=(226, 238, 244), width=4)
+    d.line([(80, 546), (280, 534)], fill=(226, 238, 244), width=4)
+    # 一本だけの橋
+    d.rectangle([94, 428, 372, 450], fill=(211, 215, 210), outline=(152, 161, 150), width=4)
+    d.rectangle([94, 450, 372, 462], fill=(183, 189, 182))
+    d.line([(120, 462), (120, 522)], fill=(152, 161, 150), width=8)
+    d.line([(346, 462), (346, 508)], fill=(152, 161, 150), width=8)
+    for x in (100, 168, 236, 304, 366):
+        d.line([(x, 428), (x, 398)], fill=(143, 154, 150), width=5)
+    d.line([(98, 401), (368, 401)], fill=(143, 154, 150), width=5)
+    # 手前の河原
+    d.polygon([(0, 502), (146, 510), (312, BAND_TOP), (0, BAND_TOP)], fill=(207, 201, 182))
+    for cx, cy in ((48, 540), (104, 556), (156, 572)):
+        d.ellipse([cx - 8, cy - 6, cx + 8, cy + 6], fill=(179, 172, 151))
+    # 桁下を見上げる点検作業員
+    d.ellipse([176, 496, 206, 526], fill=(232, 201, 168), outline=(185, 154, 124), width=3)
+    d.polygon([(174, 504), (191, 486), (208, 504)], fill=(232, 163, 60))
+    d.polygon([(174, 530), (208, 530), (212, BAND_TOP), (170, BAND_TOP)], fill=(77, 111, 140))
+    # 札
+    d.rectangle([18, 320, 268, 356], fill=(255, 255, 255), outline=(192, 86, 60), width=3)
+    d.text((32, 328), "迂回路のない橋", font=ImageFont.truetype(FONT_BOLD, 21), fill=(192, 86, 60))
+    d.rectangle([540, 320, 744, 356], fill=(255, 255, 255), outline=(31, 62, 82), width=3)
+    d.text((554, 328), "トンネルは1本", font=ImageFont.truetype(FONT_BOLD, 21), fill=(31, 62, 82))
+    band(d, ["実家へ渡る橋は、", "いつ誰が直すのか"], "森町ライフハック／地区めぐり")
+
+
 SCENES = {
+    "20260814-bridge-pavement-tunnel-plans": scene_bridge_plans,
     "20260814-license-return-district-feet": scene_license_return,
     "20260813-august-grass-mowing": scene_august_grass,
     "20260813-kokko-kizoku-forest": scene_kokko_forest,

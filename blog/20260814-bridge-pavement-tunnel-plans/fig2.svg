@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="bp2Title bp2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="bp2Title">実家までの道を公表資料から確かめる順番を、一本の道として描いたイラスト</title>
+  <desc id="bp2Desc">左端に森町の実家があり、その前で地図と紙を広げて橋の名前と川の名前を書き取る場面が描かれます。次の区間では橋のたもとの銘板と、幅員や重量の制限標識を見上げて確かめる場面が描かれます。三つ目の地点で道が三方向に分かれ、上の道は橋の絵と「迂回路のない24橋か」の札へ、真ん中の道はひび割れた舗装と「調べる83km／調べない223km」の札へ、下の道はトンネルの坑口と「迂回路5km・10分」の札へ続きます。道の終わりには役場建設課の窓口があり、道路占用と通行規制の書類を前に相談する場面が描かれます。背景には遠州の山並みと段になった茶畑が広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="bp2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9cde0"/><stop offset="1" stop-color="#eaf1e6"/>
+    </linearGradient>
+    <linearGradient id="bp2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#89a7ba"/><stop offset="1" stop-color="#b6cbd2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="146" fill="url(#bp2Sky)"/>
+  <circle cx="922" cy="44" r="28" fill="#ffd664"/>
+  <path fill="url(#bp2Far)" d="M0 104 L94 50 L198 102 L310 42 L424 102 L538 42 L652 102 L766 52 L876 102 L1000 66 L1000 142 L0 142 Z"/>
+  <path fill="#7fae57" d="M0 148 C 220 140, 420 164, 640 152 C 780 144, 880 156, 1000 148 L1000 186 L0 192 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 160 C 220 152, 420 176, 640 164 C 780 156, 880 168, 1000 160"/>
+    <path d="M0 176 C 220 168, 420 192, 640 180 C 780 172, 880 184, 1000 176"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M12 188 l14 -46 l14 46 z"/><path d="M44 188 l11 -38 l11 38 z"/><path d="M956 188 l13 -44 l13 44 z"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 188 L1000 182 L1000 560 L0 560 Z"/>
+
+  <!-- 道（分岐前） -->
+  <path fill="#cdc8b9" d="M118 300 L600 300 L600 348 L118 348 Z"/>
+  <g stroke="#ffffff" stroke-width="6" stroke-dasharray="28 24" fill="none"><path d="M122 324 L596 324"/></g>
+  <!-- 上の分岐 -->
+  <path fill="#cdc8b9" d="M580 300 L706 300 L706 224 L900 224 L900 268 L754 268 L754 348 L580 348 Z"/>
+  <!-- 下の分岐 -->
+  <path fill="#cdc8b9" d="M580 348 L676 348 L676 448 L900 448 L900 492 L628 492 L628 348 Z"/>
+
+  <!-- 実家と地図 -->
+  <g>
+    <path d="M16 258 L76 222 L136 258 L136 322 L16 322 Z" fill="#efe9dc" stroke="#a79f8c" stroke-width="4"/>
+    <path d="M6 262 L76 216 L146 262 Z" fill="#6d7a80"/>
+    <rect x="52" y="278" width="48" height="44" fill="#c9b48c" stroke="#9c8763" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="14" y="376" width="140" height="96" rx="5" fill="#f6f4e9" stroke="#8f9a96" stroke-width="4"/>
+    <path d="M22 448 C 56 410, 92 442, 148 402" fill="none" stroke="#6ea3c0" stroke-width="7"/>
+    <rect x="52" y="424" width="46" height="9" fill="#98a196"/>
+    <rect x="10" y="482" width="182" height="34" rx="6" fill="#ffffff" stroke="#2f6b53" stroke-width="3"/>
+    <text x="101" y="505" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">①橋と川の名前</text>
+  </g>
+
+  <!-- 銘板と制限標識 -->
+  <g>
+    <rect x="212" y="212" width="126" height="76" rx="5" fill="#e6e3d8" stroke="#98a196" stroke-width="4"/>
+    <g fill="#8f9a96">
+      <rect x="228" y="234" width="94" height="9"/><rect x="228" y="254" width="70" height="9"/>
+    </g>
+    <text x="275" y="226" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">銘板</text>
+  </g>
+  <g>
+    <path d="M394 300 L394 214" stroke="#8f9a96" stroke-width="8" fill="none"/>
+    <circle cx="394" cy="192" r="34" fill="#ffffff" stroke="#c0563c" stroke-width="7"/>
+    <text x="394" y="199" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3e52" text-anchor="middle">2.0</text>
+  </g>
+  <rect x="212" y="376" width="242" height="34" rx="6" fill="#ffffff" stroke="#2f6b53" stroke-width="3"/>
+  <text x="333" y="399" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">②幅と重さの標識</text>
+
+  <!-- 上の道：橋 -->
+  <g>
+    <rect x="768" y="180" width="200" height="18" fill="#d3d7d2" stroke="#98a196" stroke-width="4"/>
+    <g stroke="#8f9a96" stroke-width="4" fill="none">
+      <path d="M778 180 L778 154 M828 180 L828 154 M878 180 L878 154 M928 180 L928 154 M960 180 L960 154"/>
+      <path d="M776 157 L962 157"/>
+    </g>
+    <g stroke="#98a196" stroke-width="6" fill="none"><path d="M790 198 L790 232 M946 198 L946 232"/></g>
+  </g>
+  <rect x="688" y="240" width="272" height="34" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="3"/>
+  <text x="824" y="263" font-family="sans-serif" font-size="16" font-weight="bold" fill="#c0563c" text-anchor="middle">迂回路のない24橋か</text>
+
+  <!-- 真ん中の道：ひび割れた舗装 -->
+  <g>
+    <rect x="628" y="360" width="150" height="60" rx="4" fill="#b9b3a4" stroke="#8f8a7c" stroke-width="4"/>
+    <g stroke="#6f6a5e" stroke-width="4" fill="none">
+      <path d="M646 412 L662 384 L654 366 M690 414 L704 388 L696 366 M726 412 L742 386 L736 366"/>
+      <path d="M662 384 L682 378 M704 388 L722 382"/>
+    </g>
+  </g>
+  <rect x="614" y="292" width="330" height="34" rx="6" fill="#ffffff" stroke="#2f6b53" stroke-width="3"/>
+  <text x="779" y="315" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">調べる83km／調べない223km</text>
+
+  <!-- 下の道：トンネル -->
+  <g>
+    <path fill="#9db487" d="M796 500 L866 448 L960 448 L1000 480 L1000 560 L796 560 Z"/>
+    <path d="M846 528 C 846 496, 904 496, 904 528 L904 560 L846 560 Z" fill="#3b4550"/>
+    <path d="M838 522 C 838 486, 912 486, 912 522 L912 534 L838 534 Z" fill="#c6cec5" stroke="#98a396" stroke-width="4"/>
+  </g>
+  <rect x="592" y="502" width="234" height="34" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="3"/>
+  <text x="709" y="525" font-family="sans-serif" font-size="16" font-weight="bold" fill="#c0563c" text-anchor="middle">迂回路5km・10分</text>
+
+  <!-- 役場建設課の窓口 -->
+  <g>
+    <rect x="212" y="428" width="330" height="106" rx="8" fill="#f2f5f1" stroke="#5c6f66" stroke-width="5"/>
+    <rect x="212" y="428" width="330" height="26" rx="8" fill="#1f3e52"/>
+    <text x="377" y="448" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">役場 建設課の窓口</text>
+    <rect x="230" y="468" width="94" height="50" rx="4" fill="#ffffff" stroke="#8f9a96" stroke-width="3"/>
+    <text x="277" y="498" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">道路占用</text>
+    <rect x="336" y="468" width="94" height="50" rx="4" fill="#ffffff" stroke="#8f9a96" stroke-width="3"/>
+    <text x="383" y="498" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">通行規制</text>
+    <rect x="442" y="468" width="86" height="50" rx="4" fill="#ffffff" stroke="#c0563c" stroke-width="3"/>
+    <text x="485" y="490" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c0563c" text-anchor="middle">点検結果</text>
+    <text x="485" y="508" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c0563c" text-anchor="middle">の照会</text>
+  </g>
+  <!-- 窓口で聞く人 -->
+  <g>
+    <circle cx="570" cy="452" r="15" fill="#e8c9a8" stroke="#b99a7c" stroke-width="3"/>
+    <path d="M558 442 C 562 428, 580 428, 583 442 Z" fill="#6b6f76"/>
+    <path d="M554 468 C 554 508, 560 528, 562 560 L584 560 C 586 530, 592 500, 590 468 Z" fill="#5a6b86" stroke="#42506a" stroke-width="3"/>
+    <path d="M554 486 L536 492" stroke="#e8c9a8" stroke-width="9" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
