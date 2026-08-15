@@ -1709,7 +1709,72 @@ def scene_bridge_plans(d):
     band(d, ["実家へ渡る橋は、", "いつ誰が直すのか"], "森町ライフハック／地区めぐり")
 
 
+def scene_kasanboko(d):
+    # 夕暮れの空
+    for y in range(0, 300):
+        t = y / 300
+        d.line([(0, y), (S, y)], fill=(int(238 - 6 * t), int(184 + 34 * t), int(126 + 76 * t)))
+    d.rectangle([0, 300, S, BAND_TOP], fill=(226, 232, 210))
+    d.ellipse([646, 46, 706, 106], fill=(244, 162, 89))
+    mountains(d)
+    cedars(d, [16, 60, 104, 700, 740], 300)
+    # 中景：段になった茶畑
+    d.polygon([(0, 296), (760, 288), (760, 340), (0, 350)], fill=(133, 178, 92))
+    for i in range(3):
+        d.line([(0, 302 + i * 14), (760, 294 + i * 14)], fill=(90, 134, 62), width=3)
+    d.polygon([(0, 344), (760, 334), (760, BAND_TOP), (0, BAND_TOP)], fill=(216, 220, 196))
+    # 右：新盆の家
+    d.polygon([(468, 396), (468, 520), (720, 520), (720, 396)],
+              fill=(242, 236, 224), outline=(163, 153, 127), width=4)
+    d.polygon([(452, 400), (594, 336), (736, 400)], fill=(106, 122, 128))
+    d.rectangle([492, 424, 606, 502], fill=(231, 220, 196), outline=(176, 164, 136), width=3)
+    d.rectangle([516, 442, 542, 490], fill=(138, 107, 70), outline=(107, 81, 51), width=3)
+    d.rectangle([650, 434, 700, 520], fill=(201, 180, 140), outline=(156, 135, 99), width=3)
+    # 軒の白提灯
+    d.line([(676, 400), (676, 414)], fill=(123, 112, 90), width=3)
+    d.ellipse([658, 414, 694, 456], fill=(253, 248, 234), outline=(201, 189, 160), width=3)
+    # 門口のたいまつ
+    d.polygon([(424, 552), (452, 552), (446, 512), (430, 512)], fill=(141, 122, 92))
+    d.polygon([(438, 456), (420, 490), (428, 512), (448, 512), (456, 486)], fill=(240, 161, 60))
+    d.polygon([(438, 476), (430, 496), (436, 508), (446, 506), (450, 490)], fill=(255, 224, 138))
+    # 道
+    d.polygon([(0, 560), (200, 528), (430, 508), (444, 546), (210, 566), (0, BAND_TOP)],
+              fill=(205, 195, 168))
+    # 盆車（提灯と太鼓）
+    d.rectangle([206, 452, 348, 500], fill=(233, 220, 192), outline=(163, 145, 95), width=4)
+    d.rectangle([206, 440, 348, 454], fill=(201, 176, 114))
+    d.line([(220, 440), (220, 396)], fill=(141, 122, 76), width=5)
+    d.line([(334, 440), (334, 396)], fill=(141, 122, 76), width=5)
+    d.line([(220, 400), (334, 400)], fill=(141, 122, 76), width=5)
+    for cx in (242, 278, 314):
+        d.ellipse([cx - 12, 404, cx + 12, 436], fill=(253, 243, 216), outline=(201, 162, 74), width=3)
+    d.ellipse([248, 452, 306, 500], fill=(184, 86, 58), outline=(138, 59, 38), width=4)
+    d.ellipse([262, 462, 292, 490], fill=(240, 228, 203), outline=(201, 180, 140), width=3)
+    d.ellipse([204, 496, 240, 532], fill=(106, 91, 69), outline=(70, 60, 45), width=4)
+    d.ellipse([314, 496, 350, 532], fill=(106, 91, 69), outline=(70, 60, 45), width=4)
+    # 盆車を曳く子ども
+    d.ellipse([146, 470, 178, 502], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.polygon([(144, 506), (180, 506), (184, BAND_TOP), (140, BAND_TOP)], fill=(216, 120, 94))
+    d.line([(178, 516), (206, 506)], fill=(240, 210, 176), width=7)
+    # 先頭の唐傘（笠鉾）と子ども
+    d.line([(74, 500), (74, 336)], fill=(141, 122, 92), width=8)
+    d.polygon([(10, 336), (24, 292), (124, 292), (138, 336)], fill=(192, 86, 60),
+              outline=(143, 59, 38), width=4)
+    for x0 in (20, 48, 76, 104):
+        d.rectangle([x0, 336, x0 + 14, 336 + 42 + (x0 % 3) * 6], fill=(192, 86, 60))
+    d.ellipse([64, 274, 84, 294], fill=(216, 161, 60), outline=(168, 118, 31), width=3)
+    d.ellipse([58, 486, 90, 518], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.polygon([(56, 522), (92, 522), (96, BAND_TOP), (52, BAND_TOP)], fill=(224, 192, 94))
+    # 札
+    d.rectangle([148, 306, 372, 344], fill=(255, 255, 255), outline=(192, 86, 60), width=3)
+    d.text((162, 314), "笠鉾が先頭に立つ", font=ImageFont.truetype(FONT_BOLD, 21), fill=(192, 86, 60))
+    d.rectangle([472, 306, 744, 344], fill=(255, 255, 255), outline=(31, 62, 82), width=3)
+    d.text((486, 314), "新盆を迎える家へ", font=ImageFont.truetype(FONT_BOLD, 21), fill=(31, 62, 82))
+    band(d, ["カサンボコは", "新盆の家で唱えられる"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
+    "20260815-kasanboko-first-bon": scene_kasanboko,
     "20260814-bridge-pavement-tunnel-plans": scene_bridge_plans,
     "20260814-license-return-district-feet": scene_license_return,
     "20260813-august-grass-mowing": scene_august_grass,

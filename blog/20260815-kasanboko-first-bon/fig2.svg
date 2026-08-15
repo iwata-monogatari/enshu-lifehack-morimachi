@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kb2Title kb2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="kb2Title">実家が新盆になった年に確かめる順番を、一本の道すじとして描いたイラスト</title>
+  <desc id="kb2Desc">左端に森町の瓦屋根の実家があり、縁側には位牌を出した盆棚とススキが見えます。そこから右へ道が伸びています。最初の地点では家族が盆棚の前で紙に書き込みをしており、「仏壇と盆飾りを見る」の札が立っています。次の地点では、道端で町内会の役員らしい年配の人と家族が向かい合って話し、「新盆だと地区へ伝える」の札があります。三つ目の地点で道が二つに分かれ、上の道は赤い唐傘と提灯をつけた盆車の絵と「回る町内か」の札へ、下の道は灯りの消えた静かな家の絵と「回らない町内か」の札へ続きます。二つの道は再び合流し、最後に役場の窓口があって、死亡届と火葬予約の書類を前に職員と家族が話しています。背景には遠州の山並みと段になった茶畑が広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="kb2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9d6e4"/><stop offset="1" stop-color="#eef2e6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f1f3e8"/>
+  <rect width="1000" height="150" fill="url(#kb2Sky)"/>
+  <path fill="#9ab3bd" d="M0 104 L104 52 L212 102 L320 46 L436 102 L556 48 L672 102 L790 54 L900 102 L1000 68 L1000 146 L0 146 Z"/>
+  <g fill="#3d6350">
+    <path d="M12 150 l13 -42 l13 42 z"/><path d="M42 150 l11 -36 l11 36 z"/>
+    <path d="M934 150 l13 -42 l13 42 z"/><path d="M962 150 l14 -46 l14 46 z"/>
+  </g>
+  <path fill="#8fb469" d="M0 152 C 240 144, 460 166, 700 154 C 830 148, 910 160, 1000 152 L1000 192 L0 198 Z"/>
+  <g stroke="#6a8f4c" stroke-width="4" opacity="0.8" fill="none">
+    <path d="M0 166 C 240 158, 460 180, 700 168 C 830 162, 910 174, 1000 166"/>
+    <path d="M0 182 C 240 174, 460 196, 700 184 C 830 178, 910 190, 1000 182"/>
+  </g>
+  <path fill="#e5e8d8" d="M0 194 L1000 188 L1000 560 L0 560 Z"/>
+
+  <!-- 道すじ -->
+  <g stroke="#cbc2a6" stroke-width="26" fill="none" stroke-linecap="round">
+    <path d="M182 402 L560 402"/>
+    <path d="M560 402 L662 300 L826 300"/>
+    <path d="M560 402 L662 494 L826 494"/>
+    <path d="M826 300 L890 396 L900 396"/>
+    <path d="M826 494 L890 396"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="4" fill="none" stroke-dasharray="16 14" opacity="0.8">
+    <path d="M182 402 L560 402"/><path d="M560 402 L662 300 L826 300"/><path d="M560 402 L662 494 L826 494"/>
+  </g>
+
+  <!-- 実家 -->
+  <g>
+    <path d="M42 322 L42 434 L176 434 L176 322 Z" fill="#f2ece0" stroke="#a3997f" stroke-width="4"/>
+    <path d="M26 326 L109 268 L192 326 Z" fill="#6a7a80"/>
+    <rect x="60" y="350" width="80" height="66" fill="#e7dcc4" stroke="#b0a488" stroke-width="3"/>
+    <rect x="72" y="364" width="20" height="34" fill="#8a6b46" stroke="#6b5133" stroke-width="3"/>
+    <g stroke="#5f8a42" stroke-width="3" fill="none"><path d="M112 400 L112 366 M122 400 L119 368"/></g>
+    <circle cx="112" cy="362" r="5" fill="#c15b86"/><circle cx="121" cy="364" r="5" fill="#c15b86"/>
+    <rect x="104" y="400" width="34" height="9" fill="#cdbf9c"/>
+  </g>
+
+  <!-- 1 仏壇と盆飾りを見る -->
+  <g>
+    <circle cx="246" cy="342" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M230 366 C 230 396, 236 412, 238 428 L262 428 C 266 412, 272 396, 270 366 Z" fill="#5f86a8" stroke="#3f6684" stroke-width="3"/>
+    <rect x="264" y="368" width="42" height="30" rx="3" fill="#fdfbf2" stroke="#b9b09a" stroke-width="3"/>
+    <g stroke="#b9b09a" stroke-width="2" fill="none"><path d="M272 378 L298 378 M272 386 L292 386"/></g>
+    <path d="M262 380 L268 380" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="182" y="242" width="184" height="40" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="274" y="269" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3e52" text-anchor="middle">仏壇と盆飾りを見る</text>
+    <path d="M274 282 L274 330" stroke="#8f9a86" stroke-width="4"/>
+  </g>
+
+  <!-- 2 新盆だと地区へ伝える -->
+  <g>
+    <circle cx="424" cy="344" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M408 368 C 408 398, 414 414, 416 430 L440 430 C 444 414, 450 398, 448 368 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+    <circle cx="494" cy="344" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M480 330 C 484 318, 506 318, 508 330 Z" fill="#8b8272"/>
+    <path d="M478 368 C 478 398, 484 414, 486 430 L510 430 C 514 414, 520 398, 518 368 Z" fill="#b8845e" stroke="#8d6242" stroke-width="3"/>
+    <path d="M446 386 L478 386" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="392" y="242" width="204" height="40" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="494" y="269" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3e52" text-anchor="middle">新盆だと地区へ伝える</text>
+    <path d="M494 282 L494 322" stroke="#8f9a86" stroke-width="4"/>
+  </g>
+
+  <!-- 分岐点の道標 -->
+  <g>
+    <path d="M560 470 L560 366" stroke="#8f7f5e" stroke-width="8"/>
+    <circle cx="560" cy="402" r="12" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+  </g>
+
+  <!-- 上の道：回る町内 -->
+  <g>
+    <path d="M694 300 L694 224" stroke="#8d7a5c" stroke-width="6"/>
+    <path d="M654 224 C 662 190, 726 190, 734 224 Z" fill="#c0563c" stroke="#8f3b26" stroke-width="4"/>
+    <g fill="#c0563c"><path d="M660 224 L660 254 L670 254 L670 224 Z"/><path d="M690 224 L690 258 L700 258 L700 224 Z"/><path d="M718 224 L718 252 L728 252 L728 224 Z"/></g>
+    <rect x="748" y="252" width="96" height="34" rx="5" fill="#e9dcc0" stroke="#a3915f" stroke-width="4"/>
+    <ellipse cx="772" cy="236" rx="10" ry="13" fill="#fdf3d8" stroke="#c9a24a" stroke-width="3"/>
+    <ellipse cx="800" cy="236" rx="10" ry="13" fill="#fbe2b4" stroke="#c9a24a" stroke-width="3"/>
+    <ellipse cx="796" cy="268" rx="19" ry="16" fill="#b8563a" stroke="#8a3b26" stroke-width="3"/>
+    <circle cx="758" cy="292" r="12" fill="#6a5b45" stroke="#463c2d" stroke-width="3"/>
+    <circle cx="834" cy="292" r="12" fill="#6a5b45" stroke="#463c2d" stroke-width="3"/>
+    <rect x="642" y="140" width="216" height="40" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+    <text x="750" y="167" font-family="sans-serif" font-size="18" font-weight="bold" fill="#c0563c" text-anchor="middle">回る町内か：日時を聞く</text>
+  </g>
+
+  <!-- 下の道：回らない町内 -->
+  <g>
+    <path d="M700 528 L700 452 L800 452 L800 528 Z" fill="#eae6da" stroke="#a3997f" stroke-width="4"/>
+    <path d="M686 456 L750 412 L814 456 Z" fill="#8b969a"/>
+    <rect x="722" y="480" width="34" height="48" fill="#b9ae95" stroke="#948a72" stroke-width="3"/>
+    <rect x="608" y="440" width="60" height="46" fill="#e2ded0" stroke="#a3997f" stroke-width="3"/>
+    <path d="M600 444 L638 418 L676 444 Z" fill="#8b969a"/>
+    <rect x="600" y="536" width="256" height="24" rx="4" fill="#d7d2bd"/>
+    <path d="M350 470 L350 452 L586 452" stroke="#8f9a86" stroke-width="4" fill="none"/>
+    <rect x="230" y="470" width="240" height="40" rx="6" fill="#ffffff" stroke="#5f7b3d" stroke-width="4"/>
+    <text x="350" y="497" font-family="sans-serif" font-size="18" font-weight="bold" fill="#4f6b33" text-anchor="middle">回らない町内か：記録する</text>
+  </g>
+
+  <!-- 合流先：役場の窓口 -->
+  <g>
+    <rect x="860" y="316" width="126" height="118" rx="6" fill="#f4f2e8" stroke="#98917c" stroke-width="4"/>
+    <rect x="860" y="316" width="126" height="22" fill="#1f3e52"/>
+    <rect x="874" y="352" width="98" height="16" rx="3" fill="#dfd9c6"/>
+    <circle cx="896" cy="396" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M882 416 C 882 428, 884 432, 886 434 L908 434 C 910 430, 912 426, 910 416 Z" fill="#5f86a8" stroke="#3f6684" stroke-width="3"/>
+    <circle cx="950" cy="396" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M936 416 C 936 428, 938 432, 940 434 L962 434 C 964 430, 966 426, 964 416 Z" fill="#b8845e" stroke="#8d6242" stroke-width="3"/>
+    <rect x="906" y="374" width="38" height="24" rx="3" fill="#fdfbf2" stroke="#b9b09a" stroke-width="3"/>
+    <rect x="808" y="446" width="184" height="40" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="900" y="473" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3e52" text-anchor="middle">役場は手続きの窓口</text>
+  </g>
+</svg>

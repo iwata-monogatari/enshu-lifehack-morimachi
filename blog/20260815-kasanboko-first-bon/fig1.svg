@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kb1Title kb1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="kb1Title">森町の夏の夕方、新盆の家へ向かうカサンボコの行列を描いたイラスト</title>
+  <desc id="kb1Desc">夕焼けの空の下、山あいの集落の道を子どもたちの行列が進んでいます。先頭の子どもは赤い布を垂らした大きな唐傘を高く掲げ、その後ろで数人の子どもが提灯をたくさんつけ太鼓を乗せた小さな盆車を曳いています。太鼓をばちで打つ子どももいます。道の脇には小さな地蔵堂が建っています。行列の先には瓦屋根の家があり、門口に白い提灯が下がり、地面ではたいまつが燃えています。縁側の内側には位牌を出した盆棚が見え、ススキとミソハギが供えられています。奥には段になった茶畑と杉林、遠州の山並みが連なり、手前には太田川の流れがあります。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="kb1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2b981"/><stop offset="0.55" stop-color="#f6d6ad"/><stop offset="1" stop-color="#eae5d2"/>
+    </linearGradient>
+    <linearGradient id="kb1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7c8ba2"/><stop offset="1" stop-color="#a9b7bc"/>
+    </linearGradient>
+    <linearGradient id="kb1River" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9db9cf"/><stop offset="1" stop-color="#6d93b3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#ece7d6"/>
+  <rect width="1000" height="186" fill="url(#kb1Sky)"/>
+  <circle cx="856" cy="66" r="26" fill="#f4a259" opacity="0.9"/>
+  <g fill="#f7d9b4" opacity="0.75">
+    <ellipse cx="180" cy="52" rx="58" ry="16"/><ellipse cx="300" cy="76" rx="72" ry="14"/>
+  </g>
+  <path fill="url(#kb1Far)" d="M0 126 L96 62 L200 122 L312 54 L424 122 L540 50 L654 122 L768 62 L880 122 L1000 80 L1000 176 L0 176 Z"/>
+
+  <!-- 遠景の杉林と茶畑 -->
+  <g fill="#3d6350">
+    <path d="M10 180 l14 -48 l14 48 z"/><path d="M42 180 l12 -40 l12 40 z"/><path d="M72 180 l14 -44 l14 44 z"/>
+    <path d="M918 180 l14 -44 l14 44 z"/><path d="M948 180 l16 -50 l16 50 z"/>
+  </g>
+  <path fill="#7ba756" d="M0 182 C 230 174, 430 196, 650 184 C 790 176, 890 188, 1000 180 L1000 226 L0 232 Z"/>
+  <g stroke="#5b8340" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 196 C 230 188, 430 210, 650 198 C 790 190, 890 202, 1000 194"/>
+    <path d="M0 212 C 230 204, 430 226, 650 214 C 790 206, 890 218, 1000 210"/>
+  </g>
+  <path fill="#d9dcc4" d="M0 228 L1000 222 L1000 560 L0 560 Z"/>
+
+  <!-- 新盆の家（右） -->
+  <g>
+    <path d="M634 296 L634 434 L906 434 L906 296 Z" fill="#f2ece0" stroke="#a3997f" stroke-width="4"/>
+    <path d="M614 300 L770 232 L926 300 Z" fill="#6a7a80"/>
+    <path d="M614 300 L926 300 L926 314 L614 314 Z" fill="#57676d"/>
+    <!-- 縁側と盆棚 -->
+    <rect x="660" y="330" width="150" height="90" fill="#e7dcc4" stroke="#b0a488" stroke-width="3"/>
+    <rect x="676" y="352" width="118" height="68" fill="#f7f2e4" stroke="#c2b696" stroke-width="3"/>
+    <rect x="700" y="368" width="26" height="42" fill="#8a6b46" stroke="#6b5133" stroke-width="3"/>
+    <rect x="706" y="376" width="14" height="26" fill="#f4efe0"/>
+    <g stroke="#5f8a42" stroke-width="3" fill="none">
+      <path d="M748 410 L748 372 M760 410 L756 374 M772 410 L768 378"/>
+    </g>
+    <g fill="#c15b86"><circle cx="748" cy="368" r="5"/><circle cx="758" cy="370" r="5"/><circle cx="768" cy="374" r="5"/></g>
+    <rect x="742" y="410" width="42" height="10" fill="#cdbf9c"/>
+    <!-- 玄関 -->
+    <rect x="832" y="356" width="54" height="78" fill="#c9b48c" stroke="#9c8763" stroke-width="3"/>
+    <!-- 軒の白提灯 -->
+    <g>
+      <path d="M846 314 L846 330" stroke="#7b705a" stroke-width="3"/>
+      <ellipse cx="846" cy="346" rx="17" ry="21" fill="#fdf8ea" stroke="#c9bda0" stroke-width="3"/>
+      <path d="M829 346 L863 346" stroke="#d9cdb0" stroke-width="2"/>
+      <path d="M840 366 L852 366" stroke="#7b705a" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- 門口のたいまつ -->
+  <g>
+    <path d="M612 470 L636 470 L630 442 L618 442 Z" fill="#8d7a5c"/>
+    <path d="M624 402 C 610 424, 616 438, 624 442 C 634 436, 640 420, 624 402 Z" fill="#f0a13c"/>
+    <path d="M624 414 C 617 428, 620 436, 624 438 C 630 434, 633 424, 624 414 Z" fill="#ffe08a"/>
+  </g>
+
+  <!-- 道 -->
+  <path fill="#cdc3a8" d="M0 494 C 180 470, 360 452, 606 440 L620 476 C 380 490, 190 512, 0 540 Z"/>
+
+  <!-- 地蔵堂 -->
+  <g>
+    <rect x="516" y="366" width="62" height="62" fill="#efe9db" stroke="#a3997f" stroke-width="3"/>
+    <path d="M504 370 L547 336 L590 370 Z" fill="#7c8a86"/>
+    <rect x="536" y="386" width="22" height="42" fill="#5f5a4c"/>
+    <circle cx="547" cy="398" r="8" fill="#e3ddcc"/>
+    <rect x="539" y="406" width="16" height="22" rx="6" fill="#e3ddcc"/>
+    <path d="M536 384 L558 384" stroke="#c0563c" stroke-width="5"/>
+  </g>
+
+  <!-- 盆車（提灯と太鼓を乗せた小さな車） -->
+  <g>
+    <rect x="248" y="404" width="146" height="52" rx="6" fill="#e9dcc0" stroke="#a3915f" stroke-width="4"/>
+    <rect x="248" y="392" width="146" height="14" fill="#c9b072"/>
+    <g stroke="#8d7a4c" stroke-width="5" fill="none"><path d="M262 392 L262 342 M380 392 L380 342 M262 346 L380 346"/></g>
+    <g>
+      <ellipse cx="284" cy="366" rx="13" ry="17" fill="#fdf3d8" stroke="#c9a24a" stroke-width="3"/>
+      <ellipse cx="322" cy="368" rx="13" ry="17" fill="#fbe2b4" stroke="#c9a24a" stroke-width="3"/>
+      <ellipse cx="360" cy="366" rx="13" ry="17" fill="#fdf3d8" stroke="#c9a24a" stroke-width="3"/>
+    </g>
+    <!-- 太鼓 -->
+    <ellipse cx="322" cy="428" rx="30" ry="26" fill="#b8563a" stroke="#8a3b26" stroke-width="4"/>
+    <ellipse cx="322" cy="428" rx="20" ry="18" fill="#f0e4cb" stroke="#c9b48c" stroke-width="3"/>
+    <circle cx="264" cy="462" r="18" fill="#6a5b45" stroke="#463c2d" stroke-width="4"/>
+    <circle cx="378" cy="462" r="18" fill="#6a5b45" stroke="#463c2d" stroke-width="4"/>
+    <path d="M248 436 L206 448" stroke="#8d7a4c" stroke-width="6"/>
+  </g>
+
+  <!-- 太鼓をたたく子ども -->
+  <g>
+    <circle cx="404" cy="404" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M388 428 C 388 462, 394 480, 396 496 L420 496 C 424 478, 430 460, 428 428 Z" fill="#5f86a8" stroke="#3f6684" stroke-width="3"/>
+    <path d="M392 436 L362 424" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+    <path d="M362 424 L344 430" stroke="#a3854f" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 盆車を曳く子ども -->
+  <g>
+    <circle cx="192" cy="416" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M176 440 C 176 472, 182 490, 184 506 L208 506 C 212 488, 218 470, 216 440 Z" fill="#d8785e" stroke="#a75340" stroke-width="3"/>
+    <path d="M208 450 L232 444" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="140" cy="428" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M125 450 C 125 480, 131 496, 133 512 L155 512 C 159 496, 164 480, 162 450 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+    <path d="M156 460 L180 452" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- 先頭の唐傘（笠鉾）を掲げる子ども -->
+  <g>
+    <path d="M74 452 L74 306" stroke="#8d7a5c" stroke-width="8"/>
+    <path d="M12 306 C 22 258, 126 258, 136 306 Z" fill="#c0563c" stroke="#8f3b26" stroke-width="4"/>
+    <g stroke="#8f3b26" stroke-width="3" fill="none"><path d="M40 300 C 44 274, 48 268, 56 262 M74 296 L74 262 M108 300 C 104 274, 100 268, 92 262"/></g>
+    <g fill="#c0563c">
+      <path d="M20 306 L20 356 L34 356 L34 306 Z"/><path d="M46 306 L46 364 L60 364 L60 306 Z"/>
+      <path d="M72 306 L72 356 L86 356 L86 306 Z"/><path d="M98 306 L98 362 L112 362 L112 306 Z"/>
+    </g>
+    <circle cx="74" cy="250" r="9" fill="#d8a13c" stroke="#a8761f" stroke-width="3"/>
+    <circle cx="66" cy="440" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M50 464 C 50 494, 56 512, 58 528 L82 528 C 86 510, 92 492, 90 464 Z" fill="#e0c05e" stroke="#b0933c" stroke-width="3"/>
+    <path d="M60 470 L74 442" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- 手前の川 -->
+  <path fill="url(#kb1River)" d="M0 546 C 220 520, 460 512, 700 522 C 830 528, 920 538, 1000 534 L1000 560 L0 560 Z"/>
+  <g stroke="#ffffff" stroke-width="4" opacity="0.55" fill="none">
+    <path d="M120 546 C 220 536, 320 534, 420 540"/>
+    <path d="M540 548 C 640 540, 740 540, 840 546"/>
+  </g>
+
+  <!-- 札 -->
+  <g>
+    <rect x="150" y="248" width="150" height="40" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+    <text x="225" y="276" font-family="sans-serif" font-size="20" font-weight="bold" fill="#c0563c" text-anchor="middle">笠鉾が先頭</text>
+  </g>
+  <g>
+    <rect x="700" y="454" width="164" height="40" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="782" y="482" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1f3e52" text-anchor="middle">新盆を迎える家</text>
+  </g>
+</svg>
