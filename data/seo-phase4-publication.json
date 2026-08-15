@@ -2270,20 +2270,20 @@
   {
     "id": 127,
     "url": "/vacant-house/vacant-house-typhoon-check/",
-    "title": "台風前に森町の空き家を点検する順番",
+    "title": "森町の空き家を台風前後で比べる｜安全な撤退と写真点検票",
     "category": "空き家",
-    "search_intent": "雨戸、排水、飛散物、連絡体制を確認したい",
+    "search_intent": "遠方の空き家を台風前後に同じ写真番号で確認し、危険時の撤退と通過後の修繕判断へつなぎたい",
     "search_aliases": [
-      "台風前に森町の空き家を点検する順番",
-      "雨戸、排水、飛散物、連絡体制を確認したい"
+      "森町の空き家を台風前後で比べる",
+      "遠方の空き家を台風前後に同じ写真番号で確認し、危険時の撤退と通過後の修繕判断へつなぎたい"
     ],
-    "editorial_chars": 6892,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 5602,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 128,
