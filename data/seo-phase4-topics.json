@@ -4531,10 +4531,10 @@
     "id": 122,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の空き家バンク内覧を受ける所有者の準備",
+    "title": "森町の空き家バンク内覧前に作る｜危険・設備・残置物の案内表",
     "slug": "/vacant-house/vacant-bank-owner-viewing/",
     "category": "空き家",
-    "search_intent": "見学前に危険箇所、設備、残置物を説明できるようにしたい",
+    "search_intent": "空き家バンクの見学希望を受けた所有者が、危険箇所・設備・残置物・鍵・未確認質問を一件の内覧表へ整理したい",
     "risk": "MEDIUM",
     "cannibalization": {
       "level": "MEDIUM",
@@ -4564,9 +4564,11 @@
     },
     "review_note": "既存ページとの役割境界を冒頭と内部リンク文で明示する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/akiyabank/index.html",
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/gomi_navi/kateigomi/1101.html"
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/10/cyekkurisuto.pdf",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/380.html",
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/10/zisshiyoukou.pdf",
+      "https://www.mlit.go.jp/tochi_fudousan_kensetsugyo/const/tochi_fudousan_kensetsugyo_const_tk3_000001_00063.html"
     ],
     "required_sections": [
       "誰が、どの時点で「空き家バンク内覧を受ける所有者の準備」を確認する記事か",

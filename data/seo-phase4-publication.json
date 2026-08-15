@@ -2180,20 +2180,20 @@
   {
     "id": 122,
     "url": "/vacant-house/vacant-bank-owner-viewing/",
-    "title": "森町の空き家バンク内覧を受ける所有者の準備",
+    "title": "森町の空き家バンク内覧前に作る｜危険・設備・残置物の案内表",
     "category": "空き家",
-    "search_intent": "見学前に危険箇所、設備、残置物を説明できるようにしたい",
+    "search_intent": "空き家バンクの見学希望を受けた所有者が、危険箇所・設備・残置物・鍵・未確認質問を一件の内覧表へ整理したい",
     "search_aliases": [
-      "森町の空き家バンク内覧を受ける所有者の準備",
-      "見学前に危険箇所、設備、残置物を説明できるようにしたい"
+      "森町の空き家バンク内覧前に作る",
+      "空き家バンクの見学希望を受けた所有者が、危険箇所・設備・残置物・鍵・未確認質問を一件の内覧表へ整理したい"
     ],
-    "editorial_chars": 6867,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6037,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 123,
