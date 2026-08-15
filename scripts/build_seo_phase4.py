@@ -921,6 +921,7 @@ def svg(row: dict, index: int) -> str:
         108: (["耐震改修・診断と見積", "耐震改修・弱点と工事項目", "耐震改修・申請と完了"], ["seismic-diagnosis-estimate-ledger", "seismic-weakness-work-item-crosscheck", "seismic-application-completion-route"]),
         104: (["増築照合・三つの資料", "増築照合・一棟一行", "増築照合・届出と登記"], ["extension-tax-registry-site-ledger", "extension-building-row-crosscheck", "extension-town-registry-route"]),
         122: (["空き家内覧・案内表", "空き家内覧・外観と設備", "空き家内覧・鍵と回答"], ["vacant-bank-viewing-guide-sheet", "vacant-house-viewing-safety-route", "key-question-exit-check-route"]),
+        123: (["空き家登録・変更と抹消", "空き家登録・公開差分", "空き家登録・終了引継ぎ"], ["vacant-bank-change-cancel-file", "listing-old-new-condition-board", "listing-close-key-management-route"]),
         130: (["空き家連絡・危険箇所", "空き家連絡・外観点検", "空き家連絡・応急と恒久"], ["unsafe-vacant-house-contact-file", "vacant-house-exterior-risk-survey", "temporary-permanent-response-route"]),
         2: (["転籍・本籍と筆頭者", "転籍・現在と新本籍", "転籍・届出と戸籍請求"], ["domicile-transfer-ledger", "old-new-domicile-bridge", "transfer-filing-certificate-route"]),
         3: (["世帯変更・三つの届", "世帯変更・住所と生計", "世帯変更・届出後確認"], ["household-change-three-forms", "address-livelihood-households", "household-result-check-route"]),
@@ -1205,6 +1206,7 @@ def editorial_blocks_curated(row: dict) -> str:
         108: ("耐震診断の指摘箇所、補強図面、工事見積項目を一行ずつ照合する図", "着工前申請、変更確認、工事写真、完了報告を順に管理する図"),
         104: ("課税明細書、登記事項証明書、現況写真を一棟一行で照合する図", "森町の未登記家屋異動届と法務局の登記相談を分ける図"),
         122: ("道路側の危険、室内設備、残置物を内覧前に順番に確認する図", "鍵の受渡し、質問の持帰り、退出確認を一件記録へつなぐ図"),
+        123: ("公開中の空き家と変更後の写真・設備・価格を並べて照合する図", "変更届・抹消届から問い合わせ、鍵、管理担当の終了確認へ進む図"),
         130: ("道路側から門塀・屋根・外壁・立木の危険箇所を安全に確認する図", "危険連絡から応急対応・町相談・恒久対応へ分けて進む図"),
     }
     if item_id in day31_40_figure_text:
@@ -1876,6 +1878,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
         108: "木造住宅の耐震診断結果、補強計画、工事見積書を同じ行で照合する確認表",
         104: "中古住宅の増築部を囲み、課税明細・登記事項・現況写真の三列で差異を確認する照合表",
         122: "森町の山並みを背景に、所有者が空き家の玄関前で内覧案内表、鍵、危険箇所、設備を確認する場面",
+        123: "森町の山並みと空き家を背景に、所有者が公開画面、変更届、抹消届、鍵の引継ぎを確認する場面",
         130: "森町の集落で道路沿いの空き家を外から確認し、屋根・外壁・立木の危険連絡を一件記録にする場面",
     }
     cover_alt = cover_alts.get(int(row["id"]), f"{title}の確認場面を森町の山並み、家、道、資料で描いた表紙")

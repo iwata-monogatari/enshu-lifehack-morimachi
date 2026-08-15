@@ -2198,20 +2198,20 @@
   {
     "id": 123,
     "url": "/vacant-house/vacant-bank-withdrawal/",
-    "title": "森町の空き家バンク登録を取り下げる前に確認すること",
+    "title": "森町の空き家バンク登録を終える前に｜変更・抹消・引継ぎ記録",
     "category": "空き家",
-    "search_intent": "登録後の事情変更時に連絡と交渉状態を確認したい",
+    "search_intent": "空き家バンク所有者が登録内容の変更と抹消を分け、公開情報・交渉履歴・鍵・管理担当を一件の終了表へまとめたい",
     "search_aliases": [
-      "森町の空き家バンク登録を取り下げる前に確認すること",
-      "登録後の事情変更時に連絡と交渉状態を確認したい"
+      "森町の空き家バンク登録を終える前に",
+      "空き家バンク所有者が登録内容の変更と抹消を分け、公開情報・交渉履歴・鍵・管理担当を一件の終了表へまとめたい"
     ],
-    "editorial_chars": 6911,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6198,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 124,
