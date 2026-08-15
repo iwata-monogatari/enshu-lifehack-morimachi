@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mm2Title mm2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="mm2Title">空き家のまま地区に残るか抜けるかを決める順番を、道すじとして描いたイラスト</title>
+  <desc id="mm2Desc">左端に雨戸を閉めた瓦屋根の空き家があり、そこから右へ道が伸びています。最初の地点では家族が掲示板の前に立ち、当番表を紙に書き写しています。次の地点では家族が受話器を持って電話をかけ、そばに二つの窓口を表す建物の絵があります。三つ目の地点で道が二つに分かれ、上の道は提灯を連ねた屋台の絵へ、下の道は売り家の看板と鍵の絵へ続きます。二つの道は合流し、最後に役場の窓口があって、書類を前に職員と家族が話しています。背景には遠州の山並みと段になった茶畑、太田川の流れが広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="mm2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd8e6"/><stop offset="1" stop-color="#eff3e7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="150" fill="url(#mm2Sky)"/>
+  <path fill="#9db4be" d="M0 100 L100 50 L206 100 L316 44 L432 100 L552 46 L668 100 L788 52 L898 100 L1000 66 L1000 146 L0 146 Z"/>
+  <g fill="#3d6350">
+    <path d="M14 150 l13 -42 l13 42 z"/><path d="M44 150 l11 -36 l11 36 z"/>
+    <path d="M930 150 l13 -42 l13 42 z"/><path d="M958 150 l14 -46 l14 46 z"/>
+  </g>
+  <path fill="#8fb469" d="M0 152 C 240 144, 460 166, 700 154 C 830 148, 910 160, 1000 152 L1000 190 L0 196 Z"/>
+  <g stroke="#6a8f4c" stroke-width="4" opacity="0.8" fill="none">
+    <path d="M0 166 C 240 158, 460 180, 700 168 C 830 162, 910 174, 1000 166"/>
+    <path d="M0 182 C 240 174, 460 196, 700 184 C 830 178, 910 190, 1000 182"/>
+  </g>
+  <path fill="#e6e9d9" d="M0 192 L1000 186 L1000 560 L0 560 Z"/>
+  <path fill="#a8c6d8" d="M0 536 C 240 520, 520 516, 1000 526 L1000 560 L0 560 Z"/>
+
+  <!-- 道すじ -->
+  <g stroke="#cbc2a6" stroke-width="26" fill="none" stroke-linecap="round">
+    <path d="M186 398 L556 398"/>
+    <path d="M556 398 L654 302 L810 302"/>
+    <path d="M556 398 L654 486 L810 486"/>
+    <path d="M810 302 L876 394"/>
+    <path d="M810 486 L876 394"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="4" fill="none" stroke-dasharray="16 14" opacity="0.85">
+    <path d="M186 398 L556 398"/><path d="M556 398 L654 302 L810 302"/><path d="M556 398 L654 486 L810 486"/>
+  </g>
+
+  <!-- 空き家 -->
+  <g>
+    <rect x="42" y="320" width="140" height="120" fill="#dfe0d8" stroke="#9a9a8c" stroke-width="4"/>
+    <path d="M26 324 L112 270 L198 324 Z" fill="#79858c"/>
+    <rect x="62" y="348" width="98" height="64" fill="#c4c6be" stroke="#9a9a8c" stroke-width="3"/>
+    <g stroke="#9a9a8c" stroke-width="3"><path d="M86 348 L86 412 M112 348 L112 412 M138 348 L138 412"/></g>
+    <rect x="66" y="424" width="26" height="16" fill="#b3b3a6"/>
+    <g stroke="#5f7b3d" stroke-width="4" fill="none">
+      <path d="M30 470 L26 436 M44 472 L42 440 M58 470 L62 438 M170 468 L174 436 M188 470 L186 440"/>
+    </g>
+  </g>
+
+  <!-- 1 掲示板で当番表を書き写す -->
+  <g>
+    <path d="M262 448 L262 388 M310 448 L310 388" stroke="#6b5f4a" stroke-width="7"/>
+    <rect x="240" y="316" width="94" height="76" rx="4" fill="#f2eedd" stroke="#8d8368" stroke-width="4"/>
+    <g stroke="#a49a80" stroke-width="2"><path d="M252 332 L322 332 M252 344 L306 344 M252 360 L322 360 M252 372 L300 372"/></g>
+    <circle cx="352" cy="348" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M336 372 C 336 402, 342 418, 344 434 L368 434 C 372 418, 378 402, 376 372 Z" fill="#5f86a8" stroke="#3f6684" stroke-width="3"/>
+    <rect x="368" y="374" width="42" height="30" rx="3" fill="#fdfbf2" stroke="#b9b09a" stroke-width="3"/>
+    <g stroke="#b9b09a" stroke-width="2" fill="none"><path d="M376 384 L402 384 M376 392 L396 392"/></g>
+    <path d="M366 386 L372 386" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="188" y="230" width="196" height="40" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="286" y="256" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">今年の役と費用を聞く</text>
+    <path d="M286 270 L286 306" stroke="#8f9a86" stroke-width="4"/>
+  </g>
+
+  <!-- 2 窓口は二つ -->
+  <g>
+    <circle cx="470" cy="350" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M454 374 C 454 404, 460 420, 462 436 L486 436 C 490 420, 496 404, 494 374 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+    <path d="M456 382 L444 358" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="432" y="336" width="18" height="26" rx="4" fill="#3f6684"/>
+    <rect x="510" y="318" width="54" height="46" rx="4" fill="#f4f2e8" stroke="#98917c" stroke-width="3"/>
+    <rect x="510" y="318" width="54" height="12" fill="#1f3e52"/>
+    <rect x="510" y="368" width="54" height="46" rx="4" fill="#f4f2e8" stroke="#98917c" stroke-width="3"/>
+    <rect x="510" y="368" width="54" height="12" fill="#5f7b3d"/>
+    <rect x="416" y="230" width="220" height="40" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="526" y="256" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">町内会と役場は別の窓口</text>
+    <path d="M526 270 L526 310" stroke="#8f9a86" stroke-width="4"/>
+  </g>
+
+  <!-- 分岐の道標 -->
+  <g>
+    <path d="M556 462 L556 362" stroke="#8f7f5e" stroke-width="8"/>
+    <circle cx="556" cy="398" r="12" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+  </g>
+
+  <!-- 上の道：残る -->
+  <g>
+    <rect x="700" y="212" width="112" height="52" fill="#8b4a34" stroke="#5c2a1e" stroke-width="4"/>
+    <path d="M688 214 L756 184 L824 214 Z" fill="#7a3b2c"/>
+    <path d="M702 226 L810 226" stroke="#6b5a3a" stroke-width="3"/>
+    <ellipse cx="720" cy="240" rx="10" ry="13" fill="#ffe9ae" stroke="#c9a24a" stroke-width="3"/>
+    <ellipse cx="756" cy="240" rx="10" ry="13" fill="#ffdf94" stroke="#c9a24a" stroke-width="3"/>
+    <ellipse cx="792" cy="240" rx="10" ry="13" fill="#ffe9ae" stroke="#c9a24a" stroke-width="3"/>
+    <circle cx="722" cy="272" r="14" fill="#5a4b38" stroke="#332a1e" stroke-width="3"/>
+    <circle cx="790" cy="272" r="14" fill="#5a4b38" stroke="#332a1e" stroke-width="3"/>
+    <rect x="646" y="130" width="248" height="40" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+    <text x="770" y="157" font-family="sans-serif" font-size="18" font-weight="bold" fill="#c0563c" text-anchor="middle">残る：管理と参加を続ける</text>
+  </g>
+
+  <!-- 下の道：抜ける -->
+  <g>
+    <rect x="700" y="404" width="112" height="66" fill="#f2ece0" stroke="#a3997f" stroke-width="4"/>
+    <path d="M688 408 L756 372 L824 408 Z" fill="#7d8a86"/>
+    <rect x="728" y="430" width="30" height="40" fill="#c9b48c" stroke="#9c8763" stroke-width="3"/>
+    <path d="M846 470 L846 418" stroke="#8f7f5e" stroke-width="7"/>
+    <rect x="820" y="386" width="58" height="36" rx="4" fill="#ffffff" stroke="#5f7b3d" stroke-width="3"/>
+    <text x="849" y="411" font-family="sans-serif" font-size="17" font-weight="bold" fill="#4f6b33" text-anchor="middle">売家</text>
+    <g>
+      <circle cx="660" cy="438" r="13" fill="none" stroke="#8d7a4c" stroke-width="6"/>
+      <path d="M672 438 L706 438 L706 452 M690 438 L690 450" stroke="#8d7a4c" stroke-width="6" fill="none"/>
+    </g>
+    <rect x="612" y="502" width="256" height="40" rx="6" fill="#ffffff" stroke="#5f7b3d" stroke-width="4"/>
+    <text x="740" y="529" font-family="sans-serif" font-size="18" font-weight="bold" fill="#4f6b33" text-anchor="middle">抜ける：貸す・売る・託す</text>
+  </g>
+
+  <!-- 合流先：役場の窓口 -->
+  <g>
+    <rect x="884" y="316" width="104" height="112" rx="6" fill="#f4f2e8" stroke="#98917c" stroke-width="4"/>
+    <rect x="884" y="316" width="104" height="20" fill="#1f3e52"/>
+    <rect x="896" y="348" width="80" height="14" rx="3" fill="#dfd9c6"/>
+    <circle cx="912" cy="392" r="13" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M900 410 C 900 420, 902 424, 904 428 L922 428 C 924 424, 926 420, 924 410 Z" fill="#5f86a8" stroke="#3f6684" stroke-width="3"/>
+    <circle cx="960" cy="392" r="13" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M948 410 C 948 420, 950 424, 952 428 L970 428 C 972 424, 974 420, 972 410 Z" fill="#b8845e" stroke="#8d6242" stroke-width="3"/>
+    <rect x="922" y="372" width="34" height="22" rx="3" fill="#fdfbf2" stroke="#b9b09a" stroke-width="3"/>
+    <rect x="852" y="440" width="140" height="38" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="922" y="466" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">定住推進課へ</text>
+  </g>
+</svg>

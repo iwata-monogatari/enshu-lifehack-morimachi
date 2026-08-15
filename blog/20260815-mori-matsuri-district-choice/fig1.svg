@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mm1Title mm1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="mm1Title">森町の秋祭りの夜と、同じ通りに面した空き家を並べて描いたイラスト</title>
+  <desc id="mm1Desc">夜の古い町並みの狭い道を、提灯を連ねた二輪の御所車型の屋台が曳かれています。法被姿の人たちが綱を引き、屋台の上では太鼓と横笛と鉦の奏者が囃子を奏でています。屋台の後ろでは大人が子どもを肩車しています。通り沿いには格子戸の町家と白壁の土蔵が並んでいます。右側には雨戸を閉めた瓦屋根の家があり、玄関前に草が伸び、郵便受けに紙がたまっています。二軒の間には掲示板が立ち、当番の順番を書いた紙が貼られています。奥には遠州の山並みと段になった茶畑、夜空が広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="mm1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2b45"/><stop offset="1" stop-color="#41567a"/>
+    </linearGradient>
+    <radialGradient id="mm1Glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd98a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#2a3a55"/>
+  <rect width="1000" height="230" fill="url(#mm1Sky)"/>
+  <g fill="#f4f0dc"><circle cx="112" cy="52" r="3"/><circle cx="196" cy="34" r="2"/><circle cx="286" cy="66" r="2.5"/>
+    <circle cx="404" cy="40" r="2"/><circle cx="512" cy="70" r="2.5"/><circle cx="640" cy="36" r="2"/>
+    <circle cx="742" cy="62" r="2.5"/><circle cx="880" cy="44" r="2"/></g>
+  <circle cx="898" cy="72" r="26" fill="#f6efd0"/>
+  <path fill="#2e405c" d="M0 148 L104 96 L214 146 L326 88 L444 146 L562 92 L678 146 L796 96 L906 146 L1000 110 L1000 232 L0 232 Z"/>
+  <path fill="#3a5450" d="M0 196 C 240 186, 460 210, 700 198 C 830 190, 910 202, 1000 194 L1000 246 L0 252 Z"/>
+  <g stroke="#2d4340" stroke-width="4" opacity="0.9" fill="none">
+    <path d="M0 212 C 240 202, 460 226, 700 214 C 830 206, 910 218, 1000 210"/>
+  </g>
+  <path fill="#4a4a44" d="M0 248 L1000 240 L1000 560 L0 560 Z"/>
+
+  <!-- 道 -->
+  <path fill="#5d5b50" d="M0 500 C 260 452, 520 430, 1000 418 L1000 560 L0 560 Z"/>
+  <g stroke="#75726400" stroke-width="0" fill="none"></g>
+
+  <!-- 通り沿いの町家と土蔵（左） -->
+  <g>
+    <rect x="16" y="286" width="126" height="150" fill="#3f4a52" stroke="#2a333a" stroke-width="4"/>
+    <path d="M4 290 L79 246 L154 290 Z" fill="#333c44"/>
+    <g fill="#c8a35a"><rect x="34" y="322" width="26" height="56"/><rect x="70" y="322" width="26" height="56"/><rect x="106" y="322" width="20" height="56"/></g>
+    <rect x="160" y="300" width="104" height="136" fill="#e6e2d4" stroke="#a49f8d" stroke-width="4"/>
+    <path d="M150 304 L212 268 L274 304 Z" fill="#3a444c"/>
+    <rect x="192" y="352" width="42" height="84" fill="#8a7d63" stroke="#6b6049" stroke-width="3"/>
+  </g>
+
+  <!-- 屋台の灯りのにじみ -->
+  <ellipse cx="470" cy="360" rx="230" ry="170" fill="url(#mm1Glow)"/>
+
+  <!-- 二輪の御所車型屋台 -->
+  <g>
+    <!-- 屋根 -->
+    <path d="M336 268 L470 214 L604 268 Z" fill="#7a3b2c" stroke="#5c2a1e" stroke-width="4"/>
+    <path d="M348 268 L592 268 L592 282 L348 282 Z" fill="#5c2a1e"/>
+    <!-- 本体 -->
+    <rect x="360" y="282" width="220" height="118" fill="#8b4a34" stroke="#5c2a1e" stroke-width="4"/>
+    <rect x="376" y="300" width="188" height="66" fill="#c9a24a" stroke="#a07f2c" stroke-width="3"/>
+    <!-- 囃子の奏者 -->
+    <g>
+      <circle cx="416" cy="322" r="13" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+      <path d="M404 340 C 404 354, 408 360, 410 366 L428 366 C 430 358, 434 352, 432 340 Z" fill="#2f5f7a"/>
+      <ellipse cx="470" cy="336" rx="22" ry="19" fill="#b8563a" stroke="#8a3b26" stroke-width="3"/>
+      <ellipse cx="470" cy="336" rx="13" ry="12" fill="#f0e4cb"/>
+      <circle cx="524" cy="322" r="13" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+      <path d="M512 340 C 512 354, 516 360, 518 366 L536 366 C 538 358, 542 352, 540 340 Z" fill="#2f5f7a"/>
+      <path d="M536 328 L566 320" stroke="#e8dfc6" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <!-- 提灯の列 -->
+    <g>
+      <path d="M330 250 L610 250" stroke="#6b5a3a" stroke-width="4"/>
+      <g>
+        <ellipse cx="346" cy="268" rx="13" ry="17" fill="#ffe9ae" stroke="#c9a24a" stroke-width="3"/>
+        <ellipse cx="392" cy="252" rx="13" ry="17" fill="#ffdf94" stroke="#c9a24a" stroke-width="3"/>
+        <ellipse cx="470" cy="244" rx="14" ry="18" fill="#ffe9ae" stroke="#c9a24a" stroke-width="3"/>
+        <ellipse cx="548" cy="252" rx="13" ry="17" fill="#ffdf94" stroke="#c9a24a" stroke-width="3"/>
+        <ellipse cx="596" cy="268" rx="13" ry="17" fill="#ffe9ae" stroke="#c9a24a" stroke-width="3"/>
+      </g>
+    </g>
+    <!-- 二輪 -->
+    <circle cx="410" cy="424" r="34" fill="#5a4b38" stroke="#332a1e" stroke-width="5"/>
+    <circle cx="410" cy="424" r="12" fill="#8d7a55"/>
+    <circle cx="536" cy="424" r="34" fill="#5a4b38" stroke="#332a1e" stroke-width="5"/>
+    <circle cx="536" cy="424" r="12" fill="#8d7a55"/>
+    <!-- 綱 -->
+    <path d="M360 388 L232 430" stroke="#d8cba8" stroke-width="6"/>
+  </g>
+
+  <!-- 綱を引く法被の人たち -->
+  <g>
+    <circle cx="228" cy="416" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M212 438 C 212 470, 218 488, 220 506 L246 506 C 250 488, 256 470, 254 438 Z" fill="#2b4a6b" stroke="#1c3550" stroke-width="3"/>
+    <path d="M254 448 L282 438" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="172" cy="430" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M158 452 C 158 482, 164 498, 166 514 L188 514 C 192 498, 198 482, 196 452 Z" fill="#7a3b2c" stroke="#54271c" stroke-width="3"/>
+  </g>
+
+  <!-- 肩車された舞児 -->
+  <g>
+    <circle cx="640" cy="386" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M622 410 C 622 446, 628 466, 630 486 L658 486 C 662 466, 668 446, 666 410 Z" fill="#3c5f43" stroke="#28422e" stroke-width="3"/>
+    <circle cx="640" cy="336" r="14" fill="#f6dcbc" stroke="#c2a181" stroke-width="3"/>
+    <path d="M624 322 C 628 306, 654 306, 656 322 Z" fill="#b8563a"/>
+    <path d="M626 352 C 626 372, 630 380, 632 388 L650 388 C 652 380, 656 372, 654 352 Z" fill="#d8a5b8" stroke="#b07f92" stroke-width="3"/>
+    <path d="M626 360 L610 374 M654 360 L670 374" stroke="#f6dcbc" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 掲示板 -->
+  <g>
+    <path d="M730 520 L730 434 M786 520 L786 434" stroke="#6b5f4a" stroke-width="8"/>
+    <rect x="706" y="356" width="112" height="84" rx="4" fill="#e9e4d2" stroke="#8d8368" stroke-width="4"/>
+    <rect x="718" y="368" width="88" height="26" fill="#ffffff" stroke="#b8ae92" stroke-width="2"/>
+    <rect x="718" y="402" width="88" height="26" fill="#ffffff" stroke="#b8ae92" stroke-width="2"/>
+    <g stroke="#a49a80" stroke-width="2"><path d="M726 378 L798 378 M726 386 L780 386 M726 412 L798 412 M726 420 L774 420"/></g>
+  </g>
+
+  <!-- 右：雨戸を閉めた空き家 -->
+  <g>
+    <rect x="846" y="300" width="140" height="150" fill="#4a5158" stroke="#2f353b" stroke-width="4"/>
+    <path d="M832 304 L916 258 L1000 304 Z" fill="#333c44"/>
+    <rect x="866" y="336" width="100" height="76" fill="#5c6169" stroke="#3d434a" stroke-width="3"/>
+    <g stroke="#3d434a" stroke-width="3"><path d="M890 336 L890 412 M916 336 L916 412 M942 336 L942 412"/></g>
+    <rect x="874" y="432" width="30" height="42" fill="#6b6f74" stroke="#454b50" stroke-width="3"/>
+    <g fill="#ffffff"><rect x="878" y="440" width="22" height="9"/><rect x="878" y="452" width="22" height="7"/></g>
+    <g stroke="#5f7b3d" stroke-width="4" fill="none">
+      <path d="M830 500 L826 462 M844 502 L842 466 M858 500 L862 464 M956 498 L960 462 M974 500 L972 466"/>
+    </g>
+  </g>
+</svg>
