@@ -1841,7 +1841,61 @@ def scene_mori_matsuri_choice(d):
     band(d, ["十一月の祭りは、", "八月から動き出す"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_children_roles(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 656, 700, 744], 300)
+    # 中景：段になった茶畑
+    d.polygon([(0, 296), (760, 288), (760, 336), (0, 346)], fill=(133, 178, 92))
+    for i in range(3):
+        d.line([(0, 302 + i * 13), (760, 294 + i * 13)], fill=(90, 134, 62), width=3)
+    d.polygon([(0, 340), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(221, 227, 210))
+    # 社殿
+    d.rectangle([236, 320, 524, 366], fill=(232, 224, 204), outline=(169, 154, 120), width=4)
+    d.polygon([(212, 324), (380, 268), (548, 324)], fill=(106, 122, 128))
+    d.rectangle([212, 324, 548, 336], fill=(85, 101, 107))
+    # 舟形の舞台
+    d.polygon([(148, 546), (612, 546), (612, 406), (148, 406)],
+              fill=(229, 217, 189), outline=(163, 145, 95), width=5)
+    d.rectangle([148, 406, 612, 422], fill=(201, 176, 114))
+    d.line([(148, 452), (612, 452)], fill=(163, 145, 95), width=6)
+    d.rectangle([288, 462, 472, 504], fill=(244, 238, 218), outline=(200, 186, 144), width=3)
+    # 三本の柱
+    for x in (206, 380, 554):
+        d.line([(x, 406), (x, 300)], fill=(141, 122, 76), width=12)
+    # 神紋幕
+    d.rectangle([392, 300, 578, 352], fill=(63, 86, 116))
+    for cx in (428, 478, 528):
+        d.ellipse([cx - 8, 318, cx + 8, 334], fill=(230, 236, 242))
+    # 蟷螂を舞う子ども
+    d.polygon([(330, 432), (300, 420), (292, 444), (318, 452)], fill=(127, 168, 90))
+    d.polygon([(430, 432), (460, 420), (468, 444), (442, 452)], fill=(127, 168, 90))
+    d.ellipse([352, 380, 408, 436], fill=(143, 180, 95), outline=(92, 127, 60), width=4)
+    d.ellipse([364, 396, 376, 408], fill=(51, 66, 31))
+    d.ellipse([384, 396, 396, 408], fill=(51, 66, 31))
+    d.line([(364, 380), (352, 356)], fill=(92, 127, 60), width=4)
+    d.line([(396, 380), (408, 356)], fill=(92, 127, 60), width=4)
+    d.polygon([(354, 436), (406, 436), (410, 516), (350, 516)], fill=(216, 165, 184))
+    d.line([(348, 452), (312, 468)], fill=(240, 210, 176), width=8)
+    d.line([(412, 452), (448, 468)], fill=(240, 210, 176), width=8)
+    # 鼓の奏者（左右）
+    for cx, flip in ((196, 1), (566, -1)):
+        d.ellipse([cx - 14, 462, cx + 14, 490], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+        d.polygon([(cx - 16, 496), (cx + 16, 496), (cx + 18, 546), (cx - 18, 546)], fill=(122, 91, 140))
+        d.polygon([(cx + flip * 26, 486), (cx + flip * 44, 494), (cx + flip * 44, 514), (cx + flip * 26, 522)],
+                  fill=(184, 86, 58), outline=(138, 59, 38), width=3)
+    # 教える大人
+    d.ellipse([56, 424, 92, 460], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.polygon([(52, 466), (96, 466), (102, BAND_TOP), (46, BAND_TOP)], fill=(184, 132, 94))
+    d.line([(98, 482), (142, 462)], fill=(240, 210, 176), width=9)
+    # 空いた座布団
+    for x0 in (626, 686):
+        d.rectangle([x0, 500, x0 + 52, 532], fill=(201, 205, 189), outline=(167, 171, 153), width=3)
+    band(d, ["囃子とお舞の役は、", "子どもに回る"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
+    "20260815-children-roles-in-district": scene_children_roles,
     "20260815-mori-matsuri-district-choice": scene_mori_matsuri_choice,
     "20260815-kasanboko-first-bon": scene_kasanboko,
     "20260814-bridge-pavement-tunnel-plans": scene_bridge_plans,

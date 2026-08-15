@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="cr2Title cr2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="cr2Title">子どもの役を受けるかどうかを決める順番を、道すじとして描いたイラスト</title>
+  <desc id="cr2Desc">左端に転入したばかりの家族の家があり、玄関先で回覧板を受け取っています。そこから右へ道が伸びています。最初の地点では家族がメモを取りながら、期間・回数・費用と書かれた三枚の札を見ています。次の地点では、家族が保存会の人らしい年配の人と向かい合って話しており、そばに稽古の場所を表す社殿の絵があります。三つ目の地点で道が二つに分かれ、上の道は舞台で舞う子どもの絵へ、下の道は掃除の道具を持つ大人の絵へ続きます。二つの道は合流し、最後に地区の掲示板の前で家族が返事を伝えています。背景には遠州の山並みと杉木立、段になった茶畑が広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="cr2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd8e6"/><stop offset="1" stop-color="#eff3e7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="148" fill="url(#cr2Sky)"/>
+  <path fill="#9db4be" d="M0 100 L100 50 L206 100 L316 44 L432 100 L552 46 L668 100 L788 52 L898 100 L1000 66 L1000 144 L0 144 Z"/>
+  <g fill="#3d6350">
+    <path d="M16 148 l13 -44 l13 44 z"/><path d="M46 148 l11 -36 l11 36 z"/>
+    <path d="M928 148 l13 -44 l13 44 z"/><path d="M958 148 l14 -48 l14 48 z"/>
+  </g>
+  <path fill="#8fb469" d="M0 150 C 240 142, 460 164, 700 152 C 830 146, 910 158, 1000 150 L1000 188 L0 194 Z"/>
+  <g stroke="#6a8f4c" stroke-width="4" opacity="0.8" fill="none">
+    <path d="M0 164 C 240 156, 460 178, 700 166 C 830 160, 910 172, 1000 164"/>
+    <path d="M0 180 C 240 172, 460 194, 700 182 C 830 176, 910 188, 1000 180"/>
+  </g>
+  <path fill="#e6e9d9" d="M0 190 L1000 184 L1000 560 L0 560 Z"/>
+
+  <!-- 道すじ -->
+  <g stroke="#cbc2a6" stroke-width="26" fill="none" stroke-linecap="round">
+    <path d="M182 404 L546 404"/>
+    <path d="M546 404 L642 306 L790 306"/>
+    <path d="M546 404 L642 492 L790 492"/>
+    <path d="M790 306 L860 398"/>
+    <path d="M790 492 L860 398"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="4" fill="none" stroke-dasharray="16 14" opacity="0.85">
+    <path d="M182 404 L546 404"/><path d="M546 404 L642 306 L790 306"/><path d="M546 404 L642 492 L790 492"/>
+  </g>
+
+  <!-- 転入した家族の家と回覧板 -->
+  <g>
+    <rect x="36" y="316" width="132" height="122" fill="#f2ece0" stroke="#a3997f" stroke-width="4"/>
+    <path d="M20 320 L102 266 L184 320 Z" fill="#6a7a80"/>
+    <rect x="56" y="344" width="52" height="42" fill="#bcdcea" stroke="#7fa5b6" stroke-width="3"/>
+    <rect x="124" y="376" width="30" height="62" fill="#c9b48c" stroke="#9c8763" stroke-width="3"/>
+    <circle cx="180" cy="368" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M166 388 C 166 414, 170 428, 172 442 L192 442 C 196 428, 200 414, 198 388 Z" fill="#5f86a8" stroke="#3f6684" stroke-width="3"/>
+    <rect x="196" y="376" width="34" height="26" rx="3" fill="#fdfbf2" stroke="#b9b09a" stroke-width="3"/>
+    <path d="M194 388 L200 388" stroke="#f0d2b0" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 1 期間・回数・費用の三つ -->
+  <g>
+    <rect x="262" y="288" width="72" height="38" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="298" y="314" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">期間</text>
+    <rect x="344" y="288" width="72" height="38" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="380" y="314" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">回数</text>
+    <rect x="426" y="288" width="72" height="38" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="462" y="314" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">費用</text>
+    <rect x="256" y="228" width="248" height="40" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="380" y="255" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3e52" text-anchor="middle">三つを紙に書いてもらう</text>
+    <circle cx="286" cy="352" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M270 376 C 270 404, 274 420, 276 436 L300 436 C 304 420, 310 404, 308 376 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+    <path d="M304 386 L330 376" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- 2 保存会の人と話す -->
+  <g>
+    <circle cx="430" cy="358" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M414 382 C 414 410, 418 424, 420 438 L444 438 C 448 424, 454 410, 452 382 Z" fill="#5f86a8" stroke="#3f6684" stroke-width="3"/>
+    <circle cx="500" cy="358" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M486 344 C 490 332, 512 332, 514 344 Z" fill="#8b8272"/>
+    <path d="M484 382 C 484 410, 488 424, 490 438 L514 438 C 518 424, 524 410, 522 382 Z" fill="#b8845e" stroke="#8d6242" stroke-width="3"/>
+    <path d="M452 398 L484 398" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+    <g>
+      <rect x="530" y="336" width="76" height="34" fill="#e8e0cc" stroke="#a99a78" stroke-width="3"/>
+      <path d="M518 340 L568 314 L618 340 Z" fill="#6a7a80"/>
+    </g>
+  </g>
+
+  <!-- 分岐の道標 -->
+  <g>
+    <path d="M546 466 L546 366" stroke="#8f7f5e" stroke-width="8"/>
+    <circle cx="546" cy="404" r="12" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+  </g>
+
+  <!-- 上の道：受ける -->
+  <g>
+    <path d="M660 300 C 690 274, 776 274, 806 300 L806 262 L660 262 Z" fill="#e5d9bd" stroke="#a3915f" stroke-width="4"/>
+    <rect x="660" y="248" width="146" height="16" fill="#c9b072"/>
+    <circle cx="733" cy="212" r="17" fill="#8fb45f" stroke="#5c7f3c" stroke-width="4"/>
+    <g fill="#33421f"><circle cx="726" cy="208" r="4"/><circle cx="740" cy="208" r="4"/></g>
+    <path d="M722 194 L716 180 M744 194 L750 180" stroke="#5c7f3c" stroke-width="3"/>
+    <path d="M718 230 C 718 250, 722 258, 724 266 L744 266 C 746 258, 750 250, 748 230 Z" fill="#d8a5b8" stroke="#b07f92" stroke-width="3"/>
+    <path d="M714 238 L692 248 M752 238 L774 248" stroke="#f0d2b0" stroke-width="6" stroke-linecap="round"/>
+    <rect x="622" y="126" width="272" height="40" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+    <text x="758" y="153" font-family="sans-serif" font-size="18" font-weight="bold" fill="#c0563c" text-anchor="middle">受ける：範囲を決めて受ける</text>
+  </g>
+
+  <!-- 下の道：受けない -->
+  <g>
+    <circle cx="686" cy="424" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M670 448 C 670 476, 674 490, 676 504 L700 504 C 704 490, 710 476, 708 448 Z" fill="#3c5f43" stroke="#28422e" stroke-width="3"/>
+    <path d="M706 456 L738 440" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+    <path d="M738 440 L764 470" stroke="#8d7a4c" stroke-width="7"/>
+    <path d="M756 462 C 748 480, 768 490, 782 476 Z" fill="#c9b48c" stroke="#9c8763" stroke-width="3"/>
+    <rect x="518" y="512" width="280" height="40" rx="6" fill="#ffffff" stroke="#5f7b3d" stroke-width="4"/>
+    <text x="658" y="539" font-family="sans-serif" font-size="18" font-weight="bold" fill="#4f6b33" text-anchor="middle">受けない：別の形で関わる</text>
+  </g>
+
+  <!-- 合流先：掲示板の前で返事を伝える -->
+  <g>
+    <path d="M902 470 L902 402 M962 470 L962 402" stroke="#6b5f4a" stroke-width="7"/>
+    <rect x="880" y="322" width="104" height="82" rx="4" fill="#f2eedd" stroke="#8d8368" stroke-width="4"/>
+    <g stroke="#a49a80" stroke-width="2"><path d="M892 340 L972 340 M892 352 L954 352 M892 370 L972 370 M892 382 L948 382"/></g>
+    <circle cx="856" cy="398" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M842 420 C 842 448, 846 462, 848 476 L870 476 C 874 462, 878 448, 876 420 Z" fill="#b8845e" stroke="#8d6242" stroke-width="3"/>
+    <rect x="810" y="486" width="184" height="38" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="902" y="511" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">期限までに返事を伝える</text>
+  </g>
+</svg>
