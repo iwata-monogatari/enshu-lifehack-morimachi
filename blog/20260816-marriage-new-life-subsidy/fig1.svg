@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mn1Title mn1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="mn1Title">森町で新生活を始める夫婦の、引越しの日と書類をまとめる日を並べて描いたイラスト</title>
+<desc id="mn1Desc">左手では、生け垣のある瓦屋根の家の前に引越業者の小型トラックが止まり、作業の人が段ボールを抱えて降ろし、夫婦がそれを受け取っています。右手には縁側のような低い卓があり、その上に契約書と領収書の束、封筒、印鑑、通帳が広げられています。卓のそばの柱に月ごとの枠が並んだ暦が掛かり、七月の欄と二月の欄に赤い丸が付いています。奥には役場らしい建物と明かりのついた窓が見え、そこへ続く細い道があります。背景には太田川らしい流れと橋、段になった茶畑、杉木立、遠州の山並みが夏の空を背に広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="mn1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd8e6"/><stop offset="1" stop-color="#eff3e7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="150" fill="url(#mn1Sky)"/>
+  <circle cx="906" cy="46" r="24" fill="#f6e6b4"/>
+  <path fill="#9db4be" d="M0 104 L104 48 L212 104 L322 42 L440 104 L560 46 L676 104 L796 50 L906 104 L1000 64 L1000 146 L0 146 Z"/>
+  <g fill="#3d6350">
+    <path d="M14 150 l13 -44 l13 44 z"/><path d="M44 150 l11 -36 l11 36 z"/><path d="M70 150 l12 -40 l12 40 z"/>
+    <path d="M912 150 l13 -44 l13 44 z"/><path d="M942 150 l14 -48 l14 48 z"/><path d="M972 150 l11 -36 l11 36 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="#8fb469" d="M0 152 C 250 144, 470 168, 720 154 C 840 148, 920 160, 1000 152 L1000 202 L0 208 Z"/>
+  <g stroke="#5f8543" stroke-width="5" opacity="0.9" fill="none">
+    <path d="M0 166 C 250 158, 470 182, 720 168 C 840 162, 920 174, 1000 166"/>
+    <path d="M0 182 C 250 174, 470 198, 720 184 C 840 178, 920 190, 1000 182"/>
+    <path d="M0 198 C 250 190, 470 214, 720 200 C 840 194, 920 206, 1000 198"/>
+  </g>
+
+  <!-- 川と橋 -->
+  <path fill="#a6cde2" d="M0 210 L1000 202 L1000 244 L0 254 Z"/>
+  <g stroke="#e2f0f6" stroke-width="4" fill="none">
+    <path d="M30 232 L250 226"/><path d="M720 224 L950 216"/>
+  </g>
+  <rect x="330" y="200" width="300" height="10" fill="#cfc7ae"/>
+  <g fill="#b6ae95"><rect x="362" y="210" width="9" height="36"/><rect x="474" y="208" width="9" height="36"/><rect x="586" y="206" width="9" height="36"/></g>
+
+  <rect x="0" y="248" width="1000" height="312" fill="#e6e9d9"/>
+
+  <!-- 奥：役場と細い道 -->
+  <g>
+    <path d="M448 448 L486 326 L604 326 L636 448 Z" fill="#d5cdb2"/>
+    <rect x="452" y="264" width="184" height="62" fill="#eceee6" stroke="#9aa196" stroke-width="4"/>
+    <path d="M438 268 L544 226 L650 268 Z" fill="#7c8a90"/>
+    <g fill="#f6d98f" stroke="#c9a94f" stroke-width="3">
+      <rect x="468" y="282" width="34" height="26"/><rect x="586" y="282" width="34" height="26"/>
+    </g>
+    <rect x="516" y="282" width="56" height="44" fill="#d9c9a4" stroke="#a89571" stroke-width="3"/>
+    <g stroke="#7c8a90" stroke-width="5"><path d="M488 226 L488 200 M600 226 L600 200"/></g>
+    <rect x="462" y="176" width="164" height="28" rx="4" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="544" y="197" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">役場の窓口</text>
+  </g>
+
+  <!-- 左：家と生け垣 -->
+  <g>
+    <rect x="24" y="316" width="184" height="128" fill="#f4eee2" stroke="#a3997f" stroke-width="4"/>
+    <path d="M6 320 L116 256 L226 320 Z" fill="#6a7a80"/>
+    <rect x="6" y="320" width="220" height="12" fill="#55636a"/>
+    <rect x="48" y="344" width="58" height="44" fill="#bcdcea" stroke="#7fa5b6" stroke-width="3"/>
+    <rect x="140" y="372" width="46" height="72" fill="#c9b48c" stroke="#9c8763" stroke-width="3"/>
+    <rect x="84" y="290" width="64" height="20" rx="3" fill="#fdfbf2" stroke="#b9b09a" stroke-width="3"/>
+    <path d="M8 444 C 60 424, 128 424, 186 444 L186 468 L8 468 Z" fill="#6f9a58" stroke="#4f7440" stroke-width="3"/>
+  </g>
+
+  <!-- 引越トラック -->
+  <g>
+    <rect x="244" y="342" width="136" height="90" fill="#f1f4f2" stroke="#93a0a6" stroke-width="4"/>
+    <path d="M244 342 L244 432 L200 432 L200 380 L222 342 Z" fill="#e2e8e8" stroke="#93a0a6" stroke-width="4"/>
+    <rect x="208" y="358" width="30" height="24" fill="#b8d6e4" stroke="#8aa9b8" stroke-width="3"/>
+    <path d="M290 342 L290 432" stroke="#c3cccf" stroke-width="4"/>
+    <path d="M336 342 L336 432" stroke="#c3cccf" stroke-width="4"/>
+    <g fill="#404a52" stroke="#232b31" stroke-width="3">
+      <circle cx="238" cy="438" r="19"/><circle cx="348" cy="438" r="19"/>
+    </g>
+    <g fill="#9aa6ac"><circle cx="238" cy="438" r="6"/><circle cx="348" cy="438" r="6"/></g>
+  </g>
+
+  <!-- 段ボールを運ぶ人 -->
+  <g>
+    <circle cx="410" cy="330" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M394 356 C 394 396, 398 420, 400 446 L426 446 C 430 420, 436 396, 434 356 Z" fill="#4f7c8f" stroke="#345a6b" stroke-width="3"/>
+    <rect x="382" y="366" width="60" height="46" fill="#d5b284" stroke="#a5875e" stroke-width="3"/>
+    <path d="M412 366 L412 412" stroke="#a5875e" stroke-width="3"/>
+    <path d="M382 388 L442 388" stroke="#a5875e" stroke-width="3"/>
+  </g>
+
+  <!-- 受け取る夫婦 -->
+  <g>
+    <circle cx="474" cy="324" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M458 350 C 458 390, 462 416, 464 444 L490 444 C 494 416, 500 390, 498 350 Z" fill="#c47f92" stroke="#9c5c6f" stroke-width="3"/>
+    <path d="M458 366 L438 372" stroke="#f0d2b0" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="540" cy="332" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M524 358 C 524 398, 528 422, 530 448 L556 448 C 560 422, 566 398, 564 358 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+    <path d="M524 374 L500 366" stroke="#f0d2b0" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- 右下：柱に掛けた暦 -->
+  <g>
+    <rect x="668" y="300" width="16" height="188" fill="#a68a5c"/>
+    <rect x="948" y="300" width="16" height="188" fill="#a68a5c"/>
+    <rect x="676" y="302" width="280" height="112" rx="5" fill="#fdfbf2" stroke="#8d8368" stroke-width="4"/>
+    <rect x="676" y="302" width="280" height="30" rx="5" fill="#1f3e52"/>
+    <text x="816" y="325" font-family="sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">7月 に始まり 2月 に閉じる</text>
+    <g stroke="#c3bda6" stroke-width="3">
+      <path d="M676 360 L956 360 M676 388 L956 388"/>
+      <path d="M723 332 L723 414 M770 332 L770 414 M816 332 L816 414 M863 332 L863 414 M910 332 L910 414"/>
+    </g>
+    <circle cx="700" cy="346" r="12" fill="none" stroke="#c0563c" stroke-width="4"/>
+    <circle cx="932" cy="401" r="12" fill="none" stroke="#c0563c" stroke-width="4"/>
+  </g>
+
+  <!-- 右下：低い卓と書類 -->
+  <g>
+    <rect x="596" y="482" width="384" height="26" fill="#b98f5d"/>
+    <rect x="596" y="508" width="384" height="10" fill="#9c7648"/>
+    <rect x="618" y="518" width="16" height="42" fill="#9c7648"/>
+    <rect x="942" y="518" width="16" height="42" fill="#9c7648"/>
+    <!-- 契約書の束 -->
+    <rect x="620" y="446" width="118" height="36" fill="#ffffff" stroke="#98a2a8" stroke-width="3"/>
+    <rect x="628" y="434" width="118" height="36" fill="#f6f8f7" stroke="#98a2a8" stroke-width="3"/>
+    <g stroke="#b8c1c6" stroke-width="3"><path d="M642 448 L730 448 M642 460 L706 460"/></g>
+    <!-- 領収書 -->
+    <rect x="762" y="452" width="76" height="30" fill="#fdf3d8" stroke="#c4ad6a" stroke-width="3"/>
+    <rect x="770" y="440" width="76" height="30" fill="#fdf8e8" stroke="#c4ad6a" stroke-width="3"/>
+    <g stroke="#c4ad6a" stroke-width="3"><path d="M782 456 L834 456"/></g>
+    <!-- 封筒 -->
+    <rect x="858" y="440" width="70" height="42" fill="#f0ece0" stroke="#a89b7c" stroke-width="3"/>
+    <path d="M858 440 L893 464 L928 440" fill="none" stroke="#a89b7c" stroke-width="3"/>
+    <!-- 印鑑と通帳 -->
+    <rect x="938" y="446" width="20" height="36" rx="4" fill="#8d5f43" stroke="#6b4630" stroke-width="3"/>
+    <circle cx="948" cy="440" r="9" fill="#c0563c" stroke="#8f3b28" stroke-width="3"/>
+    <rect x="628" y="490" width="48" height="0" fill="none"/>
+  </g>
+
+  <!-- 手前の帯 -->
+  <g>
+    <rect x="26" y="500" width="298" height="36" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="175" y="525" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">引越しは一日、領収書は半年</text>
+  </g>
+</svg>

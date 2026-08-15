@@ -1894,7 +1894,72 @@ def scene_children_roles(d):
     band(d, ["囃子とお舞の役は、", "子どもに回る"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_marriage_subsidy(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [18, 62, 106, 650, 694, 738], 300)
+    # 中景：段になった茶畑と集落
+    d.polygon([(0, 294), (760, 286), (760, 334), (0, 344)], fill=(133, 178, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 13), (760, 292 + i * 13)], fill=(90, 134, 62), width=3)
+    d.polygon([(0, 338), (760, 328), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 230, 213))
+    # 窓の外の家並みと生け垣
+    for x, w in ((30, 96), (150, 78)):
+        d.rectangle([x, 346, x + w, 386], fill=(238, 232, 218))
+        d.polygon([(x - 8, 348), (x + w // 2, 320), (x + w + 8, 348)], fill=(133, 148, 156))
+    d.polygon([(20, 388), (250, 380), (250, 402), (20, 410)], fill=(111, 154, 88))
+    # 窓の外の小型トラック（荷物を積む）
+    d.rectangle([272, 348, 366, 400], fill=(241, 244, 242), outline=(147, 160, 166), width=4)
+    d.polygon([(272, 348), (272, 400), (238, 400), (238, 366), (254, 348)],
+              fill=(226, 232, 232), outline=(147, 160, 166), width=4)
+    d.rectangle([244, 362, 268, 380], fill=(184, 214, 228), outline=(138, 169, 184), width=3)
+    for cx in (268, 348):
+        d.ellipse([cx - 14, 390, cx + 14, 418], fill=(64, 74, 82), outline=(35, 43, 49), width=3)
+    # 窓枠
+    d.rectangle([12, 306, 384, 424], fill=None, outline=(160, 152, 130), width=8)
+    d.line([(198, 306), (198, 424)], fill=(160, 152, 130), width=6)
+    # 壁と暦
+    d.rectangle([404, 300, 748, 430], fill=(240, 236, 222), outline=(174, 165, 141), width=5)
+    d.rectangle([404, 300, 748, 330], fill=(31, 62, 82))
+    f = ImageFont.truetype(FONT_BOLD, 24)
+    d.text((432, 305), "7月1日 → 2月26日", font=f, fill="#ffffff")
+    for i in range(3):
+        d.line([(404, 356 + i * 26), (748, 356 + i * 26)], fill=(203, 196, 174), width=3)
+    for i in range(5):
+        d.line([(404 + (i + 1) * 57, 330), (404 + (i + 1) * 57, 430)], fill=(203, 196, 174), width=3)
+    d.ellipse([424, 336, 456, 368], outline=(192, 86, 60), width=6)
+    d.ellipse([692, 388, 724, 420], outline=(192, 86, 60), width=6)
+    # 窓口のカウンター
+    d.rectangle([0, 486, 760, 520], fill=(185, 143, 93))
+    d.rectangle([0, 520, 760, 534], fill=(158, 118, 72))
+    # カウンター越しの職員（暦を指す）
+    d.ellipse([586, 396, 630, 440], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.chord([586, 388, 630, 432], 180, 360, fill=(72, 62, 52))
+    d.polygon([(578, 446), (638, 446), (648, 486), (568, 486)], fill=(96, 134, 168))
+    d.line([(582, 456), (536, 424)], fill=(240, 210, 176), width=10)
+    # 手前の夫婦（後ろ姿・紙ばさみを抱える）
+    for cx, body in ((172, (196, 127, 146)), (300, (135, 164, 95))):
+        d.ellipse([cx - 24, 396, cx + 24, 444], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+        d.chord([cx - 24, 388, cx + 24, 436], 180, 360, fill=(64, 54, 44))
+        d.polygon([(cx - 32, 450), (cx + 32, 450), (cx + 42, 486), (cx - 42, 486)], fill=body)
+    d.rectangle([206, 442, 268, 490], fill=(253, 251, 242), outline=(178, 170, 150), width=4)
+    for y0 in (456, 468, 480):
+        d.line([(216, y0), (258, y0)], fill=(196, 189, 166), width=3)
+    # カウンター上の書類・印鑑・通帳
+    d.rectangle([372, 446, 470, 486], fill=(255, 255, 255), outline=(152, 162, 168), width=3)
+    d.rectangle([382, 436, 480, 476], fill=(246, 248, 247), outline=(152, 162, 168), width=3)
+    for y0 in (450, 462):
+        d.line([(394, y0), (466, y0)], fill=(184, 193, 198), width=3)
+    d.rectangle([496, 452, 560, 486], fill=(253, 243, 216), outline=(196, 173, 106), width=3)
+    d.line([(508, 468), (548, 468)], fill=(196, 173, 106), width=3)
+    d.rectangle([664, 452, 700, 486], fill=(141, 95, 67), outline=(107, 70, 48), width=3)
+    d.ellipse([666, 434, 698, 462], fill=(192, 86, 60), outline=(143, 59, 40), width=3)
+    d.rectangle([708, 462, 756, 486], fill=(95, 134, 168), outline=(63, 102, 132), width=3)
+    band(d, ["新生活の補助は、", "七月から二月で閉じる"], "森町ライフハック／移住・暮らし・データ")
+
+
 SCENES = {
+    "20260816-marriage-new-life-subsidy": scene_marriage_subsidy,
     "20260815-children-roles-in-district": scene_children_roles,
     "20260815-mori-matsuri-district-choice": scene_mori_matsuri_choice,
     "20260815-kasanboko-first-bon": scene_kasanboko,
