@@ -2324,20 +2324,20 @@
   {
     "id": 130,
     "url": "/vacant-house/unsafe-vacant-house-owner-response/",
-    "title": "森町で危険な空き家として連絡を受けた所有者の初動",
+    "title": "森町で危険な空き家の連絡を受けたら｜現況・応急対応・相談記録",
     "category": "空き家",
-    "search_intent": "町や近隣から連絡を受けた後の確認順を知りたい",
+    "search_intent": "町や近隣から空き家の危険を知らされた所有者が、連絡内容・現況写真・応急対応・町相談を一件記録にしたい",
     "search_aliases": [
-      "森町で危険な空き家として連絡を受けた所有者の初動",
-      "町や近隣から連絡を受けた後の確認順を知りたい"
+      "森町で危険な空き家の連絡を受けたら",
+      "町や近隣から空き家の危険を知らされた所有者が、連絡内容・現況写真・応急対応・町相談を一件記録にしたい"
     ],
-    "editorial_chars": 6900,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6149,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 131,
