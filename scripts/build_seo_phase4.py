@@ -926,6 +926,7 @@ def svg(row: dict, index: int) -> str:
         125: (["修繕履歴・一件台帳", "修繕履歴・写真三時点", "修繕履歴・次回点検"], ["vacant-maintenance-history-desk", "before-during-after-photo-route", "repair-record-warranty-next-check-route"]),
         126: (["空き家連絡・緊急カード", "空き家連絡・現地と所有者", "空き家連絡・一次確認順"], ["vacant-neighbor-emergency-contact-board", "neighbor-owner-manager-contact-route", "incident-observe-owner-emergency-route"]),
         127: (["台風点検・前後比較", "台風点検・六つの部位", "台風点検・安全な撤退"], ["vacant-typhoon-before-after-board", "roof-drain-tree-equipment-check-route", "weather-stop-safe-return-route"]),
+        128: (["動物痕跡・接触しない", "動物痕跡・侵入口候補", "動物痕跡・四工程"], ["vacant-animal-trace-record-board", "trace-room-entry-candidate-map", "animal-health-seal-repair-route"]),
         130: (["空き家連絡・危険箇所", "空き家連絡・外観点検", "空き家連絡・応急と恒久"], ["unsafe-vacant-house-contact-file", "vacant-house-exterior-risk-survey", "temporary-permanent-response-route"]),
         2: (["転籍・本籍と筆頭者", "転籍・現在と新本籍", "転籍・届出と戸籍請求"], ["domicile-transfer-ledger", "old-new-domicile-bridge", "transfer-filing-certificate-route"]),
         3: (["世帯変更・三つの届", "世帯変更・住所と生計", "世帯変更・届出後確認"], ["household-change-three-forms", "address-livelihood-households", "household-result-check-route"]),
@@ -1215,6 +1216,7 @@ def editorial_blocks_curated(row: dict) -> str:
         125: ("空き家の同じ部位を着手前・施工中・完了後の写真で結ぶ図", "施工記録・領収書・保証から次回点検へ引き継ぐ図"),
         126: ("近隣の観察情報を所有者・家族・現地管理者へ安全に渡す図", "見えた異常から所有者確認または119・110へ分岐する図"),
         127: ("屋根外壁・窓・排水・飛散物・立木設備を部位番号で確認する図", "気象情報から点検実施・中止・通過後確認へ安全に分岐する図"),
+        128: ("糞・毛・足跡・音を部屋番号と侵入口候補へ結ぶ図", "生体確認・衛生清掃・侵入口封鎖・建物修繕を四工程に分ける図"),
         130: ("道路側から門塀・屋根・外壁・立木の危険箇所を安全に確認する図", "危険連絡から応急対応・町相談・恒久対応へ分けて進む図"),
     }
     if item_id in day31_40_figure_text:
@@ -1891,6 +1893,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
         125: "森町の山並みと空き家を背景に、家族が施工写真・領収書・保証書を一件の修繕履歴へまとめる場面",
         126: "森町の空き家を背景に、近隣からの異常連絡を所有者・現地担当・緊急窓口へ振り分ける連絡カード",
         127: "森町の空き家を背景に、台風接近前と通過後の写真を同じ部位番号で比べる安全点検票",
+        128: "森町の空き家を背景に、動物の糞・毛・足跡へ触れず写真番号で記録する安全確認票",
         130: "森町の集落で道路沿いの空き家を外から確認し、屋根・外壁・立木の危険連絡を一件記録にする場面",
     }
     cover_alt = cover_alts.get(int(row["id"]), f"{title}の確認場面を森町の山並み、家、道、資料で描いた表紙")

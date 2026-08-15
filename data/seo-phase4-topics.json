@@ -4870,10 +4870,10 @@
     "id": 128,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の空き家で動物侵入の跡を見つけたとき",
+    "title": "森町の空き家で動物の痕跡を見つけたら｜接触せず工程を分ける記録票",
     "slug": "/vacant-house/vacant-house-animal-entry/",
     "category": "空き家",
-    "search_intent": "侵入口、衛生、建物被害の相談順を知りたい",
+    "search_intent": "空き家の糞・毛・足跡・音を安全に記録し、生体確認・衛生清掃・侵入口封鎖・建物修繕へ分けたい",
     "risk": "HIGH",
     "cannibalization": {
       "level": "LOW",
@@ -4903,9 +4903,12 @@
     },
     "review_note": "既存ページとの役割境界を冒頭と内部リンク文で明示する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/akiyabank/index.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/gomi_navi/kateigomi/1101.html"
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/10/cyekkurisuto.pdf",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/2/2222.html",
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/10/secondplan.pdf",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/3385.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/3/index.html",
+      "https://www.pref.shizuoka.jp/kurashikankyo/shizenkankyo/wild/1017692.html"
     ],
     "required_sections": [
       "誰が、どの時点で「空き家で動物侵入の跡を見つけたとき」を確認する記事か",

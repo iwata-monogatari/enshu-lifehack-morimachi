@@ -2288,20 +2288,20 @@
   {
     "id": 128,
     "url": "/vacant-house/vacant-house-animal-entry/",
-    "title": "森町の空き家で動物侵入の跡を見つけたとき",
+    "title": "森町の空き家で動物の痕跡を見つけたら｜接触せず工程を分ける記録票",
     "category": "空き家",
-    "search_intent": "侵入口、衛生、建物被害の相談順を知りたい",
+    "search_intent": "空き家の糞・毛・足跡・音を安全に記録し、生体確認・衛生清掃・侵入口封鎖・建物修繕へ分けたい",
     "search_aliases": [
-      "森町の空き家で動物侵入の跡を見つけたとき",
-      "侵入口、衛生、建物被害の相談順を知りたい"
+      "森町の空き家で動物の痕跡を見つけたら",
+      "空き家の糞・毛・足跡・音を安全に記録し、生体確認・衛生清掃・侵入口封鎖・建物修繕へ分けたい"
     ],
-    "editorial_chars": 6853,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 5446,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 129,
