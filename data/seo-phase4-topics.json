@@ -3551,10 +3551,10 @@
     "id": 104,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の未登記増築がある中古住宅｜契約前の資料整理",
+    "title": "森町の未登記増築を契約前に確認｜課税・登記・現況の照合表",
     "slug": "/property/unregistered-extension-check/",
     "category": "住宅",
-    "search_intent": "増築部分が登記や課税資料に反映されているか確認したい",
+    "search_intent": "増築歴のある中古住宅で課税明細書・登記事項証明書・現況を一棟ずつ照合し、未確認事項を契約前に整理したい",
     "risk": "HIGH",
     "cannibalization": {
       "level": "LOW",
@@ -3584,9 +3584,12 @@
     },
     "review_note": "元案の汎用的な住宅支援ページ2件だけでは根拠不足。各候補URLは執筆開始時と公開直前の二度確認する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/1/558.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/index.html",
-      "https://www.pref.shizuoka.jp/machizukuri/kenchiku/index.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/faq/1053.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/kaoku/545.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/yousiki/544.html",
+      "https://houmukyoku.moj.go.jp/homu/page_000001_00051.html",
+      "https://houmukyoku.moj.go.jp/homu/touki1.html"
     ],
     "required_sections": [
       "誰が、どの時点で「未登記増築がある中古住宅」を確認する記事か",

@@ -1856,20 +1856,20 @@
   {
     "id": 104,
     "url": "/property/unregistered-extension-check/",
-    "title": "森町の未登記増築がある中古住宅｜契約前の資料整理",
+    "title": "森町の未登記増築を契約前に確認｜課税・登記・現況の照合表",
     "category": "住宅",
-    "search_intent": "増築部分が登記や課税資料に反映されているか確認したい",
+    "search_intent": "増築歴のある中古住宅で課税明細書・登記事項証明書・現況を一棟ずつ照合し、未確認事項を契約前に整理したい",
     "search_aliases": [
-      "森町の未登記増築がある中古住宅",
-      "増築部分が登記や課税資料に反映されているか確認したい"
+      "森町の未登記増築を契約前に確認",
+      "増築歴のある中古住宅で課税明細書・登記事項証明書・現況を一棟ずつ照合し、未確認事項を契約前に整理したい"
     ],
-    "editorial_chars": 6880,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6111,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 105,
