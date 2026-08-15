@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mv1Title mv1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="mv1Title">森町の小学校とその中にある放課後児童クラブ、隣の保育園を並べて描いたイラスト</title>
+<desc id="mv1Desc">左手に二階建ての校舎が建ち、校庭ではランドセルを背負った子どもたちが歩いています。校舎の一階の一室には放課後児童クラブの札が下がり、窓の中で子どもたちが低い机に向かい、支援員らしい大人が付き添っています。右手には平屋の保育園があり、園庭に滑り台と小さな子どもがいます。二つの建物の間の道を、申込書の入った封筒を持った家族が歩いています。奥には段になった茶畑と杉木立、太田川らしい流れと橋、遠州の山並みが夕方近い空を背に広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="mv1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6dbe6"/><stop offset="1" stop-color="#f1f2e6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="146" fill="url(#mv1Sky)"/>
+  <circle cx="90" cy="48" r="24" fill="#f6e2ad"/>
+  <path fill="#9db4be" d="M0 102 L104 46 L212 102 L322 40 L440 102 L560 44 L676 102 L796 48 L906 102 L1000 62 L1000 142 L0 142 Z"/>
+  <g fill="#3d6350">
+    <path d="M14 146 l13 -44 l13 44 z"/><path d="M44 146 l11 -36 l11 36 z"/>
+    <path d="M912 146 l13 -44 l13 44 z"/><path d="M942 146 l14 -48 l14 48 z"/><path d="M972 146 l11 -36 l11 36 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="#8fb469" d="M0 148 C 250 140, 470 164, 720 150 C 840 144, 920 156, 1000 148 L1000 196 L0 202 Z"/>
+  <g stroke="#5f8543" stroke-width="5" opacity="0.9" fill="none">
+    <path d="M0 162 C 250 154, 470 178, 720 164 C 840 158, 920 170, 1000 162"/>
+    <path d="M0 178 C 250 170, 470 194, 720 180 C 840 174, 920 186, 1000 178"/>
+    <path d="M0 194 C 250 186, 470 210, 720 196 C 840 190, 920 202, 1000 194"/>
+  </g>
+
+  <!-- 川と橋 -->
+  <path fill="#a6cde2" d="M0 204 L1000 196 L1000 232 L0 242 Z"/>
+  <g stroke="#e2f0f6" stroke-width="4" fill="none"><path d="M40 224 L280 218"/><path d="M700 216 L940 208"/></g>
+  <rect x="392" y="194" width="230" height="9" fill="#cfc7ae"/>
+  <g fill="#b6ae95"><rect x="424" y="203" width="8" height="30"/><rect x="504" y="201" width="8" height="30"/><rect x="584" y="199" width="8" height="30"/></g>
+
+  <rect x="0" y="236" width="1000" height="324" fill="#e6e9d9"/>
+
+  <!-- 校庭 -->
+  <path fill="#d9cfae" d="M0 320 L470 312 L470 470 L0 486 Z"/>
+
+  <!-- 校舎 -->
+  <g>
+    <rect x="28" y="252" width="404" height="188" fill="#f2efe4" stroke="#a49a80" stroke-width="4"/>
+    <rect x="16" y="238" width="428" height="20" fill="#7c8a90"/>
+    <path d="M28 322 L432 322" stroke="#c9c0a6" stroke-width="4"/>
+    <!-- 二階の窓 -->
+    <g fill="#bcdcea" stroke="#7fa5b6" stroke-width="3">
+      <rect x="52" y="272" width="58" height="38"/><rect x="132" y="272" width="58" height="38"/>
+      <rect x="212" y="272" width="58" height="38"/><rect x="292" y="272" width="58" height="38"/>
+      <rect x="368" y="272" width="46" height="38"/>
+    </g>
+    <!-- 一階：左は普通教室 -->
+    <g fill="#bcdcea" stroke="#7fa5b6" stroke-width="3">
+      <rect x="52" y="344" width="58" height="42"/><rect x="132" y="344" width="58" height="42"/>
+    </g>
+    <!-- 一階右：放課後児童クラブの部屋 -->
+    <rect x="212" y="336" width="202" height="104" fill="#fdf7e6" stroke="#c1a86a" stroke-width="4"/>
+    <rect x="222" y="300" width="182" height="30" rx="4" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="313" y="322" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">放課後児童クラブ</text>
+    <!-- 室内：低い机と子ども -->
+    <rect x="230" y="404" width="164" height="12" fill="#b98f5d"/>
+    <g>
+      <circle cx="256" cy="372" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+      <path d="M242 392 C 242 398, 244 400, 246 404 L268 404 C 270 400, 272 398, 270 392 Z" fill="#c47f92" stroke="#9c5c6f" stroke-width="3"/>
+      <circle cx="312" cy="372" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+      <path d="M298 392 C 298 398, 300 400, 302 404 L324 404 C 326 400, 328 398, 326 392 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+      <circle cx="372" cy="366" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+      <path d="M356 388 C 356 396, 358 400, 360 404 L386 404 C 388 400, 390 396, 388 388 Z" fill="#4f7c8f" stroke="#345a6b" stroke-width="3"/>
+    </g>
+    <!-- 昇降口 -->
+    <rect x="292" y="440" width="0" height="0"/>
+  </g>
+
+  <!-- 校庭を歩く児童（ランドセル） -->
+  <g>
+    <circle cx="96" cy="452" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M80 476 C 80 508, 84 526, 86 546 L112 546 C 116 526, 122 508, 120 476 Z" fill="#5f86a8" stroke="#3f6684" stroke-width="3"/>
+    <rect x="64" y="480" width="24" height="34" rx="4" fill="#c0563c" stroke="#8f3b28" stroke-width="3"/>
+    <circle cx="184" cy="446" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M168 470 C 168 502, 172 520, 174 540 L200 540 C 204 520, 210 502, 208 470 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+    <rect x="152" y="474" width="24" height="34" rx="4" fill="#3f6684" stroke="#2b4a60" stroke-width="3"/>
+  </g>
+
+  <!-- 中央の道 -->
+  <path d="M470 316 L560 316 L520 560 L400 560 Z" fill="#cbc2a6"/>
+  <g stroke="#ffffff" stroke-width="5" fill="none" stroke-dasharray="18 16" opacity="0.9">
+    <path d="M512 320 L468 556"/>
+  </g>
+
+  <!-- 道を歩く家族（封筒を持つ） -->
+  <g>
+    <circle cx="474" cy="378" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M458 402 C 458 434, 462 452, 464 472 L490 472 C 494 452, 500 434, 498 402 Z" fill="#c47f92" stroke="#9c5c6f" stroke-width="3"/>
+    <rect x="498" y="408" width="46" height="32" fill="#f0ece0" stroke="#a89b7c" stroke-width="3"/>
+    <path d="M498 408 L521 425 L544 408" fill="none" stroke="#a89b7c" stroke-width="3"/>
+    <path d="M494 418 L502 418" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="440" cy="452" r="13" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M428 472 C 428 496, 430 510, 432 526 L452 526 C 454 510, 458 496, 456 472 Z" fill="#d8a55f" stroke="#a87c3c" stroke-width="3"/>
+    <path d="M454 482 L468 476" stroke="#f0d2b0" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 保育園 -->
+  <g>
+    <rect x="600" y="330" width="330" height="130" fill="#f6efe0" stroke="#b8a67c" stroke-width="4"/>
+    <path d="M582 334 L765 262 L948 334 Z" fill="#c07a5e"/>
+    <rect x="582" y="334" width="366" height="14" fill="#a05f47"/>
+    <g fill="#bcdcea" stroke="#7fa5b6" stroke-width="3">
+      <rect x="624" y="358" width="60" height="44"/><rect x="708" y="358" width="60" height="44"/><rect x="792" y="358" width="60" height="44"/>
+    </g>
+    <rect x="866" y="392" width="52" height="68" fill="#d9c9a4" stroke="#a89571" stroke-width="3"/>
+    <g stroke="#a05f47" stroke-width="5"><path d="M700 262 L700 240 M830 262 L830 240"/></g>
+    <rect x="646" y="212" width="238" height="30" rx="4" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="765" y="234" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">保育所・認定こども園</text>
+  </g>
+
+  <!-- 園庭：滑り台と園児 -->
+  <g>
+    <path d="M660 546 L660 486 L700 486 L768 546 Z" fill="#e0b96a" stroke="#b0893f" stroke-width="4"/>
+    <g stroke="#b0893f" stroke-width="4"><path d="M660 500 L640 546 M672 496 L654 546"/></g>
+    <circle cx="682" cy="470" r="13" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M670 488 L696 488 L696 502 L670 502 Z" fill="#7fa9c4" stroke="#54819c" stroke-width="3"/>
+    <circle cx="812" cy="492" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M798 512 C 798 532, 800 542, 802 552 L824 552 C 826 542, 830 532, 828 512 Z" fill="#c9d86a" stroke="#98a545" stroke-width="3"/>
+    <circle cx="884" cy="498" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M870 518 C 870 538, 872 546, 874 556 L896 556 C 898 546, 902 538, 900 518 Z" fill="#e2a0b4" stroke="#b4788c" stroke-width="3"/>
+  </g>
+</svg>

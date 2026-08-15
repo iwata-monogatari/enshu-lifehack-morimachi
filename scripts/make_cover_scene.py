@@ -1958,7 +1958,70 @@ def scene_marriage_subsidy(d):
     band(d, ["新生活の補助は、", "七月から二月で閉じる"], "森町ライフハック／移住・暮らし・データ")
 
 
+def scene_moving_in_timing(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 650, 694, 738], 300)
+    # 中景：段になった茶畑
+    d.polygon([(0, 292), (760, 284), (760, 332), (0, 342)], fill=(133, 178, 92))
+    for i in range(3):
+        d.line([(0, 298 + i * 13), (760, 290 + i * 13)], fill=(90, 134, 62), width=3)
+    d.polygon([(0, 336), (760, 326), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 230, 213))
+    # 校庭
+    d.polygon([(0, 372), (760, 360), (760, 470), (0, 484)], fill=(216, 206, 172))
+    # 校舎（奥）
+    d.rectangle([28, 344, 402, 452], fill=(242, 239, 228), outline=(164, 154, 128), width=4)
+    d.rectangle([16, 330, 414, 348], fill=(124, 138, 144))
+    for x in (48, 112, 176, 240, 304):
+        d.rectangle([x, 362, x + 46, 392], fill=(188, 220, 234), outline=(127, 165, 182), width=3)
+    for x in (48, 112, 176):
+        d.rectangle([x, 408, x + 46, 444], fill=(188, 220, 234), outline=(127, 165, 182), width=3)
+    d.rectangle([248, 404, 396, 452], fill=(253, 247, 230), outline=(193, 168, 106), width=4)
+    # ランドセルの児童（校庭）
+    for cx, body, sack in ((452, (95, 134, 168), (192, 86, 60)), (528, (135, 164, 95), (63, 102, 132))):
+        d.ellipse([cx - 17, 384, cx + 17, 418], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+        d.polygon([(cx - 22, 424), (cx + 22, 424), (cx + 28, 486), (cx - 28, 486)], fill=body)
+        d.rectangle([cx - 44, 430, cx - 22, 466], fill=sack)
+    # 保育園（右奥）
+    d.rectangle([590, 404, 750, 470], fill=(246, 239, 224), outline=(184, 166, 124), width=4)
+    d.polygon([(576, 408), (670, 376), (764, 408)], fill=(192, 122, 94))
+    for x in (606, 668):
+        d.rectangle([x, 420, x + 40, 450], fill=(188, 220, 234), outline=(127, 165, 182), width=3)
+    d.ellipse([716, 464, 742, 490], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.polygon([(714, 496), (744, 496), (748, 528), (710, 528)], fill=(226, 160, 180))
+    # 手前：窓口のカウンター
+    d.rectangle([0, 500, 760, 534], fill=(185, 143, 93))
+    d.rectangle([0, 534, 760, 548], fill=(158, 118, 72))
+    # 掲示（九月と四月の二枚）
+    f = ImageFont.truetype(FONT_BOLD, 26)
+    d.rectangle([406, 306, 596, 372], fill=(255, 255, 255), outline=(31, 62, 82), width=5)
+    d.text((424, 322), "9月14日", font=f, fill="#c0563c")
+    d.rectangle([604, 306, 748, 372], fill=(255, 255, 255), outline=(31, 62, 82), width=5)
+    d.text((626, 322), "4月", font=f, fill="#3f6684")
+    d.line([(596, 338), (604, 338)], fill=(31, 62, 82), width=5)
+    # 掲示を指す職員
+    d.ellipse([610, 400, 654, 444], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.chord([610, 392, 654, 436], 180, 360, fill=(72, 62, 52))
+    d.polygon([(602, 450), (662, 450), (672, 500), (592, 500)], fill=(96, 134, 168))
+    d.line([(606, 460), (566, 386)], fill=(240, 210, 176), width=10)
+    # 手前の家族（後ろ姿・親二人と子ども一人）
+    for cx, body, r in ((110, (196, 127, 146), 24), (240, (135, 164, 95), 24), (346, (95, 134, 168), 17)):
+        d.ellipse([cx - r, 424 - r + 12, cx + r, 424 + r + 12], fill=(240, 210, 176),
+                  outline=(194, 161, 129), width=3)
+        d.chord([cx - r, 428 - r, cx + r, 428 + r], 180, 360, fill=(64, 54, 44))
+        d.polygon([(cx - r - 10, 466), (cx + r + 10, 466), (cx + r + 18, 500), (cx - r - 18, 500)],
+                  fill=body)
+    # カウンター上の申込書
+    d.rectangle([146, 456, 260, 500], fill=(253, 251, 242), outline=(178, 170, 150), width=4)
+    for y0 in (470, 482, 494):
+        d.line([(158, y0), (248, y0)], fill=(196, 189, 166), width=3)
+    d.rectangle([282, 462, 384, 500], fill=(253, 243, 216), outline=(196, 173, 106), width=4)
+    d.line([(294, 480), (368, 480)], fill=(196, 173, 106), width=3)
+    band(d, ["四月の入園と入学は、", "九月の申込みで決まる"], "森町ライフハック／移住・暮らし・データ")
+
+
 SCENES = {
+    "20260816-moving-in-timing-for-children": scene_moving_in_timing,
     "20260816-marriage-new-life-subsidy": scene_marriage_subsidy,
     "20260815-children-roles-in-district": scene_children_roles,
     "20260815-mori-matsuri-district-choice": scene_mori_matsuri_choice,

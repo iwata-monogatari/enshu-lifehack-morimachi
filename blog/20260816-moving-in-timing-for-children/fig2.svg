@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mv2Title mv2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="mv2Title">子連れで森町へ移り住む時期を決める順番を、一年の道すじとして描いたイラスト</title>
+<desc id="mv2Desc">左端に八月の家族の家があり、玄関先で地図と学校の案内を広げて相談しています。そこから右へ道が伸び、最初の地点では家族が受話器を持って健康こども課へ問い合わせています。次の地点は九月中旬で、窓口へ申込書を出す家族と、九月十四日から十月十六日までと書かれた札が立っています。そこで道が二つに分かれ、上の道は九月に転入して秋の申込みに並ぶ家族の場面へ、下の道は四月に転入して学校の転入学手続きだけを先に済ませる家族の場面へ続きます。二つの道は右端の四月の校門の前で合流し、ランドセルを背負った子どもが門をくぐっています。背景には遠州の山並みと杉木立、段になった茶畑が広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="mv2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd8e6"/><stop offset="1" stop-color="#eff3e7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="138" fill="url(#mv2Sky)"/>
+  <path fill="#9db4be" d="M0 94 L100 44 L206 94 L316 38 L432 94 L552 40 L668 94 L788 46 L898 94 L1000 58 L1000 134 L0 134 Z"/>
+  <g fill="#3d6350">
+    <path d="M16 138 l13 -44 l13 44 z"/><path d="M46 138 l11 -36 l11 36 z"/>
+    <path d="M928 138 l13 -44 l13 44 z"/><path d="M958 138 l14 -48 l14 48 z"/>
+  </g>
+  <path fill="#8fb469" d="M0 140 C 240 132, 460 154, 700 142 C 830 136, 910 148, 1000 140 L1000 176 L0 182 Z"/>
+  <g stroke="#6a8f4c" stroke-width="4" opacity="0.8" fill="none">
+    <path d="M0 154 C 240 146, 460 168, 700 156 C 830 150, 910 162, 1000 154"/>
+    <path d="M0 170 C 240 162, 460 184, 700 172 C 830 166, 910 178, 1000 170"/>
+  </g>
+  <path fill="#e6e9d9" d="M0 178 L1000 172 L1000 560 L0 560 Z"/>
+
+  <!-- 上部の帯 -->
+  <g>
+    <rect x="26" y="18" width="948" height="36" rx="8" fill="#1f3e52"/>
+    <rect x="26" y="18" width="948" height="6" rx="3" fill="#d6a83c"/>
+    <text x="500" y="45" font-family="sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">四月に入るための申込みは、前年の 9月14日 から 10月16日 まで</text>
+  </g>
+
+  <!-- 道すじ -->
+  <g stroke="#cbc2a6" stroke-width="26" fill="none" stroke-linecap="round">
+    <path d="M186 400 L512 400"/>
+    <path d="M512 400 L590 306 L744 306"/>
+    <path d="M512 400 L590 490 L744 490"/>
+    <path d="M744 306 L812 396"/>
+    <path d="M744 490 L812 396"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="4" fill="none" stroke-dasharray="16 14" opacity="0.85">
+    <path d="M186 400 L512 400"/><path d="M512 400 L590 306 L744 306"/><path d="M512 400 L590 490 L744 490"/>
+  </g>
+
+  <!-- 出発点：八月の家 -->
+  <g>
+    <rect x="34" y="328" width="136" height="112" fill="#f4eee2" stroke="#a3997f" stroke-width="4"/>
+    <path d="M18 332 L102 278 L186 332 Z" fill="#6a7a80"/>
+    <rect x="56" y="352" width="48" height="36" fill="#bcdcea" stroke="#7fa5b6" stroke-width="3"/>
+    <rect x="126" y="382" width="32" height="58" fill="#c9b48c" stroke="#9c8763" stroke-width="3"/>
+    <rect x="30" y="244" width="146" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="103" y="266" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">八月：相談</text>
+    <!-- 地図を広げる二人 -->
+    <circle cx="196" cy="352" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M180 376 C 180 404, 184 420, 186 436 L210 436 C 214 420, 220 404, 218 376 Z" fill="#c47f92" stroke="#9c5c6f" stroke-width="3"/>
+    <rect x="214" y="378" width="58" height="40" fill="#fdfbf2" stroke="#b9b09a" stroke-width="3"/>
+    <g stroke="#c3bda6" stroke-width="3"><path d="M224 392 L262 392 M224 404 L250 404"/></g>
+    <path d="M212 388 L220 388" stroke="#f0d2b0" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 1 電話で聞く -->
+  <g>
+    <rect x="256" y="212" width="200" height="38" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="356" y="238" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">1 転入前でも申込めるか</text>
+    <circle cx="316" cy="322" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M300 346 C 300 380, 304 396, 306 416 L332 416 C 336 396, 342 380, 340 346 Z" fill="#5f86a8" stroke="#3f6684" stroke-width="3"/>
+    <path d="M336 352 C 348 340, 348 318, 336 306" fill="none" stroke="#4a5560" stroke-width="6" stroke-linecap="round"/>
+    <rect x="374" y="286" width="80" height="58" rx="4" fill="#eceee6" stroke="#9aa196" stroke-width="4"/>
+    <path d="M366 290 L414 262 L462 290 Z" fill="#7c8a90"/>
+    <rect x="392" y="304" width="44" height="24" fill="#f6d98f" stroke="#c9a94f" stroke-width="3"/>
+  </g>
+
+  <!-- 2 九月中旬：窓口へ出す -->
+  <g>
+    <rect x="212" y="444" width="252" height="38" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+    <text x="338" y="470" font-family="sans-serif" font-size="17" font-weight="bold" fill="#c0563c" text-anchor="middle">2 九月中旬：申込書を出す</text>
+    <rect x="236" y="518" width="204" height="20" fill="#b98f5d"/>
+    <rect x="236" y="538" width="204" height="8" fill="#9c7648"/>
+    <rect x="256" y="496" width="70" height="24" fill="#fdfbf2" stroke="#b9b09a" stroke-width="3"/>
+    <rect x="348" y="496" width="70" height="24" fill="#fdf3d8" stroke="#c4ad6a" stroke-width="3"/>
+    <circle cx="176" cy="474" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M160 498 C 160 520, 164 532, 166 546 L188 546 C 192 532, 198 520, 196 498 Z" fill="#c47f92" stroke="#9c5c6f" stroke-width="3"/>
+    <path d="M196 508 L232 504" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- 分岐の道標 -->
+  <g>
+    <path d="M512 466 L512 362" stroke="#8f7f5e" stroke-width="8"/>
+    <circle cx="512" cy="400" r="12" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+  </g>
+
+  <!-- 上の道：九月に転入 -->
+  <g>
+    <rect x="596" y="206" width="342" height="38" rx="6" fill="#ffffff" stroke="#c0563c" stroke-width="4"/>
+    <text x="767" y="232" font-family="sans-serif" font-size="17" font-weight="bold" fill="#c0563c" text-anchor="middle">九月に転入：住民として秋の申込みに並ぶ</text>
+    <circle cx="640" cy="268" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M624 292 C 624 316, 628 330, 630 348 L654 348 C 658 330, 664 316, 662 292 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+    <circle cx="694" cy="274" r="13" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M682 294 C 682 316, 684 330, 686 348 L706 348 C 708 330, 712 316, 710 294 Z" fill="#e2a0b4" stroke="#b4788c" stroke-width="3"/>
+    <!-- 引越の箱 -->
+    <rect x="726" y="308" width="46" height="40" fill="#d5b284" stroke="#a5875e" stroke-width="3"/>
+    <path d="M749 308 L749 348" stroke="#a5875e" stroke-width="3"/>
+  </g>
+
+  <!-- 下の道：四月に転入 -->
+  <g>
+    <rect x="524" y="512" width="282" height="36" rx="6" fill="#ffffff" stroke="#5f7b3d" stroke-width="4"/>
+    <text x="665" y="536" font-family="sans-serif" font-size="17" font-weight="bold" fill="#4f6b33" text-anchor="middle">四月に転入：学校の手続きを先に</text>
+    <circle cx="602" cy="422" r="15" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M586 446 C 586 468, 590 484, 592 500 L616 500 C 620 484, 626 468, 624 446 Z" fill="#4f7c8f" stroke="#345a6b" stroke-width="3"/>
+    <rect x="638" y="446" width="66" height="46" rx="3" fill="#fdfbf2" stroke="#b9b09a" stroke-width="3"/>
+    <g stroke="#c3bda6" stroke-width="3"><path d="M650 464 L692 464 M650 478 L680 478"/></g>
+    <text x="700" y="436" font-family="sans-serif" font-size="14" fill="#4a5560" text-anchor="middle">転入学通知書</text>
+    <path d="M622 458 L638 458" stroke="#f0d2b0" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- 合流：四月の校門 -->
+  <g>
+    <rect x="838" y="256" width="14" height="150" fill="#8d8368"/>
+    <rect x="964" y="256" width="14" height="150" fill="#8d8368"/>
+    <rect x="828" y="240" width="160" height="18" rx="4" fill="#6a7a80"/>
+    <rect x="852" y="284" width="112" height="60" fill="#eceee6" stroke="#9aa196" stroke-width="3"/>
+    <path d="M840 288 L908 258 L976 288 Z" fill="#7c8a90"/>
+    <g fill="#f6d98f" stroke="#c9a94f" stroke-width="3"><rect x="866" y="300" width="34" height="24"/><rect x="916" y="300" width="34" height="24"/></g>
+    <!-- 門をくぐるランドセルの子 -->
+    <circle cx="902" cy="392" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M886 416 C 886 444, 890 460, 892 478 L918 478 C 922 460, 928 444, 926 416 Z" fill="#5f86a8" stroke="#3f6684" stroke-width="3"/>
+    <rect x="866" y="420" width="24" height="34" rx="4" fill="#c0563c" stroke="#8f3b28" stroke-width="3"/>
+    <rect x="812" y="486" width="182" height="34" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="903" y="510" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">四月：校門で合流</text>
+  </g>
+</svg>
