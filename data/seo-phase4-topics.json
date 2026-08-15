@@ -4756,10 +4756,10 @@
     "id": 126,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の空き家で近隣への緊急連絡先を決める",
+    "title": "森町の空き家で近隣から異常連絡を受ける｜所有者・現地担当の連絡カード",
     "slug": "/vacant-house/vacant-house-neighbor-contact/",
     "category": "空き家",
-    "search_intent": "倒木や漏水時に連絡が届く体制を作りたい",
+    "search_intent": "空き家の異常を近隣から所有者へ安全に伝え、現地確認・専門業者・緊急通報へつなぐ連絡カードを作りたい",
     "risk": "MEDIUM",
     "cannibalization": {
       "level": "LOW",
@@ -4789,9 +4789,12 @@
     },
     "review_note": "既存ページとの役割境界を冒頭と内部リンク文で明示する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/akiyabank/index.html",
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/gomi_navi/kateigomi/1101.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/2/2222.html",
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/10/secondplan.pdf",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/4/505.html",
+      "https://www.mlit.go.jp/jutakukentiku/house/akiya-taisaku/articles/2024020104.html",
+      "https://www.mlit.go.jp/jutakukentiku/house/content/001732456.pdf"
     ],
     "required_sections": [
       "誰が、どの時点で「空き家で近隣への緊急連絡先を決める」を確認する記事か",
