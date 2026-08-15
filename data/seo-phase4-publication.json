@@ -2234,20 +2234,20 @@
   {
     "id": 125,
     "url": "/vacant-house/vacant-house-maintenance-log/",
-    "title": "森町の空き家に修繕履歴を残す｜写真と領収書の整理",
+    "title": "森町の空き家修繕後に残す｜写真・領収書・保証の履歴台帳",
     "category": "空き家",
-    "search_intent": "将来の活用や説明に備えて管理記録を作りたい",
+    "search_intent": "空き家の修繕完了後に、施工部位・着手前後写真・領収書・保証・未実施箇所を一件台帳へ残したい",
     "search_aliases": [
-      "森町の空き家に修繕履歴を残す",
-      "将来の活用や説明に備えて管理記録を作りたい"
+      "森町の空き家修繕後に残す",
+      "空き家の修繕完了後に、施工部位・着手前後写真・領収書・保証・未実施箇所を一件台帳へ残したい"
     ],
-    "editorial_chars": 6832,
-    "generated_at": "2026-08-09",
-    "source_validation": "pending",
-    "uniqueness_validation": "pending",
-    "visual_validation": "pending",
-    "human_reviewed": false,
-    "publish_ready": false
+    "editorial_chars": 6579,
+    "generated_at": "2026-08-12",
+    "source_validation": "verified",
+    "uniqueness_validation": "verified",
+    "visual_validation": "verified",
+    "human_reviewed": true,
+    "publish_ready": true
   },
   {
     "id": 126,
