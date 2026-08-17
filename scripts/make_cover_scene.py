@@ -2093,7 +2093,75 @@ def scene_heir_representative(d):
     band(d, ["通知書は、", "誰の家に届くのか"], "森町ライフハック／手続き・制度")
 
 
+def scene_insurance_care_papers(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 102, 652, 698, 742], 300)
+    # 中景：茶畑と家並み
+    d.polygon([(0, 292), (760, 284), (760, 328), (0, 338)], fill=(133, 178, 92))
+    for i in range(3):
+        d.line([(0, 298 + i * 12), (760, 290 + i * 12)], fill=(90, 134, 62), width=3)
+    d.polygon([(0, 332), (760, 322), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 230, 213))
+    for x, w in ((22, 88), (132, 70), (600, 92)):
+        d.rectangle([x, 340, x + w, 376], fill=(238, 232, 218))
+        d.polygon([(x - 8, 342), (x + w // 2, 316), (x + w + 8, 342)], fill=(133, 148, 156))
+    d.polygon([(0, 380), (760, 370), (760, 394), (0, 404)], fill=(111, 154, 88))
+    # 庭の木
+    d.rectangle([676, 352, 690, 420], fill=(138, 106, 72))
+    d.ellipse([636, 300, 730, 380], fill=(95, 140, 76))
+    # 畳と座卓
+    d.rectangle([0, 452, S, 470], fill=(201, 168, 119))
+    d.rectangle([0, 470, S, BAND_TOP], fill=(221, 201, 164))
+    d.line([(0, 528), (S, 528)], fill=(196, 171, 132), width=3)
+    d.rectangle([116, 470, 656, 500], fill=(185, 143, 93))
+    d.rectangle([116, 500, 656, 512], fill=(156, 118, 72))
+    # 卓上：橙色（期限切れ）と藤色（新しい）の資格確認書
+    d.rounded_rectangle([148, 396, 268, 468], radius=8, fill=(224, 138, 60),
+                        outline=(181, 106, 38), width=4)
+    d.rectangle([160, 408, 256, 420], fill=(244, 196, 143))
+    d.line([(148, 396), (268, 468)], fill=(143, 74, 28), width=4)
+    d.rounded_rectangle([292, 396, 412, 468], radius=8, fill=(176, 163, 212),
+                        outline=(127, 112, 171), width=4)
+    d.rectangle([304, 408, 400, 420], fill=(215, 207, 233))
+    # 卓上：ピンクの介護保険被保険者証と割合の紙
+    d.rectangle([438, 408, 528, 468], fill=(242, 195, 208), outline=(201, 141, 160), width=4)
+    for y0 in (426, 442):
+        d.line([(450, y0), (516, y0)], fill=(215, 159, 176), width=3)
+    d.rectangle([550, 414, 620, 468], fill=(253, 251, 242), outline=(168, 155, 124), width=3)
+    for y0 in (430, 444):
+        d.line([(560, y0), (610, y0)], fill=(207, 197, 168), width=3)
+    # 卓上：眼鏡と診察券
+    d.ellipse([636, 428, 668, 460], outline=(75, 66, 56), width=4)
+    d.ellipse([672, 428, 704, 460], outline=(75, 66, 56), width=4)
+    d.line([(668, 444), (672, 444)], fill=(75, 66, 56), width=4)
+    d.rectangle([44, 424, 106, 456], fill=(255, 255, 255), outline=(152, 162, 168), width=3)
+    d.rectangle([54, 414, 116, 446], fill=(246, 248, 247), outline=(152, 162, 168), width=3)
+    # 壁の暦（八月一日に丸）
+    f = ImageFont.truetype(FONT_BOLD, 24)
+    d.rectangle([176, 300, 352, 392], fill=(253, 251, 242), outline=(141, 131, 104), width=4)
+    d.rectangle([176, 300, 352, 332], fill=(31, 62, 82))
+    d.text((240, 304), "8月", font=f, fill="#ffffff")
+    for i in range(2):
+        d.line([(176, 354 + i * 20), (352, 354 + i * 20)], fill=(195, 189, 166), width=3)
+    d.ellipse([190, 336, 220, 366], outline=(192, 86, 60), width=6)
+    d.rectangle([382, 300, 610, 340], fill=(255, 255, 255), outline=(125, 63, 44), width=4)
+    d.text((398, 306), "橙 → 藤いろ", font=ImageFont.truetype(FONT_BOLD, 26), fill=(125, 63, 44))
+    # 紙を見比べる子
+    d.ellipse([50, 336, 106, 392], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.chord([50, 326, 106, 382], 180, 360, fill=(75, 66, 56))
+    d.polygon([(38, 400), (118, 400), (130, 470), (26, 470)], fill=(92, 134, 160))
+    # 封筒の束を出す親
+    d.ellipse([648, 344, 704, 400], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.chord([648, 334, 704, 390], 180, 360, fill=(185, 178, 161))
+    d.polygon([(636, 408), (716, 408), (728, 470), (624, 470)], fill=(140, 154, 110))
+    d.rectangle([690, 416, 756, 452], fill=(253, 251, 242), outline=(168, 155, 124), width=3)
+    d.line([(690, 416), (723, 436)], fill=(168, 155, 124), width=3)
+    d.line([(723, 436), (756, 416)], fill=(168, 155, 124), width=3)
+    band(d, ["八月一日で、", "親の紙は入れ替わる"], "森町ライフハック／手続き・制度")
+
+
 SCENES = {
+    "20260817-august-insurance-care-papers": scene_insurance_care_papers,
     "20260817-heir-representative-tax-notice": scene_heir_representative,
     "20260816-moving-in-timing-for-children": scene_moving_in_timing,
     "20260816-marriage-new-life-subsidy": scene_marriage_subsidy,

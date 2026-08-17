@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ai1Title ai1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ai1Title">森町の実家の茶の間で、親と子が医療と介護の書類を座卓に並べて確かめている情景のイラスト</title>
+<desc id="ai1Desc">中央の座卓に、期限切れの橙色のカードと新しい藤色のカードが左右に並べて置かれ、その隣にピンク色の介護保険被保険者証と、負担の割合が書かれた細長い紙があります。子は二枚のカードを手に取って見比べ、親は封筒の束から書類を出しています。卓の端には眼鏡と薬の袋、重なった診察券があります。左手の壁には八月の暦が掛かり、一日の欄に赤い丸が付いています。そのとなりに「8月1日で入れ替わる」と書かれた札が掛かっています。右手の障子が開いた先には縁側と庭の木、物置が見え、その向こうに瓦屋根の家並みと生け垣、段になった茶畑、杉木立、遠州の山並みが夏の空を背に広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ai1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c1d8e6"/><stop offset="1" stop-color="#eff4e8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+
+  <!-- 障子の外（右半分）：山・茶畑・家並み -->
+  <g>
+    <rect x="560" y="96" width="440" height="132" fill="url(#ai1Sky)"/>
+    <circle cx="936" cy="132" r="20" fill="#f6e6b4"/>
+    <path fill="#9db4be" d="M560 186 L636 142 L714 186 L796 138 L876 186 L950 144 L1000 178 L1000 224 L560 224 Z"/>
+    <g fill="#3d6350">
+      <path d="M566 228 l11 -36 l11 36 z"/><path d="M592 228 l9 -30 l9 30 z"/>
+      <path d="M964 228 l11 -36 l11 36 z"/><path d="M986 228 l9 -30 l9 30 z"/>
+    </g>
+    <path fill="#8fb469" d="M560 226 C 700 220, 860 238, 1000 226 L1000 262 L560 268 Z"/>
+    <g stroke="#5f8543" stroke-width="4" fill="none">
+      <path d="M560 238 C 700 232, 860 250, 1000 238"/>
+      <path d="M560 252 C 700 246, 860 264, 1000 252"/>
+    </g>
+    <rect x="620" y="276" width="86" height="36" fill="#efe9dd"/>
+    <path d="M610 278 L663 252 L716 278 Z" fill="#7f8d93"/>
+    <rect x="860" y="274" width="90" height="38" fill="#efe9dd"/>
+    <path d="M850 276 L905 250 L960 276 Z" fill="#6f7f86"/>
+    <path d="M560 316 C 720 308, 880 322, 1000 312 L1000 334 L560 340 Z" fill="#6f9a58"/>
+    <rect x="560" y="334" width="440" height="52" fill="#e6e9d9"/>
+    <!-- 庭の木と物置 -->
+    <rect x="742" y="316" width="14" height="66" fill="#8a6a48"/>
+    <circle cx="749" cy="304" r="40" fill="#5f8c4c"/>
+    <circle cx="716" cy="318" r="26" fill="#54803f"/>
+    <rect x="932" y="330" width="62" height="52" fill="#c2bbaa" stroke="#9d9686" stroke-width="3"/>
+    <path d="M924 332 L963 306 L1002 332 Z" fill="#7f8d93"/>
+  </g>
+
+  <!-- 障子の枠 -->
+  <g>
+    <rect x="548" y="84" width="20" height="332" fill="#a68a5c"/>
+    <rect x="548" y="84" width="452" height="18" fill="#a68a5c"/>
+    <rect x="548" y="384" width="452" height="20" fill="#c9a877"/>
+  </g>
+
+  <!-- 左：室内の壁と八月の暦 -->
+  <g>
+    <rect x="0" y="0" width="560" height="404" fill="#eee7d6"/>
+    <rect x="0" y="0" width="1000" height="20" fill="#d9d0bb"/>
+    <rect x="60" y="70" width="216" height="152" rx="6" fill="#fdfbf2" stroke="#8d8368" stroke-width="4"/>
+    <rect x="60" y="70" width="216" height="34" rx="6" fill="#1f3e52"/>
+    <text x="168" y="95" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">8月</text>
+    <g stroke="#c3bda6" stroke-width="3" fill="none">
+      <path d="M60 140 L276 140 M60 174 L276 174"/>
+      <path d="M114 104 L114 222 M168 104 L168 222 M222 104 L222 222"/>
+    </g>
+    <circle cx="87" cy="122" r="13" fill="none" stroke="#c0563c" stroke-width="4"/>
+    <rect x="316" y="120" width="200" height="36" rx="5" fill="#ffffff" stroke="#7d3f2c" stroke-width="4"/>
+    <text x="416" y="146" font-family="sans-serif" font-size="18" font-weight="bold" fill="#7d3f2c" text-anchor="middle">8月1日で入れ替わる</text>
+  </g>
+
+  <!-- 畳の床 -->
+  <rect x="0" y="404" width="1000" height="156" fill="#ddc9a4"/>
+  <g stroke="#c4ab84" stroke-width="3" fill="none">
+    <path d="M0 444 L1000 444 M0 500 L1000 500"/>
+    <path d="M336 404 L336 560 M672 404 L672 560"/>
+  </g>
+
+  <!-- 座卓 -->
+  <g>
+    <rect x="188" y="404" width="600" height="30" rx="4" fill="#b98f5d"/>
+    <rect x="188" y="434" width="600" height="12" fill="#9c7648"/>
+    <rect x="216" y="446" width="18" height="52" fill="#9c7648"/>
+    <rect x="742" y="446" width="18" height="52" fill="#9c7648"/>
+  </g>
+
+  <!-- 卓上：橙色（期限切れ）と藤色（新しい）の資格確認書 -->
+  <g>
+    <rect x="212" y="330" width="120" height="76" rx="7" fill="#e08a3c" stroke="#b56a26" stroke-width="4"/>
+    <rect x="222" y="342" width="100" height="14" fill="#f4c48f"/>
+    <g stroke="#c07f3c" stroke-width="3" fill="none"><path d="M222 368 L312 368 M222 384 L288 384"/></g>
+    <path d="M212 330 L332 406" stroke="#8f4a1c" stroke-width="4"/>
+    <rect x="196" y="298" width="152" height="26" rx="5" fill="#ffffff" stroke="#8f4a1c" stroke-width="3"/>
+    <text x="272" y="318" font-family="sans-serif" font-size="15" font-weight="bold" fill="#8f4a1c" text-anchor="middle">7月31日まで</text>
+
+    <rect x="360" y="330" width="120" height="76" rx="7" fill="#b0a3d4" stroke="#7f70ab" stroke-width="4"/>
+    <rect x="370" y="342" width="100" height="14" fill="#d7cfe9"/>
+    <g stroke="#8f81b8" stroke-width="3" fill="none"><path d="M370 368 L460 368 M370 384 L436 384"/></g>
+    <rect x="344" y="298" width="152" height="26" rx="5" fill="#ffffff" stroke="#5c4f85" stroke-width="3"/>
+    <text x="420" y="318" font-family="sans-serif" font-size="15" font-weight="bold" fill="#5c4f85" text-anchor="middle">8月1日から</text>
+  </g>
+
+  <!-- 卓上：ピンクの介護保険被保険者証と負担割合の紙 -->
+  <g>
+    <rect x="504" y="342" width="94" height="64" fill="#f2c3d0" stroke="#c98da0" stroke-width="4"/>
+    <g stroke="#d79fb0" stroke-width="3" fill="none"><path d="M514 362 L588 362 M514 378 L562 378"/></g>
+    <rect x="612" y="352" width="72" height="54" fill="#fdfbf2" stroke="#a89b7c" stroke-width="3"/>
+    <g stroke="#cfc5a8" stroke-width="3" fill="none"><path d="M620 368 L676 368 M620 382 L676 382"/></g>
+    <text x="648" y="400" font-family="sans-serif" font-size="14" font-weight="bold" fill="#7d6b3f" text-anchor="middle">割合</text>
+  </g>
+
+  <!-- 卓上：眼鏡・湯呑み・薬袋・診察券 -->
+  <g>
+    <g fill="none" stroke="#4b4238" stroke-width="4">
+      <circle cx="716" cy="386" r="14"/><circle cx="754" cy="386" r="14"/>
+      <path d="M730 386 L740 386"/><path d="M702 380 L688 372"/>
+    </g>
+    <path d="M780 366 L830 366 L824 406 L786 406 Z" fill="#dfe9ea" stroke="#a9bcc0" stroke-width="3"/>
+    <g fill="#ffffff" stroke="#98a2a8" stroke-width="3">
+      <rect x="52" y="376" width="58" height="30"/><rect x="62" y="366" width="58" height="30"/>
+    </g>
+  </g>
+
+  <!-- 子（左・カードを見比べる） -->
+  <g>
+    <circle cx="150" cy="264" r="26" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M120 258 a30 27 0 0 1 60 0 z" fill="#4b4238"/>
+    <path d="M112 302 C 112 348, 116 380, 118 404 L184 404 C 186 380, 190 348, 190 302 Z" fill="#5c86a0" stroke="#3f6379" stroke-width="3"/>
+    <path d="M186 318 L226 344" stroke="#f0d2b0" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- 親（右・封筒の束を出す） -->
+  <g>
+    <circle cx="856" cy="272" r="26" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M826 266 a30 27 0 0 1 60 0 z" fill="#b9b2a1"/>
+    <path d="M818 310 C 818 352, 822 382, 824 412 L890 412 C 892 382, 896 352, 896 310 Z" fill="#8c9a6e" stroke="#69764e" stroke-width="3"/>
+    <path d="M820 328 L784 346" stroke="#f0d2b0" stroke-width="12" stroke-linecap="round"/>
+    <g fill="#fdfbf2" stroke="#a89b7c" stroke-width="3">
+      <rect x="898" y="352" width="72" height="42"/><rect x="908" y="342" width="72" height="42"/>
+    </g>
+    <path d="M908 342 L944 364 L980 342" fill="none" stroke="#a89b7c" stroke-width="3"/>
+  </g>
+
+  <!-- 手前の帯 -->
+  <g>
+    <rect x="300" y="510" width="400" height="36" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="500" y="535" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">古い紙は、勝手には消えない</text>
+  </g>
+</svg>

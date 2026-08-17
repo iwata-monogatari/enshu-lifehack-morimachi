@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ai2Title ai2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ai2Title">森町の実家で、親の医療と介護の紙を帰省後に確かめる順番を一本の道すじとして描いたイラスト</title>
+<desc id="ai2Desc">左端に実家の玄関と積み上がった郵便物の束があり、そこから右へ一本の道が伸びています。最初の地点では、親と子が座卓で封筒を開け、七月下旬に届いた郵便を選り分けています。次の地点では、財布から出したカードを並べ、有効期限の年月日を虫眼鏡で確かめています。三つ目の地点では、藤色の資格確認書を財布に入れ直し、期限切れの橙色のカードを別の封筒にまとめています。四つ目で道が二つに分かれ、上の道は医療の窓口へ電話をかける場面へ、下の道は介護の窓口へ電話をかける場面へ続きます。二つの道は合流し、最後に診察券と紙をまとめた一枚の袋を作る場面があります。道の下には七月下旬から八月末までの帯が伸びています。背景には遠州の山並みと杉木立、段になった茶畑、太田川らしい流れと橋が広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ai2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3d9e6"/><stop offset="1" stop-color="#f0f4e8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="128" fill="url(#ai2Sky)"/>
+  <path fill="#9db4be" d="M0 88 L88 40 L192 88 L300 36 L414 88 L532 38 L648 88 L768 42 L880 88 L1000 54 L1000 124 L0 124 Z"/>
+  <g fill="#3d6350">
+    <path d="M16 128 l12 -40 l12 40 z"/><path d="M44 128 l14 -46 l14 46 z"/><path d="M76 128 l11 -34 l11 34 z"/>
+    <path d="M900 128 l12 -40 l12 40 z"/><path d="M930 128 l14 -46 l14 46 z"/><path d="M964 128 l11 -34 l11 34 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="#8fb469" d="M0 130 C 260 122, 500 146, 740 132 C 850 126, 930 138, 1000 130 L1000 172 L0 178 Z"/>
+  <g stroke="#5f8543" stroke-width="5" opacity="0.9" fill="none">
+    <path d="M0 144 C 260 136, 500 160, 740 146 C 850 140, 930 152, 1000 144"/>
+    <path d="M0 160 C 260 152, 500 176, 740 162 C 850 156, 930 168, 1000 160"/>
+  </g>
+
+  <!-- 川と橋 -->
+  <path fill="#a6cde2" d="M0 184 L1000 176 L1000 208 L0 216 Z"/>
+  <g stroke="#e2f0f6" stroke-width="4" fill="none">
+    <path d="M40 202 L230 196"/><path d="M710 194 L950 188"/>
+  </g>
+  <rect x="350" y="174" width="250" height="9" fill="#cfc7ae"/>
+  <g fill="#b6ae95"><rect x="382" y="183" width="8" height="28"/><rect x="472" y="181" width="8" height="28"/><rect x="562" y="179" width="8" height="28"/></g>
+
+  <rect x="0" y="212" width="1000" height="348" fill="#e6e9d9"/>
+
+  <!-- 道すじ（本線） -->
+  <path d="M60 448 C 200 448, 244 392, 376 392 C 496 392, 536 336, 656 336" fill="none" stroke="#cfc4a6" stroke-width="30" stroke-linecap="round"/>
+  <path d="M60 448 C 200 448, 244 392, 376 392 C 496 392, 536 336, 656 336" fill="none" stroke="#fbf7ea" stroke-width="4" stroke-dasharray="16 16"/>
+  <!-- 分岐 -->
+  <path d="M656 336 C 712 336, 734 288, 806 288 C 860 288, 876 302, 898 302" fill="none" stroke="#cfc4a6" stroke-width="26" stroke-linecap="round"/>
+  <path d="M656 336 C 712 336, 734 388, 806 388 C 860 388, 876 340, 898 316" fill="none" stroke="#cfc4a6" stroke-width="26" stroke-linecap="round"/>
+  <path d="M656 336 C 712 336, 734 288, 806 288 C 860 288, 876 302, 898 302" fill="none" stroke="#fbf7ea" stroke-width="4" stroke-dasharray="14 14"/>
+  <path d="M656 336 C 712 336, 734 388, 806 388 C 860 388, 876 340, 898 316" fill="none" stroke="#fbf7ea" stroke-width="4" stroke-dasharray="14 14"/>
+
+  <!-- 1. 玄関と郵便物の束を開ける -->
+  <g>
+    <rect x="14" y="280" width="120" height="94" fill="#f4eee2" stroke="#a3997f" stroke-width="4"/>
+    <path d="M2 284 L74 240 L146 284 Z" fill="#6a7a80"/>
+    <rect x="2" y="284" width="144" height="10" fill="#55636a"/>
+    <rect x="52" y="312" width="46" height="62" fill="#c9b48c" stroke="#9c8763" stroke-width="3"/>
+    <g fill="#fdfbf2" stroke="#a89b7c" stroke-width="3">
+      <rect x="144" y="336" width="56" height="30"/><rect x="152" y="326" width="56" height="30"/>
+      <rect x="160" y="316" width="56" height="30"/>
+    </g>
+    <path d="M144 336 L172 352 L200 336" fill="none" stroke="#a89b7c" stroke-width="3"/>
+    <circle cx="86" cy="402" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M67 381 a19 17 0 0 1 38 0 z" fill="#4b4238"/>
+    <path d="M69 424 C 69 448, 71 458, 73 472 L99 472 C 101 458, 105 448, 103 424 Z" fill="#5c86a0" stroke="#3f6379" stroke-width="3"/>
+    <path d="M101 434 L142 420" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <rect x="10" y="488" width="188" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="104" y="509" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">1 七月下旬の郵便</text>
+  </g>
+
+  <!-- 2. カードを並べて期限を虫眼鏡で読む -->
+  <g>
+    <rect x="222" y="286" width="148" height="26" rx="4" fill="#b98f5d"/>
+    <rect x="222" y="312" width="148" height="9" fill="#9c7648"/>
+    <rect x="234" y="321" width="12" height="28" fill="#9c7648"/>
+    <rect x="346" y="321" width="12" height="28" fill="#9c7648"/>
+    <rect x="228" y="248" width="62" height="40" rx="5" fill="#e08a3c" stroke="#b56a26" stroke-width="3"/>
+    <path d="M228 248 L290 288" stroke="#8f4a1c" stroke-width="3"/>
+    <rect x="302" y="248" width="62" height="40" rx="5" fill="#b0a3d4" stroke="#7f70ab" stroke-width="3"/>
+    <g fill="none" stroke="#3f4a52" stroke-width="4">
+      <circle cx="262" cy="222" r="20"/><path d="M276 236 L296 256"/>
+    </g>
+    <circle cx="292" cy="374" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M272 352 a20 18 0 0 1 40 0 z" fill="#57493c"/>
+    <path d="M274 398 C 274 424, 276 436, 278 452 L306 452 C 308 436, 312 424, 310 398 Z" fill="#8c9a6e" stroke="#69764e" stroke-width="3"/>
+    <path d="M276 410 L250 316" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <rect x="204" y="466" width="188" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="298" y="487" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">2 色と期限を読む</text>
+  </g>
+
+  <!-- 3. 藤色を財布へ、橙色を別封筒へ -->
+  <g>
+    <rect x="432" y="256" width="82" height="58" rx="6" fill="#8d5f43" stroke="#6b4630" stroke-width="4"/>
+    <rect x="440" y="246" width="50" height="34" rx="4" fill="#b0a3d4" stroke="#7f70ab" stroke-width="3"/>
+    <rect x="536" y="268" width="76" height="48" fill="#fdfbf2" stroke="#a89b7c" stroke-width="3"/>
+    <path d="M536 268 L574 292 L612 268" fill="none" stroke="#a89b7c" stroke-width="3"/>
+    <rect x="552" y="248" width="46" height="30" rx="4" fill="#e08a3c" stroke="#b56a26" stroke-width="3"/>
+    <path d="M552 248 L598 278" stroke="#8f4a1c" stroke-width="3"/>
+    <circle cx="500" cy="368" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M480 346 a20 18 0 0 1 40 0 z" fill="#4b4238"/>
+    <path d="M482 392 C 482 418, 484 430, 486 446 L514 446 C 516 430, 520 418, 518 392 Z" fill="#a06a7c" stroke="#7d4d5e" stroke-width="3"/>
+    <path d="M516 404 L540 320" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <rect x="418" y="462" width="212" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="524" y="483" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">3 財布と別封筒に分ける</text>
+  </g>
+
+  <!-- 4a. 上の道：医療の窓口へ電話 -->
+  <g>
+    <circle cx="704" cy="252" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M685 231 a19 17 0 0 1 38 0 z" fill="#57493c"/>
+    <path d="M686 274 C 686 296, 688 306, 690 320 L716 320 C 718 306, 722 296, 720 274 Z" fill="#5c86a0" stroke="#3f6379" stroke-width="3"/>
+    <path d="M688 288 L698 262" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <rect x="690" y="234" width="14" height="24" rx="3" fill="#3f4a52"/>
+    <rect x="640" y="196" width="196" height="28" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="738" y="216" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">医療 0538-85-6313</text>
+  </g>
+
+  <!-- 4b. 下の道：介護の窓口へ電話 -->
+  <g>
+    <circle cx="704" cy="418" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M685 397 a19 17 0 0 1 38 0 z" fill="#4b4238"/>
+    <path d="M686 440 C 686 462, 688 472, 690 486 L716 486 C 718 472, 722 462, 720 440 Z" fill="#8c9a6e" stroke="#69764e" stroke-width="3"/>
+    <path d="M688 454 L698 428" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <rect x="690" y="400" width="14" height="24" rx="3" fill="#3f4a52"/>
+    <rect x="628" y="500" width="196" height="28" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="726" y="520" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">介護 0538-86-6341</text>
+  </g>
+
+  <!-- 5. 合流点：診察券と紙をまとめた袋 -->
+  <g>
+    <path d="M872 348 L988 348 L980 470 L880 470 Z" fill="#f6f1de" stroke="#c3b58c" stroke-width="4"/>
+    <path d="M898 348 C 898 322, 962 322, 962 348" fill="none" stroke="#c3b58c" stroke-width="5"/>
+    <rect x="892" y="374" width="72" height="26" rx="4" fill="#b0a3d4" stroke="#7f70ab" stroke-width="3"/>
+    <rect x="892" y="408" width="72" height="24" fill="#f2c3d0" stroke="#c98da0" stroke-width="3"/>
+    <g fill="#ffffff" stroke="#98a2a8" stroke-width="3">
+      <rect x="892" y="438" width="46" height="22"/><rect x="906" y="432" width="46" height="22"/>
+    </g>
+    <rect x="836" y="486" width="160" height="28" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="916" y="506" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">5 一つの袋にまとめる</text>
+  </g>
+
+  <!-- 下の帯：七月下旬から八月末 -->
+  <g>
+    <rect x="24" y="528" width="952" height="26" rx="13" fill="#1f3e52"/>
+    <text x="140" y="547" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">7月下旬 郵送される</text>
+    <text x="430" y="547" font-family="sans-serif" font-size="15" font-weight="bold" fill="#f6d98f" text-anchor="middle">8月1日 切り替わる</text>
+    <text x="760" y="547" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">8月末 長期入院の申請期限</text>
+  </g>
+</svg>
