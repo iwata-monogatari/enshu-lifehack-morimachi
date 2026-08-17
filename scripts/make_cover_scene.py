@@ -2020,7 +2020,81 @@ def scene_moving_in_timing(d):
     band(d, ["四月の入園と入学は、", "九月の申込みで決まる"], "森町ライフハック／移住・暮らし・データ")
 
 
+def scene_heir_representative(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 646, 692, 736], 300)
+    # 中景：段になった茶畑と家並み
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(133, 178, 92))
+    for i in range(3):
+        d.line([(0, 298 + i * 13), (760, 290 + i * 13)], fill=(90, 134, 62), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 230, 213))
+    for x, w in ((26, 92), (140, 74), (620, 96)):
+        d.rectangle([x, 342, x + w, 380], fill=(238, 232, 218))
+        d.polygon([(x - 8, 344), (x + w // 2, 316), (x + w + 8, 344)], fill=(133, 148, 156))
+    d.polygon([(0, 384), (760, 374), (760, 398), (0, 408)], fill=(111, 154, 88))
+    # 庭の柿の木
+    d.rectangle([672, 356, 686, 424], fill=(138, 106, 72))
+    d.ellipse([626, 296, 732, 384], fill=(95, 140, 76))
+    for cx, cy in ((650, 330), (700, 316), (712, 356)):
+        d.ellipse([cx - 7, cy - 7, cx + 7, cy + 7], fill=(224, 138, 60), outline=(181, 106, 38), width=2)
+    # 左：門柱と郵便受け（封筒が差さったまま）
+    d.rectangle([14, 356, 44, 496], fill=(185, 178, 161), outline=(141, 136, 120), width=4)
+    d.rectangle([46, 386, 122, 434], fill=(95, 123, 140), outline=(63, 87, 104), width=4)
+    d.rectangle([54, 404, 114, 412], fill=(47, 68, 83))
+    for i, y0 in enumerate((360, 350, 340)):
+        d.rectangle([58 + i * 10, y0, 110 + i * 10, y0 + 26], fill=(253, 251, 242),
+                    outline=(168, 155, 124), width=3)
+    # 座敷の床と縁側
+    d.rectangle([0, 468, 760, 486], fill=(201, 168, 119))
+    d.rectangle([0, 486, 760, BAND_TOP], fill=(221, 201, 164))
+    for y0 in (512, 550):
+        d.line([(0, y0), (760, y0)], fill=(196, 171, 132), width=3)
+    # 座卓と書類
+    d.rectangle([206, 494, 546, 520], fill=(185, 143, 93))
+    d.rectangle([206, 520, 546, 532], fill=(156, 118, 72))
+    d.rectangle([234, 460, 348, 498], fill=(255, 255, 255), outline=(152, 162, 168), width=3)
+    d.rectangle([242, 448, 356, 486], fill=(246, 248, 247), outline=(152, 162, 168), width=3)
+    d.rectangle([242, 448, 356, 462], fill=(31, 62, 82))
+    for y0 in (470, 480):
+        d.line([(254, y0), (344, y0)], fill=(184, 193, 198), width=3)
+    d.rectangle([378, 446, 476, 498], fill=(253, 251, 242), outline=(168, 155, 124), width=3)
+    for y0 in (460, 472, 484):
+        d.line([(388, y0), (466, y0)], fill=(207, 197, 168), width=3)
+    d.line([(424, 446), (424, 498)], fill=(207, 197, 168), width=3)
+    d.rectangle([494, 452, 540, 498], fill=(233, 226, 205), outline=(168, 155, 124), width=3)
+    d.rectangle([494, 452, 506, 498], fill=(141, 95, 67))
+    d.rectangle([486, 502, 504, 534], fill=(141, 95, 67), outline=(107, 70, 48), width=3)
+    d.ellipse([518, 500, 542, 524], fill=(192, 86, 60), outline=(143, 59, 40), width=3)
+    # 通知書を指す人・封筒の束を抱える人
+    d.ellipse([146, 424, 194, 472], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.chord([146, 416, 194, 464], 180, 360, fill=(75, 66, 56))
+    d.polygon([(138, 478), (202, 478), (212, BAND_TOP), (128, BAND_TOP)], fill=(92, 134, 160))
+    d.line([(200, 490), (240, 476)], fill=(240, 210, 176), width=10)
+    d.ellipse([566, 418, 614, 466], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.chord([566, 410, 614, 458], 180, 360, fill=(87, 73, 60))
+    d.polygon([(558, 472), (622, 472), (632, BAND_TOP), (548, BAND_TOP)], fill=(160, 106, 124))
+    d.rectangle([540, 486, 606, 522], fill=(253, 251, 242), outline=(168, 155, 124), width=3)
+    d.line([(540, 486), (573, 506)], fill=(168, 155, 124), width=3)
+    d.line([(573, 506), (606, 486)], fill=(168, 155, 124), width=3)
+    # 壁の暦（八月と十一月二日）
+    f = ImageFont.truetype(FONT_BOLD, 22)
+    d.rectangle([222, 336, 358, 424], fill=(253, 251, 242), outline=(141, 131, 104), width=4)
+    d.rectangle([222, 336, 358, 364], fill=(31, 62, 82))
+    d.text((272, 340), "8月", font=f, fill="#ffffff")
+    for i in range(2):
+        d.line([(222, 386 + i * 20), (358, 386 + i * 20)], fill=(195, 189, 166), width=3)
+    d.rectangle([378, 336, 514, 424], fill=(253, 251, 242), outline=(141, 131, 104), width=4)
+    d.rectangle([378, 336, 514, 364], fill=(125, 63, 44))
+    d.text((394, 340), "11月2日", font=f, fill="#ffffff")
+    for i in range(2):
+        d.line([(378, 386 + i * 20), (514, 386 + i * 20)], fill=(195, 189, 166), width=3)
+    d.ellipse([396, 382, 424, 410], outline=(192, 86, 60), width=6)
+    band(d, ["通知書は、", "誰の家に届くのか"], "森町ライフハック／手続き・制度")
+
+
 SCENES = {
+    "20260817-heir-representative-tax-notice": scene_heir_representative,
     "20260816-moving-in-timing-for-children": scene_moving_in_timing,
     "20260816-marriage-new-life-subsidy": scene_marriage_subsidy,
     "20260815-children-roles-in-district": scene_children_roles,

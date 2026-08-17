@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="hr2Title hr2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="hr2Title">森町の実家の固定資産税について、お盆の翌週に確かめる順番を一本の道すじとして描いたイラスト</title>
+<desc id="hr2Desc">左端に実家の縁側と郵便受けがあり、そこから右へ一本の道が伸びています。最初の地点では、帰省した子が郵便受けの封筒の束を開き、納税通知書と課税明細書を選り分けています。次の地点では、役場の窓口で名寄帳の写しを受け取り、筆の数を数えています。三つ目の地点では、座卓で相続人代表者指定届の記入例を見ながら記入し、印鑑を押しています。四つ目で道が二つに分かれ、上の道は窓口へ持参する場面へ、下の道は郵送で送る封筒を郵便ポストへ投函する場面へ続きます。二つの道は合流し、最後に十一月二日と書かれた標識の前で口座振替の依頼書を書く場面があります。道の下には八月から十一月までの帯が伸びています。背景には遠州の山並みと杉木立、段になった茶畑、太田川らしい流れと橋が広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="hr2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3d9e6"/><stop offset="1" stop-color="#f0f4e8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="132" fill="url(#hr2Sky)"/>
+  <path fill="#9db4be" d="M0 92 L92 42 L198 92 L308 38 L422 92 L540 40 L656 92 L776 44 L888 92 L1000 56 L1000 128 L0 128 Z"/>
+  <g fill="#3d6350">
+    <path d="M18 132 l12 -40 l12 40 z"/><path d="M46 132 l14 -46 l14 46 z"/><path d="M78 132 l11 -34 l11 34 z"/>
+    <path d="M898 132 l12 -40 l12 40 z"/><path d="M928 132 l14 -46 l14 46 z"/><path d="M962 132 l11 -34 l11 34 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="#8fb469" d="M0 134 C 260 126, 500 150, 740 136 C 850 130, 930 142, 1000 134 L1000 178 L0 184 Z"/>
+  <g stroke="#5f8543" stroke-width="5" opacity="0.9" fill="none">
+    <path d="M0 148 C 260 140, 500 164, 740 150 C 850 144, 930 156, 1000 148"/>
+    <path d="M0 164 C 260 156, 500 180, 740 166 C 850 160, 930 172, 1000 164"/>
+  </g>
+
+  <!-- 川と橋 -->
+  <path fill="#a6cde2" d="M0 190 L1000 182 L1000 214 L0 222 Z"/>
+  <g stroke="#e2f0f6" stroke-width="4" fill="none">
+    <path d="M40 208 L240 202"/><path d="M700 200 L940 194"/>
+  </g>
+  <rect x="360" y="180" width="250" height="9" fill="#cfc7ae"/>
+  <g fill="#b6ae95"><rect x="392" y="189" width="8" height="28"/><rect x="482" y="187" width="8" height="28"/><rect x="572" y="185" width="8" height="28"/></g>
+
+  <rect x="0" y="218" width="1000" height="342" fill="#e6e9d9"/>
+
+  <!-- 道すじ（本線） -->
+  <path d="M56 452 C 200 452, 246 396, 380 396 C 500 396, 540 340, 664 340" fill="none" stroke="#cfc4a6" stroke-width="30" stroke-linecap="round"/>
+  <path d="M56 452 C 200 452, 246 396, 380 396 C 500 396, 540 340, 664 340" fill="none" stroke="#fbf7ea" stroke-width="4" stroke-dasharray="16 16"/>
+  <!-- 分岐（上の道・下の道） -->
+  <path d="M664 340 C 720 340, 742 292, 812 292 C 866 292, 880 306, 902 306" fill="none" stroke="#cfc4a6" stroke-width="26" stroke-linecap="round"/>
+  <path d="M664 340 C 720 340, 742 392, 812 392 C 866 392, 880 344, 902 320" fill="none" stroke="#cfc4a6" stroke-width="26" stroke-linecap="round"/>
+  <path d="M664 340 C 720 340, 742 292, 812 292 C 866 292, 880 306, 902 306" fill="none" stroke="#fbf7ea" stroke-width="4" stroke-dasharray="14 14"/>
+  <path d="M664 340 C 720 340, 742 392, 812 392 C 866 392, 880 344, 902 320" fill="none" stroke="#fbf7ea" stroke-width="4" stroke-dasharray="14 14"/>
+
+  <!-- 1. 実家の縁側と郵便受け／封筒を選り分ける -->
+  <g>
+    <rect x="14" y="286" width="122" height="96" fill="#f4eee2" stroke="#a3997f" stroke-width="4"/>
+    <path d="M2 290 L75 244 L148 290 Z" fill="#6a7a80"/>
+    <rect x="2" y="290" width="146" height="10" fill="#55636a"/>
+    <rect x="30" y="316" width="42" height="34" fill="#bcdcea" stroke="#7fa5b6" stroke-width="3"/>
+    <rect x="150" y="322" width="54" height="38" rx="4" fill="#5f7b8c" stroke="#3f5768" stroke-width="4"/>
+    <rect x="156" y="336" width="42" height="7" fill="#2f4453"/>
+    <circle cx="86" cy="404" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M66 382 a20 18 0 0 1 40 0 z" fill="#4b4238"/>
+    <path d="M68 428 C 68 452, 70 462, 72 476 L100 476 C 102 462, 106 452, 104 428 Z" fill="#5c86a0" stroke="#3f6379" stroke-width="3"/>
+    <g fill="#fdfbf2" stroke="#a89b7c" stroke-width="3">
+      <rect x="106" y="410" width="52" height="28"/><rect x="118" y="400" width="52" height="28"/>
+    </g>
+    <path d="M106 410 L132 425 L158 410" fill="none" stroke="#a89b7c" stroke-width="3"/>
+    <rect x="10" y="490" width="176" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="98" y="511" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">1 郵便受けを開ける</text>
+  </g>
+
+  <!-- 2. 役場の窓口で名寄帳を受け取る -->
+  <g>
+    <rect x="232" y="278" width="130" height="66" fill="#eceee6" stroke="#9aa196" stroke-width="4"/>
+    <path d="M220 282 L297 244 L374 282 Z" fill="#7c8a90"/>
+    <rect x="246" y="298" width="30" height="24" fill="#f6d98f" stroke="#c9a94f" stroke-width="3"/>
+    <rect x="318" y="298" width="30" height="24" fill="#f6d98f" stroke="#c9a94f" stroke-width="3"/>
+    <rect x="228" y="344" width="140" height="16" fill="#b98f5d"/>
+    <circle cx="264" cy="378" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M245 357 a19 17 0 0 1 38 0 z" fill="#57493c"/>
+    <path d="M247 400 C 247 424, 249 434, 251 448 L277 448 C 279 434, 283 424, 281 400 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+    <rect x="286" y="376" width="66" height="46" fill="#e9e2cd" stroke="#a89b7c" stroke-width="3"/>
+    <rect x="286" y="376" width="11" height="46" fill="#8d5f43"/>
+    <g stroke="#c1b696" stroke-width="3" fill="none"><path d="M304 390 L346 390 M304 402 L346 402 M304 414 L338 414"/></g>
+    <rect x="216" y="464" width="176" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="304" y="485" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">2 名寄帳で筆を数える</text>
+  </g>
+
+  <!-- 3. 記入例を見ながら届出に記入し、印鑑を押す -->
+  <g>
+    <rect x="440" y="286" width="112" height="28" rx="4" fill="#b98f5d"/>
+    <rect x="440" y="314" width="112" height="9" fill="#9c7648"/>
+    <rect x="452" y="323" width="12" height="30" fill="#9c7648"/>
+    <rect x="528" y="323" width="12" height="30" fill="#9c7648"/>
+    <rect x="446" y="248" width="70" height="42" fill="#fdfbf2" stroke="#8d8368" stroke-width="3"/>
+    <rect x="446" y="248" width="70" height="13" fill="#1f3e52"/>
+    <g stroke="#c3bda6" stroke-width="3" fill="none"><path d="M454 272 L508 272 M454 282 L492 282"/></g>
+    <rect x="524" y="252" width="56" height="38" fill="#fdf3d8" stroke="#c4ad6a" stroke-width="3"/>
+    <text x="552" y="277" font-family="sans-serif" font-size="14" font-weight="bold" fill="#7d5a1f" text-anchor="middle">記入例</text>
+    <circle cx="500" cy="374" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M480 352 a20 18 0 0 1 40 0 z" fill="#4b4238"/>
+    <path d="M482 398 C 482 424, 484 436, 486 452 L514 452 C 516 436, 520 424, 518 398 Z" fill="#a06a7c" stroke="#7d4d5e" stroke-width="3"/>
+    <path d="M484 410 L458 314" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <rect x="556" y="300" width="17" height="30" rx="4" fill="#8d5f43" stroke="#6b4630" stroke-width="3"/>
+    <circle cx="590" cy="308" r="11" fill="#c0563c" stroke="#8f3b28" stroke-width="3"/>
+    <rect x="430" y="466" width="200" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="530" y="487" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">3 相続人代表者指定届</text>
+  </g>
+
+  <!-- 4a. 上の道：窓口へ持参 -->
+  <g>
+    <rect x="700" y="222" width="96" height="46" fill="#eceee6" stroke="#9aa196" stroke-width="4"/>
+    <path d="M690 226 L748 200 L806 226 Z" fill="#7c8a90"/>
+    <rect x="694" y="268" width="108" height="13" fill="#b98f5d"/>
+    <circle cx="722" cy="300" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M705 282 a17 15 0 0 1 34 0 z" fill="#57493c"/>
+    <path d="M708 318 C 708 336, 710 344, 712 356 L734 356 C 736 344, 740 336, 738 318 Z" fill="#5c86a0" stroke="#3f6379" stroke-width="3"/>
+    <rect x="742" y="292" width="42" height="28" fill="#ffffff" stroke="#98a2a8" stroke-width="3"/>
+    <rect x="662" y="216" width="112" height="26" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="718" y="234" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">窓口へ持参</text>
+  </g>
+
+  <!-- 4b. 下の道：郵便ポストへ投函 -->
+  <g>
+    <rect x="742" y="398" width="44" height="66" rx="6" fill="#c0563c" stroke="#8f3b28" stroke-width="4"/>
+    <rect x="748" y="412" width="32" height="8" fill="#6f2c1e"/>
+    <rect x="756" y="464" width="16" height="20" fill="#8f3b28"/>
+    <circle cx="702" cy="412" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M685 394 a17 15 0 0 1 34 0 z" fill="#4b4238"/>
+    <path d="M688 430 C 688 448, 690 456, 692 468 L714 468 C 716 456, 720 448, 718 430 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+    <path d="M716 424 L742 410" stroke="#f0d2b0" stroke-width="8" stroke-linecap="round"/>
+    <rect x="666" y="486" width="150" height="28" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="741" y="506" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">郵送は可否を確認</text>
+  </g>
+
+  <!-- 5. 合流点：11月2日の標識と口座振替 -->
+  <g>
+    <rect x="890" y="306" width="12" height="120" fill="#8d8368"/>
+    <rect x="848" y="244" width="140" height="62" rx="6" fill="#ffffff" stroke="#7d3f2c" stroke-width="5"/>
+    <text x="918" y="272" font-family="sans-serif" font-size="18" font-weight="bold" fill="#7d3f2c" text-anchor="middle">3期</text>
+    <text x="918" y="295" font-family="sans-serif" font-size="18" font-weight="bold" fill="#7d3f2c" text-anchor="middle">11月2日</text>
+    <rect x="840" y="426" width="76" height="48" fill="#fdfbf2" stroke="#8d8368" stroke-width="3"/>
+    <g stroke="#c3bda6" stroke-width="3" fill="none"><path d="M850 442 L906 442 M850 454 L906 454 M850 466 L888 466"/></g>
+    <rect x="926" y="428" width="56" height="44" rx="4" fill="#9fbcd0" stroke="#6c8ea6" stroke-width="3"/>
+    <text x="954" y="456" font-family="sans-serif" font-size="14" font-weight="bold" fill="#204257" text-anchor="middle">振替</text>
+    <rect x="826" y="486" width="168" height="28" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="910" y="506" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">5 引き落としを直す</text>
+  </g>
+
+  <!-- 下の帯：八月から十一月 -->
+  <g>
+    <rect x="24" y="528" width="952" height="26" rx="13" fill="#1f3e52"/>
+    <text x="112" y="547" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">8月 お盆の翌週</text>
+    <text x="400" y="547" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">9月 書類をそろえる</text>
+    <text x="700" y="547" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">10月 提出する</text>
+    <text x="900" y="547" font-family="sans-serif" font-size="15" font-weight="bold" fill="#f6d98f" text-anchor="middle">11月2日</text>
+  </g>
+</svg>
