@@ -6701,9 +6701,10 @@
     },
     "review_note": "既存ページとの役割境界を冒頭と内部リンク文で明示する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html",
-      "https://www.maff.go.jp/j/keiei/koukai/nouchi_seido.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/5759.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/5800.html",
+      "https://www.maff.go.jp/kinki/seisaku/keiei/kouritu/kigyouqa2025.2.html",
+      "https://www.maff.go.jp/j/keiei/koukai/hozin_nouchi.html"
     ],
     "required_sections": [
       "誰が、どの時点で「農地台帳と現況が違うときの相談順」を確認する記事か",

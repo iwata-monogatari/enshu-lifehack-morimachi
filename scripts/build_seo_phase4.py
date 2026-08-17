@@ -700,6 +700,11 @@ def svg(row: dict, index: int) -> str:
             f'<g data-scene="four-column-calendar-desk"><rect x="240" y="235" width="520" height="235" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M240 305h520M370 235v235M500 235v235M630 235v235" stroke="{accent}" stroke-width="8"/><path d="M275 355h60M405 355h60M535 355h60M665 355h60M275 410h60M405 410h60M535 410h60M665 410h60" stroke="{dark}" stroke-width="8"/><g font-family="sans-serif" font-size="17" font-weight="700" fill="{dark}" text-anchor="middle"><text x="305" y="280">締切</text><text x="435" y="280">発送</text><text x="565" y="280">現地調査</text><text x="695" y="280">総会</text></g></g>',
             f'<g data-scene="planned-actual-version-archive"><rect x="235" y="255" width="170" height="160" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="415" y="305" width="170" height="160" rx="14" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="595" y="235" width="170" height="180" rx="14" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M405 335h10M585 355h10" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="19" font-weight="700" fill="{dark}" text-anchor="middle"><text x="320" y="325">予定表</text><text x="500" y="375">実績表</text><text x="680" y="300">変更確認</text><text x="680" y="355">次年度版</text></g></g>',
         ],
+        164: [
+            f'<g data-scene="corporate-farmland-eligibility-sheet"><rect x="180" y="225" width="640" height="250" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M180 305h640M390 225v250M610 225v250" stroke="{accent}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="285" y="275">借受法人</text><text x="500" y="275">候補農地</text><text x="715" y="275">地域の役割</text><text x="285" y="380">責任者</text><text x="500" y="380">地番・現況</text><text x="715" y="380">解除条件</text></g></g>',
+            f'<g data-scene="farmland-community-duty-check"><path d="M145 445 260 265l105 180Z" fill="{pale}" stroke="{dark}" stroke-width="10"/><path d="M300 445 420 235l115 210Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M535 350h120" stroke="{accent}" stroke-width="13"/><rect x="655" y="235" width="210" height="225" rx="18" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M690 300h140M690 355h140M690 410h110" stroke="{accent}" stroke-width="9"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="365" y="490">農道・水路・共同作業</text><text x="760" y="285">支障の有無</text><text x="760" y="340">地域の役割</text><text x="760" y="395">確認相手</text></g></g>',
+            f'<g data-scene="corporate-farmland-consultation-route"><rect x="120" y="270" width="210" height="145" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><rect x="395" y="235" width="210" height="180" rx="16" fill="{pale}" stroke="{dark}" stroke-width="9"/><rect x="670" y="270" width="210" height="145" rx="16" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M330 340h65M605 340h65" stroke="{accent}" stroke-width="13"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="225" y="315">法人資料</text><text x="225" y="365">営農計画</text><text x="500" y="295">借受判定票</text><text x="500" y="350">未確認欄</text><text x="775" y="315">農業委員会</text><text x="775" y="365">相談記録</text></g></g>',
+        ],
         21: [
             f'<g data-scene="mori-pregnancy-checkup-ticket-ledger"><path d="M180 438 300 260l96 104 92-146 116 151 90-104 126 173" fill="none" stroke="{dark}" stroke-width="18" stroke-linejoin="round"/><path d="M180 466h640" stroke="{accent}" stroke-width="14"/><rect x="245" y="250" width="170" height="190" rx="18" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M275 305h110M275 350h110M275 395h80" stroke="{accent}" stroke-width="8"/><rect x="585" y="245" width="175" height="198" rx="18" fill="#fff" stroke="{dark}" stroke-width="9"/><path d="M585 302h175M625 245v198" stroke="{accent}" stroke-width="8"/><circle cx="505" cy="335" r="45" fill="{pale}" stroke="{dark}" stroke-width="9"/><path d="M505 310v50m-25-25h50" stroke="{accent}" stroke-width="11"/></g>',
             f'<g data-scene="pregnancy-week-clinic-ticket-route"><path d="M175 425Q335 225 500 345T825 260" fill="none" stroke="{dark}" stroke-width="18"/><circle cx="250" cy="345" r="35" fill="{accent}"/><circle cx="475" cy="330" r="35" fill="{pale}" stroke="{dark}" stroke-width="8"/><circle cx="700" cy="315" r="35" fill="{accent}"/><path d="M760 420V300l80-62 80 62v120Z" fill="#fff" stroke="{dark}" stroke-width="10"/><path d="M840 320v70M805 355h70" stroke="{accent}" stroke-width="11"/><rect x="170" y="210" width="160" height="75" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="390" y="190" width="170" height="75" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><rect x="610" y="175" width="180" height="75" rx="12" fill="#fff" stroke="{dark}" stroke-width="8"/><g font-family="sans-serif" font-size="18" font-weight="700" fill="{dark}" text-anchor="middle"><text x="250" y="257">通常受診票</text><text x="475" y="237">超音波等</text><text x="700" y="222">多胎追加票</text></g></g>',
@@ -760,6 +765,7 @@ def svg(row: dict, index: int) -> str:
         191: ["法人町民税・一件ファイル", "法人町民税・設立情報を固定", "法人町民税・申告から異動"],
         103: ["浄化槽・設備と記録の引継ぎ", "浄化槽・設備票を確認", "浄化槽・管理者変更と維持管理"],
         162: ["農業委員会・令和8年度12か月", "農業委員会・四つの日付", "農業委員会・予定と実績"],
+        164: ["法人農地・借受判定票", "法人農地・地域の役割", "法人農地・相談セット"],
     }
     special_descriptions = {
         81: [
@@ -904,6 +910,11 @@ def svg(row: dict, index: int) -> str:
             "森町農業委員会の令和8年度12か月を、締切・発送・現地調査・総会の予定とともに一覧化する図",
             "公式PDFの議案締切、議案発送、現地調査、農業委員会の四列を別々に転記する図",
             "公式予定表、開催後の実績、変更確認、次年度の空白表を版ごとに分けて保存する図",
+        ],
+        164: [
+            "借受法人、候補農地、責任者、地域の役割、解除条件を一枚の判定票へ分ける図",
+            "候補農地の農道・水路・共同作業を確認し、周辺農地への支障と地域で担う役割を記録する図",
+            "法人資料と営農計画、未確認欄のある判定票を森町農業委員会への相談記録へつなぐ図",
         ],
     }
     item_id = int(row["id"])
@@ -1907,6 +1918,7 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
         132: "森町の土地家屋を背景に、課税明細・名寄帳・登記事項を三方向から照合する相続資産一覧",
         133: "森町の実家を背景に、兄弟が利用・費用・修繕・将来判断を話し合う共有合意表",
         130: "森町の集落で道路沿いの空き家を外から確認し、屋根・外壁・立木の危険連絡を一件記録にする場面",
+        164: "森町で農地を借りる法人が、候補農地・責任者・地域の役割・解除条件を判定票で確認する図",
     }
     cover_alt = cover_alts.get(int(row["id"]), f"{title}の確認場面を森町の山並み、家、道、資料で描いた表紙")
     webpage = {"@context":"https://schema.org", "@type":"WebPage", "name":title, "url":SITE+url, "description":desc, "dateModified":TODAY, "author":{"@type":"Person","name":"大石浩之"}}

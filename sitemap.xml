@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://morimachi.enshu-lifehack.com/</loc><lastmod>2026-08-16</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/</loc><lastmod>2026-08-17</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/terms/</loc><lastmod>2026-08-04</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/hub/procedures/</loc><lastmod>2026-08-04</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/hub/family/</loc><lastmod>2026-08-04</lastmod></url>
@@ -141,7 +141,7 @@
 <url><loc>https://morimachi.enshu-lifehack.com/tools/gomi-search/</loc><lastmod>2026-08-04</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/tools/moving-checklist/</loc><lastmod>2026-08-04</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/tools/life-timeline/</loc><lastmod>2026-08-04</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/blog/</loc><lastmod>2026-08-16</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/blog/</loc><lastmod>2026-08-17</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/checklist/moved-in/</loc><lastmod>2026-08-04</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/checklist/married/</loc><lastmod>2026-08-04</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/checklist/baby/</loc><lastmod>2026-08-04</lastmod></url>
@@ -350,10 +350,19 @@
 <url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-bank-owner-viewing/</loc><lastmod>2026-08-16</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-bank-withdrawal/</loc><lastmod>2026-08-16</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-repair-estimate/</loc><lastmod>2026-08-16</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-maintenance-log/</loc><lastmod>2026-08-16</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-neighbor-contact/</loc><lastmod>2026-08-16</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-typhoon-check/</loc><lastmod>2026-08-16</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-animal-entry/</loc><lastmod>2026-08-16</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-family-roles/</loc><lastmod>2026-08-17</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/vacant-house/unsafe-vacant-house-owner-response/</loc><lastmod>2026-08-16</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/inheritance/inheritance-registration-deadline/</loc><lastmod>2026-08-17</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/inheritance/inheritance-property-inventory/</loc><lastmod>2026-08-17</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/inheritance/shared-inheritance-house/</loc><lastmod>2026-08-17</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/land/narrow-road-rebuild/</loc><lastmod>2026-08-12</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/land/land-price-public-data/</loc><lastmod>2026-08-12</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/farmland/farmland-application-calendar/</loc><lastmod>2026-08-12</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/farmland/corporate-farmland-lease/</loc><lastmod>2026-08-12</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/farmland/conversion-before-construction/</loc><lastmod>2026-08-12</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/farmland/regional-plan-farmland-map/</loc><lastmod>2026-08-12</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/farmland/electric-fence-site-layout/</loc><lastmod>2026-08-12</lastmod></url>
@@ -621,11 +630,13 @@
 <url><loc>https://morimachi.enshu-lifehack.com/discover/guide-visitor-disaster-readiness/</loc><lastmod>2026-08-10</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/discover/guide-walk-to-bus-stop-check/</loc><lastmod>2026-08-10</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/discover/guide-wildfire-prevention-reporting/</loc><lastmod>2026-08-10</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/blog/20260817-august-insurance-care-papers/</loc><lastmod>2026-08-17</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20260817-heir-representative-tax-notice/</loc><lastmod>2026-08-17</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/blog/20260817-august-insurance-care-papers/</loc><lastmod>2026-08-17</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/blog/20260817-temple-building-age-ledger/</loc><lastmod>2026-08-17</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/blog/20260817-morimachi-tumuli-distribution/</loc><lastmod>2026-08-17</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20260816-marriage-new-life-subsidy/</loc><lastmod>2026-08-16</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20260816-moving-in-timing-for-children/</loc><lastmod>2026-08-16</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/blog/20260815-kasanboko-first-bon/</loc><lastmod>2026-08-15</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/blog/20260815-kasanboko-first-bon/</loc><lastmod>2026-08-17</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20260815-mori-matsuri-district-choice/</loc><lastmod>2026-08-15</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20260815-children-roles-in-district/</loc><lastmod>2026-08-15</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20260814-license-return-district-feet/</loc><lastmod>2026-08-14</lastmod></url>
@@ -783,12 +794,4 @@
 <url><loc>https://morimachi.enshu-lifehack.com/temple/temples/t33/</loc><lastmod>2026-08-10</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/temple/temples/t34/</loc><lastmod>2026-08-10</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/temple/temples/t35/</loc><lastmod>2026-08-10</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-maintenance-log/</loc><lastmod>2026-08-16</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-neighbor-contact/</loc><lastmod>2026-08-16</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-typhoon-check/</loc><lastmod>2026-08-16</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-animal-entry/</loc><lastmod>2026-08-16</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/vacant-house/vacant-house-family-roles/</loc><lastmod>2026-08-17</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/inheritance/inheritance-registration-deadline/</loc><lastmod>2026-08-17</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/inheritance/inheritance-property-inventory/</loc><lastmod>2026-08-17</lastmod></url>
-<url><loc>https://morimachi.enshu-lifehack.com/inheritance/shared-inheritance-house/</loc><lastmod>2026-08-17</lastmod></url>
 </urlset>

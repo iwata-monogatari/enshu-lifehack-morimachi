@@ -150,6 +150,7 @@ def build_index(posts, parts):
         '<meta property="og:type" content="website"><meta property="og:site_name" content="%s">'
         '<meta property="og:title" content="ブログ | %s"><meta property="og:description" content="%s">'
         '<meta property="og:url" content="%s/blog/"><meta name="twitter:card" content="summary">\n'
+        '<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"静岡県森町ライフハック","item":"https://morimachi.enshu-lifehack.com/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://morimachi.enshu-lifehack.com/blog/"}]}</script>\n'
         '<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n'
         "%s\n</head><body>\n%s\n%s\n"
         '<main id="main"><div class="wrap">\n'
