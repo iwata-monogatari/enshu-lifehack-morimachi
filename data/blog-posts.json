@@ -849,6 +849,126 @@
       "cta": "real_estate",
       "primary_source": "森町公式「44 森町の民家」「森町文化財保存活用地域計画の認定について」ほかを2026-08-17に確認",
       "cover_alt": "森町の茶畑と山並み、茅葺き民家と町屋を背景に、机上の間取図、記録札、梁と建具の資料写真を描いた編集イラスト"
+    },
+    {
+      "slug": "20260817-morimachi-designated-sites-verification-ledger",
+      "date": "2026-08-17",
+      "title": "森町の史跡・名勝・天然記念物を指定区分と確認日で整理する",
+      "description": "指定文化財確認台帳として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-painting-provenance-index",
+      "date": "2026-08-17",
+      "title": "森町の絵画を画題・材質・年代・所蔵先で引く資料索引",
+      "description": "絵画来歴索引として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-livelihood-seasonal-calendar",
+      "date": "2026-08-17",
+      "title": "森町の米・茶・林業・炭焼きの作業時期を資料から並べる",
+      "description": "生業季節暦として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-daily-life-material-ledger",
+      "date": "2026-08-17",
+      "title": "森町の衣食住資料を用途・季節・場所で整理する生活資料台帳",
+      "description": "衣食住資料台帳として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-old-route-faith-marker-ledger",
+      "date": "2026-08-17",
+      "title": "森町の旧道・水運・信仰地点を道標と史料で結ぶ",
+      "description": "旧道信仰地点台帳として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-showa-depression-source-ledger",
+      "date": "2026-08-17",
+      "title": "昭和不況期の森町を銀行・土木・副業資料で読む",
+      "description": "昭和不況資料台帳として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-wartime-material-source-cards",
+      "date": "2026-08-17",
+      "title": "戦時期の森町を配給・動員・遺品・統計の資料カードで読む",
+      "description": "戦時資料カードとして森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-prewar-school-lineage-table",
+      "date": "2026-08-17",
+      "title": "周智農林学校と森町高等女学校の校名・目的・年代をつなぐ",
+      "description": "学校沿革対照表として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-early-modern-land-tax-ledger",
+      "date": "2026-08-17",
+      "title": "森地域の検地帳を村名・年・記載方式・年貢区分で読む",
+      "description": "検地年貢史料台帳として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-ancient-place-name-source-map",
+      "date": "2026-08-17",
+      "title": "律令期の周智郡を郷名・寺院・神社史料から読む",
+      "description": "古代地名史料地図として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-yayoi-settlement-burial-index",
+      "date": "2026-08-17",
+      "title": "森町の弥生遺跡を住居・墓・出土品で引く考古索引",
+      "description": "弥生遺跡索引として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-wildlife-habitat-source-ledger",
+      "date": "2026-08-17",
+      "title": "森町の野生動物記録を水系・環境・確認時点で整理する",
+      "description": "野生動物生息資料台帳として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-jomon-material-exchange-ledger",
+      "date": "2026-08-17",
+      "title": "森町の縄文資料を石材産地・土器文様・補修痕で読む",
+      "description": "縄文資料交流台帳として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-geology-outcrop-source-ledger",
+      "date": "2026-08-17",
+      "title": "森町の地層・断層・化石地点を資料時点付きで整理する",
+      "description": "地質露頭資料台帳として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260817-morimachi-plant-habitat-source-ledger",
+      "date": "2026-08-17",
+      "title": "森町の植物記録を標高・林相・湿地・確認地点で整理する",
+      "description": "植物生育地資料台帳として森町公式資料を整理します。",
+      "category": "文化・歴史",
+      "published": true
     }
   ]
 }
