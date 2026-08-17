@@ -4927,10 +4927,10 @@
     "id": 129,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の実家を空き家にする前の家族役割表",
+    "title": "森町の実家を空き家にする前に決める｜巡回・支払・連絡・書類の家族役割表",
     "slug": "/vacant-house/vacant-house-family-roles/",
     "category": "空き家",
-    "search_intent": "巡回、支払、連絡、書類保管の担当を決めたい",
+    "search_intent": "空き家になる前に巡回・支払・連絡・書類保管の担当と交代条件を家族で決めたい",
     "risk": "LOW",
     "cannibalization": {
       "level": "LOW",
@@ -4960,9 +4960,10 @@
     },
     "review_note": "既存ページとの役割境界を冒頭と内部リンク文で明示する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/akiyabank/index.html",
       "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/gomi_navi/kateigomi/1101.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/2/2222.html",
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/10/cyekkurisuto.pdf",
+      "https://www.mlit.go.jp/jutakukentiku/house/akiya-taisaku/articles/2024020104.html"
     ],
     "required_sections": [
       "誰が、どの時点で「実家を空き家にする前の家族役割表」を確認する記事か",
@@ -5037,10 +5038,10 @@
     "id": 131,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の不動産を相続したら登記期限をどう数えるか",
+    "title": "森町の相続不動産で登記期限を数える｜知った日・遺産分割日の二起点",
     "slug": "/inheritance/inheritance-registration-deadline/",
     "category": "相続",
-    "search_intent": "相続登記の義務化と期限の起点を確認したい",
+    "search_intent": "相続登記の基本期限と遺産分割後の追加期限を物件ごとに確認したい",
     "risk": "HIGH",
     "cannibalization": {
       "level": "MEDIUM",
@@ -5070,9 +5071,12 @@
     },
     "review_note": "既存ページとの役割境界を冒頭と内部リンク文で明示する。",
     "primary_sources": [
-      "https://www.moj.go.jp/MINJI/minji05_00590.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/1830.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html"
+      "https://www.moj.go.jp/MINJI/minji05_00599.html",
+      "https://www.moj.go.jp/MINJI/minji05_00600.html",
+      "https://www.moj.go.jp/MINJI/minji05_00602.html",
+      "https://www.moj.go.jp/MINJI/minji05_00565.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/yousiki/544.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/faq/1051.html"
     ],
     "required_sections": [
       "誰が、どの時点で「不動産を相続したら登記期限をどう数えるか」を確認する記事か",
@@ -5091,10 +5095,10 @@
     "id": 132,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の相続不動産を固定資産税通知から洗い出す",
+    "title": "森町の相続不動産を洗い出す｜課税明細・名寄帳・登記の照合表",
     "slug": "/inheritance/inheritance-property-inventory/",
     "category": "相続",
-    "search_intent": "亡くなった人が持つ土地家屋の一覧を作りたい",
+    "search_intent": "故人の土地家屋を課税明細・名寄帳・登記事項で照合し未確認物件も残したい",
     "risk": "HIGH",
     "cannibalization": {
       "level": "LOW",
@@ -5124,9 +5128,11 @@
     },
     "review_note": "既存ページとの役割境界を冒頭と内部リンク文で明示する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/1830.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
-      "https://www.moj.go.jp/MINJI/minji05_00590.html"
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/faq/1051.html",
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/5/nayosechounomikata.pdf",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/yousiki/544.html",
+      "https://www.town.morimachi.shizuoka.jp/material/files/group/6/05_ininjyou.pdf",
+      "https://www.gov-online.go.jp/article/202512/entry-10431.html"
     ],
     "required_sections": [
       "誰が、どの時点で「相続不動産を固定資産税通知から洗い出す」を確認する記事か",
@@ -5145,10 +5151,10 @@
     "id": 133,
     "original_decision": "CREATE",
     "decision": "CREATE",
-    "title": "森町の実家を兄弟共有で相続する前の管理確認",
+    "title": "森町の実家を兄弟共有にする前に｜利用・費用・修繕・売却の合意表",
     "slug": "/inheritance/shared-inheritance-house/",
     "category": "相続",
-    "search_intent": "共有後の費用、利用、売却判断を家族で整理したい",
+    "search_intent": "兄弟共有の前に利用・費用・修繕・将来判断を具体的に合意したい",
     "risk": "HIGH",
     "cannibalization": {
       "level": "LOW",
@@ -5178,9 +5184,11 @@
     },
     "review_note": "既存ページとの役割境界を冒頭と内部リンク文で明示する。",
     "primary_sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/okuyami/1830.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
-      "https://www.moj.go.jp/MINJI/minji05_00590.html"
+      "https://laws.e-gov.go.jp/law/129AC0000000089",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/yousiki/544.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/faq/1051.html",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html",
+      "https://www.gov-online.go.jp/article/202512/entry-10431.html"
     ],
     "required_sections": [
       "誰が、どの時点で「実家を兄弟共有で相続する前の管理確認」を確認する記事か",

@@ -927,6 +927,10 @@ def svg(row: dict, index: int) -> str:
         126: (["空き家連絡・緊急カード", "空き家連絡・現地と所有者", "空き家連絡・一次確認順"], ["vacant-neighbor-emergency-contact-board", "neighbor-owner-manager-contact-route", "incident-observe-owner-emergency-route"]),
         127: (["台風点検・前後比較", "台風点検・六つの部位", "台風点検・安全な撤退"], ["vacant-typhoon-before-after-board", "roof-drain-tree-equipment-check-route", "weather-stop-safe-return-route"]),
         128: (["動物痕跡・接触しない", "動物痕跡・侵入口候補", "動物痕跡・四工程"], ["vacant-animal-trace-record-board", "trace-room-entry-candidate-map", "animal-health-seal-repair-route"]),
+        129: (["家族役割・四担当", "家族役割・巡回と支払", "家族役割・交代手順"], ["vacant-family-role-board", "inspection-payment-contact-document-route", "family-role-backup-handover"]),
+        131: (["相続登記・二つの起点", "相続登記・三年時計", "相続登記・申告分岐"], ["inheritance-deadline-two-starts", "knowledge-division-three-year-clocks", "registration-declaration-route"]),
+        132: (["相続資産・三資料照合", "相続資産・土地家屋行", "相続資産・未確認一覧"], ["inheritance-property-three-source-crosscheck", "tax-ledger-land-building-rows", "property-gap-confirmation-route"]),
+        133: (["共有実家・四つの合意", "共有実家・費用と利用", "共有実家・判断記録"], ["shared-house-family-agreement-board", "share-use-cost-repair-route", "shared-property-decision-history"]),
         130: (["空き家連絡・危険箇所", "空き家連絡・外観点検", "空き家連絡・応急と恒久"], ["unsafe-vacant-house-contact-file", "vacant-house-exterior-risk-survey", "temporary-permanent-response-route"]),
         2: (["転籍・本籍と筆頭者", "転籍・現在と新本籍", "転籍・届出と戸籍請求"], ["domicile-transfer-ledger", "old-new-domicile-bridge", "transfer-filing-certificate-route"]),
         3: (["世帯変更・三つの届", "世帯変更・住所と生計", "世帯変更・届出後確認"], ["household-change-three-forms", "address-livelihood-households", "household-result-check-route"]),
@@ -1217,6 +1221,10 @@ def editorial_blocks_curated(row: dict) -> str:
         126: ("近隣の観察情報を所有者・家族・現地管理者へ安全に渡す図", "見えた異常から所有者確認または119・110へ分岐する図"),
         127: ("屋根外壁・窓・排水・飛散物・立木設備を部位番号で確認する図", "気象情報から点検実施・中止・通過後確認へ安全に分岐する図"),
         128: ("糞・毛・足跡・音を部屋番号と侵入口候補へ結ぶ図", "生体確認・衛生清掃・侵入口封鎖・建物修繕を四工程に分ける図"),
+        129: ("巡回・支払・連絡・書類保管を家族の四担当へ分ける図", "正担当が不在のとき予備担当へ鍵と期限を渡す図"),
+        131: ("相続開始と不動産取得を知った日から三年を確認する図", "遺産分割と相続人申告登記を別の経路で管理する図"),
+        132: ("課税明細・名寄帳・登記事項を一筆一棟で照合する図", "一致しない土地家屋を未確認一覧から次の窓口へ渡す図"),
+        133: ("共有実家の利用・費用・修繕・将来判断を四欄に分ける図", "兄弟の回答と未合意を決定履歴へ残す図"),
         130: ("道路側から門塀・屋根・外壁・立木の危険箇所を安全に確認する図", "危険連絡から応急対応・町相談・恒久対応へ分けて進む図"),
     }
     if item_id in day31_40_figure_text:
@@ -1894,6 +1902,10 @@ def render(row: dict, url: str, prev_url: str, next_url: str) -> str:
         126: "森町の空き家を背景に、近隣からの異常連絡を所有者・現地担当・緊急窓口へ振り分ける連絡カード",
         127: "森町の空き家を背景に、台風接近前と通過後の写真を同じ部位番号で比べる安全点検票",
         128: "森町の空き家を背景に、動物の糞・毛・足跡へ触れず写真番号で記録する安全確認票",
+        129: "森町の実家を背景に、巡回・支払・連絡・書類保管を家族四人の役割へ分けた引継ぎ表",
+        131: "森町の土地と家を背景に、取得を知った日と遺産分割成立日の二つの時計を示す相続登記期限表",
+        132: "森町の土地家屋を背景に、課税明細・名寄帳・登記事項を三方向から照合する相続資産一覧",
+        133: "森町の実家を背景に、兄弟が利用・費用・修繕・将来判断を話し合う共有合意表",
         130: "森町の集落で道路沿いの空き家を外から確認し、屋根・外壁・立木の危険連絡を一件記録にする場面",
     }
     cover_alt = cover_alts.get(int(row["id"]), f"{title}の確認場面を森町の山並み、家、道、資料で描いた表紙")
