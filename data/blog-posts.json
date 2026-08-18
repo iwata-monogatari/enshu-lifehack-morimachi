@@ -991,6 +991,134 @@
       "cta": "real_estate",
       "primary_source": "法務省「遺産分割に関する民法改正の概要」「不動産を相続した方へ〜相続登記・遺産分割を進めましょう〜」「相続登記の申請義務化について」、裁判所「遺産分割調停」および森町公式「暮らしの相談窓口」「戸籍等の郵送請求」を2026-08-18に確認",
       "cover_alt": "静岡県森町の実家の座敷で、お盆に集まった兄弟が話し合いを終えて座っている表紙イラスト。座卓には湯呑みと菓子鉢、封をしたままの登記の書類と封筒が置かれ、二人は向かい合ったまま視線を落としている。壁には十年分の暦が重ねて掛かり、いちばん手前の一枚に赤い丸が付いている。庭には柿の木が見え、その向こうに瓦屋根の家並みと段になった茶畑、杉林、遠州の山並みが広がっている"
+    },
+    {
+      "slug": "20260818-morimachi-postwar-town-development-timeline",
+      "date": "2026-08-18",
+      "title": "戦後の森町を合併・学校・公共施設の年代でたどる",
+      "description": "森町公式資料を基に町村合併、学校、役場、文化施設の出来事を年代別に分けるための戦後町域形成年表を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-meiji-school-administration-crosswalk",
+      "date": "2026-08-18",
+      "title": "明治初期の森町を学校所在地と行政区分の変遷で読む",
+      "description": "森町公式資料を基に学校の開設場所と町村制後の行政区分を別列でつなぐための明治学校行政対照表を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-hotoku-honposha-source-ledger",
+      "date": "2026-08-18",
+      "title": "森町の報徳報本社を設立年・所属社・史料で整理する",
+      "description": "森町公式資料を基に人物、結社、所属社数、所蔵史料を確認時点付きで分けるための報徳報本社史料台帳を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-akiba-ko-document-route-ledger",
+      "date": "2026-08-18",
+      "title": "森町の秋葉講を講組織・代参・道標・火防札で読む",
+      "description": "森町公式資料を基に信仰内容、講の運営、代参経路、遺物の所在を混同せず残すための秋葉講史料経路台帳を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-early-modern-scholarship-bibliography",
+      "date": "2026-08-18",
+      "title": "近世森の学芸を人物・著作・寺子屋・所蔵先で引く",
+      "description": "森町公式資料を基に人物名、著作、教育の場、資料所蔵を一件ずつ結ぶための近世学芸書誌カードを作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-early-modern-industry-product-ledger",
+      "date": "2026-08-18",
+      "title": "近世森町の産業を産物・職人・市・輸送先で整理する",
+      "description": "森町公式資料を基に産物、製造者、取引場所、運搬先を史料単位で整理するための近世産業産物台帳を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-early-modern-religion-source-map",
+      "date": "2026-08-18",
+      "title": "近世森町の寺社と信仰を宗派・講・祭礼史料で読む",
+      "description": "森町公式資料を基に寺社、宗派、講、祭礼、史料の時点を別欄で確認するための近世宗教史料地図を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-caster-inscription-genealogy",
+      "date": "2026-08-18",
+      "title": "森町の鋳物師を銘文・製作年・奉納先でつなぐ",
+      "description": "森町公式資料を基に作者名、銘文、制作物、奉納先、年代根拠を結び直すための鋳物師銘文系譜表を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-village-map-land-use-crosscheck",
+      "date": "2026-08-18",
+      "title": "森町の近世村絵図を道・川・屋敷・耕地記号で照合する",
+      "description": "森町公式資料を基に絵図の記号、方角、道、水路、屋敷、耕地を現在地と断定せず読むための村絵図土地利用対照票を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-tsuchiya-eight-villages-record-index",
+      "date": "2026-08-18",
+      "title": "旗本土屋氏の八か村支配を村名・役職・文書で引く",
+      "description": "森町公式資料を基に支配村、役職、年次、文書名、所蔵を一行ずつ整理するための土屋氏八か村文書索引を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-yamauchi-clan-land-record-timeline",
+      "date": "2026-08-18",
+      "title": "豊臣系大名山内氏と森町域の所領記録を年代で追う",
+      "description": "森町公式資料を基に人物、所領、戦い、移動、後世伝承を資料別に並べるための山内氏所領記録年表を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-amagata-michishige-source-timeline",
+      "date": "2026-08-18",
+      "title": "国人領主天方道芬を城・合戦・文書の時系列で読む",
+      "description": "森町公式資料を基に人物表記、城、合戦、主従関係、記録時点を分けるための天方道芬史料年表を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-daitoin-six-lineages-table",
+      "date": "2026-08-18",
+      "title": "大洞院六派を開山・寺院・移転・系譜で整理する",
+      "description": "森町公式資料を基に開山、派名、中心寺院、移転、伝承の確度を結ぶための大洞院六派系譜表を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-kamakura-landholder-source-map",
+      "date": "2026-08-18",
+      "title": "鎌倉時代の森町を荘園・地頭・寺社史料で読む",
+      "description": "森町公式資料を基に荘園名、地頭、寺社、文書、推定範囲を現代地番と分けるための鎌倉所領史料地図を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-tano-sutra-volume-ledger",
+      "date": "2026-08-18",
+      "title": "田能天王社大般若経を巻数・書写年・寄進者・法会で読む",
+      "description": "森町公式資料を基に経巻、書写年、記名、所蔵、法会、指定区分を分けて残すための田能大般若経巻別台帳を作ります。",
+      "category": "文化・歴史",
+      "published": true
+    },
+    {
+      "slug": "20260818-morimachi-iida-manor-kyoto-landscape-map",
+      "date": "2026-08-18",
+      "title": "飯田荘の都うつしを川・寺社・荘園区分で照合する",
+      "description": "森町公式資料を基に太田川、寺社配置、三郷、経塚、都との対応を史料表現のまま整理するための飯田荘景観対照図を作ります。",
+      "category": "文化・歴史",
+      "published": true
     }
   ]
 }
