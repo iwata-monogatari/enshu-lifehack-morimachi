@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="pr1Title pr1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="pr1Title">森町の実家の座敷で、家族が日本地図を広げ、森町のほかに二か所へ印を立てている情景のイラスト</title>
+<desc id="pr1Desc">中央の座卓に大きな地図が広げられ、森町の位置に緑の旗、山あいと海沿いにそれぞれ赤い旗が立っています。卓の上には森町の名寄帳の綴りと、全国分の不動産が並んだ証明書らしい紙、封筒、鉛筆、電卓が置かれ、左の人が地図の上を指でたどり、右の人が綴りをめくっています。手前には「町の中しか映らない」と書かれた札があります。右の柱には二月二日に赤い丸の付いた暦が掛かっています。障子の開いた先には縁側と庭の柿の木、井戸が見え、その向こうに瓦屋根の家並みと生け垣、段になった茶畑、杉木立、遠州の山並みが夏の空を背に広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="pr1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bed6e4"/><stop offset="1" stop-color="#eef3e6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="146" fill="url(#pr1Sky)"/>
+  <circle cx="118" cy="46" r="22" fill="#f6e6b4"/>
+  <path fill="#9db4be" d="M0 102 L98 44 L206 102 L318 38 L436 102 L556 42 L672 102 L792 46 L900 102 L1000 58 L1000 142 L0 142 Z"/>
+  <g fill="#3d6350">
+    <path d="M14 146 l13 -44 l13 44 z"/><path d="M44 146 l11 -36 l11 36 z"/><path d="M70 146 l12 -40 l12 40 z"/>
+    <path d="M904 146 l13 -44 l13 44 z"/><path d="M934 146 l14 -48 l14 48 z"/><path d="M966 146 l11 -36 l11 36 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="#8fb469" d="M0 148 C 250 140, 480 164, 730 150 C 848 144, 926 156, 1000 148 L1000 198 L0 204 Z"/>
+  <g stroke="#5f8543" stroke-width="5" opacity="0.9" fill="none">
+    <path d="M0 162 C 250 154, 480 178, 730 164 C 848 158, 926 170, 1000 162"/>
+    <path d="M0 178 C 250 170, 480 194, 730 180 C 848 174, 926 186, 1000 178"/>
+    <path d="M0 194 C 250 186, 480 210, 730 196 C 848 190, 926 202, 1000 194"/>
+  </g>
+
+  <!-- 奥の家並みと生け垣 -->
+  <g>
+    <rect x="112" y="214" width="102" height="44" fill="#efe9dd"/>
+    <path d="M100 216 L163 184 L226 216 Z" fill="#7f8d93"/>
+    <rect x="272" y="218" width="88" height="40" fill="#efe9dd"/>
+    <path d="M260 220 L316 192 L372 220 Z" fill="#6f7f86"/>
+    <rect x="706" y="212" width="110" height="46" fill="#efe9dd"/>
+    <path d="M694 214 L761 180 L828 214 Z" fill="#7f8d93"/>
+    <path d="M0 256 C 210 246, 570 264, 1000 250 L1000 274 L0 280 Z" fill="#6f9a58"/>
+  </g>
+
+  <rect x="0" y="274" width="1000" height="286" fill="#e6e9d9"/>
+
+  <!-- 庭の柿の木と井戸 -->
+  <g>
+    <rect x="852" y="302" width="16" height="88" fill="#8a6a48"/>
+    <circle cx="860" cy="288" r="46" fill="#5f8c4c"/>
+    <circle cx="822" cy="302" r="30" fill="#54803f"/>
+    <circle cx="898" cy="304" r="27" fill="#6a9755"/>
+    <g fill="#e08a3c" stroke="#b56a26" stroke-width="2">
+      <circle cx="834" cy="294" r="8"/><circle cx="878" cy="278" r="8"/><circle cx="890" cy="314" r="8"/>
+    </g>
+    <ellipse cx="930" cy="408" rx="40" ry="14" fill="#a9a294"/>
+    <path d="M894 408 L894 376 L966 376 L966 408 Z" fill="#c2bbaa"/>
+    <path d="M886 376 L930 352 L974 376 Z" fill="#7f8d93"/>
+  </g>
+
+  <!-- 左：縁側と古い箪笥、権利証の箱 -->
+  <g>
+    <rect x="24" y="300" width="120" height="98" fill="#a97f52" stroke="#7d5a35" stroke-width="4"/>
+    <g stroke="#7d5a35" stroke-width="4" fill="none">
+      <path d="M24 334 L144 334 M24 366 L144 366 M84 300 L84 398"/>
+    </g>
+    <g fill="#e0c48f"><circle cx="60" cy="318" r="5"/><circle cx="110" cy="318" r="5"/><circle cx="60" cy="350" r="5"/><circle cx="110" cy="350" r="5"/></g>
+    <rect x="34" y="266" width="98" height="34" rx="4" fill="#c9b48c" stroke="#8d7a53" stroke-width="4"/>
+    <rect x="46" y="252" width="74" height="16" fill="#e6dcc2" stroke="#8d7a53" stroke-width="3"/>
+  </g>
+
+  <!-- 縁側と座敷の床 -->
+  <g>
+    <rect x="168" y="396" width="640" height="20" fill="#c9a877"/>
+    <rect x="168" y="416" width="640" height="144" fill="#ddc9a4"/>
+    <g stroke="#c4ab84" stroke-width="3" fill="none">
+      <path d="M168 448 L808 448 M168 490 L808 490 M168 532 L808 532"/>
+    </g>
+  </g>
+
+  <!-- 座卓と広げた地図 -->
+  <g>
+    <rect x="316" y="424" width="382" height="26" rx="4" fill="#b98f5d"/>
+    <rect x="316" y="450" width="382" height="10" fill="#9c7648"/>
+    <rect x="340" y="460" width="16" height="46" fill="#9c7648"/>
+    <rect x="658" y="460" width="16" height="46" fill="#9c7648"/>
+    <!-- 地図の紙 -->
+    <rect x="336" y="336" width="256" height="94" rx="4" fill="#f6f2e2" stroke="#a89b7c" stroke-width="4"/>
+    <path d="M356 402 C 396 380, 424 396, 452 382 C 484 366, 510 384, 544 372 C 560 366, 570 374, 578 372"
+          fill="none" stroke="#9fbcd0" stroke-width="4"/>
+    <path d="M348 396 C 380 386, 402 366, 438 358 C 476 350, 500 358, 530 350 C 552 344, 566 350, 580 346"
+          fill="none" stroke="#b7c6a4" stroke-width="4"/>
+    <path d="M344 424 C 392 416, 430 424, 470 416 C 512 408, 546 418, 584 412"
+          fill="none" stroke="#c9bfa2" stroke-width="4"/>
+    <!-- 森町の旗（緑） -->
+    <rect x="428" y="368" width="4" height="34" fill="#5a4a34"/>
+    <path d="M432 368 L468 376 L432 384 Z" fill="#3f7f4c"/>
+    <!-- 山あいの旗（赤） -->
+    <rect x="374" y="356" width="4" height="30" fill="#5a4a34"/>
+    <path d="M378 356 L410 363 L378 370 Z" fill="#c0563c"/>
+    <!-- 海沿いの旗（赤） -->
+    <rect x="540" y="378" width="4" height="30" fill="#5a4a34"/>
+    <path d="M544 378 L576 385 L544 392 Z" fill="#c0563c"/>
+    <!-- 名寄帳の綴り -->
+    <rect x="612" y="376" width="70" height="52" fill="#e9e2cd" stroke="#a89b7c" stroke-width="3"/>
+    <rect x="612" y="376" width="13" height="52" fill="#8d5f43"/>
+    <g stroke="#c1b696" stroke-width="3" fill="none"><path d="M634 392 L672 392 M634 404 L672 404 M634 416 L664 416"/></g>
+    <!-- 全国分の証明書 -->
+    <rect x="608" y="332" width="112" height="44" fill="#ffffff" stroke="#98a2a8" stroke-width="3"/>
+    <rect x="608" y="332" width="112" height="14" fill="#1f3e52"/>
+    <g stroke="#b8c1c6" stroke-width="3" fill="none"><path d="M618 356 L710 356 M618 366 L688 366"/></g>
+    <!-- 鉛筆と電卓 -->
+    <path d="M352 442 L410 434" stroke="#3f4a52" stroke-width="5" stroke-linecap="round"/>
+    <rect x="440" y="432" width="52" height="40" rx="4" fill="#9fbcd0" stroke="#6c8ea6" stroke-width="3"/>
+    <rect x="448" y="438" width="36" height="10" fill="#eef4f7"/>
+    <g fill="#6c8ea6"><rect x="448" y="452" width="9" height="7"/><rect x="462" y="452" width="9" height="7"/><rect x="476" y="452" width="9" height="7"/><rect x="448" y="462" width="9" height="7"/><rect x="462" y="462" width="9" height="7"/><rect x="476" y="462" width="9" height="7"/></g>
+    <!-- 封筒 -->
+    <rect x="516" y="440" width="66" height="34" fill="#fdfbf2" stroke="#a89b7c" stroke-width="3"/>
+    <path d="M516 440 L549 460 L582 440" fill="none" stroke="#a89b7c" stroke-width="3"/>
+  </g>
+
+  <!-- 地図をたどる人（左） -->
+  <g>
+    <circle cx="272" cy="360" r="19" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M250 336 a22 20 0 0 1 44 0 z" fill="#4b4238"/>
+    <path d="M252 388 C 252 432, 256 462, 258 496 L288 496 C 292 462, 298 432, 296 388 Z" fill="#5c86a0" stroke="#3f6379" stroke-width="3"/>
+    <path d="M294 404 L338 386" stroke="#f0d2b0" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- 綴りをめくる人（右） -->
+  <g>
+    <circle cx="742" cy="356" r="19" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M720 332 a22 20 0 0 1 44 0 z" fill="#57493c"/>
+    <path d="M722 384 C 722 428, 726 458, 728 492 L758 492 C 762 458, 768 428, 766 384 Z" fill="#a06a7c" stroke="#7d4d5e" stroke-width="3"/>
+    <path d="M720 400 L686 392" stroke="#f0d2b0" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- 縁側で電話をかける人 -->
+  <g>
+    <circle cx="196" cy="378" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M176 356 a20 18 0 0 1 40 0 z" fill="#4b4238"/>
+    <path d="M178 404 C 178 444, 182 470, 184 500 L212 500 C 216 470, 222 444, 220 404 Z" fill="#7d9a5c" stroke="#5b7640" stroke-width="3"/>
+    <path d="M180 418 L190 390" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <rect x="182" y="364" width="14" height="24" rx="3" fill="#3f4a52"/>
+  </g>
+
+  <!-- 右の柱に掛けた暦（2月2日に丸） -->
+  <g>
+    <rect x="676" y="196" width="16" height="202" fill="#a68a5c"/>
+    <rect x="684" y="200" width="150" height="106" rx="5" fill="#fdfbf2" stroke="#8d8368" stroke-width="4"/>
+    <rect x="684" y="200" width="150" height="28" rx="5" fill="#7d3f2c"/>
+    <text x="759" y="221" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">2月2日 開始</text>
+    <g stroke="#c3bda6" stroke-width="3" fill="none">
+      <path d="M684 254 L834 254 M684 280 L834 280"/>
+      <path d="M721 228 L721 306 M759 228 L759 306 M796 228 L796 306"/>
+    </g>
+    <circle cx="702" cy="268" r="12" fill="none" stroke="#c0563c" stroke-width="4"/>
+  </g>
+
+  <!-- 手前の札 -->
+  <g>
+    <rect x="16" y="472" width="180" height="34" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="106" y="495" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">名寄帳は町の中だけ</text>
+    <rect x="316" y="516" width="382" height="34" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="507" y="539" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">町の境から先は、別の紙を取らないと白いまま</text>
+  </g>
+</svg>

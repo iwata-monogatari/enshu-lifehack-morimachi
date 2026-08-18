@@ -2160,7 +2160,82 @@ def scene_insurance_care_papers(d):
     band(d, ["八月一日で、", "親の紙は入れ替わる"], "森町ライフハック／手続き・制度")
 
 
+def scene_nationwide_record(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 646, 692, 736], 300)
+    # 中景：段になった茶畑と家並み
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(133, 178, 92))
+    for i in range(3):
+        d.line([(0, 298 + i * 13), (760, 290 + i * 13)], fill=(90, 134, 62), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 230, 213))
+    for x, w in ((22, 88), (132, 72), (628, 92)):
+        d.rectangle([x, 342, x + w, 380], fill=(238, 232, 218))
+        d.polygon([(x - 8, 344), (x + w // 2, 316), (x + w + 8, 344)], fill=(133, 148, 156))
+    d.polygon([(0, 384), (760, 374), (760, 398), (0, 408)], fill=(111, 154, 88))
+    # 庭の柿の木
+    d.rectangle([678, 356, 692, 424], fill=(138, 106, 72))
+    d.ellipse([632, 296, 738, 384], fill=(95, 140, 76))
+    for cx, cy in ((656, 330), (706, 316), (718, 356)):
+        d.ellipse([cx - 7, cy - 7, cx + 7, cy + 7], fill=(224, 138, 60), outline=(181, 106, 38), width=2)
+    # 座敷の床と縁側
+    d.rectangle([0, 468, 760, 486], fill=(201, 168, 119))
+    d.rectangle([0, 486, 760, BAND_TOP], fill=(221, 201, 164))
+    for y0 in (512, 550):
+        d.line([(0, y0), (760, y0)], fill=(196, 171, 132), width=3)
+    # 座卓
+    d.rectangle([182, 494, 574, 520], fill=(185, 143, 93))
+    d.rectangle([182, 520, 574, 532], fill=(156, 118, 72))
+    # 広げた日本地図
+    d.rectangle([206, 414, 462, 500], fill=(246, 242, 226), outline=(168, 155, 124), width=4)
+    d.line([(222, 476), (262, 458)], fill=(159, 188, 208), width=4)
+    d.line([(262, 458), (306, 470)], fill=(159, 188, 208), width=4)
+    d.line([(306, 470), (352, 452)], fill=(159, 188, 208), width=4)
+    d.line([(352, 452), (400, 464)], fill=(159, 188, 208), width=4)
+    d.line([(400, 464), (446, 450)], fill=(159, 188, 208), width=4)
+    d.line([(214, 492), (268, 484)], fill=(201, 191, 162), width=4)
+    d.line([(268, 484), (330, 492)], fill=(201, 191, 162), width=4)
+    d.line([(330, 492), (400, 482)], fill=(201, 191, 162), width=4)
+    d.line([(400, 482), (452, 490)], fill=(201, 191, 162), width=4)
+    # 森町の旗（緑）と町外の旗（赤）
+    d.rectangle([302, 440, 306, 470], fill=(90, 74, 52))
+    d.polygon([(306, 440), (340, 447), (306, 454)], fill=(63, 127, 76))
+    d.rectangle([242, 430, 246, 458], fill=(90, 74, 52))
+    d.polygon([(246, 430), (276, 437), (246, 444)], fill=(192, 86, 60))
+    d.rectangle([400, 446, 404, 474], fill=(90, 74, 52))
+    d.polygon([(404, 446), (434, 453), (404, 460)], fill=(192, 86, 60))
+    # 名寄帳の綴りと全国分の証明書
+    d.rectangle([484, 442, 560, 500], fill=(233, 226, 205), outline=(168, 155, 124), width=3)
+    d.rectangle([484, 442, 498, 500], fill=(141, 95, 67))
+    for y0 in (460, 474, 488):
+        d.line([(508, y0), (550, y0)], fill=(193, 182, 150), width=3)
+    d.rectangle([478, 392, 596, 440], fill=(255, 255, 255), outline=(152, 162, 168), width=3)
+    d.rectangle([478, 392, 596, 408], fill=(31, 62, 82))
+    for y0 in (418, 430):
+        d.line([(490, y0), (584, y0)], fill=(184, 193, 198), width=3)
+    # 地図をたどる人
+    d.ellipse([120, 424, 168, 472], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.chord([120, 416, 168, 464], 180, 360, fill=(75, 66, 56))
+    d.polygon([(112, 478), (176, 478), (186, BAND_TOP), (102, BAND_TOP)], fill=(92, 134, 160))
+    d.line([(174, 490), (214, 470)], fill=(240, 210, 176), width=10)
+    # 綴りをめくる人
+    d.ellipse([600, 420, 648, 468], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.chord([600, 412, 648, 460], 180, 360, fill=(87, 73, 60))
+    d.polygon([(592, 474), (656, 474), (666, BAND_TOP), (582, BAND_TOP)], fill=(160, 106, 124))
+    d.line([(596, 488), (562, 478)], fill=(240, 210, 176), width=10)
+    # 壁の暦（2月2日に丸）
+    f = ImageFont.truetype(FONT_BOLD, 22)
+    d.rectangle([222, 330, 402, 410], fill=(253, 251, 242), outline=(141, 131, 104), width=4)
+    d.rectangle([222, 330, 402, 358], fill=(125, 63, 44))
+    d.text((246, 334), "2月2日 開始", font=f, fill="#ffffff")
+    for i in range(2):
+        d.line([(222, 378 + i * 18), (402, 378 + i * 18)], fill=(195, 189, 166), width=3)
+    d.ellipse([238, 372, 266, 400], outline=(192, 86, 60), width=6)
+    band(d, ["親の土地は、", "町外にもあるかもしれない"], "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260818-nationwide-property-record-certificate": scene_nationwide_record,
     "20260817-august-insurance-care-papers": scene_insurance_care_papers,
     "20260817-heir-representative-tax-notice": scene_heir_representative,
     "20260816-moving-in-timing-for-children": scene_moving_in_timing,
