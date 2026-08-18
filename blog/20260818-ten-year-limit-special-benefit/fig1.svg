@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ty1Title ty1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ty1Title">森町の実家の座敷で、お盆に集まった兄弟が話し合いを終えて座っている情景のイラスト</title>
+<desc id="ty1Desc">中央の低い座卓には湯呑みが三つと菓子鉢、封をしたままの登記の書類と封筒の束が置かれ、二人が向かい合ったまま視線を落としています。左手の柱には年の違う暦が何枚も重ねて掛かり、いちばん手前の一枚だけに赤い丸が付いています。右手の縁側では一人が庭を見ながら電話を持って立っています。手前には「今年も、来年また」と書かれた札があります。障子の開いた先には縁側と庭の柿の木、井戸、物置が見え、その向こうに瓦屋根の家並みと生け垣、段になった茶畑、杉木立、遠州の山並みが夏の空を背に広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ty1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c2d8e6"/><stop offset="1" stop-color="#eff4e7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="146" fill="url(#ty1Sky)"/>
+  <circle cx="892" cy="44" r="22" fill="#f6e6b4"/>
+  <path fill="#9db4be" d="M0 104 L104 42 L212 104 L326 40 L444 104 L562 44 L678 104 L798 46 L906 104 L1000 60 L1000 142 L0 142 Z"/>
+  <g fill="#3d6350">
+    <path d="M14 146 l13 -44 l13 44 z"/><path d="M44 146 l11 -36 l11 36 z"/><path d="M70 146 l12 -40 l12 40 z"/>
+    <path d="M904 146 l13 -44 l13 44 z"/><path d="M934 146 l14 -48 l14 48 z"/><path d="M966 146 l11 -36 l11 36 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="#8fb469" d="M0 148 C 240 140, 480 166, 720 150 C 846 142, 928 156, 1000 148 L1000 198 L0 204 Z"/>
+  <g stroke="#5f8543" stroke-width="5" opacity="0.9" fill="none">
+    <path d="M0 162 C 240 154, 480 180, 720 164 C 846 156, 928 170, 1000 162"/>
+    <path d="M0 178 C 240 170, 480 196, 720 180 C 846 172, 928 186, 1000 178"/>
+    <path d="M0 194 C 240 186, 480 212, 720 196 C 846 188, 928 202, 1000 194"/>
+  </g>
+
+  <!-- 奥の家並みと生け垣 -->
+  <g>
+    <rect x="128" y="214" width="100" height="44" fill="#efe9dd"/>
+    <path d="M116 216 L178 184 L240 216 Z" fill="#7f8d93"/>
+    <rect x="288" y="218" width="86" height="40" fill="#efe9dd"/>
+    <path d="M276 220 L331 192 L386 220 Z" fill="#6f7f86"/>
+    <rect x="716" y="212" width="108" height="46" fill="#efe9dd"/>
+    <path d="M704 214 L770 180 L836 214 Z" fill="#7f8d93"/>
+    <path d="M0 256 C 210 246, 570 264, 1000 250 L1000 274 L0 280 Z" fill="#6f9a58"/>
+  </g>
+
+  <rect x="0" y="274" width="1000" height="286" fill="#e6e9d9"/>
+
+  <!-- 庭の柿の木・井戸・物置 -->
+  <g>
+    <rect x="866" y="304" width="16" height="86" fill="#8a6a48"/>
+    <circle cx="874" cy="290" r="44" fill="#5f8c4c"/>
+    <circle cx="838" cy="304" r="28" fill="#54803f"/>
+    <circle cx="910" cy="306" r="26" fill="#6a9755"/>
+    <g fill="#e08a3c" stroke="#b56a26" stroke-width="2">
+      <circle cx="850" cy="296" r="8"/><circle cx="890" cy="280" r="8"/><circle cx="902" cy="316" r="8"/>
+    </g>
+    <ellipse cx="806" cy="416" rx="36" ry="13" fill="#a9a294"/>
+    <path d="M774 416 L774 388 L838 388 L838 416 Z" fill="#c2bbaa"/>
+    <path d="M766 388 L806 366 L846 388 Z" fill="#7f8d93"/>
+    <rect x="920" y="356" width="72" height="60" fill="#d8d2c2" stroke="#a49d8b" stroke-width="4"/>
+    <path d="M910 358 L956 330 L1002 358 Z" fill="#8c979b"/>
+  </g>
+
+  <!-- 縁側と座敷の床 -->
+  <g>
+    <rect x="140" y="396" width="726" height="20" fill="#c9a877"/>
+    <rect x="140" y="416" width="726" height="144" fill="#ddc9a4"/>
+    <g stroke="#c4ab84" stroke-width="3" fill="none">
+      <path d="M140 448 L866 448 M140 490 L866 490 M140 532 L866 532"/>
+    </g>
+  </g>
+
+  <!-- 座卓・湯呑み・菓子鉢・封をしたままの書類 -->
+  <g>
+    <rect x="330" y="428" width="330" height="26" rx="4" fill="#b98f5d"/>
+    <rect x="330" y="454" width="330" height="10" fill="#9c7648"/>
+    <rect x="352" y="464" width="16" height="44" fill="#9c7648"/>
+    <rect x="622" y="464" width="16" height="44" fill="#9c7648"/>
+    <g fill="#f4f1e6" stroke="#b3ac96" stroke-width="3">
+      <rect x="360" y="404" width="30" height="24" rx="3"/>
+      <rect x="406" y="404" width="30" height="24" rx="3"/>
+      <rect x="452" y="404" width="30" height="24" rx="3"/>
+    </g>
+    <ellipse cx="530" cy="418" rx="34" ry="14" fill="#e4dcc4" stroke="#b3a887" stroke-width="3"/>
+    <g fill="#c98a52"><circle cx="516" cy="412" r="7"/><circle cx="534" cy="410" r="7"/><circle cx="546" cy="415" r="7"/></g>
+    <!-- 封をしたままの登記の書類と封筒の束 -->
+    <rect x="576" y="396" width="76" height="32" fill="#fdfbf2" stroke="#a89b7c" stroke-width="3"/>
+    <path d="M576 396 L614 414 L652 396" fill="none" stroke="#a89b7c" stroke-width="3"/>
+    <rect x="586" y="384" width="76" height="32" fill="#f6f2e2" stroke="#a89b7c" stroke-width="3"/>
+    <path d="M586 384 L624 402 L662 384" fill="none" stroke="#a89b7c" stroke-width="3"/>
+    <rect x="620" y="430" width="20" height="8" rx="2" fill="#c0563c"/>
+  </g>
+
+  <!-- 向かい合ったまま視線を落とす二人 -->
+  <g>
+    <circle cx="286" cy="372" r="19" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M264 348 a22 20 0 0 1 44 0 z" fill="#4b4238"/>
+    <path d="M266 400 C 266 444, 270 472, 272 506 L302 506 C 306 472, 312 444, 310 400 Z" fill="#5c86a0" stroke="#3f6379" stroke-width="3"/>
+    <path d="M308 418 L342 434" stroke="#f0d2b0" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="700" cy="368" r="19" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M678 344 a22 20 0 0 1 44 0 z" fill="#57493c"/>
+    <path d="M680 396 C 680 440, 684 468, 686 502 L716 502 C 720 468, 726 440, 724 396 Z" fill="#a06a7c" stroke="#7d4d5e" stroke-width="3"/>
+    <path d="M678 414 L648 430" stroke="#f0d2b0" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- 縁側で庭を見ながら電話を持つ人 -->
+  <g>
+    <circle cx="800" cy="452" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M780 430 a20 18 0 0 1 40 0 z" fill="#4b4238"/>
+    <path d="M782 478 C 782 508, 786 528, 788 552 L816 552 C 820 528, 826 508, 824 478 Z" fill="#7d9a5c" stroke="#5b7640" stroke-width="3"/>
+    <path d="M784 492 L772 466" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <rect x="762" y="442" width="14" height="24" rx="3" fill="#3f4a52"/>
+  </g>
+
+  <!-- 左の柱に重ねて掛けた十年分の暦 -->
+  <g>
+    <rect x="150" y="270" width="16" height="150" fill="#a68a5c"/>
+    <g fill="#f3efe0" stroke="#b0a88e" stroke-width="3">
+      <rect x="26" y="288" width="112" height="86" rx="4"/>
+      <rect x="34" y="280" width="112" height="86" rx="4"/>
+      <rect x="42" y="272" width="112" height="86" rx="4"/>
+      <rect x="50" y="264" width="112" height="86" rx="4"/>
+    </g>
+    <rect x="58" y="256" width="112" height="86" rx="4" fill="#fdfbf2" stroke="#8d8368" stroke-width="4"/>
+    <rect x="58" y="256" width="112" height="24" rx="4" fill="#7d3f2c"/>
+    <text x="114" y="274" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">10年目</text>
+    <g stroke="#c3bda6" stroke-width="3" fill="none">
+      <path d="M58 300 L170 300 M58 322 L170 322"/>
+      <path d="M86 280 L86 342 M114 280 L114 342 M142 280 L142 342"/>
+    </g>
+    <circle cx="72" cy="312" r="11" fill="none" stroke="#c0563c" stroke-width="4"/>
+  </g>
+
+  <!-- 手前の札 -->
+  <g>
+    <rect x="18" y="470" width="196" height="34" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="116" y="493" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">今年も「来年また」</text>
+    <rect x="268" y="514" width="466" height="36" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="501" y="538" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">数えるのは、話し始めた日ではなく亡くなった日から</text>
+  </g>
+</svg>

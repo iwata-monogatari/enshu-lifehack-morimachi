@@ -2234,7 +2234,68 @@ def scene_nationwide_record(d):
     band(d, ["親の土地は、", "町外にもあるかもしれない"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_ten_year_limit(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 646, 692, 736], 300)
+    # 中景：段になった茶畑と家並み
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(133, 178, 92))
+    for i in range(3):
+        d.line([(0, 298 + i * 13), (760, 290 + i * 13)], fill=(90, 134, 62), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 230, 213))
+    for x, w in ((20, 86), (128, 70), (632, 92)):
+        d.rectangle([x, 342, x + w, 380], fill=(238, 232, 218))
+        d.polygon([(x - 8, 344), (x + w // 2, 316), (x + w + 8, 344)], fill=(133, 148, 156))
+    d.polygon([(0, 384), (760, 374), (760, 398), (0, 408)], fill=(111, 154, 88))
+    # 庭の柿の木
+    d.rectangle([680, 356, 694, 424], fill=(138, 106, 72))
+    d.ellipse([634, 296, 740, 384], fill=(95, 140, 76))
+    for cx, cy in ((658, 330), (708, 316), (720, 356)):
+        d.ellipse([cx - 7, cy - 7, cx + 7, cy + 7], fill=(224, 138, 60), outline=(181, 106, 38), width=2)
+    # 座敷の床と縁側
+    d.rectangle([0, 468, 760, 486], fill=(201, 168, 119))
+    d.rectangle([0, 486, 760, BAND_TOP], fill=(221, 201, 164))
+    for y0 in (512, 550):
+        d.line([(0, y0), (760, y0)], fill=(196, 171, 132), width=3)
+    # 座卓・湯呑み・菓子鉢・封をしたままの書類
+    d.rectangle([214, 494, 566, 520], fill=(185, 143, 93))
+    d.rectangle([214, 520, 566, 532], fill=(156, 118, 72))
+    for x in (238, 288, 338):
+        d.rectangle([x, 464, x + 30, 492], fill=(244, 241, 230), outline=(179, 172, 150), width=3)
+    d.ellipse([392, 462, 462, 492], fill=(228, 220, 196), outline=(179, 168, 135), width=3)
+    for cx in (410, 428, 444):
+        d.ellipse([cx - 7, 468, cx + 7, 482], fill=(201, 138, 82))
+    d.rectangle([482, 448, 560, 484], fill=(253, 251, 242), outline=(168, 155, 124), width=3)
+    d.line([(482, 448), (521, 470)], fill=(168, 155, 124), width=3)
+    d.line([(521, 470), (560, 448)], fill=(168, 155, 124), width=3)
+    d.rectangle([492, 434, 570, 470], fill=(246, 242, 226), outline=(168, 155, 124), width=3)
+    d.line([(492, 434), (531, 456)], fill=(168, 155, 124), width=3)
+    d.line([(531, 456), (570, 434)], fill=(168, 155, 124), width=3)
+    # 向かい合ったまま視線を落とす二人
+    d.ellipse([132, 424, 180, 472], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.chord([132, 416, 180, 464], 180, 360, fill=(75, 66, 56))
+    d.polygon([(124, 478), (188, 478), (198, BAND_TOP), (114, BAND_TOP)], fill=(92, 134, 160))
+    d.line([(186, 494), (222, 508)], fill=(240, 210, 176), width=10)
+    d.ellipse([600, 420, 648, 468], fill=(240, 210, 176), outline=(194, 161, 129), width=3)
+    d.chord([600, 412, 648, 460], 180, 360, fill=(87, 73, 60))
+    d.polygon([(592, 474), (656, 474), (666, BAND_TOP), (582, BAND_TOP)], fill=(160, 106, 124))
+    d.line([(598, 490), (562, 504)], fill=(240, 210, 176), width=10)
+    # 壁に重ねて掛けた十年分の暦
+    f = ImageFont.truetype(FONT_BOLD, 22)
+    for i, off in enumerate((24, 16, 8)):
+        d.rectangle([200 + off, 330 + off, 396 + off, 412 + off],
+                    fill=(243, 239, 224), outline=(176, 168, 142), width=3)
+    d.rectangle([200, 330, 396, 412], fill=(253, 251, 242), outline=(141, 131, 104), width=4)
+    d.rectangle([200, 330, 396, 358], fill=(125, 63, 44))
+    d.text((252, 334), "10年目の暦", font=f, fill="#ffffff")
+    for i in range(2):
+        d.line([(200, 380 + i * 18), (396, 380 + i * 18)], fill=(195, 189, 166), width=3)
+    d.ellipse([216, 374, 244, 402], outline=(192, 86, 60), width=6)
+    band(d, ["今年もまとまらなかった、", "その十年目に何が変わるか"], "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260818-ten-year-limit-special-benefit": scene_ten_year_limit,
     "20260818-nationwide-property-record-certificate": scene_nationwide_record,
     "20260817-august-insurance-care-papers": scene_insurance_care_papers,
     "20260817-heir-representative-tax-notice": scene_heir_representative,
