@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="dm2Title dm2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="dm2Title">森町の実家を解体するときの確認の順番を一本の道すじとして描いたイラスト</title>
+<desc id="dm2Desc">左端では家族が古い木造住宅を見上げ、建築年を台帳で確かめています。次に役場の窓口で補助の相談をし、「着手前」と書かれた札を受け取る場面が続きます。三つ目で複数の業者から見積書を受け取り比べる場面があります。四つ目では重機が入って建物が解体され、道路側のブロック塀も取り除かれます。五つ目で道が二つに分かれ、上の道は法務局の窓口へ滅失登記の申請書を出す場面へ、下の道は役場の税の窓口へ家屋取り壊し届出書を出す場面へ続きます。二つの道は合流し、最後に更地に杭と縄が張られ、一月一日に丸の付いた暦が立てられています。下には八月から一月までの帯が伸びています。背景には遠州の山並みと杉木立、段になった茶畑、太田川らしい流れと橋が広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="dm2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3d9e6"/><stop offset="1" stop-color="#f0f4e8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="132" fill="url(#dm2Sky)"/>
+  <path fill="#9db4be" d="M0 92 L92 42 L198 92 L308 38 L422 92 L540 40 L656 92 L776 44 L888 92 L1000 56 L1000 128 L0 128 Z"/>
+  <g fill="#3d6350">
+    <path d="M18 132 l12 -40 l12 40 z"/><path d="M46 132 l14 -46 l14 46 z"/><path d="M78 132 l11 -34 l11 34 z"/>
+    <path d="M898 132 l12 -40 l12 40 z"/><path d="M928 132 l14 -46 l14 46 z"/><path d="M962 132 l11 -34 l11 34 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="#8fb469" d="M0 134 C 260 126, 500 150, 740 136 C 850 130, 930 142, 1000 134 L1000 176 L0 182 Z"/>
+  <g stroke="#5f8543" stroke-width="5" opacity="0.9" fill="none">
+    <path d="M0 148 C 260 140, 500 164, 740 150 C 850 144, 930 156, 1000 148"/>
+    <path d="M0 164 C 260 156, 500 180, 740 166 C 850 160, 930 172, 1000 164"/>
+  </g>
+
+  <!-- 川と橋 -->
+  <path fill="#a6cde2" d="M0 188 L1000 180 L1000 212 L0 220 Z"/>
+  <g stroke="#e2f0f6" stroke-width="4" fill="none">
+    <path d="M40 206 L230 200"/><path d="M690 198 L936 192"/>
+  </g>
+  <rect x="352" y="178" width="248" height="9" fill="#cfc7ae"/>
+  <g fill="#b6ae95"><rect x="384" y="187" width="8" height="28"/><rect x="474" y="185" width="8" height="28"/><rect x="564" y="183" width="8" height="28"/></g>
+
+  <rect x="0" y="216" width="1000" height="344" fill="#e6e9d9"/>
+
+  <!-- 道すじ（本線） -->
+  <path d="M44 456 C 180 456, 226 406, 350 406 C 470 406, 520 356, 628 356" fill="none" stroke="#cfc4a6" stroke-width="30" stroke-linecap="round"/>
+  <path d="M44 456 C 180 456, 226 406, 350 406 C 470 406, 520 356, 628 356" fill="none" stroke="#fbf7ea" stroke-width="4" stroke-dasharray="16 16"/>
+  <!-- 分岐（上：法務局／下：役場の税の窓口） -->
+  <path d="M628 356 C 690 356, 710 286, 788 286 C 852 286, 884 306, 918 312" fill="none" stroke="#cfc4a6" stroke-width="26" stroke-linecap="round"/>
+  <path d="M628 356 C 690 356, 710 428, 788 428 C 852 428, 884 348, 918 322" fill="none" stroke="#cfc4a6" stroke-width="26" stroke-linecap="round"/>
+  <g fill="none" stroke="#fbf7ea" stroke-width="4" stroke-dasharray="14 14">
+    <path d="M628 356 C 690 356, 710 286, 788 286 C 852 286, 884 306, 918 312"/>
+    <path d="M628 356 C 690 356, 710 428, 788 428 C 852 428, 884 348, 918 322"/>
+  </g>
+
+  <!-- 1. 建築年を台帳で確かめる -->
+  <g>
+    <rect x="16" y="290" width="118" height="88" fill="#f4eee2" stroke="#a3997f" stroke-width="4"/>
+    <path d="M4 294 L75 250 L146 294 Z" fill="#6a7a80"/>
+    <rect x="4" y="294" width="142" height="10" fill="#55636a"/>
+    <rect x="32" y="316" width="38" height="30" fill="#bcdcea" stroke="#7fa5b6" stroke-width="3"/>
+    <rect x="84" y="316" width="38" height="30" fill="#bcdcea" stroke="#7fa5b6" stroke-width="3"/>
+    <circle cx="66" cy="408" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M46 386 a20 18 0 0 1 40 0 z" fill="#4b4238"/>
+    <path d="M48 432 C 48 456, 50 466, 52 480 L80 480 C 82 466, 86 456, 84 432 Z" fill="#5c86a0" stroke="#3f6379" stroke-width="3"/>
+    <rect x="94" y="400" width="80" height="50" fill="#fdfbf2" stroke="#a89b7c" stroke-width="3"/>
+    <g stroke="#cfc5a8" stroke-width="3" fill="none"><path d="M104 414 L164 414 M104 426 L164 426 M104 438 L146 438"/></g>
+    <rect x="6" y="494" width="180" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="96" y="515" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">1 建築年と床面積</text>
+  </g>
+
+  <!-- 2. 役場の窓口で補助の相談、着手前の札 -->
+  <g>
+    <rect x="214" y="278" width="126" height="64" fill="#eceee6" stroke="#9aa196" stroke-width="4"/>
+    <path d="M202 282 L277 244 L352 282 Z" fill="#7c8a90"/>
+    <rect x="228" y="298" width="28" height="24" fill="#f6d98f" stroke="#c9a94f" stroke-width="3"/>
+    <rect x="298" y="298" width="28" height="24" fill="#f6d98f" stroke="#c9a94f" stroke-width="3"/>
+    <rect x="210" y="342" width="136" height="16" fill="#b98f5d"/>
+    <circle cx="246" cy="378" r="16" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M227 357 a19 17 0 0 1 38 0 z" fill="#57493c"/>
+    <path d="M229 400 C 229 424, 231 434, 233 448 L259 448 C 261 434, 265 424, 263 400 Z" fill="#87a45f" stroke="#5f7b3d" stroke-width="3"/>
+    <path d="M262 406 L292 390" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <rect x="286" y="366" width="82" height="34" rx="4" fill="#fdf3d8" stroke="#c4ad6a" stroke-width="4"/>
+    <text x="327" y="389" font-family="sans-serif" font-size="15" font-weight="bold" fill="#7d5a1f" text-anchor="middle">着手前に</text>
+    <rect x="196" y="464" width="192" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="292" y="485" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">2 補助を先に申請</text>
+  </g>
+
+  <!-- 3. 見積書を比べる -->
+  <g>
+    <circle cx="432" cy="326" r="17" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M412 304 a20 18 0 0 1 40 0 z" fill="#4b4238"/>
+    <path d="M414 350 C 414 380, 416 394, 418 412 L446 412 C 448 394, 452 380, 450 350 Z" fill="#a06a7c" stroke="#7d4d5e" stroke-width="3"/>
+    <path d="M448 362 L482 348" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <path d="M416 362 L386 350" stroke="#f0d2b0" stroke-width="9" stroke-linecap="round"/>
+    <g fill="#fdfbf2" stroke="#a89b7c" stroke-width="3">
+      <rect x="344" y="312" width="56" height="42"/><rect x="470" y="308" width="56" height="42"/><rect x="536" y="316" width="56" height="42"/>
+    </g>
+    <g stroke="#cfc5a8" stroke-width="3" fill="none">
+      <path d="M352 328 L392 328 M352 340 L380 340"/>
+      <path d="M478 324 L518 324 M478 336 L506 336"/>
+      <path d="M544 332 L584 332 M544 344 L572 344"/>
+    </g>
+    <rect x="374" y="466" width="200" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="474" y="487" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">3 見積りを複数取る</text>
+  </g>
+
+  <!-- 4. 重機が入り、家と塀が解体される -->
+  <g>
+    <rect x="600" y="404" width="86" height="46" fill="#e6ddcc" stroke="#a3997f" stroke-width="4"/>
+    <path d="M590 408 L643 380 L696 408 Z" fill="#8c979b"/>
+    <path d="M600 404 L686 450 M686 404 L600 450" stroke="#b3a68c" stroke-width="4" fill="none"/>
+    <rect x="588" y="452" width="110" height="14" fill="#cfcabb" stroke="#a29c8b" stroke-width="3"/>
+    <g>
+      <rect x="518" y="404" width="60" height="30" rx="4" fill="#e0a437" stroke="#a9761f" stroke-width="3"/>
+      <rect x="530" y="388" width="30" height="20" rx="3" fill="#cfe0ea" stroke="#8fa0aa" stroke-width="3"/>
+      <circle cx="532" cy="438" r="11" fill="#4b4a45"/><circle cx="566" cy="438" r="11" fill="#4b4a45"/>
+      <path d="M578 410 L608 388 L622 400" fill="none" stroke="#a9761f" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <rect x="512" y="504" width="192" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="608" y="525" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">4 着工は決定の後で</text>
+  </g>
+
+  <!-- 5a. 上の道：法務局へ滅失登記（1月以内） -->
+  <g>
+    <rect x="692" y="228" width="104" height="48" fill="#e9ecea" stroke="#8e9791" stroke-width="4"/>
+    <path d="M680 232 L744 204 L808 232 Z" fill="#6f7f86"/>
+    <g fill="#cfd8dc" stroke="#8fa0a8" stroke-width="3">
+      <rect x="704" y="244" width="12" height="32"/><rect x="738" y="244" width="12" height="32"/><rect x="772" y="244" width="12" height="32"/>
+    </g>
+    <circle cx="716" cy="306" r="14" fill="#f0d2b0" stroke="#c2a181" stroke-width="3"/>
+    <path d="M699 288 a17 15 0 0 1 34 0 z" fill="#57493c"/>
+    <path d="M702 324 C 702 342, 704 350, 706 362 L728 362 C 730 350, 734 342, 732 324 Z" fill="#5c86a0" stroke="#3f6379" stroke-width="3"/>
+    <rect x="740" y="292" width="52" height="34" fill="#ffffff" stroke="#98a2a8" stroke-width="3"/>
+    <rect x="656" y="196" width="164" height="28" rx="5" fill="#ffffff" stroke="#7d3f2c" stroke-width="4"/>
+    <text x="738" y="216" font-family="sans-serif" font-size="14" font-weight="bold" fill="#7d3f2c" text-anchor="middle">滅失登記は1月以内</text>
+  </g>
+
+  <!-- 5b. 下の道：役場の税の窓口へ家屋取り壊し届出書 -->
+  <g>
+    <rect x="694" y="396" width="108" height="50" fill="#eceee6" stroke="#9aa196" stroke-width="4"/>
+    <path d="M682 400 L748 370 L814 400 Z" fill="#7c8a90"/>
+    <rect x="708" y="414" width="28" height="24" fill="#f6d98f" stroke="#c9a94f" stroke-width="3"/>
+    <rect x="760" y="414" width="28" height="24" fill="#f6d98f" stroke="#c9a94f" stroke-width="3"/>
+    <rect x="812" y="400" width="66" height="44" fill="#fdfbf2" stroke="#a89b7c" stroke-width="3"/>
+    <g stroke="#cfc5a8" stroke-width="3" fill="none"><path d="M822 414 L868 414 M822 426 L868 426 M822 436 L856 436"/></g>
+    <rect x="660" y="458" width="204" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="762" y="479" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">家屋取り壊し届出書も</text>
+  </g>
+
+  <!-- 6. 合流点：更地と1月1日の暦 -->
+  <g>
+    <rect x="906" y="330" width="12" height="86" fill="#8d8368"/>
+    <rect x="852" y="236" width="140" height="92" rx="6" fill="#fdfbf2" stroke="#7d3f2c" stroke-width="5"/>
+    <rect x="852" y="236" width="140" height="26" rx="6" fill="#7d3f2c"/>
+    <text x="922" y="255" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">1月1日</text>
+    <g stroke="#c3bda6" stroke-width="3" fill="none">
+      <path d="M852 286 L992 286 M852 308 L992 308"/>
+      <path d="M887 262 L887 328 M922 262 L922 328 M957 262 L957 328"/>
+    </g>
+    <circle cx="869" cy="274" r="11" fill="none" stroke="#c0563c" stroke-width="4"/>
+    <!-- 更地と杭 -->
+    <rect x="846" y="418" width="150" height="42" fill="#d9d2bd"/>
+    <g fill="#e8dcc0" stroke="#a89b7c" stroke-width="3">
+      <rect x="852" y="404" width="10" height="26"/><rect x="978" y="404" width="10" height="26"/>
+    </g>
+    <path d="M857 406 L983 406" fill="none" stroke="#c0563c" stroke-width="4"/>
+    <rect x="828" y="494" width="168" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="3"/>
+    <text x="912" y="515" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1f3e52" text-anchor="middle">5 賦課期日をまたぐ</text>
+  </g>
+
+  <!-- 下の帯：八月から一月 -->
+  <g>
+    <rect x="24" y="530" width="952" height="24" rx="12" fill="#1f3e52"/>
+    <text x="120" y="547" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">8月 対象か確かめる</text>
+    <text x="360" y="547" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">9月 申請と交付決定</text>
+    <text x="620" y="547" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">10月 着工と届出</text>
+    <text x="880" y="547" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f6d98f" text-anchor="middle">1月1日 賦課期日</text>
+  </g>
+</svg>

@@ -2294,7 +2294,67 @@ def scene_ten_year_limit(d):
     band(d, ["今年もまとまらなかった、", "その十年目に何が変わるか"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_demolition_countdown(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 646, 692, 736], 300)
+    # 中景：段になった茶畑と家並み
+    d.polygon([(0, 292), (760, 284), (760, 326), (0, 336)], fill=(133, 178, 92))
+    for i in range(2):
+        d.line([(0, 298 + i * 13), (760, 290 + i * 13)], fill=(90, 134, 62), width=3)
+    d.polygon([(0, 330), (760, 320), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 230, 213))
+    for x, w in ((20, 82), (330, 70), (660, 84)):
+        d.rectangle([x, 338, x + w, 372], fill=(238, 232, 218))
+        d.polygon([(x - 8, 340), (x + w // 2, 314), (x + w + 8, 340)], fill=(133, 148, 156))
+    d.polygon([(0, 376), (760, 366), (760, 390), (0, 400)], fill=(111, 154, 88))
+    # 道路
+    d.rectangle([0, 520, 760, 560], fill=(207, 196, 166))
+    # 左：解体前の家（瓦屋根とブロック塀）
+    d.rectangle([32, 424, 200, 512], fill=(244, 238, 226), outline=(163, 153, 127), width=4)
+    d.polygon([(18, 428), (116, 376), (214, 428)], fill=(106, 122, 128))
+    d.rectangle([18, 428, 214, 440], fill=(85, 99, 106))
+    d.rectangle([56, 452, 96, 486], fill=(188, 220, 234), outline=(127, 165, 182), width=3)
+    d.rectangle([120, 452, 160, 486], fill=(188, 220, 234), outline=(127, 165, 182), width=3)
+    d.rectangle([14, 496, 224, 528], fill=(207, 202, 187), outline=(162, 156, 139), width=4)
+    d.line([(14, 512), (224, 512)], fill=(162, 156, 139), width=3)
+    for x in (66, 118, 170):
+        d.line([(x, 496), (x, 528)], fill=(162, 156, 139), width=3)
+    # 庭木
+    d.rectangle([232, 456, 244, 508], fill=(138, 106, 72))
+    d.ellipse([206, 412, 272, 470], fill=(95, 140, 76))
+    # 右：更地と杭・重機
+    d.rectangle([470, 452, 748, 520], fill=(217, 210, 189))
+    for y0 in (470, 492):
+        d.line([(470, y0), (748, y0)], fill=(191, 182, 156), width=3)
+    for x in (478, 604, 730):
+        d.rectangle([x, 428, x + 10, 456], fill=(232, 220, 192), outline=(168, 155, 124), width=3)
+    d.line([(483, 430), (609, 426)], fill=(192, 86, 60), width=4)
+    d.line([(609, 426), (735, 430)], fill=(192, 86, 60), width=4)
+    d.polygon([(492, 500), (512, 466), (534, 500)], fill=(169, 142, 99))
+    d.rectangle([636, 466, 700, 498], fill=(224, 164, 55), outline=(169, 118, 31), width=3)
+    d.rectangle([650, 448, 684, 470], fill=(207, 224, 234), outline=(143, 160, 170), width=3)
+    d.ellipse([638, 490, 662, 514], fill=(75, 74, 69))
+    d.ellipse([676, 490, 700, 514], fill=(75, 74, 69))
+    d.line([(636, 472), (604, 446)], fill=(169, 118, 31), width=7)
+    # 中央：二枚の暦（12月と1月1日）
+    f = ImageFont.truetype(FONT_BOLD, 22)
+    d.rectangle([272, 330, 412, 420], fill=(253, 251, 242), outline=(141, 131, 104), width=4)
+    d.rectangle([272, 330, 412, 356], fill=(31, 62, 82))
+    d.text((320, 333), "12月", font=f, fill="#ffffff")
+    for i in range(2):
+        d.line([(272, 378 + i * 18), (412, 378 + i * 18)], fill=(195, 189, 166), width=3)
+    d.ellipse([382, 392, 406, 416], outline=(192, 86, 60), width=5)
+    d.rectangle([432, 330, 572, 420], fill=(253, 251, 242), outline=(141, 131, 104), width=4)
+    d.rectangle([432, 330, 572, 356], fill=(125, 63, 44))
+    d.text((484, 333), "1月", font=f, fill="#ffffff")
+    for i in range(2):
+        d.line([(432, 378 + i * 18), (572, 378 + i * 18)], fill=(195, 189, 166), width=3)
+    d.ellipse([438, 358, 462, 382], outline=(192, 86, 60), width=5)
+    band(d, ["解体を決めるなら、", "1月1日から逆算する"], "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260818-demolition-countdown-january": scene_demolition_countdown,
     "20260818-ten-year-limit-special-benefit": scene_ten_year_limit,
     "20260818-nationwide-property-record-certificate": scene_nationwide_record,
     "20260817-august-insurance-care-papers": scene_insurance_care_papers,

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="dm1Title dm1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="dm1Title">森町の実家が解体される前と後を並べて描いた情景のイラスト</title>
+<desc id="dm1Desc">左側には瓦屋根の古い木造住宅と、道路に面した高いブロック塀、伸びた庭木、玄関先に積まれた家財が描かれています。右側には同じ敷地が更地になった姿があり、境界の杭と縄が張られ、隅に土の山と重機が残り、道路側の塀は低い生け垣に置き換わっています。中央には二枚の暦が並び、左の暦の十二月と右の暦の一月一日にそれぞれ赤い丸が付いています。手前には「賦課期日は1月1日」と書かれた札があります。奥には瓦屋根の家並みと段になった茶畑、杉木立、遠州の山並みが夏の空を背に広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="dm1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c0d7e5"/><stop offset="1" stop-color="#eef3e6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f2f4ea"/>
+  <rect width="1000" height="146" fill="url(#dm1Sky)"/>
+  <circle cx="118" cy="44" r="22" fill="#f6e6b4"/>
+  <path fill="#9db4be" d="M0 102 L98 44 L206 102 L318 38 L436 102 L556 42 L672 102 L792 46 L900 102 L1000 58 L1000 142 L0 142 Z"/>
+  <g fill="#3d6350">
+    <path d="M14 146 l13 -44 l13 44 z"/><path d="M44 146 l11 -36 l11 36 z"/><path d="M70 146 l12 -40 l12 40 z"/>
+    <path d="M904 146 l13 -44 l13 44 z"/><path d="M934 146 l14 -48 l14 48 z"/><path d="M966 146 l11 -36 l11 36 z"/>
+  </g>
+
+  <!-- 段になった茶畑 -->
+  <path fill="#8fb469" d="M0 148 C 250 140, 480 164, 730 150 C 848 144, 926 156, 1000 148 L1000 196 L0 202 Z"/>
+  <g stroke="#5f8543" stroke-width="5" opacity="0.9" fill="none">
+    <path d="M0 162 C 250 154, 480 178, 730 164 C 848 158, 926 170, 1000 162"/>
+    <path d="M0 178 C 250 170, 480 194, 730 180 C 848 174, 926 186, 1000 178"/>
+  </g>
+
+  <!-- 奥の家並み -->
+  <g>
+    <rect x="96" y="212" width="96" height="42" fill="#efe9dd"/>
+    <path d="M84 214 L144 184 L204 214 Z" fill="#7f8d93"/>
+    <rect x="430" y="214" width="88" height="40" fill="#efe9dd"/>
+    <path d="M418 216 L474 188 L530 216 Z" fill="#6f7f86"/>
+    <rect x="800" y="212" width="100" height="42" fill="#efe9dd"/>
+    <path d="M788 214 L850 184 L912 214 Z" fill="#7f8d93"/>
+    <path d="M0 252 C 210 244, 570 260, 1000 246 L1000 268 L0 274 Z" fill="#6f9a58"/>
+  </g>
+
+  <rect x="0" y="268" width="1000" height="292" fill="#e6e9d9"/>
+  <!-- 敷地の地面と道路 -->
+  <rect x="0" y="470" width="1000" height="44" fill="#cfc4a6"/>
+  <g stroke="#fbf7ea" stroke-width="4" stroke-dasharray="22 20" fill="none"><path d="M0 492 L1000 492"/></g>
+
+  <!-- 左：解体前の実家 -->
+  <g>
+    <rect x="44" y="330" width="212" height="112" fill="#f4eee2" stroke="#a3997f" stroke-width="4"/>
+    <path d="M26 334 L150 268 L274 334 Z" fill="#6a7a80"/>
+    <rect x="26" y="334" width="248" height="12" fill="#55636a"/>
+    <rect x="72" y="360" width="52" height="42" fill="#bcdcea" stroke="#7fa5b6" stroke-width="3"/>
+    <rect x="148" y="360" width="52" height="42" fill="#bcdcea" stroke="#7fa5b6" stroke-width="3"/>
+    <rect x="112" y="410" width="46" height="32" fill="#a97f52" stroke="#7d5a35" stroke-width="3"/>
+    <!-- 伸びた庭木 -->
+    <rect x="288" y="378" width="14" height="66" fill="#8a6a48"/>
+    <circle cx="295" cy="364" r="34" fill="#5f8c4c"/>
+    <circle cx="268" cy="378" r="22" fill="#54803f"/>
+    <circle cx="322" cy="376" r="20" fill="#6a9755"/>
+    <!-- 玄関先に積まれた家財 -->
+    <g fill="#c9b48c" stroke="#8d7a53" stroke-width="3">
+      <rect x="176" y="424" width="46" height="20"/><rect x="182" y="408" width="46" height="18"/><rect x="188" y="392" width="40" height="16"/>
+    </g>
+    <!-- 道路に面した高いブロック塀 -->
+    <rect x="20" y="418" width="260" height="52" fill="#cfcabb" stroke="#a29c8b" stroke-width="4"/>
+    <g stroke="#a29c8b" stroke-width="3" fill="none">
+      <path d="M20 436 L280 436 M20 454 L280 454 M85 418 L85 470 M150 418 L150 470 M215 418 L215 470"/>
+    </g>
+    <rect x="14" y="524" width="256" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="142" y="546" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">解体前：家屋と塀が残る</text>
+  </g>
+
+  <!-- 右：更地 -->
+  <g>
+    <rect x="620" y="378" width="352" height="92" fill="#d9d2bd"/>
+    <g stroke="#bfb69c" stroke-width="3" fill="none">
+      <path d="M620 400 L972 400 M620 424 L972 424 M620 448 L972 448"/>
+    </g>
+    <!-- 境界の杭と縄 -->
+    <g fill="#efe4c8" stroke="#8d7f5c" stroke-width="4">
+      <rect x="630" y="348" width="14" height="44"/><rect x="790" y="342" width="14" height="44"/><rect x="948" y="348" width="14" height="44"/>
+    </g>
+    <path d="M637 352 L797 346 L955 352" fill="none" stroke="#c0563c" stroke-width="5"/>
+    <!-- 土の山 -->
+    <path d="M646 442 C 662 408, 694 406, 712 442 Z" fill="#a98e63"/>
+    <!-- 重機 -->
+    <g>
+      <rect x="852" y="410" width="66" height="32" rx="4" fill="#e0a437" stroke="#a9761f" stroke-width="3"/>
+      <rect x="866" y="392" width="34" height="22" rx="3" fill="#cfe0ea" stroke="#8fa0aa" stroke-width="3"/>
+      <circle cx="866" cy="446" r="12" fill="#4b4a45"/><circle cx="906" cy="446" r="12" fill="#4b4a45"/>
+      <path d="M852 416 L818 388 L800 404" fill="none" stroke="#a9761f" stroke-width="7" stroke-linecap="round"/>
+      <path d="M792 400 L806 418 L788 420 Z" fill="#8a8a82"/>
+    </g>
+    <!-- 低い生け垣 -->
+    <path d="M620 458 C 720 450, 870 462, 976 452 L976 470 L620 470 Z" fill="#6f9a58"/>
+    <rect x="700" y="524" width="266" height="30" rx="5" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="833" y="546" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f3e52" text-anchor="middle">解体後：更地と杭が残る</text>
+  </g>
+
+  <!-- 中央：二枚の暦（12月と1月1日） -->
+  <g>
+    <rect x="344" y="292" width="140" height="100" rx="5" fill="#fdfbf2" stroke="#8d8368" stroke-width="4"/>
+    <rect x="344" y="292" width="140" height="26" rx="5" fill="#1f3e52"/>
+    <text x="414" y="311" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">12月</text>
+    <g stroke="#c3bda6" stroke-width="3" fill="none">
+      <path d="M344 342 L484 342 M344 366 L484 366"/>
+      <path d="M379 318 L379 392 M414 318 L414 392 M449 318 L449 392"/>
+    </g>
+    <circle cx="466" cy="380" r="11" fill="none" stroke="#c0563c" stroke-width="4"/>
+    <rect x="512" y="292" width="140" height="100" rx="5" fill="#fdfbf2" stroke="#8d8368" stroke-width="4"/>
+    <rect x="512" y="292" width="140" height="26" rx="5" fill="#7d3f2c"/>
+    <text x="582" y="311" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">1月</text>
+    <g stroke="#c3bda6" stroke-width="3" fill="none">
+      <path d="M512 342 L652 342 M512 366 L652 366"/>
+      <path d="M547 318 L547 392 M582 318 L582 392 M617 318 L617 392"/>
+    </g>
+    <circle cx="529" cy="330" r="11" fill="none" stroke="#c0563c" stroke-width="4"/>
+    <path d="M492 342 L504 342" stroke="#8d8368" stroke-width="5"/>
+    <rect x="286" y="402" width="424" height="34" rx="6" fill="#ffffff" stroke="#1f3e52" stroke-width="4"/>
+    <text x="498" y="425" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1f3e52" text-anchor="middle">賦課期日は1月1日。この一日で扱いが変わる</text>
+  </g>
+</svg>
