@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-label="静岡県森町で文化財を支える三つの現場を横に並べた情景。茅葺き民家の屋根修理、社殿前の舞楽の稽古、保存会による柿の古木の手当て。">
+<title>森町の文化財を支える三つの現場</title>
+<rect x="0" y="0" width="1000" height="560" fill="#dbe8f0"/>
+<rect x="0" y="0" width="1000" height="190" fill="#cfe1ee"/>
+<circle cx="880" cy="70" r="34" fill="#f4e2b4"/>
+<path d="M0 190 L90 118 L170 168 L260 104 L350 166 L450 110 L545 170 L640 116 L740 168 L840 120 L1000 176 L1000 230 L0 230 Z" fill="#9db6c6"/>
+<path d="M0 214 L110 158 L230 208 L340 152 L470 206 L600 156 L730 204 L860 158 L1000 208 L1000 250 L0 250 Z" fill="#7ea48f"/>
+<g fill="#41705a">
+<path d="M20 250 L36 194 L52 250 Z"/><path d="M60 250 L76 200 L92 250 Z"/><path d="M104 250 L120 192 L136 250 Z"/>
+<path d="M860 250 L876 196 L892 250 Z"/><path d="M902 250 L918 190 L934 250 Z"/><path d="M944 250 L960 198 L976 250 Z"/>
+</g>
+<rect x="0" y="248" width="1000" height="82" fill="#b9cf9f"/>
+<g stroke="#7ea45e" stroke-width="7" fill="none">
+<path d="M0 262 H1000"/><path d="M0 280 H1000"/><path d="M0 298 H1000"/><path d="M0 316 H1000"/>
+</g>
+<rect x="0" y="326" width="1000" height="234" fill="#d9dfcc"/>
+<rect x="0" y="506" width="1000" height="54" fill="#c2c6b6"/>
+<rect x="0" y="530" width="1000" height="6" fill="#eceee6"/>
+
+<g>
+<rect x="46" y="352" width="212" height="102" fill="#e8dfc9" stroke="#a8987a" stroke-width="3"/>
+<path d="M30 356 L152 268 L274 356 Z" fill="#b79a6a" stroke="#8a7146" stroke-width="3"/>
+<path d="M60 342 L152 276 L244 342" fill="none" stroke="#8a7146" stroke-width="3"/>
+<rect x="96" y="392" width="46" height="62" fill="#6f5f45"/>
+<rect x="176" y="392" width="46" height="40" fill="#8ba7b6" stroke="#6f5f45" stroke-width="3"/>
+<g stroke="#8c6a3c" stroke-width="5" fill="none">
+<path d="M262 268 V452"/><path d="M296 268 V452"/><path d="M258 306 H300"/><path d="M258 352 H300"/><path d="M258 400 H300"/>
+</g>
+<g>
+<circle cx="280" cy="288" r="11" fill="#f0d9bb" stroke="#7a6144" stroke-width="2"/>
+<rect x="270" y="300" width="21" height="30" fill="#3f6d86"/>
+<path d="M270 302 L252 322" stroke="#3f6d86" stroke-width="7" fill="none"/>
+<path d="M270 330 L266 356 M291 330 L296 356" stroke="#42505c" stroke-width="7" fill="none"/>
+</g>
+<text x="150" y="498" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="21" fill="#33413a" text-anchor="middle">茅葺きを直す</text>
+</g>
+
+<g>
+<rect x="372" y="366" width="216" height="88" fill="#eae3d4" stroke="#9b8a6c" stroke-width="3"/>
+<path d="M356 370 L480 296 L604 370 Z" fill="#5d6f7c" stroke="#3f4d58" stroke-width="3"/>
+<path d="M480 296 V276" stroke="#3f4d58" stroke-width="6"/>
+<rect x="416" y="404" width="128" height="50" fill="#c9503c" opacity="0.8"/>
+<rect x="392" y="454" width="176" height="14" fill="#a8865a" stroke="#7d6440" stroke-width="3"/>
+<g>
+<circle cx="424" cy="392" r="12" fill="#f0d9bb" stroke="#7a6144" stroke-width="2"/>
+<rect x="413" y="405" width="23" height="34" fill="#8a3f52"/>
+<path d="M413 410 L396 428 M436 410 L452 428" stroke="#8a3f52" stroke-width="7" fill="none"/>
+</g>
+<g>
+<circle cx="480" cy="392" r="12" fill="#f0d9bb" stroke="#7a6144" stroke-width="2"/>
+<rect x="469" y="405" width="23" height="34" fill="#2f5c73"/>
+<path d="M469 410 L454 430 M492 410 L508 430" stroke="#2f5c73" stroke-width="7" fill="none"/>
+</g>
+<g>
+<circle cx="538" cy="392" r="12" fill="#f0d9bb" stroke="#7a6144" stroke-width="2"/>
+<rect x="527" y="405" width="23" height="34" fill="#4a6b3c"/>
+<path d="M527 410 L512 430 M550 410 L566 430" stroke="#4a6b3c" stroke-width="7" fill="none"/>
+</g>
+<ellipse cx="600" cy="424" rx="26" ry="30" fill="#c98a3c" stroke="#8a5c22" stroke-width="3"/>
+<ellipse cx="600" cy="424" rx="12" ry="15" fill="#e8d3ae"/>
+<text x="480" y="498" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="21" fill="#33413a" text-anchor="middle">舞楽の稽古を続ける</text>
+</g>
+
+<g>
+<path d="M812 452 V352" stroke="#6d5232" stroke-width="18" fill="none"/>
+<path d="M812 386 L764 344 M812 400 L862 356" stroke="#6d5232" stroke-width="11" fill="none"/>
+<ellipse cx="812" cy="330" rx="98" ry="58" fill="#5d8a4e"/>
+<ellipse cx="762" cy="352" rx="46" ry="32" fill="#6d9a58"/>
+<ellipse cx="866" cy="350" rx="44" ry="30" fill="#6d9a58"/>
+<circle cx="772" cy="330" r="10" fill="#e08a2c"/><circle cx="836" cy="316" r="10" fill="#e08a2c"/><circle cx="812" cy="356" r="10" fill="#e08a2c"/>
+<path d="M756 452 L790 372 M868 452 L836 372" stroke="#a9884f" stroke-width="8" fill="none"/>
+<rect x="756" y="440" width="118" height="14" fill="#cbb98e" stroke="#9c8757" stroke-width="2"/>
+<g>
+<circle cx="716" cy="396" r="12" fill="#f0d9bb" stroke="#7a6144" stroke-width="2"/>
+<rect x="705" y="409" width="23" height="33" fill="#5a6b3a"/>
+<path d="M728 414 L748 404" stroke="#5a6b3a" stroke-width="7" fill="none"/>
+<path d="M705 442 L700 464 M728 442 L733 464" stroke="#42505c" stroke-width="7" fill="none"/>
+</g>
+<g>
+<circle cx="912" cy="396" r="12" fill="#f0d9bb" stroke="#7a6144" stroke-width="2"/>
+<rect x="901" y="409" width="23" height="33" fill="#7a4a34"/>
+<path d="M901 414 L880 404" stroke="#7a4a34" stroke-width="7" fill="none"/>
+<path d="M901 442 L896 464 M924 442 L929 464" stroke="#42505c" stroke-width="7" fill="none"/>
+</g>
+<text x="812" y="498" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="21" fill="#33413a" text-anchor="middle">古木を支える</text>
+</g>
+
+<g>
+<rect x="26" y="512" width="86" height="38" rx="5" fill="#dde4ea" stroke="#7f8b95" stroke-width="3"/>
+<rect x="112" y="522" width="52" height="28" rx="4" fill="#4d7a92" stroke="#33586c" stroke-width="3"/>
+<rect x="118" y="526" width="24" height="16" fill="#cfe2ee"/>
+<circle cx="52" cy="552" r="12" fill="#4a4a44"/><circle cx="144" cy="552" r="12" fill="#4a4a44"/>
+</g>
+<g>
+<circle cx="930" cy="503" r="13" fill="#f0d9bb" stroke="#7a6144" stroke-width="2"/>
+<rect x="918" y="517" width="25" height="34" fill="#33556e"/>
+<rect x="940" y="521" width="26" height="20" fill="#f6f2e4" stroke="#8a7c5c" stroke-width="2"/>
+<path d="M943 527 H963 M943 533 H959" stroke="#8a7c5c" stroke-width="2"/>
+</g>
+<rect x="0" y="0" width="1000" height="560" fill="none" stroke="#c4ccc2" stroke-width="2"/>
+</svg>

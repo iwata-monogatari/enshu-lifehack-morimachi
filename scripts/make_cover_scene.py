@@ -2353,7 +2353,77 @@ def scene_demolition_countdown(d):
     band(d, ["解体を決めるなら、", "1月1日から逆算する"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_regional_plan(d):
+    """認定された計画の冊子の向こうに、修理を待つ社殿と茅葺き民家が並ぶ場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 704, 744], 300)
+    d.polygon([(0, 296), (760, 288), (760, 334), (0, 344)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 304 + i * 13), (760, 296 + i * 13)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 338), (760, 328), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 左：茅葺きの民家と修理の足場
+    d.polygon([(16, 424), (92, 322), (232, 322), (308, 424)], fill=(150, 128, 82))
+    d.line([(88, 322), (236, 322)], fill=(93, 77, 43), width=9)
+    for x0, x1 in ((44, 100), (78, 122), (110, 144), (214, 176), (248, 198), (280, 220)):
+        d.line([(x0, 424), (x1, 332)], fill=(174, 152, 100), width=3)
+    d.rectangle([32, 426, 292, 512], fill=(231, 222, 208), outline=(184, 171, 151), width=4)
+    d.rectangle([50, 448, 108, 512], fill=(90, 75, 61), outline=(63, 53, 41), width=3)
+    d.rectangle([126, 448, 200, 500], fill=(239, 231, 214), outline=(168, 152, 126), width=3)
+    for x in (144, 162, 180):
+        d.line([(x, 448), (x, 500)], fill=(125, 107, 79), width=4)
+    for x in (300, 340):
+        d.line([(x, 320), (x, 512)], fill=(169, 127, 75), width=6)
+    for y in (364, 412, 460):
+        d.line([(296, y), (346, y)], fill=(169, 127, 75), width=6)
+    d.ellipse([310, 336, 334, 360], fill=(240, 217, 187), outline=(122, 97, 68), width=2)
+    d.rectangle([310, 362, 334, 396], fill=(63, 109, 134))
+    # 右：社殿と舞台
+    d.polygon([(440, 402), (546, 336), (652, 402)], fill=(95, 111, 124))
+    d.polygon([(458, 402), (546, 346), (634, 402)], fill=(127, 143, 155))
+    d.line([(546, 336), (546, 314)], fill=(63, 77, 88), width=7)
+    d.rectangle([436, 402, 656, 412], fill=(89, 72, 58))
+    d.rectangle([458, 412, 634, 484], fill=(234, 227, 212), outline=(155, 138, 108), width=4)
+    d.rectangle([500, 430, 592, 484], fill=(201, 80, 60))
+    d.rectangle([446, 484, 646, 498], fill=(168, 134, 90), outline=(125, 100, 64), width=3)
+    for x in (470, 546, 622):
+        d.line([(x, 498), (x, 522)], fill=(125, 100, 64), width=7)
+    # 舞台の上の二人
+    for cx, color in ((512, (138, 63, 82)), (582, (47, 92, 115))):
+        d.ellipse([cx - 12, 440, cx + 12, 464], fill=(240, 217, 187), outline=(122, 97, 68), width=2)
+        d.rectangle([cx - 11, 466, cx + 11, 484], fill=color)
+    # 右奥：柿の古木と支柱
+    d.line([(710, 512), (710, 424)], fill=(109, 82, 50), width=15)
+    d.ellipse([646, 348, 774, 442], fill=(93, 138, 78))
+    d.ellipse([664, 380, 700, 412], fill=(109, 154, 88))
+    for cx in (676, 726, 704):
+        d.ellipse([cx - 8, 384, cx + 8, 400], fill=(224, 138, 44))
+    d.line([(672, 512), (700, 448)], fill=(169, 136, 79), width=6)
+    d.line([(748, 512), (722, 448)], fill=(169, 136, 79), width=6)
+    # 手前：認定された計画の冊子と、修理見積り
+    d.polygon([(24, 528), (736, 518), (744, 588), (32, 592)], fill=(196, 169, 127),
+              outline=(164, 141, 104))
+    d.rounded_rectangle([48, 522, 268, 586], radius=6, fill=(253, 251, 242),
+                        outline=(141, 131, 104), width=4)
+    d.rectangle([48, 522, 268, 548], fill=(31, 62, 82))
+    d.text((60, 524), "地域計画", font=ImageFont.truetype(FONT_BOLD, 21), fill="#ffffff")
+    for i in range(2):
+        d.line([(62, 560 + i * 12), (252, 560 + i * 12)], fill=(195, 189, 166), width=3)
+    d.ellipse([216, 526, 262, 572], outline=(192, 86, 60), width=5)
+    d.text((224, 538), "認定", font=ImageFont.truetype(FONT_BOLD, 18), fill=(192, 86, 60))
+    d.rounded_rectangle([292, 528, 500, 588], radius=6, fill=(255, 255, 255),
+                        outline=(185, 194, 198), width=3)
+    d.text((304, 534), "修理見積", font=ImageFont.truetype(FONT_BOLD, 19), fill=(62, 107, 85))
+    for i in range(2):
+        d.line([(304, 562 + i * 11), (486, 562 + i * 11)], fill=(169, 191, 203), width=3)
+    d.rounded_rectangle([524, 530, 728, 586], radius=6, fill=(247, 242, 226),
+                        outline=(168, 152, 126), width=3)
+    d.text((538, 540), "担い手は誰か", font=ImageFont.truetype(FONT_BOLD, 21), fill=(125, 63, 44))
+    band(d, ["認定された。意味は、", "これから決まる"], "森町ライフハック／寺社・歴史")
+
+
 SCENES = {
+    "20260819-cultural-assets-regional-plan": scene_regional_plan,
     "20260818-demolition-countdown-january": scene_demolition_countdown,
     "20260818-ten-year-limit-special-benefit": scene_ten_year_limit,
     "20260818-nationwide-property-record-certificate": scene_nationwide_record,
