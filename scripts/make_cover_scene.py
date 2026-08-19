@@ -2422,7 +2422,68 @@ def scene_regional_plan(d):
     band(d, ["認定された。意味は、", "これから決まる"], "森町ライフハック／寺社・歴史")
 
 
+def scene_renovation_confirmation(d):
+    """二階建ての実家と平屋を並べ、手前に階数と延べ面積を書いた紙を置いた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 700, 742], 300)
+    d.polygon([(0, 296), (760, 288), (760, 332), (0, 342)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 304 + i * 13), (760, 296 + i * 13)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 336), (760, 326), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 左：二階建ての木造住宅
+    d.polygon([(36, 396), (176, 322), (316, 396)], fill=(111, 124, 130))
+    d.polygon([(36, 396), (176, 322), (176, 396)], fill=(139, 151, 155))
+    d.rectangle([30, 396, 322, 406], fill=(87, 99, 106))
+    d.rectangle([52, 406, 300, 528], fill=(233, 227, 211), outline=(184, 171, 151), width=4)
+    for y0 in (420, 476):
+        for x0 in (68, 152):
+            d.rectangle([x0, y0, x0 + 62, y0 + 42], fill=(183, 200, 210),
+                        outline=(139, 154, 163), width=3)
+            d.line([(x0 + 31, y0), (x0 + 31, y0 + 42)], fill=(139, 154, 163), width=3)
+            d.line([(x0, y0 + 21), (x0 + 62, y0 + 21)], fill=(139, 154, 163), width=3)
+    d.rectangle([52, 462, 300, 470], fill=(205, 191, 159))
+    d.rectangle([238, 470, 288, 528], fill=(124, 106, 78))
+    # 足場と、屋根の半分にかかる赤い破線
+    for x in (24, 74):
+        d.line([(x, 330), (x, 528)], fill=(192, 138, 62), width=6)
+    for y in (368, 424, 480):
+        d.line([(20, y), (78, y)], fill=(192, 138, 62), width=6)
+    for i in range(7):
+        x0 = 176 + i * 20
+        d.line([(x0, 322 + i * 11), (x0 + 12, 322 + i * 11 + 6)], fill=(192, 86, 60), width=5)
+    # 右：平屋
+    d.polygon([(452, 434), (568, 366), (684, 434)], fill=(138, 122, 94))
+    d.polygon([(452, 434), (568, 366), (568, 434)], fill=(156, 139, 108))
+    d.rectangle([446, 434, 690, 444], fill=(107, 95, 69))
+    d.rectangle([466, 444, 670, 522], fill=(239, 232, 216), outline=(184, 171, 151), width=4)
+    for x0 in (484, 566):
+        d.rectangle([x0, 460, x0 + 60, 42 + 460], fill=(183, 200, 210),
+                    outline=(139, 154, 163), width=3)
+        d.line([(x0 + 30, 460), (x0 + 30, 502)], fill=(139, 154, 163), width=3)
+    d.rectangle([634, 466, 666, 522], fill=(124, 106, 78))
+    # 手前：階数と延べ面積を書いた紙、確認済証、暦
+    d.polygon([(16, 536), (744, 526), (752, 588), (24, 592)], fill=(196, 169, 127),
+              outline=(164, 141, 104))
+    d.rounded_rectangle([36, 528, 268, 586], radius=6, fill=(253, 251, 242),
+                        outline=(141, 131, 104), width=4)
+    f = ImageFont.truetype(FONT_BOLD, 20)
+    d.text((50, 534), "階数　2", font=f, fill=(31, 62, 82))
+    d.text((50, 558), "延べ面積", font=f, fill=(31, 62, 82))
+    d.rounded_rectangle([292, 530, 500, 588], radius=6, fill=(255, 255, 255),
+                        outline=(185, 194, 198), width=3)
+    d.text((306, 538), "確認済証", font=f, fill=(62, 107, 85))
+    d.line([(306, 570), (486, 570)], fill=(169, 191, 203), width=3)
+    d.rounded_rectangle([524, 528, 664, 588], radius=5, fill=(253, 251, 242),
+                        outline=(141, 131, 104), width=4)
+    d.rectangle([524, 528, 664, 552], fill=(125, 63, 44))
+    d.text((566, 530), "4月", font=ImageFont.truetype(FONT_BOLD, 19), fill="#ffffff")
+    d.ellipse([530, 556, 554, 580], outline=(192, 86, 60), width=5)
+    band(d, ["リフォームにも、", "確認申請が要る"], "森町ライフハック／住まいと手続き")
+
+
 SCENES = {
+    "20260819-wooden-house-renovation-confirmation": scene_renovation_confirmation,
     "20260819-cultural-assets-regional-plan": scene_regional_plan,
     "20260818-demolition-countdown-january": scene_demolition_countdown,
     "20260818-ten-year-limit-special-benefit": scene_ten_year_limit,

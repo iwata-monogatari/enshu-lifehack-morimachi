@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-label="森町で実家のリフォームを考える人が見積りを頼む前に確認する四つの順番を、一本の道として描いた図解。">
+<title>見積りを頼む前に確かめる四つの順番</title>
+<rect x="0" y="0" width="1000" height="560" fill="#eff2ea"/>
+<rect x="0" y="0" width="1000" height="146" fill="#d4e3ee"/>
+<path d="M0 146 L118 90 L238 142 L366 92 L496 144 L626 94 L756 142 L878 96 L1000 144 L1000 192 L0 192 Z" fill="#a0b8c6"/>
+<path d="M0 172 L142 128 L292 176 L432 130 L582 176 L722 132 L862 176 L1000 136 L1000 210 L0 210 Z" fill="#83a791"/>
+<g fill="#406d58">
+<path d="M22 210 L38 158 L54 210 Z"/><path d="M62 210 L78 164 L94 210 Z"/>
+<path d="M914 210 L930 160 L946 210 Z"/><path d="M954 210 L970 166 L986 210 Z"/>
+</g>
+<rect x="0" y="208" width="1000" height="68" fill="#bcd2a2"/>
+<g stroke="#83a862" stroke-width="6" fill="none"><path d="M0 222 H1000"/><path d="M0 240 H1000"/><path d="M0 258 H1000"/></g>
+<rect x="0" y="272" width="1000" height="288" fill="#e3e7d7"/>
+
+<g>
+<rect x="122" y="222" width="98" height="52" fill="#ece4d0" stroke="#a2916f" stroke-width="3"/>
+<path d="M110 224 L171 184 L232 224 Z" fill="#7d8d98" stroke="#59666f" stroke-width="3"/>
+<rect x="812" y="216" width="106" height="58" fill="#ece4d0" stroke="#a2916f" stroke-width="3"/>
+<path d="M800 218 L865 176 L930 218 Z" fill="#61737f" stroke="#41505a" stroke-width="3"/>
+<rect x="856" y="242" width="24" height="32" fill="#8d6f4e"/>
+</g>
+
+<path d="M-20 550 C 200 518, 244 428, 434 402 C 624 376, 704 318, 1020 300 L1020 342 C 704 360, 636 416, 452 442 C 266 468, 226 538, 40 558 Z" fill="#d0c7ac" stroke="#b3a78b" stroke-width="3"/>
+<g stroke="#ffffff" stroke-width="5" stroke-dasharray="26 22" fill="none" opacity="0.85">
+<path d="M-10 532 C 210 498, 254 418, 442 392 C 630 366, 708 310, 1010 294"/>
+</g>
+
+<g>
+<rect x="58" y="360" width="242" height="116" rx="8" fill="#fdfaf0" stroke="#8d7f5e" stroke-width="4"/>
+<rect x="58" y="360" width="242" height="34" rx="8" fill="#3f6d86"/>
+<text x="179" y="384" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="19" fill="#ffffff" text-anchor="middle">1 階数と面積を写す</text>
+<text x="78" y="420" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="17" fill="#3a4038">課税明細書か登記</text>
+<text x="78" y="446" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="17" fill="#3a4038">二階建てか平屋か</text>
+<path d="M110 476 V520" stroke="#8d7f5e" stroke-width="9"/><path d="M248 476 V520" stroke="#8d7f5e" stroke-width="9"/>
+</g>
+
+<g>
+<rect x="326" y="290" width="252" height="116" rx="8" fill="#fdfaf0" stroke="#8d7f5e" stroke-width="4"/>
+<rect x="326" y="290" width="252" height="34" rx="8" fill="#4a7a4e"/>
+<text x="452" y="314" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="19" fill="#ffffff" text-anchor="middle">2 工務店に一言聞く</text>
+<text x="346" y="350" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="17" fill="#3a4038">大規模の修繕に</text>
+<text x="346" y="376" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="17" fill="#3a4038">当たりますか</text>
+<path d="M376 406 V448" stroke="#8d7f5e" stroke-width="9"/><path d="M528 406 V448" stroke="#8d7f5e" stroke-width="9"/>
+</g>
+
+<g>
+<rect x="604" y="228" width="244" height="116" rx="8" fill="#fdfaf0" stroke="#8d7f5e" stroke-width="4"/>
+<rect x="604" y="228" width="244" height="34" rx="8" fill="#9a6a2c"/>
+<text x="726" y="252" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="19" fill="#ffffff" text-anchor="middle">3 補助の順番を聞く</text>
+<text x="624" y="288" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="17" fill="#3a4038">住まい支援係へ</text>
+<text x="624" y="314" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="17" fill="#3a4038">着手前の申請が要る</text>
+<path d="M650 344 V382" stroke="#8d7f5e" stroke-width="9"/><path d="M798 344 V382" stroke="#8d7f5e" stroke-width="9"/>
+</g>
+
+<g>
+<rect x="700" y="412" width="258" height="120" rx="8" fill="#fdfaf0" stroke="#8d7f5e" stroke-width="4"/>
+<rect x="700" y="412" width="258" height="34" rx="8" fill="#7d4a5c"/>
+<text x="829" y="436" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="19" fill="#ffffff" text-anchor="middle">4 二枚の紙の日を書く</text>
+<text x="720" y="472" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="17" fill="#3a4038">確認済証と交付決定</text>
+<text x="720" y="498" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="17" fill="#3a4038">どちらも着工より前</text>
+<text x="720" y="524" font-family="Meiryo, 'Hiragino Kaku Gothic ProN', sans-serif" font-size="17" fill="#3a4038">結論は今日出さない</text>
+</g>
+
+<g>
+<circle cx="614" cy="440" r="15" fill="#f0d9bb" stroke="#7a6144" stroke-width="2"/>
+<rect x="600" y="456" width="29" height="42" fill="#3f5f7a"/>
+<path d="M600 462 L580 480 M629 462 L650 476" stroke="#3f5f7a" stroke-width="8" fill="none"/>
+<path d="M600 498 L594 530 M629 498 L636 530" stroke="#42505c" stroke-width="8" fill="none"/>
+<rect x="644" y="464" width="36" height="26" fill="#f6f2e4" stroke="#8a7c5c" stroke-width="3"/>
+</g>
+<rect x="0" y="0" width="1000" height="560" fill="none" stroke="#c4ccc2" stroke-width="2"/>
+</svg>
