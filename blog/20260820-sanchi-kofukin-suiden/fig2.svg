@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="sk2Title sk2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="sk2Title">静岡県森町で田んぼの使い方を決める前に確認する順番を、あぜ道として描いたイラスト</title>
+  <desc id="sk2Desc">左下から右上へあぜ道が伸び、四つの立て札を順に通ります。一つ目は畦畔と用水路があるかを見て交付対象水田かを確かめる地点、二つ目は営農計画書の控えで筆ごとの作付け履歴と水張りの記録をたどる地点、三つ目は16の使途が並ぶ単価表から自分の作物を探す地点、四つ目は森町農業再生協議会の窓口へ電話して締切を聞く地点です。道の周りには水田とレタスの畝、段になった茶畑と杉林、遠州の山並みが広がります。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="sk2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3daea"/><stop offset="1" stop-color="#ebf2e6"/>
+    </linearGradient>
+    <linearGradient id="sk2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fadbe"/><stop offset="1" stop-color="#b9ccd3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="168" fill="url(#sk2Sky)"/>
+  <path fill="url(#sk2Far)" d="M0 104 L112 48 L226 106 L344 40 L462 106 L580 38 L698 106 L814 50 L920 106 L1000 68 L1000 150 L0 150 Z"/>
+
+  <path fill="#7fae57" d="M0 168 C 240 158, 460 182, 680 170 C 780 164, 870 174, 1000 168 L1000 206 L0 212 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 178 C 240 168, 460 192, 680 180 C 780 174, 870 184, 1000 178"/>
+    <path d="M0 194 C 240 184, 460 208, 680 196 C 780 190, 870 200, 1000 194"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M12 210 l16 -56 l16 56 z"/><path d="M46 210 l13 -44 l13 44 z"/>
+    <path d="M948 210 l16 -54 l16 54 z"/><path d="M914 210 l12 -42 l12 42 z"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 208 L1000 202 L1000 560 L0 560 Z"/>
+
+  <!-- 田とレタス畑 -->
+  <path fill="#a9cf7d" d="M0 300 L300 268 L318 372 L0 404 Z"/>
+  <g stroke="#6d9a4c" stroke-width="5" fill="none" opacity="0.85">
+    <path d="M0 322 L306 290"/><path d="M0 352 L312 320"/>
+  </g>
+  <path fill="#c6d3ac" d="M620 262 L1000 236 L1000 340 L634 366 Z"/>
+  <g fill="#79b04e">
+    <circle cx="668" cy="326" r="12"/><circle cx="722" cy="322" r="12"/>
+    <circle cx="776" cy="318" r="12"/><circle cx="830" cy="314" r="12"/>
+    <circle cx="884" cy="310" r="12"/><circle cx="938" cy="306" r="12"/>
+    <circle cx="662" cy="288" r="10"/><circle cx="714" cy="285" r="10"/>
+    <circle cx="766" cy="282" r="10"/><circle cx="818" cy="279" r="10"/>
+    <circle cx="870" cy="276" r="10"/><circle cx="922" cy="273" r="10"/>
+  </g>
+
+  <!-- あぜ道 -->
+  <path fill="#cbbfa4" d="M0 556 C 180 528, 300 470, 430 430 C 570 386, 720 336, 1000 268 L1000 232 C 700 300, 540 352, 400 398 C 260 444, 120 502, 0 520 Z"/>
+  <g stroke="#a8997a" stroke-width="3" stroke-dasharray="16 14" fill="none">
+    <path d="M0 538 C 180 512, 300 452, 430 414 C 570 370, 720 320, 1000 252"/>
+  </g>
+
+  <!-- 立札1 -->
+  <g>
+    <rect x="30" y="392" width="286" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="30" y="392" width="286" height="28" rx="9" fill="#4f6a55"/>
+    <text x="44" y="414" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">1 田そのものを見る</text>
+    <text x="44" y="447" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">畦畔はあるか</text>
+    <text x="44" y="474" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">用水路は生きているか</text>
+    <rect x="164" y="486" width="12" height="52" fill="#8d7a58"/>
+  </g>
+
+  <!-- 立札2 -->
+  <g>
+    <rect x="286" y="270" width="278" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="286" y="270" width="278" height="28" rx="9" fill="#4f6a55"/>
+    <text x="300" y="292" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">2 記録をたどる</text>
+    <text x="300" y="325" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">営農計画書の控え</text>
+    <text x="300" y="352" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">水張りと土づくりの記録</text>
+    <rect x="418" y="364" width="12" height="52" fill="#8d7a58"/>
+  </g>
+
+  <!-- 立札3 -->
+  <g>
+    <rect x="500" y="404" width="272" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="500" y="404" width="272" height="28" rx="9" fill="#4f6a55"/>
+    <text x="514" y="426" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">3 単価表を開く</text>
+    <text x="514" y="459" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">16の使途から探す</text>
+    <text x="514" y="486" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">16,000円から1,000円</text>
+    <rect x="630" y="498" width="12" height="46" fill="#8d7a58"/>
+  </g>
+
+  <!-- 立札4 -->
+  <g>
+    <rect x="706" y="150" width="278" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="706" y="150" width="278" height="28" rx="9" fill="#4f6a55"/>
+    <text x="720" y="172" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">4 電話で二つ聞く</text>
+    <text x="720" y="205" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">交付対象水田か</text>
+    <text x="720" y="232" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">営農計画書の締切は</text>
+    <rect x="838" y="244" width="12" height="44" fill="#8d7a58"/>
+  </g>
+
+  <!-- 書類を抱えた人 -->
+  <g>
+    <circle cx="152" cy="486" r="20" fill="#e8c9a6" stroke="#b99772" stroke-width="3"/>
+    <path fill="#5b7f92" d="M126 512 q26 -14 52 0 l10 48 l-72 0 Z"/>
+    <rect x="132" y="514" width="46" height="34" rx="4" fill="#ffffff" stroke="#8b93a0" stroke-width="3"/>
+    <g stroke="#96a0ad" stroke-width="3" fill="none">
+      <path d="M140 524 L170 524"/><path d="M140 532 L170 532"/><path d="M140 540 L160 540"/>
+    </g>
+    <path fill="#3f5c68" d="M132 470 q20 -16 40 0 q-20 -6 -40 0 Z"/>
+  </g>
+
+  <!-- 電話機 -->
+  <g>
+    <rect x="880" y="292" width="86" height="60" rx="8" fill="#ffffff" stroke="#7d8a90" stroke-width="4"/>
+    <rect x="892" y="304" width="62" height="16" rx="3" fill="#cfe0e8"/>
+    <g fill="#7d8a90">
+      <circle cx="900" cy="334" r="5"/><circle cx="918" cy="334" r="5"/>
+      <circle cx="936" cy="334" r="5"/><circle cx="954" cy="334" r="5"/>
+    </g>
+    <path d="M872 288 q-14 -22 8 -34" stroke="#7d8a90" stroke-width="5" fill="none"/>
+  </g>
+</svg>

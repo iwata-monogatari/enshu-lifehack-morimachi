@@ -2482,7 +2482,72 @@ def scene_renovation_confirmation(d):
     band(d, ["リフォームにも、", "確認申請が要る"], "森町ライフハック／住まいと手続き")
 
 
+def scene_sanchi_kofukin(d):
+    """稲の田と裏作の畑、牛舎のロールを並べ、手前に単価表と営農計画書を置いた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 102, 686, 730], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 右奥：牛舎とWCS用稲のロール
+    d.polygon([(556, 336), (688, 322), (712, 346), (580, 360)], fill=(142, 111, 82))
+    d.rectangle([580, 360, 712, 416], fill=(200, 183, 155))
+    for x in (596, 638, 680):
+        d.rectangle([x, 374, x + 22, 404], fill=(125, 106, 82))
+    for cx, cy, r in ((524, 396, 24), (556, 424, 20), (726, 392, 22)):
+        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(230, 236, 236),
+                  outline=(169, 182, 182), width=3)
+        d.ellipse([cx - r // 2, cy - r // 2, cx + r // 2, cy + r // 2], fill=(211, 220, 219))
+    # 用水路
+    d.polygon([(0, 388), (500, 356), (506, 376), (0, 408)], fill=(183, 188, 178))
+    d.polygon([(0, 394), (502, 362), (504, 372), (0, 404)], fill=(143, 184, 209))
+    d.rectangle([236, 366, 268, 388], fill=(154, 163, 154))
+    d.ellipse([242, 372, 262, 386], fill=(77, 90, 85))
+    # 左：稲の実る田
+    d.polygon([(0, 412), (760, 380), (760, 452), (0, 486)], fill=(156, 203, 105))
+    for i in range(3):
+        d.line([(0, 424 + i * 20), (760, 392 + i * 20)], fill=(101, 146, 69), width=5)
+    for x in range(30, 500, 66):
+        d.polygon([(x, 428), (x + 8, 410), (x + 16, 428)], fill=(224, 200, 106))
+    # 畦
+    d.polygon([(0, 486), (760, 452), (760, 470), (0, 504)], fill=(201, 192, 164))
+    # 裏作のレタスとスイートコーン
+    d.polygon([(0, 504), (760, 470), (760, 520), (0, 556)], fill=(198, 211, 172))
+    for x in range(26, 760, 62):
+        d.ellipse([x, 508, x + 26, 530], fill=(121, 176, 78))
+    for x in range(46, 760, 62):
+        d.line([(x, 508), (x, 476)], fill=(79, 138, 60), width=5)
+        d.ellipse([x - 5, 484, x + 5, 504], fill=(220, 196, 90))
+    # 手前：卓の上の単価表と営農計画書
+    d.rectangle([0, 528, 760, BAND_TOP], fill=(201, 168, 119))
+    for y in (544, 566):
+        d.line([(0, y), (760, y)], fill=(177, 144, 95), width=3)
+    d.rounded_rectangle([34, 486, 306, 586], radius=6, fill=(255, 255, 255),
+                        outline=(138, 148, 154), width=4)
+    d.rectangle([54, 500, 286, 518], fill=(223, 230, 233))
+    for i in range(4):
+        d.line([(54, 534 + i * 14), (214, 534 + i * 14)], fill=(198, 206, 210), width=5)
+        d.line([(232, 534 + i * 14), (286, 534 + i * 14)], fill=(214, 168, 60), width=5)
+    d.rounded_rectangle([336, 498, 566, 584], radius=6, fill=(246, 242, 228),
+                        outline=(168, 154, 124), width=4)
+    for y in (520, 540, 560):
+        d.line([(352, y), (550, y)], fill=(195, 184, 156), width=3)
+    d.line([(416, 498), (416, 584)], fill=(195, 184, 156), width=3)
+    d.line([(482, 498), (482, 584)], fill=(195, 184, 156), width=3)
+    d.rounded_rectangle([598, 504, 726, 582], radius=5, fill=(253, 250, 240),
+                        outline=(154, 142, 116), width=4)
+    d.rectangle([598, 504, 726, 524], fill=(63, 111, 134))
+    for r in range(3):
+        for c in range(4):
+            d.rectangle([612 + c * 28, 536 + r * 16, 632 + c * 28, 546 + r * 16],
+                        fill=(214, 222, 228))
+    band(d, ["米以外を作る前に、", "交付の条件を見る"], "森町ライフハック／農地・山林・茶畑")
+
+
 SCENES = {
+    "20260820-sanchi-kofukin-suiden": scene_sanchi_kofukin,
     "20260819-wooden-house-renovation-confirmation": scene_renovation_confirmation,
     "20260819-cultural-assets-regional-plan": scene_regional_plan,
     "20260818-demolition-countdown-january": scene_demolition_countdown,

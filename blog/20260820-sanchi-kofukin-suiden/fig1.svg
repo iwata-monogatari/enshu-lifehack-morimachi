@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="sk1Title sk1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="sk1Title">静岡県森町の水田地帯を横から見た情景のイラスト</title>
+  <desc id="sk1Desc">奥に遠州の山並みと杉林、段になった茶畑が広がります。右奥には牛舎と牛、その手前にWCS用稲のロールが置かれ、田と牛舎の間を矢印が往復しています。中ほどを用水路が横切り、暗渠排水の管口が二か所あります。左手前には稲の実る水田が、右手前にはスイートコーンの列とレタスの畝が並ぶ裏作の畑が続き、あぜ道に軽トラックが止まっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="sk1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfd8ec"/><stop offset="1" stop-color="#e9f1e4"/>
+    </linearGradient>
+    <linearGradient id="sk1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b6cbd2"/>
+    </linearGradient>
+    <linearGradient id="sk1Paddy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc05c"/><stop offset="1" stop-color="#b3d777"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="176" fill="url(#sk1Sky)"/>
+  <path fill="url(#sk1Far)" d="M0 112 L104 52 L214 112 L330 44 L448 112 L566 42 L684 112 L800 54 L906 112 L1000 72 L1000 158 L0 158 Z"/>
+
+  <path fill="#7fae57" d="M0 176 C 230 166, 450 190, 670 178 C 770 172, 860 182, 1000 176 L1000 216 L0 222 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 186 C 230 176, 450 200, 670 188 C 770 182, 860 192, 1000 186"/>
+    <path d="M0 202 C 230 192, 450 216, 670 204 C 770 198, 860 208, 1000 202"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M8 220 l16 -58 l16 58 z"/><path d="M42 220 l13 -46 l13 46 z"/>
+    <path d="M76 220 l12 -42 l12 42 z"/>
+    <path d="M954 220 l16 -56 l16 56 z"/><path d="M920 220 l13 -46 l13 46 z"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 218 L1000 212 L1000 560 L0 560 Z"/>
+
+  <!-- 右奥：牛舎と牛 -->
+  <g>
+    <path fill="#8e6f52" d="M706 226 L840 212 L864 238 L730 252 Z"/>
+    <path fill="#c8b79b" d="M730 252 L864 238 L864 306 L730 312 Z"/>
+    <g fill="#7d6a52">
+      <rect x="748" y="266" width="26" height="34" rx="3"/>
+      <rect x="790" y="262" width="26" height="34" rx="3"/>
+      <rect x="832" y="258" width="24" height="34" rx="3"/>
+    </g>
+    <g>
+      <ellipse cx="912" cy="286" rx="40" ry="21" fill="#f4f1ea"/>
+      <path fill="#3b342d" d="M890 272 q16 -9 28 2 q-13 11 -28 -2 Z"/>
+      <path fill="#3b342d" d="M926 296 q17 -8 25 5 q-15 8 -25 -5 Z"/>
+      <ellipse cx="952" cy="276" rx="14" ry="11" fill="#f4f1ea"/>
+      <circle cx="956" cy="273" r="3" fill="#2f2a24"/>
+      <path d="M942 267 l-8 -10" stroke="#3b342d" stroke-width="4" fill="none"/>
+      <g stroke="#6f6558" stroke-width="7" fill="none">
+        <path d="M886 302 L884 322"/><path d="M906 304 L905 324"/>
+        <path d="M926 302 L928 322"/><path d="M944 298 L948 318"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- WCS用稲のロール -->
+  <g>
+    <ellipse cx="592" cy="290" rx="33" ry="29" fill="#e9eeee" stroke="#a9b6b6" stroke-width="3"/>
+    <ellipse cx="592" cy="290" rx="17" ry="15" fill="#d3dcdb"/>
+    <ellipse cx="654" cy="308" rx="29" ry="25" fill="#e9eeee" stroke="#a9b6b6" stroke-width="3"/>
+    <ellipse cx="654" cy="308" rx="14" ry="12" fill="#d3dcdb"/>
+  </g>
+
+  <!-- 田と牛舎を結ぶ循環の矢印 -->
+  <g fill="none" stroke="#c8722f" stroke-width="6">
+    <path d="M436 268 C 500 240, 600 234, 682 250"/>
+    <path d="M690 320 C 620 344, 520 342, 452 322"/>
+  </g>
+  <path fill="#c8722f" d="M682 250 l-23 -10 l4 22 z"/>
+  <path fill="#c8722f" d="M452 322 l23 11 l-4 -22 z"/>
+
+  <!-- 用水路 -->
+  <g>
+    <path fill="#b7bcb2" d="M0 356 L1000 336 L1000 384 L0 404 Z"/>
+    <path fill="#8fb8d3" d="M0 368 L1000 348 L1000 372 L0 392 Z"/>
+    <g>
+      <rect x="250" y="352" width="36" height="26" rx="4" fill="#9aa39a"/>
+      <ellipse cx="268" cy="365" rx="11" ry="9" fill="#4d5a55"/>
+      <rect x="700" y="343" width="36" height="26" rx="4" fill="#9aa39a"/>
+      <ellipse cx="718" cy="356" rx="11" ry="9" fill="#4d5a55"/>
+    </g>
+  </g>
+
+  <!-- 左手前：稲の実る水田 -->
+  <g>
+    <path fill="url(#sk1Paddy)" d="M0 410 L456 396 L462 500 L0 514 Z"/>
+    <g stroke="#5f9040" stroke-width="5" fill="none" opacity="0.9">
+      <path d="M0 430 L458 416"/><path d="M0 458 L460 444"/><path d="M0 486 L462 472"/>
+    </g>
+    <g fill="#e0c86a">
+      <path d="M56 424 q10 -18 20 -2 z"/><path d="M156 421 q10 -18 20 -2 z"/>
+      <path d="M256 418 q10 -18 20 -2 z"/><path d="M356 415 q10 -18 20 -2 z"/>
+    </g>
+    <path fill="#c9c0a4" d="M0 514 L462 500 L466 522 L0 536 Z"/>
+  </g>
+
+  <!-- 右手前：スイートコーンとレタスの裏作 -->
+  <g>
+    <path fill="#c6d3ac" d="M486 396 L1000 382 L1000 494 L492 508 Z"/>
+    <g stroke="#4f8a3c" stroke-width="6" fill="none">
+      <path d="M528 434 L528 398"/><path d="M596 432 L596 396"/><path d="M664 430 L664 394"/>
+      <path d="M732 428 L732 392"/><path d="M800 426 L800 390"/><path d="M868 424 L868 388"/>
+      <path d="M936 422 L936 386"/>
+    </g>
+    <g fill="#6aa649">
+      <path d="M528 410 q-24 -12 -30 -28 q26 4 30 20 z"/><path d="M528 404 q24 -14 30 -30 q-26 4 -30 20 z"/>
+      <path d="M664 406 q-24 -12 -30 -28 q26 4 30 20 z"/><path d="M664 400 q24 -14 30 -30 q-26 4 -30 20 z"/>
+      <path d="M800 402 q-24 -12 -30 -28 q26 4 30 20 z"/><path d="M800 396 q24 -14 30 -30 q-26 4 -30 20 z"/>
+      <path d="M936 398 q-24 -12 -30 -28 q26 4 30 20 z"/><path d="M936 392 q24 -14 30 -30 q-26 4 -30 20 z"/>
+    </g>
+    <g fill="#dcc45a">
+      <ellipse cx="536" cy="412" rx="7" ry="13"/><ellipse cx="672" cy="408" rx="7" ry="13"/>
+      <ellipse cx="808" cy="404" rx="7" ry="13"/><ellipse cx="944" cy="400" rx="7" ry="13"/>
+    </g>
+    <path fill="#a8bd86" d="M490 452 L1000 438 L1000 452 L491 466 Z"/>
+    <path fill="#a8bd86" d="M492 488 L1000 474 L1000 488 L493 502 Z"/>
+    <g fill="#79b04e">
+      <circle cx="530" cy="452" r="13"/><circle cx="596" cy="450" r="13"/>
+      <circle cx="662" cy="448" r="13"/><circle cx="728" cy="446" r="13"/>
+      <circle cx="794" cy="444" r="13"/><circle cx="860" cy="443" r="13"/>
+      <circle cx="926" cy="441" r="13"/><circle cx="988" cy="440" r="13"/>
+      <circle cx="534" cy="488" r="13"/><circle cx="600" cy="486" r="13"/>
+      <circle cx="666" cy="484" r="13"/><circle cx="732" cy="482" r="13"/>
+      <circle cx="798" cy="481" r="13"/><circle cx="864" cy="479" r="13"/>
+      <circle cx="930" cy="477" r="13"/><circle cx="992" cy="476" r="13"/>
+    </g>
+  </g>
+
+  <!-- あぜ道と軽トラック -->
+  <path fill="#cbbfa4" d="M0 536 L466 522 L1000 494 L1000 560 L0 560 Z"/>
+  <g>
+    <rect x="470" y="486" width="150" height="46" rx="5" fill="#f2f4f2" stroke="#98a1a6" stroke-width="3"/>
+    <rect x="470" y="486" width="58" height="46" rx="5" fill="#e2e9e9" stroke="#98a1a6" stroke-width="3"/>
+    <rect x="480" y="494" width="38" height="22" rx="3" fill="#bcd3dd" stroke="#8fa5ae" stroke-width="2"/>
+    <rect x="534" y="470" width="70" height="18" rx="4" fill="#d9c98f" stroke="#a8965f" stroke-width="2"/>
+    <circle cx="506" cy="534" r="17" fill="#3b444c" stroke="#20262b" stroke-width="3"/>
+    <circle cx="506" cy="534" r="6" fill="#8b959d"/>
+    <circle cx="588" cy="534" r="17" fill="#3b444c" stroke="#20262b" stroke-width="3"/>
+    <circle cx="588" cy="534" r="6" fill="#8b959d"/>
+  </g>
+
+  <!-- 説明の札 -->
+  <g>
+    <rect x="24" y="238" width="330" height="80" rx="10" fill="#ffffff" stroke="#5d6f5a" stroke-width="4" opacity="0.95"/>
+    <text x="44" y="272" font-family="Meiryo, sans-serif" font-size="22" fill="#26382c">一枚の田に、三つの作</text>
+    <text x="44" y="302" font-family="Meiryo, sans-serif" font-size="19" fill="#4a5b4c">米・レタス・スイートコーン</text>
+  </g>
+</svg>
