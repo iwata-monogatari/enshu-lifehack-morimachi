@@ -2613,7 +2613,73 @@ def scene_tractor_seatbelt(d):
     band(d, ["締めるかどうかは、", "製造年で決まる"], "森町ライフハック／農地・山林・茶畑")
 
 
+def scene_bairitsu_rosenka(d):
+    """消された路線価図と、大字ごとの倍率表・名寄帳・電卓を並べた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 102, 668, 714], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 家並みと谷筋
+    for x in (250, 336, 422):
+        d.polygon([(x, 352), (x + 52, 344), (x + 70, 360), (x + 18, 368)], fill=(125, 106, 82))
+        d.rectangle([x + 18, 368, x + 70, 398], fill=(213, 200, 172))
+    d.polygon([(0, 404), (760, 388), (760, 414), (0, 430)], fill=(143, 184, 209))
+    # 左：消された路線価図
+    d.rounded_rectangle([24, 424, 330, 578], radius=8, fill=(255, 255, 255),
+                        outline=(139, 147, 160), width=4)
+    d.rectangle([24, 424, 330, 452], fill=(91, 100, 112))
+    d.text((38, 428), "路線価図", font=ImageFont.truetype(FONT_BOLD, 20), fill=(255, 255, 255))
+    for y in (508,):
+        d.line([(38, y), (316, y)], fill=(199, 204, 196), width=14)
+    for x in (128, 232):
+        d.line([(x, 462), (x, 570)], fill=(199, 204, 196), width=14)
+    f = ImageFont.truetype(FONT_REGULAR, 16)
+    d.text((52, 486), "62D", font=f, fill=(58, 68, 80))
+    d.text((156, 486), "75D", font=f, fill=(58, 68, 80))
+    d.text((258, 486), "58D", font=f, fill=(58, 68, 80))
+    d.line([(38, 566), (316, 462)], fill=(192, 57, 43), width=11)
+    d.line([(38, 462), (316, 566)], fill=(192, 57, 43), width=11)
+    d.rounded_rectangle([40, 496, 314, 534], radius=6, fill=(255, 255, 255),
+                        outline=(192, 57, 43), width=4)
+    d.text((56, 502), "森町には無い", font=ImageFont.truetype(FONT_BOLD, 22), fill=(165, 50, 31))
+    # 右：倍率表
+    d.rounded_rectangle([352, 420, 740, 574], radius=8, fill=(255, 255, 255),
+                        outline=(79, 106, 85), width=4)
+    d.rectangle([352, 420, 740, 448], fill=(79, 106, 85))
+    d.text((366, 423), "令和8年分 倍率表", font=ImageFont.truetype(FONT_BOLD, 19),
+           fill=(255, 255, 255))
+    for y in (474, 504, 534):
+        d.line([(352, y), (740, y)], fill=(195, 203, 194), width=2)
+    for x in (486, 592, 680):
+        d.line([(x, 448), (x, 574)], fill=(195, 203, 194), width=2)
+    fh = ImageFont.truetype(FONT_REGULAR, 15)
+    fv = ImageFont.truetype(FONT_BOLD, 17)
+    for x, t in ((366, "大字"), (500, "宅地"), (600, "山林"), (690, "原野")):
+        d.text((x, 452), t, font=fh, fill=(74, 91, 76))
+    rows = (("森", "1.1", "中3.9", "中3.9"), ("三倉", "1.1", "純0.7", "純0.7"),
+            ("亀久保", "1.1", "純0.6", "純0.6"))
+    for r, row in enumerate(rows):
+        y = 480 + r * 30
+        d.text((366, y), row[0], font=fv, fill=(36, 53, 42))
+        d.text((500, y), row[1], font=fv, fill=(36, 53, 42))
+        d.text((600, y), row[2], font=fv, fill=(36, 53, 42))
+        d.text((690, y), row[3], font=fv, fill=(36, 53, 42))
+    # 電卓
+    d.rounded_rectangle([636, 296, 732, 412], radius=8, fill=(255, 255, 255),
+                        outline=(125, 138, 144), width=4)
+    d.rectangle([648, 308, 720, 332], fill=(207, 224, 232))
+    for r in range(3):
+        for c in range(3):
+            d.rectangle([648 + c * 26, 344 + r * 20, 666 + c * 26, 358 + r * 20],
+                        fill=(125, 138, 144))
+    band(d, ["路線価は無い。", "倍率表を開く"], "森町ライフハック／農地・山林・茶畑")
+
+
 SCENES = {
+    "20260820-morimachi-bairitsu-rosenka": scene_bairitsu_rosenka,
     "20260820-tractor-seatbelt-2027": scene_tractor_seatbelt,
     "20260820-sanchi-kofukin-suiden": scene_sanchi_kofukin,
     "20260819-wooden-house-renovation-confirmation": scene_renovation_confirmation,

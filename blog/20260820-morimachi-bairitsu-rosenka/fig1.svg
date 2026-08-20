@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="br1Title br1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="br1Title">静岡県森町の土地を評価する二つの道を並べて描いたイラスト</title>
+  <desc id="br1Desc">背景には段になった茶畑と杉林、瓦屋根の家並みと遠州の山並みが広がります。左には市街地の道路沿いに一平方メートル当たりの数字が並ぶ路線価図が置かれ、赤い斜線で消されて森町には無いことが示されています。右には大字ごとに宅地・田・畑・山林・原野の倍率が並ぶ倍率表が広げられ、固定資産税評価額に倍率を掛ける矢印が伸びています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="br1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c1d9ec"/><stop offset="1" stop-color="#eaf1e5"/>
+    </linearGradient>
+    <linearGradient id="br1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b6cbd2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="160" fill="url(#br1Sky)"/>
+  <path fill="url(#br1Far)" d="M0 100 L106 44 L218 102 L334 36 L452 102 L570 34 L688 102 L804 46 L910 102 L1000 62 L1000 146 L0 146 Z"/>
+
+  <path fill="#7fae57" d="M0 160 C 230 150, 450 174, 670 162 C 770 156, 860 166, 1000 160 L1000 198 L0 204 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 170 C 230 160, 450 184, 670 172 C 770 166, 860 176, 1000 170"/>
+    <path d="M0 186 C 230 176, 450 200, 670 188 C 770 182, 860 192, 1000 186"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M8 202 l16 -54 l16 54 z"/><path d="M42 202 l13 -42 l13 42 z"/>
+    <path d="M952 202 l16 -52 l16 52 z"/><path d="M918 202 l12 -40 l12 40 z"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 200 L1000 194 L1000 560 L0 560 Z"/>
+
+  <!-- 家並み -->
+  <g>
+    <path fill="#7d6a52" d="M368 244 L440 232 L466 254 L394 266 Z"/>
+    <rect x="394" y="266" width="72" height="44" fill="#d5c8ac"/>
+    <path fill="#7d6a52" d="M470 252 L536 240 L560 260 L494 272 Z"/>
+    <rect x="494" y="272" width="66" height="38" fill="#d5c8ac"/>
+    <path fill="#7d6a52" d="M566 246 L628 236 L650 256 L588 266 Z"/>
+    <rect x="588" y="266" width="62" height="44" fill="#d5c8ac"/>
+  </g>
+  <!-- 太田川の谷筋 -->
+  <path fill="#8fb8d3" d="M0 320 C 200 306, 360 330, 560 318 C 720 308, 860 326, 1000 316 L1000 336 C 860 346, 720 328, 560 338 C 360 350, 200 326, 0 340 Z"/>
+
+  <!-- 左：路線価図（消されている） -->
+  <g>
+    <rect x="34" y="352" width="418" height="182" rx="10" fill="#ffffff" stroke="#8b93a0" stroke-width="4"/>
+    <rect x="34" y="352" width="418" height="34" rx="10" fill="#5b6470"/>
+    <text x="52" y="378" font-family="Meiryo, sans-serif" font-size="21" fill="#ffffff">路線価図（道路ごとの価額）</text>
+    <g stroke="#c7ccc4" stroke-width="16" fill="none">
+      <path d="M60 470 L426 470"/><path d="M170 400 L170 522"/><path d="M320 400 L320 522"/>
+    </g>
+    <g fill="#3a4450" font-family="Meiryo, sans-serif" font-size="17">
+      <text x="80" y="452">62D</text><text x="212" y="452">75D</text><text x="352" y="452">58D</text>
+      <text x="188" y="512">49D</text><text x="338" y="512">44D</text>
+    </g>
+    <g stroke="#c0392b" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.9">
+      <path d="M62 512 L424 372"/><path d="M62 372 L424 512"/>
+    </g>
+    <rect x="96" y="416" width="292" height="42" rx="8" fill="#ffffff" stroke="#c0392b" stroke-width="4"/>
+    <text x="112" y="446" font-family="Meiryo, sans-serif" font-size="22" fill="#a5321f">森町には設定がない</text>
+  </g>
+
+  <!-- 右：倍率表 -->
+  <g>
+    <rect x="516" y="336" width="452" height="206" rx="10" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="516" y="336" width="452" height="34" rx="10" fill="#4f6a55"/>
+    <text x="534" y="362" font-family="Meiryo, sans-serif" font-size="21" fill="#ffffff">令和8年分 倍率表（周智郡森町）</text>
+    <g stroke="#c3cbc2" stroke-width="2" fill="none">
+      <path d="M516 400 L968 400"/><path d="M516 434 L968 434"/><path d="M516 468 L968 468"/><path d="M516 502 L968 502"/>
+      <path d="M636 370 L636 542"/><path d="M726 370 L726 542"/><path d="M816 370 L816 542"/><path d="M896 370 L896 542"/>
+    </g>
+    <g font-family="Meiryo, sans-serif" font-size="17" fill="#4a5b4c">
+      <text x="532" y="392">大字</text><text x="654" y="392">宅地</text><text x="746" y="392">畑</text><text x="836" y="392">山林</text><text x="912" y="392">原野</text>
+    </g>
+    <g font-family="Meiryo, sans-serif" font-size="18" fill="#24352a">
+      <text x="532" y="426">森</text><text x="654" y="426">1.1</text><text x="742" y="426">中9.0</text><text x="828" y="426">中3.9</text><text x="906" y="426">中3.9</text>
+      <text x="532" y="460">三倉</text><text x="654" y="460">1.1</text><text x="742" y="460">純4.1</text><text x="828" y="460">純0.7</text><text x="906" y="460">純0.7</text>
+      <text x="532" y="494">亀久保</text><text x="654" y="494">1.1</text><text x="742" y="494">純4.1</text><text x="828" y="494">純0.6</text><text x="906" y="494">純0.6</text>
+      <text x="532" y="528">飯田</text><text x="654" y="528">1.0</text><text x="742" y="528">中8.5</text><text x="828" y="528">中4.3</text><text x="906" y="528">中4.3</text>
+    </g>
+  </g>
+
+  <!-- 掛け算の矢印 -->
+  <g>
+    <rect x="516" y="238" width="452" height="76" rx="10" fill="#ffffff" stroke="#c8722f" stroke-width="4" opacity="0.96"/>
+    <text x="536" y="270" font-family="Meiryo, sans-serif" font-size="21" fill="#8f4d1a">固定資産税評価額 × 倍率</text>
+    <text x="536" y="300" font-family="Meiryo, sans-serif" font-size="21" fill="#8f4d1a">＝ 相続税の評価額</text>
+    <path d="M742 314 L742 336" stroke="#c8722f" stroke-width="6" fill="none"/>
+    <path fill="#c8722f" d="M742 340 l-11 -18 l22 0 z"/>
+  </g>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="br2Title br2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="br2Title">静岡県森町の土地の評価額を出す順番を一本の道として描いたイラスト</title>
+  <desc id="br2Desc">左下から右上へ道が伸び、四つの立て札を順に通ります。一つ目は森町役場の税務課資産税係で名寄帳を見て筆ごとの地目と固定資産税評価額を書き出す地点、二つ目は大字名と、農用地区域か用途地域の内かを確かめる地点、三つ目は国税庁の令和8年分倍率表で自分の大字の行を読む地点、四つ目は固定資産税評価額に倍率を掛けて桁を出す地点です。道の周りには茶畑と水田、杉林、遠州の山並みが広がります。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="br2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3daea"/><stop offset="1" stop-color="#ebf2e6"/>
+    </linearGradient>
+    <linearGradient id="br2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fadbe"/><stop offset="1" stop-color="#b9ccd3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="164" fill="url(#br2Sky)"/>
+  <path fill="url(#br2Far)" d="M0 100 L112 44 L226 102 L344 38 L462 102 L580 36 L698 102 L814 46 L920 102 L1000 64 L1000 148 L0 148 Z"/>
+
+  <path fill="#7fae57" d="M0 164 C 240 154, 460 178, 680 166 C 780 160, 870 170, 1000 164 L1000 202 L0 208 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 174 C 240 164, 460 188, 680 176 C 780 170, 870 180, 1000 174"/>
+    <path d="M0 190 C 240 180, 460 204, 680 192 C 780 186, 870 196, 1000 190"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M14 206 l16 -54 l16 54 z"/><path d="M48 206 l13 -42 l13 42 z"/>
+    <path d="M946 206 l16 -52 l16 52 z"/><path d="M912 206 l12 -40 l12 40 z"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 204 L1000 198 L1000 560 L0 560 Z"/>
+
+  <path fill="#8fb862" d="M0 296 L286 268 L302 358 L0 386 Z"/>
+  <g stroke="#5f8a42" stroke-width="6" fill="none">
+    <path d="M0 316 L290 288"/><path d="M0 346 L296 318"/>
+  </g>
+  <path fill="#a9cf7d" d="M640 252 L1000 228 L1000 318 L654 342 Z"/>
+  <g stroke="#6d9a4c" stroke-width="5" fill="none" opacity="0.85">
+    <path d="M646 278 L1000 254"/><path d="M650 304 L1000 280"/>
+  </g>
+
+  <path fill="#cbbfa4" d="M0 556 C 180 526, 300 468, 430 428 C 570 384, 720 334, 1000 264 L1000 228 C 700 298, 540 350, 400 396 C 260 442, 120 500, 0 518 Z"/>
+  <g stroke="#a8997a" stroke-width="3" stroke-dasharray="16 14" fill="none">
+    <path d="M0 536 C 180 510, 300 450, 430 412 C 570 368, 720 318, 1000 248"/>
+  </g>
+
+  <!-- 立札1 -->
+  <g>
+    <rect x="26" y="386" width="300" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="26" y="386" width="300" height="28" rx="9" fill="#4f6a55"/>
+    <text x="40" y="408" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">1 名寄帳を見る</text>
+    <text x="40" y="441" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">筆ごとの地目と地積</text>
+    <text x="40" y="468" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">固定資産税評価額</text>
+    <rect x="168" y="480" width="12" height="48" fill="#8d7a58"/>
+  </g>
+
+  <!-- 立札2 -->
+  <g>
+    <rect x="286" y="262" width="298" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="286" y="262" width="298" height="28" rx="9" fill="#4f6a55"/>
+    <text x="300" y="284" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">2 区分を確かめる</text>
+    <text x="300" y="317" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">大字はどこか</text>
+    <text x="300" y="344" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">農用地区域か用途地域か</text>
+    <rect x="428" y="356" width="12" height="50" fill="#8d7a58"/>
+  </g>
+
+  <!-- 立札3 -->
+  <g>
+    <rect x="496" y="402" width="292" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="496" y="402" width="292" height="28" rx="9" fill="#4f6a55"/>
+    <text x="510" y="424" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">3 倍率表の行を読む</text>
+    <text x="510" y="457" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">令和8年分・周智郡森町</text>
+    <text x="510" y="484" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">純か中か、比準か</text>
+    <rect x="636" y="496" width="12" height="46" fill="#8d7a58"/>
+  </g>
+
+  <!-- 立札4 -->
+  <g>
+    <rect x="686" y="140" width="298" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="686" y="140" width="298" height="28" rx="9" fill="#4f6a55"/>
+    <text x="700" y="162" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">4 掛けて桁を出す</text>
+    <text x="700" y="195" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">評価額 × 倍率</text>
+    <text x="700" y="222" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">今日は桁だけでよい</text>
+    <rect x="828" y="234" width="12" height="44" fill="#8d7a58"/>
+  </g>
+
+  <!-- 名寄帳を見る人 -->
+  <g>
+    <circle cx="150" cy="490" r="20" fill="#e8c9a6" stroke="#b99772" stroke-width="3"/>
+    <path fill="#3f5c68" d="M130 488 q20 -17 40 0 q-20 -7 -40 0 Z"/>
+    <path fill="#5b7f92" d="M124 516 q26 -14 52 0 l10 42 l-72 0 Z"/>
+    <rect x="130" y="518" width="46" height="32" rx="4" fill="#ffffff" stroke="#8b93a0" stroke-width="3"/>
+    <g stroke="#96a0ad" stroke-width="3" fill="none">
+      <path d="M138 527 L168 527"/><path d="M138 535 L168 535"/><path d="M138 543 L158 543"/>
+    </g>
+  </g>
+
+  <!-- 電卓 -->
+  <g>
+    <rect x="866" y="288" width="94" height="122" rx="8" fill="#ffffff" stroke="#7d8a90" stroke-width="4"/>
+    <rect x="878" y="300" width="70" height="26" rx="3" fill="#cfe0e8"/>
+    <g fill="#7d8a90">
+      <rect x="878" y="336" width="18" height="16" rx="3"/><rect x="904" y="336" width="18" height="16" rx="3"/>
+      <rect x="930" y="336" width="18" height="16" rx="3"/>
+      <rect x="878" y="360" width="18" height="16" rx="3"/><rect x="904" y="360" width="18" height="16" rx="3"/>
+      <rect x="930" y="360" width="18" height="16" rx="3"/>
+      <rect x="878" y="384" width="18" height="16" rx="3"/><rect x="904" y="384" width="18" height="16" rx="3"/>
+    </g>
+    <rect x="930" y="384" width="18" height="16" rx="3" fill="#c8722f"/>
+  </g>
+</svg>
