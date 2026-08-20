@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ts2Title ts2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ts2Title">静岡県森町でトラクターの安全を確かめる順番を農道として描いたイラスト</title>
+  <desc id="ts2Desc">左下から右上へ農道が伸び、四つの立て札を順に通ります。一つ目は機体の銘板で型式と製造年を確かめる地点、二つ目はボンネット側面のステッカーと安全フレームの有無を見る地点、三つ目は車体後部の緑色の標識と運転免許の区分を確かめる地点、四つ目は森町役場一階の税務課と農政係へ電話する地点です。道の周りには茶畑と水田、杉林、遠州の山並みが広がります。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ts2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3daea"/><stop offset="1" stop-color="#ebf2e6"/>
+    </linearGradient>
+    <linearGradient id="ts2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fadbe"/><stop offset="1" stop-color="#b9ccd3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="164" fill="url(#ts2Sky)"/>
+  <path fill="url(#ts2Far)" d="M0 100 L112 44 L226 102 L344 38 L462 102 L580 36 L698 102 L814 46 L920 102 L1000 64 L1000 148 L0 148 Z"/>
+
+  <path fill="#7fae57" d="M0 164 C 240 154, 460 178, 680 166 C 780 160, 870 170, 1000 164 L1000 202 L0 208 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 174 C 240 164, 460 188, 680 176 C 780 170, 870 180, 1000 174"/>
+    <path d="M0 190 C 240 180, 460 204, 680 192 C 780 186, 870 196, 1000 190"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M14 206 l16 -54 l16 54 z"/><path d="M48 206 l13 -42 l13 42 z"/>
+    <path d="M946 206 l16 -52 l16 52 z"/><path d="M912 206 l12 -40 l12 40 z"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 204 L1000 198 L1000 560 L0 560 Z"/>
+
+  <!-- 茶畑と水田 -->
+  <path fill="#8fb862" d="M0 292 L286 264 L302 356 L0 384 Z"/>
+  <g stroke="#5f8a42" stroke-width="6" fill="none">
+    <path d="M0 312 L290 284"/><path d="M0 342 L296 314"/>
+  </g>
+  <path fill="#a9cf7d" d="M636 250 L1000 226 L1000 320 L650 344 Z"/>
+  <g stroke="#6d9a4c" stroke-width="5" fill="none" opacity="0.85">
+    <path d="M642 276 L1000 252"/><path d="M646 304 L1000 280"/>
+  </g>
+
+  <!-- 農道 -->
+  <path fill="#cbbfa4" d="M0 556 C 180 526, 300 468, 430 428 C 570 384, 720 334, 1000 264 L1000 228 C 700 298, 540 350, 400 396 C 260 442, 120 500, 0 518 Z"/>
+  <g stroke="#a8997a" stroke-width="3" stroke-dasharray="16 14" fill="none">
+    <path d="M0 536 C 180 510, 300 450, 430 412 C 570 368, 720 318, 1000 248"/>
+  </g>
+
+  <!-- 立札1 -->
+  <g>
+    <rect x="28" y="388" width="296" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="28" y="388" width="296" height="28" rx="9" fill="#4f6a55"/>
+    <text x="42" y="410" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">1 機体の銘板を見る</text>
+    <text x="42" y="443" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">型式と製造年</text>
+    <text x="42" y="470" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">2027年1月より前か</text>
+    <rect x="168" y="482" width="12" height="48" fill="#8d7a58"/>
+  </g>
+
+  <!-- 立札2 -->
+  <g>
+    <rect x="288" y="264" width="292" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="288" y="264" width="292" height="28" rx="9" fill="#4f6a55"/>
+    <text x="302" y="286" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">2 車体をひと回り見る</text>
+    <text x="302" y="319" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">側面のステッカー</text>
+    <text x="302" y="346" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">安全フレームとベルト</text>
+    <rect x="428" y="358" width="12" height="50" fill="#8d7a58"/>
+  </g>
+
+  <!-- 立札3 -->
+  <g>
+    <rect x="498" y="404" width="284" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="498" y="404" width="284" height="28" rx="9" fill="#4f6a55"/>
+    <text x="512" y="426" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">3 公道に出る条件</text>
+    <text x="512" y="459" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">緑色の標識はあるか</text>
+    <text x="512" y="486" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">免許は小特か大特か</text>
+    <rect x="634" y="498" width="12" height="46" fill="#8d7a58"/>
+  </g>
+
+  <!-- 立札4 -->
+  <g>
+    <rect x="700" y="142" width="284" height="94" rx="9" fill="#ffffff" stroke="#4f6a55" stroke-width="4"/>
+    <rect x="700" y="142" width="284" height="28" rx="9" fill="#4f6a55"/>
+    <text x="714" y="164" font-family="Meiryo, sans-serif" font-size="19" fill="#ffffff">4 二か所へ電話する</text>
+    <text x="714" y="197" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">税務課 0538-85-6308</text>
+    <text x="714" y="224" font-family="Meiryo, sans-serif" font-size="21" fill="#24352a">農政係 0538-85-6315</text>
+    <rect x="834" y="236" width="12" height="44" fill="#8d7a58"/>
+  </g>
+
+  <!-- 銘板を見る人 -->
+  <g>
+    <circle cx="150" cy="492" r="20" fill="#e8c9a6" stroke="#b99772" stroke-width="3"/>
+    <path fill="#3f5c68" d="M130 490 q20 -17 40 0 q-20 -7 -40 0 Z"/>
+    <path fill="#5b7f92" d="M124 518 q26 -14 52 0 l10 42 l-72 0 Z"/>
+    <rect x="130" y="520" width="46" height="32" rx="4" fill="#ffffff" stroke="#8b93a0" stroke-width="3"/>
+    <g stroke="#96a0ad" stroke-width="3" fill="none">
+      <path d="M138 529 L168 529"/><path d="M138 537 L168 537"/><path d="M138 545 L158 545"/>
+    </g>
+  </g>
+
+  <!-- 銘板 -->
+  <g>
+    <rect x="196" y="486" width="96" height="56" rx="5" fill="#d7dbd6" stroke="#8b9189" stroke-width="4"/>
+    <g stroke="#8b9189" stroke-width="3" fill="none">
+      <path d="M208 504 L280 504"/><path d="M208 518 L280 518"/><path d="M208 532 L258 532"/>
+    </g>
+  </g>
+
+  <!-- 電話機 -->
+  <g>
+    <rect x="884" y="286" width="86" height="60" rx="8" fill="#ffffff" stroke="#7d8a90" stroke-width="4"/>
+    <rect x="896" y="298" width="62" height="16" rx="3" fill="#cfe0e8"/>
+    <g fill="#7d8a90">
+      <circle cx="904" cy="328" r="5"/><circle cx="922" cy="328" r="5"/>
+      <circle cx="940" cy="328" r="5"/><circle cx="958" cy="328" r="5"/>
+    </g>
+    <path d="M876 282 q-14 -22 8 -34" stroke="#7d8a90" stroke-width="5" fill="none"/>
+  </g>
+</svg>

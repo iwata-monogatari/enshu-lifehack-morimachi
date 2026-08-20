@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ts1Title ts1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ts1Title">静岡県森町の農道を乗用型トラクターが走っている情景のイラスト</title>
+  <desc id="ts1Desc">奥に遠州の山並みと杉林、段になった茶畑が広がります。中央には安全フレーム付きの乗用型トラクターが農道を走り、運転席の人がシートベルトを締めています。ボンネットの側面には座席ベルト着用義務車を示す四角いステッカーが貼られ、車体後部には緑色の小型特殊自動車の標識が付いています。後ろにはロータリーの作業機が連結され、車幅が車体より広いことが点線で示されています。道の右側は路肩が崩れて田へ落ち込んでいます。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ts1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c1d9ec"/><stop offset="1" stop-color="#eaf1e5"/>
+    </linearGradient>
+    <linearGradient id="ts1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba9bc"/><stop offset="1" stop-color="#b6cbd2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="172" fill="url(#ts1Sky)"/>
+  <path fill="url(#ts1Far)" d="M0 108 L108 48 L220 108 L336 40 L454 108 L572 38 L690 108 L806 50 L912 108 L1000 68 L1000 154 L0 154 Z"/>
+
+  <path fill="#7fae57" d="M0 172 C 230 162, 450 186, 670 174 C 770 168, 860 178, 1000 172 L1000 212 L0 218 Z"/>
+  <g stroke="#5f8a42" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 182 C 230 172, 450 196, 670 184 C 770 178, 860 188, 1000 182"/>
+    <path d="M0 198 C 230 188, 450 212, 670 200 C 770 194, 860 204, 1000 198"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M10 216 l16 -56 l16 56 z"/><path d="M44 216 l13 -44 l13 44 z"/>
+    <path d="M78 216 l12 -40 l12 40 z"/>
+    <path d="M952 216 l16 -54 l16 54 z"/><path d="M918 216 l13 -44 l13 44 z"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 214 L1000 208 L1000 560 L0 560 Z"/>
+
+  <!-- 左：茶畑の畝 -->
+  <path fill="#8fb862" d="M0 240 L300 226 L316 320 L0 336 Z"/>
+  <g stroke="#5f8a42" stroke-width="6" fill="none">
+    <path d="M0 258 L304 244"/><path d="M0 286 L310 272"/><path d="M0 314 L314 300"/>
+  </g>
+
+  <!-- 右下：路肩の下の水田 -->
+  <path fill="#a9cf7d" d="M636 402 L1000 380 L1000 470 L654 494 Z"/>
+  <g stroke="#6d9a4c" stroke-width="5" fill="none" opacity="0.85">
+    <path d="M646 428 L1000 406"/><path d="M650 456 L1000 434"/>
+  </g>
+
+  <!-- 農道 -->
+  <path fill="#cbbfa4" d="M0 356 L640 330 L700 386 L1000 500 L1000 560 L0 560 Z"/>
+  <g stroke="#a8997a" stroke-width="3" stroke-dasharray="18 16" fill="none">
+    <path d="M0 452 L560 402"/>
+  </g>
+  <!-- 崩れた路肩 -->
+  <path fill="#b3a284" d="M640 330 L700 386 L676 402 L636 402 L614 356 Z"/>
+  <path fill="#9e8c6d" d="M654 356 L692 392 L668 402 L640 402 Z"/>
+  <g fill="#c9b997">
+    <circle cx="716" cy="418" r="9"/><circle cx="740" cy="436" r="7"/><circle cx="700" cy="440" r="6"/>
+  </g>
+
+  <!-- 車幅を示す点線 -->
+  <g stroke="#c8722f" stroke-width="4" stroke-dasharray="12 10" fill="none">
+    <path d="M232 236 L232 452"/><path d="M556 236 L556 452"/>
+    <path d="M232 250 L556 250"/>
+  </g>
+  <path fill="#c8722f" d="M232 250 l22 -11 l0 22 z"/>
+  <path fill="#c8722f" d="M556 250 l-22 -11 l0 22 z"/>
+  <rect x="286" y="208" width="216" height="38" rx="8" fill="#ffffff" stroke="#c8722f" stroke-width="3"/>
+  <text x="300" y="236" font-family="Meiryo, sans-serif" font-size="19" fill="#8f4d1a">作業機の分だけ広い</text>
+
+  <!-- ロータリー作業機 -->
+  <g>
+    <rect x="238" y="356" width="126" height="66" rx="6" fill="#b03a2e" stroke="#7d281f" stroke-width="4"/>
+    <rect x="238" y="410" width="126" height="20" rx="4" fill="#4a5057"/>
+    <g stroke="#3b4046" stroke-width="6" fill="none">
+      <path d="M256 430 L250 448"/><path d="M286 430 L280 448"/>
+      <path d="M316 430 L310 448"/><path d="M346 430 L340 448"/>
+    </g>
+  </g>
+
+  <!-- トラクター本体 -->
+  <g>
+    <!-- 後輪 -->
+    <circle cx="410" cy="424" r="66" fill="#33383e" stroke="#1e2226" stroke-width="6"/>
+    <circle cx="410" cy="424" r="30" fill="#c9ccc7" stroke="#8e938d" stroke-width="5"/>
+    <circle cx="410" cy="424" r="10" fill="#7d827c"/>
+    <!-- 車体 -->
+    <path fill="#b03a2e" d="M356 340 L560 332 L586 372 L586 424 L356 430 Z"/>
+    <path fill="#8f2f26" d="M356 400 L586 394 L586 424 L356 430 Z"/>
+    <!-- ボンネット -->
+    <path fill="#c9422f" d="M470 340 L596 336 L604 392 L470 396 Z"/>
+    <rect x="596" y="352" width="16" height="28" rx="3" fill="#3f4550"/>
+    <!-- ステッカー -->
+    <rect x="492" y="350" width="86" height="36" rx="4" fill="#ffffff" stroke="#333a33" stroke-width="3"/>
+    <g fill="#333a33">
+      <circle cx="510" cy="360" r="6"/>
+      <path d="M502 370 q8 -6 16 0 l0 10 l-16 0 z"/>
+      <path d="M500 378 q10 8 22 0" stroke="#333a33" stroke-width="3" fill="none"/>
+    </g>
+    <text x="524" y="374" font-family="Meiryo, sans-serif" font-size="14" fill="#333a33">義務車</text>
+    <!-- 安全フレーム／キャブ -->
+    <g stroke="#6d7379" stroke-width="9" fill="none">
+      <path d="M370 340 L370 214"/><path d="M470 336 L470 210"/>
+      <path d="M370 214 L470 210"/>
+    </g>
+    <path fill="#cfe0e8" opacity="0.55" d="M378 226 L462 222 L462 330 L378 334 Z"/>
+    <!-- 運転者 -->
+    <g>
+      <circle cx="424" cy="262" r="21" fill="#e8c9a6" stroke="#b99772" stroke-width="3"/>
+      <path fill="#3f5c68" d="M404 260 q20 -18 42 0 q-22 -8 -42 0 Z"/>
+      <path fill="#5b7f92" d="M398 290 q26 -14 54 0 l6 46 l-66 0 Z"/>
+      <!-- シートベルト -->
+      <path d="M404 292 L450 332" stroke="#2c3238" stroke-width="10" fill="none"/>
+      <rect x="440" y="322" width="18" height="16" rx="3" fill="#c0392b"/>
+    </g>
+    <!-- 座席 -->
+    <path fill="#4a5057" d="M382 330 L400 330 L400 292 L386 292 Z"/>
+    <!-- 前輪 -->
+    <circle cx="576" cy="440" r="40" fill="#33383e" stroke="#1e2226" stroke-width="5"/>
+    <circle cx="576" cy="440" r="17" fill="#c9ccc7" stroke="#8e938d" stroke-width="4"/>
+    <!-- 緑ナンバー -->
+    <rect x="238" y="382" width="46" height="30" rx="4" fill="#2f7d46" stroke="#1e5b31" stroke-width="3"/>
+    <text x="245" y="404" font-family="Meiryo, sans-serif" font-size="17" fill="#ffffff">森町</text>
+  </g>
+
+  <!-- 説明の札 -->
+  <g>
+    <rect x="646" y="222" width="330" height="90" rx="10" fill="#ffffff" stroke="#5d6f5a" stroke-width="4" opacity="0.96"/>
+    <text x="666" y="256" font-family="Meiryo, sans-serif" font-size="22" fill="#26382c">危ないのは速度ではなく</text>
+    <text x="666" y="290" font-family="Meiryo, sans-serif" font-size="22" fill="#26382c">路肩と車幅</text>
+  </g>
+</svg>
