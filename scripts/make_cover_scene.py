@@ -2814,7 +2814,67 @@ def scene_ota_hazard_map(d):
     band(d, ["色は6段階。", "床の高さは図に無い"], "森町ライフハック／地区めぐり")
 
 
+def scene_moritsuchi_permit(d):
+    """山際の畑に土を下ろすダンプと、盛土の断面・物差し・面積の枠を描いた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 672, 718], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 右奥：実家
+    d.polygon([(584, 380), (664, 340), (744, 380)], fill=(125, 106, 82))
+    d.rectangle([600, 380, 728, 444], fill=(240, 236, 226), outline=(178, 169, 154), width=3)
+    d.rectangle([616, 396, 648, 422], fill=(203, 214, 212), outline=(150, 161, 159), width=3)
+    d.rectangle([678, 396, 710, 422], fill=(203, 214, 212), outline=(150, 161, 159), width=3)
+    # 面積の枠（点線）
+    pts = [(40, 470), (430, 434), (720, 486), (250, 540)]
+    for i in range(4):
+        a, b = pts[i], pts[(i + 1) % 4]
+        for t in range(0, 20, 2):
+            x1 = a[0] + (b[0] - a[0]) * t / 20
+            y1 = a[1] + (b[1] - a[1]) * t / 20
+            x2 = a[0] + (b[0] - a[0]) * (t + 1) / 20
+            y2 = a[1] + (b[1] - a[1]) * (t + 1) / 20
+            d.line([(x1, y1), (x2, y2)], fill=(93, 136, 64), width=6)
+    for p in pts:
+        d.rectangle([p[0] - 5, p[1] - 16, p[0] + 5, p[1] + 6], fill=(138, 111, 82))
+    # 盛土の断面
+    d.polygon([(150, 470), (330, 356), (400, 356), (452, 470)], fill=(160, 128, 92))
+    d.polygon([(150, 470), (452, 470), (446, 488), (158, 488)], fill=(141, 113, 80))
+    for y0, x0, x1 in ((424, 176, 350), (398, 210, 366)):
+        d.line([(x0, y0), (x1, y0 - 24)], fill=(109, 87, 63), width=4)
+    # 崖の角度
+    d.line([(452, 470), (400, 356)], fill=(192, 69, 60), width=7)
+    for t in range(0, 10, 2):
+        d.line([(452 + t * 12, 470), (452 + t * 12 + 6, 470)], fill=(192, 69, 60), width=4)
+    # 物差し
+    d.rectangle([332, 268, 362, 470], fill=(246, 242, 228), outline=(138, 124, 28), width=4)
+    for y0 in (312, 380, 424):
+        d.line([(332, y0), (362, y0)], fill=(138, 124, 28), width=4)
+    d.rounded_rectangle([196, 292, 320, 332], radius=6, fill=(255, 255, 255),
+                        outline=(138, 124, 28), width=4)
+    d.text((222, 299), "高さ1m", font=ImageFont.truetype(FONT_BOLD, 24), fill=(109, 97, 26))
+    d.rounded_rectangle([374, 356, 512, 398], radius=6, fill=(255, 255, 255),
+                        outline=(192, 69, 60), width=4)
+    d.text((392, 363), "30度超", font=ImageFont.truetype(FONT_BOLD, 26), fill=(168, 58, 49))
+    # ダンプカー
+    d.rectangle([16, 388, 116, 440], fill=(200, 204, 196), outline=(92, 102, 96), width=4)
+    d.polygon([(16, 388), (116, 388), (124, 372), (30, 372)], fill=(160, 128, 92))
+    d.rectangle([116, 402, 172, 440], fill=(77, 127, 95), outline=(51, 81, 60), width=4)
+    d.rectangle([128, 410, 160, 428], fill=(188, 212, 224))
+    d.ellipse([34, 428, 74, 468], fill=(59, 63, 66))
+    d.ellipse([124, 428, 164, 468], fill=(59, 63, 66))
+    # 面積の札
+    d.rounded_rectangle([300, 496, 566, 546], radius=8, fill=(255, 255, 255),
+                        outline=(47, 95, 69), width=5)
+    d.text((320, 504), "面積500㎡超", font=ImageFont.truetype(FONT_BOLD, 30), fill=(47, 95, 69))
+    band(d, ["土を入れる前に、", "面積と高さを測る"], "森町ライフハック／地区めぐり")
+
+
 SCENES = {
+    "20260821-morimachi-moritsuchi-permit": scene_moritsuchi_permit,
     "20260821-ota-river-hazard-map": scene_ota_hazard_map,
     "20260821-akihabus-fare-revision": scene_akihabus_fare,
     "20260820-morimachi-bairitsu-rosenka": scene_bairitsu_rosenka,

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mtp1Title mtp1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="mtp1Title">静岡県森町の山際の畑に土を入れて平らにしようとしている情景のイラスト</title>
+  <desc id="mtp1Desc">左側でダンプカーが傾いた畑に土を下ろし、盛られた土の断面が見えます。土の脇には目盛りのついた物差しが立ち、1メートルと2メートルの位置に印があります。盛った土の端は斜めに切り立ち、水平面に対する角度が30度を超える崖であることを示す角度の印が付いています。畑の外周には500平方メートルの範囲を示す点線の枠と杭が打たれています。右奥には瓦屋根の実家と杉林、段になった茶畑、遠州の山並みが広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="mtp1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfd6ea"/><stop offset="1" stop-color="#e9f0e6"/>
+    </linearGradient>
+    <linearGradient id="mtp1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa8bc"/><stop offset="1" stop-color="#b6cad2"/>
+    </linearGradient>
+    <linearGradient id="mtp1Soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8865e"/><stop offset="1" stop-color="#7d6346"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="170" fill="url(#mtp1Sky)"/>
+  <path fill="url(#mtp1Far)" d="M0 110 L90 46 L188 110 L296 38 L404 110 L516 36 L624 110 L734 46 L840 110 L942 50 L1000 90 L1000 154 L0 154 Z"/>
+
+  <path fill="#7fae57" d="M0 170 C 210 160, 430 184, 650 172 C 760 166, 858 176, 1000 170 L1000 212 L0 218 Z"/>
+  <g stroke="#5d8840" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 180 C 210 170, 430 194, 650 182 C 760 176, 858 186, 1000 180"/>
+    <path d="M0 196 C 210 186, 430 210, 650 198 C 760 192, 858 202, 1000 196"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M8 216 l15 -54 l15 54 z"/><path d="M40 216 l12 -44 l12 44 z"/>
+    <path d="M948 216 l15 -52 l15 52 z"/><path d="M918 216 l12 -42 l12 42 z"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 214 L1000 208 L1000 560 L0 560 Z"/>
+
+  <!-- 右奥：実家 -->
+  <g>
+    <path d="M756 300 L846 254 L936 300 Z" fill="#7d6a58"/>
+    <path d="M766 296 L846 254 L926 296 Z" fill="#a08a72"/>
+    <rect x="778" y="300" width="136" height="76" fill="#f2eee4" stroke="#b6ad9c" stroke-width="3"/>
+    <rect x="796" y="318" width="38" height="30" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="856" y="318" width="38" height="30" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+  </g>
+
+  <!-- 500㎡の枠（点線と杭） -->
+  <g>
+    <path d="M84 424 L640 388 L926 442 L340 496 Z" fill="#cfe0bd" stroke="#5d8840" stroke-width="5" stroke-dasharray="18 12"/>
+    <g fill="#8a6f52">
+      <rect x="78" y="410" width="10" height="30"/><rect x="634" y="374" width="10" height="30"/>
+      <rect x="920" y="428" width="10" height="30"/><rect x="334" y="482" width="10" height="30"/>
+    </g>
+    <rect x="392" y="452" width="196" height="40" rx="7" fill="#ffffff" stroke="#4d7f5f" stroke-width="4"/>
+    <text x="490" y="480" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="20" font-weight="bold" fill="#2f5f45" text-anchor="middle">面積 500㎡ 超</text>
+  </g>
+
+  <!-- 盛られた土の断面 -->
+  <g>
+    <path fill="url(#mtp1Soil)" d="M228 424 L470 302 L560 302 L604 424 Z"/>
+    <path fill="#8d7150" d="M228 424 L604 424 L596 444 L236 444 Z"/>
+    <g stroke="#6d573f" stroke-width="3" opacity="0.5" fill="none">
+      <path d="M262 404 L494 322"/><path d="M300 380 L512 342"/>
+    </g>
+    <!-- 崖の角度 -->
+    <path d="M604 424 L560 302" stroke="#c0453c" stroke-width="6" fill="none"/>
+    <path d="M604 424 L720 424" stroke="#c0453c" stroke-width="4" stroke-dasharray="10 8" fill="none"/>
+    <path d="M660 424 A 56 56 0 0 0 622 372" fill="none" stroke="#c0453c" stroke-width="4"/>
+    <rect x="626" y="330" width="122" height="36" rx="6" fill="#ffffff" stroke="#c0453c" stroke-width="4"/>
+    <text x="687" y="356" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="18" font-weight="bold" fill="#a83a31" text-anchor="middle">30度超＝崖</text>
+  </g>
+
+  <!-- 物差し -->
+  <g>
+    <rect x="466" y="184" width="30" height="240" fill="#f6f2e4" stroke="#8a7c1c" stroke-width="4"/>
+    <g stroke="#8a7c1c" stroke-width="3">
+      <path d="M466 304 h30"/><path d="M466 244 h30"/><path d="M466 364 h20"/><path d="M466 214 h20"/>
+    </g>
+    <rect x="506" y="286" width="112" height="36" rx="6" fill="#ffffff" stroke="#8a7c1c" stroke-width="4"/>
+    <text x="562" y="312" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="19" font-weight="bold" fill="#6d611a" text-anchor="middle">2m</text>
+    <rect x="330" y="226" width="112" height="36" rx="6" fill="#ffffff" stroke="#8a7c1c" stroke-width="4"/>
+    <text x="386" y="252" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="19" font-weight="bold" fill="#6d611a" text-anchor="middle">1m</text>
+    <path d="M442 244 L466 244" stroke="#8a7c1c" stroke-width="4"/>
+  </g>
+
+  <!-- ダンプカー -->
+  <g>
+    <rect x="28" y="336" width="130" height="66" rx="6" fill="#c8ccc4" stroke="#5c6660" stroke-width="4"/>
+    <path d="M28 336 L158 336 L166 322 L44 322 Z" fill="#a8865e"/>
+    <rect x="158" y="356" width="70" height="46" rx="5" fill="#4d7f5f" stroke="#33513c" stroke-width="4"/>
+    <rect x="172" y="366" width="42" height="24" rx="3" fill="#bcd4e0"/>
+    <circle cx="70" cy="410" r="20" fill="#3b3f42"/><circle cx="70" cy="410" r="8" fill="#b9bdbe"/>
+    <circle cx="192" cy="410" r="20" fill="#3b3f42"/><circle cx="192" cy="410" r="8" fill="#b9bdbe"/>
+  </g>
+
+  <!-- 下部の帯 -->
+  <rect x="0" y="510" width="1000" height="50" fill="#1f3e52"/>
+  <rect x="0" y="510" width="1000" height="5" fill="#d6a83c"/>
+  <text x="26" y="544" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="19" font-weight="bold" fill="#ffffff">見るのは土の量ではなく、崖の高さ・盛土の高さ・面積の三つ</text>
+</svg>

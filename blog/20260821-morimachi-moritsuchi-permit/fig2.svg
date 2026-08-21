@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mtp2Title mtp2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="mtp2Title">森町で庭や畑に土を入れる前に確かめる順番を一本の道として描いたイラスト</title>
+  <desc id="mtp2Desc">左端に傾いた畑と瓦屋根の実家があります。道を右へ進むと、一つ目の地点で巻き尺と面積を書き込む紙、二つ目の地点で目盛りのついた物差し、三つ目の地点で判定シートを映したパソコンの画面が並びます。四つ目で道が二つに分かれ、上の道は県への許可申請の書類と手数料の札へ、下の道は規制の対象外と書かれた札へ続きます。二本の道は最後に森町の建設課の窓口で合流し、土地利用事業の承認と同意書が置かれています。背景には遠州の山並み、杉林、段になった茶畑が続いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="mtp2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c2d9ea"/><stop offset="1" stop-color="#eaf1e6"/>
+    </linearGradient>
+    <linearGradient id="mtp2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#90aabc"/><stop offset="1" stop-color="#bbccd3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#f0f4ec"/>
+  <rect width="1000" height="150" fill="url(#mtp2Sky)"/>
+  <path fill="url(#mtp2Far)" d="M0 96 L92 42 L192 96 L300 36 L410 96 L520 34 L630 96 L740 44 L846 96 L940 46 L1000 92 L1000 140 L0 140 Z"/>
+  <path fill="#7fae57" d="M0 150 C 210 142, 430 164, 650 152 C 762 146, 860 156, 1000 150 L1000 184 L0 190 Z"/>
+  <g stroke="#5d8840" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 160 C 210 152, 430 174, 650 162 C 762 156, 860 166, 1000 160"/>
+    <path d="M0 174 C 210 166, 430 188, 650 176 C 762 170, 860 180, 1000 174"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M6 188 l14 -50 l14 50 z"/><path d="M36 188 l11 -40 l11 40 z"/>
+    <path d="M956 188 l14 -48 l14 48 z"/><path d="M928 188 l11 -38 l11 38 z"/>
+  </g>
+  <path fill="#e2ead9" d="M0 186 L1000 180 L1000 560 L0 560 Z"/>
+
+  <!-- 道と分かれ道 -->
+  <path fill="#b9b5ac" d="M104 332 L648 332 L648 376 L104 376 Z"/>
+  <path fill="#b9b5ac" d="M636 336 L892 258 L906 296 L648 374 Z"/>
+  <path fill="#b9b5ac" d="M640 340 L900 388 L892 428 L634 380 Z"/>
+  <g stroke="#f2f0e8" stroke-width="5" stroke-dasharray="26 22" fill="none">
+    <path d="M116 354 L640 354"/>
+    <path d="M652 344 L898 270"/>
+    <path d="M652 364 L896 410"/>
+  </g>
+
+  <!-- 実家と傾いた畑 -->
+  <g>
+    <path d="M4 250 L56 220 L108 250 Z" fill="#7d6a58"/>
+    <path d="M11 247 L56 220 L101 247 Z" fill="#a08a72"/>
+    <rect x="14" y="250" width="84" height="58" fill="#f2eee4" stroke="#b6ad9c" stroke-width="3"/>
+    <rect x="26" y="264" width="24" height="20" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="62" y="264" width="24" height="20" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+  </g>
+  <g>
+    <path d="M4 412 L120 386 L120 452 L4 470 Z" fill="#c8b98f" stroke="#a08f66" stroke-width="3"/>
+    <g stroke="#a08f66" stroke-width="3"><path d="M10 428 L116 404"/><path d="M10 446 L116 422"/></g>
+  </g>
+
+  <!-- 1 面積を測る -->
+  <g>
+    <rect x="186" y="284" width="8" height="50" fill="#9aa39b"/>
+    <rect x="122" y="182" width="140" height="102" rx="8" fill="#ffffff" stroke="#4d7f5f" stroke-width="4"/>
+    <rect x="138" y="200" width="34" height="34" rx="4" fill="#e4d24a" stroke="#8a7c1c" stroke-width="3"/>
+    <g stroke="#8a7c1c" stroke-width="2"><path d="M138 210 h34"/><path d="M138 218 h20"/><path d="M138 226 h34"/></g>
+    <rect x="182" y="196" width="64" height="46" rx="4" fill="#f6f4ea" stroke="#b3a878" stroke-width="3"/>
+    <g stroke="#cdc39c" stroke-width="4"><path d="M192 210 h44"/><path d="M192 224 h30"/></g>
+    <text x="192" y="270" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="17" font-weight="bold" fill="#2f5f45" text-anchor="middle">面積</text>
+    <circle cx="190" cy="354" r="22" fill="#1f3e52"/>
+    <text x="190" y="362" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+  </g>
+
+  <!-- 2 高さを測る -->
+  <g>
+    <rect x="350" y="284" width="8" height="50" fill="#9aa39b"/>
+    <rect x="288" y="182" width="140" height="102" rx="8" fill="#ffffff" stroke="#8a7c1c" stroke-width="4"/>
+    <rect x="336" y="196" width="24" height="72" fill="#f6f2e4" stroke="#8a7c1c" stroke-width="4"/>
+    <g stroke="#8a7c1c" stroke-width="3"><path d="M336 220 h24"/><path d="M336 244 h16"/></g>
+    <path d="M310 268 q26 -18 52 0 z" fill="#a8865e"/>
+    <text x="392" y="228" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="17" font-weight="bold" fill="#6d611a" text-anchor="middle">1m</text>
+    <text x="392" y="256" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="17" font-weight="bold" fill="#6d611a" text-anchor="middle">2m</text>
+    <text x="354" y="308" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="17" font-weight="bold" fill="#3d5364" text-anchor="middle">高さ</text>
+    <circle cx="354" cy="354" r="22" fill="#1f3e52"/>
+    <text x="354" y="362" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+  </g>
+
+  <!-- 3 判定シート -->
+  <g>
+    <rect x="514" y="284" width="8" height="50" fill="#9aa39b"/>
+    <rect x="446" y="182" width="146" height="102" rx="8" fill="#ffffff" stroke="#3f5b6d" stroke-width="4"/>
+    <rect x="462" y="196" width="114" height="66" rx="4" fill="#eef3f7" stroke="#8fa3b2" stroke-width="3"/>
+    <rect x="462" y="196" width="114" height="16" fill="#3f5b6d"/>
+    <g stroke="#b8c8d4" stroke-width="4"><path d="M474 226 h50"/><path d="M474 240 h34"/></g>
+    <path d="M536 236 l8 10 l18 -22" fill="none" stroke="#2f5f45" stroke-width="6"/>
+    <text x="518" y="308" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="17" font-weight="bold" fill="#3d5364" text-anchor="middle">判定シート</text>
+    <circle cx="518" cy="354" r="22" fill="#1f3e52"/>
+    <text x="518" y="362" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+  </g>
+
+  <!-- 4 分かれ道 -->
+  <g>
+    <circle cx="646" cy="354" r="24" fill="#c0453c"/>
+    <text x="646" y="363" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+  </g>
+
+  <!-- 上の道：県の許可申請 -->
+  <g>
+    <rect x="782" y="240" width="8" height="54" fill="#9aa39b"/>
+    <rect x="686" y="176" width="200" height="64" rx="8" fill="#ffffff" stroke="#c0453c" stroke-width="4"/>
+    <rect x="686" y="176" width="200" height="18" rx="8" fill="#c0453c"/>
+    <text x="786" y="222" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="20" font-weight="bold" fill="#a83a31" text-anchor="middle">県の許可申請</text>
+  </g>
+
+  <!-- 下の道：規制の対象外 -->
+  <g>
+    <rect x="656" y="404" width="192" height="62" rx="8" fill="#ffffff" stroke="#4d7f5f" stroke-width="4"/>
+    <text x="752" y="443" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="20" font-weight="bold" fill="#2f5f45" text-anchor="middle">規制の対象外</text>
+  </g>
+
+  <!-- 5 森町の窓口 -->
+  <g>
+    <rect x="876" y="252" width="120" height="124" rx="6" fill="#f4f4ef" stroke="#98a09a" stroke-width="4"/>
+    <path d="M872 252 L936 216 L1000 252 Z" fill="#7f8f96" stroke="#63727a" stroke-width="3"/>
+    <rect x="888" y="284" width="98" height="34" rx="4" fill="#d5dee2" stroke="#96a3aa" stroke-width="3"/>
+    <text x="937" y="308" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="15" font-weight="bold" fill="#33475a" text-anchor="middle">町の建設課</text>
+    <rect x="888" y="328" width="40" height="30" rx="3" fill="#ffffff" stroke="#a5aeb2" stroke-width="3"/>
+    <rect x="940" y="328" width="40" height="30" rx="3" fill="#e8ddc2" stroke="#b6a077" stroke-width="3"/>
+    <circle cx="868" cy="400" r="22" fill="#1f3e52"/>
+    <text x="868" y="408" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+    <rect x="862" y="430" width="134" height="48" rx="8" fill="#ffffff" stroke="#d6a83c" stroke-width="5"/>
+    <text x="929" y="462" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="18" font-weight="bold" fill="#8a6a1c" text-anchor="middle">1,000㎡以上</text>
+  </g>
+
+  <!-- 下部の帯 -->
+  <rect x="0" y="490" width="1000" height="70" fill="#1f3e52"/>
+  <rect x="0" y="490" width="1000" height="5" fill="#d6a83c"/>
+  <text x="26" y="522" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="19" font-weight="bold" fill="#ffffff">1から3は、業者を呼ぶ前に持ち主の側で終わる</text>
+  <text x="26" y="548" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="16" fill="#cddae2">面積 → 高さ → 判定シート → 県の許可が要るか → 町の土地利用事業の承認</text>
+</svg>
