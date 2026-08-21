@@ -2678,7 +2678,90 @@ def scene_bairitsu_rosenka(d):
     band(d, ["路線価は無い。", "倍率表を開く"], "森町ライフハック／農地・山林・茶畑")
 
 
+def scene_akihabus_fare(d):
+    """山あいの家から袋井方面へ出る道と、五百九十円を七百十円に書き換えた運賃札の場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 102, 672, 718], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 右奥：袋井の街（駅舎と病院の棟）
+    d.rectangle([604, 344, 744, 412], fill=(224, 230, 234), outline=(158, 168, 176), width=3)
+    d.polygon([(596, 344), (674, 314), (752, 344)], fill=(183, 194, 202))
+    for x in (618, 654, 690, 722):
+        d.rectangle([x, 360, x + 18, 384], fill=(146, 178, 200))
+    d.rectangle([516, 356, 588, 412], fill=(246, 247, 243), outline=(166, 175, 166), width=3)
+    d.rectangle([538, 342, 566, 356], fill=(201, 211, 205))
+    d.line([(544, 348), (560, 348)], fill=(192, 69, 60), width=5)
+    d.line([(552, 342), (552, 356)], fill=(192, 69, 60), width=5)
+    d.rectangle([516, 412, 752, 420], fill=(195, 200, 191))
+    # 道路
+    d.polygon([(0, 470), (300, 402), (760, 372), (760, 404), (312, 434), (0, 508)],
+              fill=(176, 172, 164))
+    for x in range(10, 730, 62):
+        d.line([(x, 468 - x // 7), (x + 28, 464 - x // 7)], fill=(240, 238, 230), width=5)
+    # 左：実家
+    d.polygon([(12, 386), (96, 348), (180, 386)], fill=(125, 106, 82))
+    d.rectangle([30, 386, 164, 452], fill=(240, 236, 226), outline=(178, 169, 154), width=3)
+    d.rectangle([46, 402, 82, 430], fill=(203, 214, 212), outline=(150, 161, 159), width=3)
+    d.rectangle([106, 402, 142, 430], fill=(203, 214, 212), outline=(150, 161, 159), width=3)
+    # 高齢の女性と杖
+    d.ellipse([186, 396, 212, 422], fill=(232, 205, 180), outline=(183, 154, 128), width=2)
+    d.polygon([(186, 404), (199, 392), (212, 404)], fill=(201, 196, 189))
+    d.polygon([(188, 424), (210, 424), (216, 470), (182, 470)], fill=(127, 150, 168))
+    d.line([(218, 428), (222, 472)], fill=(138, 111, 82), width=4)
+    # 町営バス（200円）
+    d.rounded_rectangle([238, 396, 372, 458], radius=8, fill=(245, 247, 242),
+                        outline=(92, 114, 132), width=4)
+    d.rectangle([238, 396, 372, 412], fill=(77, 127, 95))
+    for x in (252, 292, 332):
+        d.rectangle([x, 420, x + 30, 442], fill=(188, 212, 224))
+    d.ellipse([248, 448, 276, 476], fill=(59, 63, 66))
+    d.ellipse([334, 448, 362, 476], fill=(59, 63, 66))
+    d.rounded_rectangle([214, 330, 344, 376], radius=7, fill=(255, 255, 255),
+                        outline=(47, 95, 69), width=4)
+    d.text((236, 338), "200円", font=ImageFont.truetype(FONT_BOLD, 30), fill=(47, 95, 69))
+    # 乗り継ぎのバス停
+    d.rectangle([408, 390, 416, 462], fill=(154, 163, 155))
+    d.rounded_rectangle([354, 348, 482, 388], radius=5, fill=(255, 255, 255),
+                        outline=(108, 123, 111), width=4)
+    d.text((366, 356), "森林組合前", font=ImageFont.truetype(FONT_BOLD, 21), fill=(51, 70, 58))
+    # 秋葉線バス
+    d.rounded_rectangle([472, 400, 622, 466], radius=8, fill=(251, 250, 245),
+                        outline=(63, 91, 109), width=4)
+    d.rectangle([472, 400, 622, 418], fill=(192, 69, 60))
+    for x in (486, 528, 570):
+        d.rectangle([x, 426, x + 32, 448], fill=(188, 212, 224))
+    d.ellipse([484, 456, 514, 486], fill=(59, 63, 66))
+    d.ellipse([582, 456, 612, 486], fill=(59, 63, 66))
+    # 590円に斜線／710円
+    d.rounded_rectangle([378, 490, 512, 534], radius=7, fill=(236, 234, 228),
+                        outline=(154, 149, 140), width=3)
+    d.text((398, 497), "590円", font=ImageFont.truetype(FONT_REGULAR, 26), fill=(111, 106, 98))
+    d.line([(386, 528), (504, 496)], fill=(176, 74, 64), width=6)
+    d.rounded_rectangle([534, 480, 730, 542], radius=8, fill=(255, 255, 255),
+                        outline=(192, 69, 60), width=5)
+    d.text((560, 490), "710円", font=ImageFont.truetype(FONT_BOLD, 40), fill=(168, 58, 49))
+    # 手前：暦と財布
+    d.rounded_rectangle([24, 486, 200, 578], radius=6, fill=(255, 255, 255),
+                        outline=(143, 151, 143), width=4)
+    d.rectangle([24, 486, 200, 506], fill=(63, 91, 109))
+    for r in range(2):
+        for c in range(5):
+            d.rectangle([36 + c * 32, 516 + r * 26, 58 + c * 32, 532 + r * 26],
+                        fill=(210, 219, 224))
+    d.ellipse([64, 512, 90, 536], outline=(192, 69, 60), width=4)
+    d.ellipse([160, 538, 186, 562], outline=(192, 69, 60), width=4)
+    d.rounded_rectangle([216, 516, 320, 578], radius=6, fill=(138, 111, 82),
+                        outline=(109, 87, 63), width=3)
+    d.rectangle([248, 538, 288, 554], fill=(217, 201, 168))
+    band(d, ["17年ぶりの改定。", "親の足は月いくらか"], "森町ライフハック／地区差・交通・立地")
+
+
 SCENES = {
+    "20260821-akihabus-fare-revision": scene_akihabus_fare,
     "20260820-morimachi-bairitsu-rosenka": scene_bairitsu_rosenka,
     "20260820-tractor-seatbelt-2027": scene_tractor_seatbelt,
     "20260820-sanchi-kofukin-suiden": scene_sanchi_kofukin,
