@@ -19,7 +19,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-CSS_HREF = "/assets/karte-cta.css?v=20260805a"
+CSS_HREF = "/assets/karte-cta.css?v=20260807a"
 
 EARLY_START = "<!-- KARTE-CTA-EARLY:START -->"
 EARLY_END = "<!-- KARTE-CTA-EARLY:END -->"
@@ -53,6 +53,8 @@ DESCRIPTION = (
     "住所をもとに、道路・境界・農地・登記など、次に確認する順番を宅建士が整理します。"
     "作成料0円、入力約1分。申込みだけで売却依頼にはなりません。"
 )
+SALE_LINK_LABEL = "森町の家・土地の売却を相談する"
+SALE_NOTE = "相続登記前・家財が残った状態・農地や山林を含む場合も相談できます。"
 DISCLOSURE = (
     "このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）の民間サービスです。"
     "ご利用は任意で、森町の制度利用には影響しません。森町役場とは関係ありません。"
@@ -79,6 +81,19 @@ def sample_url(content: str, placement: str) -> str:
     )
 
 
+def sale_url(content: str, placement: str) -> str:
+    """売却をすでに決めている人向けの相談窓口。
+
+    カルテCTAはこの2ページで通常の不動産CTAを上書きするため、
+    上書きしたままだと売却意欲が最も高い層の出口が無くなる。
+    """
+    return (
+        "https://fudosan.atawi.link/areas/mori/"
+        "?utm_source=morimachi_lifehack&utm_medium=referral"
+        f"&utm_campaign=morimachi_sale&utm_content={content}_{placement}_sale"
+    )
+
+
 def render_card(content: str, placement: str) -> str:
     heading_id = f"karte-cta-{content.replace('_', '-')}-{placement}"
     return (
@@ -97,6 +112,10 @@ def render_card(content: str, placement: str) -> str:
         'target="_blank" rel="noopener" data-track-click="cta_karte_sample">'
         'まずは見本を見る</a>'
         '</div>'
+        '<p class="karte-cta-decided">すでに売却を考えている方は、'
+        f'<a href="{esc(sale_url(content, placement))}" '
+        'target="_blank" rel="noopener" data-track-click="cta_sale_consultation">'
+        f'{esc(SALE_LINK_LABEL)}</a>。{esc(SALE_NOTE)}</p>'
         f'<p class="cta-disclosure">※{esc(DISCLOSURE)}</p>'
         '</section>'
     )

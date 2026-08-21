@@ -186,3 +186,19 @@
     font-size: 13px;
   }
 }
+
+/* 売却をすでに決めている人向けの出口（改修計画書 §28 CTAの2系統化）。
+   カルテCTAが通常の不動産CTAを上書きするため、この行が無いと
+   売却意欲が最も高い層に相談窓口が示されない。 */
+.karte-cta-decided {
+  margin: 14px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, .28);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.karte-cta-decided a {
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
