@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ohm1Title ohm1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="ohm1Title">静岡県森町の太田川沿いの集落と、浸水深の六段階を並べたイラスト</title>
+  <desc id="ohm1Desc">左奥に太田川ダムからの谷筋、中央に堤防に挟まれた太田川と橋、右手に三倉川が合流する地点が描かれています。川沿いには瓦屋根の家が三軒並び、右側には浸水深の色分けを示す縦の帯があり、下から0.3m未満、0.3から0.5m、0.5から1.0m、1.0から3.0m、3.0から5.0m、5.0から10.0mの六段階が積み上がっています。手前の一軒には、道路面から玄関の敷居までの段差を測る巻き尺が当てられています。背景には段になった茶畑と杉林、遠州の山並みが広がっています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="ohm1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfd6ea"/><stop offset="1" stop-color="#e9f0e6"/>
+    </linearGradient>
+    <linearGradient id="ohm1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa8bc"/><stop offset="1" stop-color="#b6cad2"/>
+    </linearGradient>
+    <linearGradient id="ohm1Water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9dc6de"/><stop offset="1" stop-color="#6ea3c4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="168" fill="url(#ohm1Sky)"/>
+  <path fill="url(#ohm1Far)" d="M0 108 L88 44 L186 108 L292 36 L400 108 L512 34 L620 108 L730 44 L836 108 L940 48 L1000 88 L1000 152 L0 152 Z"/>
+
+  <!-- 茶畑 -->
+  <path fill="#7fae57" d="M0 168 C 210 158, 430 182, 650 170 C 760 164, 858 174, 1000 168 L1000 208 L0 214 Z"/>
+  <g stroke="#5d8840" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 178 C 210 168, 430 192, 650 180 C 760 174, 858 184, 1000 178"/>
+    <path d="M0 194 C 210 184, 430 208, 650 196 C 760 190, 858 200, 1000 194"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M8 212 l15 -54 l15 54 z"/><path d="M40 212 l12 -44 l12 44 z"/>
+    <path d="M70 212 l11 -38 l11 38 z"/>
+  </g>
+  <path fill="#dfe8d6" d="M0 210 L1000 204 L1000 560 L0 560 Z"/>
+
+  <!-- 太田川ダムの谷筋（左奥） -->
+  <path fill="#9fb0a4" d="M0 214 L120 214 L152 262 L0 262 Z"/>
+  <rect x="96" y="216" width="58" height="44" fill="#c2c7c0" stroke="#8d948c" stroke-width="3"/>
+  <path fill="url(#ohm1Water)" d="M0 226 L96 226 L96 258 L0 258 Z"/>
+  <rect x="4" y="228" width="98" height="28" rx="5" fill="#ffffff" stroke="#5f7a8c" stroke-width="3"/>
+  <text x="53" y="249" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="14" font-weight="bold" fill="#1f3e52" text-anchor="middle">太田川ダム</text>
+
+  <!-- 太田川本流 -->
+  <path fill="#c6c9c0" d="M150 250 L640 236 L640 344 L150 364 Z"/>
+  <path fill="url(#ohm1Water)" d="M162 264 L628 250 L628 330 L162 350 Z"/>
+  <g stroke="#ffffff" stroke-width="4" opacity="0.55" fill="none">
+    <path d="M186 320 q60 -12 120 0 q60 12 120 0 q60 -12 120 0"/>
+  </g>
+  <!-- 三倉川の合流 -->
+  <path fill="#c6c9c0" d="M626 236 L742 176 L784 204 L646 276 Z"/>
+  <path fill="url(#ohm1Water)" d="M638 248 L740 194 L764 210 L650 266 Z"/>
+  <rect x="716" y="150" width="126" height="32" rx="6" fill="#ffffff" stroke="#5f7a8c" stroke-width="3"/>
+  <text x="779" y="173" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="16" font-weight="bold" fill="#2c4a5e" text-anchor="middle">三倉川</text>
+  <rect x="196" y="276" width="150" height="34" rx="6" fill="#ffffff" stroke="#5f7a8c" stroke-width="3"/>
+  <text x="271" y="300" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="16" font-weight="bold" fill="#2c4a5e" text-anchor="middle">太田川</text>
+
+  <!-- 橋 -->
+  <g>
+    <rect x="396" y="240" width="24" height="106" fill="#9aa39b"/>
+    <rect x="386" y="228" width="44" height="14" rx="3" fill="#b3bab2"/>
+  </g>
+
+  <!-- 川沿いの家3軒 -->
+  <g>
+    <path d="M136 428 L200 392 L264 428 Z" fill="#7d6a58"/>
+    <rect x="150" y="428" width="100" height="58" fill="#f2eee4" stroke="#b6ad9c" stroke-width="3"/>
+    <rect x="164" y="442" width="28" height="24" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="208" y="442" width="28" height="24" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+  </g>
+  <g>
+    <path d="M282 424 L346 388 L410 424 Z" fill="#7d6a58"/>
+    <rect x="296" y="424" width="100" height="62" fill="#f2eee4" stroke="#b6ad9c" stroke-width="3"/>
+    <rect x="310" y="438" width="28" height="24" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="354" y="438" width="28" height="24" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+  </g>
+  <!-- 手前の家（巻き尺つき） -->
+  <g>
+    <path d="M28 452 L110 408 L192 452 Z" fill="#6f5e4d"/>
+    <rect x="46" y="452" width="128" height="72" fill="#f6f2e8" stroke="#b6ad9c" stroke-width="3"/>
+    <rect x="62" y="470" width="34" height="28" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="122" y="470" width="34" height="28" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="88" y="504" width="44" height="20" fill="#8a7a66"/>
+  </g>
+  <!-- 地盤面と巻き尺 -->
+  <rect x="0" y="524" width="1000" height="10" fill="#b2ab9b"/>
+  <g>
+    <rect x="184" y="500" width="20" height="26" fill="#e4d24a" stroke="#8a7c1c" stroke-width="3"/>
+    <g stroke="#8a7c1c" stroke-width="2"><path d="M184 506 h20"/><path d="M184 512 h12"/><path d="M184 518 h20"/></g>
+    <path d="M194 496 v-24 M188 476 l6 -8 l6 8" fill="none" stroke="#8a7c1c" stroke-width="3"/>
+    <rect x="206" y="466" width="128" height="34" rx="6" fill="#ffffff" stroke="#8a7c1c" stroke-width="4"/>
+    <text x="270" y="490" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="16" font-weight="bold" fill="#6d611a" text-anchor="middle">段差を測る</text>
+  </g>
+
+  <!-- 浸水深の6段階 -->
+  <g>
+    <rect x="676" y="286" width="300" height="238" rx="8" fill="#ffffff" stroke="#8f978f" stroke-width="4"/>
+    <rect x="676" y="286" width="300" height="30" rx="8" fill="#1f3e52"/>
+    <text x="826" y="308" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">浸水した場合に想定される水深</text>
+    <g>
+      <rect x="692" y="324" width="46" height="28" fill="#2f5f96"/><text x="748" y="344" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="16" fill="#25313a">5.0〜10.0m</text>
+      <rect x="692" y="356" width="46" height="28" fill="#4a86bd"/><text x="748" y="376" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="16" fill="#25313a">3.0〜5.0m</text>
+      <rect x="692" y="388" width="46" height="28" fill="#77b0d6"/><text x="748" y="408" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="16" fill="#25313a">1.0〜3.0m</text>
+      <rect x="692" y="420" width="46" height="28" fill="#a7d0e6"/><text x="748" y="440" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="16" fill="#25313a">0.5〜1.0m</text>
+      <rect x="692" y="452" width="46" height="28" fill="#cbe4f1"/><text x="748" y="472" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="16" fill="#25313a">0.3〜0.5m</text>
+      <rect x="692" y="484" width="46" height="28" fill="#e6f2f8" stroke="#a9c3d1" stroke-width="2"/><text x="748" y="504" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="16" fill="#25313a">0.3m未満</text>
+    </g>
+  </g>
+
+  <!-- 下部の帯 -->
+  <rect x="0" y="534" width="1000" height="26" fill="#1f3e52"/>
+  <rect x="0" y="534" width="1000" height="4" fill="#d6a83c"/>
+  <text x="20" y="553" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="15" font-weight="bold" fill="#ffffff">色は6段階。同じ色でも、家ごとの段差までは入っていない</text>
+</svg>

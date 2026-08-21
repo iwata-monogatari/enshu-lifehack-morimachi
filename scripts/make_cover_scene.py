@@ -2757,10 +2757,65 @@ def scene_akihabus_fare(d):
     d.rounded_rectangle([216, 516, 320, 578], radius=6, fill=(138, 111, 82),
                         outline=(109, 87, 63), width=3)
     d.rectangle([248, 538, 288, 554], fill=(217, 201, 168))
-    band(d, ["17年ぶりの改定。", "親の足は月いくらか"], "森町ライフハック／地区差・交通・立地")
+    band(d, ["17年ぶりの改定。", "親の足は月いくらか"], "森町ライフハック／地区めぐり")
+
+
+def scene_ota_hazard_map(d):
+    """太田川沿いの家と、浸水深を六段階に色分けした区域図、玄関の段差を測る巻き尺の場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 676, 722], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 227, 200))
+    # 太田川と堤防
+    d.polygon([(0, 344), (760, 334), (760, 404), (0, 418)], fill=(198, 201, 192))
+    d.polygon([(0, 354), (760, 344), (760, 394), (0, 408)], fill=(126, 168, 196))
+    for y in (368, 384):
+        d.line([(20, y), (740, y - 8)], fill=(206, 226, 238), width=4)
+    # 橋
+    d.rectangle([386, 336, 422, 412], fill=(154, 163, 155))
+    d.rectangle([376, 326, 432, 340], fill=(179, 186, 178))
+    # 右奥：避難所の学校
+    d.rectangle([588, 232, 730, 292], fill=(238, 242, 238), outline=(142, 160, 143), width=3)
+    d.polygon([(578, 232), (659, 200), (740, 232)], fill=(127, 143, 150))
+    for x in (606, 646, 686):
+        d.rectangle([x, 250, x + 22, 274], fill=(198, 211, 216))
+    # 左：川沿いの家
+    d.polygon([(20, 452), (110, 404), (200, 452)], fill=(111, 94, 77))
+    d.rectangle([40, 452, 180, 528], fill=(246, 242, 232), outline=(182, 173, 156), width=3)
+    d.rectangle([58, 472, 96, 502], fill=(207, 217, 214), outline=(154, 165, 163), width=3)
+    d.rectangle([122, 472, 160, 502], fill=(207, 217, 214), outline=(154, 165, 163), width=3)
+    d.rectangle([88, 506, 132, 528], fill=(138, 122, 102))
+    # 地盤面と巻き尺
+    d.rectangle([0, 528, 760, 540], fill=(178, 171, 155))
+    d.rectangle([190, 500, 214, 528], fill=(228, 210, 74), outline=(138, 124, 28), width=3)
+    for y in (508, 516, 524):
+        d.line([(190, y), (214, y)], fill=(138, 124, 28), width=2)
+    d.line([(202, 496), (202, 466)], fill=(138, 124, 28), width=4)
+    d.polygon([(196, 470), (202, 460), (208, 470)], fill=(138, 124, 28))
+    d.rounded_rectangle([222, 452, 372, 494], radius=7, fill=(255, 255, 255),
+                        outline=(138, 124, 28), width=4)
+    d.text((238, 460), "段差を測る", font=ImageFont.truetype(FONT_BOLD, 24), fill=(109, 97, 26))
+    # 右手前：浸水深の6段階
+    d.rounded_rectangle([408, 400, 740, 578], radius=8, fill=(255, 255, 255),
+                        outline=(143, 151, 143), width=4)
+    d.rectangle([408, 400, 740, 430], fill=(31, 62, 82))
+    d.text((422, 405), "想定される水深", font=ImageFont.truetype(FONT_BOLD, 21), fill=(255, 255, 255))
+    ranks = (((47, 95, 150), "5.0〜10.0m"), ((74, 134, 189), "3.0〜5.0m"),
+             ((119, 176, 214), "1.0〜3.0m"), ((167, 208, 230), "0.5〜1.0m"),
+             ((203, 228, 241), "0.3〜0.5m"), ((230, 242, 248), "0.3m未満"))
+    f = ImageFont.truetype(FONT_REGULAR, 18)
+    for i, (col, label) in enumerate(ranks):
+        y = 440 + i * 23
+        d.rectangle([422, y, 466, y + 18], fill=col, outline=(169, 195, 209), width=2)
+        d.text((478, y - 1), label, font=f, fill=(37, 49, 58))
+    band(d, ["色は6段階。", "床の高さは図に無い"], "森町ライフハック／地区めぐり")
 
 
 SCENES = {
+    "20260821-ota-river-hazard-map": scene_ota_hazard_map,
     "20260821-akihabus-fare-revision": scene_akihabus_fare,
     "20260820-morimachi-bairitsu-rosenka": scene_bairitsu_rosenka,
     "20260820-tractor-seatbelt-2027": scene_tractor_seatbelt,
