@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fnu1Title fnu1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="fnu1Title">森町のふるさと納税4億1,442万円が四つの使い道へ分かれていく様子を水路として描いたイラスト</title>
+  <desc id="fnu1Desc">左端の大きな水槽に4億1,442万円と記され、そこから四本の水路が右へ分かれています。上から順に、空き家の絵が付いた移住交流6,025万円、格子戸の町家の絵が付いた小京都まちづくり3,436万円、校舎の絵が付いた子育て・教育1億6,957万円、道路工事の重機の絵が付いた町長におまかせ1億5,023万円の四つに流れ込みます。小京都まちづくりの先だけ細い破線が右へ伸びますが、その先にある祭りの屋台と鞘堂に納まった常夜灯までは届かず、祭り・社寺には費目が無いと記されています。背景には段になった茶畑と杉林、遠州の山並みが続いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="fnu1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbdcea"/><stop offset="1" stop-color="#eef2e6"/>
+    </linearGradient>
+    <linearGradient id="fnu1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba7bb"/><stop offset="1" stop-color="#b7cad1"/>
+    </linearGradient>
+    <linearGradient id="fnu1Water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fc0dd"/><stop offset="1" stop-color="#4e93b8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="118" fill="url(#fnu1Sky)"/>
+  <path fill="url(#fnu1Far)" d="M0 78 L92 26 L186 78 L292 20 L398 78 L508 18 L614 78 L722 26 L828 78 L930 30 L1000 66 L1000 108 L0 108 Z"/>
+  <path fill="#7fae57" d="M0 118 C 220 112, 440 130, 660 120 C 770 114, 866 122, 1000 118 L1000 148 L0 152 Z"/>
+  <g stroke="#5d8840" stroke-width="3" opacity="0.85" fill="none">
+    <path d="M0 128 C 220 122, 440 140, 660 130 C 770 124, 866 132, 1000 128"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M8 150 l13 -42 l13 42 z"/><path d="M40 150 l11 -34 l11 34 z"/>
+    <path d="M950 150 l13 -40 l13 40 z"/><path d="M922 150 l11 -32 l11 32 z"/>
+  </g>
+  <path fill="#e2ead9" d="M0 148 L1000 142 L1000 560 L0 560 Z"/>
+
+  <!-- 左：水槽 -->
+  <g>
+    <rect x="24" y="182" width="168" height="290" rx="10" fill="#dfe9ee" stroke="#6f8b99" stroke-width="6"/>
+    <rect x="34" y="228" width="148" height="234" rx="6" fill="url(#fnu1Water)"/>
+    <text x="30" y="212" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="26" font-weight="bold" fill="#2b5468">4億1,442万円</text>
+    <text x="30" y="502" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#3b4a42">令和6年度の受入</text>
+  </g>
+
+  <!-- 水路4本 -->
+  <g fill="none" stroke="#4e93b8" stroke-width="22" stroke-linecap="round">
+    <path d="M192 250 C 300 236, 380 234, 456 236"/>
+    <path d="M192 292 C 300 296, 380 302, 456 306"/>
+    <path d="M192 350 C 300 358, 380 370, 456 376"/>
+    <path d="M192 402 C 300 420, 380 438, 456 446"/>
+  </g>
+
+  <!-- 4つの受け皿 -->
+  <g>
+    <!-- 1 移住交流 -->
+    <rect x="456" y="204" width="316" height="64" rx="8" fill="#ffffff" stroke="#7d8a80" stroke-width="4"/>
+    <path d="M470 236 L500 216 L530 236 Z" fill="#7d6a58"/>
+    <rect x="478" y="236" width="44" height="24" fill="#f2eee4" stroke="#b6ad9c" stroke-width="3"/>
+    <text x="544" y="230" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="22" font-weight="bold" fill="#3b4a42">移住交流</text>
+    <text x="544" y="256" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#4e6b78">6,025万円</text>
+
+    <!-- 2 小京都 -->
+    <rect x="456" y="276" width="316" height="64" rx="8" fill="#ffffff" stroke="#2f7f5f" stroke-width="5"/>
+    <path d="M470 306 L500 288 L530 306 Z" fill="#6b6154"/>
+    <rect x="476" y="306" width="48" height="26" fill="#efe9dc" stroke="#b6ad9c" stroke-width="3"/>
+    <g fill="#8a6a44"><rect x="482" y="312" width="10" height="18"/><rect x="496" y="312" width="10" height="18"/><rect x="510" y="312" width="8" height="18"/></g>
+    <text x="544" y="302" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="22" font-weight="bold" fill="#2b6f54">小京都まちづくり</text>
+    <text x="542" y="328" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="17" fill="#4e6b78">3,436万円／充当699万円</text>
+
+    <!-- 3 子育て・教育 -->
+    <rect x="456" y="348" width="316" height="64" rx="8" fill="#ffffff" stroke="#7d8a80" stroke-width="4"/>
+    <rect x="474" y="376" width="52" height="28" fill="#f2eee4" stroke="#9aa5a3" stroke-width="3"/>
+    <path d="M468 376 L532 376 L524 360 L476 360 Z" fill="#7d8a80"/>
+    <g fill="#cfd9d6" stroke="#9aa5a3" stroke-width="2"><rect x="482" y="384" width="14" height="14"/><rect x="504" y="384" width="14" height="14"/></g>
+    <text x="544" y="374" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="22" font-weight="bold" fill="#3b4a42">子育て・教育</text>
+    <text x="544" y="400" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#4e6b78">1億6,957万円</text>
+
+    <!-- 4 町長におまかせ -->
+    <rect x="456" y="420" width="316" height="64" rx="8" fill="#ffffff" stroke="#7d8a80" stroke-width="4"/>
+    <rect x="474" y="440" width="46" height="28" rx="5" fill="#e8b23f" stroke="#a87e1f" stroke-width="4"/>
+    <path d="M474 448 L452 434" stroke="#a87e1f" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="486" cy="470" r="9" fill="#4d5358"/>
+    <circle cx="512" cy="470" r="9" fill="#4d5358"/>
+    <text x="544" y="446" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="22" font-weight="bold" fill="#3b4a42">町長におまかせ</text>
+    <text x="544" y="472" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#4e6b78">1億5,023万円</text>
+  </g>
+
+  <!-- 小京都から先へ伸びる細い破線（届かない） -->
+  <path d="M772 308 L816 300" stroke="#8fbfd6" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M818 298 L876 288" stroke="#b6d3e0" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="10 14"/>
+
+  <!-- 右：祭りの屋台と鞘堂（届いていない側） -->
+  <g>
+    <path d="M812 224 L864 194 L916 224 Z" fill="#6b6154"/>
+    <rect x="820" y="224" width="9" height="44" fill="#8a6a44"/>
+    <rect x="900" y="224" width="9" height="44" fill="#8a6a44"/>
+    <rect x="844" y="236" width="40" height="24" fill="#f4e3b4" stroke="#a08d55" stroke-width="4"/>
+    <path d="M864 240 l7 15 l-14 0 z" fill="#e8893f"/>
+    <rect x="812" y="266" width="104" height="10" fill="#6f5a3f"/>
+
+    <path d="M816 340 L906 340 L916 356 L806 356 Z" fill="#8a6a44"/>
+    <rect x="822" y="356" width="80" height="32" fill="#c8a877" stroke="#8a6a44" stroke-width="3"/>
+    <rect x="834" y="364" width="20" height="24" fill="#e8d7ae"/>
+    <rect x="870" y="364" width="20" height="24" fill="#e8d7ae"/>
+    <circle cx="840" cy="394" r="9" fill="#5c5045"/>
+    <circle cx="886" cy="394" r="9" fill="#5c5045"/>
+
+    <text x="800" y="440" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="23" font-weight="bold" fill="#a63b31">祭り・社寺には</text>
+    <text x="800" y="470" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="23" font-weight="bold" fill="#a63b31">費目が無い</text>
+  </g>
+</svg>

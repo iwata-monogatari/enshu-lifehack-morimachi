@@ -2987,7 +2987,54 @@ def scene_akiba_kaido_isan(d):
     band(d, ["灯りを点すのは、", "県でも町でもない"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_furusato_tax_use(d):
+    """ふるさと納税4億1,442万円が四つの使い道へ分かれ、祭りには届かない場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 676, 720], 300)
+    d.polygon([(0, 292), (760, 284), (760, 320), (0, 330)], fill=(123, 169, 84))
+    d.line([(0, 300), (760, 292)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 324), (760, 314), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 232, 212))
+    # 左：水槽
+    d.rounded_rectangle([24, 372, 168, 566], radius=8, fill=(223, 233, 238),
+                        outline=(111, 139, 153), width=6)
+    d.rounded_rectangle([34, 404, 158, 558], radius=5, fill=(94, 160, 194))
+    d.text((22, 336), "4億1,442万円", font=ImageFont.truetype(FONT_BOLD, 27), fill=(43, 84, 104))
+    # 水路
+    for y0 in (400, 442, 484, 526):
+        d.line([(168, y0), (300, y0)], fill=(78, 147, 184), width=20)
+    # 4つの受け皿
+    rows = (
+        (382, "移住交流", (125, 138, 128), (59, 74, 66)),
+        (424, "小京都まちづくり", (47, 127, 95), (43, 111, 84)),
+        (466, "子育て・教育", (125, 138, 128), (59, 74, 66)),
+        (508, "町長におまかせ", (125, 138, 128), (59, 74, 66)),
+    )
+    f = ImageFont.truetype(FONT_BOLD, 23)
+    for y0, label, line_color, text_color in rows:
+        d.rounded_rectangle([300, y0, 596, y0 + 38], radius=6, fill=(255, 255, 255),
+                            outline=line_color, width=5)
+        d.text((316, y0 + 6), label, font=f, fill=text_color)
+    d.text((24, 570), "小京都は3,436万円→充当699万円",
+           font=ImageFont.truetype(FONT_REGULAR, 17), fill=(78, 107, 120))
+    # 右：届いていない鞘堂と屋台
+    d.polygon([(620, 372), (686, 334), (752, 372)], fill=(107, 97, 84))
+    d.rectangle([628, 372, 638, 416], fill=(138, 106, 68))
+    d.rectangle([734, 372, 744, 416], fill=(138, 106, 68))
+    d.rectangle([656, 384, 700, 410], fill=(244, 227, 180), outline=(160, 141, 85), width=4)
+    d.polygon([(678, 388), (686, 404), (670, 404)], fill=(232, 137, 63))
+    d.rectangle([620, 416, 752, 426], fill=(111, 90, 63))
+    d.polygon([(626, 470), (740, 470), (750, 486), (616, 486)], fill=(138, 106, 68))
+    d.rectangle([632, 486, 736, 520], fill=(200, 168, 119), outline=(138, 106, 68), width=3)
+    d.ellipse([642, 516, 662, 536], fill=(92, 80, 69))
+    d.ellipse([706, 516, 726, 536], fill=(92, 80, 69))
+    d.text((616, 542), "祭り・社寺には", font=ImageFont.truetype(FONT_BOLD, 20), fill=(166, 59, 49))
+    d.text((616, 566), "費目が無い", font=ImageFont.truetype(FONT_BOLD, 20), fill=(166, 59, 49))
+    band(d, ["4億円は町に入る、", "祭りには届かない"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
+    "20260822-morimachi-furusato-tax-use": scene_furusato_tax_use,
     "20260822-shizuoka-isan-akiba-kaido-morimachi": scene_akiba_kaido_isan,
     "20260822-festival-stall-permit-notification": scene_festival_stall_permit,
     "20260821-morimachi-moritsuchi-permit": scene_moritsuchi_permit,
