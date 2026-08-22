@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="sia2Title sia2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="sia2Title">秋葉街道沿いの家で確かめる順番を、左から右へ並べた図解のイラスト</title>
+  <desc id="sia2Desc">左端に瓦屋根の家があり、そこから道が右へ伸びています。一つ目の地点には地区名を並べた紙が立てられ、自分の地区名を一覧と照らし合わせる場面が描かれています。二つ目の地点には鞘堂と常夜灯があり、灯明と幟の当番表が掛かっています。三つ目の地点には役場の建物と受話器があり、町の担当係へ確認する場面になっています。四つ目の地点には土地の図面と境界杭が置かれ、灯籠の建つ土地が誰の名義かを確かめる場面が描かれています。背景には段になった茶畑、杉林、遠州の山並みが続いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="sia2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9daea"/><stop offset="1" stop-color="#eef2e6"/>
+    </linearGradient>
+    <linearGradient id="sia2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba7bb"/><stop offset="1" stop-color="#b7cad1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="140" fill="url(#sia2Sky)"/>
+  <path fill="url(#sia2Far)" d="M0 88 L94 32 L188 88 L294 26 L400 88 L510 24 L616 88 L724 32 L830 88 L932 36 L1000 74 L1000 128 L0 128 Z"/>
+
+  <path fill="#7fae57" d="M0 140 C 220 132, 440 154, 660 142 C 770 136, 866 146, 1000 140 L1000 180 L0 186 Z"/>
+  <g stroke="#5d8840" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 150 C 220 142, 440 164, 660 152 C 770 146, 866 156, 1000 150"/>
+    <path d="M0 166 C 220 158, 440 180, 660 168 C 770 162, 866 172, 1000 166"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M8 184 l15 -52 l15 52 z"/><path d="M40 184 l12 -42 l12 42 z"/>
+    <path d="M948 184 l15 -50 l15 50 z"/><path d="M920 184 l12 -40 l12 40 z"/>
+  </g>
+  <path fill="#e2ead9" d="M0 182 L1000 176 L1000 560 L0 560 Z"/>
+
+  <!-- 道 -->
+  <path d="M46 500 C 240 500, 420 486, 600 470 C 760 456, 880 448, 986 444" stroke="#cdc0a5" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <g stroke="#ffffff" stroke-width="5" stroke-dasharray="18 22" fill="none" opacity="0.85">
+    <path d="M46 500 C 240 500, 420 486, 600 470 C 760 456, 880 448, 986 444"/>
+  </g>
+
+  <!-- 左端：家 -->
+  <g>
+    <path d="M14 396 L86 356 L158 396 Z" fill="#7d6a58"/>
+    <rect x="26" y="396" width="120" height="72" fill="#f2eee4" stroke="#b6ad9c" stroke-width="4"/>
+    <rect x="42" y="414" width="34" height="28" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="98" y="414" width="34" height="28" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="60" y="454" width="52" height="14" fill="#c9b58a"/>
+  </g>
+
+  <!-- 1. 地区名の一覧 -->
+  <g>
+    <rect x="176" y="286" width="196" height="132" rx="8" fill="#ffffff" stroke="#7d8a80" stroke-width="5"/>
+    <text x="192" y="318" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#3b4a42">下飯田・東組</text>
+    <text x="192" y="346" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#3b4a42">大門・城下</text>
+    <text x="192" y="374" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#3b4a42">黒石・黒田</text>
+    <text x="192" y="402" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#3b4a42">赤根・三倉ほか</text>
+    <text x="174" y="272" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="24" font-weight="bold" fill="#2b6f54">1. 地区名を照合</text>
+    <circle cx="228" cy="494" r="18" fill="#2f7f5f" stroke="#ffffff" stroke-width="5"/>
+    <text x="221" y="503" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff">1</text>
+  </g>
+
+  <!-- 2. 鞘堂と当番表 -->
+  <g>
+    <path d="M406 300 L484 252 L562 300 Z" fill="#6b6154"/>
+    <path d="M406 300 L562 300 L562 312 L406 312 Z" fill="#5d5449"/>
+    <rect x="418" y="312" width="14" height="104" fill="#8a6a44"/>
+    <rect x="536" y="312" width="14" height="104" fill="#8a6a44"/>
+    <rect x="410" y="412" width="148" height="14" fill="#6f5a3f"/>
+    <rect x="456" y="384" width="56" height="28" fill="#9b8f7c" stroke="#6f6455" stroke-width="4"/>
+    <rect x="462" y="352" width="44" height="32" fill="#f4e3b4" stroke="#a08d55" stroke-width="4"/>
+    <path d="M484 358 l8 18 l-16 0 z" fill="#e8893f"/>
+    <rect x="576" y="330" width="8" height="96" fill="#8a6a44"/>
+    <path d="M584 336 L628 336 L628 400 L584 400 Z" fill="#ffffff" stroke="#b8443a" stroke-width="4"/>
+    <text x="396" y="244" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="24" font-weight="bold" fill="#2b6f54">2. 当番表を数える</text>
+    <circle cx="470" cy="482" r="18" fill="#2f7f5f" stroke="#ffffff" stroke-width="5"/>
+    <text x="463" y="491" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff">2</text>
+  </g>
+
+  <!-- 3. 役場と受話器 -->
+  <g>
+    <rect x="656" y="292" width="120" height="76" fill="#f2eee4" stroke="#9aa5a3" stroke-width="4"/>
+    <path d="M650 292 L782 292 L768 268 L664 268 Z" fill="#7d8a80"/>
+    <rect x="674" y="314" width="28" height="28" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="730" y="314" width="28" height="28" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <g transform="translate(788 300)">
+      <path d="M0 22 C 0 8, 12 -2, 26 -2 C 40 -2, 52 8, 52 22" stroke="#4b6f8a" stroke-width="10" fill="none"/>
+      <rect x="-8" y="18" width="20" height="16" rx="5" fill="#4b6f8a"/>
+      <rect x="40" y="18" width="20" height="16" rx="5" fill="#4b6f8a"/>
+    </g>
+    <text x="646" y="260" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="24" font-weight="bold" fill="#2b6f54">3. 指定区分を聞く</text>
+    <circle cx="712" cy="466" r="18" fill="#2f7f5f" stroke="#ffffff" stroke-width="5"/>
+    <text x="705" y="475" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff">3</text>
+  </g>
+
+  <!-- 4. 図面と境界杭 -->
+  <g>
+    <rect x="820" y="368" width="164" height="112" rx="6" fill="#fdfaf0" stroke="#c2ab6c" stroke-width="5"/>
+    <path d="M840 456 L890 392 L964 424 L928 464 Z" fill="#e7edd9" stroke="#7d8a80" stroke-width="4"/>
+    <g fill="#8a6a44">
+      <rect x="834" y="446" width="10" height="22"/><rect x="884" y="382" width="10" height="22"/>
+      <rect x="958" y="414" width="10" height="22"/><rect x="922" y="454" width="10" height="22"/>
+    </g>
+    <text x="816" y="356" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="24" font-weight="bold" fill="#2b6f54">4. 足元の名義</text>
+    <circle cx="898" cy="504" r="18" fill="#2f7f5f" stroke="#ffffff" stroke-width="5"/>
+    <text x="891" y="513" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff">4</text>
+  </g>
+</svg>

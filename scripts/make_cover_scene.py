@@ -2933,7 +2933,62 @@ def scene_festival_stall_permit(d):
     band(d, ["模擬店の線は、", "品名の側にある"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_akiba_kaido_isan(d):
+    """旧街道沿いの鞘堂と秋葉山常夜灯に、地区が灯明を上げている場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 100, 676, 720], 300)
+    d.polygon([(0, 292), (760, 284), (760, 322), (0, 332)], fill=(123, 169, 84))
+    for i in range(2):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 326), (760, 316), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 232, 212))
+    # 旧街道の路面
+    d.polygon([(0, 500), (760, 468), (760, BAND_TOP), (0, BAND_TOP)], fill=(205, 192, 165))
+    d.line([(0, 536), (760, 504)], fill=(188, 174, 145), width=4)
+    # 左：商家と旅籠の看板
+    d.polygon([(-6, 366), (86, 326), (178, 366)], fill=(111, 95, 76))
+    d.rectangle([6, 366, 166, 470], fill=(239, 233, 220), outline=(182, 173, 156), width=4)
+    for x0 in (22, 74, 126):
+        d.rectangle([x0, 384, x0 + 32, 428], fill=(138, 106, 68))
+    d.rectangle([6, 434, 166, 444], fill=(138, 106, 68))
+    d.rounded_rectangle([22, 452, 110, 486], radius=4, fill=(253, 248, 234),
+                        outline=(138, 106, 68), width=4)
+    d.text((34, 456), "旅籠", font=ImageFont.truetype(FONT_BOLD, 24), fill=(107, 82, 51))
+    # 中央：鞘堂
+    d.polygon([(250, 336), (380, 268), (510, 336)], fill=(107, 97, 84))
+    d.polygon([(266, 332), (380, 276), (494, 332)], fill=(138, 128, 115))
+    d.rectangle([250, 336, 510, 350], fill=(93, 84, 73))
+    d.rectangle([270, 350, 288, 486], fill=(138, 106, 68))
+    d.rectangle([472, 350, 490, 486], fill=(138, 106, 68))
+    d.rectangle([258, 482, 502, 498], fill=(111, 90, 63))
+    # 常夜灯（瓦製）
+    d.rectangle([332, 442, 428, 482], fill=(155, 143, 124), outline=(111, 100, 85), width=4)
+    d.rectangle([346, 406, 414, 442], fill=(176, 164, 143), outline=(111, 100, 85), width=4)
+    d.rectangle([338, 366, 422, 406], fill=(244, 227, 180), outline=(160, 141, 85), width=4)
+    d.polygon([(380, 372), (392, 400), (368, 400)], fill=(232, 137, 63))
+    d.polygon([(322, 366), (438, 366), (450, 344), (310, 344)], fill=(138, 128, 115))
+    d.rectangle([372, 330, 388, 344], fill=(107, 97, 84))
+    # 幟
+    d.rectangle([540, 320, 550, 498], fill=(138, 106, 68))
+    d.rectangle([550, 326, 618, 452], fill=(255, 255, 255), outline=(184, 68, 58), width=4)
+    for y0 in (346, 376, 406):
+        d.rectangle([574, y0, 594, y0 + 20], fill=(184, 68, 58))
+    # 手前：地区名の紙
+    d.rounded_rectangle([28, 500, 300, 586], radius=8, fill=(255, 255, 255),
+                        outline=(125, 138, 128), width=5)
+    f = ImageFont.truetype(FONT_REGULAR, 21)
+    d.text((44, 508), "城下・大門・黒石", font=f, fill=(59, 74, 66))
+    d.text((44, 536), "北戸綿・黒田・赤根", font=f, fill=(59, 74, 66))
+    d.text((44, 560), "ほか20地区", font=ImageFont.truetype(FONT_BOLD, 22), fill=(43, 111, 84))
+    # 右手前：手入れをする住民
+    d.ellipse([604, 452, 652, 500], fill=(240, 216, 189), outline=(200, 168, 136), width=3)
+    d.polygon([(604, 462), (652, 462), (646, 446), (610, 446)], fill=(154, 165, 163))
+    d.polygon([(596, 496), (660, 496), (670, 586), (586, 586)], fill=(95, 127, 142))
+    band(d, ["灯りを点すのは、", "県でも町でもない"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
+    "20260822-shizuoka-isan-akiba-kaido-morimachi": scene_akiba_kaido_isan,
     "20260822-festival-stall-permit-notification": scene_festival_stall_permit,
     "20260821-morimachi-moritsuchi-permit": scene_moritsuchi_permit,
     "20260821-ota-river-hazard-map": scene_ota_hazard_map,
