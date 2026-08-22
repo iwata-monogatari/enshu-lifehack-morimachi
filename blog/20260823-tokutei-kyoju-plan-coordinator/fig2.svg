@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tkp2Title tkp2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="tkp2Title">森町に実家や土地がある家族が、二地域居住の入口を確かめる順番を四つの段として描いたイラスト</title>
+  <desc id="tkp2Desc">左端に実家の瓦屋根の家があり、そこから右上へ階段状の段が伸びます。一段目には森町の地図と三つの区域の色分けが置かれ、自分の家がどの区域かを確かめる場面が描かれています。二段目には登記事項証明書と公図を広げた机があり、名義と接道を確かめる様子が描かれます。三段目には受話器と役場の建物が並び、定住推進課の窓口へ電話をかける場面になっています。四段目にはお試し居住住宅の玄関と鍵が描かれ、実際に泊まってみる段として示されています。背景には段になった茶畑と杉林、遠州の山並みが続いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="tkp2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbdcea"/><stop offset="1" stop-color="#eef2e6"/>
+    </linearGradient>
+    <linearGradient id="tkp2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba7bb"/><stop offset="1" stop-color="#b7cad1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="112" fill="url(#tkp2Sky)"/>
+  <path fill="url(#tkp2Far)" d="M0 76 L94 22 L188 76 L292 16 L398 76 L508 14 L614 76 L722 22 L828 76 L930 26 L1000 62 L1000 104 L0 104 Z"/>
+  <path fill="#7fae57" d="M0 112 C 220 106, 440 124, 660 114 C 770 108, 866 116, 1000 112 L1000 142 L0 146 Z"/>
+  <g stroke="#5d8840" stroke-width="3" opacity="0.85" fill="none">
+    <path d="M0 122 C 220 116, 440 134, 660 124 C 770 118, 866 126, 1000 122"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M10 144 l13 -40 l13 40 z"/><path d="M42 144 l11 -32 l11 32 z"/>
+    <path d="M948 142 l13 -38 l13 38 z"/><path d="M920 142 l11 -30 l11 30 z"/>
+  </g>
+  <path fill="#e2ead9" d="M0 142 L1000 136 L1000 560 L0 560 Z"/>
+
+  <!-- 左：実家 -->
+  <g>
+    <path fill="#8a6a4e" d="M32 396 l84 -58 l84 58 z"/>
+    <rect x="46" y="396" width="140" height="98" fill="#efe6d2" stroke="#a08d5f" stroke-width="4"/>
+    <rect x="94" y="430" width="44" height="64" fill="#8a7550"/>
+    <rect x="58" y="418" width="26" height="24" fill="#cfe0e6" stroke="#8f9d8b" stroke-width="3"/>
+    <rect x="150" y="418" width="26" height="24" fill="#cfe0e6" stroke="#8f9d8b" stroke-width="3"/>
+    <text x="34" y="528" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="23" font-weight="bold" fill="#4a4034">森町の実家</text>
+  </g>
+
+  <!-- 段 -->
+  <g font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif">
+    <!-- 1段目 -->
+    <rect x="214" y="400" width="192" height="128" rx="10" fill="#ffffff" stroke="#2f7f5f" stroke-width="5"/>
+    <g>
+      <rect x="236" y="420" width="70" height="76" rx="4" fill="#eef4ee" stroke="#5f7a68" stroke-width="3"/>
+      <rect x="242" y="428" width="58" height="20" fill="#9fcbb2"/>
+      <rect x="242" y="452" width="58" height="18" fill="#cfe3b8"/>
+      <rect x="242" y="474" width="58" height="16" fill="#b6d6cd"/>
+      <path fill="#c0392b" d="M272 452 l10 18 l-20 0 z"/>
+    </g>
+    <text x="318" y="440" font-size="30" font-weight="bold" fill="#22503f">①</text>
+    <text x="316" y="472" font-size="19" fill="#31564a">どの</text>
+    <text x="316" y="496" font-size="19" fill="#31564a">区域か</text>
+
+    <!-- 2段目 -->
+    <rect x="414" y="342" width="192" height="128" rx="10" fill="#ffffff" stroke="#6f8f3f" stroke-width="5"/>
+    <g>
+      <rect x="434" y="366" width="76" height="62" rx="3" fill="#fbfaf4" stroke="#8b8f6d" stroke-width="3" transform="rotate(-4 472 397)"/>
+      <g stroke="#8b8f6d" stroke-width="3" fill="none" transform="rotate(-4 472 397)">
+        <path d="M444 384 L500 384"/><path d="M444 398 L500 398"/><path d="M444 412 L484 412"/>
+      </g>
+      <rect x="452" y="424" width="66" height="34" rx="3" fill="#eef1e2" stroke="#6f8f3f" stroke-width="3"/>
+      <g stroke="#6f8f3f" stroke-width="3" fill="none"><path d="M474 424 L474 458"/><path d="M452 442 L518 442"/></g>
+    </g>
+    <text x="520" y="382" font-size="30" font-weight="bold" fill="#4b6229">②</text>
+    <text x="518" y="414" font-size="19" fill="#4d5a41">名義と</text>
+    <text x="518" y="438" font-size="19" fill="#4d5a41">接道</text>
+
+    <!-- 3段目 -->
+    <rect x="614" y="284" width="192" height="128" rx="10" fill="#ffffff" stroke="#4e7f9c" stroke-width="5"/>
+    <g>
+      <rect x="634" y="326" width="72" height="52" fill="#dde6ec" stroke="#5f7a88" stroke-width="3"/>
+      <path fill="#5f7a88" d="M630 326 l40 -26 l40 26 z"/>
+      <rect x="650" y="346" width="18" height="32" fill="#8ea6b3"/>
+      <rect x="676" y="346" width="18" height="18" fill="#cfe0e6"/>
+      <g stroke="#2f6c8d" stroke-width="7" fill="none" stroke-linecap="round">
+        <path d="M640 306 C 640 290, 656 286, 664 296"/>
+      </g>
+      <circle cx="638" cy="310" r="7" fill="#2f6c8d"/>
+      <circle cx="668" cy="300" r="7" fill="#2f6c8d"/>
+    </g>
+    <text x="718" y="324" font-size="30" font-weight="bold" fill="#2f6c8d">③</text>
+    <text x="716" y="356" font-size="19" fill="#3c5c6d">窓口へ</text>
+    <text x="716" y="380" font-size="19" fill="#3c5c6d">電話</text>
+
+    <!-- 4段目 -->
+    <rect x="806" y="208" width="182" height="150" rx="10" fill="#ffffff" stroke="#a5762a" stroke-width="5"/>
+    <text x="822" y="248" font-size="28" font-weight="bold" fill="#7d5c12">④</text>
+    <text x="864" y="246" font-size="19" fill="#6a5222">泊まってみる</text>
+    <g>
+      <path fill="#8a6a4e" d="M818 288 l40 -30 l40 30 z"/>
+      <rect x="828" y="288" width="60" height="52" fill="#efe6d2" stroke="#a08d5f" stroke-width="3"/>
+      <rect x="848" y="306" width="22" height="34" fill="#8a7550"/>
+      <g stroke="#a5762a" stroke-width="5" fill="none">
+        <circle cx="928" cy="296" r="11"/><path d="M937 302 L958 316 M950 311 L946 321"/>
+      </g>
+    </g>
+  </g>
+
+  <text x="214" y="548" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#4a5a50">①と②は今日できる。③で止まる家は、たいてい②が空欄のまま</text>
+</svg>

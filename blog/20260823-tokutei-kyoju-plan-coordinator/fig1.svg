@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tkp1Title tkp1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="tkp1Title">森町特定居住促進計画が指定した三つの区域と六つの拠点施設を、遠州の地形の上に描いたイラスト</title>
+  <desc id="tkp1Desc">左端に都市の集合住宅が立ち、そこから点線の矢印が右へ伸びます。中央から右にかけて、瓦屋根の町家とコワーキングスペースの看板が並ぶ森地区、棚田と茅葺きの古民家とコミュニティスペースのある問詰・鍛治島地区、林の中を自転車が走る亀久保・大河内地区の三区域が段になって並びます。それぞれの区域に拠点施設の数が書き分けられています。三区域の手前には空いた木の椅子が一脚置かれ、令和8年度からと書かれた札が添えられています。背景には段になった茶畑と杉林、遠州の山並みが続いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="tkp1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbdcea"/><stop offset="1" stop-color="#eef2e6"/>
+    </linearGradient>
+    <linearGradient id="tkp1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba7bb"/><stop offset="1" stop-color="#b7cad1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="118" fill="url(#tkp1Sky)"/>
+  <path fill="url(#tkp1Far)" d="M0 80 L96 24 L190 80 L296 18 L402 80 L512 16 L618 80 L726 24 L832 80 L934 28 L1000 64 L1000 108 L0 108 Z"/>
+  <path fill="#7fae57" d="M0 118 C 220 112, 440 130, 660 120 C 770 114, 866 122, 1000 118 L1000 150 L0 154 Z"/>
+  <g stroke="#5d8840" stroke-width="3" opacity="0.85" fill="none">
+    <path d="M0 129 C 220 123, 440 141, 660 131 C 770 125, 866 133, 1000 129"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M8 152 l13 -42 l13 42 z"/><path d="M40 152 l11 -34 l11 34 z"/>
+    <path d="M952 150 l13 -40 l13 40 z"/><path d="M924 150 l11 -32 l11 32 z"/>
+  </g>
+  <path fill="#e2ead9" d="M0 150 L1000 144 L1000 560 L0 560 Z"/>
+
+  <!-- 左：都市の集合住宅 -->
+  <g>
+    <rect x="34" y="190" width="118" height="232" rx="6" fill="#c3ccd2" stroke="#6d7c86" stroke-width="5"/>
+    <g fill="#5d7d92">
+      <rect x="50" y="212" width="26" height="22"/><rect x="86" y="212" width="26" height="22"/><rect x="122" y="212" width="16" height="22"/>
+      <rect x="50" y="250" width="26" height="22"/><rect x="86" y="250" width="26" height="22"/><rect x="122" y="250" width="16" height="22"/>
+      <rect x="50" y="288" width="26" height="22"/><rect x="86" y="288" width="26" height="22"/><rect x="122" y="288" width="16" height="22"/>
+      <rect x="50" y="326" width="26" height="22"/><rect x="86" y="326" width="26" height="22"/><rect x="122" y="326" width="16" height="22"/>
+    </g>
+    <rect x="78" y="378" width="34" height="44" fill="#7a6a58"/>
+    <text x="34" y="452" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="22" font-weight="bold" fill="#3b4a52">都市の住まい</text>
+  </g>
+
+  <!-- 破線の矢印 -->
+  <g fill="none" stroke="#4e7f9c" stroke-width="7" stroke-linecap="round" stroke-dasharray="16 13">
+    <path d="M164 300 L 232 300"/>
+  </g>
+  <path fill="#4e7f9c" d="M234 286 l26 14 l-26 14 z"/>
+
+  <!-- 右：3区域 -->
+  <g font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif">
+    <!-- 森地区 -->
+    <rect x="268" y="164" width="700" height="88" rx="10" fill="#ffffff" stroke="#2f7f5f" stroke-width="5"/>
+    <g>
+      <path fill="#8a6a4e" d="M292 214 l38 -30 l38 30 z"/>
+      <rect x="300" y="214" width="60" height="26" fill="#efe4cd" stroke="#a08d5f" stroke-width="3"/>
+      <g stroke="#a08d5f" stroke-width="2" fill="none"><path d="M314 214 L314 240"/><path d="M330 214 L330 240"/><path d="M346 214 L346 240"/></g>
+      <rect x="378" y="192" width="48" height="48" rx="4" fill="#dbe9e2" stroke="#2f7f5f" stroke-width="3"/>
+      <path stroke="#2f7f5f" stroke-width="3" fill="none" d="M388 208 L416 208 M388 220 L410 220"/>
+    </g>
+    <text x="444" y="200" font-size="25" font-weight="bold" fill="#22503f">① 森地区（都市計画区域内）</text>
+    <text x="444" y="232" font-size="20" fill="#41564c">pieces・天宮 ／ 拠点施設2件</text>
+
+    <!-- 問詰・鍛治島地区 -->
+    <rect x="268" y="264" width="700" height="88" rx="10" fill="#ffffff" stroke="#6f8f3f" stroke-width="5"/>
+    <g>
+      <path fill="#c7b183" d="M290 306 l40 -28 l40 28 z"/>
+      <rect x="298" y="306" width="64" height="28" fill="#e6dcc4" stroke="#9b8757" stroke-width="3"/>
+      <rect x="320" y="316" width="20" height="18" fill="#8a7550"/>
+      <g fill="#8fb75a">
+        <rect x="380" y="292" width="52" height="12" rx="3"/><rect x="386" y="310" width="46" height="12" rx="3"/><rect x="392" y="328" width="40" height="10" rx="3"/>
+      </g>
+    </g>
+    <text x="444" y="300" font-size="25" font-weight="bold" fill="#4b6229">② 問詰・鍛治島地区（区域外）</text>
+    <text x="444" y="332" font-size="20" fill="#4d5a41">鍛治島・たまどん・アクティ森 ／ 3件</text>
+
+    <!-- 亀久保・大河内地区 -->
+    <rect x="268" y="364" width="700" height="88" rx="10" fill="#ffffff" stroke="#3f6b52" stroke-width="5"/>
+    <g>
+      <g fill="#3f6b52">
+        <path d="M290 434 l16 -50 l16 50 z"/><path d="M322 434 l13 -40 l13 40 z"/><path d="M352 434 l15 -46 l15 46 z"/>
+      </g>
+      <g stroke="#334a3c" stroke-width="4" fill="none">
+        <circle cx="398" cy="424" r="13"/><circle cx="428" cy="424" r="13"/>
+        <path d="M398 424 L412 400 L428 424 M412 400 L424 400"/>
+      </g>
+    </g>
+    <text x="444" y="400" font-size="25" font-weight="bold" fill="#2c5340">③ 亀久保・大河内地区（区域外）</text>
+    <text x="444" y="432" font-size="20" fill="#41564c">ミリオンペタルバイクパーク ／ 1件</text>
+  </g>
+
+  <!-- 手前：空いた椅子と札 -->
+  <g>
+    <rect x="60" y="504" width="86" height="12" rx="3" fill="#9a7c56"/>
+    <rect x="128" y="454" width="12" height="52" rx="3" fill="#9a7c56"/>
+    <rect x="128" y="466" width="12" height="10" fill="#b89468"/>
+    <rect x="66" y="516" width="10" height="34" fill="#8a6c48"/>
+    <rect x="130" y="516" width="10" height="34" fill="#8a6c48"/>
+    <rect x="176" y="466" width="330" height="60" rx="8" fill="#fff6df" stroke="#c0972f" stroke-width="5"/>
+    <rect x="206" y="526" width="10" height="26" fill="#a98330"/>
+    <text x="196" y="505" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="25" font-weight="bold" fill="#7d5c12">令和8年度から配置</text>
+    <text x="530" y="497" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="24" font-weight="bold" fill="#8a4038">二地域居住コーディネーター</text>
+    <text x="530" y="530" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="20" fill="#6a4a44">人数・所属は公表資料からは読み取れない</text>
+  </g>
+</svg>

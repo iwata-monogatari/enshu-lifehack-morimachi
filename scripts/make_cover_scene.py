@@ -3033,7 +3033,57 @@ def scene_furusato_tax_use(d):
     band(d, ["4億円は町に入る、", "祭りには届かない"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_tokutei_kyoju_plan(d):
+    """森町特定居住促進計画の3区域と、令和8年度から置かれる空席のコーディネーター。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [12, 54, 690, 730], 300)
+    d.polygon([(0, 292), (760, 284), (760, 316), (0, 326)], fill=(123, 169, 84))
+    d.line([(0, 300), (760, 292)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 320), (760, 310), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 232, 212))
+    # 左：都市の集合住宅
+    d.rectangle([20, 330, 108, 478], fill=(195, 204, 210), outline=(109, 124, 134), width=5)
+    for row in range(4):
+        y0 = 344 + row * 30
+        for x0 in (32, 58, 84):
+            d.rectangle([x0, y0, x0 + 16, y0 + 18], fill=(93, 125, 146))
+    d.rectangle([50, 452, 74, 478], fill=(122, 106, 88))
+    d.text((18, 484), "都市の住まい", font=ImageFont.truetype(FONT_BOLD, 19), fill=(59, 74, 82))
+    # 破線の矢印
+    for x0 in range(118, 172, 18):
+        d.line([(x0, 400), (x0 + 11, 400)], fill=(78, 127, 156), width=7)
+    d.polygon([(176, 388), (198, 400), (176, 412)], fill=(78, 127, 156))
+    # 右：3区域
+    rows = (
+        (318, "① 森地区", "pieces・天宮", (47, 127, 95), (34, 80, 63)),
+        (384, "② 問詰・鍛治島", "鍛治島・たまどん・アクティ森", (111, 143, 63), (75, 98, 41)),
+        (450, "③ 亀久保・大河内", "バイクパーク", (63, 107, 82), (44, 83, 64)),
+    )
+    fb = ImageFont.truetype(FONT_BOLD, 23)
+    fr = ImageFont.truetype(FONT_REGULAR, 15)
+    for y0, head, sub, line_color, text_color in rows:
+        d.rounded_rectangle([208, y0, 744, y0 + 60], radius=7, fill=(255, 255, 255),
+                            outline=line_color, width=5)
+        d.polygon([(224, y0 + 34), (246, y0 + 16), (268, y0 + 34)], fill=(138, 106, 68))
+        d.rectangle([230, y0 + 34, 262, y0 + 50], fill=(239, 228, 205), outline=(160, 141, 95), width=2)
+        d.text((284, y0 + 7), head, font=fb, fill=text_color)
+        d.text((284, y0 + 36), sub, font=fr, fill=text_color)
+    # 手前：空いた椅子と札
+    d.rectangle([150, 522, 216, 532], fill=(154, 124, 86))
+    d.rectangle([206, 486, 216, 524], fill=(154, 124, 86))
+    d.rectangle([206, 494, 216, 502], fill=(184, 148, 104))
+    d.rectangle([154, 532, 164, 560], fill=(138, 108, 72))
+    d.rectangle([206, 532, 216, 560], fill=(138, 108, 72))
+    d.rounded_rectangle([236, 522, 566, 572], radius=7, fill=(255, 246, 223),
+                        outline=(192, 151, 47), width=5)
+    d.text((250, 534), "令和8年度から配置", font=ImageFont.truetype(FONT_BOLD, 25), fill=(125, 92, 18))
+    d.text((584, 524), "二地域居住", font=ImageFont.truetype(FONT_BOLD, 19), fill=(138, 64, 56))
+    d.text((584, 550), "コーディネーター", font=ImageFont.truetype(FONT_BOLD, 19), fill=(138, 64, 56))
+    band(d, ["区域も箱も揃った、", "座る人はこれから"], "森町ライフハック／移住・暮らし・データ")
+
+
 SCENES = {
+    "20260823-tokutei-kyoju-plan-coordinator": scene_tokutei_kyoju_plan,
     "20260822-morimachi-furusato-tax-use": scene_furusato_tax_use,
     "20260822-shizuoka-isan-akiba-kaido-morimachi": scene_akiba_kaido_isan,
     "20260822-festival-stall-permit-notification": scene_festival_stall_permit,
