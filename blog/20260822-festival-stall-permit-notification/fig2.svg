@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fsp2Title fsp2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="fsp2Title">森町で模擬店を出すときに確かめる順番を、一本の道と分かれ道として描いたイラスト</title>
+  <desc id="fsp2Desc">左端に地区の集会所があり、そこから道が右へ伸びています。一つ目の地点では、出す品名を一行ずつ書き出した紙が立てられ、焼きそばとわた菓子の絵が並んでいます。二つ目の地点で道が二つに分かれます。上の道は許可の側へ進み、磐田市見付の保健所の建物、一万六千百円と書かれた手数料の札、食品衛生責任者の証書が並びます。下の道は届出の側へ進み、届出用紙が一枚だけ置かれています。三つ目の地点にはガスコンロと赤い消火器があり、火気を使う場合は消防へ届け出ることを示しています。奥には朱塗りの鳥居が小さく見え、背景には段になった茶畑、杉林、遠州の山並みが続いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="fsp2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cddeea"/><stop offset="1" stop-color="#eef2e6"/>
+    </linearGradient>
+    <linearGradient id="fsp2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba7bb"/><stop offset="1" stop-color="#b7cad1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="146" fill="url(#fsp2Sky)"/>
+  <path fill="url(#fsp2Far)" d="M0 92 L92 36 L186 92 L292 28 L398 92 L508 26 L614 92 L722 36 L828 92 L930 40 L1000 78 L1000 134 L0 134 Z"/>
+
+  <path fill="#7fae57" d="M0 146 C 220 138, 440 160, 660 148 C 770 142, 866 152, 1000 146 L1000 186 L0 192 Z"/>
+  <g stroke="#5d8840" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 156 C 220 148, 440 170, 660 158 C 770 152, 866 162, 1000 156"/>
+    <path d="M0 172 C 220 164, 440 186, 660 174 C 770 168, 866 178, 1000 172"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M8 190 l15 -52 l15 52 z"/><path d="M40 190 l12 -42 l12 42 z"/>
+    <path d="M946 190 l15 -50 l15 50 z"/><path d="M918 190 l12 -40 l12 40 z"/>
+  </g>
+  <path fill="#e2ead9" d="M0 188 L1000 182 L1000 560 L0 560 Z"/>
+
+  <!-- 奥の鳥居 -->
+  <g opacity="0.9">
+    <path d="M252 224 L344 224 L344 232 L252 232 Z" fill="#b4483c"/>
+    <path d="M248 214 L348 214 L348 222 L248 222 Z" fill="#c1584a"/>
+    <rect x="262" y="232" width="10" height="52" fill="#b4483c"/>
+    <rect x="324" y="232" width="10" height="52" fill="#b4483c"/>
+    <rect x="262" y="250" width="72" height="8" fill="#b4483c"/>
+  </g>
+
+  <!-- 道 -->
+  <path d="M56 472 C 170 472, 280 468, 410 424" stroke="#cbbfa4" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <path d="M410 424 C 452 396, 470 348, 512 320" stroke="#cbbfa4" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <path d="M410 424 C 452 450, 478 468, 524 482" stroke="#cbbfa4" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <g stroke="#ffffff" stroke-width="5" stroke-dasharray="18 20" fill="none" opacity="0.85">
+    <path d="M56 472 C 170 472, 280 468, 410 424"/>
+  </g>
+
+  <!-- 左端：集会所 -->
+  <g>
+    <path d="M12 376 L84 336 L156 376 Z" fill="#7d6a58"/>
+    <rect x="24" y="376" width="120" height="72" fill="#f2eee4" stroke="#b6ad9c" stroke-width="4"/>
+    <rect x="40" y="394" width="34" height="28" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="96" y="394" width="34" height="28" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="58" y="434" width="52" height="14" fill="#c9b58a"/>
+  </g>
+
+  <!-- 地点1：品名を書き出す -->
+  <g>
+    <rect x="160" y="320" width="166" height="88" rx="8" fill="#ffffff" stroke="#7d8a80" stroke-width="5"/>
+    <g stroke="#9aa8a0" stroke-width="4" fill="none">
+      <path d="M178 352 L308 352"/><path d="M178 372 L308 372"/><path d="M178 392 L266 392"/>
+    </g>
+    <rect x="174" y="336" width="32" height="12" rx="5" fill="#c88a4a"/>
+    <ellipse cx="280" cy="340" rx="20" ry="14" fill="#f6dbe6" stroke="#d9a9c0" stroke-width="3"/>
+    <text x="158" y="310" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="24" font-weight="bold" fill="#3b4a42">1. 品名を書き出す</text>
+    <circle cx="232" cy="452" r="18" fill="#2f7f5f" stroke="#ffffff" stroke-width="5"/>
+    <text x="225" y="461" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff">1</text>
+  </g>
+
+  <!-- 分岐点2 -->
+  <g>
+    <circle cx="410" cy="424" r="18" fill="#2f7f5f" stroke="#ffffff" stroke-width="5"/>
+    <text x="403" y="433" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff">2</text>
+  </g>
+
+  <!-- 上の道：許可 -->
+  <g>
+    <rect x="470" y="238" width="114" height="70" fill="#f2eee4" stroke="#9aa5a3" stroke-width="4"/>
+    <path d="M464 238 L590 238 L576 216 L478 216 Z" fill="#7d8a80"/>
+    <rect x="488" y="258" width="26" height="26" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <rect x="540" y="258" width="26" height="26" fill="#cfd9d6" stroke="#9aa5a3" stroke-width="3"/>
+    <text x="440" y="208" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="22" font-weight="bold" fill="#3b4a42">2上. 保健所（磐田市見付）</text>
+    <rect x="614" y="238" width="172" height="58" rx="8" fill="#ffffff" stroke="#b8443a" stroke-width="5"/>
+    <text x="630" y="278" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="30" font-weight="bold" fill="#a63b31">16,100円</text>
+    <rect x="818" y="238" width="150" height="94" rx="6" fill="#fdfaf0" stroke="#c2ab6c" stroke-width="5"/>
+    <g stroke="#c9b58a" stroke-width="4" fill="none">
+      <path d="M834 266 L952 266"/><path d="M834 286 L952 286"/><path d="M834 306 L914 306"/>
+    </g>
+    <circle cx="940" cy="312" r="14" fill="none" stroke="#b8443a" stroke-width="5"/>
+    <text x="812" y="360" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#6b5c36">食品衛生責任者</text>
+  </g>
+
+  <!-- 下の道：届出 -->
+  <g>
+    <rect x="470" y="446" width="146" height="90" rx="6" fill="#ffffff" stroke="#2f7f5f" stroke-width="5"/>
+    <g stroke="#8fb7a2" stroke-width="4" fill="none">
+      <path d="M488 476 L598 476"/><path d="M488 496 L598 496"/><path d="M488 516 L564 516"/>
+    </g>
+    <text x="466" y="436" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="24" font-weight="bold" fill="#2b6f54">2下. 届出は紙1枚</text>
+  </g>
+
+  <!-- 地点3：火気と消火器 -->
+  <g>
+    <circle cx="752" cy="422" r="18" fill="#2f7f5f" stroke="#ffffff" stroke-width="5"/>
+    <text x="745" y="431" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" font-weight="bold" fill="#ffffff">3</text>
+    <rect x="700" y="472" width="76" height="28" rx="6" fill="#8b9490" stroke="#5f6a66" stroke-width="4"/>
+    <ellipse cx="738" cy="470" rx="24" ry="8" fill="#5f6a66"/>
+    <path d="M738 440 l11 28 l-22 0 z" fill="#e8893f"/>
+    <rect x="812" y="460" width="32" height="60" rx="9" fill="#c8483c" stroke="#8f3128" stroke-width="4"/>
+    <rect x="820" y="446" width="16" height="16" fill="#8f3128"/>
+    <text x="668" y="548" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="22" fill="#8f3128">3. 火気は消防へ届出</text>
+  </g>
+</svg>

@@ -2873,7 +2873,68 @@ def scene_moritsuchi_permit(d):
     band(d, ["土を入れる前に、", "面積と高さを測る"], "森町ライフハック／地区めぐり")
 
 
+def scene_festival_stall_permit(d):
+    """祭りの広場に焼きそばのテントとわた菓子のテントが並ぶ場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 668, 716], 300)
+    d.polygon([(0, 292), (760, 284), (760, 326), (0, 336)], fill=(123, 169, 84))
+    for i in range(2):
+        d.line([(0, 300 + i * 14), (760, 292 + i * 14)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 330), (760, 320), (760, BAND_TOP), (0, BAND_TOP)], fill=(222, 233, 210))
+    # 奥：引き回される屋台と提灯（左右の立て札の間に置く）
+    d.line([(272, 338), (496, 334)], fill=(138, 127, 108), width=3)
+    for x in (294, 340, 386, 432, 478):
+        d.ellipse([x - 11, 336, x + 11, 366], fill=(232, 88, 63), outline=(176, 64, 45), width=2)
+    d.polygon([(288, 376), (382, 376), (392, 392), (278, 392)], fill=(138, 106, 68))
+    d.rectangle([292, 392, 378, 428], fill=(200, 168, 119), outline=(138, 106, 68), width=3)
+    d.rectangle([304, 402, 324, 426], fill=(232, 215, 174))
+    d.rectangle([346, 402, 366, 426], fill=(232, 215, 174))
+    d.ellipse([300, 422, 318, 440], fill=(92, 80, 69))
+    d.ellipse([352, 422, 370, 440], fill=(92, 80, 69))
+    # 左：焼きそばのテント（許可）
+    d.polygon([(24, 396), (228, 396), (256, 440), (-4, 440)], fill=(248, 250, 246),
+              outline=(154, 168, 160), width=4)
+    d.rectangle([-4, 440, 256, 452], fill=(75, 122, 99))
+    d.rectangle([10, 452, 20, 556], fill=(154, 168, 160))
+    d.rectangle([232, 452, 242, 556], fill=(154, 168, 160))
+    d.rectangle([44, 500, 216, 516], fill=(77, 83, 88))
+    d.rectangle([52, 516, 208, 552], fill=(231, 226, 214), outline=(183, 176, 161), width=3)
+    d.rounded_rectangle([62, 486, 116, 500], radius=6, fill=(200, 138, 74))
+    d.rounded_rectangle([128, 488, 186, 500], radius=6, fill=(200, 138, 74))
+    d.ellipse([258, 502, 294, 554], fill=(188, 214, 226), outline=(125, 154, 168), width=4)
+    d.rounded_rectangle([300, 508, 326, 556], radius=8, fill=(200, 72, 60), outline=(143, 49, 40), width=4)
+    # 右：わた菓子のテント（届出）
+    d.polygon([(520, 396), (724, 396), (752, 440), (492, 440)], fill=(248, 250, 246),
+              outline=(154, 168, 160), width=4)
+    d.rectangle([492, 440, 752, 452], fill=(63, 127, 160))
+    d.rectangle([506, 452, 516, 556], fill=(154, 168, 160))
+    d.rectangle([728, 452, 738, 556], fill=(154, 168, 160))
+    d.rectangle([540, 508, 646, 556], fill=(231, 226, 214), outline=(183, 176, 161), width=3)
+    d.ellipse([534, 490, 652, 526], fill=(207, 216, 214), outline=(147, 160, 157), width=4)
+    d.ellipse([562, 452, 624, 508], fill=(246, 219, 230), outline=(217, 169, 192), width=4)
+    d.polygon([(664, 512), (720, 512), (712, 556), (674, 556)], fill=(242, 231, 201),
+              outline=(201, 181, 138), width=4)
+    # 立て札
+    d.rounded_rectangle([24, 314, 268, 392], radius=8, fill=(255, 255, 255),
+                        outline=(184, 68, 58), width=5)
+    d.text((42, 320), "焼きそば＝許可", font=ImageFont.truetype(FONT_BOLD, 28), fill=(166, 59, 49))
+    d.text((42, 354), "16,100円", font=ImageFont.truetype(FONT_REGULAR, 22), fill=(125, 75, 68))
+    d.rounded_rectangle([500, 314, 748, 392], radius=8, fill=(255, 255, 255),
+                        outline=(47, 127, 95), width=5)
+    d.text((516, 320), "わた菓子＝届出", font=ImageFont.truetype(FONT_BOLD, 28), fill=(43, 111, 84))
+    d.text((516, 354), "手数料なし", font=ImageFont.truetype(FONT_REGULAR, 22), fill=(65, 112, 93))
+    # 中央：品書きの紙
+    d.rounded_rectangle([334, 474, 480, 558], radius=6, fill=(255, 255, 255),
+                        outline=(125, 138, 128), width=5)
+    for y0 in (502, 522, 542):
+        d.line([(352, y0), (462, y0)], fill=(154, 168, 160), width=4)
+    d.text((326, 444), "品名から決まる", font=ImageFont.truetype(FONT_BOLD, 26), fill=(59, 74, 66))
+    band(d, ["模擬店の線は、", "品名の側にある"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
+    "20260822-festival-stall-permit-notification": scene_festival_stall_permit,
     "20260821-morimachi-moritsuchi-permit": scene_moritsuchi_permit,
     "20260821-ota-river-hazard-map": scene_ota_hazard_map,
     "20260821-akihabus-fare-revision": scene_akihabus_fare,

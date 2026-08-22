@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fsp1Title fsp1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="fsp1Title">静岡県森町の祭りの広場に、焼きそばのテントとわた菓子のテントが並んでいる情景のイラスト</title>
+  <desc id="fsp1Desc">左のテントでは鉄板の上で焼きそばを返す人が立ち、湯気が上がり、脇に給水タンクと赤い消火器が置かれています。テントの上には飲食店営業の露店の許可が必要であることと一万六千百円という手数料を記した立て札が掛かっています。右のテントではわた菓子の機械が回り、隣にポップコーンの箱と焼き芋の壺が並び、届出でよいと記した立て札が掛かっています。二つのテントの間の奥には、提灯を吊るした綱の下を引き回される屋台と、朱塗りの鳥居が見えます。手前の地面には白い破線が引かれ、その脇に出す品名を書き出した紙が置かれています。背景には段になった茶畑、杉林、遠州の山並みが続いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="fsp1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbdcea"/><stop offset="1" stop-color="#eef2e6"/>
+    </linearGradient>
+    <linearGradient id="fsp1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba7bb"/><stop offset="1" stop-color="#b7cad1"/>
+    </linearGradient>
+    <linearGradient id="fsp1Tent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dfe6e2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="150" fill="url(#fsp1Sky)"/>
+  <path fill="url(#fsp1Far)" d="M0 96 L96 36 L192 96 L300 28 L408 96 L520 26 L628 96 L738 36 L844 96 L946 40 L1000 78 L1000 140 L0 140 Z"/>
+
+  <path fill="#7fae57" d="M0 150 C 220 142, 440 166, 660 154 C 770 148, 866 158, 1000 152 L1000 192 L0 198 Z"/>
+  <g stroke="#5d8840" stroke-width="4" opacity="0.85" fill="none">
+    <path d="M0 160 C 220 152, 440 176, 660 164 C 770 158, 866 168, 1000 162"/>
+    <path d="M0 176 C 220 168, 440 192, 660 180 C 770 174, 866 184, 1000 178"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M10 196 l15 -54 l15 54 z"/><path d="M42 196 l12 -44 l12 44 z"/>
+    <path d="M944 196 l15 -52 l15 52 z"/><path d="M914 196 l12 -42 l12 42 z"/>
+  </g>
+  <path fill="#e2ead9" d="M0 194 L1000 188 L1000 560 L0 560 Z"/>
+
+  <!-- 奥中央：提灯・屋台・鳥居（左右の立て札の間に置く） -->
+  <g>
+    <path d="M282 204 L606 198" stroke="#8a7f6c" stroke-width="3" fill="none"/>
+    <g fill="#e8583f" stroke="#b0402d" stroke-width="2">
+      <ellipse cx="300" cy="220" rx="12" ry="16"/><ellipse cx="352" cy="219" rx="12" ry="16"/>
+      <ellipse cx="404" cy="218" rx="12" ry="16"/><ellipse cx="456" cy="217" rx="12" ry="16"/>
+      <ellipse cx="508" cy="216" rx="12" ry="16"/><ellipse cx="560" cy="215" rx="12" ry="16"/>
+    </g>
+  </g>
+  <g>
+    <path d="M304 254 L406 254 L416 272 L294 272 Z" fill="#8a6a44"/>
+    <rect x="308" y="272" width="94" height="34" fill="#c8a877" stroke="#8a6a44" stroke-width="3"/>
+    <rect x="320" y="282" width="22" height="24" fill="#e8d7ae"/>
+    <rect x="366" y="282" width="22" height="24" fill="#e8d7ae"/>
+    <circle cx="326" cy="310" r="9" fill="#5c5045"/>
+    <circle cx="384" cy="310" r="9" fill="#5c5045"/>
+    <path d="M298 248 L412 248" stroke="#6d5a3f" stroke-width="4"/>
+  </g>
+  <g>
+    <path d="M474 248 L594 248 L594 258 L474 258 Z" fill="#b4483c"/>
+    <path d="M468 238 L600 238 L600 248 L468 248 Z" fill="#c1584a"/>
+    <rect x="488" y="258" width="12" height="52" fill="#b4483c"/>
+    <rect x="568" y="258" width="12" height="52" fill="#b4483c"/>
+    <rect x="488" y="278" width="92" height="9" fill="#b4483c"/>
+  </g>
+
+  <!-- 地面の白線 -->
+  <g stroke="#ffffff" stroke-width="9" stroke-dasharray="26 18" fill="none" opacity="0.95">
+    <path d="M528 560 L528 372"/>
+  </g>
+
+  <!-- 左：焼きそばのテント（許可） -->
+  <g>
+    <path d="M28 316 L250 316 L282 366 L-4 366 Z" fill="url(#fsp1Tent)" stroke="#9aa8a0" stroke-width="4"/>
+    <path d="M-4 366 L282 366 L282 378 L-4 378 Z" fill="#4b7a63"/>
+    <rect x="14" y="378" width="10" height="150" fill="#9aa8a0"/>
+    <rect x="256" y="378" width="10" height="150" fill="#9aa8a0"/>
+    <!-- 鉄板と湯気 -->
+    <rect x="52" y="452" width="184" height="18" rx="4" fill="#4d5358"/>
+    <rect x="60" y="470" width="168" height="46" fill="#e7e2d6" stroke="#b7b0a1" stroke-width="3"/>
+    <g fill="#c88a4a"><rect x="70" y="438" width="52" height="14" rx="6"/><rect x="134" y="440" width="60" height="12" rx="6"/></g>
+    <g stroke="#cfd8d6" stroke-width="6" fill="none" opacity="0.9">
+      <path d="M96 434 C 84 416, 108 406, 96 390"/>
+      <path d="M156 436 C 144 418, 168 408, 156 392"/>
+    </g>
+    <!-- 人 -->
+    <circle cx="212" cy="404" r="20" fill="#f0d8bd" stroke="#c8a888" stroke-width="3"/>
+    <path d="M192 396 L232 396 L228 384 L196 384 Z" fill="#4b7a63"/>
+    <path d="M186 426 L238 426 L246 476 L178 476 Z" fill="#5f88a8"/>
+    <path d="M186 438 L140 454" stroke="#f0d8bd" stroke-width="12" stroke-linecap="round"/>
+    <!-- 給水タンク -->
+    <rect x="252" y="446" width="46" height="60" rx="6" fill="#bcd6e2" stroke="#7d9aa8" stroke-width="4"/>
+    <rect x="266" y="434" width="18" height="14" fill="#7d9aa8"/>
+    <!-- 消火器 -->
+    <rect x="310" y="458" width="26" height="52" rx="8" fill="#c8483c" stroke="#8f3128" stroke-width="4"/>
+    <rect x="317" y="446" width="12" height="14" fill="#8f3128"/>
+    <!-- 立て札 -->
+    <rect x="40" y="222" width="228" height="80" rx="10" fill="#ffffff" stroke="#b8443a" stroke-width="6"/>
+    <text x="60" y="260" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="30" font-weight="bold" fill="#a63b31">焼きそば＝許可</text>
+    <text x="60" y="292" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="24" fill="#7d4b44">16,100円</text>
+    <rect x="146" y="302" width="10" height="18" fill="#b8443a"/>
+  </g>
+
+  <!-- 右：わた菓子のテント（届出） -->
+  <g>
+    <path d="M628 316 L850 316 L882 366 L596 366 Z" fill="url(#fsp1Tent)" stroke="#9aa8a0" stroke-width="4"/>
+    <path d="M596 366 L882 366 L882 378 L596 378 Z" fill="#3f7fa0"/>
+    <rect x="614" y="378" width="10" height="150" fill="#9aa8a0"/>
+    <rect x="856" y="378" width="10" height="150" fill="#9aa8a0"/>
+    <!-- わた菓子の機械 -->
+    <rect x="644" y="452" width="120" height="60" fill="#e7e2d6" stroke="#b7b0a1" stroke-width="3"/>
+    <ellipse cx="704" cy="452" rx="56" ry="20" fill="#cfd8d6" stroke="#93a09d" stroke-width="4"/>
+    <ellipse cx="704" cy="424" rx="34" ry="30" fill="#f6dbe6" stroke="#d9a9c0" stroke-width="4"/>
+    <rect x="698" y="392" width="12" height="34" fill="#a8907e"/>
+    <!-- ポップコーンの箱 -->
+    <path d="M784 472 L836 472 L828 518 L792 518 Z" fill="#f2e7c9" stroke="#c9b58a" stroke-width="4"/>
+    <g fill="#fff8e4" stroke="#d8c9a3" stroke-width="2">
+      <circle cx="794" cy="468" r="9"/><circle cx="810" cy="462" r="10"/><circle cx="826" cy="469" r="8"/>
+    </g>
+    <!-- 焼き芋の壺 -->
+    <ellipse cx="900" cy="498" rx="34" ry="26" fill="#8a6a52" stroke="#5f4838" stroke-width="4"/>
+    <rect x="884" y="458" width="32" height="42" rx="8" fill="#a07e62" stroke="#5f4838" stroke-width="4"/>
+    <ellipse cx="900" cy="458" rx="16" ry="7" fill="#d5a15f"/>
+    <!-- 立て札 -->
+    <rect x="640" y="222" width="252" height="80" rx="10" fill="#ffffff" stroke="#2f7f5f" stroke-width="6"/>
+    <text x="660" y="260" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="30" font-weight="bold" fill="#2b6f54">わた菓子＝届出</text>
+    <text x="660" y="292" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="24" fill="#41705d">手数料なし</text>
+    <rect x="756" y="302" width="10" height="18" fill="#2f7f5f"/>
+  </g>
+
+  <!-- 手前：品名を書いた紙 -->
+  <g>
+    <rect x="330" y="452" width="180" height="76" rx="6" fill="#ffffff" stroke="#7d8a80" stroke-width="5"/>
+    <g stroke="#9aa8a0" stroke-width="4" fill="none">
+      <path d="M348 480 L492 480"/><path d="M348 500 L492 500"/><path d="M348 518 L444 518"/>
+    </g>
+    <text x="330" y="442" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="26" font-weight="bold" fill="#3b4a42">品名を書き出す</text>
+  </g>
+</svg>
