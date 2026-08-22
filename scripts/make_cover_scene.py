@@ -3033,6 +3033,43 @@ def scene_furusato_tax_use(d):
     band(d, ["4億円は町に入る、", "祭りには届かない"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_kokusei_sokuho(d):
+    """令和7年国勢調査の速報値。人口の棒は大きく下がり、世帯の棒はほとんど下がらない。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [10, 52, 692, 732], 300)
+    d.polygon([(0, 292), (760, 284), (760, 316), (0, 326)], fill=(123, 169, 84))
+    d.line([(0, 300), (760, 292)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 320), (760, 310), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 232, 212))
+    fb = ImageFont.truetype(FONT_BOLD, 20)
+    fr = ImageFont.truetype(FONT_REGULAR, 17)
+    d.line([(30, 520), (730, 520)], fill=(123, 138, 128), width=4)
+    # 人口の棒
+    d.rectangle([46, 356, 106, 520], fill=(127, 157, 176), outline=(77, 108, 128), width=4)
+    d.rectangle([124, 370, 184, 520], fill=(77, 108, 128), outline=(51, 80, 95), width=4)
+    d.text((38, 330), "17,457", font=fb, fill=(51, 80, 95))
+    d.text((118, 344), "15,945", font=fb, fill=(51, 80, 95))
+    d.text((44, 526), "令和2年", font=fr, fill=(65, 86, 76))
+    d.text((122, 526), "令和7年", font=fr, fill=(65, 86, 76))
+    d.line([(212, 372), (212, 424)], fill=(179, 57, 44), width=6)
+    d.polygon([(200, 422), (212, 448), (224, 422)], fill=(179, 57, 44))
+    d.text((236, 372), "−1,512人", font=ImageFont.truetype(FONT_BOLD, 25), fill=(161, 51, 42))
+    d.text((236, 406), "−8.66％", font=ImageFont.truetype(FONT_BOLD, 25), fill=(161, 51, 42))
+    d.text((236, 444), "県内35市町で9番目", font=ImageFont.truetype(FONT_REGULAR, 18), fill=(90, 76, 72))
+    # 世帯の棒
+    d.rectangle([436, 356, 490, 520], fill=(157, 187, 124), outline=(95, 131, 64), width=4)
+    d.rectangle([512, 360, 566, 520], fill=(95, 131, 64), outline=(69, 97, 39), width=4)
+    d.text((430, 332), "6,242", font=fb, fill=(69, 97, 39))
+    d.text((508, 336), "6,095", font=fb, fill=(69, 97, 39))
+    d.text((430, 526), "令和2年", font=fr, fill=(65, 86, 76))
+    d.text((506, 526), "令和7年", font=fr, fill=(65, 86, 76))
+    d.text((598, 366), "−147世帯", font=ImageFont.truetype(FONT_BOLD, 23), fill=(111, 96, 38))
+    d.text((598, 398), "−2.36％", font=ImageFont.truetype(FONT_BOLD, 23), fill=(111, 96, 38))
+    d.text((598, 440), "1世帯2.62人", font=ImageFont.truetype(FONT_REGULAR, 18), fill=(90, 76, 72))
+    d.text((598, 466), "全国2.15人", font=ImageFont.truetype(FONT_REGULAR, 18), fill=(90, 76, 72))
+    band(d, ["人は8.66％減り、", "世帯は2.36％しか減らない"], "森町ライフハック／移住・暮らし・データ")
+
+
 def scene_tokutei_kyoju_plan(d):
     """森町特定居住促進計画の3区域と、令和8年度から置かれる空席のコーディネーター。"""
     sky(d)
@@ -3083,6 +3120,7 @@ def scene_tokutei_kyoju_plan(d):
 
 
 SCENES = {
+    "20260823-kokusei-chosa-sokuho-morimachi": scene_kokusei_sokuho,
     "20260823-tokutei-kyoju-plan-coordinator": scene_tokutei_kyoju_plan,
     "20260822-morimachi-furusato-tax-use": scene_furusato_tax_use,
     "20260822-shizuoka-isan-akiba-kaido-morimachi": scene_akiba_kaido_isan,

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kks2Title kks2Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="kks2Title">移住先として森町の人口を確かめる順番を、四つの段として描いたイラスト</title>
+  <desc id="kks2Desc">左端に引っ越しの荷物と地図を持った家族が立ち、そこから右上へ階段状の段が伸びます。一段目には国勢調査の速報値の表が置かれ、町全体の規模を確かめる場面が描かれています。二段目には住民基本台帳の月別人口の冊子があり、二つの数字を並べる様子が描かれます。三段目には町名別統計表と地区の地図が広がり、地区ごとの差を見る段になっています。四段目には車と時計が描かれ、実際に一日の移動を試す段として示されています。背景には段になった茶畑と杉林、遠州の山並みが続いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="kks2Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbdcea"/><stop offset="1" stop-color="#eef2e6"/>
+    </linearGradient>
+    <linearGradient id="kks2Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba7bb"/><stop offset="1" stop-color="#b7cad1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="112" fill="url(#kks2Sky)"/>
+  <path fill="url(#kks2Far)" d="M0 76 L94 22 L188 76 L292 16 L398 76 L508 14 L614 76 L722 22 L828 76 L930 26 L1000 62 L1000 104 L0 104 Z"/>
+  <path fill="#7fae57" d="M0 112 C 220 106, 440 124, 660 114 C 770 108, 866 116, 1000 112 L1000 142 L0 146 Z"/>
+  <g stroke="#5d8840" stroke-width="3" opacity="0.85" fill="none">
+    <path d="M0 122 C 220 116, 440 134, 660 124 C 770 118, 866 126, 1000 122"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M10 144 l13 -40 l13 40 z"/><path d="M42 144 l11 -32 l11 32 z"/>
+    <path d="M948 142 l13 -38 l13 38 z"/><path d="M920 142 l11 -30 l11 30 z"/>
+  </g>
+  <path fill="#e2ead9" d="M0 142 L1000 136 L1000 560 L0 560 Z"/>
+
+  <!-- 左：荷物と地図を持った家族 -->
+  <g>
+    <circle cx="76" cy="356" r="21" fill="#e2c39a" stroke="#8b6f4e" stroke-width="3"/>
+    <path fill="#5b7f96" d="M52 384 q24 -14 48 0 l8 74 l-64 0 z"/>
+    <rect x="46" y="458" width="18" height="42" fill="#3f5666"/>
+    <rect x="88" y="458" width="18" height="42" fill="#3f5666"/>
+    <circle cx="132" cy="382" r="16" fill="#e2c39a" stroke="#8b6f4e" stroke-width="3"/>
+    <path fill="#8a5f62" d="M114 402 q18 -11 36 0 l6 56 l-48 0 z"/>
+    <rect x="112" y="458" width="14" height="42" fill="#5a4348"/>
+    <rect x="142" y="458" width="14" height="42" fill="#5a4348"/>
+    <rect x="24" y="416" width="46" height="40" rx="4" fill="#c9a06a" stroke="#8b6f4e" stroke-width="3"/>
+    <path stroke="#8b6f4e" stroke-width="3" fill="none" d="M24 432 L70 432"/>
+    <text x="26" y="530" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="20" font-weight="bold" fill="#3b4a52">移住を比べる家族</text>
+  </g>
+
+  <g font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif">
+    <!-- 1段目：国勢調査の表 -->
+    <rect x="200" y="392" width="188" height="128" rx="10" fill="#ffffff" stroke="#4e7f9c" stroke-width="5"/>
+    <g>
+      <rect x="220" y="418" width="76" height="76" rx="3" fill="#f6f9fb" stroke="#5f7a88" stroke-width="3"/>
+      <g stroke="#5f7a88" stroke-width="3" fill="none">
+        <path d="M220 438 L296 438"/><path d="M220 458 L296 458"/><path d="M220 476 L296 476"/><path d="M258 418 L258 494"/>
+      </g>
+      <rect x="260" y="440" width="34" height="16" fill="#a8c6d6"/>
+    </g>
+    <text x="308" y="432" font-size="28" font-weight="bold" fill="#2f6c8d">①</text>
+    <text x="306" y="464" font-size="18" fill="#3c5c6d">町全体</text>
+    <text x="306" y="488" font-size="18" fill="#3c5c6d">の規模</text>
+
+    <!-- 2段目：月別人口の冊子 -->
+    <rect x="396" y="334" width="188" height="128" rx="10" fill="#ffffff" stroke="#6f8f3f" stroke-width="5"/>
+    <g>
+      <rect x="416" y="362" width="70" height="72" rx="3" fill="#f3f6ec" stroke="#6f8f3f" stroke-width="3"/>
+      <rect x="424" y="374" width="54" height="14" fill="#b4cf8e"/>
+      <g stroke="#6f8f3f" stroke-width="3" fill="none">
+        <path d="M424 400 L478 400"/><path d="M424 414 L462 414"/>
+      </g>
+      <rect x="434" y="352" width="70" height="72" rx="3" fill="#ffffff" stroke="#6f8f3f" stroke-width="3" opacity="0.55"/>
+    </g>
+    <text x="504" y="376" font-size="28" font-weight="bold" fill="#4b6229">②</text>
+    <text x="502" y="408" font-size="18" fill="#4d5a41">住民票</text>
+    <text x="502" y="432" font-size="18" fill="#4d5a41">との差</text>
+
+    <!-- 3段目：町名別と地区の地図 -->
+    <rect x="592" y="276" width="188" height="128" rx="10" fill="#ffffff" stroke="#2f7f5f" stroke-width="5"/>
+    <g>
+      <rect x="612" y="302" width="76" height="78" rx="4" fill="#eef4ee" stroke="#5f7a68" stroke-width="3"/>
+      <path fill="#9fcbb2" d="M618 312 L660 306 L682 322 L662 344 L620 340 Z"/>
+      <path fill="#cfe3b8" d="M620 346 L664 350 L680 368 L622 372 Z"/>
+      <circle cx="650" cy="330" r="7" fill="#c0392b"/>
+    </g>
+    <text x="700" y="316" font-size="28" font-weight="bold" fill="#22503f">③</text>
+    <text x="698" y="348" font-size="18" fill="#31564a">地区の</text>
+    <text x="698" y="372" font-size="18" fill="#31564a">世帯数</text>
+
+    <!-- 4段目：車と時計 -->
+    <rect x="788" y="206" width="188" height="148" rx="10" fill="#ffffff" stroke="#a5762a" stroke-width="5"/>
+    <text x="804" y="252" font-size="28" font-weight="bold" fill="#7d5c12">④</text>
+    <text x="850" y="244" font-size="18" fill="#6a5222">一日の移動</text>
+    <text x="850" y="268" font-size="18" fill="#6a5222">を試す</text>
+    <g>
+      <path fill="#c7873a" d="M812 306 l14 -24 l48 0 l16 24 z"/>
+      <rect x="806" y="306" width="88" height="24" rx="5" fill="#e0a95c" stroke="#a5762a" stroke-width="3"/>
+      <circle cx="828" cy="334" r="10" fill="#4a4038"/>
+      <circle cx="874" cy="334" r="10" fill="#4a4038"/>
+      <circle cx="936" cy="310" r="22" fill="#ffffff" stroke="#a5762a" stroke-width="5"/>
+      <g stroke="#7d5c12" stroke-width="4" fill="none" stroke-linecap="round">
+        <path d="M936 310 L936 297"/><path d="M936 310 L947 316"/>
+      </g>
+    </g>
+  </g>
+
+  <text x="200" y="548" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#4a5a50">②を飛ばすと、相談の場で数字が食い違って話が止まる</text>
+</svg>
