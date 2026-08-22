@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kts1Title kts1Desc" preserveAspectRatio="xMidYMid meet">
+  <title id="kts1Title">高校の授業料が就学支援金で埋まっても、入学料と通学費が残ることを二段の帯として描いたイラスト</title>
+  <desc id="kts1Desc">上の段には「授業料118,800円（静岡県立・全日制）＝制度で埋まる」という見出しがあり、その下に就学支援金118,800円でふさがると書かれた緑の帯が伸びて、右端に＝0円と示されています。下の段には「埋まらずに残る」として、入学料5,650円、入学検定料2,200円、天浜線の通学定期13,290円×12か月の159,480円が横に並び、右に初年度の実費167,330円と記されています。その下に、遠州森駅から掛川駅は片道530円で12か月定期なら月あたり10,765円になること、町内の高校へ自転車で通うならこの159,480円は0円になることが添えられ、最下段には制服姿の生徒と通学かばん、一両編成の列車、木造の駅舎が描かれています。背景には段になった茶畑と杉林、遠州の山並みが続いています。写真ではなくイラストです。</desc>
+
+  <defs>
+    <linearGradient id="kts1Sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbdcea"/><stop offset="1" stop-color="#eef2e6"/>
+    </linearGradient>
+    <linearGradient id="kts1Far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ba7bb"/><stop offset="1" stop-color="#b7cad1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="560" fill="#eef3e9"/>
+  <rect width="1000" height="108" fill="url(#kts1Sky)"/>
+  <path fill="url(#kts1Far)" d="M0 74 L94 20 L188 74 L292 14 L398 74 L508 12 L614 74 L722 20 L828 74 L930 24 L1000 60 L1000 100 L0 100 Z"/>
+  <path fill="#7fae57" d="M0 108 C 220 102, 440 120, 660 110 C 770 104, 866 112, 1000 108 L1000 138 L0 142 Z"/>
+  <g stroke="#5d8840" stroke-width="3" opacity="0.85" fill="none">
+    <path d="M0 118 C 220 112, 440 130, 660 120 C 770 114, 866 122, 1000 118"/>
+  </g>
+  <g fill="#3f6b52">
+    <path d="M10 140 l13 -38 l13 38 z"/><path d="M42 140 l11 -30 l11 30 z"/>
+    <path d="M948 138 l13 -36 l13 36 z"/><path d="M920 138 l11 -28 l11 28 z"/>
+  </g>
+  <path fill="#e2ead9" d="M0 138 L1000 132 L1000 560 L0 560 Z"/>
+
+  <g font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif">
+    <!-- 上段：消える費用 -->
+    <text x="40" y="178" font-size="22" font-weight="bold" fill="#3b5a4c">授業料 118,800円（静岡県立・全日制）＝ 制度で埋まる</text>
+    <rect x="40" y="192" width="560" height="60" rx="8" fill="#5f9f7a" stroke="#2f7f5f" stroke-width="4"/>
+    <text x="62" y="230" font-size="24" font-weight="bold" fill="#ffffff">就学支援金 118,800円でふさがる</text>
+    <text x="620" y="230" font-size="27" font-weight="bold" fill="#2f7f5f">＝ 0円</text>
+
+    <!-- 下段：残る費用 -->
+    <text x="40" y="300" font-size="23" font-weight="bold" fill="#8a4038">埋まらずに残る</text>
+    <g>
+      <rect x="40" y="314" width="96" height="72" rx="7" fill="#ffffff" stroke="#b3392c" stroke-width="4"/>
+      <text x="52" y="344" font-size="17" fill="#7a3b34">入学料</text>
+      <text x="50" y="372" font-size="21" font-weight="bold" fill="#a1332a">5,650</text>
+
+      <rect x="146" y="314" width="106" height="72" rx="7" fill="#ffffff" stroke="#b3392c" stroke-width="4"/>
+      <text x="156" y="344" font-size="17" fill="#7a3b34">入学検定料</text>
+      <text x="158" y="372" font-size="21" font-weight="bold" fill="#a1332a">2,200</text>
+
+      <rect x="262" y="314" width="338" height="72" rx="7" fill="#fdece9" stroke="#b3392c" stroke-width="5"/>
+      <text x="278" y="344" font-size="17" fill="#7a3b34">天浜線 通学定期 13,290円 × 12か月</text>
+      <text x="278" y="374" font-size="24" font-weight="bold" fill="#a1332a">159,480円</text>
+
+      <text x="620" y="344" font-size="19" fill="#6a4a44">初年度の実費</text>
+      <text x="618" y="378" font-size="29" font-weight="bold" fill="#a1332a">167,330円</text>
+    </g>
+
+    <text x="40" y="418" font-size="20" fill="#4a5a50">遠州森駅から掛川駅は片道530円。12か月定期なら129,180円で、月あたり10,765円になる</text>
+    <text x="40" y="448" font-size="20" fill="#4a5a50">町内の遠江総合高等学校へ自転車で通うなら、この159,480円は0円になる</text>
+  </g>
+
+  <!-- 右下：生徒と列車と駅舎 -->
+  <g>
+    <circle cx="130" cy="486" r="17" fill="#e2c39a" stroke="#8b6f4e" stroke-width="3"/>
+    <path fill="#3f5666" d="M110 508 q20 -12 40 0 l5 36 l-50 0 z"/>
+    <rect x="158" y="494" width="30" height="24" rx="4" fill="#9b7b4e" stroke="#6f5636" stroke-width="3"/>
+    <g>
+      <rect x="330" y="470" width="180" height="52" rx="9" fill="#dbe7ec" stroke="#4d6c80" stroke-width="4"/>
+      <rect x="346" y="482" width="34" height="24" fill="#8fb2c4"/>
+      <rect x="392" y="482" width="34" height="24" fill="#8fb2c4"/>
+      <rect x="438" y="482" width="34" height="24" fill="#8fb2c4"/>
+      <rect x="330" y="460" width="180" height="12" rx="4" fill="#c0392b"/>
+      <circle cx="366" cy="528" r="9" fill="#4a4038"/><circle cx="474" cy="528" r="9" fill="#4a4038"/>
+    </g>
+    <g>
+      <path fill="#8a6a4e" d="M556 478 l48 -26 l48 26 z"/>
+      <rect x="566" y="478" width="76" height="50" fill="#efe6d2" stroke="#a08d5f" stroke-width="3"/>
+      <rect x="592" y="498" width="26" height="30" fill="#8a7550"/>
+      <text x="672" y="510" font-family="'Meiryo','Hiragino Kaku Gothic ProN',sans-serif" font-size="21" fill="#5a4a3c">遠州森駅から高校まで徒歩10分</text>
+    </g>
+  </g>
+</svg>

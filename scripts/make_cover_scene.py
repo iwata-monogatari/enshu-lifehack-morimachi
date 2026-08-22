@@ -3033,6 +3033,44 @@ def scene_furusato_tax_use(d):
     band(d, ["4億円は町に入る、", "祭りには届かない"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_koko_tsugaku(d):
+    """高校の授業料は制度で埋まり、通学定期は残る。森町から通う家の実費。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [10, 52, 692, 732], 300)
+    d.polygon([(0, 292), (760, 284), (760, 314), (0, 324)], fill=(123, 169, 84))
+    d.line([(0, 300), (760, 292)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 318), (760, 308), (760, BAND_TOP), (0, BAND_TOP)], fill=(224, 232, 212))
+    d.text((26, 326), "制度で埋まる", font=ImageFont.truetype(FONT_BOLD, 20), fill=(59, 90, 76))
+    d.rounded_rectangle([26, 350, 540, 404], radius=8, fill=(95, 159, 122),
+                        outline=(47, 127, 95), width=4)
+    d.text((42, 364), "授業料 118,800円 → 0円", font=ImageFont.truetype(FONT_BOLD, 25), fill="#ffffff")
+    d.text((26, 420), "埋まらずに残る", font=ImageFont.truetype(FONT_BOLD, 20), fill=(138, 64, 56))
+    d.rounded_rectangle([26, 444, 540, 498], radius=8, fill=(253, 236, 233),
+                        outline=(179, 57, 44), width=5)
+    d.text((42, 458), "天浜線 通学定期 159,480円", font=ImageFont.truetype(FONT_BOLD, 24), fill=(161, 51, 42))
+    d.text((26, 508), "＋入学料 5,650円 ＋入学検定料 2,200円",
+           font=ImageFont.truetype(FONT_REGULAR, 18), fill=(90, 76, 72))
+    d.text((26, 538), "初年度の実費 167,330円", font=ImageFont.truetype(FONT_BOLD, 27), fill=(161, 51, 42))
+    # 右：ホームに立つ生徒と、隣に停まる一両編成
+    d.ellipse([578, 396, 610, 428], fill=(226, 195, 154), outline=(139, 111, 78), width=3)
+    d.polygon([(572, 436), (594, 426), (616, 436), (620, 504), (568, 504)], fill=(51, 71, 90))
+    d.polygon([(590, 436), (594, 462), (600, 436)], fill=(201, 214, 222))
+    d.rectangle([576, 504, 590, 546], fill=(44, 58, 70))
+    d.rectangle([600, 504, 614, 546], fill=(44, 58, 70))
+    d.rounded_rectangle([626, 452, 662, 480], radius=5, fill=(155, 123, 78),
+                        outline=(111, 86, 54), width=3)
+    d.rounded_rectangle([648, 496, 746, 542], radius=8, fill=(219, 231, 236),
+                        outline=(77, 108, 128), width=4)
+    d.rectangle([648, 488, 746, 498], fill=(192, 57, 43))
+    for x0 in (660, 690, 720):
+        d.rectangle([x0, 508, x0 + 20, 524], fill=(143, 178, 196))
+    d.ellipse([660, 538, 676, 554], fill=(74, 64, 56))
+    d.ellipse([716, 538, 732, 554], fill=(74, 64, 56))
+    d.line([(560, 552), (754, 552)], fill=(150, 158, 148), width=4)
+    band(d, ["授業料は消えたが、", "定期代は残る"], "森町ライフハック／移住・暮らし・データ")
+
+
 def scene_kokusei_sokuho(d):
     """令和7年国勢調査の速報値。人口の棒は大きく下がり、世帯の棒はほとんど下がらない。"""
     sky(d)
@@ -3120,6 +3158,7 @@ def scene_tokutei_kyoju_plan(d):
 
 
 SCENES = {
+    "20260823-koko-tsugaku-shugaku-shienkin": scene_koko_tsugaku,
     "20260823-kokusei-chosa-sokuho-morimachi": scene_kokusei_sokuho,
     "20260823-tokutei-kyoju-plan-coordinator": scene_tokutei_kyoju_plan,
     "20260822-morimachi-furusato-tax-use": scene_furusato_tax_use,
