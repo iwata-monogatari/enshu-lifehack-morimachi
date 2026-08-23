@@ -33,6 +33,13 @@ from sacred_research import research_figure, shrine_research  # noqa: E402
 
 DEEP_RESEARCH_EXCLUDED = {"s4410001", "s4410002", "s4410003"}
 
+SHRINE_PHOTO_SHOWCASE = '''<section class="sacred-showcase" aria-labelledby="shrine-photo-showcase-title"><h2 class="sec" id="shrine-photo-showcase-title">写真で見る森町の神社</h2><p class="sacred-showcase-intro">提供写真のある神社を、詳細ページとは別の境内写真で紹介します。写真を選ぶと各神社の所在地、祭神、参拝前の確認事項を読めます。</p><div class="sacred-showcase-grid">
+<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410001/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410001/oguni-showcase-precinct.jpg" alt="小國神社の境内と拝殿を参道脇から望む写真" width="2048" height="1536" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410001/oguni-showcase-bridge.jpg" alt="小國神社の事待池に架かる朱色の橋" width="2048" height="1536" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">一宮</span><strong>小國神社</strong><span>鎮守の森に囲まれた境内と、事待池の橋の風景から紹介します。</span></span></a></article>
+<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410002/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410002/amenomiya-showcase-tree.jpg" alt="天宮神社の境内に立つ大きな御神木と赤い鳥居" width="2048" height="1536" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410002/amenomiya-showcase-chozuya.jpg" alt="天宮神社境内の手水舎" width="2048" height="1536" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">天宮</span><strong>天宮神社</strong><span>御神木のある境内と手水舎を、参拝の動線に沿う写真で紹介します。</span></span></a></article>
+<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410003/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410003/yamana-showcase-precinct.jpg" alt="山名神社の社殿と境内を広く望む写真" width="2048" height="1536" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410003/yamana-showcase-stage.jpg" alt="山名神社の舞楽が奉納される舞殿" width="2048" height="1536" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">飯田</span><strong>山名神社</strong><span>社殿を囲む境内と舞殿を、異なる位置から見た写真で紹介します。</span></span></a></article>
+<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410008/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410008/kine-showcase-torii-view.jpg" alt="許禰神社の社殿側から鳥居と参道を望む写真" width="2048" height="1536" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410008/kine-showcase-village-entrance.jpg" alt="三倉の集落に面した許禰神社入口と社号標" width="2048" height="1536" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">三倉</span><strong>許禰神社</strong><span>社殿から望む参道と、三倉の集落に面した入口を紹介します。</span></span></a></article>
+</div></section>'''
+
 
 def protected_phase1_urls():
     """人手で全面改稿したフェーズ1ページをDB再生成から守る。"""
@@ -280,7 +287,7 @@ def main():
              '<a href="/shrine/shrines/">神社一覧</a>', esc(s["name"])])))
 
     # ---- 一覧 -------------------------------------------------------------
-    listing = ['<div class="shrine-list">%s</div>' % "".join(shrine_card(s) for s in shrines)]
+    listing = [SHRINE_PHOTO_SHOWCASE, '<h2 class="sec">森町の神社39社</h2>', '<div class="shrine-list">%s</div>' % "".join(shrine_card(s) for s in shrines)]
     generated.append(write("shrines", shell(
         "/shrine/shrines/", "📜", "森町の神社一覧",
         "静岡県神社庁に掲載されている静岡県周智郡森町（遠州森町）の神社%d社の一覧です。読み仮名の五十音順に並べています。" % len(shrines),

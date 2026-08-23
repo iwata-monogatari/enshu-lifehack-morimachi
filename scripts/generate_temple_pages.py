@@ -32,6 +32,10 @@ from sacred_research import research_figure, temple_research  # noqa: E402
 
 DEEP_RESEARCH_EXCLUDED = {"t02"}
 
+TEMPLE_PHOTO_SHOWCASE = '''<section class="sacred-showcase" aria-labelledby="temple-photo-showcase-title"><h2 class="sec" id="temple-photo-showcase-title">写真で見る森町の寺院</h2><p class="sacred-showcase-intro">提供写真のある寺院を、詳細ページとは別の境内写真で紹介します。写真を選ぶと所在地、宗派、建築の公開記録、参拝前の確認事項を読めます。</p><div class="sacred-showcase-grid">
+<article class="sacred-showcase-card"><a href="/temple/temples/t22/"><span class="sacred-showcase-photos"><img src="/temple/temples/t22/eisenji-showcase-garden.jpg" alt="榮泉寺の緑の庭と境内の建物" width="2048" height="1536" loading="lazy" decoding="async"><img src="/temple/temples/t22/eisenji-showcase-approach.jpg" alt="榮泉寺の参道から山門を望む写真" width="2048" height="1536" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">三倉・曹洞宗</span><strong>榮泉寺</strong><span>手入れされた庭と山門へ続く参道から、三倉の寺院のたたずまいを紹介します。</span></span></a></article>
+</div></section>'''
+
 SECT_SLUG = {"曹洞宗": "soto", "日蓮宗": "nichiren", "真言宗": "shingon", "天台宗": "tendai", "浄土宗": "jodo"}
 SECT_DESC = {
     "曹洞宗": "県名簿の27法人に、森町の寺院建築資料に載る陽向院を加えた一覧。資料ごとの差を分けて示している。",
@@ -445,7 +449,7 @@ def main():
     generated.append(write("temples", shell(
         "/temple/temples/", "📜", "森町の寺院一覧",
         "静岡県周智郡森町（遠州森町）の寺院%dヶ寺の一覧です。宗教法人名簿と森町公式資料をもとにしています。" % len(temples),
-        '<div class="shrine-list">%s</div>' % "".join(card(t) for t in temples), parts,
+        TEMPLE_PHOTO_SHOWCASE + '<h2 class="sec">森町の寺院35ヶ寺</h2><div class="shrine-list">%s</div>' % "".join(card(t) for t in temples), parts,
         ['<a href="/">%s</a>' % SITE_NAME, '<a href="/temple/">森町の寺院</a>', "寺院一覧"])))
 
     # ---- 地区別 -----------------------------------------------------------

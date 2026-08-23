@@ -412,6 +412,19 @@ body:not(.hub) .place-photo-gallery,body.hub .place-photo-gallery{display:grid;g
 body:not(.hub) .place-photo-gallery .place-photo,body.hub .place-photo-gallery .place-photo{margin:0}
 body:not(.hub) .place-photo-gallery img,body.hub .place-photo-gallery img{aspect-ratio:4/3;object-fit:cover}
 @media(max-width:720px){body:not(.hub) .place-photo-gallery,body.hub .place-photo-gallery{grid-template-columns:1fr}body:not(.hub) .place-hero-photo img,body.hub .place-hero-photo img{aspect-ratio:4/3;border-radius:12px 12px 0 0}}
+body:not(.hub) .sacred-showcase,body.hub .sacred-showcase{margin:28px 0 34px}
+body:not(.hub) .sacred-showcase-intro,body.hub .sacred-showcase-intro{margin:-4px 0 18px;color:var(--mut);font-size:16px;line-height:1.8}
+body:not(.hub) .sacred-showcase-grid,body.hub .sacred-showcase-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+body:not(.hub) .sacred-showcase-card,body.hub .sacred-showcase-card{min-width:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 8px 22px rgba(28,46,36,.1)}
+body:not(.hub) .sacred-showcase-card>a,body.hub .sacred-showcase-card>a{display:block;height:100%;color:inherit;text-decoration:none}
+body:not(.hub) .sacred-showcase-photos,body.hub .sacred-showcase-photos{display:grid;grid-template-columns:1fr 1fr;gap:3px;background:#e5ece7}
+body:not(.hub) .sacred-showcase-photos img,body.hub .sacred-showcase-photos img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+body:not(.hub) .sacred-showcase-copy,body.hub .sacred-showcase-copy{display:flex;flex-direction:column;gap:5px;padding:15px 16px 17px}
+body:not(.hub) .sacred-showcase-copy strong,body.hub .sacred-showcase-copy strong{color:#174d39;font-size:20px;line-height:1.4}
+body:not(.hub) .sacred-showcase-area,body.hub .sacred-showcase-area{color:#986b19;font-size:16px;font-weight:800}
+body:not(.hub) .sacred-showcase-copy span:last-child,body.hub .sacred-showcase-copy span:last-child{color:var(--mut);font-size:16px;line-height:1.7}
+body:not(.hub) .sacred-showcase-card>a:hover strong,body.hub .sacred-showcase-card>a:hover strong{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:720px){body:not(.hub) .sacred-showcase-grid,body.hub .sacred-showcase-grid{grid-template-columns:1fr}body:not(.hub) .sacred-showcase,body.hub .sacred-showcase{margin-top:22px}}
 body:not(.hub) .fest-badge,body.hub .fest-badge{display:inline-block;font-size:16px;font-weight:800;color:#8A5A2B;background:#f6efe6;border-radius:999px;padding:2px 9px;margin-left:4px}
 @media(max-width:640px){
 body:not(.hub) .shrine-list,body.hub .shrine-list{grid-template-columns:1fr}
