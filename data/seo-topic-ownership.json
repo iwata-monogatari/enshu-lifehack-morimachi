@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-08-23",
+  "rule": "同じ語を含むだけで統合せず、検索意図ごとに代表ページを一つ決める。未公開noindexページは公開代表にしない。",
+  "topics": [
+    {
+      "topic": "住民票",
+      "primary_url": "/life/start-living/certificates/",
+      "primary_intent": "住民票・戸籍・印鑑証明の取得方法と窓口を確認する",
+      "supporting_roles": {
+        "questions": "平日に役場へ行けない等の一問一答",
+        "blog": "制度変更や家族の段取りの分析",
+        "discover": "個別証明事項を深く調べる実用ガイド"
+      }
+    },
+    {
+      "topic": "小國神社",
+      "primary_url": "/shrine/shrines/s4410001/",
+      "primary_intent": "由緒・見どころ・参拝・交通をまとめて確認する",
+      "supporting_roles": {
+        "discover": "紅葉、子連れ、駐車など場面別の訪問計画",
+        "blog": "舞楽や地域文化の分析"
+      }
+    },
+    {
+      "topic": "空き家",
+      "primary_url": "/life/housing/vacant-house/",
+      "primary_intent": "空き家バンクの登録・利用・注意点を確認する",
+      "supporting_roles": {
+        "questions": "所有者・利用希望者の具体的な疑問",
+        "blog": "相続、売却前整理、制度変更の分析",
+        "records": "管理記録や資料の整理"
+      }
+    },
+    {
+      "topic": "ハザードマップ",
+      "primary_url": "/life/emergency/evacuation-hazard-map/",
+      "primary_intent": "森町の災害リスクと避難先を確認する",
+      "supporting_roles": {
+        "questions": "避難判断の一問一答",
+        "blog": "河川や想定規模の具体的分析",
+        "records": "家族で残す防災記録"
+      }
+    }
+  ]
+}

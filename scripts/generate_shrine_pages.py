@@ -34,10 +34,10 @@ from sacred_research import research_figure, shrine_research  # noqa: E402
 DEEP_RESEARCH_EXCLUDED = {"s4410001", "s4410002", "s4410003"}
 
 SHRINE_PHOTO_SHOWCASE = '''<section class="sacred-showcase" aria-labelledby="shrine-photo-showcase-title"><h2 class="sec" id="shrine-photo-showcase-title">写真で見る森町の神社</h2><p class="sacred-showcase-intro">提供写真のある神社を、詳細ページとは別の境内写真で紹介します。写真を選ぶと各神社の所在地、祭神、参拝前の確認事項を読めます。</p><div class="sacred-showcase-grid">
-<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410001/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410001/oguni-showcase-precinct.jpg" alt="小國神社の境内と拝殿を参道脇から望む写真" width="2048" height="1536" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410001/oguni-showcase-bridge.jpg" alt="小國神社の事待池に架かる朱色の橋" width="2048" height="1536" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">一宮</span><strong>小國神社</strong><span>鎮守の森に囲まれた境内と、事待池の橋の風景から紹介します。</span></span></a></article>
-<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410002/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410002/amenomiya-showcase-tree.jpg" alt="天宮神社の境内に立つ大きな御神木と赤い鳥居" width="2048" height="1536" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410002/amenomiya-showcase-chozuya.jpg" alt="天宮神社境内の手水舎" width="2048" height="1536" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">天宮</span><strong>天宮神社</strong><span>御神木のある境内と手水舎を、参拝の動線に沿う写真で紹介します。</span></span></a></article>
-<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410003/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410003/yamana-showcase-precinct.jpg" alt="山名神社の社殿と境内を広く望む写真" width="2048" height="1536" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410003/yamana-showcase-stage.jpg" alt="山名神社の舞楽が奉納される舞殿" width="2048" height="1536" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">飯田</span><strong>山名神社</strong><span>社殿を囲む境内と舞殿を、異なる位置から見た写真で紹介します。</span></span></a></article>
-<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410008/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410008/kine-showcase-torii-view.jpg" alt="許禰神社の社殿側から鳥居と参道を望む写真" width="2048" height="1536" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410008/kine-showcase-village-entrance.jpg" alt="三倉の集落に面した許禰神社入口と社号標" width="2048" height="1536" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">三倉</span><strong>許禰神社</strong><span>社殿から望む参道と、三倉の集落に面した入口を紹介します。</span></span></a></article>
+<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410001/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410001/oguni-showcase-precinct-1200.webp" srcset="/shrine/shrines/s4410001/oguni-showcase-precinct-480.webp 480w, /shrine/shrines/s4410001/oguni-showcase-precinct-800.webp 800w, /shrine/shrines/s4410001/oguni-showcase-precinct-1200.webp 1200w" sizes="(max-width:720px) 50vw, 440px" alt="小國神社の境内と拝殿を参道脇から望む写真" width="1200" height="900" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410001/oguni-showcase-bridge-1200.webp" srcset="/shrine/shrines/s4410001/oguni-showcase-bridge-480.webp 480w, /shrine/shrines/s4410001/oguni-showcase-bridge-800.webp 800w, /shrine/shrines/s4410001/oguni-showcase-bridge-1200.webp 1200w" sizes="(max-width:720px) 50vw, 440px" alt="小國神社の事待池に架かる朱色の橋" width="1200" height="900" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">一宮</span><strong>小國神社</strong><span>鎮守の森に囲まれた境内と、事待池の橋の風景から紹介します。</span></span></a></article>
+<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410002/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410002/amenomiya-showcase-tree-1200.webp" srcset="/shrine/shrines/s4410002/amenomiya-showcase-tree-480.webp 480w, /shrine/shrines/s4410002/amenomiya-showcase-tree-800.webp 800w, /shrine/shrines/s4410002/amenomiya-showcase-tree-1200.webp 1200w" sizes="(max-width:720px) 50vw, 440px" alt="天宮神社の境内に立つ大きな御神木と赤い鳥居" width="1200" height="900" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410002/amenomiya-showcase-chozuya-1200.webp" srcset="/shrine/shrines/s4410002/amenomiya-showcase-chozuya-480.webp 480w, /shrine/shrines/s4410002/amenomiya-showcase-chozuya-800.webp 800w, /shrine/shrines/s4410002/amenomiya-showcase-chozuya-1200.webp 1200w" sizes="(max-width:720px) 50vw, 440px" alt="天宮神社境内の手水舎" width="1200" height="900" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">天宮</span><strong>天宮神社</strong><span>御神木のある境内と手水舎を、参拝の動線に沿う写真で紹介します。</span></span></a></article>
+<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410003/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410003/yamana-showcase-precinct-1200.webp" srcset="/shrine/shrines/s4410003/yamana-showcase-precinct-480.webp 480w, /shrine/shrines/s4410003/yamana-showcase-precinct-800.webp 800w, /shrine/shrines/s4410003/yamana-showcase-precinct-1200.webp 1200w" sizes="(max-width:720px) 50vw, 440px" alt="山名神社の社殿と境内を広く望む写真" width="1200" height="900" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410003/yamana-showcase-stage-1200.webp" srcset="/shrine/shrines/s4410003/yamana-showcase-stage-480.webp 480w, /shrine/shrines/s4410003/yamana-showcase-stage-800.webp 800w, /shrine/shrines/s4410003/yamana-showcase-stage-1200.webp 1200w" sizes="(max-width:720px) 50vw, 440px" alt="山名神社の舞楽が奉納される舞殿" width="1200" height="900" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">飯田</span><strong>山名神社</strong><span>社殿を囲む境内と舞殿を、異なる位置から見た写真で紹介します。</span></span></a></article>
+<article class="sacred-showcase-card"><a href="/shrine/shrines/s4410008/"><span class="sacred-showcase-photos"><img src="/shrine/shrines/s4410008/kine-showcase-torii-view-1200.webp" srcset="/shrine/shrines/s4410008/kine-showcase-torii-view-480.webp 480w, /shrine/shrines/s4410008/kine-showcase-torii-view-800.webp 800w, /shrine/shrines/s4410008/kine-showcase-torii-view-1200.webp 1200w" sizes="(max-width:720px) 50vw, 440px" alt="許禰神社の社殿側から鳥居と参道を望む写真" width="1200" height="900" loading="lazy" decoding="async"><img src="/shrine/shrines/s4410008/kine-showcase-village-entrance-1200.webp" srcset="/shrine/shrines/s4410008/kine-showcase-village-entrance-480.webp 480w, /shrine/shrines/s4410008/kine-showcase-village-entrance-800.webp 800w, /shrine/shrines/s4410008/kine-showcase-village-entrance-1200.webp 1200w" sizes="(max-width:720px) 50vw, 440px" alt="三倉の集落に面した許禰神社入口と社号標" width="1200" height="900" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">三倉</span><strong>許禰神社</strong><span>社殿から望む参道と、三倉の集落に面した入口を紹介します。</span></span></a></article>
 </div></section>'''
 
 
@@ -78,15 +78,19 @@ def part(name, content):
 def shell(path, emoji, title, lead, body, parts, crumbs):
     url = SITE + path
     crumb = " ／ ".join(crumbs)
+    page_title = "静岡県森町の神社39社｜写真・所在地・祭神から探す" if path == "/shrine/shrines/" else "%s | %s" % (title, SITE_NAME)
+    og_image = (SITE + "/shrine/shrines/s4410001/oguni-shrine-main-hall.jpg") if path == "/shrine/shrines/" else ""
+    og_image_meta = '<meta property="og:image" content="%s">' % og_image if og_image else ""
+    twitter_card = "summary_large_image" if og_image else "summary"
     return (
         '<!doctype html><html lang="ja"><head>\n'
         '<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
-        "<title>%s | %s</title>\n"
+        "<title>%s</title>\n"
         '<meta name="description" content="%s">\n'
         '<link rel="canonical" href="%s">\n'
         '<meta property="og:type" content="website"><meta property="og:site_name" content="%s">'
         '<meta property="og:title" content="%s"><meta property="og:description" content="%s">'
-        '<meta property="og:url" content="%s"><meta name="twitter:card" content="summary">\n'
+        '<meta property="og:url" content="%s">%s<meta name="twitter:card" content="%s">\n'
         '<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n'
         "%s\n</head><body>\n%s\n%s\n"
         '<main id="main"><div class="wrap">\n'
@@ -98,7 +102,7 @@ def shell(path, emoji, title, lead, body, parts, crumbs):
         '<a href="/shrine/about/">修正依頼</a>からお知らせください。</p>\n'
         "</div></main>\n%s\n</body></html>\n"
     ) % (
-        esc(title), SITE_NAME, esc(lead), url, SITE_NAME, esc(title), esc(lead), url,
+        esc(page_title), esc(lead), url, SITE_NAME, esc(page_title), esc(lead), url, og_image_meta, twitter_card,
         part("head-css", parts["head-css"]), part("header", parts["header"]),
         part("disclaimer", parts["disclaimer"]),
         crumb, emoji, esc(title), esc(lead), body, VERIFIED,

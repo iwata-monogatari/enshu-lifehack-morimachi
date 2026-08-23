@@ -22,6 +22,7 @@ CONTENT_DIR = ROOT / "data" / "content"
 QUESTIONS_DIR = ROOT / "questions"
 SITE = "https://morimachi.enshu-lifehack.com"
 SITE_NAME = "静岡県森町ライフハック"
+QUESTION_PUBLISHED = "2026-08-06"
 sys.stdout.reconfigure(encoding="utf-8")
 
 PARTS = {
@@ -321,13 +322,18 @@ def cornerstone_links_html(row: dict) -> str:
 
 
 def page_schema(row: dict) -> str:
-    data = {
-        "@context": "https://schema.org",
+    page = {
         "@type": "WebPage",
         "name": row["question"],
         "description": row["description"],
         "url": SITE + row["href"],
         "inLanguage": "ja",
+        "datePublished": QUESTION_PUBLISHED,
+        "author": {
+            "@type": "Person",
+            "name": "大石浩之",
+            "url": SITE + "/about/author/",
+        },
         "about": {
             "@type": "Thing",
             "name": row["search_topic"],
@@ -343,7 +349,16 @@ def page_schema(row: dict) -> str:
         },
     }
     if iso_date := re.fullmatch(r"\d{4}-\d{2}-\d{2}", row.get("verified_date", "")):
-        data["dateModified"] = iso_date.group(0)
+        page["dateModified"] = iso_date.group(0)
+    breadcrumb = {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": SITE_NAME, "item": SITE + "/"},
+            {"@type": "ListItem", "position": 2, "name": "森町のよくある100の質問", "item": SITE + "/questions/"},
+            {"@type": "ListItem", "position": 3, "name": row["question"], "item": SITE + row["href"]},
+        ],
+    }
+    data = {"@context": "https://schema.org", "@graph": [page, breadcrumb]}
     return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False) + '</script>'
 
 
@@ -355,9 +370,10 @@ def render_question(row: dict, previous: dict, following: dict, rows: list[dict]
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(row['title'])} | 森町ライフハック</title>
 <meta name="description" content="{esc(row['description'])}">
+<link rel="canonical" href="{SITE}{esc(row['href'])}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
-<link rel="stylesheet" href="/assets/questions.css?v=20260806b">
+<link rel="stylesheet" href="/assets/questions.css?v=20260823a">
 <link rel="stylesheet" href="/assets/search-tools.css?v=20260806a">
 {page_schema(row)}
 </head><body class="question-page">
@@ -379,6 +395,11 @@ def render_question(row: dict, previous: dict, following: dict, rows: list[dict]
 <span>この質問の詳しいガイド</span><strong>{esc(row['parent_title'])}</strong><span aria-hidden="true">→</span></a>
 {cornerstone_links_html(row)}
 {related_questions_html(row, rows)}
+<aside class="content-provenance" aria-label="執筆と確認情報"><h2>執筆・確認情報</h2><dl>
+<div><dt>執筆者</dt><dd><a href="/about/author/">大石浩之（宅地建物取引士）</a></dd></div>
+<div><dt>初回公開</dt><dd><time datetime="{QUESTION_PUBLISHED}">{QUESTION_PUBLISHED}</time></dd></div>
+<div><dt>最終確認</dt><dd><time datetime="{esc(row['verified_date'])}">{esc(row['verified_date'])}</time></dd></div>
+</dl><p>森町や関係機関の一次情報を基礎に、対象条件・日付・金額・連絡先を執筆者が確認しています。文章整理にAIを利用する場合も、出典と表現は執筆者が確認します。現地訪問・撮影を行った内容は、本文または写真説明に記載します。</p></aside>
 {share_box(row)}
 <nav class="question-pager" aria-label="前後の質問"><a href="{esc(previous['href'])}">← 質問{previous['number']}</a><a href="/questions/">100問の一覧</a><a href="{esc(following['href'])}">質問{following['number']} →</a></nav>
 <p class="verified">最終確認日：{esc(row['verified_date'])} ／ このページは公表情報を整理した非公式案内です。</p>
@@ -413,9 +434,11 @@ def render_index(rows: list[dict]) -> str:
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>森町のよくある100の質問｜手続き・介護・家・防災 | 森町ライフハック</title>
 <meta name="description" content="静岡県周智郡森町の手続き、子育て、介護、家・土地、防災、施設について、よくある100の質問から答えと公式確認先を探せます。">
+<link rel="canonical" href="{SITE}/questions/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"{SITE_NAME}","item":"{SITE}/"}},{{"@type":"ListItem","position":2,"name":"森町のよくある100の質問","item":"{SITE}/questions/"}}]}}</script>
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
-<link rel="stylesheet" href="/assets/questions.css?v=20260806b">
+<link rel="stylesheet" href="/assets/questions.css?v=20260823a">
 </head><body class="hub questions-index">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
 <!-- PART:disclaimer:START -->{PARTS['disclaimer']}<!-- PART:disclaimer:END -->

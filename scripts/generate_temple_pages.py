@@ -23,6 +23,7 @@ from collections import Counter, defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PARTS_DIR = os.path.join(ROOT, "parts")
+PROTECTED_CUSTOM = {"/temple/temples/t22/"}
 OUT = os.path.join(ROOT, "temple")
 SITE = "https://morimachi.enshu-lifehack.com"
 SITE_NAME = "森町ライフハック"
@@ -33,7 +34,7 @@ from sacred_research import research_figure, temple_research  # noqa: E402
 DEEP_RESEARCH_EXCLUDED = {"t02"}
 
 TEMPLE_PHOTO_SHOWCASE = '''<section class="sacred-showcase" aria-labelledby="temple-photo-showcase-title"><h2 class="sec" id="temple-photo-showcase-title">写真で見る森町の寺院</h2><p class="sacred-showcase-intro">提供写真のある寺院を、詳細ページとは別の境内写真で紹介します。写真を選ぶと所在地、宗派、建築の公開記録、参拝前の確認事項を読めます。</p><div class="sacred-showcase-grid">
-<article class="sacred-showcase-card"><a href="/temple/temples/t22/"><span class="sacred-showcase-photos"><img src="/temple/temples/t22/eisenji-showcase-garden.jpg" alt="榮泉寺の緑の庭と境内の建物" width="2048" height="1536" loading="lazy" decoding="async"><img src="/temple/temples/t22/eisenji-showcase-approach.jpg" alt="榮泉寺の参道から山門を望む写真" width="2048" height="1536" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">三倉・曹洞宗</span><strong>榮泉寺</strong><span>手入れされた庭と山門へ続く参道から、三倉の寺院のたたずまいを紹介します。</span></span></a></article>
+<article class="sacred-showcase-card"><a href="/temple/temples/t22/"><span class="sacred-showcase-photos"><img src="/temple/temples/t22/eisenji-showcase-garden-1200.webp" srcset="/temple/temples/t22/eisenji-showcase-garden-480.webp 480w, /temple/temples/t22/eisenji-showcase-garden-800.webp 800w, /temple/temples/t22/eisenji-showcase-garden-1200.webp 1200w" sizes="(max-width:720px) 50vw, 440px" alt="榮泉寺の緑の庭と境内の建物" width="1200" height="900" loading="lazy" decoding="async"><img src="/temple/temples/t22/eisenji-showcase-approach-1200.webp" srcset="/temple/temples/t22/eisenji-showcase-approach-480.webp 480w, /temple/temples/t22/eisenji-showcase-approach-800.webp 800w, /temple/temples/t22/eisenji-showcase-approach-1200.webp 1200w" sizes="(max-width:720px) 50vw, 440px" alt="榮泉寺の参道から山門を望む写真" width="1200" height="900" loading="lazy" decoding="async"></span><span class="sacred-showcase-copy"><span class="sacred-showcase-area">三倉・曹洞宗</span><strong>榮泉寺</strong><span>手入れされた庭と山門へ続く参道から、三倉の寺院のたたずまいを紹介します。</span></span></a></article>
 </div></section>'''
 
 SECT_SLUG = {"曹洞宗": "soto", "日蓮宗": "nichiren", "真言宗": "shingon", "天台宗": "tendai", "浄土宗": "jodo"}
@@ -64,15 +65,19 @@ def part(name, content):
 
 def shell(path, emoji, title, lead, body, parts, crumbs):
     url = SITE + path
+    page_title = "静岡県森町の寺院35ヶ寺｜写真・地区・宗派から探す" if path == "/temple/temples/" else "%s | %s" % (title, SITE_NAME)
+    og_image = (SITE + "/temple/temples/t22/eisenji-main-hall.jpg") if path == "/temple/temples/" else ""
+    og_image_meta = '<meta property="og:image" content="%s">' % og_image if og_image else ""
+    twitter_card = "summary_large_image" if og_image else "summary"
     return (
         '<!doctype html><html lang="ja"><head>\n'
         '<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
-        "<title>%s | %s</title>\n"
+        "<title>%s</title>\n"
         '<meta name="description" content="%s">\n'
         '<link rel="canonical" href="%s">\n'
         '<meta property="og:type" content="website"><meta property="og:site_name" content="%s">'
         '<meta property="og:title" content="%s"><meta property="og:description" content="%s">'
-        '<meta property="og:url" content="%s"><meta name="twitter:card" content="summary">\n'
+        '<meta property="og:url" content="%s">%s<meta name="twitter:card" content="%s">\n'
         '<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n'
         "%s\n</head><body>\n%s\n%s\n"
         '<main id="main"><div class="wrap">\n'
@@ -84,7 +89,7 @@ def shell(path, emoji, title, lead, body, parts, crumbs):
         '<a href="/temple/about/">修正依頼</a>からお知らせください。</p>\n'
         "</div></main>\n%s\n</body></html>\n"
     ) % (
-        esc(title), SITE_NAME, esc(lead), url, SITE_NAME, esc(title), esc(lead), url,
+        esc(page_title), esc(lead), url, SITE_NAME, esc(page_title), esc(lead), url, og_image_meta, twitter_card,
         part("head-css", parts["head-css"]), part("header", parts["header"]),
         part("disclaimer", parts["disclaimer"]),
         " ／ ".join(crumbs), emoji, esc(title), esc(lead), body, VERIFIED,
@@ -93,6 +98,9 @@ def shell(path, emoji, title, lead, body, parts, crumbs):
 
 
 def write(rel, content):
+    url = "/temple/" + (rel.strip("/") + "/" if rel else "")
+    if url in PROTECTED_CUSTOM and os.path.isfile(os.path.join(OUT, rel, "index.html")):
+        return os.path.join("temple", rel, "index.html").replace(os.sep, "/") + " (custom photos preserved)"
     p = os.path.join(OUT, rel, "index.html") if rel else os.path.join(OUT, "index.html")
     os.makedirs(os.path.dirname(p), exist_ok=True)
     trailing_newline = "\n" if content.endswith("\n") else ""

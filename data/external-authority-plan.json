@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-08-23",
+  "status": "public_assets_ready_outreach_not_sent",
+  "rule": "紹介依頼は送付先と文面を確認してから行い、リンク購入や一括送信は行わない。",
+  "targets": [
+    {
+      "audience": "社寺関係者・写真提供者",
+      "link_targets": ["/shrine/shrines/", "/temple/temples/"],
+      "reason": "写真、所在地、祭神・宗派、訂正窓口を一つの資料として案内できる"
+    },
+    {
+      "audience": "地域団体・観光関係者",
+      "link_targets": ["/discover/", "/shrine/shrines/s4410001/"],
+      "reason": "訪問前の確認事項と一次情報への導線を地域案内として紹介できる"
+    },
+    {
+      "audience": "地域メディア・文化関係者",
+      "link_targets": ["/blog/", "/about/author/"],
+      "reason": "独自計算、現地写真、執筆者と確認方法を明示した記事を引用できる"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-08-23",
+  "purpose": "Search Consoleで優先確認し、サイト内リンクを集める代表URL",
+  "urls": [
+    "/",
+    "/discover/",
+    "/questions/",
+    "/blog/",
+    "/hub/procedures/",
+    "/hub/family/",
+    "/hub/care/",
+    "/hub/property/",
+    "/hub/trouble/",
+    "/hub/enjoy/",
+    "/life/start-living/certificates/",
+    "/life/housing/vacant-house/",
+    "/life/emergency/evacuation-hazard-map/",
+    "/life/family-grow/child-allowance/",
+    "/life/parents-care/long-term-care-insurance/",
+    "/life/health-medical/night-holiday-medical/",
+    "/life/start-living/public-transit/",
+    "/shrine/",
+    "/shrine/shrines/",
+    "/shrine/shrines/s4410001/",
+    "/temple/",
+    "/temple/temples/",
+    "/temple/temples/t22/",
+    "/blog/20260823-koko-tsugaku-shugaku-shienkin/",
+    "/about/author/"
+  ]
+}

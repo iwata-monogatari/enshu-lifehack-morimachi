@@ -139,17 +139,19 @@ def build_index(posts, parts):
         )
 
     lead = "静岡県周智郡森町（遠州森町）の暮らし・手続き・空き家・寺社について、公表情報を確認しながら書いています。"
+    index_title = "森町ブログ｜暮らし・空き家・交通・文化を一次情報で解説"
+    index_image = SITE + "/blog/20260823-koko-tsugaku-shugaku-shienkin/cover.jpg"
     body = '<ul class="post-list">%s</ul>' % "".join(items) if items else '<p class="lead">記事はまだありません。</p>'
 
     return (
         '<!doctype html><html lang="ja"><head>\n'
         '<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
-        "<title>ブログ | %s</title>\n"
+        "<title>%s</title>\n"
         '<meta name="description" content="%s">\n'
         '<link rel="canonical" href="%s/blog/">\n'
         '<meta property="og:type" content="website"><meta property="og:site_name" content="%s">'
-        '<meta property="og:title" content="ブログ | %s"><meta property="og:description" content="%s">'
-        '<meta property="og:url" content="%s/blog/"><meta name="twitter:card" content="summary">\n'
+        '<meta property="og:title" content="%s"><meta property="og:description" content="%s">'
+        '<meta property="og:url" content="%s/blog/"><meta property="og:image" content="%s"><meta name="twitter:card" content="summary_large_image">\n'
         '<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"静岡県森町ライフハック","item":"https://morimachi.enshu-lifehack.com/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://morimachi.enshu-lifehack.com/blog/"}]}</script>\n'
         '<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n'
         "%s\n</head><body>\n%s\n%s\n"
@@ -159,7 +161,7 @@ def build_index(posts, parts):
         '<div class="hero-body"><p class="lead">%s</p></div></section>\n'
         "%s\n</div></main>\n%s\n</body></html>\n"
     ) % (
-        SITE_NAME, lead, SITE, SITE_NAME, SITE_NAME, lead, SITE,
+        index_title, lead, SITE, SITE_NAME, index_title, lead, SITE, index_image,
         part_markup("head-css", parts["head-css"]),
         part_markup("header", parts["header"]),
         part_markup("disclaimer", parts["disclaimer"]),

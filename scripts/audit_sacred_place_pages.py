@@ -96,7 +96,7 @@ def main() -> None:
                 page_failures.append("canonicalが一つでない")
             if slug != "s4410001" and 'data-content-quality="human-readable"' not in source:
                 page_failures.append("人向け本文マーカーなし")
-            if slug == "s4410003" and len(re.findall(r'src="yamana-shrine-[^"]+\.jpg"', source)) != 4:
+            if slug == "s4410003" and len(re.findall(r'src="yamana-shrine-[^"]+-1200\.webp"', source)) != 4:
                 page_failures.append("山名神社の提供写真が4点でない")
             found_internal = [phrase for phrase in INTERNAL_PHRASES if phrase in source]
             if found_internal:
