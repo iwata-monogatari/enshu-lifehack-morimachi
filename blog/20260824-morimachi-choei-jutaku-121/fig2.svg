@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig2title fig2desc">
+<title id="fig2title">親が一人になった後の住まいを森町で探すときの確認の順番</title>
+<desc id="fig2desc">窓口へ電話、団地と距離、家賃と収入、実家の維持費、介護と別の制度の順に五つの段を上っていく図。</desc>
+<defs>
+<linearGradient id="g2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d3e6ef"/><stop offset="1" stop-color="#ecf3e7"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#g2sky)"/>
+<path d="M0 118 L102 60 L198 114 L298 54 L400 116 L502 56 L606 116 L708 58 L812 114 L914 60 L1000 116 L1000 164 L0 164 Z" fill="#93b0c2"/>
+<path d="M0 144 L126 98 L254 146 L382 96 L512 148 L640 98 L768 146 L896 100 L1000 142 L1000 190 L0 190 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M16 190 L36 134 L56 190 Z"/><path d="M52 190 L70 142 L88 190 Z"/>
+<path d="M914 190 L934 136 L954 190 Z"/><path d="M948 190 L966 144 L984 190 Z"/>
+</g>
+<rect x="0" y="184" width="1000" height="24" fill="#8bb268"/>
+<rect x="0" y="206" width="1000" height="20" fill="#79a45c"/>
+<rect x="0" y="224" width="1000" height="18" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 196 H1000"/><path d="M0 216 H1000"/><path d="M0 234 H1000"/>
+</g>
+<rect x="0" y="240" width="1000" height="320" fill="#e8eedc"/>
+
+<g>
+<circle cx="62" cy="350" r="17" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M44 424 L62 368 L80 424 L84 472 L40 472 Z" fill="#8a6f7d"/>
+<path d="M90 370 L90 472" stroke="#8a6a44" stroke-width="6" stroke-linecap="round"/>
+<circle cx="118" cy="364" r="14" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M104 424 L118 380 L132 424 L134 472 L102 472 Z" fill="#4c6076"/>
+<text x="42" y="498" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#4a5a4f">親と子</text>
+</g>
+
+<g fill="#cfd9c4" stroke="#a7b79b" stroke-width="2">
+<rect x="158" y="454" width="164" height="58"/>
+<rect x="322" y="398" width="164" height="114"/>
+<rect x="486" y="342" width="164" height="170"/>
+<rect x="650" y="286" width="164" height="226"/>
+<rect x="814" y="230" width="164" height="282"/>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="182" cy="436" r="15" fill="#4d7f63"/>
+<text x="182" y="442" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">1</text>
+<rect x="164" y="386" width="72" height="44" rx="7" fill="#dfe7ee" stroke="#5b6b78" stroke-width="3"/>
+<rect x="174" y="396" width="52" height="14" rx="3" fill="#8b98a4"/>
+<circle cx="184" cy="418" r="4" fill="#5b6b78"/><circle cx="200" cy="418" r="4" fill="#5b6b78"/><circle cx="216" cy="418" r="4" fill="#5b6b78"/>
+<text x="244" y="476" font-size="16" font-weight="bold" fill="#2c4a3c">住まい支援係へ電話</text>
+<text x="244" y="498" font-size="14" fill="#5a6a5c">次の募集／単身の可否</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="346" cy="380" r="15" fill="#4d7f63"/>
+<text x="346" y="386" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">2</text>
+<rect x="330" y="320" width="52" height="54" fill="#c9d2d8" stroke="#7d8b96" stroke-width="3"/>
+<g fill="#6f93aa"><rect x="338" y="330" width="14" height="12"/><rect x="360" y="330" width="14" height="12"/><rect x="338" y="350" width="14" height="12"/><rect x="360" y="350" width="14" height="12"/></g>
+<path d="M392 372 Q424 336 452 366" stroke="#b98a4a" stroke-width="5" fill="none" stroke-dasharray="9 7"/>
+<circle cx="456" cy="366" r="9" fill="#a1332a"/>
+<text x="410" y="420" font-size="16" font-weight="bold" fill="#2c4a3c">団地と距離</text>
+<text x="410" y="442" font-size="14" fill="#5a6a5c">病院・店まで走ってみる</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="510" cy="324" r="15" fill="#4d7f63"/>
+<text x="510" y="330" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">3</text>
+<rect x="492" y="256" width="72" height="56" fill="#ffffff" stroke="#8b98a4" stroke-width="3"/>
+<g stroke="#b6c0c8" stroke-width="2"><path d="M500 272 H556"/><path d="M500 284 H556"/><path d="M500 296 H540"/></g>
+<text x="576" y="364" font-size="16" font-weight="bold" fill="#2c4a3c">家賃と収入基準</text>
+<text x="576" y="386" font-size="14" fill="#5a6a5c">158,000円／259,000円</text>
+<text x="576" y="406" font-size="14" fill="#5a6a5c">手取りではなく算出額</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="674" cy="268" r="15" fill="#4d7f63"/>
+<text x="674" y="274" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">4</text>
+<path d="M642 232 L676 206 L710 232 Z" fill="#6d6257"/>
+<rect x="650" y="232" width="52" height="30" fill="#efe6d2" stroke="#a89a80" stroke-width="3"/>
+<rect x="714" y="236" width="18" height="26" fill="#b7c3c9" stroke="#7d8b96" stroke-width="3"/>
+<text x="748" y="300" font-size="16" font-weight="bold" fill="#2c4a3c">実家の年額</text>
+<text x="748" y="322" font-size="14" fill="#a1332a">水道を止めると再開に加入金</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="838" cy="212" r="15" fill="#4d7f63"/>
+<text x="838" y="218" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">5</text>
+<rect x="806" y="140" width="70" height="58" fill="#efe6d2" stroke="#a89a80" stroke-width="3"/>
+<path d="M800 140 L841 116 L882 140 Z" fill="#6d6257"/>
+<rect x="826" y="168" width="26" height="30" fill="#9fc0cf" stroke="#7b8f9c" stroke-width="2"/>
+<circle cx="916" cy="152" r="13" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M902 198 L916 166 L930 198 Z" fill="#4c6076"/>
+<rect x="892" y="126" width="56" height="20" rx="4" fill="#ffffff" stroke="#7b8f7a" stroke-width="2"/>
+<text x="920" y="141" text-anchor="middle" font-size="12" fill="#33503f">支援</text>
+<text x="800" y="246" font-size="16" font-weight="bold" fill="#2c4a3c">介護と別の制度</text>
+<text x="800" y="268" font-size="14" fill="#5a6a5c">居住サポート住宅は県が窓口</text>
+</g>
+
+<rect x="24" y="520" width="720" height="32" rx="7" fill="#ffffff" stroke="#7b8f7a" stroke-width="3"/>
+<text x="40" y="542" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#33503f">1は今日できる。0538-85-6321へ「次の募集」と「単身の可否」を聞く（2026年8月24日確認）</text>
+</svg>

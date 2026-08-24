@@ -3213,7 +3213,51 @@ def scene_kosei_yuigon_web(d):
     band(d, ["ウェブ会議か、", "公証人の出張か"], "森町ライフハック／手続き・制度")
 
 
+def scene_choei_jutaku_121(d):
+    """森町の町営住宅121戸。空いている戸数と、住んでいる世帯の姿。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [10, 52, 692, 732], 300)
+    d.polygon([(0, 292), (760, 284), (760, 316), (0, 326)], fill=(123, 169, 84))
+    d.line([(0, 300), (760, 292)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 320), (760, 310), (760, BAND_TOP), (0, BAND_TOP)], fill=(228, 236, 216))
+    fb = ImageFont.truetype(FONT_BOLD, 20)
+    fr = ImageFont.truetype(FONT_REGULAR, 16)
+    # 左：中層の集合住宅3棟
+    for x0, top in ((24, 330), (98, 348), (172, 362)):
+        d.rectangle([x0, top, x0 + 62, 462], fill=(201, 210, 216), outline=(125, 139, 150), width=4)
+        y = top + 14
+        while y + 14 < 456:
+            d.rectangle([x0 + 10, y, x0 + 26, y + 13], fill=(111, 147, 170))
+            d.rectangle([x0 + 36, y, x0 + 52, y + 13], fill=(111, 147, 170))
+            y += 26
+    d.text((24, 470), "町営住宅 6団地121戸", font=fb, fill=(51, 80, 63))
+    # 帯グラフ
+    d.rectangle([24, 494, 204, 524], fill=(77, 127, 99), outline=(51, 96, 74), width=3)
+    d.rectangle([204, 494, 250, 524], fill=(223, 228, 214), outline=(141, 154, 134), width=3)
+    d.rectangle([250, 494, 262, 524], fill=(199, 191, 176), outline=(141, 154, 134), width=3)
+    d.text((32, 500), "入居 95戸", font=ImageFont.truetype(FONT_BOLD, 17), fill="#ffffff")
+    d.text((270, 498), "空き24戸", font=fr, fill=(90, 106, 92))
+    d.text((24, 534), "空家率 20.2％", font=ImageFont.truetype(FONT_BOLD, 22), fill=(138, 90, 30))
+    # 中央：入居資格の紙
+    d.rectangle([296, 384, 508, 470], fill=(253, 246, 227), outline=(176, 155, 98), width=4)
+    d.text((306, 392), "入居資格", font=ImageFont.truetype(FONT_BOLD, 17), fill=(107, 90, 36))
+    d.text((306, 418), "① 原則として", font=ImageFont.truetype(FONT_BOLD, 18), fill=(161, 51, 42))
+    d.text((306, 440), "同居する親族がいること", font=ImageFont.truetype(FONT_BOLD, 18), fill=(161, 51, 42))
+    d.line([(304, 462), (500, 462)], fill=(179, 57, 44), width=4)
+    # 右：単身の高齢者
+    d.ellipse([556, 336, 594, 374], fill=(230, 198, 156), outline=(140, 111, 78), width=3)
+    d.polygon([(538, 456), (575, 380), (612, 456)], fill=(138, 111, 125))
+    d.line([(624, 382), (624, 470)], fill=(138, 106, 68), width=7)
+    d.rectangle([540, 456, 558, 472], fill=(91, 74, 60))
+    d.rectangle([594, 456, 612, 472], fill=(91, 74, 60))
+    d.text((520, 486), "単身世帯 44.2％", font=ImageFont.truetype(FONT_BOLD, 21), fill=(51, 80, 63))
+    d.text((520, 516), "世帯主65歳以上 55.8％", font=fr, fill=(74, 90, 79))
+    band(d, ["空いているのに、", "入れるとは限らない"], "森町ライフハック／手続き・制度")
+
+
 SCENES = {
+    "20260824-morimachi-choei-jutaku-121": scene_choei_jutaku_121,
     "20260824-kosei-shosho-yuigon-web": scene_kosei_yuigon_web,
     "20260823-koko-tsugaku-shugaku-shienkin": scene_koko_tsugaku,
     "20260823-kokusei-chosa-sokuho-morimachi": scene_kokusei_sokuho,

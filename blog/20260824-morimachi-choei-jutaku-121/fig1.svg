@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig1title fig1desc">
+<title id="fig1title">森町の町営住宅121戸の内訳と、住んでいる世帯の姿</title>
+<desc id="fig1desc">121戸のうち入居95戸・空き24戸・募集を止めた2戸。団地ごとの空家率の差と、単身44.2％という実態を並べる。</desc>
+<defs>
+<linearGradient id="g1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe4f0"/><stop offset="1" stop-color="#eaf2e6"/>
+</linearGradient>
+<pattern id="g1hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#e4e0d4"/><rect width="4" height="10" fill="#b9b1a0"/>
+</pattern>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#g1sky)"/>
+<path d="M0 122 L108 62 L204 116 L300 56 L400 116 L500 58 L604 116 L706 60 L806 116 L906 62 L1000 118 L1000 166 L0 166 Z" fill="#93b0c2"/>
+<path d="M0 148 L124 100 L252 148 L378 98 L508 150 L634 100 L760 148 L886 102 L1000 146 L1000 192 L0 192 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M20 192 L40 136 L60 192 Z"/><path d="M56 192 L74 144 L92 192 Z"/>
+<path d="M908 192 L928 138 L948 192 Z"/><path d="M942 192 L960 146 L978 192 Z"/>
+</g>
+<rect x="0" y="186" width="1000" height="24" fill="#8bb268"/>
+<rect x="0" y="208" width="1000" height="20" fill="#79a45c"/>
+<rect x="0" y="226" width="1000" height="18" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 198 H1000"/><path d="M0 218 H1000"/><path d="M0 236 H1000"/>
+</g>
+<rect x="0" y="242" width="1000" height="318" fill="#e8eedc"/>
+
+<g>
+<rect x="30" y="252" width="76" height="150" fill="#c9d2d8" stroke="#7d8b96" stroke-width="4"/>
+<rect x="114" y="272" width="76" height="130" fill="#c9d2d8" stroke="#7d8b96" stroke-width="4"/>
+<rect x="198" y="288" width="76" height="114" fill="#c9d2d8" stroke="#7d8b96" stroke-width="4"/>
+<g fill="#6f93aa">
+<rect x="42" y="266" width="20" height="16"/><rect x="74" y="266" width="20" height="16"/>
+<rect x="42" y="294" width="20" height="16"/><rect x="74" y="294" width="20" height="16"/>
+<rect x="42" y="322" width="20" height="16"/><rect x="74" y="322" width="20" height="16"/>
+<rect x="126" y="286" width="20" height="16"/><rect x="158" y="286" width="20" height="16"/>
+<rect x="126" y="314" width="20" height="16"/><rect x="158" y="314" width="20" height="16"/>
+<rect x="210" y="302" width="20" height="16"/><rect x="242" y="302" width="20" height="16"/>
+<rect x="210" y="330" width="20" height="16"/><rect x="242" y="330" width="20" height="16"/>
+</g>
+<text x="30" y="428" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">町営住宅　6団地121戸</text>
+<rect x="30" y="440" width="196" height="34" fill="#4d7f63" stroke="#33604a" stroke-width="3"/>
+<rect x="226" y="440" width="50" height="34" fill="#dfe4d6" stroke="#8d9a86" stroke-width="3"/>
+<rect x="276" y="440" width="14" height="34" fill="url(#g1hatch)" stroke="#8d9a86" stroke-width="3"/>
+<text x="34" y="464" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">入居 95戸</text>
+<text x="222" y="496" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">空き24戸</text>
+<text x="30" y="518" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#8a5a1e">空家率 20.2％（令和6年12月時点）</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<text x="330" y="272" font-size="18" font-weight="bold" fill="#33503f">団地で差がある</text>
+<line x1="326" y1="452" x2="470" y2="452" stroke="#8d9a86" stroke-width="4"/>
+<rect x="336" y="290" width="46" height="162" fill="#4d7f63" stroke="#33604a" stroke-width="3"/>
+<rect x="336" y="290" width="46" height="10" fill="#dfe4d6"/>
+<rect x="410" y="292" width="46" height="160" fill="#4d7f63" stroke="#33604a" stroke-width="3"/>
+<rect x="410" y="292" width="46" height="69" fill="#dfe4d6"/>
+<text x="330" y="472" font-size="14" fill="#4a5a4f">森山団地</text>
+<text x="330" y="490" font-size="14" font-weight="bold" fill="#33604a">30/32戸</text>
+<text x="330" y="508" font-size="14" fill="#5a6a5c">空家率6.3％</text>
+<text x="404" y="472" font-size="14" fill="#4a5a4f">やざき団地</text>
+<text x="404" y="490" font-size="14" font-weight="bold" fill="#a1332a">12/21戸</text>
+<text x="404" y="508" font-size="14" fill="#a1332a">空家率42.9％</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="546" cy="286" r="19" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M524 378 L546 306 L568 378 L572 424 L520 424 Z" fill="#8a6f7d"/>
+<path d="M580 306 L580 424" stroke="#8a6a44" stroke-width="6" stroke-linecap="round"/>
+<rect x="520" y="424" width="18" height="14" fill="#5b4a3c"/>
+<rect x="554" y="424" width="18" height="14" fill="#5b4a3c"/>
+<text x="606" y="292" font-size="17" font-weight="bold" fill="#33503f">実際に住んでいる95世帯</text>
+<rect x="606" y="306" width="360" height="38" rx="6" fill="#ffffff" stroke="#7b8f7a" stroke-width="3"/>
+<text x="618" y="332" font-size="18" font-weight="bold" fill="#2c4a3c">単身世帯 42世帯（44.2％）</text>
+<rect x="606" y="352" width="360" height="38" rx="6" fill="#ffffff" stroke="#7b8f7a" stroke-width="3"/>
+<text x="618" y="378" font-size="18" font-weight="bold" fill="#2c4a3c">世帯主65歳以上 53戸（55.8％）</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<rect x="606" y="406" width="360" height="112" rx="6" fill="#fdf6e3" stroke="#b09b62" stroke-width="4"/>
+<text x="620" y="432" font-size="16" font-weight="bold" fill="#6b5a24">入居資格（森町公式）</text>
+<text x="620" y="462" font-size="17" font-weight="bold" fill="#a1332a">① 原則として同居する親族がいること</text>
+<line x1="620" y1="470" x2="952" y2="470" stroke="#a1332a" stroke-width="3"/>
+<text x="620" y="492" font-size="15" fill="#5b5140">② 合計収入月額 158,000円以下</text>
+<text x="620" y="512" font-size="15" fill="#5b5140">③ 明らかに住宅に困窮していること</text>
+</g>
+<text x="30" y="546" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#6b7566">出典：森町公式／森町営住宅長寿命化計画（2026年8月24日確認）</text>
+</svg>
