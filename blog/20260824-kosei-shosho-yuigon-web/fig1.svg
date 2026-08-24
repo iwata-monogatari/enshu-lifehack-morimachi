@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig1title fig1desc">
+<title id="fig1title">森町の実家から公正証書遺言を残す二つの道</title>
+<desc id="fig1desc">中央の実家から左右に道が伸び、左はウェブ会議、右は公証人の出張。手前に共通して必要な書類が並ぶ。</desc>
+<defs>
+<linearGradient id="f1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe4f0"/><stop offset="1" stop-color="#eaf2e6"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#f1sky)"/>
+<path d="M0 128 L110 66 L196 118 L286 58 L380 116 L470 60 L566 118 L660 62 L760 116 L860 64 L1000 122 L1000 170 L0 170 Z" fill="#93b0c2"/>
+<path d="M0 152 L120 104 L246 150 L364 100 L492 152 L618 102 L742 150 L868 104 L1000 148 L1000 196 L0 196 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M24 196 L44 140 L64 196 Z"/><path d="M60 196 L78 148 L96 196 Z"/>
+<path d="M906 196 L926 142 L946 196 Z"/><path d="M940 196 L958 150 L976 196 Z"/>
+</g>
+<rect x="0" y="190" width="1000" height="26" fill="#8bb268"/>
+<rect x="0" y="212" width="1000" height="22" fill="#79a45c"/>
+<rect x="0" y="230" width="1000" height="20" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 202 H1000"/><path d="M0 224 H1000"/><path d="M0 242 H1000"/>
+</g>
+<rect x="0" y="248" width="1000" height="312" fill="#e6edda"/>
+
+<path d="M470 300 L120 470 L268 470 L500 344 Z" fill="#d9d2bd" stroke="#b9ae91" stroke-width="2"/>
+<path d="M530 300 L880 470 L732 470 L500 344 Z" fill="#d9d2bd" stroke="#b9ae91" stroke-width="2"/>
+
+<g>
+<path d="M436 300 L500 258 L564 300 Z" fill="#6d6257"/>
+<rect x="450" y="300" width="100" height="58" fill="#efe6d2" stroke="#a89a80" stroke-width="3"/>
+<rect x="466" y="314" width="26" height="26" fill="#9fc0cf" stroke="#7b8f9c" stroke-width="2"/>
+<rect x="508" y="314" width="26" height="26" fill="#9fc0cf" stroke="#7b8f9c" stroke-width="2"/>
+<text x="500" y="376" text-anchor="middle" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#3d4a3f">森町の実家</text>
+</g>
+
+<g>
+<rect x="24" y="278" width="404" height="34" rx="8" fill="#2f6f96"/>
+<text x="42" y="302" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="20" font-weight="bold" fill="#ffffff">道①　ウェブ会議で作る（出頭は不要）</text>
+<rect x="40" y="326" width="372" height="12" rx="4" fill="#b9a781"/>
+<rect x="70" y="270" width="0" height="0"/>
+<g>
+<rect x="70" y="272" width="0" height="0"/>
+</g>
+<path d="M62 326 L96 326 L96 288 L62 288 Z" fill="#5b6b78"/>
+<path d="M58 288 L100 288 L112 258 L46 258 Z" fill="#cfd8de" stroke="#5b6b78" stroke-width="3"/>
+<rect x="56" y="262" width="46" height="20" fill="#8fb3c6"/>
+<rect x="128" y="292" width="86" height="46" rx="6" fill="#4a5a66" stroke="#2f3b45" stroke-width="3"/>
+<rect x="138" y="300" width="66" height="30" rx="3" fill="#cfd8de"/>
+<path d="M226 336 L262 288" stroke="#39424a" stroke-width="8" stroke-linecap="round"/>
+<path d="M258 292 L268 282" stroke="#c1922f" stroke-width="8" stroke-linecap="round"/>
+<text x="62" y="360" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#28414f">パソコン＋ペンタブレット＋電子ペン</text>
+<rect x="40" y="374" width="372" height="34" rx="7" fill="#fdeceb" stroke="#b3392c" stroke-width="3"/>
+<text x="56" y="397" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#a1332a">スマートフォン・タブレットは使用不可</text>
+<circle cx="380" cy="391" r="14" fill="none" stroke="#a1332a" stroke-width="4"/>
+<path d="M370 401 L390 381" stroke="#a1332a" stroke-width="4"/>
+<text x="40" y="428" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#4a5a4f">OS：Windows10・11／最新3つのMacOS</text>
+<text x="40" y="450" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#4a5a4f">公証人が「相当と認める」ときに限られる</text>
+</g>
+
+<g>
+<rect x="572" y="278" width="404" height="34" rx="8" fill="#9b4a2f"/>
+<text x="590" y="302" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="20" font-weight="bold" fill="#ffffff">道②　公証人に出張してもらう</text>
+<circle cx="622" cy="336" r="15" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M606 396 L622 352 L638 396 L642 428 L602 428 Z" fill="#3e4d5c"/>
+<rect x="600" y="428" width="14" height="20" fill="#2d3944"/>
+<rect x="630" y="428" width="14" height="20" fill="#2d3944"/>
+<rect x="644" y="360" width="34" height="26" rx="4" fill="#8a6a44" stroke="#5f4a2f" stroke-width="3"/>
+<rect x="700" y="356" width="260" height="92" rx="6" fill="#f2ead6" stroke="#a89a80" stroke-width="3"/>
+<g stroke="#cbbf9f" stroke-width="2">
+<path d="M700 386 H960"/><path d="M786 356 V448"/><path d="M874 356 V448"/>
+</g>
+<rect x="714" y="398" width="130" height="34" rx="12" fill="#dfe7ee" stroke="#8b98a4" stroke-width="3"/>
+<circle cx="726" cy="404" r="12" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<circle cx="880" cy="376" r="11" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<circle cx="922" cy="376" r="11" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<text x="856" y="424" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5b5140">証人2人</text>
+<text x="590" y="470" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#8a3a24">病床での作成は手数料に50％の加算あり</text>
+<text x="590" y="492" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#5b4a40">日当 1日2万円（4時間以内は1万円）＋交通費</text>
+</g>
+
+<g>
+<rect x="24" y="474" width="520" height="70" rx="8" fill="#ffffff" stroke="#7b8f7a" stroke-width="3"/>
+<text x="40" y="498" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">どちらの道でも要るもの</text>
+<rect x="40" y="506" width="40" height="28" fill="#fdf6e3" stroke="#b09b62" stroke-width="2"/>
+<rect x="86" y="506" width="40" height="28" fill="#fdf6e3" stroke="#b09b62" stroke-width="2"/>
+<rect x="132" y="506" width="40" height="28" fill="#fdf6e3" stroke="#b09b62" stroke-width="2"/>
+<text x="184" y="527" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a4034">印鑑登録証明書（3か月以内・1通300円）／戸籍謄本／証人2人</text>
+</g>
+<text x="962" y="540" text-anchor="end" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#6b7566">森町ライフハック／2026年8月24日確認</text>
+</svg>

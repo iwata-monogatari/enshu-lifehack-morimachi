@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig2title fig2desc">
+<title id="fig2title">森町の家から公正証書遺言を残すときの確認の順番</title>
+<desc id="fig2desc">親の体の状態、家の機材、公証役場への電話、書類、当日の顔ぶれの順に、五つの段を上っていく図。</desc>
+<defs>
+<linearGradient id="f2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d3e6ef"/><stop offset="1" stop-color="#ecf3e7"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#f2sky)"/>
+<path d="M0 120 L104 62 L200 116 L300 56 L404 118 L508 58 L616 118 L720 60 L826 116 L920 62 L1000 118 L1000 168 L0 168 Z" fill="#93b0c2"/>
+<path d="M0 146 L128 100 L258 148 L386 98 L516 150 L646 100 L774 148 L900 102 L1000 144 L1000 194 L0 194 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M18 194 L38 138 L58 194 Z"/><path d="M54 194 L72 146 L90 194 Z"/>
+<path d="M912 194 L932 140 L952 194 Z"/><path d="M946 194 L964 148 L982 194 Z"/>
+</g>
+<rect x="0" y="188" width="1000" height="24" fill="#8bb268"/>
+<rect x="0" y="210" width="1000" height="20" fill="#79a45c"/>
+<rect x="0" y="228" width="1000" height="18" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 200 H1000"/><path d="M0 220 H1000"/><path d="M0 238 H1000"/>
+</g>
+<rect x="0" y="244" width="1000" height="316" fill="#e8eedc"/>
+
+<g>
+<circle cx="66" cy="352" r="17" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M48 424 L66 370 L84 424 L88 470 L44 470 Z" fill="#6b6355"/>
+<path d="M92 372 L92 470" stroke="#8a6a44" stroke-width="6" stroke-linecap="round"/>
+<circle cx="118" cy="366" r="14" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M104 424 L118 382 L132 424 L134 470 L102 470 Z" fill="#4c6076"/>
+<text x="46" y="496" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#4a5a4f">親と子</text>
+</g>
+
+<g fill="#cfd9c4" stroke="#a7b79b" stroke-width="2">
+<rect x="160" y="452" width="164" height="60"/>
+<rect x="324" y="396" width="164" height="116"/>
+<rect x="488" y="340" width="164" height="172"/>
+<rect x="652" y="284" width="164" height="228"/>
+<rect x="816" y="228" width="164" height="284"/>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="184" cy="434" r="15" fill="#2f6f96"/>
+<text x="184" y="440" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">1</text>
+<rect x="168" y="386" width="70" height="40" rx="4" fill="#ffffff" stroke="#8b98a4" stroke-width="3"/>
+<g stroke="#b6c0c8" stroke-width="2"><path d="M176 398 H230"/><path d="M176 408 H230"/><path d="M176 418 H214"/></g>
+<text x="246" y="474" font-size="16" font-weight="bold" fill="#2c4a3c">親は出向けるか</text>
+<text x="246" y="496" font-size="14" fill="#5a6a5c">車で行ける／行けない</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="348" cy="378" r="15" fill="#2f6f96"/>
+<text x="348" y="384" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">2</text>
+<path d="M334 356 L376 356 L388 326 L322 326 Z" fill="#cfd8de" stroke="#5b6b78" stroke-width="3"/>
+<rect x="332" y="330" width="46" height="20" fill="#8fb3c6"/>
+<rect x="396" y="330" width="56" height="30" rx="5" fill="#4a5a66" stroke="#2f3b45" stroke-width="3"/>
+<rect x="404" y="336" width="40" height="18" rx="2" fill="#cfd8de"/>
+<text x="410" y="418" font-size="16" font-weight="bold" fill="#2c4a3c">機材はあるか</text>
+<text x="410" y="440" font-size="14" fill="#5a6a5c">スマホ・タブレットは不可</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="512" cy="322" r="15" fill="#2f6f96"/>
+<text x="512" y="328" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">3</text>
+<rect x="498" y="266" width="70" height="46" rx="7" fill="#dfe7ee" stroke="#5b6b78" stroke-width="3"/>
+<rect x="508" y="276" width="50" height="14" rx="3" fill="#8b98a4"/>
+<circle cx="518" cy="300" r="4" fill="#5b6b78"/><circle cx="533" cy="300" r="4" fill="#5b6b78"/><circle cx="548" cy="300" r="4" fill="#5b6b78"/>
+<text x="576" y="362" font-size="16" font-weight="bold" fill="#2c4a3c">公証役場へ電話</text>
+<text x="576" y="384" font-size="14" fill="#5a6a5c">袋井 0538-42-8412</text>
+<text x="576" y="404" font-size="14" fill="#5a6a5c">掛川 0537-22-2304</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="676" cy="266" r="15" fill="#2f6f96"/>
+<text x="676" y="272" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">4</text>
+<rect x="660" y="196" width="58" height="42" fill="#fdf6e3" stroke="#b09b62" stroke-width="3"/>
+<rect x="672" y="206" width="58" height="42" fill="#fdf6e3" stroke="#b09b62" stroke-width="3"/>
+<rect x="684" y="216" width="58" height="42" fill="#fdf6e3" stroke="#b09b62" stroke-width="3"/>
+<text x="756" y="300" font-size="16" font-weight="bold" fill="#2c4a3c">書類をそろえる</text>
+<text x="756" y="322" font-size="14" fill="#a1332a">印鑑登録証明書は3か月以内</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="840" cy="210" r="15" fill="#2f6f96"/>
+<text x="840" y="216" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">5</text>
+<circle cx="868" cy="150" r="13" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M854 200 L868 164 L882 200 Z" fill="#4c6076"/>
+<circle cx="904" cy="150" r="13" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M890 200 L904 164 L918 200 Z" fill="#4c6076"/>
+<circle cx="940" cy="150" r="13" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M926 200 L940 164 L954 200 Z" fill="#5b4a3c"/>
+<text x="828" y="244" font-size="16" font-weight="bold" fill="#2c4a3c">当日の顔ぶれ</text>
+<text x="828" y="266" font-size="14" fill="#5a6a5c">証人2人＋公証人</text>
+</g>
+
+<rect x="24" y="518" width="700" height="32" rx="7" fill="#ffffff" stroke="#7b8f7a" stroke-width="3"/>
+<text x="40" y="540" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#33503f">1と2は今日できる。3から先は電話1本で進む（2026年8月24日確認）</text>
+</svg>

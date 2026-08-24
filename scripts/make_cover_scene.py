@@ -3157,7 +3157,64 @@ def scene_tokutei_kyoju_plan(d):
     band(d, ["区域も箱も揃った、", "座る人はこれから"], "森町ライフハック／移住・暮らし・データ")
 
 
+def scene_kosei_yuigon_web(d):
+    """公正証書遺言を残す二つの道。左はウェブ会議、右は公証人の出張。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [12, 54, 690, 730], 300)
+    d.polygon([(0, 292), (760, 284), (760, 316), (0, 326)], fill=(123, 169, 84))
+    d.line([(0, 300), (760, 292)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 320), (760, 310), (760, BAND_TOP), (0, BAND_TOP)], fill=(226, 234, 214))
+    fb = ImageFont.truetype(FONT_BOLD, 21)
+    fr = ImageFont.truetype(FONT_REGULAR, 16)
+    # 分かれ道（先に敷いてから家を置く）
+    d.polygon([(318, 414), (96, 512), (188, 512), (368, 428)], fill=(217, 210, 189),
+              outline=(185, 174, 145))
+    d.polygon([(442, 414), (664, 512), (572, 512), (392, 428)], fill=(217, 210, 189),
+              outline=(185, 174, 145))
+    # 中央：森町の実家
+    d.polygon([(320, 366), (380, 330), (440, 366)], fill=(109, 98, 87))
+    d.rectangle([332, 366, 428, 414], fill=(239, 230, 210), outline=(168, 154, 128), width=4)
+    d.rectangle([346, 380, 370, 402], fill=(159, 192, 207), outline=(123, 143, 156), width=2)
+    d.rectangle([390, 380, 414, 402], fill=(159, 192, 207), outline=(123, 143, 156), width=2)
+    d.rounded_rectangle([312, 420, 448, 450], radius=6, fill=(255, 255, 255),
+                        outline=(123, 143, 122), width=3)
+    d.text((324, 426), "森町の実家", font=fb, fill=(51, 80, 63))
+    # 左：ウェブ会議
+    d.rounded_rectangle([20, 330, 300, 362], radius=7, fill=(47, 111, 150))
+    d.text((32, 336), "道① ウェブ会議", font=fb, fill="#ffffff")
+    d.polygon([(38, 420), (96, 420), (110, 386), (24, 386)], fill=(207, 216, 222),
+              outline=(91, 107, 120), width=3)
+    d.rectangle([36, 390, 98, 414], fill=(143, 179, 198))
+    d.rounded_rectangle([126, 388, 208, 424], radius=5, fill=(74, 90, 102),
+                        outline=(47, 59, 69), width=3)
+    d.rectangle([136, 396, 198, 416], fill=(207, 216, 222))
+    d.line([(220, 424), (256, 388)], fill=(57, 66, 74), width=7)
+    d.rounded_rectangle([20, 434, 300, 470], radius=6, fill=(253, 236, 235),
+                        outline=(179, 57, 44), width=4)
+    d.text((30, 442), "スマホ・タブレット不可", font=fb, fill=(161, 51, 42))
+    d.text((20, 480), "パソコン＋電子ペンが要る", font=fr, fill=(74, 90, 79))
+    # 右：公証人の出張
+    d.rounded_rectangle([460, 330, 740, 362], radius=7, fill=(155, 74, 47))
+    d.text((472, 336), "道② 公証人が出張", font=fb, fill="#ffffff")
+    d.ellipse([486, 378, 516, 408], fill=(230, 198, 156), outline=(140, 111, 78), width=3)
+    d.polygon([(478, 462), (501, 410), (524, 462)], fill=(62, 77, 92))
+    d.rectangle([526, 404, 558, 428], fill=(138, 106, 68), outline=(95, 74, 47), width=3)
+    d.rectangle([578, 386, 740, 462], fill=(242, 234, 214), outline=(168, 154, 128), width=3)
+    d.line([(578, 424), (740, 424)], fill=(203, 191, 159), width=2)
+    d.line([(659, 386), (659, 462)], fill=(203, 191, 159), width=2)
+    d.rounded_rectangle([592, 430, 690, 456], radius=9, fill=(223, 231, 238),
+                        outline=(139, 152, 164), width=3)
+    d.text((460, 476), "日当 1日2万円／4時間以内1万円", font=fr, fill=(138, 64, 56))
+    # 手前：共通の書類
+    d.rectangle([20, 508, 70, 542], fill=(253, 246, 227), outline=(176, 155, 98), width=3)
+    d.rectangle([34, 516, 84, 550], fill=(253, 246, 227), outline=(176, 155, 98), width=3)
+    d.text((100, 516), "印鑑登録証明書は3か月以内・1通300円", font=fb, fill=(125, 92, 18))
+    band(d, ["ウェブ会議か、", "公証人の出張か"], "森町ライフハック／手続き・制度")
+
+
 SCENES = {
+    "20260824-kosei-shosho-yuigon-web": scene_kosei_yuigon_web,
     "20260823-koko-tsugaku-shugaku-shienkin": scene_koko_tsugaku,
     "20260823-kokusei-chosa-sokuho-morimachi": scene_kokusei_sokuho,
     "20260823-tokutei-kyoju-plan-coordinator": scene_tokutei_kyoju_plan,
