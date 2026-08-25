@@ -3256,7 +3256,66 @@ def scene_choei_jutaku_121(d):
     band(d, ["空いているのに、", "入れるとは限らない"], "森町ライフハック／手続き・制度")
 
 
+def scene_teimiriyo_tochi(d):
+    """森町の空き地の前で分かれる、100万円控除と3,000万円控除の二つの道。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [12, 54, 690, 732], 300)
+    d.polygon([(0, 292), (760, 284), (760, 316), (0, 326)], fill=(123, 169, 84))
+    d.line([(0, 300), (760, 292)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 320), (760, 310), (760, BAND_TOP), (0, BAND_TOP)], fill=(228, 236, 216))
+    fb = ImageFont.truetype(FONT_BOLD, 20)
+    fr = ImageFont.truetype(FONT_REGULAR, 16)
+    # 分かれ道を先に敷く
+    d.polygon([(330, 430), (104, 528), (198, 528), (378, 444)], fill=(213, 205, 182),
+              outline=(185, 174, 145))
+    d.polygon([(430, 430), (656, 528), (562, 528), (382, 444)], fill=(213, 205, 182),
+              outline=(185, 174, 145))
+    # 中央：古い実家と草の伸びた空き地
+    d.polygon([(322, 344), (380, 308), (438, 344)], fill=(109, 98, 87))
+    d.rectangle([334, 344, 426, 388], fill=(239, 230, 210), outline=(168, 154, 128), width=4)
+    d.rectangle([348, 356, 370, 376], fill=(159, 192, 207), outline=(123, 143, 156), width=2)
+    d.rectangle([390, 356, 412, 376], fill=(159, 192, 207), outline=(123, 143, 156), width=2)
+    d.ellipse([264, 386, 496, 442], fill=(183, 200, 140))
+    for x in (280, 302, 326, 348, 412, 436, 458, 478):
+        d.line([(x, 430), (x - 4, 396)], fill=(125, 154, 78), width=3)
+    d.rectangle([372, 384, 382, 428], fill=(239, 233, 220), outline=(154, 146, 127), width=3)
+    d.line([(370, 394), (384, 394)], fill=(184, 70, 47), width=4)
+    # 左：100万円控除
+    d.rounded_rectangle([16, 330, 296, 362], radius=7, fill=(47, 111, 150))
+    d.text((28, 336), "道① 100万円控除", font=fb, fill="#ffffff")
+    d.rectangle([16, 372, 296, 452], fill=(253, 246, 227), outline=(176, 155, 98), width=4)
+    d.text((26, 380), "都市計画区域内", font=fr, fill=(107, 90, 36))
+    d.text((26, 402), "対価 500万円以下", font=fr, fill=(107, 90, 36))
+    d.text((26, 424), "用途地域内は800万円", font=fr, fill=(107, 90, 36))
+    d.rounded_rectangle([16, 462, 296, 500], radius=6, fill=(230, 240, 230),
+                        outline=(77, 127, 99), width=3)
+    d.text((26, 470), "減税は最大 20万円", font=ImageFont.truetype(FONT_BOLD, 21),
+           fill=(51, 96, 74))
+    # 右：3,000万円控除
+    d.rounded_rectangle([464, 330, 744, 362], radius=7, fill=(155, 74, 47))
+    d.text((476, 336), "道② 3,000万円控除", font=fb, fill="#ffffff")
+    d.rectangle([464, 372, 744, 452], fill=(253, 246, 227), outline=(176, 155, 98), width=4)
+    d.text((474, 380), "昭和56年5月31日以前", font=fr, fill=(107, 90, 36))
+    d.text((474, 402), "売却代金 1億円以下", font=fr, fill=(107, 90, 36))
+    d.text((474, 424), "相続から3年目の年末まで", font=fr, fill=(107, 90, 36))
+    d.rounded_rectangle([464, 462, 744, 500], radius=6, fill=(246, 232, 226),
+                        outline=(155, 74, 47), width=3)
+    d.text((474, 470), "相続人3人以上は2,000万円", font=ImageFont.truetype(FONT_BOLD, 17),
+           fill=(139, 65, 40))
+    # 中央の標識：併用不可
+    d.rectangle([376, 452, 384, 512], fill=(140, 133, 119))
+    d.rounded_rectangle([250, 508, 510, 552], radius=6, fill=(253, 236, 235),
+                        outline=(179, 57, 44), width=5)
+    d.text((262, 518), "両方は使えない", font=ImageFont.truetype(FONT_BOLD, 26),
+           fill=(161, 51, 42))
+    d.text((16, 560), "令和6年 全国4,817件／静岡県179件", font=ImageFont.truetype(FONT_BOLD, 21),
+           fill=(51, 80, 63))
+    band(d, ["数百万円の土地に、", "だけ効く控除がある"], "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260825-teimiriyo-tochi-100man": scene_teimiriyo_tochi,
     "20260824-morimachi-choei-jutaku-121": scene_choei_jutaku_121,
     "20260824-kosei-shosho-yuigon-web": scene_kosei_yuigon_web,
     "20260823-koko-tsugaku-shugaku-shienkin": scene_koko_tsugaku,

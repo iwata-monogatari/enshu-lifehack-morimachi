@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig1title fig1desc">
+<title id="fig1title">森町の空き地の前で分かれる、二つの控除の道</title>
+<desc id="fig1desc">草の伸びた空き地と古い実家の前から道が二手に分かれ、左は100万円控除、右は3,000万円控除。中央には同じ譲渡で両方は使えないという標識が立つ。</desc>
+<defs>
+<linearGradient id="f1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe4f0"/><stop offset="1" stop-color="#eaf2e6"/>
+</linearGradient>
+<linearGradient id="f1road" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfc7b0"/><stop offset="1" stop-color="#ded7c2"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#f1sky)"/>
+
+<path d="M0 118 L104 58 L200 112 L298 52 L398 112 L500 54 L602 112 L704 56 L804 112 L904 58 L1000 114 L1000 164 L0 164 Z" fill="#93b0c2"/>
+<path d="M0 146 L122 98 L250 146 L376 96 L506 148 L632 98 L758 146 L884 100 L1000 144 L1000 190 L0 190 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M18 190 L38 134 L58 190 Z"/><path d="M54 190 L72 142 L90 190 Z"/>
+<path d="M910 190 L930 136 L950 190 Z"/><path d="M944 190 L962 144 L980 190 Z"/>
+</g>
+<rect x="0" y="184" width="1000" height="22" fill="#8bb268"/>
+<rect x="0" y="204" width="1000" height="20" fill="#79a45c"/>
+<rect x="0" y="222" width="1000" height="18" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 196 H1000"/><path d="M0 214 H1000"/><path d="M0 232 H1000"/>
+</g>
+<rect x="0" y="238" width="1000" height="322" fill="#e8eedc"/>
+
+<g>
+<path d="M440 258 L500 220 L560 258 Z" fill="#6d6257"/>
+<rect x="452" y="258" width="96" height="52" fill="#efe6d2" stroke="#a89a80" stroke-width="4"/>
+<rect x="466" y="272" width="24" height="22" fill="#9fc0cf" stroke="#7b8f9c" stroke-width="2"/>
+<rect x="510" y="272" width="24" height="22" fill="#9fc0cf" stroke="#7b8f9c" stroke-width="2"/>
+<rect x="452" y="310" width="96" height="6" fill="#8c7f68"/>
+</g>
+
+<g>
+<ellipse cx="500" cy="352" rx="150" ry="34" fill="#b7c88c"/>
+<g stroke="#7d9a4e" stroke-width="3">
+<path d="M392 358 L386 330"/><path d="M414 362 L410 332"/><path d="M438 364 L434 328"/>
+<path d="M462 366 L458 334"/><path d="M540 366 L546 332"/><path d="M566 364 L572 330"/>
+<path d="M590 360 L596 334"/><path d="M612 356 L618 330"/>
+</g>
+<rect x="494" y="322" width="10" height="42" fill="#efe9dc" stroke="#9a927f" stroke-width="3"/>
+<path d="M492 332 H506" stroke="#b8462f" stroke-width="4"/>
+</g>
+
+<path d="M470 380 L250 500 L360 500 L490 396 Z" fill="url(#f1road)" stroke="#b9ac8d" stroke-width="3"/>
+<path d="M530 380 L750 500 L640 500 L510 396 Z" fill="url(#f1road)" stroke="#b9ac8d" stroke-width="3"/>
+
+<g>
+<rect x="20" y="252" width="290" height="34" rx="7" fill="#2f6f96"/>
+<text x="34" y="277" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="20" font-weight="bold" fill="#ffffff">道① 低未利用土地 100万円控除</text>
+<rect x="20" y="296" width="290" height="132" fill="#fdf6e3" stroke="#b09b62" stroke-width="4"/>
+<text x="34" y="322" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#6b5a24">・都市計画区域内であること</text>
+<text x="34" y="348" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#6b5a24">・対価 500万円以下</text>
+<text x="34" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#6b5a24">　（用途地域内は800万円以下）</text>
+<text x="34" y="400" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#6b5a24">・所有期間 5年超</text>
+<text x="34" y="422" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#8a5a1e">・令和10年12月31日まで</text>
+<rect x="20" y="440" width="290" height="38" rx="6" fill="#e6f0e6" stroke="#4d7f63" stroke-width="3"/>
+<text x="34" y="466" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33604a">減税は最大 20万円</text>
+</g>
+
+<g>
+<rect x="690" y="252" width="290" height="34" rx="7" fill="#9b4a2f"/>
+<text x="704" y="277" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="20" font-weight="bold" fill="#ffffff">道② 空き家 3,000万円控除</text>
+<rect x="690" y="296" width="290" height="132" fill="#fdf6e3" stroke="#b09b62" stroke-width="4"/>
+<text x="704" y="322" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#6b5a24">・昭和56年5月31日以前の建築</text>
+<text x="704" y="348" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#6b5a24">・売却代金 1億円以下</text>
+<text x="704" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#6b5a24">・相続開始から3年目の年末まで</text>
+<text x="704" y="400" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#6b5a24">・耐震基準適合 か 取壊し</text>
+<text x="704" y="422" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#8a5a1e">・令和9年12月31日まで</text>
+<rect x="690" y="440" width="290" height="38" rx="6" fill="#f6e8e2" stroke="#9b4a2f" stroke-width="3"/>
+<text x="704" y="466" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#8b4128">相続人3人以上は2,000万円</text>
+</g>
+
+<g>
+<rect x="496" y="404" width="8" height="86" fill="#8c8577"/>
+<rect x="350" y="404" width="300" height="46" rx="6" fill="#fdecec" stroke="#b3392c" stroke-width="5"/>
+<text x="364" y="435" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="21" font-weight="bold" fill="#a1332a">同じ譲渡に、両方は使えない</text>
+</g>
+
+<g>
+<rect x="330" y="500" width="340" height="46" rx="6" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<text x="344" y="530" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">令和6年 全国4,817件／静岡県179件</text>
+</g>
+</svg>

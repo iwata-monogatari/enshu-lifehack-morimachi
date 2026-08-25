@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig2title fig2desc">
+<title id="fig2title">森町の土地を売る前に確かめる五つの段</title>
+<desc id="fig2desc">都市計画区域の内外、建物の新築年月日、相続開始からの3年、価格の枠、確認書の申請という順に段を上がる。</desc>
+<defs>
+<linearGradient id="f2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe4f0"/><stop offset="1" stop-color="#eaf2e6"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#f2sky)"/>
+
+<path d="M0 116 L106 56 L202 110 L300 50 L400 110 L502 52 L604 110 L706 54 L806 110 L906 56 L1000 112 L1000 162 L0 162 Z" fill="#93b0c2"/>
+<path d="M0 144 L120 96 L248 144 L374 94 L504 146 L630 96 L756 144 L882 98 L1000 142 L1000 188 L0 188 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M16 188 L36 132 L56 188 Z"/><path d="M52 188 L70 140 L88 188 Z"/>
+<path d="M912 188 L932 134 L952 188 Z"/><path d="M946 188 L964 142 L982 188 Z"/>
+</g>
+<rect x="0" y="182" width="1000" height="22" fill="#8bb268"/>
+<rect x="0" y="202" width="1000" height="20" fill="#79a45c"/>
+<rect x="0" y="220" width="1000" height="18" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 194 H1000"/><path d="M0 212 H1000"/><path d="M0 230 H1000"/>
+</g>
+<rect x="0" y="236" width="1000" height="324" fill="#e8eedc"/>
+
+<g fill="#d3d9c4" stroke="#a9b39a" stroke-width="3">
+<rect x="120" y="470" width="170" height="60"/>
+<rect x="290" y="418" width="170" height="112"/>
+<rect x="460" y="366" width="170" height="164"/>
+<rect x="630" y="314" width="170" height="216"/>
+<rect x="800" y="262" width="170" height="268"/>
+</g>
+
+<g>
+<ellipse cx="58" cy="392" rx="20" ry="20" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M32 484 L58 402 L84 484 Z" fill="#8a6f7d"/>
+<rect x="34" y="484" width="18" height="16" fill="#5b4a3c"/>
+<rect x="64" y="484" width="18" height="16" fill="#5b4a3c"/>
+<ellipse cx="104" cy="404" rx="17" ry="17" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M84 486 L104 414 L124 486 Z" fill="#4f6f86"/>
+<rect x="86" y="486" width="16" height="14" fill="#5b4a3c"/>
+<rect x="108" y="486" width="16" height="14" fill="#5b4a3c"/>
+<text x="20" y="524" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">相続した家族</text>
+</g>
+
+<g>
+<rect x="134" y="404" width="86" height="62" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<g stroke="#c4a24a" stroke-width="3" fill="none">
+<path d="M144 418 H210"/><path d="M144 434 H210"/><path d="M144 450 H210"/>
+</g>
+<path d="M160 404 V466" stroke="#b3392c" stroke-width="4"/>
+<text x="120" y="500" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">① 都市計画区域の内か外か</text>
+<text x="120" y="522" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">建設課都市計画係 0538-85-6322</text>
+</g>
+
+<g>
+<rect x="306" y="344" width="82" height="66" fill="#fdf6e3" stroke="#b09b62" stroke-width="3"/>
+<text x="314" y="370" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#6b5a24">登記事項</text>
+<text x="314" y="392" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#6b5a24">証明書</text>
+<rect x="396" y="356" width="56" height="54" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<rect x="396" y="356" width="56" height="16" fill="#4f6f86"/>
+<text x="290" y="448" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">② 昭和56年5月31日以前か</text>
+<text x="290" y="470" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">建物の新築年月日を1行見る</text>
+</g>
+
+<g>
+<rect x="480" y="288" width="66" height="70" fill="#efe9dc" stroke="#9a927f" stroke-width="3"/>
+<path d="M492 306 H534" stroke="#8c8577" stroke-width="3"/>
+<path d="M492 324 H534" stroke="#8c8577" stroke-width="3"/>
+<circle cx="524" cy="342" r="11" fill="none" stroke="#b3392c" stroke-width="4"/>
+<rect x="562" y="300" width="46" height="58" fill="#c8b79a" stroke="#8c7350" stroke-width="3"/>
+<text x="460" y="396" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">③ 相続開始から3年目の年末</text>
+<text x="460" y="418" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">過ぎたら3,000万円控除は使えない</text>
+</g>
+
+<g>
+<rect x="648" y="236" width="90" height="66" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<text x="656" y="262" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#4a5a4c">売買契約書</text>
+<path d="M656 276 H730" stroke="#c4a24a" stroke-width="3"/>
+<path d="M656 290 H710" stroke="#c4a24a" stroke-width="3"/>
+<rect x="750" y="252" width="46" height="50" fill="#4a5a63" stroke="#2f3b43" stroke-width="3"/>
+<rect x="756" y="258" width="34" height="14" fill="#cfd8de"/>
+<text x="630" y="344" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">④ 500万円か、800万円か</text>
+<text x="630" y="366" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">土地と上物の対価の合計で見る</text>
+</g>
+
+<g>
+<rect x="816" y="184" width="82" height="66" fill="#dfe4ea" stroke="#7b8f9c" stroke-width="3"/>
+<path d="M816 184 L857 158 L898 184 Z" fill="#6d6257"/>
+<rect x="832" y="206" width="20" height="44" fill="#9fc0cf"/>
+<rect x="862" y="206" width="20" height="26" fill="#9fc0cf"/>
+<ellipse cx="928" cy="200" rx="17" ry="17" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M910 250 L928 210 L946 250 Z" fill="#4d7f63"/>
+<rect x="898" y="216" width="34" height="24" fill="#fdf6e3" stroke="#b09b62" stroke-width="3"/>
+<text x="800" y="292" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">⑤ 確認書を申請する</text>
+<text x="800" y="314" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">発行まで通常1週間から10日</text>
+</g>
+</svg>
