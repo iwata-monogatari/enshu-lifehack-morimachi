@@ -3314,7 +3314,69 @@ def scene_teimiriyo_tochi(d):
     band(d, ["数百万円の土地に、", "だけ効く控除がある"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_akiya_zanchibutsu(d):
+    """お盆に開けた実家の残置物と、交付決定通知より前に業者を呼べない順番。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 56, 688, 730], 300)
+    d.polygon([(0, 292), (760, 284), (760, 316), (0, 326)], fill=(123, 169, 84))
+    d.line([(0, 300), (760, 292)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 320), (760, 310), (760, BAND_TOP), (0, BAND_TOP)], fill=(228, 236, 216))
+    fb = ImageFont.truetype(FONT_BOLD, 20)
+    fr = ImageFont.truetype(FONT_REGULAR, 16)
+    # 左：家財があふれる実家
+    d.polygon([(14, 372), (114, 322), (214, 372)], fill=(109, 98, 87))
+    d.rectangle([26, 372, 202, 460], fill=(239, 230, 210), outline=(168, 154, 128), width=4)
+    d.rectangle([36, 388, 70, 416], fill=(159, 192, 207), outline=(123, 143, 156), width=2)
+    d.rectangle([158, 388, 192, 416], fill=(159, 192, 207), outline=(123, 143, 156), width=2)
+    d.rectangle([88, 396, 140, 460], fill=(207, 216, 222), outline=(123, 143, 156), width=4)
+    d.rectangle([92, 420, 136, 448], fill=(200, 160, 106), outline=(140, 115, 80), width=3)
+    d.rectangle([78, 452, 146, 480], fill=(216, 199, 160), outline=(154, 133, 96), width=3)
+    d.rectangle([150, 448, 190, 482], fill=(226, 230, 232), outline=(141, 151, 156), width=3)
+    d.line([(150, 464), (190, 464)], fill=(141, 151, 156), width=3)
+    d.rectangle([196, 458, 250, 482], fill=(201, 180, 143), outline=(154, 133, 96), width=3)
+    d.rectangle([32, 462, 72, 482], fill=(185, 163, 124), outline=(140, 115, 80), width=3)
+    d.text((14, 494), "お盆に開けた実家", font=fb, fill=(51, 80, 63))
+    d.text((14, 522), "押し入れも納屋も、そのまま", font=fr, fill=(74, 90, 79))
+    # 右上：申請から着手までの帯
+    d.rounded_rectangle([288, 330, 424, 380], radius=6, fill=(255, 255, 255),
+                        outline=(123, 143, 156), width=3)
+    d.text((298, 338), "① 交付申請", font=ImageFont.truetype(FONT_BOLD, 17), fill=(51, 80, 63))
+    d.text((298, 358), "見積書を添える", font=ImageFont.truetype(FONT_REGULAR, 14),
+           fill=(90, 106, 92))
+    d.rounded_rectangle([434, 330, 556, 380], radius=6, fill=(255, 255, 255),
+                        outline=(123, 143, 156), width=3)
+    d.text((444, 338), "② 書類審査", font=ImageFont.truetype(FONT_BOLD, 17), fill=(51, 80, 63))
+    d.rounded_rectangle([566, 330, 744, 380], radius=6, fill=(230, 240, 230),
+                        outline=(77, 127, 99), width=4)
+    d.text((576, 338), "③ 交付決定通知", font=ImageFont.truetype(FONT_BOLD, 17),
+           fill=(51, 96, 74))
+    d.text((576, 358), "ここまで待つ", font=ImageFont.truetype(FONT_REGULAR, 14),
+           fill=(74, 107, 86))
+    d.line([(561, 318), (561, 392)], fill=(179, 57, 44), width=6)
+    d.polygon([(552, 318), (570, 318), (561, 330)], fill=(179, 57, 44))
+    d.rounded_rectangle([288, 392, 744, 428], radius=6, fill=(253, 236, 235),
+                        outline=(179, 57, 44), width=4)
+    d.text((298, 400), "この線より前に業者を呼ぶと対象外", font=ImageFont.truetype(FONT_BOLD, 19),
+           fill=(161, 51, 42))
+    # 右下：補助の上限
+    d.rounded_rectangle([288, 440, 744, 476], radius=6, fill=(255, 255, 255),
+                        outline=(77, 127, 99), width=3)
+    d.text((298, 448), "残置物処分 上限10万円", font=ImageFont.truetype(FONT_BOLD, 20),
+           fill=(51, 96, 74))
+    d.rounded_rectangle([288, 484, 744, 520], radius=6, fill=(255, 255, 255),
+                        outline=(77, 127, 99), width=3)
+    d.text((298, 492), "改修工事 上限30万円", font=ImageFont.truetype(FONT_BOLD, 20),
+           fill=(51, 96, 74))
+    d.rounded_rectangle([288, 528, 744, 564], radius=6, fill=(253, 246, 227),
+                        outline=(176, 155, 98), width=3)
+    d.text((298, 536), "バンクに2年以上登録すること", font=ImageFont.truetype(FONT_BOLD, 19),
+           fill=(107, 90, 36))
+    band(d, ["業者に電話する前に、", "役場に電話する"], "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260825-akiya-zanchibutsu-hojo": scene_akiya_zanchibutsu,
     "20260825-teimiriyo-tochi-100man": scene_teimiriyo_tochi,
     "20260824-morimachi-choei-jutaku-121": scene_choei_jutaku_121,
     "20260824-kosei-shosho-yuigon-web": scene_kosei_yuigon_web,

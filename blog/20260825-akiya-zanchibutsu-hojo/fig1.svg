@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig1title fig1desc">
+<title id="fig1title">森町の実家の残置物と、申請から着手までの順番</title>
+<desc id="fig1desc">玄関からあふれる家財と、交付申請・審査・交付決定通知・着手の帯。決定通知より前に業者を呼ぶと対象外になる。</desc>
+<defs>
+<linearGradient id="h1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe4f0"/><stop offset="1" stop-color="#eaf2e6"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#h1sky)"/>
+
+<path d="M0 116 L104 56 L200 110 L298 50 L398 110 L500 52 L602 110 L704 54 L804 110 L904 56 L1000 112 L1000 160 L0 160 Z" fill="#93b0c2"/>
+<path d="M0 144 L122 96 L250 144 L376 94 L506 146 L632 96 L758 144 L884 98 L1000 142 L1000 188 L0 188 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M14 188 L34 132 L54 188 Z"/><path d="M50 188 L68 140 L86 188 Z"/>
+<path d="M914 188 L934 134 L954 188 Z"/><path d="M948 188 L966 142 L984 188 Z"/>
+</g>
+<rect x="0" y="182" width="1000" height="22" fill="#8bb268"/>
+<rect x="0" y="202" width="1000" height="20" fill="#79a45c"/>
+<rect x="0" y="220" width="1000" height="18" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 194 H1000"/><path d="M0 212 H1000"/><path d="M0 230 H1000"/>
+</g>
+<rect x="0" y="236" width="1000" height="324" fill="#e8eedc"/>
+
+<g>
+<path d="M20 268 L140 208 L260 268 Z" fill="#6d6257"/>
+<rect x="34" y="268" width="212" height="150" fill="#efe6d2" stroke="#a89a80" stroke-width="4"/>
+<rect x="46" y="290" width="46" height="42" fill="#9fc0cf" stroke="#7b8f9c" stroke-width="3"/>
+<rect x="188" y="290" width="46" height="42" fill="#9fc0cf" stroke="#7b8f9c" stroke-width="3"/>
+<rect x="108" y="300" width="64" height="118" fill="#cfd8de" stroke="#7b8f9c" stroke-width="4"/>
+<g>
+<rect x="112" y="336" width="56" height="40" fill="#c8a06a" stroke="#8c7350" stroke-width="3"/>
+<path d="M112 356 H168" stroke="#8c7350" stroke-width="3"/>
+<rect x="96" y="380" width="72" height="38" fill="#d8c7a0" stroke="#9a8560" stroke-width="3"/>
+<path d="M96 400 H168" stroke="#9a8560" stroke-width="2"/>
+<rect x="172" y="374" width="46" height="44" fill="#e2e6e8" stroke="#8d979c" stroke-width="3"/>
+<path d="M172 392 H218" stroke="#8d979c" stroke-width="3"/>
+<rect x="222" y="386" width="58" height="32" fill="#c9b48f" stroke="#9a8560" stroke-width="3"/>
+<path d="M56 418 q28 -30 62 0" fill="none" stroke="#b48a8a" stroke-width="8"/>
+<rect x="282" y="392" width="52" height="26" fill="#b9a37c" stroke="#8c7350" stroke-width="3"/>
+</g>
+<text x="20" y="452" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">お盆に開けた実家</text>
+<text x="20" y="478" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#5a6a5c">押し入れも納屋も、そのまま</text>
+</g>
+
+<g>
+<rect x="360" y="252" width="132" height="60" rx="6" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<text x="372" y="278" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#33503f">① 交付申請</text>
+<text x="372" y="300" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">見積書を添える</text>
+<path d="M496 282 L520 282" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M514 274 L526 282 L514 290 Z" fill="#7b8f9c"/>
+<rect x="530" y="252" width="118" height="60" rx="6" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<text x="542" y="278" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#33503f">② 書類審査</text>
+<text x="542" y="300" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">町が内容を確認</text>
+<path d="M652 282 L676 282" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M670 274 L682 282 L670 290 Z" fill="#7b8f9c"/>
+<rect x="686" y="252" width="132" height="60" rx="6" fill="#e6f0e6" stroke="#4d7f63" stroke-width="4"/>
+<text x="698" y="278" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33604a">③ 交付決定通知</text>
+<text x="698" y="300" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#4a6b56">ここまで待つ</text>
+<rect x="856" y="252" width="126" height="60" rx="6" fill="#fdf6e3" stroke="#b09b62" stroke-width="4"/>
+<text x="868" y="278" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#6b5a24">④ 着手</text>
+<text x="868" y="300" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#6b5a24">業者を呼ぶ</text>
+<path d="M836 232 L836 340" stroke="#b3392c" stroke-width="5"/>
+<rect x="530" y="336" width="452" height="38" rx="6" fill="#fdecec" stroke="#b3392c" stroke-width="4"/>
+<text x="542" y="362" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#a1332a">この線より前に業者を呼ぶと、対象外</text>
+</g>
+
+<g>
+<rect x="366" y="404" width="196" height="70" fill="#dfe4ea" stroke="#7b8f9c" stroke-width="4"/>
+<rect x="366" y="404" width="74" height="46" fill="#cfd8de" stroke="#7b8f9c" stroke-width="4"/>
+<rect x="378" y="414" width="48" height="28" fill="#9fc0cf" stroke="#7b8f9c" stroke-width="2"/>
+<rect x="452" y="374" width="46" height="32" fill="#c8a06a" stroke="#8c7350" stroke-width="3"/>
+<rect x="504" y="380" width="42" height="26" fill="#d8c7a0" stroke="#9a8560" stroke-width="3"/>
+<circle cx="404" cy="482" r="20" fill="#3b444c" stroke="#20262b" stroke-width="3"/>
+<circle cx="404" cy="482" r="7" fill="#8b959d"/>
+<circle cx="522" cy="482" r="20" fill="#3b444c" stroke="#20262b" stroke-width="3"/>
+<circle cx="522" cy="482" r="7" fill="#8b959d"/>
+<text x="366" y="522" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">一般廃棄物処理業の許可業者へ</text>
+</g>
+
+<g>
+<rect x="600" y="398" width="382" height="38" rx="6" fill="#ffffff" stroke="#4d7f63" stroke-width="3"/>
+<text x="612" y="424" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#33604a">残置物処分 上限10万円</text>
+<rect x="600" y="444" width="382" height="38" rx="6" fill="#ffffff" stroke="#4d7f63" stroke-width="3"/>
+<text x="612" y="470" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#33604a">改修工事 上限30万円</text>
+<rect x="600" y="490" width="382" height="38" rx="6" fill="#fdf6e3" stroke="#b09b62" stroke-width="3"/>
+<text x="612" y="516" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#6b5a24">同一物件で合計40万円まで</text>
+</g>
+</svg>

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig2title fig2desc">
+<title id="fig2title">森町で実家の残置物を処分するときの五つの段</title>
+<desc id="fig2desc">バンク登録の可否、家庭系を扱える許可業者の選定、見積りと申請、交付決定通知、実績報告の順に段を上がる。</desc>
+<defs>
+<linearGradient id="h2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe4f0"/><stop offset="1" stop-color="#eaf2e6"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#h2sky)"/>
+
+<path d="M0 114 L106 54 L202 108 L300 48 L400 108 L502 50 L604 108 L706 52 L806 108 L906 54 L1000 110 L1000 158 L0 158 Z" fill="#93b0c2"/>
+<path d="M0 142 L120 94 L248 142 L374 92 L504 144 L630 94 L756 142 L882 96 L1000 140 L1000 186 L0 186 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M12 186 L32 130 L52 186 Z"/><path d="M48 186 L66 138 L84 186 Z"/>
+<path d="M916 186 L936 132 L956 186 Z"/><path d="M950 186 L968 140 L986 186 Z"/>
+</g>
+<rect x="0" y="180" width="1000" height="22" fill="#8bb268"/>
+<rect x="0" y="200" width="1000" height="20" fill="#79a45c"/>
+<rect x="0" y="218" width="1000" height="18" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 192 H1000"/><path d="M0 210 H1000"/><path d="M0 228 H1000"/>
+</g>
+<rect x="0" y="234" width="1000" height="326" fill="#e8eedc"/>
+
+<g fill="#d3d9c4" stroke="#a9b39a" stroke-width="3">
+<rect x="124" y="472" width="168" height="58"/>
+<rect x="292" y="420" width="168" height="110"/>
+<rect x="460" y="368" width="168" height="162"/>
+<rect x="628" y="316" width="168" height="214"/>
+<rect x="796" y="264" width="176" height="266"/>
+</g>
+
+<g>
+<path d="M8 330 L58 296 L108 330 Z" fill="#6d6257"/>
+<rect x="18" y="330" width="80" height="60" fill="#efe6d2" stroke="#a89a80" stroke-width="3"/>
+<rect x="44" y="348" width="28" height="42" fill="#8d979c"/>
+<rect x="24" y="392" width="34" height="24" fill="#c8a06a" stroke="#8c7350" stroke-width="3"/>
+<rect x="62" y="396" width="30" height="20" fill="#d8c7a0" stroke="#9a8560" stroke-width="3"/>
+<ellipse cx="62" cy="440" rx="17" ry="17" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M42 508 L62 450 L82 508 Z" fill="#4f6f86"/>
+<rect x="46" y="462" width="34" height="24" fill="#c9b48f" stroke="#9a8560" stroke-width="3"/>
+<text x="8" y="536" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">片付けを始めた家族</text>
+</g>
+
+<g>
+<rect x="140" y="404" width="60" height="62" rx="8" fill="#4a5a63" stroke="#2f3b43" stroke-width="3"/>
+<rect x="148" y="412" width="44" height="26" fill="#cfd8de"/>
+<circle cx="156" cy="450" r="5" fill="#cfd8de"/><circle cx="170" cy="450" r="5" fill="#cfd8de"/><circle cx="184" cy="450" r="5" fill="#cfd8de"/>
+<rect x="212" y="416" width="66" height="50" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<path d="M222 432 H268" stroke="#c4a24a" stroke-width="3"/>
+<path d="M222 448 H258" stroke="#c4a24a" stroke-width="3"/>
+<text x="124" y="502" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">① バンクに登録できるか</text>
+<text x="124" y="524" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">定住推進課 0538-85-6321</text>
+</g>
+
+<g>
+<rect x="306" y="342" width="106" height="72" fill="#fdf6e3" stroke="#b09b62" stroke-width="3"/>
+<text x="314" y="364" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#6b5a24">許可業者一覧</text>
+<path d="M314 376 H404" stroke="#c4a24a" stroke-width="2"/>
+<path d="M314 390 H404" stroke="#c4a24a" stroke-width="2"/>
+<path d="M314 404 H404" stroke="#c4a24a" stroke-width="2"/>
+<path d="M318 384 l8 8 l14 -16" fill="none" stroke="#b3392c" stroke-width="4"/>
+<path d="M318 398 l8 8 l14 -16" fill="none" stroke="#b3392c" stroke-width="4"/>
+<rect x="422" y="360" width="34" height="54" fill="#c9d2d8" stroke="#7d8b96" stroke-width="3"/>
+<text x="292" y="450" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">② 家庭系を扱える5者を選ぶ</text>
+<text x="292" y="472" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">町内に所在するのは2者</text>
+</g>
+
+<g>
+<rect x="476" y="290" width="82" height="66" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<text x="484" y="314" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#4a5a4c">見積書</text>
+<path d="M484 328 H548" stroke="#c4a24a" stroke-width="3"/>
+<path d="M484 342 H528" stroke="#c4a24a" stroke-width="3"/>
+<rect x="568" y="300" width="52" height="56" fill="#fdf6e3" stroke="#b09b62" stroke-width="3"/>
+<text x="574" y="326" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#6b5a24">申請書</text>
+<text x="460" y="396" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">③ 着手する前に申請する</text>
+<text x="460" y="418" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">誓約書・納税証明書も添える</text>
+</g>
+
+<g>
+<rect x="646" y="240" width="94" height="62" fill="#e6f0e6" stroke="#4d7f63" stroke-width="4"/>
+<path d="M646 240 L693 278 L740 240" fill="none" stroke="#4d7f63" stroke-width="4"/>
+<ellipse cx="782" cy="268" rx="16" ry="16" fill="#e6c69c" stroke="#8c6f4e" stroke-width="3"/>
+<path d="M760 302 L782 276 L790 302 Z" fill="#8a6f7d"/>
+<text x="628" y="344" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">④ 交付決定通知が届く</text>
+<text x="628" y="366" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">ここで初めて業者を呼べる</text>
+</g>
+
+<g>
+<rect x="812" y="188" width="66" height="50" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<rect x="820" y="196" width="50" height="34" fill="#b7c88c"/>
+<rect x="886" y="188" width="66" height="50" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<rect x="894" y="196" width="50" height="34" fill="#cfd8de"/>
+<rect x="838" y="244" width="98" height="44" fill="#fdf6e3" stroke="#b09b62" stroke-width="3"/>
+<path d="M846 262 H928" stroke="#c4a24a" stroke-width="3"/>
+<path d="M846 276 H906" stroke="#c4a24a" stroke-width="3"/>
+<text x="796" y="316" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">⑤ 前後の写真と領収書</text>
+<text x="796" y="338" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5a6a5c">実績報告書に添えて提出</text>
+</g>
+</svg>
