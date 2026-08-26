@@ -3469,7 +3469,70 @@ def scene_hakajimai_kaiso(d):
     band(d, ["寺が先で、", "役場は後になる"], "森町ライフハック／寺社・歴史")
 
 
+def scene_maizo_bunkazai(d):
+    """更地の地面の下に遺構が層になって眠り、その上に照会と60日の札を置いた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 102, 668, 712], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(95, 138, 66), width=3)
+    # 地表
+    d.polygon([(0, 334), (760, 324), (760, 396), (0, 406)], fill=(214, 226, 200))
+    # 地層（断面）
+    d.rectangle([0, 396, 760, 436], fill=(199, 189, 166))
+    d.rectangle([0, 436, 760, 486], fill=(184, 169, 141))
+    d.rectangle([0, 486, 760, BAND_TOP], fill=(158, 145, 120))
+    for y in (436, 486):
+        d.line([(0, y), (760, y)], fill=(138, 125, 100), width=3)
+    # 埋もれた遺構
+    for cx, cy, rx in ((92, 462, 26), (216, 512, 24), (330, 458, 20)):
+        d.ellipse([cx - rx, cy - 14, cx + rx, cy + 14], fill=(112, 99, 80))
+    d.polygon([(140, 512), (172, 496), (204, 512), (172, 528)], fill=(206, 176, 128),
+              outline=(138, 111, 74), width=3)
+    d.polygon([(268, 470), (296, 456), (324, 470), (296, 484)], fill=(206, 176, 128),
+              outline=(138, 111, 74), width=3)
+    d.rectangle([48, 500, 74, 556], fill=(126, 110, 84))
+    # 重機
+    d.rectangle([44, 340, 116, 372], fill=(214, 162, 74), outline=(169, 118, 44), width=3)
+    d.rectangle([104, 328, 134, 352], fill=(79, 92, 99))
+    d.line([(126, 332), (168, 306)], fill=(79, 92, 99), width=9)
+    d.polygon([(160, 300), (206, 318), (192, 344), (150, 326)], fill=(125, 139, 147),
+              outline=(79, 92, 99), width=3)
+    d.rectangle([46, 372, 118, 386], fill=(63, 75, 82))
+    # 住宅地図と赤枠
+    d.rectangle([204, 336, 300, 392], fill=(255, 255, 255), outline=(154, 165, 172), width=3)
+    for x in (228, 254, 278):
+        d.line([(x, 336), (x, 392)], fill=(195, 204, 210), width=2)
+    for y in (354, 372):
+        d.line([(204, y), (300, y)], fill=(195, 204, 210), width=2)
+    d.rectangle([228, 354, 278, 372], outline=(192, 57, 43), width=5)
+    # 照会の三つの札
+    labels = ("窓口", "ファックス", "メール")
+    for i, label in enumerate(labels):
+        y = 332 + i * 44
+        d.rounded_rectangle([322, y, 500, y + 36], radius=6, fill=(255, 255, 255),
+                            outline=(95, 122, 106), width=3)
+        d.text((334, y + 6), label, font=ImageFont.truetype(FONT_BOLD, 22), fill=(31, 62, 82))
+    # 60日の札と届出書
+    d.rounded_rectangle([520, 332, 744, 424], radius=8, fill=(253, 244, 242),
+                        outline=(192, 139, 132), width=4)
+    d.text((536, 344), "工事着手の", font=ImageFont.truetype(FONT_BOLD, 22), fill=(140, 58, 48))
+    d.text((536, 374), "60日前まで", font=ImageFont.truetype(FONT_BOLD, 30), fill=(140, 58, 48))
+    d.polygon([(520, 440), (744, 434), (748, 528), (524, 534)], fill=(255, 255, 255),
+              outline=(154, 165, 172), width=4)
+    d.text((538, 452), "第93条の届出", font=ImageFont.truetype(FONT_BOLD, 21), fill=(31, 62, 82))
+    for i in range(3):
+        d.line([(538, 488 + i * 14), (730, 486 + i * 14)], fill=(176, 194, 205), width=4)
+    # 統計帯
+    d.rounded_rectangle([16, 540, 500, 580], radius=6, fill=(31, 62, 82))
+    d.text((30, 548), "森町の遺跡270ヶ所以上／静岡県の届出1,605件",
+           font=ImageFont.truetype(FONT_BOLD, 21), fill=(255, 255, 255))
+    band(d, ["掘る前に、地番と", "地図を出しておく"], "森町ライフハック／寺社・歴史")
+
+
 SCENES = {
+    "20260826-morimachi-maizo-bunkazai": scene_maizo_bunkazai,
     "20260826-morimachi-hakajimai-kaiso": scene_hakajimai_kaiso,
     "20260826-toroku-yukei-bunkazai-kominka": scene_toroku_yukei_kominka,
     "20260825-akiya-zanchibutsu-hojo": scene_akiya_zanchibutsu,

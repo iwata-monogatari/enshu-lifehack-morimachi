@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mz1title mz1desc">
+<title id="mz1title">森町の土地を掘る前の照会と、その後の二つの道</title>
+<desc id="mz1desc">地面の下の遺構、窓口・ファックス・メールの三つの照会口、そして包蔵地に該当した場合と該当しない場合の分かれ道。</desc>
+<defs>
+<linearGradient id="mz1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe3ef"/><stop offset="1" stop-color="#ecf2e7"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#mz1sky)"/>
+
+<path d="M0 104 L104 48 L206 102 L310 44 L414 102 L518 46 L622 102 L726 48 L830 102 L934 50 L1000 100 L1000 148 L0 148 Z" fill="#93b0c2"/>
+<path d="M0 132 L126 86 L254 134 L382 84 L512 136 L640 86 L768 134 L896 88 L1000 132 L1000 178 L0 178 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M12 178 L32 122 L52 178 Z"/><path d="M48 178 L66 130 L84 178 Z"/>
+<path d="M916 178 L936 124 L956 178 Z"/><path d="M950 178 L968 132 L986 178 Z"/>
+</g>
+<rect x="0" y="172" width="1000" height="18" fill="#8bb268"/>
+<rect x="0" y="188" width="1000" height="16" fill="#79a45c"/>
+<rect x="0" y="202" width="1000" height="14" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 182 H1000"/><path d="M0 196 H1000"/><path d="M0 210 H1000"/>
+</g>
+<rect x="0" y="214" width="1000" height="346" fill="#e8eedc"/>
+
+<g>
+<rect x="16" y="300" width="270" height="30" fill="#c7bda6"/>
+<rect x="16" y="330" width="270" height="46" fill="#b8a98d"/>
+<rect x="16" y="376" width="270" height="48" fill="#a2947a"/>
+<rect x="16" y="424" width="270" height="52" fill="#8d8069"/>
+<g stroke="#8a7d64" stroke-width="2" opacity="0.6">
+<path d="M16 352 H286"/><path d="M16 400 H286"/><path d="M16 450 H286"/>
+</g>
+<g fill="#d8c3a0" stroke="#8a7350" stroke-width="3">
+<path d="M52 392 q22 -18 44 0 q-22 12 -44 0 Z"/>
+<path d="M150 384 q18 -14 36 0 q-18 10 -36 0 Z"/>
+</g>
+<ellipse cx="86" cy="440" rx="20" ry="12" fill="#6f6350"/>
+<ellipse cx="186" cy="446" rx="20" ry="12" fill="#6f6350"/>
+<ellipse cx="240" cy="436" rx="16" ry="10" fill="#6f6350"/>
+<g>
+<rect x="196" y="252" width="76" height="40" rx="5" fill="#d9a24a" stroke="#a9762c" stroke-width="3"/>
+<rect x="256" y="238" width="30" height="26" rx="4" fill="#4f5c63"/>
+<path d="M272 238 L300 208" stroke="#4f5c63" stroke-width="8"/>
+<path d="M290 200 L326 216 L312 240 L282 224 Z" fill="#7d8b93" stroke="#4f5c63" stroke-width="3"/>
+<rect x="200" y="292" width="68" height="14" rx="4" fill="#3f4b52"/>
+</g>
+<path d="M40 300 L40 276 M40 276 L64 276" stroke="#6f6350" stroke-width="5" fill="none"/>
+<path d="M36 268 L36 300" stroke="#a08a63" stroke-width="7"/>
+<text x="16" y="504" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">地上からは見えない</text>
+<text x="16" y="528" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5a6a5c">土器・柱穴・貝層は地面の下</text>
+</g>
+
+<g>
+<rect x="308" y="248" width="230" height="64" rx="7" fill="#ffffff" stroke="#8fa58a" stroke-width="3"/>
+<text x="322" y="272" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">① 窓口</text>
+<text x="322" y="294" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">森町役場北館1階 文化振興係</text>
+<rect x="308" y="322" width="230" height="64" rx="7" fill="#ffffff" stroke="#8fa58a" stroke-width="3"/>
+<text x="322" y="346" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">② ファックス</text>
+<text x="322" y="368" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">0538-86-4419</text>
+<rect x="308" y="396" width="230" height="64" rx="7" fill="#ffffff" stroke="#8fa58a" stroke-width="3"/>
+<text x="322" y="420" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">③ メール</text>
+<text x="322" y="442" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">社会教育課あて</text>
+<rect x="308" y="470" width="230" height="56" rx="7" fill="#f6efdf" stroke="#a8935f" stroke-width="3"/>
+<text x="322" y="492" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#6b5424">どれも同じ2点が要る</text>
+<text x="322" y="512" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#6b5424">地番の分かる資料／範囲を囲んだ地図</text>
+</g>
+
+<g>
+<path d="M548 330 L590 330" stroke="#5f7a6a" stroke-width="5"/>
+<path d="M590 330 L620 286" stroke="#5f7a6a" stroke-width="5"/>
+<path d="M590 330 L620 404" stroke="#5f7a6a" stroke-width="5"/>
+<path d="M612 292 L628 278 L626 298 Z" fill="#5f7a6a"/>
+<path d="M612 396 L628 412 L626 392 Z" fill="#5f7a6a"/>
+</g>
+
+<g>
+<rect x="632" y="234" width="350" height="132" rx="8" fill="#fdf4f2" stroke="#c08b84" stroke-width="3"/>
+<text x="648" y="260" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#8c3a30">包蔵地に該当した場合</text>
+<rect x="648" y="272" width="316" height="26" rx="4" fill="#ffffff" stroke="#c9a9a3" stroke-width="2"/>
+<text x="658" y="291" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5a4a48">試掘確認調査依頼書（必要と判断された場合）</text>
+<rect x="648" y="302" width="316" height="26" rx="4" fill="#ffffff" stroke="#c9a9a3" stroke-width="2"/>
+<text x="658" y="321" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5a4a48">文化財保護法第93条第1項の届出（町経由で県へ）</text>
+<rect x="648" y="332" width="316" height="26" rx="4" fill="#f5e2de" stroke="#c08b84" stroke-width="2"/>
+<text x="658" y="351" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#8c3a30">提出は工事着手の60日前まで</text>
+</g>
+
+<g>
+<rect x="632" y="384" width="350" height="112" rx="8" fill="#f2f7ee" stroke="#8fa58a" stroke-width="3"/>
+<text x="648" y="410" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">該当しなかった場合</text>
+<rect x="648" y="422" width="316" height="26" rx="4" fill="#ffffff" stroke="#a9bda4" stroke-width="2"/>
+<text x="658" y="441" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#41544a">工事に着手できる</text>
+<rect x="648" y="452" width="316" height="34" rx="4" fill="#eef4e9" stroke="#8fa58a" stroke-width="2"/>
+<text x="658" y="472" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#41544a">工事中に遺構・遺物が出たら速やかに連絡</text>
+</g>
+
+<g>
+<rect x="308" y="214" width="674" height="0" fill="none"/>
+<rect x="632" y="504" width="350" height="40" rx="7" fill="#1f3e52"/>
+<rect x="632" y="504" width="350" height="5" fill="#d6a83c"/>
+<text x="646" y="532" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#ffffff">森町の遺跡は270ヶ所以上（消滅を含む）</text>
+</g>
+</svg>
