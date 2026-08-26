@@ -588,3 +588,6 @@ body.home .hero .lead{margin:0 18px 18px}
 @media(prefers-reduced-motion:no-preference){
   body.home .hero-visual img{transition:none}
 }
+
+/* Editorial figures must follow the article column on narrow screens. */
+.post-fig img{display:block;max-width:100%;height:auto}
