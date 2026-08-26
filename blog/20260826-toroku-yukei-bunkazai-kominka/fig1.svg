@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig1title fig1desc">
+<title id="fig1title">森町の古民家と、登録有形文化財の三段の判定</title>
+<desc id="fig1desc">瓦屋根の古民家、建設後50年・三つの基準のいずれか・重要文化財は対象外という三段の階段、そして調査から官報告示までの流れ。</desc>
+<defs>
+<linearGradient id="k1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe4f0"/><stop offset="1" stop-color="#eaf2e6"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#k1sky)"/>
+
+<path d="M0 118 L106 58 L204 112 L300 52 L400 112 L502 54 L604 112 L706 56 L806 112 L906 58 L1000 114 L1000 162 L0 162 Z" fill="#93b0c2"/>
+<path d="M0 146 L124 98 L252 146 L378 96 L508 148 L634 98 L760 146 L886 100 L1000 144 L1000 190 L0 190 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M12 190 L32 134 L52 190 Z"/><path d="M48 190 L66 142 L84 190 Z"/><path d="M84 190 L102 146 L120 190 Z"/>
+<path d="M896 190 L916 136 L936 190 Z"/><path d="M932 190 L950 144 L968 190 Z"/>
+</g>
+<rect x="0" y="184" width="1000" height="22" fill="#8bb268"/>
+<rect x="0" y="204" width="1000" height="20" fill="#79a45c"/>
+<rect x="0" y="222" width="1000" height="18" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 196 H1000"/><path d="M0 214 H1000"/><path d="M0 232 H1000"/>
+</g>
+<rect x="0" y="238" width="1000" height="322" fill="#e8eedc"/>
+
+<g>
+<path d="M14 300 L152 214 L290 300 Z" fill="#7f8a8f"/>
+<path d="M34 300 L152 226 L270 300 Z" fill="#9aa6ab"/>
+<g stroke="#79858a" stroke-width="2">
+<path d="M60 292 L152 234"/><path d="M96 292 L152 258"/><path d="M244 292 L152 234"/><path d="M208 292 L152 258"/>
+</g>
+<rect x="30" y="300" width="248" height="128" fill="#efe6d2" stroke="#a89a80" stroke-width="4"/>
+<rect x="44" y="322" width="70" height="60" fill="#d9cdb2" stroke="#9a8b6c" stroke-width="3"/>
+<g stroke="#9a8b6c" stroke-width="3">
+<path d="M62 322 V382"/><path d="M80 322 V382"/><path d="M98 322 V382"/>
+</g>
+<rect x="128" y="322" width="60" height="60" fill="#cfd8de" stroke="#7b8f9c" stroke-width="3"/>
+<path d="M158 322 V382" stroke="#7b8f9c" stroke-width="3"/>
+<rect x="200" y="322" width="62" height="60" fill="#d9cdb2" stroke="#9a8b6c" stroke-width="3"/>
+<path d="M231 322 V382" stroke="#9a8b6c" stroke-width="3"/>
+<rect x="30" y="386" width="248" height="14" fill="#c3b393"/>
+<rect x="42" y="400" width="224" height="28" fill="#b9a888" stroke="#94866a" stroke-width="3"/>
+<ellipse cx="252" cy="272" rx="30" ry="20" fill="#f2f4ee" stroke="#8a6f3c" stroke-width="4"/>
+<text x="252" y="278" text-anchor="middle" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#6b5424">登録</text>
+<g>
+<rect x="296" y="356" width="46" height="72" fill="#cbbda2" stroke="#9a8b6c" stroke-width="3"/>
+<path d="M292 356 L319 336 L346 356 Z" fill="#8b949a"/>
+</g>
+<g>
+<rect x="356" y="396" width="10" height="32" fill="#7b6547"/>
+<circle cx="361" cy="372" r="26" fill="#6d9a5a"/>
+<circle cx="350" cy="366" r="6" fill="#e08b3a"/><circle cx="372" cy="378" r="6" fill="#e08b3a"/>
+</g>
+<text x="16" y="456" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">森町の実家（築100年前後）</text>
+<text x="16" y="482" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#5a6a5c">売るか残すか、まだ決めていない</text>
+</g>
+
+<g>
+<rect x="404" y="416" width="196" height="44" fill="#d7e0cd" stroke="#8fa58a" stroke-width="3"/>
+<text x="416" y="445" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">一段目　建設後50年</text>
+<rect x="404" y="352" width="196" height="60" fill="#e7eedd" stroke="#8fa58a" stroke-width="3"/>
+<text x="416" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">二段目　三つのうち一つ</text>
+<text x="416" y="394" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">歴史的景観／造形の規範／再現困難</text>
+<rect x="404" y="292" width="196" height="56" fill="#f6e7e4" stroke="#c08b84" stroke-width="3"/>
+<text x="416" y="314" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#8c3a30">三段目　対象外の確認</text>
+<text x="416" y="334" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#8c3a30">重要文化財・自治体指定は除く</text>
+<path d="M502 288 L502 268" stroke="#5f7a6a" stroke-width="4"/>
+<path d="M494 274 L502 262 L510 274 Z" fill="#5f7a6a"/>
+</g>
+
+<g>
+<rect x="626" y="262" width="164" height="46" rx="6" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<text x="638" y="291" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#33503f">① 調査</text>
+<path d="M708 312 L708 330" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M700 324 L708 336 L716 324 Z" fill="#7b8f9c"/>
+<rect x="626" y="338" width="164" height="46" rx="6" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<text x="638" y="360" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#33503f">② 候補の選定と</text>
+<text x="638" y="378" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#33503f">　 所有者への連絡</text>
+<path d="M708 388 L708 406" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M700 400 L708 412 L716 400 Z" fill="#7b8f9c"/>
+<rect x="626" y="414" width="164" height="46" rx="6" fill="#ffffff" stroke="#7b8f9c" stroke-width="3"/>
+<text x="638" y="443" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#33503f">③ 諮問と答申</text>
+<path d="M708 464 L708 482" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M700 476 L708 488 L716 476 Z" fill="#7b8f9c"/>
+<rect x="626" y="490" width="164" height="46" rx="6" fill="#f3f0dc" stroke="#a08f4c" stroke-width="3"/>
+<text x="638" y="519" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#6b5424">④ 官報告示・登録証</text>
+</g>
+
+<g>
+<rect x="812" y="262" width="172" height="118" rx="8" fill="#1f3e52"/>
+<rect x="812" y="262" width="172" height="7" fill="#d6a83c"/>
+<text x="828" y="300" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">全国 15,041件</text>
+<text x="828" y="326" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#d7e2e8">2026年7月17日答申</text>
+<text x="828" y="350" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#d7e2e8">新たに163件が加わる</text>
+<text x="828" y="370" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#a9c2ce">出典：文化庁</text>
+</g>
+
+<g>
+<rect x="812" y="398" width="172" height="132" rx="8" fill="#ffffff" stroke="#8fa58a" stroke-width="3"/>
+<text x="826" y="424" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">登録後の数字</text>
+<text x="826" y="450" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5a6a5c">家屋の固定資産税 1/2</text>
+<text x="826" y="474" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5a6a5c">相続財産評価 3/10控除</text>
+<text x="826" y="498" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5a6a5c">設計監理費 1/2補助</text>
+<text x="826" y="520" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#8c3a30">工事費そのものは対象外</text>
+</g>
+</svg>

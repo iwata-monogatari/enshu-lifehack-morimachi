@@ -3375,7 +3375,57 @@ def scene_akiya_zanchibutsu(d):
     band(d, ["業者に電話する前に、", "役場に電話する"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_toroku_yukei_kominka(d):
+    """瓦屋根の古民家に登録プレートが掛かり、手前に判定の三段と数字の札を置いた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 660, 706], 300)
+    d.polygon([(0, 292), (760, 284), (760, 332), (0, 342)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 13), (760, 292 + i * 13)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 336), (760, 326), (760, BAND_TOP), (0, BAND_TOP)], fill=(216, 228, 202))
+    # 古民家（瓦屋根・土壁）
+    d.polygon([(24, 424), (196, 320), (368, 424)], fill=(111, 124, 130))
+    d.polygon([(48, 424), (196, 334), (344, 424)], fill=(146, 158, 162))
+    for x in (96, 138, 254, 296):
+        d.line([(x, 418), (196, 344)], fill=(121, 133, 138), width=3)
+    d.rectangle([44, 424, 348, 540], fill=(239, 230, 210), outline=(168, 154, 128), width=4)
+    d.rectangle([62, 450, 142, 516], fill=(217, 205, 178), outline=(154, 139, 108), width=3)
+    for x in (82, 102, 122):
+        d.line([(x, 450), (x, 516)], fill=(154, 139, 108), width=4)
+    d.rectangle([158, 450, 232, 516], fill=(207, 216, 222), outline=(123, 143, 156), width=3)
+    d.line([(195, 450), (195, 516)], fill=(123, 143, 156), width=3)
+    d.rectangle([248, 450, 330, 516], fill=(217, 205, 178), outline=(154, 139, 108), width=3)
+    d.line([(289, 450), (289, 516)], fill=(154, 139, 108), width=3)
+    d.rectangle([44, 520, 348, 540], fill=(195, 179, 147))
+    # 登録プレート
+    d.ellipse([258, 384, 350, 428], fill=(242, 244, 238), outline=(138, 111, 60), width=5)
+    d.text((272, 394), "登録", font=ImageFont.truetype(FONT_BOLD, 24), fill=(107, 84, 36))
+    # 柿の木
+    d.rectangle([368, 480, 380, 540], fill=(123, 101, 71))
+    d.ellipse([334, 418, 414, 494], fill=(109, 154, 90))
+    for cx, cy in ((352, 442), (392, 462), (368, 476)):
+        d.ellipse([cx - 8, cy - 8, cx + 8, cy + 8], fill=(224, 139, 58))
+    # 判定の三段
+    steps = (
+        (420, 466, "建設後50年"),
+        (420, 412, "三つのうち一つ"),
+        (420, 358, "重文は対象外"),
+    )
+    for x, y, label in steps:
+        d.rounded_rectangle([x, y, x + 316, y + 46], radius=7, fill=(255, 255, 255),
+                            outline=(95, 122, 106), width=3)
+        d.text((x + 16, y + 11), label, font=ImageFont.truetype(FONT_BOLD, 24), fill=(31, 62, 82))
+    # 数字の札
+    d.rounded_rectangle([420, 516, 736, 566], radius=7, fill=(31, 62, 82))
+    d.text((434, 524), "全国15,041件", font=ImageFont.truetype(FONT_BOLD, 25), fill=(255, 255, 255))
+    d.text((606, 532), "2026.7.17答申", font=ImageFont.truetype(FONT_REGULAR, 18),
+           fill=(215, 226, 232))
+    band(d, ["古い家を、残す側の", "数字で見てみる"], "森町ライフハック／寺社・歴史")
+
+
 SCENES = {
+    "20260826-toroku-yukei-bunkazai-kominka": scene_toroku_yukei_kominka,
     "20260825-akiya-zanchibutsu-hojo": scene_akiya_zanchibutsu,
     "20260825-teimiriyo-tochi-100man": scene_teimiriyo_tochi,
     "20260824-morimachi-choei-jutaku-121": scene_choei_jutaku_121,

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="fig2title fig2desc">
+<title id="fig2title">森町の古民家を残すか売るか決める前に踏む五つの段</title>
+<desc id="fig2desc">建築年が分かる紙を探し、町に知らせ、外観を撮り、税額を確かめ、最後に残す道と売る道の分かれ目に立つまでの順番。</desc>
+<defs>
+<linearGradient id="k2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d3e6f1"/><stop offset="1" stop-color="#ecf3e7"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#k2sky)"/>
+
+<path d="M0 108 L110 50 L214 104 L318 46 L424 106 L530 48 L636 106 L742 50 L848 106 L950 52 L1000 100 L1000 150 L0 150 Z" fill="#93b0c2"/>
+<path d="M0 138 L128 90 L258 138 L388 88 L518 140 L648 90 L778 138 L906 92 L1000 136 L1000 182 L0 182 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M18 182 L38 126 L58 182 Z"/><path d="M54 182 L72 134 L90 182 Z"/>
+<path d="M910 182 L930 128 L950 182 Z"/><path d="M944 182 L962 136 L980 182 Z"/>
+</g>
+<rect x="0" y="176" width="1000" height="20" fill="#8bb268"/>
+<rect x="0" y="194" width="1000" height="18" fill="#79a45c"/>
+<rect x="0" y="210" width="1000" height="16" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 188 H1000"/><path d="M0 204 H1000"/><path d="M0 220 H1000"/>
+</g>
+<rect x="0" y="224" width="1000" height="336" fill="#e8eedc"/>
+
+<g>
+<path d="M18 356 L96 300 L174 356 Z" fill="#8b949a"/>
+<rect x="32" y="356" width="128" height="86" fill="#efe6d2" stroke="#a89a80" stroke-width="4"/>
+<rect x="46" y="374" width="42" height="48" fill="#d9cdb2" stroke="#9a8b6c" stroke-width="3"/>
+<rect x="104" y="374" width="42" height="48" fill="#cfd8de" stroke="#7b8f9c" stroke-width="3"/>
+<g>
+<circle cx="62" cy="470" r="13" fill="#4f6f86"/>
+<path d="M62 484 q-16 4 -16 28 h32 q0 -24 -16 -28 Z" fill="#4f6f86"/>
+<circle cx="96" cy="476" r="10" fill="#a9633f"/>
+<path d="M96 488 q-12 4 -12 24 h24 q0 -20 -12 -24 Z" fill="#a9633f"/>
+</g>
+<text x="16" y="536" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#5a6a5c">実家の前で止まっている家族</text>
+</g>
+
+<g>
+<rect x="188" y="452" width="150" height="70" fill="#f4f1e4" stroke="#9aa88f" stroke-width="3"/>
+<text x="198" y="476" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">① 建築年の紙</text>
+<text x="198" y="497" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">登記事項証明書</text>
+<text x="198" y="514" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">課税明細書</text>
+<rect x="292" y="418" width="34" height="26" fill="#ffffff" stroke="#8fa0aa" stroke-width="3"/>
+<path d="M298 426 H320 M298 434 H314" stroke="#8fa0aa" stroke-width="3"/>
+<path d="M344 470 L372 470" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M366 462 L378 470 L366 478 Z" fill="#7b8f9c"/>
+</g>
+
+<g>
+<rect x="384" y="392" width="150" height="70" fill="#f4f1e4" stroke="#9aa88f" stroke-width="3"/>
+<text x="394" y="416" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">② 町へ電話</text>
+<text x="394" y="437" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">社会教育課</text>
+<text x="394" y="454" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">文化振興係</text>
+<g>
+<rect x="488" y="356" width="42" height="30" rx="6" fill="#4f6f86"/>
+<rect x="496" y="364" width="26" height="14" fill="#dfeaf1"/>
+<path d="M509 356 V344" stroke="#4f6f86" stroke-width="4"/>
+<circle cx="509" cy="340" r="5" fill="#4f6f86"/>
+</g>
+<path d="M540 410 L568 410" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M562 402 L574 410 L562 418 Z" fill="#7b8f9c"/>
+</g>
+
+<g>
+<rect x="580" y="332" width="150" height="70" fill="#f4f1e4" stroke="#9aa88f" stroke-width="3"/>
+<text x="590" y="356" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">③ 外観を撮る</text>
+<text x="590" y="377" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">屋根・外壁・建具</text>
+<text x="590" y="394" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">四方から1枚ずつ</text>
+<g>
+<rect x="684" y="292" width="46" height="32" rx="5" fill="#5b5f63"/>
+<rect x="696" y="284" width="18" height="10" rx="3" fill="#5b5f63"/>
+<circle cx="707" cy="308" r="11" fill="#cfe0e8" stroke="#3f4b52" stroke-width="3"/>
+</g>
+<path d="M736 350 L764 350" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M758 342 L770 350 L758 358 Z" fill="#7b8f9c"/>
+</g>
+
+<g>
+<rect x="776" y="272" width="150" height="70" fill="#f4f1e4" stroke="#9aa88f" stroke-width="3"/>
+<text x="786" y="296" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">④ 税額を見る</text>
+<text x="786" y="317" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">家屋分の年額と</text>
+<text x="786" y="334" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">その半分を書く</text>
+<g>
+<rect x="866" y="222" width="56" height="40" rx="5" fill="#4a5a63"/>
+<rect x="872" y="228" width="44" height="12" fill="#cfe0d8"/>
+<g fill="#8fa2ac">
+<rect x="872" y="244" width="12" height="6" rx="2"/><rect x="888" y="244" width="12" height="6" rx="2"/><rect x="904" y="244" width="12" height="6" rx="2"/>
+<rect x="872" y="253" width="12" height="6" rx="2"/><rect x="888" y="253" width="12" height="6" rx="2"/><rect x="904" y="253" width="12" height="6" rx="2"/>
+</g>
+</g>
+</g>
+
+<g>
+<path d="M930 300 L946 300 L946 250" stroke="#5f7a6a" stroke-width="4" fill="none"/>
+<rect x="836" y="392" width="150" height="96" rx="8" fill="#ffffff" stroke="#5f7a6a" stroke-width="3"/>
+<text x="848" y="418" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">⑤ 分かれ道</text>
+<path d="M866 434 L906 434" stroke="#5f7a6a" stroke-width="4"/>
+<path d="M906 434 L886 452" stroke="#5f7a6a" stroke-width="4"/>
+<path d="M906 434 L930 418" stroke="#5f7a6a" stroke-width="4"/>
+<text x="848" y="472" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">残す　／　売る</text>
+<text x="836" y="510" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#8c3a30">④までは、どちらでも無駄にならない</text>
+</g>
+
+<g>
+<rect x="188" y="248" width="322" height="52" rx="8" fill="#1f3e52"/>
+<rect x="188" y="248" width="322" height="6" fill="#d6a83c"/>
+<text x="204" y="284" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">今日できるのは①だけでいい</text>
+</g>
+</svg>
