@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="hj2title hj2desc">
+<title id="hj2title">森町で墓じまいを進めるときの五つの段と、分骨という別の道</title>
+<desc id="hj2desc">名義の確認、移転先の候補、寺への連絡、役場への申請、移転先への提出。下に分骨の細い道が分かれている。</desc>
+<defs>
+<linearGradient id="hj2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d5e6f0"/><stop offset="1" stop-color="#edf3e8"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#hj2sky)"/>
+
+<path d="M0 100 L108 44 L212 98 L316 40 L420 98 L524 42 L628 98 L732 44 L836 98 L940 46 L1000 96 L1000 144 L0 144 Z" fill="#93b0c2"/>
+<path d="M0 128 L126 82 L256 130 L384 80 L514 132 L642 82 L770 130 L898 84 L1000 128 L1000 174 L0 174 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M10 174 L30 118 L50 174 Z"/><path d="M46 174 L64 126 L82 174 Z"/><path d="M82 174 L100 130 L118 174 Z"/>
+<path d="M914 174 L934 120 L954 174 Z"/><path d="M948 174 L966 128 L984 174 Z"/>
+</g>
+<rect x="0" y="168" width="1000" height="18" fill="#8bb268"/>
+<rect x="0" y="184" width="1000" height="16" fill="#79a45c"/>
+<rect x="0" y="198" width="1000" height="14" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 178 H1000"/><path d="M0 192 H1000"/><path d="M0 206 H1000"/>
+</g>
+<rect x="0" y="210" width="1000" height="350" fill="#e8eedc"/>
+
+<g>
+<rect x="34" y="352" width="44" height="52" fill="#a9a49a" stroke="#7f7b73" stroke-width="3"/>
+<rect x="28" y="344" width="56" height="10" fill="#948f86"/>
+<path d="M56 336 q-6 -18 4 -26" stroke="#b8c2c8" stroke-width="3" fill="none"/>
+<g>
+<circle cx="112" cy="384" r="13" fill="#4f6f86"/>
+<path d="M112 398 q-16 4 -16 28 h32 q0 -24 -16 -28 Z" fill="#4f6f86"/>
+<circle cx="148" cy="388" r="12" fill="#a9633f"/>
+<path d="M148 401 q-15 4 -15 25 h30 q0 -21 -15 -25 Z" fill="#a9633f"/>
+</g>
+<text x="26" y="452" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#5a6a5c">墓前に立つきょうだい</text>
+</g>
+
+<g>
+<rect x="188" y="430" width="140" height="66" fill="#f4f1e4" stroke="#9aa88f" stroke-width="3"/>
+<text x="198" y="454" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">① 名義を確かめる</text>
+<text x="198" y="474" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">墓地使用許可証</text>
+<text x="198" y="490" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">管理料の請求書</text>
+<rect x="288" y="396" width="36" height="26" fill="#ffffff" stroke="#8fa0aa" stroke-width="3"/>
+<path d="M294 404 H318 M294 412 H312" stroke="#8fa0aa" stroke-width="2"/>
+<path d="M334 448 L362 448" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M356 440 L368 448 L356 456 Z" fill="#7b8f9c"/>
+</g>
+
+<g>
+<rect x="374" y="372" width="140" height="66" fill="#f4f1e4" stroke="#9aa88f" stroke-width="3"/>
+<text x="384" y="396" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">② 行き先を選ぶ</text>
+<text x="384" y="416" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">納骨堂・合葬墓</text>
+<text x="384" y="432" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">自宅近くの墓地</text>
+<g>
+<rect x="440" y="330" width="26" height="24" fill="#cfc6b4" stroke="#9a8b6c" stroke-width="3"/>
+<circle cx="484" cy="338" r="13" fill="#6d9a5a"/><rect x="480" y="346" width="8" height="12" fill="#7b6547"/>
+</g>
+<path d="M520 390 L548 390" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M542 382 L554 390 L542 398 Z" fill="#7b8f9c"/>
+</g>
+
+<g>
+<rect x="560" y="314" width="140" height="66" fill="#f4f1e4" stroke="#9aa88f" stroke-width="3"/>
+<text x="570" y="338" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">③ 寺へ伝える</text>
+<text x="570" y="358" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">埋葬の事実の証明</text>
+<text x="570" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">電話で日を決めてから</text>
+<g>
+<path d="M620 276 L662 254 L704 276 Z" fill="#7f7469"/>
+<rect x="636" y="276" width="52" height="30" fill="#e5dcc8" stroke="#a89a80" stroke-width="3"/>
+<rect x="654" y="288" width="16" height="18" fill="#8a6f4e"/>
+</g>
+<path d="M706 332 L734 332" stroke="#7b8f9c" stroke-width="4"/>
+<path d="M728 324 L740 332 L728 340 Z" fill="#7b8f9c"/>
+</g>
+
+<g>
+<rect x="746" y="256" width="150" height="66" fill="#f4f1e4" stroke="#9aa88f" stroke-width="3"/>
+<text x="756" y="280" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">④ 役場へ申請</text>
+<text x="756" y="300" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">約1週間・300円</text>
+<text x="756" y="316" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">2ページを両面印刷</text>
+<g>
+<rect x="818" y="212" width="40" height="32" fill="#ffffff" stroke="#8fa0aa" stroke-width="3"/>
+<path d="M824 222 H852 M824 230 H846" stroke="#8fa0aa" stroke-width="2"/>
+<circle cx="878" cy="228" r="12" fill="#d6a83c" stroke="#a8801f" stroke-width="3"/>
+</g>
+</g>
+
+<g>
+<path d="M906 288 L940 288 L940 350" stroke="#5f7a6a" stroke-width="4" fill="none"/>
+<path d="M932 344 L940 358 L948 344 Z" fill="#5f7a6a"/>
+<rect x="840" y="364" width="150" height="66" rx="7" fill="#ffffff" stroke="#5f7a6a" stroke-width="3"/>
+<text x="852" y="388" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#33503f">⑤ 移転先へ提出</text>
+<text x="852" y="408" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">改葬許可証を渡す</text>
+<text x="852" y="424" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">受理の後に埋蔵できる</text>
+</g>
+
+<g>
+<path d="M200 512 C 380 546, 620 546, 828 500" stroke="#8c7a5a" stroke-width="4" fill="none" stroke-dasharray="10 8"/>
+<rect x="392" y="502" width="248" height="48" rx="7" fill="#f6efdf" stroke="#a8935f" stroke-width="3"/>
+<text x="406" y="524" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#6b5424">別の道：分骨</text>
+<text x="406" y="542" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#6b5424">市町村長の許可ではなく管理者の証明書</text>
+</g>
+
+<g>
+<rect x="26" y="236" width="400" height="46" rx="8" fill="#1f3e52"/>
+<rect x="26" y="236" width="400" height="6" fill="#d6a83c"/>
+<text x="42" y="269" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">①と②は、寺に電話する前に済ませる</text>
+</g>
+</svg>

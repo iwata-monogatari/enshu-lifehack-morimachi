@@ -3424,7 +3424,53 @@ def scene_toroku_yukei_kominka(d):
     band(d, ["古い家を、残す側の", "数字で見てみる"], "森町ライフハック／寺社・歴史")
 
 
+def scene_hakajimai_kaiso(d):
+    """森町の墓地と菩提寺、改葬許可申請書と300円の硬貨を並べた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [12, 56, 100, 144, 664, 708], 300)
+    d.polygon([(0, 294), (760, 286), (760, 334), (0, 344)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 302 + i * 13), (760, 294 + i * 13)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 338), (760, 328), (760, BAND_TOP), (0, BAND_TOP)], fill=(218, 229, 205))
+    # 左：墓地
+    d.rectangle([16, 470, 232, 486], fill=(201, 195, 180))
+    d.rectangle([48, 396, 104, 470], fill=(169, 164, 154), outline=(127, 123, 115), width=3)
+    d.rectangle([38, 384, 114, 398], fill=(148, 143, 134))
+    d.rectangle([62, 348, 90, 386], fill=(180, 175, 165), outline=(127, 123, 115), width=3)
+    d.rectangle([142, 418, 186, 470], fill=(180, 175, 165), outline=(127, 123, 115), width=3)
+    d.rectangle([134, 408, 194, 420], fill=(148, 143, 134))
+    d.rounded_rectangle([198, 438, 228, 470], radius=6, fill=(125, 139, 147))
+    d.text((20, 496), "森町の墓地", font=ImageFont.truetype(FONT_BOLD, 22), fill=(51, 80, 63))
+    # 中央：寺
+    d.polygon([(244, 372), (338, 328), (432, 372)], fill=(127, 116, 105))
+    d.rectangle([252, 372, 424, 386], fill=(109, 98, 87))
+    d.rectangle([272, 386, 404, 470], fill=(229, 220, 200), outline=(168, 154, 128), width=4)
+    d.rectangle([320, 414, 356, 470], fill=(138, 111, 78), outline=(107, 86, 60), width=3)
+    d.rectangle([262, 470, 414, 482], fill=(185, 168, 136))
+    d.text((252, 496), "菩提寺の署名", font=ImageFont.truetype(FONT_BOLD, 22), fill=(51, 80, 63))
+    # 右：申請書と硬貨と日めくり
+    d.polygon([(452, 372), (700, 366), (704, 500), (456, 506)], fill=(255, 255, 255),
+              outline=(154, 165, 172), width=4)
+    f = ImageFont.truetype(FONT_BOLD, 22)
+    d.text((470, 386), "改葬許可申請書", font=f, fill=(31, 62, 82))
+    for i in range(4):
+        d.line([(470, 424 + i * 18), (682, 421 + i * 18)], fill=(176, 194, 205), width=4)
+    d.ellipse([600, 452, 648, 500], fill=(214, 168, 60), outline=(168, 128, 31), width=4)
+    d.text((610, 466), "300", font=ImageFont.truetype(FONT_BOLD, 20), fill=(92, 68, 12))
+    d.rounded_rectangle([712, 372, 748, 442], radius=6, fill=(253, 249, 238),
+                        outline=(176, 155, 98), width=3)
+    d.text((716, 384), "約1", font=ImageFont.truetype(FONT_BOLD, 19), fill=(107, 90, 36))
+    d.text((716, 408), "週間", font=ImageFont.truetype(FONT_BOLD, 19), fill=(107, 90, 36))
+    # 帯の上の統計札
+    d.rounded_rectangle([16, 528, 744, 572], radius=7, fill=(31, 62, 82))
+    d.text((30, 536), "令和5年度の改葬  全国166,886件／静岡県5,966件",
+           font=ImageFont.truetype(FONT_BOLD, 25), fill=(255, 255, 255))
+    band(d, ["寺が先で、", "役場は後になる"], "森町ライフハック／寺社・歴史")
+
+
 SCENES = {
+    "20260826-morimachi-hakajimai-kaiso": scene_hakajimai_kaiso,
     "20260826-toroku-yukei-bunkazai-kominka": scene_toroku_yukei_kominka,
     "20260825-akiya-zanchibutsu-hojo": scene_akiya_zanchibutsu,
     "20260825-teimiriyo-tochi-100man": scene_teimiriyo_tochi,
