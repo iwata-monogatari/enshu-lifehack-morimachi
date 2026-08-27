@@ -3,9 +3,9 @@
 
 表示順は指示書 6.1 のとおり:
   1 サイト名と非公式表示  2 検索窓  3 緊急導線
-  4 6つの生活場面  5 よく使われる手続き8件  6 状況別チェックリスト
-  7 森町独自データベース  8 最新確認情報  9 運営者・編集方針
-  10 必要な場合のみ事業相談導線
+  4 6つの生活場面  5 主要カテゴリ・記事一覧  6 よく使われる手続き8件
+  7 状況別チェックリスト  8 森町独自データベース  9 最新確認情報
+  10 運営者・編集方針  11 必要な場合のみ事業相談導線
 
 守ること:
   - 本文中のリンクは60以下（13カテゴリ全項目の展開表示をやめる）
@@ -52,6 +52,19 @@ CHECKLISTS = [
     ("/checklist/job-change/", "💴", "転職した・退職した", "国民健康保険・国民年金・住民税"),
 ]
 
+CATEGORY_INDEXES = [
+    ("/records/", "🗒️", "確認記録", "制度・窓口・現地情報の確認記録から探す"),
+    ("/guide/", "🚌", "交通・訪問ガイド", "移動手段や現地訪問の準備から探す"),
+    ("/inheritance/", "🗂️", "相続と家", "相続人・登記・書類・家財の順に探す"),
+    ("/vacant-house/", "🏚️", "空き家", "管理・修繕・空き家バンクから探す"),
+    ("/land/", "🧭", "土地", "境界・道路・地目・土地利用から探す"),
+    ("/farmland/", "🌾", "農地", "耕作・貸借・転用・相続から探す"),
+    ("/property/", "🏠", "住宅・建物", "購入・改修・接道・災害リスクから探す"),
+    ("/agriculture/", "🍵", "農業・茶・森林", "農産物・茶畑・農道・森林から探す"),
+    ("/forest/", "🌲", "山林", "境界・進入路・伐採・引継ぎから探す"),
+    ("/business/", "🏪", "事業を始める", "開業場所・許認可・税・事業承継から探す"),
+]
+
 def esc(s: str) -> str:
     return escape(str(s or ""), quote=True)
 
@@ -93,6 +106,23 @@ def frequent_section() -> str:
     return ('<section class="frequent" aria-labelledby="freq-title">'
             '<h2 id="freq-title">よく使われる手続き</h2>'
             f'<ul class="freq-list">{items}</ul></section>')
+
+
+def category_indexes_section() -> str:
+    """主要な一覧ハブ10件へ、トップからクロール可能な導線を作る。"""
+    cards = "".join(
+        f'<a class="section-card" href="{esc(href)}">'
+        f'<span class="section-emoji" aria-hidden="true">{emoji}</span>'
+        f'<span class="section-body"><span class="section-title">{esc(label)}</span>'
+        f'<span class="section-desc">{esc(note)}</span></span></a>'
+        for href, emoji, label, note in CATEGORY_INDEXES
+    )
+    return (
+        '<section class="category-indexes" aria-labelledby="category-indexes-title">'
+        '<h2 id="category-indexes-title">主要カテゴリ・記事一覧</h2>'
+        '<p class="lead">テーマ別の一覧から、関連する記事をまとめてたどれます。</p>'
+        f'<div class="section-grid">{cards}</div></section>'
+    )
 
 
 def search_priority_section() -> str:
@@ -292,6 +322,7 @@ def build() -> str:
 
 {emergency_section()}
 {hub_section()}
+{category_indexes_section()}
 {frequent_section()}
 {search_priority_section()}
 {checklist_section()}
