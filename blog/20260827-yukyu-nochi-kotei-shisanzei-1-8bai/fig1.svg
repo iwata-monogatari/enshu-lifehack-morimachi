@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="yk1title yk1desc">
+<title id="yk1title">遊休農地の評価額が1.8倍になる計算と、そこへ至る四つの段</title>
+<desc id="yk1desc">通常の農地は売買価格に0.55を掛けるのに対し、遊休農地は0.55を掛けないため評価額が約1.8倍になること、課税強化までに利用状況調査・利用意向調査・六月の経過・協議の勧告の四段があることを描いた図。</desc>
+<defs>
+<linearGradient id="yk1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d4e5f0"/><stop offset="1" stop-color="#edf3e8"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#yk1sky)"/>
+
+<path d="M0 92 L112 40 L220 92 L330 36 L440 92 L550 38 L660 92 L770 40 L880 92 L1000 44 L1000 136 L0 136 Z" fill="#93b0c2"/>
+<path d="M0 120 L130 74 L262 122 L392 72 L522 124 L652 74 L782 122 L912 76 L1000 120 L1000 164 L0 164 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M12 164 L32 110 L52 164 Z"/><path d="M48 164 L66 118 L84 164 Z"/>
+<path d="M912 164 L932 112 L952 164 Z"/><path d="M948 164 L966 120 L984 164 Z"/>
+</g>
+<rect x="0" y="158" width="1000" height="42" fill="#9cb87c"/>
+<g stroke="#7d9c60" stroke-width="3" opacity="0.7">
+<path d="M20 200 q6 -26 12 -40"/><path d="M60 200 q-6 -28 -10 -42"/><path d="M104 200 q7 -24 13 -38"/>
+<path d="M150 200 q-5 -26 -9 -40"/><path d="M196 200 q6 -25 12 -39"/><path d="M244 200 q-6 -27 -10 -41"/>
+<path d="M292 200 q7 -24 13 -38"/><path d="M340 200 q-5 -26 -9 -40"/>
+</g>
+<rect x="0" y="200" width="1000" height="360" fill="#e8eedc"/>
+
+<text x="26" y="238" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#33503f">評価額の出し方が変わる</text>
+
+<g>
+<rect x="26" y="252" width="404" height="126" rx="8" fill="#ffffff" stroke="#9aa88f" stroke-width="3"/>
+<text x="42" y="278" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#4b5b4e">通常の農地</text>
+<rect x="42" y="292" width="128" height="42" fill="#dfe9d6" stroke="#9aa88f" stroke-width="3"/>
+<text x="54" y="319" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#3d4b40">売買価格</text>
+<text x="180" y="320" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="22" font-weight="bold" fill="#4b5b4e">×</text>
+<rect x="204" y="292" width="112" height="42" fill="#eaf1e4" stroke="#9aa88f" stroke-width="3"/>
+<text x="212" y="319" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#3d4b40">0.55</text>
+<text x="256" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12.5" fill="#6a7a6c">限界収益率</text>
+<rect x="336" y="308" width="60" height="52" fill="#8fbf7a" stroke="#6f9c5c" stroke-width="3"/>
+<text x="336" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">評価額</text>
+</g>
+
+<g>
+<rect x="26" y="392" width="404" height="140" rx="8" fill="#fdf4f2" stroke="#c08b84" stroke-width="4"/>
+<text x="42" y="418" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#8c3a30">勧告を受けた遊休農地</text>
+<rect x="42" y="432" width="128" height="42" fill="#f3e2de" stroke="#c08b84" stroke-width="3"/>
+<text x="54" y="459" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#6b3b34">売買価格</text>
+<text x="180" y="460" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="22" font-weight="bold" fill="#c08b84">×</text>
+<rect x="204" y="432" width="112" height="42" fill="#f3e2de" stroke="#c08b84" stroke-width="3"/>
+<text x="212" y="459" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#a8776f">0.55</text>
+<path d="M198 480 L322 426" stroke="#c0392b" stroke-width="7"/>
+<text x="200" y="502" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#8c3a30">0.55を乗じない</text>
+<rect x="336" y="404" width="60" height="94" fill="#d98a5a" stroke="#b06a3e" stroke-width="3"/>
+<text x="330" y="518" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#8c3a30">約1.8倍</text>
+</g>
+
+<text x="466" y="238" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#33503f">ここを全部通らないと届かない</text>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<rect x="466" y="252" width="330" height="56" rx="6" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<circle cx="496" cy="280" r="17" fill="#1f3e52"/><text x="490" y="287" font-size="16" font-weight="bold" fill="#ffffff">1</text>
+<text x="524" y="276" font-size="15" font-weight="bold" fill="#33503f">利用状況調査</text>
+<text x="524" y="296" font-size="13" fill="#5a6a5c">毎年一回・森町は8〜9月</text>
+<path d="M631 312 L631 330" stroke="#7b8f9c" stroke-width="5"/><path d="M621 324 L631 340 L641 324 Z" fill="#7b8f9c"/>
+
+<rect x="466" y="342" width="330" height="56" rx="6" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<circle cx="496" cy="370" r="17" fill="#1f3e52"/><text x="490" y="377" font-size="16" font-weight="bold" fill="#ffffff">2</text>
+<text x="524" y="366" font-size="15" font-weight="bold" fill="#33503f">利用意向調査</text>
+<text x="524" y="386" font-size="13" fill="#5a6a5c">農地法第32条第1項</text>
+<path d="M631 402 L631 420" stroke="#7b8f9c" stroke-width="5"/><path d="M621 414 L631 430 L641 414 Z" fill="#7b8f9c"/>
+
+<rect x="466" y="432" width="330" height="44" rx="6" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<circle cx="496" cy="454" r="17" fill="#1f3e52"/><text x="490" y="461" font-size="16" font-weight="bold" fill="#ffffff">3</text>
+<text x="524" y="460" font-size="15" font-weight="bold" fill="#33503f">六月の経過（第36条第1項）</text>
+<path d="M631 480 L631 494" stroke="#7b8f9c" stroke-width="5"/><path d="M621 488 L631 504 L641 488 Z" fill="#7b8f9c"/>
+
+<rect x="466" y="506" width="330" height="46" rx="6" fill="#fdf4f2" stroke="#c08b84" stroke-width="4"/>
+<circle cx="496" cy="529" r="17" fill="#8c3a30"/><text x="490" y="536" font-size="16" font-weight="bold" fill="#ffffff">4</text>
+<text x="524" y="535" font-size="15" font-weight="bold" fill="#8c3a30">協議の勧告 → 課税強化</text>
+
+<path d="M800 370 L906 370" stroke="#3f6b52" stroke-width="5" stroke-dasharray="10 6"/>
+<path d="M900 360 L918 370 L900 380 Z" fill="#3f6b52"/>
+<rect x="820" y="392" width="164" height="88" rx="8" fill="#eaf3e4" stroke="#6f9c5c" stroke-width="4"/>
+<text x="832" y="418" font-size="14.5" font-weight="bold" fill="#33503f">貸す意思を</text>
+<text x="832" y="440" font-size="14.5" font-weight="bold" fill="#33503f">伝えたら</text>
+<text x="832" y="466" font-size="14" fill="#3f6b52">勧告は行われない</text>
+</g>
+</svg>

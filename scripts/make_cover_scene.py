@@ -3595,7 +3595,61 @@ def scene_chiiki_keikaku_mokuhyou_chizu(d):
     band(d, ["10年後に誰が耕すか、", "目標地図に書いてある"], "森町ライフハック／農地・山林・茶畑")
 
 
+def scene_yukyu_nochi_1_8bai(d):
+    """草の伸びた畑の前に、0.55を消した評価額の式と勧告書を並べた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 664, 710], 300)
+    # 荒れた畑
+    d.polygon([(0, 292), (760, 284), (760, 340), (0, 350)], fill=(156, 184, 124))
+    for x in range(10, 760, 34):
+        d.line([(x, 348), (x + 6, 306)], fill=(125, 156, 96), width=4)
+        d.line([(x + 16, 348), (x + 10, 310)], fill=(140, 168, 108), width=3)
+    d.rectangle([0, 344, 760, BAND_TOP], fill=(232, 238, 220))
+    # 通常の農地の式
+    d.rounded_rectangle([26, 356, 420, 442], radius=8, fill=(255, 255, 255),
+                        outline=(154, 168, 143), width=4)
+    fb = ImageFont.truetype(FONT_BOLD, 21)
+    fr = ImageFont.truetype(FONT_REGULAR, 17)
+    d.text((40, 364), "通常の農地", font=ImageFont.truetype(FONT_BOLD, 17), fill=(75, 91, 78))
+    d.rectangle([40, 390, 172, 430], fill=(223, 233, 214), outline=(154, 168, 143), width=3)
+    d.text((52, 400), "売買価格", font=fb, fill=(61, 75, 64))
+    d.text((182, 398), "×", font=ImageFont.truetype(FONT_BOLD, 26), fill=(120, 136, 122))
+    d.rectangle([212, 390, 306, 430], fill=(234, 241, 228), outline=(154, 168, 143), width=3)
+    d.text((228, 400), "0.55", font=fb, fill=(61, 75, 64))
+    d.rectangle([330, 398, 396, 430], fill=(143, 191, 122), outline=(111, 156, 92), width=3)
+    # 遊休農地の式
+    d.rounded_rectangle([26, 452, 420, 552], radius=8, fill=(253, 244, 242),
+                        outline=(192, 139, 132), width=5)
+    d.text((40, 460), "勧告を受けた遊休農地", font=ImageFont.truetype(FONT_BOLD, 17),
+           fill=(140, 58, 48))
+    d.rectangle([40, 488, 172, 528], fill=(243, 226, 222), outline=(192, 139, 132), width=3)
+    d.text((52, 498), "売買価格", font=fb, fill=(107, 59, 52))
+    d.text((182, 496), "×", font=ImageFont.truetype(FONT_BOLD, 26), fill=(192, 139, 132))
+    d.rectangle([212, 488, 306, 528], fill=(243, 226, 222), outline=(192, 139, 132), width=3)
+    d.text((228, 498), "0.55", font=fb, fill=(168, 119, 111))
+    d.line([(206, 534), (312, 482)], fill=(192, 57, 43), width=9)
+    d.rectangle([330, 462, 396, 544], fill=(217, 138, 90), outline=(176, 106, 62), width=3)
+    # 勧告書
+    d.polygon([(452, 356), (704, 350), (710, 496), (458, 502)], fill=(255, 255, 255),
+              outline=(154, 165, 172), width=5)
+    d.text((472, 372), "協議の勧告", font=ImageFont.truetype(FONT_BOLD, 26), fill=(31, 62, 82))
+    d.text((472, 410), "農業委員会から", font=fr, fill=(90, 106, 108))
+    for i in range(3):
+        d.line([(472, 442 + i * 16), (690, 440 + i * 16)], fill=(186, 200, 210), width=4)
+    d.rounded_rectangle([452, 508, 710, 552], radius=6, fill=(234, 243, 228),
+                        outline=(111, 156, 92), width=4)
+    d.text((466, 518), "勧告を受けた農地だけ", font=ImageFont.truetype(FONT_BOLD, 21),
+           fill=(51, 80, 63))
+    # 統計帯
+    d.rounded_rectangle([16, 566, 744, 588], radius=4, fill=(31, 62, 82))
+    d.text((28, 568), "静岡県の適用実績 0件0ha／全国427件67ha／森町の1号遊休農地17.5ha",
+           font=ImageFont.truetype(FONT_BOLD, 17), fill=(255, 255, 255))
+    band(d, ["1.8倍は、税率ではなく", "評価額の掛け算の話"], "森町ライフハック／農地・山林・茶畑")
+
+
 SCENES = {
+    "20260827-yukyu-nochi-kotei-shisanzei-1-8bai": scene_yukyu_nochi_1_8bai,
     "20260827-morimachi-chiiki-keikaku-mokuhyou-chizu": scene_chiiki_keikaku_mokuhyou_chizu,
     "20260826-morimachi-maizo-bunkazai": scene_maizo_bunkazai,
     "20260826-morimachi-hakajimai-kaiso": scene_hakajimai_kaiso,

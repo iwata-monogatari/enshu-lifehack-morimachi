@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="yk2title yk2desc">
+<title id="yk2title">使っていない畑について今日できる四つの段と、罰と支援の秤</title>
+<desc id="yk2desc">課税明細書で評価額を出し、農業振興地域内かを聞き、貸す意思を先に伝え、決められなければ草を刈り続ける四つの段と、課税強化と軽減措置を左右に載せた秤を描いた図。</desc>
+<defs>
+<linearGradient id="yk2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d4e5f0"/><stop offset="1" stop-color="#edf3e8"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#yk2sky)"/>
+
+<path d="M0 90 L116 38 L228 90 L340 34 L452 90 L564 36 L676 90 L788 38 L900 90 L1000 42 L1000 134 L0 134 Z" fill="#93b0c2"/>
+<path d="M0 118 L134 72 L268 120 L402 70 L536 122 L670 72 L804 120 L938 74 L1000 118 L1000 162 L0 162 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M10 162 L30 108 L50 162 Z"/><path d="M46 162 L64 116 L82 162 Z"/>
+<path d="M916 162 L936 110 L956 162 Z"/><path d="M950 162 L968 118 L986 162 Z"/>
+</g>
+<rect x="0" y="156" width="1000" height="40" fill="#9cb87c"/>
+<g stroke="#7d9c60" stroke-width="3" opacity="0.7">
+<path d="M24 196 q6 -25 12 -38"/><path d="M72 196 q-6 -26 -10 -40"/><path d="M120 196 q7 -23 13 -36"/>
+<path d="M168 196 q-5 -25 -9 -38"/><path d="M216 196 q6 -24 12 -37"/><path d="M264 196 q-6 -26 -10 -39"/>
+<path d="M312 196 q7 -23 13 -36"/><path d="M360 196 q-5 -25 -9 -38"/><path d="M408 196 q6 -24 12 -37"/>
+</g>
+<rect x="0" y="196" width="1000" height="364" fill="#e8eedc"/>
+
+<path d="M76 268 H636" stroke="#b7c3ae" stroke-width="6" stroke-dasharray="14 10"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="106" cy="268" r="26" fill="#1f3e52"/><text x="95" y="277" font-size="22" font-weight="bold" fill="#ffffff">1</text>
+<rect x="42" y="312" width="128" height="92" fill="#ffffff" stroke="#8fa0aa" stroke-width="3"/>
+<rect x="54" y="322" width="56" height="12" fill="#d9a441"/>
+<g stroke="#b5c2ca" stroke-width="2"><path d="M54 348 H158"/><path d="M54 366 H158"/><path d="M54 384 H140"/></g>
+<text x="42" y="428" font-size="14.5" font-weight="bold" fill="#33503f">評価額を出す</text>
+<text x="42" y="448" font-size="13" fill="#5a6a5c">課税明細書の畑の欄</text>
+<text x="42" y="466" font-size="13" fill="#5a6a5c">地番・地目・面積</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="283" cy="268" r="26" fill="#1f3e52"/><text x="272" y="277" font-size="22" font-weight="bold" fill="#ffffff">2</text>
+<rect x="219" y="312" width="128" height="92" rx="10" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="235" y="326" width="96" height="34" rx="4" fill="#eaf1e4"/>
+<text x="240" y="349" font-size="13.5" font-weight="bold" fill="#1f3e52">農地管理係</text>
+<path d="M249 378 q11 -14 27 -6 q16 8 30 -4" fill="none" stroke="#4f6f86" stroke-width="5"/>
+<text x="219" y="428" font-size="14.5" font-weight="bold" fill="#33503f">区域を確かめる</text>
+<text x="219" y="448" font-size="13" fill="#5a6a5c">農業振興地域内か</text>
+<text x="219" y="466" font-size="13" fill="#5a6a5c">地番を伝えて聞く</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="460" cy="268" r="26" fill="#1f3e52"/><text x="449" y="277" font-size="22" font-weight="bold" fill="#ffffff">3</text>
+<rect x="396" y="312" width="128" height="92" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<g stroke="#c3cebb" stroke-width="2"><path d="M408 342 H512"/><path d="M408 360 H512"/><path d="M408 378 H486"/></g>
+<text x="404" y="332" font-size="13" font-weight="bold" fill="#33503f">貸付けの意思</text>
+<circle cx="500" cy="392" r="13" fill="#8fbf7a"/>
+<path d="M494 392 L499 398 L507 386" fill="none" stroke="#ffffff" stroke-width="3"/>
+<text x="396" y="428" font-size="14.5" font-weight="bold" fill="#33503f">先に伝える</text>
+<text x="396" y="448" font-size="13" fill="#5a6a5c">農業委員会へ</text>
+<text x="396" y="466" font-size="13" fill="#5a6a5c">勧告は行われない</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="637" cy="268" r="26" fill="#1f3e52"/><text x="626" y="277" font-size="22" font-weight="bold" fill="#ffffff">4</text>
+<rect x="573" y="312" width="128" height="92" fill="#cfe0b8" stroke="#8fae76" stroke-width="3"/>
+<g stroke="#7d9c60" stroke-width="3">
+<path d="M592 404 q5 -22 10 -34"/><path d="M624 404 q-5 -23 -9 -35"/><path d="M656 404 q6 -21 11 -33"/>
+</g>
+<path d="M586 340 L676 340" stroke="#6f8f5c" stroke-width="6"/>
+<path d="M668 330 L688 340 L668 350 Z" fill="#6f8f5c"/>
+<text x="586" y="366" font-size="13" fill="#3f5c33">刈れば緑区分</text>
+<text x="573" y="428" font-size="14.5" font-weight="bold" fill="#33503f">草を刈り続ける</text>
+<text x="573" y="448" font-size="13" fill="#5a6a5c">決められない間も</text>
+<text x="573" y="466" font-size="13" fill="#5a6a5c">緑8.8ha・黄8.7ha</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<path d="M866 236 V300" stroke="#7d6a4a" stroke-width="7"/>
+<path d="M760 300 H972" stroke="#7d6a4a" stroke-width="7"/>
+<path d="M790 300 V330" stroke="#9a8a6a" stroke-width="4"/>
+<path d="M942 300 V330" stroke="#9a8a6a" stroke-width="4"/>
+<rect x="736" y="330" width="110" height="76" rx="8" fill="#fdf4f2" stroke="#c08b84" stroke-width="4"/>
+<text x="748" y="356" font-size="14" font-weight="bold" fill="#8c3a30">課税強化</text>
+<text x="748" y="378" font-size="14" font-weight="bold" fill="#8c3a30">約1.8倍</text>
+<text x="748" y="398" font-size="12" fill="#8c3a30">静岡県 0件</text>
+<rect x="888" y="330" width="110" height="76" rx="8" fill="#eaf3e4" stroke="#6f9c5c" stroke-width="4"/>
+<text x="900" y="356" font-size="14" font-weight="bold" fill="#33503f">10年貸せば</text>
+<text x="900" y="378" font-size="14" font-weight="bold" fill="#33503f">3年 2分の1</text>
+<text x="900" y="398" font-size="12" fill="#3f6b52">令和10年3月末まで</text>
+<circle cx="866" cy="226" r="14" fill="#7d6a4a"/>
+<text x="774" y="440" font-size="13.5" fill="#5a6a5c">分かれ目は、伝えたかどうか</text>
+</g>
+
+<rect x="24" y="500" width="700" height="38" rx="6" fill="#1f3e52"/>
+<text x="40" y="526" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#ffffff">森町の管内農地907ha／1号遊休農地17.5ha（私の計算で1.93%）</text>
+</svg>
