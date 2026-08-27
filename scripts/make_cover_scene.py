@@ -3700,7 +3700,71 @@ def scene_cha_tsuzukeru_kakaku(d):
     band(d, ["上がったのは一番茶", "ではなかった"], "森町ライフハック／農地・山林・茶畑")
 
 
+def scene_chiiki_taxi_yoyaku(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 686, 730], 300)
+    # 茶畑の段
+    d.polygon([(0, 296), (760, 288), (760, 348), (0, 358)], fill=(139, 183, 95))
+    for i in range(3):
+        d.line([(0, 304 + i * 16), (760, 296 + i * 16)], fill=(93, 138, 62), width=3)
+    d.polygon([(0, 352), (760, 342), (760, BAND_TOP), (0, BAND_TOP)], fill=(206, 223, 182))
+    # 集落の道
+    d.polygon([(0, 468), (760, 452), (760, BAND_TOP), (0, BAND_TOP)], fill=(205, 197, 176))
+    for x in range(10, 760, 74):
+        d.line([(x, 508), (x + 38, 507)], fill=(255, 255, 255), width=5)
+    # 左：瓦屋根の家と、電話をかける人
+    d.rectangle([32, 320, 196, 412], fill=(244, 238, 224), outline=(176, 154, 122), width=3)
+    d.polygon([(16, 322), (114, 268), (212, 322)], fill=(125, 106, 86))
+    d.rectangle([16, 322, 212, 334], fill=(99, 84, 67))
+    d.rectangle([54, 344, 92, 382], fill=(200, 220, 230), outline=(147, 173, 186), width=2)
+    d.rectangle([132, 344, 170, 382], fill=(200, 220, 230), outline=(147, 173, 186), width=2)
+    d.rectangle([100, 378, 128, 412], fill=(168, 132, 94), outline=(132, 102, 63), width=2)
+    d.ellipse([214, 386, 246, 418], fill=(79, 111, 134))
+    d.polygon([(212, 420), (248, 420), (256, 476), (204, 476)], fill=(79, 111, 134))
+    d.rounded_rectangle([246, 384, 262, 414], radius=5, fill=(52, 62, 70))
+    d.rectangle([196, 424, 226, 446], fill=(255, 255, 255), outline=(192, 57, 43), width=3)
+    d.rectangle([210, 434, 240, 456], fill=(255, 255, 255), outline=(192, 57, 43), width=3)
+    # 中央：地域タクシー
+    d.rounded_rectangle([292, 424, 470, 486], radius=10, fill=(76, 143, 106),
+                        outline=(51, 104, 76), width=3)
+    d.rounded_rectangle([316, 396, 442, 430], radius=8, fill=(91, 161, 121),
+                        outline=(51, 104, 76), width=3)
+    d.rectangle([328, 404, 370, 426], fill=(207, 227, 234), outline=(51, 104, 76), width=2)
+    d.rectangle([386, 404, 428, 426], fill=(207, 227, 234), outline=(51, 104, 76), width=2)
+    d.ellipse([308, 470, 344, 506], fill=(61, 71, 80))
+    d.ellipse([418, 470, 454, 506], fill=(61, 71, 80))
+    d.rectangle([330, 442, 428, 468], fill=(255, 255, 255), outline=(51, 104, 76), width=3)
+    d.text((338, 446), "1台500円", font=ImageFont.truetype(FONT_BOLD, 19), fill="#2f5e46")
+    # 右：指定目的地（病院・食料品店・天浜線の駅）
+    d.rectangle([458, 314, 532, 388], fill=(255, 255, 255), outline=(125, 143, 118), width=3)
+    d.rectangle([480, 340, 510, 348], fill=(192, 57, 43))
+    d.rectangle([491, 329, 499, 359], fill=(192, 57, 43))
+    d.text((462, 394), "病院", font=ImageFont.truetype(FONT_REGULAR, 17), fill="#42513f")
+    d.rectangle([550, 314, 636, 388], fill=(255, 255, 255), outline=(125, 143, 118), width=3)
+    d.rectangle([550, 314, 636, 332], fill=(217, 164, 65))
+    d.rectangle([566, 346, 588, 368], fill=(188, 215, 162), outline=(143, 174, 118), width=2)
+    d.rectangle([598, 346, 620, 368], fill=(188, 215, 162), outline=(143, 174, 118), width=2)
+    d.text((554, 394), "食料品店", font=ImageFont.truetype(FONT_REGULAR, 17), fill="#42513f")
+    d.rectangle([664, 330, 726, 388], fill=(246, 244, 234), outline=(125, 143, 118), width=3)
+    d.polygon([(654, 330), (695, 302), (736, 330)], fill=(141, 122, 99))
+    d.rectangle([681, 346, 709, 370], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.text((660, 394), "天浜線の駅", font=ImageFont.truetype(FONT_REGULAR, 16), fill="#42513f")
+    # 指定目的地であることを示す番号札
+    for cx, num in ((462, "1"), (554, "20"), (668, "50")):
+        d.ellipse([cx - 14, 300, cx + 14, 328], fill=(31, 62, 82))
+        d.text((cx - 10 if len(num) > 1 else cx - 5, 306),
+               num, font=ImageFont.truetype(FONT_BOLD, 15), fill="#ffffff")
+    # 運行できる時間帯の帯
+    d.rounded_rectangle([480, 520, 744, 566], radius=8, fill=(255, 255, 255),
+                        outline=(61, 75, 64), width=3)
+    d.text((494, 528), "8:30 - 15:30 平日のみ",
+           font=ImageFont.truetype(FONT_BOLD, 21), fill="#1f3e52")
+    band(d, ["予約は、乗る2週間前と", "1時間前の二か所で決まる"], "森町ライフハック／一宮・園田の地域タクシー")
+
+
 SCENES = {
+    "20260828-morimachi-chiiki-taxi-yoyaku": scene_chiiki_taxi_yoyaku,
     "20260827-morimachi-cha-tsuzukeru-kakaku": scene_cha_tsuzukeru_kakaku,
     "20260827-yukyu-nochi-kotei-shisanzei-1-8bai": scene_yukyu_nochi_1_8bai,
     "20260827-morimachi-chiiki-keikaku-mokuhyou-chizu": scene_chiiki_keikaku_mokuhyou_chizu,

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tx1title tx1desc">
+<title id="tx1title">自宅と指定目的地だけを結ぶ地域タクシー</title>
+<desc id="tx1desc">森町一宮地区の集落にある自宅の門前に地域タクシーが停まり、番号の付いた指定目的地との間を往復する一方、指定目的地どうしの移動には赤いバツ印が重ねられている図。</desc>
+<defs>
+<linearGradient id="tx1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d3e4ef"/><stop offset="1" stop-color="#edf3e8"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#tx1sky)"/>
+
+<path d="M0 92 L104 40 L206 92 L310 36 L414 92 L518 38 L622 92 L726 40 L830 92 L934 42 L1000 90 L1000 136 L0 136 Z" fill="#92afc1"/>
+<path d="M0 120 L124 74 L252 122 L380 72 L508 124 L636 74 L764 122 L892 76 L1000 120 L1000 164 L0 164 Z" fill="#7da38e"/>
+<g fill="#3f6b52">
+<path d="M12 164 L32 110 L52 164 Z"/><path d="M48 164 L66 118 L84 164 Z"/><path d="M84 164 L102 122 L120 164 Z"/>
+<path d="M884 164 L902 120 L920 164 Z"/><path d="M916 164 L936 112 L956 164 Z"/><path d="M950 164 L968 120 L986 164 Z"/>
+</g>
+<rect x="0" y="158" width="1000" height="18" fill="#8bb268"/>
+<rect x="0" y="174" width="1000" height="16" fill="#79a45c"/>
+<rect x="0" y="188" width="1000" height="14" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 168 H1000"/><path d="M0 182 H1000"/><path d="M0 196 H1000"/>
+</g>
+<rect x="0" y="200" width="1000" height="360" fill="#e9efdd"/>
+
+<g>
+<text x="24" y="234" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">自宅（一宮地区）</text>
+<rect x="30" y="286" width="176" height="96" fill="#f4efe2" stroke="#b09a7c" stroke-width="3"/>
+<path d="M16 288 L118 236 L220 288 Z" fill="#7d6a58"/>
+<rect x="16" y="288" width="204" height="12" fill="#635343"/>
+<rect x="60" y="308" width="42" height="40" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="132" y="308" width="42" height="40" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="104" y="344" width="30" height="38" fill="#a8815c" stroke="#7f6141" stroke-width="2"/>
+<g>
+<circle cx="252" cy="316" r="15" fill="#4f6f86"/>
+<path d="M252 333 q-18 6 -18 32 h36 q0 -26 -18 -32 Z" fill="#4f6f86"/>
+<circle cx="292" cy="322" r="13" fill="#8a6f57"/>
+<path d="M292 337 q-16 5 -16 28 h32 q0 -23 -16 -28 Z" fill="#8a6f57"/>
+</g>
+<g>
+<rect x="228" y="384" width="34" height="24" rx="3" fill="#ffffff" stroke="#c0392b" stroke-width="3"/>
+<rect x="248" y="392" width="34" height="24" rx="3" fill="#ffffff" stroke="#c0392b" stroke-width="3"/>
+<text x="228" y="440" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5a6a5c">チケット2枚</text>
+</g>
+<text x="24" y="470" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5a6a5c">付き添いの家族は登録なしで同乗できる</text>
+</g>
+
+<g>
+<rect x="352" y="292" width="150" height="54" rx="10" fill="#4c8f6a" stroke="#33684c" stroke-width="3"/>
+<rect x="368" y="272" width="112" height="28" rx="8" fill="#5ba179" stroke="#33684c" stroke-width="3"/>
+<rect x="380" y="278" width="40" height="20" fill="#cfe3ea" stroke="#33684c" stroke-width="2"/>
+<rect x="428" y="278" width="40" height="20" fill="#cfe3ea" stroke="#33684c" stroke-width="2"/>
+<circle cx="384" cy="350" r="16" fill="#3d4750"/><circle cx="470" cy="350" r="16" fill="#3d4750"/>
+<rect x="392" y="308" width="70" height="24" rx="4" fill="#ffffff" stroke="#33684c" stroke-width="2"/>
+<text x="398" y="326" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#2f5e46">500円</text>
+<text x="352" y="388" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5a6a5c">何人乗っても1台500円（片道）</text>
+</g>
+
+<g stroke="#c0392b" stroke-width="6" fill="none">
+<path d="M300 250 C 440 200, 560 200, 690 250"/>
+</g>
+<path d="M684 238 L706 252 L682 264 Z" fill="#c0392b"/>
+<g stroke="#3f6b8f" stroke-width="6" fill="none">
+<path d="M690 420 C 560 470, 440 470, 300 420"/>
+</g>
+<path d="M312 408 L288 420 L312 434 Z" fill="#3f6b8f"/>
+<text x="430" y="196" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#8c3a2e">行き（チケット1枚）</text>
+<text x="430" y="500" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#33566f">帰り（チケット1枚）</text>
+
+<g>
+<text x="716" y="234" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">指定目的地（番号付き）</text>
+<g>
+<rect x="716" y="252" width="82" height="72" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="736" y="272" width="42" height="10" fill="#c0392b"/><rect x="752" y="258" width="10" height="38" fill="#c0392b"/>
+<circle cx="716" cy="252" r="15" fill="#1f3e52"/><text x="709" y="258" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#ffffff">1</text>
+<text x="716" y="342" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4b5b4e">病院</text>
+</g>
+<g>
+<rect x="816" y="252" width="88" height="72" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="816" y="252" width="88" height="18" fill="#d9a441"/>
+<rect x="832" y="284" width="24" height="24" fill="#bcd7a2" stroke="#8fae76" stroke-width="2"/>
+<rect x="866" y="284" width="24" height="24" fill="#bcd7a2" stroke="#8fae76" stroke-width="2"/>
+<circle cx="816" cy="252" r="15" fill="#1f3e52"/><text x="804" y="258" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#ffffff">20</text>
+<text x="816" y="342" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4b5b4e">食料品店</text>
+</g>
+<g>
+<rect x="766" y="384" width="112" height="66" fill="#f6f4ea" stroke="#7d8f76" stroke-width="3"/>
+<path d="M756 384 L822 350 L888 384 Z" fill="#8d7a63"/>
+<rect x="786" y="404" width="30" height="26" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="828" y="404" width="30" height="26" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="744" y="450" width="156" height="10" fill="#cfc7b2" stroke="#a89f8a" stroke-width="2"/>
+<circle cx="766" cy="384" r="15" fill="#1f3e52"/><text x="754" y="390" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#ffffff">50</text>
+<text x="766" y="482" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4b5b4e">天浜線の駅</text>
+</g>
+<g>
+<path d="M800 336 C 700 360, 700 380, 792 396" fill="none" stroke="#9aa5ac" stroke-width="5" stroke-dasharray="8 6"/>
+<g stroke="#c0392b" stroke-width="7">
+<path d="M718 350 L762 388"/><path d="M762 350 L718 388"/>
+</g>
+</g>
+<text x="646" y="462" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#8c3a2e">目的地どうしの移動はできない</text>
+</g>
+
+<g>
+<rect x="24" y="510" width="952" height="38" rx="6" fill="#1f3e52"/>
+<text x="40" y="536" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#ffffff">結ぶのは自宅と指定目的地の間だけ ／ 途中のコンビニ立ち寄りも不可 ／ 運賃は1台500円</text>
+</g>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="tx2title tx2desc">
+<title id="tx2title">地域タクシーに乗るまでの二つの締め切り</title>
+<desc id="tx2desc">二週間前の利用者登録と、当日の一時間前予約という二つの締め切りを、カレンダーと時間の帯として並べた図。帯には七時の受付開始、八時三十分の運行開始、十四時三十分の帰りの電話締め切り、十五時三十分の運行終了が目盛りとして打たれている。</desc>
+<defs>
+<linearGradient id="tx2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d6e6ef"/><stop offset="1" stop-color="#eef3e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#tx2sky)"/>
+
+<path d="M0 78 L110 34 L220 78 L330 30 L440 78 L550 32 L660 78 L770 34 L880 78 L1000 36 L1000 118 L0 118 Z" fill="#93b0c2"/>
+<path d="M0 104 L130 62 L262 108 L392 60 L522 110 L652 62 L782 108 L912 64 L1000 104 L1000 146 L0 146 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M14 146 L34 96 L54 146 Z"/><path d="M50 146 L68 102 L86 146 Z"/>
+<path d="M914 146 L932 102 L950 146 Z"/><path d="M946 146 L966 96 L986 146 Z"/>
+</g>
+<rect x="0" y="142" width="1000" height="16" fill="#8bb268"/>
+<rect x="0" y="156" width="1000" height="14" fill="#79a45c"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5"><path d="M0 150 H1000"/><path d="M0 164 H1000"/></g>
+<rect x="0" y="170" width="1000" height="390" fill="#e9efdd"/>
+
+<g>
+<text x="24" y="206" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#8c3a2e">締め切り①　利用希望日の2週間前</text>
+<rect x="24" y="222" width="176" height="150" fill="#ffffff" stroke="#7d8f76" stroke-width="4"/>
+<rect x="24" y="222" width="176" height="30" fill="#1f3e52"/>
+<text x="66" y="244" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#ffffff">カレンダー</text>
+<g stroke="#cdd6c6" stroke-width="2">
+<path d="M24 282 H200"/><path d="M24 312 H200"/><path d="M24 342 H200"/>
+<path d="M68 252 V372"/><path d="M112 252 V372"/><path d="M156 252 V372"/>
+</g>
+<circle cx="46" cy="267" r="14" fill="#c0392b"/><text x="38" y="273" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#ffffff">登</text>
+<circle cx="178" cy="357" r="14" fill="#2f6e4c"/><text x="170" y="363" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#ffffff">乗</text>
+<path d="M60 267 C 110 250, 150 300, 168 342" fill="none" stroke="#c0392b" stroke-width="4" stroke-dasharray="8 6"/>
+<text x="24" y="398" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#4b5b4e">利用者登録＋利用チケットの申請</text>
+<text x="24" y="420" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#4b5b4e">電話 0538-85-6305 またはWEB（無料）</text>
+<g>
+<rect x="24" y="436" width="52" height="52" fill="#ffffff" stroke="#3d4b40" stroke-width="3"/>
+<g fill="#3d4b40">
+<rect x="32" y="444" width="12" height="12"/><rect x="56" y="444" width="12" height="12"/>
+<rect x="32" y="468" width="12" height="12"/><rect x="48" y="460" width="8" height="8"/>
+<rect x="60" y="468" width="8" height="12"/>
+</g>
+<text x="88" y="470" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5a6a5c">WEB申請用のQR</text>
+</g>
+</g>
+
+<g>
+<text x="248" y="206" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#8c3a2e">締め切り②　乗車希望の1時間前</text>
+<rect x="248" y="246" width="728" height="52" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="4"/>
+<rect x="352" y="246" width="480" height="52" fill="#bcd7a2"/>
+<g stroke="#6f7d70" stroke-width="3">
+<path d="M300 246 V298"/><path d="M352 246 V298"/><path d="M728 246 V298"/><path d="M832 246 V298"/>
+</g>
+<text x="452" y="278" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#2f5e46">運行できる時間帯　8:30 － 15:30</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#3d4b40">
+<path d="M256 298 V330" stroke="#3d4b40" stroke-width="3"/><text x="240" y="352">7:00</text><text x="212" y="374">予約受付開始</text>
+<path d="M300 298 V318" stroke="#c0392b" stroke-width="3"/><text x="284" y="340" fill="#8c3a2e">7:30</text><text x="266" y="404" fill="#8c3a2e">朝一番の電話</text>
+<path d="M352 298 V330" stroke="#2f6e4c" stroke-width="3"/><text x="336" y="352" fill="#2f6e4c">8:30</text><text x="330" y="374" fill="#2f6e4c">運行開始</text>
+<path d="M728 298 V318" stroke="#c0392b" stroke-width="3"/><text x="708" y="340" fill="#8c3a2e">14:30</text><text x="664" y="404" fill="#8c3a2e">帰りの電話の締め切り</text>
+<path d="M832 298 V330" stroke="#2f6e4c" stroke-width="3"/><text x="812" y="352" fill="#2f6e4c">15:30</text><text x="806" y="374" fill="#2f6e4c">運行終了</text>
+<path d="M960 298 V330" stroke="#3d4b40" stroke-width="3"/><text x="936" y="352">17:00</text><text x="908" y="374">受付終了</text>
+</g>
+</g>
+
+<g>
+<rect x="248" y="426" width="300" height="64" rx="8" fill="#ffffff" stroke="#3d4b40" stroke-width="3"/>
+<text x="266" y="452" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#1f3e52">袋井タクシー 0538-42-2131</text>
+<text x="266" y="476" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#4b5b4e">受付 7:00-17:00／平日のみ運行</text>
+</g>
+<g>
+<path d="M566 440 q-10 18 8 22 l0 0" fill="none"/>
+<rect x="566" y="426" width="252" height="52" rx="14" fill="#fdf3dc" stroke="#d9a441" stroke-width="3"/>
+<path d="M580 478 L588 496 L600 478 Z" fill="#fdf3dc" stroke="#d9a441" stroke-width="3"/>
+<text x="580" y="458" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15.5" fill="#7a5a12">「一宮地区地域タクシーの利用予約」</text>
+</g>
+<g>
+<rect x="838" y="426" width="138" height="64" rx="8" fill="#4c8f6a" stroke="#33684c" stroke-width="3"/>
+<rect x="856" y="440" width="34" height="24" rx="3" fill="#ffffff" stroke="#33684c" stroke-width="2"/>
+<rect x="874" y="450" width="34" height="24" rx="3" fill="#ffffff" stroke="#33684c" stroke-width="2"/>
+<circle cx="944" cy="458" r="19" fill="#e6c34a" stroke="#a6851f" stroke-width="3"/>
+<text x="928" y="464" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" font-weight="bold" fill="#6b5410">500</text>
+</g>
+
+<g>
+<rect x="24" y="510" width="952" height="38" rx="6" fill="#1f3e52"/>
+<text x="40" y="536" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#ffffff">締め切りは2か所 ／ 2週間前の登録が抜けると、当日の電話は通らない</text>
+</g>
+</svg>
