@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ch2title ch2desc">
+<title id="ch2title">茶園を続けるかを決めるために数える五つの条件</title>
+<desc id="ch2desc">傾斜と乗用型機械、摘採の範囲、機械の年式と更新費、出荷先と精算、貸すか預けるかの相談先という五つの条件を順に並べ、右端に費用と収入を並べる計算用紙を置いた図。</desc>
+<defs>
+<linearGradient id="ch2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d4e5f0"/><stop offset="1" stop-color="#edf3e8"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#ch2sky)"/>
+
+<path d="M0 86 L114 36 L226 86 L338 32 L450 86 L562 34 L674 86 L786 36 L898 86 L1000 40 L1000 128 L0 128 Z" fill="#93b0c2"/>
+<path d="M0 114 L134 70 L268 116 L402 68 L536 118 L670 70 L804 116 L938 72 L1000 114 L1000 156 L0 156 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M10 156 L30 104 L50 156 Z"/><path d="M46 156 L64 112 L82 156 Z"/>
+<path d="M918 156 L938 106 L958 156 Z"/><path d="M952 156 L970 114 L988 156 Z"/>
+</g>
+<rect x="0" y="150" width="1000" height="15" fill="#8bb268"/>
+<rect x="0" y="165" width="1000" height="14" fill="#79a45c"/>
+<rect x="0" y="179" width="1000" height="13" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 157 H1000"/><path d="M0 172 H1000"/><path d="M0 186 H1000"/>
+</g>
+<rect x="0" y="192" width="1000" height="368" fill="#e8eedc"/>
+
+<path d="M70 262 H620" stroke="#b7c3ae" stroke-width="6" stroke-dasharray="14 10"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="100" cy="262" r="25" fill="#1f3e52"/><text x="90" y="271" font-size="21" font-weight="bold" fill="#ffffff">1</text>
+<rect x="36" y="304" width="128" height="86" fill="#cfe0b8" stroke="#8fae76" stroke-width="3"/>
+<path d="M36 380 L164 320" stroke="#6f8f5c" stroke-width="6"/>
+<path d="M36 390 L164 330" stroke="#8fae76" stroke-width="5"/>
+<rect x="112" y="326" width="34" height="20" rx="3" fill="#4f6f86"/>
+<circle cx="120" cy="350" r="7" fill="#3d5567"/><circle cx="140" cy="346" r="7" fill="#3d5567"/>
+<text x="36" y="414" font-size="14.5" font-weight="bold" fill="#33503f">傾斜と機械</text>
+<text x="36" y="434" font-size="13" fill="#5a6a5c">乗用型が入るか</text>
+<text x="36" y="452" font-size="13" fill="#5a6a5c">森町は合計92台</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="273" cy="262" r="25" fill="#1f3e52"/><text x="263" y="271" font-size="21" font-weight="bold" fill="#ffffff">2</text>
+<rect x="209" y="304" width="128" height="86" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="221" y="316" width="104" height="26" rx="4" fill="#eaf1e4" stroke="#9aa88f" stroke-width="2"/>
+<text x="229" y="335" font-size="13" fill="#3d4b40">一番茶</text>
+<rect x="221" y="350" width="104" height="26" rx="4" fill="#fdf3e8" stroke="#c9a06a" stroke-width="3"/>
+<text x="229" y="369" font-size="13" font-weight="bold" fill="#8a5a24">秋冬番茶</text>
+<text x="209" y="414" font-size="14.5" font-weight="bold" fill="#33503f">どこまで刈るか</text>
+<text x="209" y="434" font-size="13" fill="#5a6a5c">去年の範囲を書く</text>
+<text x="209" y="452" font-size="13" fill="#5a6a5c">値が付いたのは下</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="446" cy="262" r="25" fill="#1f3e52"/><text x="436" y="271" font-size="21" font-weight="bold" fill="#ffffff">3</text>
+<rect x="382" y="304" width="128" height="86" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="396" y="326" width="46" height="30" rx="3" fill="#c8ac72"/>
+<circle cx="406" cy="364" r="9" fill="#6f6250"/><circle cx="432" cy="364" r="9" fill="#6f6250"/>
+<path d="M452 318 a20 20 0 1 1 -6 14" fill="none" stroke="#4f6f86" stroke-width="5"/>
+<path d="M444 314 L456 322 L442 330 Z" fill="#4f6f86"/>
+<text x="382" y="414" font-size="14.5" font-weight="bold" fill="#33503f">機械の年式</text>
+<text x="382" y="434" font-size="13" fill="#5a6a5c">次の更新はいつか</text>
+<text x="382" y="452" font-size="13" fill="#5a6a5c">摘採機・防除・管理</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="619" cy="262" r="25" fill="#1f3e52"/><text x="609" y="271" font-size="21" font-weight="bold" fill="#ffffff">4</text>
+<rect x="555" y="304" width="128" height="86" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<path d="M575 372 L603 340 L631 356 L663 322" fill="none" stroke="#3f7d5c" stroke-width="5"/>
+<circle cx="663" cy="322" r="6" fill="#3f7d5c"/>
+<text x="565" y="332" font-size="12.5" fill="#6a7a6c">市場・農協・直販</text>
+<text x="555" y="414" font-size="14.5" font-weight="bold" fill="#33503f">出荷先と精算</text>
+<text x="555" y="434" font-size="13" fill="#5a6a5c">相場は自動で届かない</text>
+<text x="555" y="452" font-size="13" fill="#5a6a5c">連動の仕方を聞く</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<circle cx="792" cy="262" r="25" fill="#1f3e52"/><text x="782" y="271" font-size="21" font-weight="bold" fill="#ffffff">5</text>
+<rect x="728" y="304" width="128" height="86" rx="10" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="742" y="318" width="100" height="34" rx="4" fill="#eaf1e4"/>
+<text x="748" y="341" font-size="13.5" font-weight="bold" fill="#1f3e52">農業委員会</text>
+<path d="M754 372 q11 -14 27 -6 q16 8 30 -4" fill="none" stroke="#4f6f86" stroke-width="5"/>
+<text x="728" y="414" font-size="14.5" font-weight="bold" fill="#33503f">続けない道も聞く</text>
+<text x="728" y="434" font-size="13" fill="#5a6a5c">茶園も農地</text>
+<text x="728" y="452" font-size="13" fill="#5a6a5c">貸す・預ける</text>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<rect x="874" y="216" width="112" height="176" fill="#ffffff" stroke="#9aa88f" stroke-width="4"/>
+<text x="884" y="240" font-size="13.5" font-weight="bold" fill="#33503f">計算用紙</text>
+<path d="M884 250 H976" stroke="#c3cebb" stroke-width="2"/>
+<text x="884" y="272" font-size="12.5" fill="#8c3a30">続ける費用</text>
+<g stroke="#e0c9c4" stroke-width="2"><path d="M884 282 H976"/><path d="M884 298 H976"/><path d="M884 314 H976"/></g>
+<text x="884" y="340" font-size="12.5" fill="#2f5f45">入る金額</text>
+<g stroke="#c9ddc9" stroke-width="2"><path d="M884 350 H976"/><path d="M884 366 H976"/></g>
+<path d="M884 380 H976" stroke="#7d8f76" stroke-width="4"/>
+<text x="866" y="414" font-size="13" fill="#5a6a5c">並べてから決める</text>
+</g>
+
+<rect x="26" y="500" width="700" height="36" rx="6" fill="#1f3e52"/>
+<text x="40" y="525" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">価格は動かせない。動かせるのは刈る範囲と機械の替え時</text>
+</svg>

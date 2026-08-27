@@ -3648,7 +3648,60 @@ def scene_yukyu_nochi_1_8bai(d):
     band(d, ["1.8倍は、税率ではなく", "評価額の掛け算の話"], "森町ライフハック／農地・山林・茶畑")
 
 
+def scene_cha_tsuzukeru_kakaku(d):
+    """段になった茶畑の前に、荒茶価格の二本の棒と森町の産出額の下り坂を並べた場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 102, 662, 708], 300)
+    # 段になった茶畑
+    for i, y in enumerate(range(292, 360, 16)):
+        d.polygon([(0, y), (760, y - 8), (760, y + 14), (0, y + 22)],
+                  fill=(120 + i * 8, 166 + i * 6, 82 + i * 6))
+        d.line([(0, y + 10), (760, y + 2)], fill=(92, 134, 64), width=3)
+    d.rectangle([0, 372, 760, BAND_TOP], fill=(233, 239, 221))
+    fb = ImageFont.truetype(FONT_BOLD, 20)
+    fs = ImageFont.truetype(FONT_REGULAR, 16)
+    # 荒茶価格の棒
+    d.line([(40, 528), (360, 528)], fill=(147, 163, 150), width=4)
+    d.rectangle([70, 468, 122, 528], fill=(169, 191, 174))
+    d.rectangle([132, 420, 184, 528], fill=(63, 125, 92))
+    d.text((66, 444), "971", font=fs, fill=(90, 106, 92))
+    d.text((126, 396), "1,730", font=fb, fill=(47, 95, 69))
+    d.text((62, 534), "令和6年", font=fs, fill=(90, 106, 92))
+    d.text((126, 534), "令和7年", font=fs, fill=(47, 95, 69))
+    d.rounded_rectangle([204, 404, 360, 466], radius=8, fill=(253, 243, 232),
+                        outline=(201, 160, 106), width=4)
+    d.text((216, 414), "年平均", font=fs, fill=(107, 74, 34))
+    d.text((216, 436), "+78.2%", font=ImageFont.truetype(FONT_BOLD, 26), fill=(165, 96, 47))
+    d.rounded_rectangle([204, 476, 360, 528], radius=8, fill=(255, 255, 255),
+                        outline=(154, 168, 143), width=3)
+    d.text((214, 484), "一番茶 +25.8%", font=fs, fill=(61, 75, 64))
+    d.text((214, 504), "番茶 約4.4倍", font=ImageFont.truetype(FONT_BOLD, 17),
+           fill=(165, 96, 47))
+    # 森町の産出額の下り坂
+    d.rounded_rectangle([396, 396, 744, 548], radius=10, fill=(255, 255, 255),
+                        outline=(125, 143, 118), width=4)
+    d.text((410, 406), "森町の茶産出額", font=ImageFont.truetype(FONT_BOLD, 19),
+           fill=(51, 80, 63))
+    pts = [(436, 456), (516, 472), (596, 500), (658, 510), (712, 512)]
+    d.line(pts, fill=(63, 125, 92), width=6)
+    for x, y in pts:
+        d.ellipse([x - 6, y - 6, x + 6, y + 6], fill=(47, 95, 69))
+    d.text((410, 428), "20億円", font=ImageFont.truetype(FONT_BOLD, 18), fill=(47, 95, 69))
+    d.text((410, 448), "平成12年", font=ImageFont.truetype(FONT_REGULAR, 14),
+           fill=(120, 132, 122))
+    d.text((676, 468), "4億円", font=ImageFont.truetype(FONT_BOLD, 18), fill=(140, 58, 48))
+    d.text((668, 488), "令和5年", font=ImageFont.truetype(FONT_REGULAR, 14),
+           fill=(120, 132, 122))
+    # 統計帯
+    d.rounded_rectangle([16, 560, 744, 584], radius=4, fill=(31, 62, 82))
+    d.text((28, 562), "静岡県の茶園面積11,600ha／荒茶生産量24,100t（令和7年）",
+           font=ImageFont.truetype(FONT_BOLD, 18), fill=(255, 255, 255))
+    band(d, ["上がったのは一番茶", "ではなかった"], "森町ライフハック／農地・山林・茶畑")
+
+
 SCENES = {
+    "20260827-morimachi-cha-tsuzukeru-kakaku": scene_cha_tsuzukeru_kakaku,
     "20260827-yukyu-nochi-kotei-shisanzei-1-8bai": scene_yukyu_nochi_1_8bai,
     "20260827-morimachi-chiiki-keikaku-mokuhyou-chizu": scene_chiiki_keikaku_mokuhyou_chizu,
     "20260826-morimachi-maizo-bunkazai": scene_maizo_bunkazai,

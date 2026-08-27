@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ch1title ch1desc">
+<title id="ch1title">静岡県の荒茶価格を茶期ごとに令和6年と令和7年で並べる</title>
+<desc id="ch1desc">一番茶は1,763円から2,218円へわずかに伸び、四・秋冬茶は355円から1,760円へ大きく伸び、年平均は971円から1,730円になったことを棒グラフで示した図。</desc>
+<defs>
+<linearGradient id="ch1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d4e5f0"/><stop offset="1" stop-color="#edf3e8"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#ch1sky)"/>
+
+<path d="M0 84 L112 34 L224 84 L336 30 L448 84 L560 32 L672 84 L784 34 L896 84 L1000 38 L1000 126 L0 126 Z" fill="#93b0c2"/>
+<path d="M0 112 L132 68 L264 114 L396 66 L528 116 L660 68 L792 114 L924 70 L1000 112 L1000 152 L0 152 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M10 152 L30 100 L50 152 Z"/><path d="M46 152 L64 108 L82 152 Z"/>
+<path d="M920 152 L940 102 L960 152 Z"/><path d="M954 152 L972 110 L990 152 Z"/>
+</g>
+<rect x="0" y="146" width="1000" height="14" fill="#8bb268"/>
+<rect x="0" y="160" width="1000" height="13" fill="#79a45c"/>
+<rect x="0" y="173" width="1000" height="12" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 153 H1000"/><path d="M0 166 H1000"/><path d="M0 179 H1000"/>
+</g>
+<rect x="0" y="185" width="1000" height="375" fill="#e8eedc"/>
+
+<text x="26" y="212" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">静岡県の荒茶価格（1kgあたり・円）</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13">
+<rect x="440" y="198" width="18" height="14" fill="#a9bfae"/><text x="464" y="210" fill="#4b5b4e">令和6年</text>
+<rect x="546" y="198" width="18" height="14" fill="#3f7d5c"/><text x="570" y="210" fill="#4b5b4e">令和7年</text>
+</g>
+
+<path d="M60 466 H930" stroke="#93a396" stroke-width="3"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<rect x="74" y="392" width="40" height="74" fill="#a9bfae"/>
+<rect x="118" y="373" width="40" height="93" fill="#3f7d5c"/>
+<text x="74" y="386" font-size="12.5" fill="#5a6a5c">1,763</text>
+<text x="118" y="367" font-size="12.5" font-weight="bold" fill="#2f5f45">2,218</text>
+<text x="82" y="488" font-size="14.5" font-weight="bold" fill="#33503f">一番茶</text>
+<text x="76" y="508" font-size="12.5" fill="#6a7a6c">＋25.8%</text>
+
+<rect x="238" y="440" width="40" height="26" fill="#a9bfae"/>
+<rect x="282" y="416" width="40" height="50" fill="#3f7d5c"/>
+<text x="240" y="434" font-size="12.5" fill="#5a6a5c">612</text>
+<text x="282" y="410" font-size="12.5" font-weight="bold" fill="#2f5f45">1,204</text>
+<text x="246" y="488" font-size="14.5" font-weight="bold" fill="#33503f">二番茶</text>
+
+<rect x="366" y="451" width="40" height="15" fill="#a9bfae"/>
+<rect x="410" y="428" width="40" height="38" fill="#3f7d5c"/>
+<text x="368" y="445" font-size="12.5" fill="#5a6a5c">350</text>
+<text x="412" y="422" font-size="12.5" font-weight="bold" fill="#2f5f45">904</text>
+<text x="374" y="488" font-size="14.5" font-weight="bold" fill="#33503f">三番茶</text>
+
+<rect x="494" y="451" width="40" height="15" fill="#a9bfae"/>
+<rect x="538" y="392" width="40" height="74" fill="#d98a5a"/>
+<text x="496" y="445" font-size="12.5" fill="#5a6a5c">355</text>
+<text x="538" y="386" font-size="12.5" font-weight="bold" fill="#a5602f">1,760</text>
+<text x="490" y="488" font-size="14.5" font-weight="bold" fill="#33503f">四・秋冬茶</text>
+<text x="498" y="508" font-size="12.5" fill="#a5602f">約5.0倍</text>
+
+<path d="M624 380 V470" stroke="#b7c3ae" stroke-width="3" stroke-dasharray="8 6"/>
+
+<rect x="676" y="425" width="46" height="41" fill="#a9bfae"/>
+<rect x="726" y="393" width="46" height="73" fill="#3f7d5c"/>
+<text x="680" y="419" font-size="13" fill="#5a6a5c">971</text>
+<text x="726" y="387" font-size="13" font-weight="bold" fill="#2f5f45">1,730</text>
+<text x="684" y="488" font-size="14.5" font-weight="bold" fill="#33503f">年平均</text>
+<text x="682" y="508" font-size="13" font-weight="bold" fill="#2f5f45">＋78.2%</text>
+
+<rect x="806" y="366" width="146" height="100" rx="8" fill="#fdf3e8" stroke="#c9a06a" stroke-width="4"/>
+<text x="818" y="392" font-size="14.5" font-weight="bold" fill="#8a5a24">番茶（茶種別）</text>
+<text x="818" y="418" font-size="14" fill="#6b4a22">347円</text>
+<text x="866" y="418" font-size="14" fill="#6b4a22">→</text>
+<text x="894" y="418" font-size="14" font-weight="bold" fill="#8a5a24">1,523円</text>
+<text x="818" y="446" font-size="16" font-weight="bold" fill="#a5602f">約4.4倍</text>
+</g>
+
+<rect x="26" y="516" width="948" height="34" rx="6" fill="#1f3e52"/>
+<text x="40" y="540" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">跳ねたのは一番茶ではなく、下級茶と秋冬番茶／出典 静岡県茶業の現状（令和8年3月）</text>
+</svg>
