@@ -3531,7 +3531,72 @@ def scene_maizo_bunkazai(d):
     band(d, ["掘る前に、地番と", "地図を出しておく"], "森町ライフハック／寺社・歴史")
 
 
+def scene_chiiki_keikaku_mokuhyou_chizu(d):
+    """森町の谷筋に目標地図を広げ、色分けされた区画の番号から担い手一覧へたどる場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [12, 56, 100, 660, 706], 300)
+    # 段になった茶畑と田
+    d.polygon([(0, 292), (760, 284), (760, 322), (0, 332)], fill=(123, 169, 84))
+    for i in range(3):
+        d.line([(0, 300 + i * 11), (760, 292 + i * 11)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 326), (760, 316), (760, 372), (0, 384)], fill=(188, 215, 162))
+    d.line([(0, 350), (760, 340)], fill=(155, 186, 128), width=3)
+    # 広げた目標地図
+    d.polygon([(70, 372), (700, 358), (724, 552), (46, 566)], fill=(250, 248, 238),
+              outline=(125, 143, 118), width=5)
+    blocks = (
+        ((96, 392, 268, 452), (217, 164, 65)),
+        ((278, 390, 452, 450), (111, 163, 201)),
+        ((462, 388, 668, 448), (143, 191, 122)),
+        ((92, 462, 300, 528), (182, 191, 174)),
+        ((310, 460, 500, 526), (217, 164, 65)),
+        ((510, 458, 676, 524), (200, 206, 194)),
+    )
+    for (x0, y0, x1, y1), col in blocks:
+        d.rectangle([x0, y0, x1, y1], fill=col, outline=(111, 125, 112), width=3)
+    # 番号札
+    for cx, cy, num in ((182, 422, "17"), (365, 420, "62"), (565, 418, "140"),
+                        (196, 495, "-"), (405, 493, "88"), (593, 491, "-")):
+        r = 21
+        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(255, 255, 255),
+                  outline=(111, 125, 112), width=4)
+        f = ImageFont.truetype(FONT_BOLD, 18 if len(num) > 2 else 22)
+        w = d.textlength(num, font=f)
+        d.text((cx - w / 2, cy - 13), num, font=f, fill=(31, 62, 82))
+    # 赤枠（実家の一枚）
+    d.rectangle([96, 392, 268, 452], outline=(192, 57, 43), width=7)
+    # 担い手一覧の綴じ込み
+    d.rectangle([470, 300, 744, 388], fill=(255, 255, 255), outline=(125, 143, 118), width=4)
+    d.rectangle([470, 300, 744, 326], fill=(223, 233, 214))
+    fh = ImageFont.truetype(FONT_BOLD, 17)
+    d.text((482, 305), "地域内の農業を担う者一覧", font=fh, fill=(63, 85, 69))
+    for i, y in enumerate((334, 356)):
+        if i == 0:
+            d.rectangle([470, y - 4, 744, y + 20], fill=(253, 243, 220))
+        d.line([(470, y + 20), (744, y + 20)], fill=(205, 214, 198), width=2)
+    fr = ImageFont.truetype(FONT_BOLD, 17)
+    d.text((482, 336), "17　認農　4.4→5.6ha", font=fr, fill=(61, 75, 64))
+    d.text((482, 358), "18　利用者　1.1ha", font=ImageFont.truetype(FONT_REGULAR, 17),
+           fill=(90, 106, 92))
+    # 番号から一覧へ引く線
+    d.line([(182, 400), (470, 342)], fill=(192, 57, 43), width=5)
+    d.polygon([(462, 336), (482, 342), (462, 352)], fill=(192, 57, 43))
+    # 相続人
+    d.ellipse([36, 300, 78, 342], fill=(79, 111, 134))
+    d.polygon([(30, 348), (84, 348), (92, 402), (22, 402)], fill=(79, 111, 134))
+    d.rectangle([84, 330, 128, 362], fill=(255, 255, 255), outline=(143, 160, 170), width=3)
+    for i in range(3):
+        d.line([(92, 340 + i * 8), (120, 340 + i * 8)], fill=(176, 194, 205), width=3)
+    # 統計帯
+    d.rounded_rectangle([16, 540, 744, 582], radius=6, fill=(31, 62, 82))
+    d.text((30, 549), "890haのうち70才以上の農地817ha／担い手171経営体",
+           font=ImageFont.truetype(FONT_BOLD, 22), fill=(255, 255, 255))
+    band(d, ["10年後に誰が耕すか、", "目標地図に書いてある"], "森町ライフハック／農地・山林・茶畑")
+
+
 SCENES = {
+    "20260827-morimachi-chiiki-keikaku-mokuhyou-chizu": scene_chiiki_keikaku_mokuhyou_chizu,
     "20260826-morimachi-maizo-bunkazai": scene_maizo_bunkazai,
     "20260826-morimachi-hakajimai-kaiso": scene_hakajimai_kaiso,
     "20260826-toroku-yukei-bunkazai-kominka": scene_toroku_yukei_kominka,

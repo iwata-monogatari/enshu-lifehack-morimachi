@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ck2title ck2desc">
+<title id="ck2title">実家の田畑の10年後の耕作者を確かめる五つの段</title>
+<desc id="ck2desc">手元の課税明細書から地番を出し、森町公式のページで目標地図を落とし、図面で色と番号を控え、担い手一覧で名前を読み、分からなければ農地管理係へ電話する順番を描いた図。</desc>
+<defs>
+<linearGradient id="ck2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d4e5f0"/><stop offset="1" stop-color="#edf3e8"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#ck2sky)"/>
+
+<path d="M0 92 L112 40 L220 92 L330 36 L440 92 L550 38 L660 92 L770 40 L880 92 L1000 44 L1000 136 L0 136 Z" fill="#93b0c2"/>
+<path d="M0 120 L130 74 L262 122 L392 72 L522 124 L652 74 L782 122 L912 76 L1000 120 L1000 164 L0 164 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M12 164 L32 110 L52 164 Z"/><path d="M48 164 L66 118 L84 164 Z"/>
+<path d="M912 164 L932 112 L952 164 Z"/><path d="M948 164 L966 120 L984 164 Z"/>
+</g>
+<rect x="0" y="158" width="1000" height="16" fill="#8bb268"/>
+<rect x="0" y="174" width="1000" height="14" fill="#79a45c"/>
+<rect x="0" y="188" width="1000" height="12" fill="#6b9752"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5">
+<path d="M0 166 H1000"/><path d="M0 180 H1000"/><path d="M0 194 H1000"/>
+</g>
+<rect x="0" y="200" width="1000" height="360" fill="#e8eedc"/>
+
+<path d="M60 300 H820" stroke="#b7c3ae" stroke-width="6" stroke-dasharray="14 10"/>
+
+<g>
+<circle cx="96" cy="300" r="26" fill="#1f3e52"/>
+<text x="84" y="309" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="22" font-weight="bold" fill="#ffffff">1</text>
+<rect x="34" y="342" width="124" height="88" fill="#ffffff" stroke="#8fa0aa" stroke-width="3"/>
+<g stroke="#b5c2ca" stroke-width="2"><path d="M46 366 H146"/><path d="M46 384 H146"/><path d="M46 402 H128"/></g>
+<rect x="46" y="348" width="54" height="12" fill="#d9a441"/>
+<text x="34" y="452" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" font-weight="bold" fill="#33503f">地番と集落名</text>
+<text x="34" y="472" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">課税明細書</text>
+<text x="34" y="490" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">登記事項証明書</text>
+</g>
+
+<g>
+<circle cx="276" cy="300" r="26" fill="#1f3e52"/>
+<text x="264" y="309" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="22" font-weight="bold" fill="#ffffff">2</text>
+<rect x="212" y="342" width="128" height="88" rx="6" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="212" y="342" width="128" height="20" rx="6" fill="#dfe9d6"/>
+<g fill="#8fa0aa"><circle cx="224" cy="352" r="4"/><circle cx="238" cy="352" r="4"/><circle cx="252" cy="352" r="4"/></g>
+<path d="M276 374 V404" stroke="#3f6b52" stroke-width="6"/>
+<path d="M262 396 L276 412 L290 396 Z" fill="#3f6b52"/>
+<text x="212" y="452" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" font-weight="bold" fill="#33503f">目標地図を落とす</text>
+<text x="212" y="472" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">森町公式の地域計画ページ</text>
+<text x="212" y="490" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">PDF 9.3MB・7ページ</text>
+</g>
+
+<g>
+<circle cx="456" cy="300" r="26" fill="#1f3e52"/>
+<text x="444" y="309" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="22" font-weight="bold" fill="#ffffff">3</text>
+<rect x="392" y="342" width="128" height="88" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="400" y="350" width="54" height="34" fill="#d9a441" opacity="0.8"/>
+<rect x="458" y="350" width="54" height="34" fill="#b6bfae" opacity="0.85"/>
+<rect x="400" y="388" width="54" height="34" fill="#8fbf7a" opacity="0.8"/>
+<rect x="458" y="388" width="54" height="34" fill="#6fa3c9" opacity="0.8"/>
+<circle cx="427" cy="367" r="13" fill="#ffffff" stroke="#c0392b" stroke-width="4"/>
+<text x="418" y="372" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" font-weight="bold" fill="#c0392b">17</text>
+<text x="392" y="452" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" font-weight="bold" fill="#33503f">色と番号を控える</text>
+<text x="392" y="472" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">凡例は5区分</text>
+<text x="392" y="490" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">今後検討という色もある</text>
+</g>
+
+<g>
+<circle cx="636" cy="300" r="26" fill="#1f3e52"/>
+<text x="624" y="309" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="22" font-weight="bold" fill="#ffffff">4</text>
+<rect x="572" y="342" width="128" height="88" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="572" y="342" width="128" height="18" fill="#dfe9d6"/>
+<g stroke="#cdd6c6" stroke-width="2">
+<path d="M572 382 H700"/><path d="M572 406 H700"/><path d="M608 342 V430"/>
+</g>
+<rect x="572" y="382" width="128" height="24" fill="#fdf3dc"/>
+<text x="580" y="399" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" font-weight="bold" fill="#c0392b">17</text>
+<text x="616" y="399" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#3d4b40">認農 4.4→5.6ha</text>
+<text x="572" y="452" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" font-weight="bold" fill="#33503f">一覧で名前を読む</text>
+<text x="572" y="472" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">171経営体の別紙PDF</text>
+<text x="572" y="490" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">備考に代わりの担い手</text>
+</g>
+
+<g>
+<circle cx="816" cy="300" r="26" fill="#1f3e52"/>
+<text x="804" y="309" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="22" font-weight="bold" fill="#ffffff">5</text>
+<rect x="752" y="342" width="128" height="88" rx="10" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="768" y="356" width="96" height="34" rx="4" fill="#eaf1e4"/>
+<path d="M782 400 q10 -14 26 -6 q16 8 30 -4" fill="none" stroke="#4f6f86" stroke-width="5"/>
+<text x="770" y="382" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#1f3e52">0538-85</text>
+<text x="752" y="452" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" font-weight="bold" fill="#33503f">農地管理係へ聞く</text>
+<text x="752" y="472" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">0538-85-6315</text>
+<text x="752" y="490" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#5a6a5c">見つからない時はここ</text>
+</g>
+
+<g>
+<rect x="898" y="228" width="86" height="112" fill="#ffffff" stroke="#9aa88f" stroke-width="3"/>
+<g stroke="#c3cebb" stroke-width="2"><path d="M908 256 H974"/><path d="M908 274 H974"/><path d="M908 292 H960"/></g>
+<text x="904" y="246" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12.5" font-weight="bold" fill="#33503f">3条の3</text>
+<rect x="890" y="352" width="102" height="30" rx="5" fill="#fdf0ee" stroke="#c08b84" stroke-width="3"/>
+<text x="900" y="373" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#8c3a30">遅滞なく</text>
+<rect x="890" y="390" width="102" height="30" rx="5" fill="#fdf0ee" stroke="#c08b84" stroke-width="3"/>
+<text x="898" y="411" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" font-weight="bold" fill="#8c3a30">過料10万円以下</text>
+<text x="884" y="440" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12.5" fill="#5a6a5c">相続の届出も同じ窓口</text>
+</g>
+
+<rect x="24" y="512" width="952" height="36" rx="6" fill="#1f3e52"/>
+<text x="40" y="537" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#ffffff">四つ目までは自宅で終わる／目標年度は令和17年度／貸すかどうかは今日決めなくてよい</text>
+</svg>
