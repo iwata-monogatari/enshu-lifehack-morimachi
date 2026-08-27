@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="th2title th2desc">
+<title id="th2title">森町の駅から天浜線に乗る四つの段</title>
+<desc id="th2desc">財布に小銭を入れる、無人駅で整理券を取る、車内で運賃表を確かめる、前の運賃箱に入れて降りるという四つの段と、有人駅では16時15分を境に渡す相手が変わる分岐、そして別の日に買う通学回数乗車券を描いた図。</desc>
+<defs>
+<linearGradient id="th2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d6e6ef"/><stop offset="1" stop-color="#eef3e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#th2sky)"/>
+
+<path d="M0 70 L110 28 L220 70 L330 24 L440 70 L550 26 L660 70 L770 28 L880 70 L1000 30 L1000 108 L0 108 Z" fill="#93b0c2"/>
+<path d="M0 96 L130 56 L262 100 L392 54 L522 102 L652 56 L782 100 L912 58 L1000 96 L1000 138 L0 138 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M12 138 L32 90 L52 138 Z"/><path d="M48 138 L66 96 L84 138 Z"/>
+<path d="M916 138 L934 96 L952 138 Z"/><path d="M948 138 L968 90 L988 138 Z"/>
+</g>
+<rect x="0" y="134" width="1000" height="16" fill="#8bb268"/>
+<rect x="0" y="148" width="1000" height="14" fill="#79a45c"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5"><path d="M0 142 H1000"/><path d="M0 156 H1000"/></g>
+<rect x="0" y="162" width="1000" height="398" fill="#e9efdd"/>
+
+<g>
+<circle cx="58" cy="200" r="19" fill="#1f3e52"/><text x="51" y="207" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">1</text>
+<text x="88" y="207" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">家を出る前に小銭</text>
+<rect x="40" y="228" width="150" height="94" rx="10" fill="#a8815c" stroke="#7f6141" stroke-width="4"/>
+<rect x="40" y="262" width="150" height="14" fill="#8b6845"/>
+<circle cx="86" cy="300" r="16" fill="#e6c34a" stroke="#a6851f" stroke-width="3"/>
+<circle cx="124" cy="300" r="16" fill="#cfd4d8" stroke="#96a0a8" stroke-width="3"/>
+<circle cx="162" cy="300" r="13" fill="#e6c34a" stroke="#a6851f" stroke-width="3"/>
+<rect x="40" y="340" width="228" height="42" rx="8" fill="#fdf3dc" stroke="#d9a441" stroke-width="3"/>
+<text x="52" y="367" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#7a5a12">ICカードは使えません</text>
+</g>
+
+<g>
+<circle cx="316" cy="200" r="19" fill="#1f3e52"/><text x="309" y="207" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">2</text>
+<text x="346" y="207" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">無人駅で整理券を取る</text>
+<rect x="316" y="228" width="60" height="92" rx="6" fill="#5f6b74" stroke="#3d4750" stroke-width="4"/>
+<rect x="328" y="244" width="36" height="24" fill="#ffffff"/>
+<rect x="326" y="292" width="40" height="14" fill="#f4f0e2" stroke="#a49b86" stroke-width="2"/>
+<path d="M392 274 L440 274" stroke="#7b8f9c" stroke-width="5"/>
+<path d="M434 266 L450 274 L434 282 Z" fill="#7b8f9c"/>
+<rect x="316" y="340" width="150" height="42" rx="8" fill="#ffffff" stroke="#3d4b40" stroke-width="3"/>
+<text x="328" y="367" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#1f3e52">定期券の人も取る</text>
+</g>
+
+<g>
+<circle cx="546" cy="200" r="19" fill="#1f3e52"/><text x="539" y="207" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">3</text>
+<text x="576" y="207" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">車内の運賃表で確かめる</text>
+<rect x="546" y="228" width="204" height="96" fill="#22303a" stroke="#111b22" stroke-width="4"/>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#e8c455">
+<text x="566" y="256">1</text><text x="606" y="256">2</text><text x="646" y="256">3</text><text x="686" y="256">4</text>
+<text x="558" y="298">220</text><text x="598" y="298">310</text><text x="638" y="298">440</text><text x="678" y="298">530</text>
+</g>
+<text x="546" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#4b5b4e">整理券の番号の下が運賃</text>
+</g>
+
+<g>
+<circle cx="58" cy="424" r="19" fill="#1f3e52"/><text x="51" y="431" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">4</text>
+<text x="88" y="431" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">前のドアの運賃箱へ入れて降りる</text>
+<rect x="40" y="446" width="96" height="70" rx="6" fill="#c8ccc4" stroke="#3d4750" stroke-width="4"/>
+<rect x="58" y="460" width="60" height="14" fill="#33404a"/>
+<circle cx="88" cy="494" r="13" fill="#e6c34a" stroke="#a6851f" stroke-width="3"/>
+<path d="M152 474 L206 474" stroke="#7b8f9c" stroke-width="5"/>
+<path d="M200 466 L216 474 L200 482 Z" fill="#7b8f9c"/>
+<rect x="222" y="440" width="270" height="38" rx="8" fill="#ffffff" stroke="#2f6e4c" stroke-width="3"/>
+<text x="234" y="465" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15.5" fill="#2f6e4c">遠州森 16:15まで＝駅係員へ</text>
+<rect x="222" y="486" width="270" height="38" rx="8" fill="#ffffff" stroke="#8c3a2e" stroke-width="3"/>
+<text x="234" y="511" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15.5" fill="#8c3a2e">16:15以降＝乗務員へ</text>
+</g>
+
+<g>
+<rect x="546" y="392" width="424" height="132" rx="10" fill="#ffffff" stroke="#7d8f76" stroke-width="4"/>
+<rect x="546" y="392" width="424" height="34" fill="#1f3e52"/>
+<text x="562" y="416" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">別の日に買っておくもの</text>
+<g>
+<rect x="566" y="444" width="120" height="60" rx="4" fill="#f4f0e2" stroke="#a49b86" stroke-width="3"/>
+<rect x="578" y="440" width="120" height="60" rx="4" fill="#fdfaf0" stroke="#a49b86" stroke-width="3"/>
+<g stroke="#cdc6b2" stroke-width="2">
+<path d="M578 460 H698"/><path d="M578 480 H698"/>
+</g>
+</g>
+<text x="716" y="466" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">通学回数乗車券</text>
+<text x="716" y="490" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#4b5b4e">10回分で14回・6か月</text>
+<text x="716" y="512" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#8c3a2e">有人駅の窓口のみ</text>
+</g>
+
+<g>
+<rect x="546" y="360" width="424" height="26" rx="5" fill="#e6eddc"/>
+<text x="560" y="380" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#42513f">森町で買えるのは遠州森駅だけ</text>
+</g>
+</svg>

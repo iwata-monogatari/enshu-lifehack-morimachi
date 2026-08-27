@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="th1title th1desc">
+<title id="th1title">新型車両THG100形と、変わらない森町の駅の条件</title>
+<desc id="th1desc">三色の帯を巻いた新型気動車が単線を走る一方、森町側は有人の遠州森駅が一つ、無人駅が二つ並び、整理券と現金のみという条件がそのまま残っている様子を描いた図。</desc>
+<defs>
+<linearGradient id="th1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d3e4ef"/><stop offset="1" stop-color="#eef3e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#th1sky)"/>
+
+<path d="M0 82 L104 34 L206 82 L310 30 L414 82 L518 32 L622 82 L726 34 L830 82 L934 36 L1000 80 L1000 126 L0 126 Z" fill="#92afc1"/>
+<path d="M0 110 L124 66 L252 112 L380 64 L508 114 L636 66 L764 112 L892 68 L1000 110 L1000 152 L0 152 Z" fill="#7da38e"/>
+<g fill="#3f6b52">
+<path d="M10 152 L30 100 L50 152 Z"/><path d="M46 152 L64 108 L82 152 Z"/>
+<path d="M918 152 L936 108 L954 152 Z"/><path d="M950 152 L970 100 L990 152 Z"/>
+</g>
+<rect x="0" y="148" width="1000" height="16" fill="#8bb268"/>
+<rect x="0" y="162" width="1000" height="14" fill="#79a45c"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5"><path d="M0 156 H1000"/><path d="M0 170 H1000"/></g>
+<rect x="0" y="176" width="1000" height="384" fill="#e9efdd"/>
+
+<g>
+<rect x="0" y="286" width="1000" height="34" fill="#cdc5ae"/>
+<g stroke="#9a8f76" stroke-width="6">
+<path d="M0 296 H1000"/><path d="M0 314 H1000"/>
+</g>
+<g stroke="#b0a68c" stroke-width="6">
+<path d="M20 288 V320"/><path d="M96 288 V320"/><path d="M172 288 V320"/><path d="M248 288 V320"/>
+<path d="M756 288 V320"/><path d="M832 288 V320"/><path d="M908 288 V320"/><path d="M984 288 V320"/>
+</g>
+</g>
+
+<g>
+<rect x="352" y="212" width="290" height="80" rx="10" fill="#f2f4f3" stroke="#8e9aa2" stroke-width="4"/>
+<rect x="352" y="236" width="290" height="10" fill="#e08a2e"/>
+<rect x="352" y="248" width="290" height="10" fill="#4c8f6a"/>
+<rect x="352" y="260" width="290" height="10" fill="#3f7fae"/>
+<rect x="372" y="220" width="56" height="14" rx="3" fill="#33404a"/>
+<g fill="#c9dde6" stroke="#8ea6b4" stroke-width="2">
+<rect x="446" y="216" width="44" height="18"/><rect x="500" y="216" width="44" height="18"/>
+<rect x="554" y="216" width="44" height="18"/>
+</g>
+<rect x="360" y="272" width="274" height="14" fill="#5c6772"/>
+<circle cx="404" cy="298" r="16" fill="#3d4750"/><circle cx="590" cy="298" r="16" fill="#3d4750"/>
+<text x="358" y="204" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="20" font-weight="bold" fill="#1f3e52">THG100形（2026年4月1日〜）</text>
+</g>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4b5b4e">
+<rect x="352" y="332" width="18" height="14" fill="#e08a2e"/><text x="376" y="344">みかんと夕日</text>
+<rect x="352" y="352" width="18" height="14" fill="#4c8f6a"/><text x="376" y="364">沿線の山や茶畑</text>
+<rect x="352" y="372" width="18" height="14" fill="#3f7fae"/><text x="376" y="384">天竜川と浜名湖の水面</text>
+</g>
+
+<g>
+<rect x="30" y="212" width="130" height="74" fill="#f6f4ea" stroke="#7d8f76" stroke-width="4"/>
+<path d="M18 212 L95 172 L172 212 Z" fill="#8d7a63"/>
+<rect x="18" y="212" width="154" height="12" fill="#6d5c49"/>
+<rect x="50" y="234" width="30" height="28" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="108" y="234" width="30" height="28" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<text x="22" y="308" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">遠州森駅（有人）</text>
+<rect x="18" y="336" width="252" height="52" rx="8" fill="#ffffff" stroke="#3d4b40" stroke-width="3"/>
+<text x="32" y="358" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15.5" fill="#1f3e52">窓口 平日 6:45－16:15</text>
+<text x="32" y="379" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15.5" fill="#1f3e52">土日祝 9:00－16:15</text>
+<text x="18" y="412" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#5a6a5c">森町で券を買えるのはここだけ</text>
+</g>
+
+<g>
+<rect x="700" y="238" width="112" height="48" fill="#f2efe4" stroke="#9aa392" stroke-width="3"/>
+<path d="M692 238 L756 208 L820 238 Z" fill="#9a8873"/>
+<rect x="676" y="286" width="160" height="10" fill="#cfc7b2" stroke="#a89f8a" stroke-width="2"/>
+<rect x="856" y="238" width="112" height="48" fill="#f2efe4" stroke="#9aa392" stroke-width="3"/>
+<path d="M848 238 L912 208 L976 238 Z" fill="#9a8873"/>
+<text x="686" y="200" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">無人駅（森町に4つ）</text>
+<g>
+<rect x="736" y="330" width="40" height="62" rx="5" fill="#5f6b74" stroke="#3d4750" stroke-width="3"/>
+<rect x="744" y="342" width="24" height="16" fill="#ffffff"/>
+<rect x="742" y="378" width="28" height="10" fill="#e8e4d6"/>
+<text x="700" y="414" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#5a6a5c">整理券を1枚取る</text>
+</g>
+<g>
+<rect x="856" y="330" width="80" height="62" rx="5" fill="#c8ccc4" stroke="#3d4750" stroke-width="3"/>
+<rect x="872" y="342" width="48" height="12" fill="#33404a"/>
+<circle cx="896" cy="372" r="12" fill="#e6c34a" stroke="#a6851f" stroke-width="3"/>
+<text x="846" y="414" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#5a6a5c">運賃箱へ現金で</text>
+</g>
+</g>
+
+<g>
+<rect x="300" y="428" width="400" height="46" rx="8" fill="#fdf3dc" stroke="#d9a441" stroke-width="4"/>
+<text x="318" y="458" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#7a5a12">現金のみ／交通系ICカードは使えません</text>
+</g>
+
+<g>
+<rect x="24" y="510" width="952" height="38" rx="6" fill="#1f3e52"/>
+<text x="40" y="536" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#ffffff">新しくなったのは車両 ／ 駅の条件は有人1駅・整理券・現金のまま</text>
+</g>
+</svg>

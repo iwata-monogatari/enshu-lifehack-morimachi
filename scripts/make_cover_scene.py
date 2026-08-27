@@ -3809,7 +3809,64 @@ def scene_koutsuu_kuhaku_chiiki(d):
     band(d, ["駅1km・バス停400mの外に", "森町の空白地域がある"], "森町ライフハック／森町地域公共交通法定計画")
 
 
+def scene_thg100_morimachi_eki(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 700, 744], 300)
+    d.polygon([(0, 296), (760, 288), (760, 340), (0, 350)], fill=(139, 183, 95))
+    for i in range(3):
+        d.line([(0, 302 + i * 14), (760, 294 + i * 14)], fill=(93, 138, 62), width=3)
+    d.polygon([(0, 344), (760, 334), (760, BAND_TOP), (0, BAND_TOP)], fill=(206, 223, 182))
+    # 単線の線路
+    d.rectangle([0, 424, 760, 462], fill=(205, 197, 174))
+    d.line([(0, 434), (760, 434)], fill=(154, 143, 118), width=6)
+    d.line([(0, 454), (760, 454)], fill=(154, 143, 118), width=6)
+    for x in range(6, 760, 44):
+        d.line([(x, 426), (x, 460)], fill=(176, 166, 140), width=6)
+    # 左：有人の遠州森駅
+    d.rectangle([24, 322, 152, 392], fill=(246, 244, 234), outline=(125, 143, 118), width=3)
+    d.polygon([(12, 322), (88, 282), (164, 322)], fill=(141, 122, 99))
+    d.rectangle([12, 322, 164, 334], fill=(109, 92, 73))
+    d.rectangle([44, 344, 72, 372], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.rectangle([104, 344, 132, 372], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.rectangle([16, 396, 200, 418], fill=(255, 255, 255), outline=(61, 75, 64), width=3)
+    d.text((22, 399), "窓口 平日16:15まで",
+           font=ImageFont.truetype(FONT_BOLD, 17), fill="#1f3e52")
+    # 中央：新型車両（三色帯）
+    d.rounded_rectangle([236, 350, 540, 428], radius=10, fill=(242, 244, 243),
+                        outline=(142, 154, 162), width=4)
+    d.rectangle([236, 372, 540, 382], fill=(224, 138, 46))
+    d.rectangle([236, 384, 540, 394], fill=(76, 143, 106))
+    d.rectangle([236, 396, 540, 406], fill=(63, 127, 174))
+    d.rectangle([252, 356, 302, 370], fill=(51, 64, 74))
+    for x in (318, 372, 426, 480):
+        d.rectangle([x, 354, x + 44, 370], fill=(201, 221, 230), outline=(142, 166, 180), width=2)
+    d.rectangle([244, 410, 532, 424], fill=(92, 103, 114))
+    d.ellipse([272, 424, 312, 464], fill=(61, 71, 80))
+    d.ellipse([464, 424, 504, 464], fill=(61, 71, 80))
+    d.text((236, 320), "THG100形", font=ImageFont.truetype(FONT_BOLD, 26), fill="#1f3e52")
+    # 右：無人駅と整理券・運賃箱
+    d.rectangle([596, 336, 700, 384], fill=(242, 239, 228), outline=(154, 163, 146), width=3)
+    d.polygon([(588, 336), (648, 306), (708, 336)], fill=(154, 136, 115))
+    d.rectangle([576, 384, 720, 394], fill=(207, 199, 178), outline=(168, 159, 138), width=2)
+    d.text((588, 306), "無人駅", font=ImageFont.truetype(FONT_BOLD, 19), fill="#33503f")
+    d.rounded_rectangle([600, 470, 640, 540], radius=5, fill=(95, 107, 116),
+                        outline=(61, 71, 80), width=3)
+    d.rectangle([608, 482, 632, 498], fill=(255, 255, 255))
+    d.rounded_rectangle([656, 480, 736, 540], radius=5, fill=(200, 204, 196),
+                        outline=(61, 71, 80), width=3)
+    d.rectangle([672, 492, 720, 504], fill=(51, 64, 74))
+    d.ellipse([684, 512, 708, 536], fill=(230, 195, 74), outline=(166, 133, 31), width=3)
+    d.text((572, 446), "整理券と現金のみ",
+           font=ImageFont.truetype(FONT_BOLD, 19), fill="#8c3a2e")
+    # 上部の要約札
+    d.rectangle([24, 274, 300, 308], fill=(31, 62, 82))
+    d.text((34, 280), "2026年4月1日 定期運行", font=ImageFont.truetype(FONT_BOLD, 20), fill="#ffffff")
+    band(d, ["新しいのは車両で、", "森町の駅の乗り方は変わらない"], "森町ライフハック／天浜線の森町5駅")
+
+
 SCENES = {
+    "20260828-tenhama-thg100-morimachi-eki": scene_thg100_morimachi_eki,
     "20260828-morimachi-koutsuu-kuhaku-chiiki": scene_koutsuu_kuhaku_chiiki,
     "20260828-morimachi-chiiki-taxi-yoyaku": scene_chiiki_taxi_yoyaku,
     "20260827-morimachi-cha-tsuzukeru-kakaku": scene_cha_tsuzukeru_kakaku,
