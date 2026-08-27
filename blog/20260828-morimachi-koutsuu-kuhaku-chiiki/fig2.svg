@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kk2title kk2desc">
+<title id="kk2title">実家が空白地域に入るかを確かめる四つの段</title>
+<desc id="kk2desc">課税明細書から住所を出し、地図に駅とバス停の印を付け、1キロメートルと400メートルの円を引き、最後に町の担当課へ電話して確かめるまでの四つの段を、右端の一週間の予定表とあわせて描いた図。</desc>
+<defs>
+<linearGradient id="kk2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d6e6ef"/><stop offset="1" stop-color="#eef3e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#kk2sky)"/>
+
+<path d="M0 74 L110 30 L220 74 L330 26 L440 74 L550 28 L660 74 L770 30 L880 74 L1000 32 L1000 112 L0 112 Z" fill="#93b0c2"/>
+<path d="M0 100 L130 58 L262 104 L392 56 L522 106 L652 58 L782 104 L912 60 L1000 100 L1000 142 L0 142 Z" fill="#7ea48f"/>
+<g fill="#3f6b52">
+<path d="M12 142 L32 92 L52 142 Z"/><path d="M48 142 L66 98 L84 142 Z"/>
+<path d="M916 142 L934 98 L952 142 Z"/><path d="M948 142 L968 92 L988 142 Z"/>
+</g>
+<rect x="0" y="138" width="1000" height="16" fill="#8bb268"/>
+<rect x="0" y="152" width="1000" height="14" fill="#79a45c"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5"><path d="M0 146 H1000"/><path d="M0 160 H1000"/></g>
+<rect x="0" y="166" width="1000" height="394" fill="#e9efdd"/>
+
+<g>
+<circle cx="60" cy="204" r="19" fill="#1f3e52"/><text x="53" y="211" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">1</text>
+<text x="90" y="211" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">手元の紙から住所と地番を出す</text>
+<rect x="44" y="232" width="128" height="96" fill="#ffffff" stroke="#8b9a84" stroke-width="3" transform="rotate(-4 108 280)"/>
+<g stroke="#b9c3b2" stroke-width="3" transform="rotate(-4 108 280)">
+<path d="M58 258 H158"/><path d="M58 278 H158"/><path d="M58 298 H132"/>
+</g>
+<rect x="86" y="248" width="128" height="96" fill="#fdfbf3" stroke="#8b9a84" stroke-width="3" transform="rotate(5 150 296)"/>
+<g stroke="#b9c3b2" stroke-width="3" transform="rotate(5 150 296)">
+<path d="M100 274 H200"/><path d="M100 294 H200"/><path d="M100 314 H172"/>
+</g>
+<text x="44" y="368" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#4b5b4e">課税明細書・登記事項証明書</text>
+</g>
+
+<g>
+<circle cx="292" cy="204" r="19" fill="#1f3e52"/><text x="285" y="211" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">2</text>
+<text x="322" y="211" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">地図に駅とバス停の印を打つ</text>
+<rect x="276" y="232" width="192" height="140" fill="#f7f5ea" stroke="#7d8f76" stroke-width="4"/>
+<g stroke="#cfd8c8" stroke-width="2">
+<path d="M276 272 H468"/><path d="M276 312 H468"/><path d="M276 352 H468"/>
+<path d="M324 232 V372"/><path d="M372 232 V372"/><path d="M420 232 V372"/>
+</g>
+<path d="M276 300 C 340 288, 400 320, 468 306" fill="none" stroke="#6f93aa" stroke-width="5"/>
+<g>
+<rect x="300" y="248" width="30" height="20" fill="#ffffff" stroke="#4d7f9e" stroke-width="3"/>
+<text x="336" y="264" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#2f5c76">駅</text>
+<rect x="398" y="332" width="12" height="24" fill="#8e9aa2"/>
+<rect x="386" y="318" width="36" height="16" fill="#ffffff" stroke="#4f8446" stroke-width="3"/>
+<text x="424" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#3c6b36">バス停</text>
+</g>
+<text x="276" y="398" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#4b5b4e">最寄りを1つずつ決める</text>
+</g>
+
+<g>
+<circle cx="524" cy="204" r="19" fill="#1f3e52"/><text x="517" y="211" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">3</text>
+<text x="554" y="211" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">1kmと400mの円を引く</text>
+<circle cx="590" cy="304" r="72" fill="#8fbcd8" opacity="0.3" stroke="#4d7f9e" stroke-width="4" stroke-dasharray="10 7"/>
+<circle cx="662" cy="340" r="34" fill="#9dc98a" opacity="0.36" stroke="#4f8446" stroke-width="4" stroke-dasharray="8 6"/>
+<g>
+<rect x="566" y="288" width="46" height="32" fill="#fbf7ec" stroke="#8b9a84" stroke-width="3"/>
+<path d="M560 288 L589 268 L618 288 Z" fill="#a3846a"/>
+<circle cx="589" cy="336" r="12" fill="#2f6e4c"/>
+<path d="M583 336 L588 341 L596 330" stroke="#ffffff" stroke-width="3" fill="none"/>
+</g>
+<g>
+<rect x="700" y="252" width="46" height="32" fill="#efece2" stroke="#9aa392" stroke-width="3"/>
+<path d="M694 252 L723 232 L752 252 Z" fill="#9a8873"/>
+<g stroke="#c0392b" stroke-width="5">
+<path d="M710 296 L738 320"/><path d="M738 296 L710 320"/>
+</g>
+</g>
+<text x="524" y="398" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#4b5b4e">実家がどちら側かを見る</text>
+</g>
+
+<g>
+<circle cx="524" cy="432" r="19" fill="#1f3e52"/><text x="517" y="439" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">4</text>
+<text x="554" y="439" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#33503f">町の企画担当課へ電話して確かめる</text>
+<rect x="524" y="452" width="300" height="46" rx="8" fill="#ffffff" stroke="#3d4b40" stroke-width="3"/>
+<text x="540" y="482" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16.5" font-weight="bold" fill="#1f3e52">0538-85-6305（平日 8:30-17:15）</text>
+</g>
+
+<g>
+<rect x="800" y="232" width="176" height="176" fill="#ffffff" stroke="#7d8f76" stroke-width="4"/>
+<rect x="800" y="232" width="176" height="30" fill="#1f3e52"/>
+<text x="816" y="254" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#ffffff">親の一週間</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#3d4b40">
+<text x="814" y="288">月</text><text x="814" y="312">火</text><text x="814" y="336">水</text>
+<text x="814" y="360">木</text><text x="814" y="384">金</text>
+</g>
+<g stroke="#cdd6c6" stroke-width="2">
+<path d="M800 296 H976"/><path d="M800 320 H976"/><path d="M800 344 H976"/><path d="M800 368 H976"/>
+</g>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#8c3a2e">
+<text x="848" y="288">通院</text><text x="848" y="336">買い物</text><text x="848" y="384">通院</text>
+</g>
+<circle cx="936" cy="283" r="11" fill="#c0392b"/><circle cx="936" cy="331" r="11" fill="#c0392b"/><circle cx="936" cy="379" r="11" fill="#c0392b"/>
+<text x="800" y="432" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14.5" fill="#4b5b4e">曜日が並ぶと足りない足が見える</text>
+</g>
+
+<g>
+<rect x="24" y="510" width="952" height="38" rx="6" fill="#1f3e52"/>
+<text x="40" y="536" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#ffffff">円の内か外かは、手元の紙と地図だけで今日のうちに判定できる</text>
+</g>
+</svg>

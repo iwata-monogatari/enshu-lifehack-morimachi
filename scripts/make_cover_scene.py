@@ -3763,7 +3763,54 @@ def scene_chiiki_taxi_yoyaku(d):
     band(d, ["予約は、乗る2週間前と", "1時間前の二か所で決まる"], "森町ライフハック／一宮・園田の地域タクシー")
 
 
+def scene_koutsuu_kuhaku_chiiki(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 700, 744], 300)
+    d.polygon([(0, 296), (760, 288), (760, 340), (0, 350)], fill=(139, 183, 95))
+    for i in range(3):
+        d.line([(0, 302 + i * 14), (760, 294 + i * 14)], fill=(93, 138, 62), width=3)
+    d.polygon([(0, 344), (760, 334), (760, BAND_TOP), (0, BAND_TOP)], fill=(206, 223, 182))
+    # 駅を中心とした1kmの円
+    d.ellipse([32, 320, 400, 560], outline=(77, 127, 158), width=6)
+    d.ellipse([44, 328, 388, 552], fill=(186, 212, 230))
+    # バス停を中心とした400mの円
+    d.ellipse([392, 396, 552, 540], outline=(79, 132, 70), width=6)
+    d.ellipse([400, 402, 544, 534], fill=(196, 220, 178))
+    # 駅（無人駅の小屋とホーム）
+    d.rectangle([176, 350, 250, 396], fill=(246, 244, 234), outline=(125, 143, 118), width=3)
+    d.polygon([(166, 350), (213, 322), (260, 350)], fill=(141, 122, 99))
+    d.rectangle([196, 362, 226, 384], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.rectangle([156, 396, 272, 406], fill=(207, 199, 178), outline=(168, 159, 138), width=2)
+    d.text((150, 412), "天浜線の駅", font=ImageFont.truetype(FONT_BOLD, 18), fill="#2f5c76")
+    d.line([(120, 470), (250, 470)], fill=(77, 127, 158), width=5)
+    d.rectangle([144, 454, 216, 486], fill=(255, 255, 255), outline=(77, 127, 158), width=3)
+    d.text((152, 460), "1km", font=ImageFont.truetype(FONT_BOLD, 19), fill="#2f5c76")
+    # バス停
+    d.rectangle([466, 424, 476, 470], fill=(142, 154, 162))
+    d.rectangle([446, 400, 498, 428], fill=(255, 255, 255), outline=(79, 132, 70), width=3)
+    d.text((450, 405), "バス停", font=ImageFont.truetype(FONT_BOLD, 16), fill="#3c6b36")
+    d.line([(471, 492), (536, 492)], fill=(79, 132, 70), width=5)
+    d.rectangle([408, 496, 490, 528], fill=(255, 255, 255), outline=(79, 132, 70), width=3)
+    d.text((416, 502), "400m", font=ImageFont.truetype(FONT_BOLD, 19), fill="#3c6b36")
+    # 円の外に建つ家（空白地域）
+    for hx, hy in ((596, 356), (676, 414), (596, 470)):
+        d.rectangle([hx, hy, hx + 62, hy + 44], fill=(239, 236, 226),
+                    outline=(154, 163, 146), width=3)
+        d.polygon([(hx - 8, hy), (hx + 31, hy - 26), (hx + 70, hy)], fill=(154, 136, 115))
+        d.rectangle([hx + 22, hy + 16, hx + 40, hy + 34], fill=(214, 219, 210),
+                    outline=(160, 170, 158), width=2)
+    d.text((566, 528), "円の外＝空白地域", font=ImageFont.truetype(FONT_BOLD, 22), fill="#8c3a2e")
+    # 地区名の札
+    d.rectangle([24, 306, 216, 340], fill=(31, 62, 82))
+    d.text((34, 312), "一宮 1,779人", font=ImageFont.truetype(FONT_BOLD, 20), fill="#ffffff")
+    d.rectangle([540, 306, 736, 340], fill=(31, 62, 82))
+    d.text((550, 312), "園田 3,647人", font=ImageFont.truetype(FONT_BOLD, 20), fill="#ffffff")
+    band(d, ["駅1km・バス停400mの外に", "森町の空白地域がある"], "森町ライフハック／森町地域公共交通法定計画")
+
+
 SCENES = {
+    "20260828-morimachi-koutsuu-kuhaku-chiiki": scene_koutsuu_kuhaku_chiiki,
     "20260828-morimachi-chiiki-taxi-yoyaku": scene_chiiki_taxi_yoyaku,
     "20260827-morimachi-cha-tsuzukeru-kakaku": scene_cha_tsuzukeru_kakaku,
     "20260827-yukyu-nochi-kotei-shisanzei-1-8bai": scene_yukyu_nochi_1_8bai,

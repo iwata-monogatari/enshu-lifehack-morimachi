@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kk1title kk1desc">
+<title id="kk1title">駅1kmとバス停400mの円で決まる公共交通空白地域</title>
+<desc id="kk1desc">天浜線の無人駅を中心とした半径1キロメートルの円と、バス停を中心とした半径400メートルの円を重ね、円の内側の家に利用圏域の印が付き、円の外側の家が空白地域として残る様子を描いた図。</desc>
+<defs>
+<linearGradient id="kk1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d3e4ef"/><stop offset="1" stop-color="#eef3e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#kk1sky)"/>
+
+<path d="M0 88 L104 38 L206 88 L310 34 L414 88 L518 36 L622 88 L726 38 L830 88 L934 40 L1000 86 L1000 132 L0 132 Z" fill="#92afc1"/>
+<path d="M0 116 L124 70 L252 118 L380 68 L508 120 L636 70 L764 118 L892 72 L1000 116 L1000 158 L0 158 Z" fill="#7da38e"/>
+<g fill="#3f6b52">
+<path d="M10 158 L30 106 L50 158 Z"/><path d="M46 158 L64 114 L82 158 Z"/>
+<path d="M918 158 L936 114 L954 158 Z"/><path d="M950 158 L970 106 L990 158 Z"/>
+</g>
+<rect x="0" y="154" width="1000" height="16" fill="#8bb268"/>
+<rect x="0" y="168" width="1000" height="14" fill="#79a45c"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5"><path d="M0 162 H1000"/><path d="M0 176 H1000"/></g>
+<rect x="0" y="182" width="1000" height="378" fill="#e9efdd"/>
+
+<circle cx="228" cy="352" r="164" fill="#8fbcd8" opacity="0.28" stroke="#4d7f9e" stroke-width="4" stroke-dasharray="12 8"/>
+<circle cx="540" cy="378" r="76" fill="#9dc98a" opacity="0.34" stroke="#4f8446" stroke-width="4" stroke-dasharray="10 7"/>
+
+<g>
+<rect x="182" y="316" width="96" height="60" fill="#f6f4ea" stroke="#7d8f76" stroke-width="3"/>
+<path d="M170 316 L230 282 L290 316 Z" fill="#8d7a63"/>
+<rect x="200" y="332" width="26" height="24" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="238" y="332" width="26" height="24" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="156" y="376" width="146" height="10" fill="#cfc7b2" stroke="#a89f8a" stroke-width="2"/>
+<text x="164" y="410" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">天浜線の駅</text>
+<path d="M228 352 L392 352" stroke="#4d7f9e" stroke-width="4"/>
+<path d="M384 344 L400 352 L384 360 Z" fill="#4d7f9e"/>
+<rect x="252" y="326" width="76" height="26" rx="4" fill="#ffffff" stroke="#4d7f9e" stroke-width="3"/>
+<text x="262" y="345" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#2f5c76">1km</text>
+</g>
+
+<g>
+<rect x="534" y="330" width="12" height="52" fill="#8e9aa2"/>
+<rect x="514" y="304" width="52" height="30" rx="4" fill="#ffffff" stroke="#4f8446" stroke-width="3"/>
+<text x="522" y="325" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#3c6b36">バス停</text>
+<path d="M540 378 L616 378" stroke="#4f8446" stroke-width="4"/>
+<path d="M608 370 L624 378 L608 386 Z" fill="#4f8446"/>
+<rect x="548" y="352" width="70" height="26" rx="4" fill="#ffffff" stroke="#4f8446" stroke-width="3"/>
+<text x="556" y="371" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#3c6b36">400m</text>
+</g>
+
+<g>
+<rect x="128" y="424" width="62" height="44" fill="#fbf7ec" stroke="#8b9a84" stroke-width="3"/>
+<path d="M120 424 L159 398 L198 424 Z" fill="#a3846a"/>
+<circle cx="159" cy="484" r="14" fill="#2f6e4c"/>
+<path d="M152 484 L157 490 L167 478" stroke="#ffffff" stroke-width="3" fill="none"/>
+</g>
+<g>
+<rect x="308" y="430" width="62" height="44" fill="#fbf7ec" stroke="#8b9a84" stroke-width="3"/>
+<path d="M300 430 L339 404 L378 430 Z" fill="#a3846a"/>
+<circle cx="339" cy="490" r="14" fill="#2f6e4c"/>
+<path d="M332 490 L337 496 L347 484" stroke="#ffffff" stroke-width="3" fill="none"/>
+</g>
+<text x="118" y="516" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#2f6e4c">円の内側＝公共交通利用圏域</text>
+
+<g opacity="0.95">
+<rect x="700" y="270" width="66" height="46" fill="#efece2" stroke="#9aa392" stroke-width="3"/>
+<path d="M692 270 L733 242 L774 270 Z" fill="#9a8873"/>
+<rect x="812" y="318" width="66" height="46" fill="#efece2" stroke="#9aa392" stroke-width="3"/>
+<path d="M804 318 L845 290 L886 318 Z" fill="#9a8873"/>
+<rect x="716" y="386" width="66" height="46" fill="#efece2" stroke="#9aa392" stroke-width="3"/>
+<path d="M708 386 L749 358 L790 386 Z" fill="#9a8873"/>
+</g>
+<text x="690" y="466" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="20" font-weight="bold" fill="#8c3a2e">円の外側＝公共交通空白地域</text>
+
+<g>
+<rect x="24" y="200" width="230" height="34" rx="6" fill="#1f3e52"/>
+<text x="38" y="224" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">一宮地区（駅はある）</text>
+<rect x="700" y="200" width="276" height="34" rx="6" fill="#1f3e52"/>
+<text x="714" y="224" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">園田地区（日中は運行がない）</text>
+<g>
+<rect x="836" y="242" width="88" height="34" rx="6" fill="#4c8f6a" stroke="#33684c" stroke-width="3"/>
+<text x="846" y="266" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#ffffff">磐田線</text>
+<circle cx="946" cy="259" r="17" fill="#ffffff" stroke="#8c3a2e" stroke-width="3"/>
+<path d="M946 249 L946 259 L953 264" stroke="#8c3a2e" stroke-width="3" fill="none"/>
+</g>
+</g>
+
+<g>
+<rect x="24" y="510" width="952" height="38" rx="6" fill="#1f3e52"/>
+<text x="40" y="536" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#ffffff">判定は地区の名前ではなく1軒ごとの距離 ／ 駅1km・バス停400mの外が空白地域</text>
+</g>
+</svg>
