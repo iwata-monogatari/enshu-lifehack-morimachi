@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kr1title kr1desc">
+<title id="kr1title">森町の敬老会対象者7年分と100歳以上の推移</title>
+<desc id="kr1desc">令和元年度から令和7年度までの78歳以上の人数をほぼ同じ高さの棒で並べ、令和6年度だけが低く令和7年度で戻る様子を示した図。棒の下には100歳以上の人数を丸の数で表し、30個から45個へ増えていく様子を並べている。背景には杉林の山並みと地区の集会所の屋根が描かれている。</desc>
+<defs>
+<linearGradient id="kr1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d5e2ec"/><stop offset="1" stop-color="#f0f3e7"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#kr1sky)"/>
+
+<path d="M0 96 L110 40 L220 92 L330 32 L440 96 L550 42 L660 94 L770 36 L880 94 L1000 60 L1000 140 L0 140 Z" fill="#8299a9"/>
+<path d="M0 122 L120 78 L240 126 L360 74 L480 128 L600 80 L720 126 L840 76 L960 124 L1000 102 L1000 158 L0 158 Z" fill="#6d9179"/>
+<g fill="#33604a">
+<path d="M8 158 L26 112 L44 158 Z"/><path d="M46 158 L66 106 L86 158 Z"/>
+<path d="M914 158 L932 112 L950 158 Z"/><path d="M952 158 L972 104 L992 158 Z"/>
+</g>
+<g>
+<path d="M812 158 L878 122 L944 158 Z" fill="#8d7a63"/>
+<rect x="822" y="158" width="112" height="34" fill="#efece2" stroke="#b9b0a0" stroke-width="3"/>
+<rect x="864" y="170" width="28" height="22" fill="#a98f6f"/>
+<text x="806" y="210" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#5c6a5c">地区の集会所</text>
+</g>
+<rect x="0" y="150" width="1000" height="410" fill="#eef1e5"/>
+
+<text x="52" y="184" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#33503f">78歳以上の人数（7年）</text>
+
+<g stroke="#c3ccb8" stroke-width="2">
+<path d="M52 236 H770"/><path d="M52 272 H770"/><path d="M52 308 H770"/>
+</g>
+<path d="M52 344 H770" stroke="#8a9880" stroke-width="3"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<rect x="66" y="212" width="72" height="132" fill="#5d8aa4"/>
+<text x="70" y="204" font-size="15" font-weight="bold" fill="#33503f">2,799</text>
+<text x="76" y="364" font-size="14" fill="#4a5a4b">令和元</text>
+
+<rect x="166" y="219" width="72" height="125" fill="#5d8aa4"/>
+<text x="170" y="211" font-size="15" font-weight="bold" fill="#33503f">2,782</text>
+<text x="182" y="364" font-size="14" fill="#4a5a4b">令2</text>
+
+<rect x="266" y="210" width="72" height="134" fill="#5d8aa4"/>
+<text x="270" y="202" font-size="15" font-weight="bold" fill="#33503f">2,803</text>
+<text x="282" y="364" font-size="14" fill="#4a5a4b">令3</text>
+
+<rect x="366" y="214" width="72" height="130" fill="#5d8aa4"/>
+<text x="370" y="206" font-size="15" font-weight="bold" fill="#33503f">2,794</text>
+<text x="382" y="364" font-size="14" fill="#4a5a4b">令4</text>
+
+<rect x="466" y="252" width="72" height="92" fill="#5d8aa4"/>
+<text x="470" y="244" font-size="15" font-weight="bold" fill="#33503f">2,702</text>
+<text x="482" y="364" font-size="14" fill="#4a5a4b">令5</text>
+
+<rect x="566" y="265" width="72" height="79" fill="#7d97a8"/>
+<text x="570" y="257" font-size="15" font-weight="bold" fill="#33503f">2,671</text>
+<text x="582" y="364" font-size="14" fill="#4a5a4b">令6</text>
+
+<rect x="666" y="226" width="72" height="118" fill="#c8452f"/>
+<text x="670" y="218" font-size="15" font-weight="bold" fill="#a63b31">2,765</text>
+<text x="682" y="364" font-size="14" font-weight="bold" fill="#a63b31">令7</text>
+</g>
+
+<g>
+<path d="M642 292 L662 250" stroke="#c8452f" stroke-width="4" fill="none"/>
+<path d="M662 250 L652 262 L668 264 Z" fill="#c8452f"/>
+<text x="600" y="316" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#a63b31">＋94人</text>
+</g>
+<text x="52" y="394" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">令和元年度2,799人と令和7年度2,765人の差は34人の減少</text>
+
+<rect x="0" y="410" width="1000" height="150" fill="#dfe8d2"/>
+<text x="52" y="440" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#33503f">100歳以上の人数は、着実に増えている</text>
+<g fill="#d68a3c">
+<g>
+<circle cx="66" cy="470" r="7"/><circle cx="84" cy="470" r="7"/><circle cx="102" cy="470" r="7"/><circle cx="120" cy="470" r="7"/><circle cx="66" cy="490" r="7"/><circle cx="84" cy="490" r="7"/><circle cx="102" cy="490" r="7"/><circle cx="120" cy="490" r="7"/><circle cx="66" cy="510" r="7"/><circle cx="84" cy="510" r="7"/><circle cx="102" cy="510" r="7"/><circle cx="120" cy="510" r="7"/>
+</g>
+<g>
+<circle cx="386" cy="466" r="7"/><circle cx="404" cy="466" r="7"/><circle cx="422" cy="466" r="7"/><circle cx="440" cy="466" r="7"/><circle cx="458" cy="466" r="7"/><circle cx="386" cy="484" r="7"/><circle cx="404" cy="484" r="7"/><circle cx="422" cy="484" r="7"/><circle cx="440" cy="484" r="7"/><circle cx="458" cy="484" r="7"/><circle cx="386" cy="502" r="7"/><circle cx="404" cy="502" r="7"/><circle cx="422" cy="502" r="7"/><circle cx="440" cy="502" r="7"/><circle cx="458" cy="502" r="7"/><circle cx="386" cy="520" r="7"/><circle cx="404" cy="520" r="7"/><circle cx="422" cy="520" r="7"/><circle cx="440" cy="520" r="7"/><circle cx="458" cy="520" r="7"/>
+</g>
+</g>
+<text x="150" y="496" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#33503f">令和元年度 30人</text>
+<path d="M290 490 L356 490" stroke="#8a9880" stroke-width="4"/>
+<path d="M356 490 L342 482 L342 498 Z" fill="#8a9880"/>
+<text x="488" y="496" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#a63b31">令和7年度 45人（1.5倍）</text>
+<rect x="756" y="446" width="212" height="72" rx="6" fill="#1f3e52"/>
+<rect x="756" y="446" width="212" height="6" fill="#d6a83c"/>
+<text x="772" y="480" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">横ばいなのは人数</text>
+<text x="772" y="504" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#d7e2e8">変わったのは中身</text>
+</svg>

@@ -4084,7 +4084,72 @@ def scene_bunka_kaikan_miki_hall(d):
     band(d, ["四公演を支えるのは、", "ミキホール文化振興会"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_keirokai_2765nin(d):
+    """地区の集会所で開かれる敬老会と、杉をついて向かう人の場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 148, 640, 688, 736], 300)
+    # 実った田
+    d.polygon([(0, 292), (760, 284), (760, 340), (0, 350)], fill=(206, 178, 88))
+    for i in range(4):
+        d.line([(0, 300 + i * 13), (760, 292 + i * 13)], fill=(178, 148, 62), width=3)
+    d.polygon([(0, 344), (760, 334), (760, BAND_TOP), (0, BAND_TOP)], fill=(220, 228, 210))
+    # 中央：地区の集会所
+    d.polygon([(196, 356), (386, 274), (576, 356)], fill=(129, 110, 86))
+    d.rectangle([196, 352, 576, 366], fill=(99, 84, 64))
+    d.rectangle([216, 366, 556, 494], fill=(240, 236, 224), outline=(180, 171, 152), width=4)
+    # 紅白の幕
+    for i in range(8):
+        x0 = 216 + i * 43
+        d.rectangle([x0, 366, x0 + 43, 404], fill=(230, 236, 232) if i % 2 else (206, 76, 62))
+    d.rectangle([216, 366, 556, 404], outline=(180, 171, 152), width=3)
+    # 入口と窓
+    d.rectangle([336, 430, 436, 494], fill=(204, 220, 228), outline=(150, 174, 189), width=4)
+    d.line([(386, 430), (386, 494)], fill=(150, 174, 189), width=4)
+    d.rectangle([250, 424, 306, 462], fill=(204, 220, 228), outline=(150, 174, 189), width=3)
+    d.rectangle([470, 424, 526, 462], fill=(204, 220, 228), outline=(150, 174, 189), width=3)
+    # 長机と座布団
+    d.rectangle([236, 502, 536, 516], fill=(150, 122, 88))
+    for i in range(5):
+        d.rounded_rectangle([246 + i * 58, 520, 292 + i * 58, 552], radius=6,
+                            fill=(198, 96, 80), outline=(160, 68, 56), width=3)
+    # 左：記念品と寿詞の台
+    d.rectangle([20, 470, 172, 484], fill=(150, 122, 88))
+    d.rectangle([32, 500, 160, 512], fill=(122, 98, 70))
+    d.rectangle([44, 430, 108, 470], fill=(200, 69, 47))
+    d.line([(76, 430), (76, 470)], fill=(240, 217, 160), width=6)
+    d.line([(44, 450), (108, 450)], fill=(240, 217, 160), width=6)
+    d.rounded_rectangle([116, 440, 166, 470], radius=14, fill=(239, 233, 214),
+                        outline=(195, 183, 149), width=3)
+    d.ellipse([112, 446, 126, 464], fill=(195, 183, 149))
+    d.ellipse([156, 446, 170, 464], fill=(195, 183, 149))
+    # 立て札：対象者数
+    d.rounded_rectangle([14, 322, 280, 400], radius=8, fill=(255, 255, 255),
+                        outline=(184, 68, 58), width=5)
+    d.text((30, 328), "78歳以上 2,765人",
+           font=ImageFont.truetype(FONT_BOLD, 26), fill=(166, 59, 49))
+    d.text((32, 362), "前年は 2,671人",
+           font=ImageFont.truetype(FONT_REGULAR, 22), fill=(125, 75, 68))
+    d.rounded_rectangle([508, 322, 744, 400], radius=8, fill=(255, 255, 255),
+                        outline=(47, 127, 95), width=5)
+    d.text((524, 328), "100歳以上 45人",
+           font=ImageFont.truetype(FONT_BOLD, 27), fill=(43, 111, 84))
+    d.text((524, 362), "6年前は 30人",
+           font=ImageFont.truetype(FONT_REGULAR, 22), fill=(65, 112, 93))
+    # 右手前：杉をついた人と付き添う人
+    for cx, body, head in ((646, (92, 110, 140), (232, 228, 224)), (704, (110, 140, 106), (60, 52, 46))):
+        d.ellipse([cx - 17, 470, cx + 17, 504], fill=(227, 195, 157), outline=(185, 146, 107), width=3)
+        d.chord([cx - 18, 462, cx + 18, 494], 180, 360, fill=head)
+        d.rounded_rectangle([cx - 16, 504, cx + 16, 548], radius=13, fill=body)
+        d.line([(cx - 7, 548), (cx - 12, BAND_TOP)], fill=(67, 80, 90), width=10)
+        d.line([(cx + 7, 548), (cx + 12, BAND_TOP)], fill=(67, 80, 90), width=10)
+    d.line([(628, 504), (622, BAND_TOP)], fill=(140, 110, 72), width=7)
+    d.line([(662, 516), (688, 520)], fill=(227, 195, 157), width=8)
+    band(d, ["増えたのは人数ではなく、", "支える側の薄さ"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
+    "20260829-morimachi-keirokai-2765nin": scene_keirokai_2765nin,
     "20260829-morimachi-bunka-kaikan-miki-hall": scene_bunka_kaikan_miki_hall,
     "20260829-morimori-2man-matsuri-sasaeru": scene_morimori_2man_matsuri,
     "20260828-morimachi-mikura-akiya-bank": scene_mikura_akiya_bank,
