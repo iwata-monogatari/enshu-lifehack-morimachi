@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mh1title mh1desc">
+<title id="mh1title">森町文化会館の大ホール797席と2026年度の4公演</title>
+<desc id="mh1desc">大ホールの客席を斜め上から見た図。整然と並ぶ座席の中に車イス専用の三席が色を変えて置かれ、舞台にはマイクスタンドとギターとピアノがある。右側には8月30日・9月6日・10月4日・11月29日の四つの日付の札が縦に並び、すべて日曜であることが示されている。ホールの外には三方を囲む小高い山並みが描かれ、三木の里という愛称の由来を表している。</desc>
+<defs>
+<linearGradient id="mh1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d4e1ec"/><stop offset="1" stop-color="#eef2e6"/>
+</linearGradient>
+<linearGradient id="mh1stage" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#2b2b33"/><stop offset="1" stop-color="#4a4550"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#mh1sky)"/>
+
+<path d="M0 104 L112 40 L224 100 L336 32 L448 104 L560 42 L672 102 L784 36 L896 102 L1000 66 L1000 150 L0 150 Z" fill="#8299a9"/>
+<path d="M0 132 L120 82 L240 136 L360 78 L480 138 L600 84 L720 136 L840 80 L960 134 L1000 110 L1000 172 L0 172 Z" fill="#6d9179"/>
+<g fill="#33604a">
+<path d="M10 172 L28 122 L46 172 Z"/><path d="M48 172 L68 116 L88 172 Z"/>
+<path d="M912 172 L930 122 L948 172 Z"/><path d="M950 172 L970 114 L990 172 Z"/>
+</g>
+<text x="24" y="196" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#41525c">三方を山に囲まれた「三木の里」</text>
+
+<rect x="0" y="204" width="1000" height="356" fill="#f2ede2"/>
+
+<rect x="96" y="214" width="596" height="102" rx="6" fill="url(#mh1stage)"/>
+<rect x="96" y="214" width="596" height="14" fill="#7a2f2c"/>
+<path d="M96 228 L156 228 L140 316 L96 316 Z" fill="#8f3a35"/>
+<path d="M692 228 L632 228 L648 316 L692 316 Z" fill="#8f3a35"/>
+<rect x="96" y="310" width="596" height="14" fill="#b79a6a"/>
+<g stroke="#d8d2c4" stroke-width="4" fill="none">
+<path d="M330 300 V254"/><path d="M318 254 H342"/>
+</g>
+<circle cx="330" cy="246" r="9" fill="#d8d2c4"/>
+<g>
+<ellipse cx="420" cy="284" rx="24" ry="20" fill="#b5763c"/>
+<rect x="440" y="248" width="9" height="42" fill="#8a5a2c"/>
+<rect x="436" y="240" width="17" height="12" rx="3" fill="#8a5a2c"/>
+<circle cx="420" cy="284" r="7" fill="#3a2a18"/>
+</g>
+<g>
+<rect x="500" y="266" width="122" height="18" rx="4" fill="#22222a"/>
+<rect x="500" y="284" width="122" height="26" fill="#efece4"/>
+<g fill="#22222a">
+<rect x="510" y="284" width="7" height="16"/><rect x="524" y="284" width="7" height="16"/>
+<rect x="544" y="284" width="7" height="16"/><rect x="558" y="284" width="7" height="16"/><rect x="572" y="284" width="7" height="16"/>
+<rect x="592" y="284" width="7" height="16"/><rect x="606" y="284" width="7" height="16"/>
+</g>
+<rect x="512" y="310" width="8" height="26" fill="#3a3a44"/>
+<rect x="602" y="310" width="8" height="26" fill="#3a3a44"/>
+</g>
+<text x="96" y="208" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#5c4a3a">大ホールの舞台</text>
+
+<g fill="#b5453a">
+<g>
+<rect x="112" y="348" width="26" height="22" rx="5"/><rect x="146" y="348" width="26" height="22" rx="5"/><rect x="180" y="348" width="26" height="22" rx="5"/><rect x="214" y="348" width="26" height="22" rx="5"/><rect x="248" y="348" width="26" height="22" rx="5"/><rect x="282" y="348" width="26" height="22" rx="5"/><rect x="316" y="348" width="26" height="22" rx="5"/><rect x="350" y="348" width="26" height="22" rx="5"/><rect x="384" y="348" width="26" height="22" rx="5"/><rect x="418" y="348" width="26" height="22" rx="5"/><rect x="452" y="348" width="26" height="22" rx="5"/><rect x="486" y="348" width="26" height="22" rx="5"/><rect x="520" y="348" width="26" height="22" rx="5"/><rect x="554" y="348" width="26" height="22" rx="5"/><rect x="588" y="348" width="26" height="22" rx="5"/><rect x="622" y="348" width="26" height="22" rx="5"/><rect x="656" y="348" width="26" height="22" rx="5"/>
+</g>
+<g>
+<rect x="112" y="378" width="26" height="22" rx="5"/><rect x="146" y="378" width="26" height="22" rx="5"/><rect x="180" y="378" width="26" height="22" rx="5"/><rect x="214" y="378" width="26" height="22" rx="5"/><rect x="248" y="378" width="26" height="22" rx="5"/><rect x="282" y="378" width="26" height="22" rx="5"/><rect x="316" y="378" width="26" height="22" rx="5"/><rect x="350" y="378" width="26" height="22" rx="5"/><rect x="384" y="378" width="26" height="22" rx="5"/><rect x="418" y="378" width="26" height="22" rx="5"/><rect x="452" y="378" width="26" height="22" rx="5"/><rect x="486" y="378" width="26" height="22" rx="5"/><rect x="520" y="378" width="26" height="22" rx="5"/><rect x="554" y="378" width="26" height="22" rx="5"/><rect x="588" y="378" width="26" height="22" rx="5"/><rect x="622" y="378" width="26" height="22" rx="5"/><rect x="656" y="378" width="26" height="22" rx="5"/>
+</g>
+<g>
+<rect x="112" y="408" width="26" height="22" rx="5"/><rect x="146" y="408" width="26" height="22" rx="5"/><rect x="180" y="408" width="26" height="22" rx="5"/><rect x="214" y="408" width="26" height="22" rx="5"/><rect x="248" y="408" width="26" height="22" rx="5"/><rect x="282" y="408" width="26" height="22" rx="5"/><rect x="316" y="408" width="26" height="22" rx="5"/><rect x="350" y="408" width="26" height="22" rx="5"/><rect x="384" y="408" width="26" height="22" rx="5"/><rect x="418" y="408" width="26" height="22" rx="5"/><rect x="452" y="408" width="26" height="22" rx="5"/><rect x="486" y="408" width="26" height="22" rx="5"/><rect x="520" y="408" width="26" height="22" rx="5"/><rect x="554" y="408" width="26" height="22" rx="5"/><rect x="588" y="408" width="26" height="22" rx="5"/><rect x="622" y="408" width="26" height="22" rx="5"/><rect x="656" y="408" width="26" height="22" rx="5"/>
+</g>
+<g>
+<rect x="112" y="438" width="26" height="22" rx="5"/><rect x="146" y="438" width="26" height="22" rx="5"/><rect x="180" y="438" width="26" height="22" rx="5"/><rect x="214" y="438" width="26" height="22" rx="5"/><rect x="248" y="438" width="26" height="22" rx="5"/><rect x="282" y="438" width="26" height="22" rx="5"/><rect x="316" y="438" width="26" height="22" rx="5"/><rect x="350" y="438" width="26" height="22" rx="5"/><rect x="384" y="438" width="26" height="22" rx="5"/><rect x="418" y="438" width="26" height="22" rx="5"/><rect x="452" y="438" width="26" height="22" rx="5"/><rect x="486" y="438" width="26" height="22" rx="5"/><rect x="520" y="438" width="26" height="22" rx="5"/><rect x="554" y="438" width="26" height="22" rx="5"/><rect x="588" y="438" width="26" height="22" rx="5"/><rect x="622" y="438" width="26" height="22" rx="5"/><rect x="656" y="438" width="26" height="22" rx="5"/>
+</g>
+</g>
+
+<g>
+<rect x="112" y="472" width="176" height="26" rx="6" fill="#eef4f7" stroke="#4d7f9e" stroke-width="4"/>
+<g fill="#4d7f9e">
+<circle cx="146" cy="485" r="8"/><circle cx="200" cy="485" r="8"/><circle cx="254" cy="485" r="8"/>
+</g>
+<text x="300" y="492" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#2f6180">車イス専用席は3席</text>
+</g>
+<text x="112" y="524" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#41525c">固定席 797席</text>
+<text x="300" y="524" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#5c6a5c">町の人口16,422人なら、20.6人に1席</text>
+
+<g>
+<rect x="716" y="214" width="266" height="298" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="716" y="214" width="266" height="34" rx="8" fill="#1f3e52"/>
+<text x="732" y="238" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">2026年度の主催4公演</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<rect x="732" y="262" width="234" height="52" rx="5" fill="#f4f7f1" stroke="#b8c7b2" stroke-width="2"/>
+<text x="744" y="284" font-size="17" font-weight="bold" fill="#33503f">8月30日（日）</text>
+<text x="744" y="305" font-size="14" fill="#4a5a4b">15:00開演／一般6,800円</text>
+<rect x="732" y="322" width="234" height="52" rx="5" fill="#f4f7f1" stroke="#b8c7b2" stroke-width="2"/>
+<text x="744" y="344" font-size="17" font-weight="bold" fill="#33503f">9月6日（日）</text>
+<text x="744" y="365" font-size="14" fill="#4a5a4b">14:00開演／一般5,800円</text>
+<rect x="732" y="382" width="234" height="52" rx="5" fill="#f4f7f1" stroke="#b8c7b2" stroke-width="2"/>
+<text x="744" y="404" font-size="17" font-weight="bold" fill="#33503f">10月4日（日）</text>
+<text x="744" y="425" font-size="14" fill="#4a5a4b">15:00開演／一般7,300円</text>
+<rect x="732" y="442" width="234" height="52" rx="5" fill="#f4f7f1" stroke="#b8c7b2" stroke-width="2"/>
+<text x="744" y="464" font-size="17" font-weight="bold" fill="#33503f">11月29日（日）</text>
+<text x="744" y="485" font-size="14" fill="#4a5a4b">15:00開演／一般7,500円</text>
+</g>
+</g>
+</svg>

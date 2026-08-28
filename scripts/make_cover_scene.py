@@ -4034,7 +4034,58 @@ def scene_morimori_2man_matsuri(d):
     band(d, ["支えているのは、", "朝6時に着ける人たち"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_bunka_kaikan_miki_hall(d):
+    """文化会館の正面と、四公演の掲示を見上げる人の場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 656, 704, 748], 300)
+    d.polygon([(0, 292), (760, 284), (760, 322), (0, 332)], fill=(122, 166, 88))
+    d.polygon([(0, 326), (760, 316), (760, BAND_TOP), (0, BAND_TOP)], fill=(222, 227, 216))
+    # 文化会館の建物
+    d.polygon([(96, 306), (380, 232), (664, 306)], fill=(122, 134, 143))
+    d.rectangle([96, 300, 664, 316], fill=(96, 106, 114))
+    d.rectangle([112, 316, 648, 520], fill=(228, 231, 232), outline=(166, 176, 182), width=4)
+    for i in range(4):
+        d.rectangle([140 + i * 66, 340, 176 + i * 66, 404], fill=(196, 216, 228),
+                    outline=(150, 174, 189), width=3)
+    # 入口
+    d.rectangle([428, 424, 560, 520], fill=(203, 217, 225), outline=(150, 174, 189), width=4)
+    d.line([(494, 424), (494, 520)], fill=(150, 174, 189), width=4)
+    # 建物の帯（公演の告知）
+    d.rectangle([126, 418, 424, 504], fill=(255, 255, 255), outline=(31, 62, 82), width=5)
+    d.text((148, 428), "2026年度 主催4公演",
+           font=ImageFont.truetype(FONT_BOLD, 26), fill=(31, 62, 82))
+    f_small = ImageFont.truetype(FONT_REGULAR, 20)
+    d.text((148, 462), "8/30・9/6・10/4・11/29", font=ImageFont.truetype(FONT_REGULAR, 22), fill=(74, 90, 100))
+    # 右：座席数の札
+    d.rounded_rectangle([580, 330, 748, 400], radius=8, fill=(255, 255, 255),
+                        outline=(184, 68, 58), width=5)
+    d.text((596, 338), "固定席 797", font=ImageFont.truetype(FONT_BOLD, 26), fill=(166, 59, 49))
+    d.text((596, 370), "車イス席 3", font=f_small, fill=(125, 75, 68))
+    # 左：切符売り場と友の会の札
+    d.rectangle([12, 396, 108, 520], fill=(243, 240, 230), outline=(160, 152, 134), width=4)
+    d.rectangle([24, 418, 96, 452], fill=(196, 216, 228), outline=(150, 174, 189), width=3)
+    d.rounded_rectangle([6, 326, 124, 396], radius=8, fill=(255, 255, 255),
+                        outline=(47, 127, 95), width=5)
+    d.text((20, 332), "友の会", font=ImageFont.truetype(FONT_BOLD, 24), fill=(43, 111, 84))
+    d.text((20, 362), "500円引", font=ImageFont.truetype(FONT_REGULAR, 19), fill=(65, 112, 93))
+    # 手前：掲示を見上げる二人と車イスの人
+    d.polygon([(0, 520), (760, 508), (760, BAND_TOP), (0, BAND_TOP)], fill=(205, 200, 186))
+    for cx, body in ((236, (92, 127, 87)), (296, (63, 111, 134))):
+        d.ellipse([cx - 17, 496, cx + 17, 530], fill=(227, 195, 157), outline=(185, 146, 107), width=3)
+        d.rounded_rectangle([cx - 15, 530, cx + 15, 570], radius=13, fill=body)
+        d.line([(cx - 7, 570), (cx - 12, BAND_TOP)], fill=(67, 80, 90), width=10)
+        d.line([(cx + 7, 570), (cx + 12, BAND_TOP)], fill=(67, 80, 90), width=10)
+    d.ellipse([620, 528, 664, 572], outline=(67, 80, 90), width=6)
+    d.ellipse([632, 540, 652, 560], fill=(150, 162, 170))
+    d.rounded_rectangle([648, 512, 690, 556], radius=10, fill=(184, 80, 58))
+    d.ellipse([656, 480, 690, 514], fill=(227, 195, 157), outline=(185, 146, 107), width=3)
+    d.line([(690, 556), (716, 548)], fill=(67, 80, 90), width=9)
+    band(d, ["四公演を支えるのは、", "ミキホール文化振興会"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
+    "20260829-morimachi-bunka-kaikan-miki-hall": scene_bunka_kaikan_miki_hall,
     "20260829-morimori-2man-matsuri-sasaeru": scene_morimori_2man_matsuri,
     "20260828-morimachi-mikura-akiya-bank": scene_mikura_akiya_bank,
     "20260828-morimachi-akiya-bank-chiku-kakakusa": scene_akiya_bank_chiku,
