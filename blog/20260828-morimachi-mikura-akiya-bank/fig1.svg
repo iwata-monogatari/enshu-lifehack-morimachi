@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mk1title mk1desc">
+<title id="mk1title">森町三倉の空き家バンク3件と、谷を下る道に並ぶ距離</title>
+<desc id="mk1desc">谷あいの三倉に空き家2件と空き地1件が点在し、郵便局・総合センター・デイサービスセンターの3施設が並び、谷に沿う道に秋葉バス三倉停2.2kmと遠州森駅12.0kmの標識が立つ様子を描いた図。</desc>
+<defs>
+<linearGradient id="mk1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe0ec"/><stop offset="1" stop-color="#edf2e6"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#mk1sky)"/>
+
+<path d="M0 150 L120 42 L240 138 L360 30 L470 132 L580 48 L700 140 L820 44 L930 136 L1000 92 L1000 200 L0 200 Z" fill="#7f97a8"/>
+<path d="M0 176 L110 96 L220 172 L330 88 L440 170 L550 100 L660 176 L770 96 L880 172 L1000 120 L1000 220 L0 220 Z" fill="#6b8f78"/>
+<g fill="#33604a">
+<path d="M18 220 L36 158 L54 220 Z"/><path d="M56 220 L74 168 L92 220 Z"/><path d="M96 220 L116 152 L136 220 Z"/>
+<path d="M300 220 L318 164 L336 220 Z"/><path d="M340 220 L360 156 L380 220 Z"/>
+<path d="M840 220 L858 166 L876 220 Z"/><path d="M880 220 L900 154 L920 220 Z"/><path d="M922 220 L940 168 L958 220 Z"/>
+</g>
+<rect x="0" y="214" width="1000" height="346" fill="#e6eddc"/>
+
+<path d="M0 300 C 160 262, 260 300, 360 296 C 520 290, 660 322, 1000 316 L1000 356 C 660 362, 520 330, 360 336 C 260 340, 160 302, 0 340 Z" fill="#9dc0d2" opacity="0.75"/>
+<path d="M40 470 C 240 452, 420 476, 620 448 C 760 428, 880 420, 1000 416" stroke="#c9c2ac" stroke-width="16" fill="none"/>
+<path d="M40 470 C 240 452, 420 476, 620 448 C 760 428, 880 420, 1000 416" stroke="#eae5d3" stroke-width="5" fill="none" stroke-dasharray="18 16"/>
+
+<g>
+<rect x="46" y="352" width="112" height="66" fill="#f6f4ea" stroke="#7d8f76" stroke-width="3"/>
+<path d="M32 352 L102 310 L172 352 Z" fill="#8d7a63"/>
+<rect x="66" y="370" width="26" height="22" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="112" y="370" width="26" height="22" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="80" y="396" width="30" height="22" fill="#a98f6f" stroke="#7d6b52" stroke-width="2"/>
+<rect x="38" y="426" width="128" height="30" rx="4" fill="#1f3e52"/>
+<text x="48" y="447" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">100万円</text>
+</g>
+<g>
+<rect x="196" y="366" width="126" height="60" fill="#f2efe3" stroke="#7d8f76" stroke-width="3"/>
+<path d="M184 366 L259 328 L334 366 Z" fill="#95573f"/>
+<rect x="214" y="382" width="26" height="20" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="262" y="382" width="26" height="20" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="188" y="434" width="182" height="30" rx="4" fill="#1f3e52"/>
+<text x="198" y="455" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">200万円 築49年</text>
+</g>
+<g>
+<rect x="360" y="392" width="112" height="48" rx="5" fill="#c8d8be" stroke="#7e9a70" stroke-width="3"/>
+<g stroke="#8fae7e" stroke-width="3"><path d="M374 434 L380 412"/><path d="M398 436 L404 410"/><path d="M422 434 L428 412"/><path d="M446 436 L452 412"/></g>
+<rect x="356" y="448" width="120" height="28" rx="4" fill="#4f6b45"/>
+<text x="366" y="468" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#ffffff">空き地 応相談</text>
+</g>
+
+<g>
+<rect x="60" y="252" width="80" height="46" fill="#fdf6ea" stroke="#8a7f63" stroke-width="3"/>
+<path d="M52 252 L100 226 L148 252 Z" fill="#b04a3c"/>
+<text x="62" y="316" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">郵便局</text>
+<rect x="180" y="248" width="96" height="50" fill="#f1efe6" stroke="#8a7f63" stroke-width="3"/>
+<path d="M172 248 L228 220 L284 248 Z" fill="#6f7f6a"/>
+<text x="182" y="316" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">総合センター</text>
+<rect x="316" y="252" width="96" height="46" fill="#f6f2ea" stroke="#8a7f63" stroke-width="3"/>
+<path d="M308 252 L364 228 L420 252 Z" fill="#7a8fa0"/>
+<text x="318" y="316" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">デイサービス</text>
+</g>
+<text x="56" y="242" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">三倉の集落（人口661人）</text>
+
+<g>
+<rect x="556" y="386" width="12" height="70" fill="#8e9aa2"/>
+<rect x="500" y="352" width="132" height="40" rx="4" fill="#ffffff" stroke="#4f8446" stroke-width="4"/>
+<text x="510" y="379" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#3c6b36">バス停 2.2km</text>
+</g>
+<g>
+<rect x="812" y="366" width="12" height="76" fill="#8e9aa2"/>
+<rect x="740" y="326" width="164" height="44" rx="4" fill="#ffffff" stroke="#4d7f9e" stroke-width="4"/>
+<text x="750" y="356" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#2f5c76">森駅 12.0km</text>
+</g>
+
+<g>
+<rect x="884" y="392" width="66" height="46" fill="#f2efe3" stroke="#7d8f76" stroke-width="3"/>
+<path d="M876 392 L917 368 L958 392 Z" fill="#95573f"/>
+<rect x="820" y="404" width="52" height="34" fill="#ffffff" stroke="#a03b30" stroke-width="3"/>
+<path d="M846 410 V432 M835 421 H857" stroke="#a03b30" stroke-width="5"/>
+<text x="820" y="460" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">病院は谷の下</text>
+</g>
+
+<rect x="0" y="492" width="1000" height="68" fill="#1f3e52"/>
+<rect x="0" y="492" width="1000" height="6" fill="#d6a83c"/>
+<text x="40" y="536" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="24" font-weight="bold" fill="#ffffff">三倉に小学校・中学校はない。町の小学校は3校、中学校は2校</text>
+</svg>

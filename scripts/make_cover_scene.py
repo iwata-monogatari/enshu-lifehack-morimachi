@@ -3907,7 +3907,65 @@ def scene_akiya_bank_chiku(d):
     band(d, ["森町の空き家バンク23件は", "地区で13倍ひらく"], "森町ライフハック／空き家・空き地バンク物件公開ページ")
 
 
+
+def scene_mikura_akiya_bank(d):
+    sky(d)
+    d.polygon([(0, 250), (90, 120), (180, 236), (280, 104), (380, 240),
+               (480, 118), (580, 244), (680, 110), (760, 232), (760, 300), (0, 300)],
+              fill=(127, 151, 168))
+    d.polygon([(0, 286), (100, 186), (210, 288), (320, 178), (430, 290),
+               (540, 190), (650, 288), (760, 196), (760, 320), (0, 320)],
+              fill=(107, 143, 120))
+    cedars(d, [14, 52, 92, 300, 340, 660, 700, 740], 320, h=64, color=(51, 96, 74))
+    d.polygon([(0, 316), (760, 306), (760, BAND_TOP), (0, BAND_TOP)], fill=(230, 237, 220))
+    # 谷を流れる川
+    d.polygon([(0, 320), (240, 312), (500, 332), (760, 320),
+               (760, 344), (500, 354), (240, 334), (0, 342)], fill=(157, 192, 210))
+    # 谷に沿う道
+    d.line([(0, 552), (760, 528)], fill=(201, 194, 172), width=20)
+    for x in range(20, 760, 60):
+        y = 552 - x * 24 // 760
+        d.line([(x, y), (x + 28, y - 1)], fill=(234, 229, 211), width=4)
+    # 地区名
+    d.text((24, 352), "三倉（人口661人）", font=ImageFont.truetype(FONT_BOLD, 20), fill="#33503f")
+    # 空き家1（100万円）
+    d.rectangle([40, 416, 152, 472], fill=(246, 244, 234), outline=(125, 143, 118), width=3)
+    d.polygon([(26, 416), (96, 382), (166, 416)], fill=(141, 122, 99))
+    d.rectangle([58, 430, 84, 452], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.rectangle([104, 430, 130, 452], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.rectangle([30, 480, 166, 512], fill=(31, 62, 82))
+    d.text((40, 486), "100万円", font=ImageFont.truetype(FONT_BOLD, 21), fill="#ffffff")
+    # 空き家2（200万円・築49年）
+    d.rectangle([214, 422, 342, 476], fill=(242, 239, 227), outline=(125, 143, 118), width=3)
+    d.polygon([(202, 422), (278, 388), (354, 422)], fill=(149, 87, 63))
+    d.rectangle([234, 436, 260, 456], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.rectangle([288, 436, 314, 456], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.rectangle([198, 480, 372, 512], fill=(31, 62, 82))
+    d.text((208, 486), "200万円 築49年", font=ImageFont.truetype(FONT_BOLD, 21), fill="#ffffff")
+    # 空き地（応相談）
+    d.rectangle([396, 440, 500, 478], fill=(200, 216, 190), outline=(126, 154, 112), width=3)
+    for x in range(408, 496, 22):
+        d.line([(x, 474), (x + 6, 452)], fill=(143, 174, 126), width=3)
+    d.rectangle([382, 486, 516, 518], fill=(79, 107, 69))
+    d.text((390, 493), "空き地 応相談", font=ImageFont.truetype(FONT_BOLD, 17), fill="#ffffff")
+    # 集落にある3施設（右上）
+    for x, roof, name in ((540, (176, 74, 60), "郵便局"),
+                          (608, (111, 127, 106), "総合ｾﾝﾀｰ"),
+                          (676, (122, 143, 160), "ﾃﾞｲｻｰﾋﾞｽ")):
+        d.rectangle([x, 360, x + 58, 392], fill=(250, 246, 236), outline=(138, 127, 99), width=3)
+        d.polygon([(x - 6, 360), (x + 29, 342), (x + 64, 360)], fill=roof)
+        d.text((x - 4, 396), name, font=ImageFont.truetype(FONT_REGULAR, 13), fill="#4a5a4b")
+    # 距離の標識（右下）
+    d.rectangle([626, 508, 646, 552], fill=(142, 154, 162))
+    d.rectangle([516, 420, 752, 464], fill=(255, 255, 255), outline=(77, 127, 158), width=5)
+    d.text((528, 430), "森駅 12.0km", font=ImageFont.truetype(FONT_BOLD, 24), fill="#2f5c76")
+    d.rectangle([528, 470, 752, 508], fill=(255, 255, 255), outline=(79, 132, 70), width=4)
+    d.text((540, 478), "バス停 2.2km", font=ImageFont.truetype(FONT_BOLD, 21), fill="#3c6b36")
+    band(d, ["三倉の空き家バンクは3件", "100万円と築49年の木造"], "森町ライフハック／空き家・空き地バンク物件公開ページ")
+
+
 SCENES = {
+    "20260828-morimachi-mikura-akiya-bank": scene_mikura_akiya_bank,
     "20260828-morimachi-akiya-bank-chiku-kakakusa": scene_akiya_bank_chiku,
     "20260828-tenhama-thg100-morimachi-eki": scene_thg100_morimachi_eki,
     "20260828-morimachi-koutsuu-kuhaku-chiiki": scene_koutsuu_kuhaku_chiiki,

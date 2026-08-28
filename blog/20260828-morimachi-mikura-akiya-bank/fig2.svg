@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mk2title mk2desc">
+<title id="mk2title">三倉の空き家を検討するときに確かめる四つの段</title>
+<desc id="mk2desc">地図で距離に線を引き、一週間の予定表に印を付け、資料から水道と浄化槽と用途地域を書き出し、役場へ電話して面積と築年を聞くまでの順序を、冬の凍結と台風の停電の注意とともに描いた図。</desc>
+<defs>
+<linearGradient id="mk2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d2e2ee"/><stop offset="1" stop-color="#eef3e7"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#mk2sky)"/>
+
+<path d="M0 118 L118 36 L236 112 L354 28 L472 116 L590 40 L708 118 L826 36 L944 114 L1000 80 L1000 168 L0 168 Z" fill="#8299a9"/>
+<path d="M0 144 L120 84 L240 148 L360 80 L480 150 L600 86 L720 148 L840 82 L960 146 L1000 118 L1000 188 L0 188 Z" fill="#6d9179"/>
+<g fill="#33604a">
+<path d="M10 188 L28 134 L46 188 Z"/><path d="M48 188 L68 128 L88 188 Z"/>
+<path d="M912 188 L930 134 L948 188 Z"/><path d="M950 188 L970 126 L990 188 Z"/>
+</g>
+<rect x="0" y="182" width="1000" height="378" fill="#e8efdf"/>
+<path d="M0 214 C 200 200, 420 232, 640 214 C 800 200, 900 210, 1000 204" stroke="#9dc0d2" stroke-width="12" fill="none" opacity="0.8"/>
+
+<path d="M70 322 L800 322" stroke="#c9c2ac" stroke-width="12" fill="none"/>
+<g fill="#4d7f9e">
+<path d="M244 314 L264 322 L244 330 Z"/><path d="M438 314 L458 322 L438 330 Z"/><path d="M632 314 L652 322 L632 330 Z"/>
+</g>
+
+<g>
+<rect x="62" y="216" width="148" height="100" rx="5" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<path d="M74 300 C 116 268, 152 292, 198 250" stroke="#c8452f" stroke-width="4" fill="none"/>
+<circle cx="76" cy="300" r="7" fill="#c8452f"/><circle cx="198" cy="250" r="7" fill="#c8452f"/>
+<g stroke="#cdd8c6" stroke-width="2"><path d="M62 244 H210"/><path d="M62 272 H210"/><path d="M110 216 V316"/><path d="M158 216 V316"/></g>
+<circle cx="70" cy="212" r="9" fill="#1f3e52"/>
+<text x="66" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">1</text>
+<text x="62" y="360" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">距離に線を引く</text>
+<text x="62" y="382" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">駅12.0km・病院まで</text>
+</g>
+
+<g>
+<rect x="266" y="216" width="148" height="100" rx="5" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<rect x="266" y="216" width="148" height="22" fill="#4f6b45"/>
+<text x="276" y="233" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" font-weight="bold" fill="#ffffff">月 火 水 木 金 土 日</text>
+<g stroke="#ded3b4" stroke-width="2"><path d="M266 262 H414"/><path d="M266 288 H414"/></g>
+<circle cx="292" cy="252" r="9" fill="#c8452f"/><circle cx="356" cy="278" r="9" fill="#4d7f9e"/><circle cx="392" cy="304" r="9" fill="#d68a3c"/>
+<circle cx="274" cy="212" r="9" fill="#1f3e52"/>
+<text x="270" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">2</text>
+<text x="266" y="360" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">一週間に置き換える</text>
+<text x="266" y="382" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">通院・買い物・通学</text>
+</g>
+
+<g>
+<rect x="470" y="216" width="148" height="100" rx="5" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<g fill="#4d7f9e"><circle cx="492" cy="244" r="6"/><circle cx="492" cy="270" r="6"/><circle cx="492" cy="296" r="6"/></g>
+<text x="508" y="250" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#33503f">簡易水道</text>
+<text x="508" y="276" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#33503f">単独浄化槽</text>
+<text x="508" y="302" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#33503f">無指定地域</text>
+<circle cx="478" cy="212" r="9" fill="#1f3e52"/>
+<text x="474" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">3</text>
+<text x="470" y="360" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">資料から書き出す</text>
+<text x="470" y="382" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">住んでからの費用</text>
+</g>
+
+<g>
+<rect x="676" y="222" width="148" height="94" rx="5" fill="#f6f4ea" stroke="#7d8f76" stroke-width="3"/>
+<path d="M666 222 L750 180 L834 222 Z" fill="#8d7a63"/>
+<rect x="666" y="222" width="168" height="12" fill="#6d5c49"/>
+<rect x="730" y="276" width="40" height="40" fill="#a98f6f" stroke="#7d6b52" stroke-width="2"/>
+<rect x="694" y="248" width="26" height="22" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="782" y="248" width="26" height="22" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<g transform="translate(618 246)">
+<rect x="0" y="0" width="46" height="66" rx="9" fill="#33505e"/>
+<rect x="5" y="8" width="36" height="42" rx="3" fill="#c8e6a0"/>
+<circle cx="23" cy="58" r="5" fill="#8fa2ab"/>
+</g>
+<circle cx="684" cy="218" r="9" fill="#1f3e52"/>
+<text x="680" y="223" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">4</text>
+<text x="662" y="360" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">役場へ電話する</text>
+<text x="662" y="382" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">82番の面積と築年</text>
+</g>
+
+<g>
+<rect x="856" y="216" width="122" height="168" rx="7" fill="#ffffff" stroke="#7a94a3" stroke-width="4"/>
+<g stroke="#4d7f9e" stroke-width="4" fill="none">
+<path d="M894 250 V286"/><path d="M876 268 H912"/><path d="M881 255 L907 281"/><path d="M907 255 L881 281"/>
+</g>
+<text x="866" y="316" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#33503f">冬は凍結</text>
+<g fill="#d68a3c"><path d="M898 330 L878 362 L894 362 L882 386 L916 350 L898 350 L910 330 Z"/></g>
+<text x="866" y="410" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#33503f">台風は停電</text>
+</g>
+
+<rect x="0" y="424" width="1000" height="136" fill="#dfe8d2"/>
+<g stroke="#b6c9a4" stroke-width="3"><path d="M0 442 H1000"/><path d="M0 468 H1000"/><path d="M0 494 H1000"/></g>
+<rect x="52" y="450" width="646" height="78" rx="6" fill="#1f3e52"/>
+<rect x="52" y="450" width="646" height="6" fill="#d6a83c"/>
+<text x="72" y="490" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="23" font-weight="bold" fill="#ffffff">価格より先に、距離と水と道路を見る</text>
+<text x="72" y="517" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#d7e2e8">問い合わせは定住推進課移住交流係 0538-85-6321</text>
+</svg>
