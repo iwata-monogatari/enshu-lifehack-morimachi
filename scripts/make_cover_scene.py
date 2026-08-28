@@ -3964,7 +3964,78 @@ def scene_mikura_akiya_bank(d):
     band(d, ["三倉の空き家バンクは3件", "100万円と築49年の木造"], "森町ライフハック／空き家・空き地バンク物件公開ページ")
 
 
+def scene_morimori_2man_matsuri(d):
+    """文化会館の駐車場に並ぶ産業祭のテントと、荷を下ろす軽トラックの場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 102, 664, 712], 300)
+    # 奉納の山裾と文化会館
+    d.polygon([(0, 292), (760, 284), (760, 320), (0, 330)], fill=(122, 166, 88))
+    d.polygon([(0, 324), (760, 314), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 219, 205))
+    d.polygon([(268, 268), (380, 226), (492, 268)], fill=(127, 141, 151))
+    d.rectangle([278, 268, 482, 336], fill=(223, 227, 230), outline=(169, 179, 186), width=3)
+    for i in range(3):
+        d.rectangle([300 + i * 56, 288, 326 + i * 56, 332], fill=(196, 216, 228),
+                    outline=(150, 174, 189), width=2)
+    d.rectangle([498, 318, 630, 338], fill=(147, 128, 104), outline=(112, 96, 76), width=3)
+    d.rectangle([516, 268, 528, 320], fill=(141, 122, 99))
+    d.rectangle([600, 268, 612, 320], fill=(141, 122, 99))
+    d.rectangle([502, 252, 626, 270], fill=(163, 116, 63))
+    d.rectangle([516, 282, 612, 300], fill=(200, 69, 47))
+    d.rectangle([492, 300, 508, 338], fill=(88, 96, 102))
+    d.rectangle([620, 300, 636, 338], fill=(88, 96, 102))
+    # 駐車場の白線
+    d.polygon([(0, 356), (760, 344), (760, BAND_TOP), (0, BAND_TOP)], fill=(203, 206, 199))
+    for i in range(8):
+        x0 = i * 96
+        d.line([(x0, 366 - i), (x0, 402 - i)], fill=(250, 250, 246), width=5)
+    # 中央：テント３張
+    for tx, roof in ((186, (248, 250, 246)), (392, (248, 250, 246)), (598, (248, 250, 246))):
+        d.polygon([(tx - 84, 404), (tx + 84, 404), (tx + 104, 440), (tx - 104, 440)],
+                  fill=roof, outline=(154, 168, 160), width=4)
+        d.rectangle([tx - 104, 440, tx + 104, 452], fill=(75, 122, 99))
+        d.rectangle([tx - 96, 452, tx - 86, 546], fill=(154, 168, 160))
+        d.rectangle([tx + 86, 452, tx + 96, 546], fill=(154, 168, 160))
+        d.rectangle([tx - 70, 488, tx + 70, 502], fill=(123, 113, 104))
+        d.rectangle([tx - 64, 502, tx + 64, 542], fill=(234, 229, 218),
+                    outline=(184, 177, 162), width=3)
+    # 左のテント：茶の袋
+    for i in range(3):
+        d.rounded_rectangle([140 + i * 34, 462, 166 + i * 34, 488], radius=5,
+                            fill=(79, 127, 92), outline=(55, 98, 74), width=3)
+    # 中央のテント：野菜の箱
+    d.rectangle([350, 456, 434, 488], fill=(208, 160, 94), outline=(162, 121, 63), width=3)
+    d.ellipse([358, 444, 380, 464], fill=(200, 69, 47))
+    d.ellipse([384, 442, 408, 464], fill=(214, 138, 60))
+    d.ellipse([410, 446, 430, 464], fill=(123, 162, 79))
+    # 右のテント：電源とコード
+    d.rectangle([566, 456, 632, 488], fill=(196, 205, 210), outline=(146, 158, 165), width=3)
+    d.line([(600, 542), (600, 566), (664, 566)], fill=(67, 80, 90), width=5)
+    d.rectangle([660, 556, 692, 576], fill=(67, 80, 90))
+    # 左：軽トラと荷降ろし
+    d.rectangle([10, 452, 118, 506], fill=(63, 111, 142))
+    d.rectangle([10, 428, 62, 456], fill=(90, 144, 173))
+    d.rectangle([120, 436, 182, 494], fill=(217, 226, 231), outline=(159, 178, 188), width=3)
+    d.ellipse([22, 496, 58, 532], fill=(60, 67, 72))
+    d.ellipse([32, 506, 48, 522], fill=(170, 178, 183))
+    d.ellipse([86, 496, 122, 532], fill=(60, 67, 72))
+    d.ellipse([96, 506, 112, 522], fill=(170, 178, 183))
+    d.rectangle([190, 470, 232, 502], fill=(201, 160, 106), outline=(156, 119, 72), width=3)
+    d.rectangle([194, 506, 236, 538], fill=(201, 160, 106), outline=(156, 119, 72), width=3)
+    # 立て札：出店料
+    d.rounded_rectangle([250, 340, 512, 400], radius=8, fill=(255, 255, 255),
+                        outline=(184, 68, 58), width=5)
+    d.text((266, 346), "町内 8,800円", font=ImageFont.truetype(FONT_BOLD, 26), fill=(166, 59, 49))
+    d.text((266, 370), "町外 17,600円", font=ImageFont.truetype(FONT_REGULAR, 22), fill=(125, 75, 68))
+    d.rounded_rectangle([534, 340, 748, 400], radius=8, fill=(255, 255, 255),
+                        outline=(47, 127, 95), width=5)
+    d.text((550, 346), "11月22日（日）", font=ImageFont.truetype(FONT_BOLD, 26), fill=(43, 111, 84))
+    d.text((550, 370), "9:00～15:30", font=ImageFont.truetype(FONT_REGULAR, 22), fill=(65, 112, 93))
+    band(d, ["支えているのは、", "朝6時に着ける人たち"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
+    "20260829-morimori-2man-matsuri-sasaeru": scene_morimori_2man_matsuri,
     "20260828-morimachi-mikura-akiya-bank": scene_mikura_akiya_bank,
     "20260828-morimachi-akiya-bank-chiku-kakakusa": scene_akiya_bank_chiku,
     "20260828-tenhama-thg100-morimachi-eki": scene_thg100_morimachi_eki,

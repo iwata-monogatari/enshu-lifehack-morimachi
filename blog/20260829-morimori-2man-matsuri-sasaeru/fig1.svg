@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mm1title mm1desc">
+<title id="mm1title">森町産業祭の当日、出店する側の一日</title>
+<desc id="mm1desc">文化会館の駐車場を会場にした産業祭で、午前6時に軽トラックから荷を下ろし、午前9時からテントの下で茶と野菜を売り、午後3時30分に机と椅子を片付けるまでの三つの場面を、一本の時間の帯の上に並べた図。テントの脇に出店料8,800円の札、机の下に1,500Wまでの電源が描かれている。</desc>
+<defs>
+<linearGradient id="mm1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfe0ee"/><stop offset="1" stop-color="#f0f2e4"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#mm1sky)"/>
+
+<path d="M0 110 L110 42 L220 106 L330 34 L440 110 L550 44 L660 108 L770 38 L880 106 L1000 60 L1000 162 L0 162 Z" fill="#8598a8"/>
+<path d="M0 140 L120 88 L240 144 L360 84 L480 146 L600 90 L720 144 L840 86 L960 142 L1000 116 L1000 186 L0 186 Z" fill="#6c9078"/>
+<g fill="#33604a">
+<path d="M8 186 L26 132 L44 186 Z"/><path d="M46 186 L66 126 L86 186 Z"/>
+<path d="M914 186 L932 132 L950 186 Z"/><path d="M952 186 L972 124 L992 186 Z"/>
+</g>
+
+<rect x="0" y="180" width="1000" height="380" fill="#e9eee1"/>
+
+<g>
+<rect x="392" y="120" width="216" height="66" fill="#dfe3e6" stroke="#a9b3ba" stroke-width="3"/>
+<path d="M382 120 L500 78 L618 120 Z" fill="#7f8d97"/>
+<rect x="424" y="140" width="30" height="46" fill="#c4d8e4" stroke="#96aebd" stroke-width="2"/>
+<rect x="470" y="140" width="30" height="46" fill="#c4d8e4" stroke="#96aebd" stroke-width="2"/>
+<rect x="516" y="140" width="30" height="46" fill="#c4d8e4" stroke="#96aebd" stroke-width="2"/>
+<rect x="628" y="132" width="14" height="54" fill="#8d7a63"/>
+<rect x="700" y="132" width="14" height="54" fill="#8d7a63"/>
+<rect x="612" y="118" width="118" height="16" fill="#a3743f"/>
+<rect x="622" y="146" width="82" height="10" fill="#c8452f"/>
+<text x="392" y="112" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#41525c">文化会館とステージの櫓</text>
+</g>
+
+<rect x="0" y="196" width="1000" height="52" fill="#cfd6cb"/>
+<g stroke="#ffffff" stroke-width="4"><path d="M0 224 H60"/><path d="M110 224 H170"/><path d="M220 224 H280"/><path d="M330 224 H390"/><path d="M440 224 H500"/><path d="M550 224 H610"/><path d="M660 224 H720"/><path d="M770 224 H830"/><path d="M880 224 H940"/></g>
+
+<g>
+<rect x="34" y="272" width="252" height="212" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="34" y="272" width="252" height="30" rx="8" fill="#1f3e52"/>
+<text x="50" y="294" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">午前6時00分　搬入</text>
+<rect x="70" y="352" width="112" height="52" rx="6" fill="#3f6f8e"/>
+<rect x="70" y="330" width="52" height="26" rx="5" fill="#5a90ad"/>
+<rect x="126" y="336" width="60" height="46" fill="#d9e2e7" stroke="#9fb2bc" stroke-width="3"/>
+<circle cx="92" cy="410" r="16" fill="#3c4348"/><circle cx="92" cy="410" r="6" fill="#aab2b7"/>
+<circle cx="164" cy="410" r="16" fill="#3c4348"/><circle cx="164" cy="410" r="6" fill="#aab2b7"/>
+<rect x="196" y="358" width="44" height="34" fill="#c9a06a" stroke="#9c7748" stroke-width="3"/>
+<rect x="200" y="394" width="44" height="32" fill="#c9a06a" stroke="#9c7748" stroke-width="3"/>
+<g>
+<circle cx="252" cy="342" r="15" fill="#e3c39d" stroke="#b9926b" stroke-width="2"/>
+<rect x="238" y="358" width="28" height="46" rx="11" fill="#4f7f5c"/>
+<path d="M240 404 L232 440" stroke="#43505a" stroke-width="8"/><path d="M264 404 L272 440" stroke="#43505a" stroke-width="8"/>
+<path d="M238 368 L216 384" stroke="#4f7f5c" stroke-width="8"/>
+</g>
+<text x="50" y="464" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#41525c">まだ暗いうちに軽トラを着ける</text>
+</g>
+
+<g>
+<rect x="308" y="272" width="356" height="212" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="308" y="272" width="356" height="30" rx="8" fill="#41694f"/>
+<text x="324" y="294" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">午前9時00分　販売</text>
+<path d="M330 356 L640 356 L664 396 L306 396 Z" fill="#f8faf6" stroke="#9aa89f" stroke-width="4"/>
+<rect x="306" y="396" width="358" height="12" fill="#4b7a63"/>
+<rect x="322" y="408" width="10" height="76" fill="#9aa89f"/>
+<rect x="638" y="408" width="10" height="76" fill="#9aa89f"/>
+<rect x="360" y="424" width="230" height="14" fill="#7b7168"/>
+<rect x="366" y="438" width="218" height="42" fill="#eae5da" stroke="#b8b1a2" stroke-width="3"/>
+<rect x="376" y="400" width="54" height="24" rx="5" fill="#4f7f5c" stroke="#37624a" stroke-width="3"/>
+<rect x="440" y="402" width="54" height="22" rx="5" fill="#4f7f5c" stroke="#37624a" stroke-width="3"/>
+<rect x="506" y="398" width="66" height="26" fill="#d0a05e" stroke="#a2793f" stroke-width="3"/>
+<circle cx="522" cy="392" r="9" fill="#c8452f"/><circle cx="544" cy="392" r="9" fill="#d68a3c"/><circle cx="566" cy="392" r="9" fill="#7ba24f"/>
+<g>
+<circle cx="612" cy="424" r="15" fill="#e3c39d" stroke="#b9926b" stroke-width="2"/>
+<rect x="598" y="440" width="28" height="44" rx="11" fill="#c8452f"/>
+</g>
+<g>
+<circle cx="352" cy="430" r="14" fill="#e3c39d" stroke="#b9926b" stroke-width="2"/>
+<rect x="339" y="445" width="26" height="39" rx="10" fill="#3f6f8e"/>
+</g>
+<path d="M470 480 L470 500 L520 500" stroke="#43505a" stroke-width="5" fill="none"/>
+<rect x="516" y="492" width="34" height="18" rx="4" fill="#43505a"/>
+<text x="324" y="464" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#41525c">机1台と椅子2脚は実行委員会が用意</text>
+<rect x="556" y="440" width="98" height="40" rx="5" fill="#fffdf3" stroke="#c8452f" stroke-width="3"/>
+<text x="566" y="458" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#a63b31">町内1張</text>
+<text x="566" y="474" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#a63b31">8,800円</text>
+<rect x="556" y="500" width="98" height="26" rx="5" fill="#eef4f7" stroke="#4d7f9e" stroke-width="3"/>
+<text x="564" y="518" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#2f6180">電気1,500Wまで</text>
+</g>
+
+<g>
+<rect x="686" y="272" width="280" height="212" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="686" y="272" width="280" height="30" rx="8" fill="#7d5a2f"/>
+<text x="702" y="294" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" font-weight="bold" fill="#ffffff">午後3時30分　搬出</text>
+<path d="M716 330 L860 330 L876 352 L700 352 Z" fill="#e7e2d4" stroke="#b0a894" stroke-width="3"/>
+<rect x="712" y="368" width="120" height="14" fill="#7b7168"/>
+<rect x="718" y="382" width="20" height="34" fill="#8d8377"/>
+<rect x="806" y="382" width="20" height="34" fill="#8d8377"/>
+<rect x="852" y="360" width="34" height="56" rx="5" fill="#c9a06a" stroke="#9c7748" stroke-width="3"/>
+<rect x="892" y="374" width="34" height="42" rx="5" fill="#c9a06a" stroke="#9c7748" stroke-width="3"/>
+<g>
+<circle cx="768" cy="404" r="15" fill="#e3c39d" stroke="#b9926b" stroke-width="2"/>
+<rect x="754" y="420" width="28" height="44" rx="11" fill="#4f7f5c"/>
+<path d="M756 464 L748 486" stroke="#43505a" stroke-width="8"/><path d="M780 464 L788 486" stroke="#43505a" stroke-width="8"/>
+</g>
+<text x="702" y="464" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#41525c">片付けが終わって一日が閉じる</text>
+</g>
+
+<rect x="0" y="504" width="1000" height="56" fill="#1f3e52"/>
+<rect x="0" y="504" width="1000" height="6" fill="#d6a83c"/>
+<text x="34" y="542" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="22" font-weight="bold" fill="#ffffff">販売は6時間、拘束は9時間30分</text>
+<text x="470" y="542" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#d7e2e8">2026年11月22日／森町文化会館お祭り広場及び駐車場</text>
+</svg>

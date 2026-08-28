@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="mm2title mm2desc">
+<title id="mm2title">もりもり2万人まつりに関わるときの確認の四段</title>
+<desc id="mm2desc">カレンダーに11月22日と9月11日の印を付け、出店料8,800円に横幕3,300円と電気3,300円を積み上げて総額を出し、当日の9時間30分を三人で割り、実行委員会の番号0538-85-6319を控えるまでの順序を、荒天中止の掲示とともに描いた図。</desc>
+<defs>
+<linearGradient id="mm2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d3e1ec"/><stop offset="1" stop-color="#eff3e6"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#mm2sky)"/>
+
+<path d="M0 116 L118 38 L236 110 L354 30 L472 114 L590 42 L708 116 L826 38 L944 112 L1000 82 L1000 168 L0 168 Z" fill="#8299a9"/>
+<path d="M0 142 L120 86 L240 146 L360 82 L480 148 L600 88 L720 146 L840 84 L960 144 L1000 118 L1000 188 L0 188 Z" fill="#6d9179"/>
+<g fill="#33604a">
+<path d="M12 188 L30 134 L48 188 Z"/><path d="M50 188 L70 128 L90 188 Z"/>
+<path d="M910 188 L928 134 L946 188 Z"/><path d="M948 188 L968 126 L988 188 Z"/>
+</g>
+<rect x="0" y="182" width="1000" height="378" fill="#e8efdf"/>
+
+<path d="M70 322 L806 322" stroke="#c9c2ac" stroke-width="12" fill="none"/>
+<g fill="#4d7f9e">
+<path d="M244 314 L264 322 L244 330 Z"/><path d="M438 314 L458 322 L438 330 Z"/><path d="M634 314 L654 322 L634 330 Z"/>
+</g>
+
+<g>
+<rect x="62" y="216" width="150" height="102" rx="5" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<rect x="62" y="216" width="150" height="24" fill="#4f6b45"/>
+<text x="72" y="234" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" font-weight="bold" fill="#ffffff">日 月 火 水 木 金 土</text>
+<g stroke="#ded3b4" stroke-width="2"><path d="M62 266 H212"/><path d="M62 292 H212"/></g>
+<circle cx="92" cy="280" r="12" fill="#c8452f"/>
+<text x="83" y="285" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">11</text>
+<circle cx="180" cy="306" r="12" fill="#1f3e52"/>
+<text x="171" y="311" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">22</text>
+<circle cx="70" cy="212" r="9" fill="#1f3e52"/>
+<text x="66" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">1</text>
+<text x="62" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">日付を先に押さえる</text>
+<text x="62" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">締切9月11日／開催11月22日</text>
+</g>
+
+<g>
+<rect x="266" y="216" width="150" height="102" rx="5" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="278" y="292" width="60" height="18" rx="3" fill="#4d7f9e"/>
+<rect x="278" y="270" width="60" height="18" rx="3" fill="#7ba24f"/>
+<rect x="278" y="248" width="60" height="18" rx="3" fill="#d68a3c"/>
+<text x="346" y="262" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#33503f">電気3,300</text>
+<text x="346" y="284" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#33503f">横幕3,300</text>
+<text x="346" y="306" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#33503f">出店8,800</text>
+<text x="278" y="238" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#a63b31">計15,400円</text>
+<circle cx="274" cy="212" r="9" fill="#1f3e52"/>
+<text x="270" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">2</text>
+<text x="266" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">総額で見積もる</text>
+<text x="266" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">8,800円では止まらない</text>
+</g>
+
+<g>
+<rect x="470" y="216" width="150" height="102" rx="5" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="482" y="238" width="126" height="16" rx="4" fill="#dfe6d6"/>
+<rect x="482" y="238" width="34" height="16" rx="4" fill="#c8452f"/>
+<rect x="516" y="238" width="56" height="16" fill="#7ba24f"/>
+<rect x="572" y="238" width="36" height="16" rx="4" fill="#7d5a2f"/>
+<text x="482" y="272" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#33503f">6:00　9:00　15:30</text>
+<g>
+<circle cx="500" cy="296" r="9" fill="#e3c39d" stroke="#b9926b" stroke-width="2"/>
+<rect x="492" y="306" width="16" height="12" rx="5" fill="#c8452f"/>
+<circle cx="540" cy="296" r="9" fill="#e3c39d" stroke="#b9926b" stroke-width="2"/>
+<rect x="532" y="306" width="16" height="12" rx="5" fill="#4f7f5c"/>
+<circle cx="580" cy="296" r="9" fill="#e3c39d" stroke="#b9926b" stroke-width="2"/>
+<rect x="572" y="306" width="16" height="12" rx="5" fill="#3f6f8e"/>
+</g>
+<circle cx="478" cy="212" r="9" fill="#1f3e52"/>
+<text x="474" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">3</text>
+<text x="470" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">9時間30分を割る</text>
+<text x="470" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">誰が何時から入るか</text>
+</g>
+
+<g>
+<rect x="674" y="216" width="150" height="102" rx="5" fill="#f6f4ea" stroke="#7d8f76" stroke-width="3"/>
+<g transform="translate(690 236)">
+<rect x="0" y="0" width="48" height="68" rx="9" fill="#33505e"/>
+<rect x="5" y="8" width="38" height="44" rx="3" fill="#c8e6a0"/>
+<circle cx="24" cy="60" r="5" fill="#8fa2ab"/>
+</g>
+<rect x="752" y="244" width="58" height="52" rx="4" fill="#ffffff" stroke="#a9b3ba" stroke-width="2"/>
+<g stroke="#4d7f9e" stroke-width="3"><path d="M760 258 H802"/><path d="M760 270 H802"/><path d="M760 282 H788"/></g>
+<circle cx="682" cy="212" r="9" fill="#1f3e52"/>
+<text x="678" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">4</text>
+<text x="674" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">番号を控える</text>
+<text x="674" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">0538-85-6319</text>
+</g>
+
+<g>
+<rect x="856" y="216" width="122" height="164" rx="7" fill="#ffffff" stroke="#7a94a3" stroke-width="4"/>
+<path d="M876 246 C 890 226, 924 226, 936 248 C 956 248, 962 272, 942 276 L 880 276 C 862 274, 860 250, 876 246 Z" fill="#9fb3c0"/>
+<g stroke="#4d7f9e" stroke-width="4"><path d="M886 288 L878 312"/><path d="M912 288 L904 312"/><path d="M938 288 L930 312"/></g>
+<text x="866" y="342" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#33503f">雨天決行</text>
+<text x="866" y="366" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" font-weight="bold" fill="#a63b31">荒天中止</text>
+</g>
+
+<rect x="0" y="424" width="1000" height="136" fill="#dfe8d2"/>
+<g stroke="#b6c9a4" stroke-width="3"><path d="M0 442 H1000"/><path d="M0 468 H1000"/><path d="M0 494 H1000"/></g>
+<rect x="52" y="450" width="676" height="78" rx="6" fill="#1f3e52"/>
+<rect x="52" y="450" width="676" height="6" fill="#d6a83c"/>
+<text x="72" y="490" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="23" font-weight="bold" fill="#ffffff">金額より先に、締切と人手を数える</text>
+<text x="72" y="517" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#d7e2e8">問い合わせは森町産業祭実行委員会 0538-85-6319</text>
+</svg>
