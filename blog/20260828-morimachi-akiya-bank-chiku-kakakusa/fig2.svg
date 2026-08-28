@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ab2title ab2desc">
+<title id="ab2title">気になる物件を見つけてから見学にたどり着くまでの四つの段</title>
+<desc id="ab2desc">一覧から番号と価格を書き写し、物件詳細PDFで面積と築年を足し、電卓で単価を出し、様式第8号と様式第2号を役場へ提出するまでの順序を、先着順の札とともに描いた図。</desc>
+<defs>
+<linearGradient id="ab2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d6e5ee"/><stop offset="1" stop-color="#eff3e8"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#ab2sky)"/>
+
+<path d="M0 78 L110 34 L220 80 L330 30 L440 80 L550 32 L660 80 L770 34 L880 80 L990 36 L1000 78 L1000 118 L0 118 Z" fill="#96b2c3"/>
+<path d="M0 102 L130 62 L260 106 L390 60 L520 108 L650 62 L780 106 L910 64 L1000 102 L1000 140 L0 140 Z" fill="#7fa590"/>
+<g fill="#3f6b52">
+<path d="M6 140 L24 96 L42 140 Z"/><path d="M38 140 L58 90 L78 140 Z"/>
+<path d="M922 140 L940 96 L958 140 Z"/><path d="M954 140 L974 92 L994 140 Z"/>
+</g>
+<rect x="0" y="136" width="1000" height="14" fill="#8bb268"/>
+<rect x="0" y="148" width="1000" height="12" fill="#79a45c"/>
+<g stroke="#5c8746" stroke-width="2" opacity="0.5"><path d="M0 142 H1000"/><path d="M0 155 H1000"/></g>
+<rect x="0" y="160" width="1000" height="400" fill="#eaf0e0"/>
+
+<path d="M60 300 L780 300" stroke="#c9c2ac" stroke-width="12" fill="none"/>
+<g fill="#4d7f9e">
+<path d="M232 292 L252 300 L232 308 Z"/><path d="M424 292 L444 300 L424 308 Z"/><path d="M616 292 L636 300 L616 308 Z"/>
+</g>
+
+<g>
+<rect x="52" y="196" width="140" height="96" rx="5" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<g stroke="#b9c3b2" stroke-width="3"><path d="M66 218 H178"/><path d="M66 236 H178"/><path d="M66 254 H178"/><path d="M66 272 H150"/></g>
+<rect x="66" y="210" width="44" height="14" fill="#4d7f9e"/>
+<circle cx="60" cy="192" r="9" fill="#1f3e52"/>
+<text x="56" y="197" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">1</text>
+<text x="52" y="336" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">一覧から書き写す</text>
+<text x="52" y="358" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">登録番号・所在地・価格</text>
+</g>
+
+<g>
+<rect x="252" y="196" width="140" height="96" rx="5" fill="#fdf6ea" stroke="#b9922f" stroke-width="3"/>
+<rect x="252" y="196" width="140" height="22" fill="#c8452f"/>
+<text x="262" y="213" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#ffffff">PDF</text>
+<g stroke="#cbbf9d" stroke-width="3"><path d="M266 236 H378"/><path d="M266 254 H378"/><path d="M266 272 H340"/></g>
+<circle cx="260" cy="192" r="9" fill="#1f3e52"/>
+<text x="256" y="197" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">2</text>
+<text x="252" y="336" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">物件詳細を開く</text>
+<text x="252" y="358" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">土地・延床・築年</text>
+</g>
+
+<g>
+<rect x="452" y="192" width="112" height="104" rx="7" fill="#e8eef0" stroke="#8fa2ab" stroke-width="3"/>
+<rect x="464" y="204" width="88" height="26" fill="#33505e"/>
+<text x="472" y="223" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#c8e6a0">11,900</text>
+<g fill="#9fb0b8"><rect x="464" y="238" width="22" height="16" rx="3"/><rect x="497" y="238" width="22" height="16" rx="3"/><rect x="530" y="238" width="22" height="16" rx="3"/><rect x="464" y="260" width="22" height="16" rx="3"/><rect x="497" y="260" width="22" height="16" rx="3"/><rect x="530" y="260" width="22" height="16" rx="3"/></g>
+<rect x="464" y="274" width="88" height="14" rx="3" fill="#d68a3c"/>
+<circle cx="460" cy="188" r="9" fill="#1f3e52"/>
+<text x="456" y="193" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">3</text>
+<text x="440" y="336" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">面積で割る</text>
+<text x="440" y="358" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">1平方メートル単価</text>
+</g>
+
+<g>
+<rect x="644" y="212" width="152" height="76" fill="#f6f4ea" stroke="#7d8f76" stroke-width="3"/>
+<path d="M632 212 L720 168 L808 212 Z" fill="#8d7a63"/>
+<rect x="632" y="212" width="176" height="12" fill="#6d5c49"/>
+<rect x="700" y="248" width="40" height="40" fill="#a98f6f" stroke="#7d6b52" stroke-width="2"/>
+<rect x="660" y="234" width="26" height="24" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="756" y="234" width="26" height="24" fill="#c9dde6" stroke="#93aebc" stroke-width="2"/>
+<rect x="584" y="232" width="52" height="66" rx="4" fill="#ffffff" stroke="#4d7f9e" stroke-width="3" transform="rotate(-9 610 265)"/>
+<g stroke="#a9c0cd" stroke-width="3" transform="rotate(-9 610 265)"><path d="M594 252 H626"/><path d="M594 266 H626"/><path d="M594 280 H616"/></g>
+<circle cx="644" cy="208" r="9" fill="#1f3e52"/>
+<text x="640" y="213" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">4</text>
+<text x="628" y="336" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">役場へ提出する</text>
+<text x="628" y="358" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">様式第8号・様式第2号</text>
+</g>
+
+<g>
+<rect x="844" y="212" width="128" height="132" rx="6" fill="#ffffff" stroke="#c8452f" stroke-width="4"/>
+<text x="866" y="256" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="24" font-weight="bold" fill="#c8452f">先着順</text>
+<g fill="#c8452f"><circle cx="872" cy="290" r="10"/><circle cx="906" cy="290" r="10" opacity="0.6"/><circle cx="940" cy="290" r="10" opacity="0.3"/></g>
+<text x="858" y="326" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#7b4238">順番待ちが出る</text>
+<rect x="898" y="344" width="20" height="52" fill="#8e9aa2"/>
+</g>
+
+<rect x="0" y="424" width="1000" height="136" fill="#e2ead6"/>
+<g stroke="#b8cba6" stroke-width="3"><path d="M0 444 H1000"/><path d="M0 470 H1000"/><path d="M0 496 H1000"/></g>
+<rect x="52" y="452" width="620" height="76" rx="6" fill="#1f3e52"/>
+<rect x="52" y="452" width="620" height="6" fill="#d6a83c"/>
+<text x="72" y="492" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="23" font-weight="bold" fill="#ffffff">三段目までは、自宅で無料でできる</text>
+<text x="72" y="518" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#d7e2e8">問い合わせは定住推進課移住交流係 0538-85-6321</text>
+</svg>

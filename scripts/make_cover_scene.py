@@ -3865,7 +3865,50 @@ def scene_thg100_morimachi_eki(d):
     band(d, ["新しいのは車両で、", "森町の駅の乗り方は変わらない"], "森町ライフハック／天浜線の森町5駅")
 
 
+
+def scene_akiya_bank_chiku(d):
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 700, 744], 300)
+    d.polygon([(0, 296), (760, 288), (760, 336), (0, 346)], fill=(139, 183, 95))
+    for i in range(3):
+        d.line([(0, 302 + i * 12), (760, 294 + i * 12)], fill=(93, 138, 62), width=3)
+    d.polygon([(0, 340), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(206, 223, 182))
+    # 左：山あいの空き家と100万円の札
+    d.rectangle([36, 386, 146, 452], fill=(246, 244, 234), outline=(125, 143, 118), width=3)
+    d.polygon([(22, 386), (91, 344), (160, 386)], fill=(141, 122, 99))
+    d.rectangle([58, 404, 84, 426], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.rectangle([104, 404, 128, 452], fill=(169, 143, 111), outline=(125, 107, 82), width=2)
+    d.rectangle([28, 462, 168, 494], fill=(31, 62, 82))
+    d.text((36, 468), "100万円", font=ImageFont.truetype(FONT_BOLD, 22), fill="#ffffff")
+    d.text((32, 356), "山あい", font=ImageFont.truetype(FONT_BOLD, 19), fill="#33503f")
+    # 右：市街地の空き家と1300万円の札
+    d.rectangle([596, 380, 726, 452], fill=(242, 239, 227), outline=(125, 143, 118), width=3)
+    d.polygon([(582, 380), (661, 334), (740, 380)], fill=(149, 87, 63))
+    d.rectangle([618, 398, 646, 422], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.rectangle([676, 398, 704, 422], fill=(201, 221, 230), outline=(147, 174, 186), width=2)
+    d.rectangle([586, 462, 748, 494], fill=(31, 62, 82))
+    d.text((594, 468), "1,300万円", font=ImageFont.truetype(FONT_BOLD, 22), fill="#ffffff")
+    d.text((592, 350), "市街地", font=ImageFont.truetype(FONT_BOLD, 19), fill="#33503f")
+    # 中央：二つを結ぶ線と13倍
+    d.line([(174, 478), (582, 478)], fill=(200, 69, 47), width=6)
+    d.rectangle([300, 418, 460, 462], fill=(255, 255, 255), outline=(200, 69, 47), width=5)
+    d.text((316, 424), "13倍", font=ImageFont.truetype(FONT_BOLD, 32), fill="#c8452f")
+    # 中央奥：更地
+    d.rectangle([304, 344, 462, 404], fill=(200, 216, 190), outline=(126, 154, 112), width=3)
+    for x in range(316, 456, 24):
+        d.line([(x, 400), (x + 5, 378)], fill=(143, 174, 126), width=3)
+    d.text((312, 356), "空き地", font=ImageFont.truetype(FONT_BOLD, 18), fill="#33503f")
+    # 手前：物件一覧の紙
+    d.rectangle([206, 502, 556, 574], fill=(255, 255, 255), outline=(125, 143, 118), width=3)
+    d.text((218, 512), "空き家13件 / 空き地10件", font=ImageFont.truetype(FONT_BOLD, 21), fill="#1f3e52")
+    d.line([(218, 544), (544, 544)], fill=(185, 195, 178), width=3)
+    d.line([(218, 560), (470, 560)], fill=(185, 195, 178), width=3)
+    band(d, ["森町の空き家バンク23件は", "地区で13倍ひらく"], "森町ライフハック／空き家・空き地バンク物件公開ページ")
+
+
 SCENES = {
+    "20260828-morimachi-akiya-bank-chiku-kakakusa": scene_akiya_bank_chiku,
     "20260828-tenhama-thg100-morimachi-eki": scene_thg100_morimachi_eki,
     "20260828-morimachi-koutsuu-kuhaku-chiiki": scene_koutsuu_kuhaku_chiiki,
     "20260828-morimachi-chiiki-taxi-yoyaku": scene_chiiki_taxi_yoyaku,
