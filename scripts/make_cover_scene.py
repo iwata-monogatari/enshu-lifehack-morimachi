@@ -4148,7 +4148,73 @@ def scene_keirokai_2765nin(d):
     band(d, ["増えたのは人数ではなく、", "支える側の薄さ"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_road_race_moshikomi(d):
+    """2月の朝、文化会館の前でスタートを待つ走者と沿道の係の場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [14, 58, 102, 660, 708, 748], 300)
+    # 刈り取りの終わった冬の田
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 340)], fill=(190, 186, 148))
+    for i in range(3):
+        d.line([(0, 300 + i * 14), (760, 292 + i * 14)], fill=(166, 160, 122), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(222, 227, 216))
+    # 奥：文化会館
+    d.polygon([(232, 300), (398, 254), (564, 300)], fill=(122, 134, 143))
+    d.rectangle([232, 296, 564, 310], fill=(96, 106, 114))
+    d.rectangle([248, 310, 548, 388], fill=(228, 231, 232), outline=(166, 176, 182), width=4)
+    for i in range(4):
+        d.rectangle([272 + i * 66, 328, 306 + i * 66, 368], fill=(196, 216, 228),
+                    outline=(150, 174, 189), width=3)
+    # スタートの横断幕
+    d.rectangle([196, 388, 604, 396], fill=(120, 108, 92))
+    d.rectangle([180, 396, 208, 500], fill=(140, 128, 110))
+    d.rectangle([592, 396, 620, 500], fill=(140, 128, 110))
+    d.rectangle([208, 396, 592, 444], fill=(200, 69, 47), outline=(160, 52, 36), width=3)
+    d.text((236, 402), "START", font=ImageFont.truetype(FONT_BOLD, 34), fill=(255, 255, 255))
+    d.text((392, 408), "2月の第1日曜", font=ImageFont.truetype(FONT_REGULAR, 24), fill=(252, 226, 214))
+    # 道路
+    d.polygon([(0, 500), (760, 486), (760, BAND_TOP), (0, BAND_TOP)], fill=(198, 196, 188))
+    for i in range(4):
+        d.line([(40 + i * 190, 528), (130 + i * 190, 526)], fill=(250, 250, 246), width=5)
+    # 走者
+    runners = ((262, (63, 111, 142)), (330, (200, 69, 47)), (398, (79, 127, 92)), (466, (214, 138, 60)))
+    for cx, body in runners:
+        d.ellipse([cx - 15, 448, cx + 15, 478], fill=(227, 195, 157), outline=(185, 146, 107), width=3)
+        d.rounded_rectangle([cx - 14, 478, cx + 14, 522], radius=12, fill=body)
+        d.line([(cx - 6, 522), (cx - 16, 560)], fill=(67, 80, 90), width=9)
+        d.line([(cx + 6, 522), (cx + 18, 552)], fill=(67, 80, 90), width=9)
+        d.rectangle([cx - 9, 492, cx + 9, 506], fill=(250, 250, 246))
+    # 右：誘導の係とコーン
+    d.ellipse([646, 452, 678, 484], fill=(227, 195, 157), outline=(185, 146, 107), width=3)
+    d.rounded_rectangle([644, 484, 680, 532], radius=13, fill=(214, 138, 60))
+    d.line([(652, 532), (646, BAND_TOP)], fill=(67, 80, 90), width=10)
+    d.line([(672, 532), (680, BAND_TOP)], fill=(67, 80, 90), width=10)
+    d.line([(680, 496), (716, 476)], fill=(214, 138, 60), width=9)
+    d.polygon([(704, 452), (760, 462), (760, 486), (704, 476)], fill=(220, 86, 58))
+    for x in (612, 700, 744):
+        d.polygon([(x, 566), (x + 13, 528), (x + 26, 566)], fill=(216, 99, 47))
+        d.rectangle([x - 5, 566, x + 31, 574], fill=(216, 99, 47))
+    # 給水の机
+    d.rectangle([28, 470, 148, 480], fill=(150, 122, 88))
+    d.rectangle([36, 480, 44, 528], fill=(122, 98, 70))
+    d.rectangle([132, 480, 140, 528], fill=(122, 98, 70))
+    for i in range(4):
+        d.rectangle([40 + i * 27, 452, 58 + i * 27, 470], fill=(196, 216, 228),
+                    outline=(150, 174, 189), width=2)
+    # 立て札
+    d.rounded_rectangle([14, 330, 250, 400], radius=8, fill=(255, 255, 255),
+                        outline=(184, 68, 58), width=5)
+    d.text((30, 336), "定員 2,500人", font=ImageFont.truetype(FONT_BOLD, 27), fill=(166, 59, 49))
+    d.text((30, 370), "町の人口の15.2％", font=ImageFont.truetype(FONT_REGULAR, 20), fill=(125, 75, 68))
+    d.rounded_rectangle([578, 330, 748, 400], radius=8, fill=(255, 255, 255),
+                        outline=(47, 127, 95), width=5)
+    d.text((594, 336), "申込は10月", font=ImageFont.truetype(FONT_BOLD, 26), fill=(43, 111, 84))
+    d.text((594, 370), "締切は11月末", font=ImageFont.truetype(FONT_REGULAR, 20), fill=(65, 112, 93))
+    band(d, ["締切は日付ではなく、", "2,500人で決まる"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
+    "20260829-morimachi-road-race-moshikomi": scene_road_race_moshikomi,
     "20260829-morimachi-keirokai-2765nin": scene_keirokai_2765nin,
     "20260829-morimachi-bunka-kaikan-miki-hall": scene_bunka_kaikan_miki_hall,
     "20260829-morimori-2man-matsuri-sasaeru": scene_morimori_2man_matsuri,

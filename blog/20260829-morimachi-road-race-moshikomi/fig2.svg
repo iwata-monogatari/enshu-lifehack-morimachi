@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="rr2title rr2desc">
+<title id="rr2title">森町ロードレース大会に申し込むまでの四つの段</title>
+<desc id="rr2desc">カレンダーに9月下旬と10月16日の印を付け、受付が始まる前にスポーツエントリーの会員登録を済ませ、四つの種目から一つだけを選び、事務局の番号0538-85-4191を控えるまでの順序を描いた図。右端には沿道の家と交通規制のコーンが並び、当日の朝に車を出せるかを確かめる必要を示している。</desc>
+<defs>
+<linearGradient id="rr2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d3e1ec"/><stop offset="1" stop-color="#eff3e6"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#rr2sky)"/>
+
+<path d="M0 116 L118 38 L236 110 L354 30 L472 114 L590 42 L708 116 L826 38 L944 112 L1000 82 L1000 168 L0 168 Z" fill="#8299a9"/>
+<path d="M0 142 L120 86 L240 146 L360 82 L480 148 L600 88 L720 146 L840 84 L960 144 L1000 118 L1000 188 L0 188 Z" fill="#6d9179"/>
+<g fill="#33604a">
+<path d="M12 188 L30 134 L48 188 Z"/><path d="M50 188 L70 128 L90 188 Z"/>
+<path d="M910 188 L928 134 L946 188 Z"/><path d="M948 188 L968 126 L988 188 Z"/>
+</g>
+<rect x="0" y="182" width="1000" height="378" fill="#e8efdf"/>
+
+<path d="M70 322 L806 322" stroke="#c9c2ac" stroke-width="12" fill="none"/>
+<g fill="#4d7f9e">
+<path d="M244 314 L264 322 L244 330 Z"/><path d="M438 314 L458 322 L438 330 Z"/><path d="M634 314 L654 322 L634 330 Z"/>
+</g>
+
+<g>
+<rect x="62" y="216" width="150" height="102" rx="5" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<rect x="62" y="216" width="150" height="24" fill="#4f6b45"/>
+<text x="72" y="234" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" font-weight="bold" fill="#ffffff">日 月 火 水 木 金 土</text>
+<g stroke="#ded3b4" stroke-width="2"><path d="M62 268 H212"/><path d="M62 294 H212"/></g>
+<circle cx="92" cy="256" r="10" fill="#d68a3c"/>
+<circle cx="150" cy="282" r="10" fill="#c8452f"/>
+<text x="112" y="261" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#33503f">9月下旬</text>
+<text x="170" y="287" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#33503f">10/16</text>
+<text x="72" y="312" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="13" fill="#4a5a4b">告知→受付開始</text>
+<circle cx="70" cy="212" r="9" fill="#1f3e52"/>
+<text x="66" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">1</text>
+<text x="62" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">告知を待つ</text>
+<text x="62" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">第54回はまだ未掲載</text>
+</g>
+
+<g>
+<rect x="266" y="216" width="150" height="102" rx="5" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="290" y="238" width="104" height="66" rx="7" fill="#33505e"/>
+<rect x="297" y="245" width="90" height="44" rx="3" fill="#c8e6a0"/>
+<g stroke="#4f7f5c" stroke-width="3"><path d="M308 258 H376"/><path d="M308 270 H376"/><path d="M308 282 H350"/></g>
+<rect x="322" y="296" width="40" height="8" rx="3" fill="#8fa2ab"/>
+<circle cx="274" cy="212" r="9" fill="#1f3e52"/>
+<text x="270" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">2</text>
+<text x="266" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">登録を先に済ます</text>
+<text x="266" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">申込はインターネットのみ</text>
+</g>
+
+<g>
+<rect x="470" y="216" width="150" height="102" rx="5" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="482" y="234" width="60" height="26" rx="5" fill="#c8452f"/>
+<text x="492" y="252" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#ffffff">ハーフ</text>
+<rect x="550" y="234" width="58" height="26" rx="5" fill="#e3e8da" stroke="#b0bda8" stroke-width="2"/>
+<text x="562" y="252" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#7d8a78">10km</text>
+<rect x="482" y="268" width="60" height="26" rx="5" fill="#e3e8da" stroke="#b0bda8" stroke-width="2"/>
+<text x="496" y="286" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#7d8a78">5km</text>
+<rect x="550" y="268" width="58" height="26" rx="5" fill="#e3e8da" stroke="#b0bda8" stroke-width="2"/>
+<text x="566" y="286" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#7d8a78">3km</text>
+<text x="482" y="312" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" font-weight="bold" fill="#a63b31">1人1種目・変更不可</text>
+<circle cx="478" cy="212" r="9" fill="#1f3e52"/>
+<text x="474" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">3</text>
+<text x="470" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">種目を1つ決める</text>
+<text x="470" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">申込後は直せない</text>
+</g>
+
+<g>
+<rect x="674" y="216" width="150" height="102" rx="5" fill="#f6f4ea" stroke="#7d8f76" stroke-width="3"/>
+<g transform="translate(690 238)">
+<rect x="0" y="0" width="46" height="66" rx="9" fill="#33505e"/>
+<rect x="5" y="8" width="36" height="42" rx="3" fill="#c8e6a0"/>
+<circle cx="23" cy="58" r="5" fill="#8fa2ab"/>
+</g>
+<rect x="748" y="248" width="62" height="48" rx="4" fill="#ffffff" stroke="#a9b3ba" stroke-width="2"/>
+<g stroke="#4d7f9e" stroke-width="3"><path d="M756 264 H802"/><path d="M756 276 H802"/><path d="M756 288 H786"/></g>
+<circle cx="682" cy="212" r="9" fill="#1f3e52"/>
+<text x="678" y="217" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="12" font-weight="bold" fill="#ffffff">4</text>
+<text x="674" y="352" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" font-weight="bold" fill="#33503f">番号を控える</text>
+<text x="674" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#4a5a4b">0538-85-4191</text>
+</g>
+
+<g>
+<rect x="856" y="216" width="122" height="164" rx="7" fill="#ffffff" stroke="#7a94a3" stroke-width="4"/>
+<path d="M872 268 L917 240 L962 268 Z" fill="#8d7a63"/>
+<rect x="880" y="268" width="74" height="46" fill="#efece2" stroke="#b9b0a0" stroke-width="3"/>
+<rect x="906" y="288" width="22" height="26" fill="#a98f6f"/>
+<g>
+<path d="M876 348 L888 322 L900 348 Z" fill="#d8632f"/>
+<rect x="872" y="348" width="28" height="7" rx="3" fill="#d8632f"/>
+<path d="M934 348 L946 322 L958 348 Z" fill="#d8632f"/>
+<rect x="930" y="348" width="28" height="7" rx="3" fill="#d8632f"/>
+</g>
+<text x="866" y="374" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="14" fill="#33503f">沿道は車が出せない</text>
+</g>
+
+<rect x="0" y="424" width="1000" height="136" fill="#dfe8d2"/>
+<g stroke="#b6c9a4" stroke-width="3"><path d="M0 442 H1000"/><path d="M0 468 H1000"/><path d="M0 494 H1000"/></g>
+<rect x="52" y="450" width="700" height="78" rx="6" fill="#1f3e52"/>
+<rect x="52" y="450" width="700" height="6" fill="#d6a83c"/>
+<text x="72" y="490" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="23" font-weight="bold" fill="#ffffff">締切は日付ではなく、2,500人で決まる</text>
+<text x="72" y="517" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#d7e2e8">問い合わせは森町ロードレース大会実行委員会事務局 0538-85-4191</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="rr1title rr1desc">
+<title id="rr1title">森町ロードレース大会の告知から本番までの一年</title>
+<desc id="rr1desc">9月下旬に体育協会のサイトへ開催のお知らせが出て、10月中旬にインターネットで申し込み、11月末に締切が来て定員2,500人の枠が埋まり、2月の第1日曜に文化会館の前で走者がスタートするまでの流れを一本の帯の上に並べた図。帯の下には第49回から第53回までの開催日が並び、すべて2月の第1日曜であることが示されている。</desc>
+<defs>
+<linearGradient id="rr1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfdeec"/><stop offset="1" stop-color="#eef1e8"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#rr1sky)"/>
+
+<path d="M0 100 L112 42 L224 96 L336 34 L448 100 L560 44 L672 98 L784 38 L896 98 L1000 64 L1000 146 L0 146 Z" fill="#8299a9"/>
+<path d="M0 126 L120 82 L240 130 L360 78 L480 132 L600 84 L720 130 L840 80 L960 128 L1000 106 L1000 162 L0 162 Z" fill="#6f8d78"/>
+<g fill="#33604a">
+<path d="M8 162 L26 116 L44 162 Z"/><path d="M46 162 L66 110 L86 162 Z"/>
+<path d="M914 162 L932 116 L950 162 Z"/><path d="M952 162 L972 108 L992 162 Z"/>
+</g>
+<rect x="0" y="156" width="1000" height="404" fill="#eaeee2"/>
+
+<rect x="52" y="188" width="900" height="30" rx="15" fill="#d6dcc9"/>
+<rect x="52" y="188" width="666" height="30" rx="15" fill="#8fae7e"/>
+<g fill="#1f3e52">
+<circle cx="140" cy="203" r="13"/><circle cx="340" cy="203" r="13"/><circle cx="560" cy="203" r="13"/>
+</g>
+<circle cx="856" cy="203" r="15" fill="#c8452f"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<rect x="62" y="240" width="176" height="118" rx="6" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="80" y="258" width="90" height="66" rx="4" fill="#f4f7f1" stroke="#b8c7b2" stroke-width="3"/>
+<g stroke="#8fa2ab" stroke-width="3"><path d="M92 278 H158"/><path d="M92 292 H158"/><path d="M92 306 H138"/></g>
+<circle cx="188" cy="264" r="14" fill="#d68a3c"/>
+<text x="76" y="342" font-size="15" fill="#4a5a4b">サイトに告知が出る</text>
+<text x="76" y="236" font-size="17" font-weight="bold" fill="#1f3e52">9月下旬</text>
+
+<rect x="264" y="240" width="176" height="118" rx="6" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="292" y="258" width="120" height="76" rx="7" fill="#33505e"/>
+<rect x="300" y="266" width="104" height="52" rx="3" fill="#c8e6a0"/>
+<rect x="330" y="326" width="44" height="8" rx="3" fill="#8fa2ab"/>
+<text x="278" y="342" font-size="15" fill="#4a5a4b">インターネットで申込</text>
+<text x="278" y="236" font-size="17" font-weight="bold" fill="#1f3e52">10月16日</text>
+
+<rect x="466" y="240" width="176" height="118" rx="6" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<rect x="486" y="258" width="136" height="20" rx="10" fill="#e3e8da"/>
+<rect x="486" y="258" width="116" height="20" rx="10" fill="#c8452f"/>
+<text x="486" y="302" font-size="17" font-weight="bold" fill="#a63b31">定員 2,500人</text>
+<text x="486" y="326" font-size="14" fill="#7d4b44">達した時点で締切</text>
+<text x="480" y="342" font-size="0" fill="#7d4b44"> </text>
+<text x="480" y="236" font-size="17" font-weight="bold" fill="#1f3e52">11月30日</text>
+
+<rect x="704" y="240" width="248" height="118" rx="6" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<path d="M718 268 L838 268 L838 300 L718 300 Z" fill="#e2e6e9" stroke="#a9b3ba" stroke-width="3"/>
+<text x="726" y="290" font-size="15" fill="#41525c">森町文化会館</text>
+<rect x="852" y="256" width="84" height="14" rx="4" fill="#c8452f"/>
+<text x="856" y="268" font-size="0" fill="#ffffff"> </text>
+<g>
+<circle cx="866" cy="292" r="10" fill="#e3c39d" stroke="#b9926b" stroke-width="2"/>
+<rect x="857" y="304" width="18" height="26" rx="7" fill="#4d7f9e"/>
+<path d="M857 330 L846 348" stroke="#43505a" stroke-width="6"/><path d="M875 330 L888 344" stroke="#43505a" stroke-width="6"/>
+<circle cx="906" cy="292" r="10" fill="#e3c39d" stroke="#b9926b" stroke-width="2"/>
+<rect x="897" y="304" width="18" height="26" rx="7" fill="#c8452f"/>
+<path d="M897 330 L886 348" stroke="#43505a" stroke-width="6"/><path d="M915 330 L928 344" stroke="#43505a" stroke-width="6"/>
+</g>
+<text x="718" y="342" font-size="15" fill="#4a5a4b">2月の第1日曜にスタート</text>
+<text x="718" y="236" font-size="17" font-weight="bold" fill="#a63b31">2月1日</text>
+</g>
+
+<rect x="0" y="382" width="1000" height="178" fill="#dfe8d2"/>
+<text x="52" y="414" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="18" font-weight="bold" fill="#33503f">確認できた5回は、すべて2月の第1日曜</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<rect x="52" y="430" width="164" height="60" rx="5" fill="#ffffff" stroke="#b8c7b2" stroke-width="3"/>
+<text x="66" y="454" font-size="15" fill="#4a5a4b">第49回</text>
+<text x="66" y="478" font-size="16" font-weight="bold" fill="#33503f">2020年2月2日</text>
+<rect x="230" y="430" width="164" height="60" rx="5" fill="#ffffff" stroke="#b8c7b2" stroke-width="3"/>
+<text x="244" y="454" font-size="15" fill="#4a5a4b">第50回記念</text>
+<text x="244" y="478" font-size="16" font-weight="bold" fill="#33503f">2023年2月5日</text>
+<rect x="408" y="430" width="164" height="60" rx="5" fill="#ffffff" stroke="#b8c7b2" stroke-width="3"/>
+<text x="422" y="454" font-size="15" fill="#4a5a4b">第51回</text>
+<text x="422" y="478" font-size="16" font-weight="bold" fill="#33503f">2024年2月4日</text>
+<rect x="586" y="430" width="164" height="60" rx="5" fill="#ffffff" stroke="#b8c7b2" stroke-width="3"/>
+<text x="600" y="454" font-size="15" fill="#4a5a4b">第52回</text>
+<text x="600" y="478" font-size="16" font-weight="bold" fill="#33503f">2025年2月2日</text>
+<rect x="764" y="430" width="188" height="60" rx="5" fill="#fdf3f0" stroke="#c8452f" stroke-width="3"/>
+<text x="778" y="454" font-size="15" fill="#a63b31">第53回</text>
+<text x="778" y="478" font-size="16" font-weight="bold" fill="#a63b31">2026年2月1日</text>
+</g>
+<text x="52" y="524" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">第54回の告知は2026年8月29日時点で未掲載。事務局は0538-85-4191（森町総合体育館と同じ番号）</text>
+</svg>
