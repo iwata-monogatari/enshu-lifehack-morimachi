@@ -45,6 +45,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("第4期300検索意図を反映", [sys.executable, "scripts/build_seo_phase4.py"]),
     ("第4期12テーマの判断ハブを生成", [sys.executable, "scripts/build_phase4_hubs.py"]),
     ("公開ページ件数を再集計してトップページへ反映", [sys.executable, "scripts/build_home.py"]),
+    ("共通フッターのマーカー欠落を補修", [sys.executable, "scripts/fix_missing_footer_markers.py"]),
     ("共通部品の反映（ヘッダー・フッター）", [sys.executable, "scripts/inject_parts.py"]),
     ("既存ガイドから質問ページへの入口を追加", [sys.executable, "scripts/inject_question_links.py"]),
     ("重要11ガイドへ関連質問を集約", [sys.executable, "scripts/inject_priority_question_clusters.py"]),
