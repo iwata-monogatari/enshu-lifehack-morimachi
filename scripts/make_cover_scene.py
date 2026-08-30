@@ -4223,11 +4223,11 @@ def scene_otameshi_iju_nashi(d):
         d.line([(0, 302 + i * 13), (760, 294 + i * 13)], fill=(94, 132, 70), width=3)
     d.polygon([(0, 340), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 228, 201))
     # 県の一覧を模した掲示板
-    d.rectangle([52, 344, 708, 512], fill=(246, 242, 230), outline=(150, 132, 104), width=5)
-    d.rectangle([52, 344, 708, 376], fill=(31, 62, 82))
-    d.text((66, 350), "静岡県　お試し住宅一覧　11市町13施設",
+    d.rectangle([52, 336, 708, 502], fill=(246, 242, 230), outline=(150, 132, 104), width=5)
+    d.rectangle([52, 336, 708, 368], fill=(31, 62, 82))
+    d.text((66, 342), "静岡県　お試し住宅一覧　11市町13施設",
            font=ImageFont.truetype(FONT_BOLD, 20), fill="#ffffff")
-    slots = [(78 + c * 88, 400 + r * 58) for r in range(2) for c in range(7)]
+    slots = [(78 + c * 88, 388 + r * 52) for r in range(2) for c in range(7)]
     for i, (x, y) in enumerate(slots):
         if i == 13:
             continue
@@ -4239,20 +4239,19 @@ def scene_otameshi_iju_nashi(d):
     d.ellipse([ex - 10, ey - 14, ex + 56, ey + 52], outline=(200, 69, 47), width=5)
     d.line([(ex + 8, ey + 6), (ex + 38, ey + 36)], fill=(200, 69, 47), width=5)
     d.line([(ex + 38, ey + 6), (ex + 8, ey + 36)], fill=(200, 69, 47), width=5)
-    d.text((444, 520), "森町は掲載なし",
-           font=ImageFont.truetype(FONT_BOLD, 21), fill=(166, 59, 49))
-    # 掲示板を見ている家族三人
-    for cx, body, rh, top in ((104, (77, 127, 158), 17, 524), (166, (138, 106, 156), 15, 528),
-                              (218, (200, 69, 47), 11, 540)):
-        d.ellipse([cx - rh, top - rh, cx + rh, top + rh], fill=(230, 196, 157),
-                  outline=(189, 154, 114), width=3)
-        d.rounded_rectangle([cx - rh - 2, top + rh + 2, cx + rh + 2, BAND_TOP - 2],
-                            radius=9, fill=body)
-    # 内見の物件票を持つ手元
-    d.rectangle([262, 528, 344, 584], fill=(255, 255, 255), outline=(150, 162, 168), width=4)
-    for i in range(3):
-        d.line([(274, 546 + i * 12), (332, 546 + i * 12)], fill=(190, 199, 204), width=4)
-    band(d, ["森町にお試し住宅はない。", "見るのは空き家と相談窓口"],
+    d.text((406, 472), "森町は掲載なし",
+           font=ImageFont.truetype(FONT_BOLD, 20), fill=(166, 59, 49))
+    # 手前：計画に載る2棟
+    for x, label in ((80, "鍛治島"), (180, "天宮")):
+        d.rectangle([x, 534, x + 76, 578], fill=(233, 240, 228), outline=(76, 122, 96), width=4)
+        d.polygon([(x - 8, 536), (x + 38, 510), (x + 84, 536)], fill=(126, 168, 92),
+                  outline=(76, 122, 96))
+        d.text((x + 10, 548), label, font=ImageFont.truetype(FONT_BOLD, 18), fill=(51, 80, 63))
+    d.text((272, 518), "「整備済」の2棟が計画にある",
+           font=ImageFont.truetype(FONT_BOLD, 23), fill=(31, 62, 82))
+    d.text((272, 552), "料金も申込先も公表なし",
+           font=ImageFont.truetype(FONT_BOLD, 23), fill=(166, 59, 49))
+    band(d, ["計画には2棟ある。", "案内はどこにもない"],
          "森町ライフハック／移住・暮らし・データ")
 
 
