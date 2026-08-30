@@ -4255,7 +4255,58 @@ def scene_otameshi_iju_nashi(d):
          "森町ライフハック／移住・暮らし・データ")
 
 
+def scene_nikyoten_juminhyo(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [22, 66, 688, 732], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 338)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 228, 201))
+    # 見出しの板
+    d.rectangle([104, 300, 656, 342], fill=(31, 62, 82))
+    d.text((122, 306), "住民票は1か所　民法第22条",
+           font=ImageFont.truetype(FONT_BOLD, 26), fill="#ffffff")
+    # 天秤
+    d.rectangle([372, 348, 388, 516], fill=(138, 127, 106))
+    d.rectangle([320, 516, 440, 532], fill=(120, 110, 92))
+    d.rectangle([140, 356, 620, 368], fill=(138, 127, 106))
+    d.ellipse([366, 348, 394, 376], fill=(200, 162, 74), outline=(138, 108, 52), width=3)
+    for x in (200, 560):
+        d.line([(x, 368), (x, 436)], fill=(138, 127, 106), width=4)
+    d.polygon([(146, 436), (254, 436), (240, 466), (160, 466)],
+              fill=(217, 223, 228), outline=(154, 166, 174), width=3)
+    d.polygon([(506, 436), (614, 436), (600, 466), (520, 466)],
+              fill=(230, 221, 204), outline=(183, 169, 143), width=3)
+    # 左：都市部の集合住宅
+    d.rectangle([170, 388, 230, 436], fill=(198, 208, 216), outline=(143, 160, 172), width=3)
+    for row in range(3):
+        for col in range(2):
+            d.rectangle([182 + col * 24, 396 + row * 14, 194 + col * 24, 404 + row * 14],
+                        fill=(93, 122, 140))
+    d.text((166, 476), "都市部", font=ImageFont.truetype(FONT_REGULAR, 20), fill=(65, 82, 92))
+    # 右：森町の家
+    d.rectangle([532, 404, 588, 436], fill=(241, 236, 224), outline=(183, 169, 143), width=3)
+    d.polygon([(520, 404), (560, 376), (600, 404)], fill=(123, 139, 147), outline=(91, 106, 114))
+    d.rectangle([548, 414, 570, 436], fill=(207, 224, 232), outline=(143, 160, 172), width=2)
+    d.text((534, 476), "森町", font=ImageFont.truetype(FONT_REGULAR, 20), fill=(65, 82, 92))
+    # 寝た日の記録（帯）
+    for i in range(16):
+        c = (143, 179, 208) if i % 3 else (169, 201, 143)
+        d.rectangle([44 + i * 22, 542, 60 + i * 22, 558], fill=c)
+    d.text((44, 564), "青は都市部で寝た日、緑は森町で寝た日",
+           font=ImageFont.truetype(FONT_REGULAR, 19), fill=(74, 90, 75))
+    # 1月1日の札
+    d.rectangle([610, 496, 704, 578], fill=(255, 255, 255), outline=(200, 69, 47), width=4)
+    d.rectangle([610, 496, 704, 520], fill=(200, 69, 47))
+    d.text((636, 498), "1月", font=ImageFont.truetype(FONT_BOLD, 20), fill="#ffffff")
+    d.text((640, 526), "1", font=ImageFont.truetype(FONT_BOLD, 40), fill=(166, 59, 49))
+    band(d, ["住民票は選ぶものではなく、", "事実で決まる"],
+         "森町ライフハック／移住・暮らし・データ")
+
+
 SCENES = {
+    "20260830-nikyoten-juminhyo-dochira": scene_nikyoten_juminhyo,
     "20260830-morimachi-otameshi-iju-nashi": scene_otameshi_iju_nashi,
     "20260829-morimachi-road-race-moshikomi": scene_road_race_moshikomi,
     "20260829-morimachi-keirokai-2765nin": scene_keirokai_2765nin,

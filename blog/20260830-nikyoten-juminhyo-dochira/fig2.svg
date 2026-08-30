@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="nk2title nk2desc">
+<title id="nk2title">二拠点生活で住民票をどちらに置くか決める四つの順序</title>
+<desc id="nk2desc">一段目は一年分のカレンダーにどちらで寝たかを日ごとに印を付ける場面。二段目は1月1日の日めくりを前に、その日をどちらで迎えるかを決める場面。三段目は住民税・国保・介護・選挙・就学と書かれた五枚の札を、まとめて片側の箱へ入れる場面。四段目は役場の窓口で転入届を出す場面で、十四日以内と転出証明書の札が添えられている。右端には森町の住民生活課住民係の電話番号を控えたメモが描かれている。</desc>
+<defs>
+<linearGradient id="nk2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d3e0ea"/><stop offset="1" stop-color="#eff2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#nk2sky)"/>
+<path d="M0 76 L130 32 L260 80 L390 28 L520 82 L650 30 L780 80 L910 32 L1000 68 L1000 122 L0 122 Z" fill="#7d94a4"/>
+<path d="M0 102 L140 68 L280 108 L420 64 L560 110 L700 66 L840 108 L1000 80 L1000 138 L0 138 Z" fill="#6d8b76"/>
+<g fill="#33604a"><path d="M14 138 L32 96 L50 138 Z"/><path d="M944 138 L964 94 L984 138 Z"/></g>
+<rect x="0" y="132" width="1000" height="428" fill="#eceee4"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<text x="44" y="174" font-size="21" font-weight="bold" fill="#1f3e52">迷う前に、この順で手を動かす</text>
+
+<rect x="44" y="194" width="212" height="182" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="60" y="222" font-size="17" font-weight="bold" fill="#1f3e52">1　日数を数える</text>
+<rect x="62" y="236" width="176" height="96" rx="4" fill="#fbfaf4" stroke="#b8c7b2" stroke-width="3"/>
+<g>
+<rect x="74" y="250" width="16" height="16" fill="#8fb3d0"/><rect x="94" y="250" width="16" height="16" fill="#8fb3d0"/>
+<rect x="114" y="250" width="16" height="16" fill="#a9c98f"/><rect x="134" y="250" width="16" height="16" fill="#a9c98f"/>
+<rect x="154" y="250" width="16" height="16" fill="#8fb3d0"/><rect x="174" y="250" width="16" height="16" fill="#8fb3d0"/>
+<rect x="194" y="250" width="16" height="16" fill="#8fb3d0"/>
+<rect x="74" y="272" width="16" height="16" fill="#a9c98f"/><rect x="94" y="272" width="16" height="16" fill="#a9c98f"/>
+<rect x="114" y="272" width="16" height="16" fill="#8fb3d0"/><rect x="134" y="272" width="16" height="16" fill="#8fb3d0"/>
+<rect x="154" y="272" width="16" height="16" fill="#8fb3d0"/><rect x="174" y="272" width="16" height="16" fill="#a9c98f"/>
+<rect x="194" y="272" width="16" height="16" fill="#8fb3d0"/>
+<rect x="74" y="294" width="16" height="16" fill="#8fb3d0"/><rect x="94" y="294" width="16" height="16" fill="#8fb3d0"/>
+<rect x="114" y="294" width="16" height="16" fill="#a9c98f"/><rect x="134" y="294" width="16" height="16" fill="#8fb3d0"/>
+<rect x="154" y="294" width="16" height="16" fill="#8fb3d0"/><rect x="174" y="294" width="16" height="16" fill="#8fb3d0"/>
+<rect x="194" y="294" width="16" height="16" fill="#a9c98f"/>
+</g>
+<text x="60" y="358" font-size="15" fill="#4a5a4b">青が都市部、緑が森町</text>
+
+<rect x="272" y="194" width="212" height="182" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="288" y="222" font-size="17" font-weight="bold" fill="#1f3e52">2　1月1日を決める</text>
+<rect x="300" y="238" width="82" height="94" rx="4" fill="#ffffff" stroke="#c8452f" stroke-width="3"/>
+<rect x="300" y="238" width="82" height="22" fill="#c8452f"/>
+<text x="322" y="256" font-size="15" fill="#ffffff">1月</text>
+<text x="326" y="308" font-size="38" font-weight="bold" fill="#a63b31">1</text>
+<path d="M398 268 L444 268" stroke="#8a7f6a" stroke-width="5"/>
+<path d="M444 262 L458 274 L444 286 Z" fill="#8a7f6a"/>
+<text x="288" y="358" font-size="15" fill="#4a5a4b">この日の住所地で課税</text>
+
+<rect x="500" y="194" width="212" height="182" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="516" y="222" font-size="17" font-weight="bold" fill="#1f3e52">3　五つはまとめて</text>
+<g font-size="13" fill="#4a5a4b">
+<rect x="516" y="236" width="52" height="24" rx="3" fill="#e7eef4" stroke="#9aa6ae" stroke-width="2"/><text x="521" y="253">住民税</text>
+<rect x="574" y="236" width="46" height="24" rx="3" fill="#e7eef4" stroke="#9aa6ae" stroke-width="2"/><text x="579" y="253">国保</text>
+<rect x="626" y="236" width="46" height="24" rx="3" fill="#e7eef4" stroke="#9aa6ae" stroke-width="2"/><text x="631" y="253">介護</text>
+<rect x="516" y="266" width="46" height="24" rx="3" fill="#e7eef4" stroke="#9aa6ae" stroke-width="2"/><text x="521" y="283">選挙</text>
+<rect x="568" y="266" width="46" height="24" rx="3" fill="#e7eef4" stroke="#9aa6ae" stroke-width="2"/><text x="573" y="283">就学</text>
+</g>
+<path d="M528 300 L528 318" stroke="#8a7f6a" stroke-width="5"/>
+<path d="M522 318 L534 332 L546 318 Z" fill="#8a7f6a"/>
+<rect x="560" y="300" width="132" height="42" rx="4" fill="#e0d7c2" stroke="#a89a7c" stroke-width="3"/>
+<text x="572" y="328" font-size="15" fill="#5a4f38">住所地はひとつ</text>
+<text x="516" y="360" font-size="15" fill="#4a5a4b">別々には動かせない</text>
+
+<rect x="728" y="194" width="228" height="182" rx="8" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<text x="744" y="222" font-size="17" font-weight="bold" fill="#1f3e52">4　14日以内に届ける</text>
+<rect x="744" y="238" width="112" height="60" rx="3" fill="#ffffff" stroke="#b8c7b2" stroke-width="3"/>
+<g stroke="#a9b3ba" stroke-width="4"><path d="M756 258 H844"/><path d="M756 274 H820"/></g>
+<text x="748" y="292" font-size="13" fill="#7d6a3a">転入届</text>
+<circle cx="892" cy="252" r="15" fill="#e6c49e" stroke="#bb9470" stroke-width="3"/>
+<rect x="878" y="270" width="30" height="34" rx="10" fill="#4d7f9e"/>
+<rect x="744" y="308" width="126" height="30" rx="4" fill="#f4d774" stroke="#cfae3f" stroke-width="3"/>
+<text x="754" y="329" font-size="15" fill="#6b5c22">0538-85-6312</text>
+<text x="744" y="360" font-size="15" fill="#4a5a4b">転出証明書を忘れずに</text>
+</g>
+
+<rect x="0" y="396" width="1000" height="164" fill="#dfe8d2"/>
+<text x="44" y="434" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">住民票は「選ぶもの」ではなく「事実で決まるもの」</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">
+<text x="44" y="470">・住所＝生活の本拠。1人1か所（住民基本台帳法第4条・民法第22条）</text>
+<text x="44" y="500">・森町の国保均等割＋平等割は夫婦2人で年148,500円（軽減前・当方の計算）</text>
+<text x="44" y="530">・ふるさと住民登録制度は住民票の代わりにならず、県内モデルは焼津市のみ</text>
+</g>
+</svg>
