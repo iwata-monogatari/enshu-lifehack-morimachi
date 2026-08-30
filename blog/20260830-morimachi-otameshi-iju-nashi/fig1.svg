@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ot1title ot1desc">
+<title id="ot1title">静岡県のお試し住宅13施設の地域別の偏りと、森町の空白</title>
+<desc id="ot1desc">伊豆・東部・中部・西部の四つの区画に、静岡県公式のお試し住宅一覧に載る13施設を家のかたちの札で並べた図。伊豆に六つ、東部に一つ、中部に五つ、西部に一つが立ち、西部の浜松市天竜区の札の隣、森町にあたる位置には札がなく、留め穴と「掲載なし」の杭だけが置かれている。手前では荷物を持った家族三人が、その空いた場所を見ている。背景は茶畑の段と杉林の山並み。</desc>
+<defs>
+<linearGradient id="ot1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cddced"/><stop offset="1" stop-color="#eef2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#ot1sky)"/>
+
+<path d="M0 96 L110 40 L220 92 L330 32 L440 96 L550 42 L660 94 L770 36 L880 94 L1000 60 L1000 142 L0 142 Z" fill="#8497a8"/>
+<path d="M0 122 L118 80 L236 128 L354 76 L472 130 L590 82 L708 128 L826 78 L944 126 L1000 104 L1000 158 L0 158 Z" fill="#6f8d78"/>
+<g fill="#33604a">
+<path d="M10 158 L28 112 L46 158 Z"/><path d="M48 158 L68 106 L88 158 Z"/>
+<path d="M912 158 L930 112 L948 158 Z"/><path d="M950 158 L970 104 L990 158 Z"/>
+</g>
+<rect x="0" y="152" width="1000" height="408" fill="#e9eee1"/>
+<g stroke="#cfdcb8" stroke-width="4">
+<path d="M0 176 H1000"/><path d="M0 190 H1000"/>
+</g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<text x="46" y="232" font-size="21" font-weight="bold" fill="#1f3e52">静岡県公式「お試し住宅一覧」　11市町13施設</text>
+
+<rect x="46" y="250" width="248" height="188" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="62" y="278" font-size="17" font-weight="bold" fill="#33503f">伊豆</text>
+<text x="196" y="278" font-size="17" font-weight="bold" fill="#33503f">6施設</text>
+<g fill="#7fa88c" stroke="#4c7a60" stroke-width="3">
+<path d="M70 340 L94 314 L118 340 L118 372 L70 372 Z"/>
+<path d="M128 340 L152 314 L176 340 L176 372 L128 372 Z"/>
+<path d="M186 340 L210 314 L234 340 L234 372 L186 372 Z"/>
+<path d="M70 412 L94 386 L118 412 L118 428 L70 428 Z"/>
+<path d="M128 412 L152 386 L176 412 L176 428 L128 428 Z"/>
+<path d="M186 412 L210 386 L234 412 L234 428 L186 428 Z"/>
+</g>
+<text x="62" y="302" font-size="14" fill="#5a6b5c">河津・東伊豆・松崎・西伊豆・南伊豆・伊豆市</text>
+
+<rect x="308" y="250" width="150" height="188" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="324" y="278" font-size="17" font-weight="bold" fill="#33503f">東部</text>
+<text x="398" y="278" font-size="17" font-weight="bold" fill="#33503f">1施設</text>
+<path d="M348 340 L372 314 L396 340 L396 372 L348 372 Z" fill="#7fa88c" stroke="#4c7a60" stroke-width="3"/>
+<text x="324" y="302" font-size="14" fill="#5a6b5c">富士宮市</text>
+
+<rect x="472" y="250" width="222" height="188" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="488" y="278" font-size="17" font-weight="bold" fill="#33503f">中部</text>
+<text x="614" y="278" font-size="17" font-weight="bold" fill="#33503f">5施設</text>
+<g fill="#7fa88c" stroke="#4c7a60" stroke-width="3">
+<path d="M496 340 L520 314 L544 340 L544 372 L496 372 Z"/>
+<path d="M554 340 L578 314 L602 340 L602 372 L554 372 Z"/>
+<path d="M612 340 L636 314 L660 340 L660 372 L612 372 Z"/>
+<path d="M496 412 L520 386 L544 412 L544 428 L496 428 Z"/>
+<path d="M554 412 L578 386 L602 412 L602 428 L554 428 Z"/>
+</g>
+<text x="488" y="302" font-size="14" fill="#5a6b5c">静岡市3・牧之原市・川根本町</text>
+
+<rect x="708" y="250" width="246" height="188" rx="8" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<text x="724" y="278" font-size="17" font-weight="bold" fill="#a63b31">西部</text>
+<text x="868" y="278" font-size="17" font-weight="bold" fill="#a63b31">1施設</text>
+<path d="M746 340 L770 314 L794 340 L794 372 L746 372 Z" fill="#7fa88c" stroke="#4c7a60" stroke-width="3"/>
+<text x="724" y="302" font-size="14" fill="#7d4b44">浜松市天竜区（15,000円／月）</text>
+<circle cx="880" cy="356" r="9" fill="#d8d2c4" stroke="#a9a294" stroke-width="3"/>
+<path d="M872 372 H888" stroke="#a9a294" stroke-width="4"/>
+<rect x="836" y="386" width="98" height="42" rx="4" fill="#ffffff" stroke="#c8452f" stroke-width="3"/>
+<text x="848" y="414" font-size="16" font-weight="bold" fill="#a63b31">掲載なし</text>
+<text x="828" y="452" font-size="15" fill="#a63b31">← 森町の位置</text>
+</g>
+
+<g>
+<circle cx="150" cy="486" r="17" fill="#e6c49e" stroke="#bb9470" stroke-width="3"/>
+<rect x="135" y="506" width="30" height="42" rx="10" fill="#4d7f9e"/>
+<circle cx="206" cy="490" r="15" fill="#e6c49e" stroke="#bb9470" stroke-width="3"/>
+<rect x="192" y="508" width="28" height="40" rx="10" fill="#8a6a9c"/>
+<circle cx="254" cy="504" r="11" fill="#e6c49e" stroke="#bb9470" stroke-width="3"/>
+<rect x="244" y="517" width="21" height="31" rx="8" fill="#c8452f"/>
+<rect x="278" y="516" width="46" height="32" rx="4" fill="#a9784c" stroke="#7d5734" stroke-width="3"/>
+<path d="M292 516 V506 H310 V516" fill="none" stroke="#7d5734" stroke-width="4"/>
+<path d="M270 500 L800 470" stroke="#b9c4b2" stroke-width="3" stroke-dasharray="12 10"/>
+</g>
+<text x="360" y="496" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#4a5a4b">13施設のうち伊豆に6件（46.2%）。西部は1件だけ（7.7%）</text>
+<text x="360" y="534" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">森町の代わりは、空き家バンクの内見と移住相談（0538-85-6321）</text>
+</svg>

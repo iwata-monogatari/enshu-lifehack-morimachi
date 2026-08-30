@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ot2title ot2desc">
+<title id="ot2title">お試し住宅が無い森町で、暮らしを試す四つの順序</title>
+<desc id="ot2desc">一段目はパソコン越しにオンライン移住相談を受ける場面で、四十分・三営業日前・無料の札が添えられている。二段目は空き家・空き地バンクの物件票を見ながら内見を申し込む場面。三段目は家族三人が日曜の町を歩き、店と本の建物と駅の前を通る場面。四段目は机の上の記録用紙に地区名・道路・名義・水道・通学路が書き込まれていく場面。右端には森町の電話番号を控えたメモが描かれている。</desc>
+<defs>
+<linearGradient id="ot2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d3e0ea"/><stop offset="1" stop-color="#eff2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#ot2sky)"/>
+<path d="M0 78 L130 34 L260 82 L390 30 L520 84 L650 32 L780 82 L910 34 L1000 70 L1000 124 L0 124 Z" fill="#7d94a4"/>
+<path d="M0 104 L140 70 L280 110 L420 66 L560 112 L700 68 L840 110 L1000 82 L1000 140 L0 140 Z" fill="#6d8b76"/>
+<g fill="#33604a">
+<path d="M14 140 L32 98 L50 140 Z"/><path d="M944 140 L964 96 L984 140 Z"/>
+</g>
+<rect x="0" y="134" width="1000" height="426" fill="#eceee4"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<text x="44" y="176" font-size="21" font-weight="bold" fill="#1f3e52">泊まれなくても、今日から動かせる四つ</text>
+
+<rect x="44" y="196" width="212" height="180" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="60" y="224" font-size="17" font-weight="bold" fill="#1f3e52">1　相談を取る</text>
+<rect x="72" y="240" width="128" height="82" rx="6" fill="#33505e"/>
+<rect x="80" y="248" width="112" height="58" rx="3" fill="#cfe6f2"/>
+<circle cx="120" cy="270" r="11" fill="#e6c49e"/>
+<rect x="108" y="284" width="24" height="16" rx="6" fill="#4d7f9e"/>
+<rect x="152" y="262" width="30" height="8" rx="3" fill="#8fa2ab"/>
+<rect x="152" y="278" width="24" height="8" rx="3" fill="#8fa2ab"/>
+<rect x="106" y="326" width="60" height="10" rx="3" fill="#8fa2ab"/>
+<text x="60" y="356" font-size="15" fill="#4a5a4b">40分・3営業日前・無料</text>
+
+<rect x="272" y="196" width="212" height="180" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="288" y="224" font-size="17" font-weight="bold" fill="#1f3e52">2　内見を申し込む</text>
+<rect x="292" y="240" width="104" height="96" rx="4" fill="#fbfaf4" stroke="#b8c7b2" stroke-width="3"/>
+<rect x="304" y="252" width="80" height="34" rx="3" fill="#dfe7ee"/>
+<path d="M316 286 L344 262 L372 286" fill="none" stroke="#8fa2ab" stroke-width="4"/>
+<g stroke="#a9b3ba" stroke-width="4">
+<path d="M304 300 H384"/><path d="M304 314 H364"/>
+</g>
+<path d="M414 250 L456 250 L456 292 L414 292 Z" fill="#7fa88c" stroke="#4c7a60" stroke-width="3"/>
+<path d="M408 250 L435 226 L462 250" fill="#c8452f" stroke="#8f3225" stroke-width="3"/>
+<circle cx="446" cy="272" r="5" fill="#f4e6c8"/>
+<text x="288" y="356" font-size="15" fill="#4a5a4b">相手は町ではなく物件ごと</text>
+
+<rect x="500" y="196" width="212" height="180" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="516" y="224" font-size="17" font-weight="bold" fill="#1f3e52">3　日曜を一日歩く</text>
+<rect x="516" y="248" width="56" height="52" rx="3" fill="#e6ded0" stroke="#b6ab99" stroke-width="3"/>
+<rect x="524" y="264" width="40" height="20" rx="2" fill="#cfe0e8"/>
+<rect x="584" y="240" width="56" height="60" rx="3" fill="#dfe7ee" stroke="#a9b3ba" stroke-width="3"/>
+<g stroke="#8fa2ab" stroke-width="4"><path d="M594 258 H630"/><path d="M594 272 H630"/><path d="M594 286 H620"/></g>
+<rect x="652" y="256" width="48" height="44" rx="3" fill="#cfd9c6" stroke="#96a68c" stroke-width="3"/>
+<path d="M652 278 H700" stroke="#96a68c" stroke-width="4"/>
+<path d="M508 316 H706" stroke="#c2b79f" stroke-width="8"/>
+<g>
+<circle cx="548" cy="330" r="10" fill="#e6c49e" stroke="#bb9470" stroke-width="3"/>
+<rect x="539" y="344" width="19" height="26" rx="7" fill="#4d7f9e"/>
+<circle cx="580" cy="334" r="8" fill="#e6c49e" stroke="#bb9470" stroke-width="3"/>
+<rect x="573" y="346" width="15" height="24" rx="6" fill="#c8452f"/>
+<circle cx="610" cy="330" r="10" fill="#e6c49e" stroke="#bb9470" stroke-width="3"/>
+<rect x="601" y="344" width="19" height="26" rx="7" fill="#8a6a9c"/>
+</g>
+<text x="516" y="360" font-size="0" fill="#4a5a4b"> </text>
+
+<rect x="728" y="196" width="228" height="180" rx="8" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<text x="744" y="224" font-size="17" font-weight="bold" fill="#1f3e52">4　記録に落とす</text>
+<rect x="744" y="240" width="136" height="104" rx="4" fill="#ffffff" stroke="#b8c7b2" stroke-width="3"/>
+<g font-size="14" fill="#4a5a4b">
+<text x="756" y="264">地区名</text><text x="756" y="286">道路の幅</text>
+<text x="756" y="308">名義</text><text x="756" y="330">水道・通学路</text>
+</g>
+<rect x="892" y="252" width="52" height="70" rx="4" fill="#f4d774" stroke="#cfae3f" stroke-width="3"/>
+<text x="898" y="278" font-size="13" fill="#6b5c22">0538</text>
+<text x="898" y="298" font-size="13" fill="#6b5c22">85-6321</text>
+<rect x="812" y="322" width="70" height="10" rx="4" fill="#d8b04a"/>
+<path d="M882 320 L906 327 L882 334 Z" fill="#8a6c34"/>
+<text x="744" y="364" font-size="15" fill="#4a5a4b">半年後に効くのは、この四つ</text>
+</g>
+
+<rect x="0" y="398" width="1000" height="162" fill="#dfe8d2"/>
+<text x="44" y="436" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">森町にお試し住宅は無い。だから順番のほうを決めておく</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">
+<text x="44" y="472">・県の一覧は11市町13施設。森町は掲載なし（2026年8月30日確認）</text>
+<text x="44" y="502">・県西部で一番近いのは浜松市天竜区の1件、1か月〜最長1年で月15,000円</text>
+<text x="44" y="532">・町は平成29年9月の議会で検討したうえで見送り、二地域居住のほうへ寄せた</text>
+</g>
+</svg>
