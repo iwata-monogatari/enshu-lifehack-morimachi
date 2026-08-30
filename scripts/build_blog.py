@@ -112,6 +112,15 @@ def audit(posts):
         if p["title"] in seen_titles:
             problems.append((slug, "タイトルが %s と重複" % seen_titles[p["title"]]))
         seen_titles[p["title"]] = slug
+
+    # 台帳漏れの検知。blog/ に実体があるのに data/blog-posts.json へ載っていない
+    # 記事は、本番で200を返しながら一覧・sitemap.xml・llms.txt のどこからも辿れない。
+    # 2026-08-20 のマージ衝突の解消で5本の登録が消え、半月ほど気付けなかった。
+    # 品質ゲートとは別の話なので公開は止めず、警告だけ出す。
+    registered = {q["slug"] for q in posts}
+    for name in sorted(os.listdir(BLOG_DIR)):
+        if os.path.isdir(os.path.join(BLOG_DIR, name)) and name not in registered:
+            print("[警告] blog/%s/ が台帳に無い。一覧・sitemap・llms.txt に載りません" % name)
     return problems
 
 
