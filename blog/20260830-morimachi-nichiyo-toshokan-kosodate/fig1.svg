@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ns1title ns1desc">
+<title id="ns1title">森町の日曜に開いている場所と閉まっている場所</title>
+<desc id="ns1desc">日曜の時間帯を横軸にした帯グラフ。上段は森町立図書館が9時から17時、森町児童館と子育て支援センターが9時から13時と13時30分から17時、農産物直売所の森の市が9時から18時、アクティ森が9時から17時30分まで開いていることを色帯で示し、13時から13時30分の児童館の帯だけ切れている。下段は公立森町病院の外来と町営バス大河内線が日曜休みであることを灰色の帯で示す。左に本棚と積み木、右に野菜の台とバス停の標識が描かれ、背景は茶畑の段と杉林の山並み。</desc>
+<defs>
+<linearGradient id="ns1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfdfee"/><stop offset="1" stop-color="#eef2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#ns1sky)"/>
+<path d="M0 74 L120 30 L240 76 L360 26 L480 78 L600 30 L720 76 L840 28 L960 76 L1000 54 L1000 118 L0 118 Z" fill="#8497a8"/>
+<path d="M0 98 L130 62 L260 104 L390 60 L520 106 L650 62 L780 104 L910 60 L1000 92 L1000 134 L0 134 Z" fill="#6f8d78"/>
+<g fill="#33604a">
+<path d="M10 134 L28 92 L46 134 Z"/><path d="M48 134 L68 86 L88 134 Z"/>
+<path d="M914 134 L932 92 L950 134 Z"/><path d="M952 134 L972 86 L992 134 Z"/>
+</g>
+<rect x="0" y="128" width="1000" height="432" fill="#eceee4"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<text x="40" y="166" font-size="21" font-weight="bold" fill="#1f3e52">日曜に開いている時間（2026年8月30日確認）</text>
+<g font-size="14" fill="#7a8590">
+<text x="256" y="192">9時</text><text x="366" y="192">11時</text><text x="476" y="192">13時</text><text x="586" y="192">15時</text><text x="696" y="192">17時</text><text x="806" y="192">18時</text>
+</g>
+<g stroke="#cfd8c6" stroke-width="2">
+<path d="M258 198 V462"/><path d="M368 198 V462"/><path d="M478 198 V462"/><path d="M588 198 V462"/><path d="M698 198 V462"/><path d="M808 198 V462"/>
+</g>
+
+<text x="40" y="222" font-size="16" fill="#33503f">森町立図書館</text>
+<rect x="258" y="206" width="440" height="24" rx="6" fill="#4d8f6d"/>
+<text x="272" y="224" font-size="14" fill="#ffffff">9:00〜17:00</text>
+
+<text x="40" y="262" font-size="16" fill="#33503f">児童館・子育て支援センター</text>
+<rect x="258" y="246" width="220" height="24" rx="6" fill="#4d8f6d"/>
+<rect x="506" y="246" width="192" height="24" rx="6" fill="#4d8f6d"/>
+<text x="272" y="264" font-size="14" fill="#ffffff">9:00〜13:00</text>
+<text x="518" y="264" font-size="14" fill="#ffffff">13:30〜17:00</text>
+<text x="446" y="292" font-size="13" fill="#a63b31">13:00〜13:30は閉館</text>
+
+<text x="40" y="330" font-size="16" fill="#33503f">森の市（JA直売所）</text>
+<rect x="258" y="314" width="550" height="24" rx="6" fill="#7fa84a"/>
+<text x="272" y="332" font-size="14" fill="#ffffff">9:00〜18:00</text>
+
+<text x="40" y="370" font-size="16" fill="#33503f">アクティ森</text>
+<rect x="258" y="354" width="468" height="24" rx="6" fill="#7fa84a"/>
+<text x="272" y="372" font-size="14" fill="#ffffff">9:00〜17:30</text>
+
+<text x="40" y="410" font-size="16" fill="#8a6a60">公立森町病院 外来</text>
+<rect x="258" y="394" width="550" height="24" rx="6" fill="#b7b2aa"/>
+<text x="272" y="412" font-size="14" fill="#ffffff">日曜は休診</text>
+
+<text x="40" y="450" font-size="16" fill="#8a6a60">町営バス 大河内線</text>
+<rect x="258" y="434" width="550" height="24" rx="6" fill="#b7b2aa"/>
+<text x="272" y="452" font-size="14" fill="#ffffff">土・日・祝は運休（吉川線は運行）</text>
+</g>
+
+<g>
+<rect x="828" y="206" width="132" height="120" rx="6" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="842" y="222" width="104" height="12" fill="#c47f5a"/>
+<rect x="842" y="242" width="104" height="12" fill="#6f95b8"/>
+<rect x="842" y="262" width="104" height="12" fill="#8aa86a"/>
+<rect x="856" y="286" width="24" height="24" fill="#e0b552"/>
+<rect x="884" y="286" width="24" height="24" fill="#8fb3d0"/>
+<rect x="912" y="286" width="24" height="24" fill="#c8452f"/>
+<rect x="828" y="346" width="132" height="112" rx="6" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<rect x="842" y="362" width="104" height="36" rx="4" fill="#e2ead9" stroke="#a9bb9a" stroke-width="3"/>
+<circle cx="864" cy="374" r="7" fill="#c8452f"/><circle cx="890" cy="374" r="7" fill="#e0a83c"/><circle cx="916" cy="374" r="7" fill="#7fa84a"/>
+<rect x="884" y="404" width="10" height="46" fill="#8a7f6a"/>
+<rect x="856" y="404" width="66" height="30" rx="4" fill="#ffffff" stroke="#4d7f9e" stroke-width="3"/>
+<g stroke="#8fa2ab" stroke-width="3"><path d="M866 414 H912"/><path d="M866 424 H900"/></g>
+</g>
+<text x="40" y="500" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="17" fill="#4a5a4b">図書館と児童館が同時に開くのは7時間30分（11月〜1月は7時間）</text>
+<text x="40" y="530" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">児童館は0歳〜18歳未満・町内外を問わず無料。役場の窓口は日曜休み</text>
+</svg>

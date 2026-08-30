@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="ns2title ns2desc">
+<title id="ns2title">森町で日曜を一日過ごす四つの順序</title>
+<desc id="ns2desc">一段目は午前に児童館で親子が積み木やボールで遊ぶ場面で、九時から十三時の札が添えられている。二段目は昼に農産物直売所で野菜を選ぶ場面。三段目は午後に図書館で親が地域の資料を読み、子どもが絵本コーナーに座る場面。四段目はバス停で時刻表を見ながら帰りの便を確かめる場面で、予約が必要な便に印が付いている。右端には森町立図書館と児童館の電話番号を控えたメモが描かれている。</desc>
+<defs>
+<linearGradient id="ns2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d5e2ec"/><stop offset="1" stop-color="#eff2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#ns2sky)"/>
+<path d="M0 74 L130 30 L260 78 L390 26 L520 80 L650 28 L780 78 L910 30 L1000 66 L1000 120 L0 120 Z" fill="#7d94a4"/>
+<path d="M0 100 L140 66 L280 106 L420 62 L560 108 L700 64 L840 106 L1000 78 L1000 136 L0 136 Z" fill="#6d8b76"/>
+<g fill="#33604a"><path d="M14 136 L32 94 L50 136 Z"/><path d="M944 136 L964 92 L984 136 Z"/></g>
+<rect x="0" y="130" width="1000" height="430" fill="#eceee4"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<text x="44" y="172" font-size="21" font-weight="bold" fill="#1f3e52">日曜の一日は、この順で組むと詰まらない</text>
+
+<rect x="44" y="192" width="212" height="184" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="60" y="220" font-size="17" font-weight="bold" fill="#1f3e52">1　午前は児童館</text>
+<rect x="62" y="234" width="176" height="98" rx="4" fill="#f6f2e6" stroke="#b8c7b2" stroke-width="3"/>
+<rect x="80" y="292" width="26" height="26" fill="#e0b552"/>
+<rect x="110" y="292" width="26" height="26" fill="#8fb3d0"/>
+<rect x="95" y="266" width="26" height="26" fill="#c8452f"/>
+<circle cx="186" cy="300" r="17" fill="#7fa84a" stroke="#4c7a60" stroke-width="3"/>
+<circle cx="156" cy="256" r="12" fill="#e6c49e" stroke="#bb9470" stroke-width="3"/>
+<rect x="146" y="270" width="22" height="30" rx="8" fill="#8a6a9c"/>
+<text x="60" y="358" font-size="15" fill="#4a5a4b">9:00〜13:00・無料・町外可</text>
+
+<rect x="272" y="192" width="212" height="184" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="288" y="220" font-size="17" font-weight="bold" fill="#1f3e52">2　昼は直売所</text>
+<rect x="290" y="256" width="176" height="76" rx="4" fill="#e2ead9" stroke="#a9bb9a" stroke-width="3"/>
+<path d="M290 256 L378 226 L466 256 Z" fill="#c47f5a" stroke="#9a6142" stroke-width="3"/>
+<circle cx="322" cy="282" r="12" fill="#c8452f"/><circle cx="352" cy="282" r="12" fill="#e0a83c"/>
+<circle cx="382" cy="282" r="12" fill="#7fa84a"/><circle cx="412" cy="282" r="12" fill="#8a6a9c"/>
+<rect x="310" y="302" width="130" height="10" rx="3" fill="#a9784c"/>
+<text x="288" y="358" font-size="15" fill="#4a5a4b">9:00〜18:00・年中無休</text>
+
+<rect x="500" y="192" width="212" height="184" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="516" y="220" font-size="17" font-weight="bold" fill="#1f3e52">3　午後は図書館</text>
+<rect x="516" y="238" width="88" height="94" rx="4" fill="#f4f6f0" stroke="#b8c7b2" stroke-width="3"/>
+<rect x="528" y="252" width="64" height="12" fill="#c47f5a"/>
+<rect x="528" y="272" width="64" height="12" fill="#6f95b8"/>
+<rect x="528" y="292" width="64" height="12" fill="#8aa86a"/>
+<circle cx="648" cy="258" r="14" fill="#e6c49e" stroke="#bb9470" stroke-width="3"/>
+<rect x="634" y="276" width="28" height="34" rx="9" fill="#4d7f9e"/>
+<circle cx="686" cy="274" r="10" fill="#e6c49e" stroke="#bb9470" stroke-width="3"/>
+<rect x="676" y="288" width="20" height="24" rx="7" fill="#c8452f"/>
+<rect x="628" y="316" width="72" height="14" rx="3" fill="#dfe7ee" stroke="#a9b3ba" stroke-width="2"/>
+<text x="516" y="358" font-size="15" fill="#4a5a4b">9:00〜17:00・10冊2週間</text>
+
+<rect x="728" y="192" width="228" height="184" rx="8" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<text x="744" y="220" font-size="17" font-weight="bold" fill="#1f3e52">4　帰りの便を確かめる</text>
+<rect x="806" y="240" width="12" height="92" fill="#8a7f6a"/>
+<rect x="744" y="238" width="104" height="76" rx="4" fill="#ffffff" stroke="#4d7f9e" stroke-width="3"/>
+<g font-size="13" fill="#41525c">
+<text x="754" y="258">9:15</text><text x="800" y="258">10:23</text>
+<text x="754" y="278">11:28</text><text x="800" y="278">13:20</text>
+<text x="754" y="298">14:47</text><text x="800" y="298">15:52</text>
+</g>
+<circle cx="748" cy="273" r="4" fill="#c8452f"/><circle cx="794" cy="273" r="4" fill="#c8452f"/>
+<text x="744" y="332" font-size="13" fill="#a63b31">赤い印は要予約の便</text>
+<rect x="862" y="286" width="86" height="46" rx="4" fill="#f4d774" stroke="#cfae3f" stroke-width="3"/>
+<text x="870" y="306" font-size="13" fill="#6b5c22">85-1113</text>
+<text x="870" y="324" font-size="13" fill="#6b5c22">85-2839</text>
+<text x="744" y="358" font-size="15" fill="#4a5a4b">予約不要は日曜4本だけ</text>
+</g>
+
+<rect x="0" y="396" width="1000" height="164" fill="#dfe8d2"/>
+<text x="44" y="434" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">泊まらなくても、日曜の7時間30分で暮らしは測れる</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">
+<text x="44" y="470">・図書館の利用者カードは磐田・袋井・掛川・菊川・御前崎の在住者も作れる</text>
+<text x="44" y="500">・児童館は0歳〜18歳未満・町内外を問わず無料。13:00〜13:30だけ閉館</text>
+<text x="44" y="530">・日曜は森町病院の外来と町営バス大河内線が休み。行く日が祝日でないか確認</text>
+</g>
+</svg>

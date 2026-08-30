@@ -4305,7 +4305,54 @@ def scene_nikyoten_juminhyo(d):
          "森町ライフハック／移住・暮らし・データ")
 
 
+def scene_nichiyo_toshokan_kosodate(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [20, 64, 690, 734], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 338)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 228, 201))
+    d.rectangle([40, 300, 720, 340], fill=(31, 62, 82))
+    d.text((56, 306), "日曜も開いている　図書館と児童館",
+           font=ImageFont.truetype(FONT_BOLD, 25), fill="#ffffff")
+    # 左：図書館の棚
+    d.rectangle([44, 366, 224, 486], fill=(244, 246, 240), outline=(125, 143, 118), width=4)
+    for i, col in enumerate(((196, 127, 90), (111, 149, 184), (138, 168, 106))):
+        d.rectangle([62, 386 + i * 32, 206, 402 + i * 32], fill=col)
+    d.text((60, 494), "図書館 9:00〜17:00",
+           font=ImageFont.truetype(FONT_REGULAR, 20), fill=(65, 82, 92))
+    # 中央：直売所の台
+    d.polygon([(258, 400), (380, 366), (502, 400)], fill=(196, 127, 90), outline=(154, 97, 66))
+    d.rectangle([268, 400, 492, 462], fill=(226, 234, 217), outline=(169, 187, 154), width=4)
+    for x, col in ((306, (200, 69, 47)), (348, (224, 168, 60)), (390, (127, 168, 74)), (432, (138, 106, 156))):
+        d.ellipse([x - 14, 414, x + 14, 442], fill=col)
+    d.rectangle([278, 462, 482, 474], fill=(169, 120, 76))
+    d.text((272, 494), "直売所 9:00〜18:00",
+           font=ImageFont.truetype(FONT_REGULAR, 20), fill=(65, 82, 92))
+    # 右：児童館の部屋
+    d.rectangle([536, 366, 716, 486], fill=(246, 242, 230), outline=(125, 143, 118), width=4)
+    d.rectangle([556, 440, 588, 472], fill=(224, 181, 82))
+    d.rectangle([592, 440, 624, 472], fill=(143, 179, 208))
+    d.rectangle([574, 408, 606, 440], fill=(200, 69, 47))
+    d.ellipse([640, 428, 692, 480], fill=(127, 168, 74), outline=(76, 122, 96), width=3)
+    d.ellipse([616, 378, 644, 406], fill=(230, 196, 157), outline=(189, 154, 114), width=3)
+    d.rounded_rectangle([618, 406, 642, 440], radius=9, fill=(138, 106, 156))
+    d.text((552, 494), "児童館 9:00〜17:00",
+           font=ImageFont.truetype(FONT_REGULAR, 20), fill=(65, 82, 92))
+    # 下部：札二枚
+    d.rectangle([44, 522, 372, 566], fill=(255, 255, 255), outline=(125, 143, 118), width=4)
+    d.text((60, 532), "町内外を問わず無料",
+           font=ImageFont.truetype(FONT_BOLD, 24), fill=(51, 80, 63))
+    d.rectangle([392, 522, 716, 566], fill=(253, 250, 240), outline=(185, 146, 47), width=4)
+    d.text((408, 532), "病院の外来は日曜休診",
+           font=ImageFont.truetype(FONT_BOLD, 24), fill=(166, 59, 49))
+    band(d, ["泊まらなくても、", "日曜の7時間30分で測れる"],
+         "森町ライフハック／移住・暮らし・データ")
+
+
 SCENES = {
+    "20260830-morimachi-nichiyo-toshokan-kosodate": scene_nichiyo_toshokan_kosodate,
     "20260830-nikyoten-juminhyo-dochira": scene_nikyoten_juminhyo,
     "20260830-morimachi-otameshi-iju-nashi": scene_otameshi_iju_nashi,
     "20260829-morimachi-road-race-moshikomi": scene_road_race_moshikomi,
