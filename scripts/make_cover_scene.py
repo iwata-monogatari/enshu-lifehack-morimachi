@@ -4351,7 +4351,55 @@ def scene_nichiyo_toshokan_kosodate(d):
          "森町ライフハック／移住・暮らし・データ")
 
 
+def scene_jido_fuyo_genkyotodoke(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [20, 64, 690, 734], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 338)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 228, 201))
+    # 見出しの板
+    d.rectangle([40, 298, 720, 340], fill=(31, 62, 82))
+    d.text((58, 305), "現況届　8月1日〜末日",
+           font=ImageFont.truetype(FONT_BOLD, 26), fill="#ffffff")
+    # 窓口の机
+    d.rectangle([96, 432, 664, 456], fill=(185, 141, 94))
+    d.rectangle([120, 456, 138, 540], fill=(156, 116, 75))
+    d.rectangle([622, 456, 640, 540], fill=(156, 116, 75))
+    # 机の上：現況届の用紙と封筒
+    d.rectangle([150, 356, 320, 432], fill=(255, 255, 255), outline=(143, 160, 168), width=4)
+    d.text((166, 366), "現況届", font=ImageFont.truetype(FONT_BOLD, 22), fill=(31, 62, 82))
+    for i in range(3):
+        d.line([(166, 400 + i * 12), (300, 400 + i * 12)], fill=(182, 194, 200), width=4)
+    d.rectangle([336, 372, 486, 432], fill=(246, 241, 226), outline=(194, 179, 147), width=4)
+    d.polygon([(336, 372), (411, 408), (486, 372)], fill=(232, 224, 202), outline=(194, 179, 147))
+    d.text((348, 412), "森町 健康こども課",
+           font=ImageFont.truetype(FONT_REGULAR, 15), fill=(122, 106, 74))
+    # 日めくり（8月31日）
+    d.rectangle([516, 350, 664, 432], fill=(255, 255, 255), outline=(200, 69, 47), width=5)
+    d.rectangle([516, 350, 664, 378], fill=(200, 69, 47))
+    d.text((548, 352), "8月", font=ImageFont.truetype(FONT_BOLD, 21), fill="#ffffff")
+    d.text((556, 380), "31", font=ImageFont.truetype(FONT_BOLD, 42), fill=(166, 59, 49))
+    # 左右の札
+    d.rectangle([32, 464, 356, 508], fill=(253, 236, 232), outline=(200, 69, 47), width=4)
+    d.text((48, 474), "11月支給分から止まる",
+           font=ImageFont.truetype(FONT_BOLD, 23), fill=(166, 59, 49))
+    d.rectangle([32, 518, 356, 562], fill=(253, 250, 240), outline=(185, 146, 47), width=4)
+    d.text((48, 528), "2年で資格が消える",
+           font=ImageFont.truetype(FONT_BOLD, 23), fill=(138, 108, 28))
+    # 親子（右手前）
+    d.ellipse([560, 452, 616, 508], fill=(230, 196, 157), outline=(189, 154, 114), width=4)
+    d.polygon([(548, 512), (588, 498), (628, 512), (640, 578), (536, 578)], fill=(138, 106, 156))
+    d.ellipse([648, 490, 692, 534], fill=(230, 196, 157), outline=(189, 154, 114), width=4)
+    d.polygon([(640, 538), (670, 526), (700, 538), (708, 578), (632, 578)], fill=(200, 69, 47))
+    d.rectangle([508, 520, 552, 552], fill=(246, 241, 226), outline=(194, 179, 147), width=3)
+    band(d, ["紙一枚を出すか出さないかで、", "9万円が動く"],
+         "森町ライフハック／手続き・制度")
+
+
 SCENES = {
+    "20260831-morimachi-jido-fuyo-teate-genkyotodoke": scene_jido_fuyo_genkyotodoke,
     "20260830-morimachi-nichiyo-toshokan-kosodate": scene_nichiyo_toshokan_kosodate,
     "20260830-nikyoten-juminhyo-dochira": scene_nikyoten_juminhyo,
     "20260830-morimachi-otameshi-iju-nashi": scene_otameshi_iju_nashi,

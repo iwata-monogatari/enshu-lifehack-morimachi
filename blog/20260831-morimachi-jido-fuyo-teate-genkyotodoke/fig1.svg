@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="jf1title jf1desc">
+<title id="jf1title">8月の封筒に入っている二枚の紙と、その効き方の違い</title>
+<desc id="jf1desc">左には八月のカレンダーがあり、一日から三十一日までのマス目のうち三十一日だけが赤く囲まれている。中央には役場の窓口の机があり、現況届と一部支給停止適用除外事由届の二枚の用紙が並べて置かれ、それぞれに出さないと十一月支給分から止まる、出さないと二分の一に減るという札が添えられている。右には親と子が窓口の職員と向かい合って座り、職員が用紙を指さしている。背景の窓の外には段になった茶畑と杉林の山並みが見え、手前の床には封筒を入れた鞄が置かれている。</desc>
+<defs>
+<linearGradient id="jf1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d5e2ec"/><stop offset="1" stop-color="#eff2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#jf1sky)"/>
+
+<rect x="0" y="0" width="1000" height="150" fill="#e6eef4"/>
+<rect x="640" y="18" width="330" height="118" rx="6" fill="#cddeea" stroke="#8fa7b8" stroke-width="4"/>
+<path d="M644 118 L710 84 L776 116 L842 80 L906 114 L966 86 L966 132 L644 132 Z" fill="#7d94a4"/>
+<path d="M644 126 L722 100 L800 128 L878 98 L966 124 L966 132 L644 132 Z" fill="#6d8b76"/>
+<g fill="#33604a"><path d="M660 132 L674 100 L688 132 Z"/><path d="M930 132 L944 102 L958 132 Z"/></g>
+<g stroke="#4c7a60" stroke-width="3" fill="none">
+<path d="M648 116 L740 106"/><path d="M648 124 L740 114"/>
+</g>
+<rect x="798" y="18" width="6" height="118" fill="#8fa7b8"/>
+<rect x="0" y="150" width="1000" height="410" fill="#f1efe6"/>
+<rect x="0" y="150" width="1000" height="10" fill="#d8d3c2"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<rect x="36" y="24" width="240" height="42" rx="6" fill="#1f3e52"/>
+<text x="52" y="53" font-size="22" font-weight="bold" fill="#ffffff">封筒の中は二枚ある</text>
+
+<!-- 8月のカレンダー -->
+<rect x="36" y="86" width="240" height="230" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="4"/>
+<rect x="36" y="86" width="240" height="38" rx="8" fill="#4d7f9e"/>
+<text x="52" y="113" font-size="20" font-weight="bold" fill="#ffffff">2026年 8月</text>
+<g fill="#dfe6ec">
+<rect x="52" y="136" width="28" height="24"/><rect x="86" y="136" width="28" height="24"/><rect x="120" y="136" width="28" height="24"/>
+<rect x="154" y="136" width="28" height="24"/><rect x="188" y="136" width="28" height="24"/><rect x="222" y="136" width="28" height="24"/>
+<rect x="52" y="166" width="28" height="24"/><rect x="86" y="166" width="28" height="24"/><rect x="120" y="166" width="28" height="24"/>
+<rect x="154" y="166" width="28" height="24"/><rect x="188" y="166" width="28" height="24"/><rect x="222" y="166" width="28" height="24"/>
+<rect x="52" y="196" width="28" height="24"/><rect x="86" y="196" width="28" height="24"/><rect x="120" y="196" width="28" height="24"/>
+<rect x="154" y="196" width="28" height="24"/><rect x="188" y="196" width="28" height="24"/><rect x="222" y="196" width="28" height="24"/>
+<rect x="52" y="226" width="28" height="24"/><rect x="86" y="226" width="28" height="24"/><rect x="120" y="226" width="28" height="24"/>
+<rect x="154" y="226" width="28" height="24"/><rect x="188" y="226" width="28" height="24"/><rect x="222" y="226" width="28" height="24"/>
+</g>
+<rect x="52" y="256" width="28" height="24" fill="#dfe6ec"/>
+<rect x="86" y="256" width="28" height="24" fill="#f4d774" stroke="#c8452f" stroke-width="4"/>
+<text x="92" y="274" font-size="16" font-weight="bold" fill="#a63b31">31</text>
+<text x="52" y="302" font-size="15" fill="#a63b31">赤い枠が提出の末日</text>
+
+<!-- 中央：机と二枚の用紙 -->
+<rect x="308" y="300" width="392" height="20" rx="4" fill="#b98d5e"/>
+<rect x="330" y="320" width="16" height="96" fill="#9c744b"/>
+<rect x="662" y="320" width="16" height="96" fill="#9c744b"/>
+
+<rect x="318" y="176" width="172" height="124" rx="4" fill="#ffffff" stroke="#8fa0a8" stroke-width="4"/>
+<text x="332" y="204" font-size="16" font-weight="bold" fill="#1f3e52">現況届</text>
+<g stroke="#b6c2c8" stroke-width="4" stroke-linecap="round">
+<path d="M332 222 L474 222"/><path d="M332 240 L474 240"/><path d="M332 258 L440 258"/>
+</g>
+<rect x="440" y="252" width="34" height="34" rx="4" fill="#eef3f6" stroke="#8fa0a8" stroke-width="3"/>
+<rect x="318" y="88" width="172" height="72" rx="6" fill="#fdece8" stroke="#c8452f" stroke-width="4"/>
+<text x="332" y="116" font-size="16" font-weight="bold" fill="#a63b31">出さないと</text>
+<text x="332" y="142" font-size="16" font-weight="bold" fill="#a63b31">11月支給分から停止</text>
+<path d="M404 160 L404 176" stroke="#c8452f" stroke-width="4"/>
+
+<rect x="512" y="176" width="172" height="124" rx="4" fill="#ffffff" stroke="#8fa0a8" stroke-width="4"/>
+<text x="526" y="204" font-size="15" font-weight="bold" fill="#1f3e52">一部支給停止</text>
+<text x="526" y="222" font-size="15" font-weight="bold" fill="#1f3e52">適用除外事由届</text>
+<g stroke="#b6c2c8" stroke-width="4" stroke-linecap="round">
+<path d="M526 244 L668 244"/><path d="M526 262 L634 262"/>
+</g>
+<rect x="634" y="256" width="34" height="34" rx="4" fill="#eef3f6" stroke="#8fa0a8" stroke-width="3"/>
+<rect x="512" y="88" width="172" height="72" rx="6" fill="#fdf6e4" stroke="#b9922f" stroke-width="4"/>
+<text x="526" y="116" font-size="16" font-weight="bold" fill="#8a6c1c">出さないと</text>
+<text x="526" y="142" font-size="16" font-weight="bold" fill="#8a6c1c">金額が2分の1に</text>
+<path d="M598 160 L598 176" stroke="#b9922f" stroke-width="4"/>
+
+<!-- 右：職員と親子 -->
+<circle cx="812" cy="212" r="26" fill="#e6c49e" stroke="#bb9470" stroke-width="4"/>
+<path d="M786 244 Q812 232 838 244 L850 312 L774 312 Z" fill="#4d7f9e"/>
+<path d="M782 268 L742 296" stroke="#e6c49e" stroke-width="12" stroke-linecap="round"/>
+<text x="756" y="342" font-size="15" fill="#41525c">こども家庭係</text>
+
+<circle cx="900" cy="228" r="24" fill="#e6c49e" stroke="#bb9470" stroke-width="4"/>
+<path d="M876 258 Q900 246 924 258 L934 320 L866 320 Z" fill="#8a6a9c"/>
+<circle cx="948" cy="266" r="16" fill="#e6c49e" stroke="#bb9470" stroke-width="4"/>
+<path d="M932 288 Q948 280 964 288 L970 322 L926 322 Z" fill="#c8452f"/>
+<text x="866" y="348" font-size="15" fill="#41525c">受け取っている家庭</text>
+
+<!-- 手前の鞄と封筒 -->
+<rect x="352" y="430" width="128" height="82" rx="8" fill="#6b5a45" stroke="#4c3f30" stroke-width="4"/>
+<path d="M388 430 Q416 404 444 430" fill="none" stroke="#4c3f30" stroke-width="6"/>
+<rect x="400" y="404" width="112" height="66" rx="3" fill="#f6f1e2" stroke="#c2b393" stroke-width="4" transform="rotate(-8 456 437)"/>
+<text x="404" y="446" font-size="14" fill="#7a6a4a" transform="rotate(-8 456 437)">森町 健康こども課</text>
+</g>
+
+<rect x="0" y="452" width="1000" height="108" fill="#dfe8d2"/>
+<text x="44" y="488" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">効き方が違う二枚。片方だけ出しても、もう片方の影響は残る</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">
+<text x="44" y="518">・現況届＝出さないと11月支給分以降が受け取れない。2年間で受給資格が消滅</text>
+<text x="44" y="544">・除外事由届＝受給5年または要件該当7年で同封。未提出で金額が2分の1になる可能性</text>
+</g>
+</svg>

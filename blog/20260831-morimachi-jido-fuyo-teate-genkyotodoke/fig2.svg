@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="jf2title jf2desc">
+<title id="jf2title">森町で現況届を出すときに動く順番</title>
+<desc id="jf2desc">四つの場面が左から右へ道でつながっている。一つ目は受話器を握って電話をかける場面で、健康こども課こども家庭係の番号が添えられている。二つ目は所得の申告が済んでいるかを確かめる場面で、申告書と印が描かれている。三つ目は森町保健福祉センターの建物へ向かい、窓口で現況届と除外事由届を出す場面。四つ目は手帳に翌年の予定を書き込む場面で、七月一日の受給者証更新と八月一日の現況届の二件が並んでいる。背景には段になった茶畑と杉林の山並みが広がっている。</desc>
+<defs>
+<linearGradient id="jf2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d5e2ec"/><stop offset="1" stop-color="#eff2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#jf2sky)"/>
+<path d="M0 78 L130 32 L260 80 L390 28 L520 82 L650 30 L780 80 L910 32 L1000 68 L1000 124 L0 124 Z" fill="#7d94a4"/>
+<path d="M0 104 L140 68 L280 108 L420 64 L560 110 L700 66 L840 108 L1000 80 L1000 140 L0 140 Z" fill="#6d8b76"/>
+<g fill="#33604a"><path d="M16 140 L34 96 L52 140 Z"/><path d="M946 140 L966 94 L986 140 Z"/></g>
+<g stroke="#5d8a6a" stroke-width="4" fill="none">
+<path d="M0 128 L200 118"/><path d="M0 136 L200 126"/>
+<path d="M800 126 L1000 118"/><path d="M800 134 L1000 126"/>
+</g>
+<rect x="0" y="140" width="1000" height="420" fill="#eceee4"/>
+<path d="M60 372 L940 372" stroke="#c9bfa3" stroke-width="14" stroke-linecap="round"/>
+<g fill="#f1efe6"><circle cx="270" cy="372" r="10"/><circle cx="500" cy="372" r="10"/><circle cx="730" cy="372" r="10"/></g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<text x="44" y="176" font-size="21" font-weight="bold" fill="#1f3e52">書類を探す前に、電話をかける</text>
+
+<rect x="44" y="196" width="212" height="164" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="60" y="224" font-size="17" font-weight="bold" fill="#1f3e52">1　電話をかける</text>
+<rect x="72" y="240" width="72" height="104" rx="10" fill="#4d7f9e" stroke="#31607d" stroke-width="3"/>
+<rect x="82" y="252" width="52" height="60" rx="4" fill="#dfeaf2"/>
+<circle cx="108" cy="328" r="9" fill="#dfeaf2"/>
+<rect x="156" y="252" width="88" height="80" rx="5" fill="#f4d774" stroke="#cfae3f" stroke-width="3"/>
+<text x="164" y="278" font-size="13" fill="#6b5c22">こども家庭係</text>
+<text x="164" y="300" font-size="15" font-weight="bold" fill="#6b5c22">0538-</text>
+<text x="164" y="320" font-size="15" font-weight="bold" fill="#6b5c22">86-6330</text>
+
+<rect x="272" y="196" width="212" height="164" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="288" y="224" font-size="17" font-weight="bold" fill="#1f3e52">2　所得の申告を確認</text>
+<rect x="300" y="240" width="112" height="102" rx="4" fill="#f8f6ee" stroke="#b6ae95" stroke-width="3"/>
+<g stroke="#c3c9cc" stroke-width="4" stroke-linecap="round">
+<path d="M314 264 L398 264"/><path d="M314 284 L398 284"/><path d="M314 304 L370 304"/>
+</g>
+<circle cx="428" cy="308" r="22" fill="none" stroke="#c8452f" stroke-width="5"/>
+<text x="416" y="316" font-size="17" font-weight="bold" fill="#c8452f">済</text>
+<text x="288" y="356" font-size="14" fill="#a63b31">未申告だと受け付け不可</text>
+
+<rect x="500" y="196" width="212" height="164" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="516" y="224" font-size="17" font-weight="bold" fill="#1f3e52">3　窓口で二枚を出す</text>
+<rect x="518" y="266" width="104" height="76" fill="#eae4d4" stroke="#b6ae95" stroke-width="3"/>
+<path d="M508 266 L570 236 L632 266 Z" fill="#8fa0a8" stroke="#6b7d85" stroke-width="3"/>
+<rect x="542" y="300" width="30" height="42" fill="#cddeea" stroke="#8fa7b8" stroke-width="3"/>
+<rect x="636" y="270" width="30" height="42" rx="2" fill="#ffffff" stroke="#8fa0a8" stroke-width="3"/>
+<rect x="664" y="278" width="30" height="42" rx="2" fill="#fdf6e4" stroke="#b9922f" stroke-width="3"/>
+<text x="516" y="356" font-size="14" fill="#4a5a4b">森町森50-1 保健福祉センター</text>
+
+<rect x="728" y="196" width="228" height="164" rx="8" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<text x="744" y="224" font-size="17" font-weight="bold" fill="#1f3e52">4　来年の予定に入れる</text>
+<rect x="744" y="240" width="196" height="102" rx="6" fill="#ffffff" stroke="#a9b3ba" stroke-width="3"/>
+<rect x="744" y="240" width="196" height="8" fill="#4d7f9e"/>
+<rect x="756" y="262" width="14" height="14" fill="#7fa84a"/>
+<text x="780" y="275" font-size="14" fill="#41525c">7月1日　受給者証の更新</text>
+<rect x="756" y="292" width="14" height="14" fill="#c8452f"/>
+<text x="780" y="305" font-size="14" fill="#41525c">8月1日　現況届の提出</text>
+<text x="756" y="330" font-size="13" fill="#8a6c1c">同じ係なのに月が1つずれる</text>
+</g>
+
+<rect x="0" y="400" width="1000" height="160" fill="#dfe8d2"/>
+<text x="44" y="438" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">今日出せなくても、今日電話はできる</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">
+<text x="44" y="472">・伝えるのは3つだけ。受給者の氏名、まだ出していないこと、今日中に出す方法があるか</text>
+<text x="44" y="502">・開庁時間は月曜日から金曜日の8時30分から17時15分（土日祝・年末年始を除く）</text>
+<text x="44" y="532">・郵送の可否と現況届の持ち物は公表ページに記載がない。電話で聞く項目</text>
+</g>
+</svg>
