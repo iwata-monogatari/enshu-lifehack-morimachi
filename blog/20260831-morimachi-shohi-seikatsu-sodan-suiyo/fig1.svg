@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="sh1title sh1desc">
+<title id="sh1title">森町の家に届く二つの入口と、二本の連絡先</title>
+<desc id="sh1desc">左には森町の瓦屋根の家と郵便受けがあり、郵便受けから訴訟最終告知と書かれたハガキがのぞいている。中央では高齢の親がスマートフォンを手に持ち、画面には投資の勧誘と警察を名乗る着信の二つが表示されている。右には森町役場の建物と袋井警察署森分庁舎が並び、家からそれぞれへ二本の道が伸びている。道の途中には毎週水曜九時から十六時と書かれた札と、平日は町職員が受付と書かれた札が立っている。背景には段になった茶畑と杉林の山並みが広がっている。</desc>
+<defs>
+<linearGradient id="sh1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d5e2ec"/><stop offset="1" stop-color="#eff2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#sh1sky)"/>
+<path d="M0 82 L130 34 L260 84 L390 30 L520 86 L650 32 L780 84 L910 34 L1000 70 L1000 128 L0 128 Z" fill="#7d94a4"/>
+<path d="M0 108 L140 70 L280 112 L420 66 L560 114 L700 68 L840 112 L1000 82 L1000 144 L0 144 Z" fill="#6d8b76"/>
+<g fill="#33604a"><path d="M16 144 L34 98 L52 144 Z"/><path d="M950 144 L968 100 L986 144 Z"/></g>
+<g stroke="#5d8a6a" stroke-width="4" fill="none">
+<path d="M0 132 L230 122"/><path d="M0 140 L230 130"/>
+<path d="M770 130 L1000 122"/><path d="M770 138 L1000 130"/>
+</g>
+<rect x="0" y="144" width="1000" height="416" fill="#eceee4"/>
+
+<path d="M200 300 Q420 250 700 232" stroke="#c9bfa3" stroke-width="13" fill="none" stroke-linecap="round"/>
+<path d="M200 330 Q430 356 700 380" stroke="#c9bfa3" stroke-width="13" fill="none" stroke-linecap="round"/>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<rect x="36" y="20" width="332" height="42" rx="6" fill="#1f3e52"/>
+<text x="52" y="49" font-size="22" font-weight="bold" fill="#ffffff">入口は二つ、連絡先も二つ</text>
+
+<!-- 左：森町の家と郵便受け -->
+<rect x="44" y="256" width="140" height="104" fill="#f1ece0" stroke="#b6ae95" stroke-width="4"/>
+<path d="M30 256 L114 200 L198 256 Z" fill="#8fa0a8" stroke="#6b7d85" stroke-width="4"/>
+<rect x="76" y="296" width="40" height="64" fill="#c9a06a" stroke="#9c744b" stroke-width="3"/>
+<rect x="132" y="288" width="38" height="34" fill="#cddeea" stroke="#8fa7b8" stroke-width="3"/>
+<rect x="196" y="300" width="10" height="66" fill="#8a7f6a"/>
+<rect x="176" y="272" width="52" height="34" rx="4" fill="#6d8b76" stroke="#4c7a60" stroke-width="3"/>
+<rect x="188" y="252" width="48" height="30" rx="2" fill="#ffffff" stroke="#c8452f" stroke-width="3" transform="rotate(-12 212 267)"/>
+<text x="190" y="271" font-size="11" fill="#a63b31" transform="rotate(-12 212 267)">訴訟最終告知</text>
+<text x="44" y="392" font-size="15" fill="#4a5a4b">郵便受けに届くハガキ</text>
+
+<!-- 中央：高齢の親とスマートフォン -->
+<circle cx="404" cy="222" r="30" fill="#e6c49e" stroke="#bb9470" stroke-width="4"/>
+<path d="M378 200 Q404 184 430 200 L432 214 L376 214 Z" fill="#b9b3ab"/>
+<path d="M370 258 Q404 244 438 258 L450 348 L358 348 Z" fill="#6f8fa6"/>
+<rect x="428" y="272" width="52" height="82" rx="8" fill="#33404a" stroke="#1f2a31" stroke-width="3"/>
+<rect x="435" y="282" width="38" height="60" rx="3" fill="#f4f7f8"/>
+<rect x="439" y="288" width="30" height="20" rx="2" fill="#f4d774"/>
+<text x="441" y="302" font-size="10" fill="#6b5c22">投資の話</text>
+<rect x="439" y="314" width="30" height="22" rx="2" fill="#fdece8"/>
+<text x="441" y="329" font-size="10" fill="#a63b31">警察を名乗る</text>
+<text x="356" y="392" font-size="15" fill="#4a5a4b">スマートフォンに届く勧誘と着信</text>
+
+<!-- 右上：森町役場 -->
+<rect x="704" y="176" width="176" height="86" fill="#e6e2d4" stroke="#b6ae95" stroke-width="4"/>
+<rect x="704" y="160" width="176" height="18" fill="#8fa0a8" stroke="#6b7d85" stroke-width="3"/>
+<g fill="#cddeea" stroke="#8fa7b8" stroke-width="3">
+<rect x="720" y="196" width="30" height="30"/><rect x="762" y="196" width="30" height="30"/><rect x="804" y="196" width="30" height="30"/>
+</g>
+<rect x="762" y="234" width="30" height="28" fill="#c9a06a" stroke="#9c744b" stroke-width="3"/>
+<text x="704" y="288" font-size="16" font-weight="bold" fill="#1f3e52">森町役場 産業課 2階</text>
+<text x="704" y="310" font-size="15" fill="#41525c">0538-85-6319</text>
+
+<!-- 右下：袋井警察署森分庁舎 -->
+<rect x="704" y="404" width="176" height="82" fill="#e2e8ec" stroke="#8fa7b8" stroke-width="4"/>
+<path d="M692 404 L792 366 L892 404 Z" fill="#6f8fa6" stroke="#4d7f9e" stroke-width="3"/>
+<circle cx="792" cy="386" r="12" fill="#f4d774" stroke="#cfae3f" stroke-width="3"/>
+<rect x="774" y="450" width="36" height="36" fill="#cddeea" stroke="#8fa7b8" stroke-width="3"/>
+<text x="704" y="512" font-size="16" font-weight="bold" fill="#1f3e52">袋井警察署 森分庁舎</text>
+<text x="704" y="534" font-size="15" fill="#41525c">森町森1524-4 ／ #9110</text>
+
+<!-- 道の途中の札 -->
+<rect x="392" y="196" width="176" height="0" fill="none"/>
+<rect x="452" y="424" width="216" height="44" rx="5" fill="#ffffff" stroke="#7d8f76" stroke-width="4"/>
+<text x="466" y="453" font-size="17" font-weight="bold" fill="#33503f">水曜 9:00〜16:00 相談員</text>
+<rect x="452" y="476" width="216" height="44" rx="5" fill="#eef6f2" stroke="#7d8f76" stroke-width="4"/>
+<text x="466" y="505" font-size="17" font-weight="bold" fill="#33503f">平日は町職員が受付</text>
+
+<rect x="504" y="140" width="220" height="44" rx="5" fill="#fdf6e4" stroke="#b9922f" stroke-width="4"/>
+<text x="518" y="169" font-size="17" font-weight="bold" fill="#8a6c1c">被害額の48.6%はSNS型</text>
+</g>
+</svg>

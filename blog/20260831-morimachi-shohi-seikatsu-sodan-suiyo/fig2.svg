@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="sh2title sh2desc">
+<title id="sh2title">森町で詐欺かもしれないと思ったときに動く順番</title>
+<desc id="sh2desc">四つの場面が左から右へ一本の道でつながっている。一つ目は払わない・かけ直さない場面で、ハガキに書かれた電話番号に大きなバツ印が付いている。二つ目は森町役場へ電話する場面で、毎週水曜は相談員が九時から十六時、それ以外の平日は町職員が八時三十分から十七時十五分、電話番号は〇五三八の八五の六三一九と記されている。三つ目は袋井警察署または警察相談専用電話へ連絡する場面。四つ目は封筒と着信履歴と振込の控えを一つの箱にまとめ、日付を書き込む場面。背景には段になった茶畑と杉林の山並みが広がっている。</desc>
+<defs>
+<linearGradient id="sh2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d5e2ec"/><stop offset="1" stop-color="#eff2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#sh2sky)"/>
+<path d="M0 76 L130 30 L260 78 L390 26 L520 80 L650 28 L780 78 L910 30 L1000 66 L1000 122 L0 122 Z" fill="#7d94a4"/>
+<path d="M0 102 L140 66 L280 106 L420 62 L560 108 L700 64 L840 106 L1000 78 L1000 138 L0 138 Z" fill="#6d8b76"/>
+<g fill="#33604a"><path d="M14 138 L32 94 L50 138 Z"/><path d="M948 138 L966 92 L984 138 Z"/></g>
+<g stroke="#5d8a6a" stroke-width="4" fill="none">
+<path d="M0 126 L190 116"/><path d="M0 134 L190 124"/>
+<path d="M810 124 L1000 116"/><path d="M810 132 L1000 124"/>
+</g>
+<rect x="0" y="138" width="1000" height="422" fill="#eceee4"/>
+<path d="M60 374 L940 374" stroke="#c9bfa3" stroke-width="14" stroke-linecap="round"/>
+<g fill="#eceee4"><circle cx="270" cy="374" r="10"/><circle cx="500" cy="374" r="10"/><circle cx="730" cy="374" r="10"/></g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<text x="44" y="176" font-size="21" font-weight="bold" fill="#1f3e52">相談より先に、かけ直さない</text>
+
+<rect x="44" y="196" width="212" height="166" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="60" y="224" font-size="17" font-weight="bold" fill="#1f3e52">1　払わない</text>
+<rect x="72" y="240" width="156" height="94" rx="3" fill="#f8f6ee" stroke="#b6ae95" stroke-width="3"/>
+<text x="84" y="266" font-size="13" fill="#7a6a4a">訴訟最終告知のお知らせ</text>
+<rect x="84" y="278" width="120" height="26" rx="3" fill="#eef0e9" stroke="#c3c9cc" stroke-width="2"/>
+<text x="92" y="297" font-size="14" fill="#6b7d85">03-0000-0000</text>
+<g stroke="#c8452f" stroke-width="7" stroke-linecap="round">
+<path d="M84 276 L204 306"/><path d="M204 276 L84 306"/>
+</g>
+<text x="60" y="356" font-size="14" fill="#a63b31">記載の番号にかけ直さない</text>
+
+<rect x="272" y="196" width="212" height="166" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="288" y="224" font-size="17" font-weight="bold" fill="#1f3e52">2　森町役場へ電話</text>
+<rect x="292" y="238" width="64" height="94" rx="10" fill="#4d7f9e" stroke="#31607d" stroke-width="3"/>
+<rect x="300" y="250" width="48" height="52" rx="4" fill="#dfeaf2"/>
+<circle cx="324" cy="318" r="9" fill="#dfeaf2"/>
+<rect x="366" y="238" width="104" height="94" rx="5" fill="#f4d774" stroke="#cfae3f" stroke-width="3"/>
+<text x="374" y="260" font-size="13" fill="#6b5c22">水曜 9:00-16:00</text>
+<text x="374" y="280" font-size="13" fill="#6b5c22">相談員がいる日</text>
+<text x="374" y="302" font-size="13" fill="#6b5c22">平日 8:30-17:15</text>
+<text x="374" y="322" font-size="14" font-weight="bold" fill="#6b5c22">85-6319</text>
+<text x="288" y="356" font-size="14" fill="#4a5a4b">水曜以外も町職員が受付</text>
+
+<rect x="500" y="196" width="212" height="166" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="516" y="224" font-size="17" font-weight="bold" fill="#1f3e52">3　警察へ連絡</text>
+<rect x="522" y="266" width="112" height="66" fill="#e2e8ec" stroke="#8fa7b8" stroke-width="3"/>
+<path d="M512 266 L578 234 L644 266 Z" fill="#6f8fa6" stroke="#4d7f9e" stroke-width="3"/>
+<circle cx="578" cy="252" r="10" fill="#f4d774" stroke="#cfae3f" stroke-width="3"/>
+<rect x="562" y="300" width="32" height="32" fill="#cddeea" stroke="#8fa7b8" stroke-width="3"/>
+<rect x="648" y="262" width="56" height="46" rx="5" fill="#eef6f2" stroke="#7d8f76" stroke-width="3"/>
+<text x="656" y="292" font-size="17" font-weight="bold" fill="#33503f">#9110</text>
+<text x="516" y="356" font-size="14" fill="#4a5a4b">袋井警察署 森分庁舎</text>
+
+<rect x="728" y="196" width="228" height="166" rx="8" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<text x="744" y="224" font-size="17" font-weight="bold" fill="#1f3e52">4　記録を一か所に</text>
+<rect x="748" y="248" width="176" height="86" rx="4" fill="#e6dfcd" stroke="#b09a68" stroke-width="3"/>
+<rect x="748" y="248" width="176" height="18" fill="#c9b98a"/>
+<rect x="762" y="276" width="52" height="40" rx="2" fill="#ffffff" stroke="#b6ae95" stroke-width="3"/>
+<rect x="822" y="276" width="40" height="40" rx="6" fill="#33404a" stroke="#1f2a31" stroke-width="3"/>
+<rect x="828" y="282" width="28" height="28" rx="2" fill="#f4f7f8"/>
+<rect x="870" y="276" width="42" height="40" rx="2" fill="#fdf6e4" stroke="#cfae3f" stroke-width="3"/>
+<text x="874" y="302" font-size="12" fill="#8a6c1c">振込控</text>
+<text x="744" y="356" font-size="14" fill="#4a5a4b">届いた日と電話した日を書く</text>
+</g>
+
+<rect x="0" y="400" width="1000" height="160" fill="#dfe8d2"/>
+<text x="44" y="438" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">水曜まで待たなくていい。平日はいつでも受け付ける</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">
+<text x="44" y="472">・伝えるのは3つ。届いたものの種類、書かれていた金額、払ったか払っていないか</text>
+<text x="44" y="502">・森町を管轄するのは袋井警察署（管轄区域は袋井市と周智郡）。掛川警察署ではない</text>
+<text x="44" y="532">・全国の被害額は2026年1〜3月で937.9億円。前年同期より413.9億円増（警察庁）</text>
+</g>
+</svg>

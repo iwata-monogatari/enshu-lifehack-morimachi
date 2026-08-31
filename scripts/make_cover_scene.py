@@ -4398,7 +4398,60 @@ def scene_jido_fuyo_genkyotodoke(d):
          "森町ライフハック／手続き・制度")
 
 
+def scene_shohi_seikatsu_sodan(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [20, 64, 690, 734], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 338)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 228, 201))
+    d.rectangle([28, 298, 732, 340], fill=(31, 62, 82))
+    d.text((44, 305), "相談員は毎週水曜 9:00〜16:00",
+           font=ImageFont.truetype(FONT_BOLD, 25), fill="#ffffff")
+    # 机
+    d.rectangle([40, 434, 560, 456], fill=(185, 141, 94))
+    d.rectangle([64, 456, 82, 528], fill=(156, 116, 75))
+    d.rectangle([518, 456, 536, 528], fill=(156, 116, 75))
+    # 左：黒電話
+    d.rounded_rectangle([64, 380, 176, 434], radius=10, fill=(51, 64, 74), outline=(31, 42, 49), width=3)
+    d.rounded_rectangle([56, 362, 184, 386], radius=11, fill=(31, 42, 49))
+    d.ellipse([98, 396, 142, 428], fill=(200, 214, 222))
+    # 中央：カレンダー（水曜に丸）
+    d.rectangle([200, 356, 372, 434], fill=(255, 255, 255), outline=(143, 160, 168), width=4)
+    d.rectangle([200, 356, 372, 378], fill=(77, 127, 158))
+    d.text((214, 358), "水曜日", font=ImageFont.truetype(FONT_BOLD, 17), fill="#ffffff")
+    for r in range(2):
+        for c in range(5):
+            d.rectangle([214 + c * 30, 388 + r * 22, 236 + c * 30, 406 + r * 22], fill=(223, 230, 236))
+    d.ellipse([268, 384, 300, 410], outline=(200, 69, 47), width=5)
+    # 右：ハガキとスマートフォン
+    d.rectangle([400, 366, 496, 424], fill=(255, 255, 255), outline=(200, 69, 47), width=4)
+    d.text((410, 384), "身に覚えの", font=ImageFont.truetype(FONT_REGULAR, 15), fill=(166, 59, 49))
+    d.text((410, 402), "ない請求", font=ImageFont.truetype(FONT_REGULAR, 15), fill=(166, 59, 49))
+    d.rounded_rectangle([508, 354, 560, 434], radius=8, fill=(51, 64, 74), outline=(31, 42, 49), width=3)
+    d.rounded_rectangle([515, 364, 553, 424], radius=3, fill=(244, 247, 248))
+    d.rectangle([519, 372, 549, 392], fill=(244, 215, 116))
+    d.rectangle([519, 396, 549, 418], fill=(253, 236, 232))
+    # 札
+    d.rectangle([28, 470, 344, 514], fill=(238, 246, 242), outline=(125, 143, 118), width=4)
+    d.text((44, 480), "水曜以外は町職員が受付",
+           font=ImageFont.truetype(FONT_BOLD, 23), fill=(51, 80, 63))
+    d.rectangle([28, 524, 344, 568], fill=(253, 236, 232), outline=(200, 69, 47), width=4)
+    d.text((44, 534), "まず払わない・かけ直さない",
+           font=ImageFont.truetype(FONT_BOLD, 21), fill=(166, 59, 49))
+    # 右手前：高齢の親と家族
+    d.ellipse([596, 400, 652, 456], fill=(230, 196, 157), outline=(189, 154, 114), width=4)
+    d.polygon([(586, 396), (624, 380), (662, 396), (664, 408), (584, 408)], fill=(185, 179, 171))
+    d.polygon([(584, 462), (624, 448), (664, 462), (676, 578), (572, 578)], fill=(111, 143, 166))
+    d.ellipse([676, 434, 724, 482], fill=(230, 196, 157), outline=(189, 154, 114), width=4)
+    d.polygon([(668, 488), (700, 476), (732, 488), (740, 578), (660, 578)], fill=(138, 106, 156))
+    band(d, ["水曜まで待たなくていい。", "平日はいつでも受け付ける"],
+         "森町ライフハック／手続き・制度")
+
+
 SCENES = {
+    "20260831-morimachi-shohi-seikatsu-sodan-suiyo": scene_shohi_seikatsu_sodan,
     "20260831-morimachi-jido-fuyo-teate-genkyotodoke": scene_jido_fuyo_genkyotodoke,
     "20260830-morimachi-nichiyo-toshokan-kosodate": scene_nichiyo_toshokan_kosodate,
     "20260830-nikyoten-juminhyo-dochira": scene_nikyoten_juminhyo,
