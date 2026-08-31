@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kn2title kn2desc">
+<title id="kn2title">森町で生活費に困ったときに動く順番</title>
+<desc id="kn2desc">四つの場面が左から右へ一本の道でつながっている。一つ目は電話をかける場面で、〇五三八の八五の五七六九と平日八時三十分から十七時十五分が添えられている。二つ目は収入と支出を一枚に書き出す場面で、家賃と光熱費と保険と返済の四つの欄がある紙が机に置かれている。三つ目は給付か貸付かを分ける場面で、左に返さなくてよい住居確保給付金の箱、右に返す生活福祉資金の箱が描かれている。四つ目は町税と国民健康保険税の相談を別に立てる場面で、税務課の窓口が描かれている。背景には段になった茶畑と杉林の山並みが広がっている。</desc>
+<defs>
+<linearGradient id="kn2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d5e2ec"/><stop offset="1" stop-color="#eff2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#kn2sky)"/>
+<path d="M0 74 L130 30 L260 76 L390 26 L520 78 L650 28 L780 76 L910 30 L1000 64 L1000 120 L0 120 Z" fill="#7d94a4"/>
+<path d="M0 100 L140 64 L280 104 L420 60 L560 106 L700 62 L840 104 L1000 76 L1000 136 L0 136 Z" fill="#6d8b76"/>
+<g fill="#33604a"><path d="M14 136 L32 92 L50 136 Z"/><path d="M948 136 L966 90 L984 136 Z"/></g>
+<g stroke="#5d8a6a" stroke-width="4" fill="none">
+<path d="M0 124 L190 114"/><path d="M0 132 L190 122"/>
+<path d="M810 122 L1000 114"/><path d="M810 130 L1000 122"/>
+</g>
+<rect x="0" y="136" width="1000" height="424" fill="#eceee4"/>
+<path d="M60 376 L940 376" stroke="#c9bfa3" stroke-width="14" stroke-linecap="round"/>
+<g fill="#eceee4"><circle cx="270" cy="376" r="10"/><circle cx="500" cy="376" r="10"/><circle cx="730" cy="376" r="10"/></g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<text x="44" y="176" font-size="21" font-weight="bold" fill="#1f3e52">迷う前に、番号は1つ</text>
+
+<rect x="44" y="196" width="212" height="168" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="60" y="224" font-size="17" font-weight="bold" fill="#1f3e52">1　電話をかける</text>
+<rect x="66" y="240" width="62" height="92" rx="10" fill="#4d7f9e" stroke="#31607d" stroke-width="3"/>
+<rect x="74" y="252" width="46" height="50" rx="4" fill="#dfeaf2"/>
+<circle cx="97" cy="318" r="9" fill="#dfeaf2"/>
+<rect x="138" y="240" width="104" height="92" rx="5" fill="#eef6f2" stroke="#7d8f76" stroke-width="3"/>
+<text x="146" y="264" font-size="13" fill="#41525c">相談も貸付も</text>
+<text x="146" y="288" font-size="15" font-weight="bold" fill="#33503f">0538-</text>
+<text x="146" y="308" font-size="15" font-weight="bold" fill="#33503f">85-5769</text>
+<text x="146" y="326" font-size="12" fill="#6b7d85">平日8:30-17:15</text>
+<text x="60" y="358" font-size="14" fill="#4a5a4b">借りると決めていなくてよい</text>
+
+<rect x="272" y="196" width="212" height="168" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="288" y="224" font-size="17" font-weight="bold" fill="#1f3e52">2　家計を1枚に</text>
+<rect x="292" y="238" width="172" height="100" rx="4" fill="#f8f6ee" stroke="#b6ae95" stroke-width="3"/>
+<g font-size="13" fill="#41525c">
+<text x="304" y="262">家賃</text><text x="304" y="284">光熱費</text>
+<text x="304" y="306">保険</text><text x="304" y="328">返済</text>
+</g>
+<g stroke="#c3c9cc" stroke-width="3">
+<path d="M380 256 L452 256"/><path d="M380 278 L452 278"/>
+<path d="M380 300 L452 300"/><path d="M380 322 L452 322"/>
+</g>
+<text x="288" y="358" font-size="14" fill="#4a5a4b">足りない額が出発点になる</text>
+
+<rect x="500" y="196" width="212" height="168" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="516" y="224" font-size="17" font-weight="bold" fill="#1f3e52">3　給付と貸付を分ける</text>
+<rect x="516" y="242" width="90" height="94" rx="5" fill="#eef6f2" stroke="#7d8f76" stroke-width="3"/>
+<text x="526" y="266" font-size="13" fill="#33503f">返さない</text>
+<text x="526" y="290" font-size="13" font-weight="bold" fill="#33503f">住居確保</text>
+<text x="526" y="310" font-size="13" font-weight="bold" fill="#33503f">給付金</text>
+<text x="526" y="330" font-size="12" fill="#6b7d85">家賃相当額</text>
+<rect x="618" y="242" width="80" height="94" rx="5" fill="#fdf6e4" stroke="#b9922f" stroke-width="3"/>
+<text x="628" y="266" font-size="13" fill="#a63b31">返す</text>
+<text x="628" y="290" font-size="13" font-weight="bold" fill="#8a6c1c">生活福祉</text>
+<text x="628" y="310" font-size="13" font-weight="bold" fill="#8a6c1c">資金</text>
+<text x="628" y="330" font-size="12" fill="#6b7d85">年1.5%あり</text>
+<text x="516" y="358" font-size="14" fill="#4a5a4b">メモを分けて取る</text>
+
+<rect x="728" y="196" width="228" height="168" rx="8" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<text x="744" y="224" font-size="17" font-weight="bold" fill="#1f3e52">4　税は別に立てる</text>
+<rect x="758" y="256" width="118" height="72" fill="#e6e2d4" stroke="#b6ae95" stroke-width="3"/>
+<path d="M746 256 L817 224 L888 256 Z" fill="#8fa0a8" stroke="#6b7d85" stroke-width="3"/>
+<rect x="800" y="292" width="34" height="36" fill="#cddeea" stroke="#8fa7b8" stroke-width="3"/>
+<text x="744" y="352" font-size="14" fill="#4a5a4b">町税・国保税は森町の税務課へ</text>
+<rect x="886" y="262" width="62" height="62" rx="5" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="894" y="286" font-size="13" fill="#33503f">森町</text>
+<text x="894" y="308" font-size="13" font-weight="bold" fill="#33503f">税務課</text>
+</g>
+
+<rect x="0" y="404" width="1000" height="156" fill="#dfe8d2"/>
+<text x="44" y="442" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">相談したからといって、借りることにも生活保護にもならない</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">
+<text x="44" y="476">・自立相談支援も生活福祉資金も小口福祉資金も、森町社会福祉協議会が窓口（森町森50-1）</text>
+<text x="44" y="506">・総合支援資金と緊急小口資金は、原則として自立相談支援を受けることが条件</text>
+<text x="44" y="536">・緊急小口資金10万円は12か月以内の償還。単純計算で月8,334円（当方の計算）</text>
+</g>
+</svg>

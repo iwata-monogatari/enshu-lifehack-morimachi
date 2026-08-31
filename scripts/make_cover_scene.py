@@ -4494,7 +4494,56 @@ def scene_seinen_koken_sodan(d):
          "森町ライフハック／手続き・制度")
 
 
+def scene_seikatsu_konkyu_madoguchi(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [20, 64, 690, 734], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 338)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 228, 201))
+    d.rectangle([56, 298, 704, 340], fill=(31, 62, 82))
+    d.text((74, 305), "相談も貸付も 0538-85-5769",
+           font=ImageFont.truetype(FONT_BOLD, 25), fill="#ffffff")
+    # 背景の保健福祉センター
+    d.rectangle([236, 356, 524, 424], fill=(230, 226, 212), outline=(176, 154, 104), width=4)
+    d.polygon([(220, 356), (380, 328), (540, 356)], fill=(143, 160, 168), outline=(107, 125, 133), width=3)
+    for x in (256, 300, 424, 468):
+        d.rectangle([x, 372, x + 28, 396], fill=(205, 222, 234), outline=(143, 167, 184), width=2)
+    d.rectangle([364, 392, 396, 424], fill=(201, 160, 106), outline=(156, 116, 75), width=2)
+    # 中央の電話機
+    d.rounded_rectangle([288, 434, 472, 500], radius=12, fill=(51, 64, 74), outline=(31, 42, 49), width=4)
+    d.rounded_rectangle([306, 448, 454, 480], radius=6, fill=(223, 234, 242))
+    d.text((312, 452), "85-5769", font=ImageFont.truetype(FONT_BOLD, 26), fill=(31, 62, 82))
+    d.ellipse([340, 486, 420, 502], fill=(223, 234, 242))
+    # 左右の矢印
+    d.line([(276, 466), (196, 466)], fill=(138, 127, 106), width=6)
+    d.polygon([(210, 452), (188, 466), (210, 480)], fill=(138, 127, 106))
+    d.line([(484, 466), (564, 466)], fill=(138, 127, 106), width=6)
+    d.polygon([(550, 452), (572, 466), (550, 480)], fill=(138, 127, 106))
+    # 左の札：自立相談支援
+    d.rectangle([12, 428, 190, 508], fill=(255, 255, 255), outline=(77, 127, 158), width=4)
+    d.text((24, 438), "自立相談支援", font=ImageFont.truetype(FONT_BOLD, 20), fill=(31, 62, 82))
+    d.text((24, 466), "相談は無料", font=ImageFont.truetype(FONT_REGULAR, 17), fill=(65, 82, 92))
+    d.text((24, 486), "給付は返済不要", font=ImageFont.truetype(FONT_REGULAR, 17), fill=(51, 80, 63))
+    # 右の札：貸付
+    d.rectangle([570, 428, 748, 508], fill=(253, 250, 240), outline=(185, 146, 47), width=4)
+    d.text((582, 438), "生活福祉資金", font=ImageFont.truetype(FONT_BOLD, 20), fill=(138, 108, 28))
+    d.text((582, 466), "貸付＝返す", font=ImageFont.truetype(FONT_REGULAR, 17), fill=(166, 59, 49))
+    d.text((582, 486), "償還が前提", font=ImageFont.truetype(FONT_REGULAR, 17), fill=(166, 59, 49))
+    # 手前の世帯主と家計簿
+    d.ellipse([326, 512, 380, 566], fill=(230, 196, 157), outline=(189, 154, 114), width=4)
+    d.polygon([(310, 570), (353, 556), (396, 570), (404, 592), (302, 592)], fill=(111, 143, 166))
+    d.rectangle([412, 524, 492, 578], fill=(255, 255, 255), outline=(182, 174, 149), width=4)
+    d.text((420, 532), "家計簿", font=ImageFont.truetype(FONT_REGULAR, 16), fill=(122, 106, 74))
+    d.line([(420, 556), (484, 556)], fill=(195, 201, 204), width=4)
+    d.line([(420, 568), (462, 568)], fill=(195, 201, 204), width=4)
+    band(d, ["窓口を選ぶ必要はない。", "相談が先、貸付が後"],
+         "森町ライフハック／手続き・制度")
+
+
 SCENES = {
+    "20260831-morimachi-seikatsu-konkyu-madoguchi": scene_seikatsu_konkyu_madoguchi,
     "20260831-morimachi-seinen-koken-sodan": scene_seinen_koken_sodan,
     "20260831-morimachi-shohi-seikatsu-sodan-suiyo": scene_shohi_seikatsu_sodan,
     "20260831-morimachi-jido-fuyo-teate-genkyotodoke": scene_jido_fuyo_genkyotodoke,

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kn1title kn1desc">
+<title id="kn1title">一つの電話番号につながる三つの制度</title>
+<desc id="kn1desc">中央に電話機が置かれ、〇五三八の八五の五七六九と記されている。電話機から三本の線が伸び、左は自立相談支援で相談は無料・住居確保給付金は返済不要と書かれた白い札、中央は県事業の生活福祉資金で償還が前提・連帯保証人なしは年一・五パーセントと書かれた黄色い札、右は町社協の小口福祉資金で三万円以内と書かれた札につながっている。中央の札からは矢印が左の札へ戻り、総合支援資金と緊急小口資金は原則として自立相談支援を受けると記されている。背景には森町保健福祉センターの建物と、段になった茶畑と杉林の山並みが描かれている。</desc>
+<defs>
+<linearGradient id="kn1sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d5e2ec"/><stop offset="1" stop-color="#eff2e9"/>
+</linearGradient>
+<marker id="kn1arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#c8452f"/>
+</marker>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#kn1sky)"/>
+<path d="M0 62 L130 20 L260 64 L390 16 L520 66 L650 18 L780 64 L910 20 L1000 54 L1000 108 L0 108 Z" fill="#7d94a4"/>
+<path d="M0 88 L140 54 L280 92 L420 50 L560 94 L700 52 L840 92 L1000 66 L1000 124 L0 124 Z" fill="#6d8b76"/>
+<g fill="#33604a"><path d="M14 124 L32 82 L50 124 Z"/><path d="M948 124 L966 80 L984 124 Z"/></g>
+<g stroke="#5d8a6a" stroke-width="4" fill="none">
+<path d="M0 112 L150 102"/><path d="M0 120 L150 110"/>
+<path d="M850 110 L1000 102"/><path d="M850 118 L1000 110"/>
+</g>
+<rect x="0" y="124" width="1000" height="436" fill="#eceee4"/>
+
+<!-- 保健福祉センターの建物（背景） -->
+<rect x="316" y="146" width="368" height="86" fill="#e6e2d4" stroke="#b09a68" stroke-width="4"/>
+<path d="M300 146 L500 112 L700 146 Z" fill="#8fa0a8" stroke="#6b7d85" stroke-width="4"/>
+<g fill="#cddeea" stroke="#8fa7b8" stroke-width="3">
+<rect x="342" y="168" width="34" height="30"/><rect x="392" y="168" width="34" height="30"/>
+<rect x="574" y="168" width="34" height="30"/><rect x="624" y="168" width="34" height="30"/>
+</g>
+<rect x="482" y="196" width="36" height="36" fill="#c9a06a" stroke="#9c744b" stroke-width="3"/>
+<text x="352" y="222" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="15" fill="#6b7d85">森町保健福祉センター</text>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<!-- 中央の電話機 -->
+<rect x="404" y="252" width="192" height="86" rx="12" fill="#33404a" stroke="#1f2a31" stroke-width="4"/>
+<rect x="424" y="268" width="152" height="42" rx="6" fill="#dfeaf2"/>
+<text x="432" y="298" font-size="24" font-weight="bold" fill="#1f3e52">0538-85-5769</text>
+<ellipse cx="500" cy="326" rx="30" ry="9" fill="#dfeaf2"/>
+
+<!-- 線 -->
+<g stroke="#8a7f6a" stroke-width="5" fill="none">
+<path d="M404 296 L268 296"/>
+<path d="M500 338 L500 380"/>
+<path d="M596 296 L742 296"/>
+</g>
+
+<!-- 左：自立相談支援 -->
+<rect x="28" y="228" width="240" height="140" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="4"/>
+<rect x="28" y="228" width="240" height="32" fill="#4d7f9e"/>
+<text x="42" y="251" font-size="16" font-weight="bold" fill="#ffffff">自立相談支援</text>
+<text x="42" y="284" font-size="15" fill="#41525c">相談は無料</text>
+<text x="42" y="310" font-size="15" font-weight="bold" fill="#33503f">住居確保給付金</text>
+<text x="42" y="334" font-size="15" font-weight="bold" fill="#33503f">＝返済不要の給付</text>
+<text x="42" y="358" font-size="13" fill="#6b7d85">森町社会福祉協議会</text>
+
+<!-- 中央下：県事業の貸付 -->
+<rect x="352" y="380" width="296" height="146" rx="8" fill="#fdfaf0" stroke="#b9922f" stroke-width="4"/>
+<rect x="352" y="380" width="296" height="32" fill="#b9922f"/>
+<text x="366" y="403" font-size="16" font-weight="bold" fill="#ffffff">【県事業】生活福祉資金</text>
+<text x="366" y="436" font-size="15" font-weight="bold" fill="#a63b31">償還が前提（貸付）</text>
+<text x="366" y="462" font-size="14" fill="#41525c">緊急小口10万円／生活支援費 月15万〜20万</text>
+<text x="366" y="486" font-size="14" fill="#41525c">連帯保証人あり無利子・なし年1.5%</text>
+<text x="366" y="510" font-size="13" fill="#6b7d85">実施主体は静岡県社会福祉協議会</text>
+
+<!-- 右：小口福祉資金 -->
+<rect x="742" y="228" width="230" height="140" rx="8" fill="#f4f6f0" stroke="#7d8f76" stroke-width="4"/>
+<rect x="742" y="228" width="230" height="32" fill="#6d8b76"/>
+<text x="756" y="251" font-size="16" font-weight="bold" fill="#ffffff">【町社協】小口福祉資金</text>
+<text x="756" y="286" font-size="20" font-weight="bold" fill="#33503f">30,000円以内</text>
+<text x="756" y="312" font-size="14" fill="#41525c">特別の事情で50,000円以内</text>
+<text x="756" y="336" font-size="14" fill="#a63b31">こちらも償還が前提</text>
+<text x="756" y="358" font-size="13" fill="#6b7d85">民生委員の福祉台帳に登録</text>
+
+<!-- 戻る矢印 -->
+<path d="M352 446 L214 446 L214 372" stroke="#c8452f" stroke-width="5" fill="none" marker-end="url(#kn1arrow)"/>
+<rect x="24" y="384" width="298" height="56" rx="6" fill="#fdece8" stroke="#c8452f" stroke-width="4"/>
+<text x="38" y="408" font-size="15" font-weight="bold" fill="#a63b31">総合支援資金・緊急小口資金は</text>
+<text x="38" y="430" font-size="15" font-weight="bold" fill="#a63b31">原則として自立相談支援を受ける</text>
+
+<!-- 手前の人 -->
+<circle cx="880" cy="424" r="26" fill="#e6c49e" stroke="#bb9470" stroke-width="4"/>
+<path d="M850 456 Q880 442 910 456 L922 534 L838 534 Z" fill="#6f8fa6"/>
+<rect x="906" y="466" width="62" height="46" rx="3" fill="#ffffff" stroke="#b6ae95" stroke-width="3"/>
+<text x="912" y="484" font-size="12" fill="#7a6a4a">家計の</text>
+<text x="912" y="502" font-size="12" fill="#7a6a4a">書き出し</text>
+</g>
+</svg>
