@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" data-illustration="mori-editorial" aria-labelledby="kk2title kk2desc">
+<title id="kk2title">森町で親の成年後見を考え始めたときに動く順番</title>
+<desc id="kk2desc">四つの場面が左から右へ一本の道でつながっている。一つ目は森町地域包括支援センターへ電話する場面で、電話番号と平日八時三十分から十七時十五分が添えられている。二つ目は実家の財産を書き出す場面で、通帳と登記の書類と保険証券が机に並び、名義と所在を書く欄がある。三つ目は森町社会福祉協議会の第一火曜の相談を予約する場面で、前日十六時までという札が添えられている。四つ目は家庭裁判所への申立ての段取りを確認する場面で、二か月以内が七十一・一パーセントと書かれた札がある。背景には段になった茶畑と杉林の山並みが広がっている。</desc>
+<defs>
+<linearGradient id="kk2sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#d5e2ec"/><stop offset="1" stop-color="#eff2e9"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="560" fill="url(#kk2sky)"/>
+<path d="M0 74 L130 30 L260 76 L390 26 L520 78 L650 28 L780 76 L910 30 L1000 64 L1000 120 L0 120 Z" fill="#7d94a4"/>
+<path d="M0 100 L140 64 L280 104 L420 60 L560 106 L700 62 L840 104 L1000 76 L1000 136 L0 136 Z" fill="#6d8b76"/>
+<g fill="#33604a"><path d="M14 136 L32 92 L50 136 Z"/><path d="M948 136 L966 90 L984 136 Z"/></g>
+<g stroke="#5d8a6a" stroke-width="4" fill="none">
+<path d="M0 124 L190 114"/><path d="M0 132 L190 122"/>
+<path d="M810 122 L1000 114"/><path d="M810 130 L1000 122"/>
+</g>
+<rect x="0" y="136" width="1000" height="424" fill="#eceee4"/>
+<path d="M60 376 L940 376" stroke="#c9bfa3" stroke-width="14" stroke-linecap="round"/>
+<g fill="#eceee4"><circle cx="270" cy="376" r="10"/><circle cx="500" cy="376" r="10"/><circle cx="730" cy="376" r="10"/></g>
+
+<g font-family="'Meiryo','Hiragino Sans',sans-serif">
+<text x="44" y="176" font-size="21" font-weight="bold" fill="#1f3e52">申し立てると決める前に、この順で動く</text>
+
+<rect x="44" y="196" width="212" height="168" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="60" y="224" font-size="17" font-weight="bold" fill="#1f3e52">1　包括へ電話</text>
+<rect x="66" y="240" width="62" height="92" rx="10" fill="#4d7f9e" stroke="#31607d" stroke-width="3"/>
+<rect x="74" y="252" width="46" height="50" rx="4" fill="#dfeaf2"/>
+<circle cx="97" cy="318" r="9" fill="#dfeaf2"/>
+<rect x="138" y="240" width="104" height="92" rx="5" fill="#eef6f2" stroke="#7d8f76" stroke-width="3"/>
+<text x="146" y="264" font-size="13" fill="#41525c">町直営の窓口</text>
+<text x="146" y="288" font-size="15" font-weight="bold" fill="#33503f">0538-</text>
+<text x="146" y="308" font-size="15" font-weight="bold" fill="#33503f">85-6341</text>
+<text x="146" y="326" font-size="12" fill="#6b7d85">平日8:30-17:15</text>
+<text x="60" y="358" font-size="14" fill="#4a5a4b">決めていなくても相談できる</text>
+
+<rect x="272" y="196" width="212" height="168" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="288" y="224" font-size="17" font-weight="bold" fill="#1f3e52">2　財産の棚おろし</text>
+<rect x="288" y="238" width="180" height="98" rx="4" fill="#f8f6ee" stroke="#b6ae95" stroke-width="3"/>
+<rect x="300" y="252" width="48" height="34" rx="3" fill="#4d7f9e" stroke="#31607d" stroke-width="2"/>
+<text x="304" y="274" font-size="11" fill="#dfeaf2">通帳</text>
+<rect x="356" y="252" width="48" height="34" rx="3" fill="#ffffff" stroke="#b6ae95" stroke-width="2"/>
+<text x="360" y="274" font-size="11" fill="#7a6a4a">登記</text>
+<rect x="412" y="252" width="44" height="34" rx="3" fill="#fdf6e4" stroke="#cfae3f" stroke-width="2"/>
+<text x="416" y="274" font-size="11" fill="#8a6c1c">保険</text>
+<g stroke="#c3c9cc" stroke-width="4" stroke-linecap="round">
+<path d="M300 302 L456 302"/><path d="M300 320 L400 320"/>
+</g>
+<text x="288" y="358" font-size="14" fill="#4a5a4b">名義・所在・空欄は空欄のまま</text>
+
+<rect x="500" y="196" width="212" height="168" rx="8" fill="#fdfaf0" stroke="#b9922f" stroke-width="3"/>
+<text x="516" y="224" font-size="17" font-weight="bold" fill="#1f3e52">3　第1火曜を予約</text>
+<rect x="516" y="238" width="112" height="98" rx="4" fill="#ffffff" stroke="#a9b3ba" stroke-width="3"/>
+<rect x="516" y="238" width="112" height="22" fill="#b9922f"/>
+<text x="528" y="255" font-size="13" fill="#ffffff">火曜日</text>
+<g fill="#dfe6ec">
+<rect x="528" y="270" width="20" height="18"/><rect x="556" y="270" width="20" height="18"/><rect x="584" y="270" width="20" height="18"/>
+<rect x="556" y="296" width="20" height="18"/><rect x="584" y="296" width="20" height="18"/>
+</g>
+<ellipse cx="538" cy="279" rx="14" ry="12" fill="none" stroke="#c8452f" stroke-width="4"/>
+<text x="524" y="326" font-size="12" fill="#a63b31">13:30〜16:30</text>
+<rect x="638" y="252" width="64" height="70" rx="5" fill="#fdece8" stroke="#c8452f" stroke-width="3"/>
+<text x="646" y="278" font-size="12" fill="#a63b31">前日</text>
+<text x="646" y="300" font-size="14" font-weight="bold" fill="#a63b31">16時</text>
+<text x="646" y="318" font-size="12" fill="#a63b31">まで</text>
+<text x="516" y="358" font-size="14" fill="#4a5a4b">司法書士・無料・1回30分</text>
+
+<rect x="728" y="196" width="228" height="168" rx="8" fill="#ffffff" stroke="#7d8f76" stroke-width="3"/>
+<text x="744" y="224" font-size="17" font-weight="bold" fill="#1f3e52">4　申立ての段取り</text>
+<rect x="756" y="256" width="112" height="72" fill="#e6e2d4" stroke="#b6ae95" stroke-width="3"/>
+<path d="M744 256 L812 224 L880 256 Z" fill="#8fa0a8" stroke="#6b7d85" stroke-width="3"/>
+<rect x="796" y="296" width="32" height="32" fill="#cddeea" stroke="#8fa7b8" stroke-width="3"/>
+<rect x="880" y="262" width="66" height="62" rx="5" fill="#eef6f2" stroke="#7d8f76" stroke-width="3"/>
+<text x="888" y="286" font-size="13" fill="#33503f">2か月</text>
+<text x="888" y="306" font-size="15" font-weight="bold" fill="#33503f">71.1%</text>
+<text x="744" y="358" font-size="14" fill="#4a5a4b">家庭裁判所へ。4か月以内93.8%</text>
+</g>
+
+<rect x="0" y="404" width="1000" height="156" fill="#dfe8d2"/>
+<text x="44" y="442" font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="19" font-weight="bold" fill="#33503f">今日、結論を出す必要はない。名義と金融機関名だけ調べておく</text>
+<g font-family="'Meiryo','Hiragino Sans',sans-serif" font-size="16" fill="#4a5a4b">
+<text x="44" y="476">・森町には申立費用の助成と町長申立てがある（対象に「親族が近隣に住んでいない」場合を含む）</text>
+<text x="44" y="506">・後見・保佐・補助のどれに当たるかは家庭裁判所が判断する。こちらで決めない</text>
+<text x="44" y="536">・全国の申立ては令和7年で43,159件、前年比約3.2パーセント増（最高裁判所）</text>
+</g>
+</svg>

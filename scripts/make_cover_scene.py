@@ -4450,7 +4450,52 @@ def scene_shohi_seikatsu_sodan(d):
          "森町ライフハック／手続き・制度")
 
 
+def scene_seinen_koken_sodan(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [20, 64, 690, 734], 300)
+    d.polygon([(0, 292), (760, 284), (760, 330), (0, 338)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 12), (760, 292 + i * 12)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 334), (760, 324), (760, BAND_TOP), (0, BAND_TOP)], fill=(214, 228, 201))
+    d.rectangle([16, 298, 744, 340], fill=(31, 62, 82))
+    d.text((32, 305), "まず地域包括支援センター 0538-85-6341",
+           font=ImageFont.truetype(FONT_BOLD, 23), fill="#ffffff")
+    # 保健福祉センターの建物
+    d.rectangle([176, 384, 616, 486], fill=(239, 234, 221), outline=(176, 154, 104), width=5)
+    d.polygon([(160, 384), (396, 350), (632, 384)], fill=(143, 160, 168), outline=(107, 125, 133), width=4)
+    d.rectangle([176, 384, 616, 404], fill=(226, 220, 203))
+    d.text((238, 386), "森町保健福祉センター 森町森50-1",
+           font=ImageFont.truetype(FONT_REGULAR, 17), fill=(74, 90, 75))
+    for x in (204, 268, 332, 460, 524):
+        d.rectangle([x, 416, x + 44, 452], fill=(205, 222, 234), outline=(143, 167, 184), width=3)
+    d.rectangle([384, 424, 424, 486], fill=(201, 160, 106), outline=(156, 116, 75), width=3)
+    # 二枚の看板
+    d.rectangle([24, 496, 372, 546], fill=(255, 255, 255), outline=(77, 127, 158), width=5)
+    d.text((40, 508), "町直営 平日8:30〜17:15",
+           font=ImageFont.truetype(FONT_BOLD, 22), fill=(31, 62, 82))
+    d.rectangle([392, 496, 744, 546], fill=(253, 250, 240), outline=(185, 146, 47), width=5)
+    d.text((406, 508), "社協 第1火曜 司法書士",
+           font=ImageFont.truetype(FONT_BOLD, 22), fill=(138, 108, 28))
+    # 左手前：離れて暮らす家族
+    d.ellipse([44, 356, 100, 412], fill=(230, 196, 157), outline=(189, 154, 114), width=4)
+    d.polygon([(28, 418), (72, 402), (116, 418), (126, 486), (18, 486)], fill=(111, 143, 166))
+    d.rounded_rectangle([104, 348, 126, 384], radius=6, fill=(51, 64, 74))
+    d.line([(104, 368), (94, 384)], fill=(230, 196, 157), width=11)
+    # 右手前：通帳と登記の書類
+    d.rectangle([636, 384, 736, 428], fill=(77, 127, 158), outline=(49, 96, 125), width=4)
+    d.rectangle([650, 396, 722, 404], fill=(223, 234, 242))
+    d.rectangle([650, 410, 700, 418], fill=(223, 234, 242))
+    d.rectangle([628, 434, 744, 486], fill=(255, 255, 255), outline=(182, 174, 149), width=4)
+    d.text((640, 442), "実家の登記",
+           font=ImageFont.truetype(FONT_REGULAR, 15), fill=(122, 106, 74))
+    d.line([(640, 466), (732, 466)], fill=(195, 201, 204), width=4)
+    band(d, ["決めるのはまだ先でいい。", "名義と口座だけ先に調べる"],
+         "森町ライフハック／手続き・制度")
+
+
 SCENES = {
+    "20260831-morimachi-seinen-koken-sodan": scene_seinen_koken_sodan,
     "20260831-morimachi-shohi-seikatsu-sodan-suiyo": scene_shohi_seikatsu_sodan,
     "20260831-morimachi-jido-fuyo-teate-genkyotodoke": scene_jido_fuyo_genkyotodoke,
     "20260830-morimachi-nichiyo-toshokan-kosodate": scene_nichiyo_toshokan_kosodate,
