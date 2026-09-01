@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" data-illustration="mori-editorial">
+  <rect width="1000" height="560" fill="#edf4f2"/><path d="M0 178L145 80l122 98L405 62l143 116L700 82l150 102 150-88v154H0z" fill="#91aa99"/><path d="M0 230h1000v330H0z" fill="#d9e6c8"/><path d="M82 412h836" stroke="#bea36c" stroke-width="34"/><path d="M92 412h816" stroke="#fff" stroke-width="4" stroke-dasharray="18 16"/>
+  <g fill="#fff" stroke="#315f7a" stroke-width="7"><rect x="42" y="248" width="246" height="202" rx="18"/><rect x="374" y="212" width="248" height="202" rx="18"/><rect x="708" y="176" width="248" height="202" rx="18"/></g>
+  <g stroke="#68736f" stroke-width="6" fill="none"><rect x="82" y="282" width="162" height="118"/><path d="M100 310h126M100 340h126M100 370h88"/><path d="M418 256h160v112H418zM498 280v64M440 310h116"/><path d="M748 220h166v112H748zM770 252h122M770 282h122"/></g>
+  <circle cx="124" cy="270" r="18" fill="#d1684d"/><circle cx="456" cy="234" r="18" fill="#d6a83c"/><circle cx="790" cy="198" r="18" fill="#4d8a68"/>
+  <g font-family="Meiryo, sans-serif" fill="#18364a"><text x="40" y="52" font-size="30" font-weight="700">戸籍が先、一覧図が後</text><text x="74" y="486" font-size="22" font-weight="700">1 戸籍一式を集める</text><text x="396" y="456" font-size="22" font-weight="700">2 一覧図を作る</text><text x="730" y="420" font-size="22" font-weight="700">3 登記所へ申し出る</text></g>
+  <g fill="#fff" stroke="#4d8a68" stroke-width="4"><rect x="778" y="390" width="126" height="74"/><rect x="796" y="406" width="126" height="74"/><rect x="814" y="422" width="126" height="74"/></g><text x="824" y="462" font-family="Meiryo, sans-serif" font-size="20" font-weight="700" fill="#315f7a">必要通数</text>
+</svg>

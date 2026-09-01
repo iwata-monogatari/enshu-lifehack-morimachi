@@ -4579,7 +4579,41 @@ def scene_akiya_typhoon_sangenten(d):
     band(d, ["台風が来てから走らない。", "9月に外回り3点確認"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_hotei_sozoku_joho_koseki(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [18, 62, 690, 734], 300)
+    d.polygon([(0, 294), (760, 286), (760, 340), (0, 348)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 302 + i * 14), (760, 294 + i * 14)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 340), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(215, 227, 204))
+    # 左：戸籍の束
+    for off in (24, 12, 0):
+        d.rectangle([52 + off, 368 - off, 298 + off, 526 - off], fill=(250, 247, 237), outline=(142, 124, 95), width=4)
+    d.text((92, 382), "戸籍一式", font=ImageFont.truetype(FONT_BOLD, 26), fill=(90, 74, 52))
+    for y in (430, 460, 490):
+        d.line([(92, y), (278, y)], fill=(183, 175, 153), width=5)
+    # 中央：法務局の確認印
+    d.ellipse([324, 372, 438, 486], outline=(190, 72, 57), width=9)
+    d.text((342, 405), "確認", font=ImageFont.truetype(FONT_BOLD, 28), fill=(167, 58, 48))
+    d.line([(286, 442), (324, 442)], fill=(132, 120, 96), width=8)
+    d.polygon([(318, 428), (342, 442), (318, 456)], fill=(132, 120, 96))
+    # 右：無料交付の一覧図を複数枚
+    for off in (0, 16, 32):
+        d.rectangle([470 + off, 346 + off, 696 + off, 498 + off], fill=(255, 255, 255), outline=(63, 112, 145), width=4)
+        d.line([(490 + off, 380 + off), (674 + off, 380 + off)], fill=(96, 121, 132), width=5)
+        d.line([(582 + off, 380 + off), (582 + off, 454 + off)], fill=(96, 121, 132), width=4)
+        d.line([(516 + off, 416 + off), (650 + off, 416 + off)], fill=(96, 121, 132), width=4)
+    d.rectangle([474, 308, 690, 346], fill=(31, 62, 82))
+    d.text((488, 314), "必要通数を無料交付", font=ImageFont.truetype(FONT_BOLD, 21), fill="#ffffff")
+    # 机の前の家族
+    d.ellipse([340, 500, 388, 548], fill=(230, 196, 157), outline=(189, 154, 114), width=3)
+    d.polygon([(326, 554), (364, 540), (402, 554), (410, 592), (318, 592)], fill=(76, 113, 139))
+    band(d, ["戸籍を集めるのは最初の一度。", "一覧図を必要通数もらう"], "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260901-hotei-sozoku-joho-koseki-hikaku": scene_hotei_sozoku_joho_koseki,
     "20260901-morimachi-akiya-typhoon-sangenten": scene_akiya_typhoon_sangenten,
     "20260831-morimachi-seikatsu-konkyu-madoguchi": scene_seikatsu_konkyu_madoguchi,
     "20260831-morimachi-seinen-koken-sodan": scene_seinen_koken_sodan,
