@@ -25,6 +25,8 @@ import json
 import os
 import re
 import sys
+from datetime import datetime, timezone
+from email.utils import format_datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "data", "blog-posts.json")
@@ -163,6 +165,7 @@ def build_index(posts, parts):
         '<meta property="og:url" content="%s/blog/"><meta property="og:image" content="%s"><meta name="twitter:card" content="summary_large_image">\n'
         '<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"静岡県森町ライフハック","item":"https://morimachi.enshu-lifehack.com/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://morimachi.enshu-lifehack.com/blog/"}]}</script>\n'
         '<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n'
+        '<link rel="alternate" type="application/rss+xml" title="森町ライフハック ブログ" href="/feed.xml">\n'
         "%s\n</head><body>\n%s\n%s\n"
         '<main id="main"><div class="wrap">\n'
         '<p class="breadcrumb"><a href="/">%s</a> ／ ブログ</p>\n'
@@ -176,6 +179,25 @@ def build_index(posts, parts):
         part_markup("disclaimer", parts["disclaimer"]),
         SITE_NAME, lead, body,
         part_markup("footer", parts["footer"]),
+    )
+
+
+def build_feed(posts):
+    items = []
+    for p in sorted(posts, key=lambda x: (x["date"], x["slug"]), reverse=True):
+        url = "%s/blog/%s/" % (SITE, p["slug"])
+        published = datetime.strptime(p["date"], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        items.append(
+            "<item><title>%s</title><link>%s</link><guid isPermaLink=\"true\">%s</guid>"
+            "<pubDate>%s</pubDate><description>%s</description></item>"
+            % (html.escape(p["title"]), url, url, format_datetime(published), html.escape(p["description"]))
+        )
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0"><channel><title>森町ライフハック ブログ</title>'
+        '<link>%s/blog/</link><description>静岡県周智郡森町の暮らし・手続き・空き家を一次情報で整理するブログ</description>'
+        '<language>ja</language><lastBuildDate>%s</lastBuildDate>%s</channel></rss>\n'
+        % (SITE, format_datetime(max(datetime.strptime(p["date"], "%Y-%m-%d") for p in posts).replace(tzinfo=timezone.utc)), "".join(items))
     )
 
 
@@ -202,6 +224,8 @@ def main():
     if not args.check:
         with open(out, "w", encoding="utf-8", newline="") as f:
             f.write(html_out)
+        with open(os.path.join(ROOT, "feed.xml"), "w", encoding="utf-8", newline="") as f:
+            f.write(build_feed(posts))
     print("記事 %d 件 / 品質ゲート未達 0 / 一覧: blog/index.html%s" % (len(posts), "（未書き込み:--check）" if args.check else ""))
     return 0
 

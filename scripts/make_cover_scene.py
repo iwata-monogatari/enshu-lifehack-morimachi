@@ -4542,7 +4542,45 @@ def scene_seikatsu_konkyu_madoguchi(d):
          "森町ライフハック／手続き・制度")
 
 
+def scene_akiya_typhoon_sangenten(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [18, 62, 686, 730], 300)
+    d.polygon([(0, 292), (760, 284), (760, 340), (0, 348)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 14), (760, 292 + i * 14)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 342), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(210, 224, 198))
+    # 空き家
+    d.rectangle([238, 350, 558, 512], fill=(239, 232, 214), outline=(139, 118, 83), width=5)
+    d.polygon([(206, 354), (398, 278), (590, 354)], fill=(94, 91, 88), outline=(68, 66, 64), width=5)
+    d.rectangle([280, 384, 354, 448], fill=(190, 216, 229), outline=(91, 112, 124), width=4)
+    d.rectangle([442, 384, 516, 448], fill=(190, 216, 229), outline=(91, 112, 124), width=4)
+    d.line([(398, 316), (398, 350)], fill=(173, 183, 184), width=7)
+    d.line([(558, 354), (580, 444)], fill=(82, 103, 110), width=8)
+    # 左：飛散物と門塀
+    d.rectangle([36, 412, 184, 518], fill=(255, 255, 255), outline=(192, 91, 65), width=5)
+    d.ellipse([56, 438, 96, 474], fill=(193, 124, 70))
+    d.line([(76, 438), (76, 420)], fill=(73, 119, 68), width=5)
+    d.line([(112, 486), (164, 432)], fill=(126, 100, 70), width=10)
+    d.text((48, 486), "飛散物", font=ImageFont.truetype(FONT_BOLD, 21), fill=(154, 66, 48))
+    # 右：雨樋と排水
+    d.rectangle([604, 412, 730, 520], fill=(255, 255, 255), outline=(66, 123, 155), width=5)
+    d.line([(624, 438), (704, 438), (704, 482)], fill=(66, 123, 155), width=10)
+    d.arc([650, 464, 720, 514], 0, 180, fill=(86, 151, 184), width=6)
+    d.text((616, 486), "雨樋・排水", font=ImageFont.truetype(FONT_BOLD, 18), fill=(42, 92, 119))
+    # 写真を撮る現地担当者と遠方連絡
+    d.ellipse([166, 322, 214, 370], fill=(230, 196, 157), outline=(189, 154, 114), width=3)
+    d.polygon([(154, 376), (190, 364), (226, 376), (236, 454), (144, 454)], fill=(72, 112, 137))
+    d.rounded_rectangle([216, 348, 248, 398], radius=6, fill=(44, 57, 66))
+    d.line([(216, 378), (204, 392)], fill=(230, 196, 157), width=10)
+    d.rectangle([588, 306, 722, 380], fill=(249, 250, 248), outline=(92, 110, 118), width=4)
+    d.text((602, 316), "9月の平時に", font=ImageFont.truetype(FONT_BOLD, 18), fill=(31, 62, 82))
+    d.text((602, 342), "同じ位置から撮る", font=ImageFont.truetype(FONT_BOLD, 16), fill=(31, 62, 82))
+    band(d, ["台風が来てから走らない。", "9月に外回り3点確認"], "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260901-morimachi-akiya-typhoon-sangenten": scene_akiya_typhoon_sangenten,
     "20260831-morimachi-seikatsu-konkyu-madoguchi": scene_seikatsu_konkyu_madoguchi,
     "20260831-morimachi-seinen-koken-sodan": scene_seinen_koken_sodan,
     "20260831-morimachi-shohi-seikatsu-sodan-suiyo": scene_shohi_seikatsu_sodan,

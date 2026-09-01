@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" data-illustration="mori-editorial">
+  <rect width="1000" height="560" fill="#e8f2f5"/><path d="M0 190L130 82l125 104L390 70l145 118L690 92l160 98 150-86v176H0z" fill="#90ad9b"/><path d="M0 218c180-50 340 34 510-12s310-30 490 18v336H0z" fill="#cfe0b8"/>
+  <path d="M0 250h1000v72H0z" fill="#81ad63"/><path d="M0 268h1000M0 292h1000" stroke="#5d8748" stroke-width="6"/>
+  <path d="M328 222l174-92 178 92v222H328z" fill="#f1e7d2" stroke="#715f49" stroke-width="8"/><path d="M292 230l210-116 214 116" fill="none" stroke="#655d58" stroke-width="24"/><rect x="386" y="270" width="90" height="82" fill="#bcd9e4" stroke="#536979" stroke-width="7"/><rect x="548" y="270" width="90" height="82" fill="#bcd9e4" stroke="#536979" stroke-width="7"/>
+  <path d="M310 430h408" stroke="#846a48" stroke-width="10"/><path d="M735 306v120M772 306v120" stroke="#7b6650" stroke-width="10"/><path d="M724 314h60v38h-60z" fill="#d9be84"/>
+  <rect x="56" y="356" width="214" height="132" rx="16" fill="#fff" stroke="#bd644d" stroke-width="7"/><circle cx="100" cy="400" r="24" fill="#e2a253"/><path d="M143 389h90M143 414h72M84 452h150" stroke="#526a61" stroke-width="10"/>
+  <rect x="724" y="360" width="220" height="130" rx="16" fill="#fff" stroke="#4c7fa0" stroke-width="7"/><path d="M770 392c22 0 22 38 44 38s22-38 44-38 22 38 44 38" fill="none" stroke="#4c7fa0" stroke-width="10"/><circle cx="770" cy="392" r="12" fill="#d6a83c"/><path d="M758 462h154" stroke="#526a61" stroke-width="10"/>
+  <circle cx="222" cy="286" r="30" fill="#d6aa78"/><path d="M188 326h68l22 104h-110z" fill="#315f7a"/><rect x="238" y="332" width="54" height="82" rx="8" fill="#263a45"/><circle cx="265" cy="365" r="16" fill="#d6e5ec"/>
+  <path d="M286 348l44-32M684 304l42 28M687 360l36 42" stroke="#d0684b" stroke-width="7" stroke-dasharray="12 10"/>
+  <g font-family="Meiryo, sans-serif" font-weight="700" fill="#18364a"><text x="52" y="46" font-size="30">外回りを「物・建物・水」に分ける</text><text x="72" y="536" font-size="22">飛散物と門・塀</text><text x="410" y="500" font-size="22">屋根・外壁・窓</text><text x="752" y="536" font-size="22">雨樋・排水</text></g>
+</svg>
