@@ -4605,6 +4605,32 @@ def scene_kokenchiku_katsuyo_hikaku(d):
     band(d, ["残した後を比べる。", "鍵・清掃・修繕・財源"], "森町ライフハック／寺社・歴史")
 
 
+def scene_jirogaki_genboku_mamoruhito(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [18, 62, 700, 744], 300)
+    d.polygon([(0, 294), (760, 286), (760, 346), (0, 354)], fill=(126, 168, 92))
+    d.rectangle([0, 348, 760, BAND_TOP], fill=(222, 207, 166))
+    # 原木
+    d.rectangle([350, 316, 388, 532], fill=(102, 77, 51))
+    d.line([(369, 360), (280, 282)], fill=(102, 77, 51), width=22)
+    d.line([(369, 360), (458, 274)], fill=(102, 77, 51), width=22)
+    for x, y, r in ((270, 260, 64), (350, 238, 72), (448, 252, 68), (306, 310, 58), (414, 312, 60)):
+        d.ellipse([x-r, y-r, x+r, y+r], fill=(104, 143, 76))
+    for x, y in ((280, 284), (334, 250), (402, 274), (444, 306)):
+        d.ellipse([x-13, y-13, x+13, y+13], fill=(221, 121, 38))
+    # 手入れ道具と記録
+    d.line([(116, 402), (226, 326)], fill=(63, 78, 72), width=8)
+    d.ellipse([92, 390, 132, 432], outline=(63, 78, 72), width=7)
+    d.ellipse([210, 312, 246, 348], outline=(63, 78, 72), width=7)
+    d.rectangle([508, 376, 692, 516], fill=(252, 249, 236), outline=(63, 91, 84), width=4)
+    d.text((532, 392), "作業記録", font=ImageFont.truetype(FONT_BOLD, 24), fill=(48, 67, 70))
+    for y in (434, 466, 496): d.line([(530, y), (668, y)], fill=(156, 157, 136), width=4)
+    d.rectangle([64, 300, 168, 342], fill=(255, 245, 215), outline=(171, 98, 38), width=3)
+    d.text((76, 308), "次郎／治郎", font=ImageFont.truetype(FONT_BOLD, 18), fill=(112, 67, 32))
+    band(d, ["名物は勝手に残らない。", "剪定・施肥・記録・後継"], "森町ライフハック／寺社・歴史")
+
+
 def scene_muramatsu_shofu_showa100(d):
     sky(d)
     mountains(d, 300)
@@ -4659,6 +4685,7 @@ def scene_hotei_sozoku_joho_koseki(d):
 
 
 SCENES = {
+    "20260902-morimachi-jirogaki-genboku-mamoruhito": scene_jirogaki_genboku_mamoruhito,
     "20260902-muramatsu-shofu-showa100": scene_muramatsu_shofu_showa100,
     "20260902-morimachi-kokenchiku-katsuyo-hikaku": scene_kokenchiku_katsuyo_hikaku,
     "20260901-hotei-sozoku-joho-koseki-hikaku": scene_hotei_sozoku_joho_koseki,
