@@ -4579,6 +4579,32 @@ def scene_akiya_typhoon_sangenten(d):
     band(d, ["台風が来てから走らない。", "9月に外回り3点確認"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_kokenchiku_katsuyo_hikaku(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [16, 60, 696, 740], 300)
+    d.polygon([(0, 294), (760, 286), (760, 344), (0, 352)], fill=(126, 168, 92))
+    d.rectangle([0, 344, 760, BAND_TOP], fill=(225, 218, 195))
+    # 左：旧藤江家のカフェ
+    d.rectangle([46, 328, 344, 514], fill=(244, 235, 216), outline=(102, 78, 58), width=4)
+    d.polygon([(28, 334), (194, 244), (362, 334)], fill=(82, 67, 54))
+    d.rectangle([72, 374, 142, 514], fill=(112, 84, 61))
+    d.rectangle([174, 372, 312, 446], fill=(217, 194, 155), outline=(102, 78, 58), width=3)
+    d.ellipse([204, 460, 244, 500], fill=(229, 191, 148))
+    d.rectangle([252, 458, 326, 492], fill=(248, 248, 242), outline=(73, 112, 80), width=3)
+    d.ellipse([268, 465, 290, 487], fill=(111, 151, 82))
+    # 右：旧郡役所の展示
+    d.rectangle([418, 316, 718, 514], fill=(238, 239, 233), outline=(64, 86, 98), width=4)
+    d.polygon([(396, 326), (568, 230), (740, 326)], fill=(99, 113, 121))
+    d.rectangle([458, 362, 680, 446], fill=(250, 248, 238), outline=(64, 86, 98), width=3)
+    d.rectangle([478, 382, 536, 430], fill=(151, 111, 68))
+    d.rectangle([568, 382, 650, 430], fill=(211, 192, 157))
+    for x in (492, 566, 632):
+        d.ellipse([x, 460, x + 38, 498], fill=(229, 191, 148))
+    d.line([(380, 320), (380, 540)], fill=(197, 145, 47), width=6)
+    band(d, ["残した後を比べる。", "鍵・清掃・修繕・財源"], "森町ライフハック／寺社・歴史")
+
+
 def scene_hotei_sozoku_joho_koseki(d):
     sky(d)
     mountains(d, 300)
@@ -4613,6 +4639,7 @@ def scene_hotei_sozoku_joho_koseki(d):
 
 
 SCENES = {
+    "20260902-morimachi-kokenchiku-katsuyo-hikaku": scene_kokenchiku_katsuyo_hikaku,
     "20260901-hotei-sozoku-joho-koseki-hikaku": scene_hotei_sozoku_joho_koseki,
     "20260901-morimachi-akiya-typhoon-sangenten": scene_akiya_typhoon_sangenten,
     "20260831-morimachi-seikatsu-konkyu-madoguchi": scene_seikatsu_konkyu_madoguchi,
