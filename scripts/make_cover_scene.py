@@ -4605,6 +4605,26 @@ def scene_kokenchiku_katsuyo_hikaku(d):
     band(d, ["残した後を比べる。", "鍵・清掃・修繕・財源"], "森町ライフハック／寺社・歴史")
 
 
+def scene_muramatsu_shofu_showa100(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [18, 62, 698, 742], 300)
+    d.polygon([(0, 294), (760, 286), (760, 342), (0, 350)], fill=(126, 168, 92))
+    d.rectangle([0, 344, 760, BAND_TOP], fill=(215, 190, 151))
+    d.rectangle([54, 344, 356, 528], fill=(249, 245, 229), outline=(104, 78, 55), width=4)
+    d.line([(205, 350), (205, 520)], fill=(184, 161, 127), width=4)
+    for y in (382, 416, 450, 484):
+        d.line([(78, y), (180, y)], fill=(174, 162, 139), width=3)
+        d.line([(230, y), (332, y)], fill=(174, 162, 139), width=3)
+    d.text((95, 306), "村松梢風", font=ImageFont.truetype(FONT_BOLD, 28), fill=(72, 53, 40))
+    d.line([(420, 432), (704, 432)], fill=(48, 78, 84), width=8)
+    for x in (438, 552, 686): d.ellipse([x - 10, 422, x + 10, 442], fill=(197, 145, 47))
+    d.text((412, 366), "1926", font=ImageFont.truetype(FONT_BOLD, 24), fill=(31, 62, 82))
+    d.text((640, 366), "2026", font=ImageFont.truetype(FONT_BOLD, 24), fill=(31, 62, 82))
+    d.text((486, 468), "開始から満100年", font=ImageFont.truetype(FONT_BOLD, 22), fill=(31, 62, 82))
+    band(d, ["郷土の看板で終わらない。", "作品を一冊、資料を一枚"], "森町ライフハック／寺社・歴史")
+
+
 def scene_hotei_sozoku_joho_koseki(d):
     sky(d)
     mountains(d, 300)
@@ -4639,6 +4659,7 @@ def scene_hotei_sozoku_joho_koseki(d):
 
 
 SCENES = {
+    "20260902-muramatsu-shofu-showa100": scene_muramatsu_shofu_showa100,
     "20260902-morimachi-kokenchiku-katsuyo-hikaku": scene_kokenchiku_katsuyo_hikaku,
     "20260901-hotei-sozoku-joho-koseki-hikaku": scene_hotei_sozoku_joho_koseki,
     "20260901-morimachi-akiya-typhoon-sangenten": scene_akiya_typhoon_sangenten,
