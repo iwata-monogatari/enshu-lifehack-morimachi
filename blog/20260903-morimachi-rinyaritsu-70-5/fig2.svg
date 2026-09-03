@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">相続した山林を資料から地番へたどる順序</title>
+  <desc id="desc">町全体の統計、家族の書類、地番一覧、地図と現地確認を一本の道でつないでいる</desc>
+  <rect width="1000" height="560" rx="24" fill="#eef3ec"/>
+  <path d="M0 304L145 180l118 105 144-155 122 128 142-174 135 162 96-91 98 103v302H0z" fill="#afc5aa"/>
+  <path d="M0 388c172-68 294-57 421-7 137 54 264 49 579-30v209H0z" fill="#6f946d"/>
+  <path d="M83 485c168-139 270-171 407-109 130 58 240 38 418-105" fill="none" stroke="#e7d2a5" stroke-width="34" stroke-linecap="round"/>
+  <g font-family="sans-serif">
+    <g transform="translate(62 73)"><rect width="200" height="130" rx="16" fill="#fff" stroke="#315b47" stroke-width="3"/><circle cx="55" cy="61" r="38" fill="#dfe9d8"/><path d="M55 61V23a38 38 0 1 1-34 55z" fill="#315b47"/><text x="122" y="58" text-anchor="middle" font-size="22" font-weight="700" fill="#234638">町全体</text><text x="122" y="88" text-anchor="middle" font-size="18" fill="#526158">統計を読む</text></g>
+    <g transform="translate(323 174)"><rect width="200" height="130" rx="16" fill="#fff" stroke="#315b47" stroke-width="3"/><path d="M34 30h63v76H34zM47 45h37M47 60h37M47 75h28" fill="none" stroke="#688a70" stroke-width="5"/><text x="145" y="58" text-anchor="middle" font-size="22" font-weight="700" fill="#234638">家の資料</text><text x="145" y="88" text-anchor="middle" font-size="18" fill="#526158">地番を抜く</text></g>
+    <g transform="translate(600 242)"><rect width="200" height="130" rx="16" fill="#fff" stroke="#315b47" stroke-width="3"/><path d="M30 31h72v68H30zM54 31v68M78 31v68M30 54h72M30 77h72" fill="none" stroke="#688a70" stroke-width="4"/><text x="150" y="58" text-anchor="middle" font-size="22" font-weight="700" fill="#234638">一覧表</text><text x="150" y="88" text-anchor="middle" font-size="18" fill="#526158">面積・場所</text></g>
+    <g transform="translate(755 75)"><rect width="190" height="130" rx="16" fill="#fff" stroke="#315b47" stroke-width="3"/><path d="M28 94l36-54 34 31 30-44 35 67z" fill="#90ad86"/><circle cx="145" cy="40" r="13" fill="#e5c978"/><text x="96" y="119" text-anchor="middle" font-size="20" font-weight="700" fill="#234638">地図・現地</text></g>
+  </g>
+  <text x="500" y="525" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#234638">70.5％を、自分の山の位置と規模へ直接置き換えない</text>
+</svg>

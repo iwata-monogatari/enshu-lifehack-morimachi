@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">森町、静岡県、全国の林野率を比べる図</title>
+  <desc id="desc">山並みを背景に、森町70.5パーセント、全国66.3パーセント、静岡県63.3パーセントを三本の木の高さで比較している</desc>
+  <rect width="1000" height="560" rx="24" fill="#f4f0e5"/>
+  <path d="M0 272L132 155l98 86 128-136 121 130 140-164 115 142 120-104 166 158v293H0z" fill="#c9d8c3"/>
+  <path d="M0 338l150-90 105 66 122-75 135 70 146-102 124 91 108-68 110 92v238H0z" fill="#90ad86"/>
+  <rect x="90" y="77" width="820" height="402" rx="22" fill="#fff" fill-opacity=".91" stroke="#315b47" stroke-width="3"/>
+  <text x="500" y="127" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#234638">2025年農林業センサスの林野率</text>
+  <line x1="175" y1="405" x2="825" y2="405" stroke="#66776d" stroke-width="3"/>
+  <g font-family="sans-serif" text-anchor="middle">
+    <rect x="205" y="194" width="145" height="211" rx="10" fill="#315b47"/>
+    <text x="277" y="237" font-size="32" font-weight="700" fill="#fff">70.5%</text>
+    <text x="277" y="444" font-size="24" font-weight="700" fill="#234638">森町</text>
+    <rect x="430" y="216" width="145" height="189" rx="10" fill="#688a70"/>
+    <text x="502" y="258" font-size="30" font-weight="700" fill="#fff">66.3%</text>
+    <text x="502" y="444" font-size="24" font-weight="700" fill="#234638">全国</text>
+    <rect x="655" y="225" width="145" height="180" rx="10" fill="#96a987"/>
+    <text x="727" y="267" font-size="30" font-weight="700" fill="#fff">63.3%</text>
+    <text x="727" y="444" font-size="24" font-weight="700" fill="#234638">静岡県</text>
+  </g>
+  <text x="500" y="507" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#526158">林野面積を総土地面積で割った割合。私有林人工林面積とは別の指標です。</text>
+</svg>
