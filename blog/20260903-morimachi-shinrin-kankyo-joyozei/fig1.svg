@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">森町の令和6年度森林環境譲与税3430万2000円を直接活用と基金積立に分ける図</title>
+  <desc id="desc">3430万2000円のうち直接活用1245万6000円、基金積立2184万6000円として二本の帯で示す</desc>
+  <rect width="1000" height="560" rx="24" fill="#eef3ec"/>
+  <path d="M0 325L150 196l105 90 135-140 120 121 145-166 125 145 105-101 115 118v297H0z" fill="#b0c7aa"/>
+  <path d="M0 410c176-76 337-45 483 18 178 76 328 62 517-43v175H0z" fill="#72956c"/>
+  <rect x="75" y="62" width="850" height="390" rx="25" fill="#fff" fill-opacity=".94" stroke="#315b47" stroke-width="4"/>
+  <g font-family="sans-serif" fill="#234638">
+    <text x="500" y="118" text-anchor="middle" font-size="29" font-weight="700">令和6年度　森林環境譲与税</text>
+    <text x="500" y="166" text-anchor="middle" font-size="42" font-weight="800">34,302,000円</text>
+    <text x="112" y="227" font-size="22" font-weight="700">直接活用</text><text x="846" y="227" text-anchor="end" font-size="22" font-weight="700">12,456,000円</text>
+    <rect x="112" y="245" width="296" height="62" rx="13" fill="#315b47"/>
+    <text x="112" y="352" font-size="22" font-weight="700">基金積立</text><text x="846" y="352" text-anchor="end" font-size="22" font-weight="700">21,846,000円</text>
+    <rect x="112" y="370" width="519" height="62" rx="13" fill="#87a276"/>
+    <text x="744" y="282" text-anchor="middle" font-size="18" fill="#526158">全額を工事に使った</text><text x="744" y="306" text-anchor="middle" font-size="18" fill="#526158">という意味ではない</text>
+  </g>
+  <text x="500" y="516" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#fff">「使った額」と「将来へ積んだ額」を分けて読む</text>
+</svg>
