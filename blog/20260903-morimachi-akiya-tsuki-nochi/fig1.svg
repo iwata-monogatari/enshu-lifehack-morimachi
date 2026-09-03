@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">空き家の売買と付属農地の取得を二つの手続きに分ける図</title>
+  <desc id="desc">左に空き家と鍵、右に農地と許可確認の書類を配置し、二つを別々に確認してから暮らしへつなげる</desc>
+  <rect width="1000" height="560" rx="24" fill="#f4f0e5"/>
+  <path d="M0 350c150-72 305-54 456 10 177 75 334 58 544-51v251H0z" fill="#a9c29d"/>
+  <path d="M0 418c170-62 342-42 502 24 176 73 326 61 498-20v138H0z" fill="#719468"/>
+  <g font-family="sans-serif">
+    <rect x="76" y="72" width="365" height="324" rx="24" fill="#fff" stroke="#315b47" stroke-width="4"/>
+    <text x="258" y="122" text-anchor="middle" font-size="28" font-weight="700" fill="#234638">空き家</text>
+    <path d="M148 238l110-82 110 82v104H148z" fill="#d9c7a4" stroke="#654e36" stroke-width="5"/><path d="M128 244l130-99 130 99" fill="none" stroke="#654e36" stroke-width="14" stroke-linejoin="round"/><rect x="231" y="268" width="54" height="74" fill="#8a6846"/>
+    <circle cx="340" cy="320" r="20" fill="none" stroke="#cfaa4d" stroke-width="8"/><path d="M359 320h45m-17 0v18" stroke="#cfaa4d" stroke-width="8"/>
+    <text x="258" y="375" text-anchor="middle" font-size="20" fill="#526158">物件・契約・建物状態</text>
+    <rect x="559" y="72" width="365" height="324" rx="24" fill="#fff" stroke="#315b47" stroke-width="4"/>
+    <text x="742" y="122" text-anchor="middle" font-size="28" font-weight="700" fill="#234638">付属農地</text>
+    <path d="M625 212h234M625 260h234M625 308h234" stroke="#759861" stroke-width="28" stroke-linecap="round"/>
+    <path d="M648 185v150M704 185v150M760 185v150M816 185v150" stroke="#e9d7a9" stroke-width="5"/>
+    <path d="M842 152h43v70h-43z" fill="#fff" stroke="#688a70" stroke-width="4"/><path d="M851 169h25M851 183h25M851 197h18" stroke="#688a70" stroke-width="3"/>
+    <text x="742" y="375" text-anchor="middle" font-size="20" fill="#526158">第3条許可・耕作条件</text>
+    <path d="M443 234h116" stroke="#cfaa4d" stroke-width="12" stroke-dasharray="15 12"/>
+    <text x="500" y="212" text-anchor="middle" font-size="18" font-weight="700" fill="#7b5d25">別に確認</text>
+    <rect x="317" y="444" width="366" height="67" rx="33" fill="#315b47"/><text x="500" y="486" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">両方を確かめてから判断</text>
+  </g>
+</svg>

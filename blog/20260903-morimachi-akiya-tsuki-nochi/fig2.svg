@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">農地取得後に続く作業と原則150日以上の常時従事を考える図</title>
+  <desc id="desc">中央に原則150日以上の農作業常時従事を置き、草刈り、水路、獣害、地域作業、記録を周囲に並べる</desc>
+  <rect width="1000" height="560" rx="24" fill="#eef3ec"/>
+  <circle cx="500" cy="280" r="137" fill="#fff" stroke="#315b47" stroke-width="5"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#234638"><text x="500" y="250" font-size="25" font-weight="700">農作業に常時従事</text><text x="500" y="304" font-size="42" font-weight="800">原則150日以上</text><text x="500" y="343" font-size="18">居住日数や所有日数ではない</text></g>
+  <g fill="none" stroke="#89a77b" stroke-width="16" stroke-linecap="round"><path d="M371 182Q272 103 189 174"/><path d="M627 180Q733 101 814 176"/><path d="M366 381Q270 456 181 385"/><path d="M632 382Q735 460 820 387"/></g>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g transform="translate(66 84)"><rect width="245" height="122" rx="20" fill="#fff" stroke="#688a70" stroke-width="3"/><path d="M40 88l47-61M52 97l47-61M28 78l84 9" stroke="#6d924d" stroke-width="7"/><text x="174" y="59" font-size="23" font-weight="700" fill="#234638">草刈り</text><text x="174" y="86" font-size="17" fill="#526158">周辺管理</text></g>
+    <g transform="translate(689 84)"><rect width="245" height="122" rx="20" fill="#fff" stroke="#688a70" stroke-width="3"/><path d="M28 80c32-46 64-46 96 0" fill="none" stroke="#64a1bd" stroke-width="15"/><text x="180" y="59" font-size="23" font-weight="700" fill="#234638">道・水路</text><text x="180" y="86" font-size="17" fill="#526158">共同の手入れ</text></g>
+    <g transform="translate(66 354)"><rect width="245" height="122" rx="20" fill="#fff" stroke="#688a70" stroke-width="3"/><path d="M40 84l20-50 20 50M73 84l20-50 20 50" fill="none" stroke="#8c694b" stroke-width="7"/><text x="174" y="59" font-size="23" font-weight="700" fill="#234638">獣害対策</text><text x="174" y="86" font-size="17" fill="#526158">柵・見回り</text></g>
+    <g transform="translate(689 354)"><rect width="245" height="122" rx="20" fill="#fff" stroke="#688a70" stroke-width="3"/><path d="M35 31h79v68H35zM49 48h52M49 64h52M49 80h34" fill="none" stroke="#688a70" stroke-width="5"/><text x="180" y="59" font-size="23" font-weight="700" fill="#234638">記録</text><text x="180" y="86" font-size="17" fill="#526158">日数・作業・費用</text></g>
+  </g>
+  <text x="500" y="529" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#234638">買えるかだけでなく、続けられる作業量を先に数える</text>
+</svg>
