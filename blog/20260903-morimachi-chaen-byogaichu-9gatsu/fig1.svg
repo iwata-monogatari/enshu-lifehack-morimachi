@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">森町の茶園で葉裏の寄生を確認する場面</title>
+  <desc id="desc">山並みと茶畑を背景に、茶農家が畝の複数地点から葉を取り、白い寄生の跡を虫眼鏡で確認し、地図付きの記録紙へ印を付ける情景</desc>
+  <rect width="1000" height="560" fill="#eef5e7"/>
+  <path d="M0 220Q130 95 270 205Q430 50 590 205Q760 85 1000 220V350H0Z" fill="#789b72"/>
+  <path d="M0 270Q180 165 340 265Q510 135 700 265Q850 180 1000 255V365H0Z" fill="#a8bd87"/>
+  <path d="M0 335C180 285 320 300 500 345C690 300 840 285 1000 325V560H0Z" fill="#6d924d"/>
+  <g fill="none" stroke="#315d36" stroke-width="26" stroke-linecap="round">
+    <path d="M-30 550Q210 390 510 480Q750 555 1030 390"/>
+    <path d="M-30 475Q210 330 510 410Q760 480 1030 325"/>
+    <path d="M40 390Q240 280 500 342Q720 395 940 285"/>
+  </g>
+  <g transform="translate(610 225)">
+    <circle cx="65" cy="35" r="30" fill="#e8b78e"/>
+    <path d="M38 28Q63-12 100 28" fill="#36564e"/>
+    <path d="M47 70Q84 55 115 88L146 180L55 192L20 112Z" fill="#345d75"/>
+    <path d="M46 104L-18 154" stroke="#e8b78e" stroke-width="18" stroke-linecap="round"/>
+    <path d="M105 112L35 162" stroke="#e8b78e" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="-22" cy="155" r="27" fill="none" stroke="#263d40" stroke-width="8"/>
+    <path d="M-3 176L19 199" stroke="#263d40" stroke-width="8"/>
+    <path d="M35 162q28-25 58-7q-22 28-58 7" fill="#91b951" stroke="#315d36" stroke-width="4"/>
+  </g>
+  <g transform="translate(90 365)">
+    <rect width="225" height="145" rx="12" fill="#fffdf5" stroke="#594f3f" stroke-width="5"/>
+    <path d="M25 35H200M25 70H200M25 105H200" stroke="#b9ae95" stroke-width="4"/>
+    <path d="M45 24v95M100 24v95M155 24v95" stroke="#d8cfba" stroke-width="3"/>
+    <g fill="#cc6c45"><circle cx="70" cy="55" r="8"/><circle cx="130" cy="90" r="8"/><circle cx="185" cy="55" r="8"/></g>
+  </g>
+  <g transform="translate(330 365)">
+    <path d="M0 70q65-70 135 0q-65 70-135 0" fill="#8fbd55" stroke="#315d36" stroke-width="5"/>
+    <path d="M12 70h110" stroke="#315d36" stroke-width="4"/>
+    <g fill="#f4eee0" stroke="#7a674f" stroke-width="2"><circle cx="48" cy="52" r="7"/><circle cx="74" cy="78" r="7"/><circle cx="98" cy="55" r="7"/></g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">9月の茶園確認を三つの場面でつなぐ道筋</title>
+  <desc id="desc">森町の山と茶畑の中を一本の道が通り、葉裏の確認、地域別のふ化日照合、過去の防除記録の確認という三つの場面を順に結ぶ図</desc>
+  <rect width="1000" height="560" fill="#f4f0df"/>
+  <path d="M0 180Q140 80 280 175Q430 35 600 185Q790 65 1000 180V320H0Z" fill="#769274"/>
+  <path d="M0 245Q190 145 370 245Q550 135 730 245Q860 175 1000 220V350H0Z" fill="#a9bd87"/>
+  <rect y="320" width="1000" height="240" fill="#6f9852"/>
+  <path d="M70 500C210 395 285 465 420 390S680 450 920 335" fill="none" stroke="#ead7a5" stroke-width="58" stroke-linecap="round"/>
+  <path d="M70 500C210 395 285 465 420 390S680 450 920 335" fill="none" stroke="#7c6744" stroke-width="5" stroke-dasharray="12 16"/>
+  <g transform="translate(90 330)">
+    <circle cx="70" cy="55" r="64" fill="#fff" stroke="#315d36" stroke-width="6"/>
+    <path d="M25 65q45-55 90 0q-45 55-90 0" fill="#91bb57" stroke="#315d36" stroke-width="4"/>
+    <g fill="#eee2c9" stroke="#725c3e" stroke-width="2"><circle cx="55" cy="55" r="6"/><circle cx="76" cy="76" r="6"/><circle cx="94" cy="52" r="6"/></g>
+  </g>
+  <g transform="translate(400 265)">
+    <circle cx="70" cy="55" r="64" fill="#fff" stroke="#315d36" stroke-width="6"/>
+    <rect x="30" y="22" width="80" height="76" rx="8" fill="#f4e7cc" stroke="#6f593b" stroke-width="4"/>
+    <path d="M30 45h80M55 22v76M83 22v76" stroke="#b08f63" stroke-width="3"/>
+    <circle cx="83" cy="70" r="12" fill="#d56b4b"/>
+  </g>
+  <g transform="translate(720 245)">
+    <circle cx="70" cy="55" r="64" fill="#fff" stroke="#315d36" stroke-width="6"/>
+    <rect x="26" y="15" width="88" height="88" rx="6" fill="#fffdf5" stroke="#594f3f" stroke-width="4"/>
+    <path d="M42 38h56M42 58h56M42 78h38" stroke="#8f826b" stroke-width="4"/>
+    <path d="M88 82l12 12l22-30" fill="none" stroke="#39744a" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g fill="#315d36"><path d="M270 400l34 8l-25 24z"/><path d="M615 366l34 2l-27 28z"/></g>
+</svg>
