@@ -4684,7 +4684,32 @@ def scene_hotei_sozoku_joho_koseki(d):
     band(d, ["戸籍を集めるのは最初の一度。", "一覧図を必要通数もらう"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_shodo_festa_2026(d):
+    sky(d)
+    mountains(d, 292)
+    cedars(d, [20, 62, 686, 728], 298)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(226, 233, 211))
+    d.rectangle([46, 318, 714, 546], fill=(246, 242, 230), outline=(47, 79, 91), width=6)
+    d.rectangle([74, 344, 250, 482], fill=(255, 255, 250), outline=(139, 117, 82), width=4)
+    d.text((108, 370), "書", font=ImageFont.truetype(FONT_BOLD, 66), fill=(40, 48, 46))
+    d.text((178, 400), "森", font=ImageFont.truetype(FONT_BOLD, 48), fill=(40, 48, 46))
+    d.rectangle([286, 394, 470, 480], fill=(186, 145, 93), outline=(99, 75, 47), width=4)
+    d.rectangle([308, 409, 410, 465], fill=(248, 247, 238))
+    d.arc([326, 418, 402, 462], 170, 355, fill=(55, 112, 132), width=8)
+    d.line([(424, 388), (464, 330)], fill=(58, 43, 32), width=9)
+    d.ellipse([455, 315, 474, 342], fill=(30, 30, 28))
+    d.rectangle([508, 350, 681, 480], fill=(239, 230, 210), outline=(115, 88, 57), width=4)
+    d.rectangle([528, 374, 660, 454], fill=(255, 255, 250))
+    d.arc([540, 378, 646, 450], 185, 350, fill=(35, 39, 38), width=13)
+    d.ellipse([270, 490, 312, 532], fill=(228, 183, 130))
+    d.polygon([(250, 560), (290, 522), (330, 560)], fill=(91, 130, 100))
+    d.ellipse([500, 488, 542, 530], fill=(226, 178, 124))
+    d.polygon([(480, 560), (520, 520), (560, 560)], fill=(67, 91, 112))
+    band(d, ["展示と体験は同じ日ではない。", "9月19日の順番を決める"], "森町ライフハック／祭礼・イベント")
+
+
 SCENES = {
+    "20260905-morimachi-shodo-festa-2026": scene_shodo_festa_2026,
     "20260902-morimachi-jirogaki-genboku-mamoruhito": scene_jirogaki_genboku_mamoruhito,
     "20260902-muramatsu-shofu-showa100": scene_muramatsu_shofu_showa100,
     "20260902-morimachi-kokenchiku-katsuyo-hikaku": scene_kokenchiku_katsuyo_hikaku,
