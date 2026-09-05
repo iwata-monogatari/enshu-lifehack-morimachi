@@ -4684,6 +4684,25 @@ def scene_hotei_sozoku_joho_koseki(d):
     band(d, ["戸籍を集めるのは最初の一度。", "一覧図を必要通数もらう"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_bunka_kaikan_riyo(d):
+    sky(d)
+    mountains(d, 280)
+    cedars(d, [18, 58, 690, 732], 288)
+    d.rectangle([0, 294, 760, BAND_TOP], fill=(229, 232, 216))
+    d.rectangle([58, 324, 702, 548], fill=(244, 240, 227), outline=(48, 77, 91), width=6)
+    d.rectangle([84, 354, 676, 510], fill=(48, 61, 66), outline=(128, 98, 63), width=5)
+    d.polygon([(380, 374), (305, 486), (455, 486)], fill=(185, 112, 73))
+    d.rectangle([330, 414, 430, 486], fill=(232, 196, 132))
+    for x in (126, 184, 520, 578):
+        d.rectangle([x, 412, x + 34, 478], fill=(78, 112, 128))
+        d.ellipse([x + 2, 392, x + 32, 422], fill=(225, 183, 137))
+    d.rectangle([102, 520, 262, 548], fill=(43, 83, 98))
+    d.rectangle([498, 520, 658, 548], fill=(141, 93, 58))
+    d.text((109, 521), "準備", font=ImageFont.truetype(FONT_BOLD, 20), fill="#ffffff")
+    d.text((520, 521), "撤去", font=ImageFont.truetype(FONT_BOLD, 20), fill="#ffffff")
+    band(d, ["本番だけ借りることはできない。", "準備と撤去まで時間に入れる"], "森町ライフハック／祭礼・イベント")
+
+
 def scene_shodo_festa_2026(d):
     sky(d)
     mountains(d, 292)
@@ -4709,6 +4728,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260905-morimachi-bunka-kaikan-riyo": scene_bunka_kaikan_riyo,
     "20260905-morimachi-shodo-festa-2026": scene_shodo_festa_2026,
     "20260902-morimachi-jirogaki-genboku-mamoruhito": scene_jirogaki_genboku_mamoruhito,
     "20260902-muramatsu-shofu-showa100": scene_muramatsu_shofu_showa100,
