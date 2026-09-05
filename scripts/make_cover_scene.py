@@ -4740,6 +4740,28 @@ def scene_bunka_kaikan_riyo(d):
     band(d, ["本番だけ借りることはできない。", "準備と撤去まで時間に入れる"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_iju_coordinator_2026(d):
+    sky(d)
+    mountains(d, 284)
+    cedars(d, [18, 60, 700, 742], 292)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(222, 232, 207))
+    d.polygon([(220, 344), (316, 278), (412, 344)], fill=(122, 85, 61))
+    d.rectangle([242, 344, 390, 460], fill=(239, 229, 205), outline=(83, 75, 65), width=4)
+    d.rectangle([284, 382, 330, 460], fill=(142, 103, 72))
+    d.rectangle([78, 410, 682, 540], fill=(247, 243, 226), outline=(64, 86, 82), width=5)
+    d.rectangle([244, 432, 514, 520], fill=(255, 255, 250), outline=(108, 128, 112), width=4)
+    d.line([(278, 494), (340, 450), (408, 484), (478, 444)], fill=(80, 142, 154), width=7)
+    for x, y in ((300, 474), (374, 467), (452, 459)):
+        d.ellipse([x - 8, y - 8, x + 8, y + 8], fill=(195, 103, 64))
+    d.ellipse([112, 356, 164, 408], fill=(228, 186, 139))
+    d.polygon([(96, 420), (138, 402), (180, 420), (188, 510), (88, 510)], fill=(69, 108, 125))
+    d.ellipse([592, 356, 644, 408], fill=(230, 188, 142))
+    d.polygon([(576, 420), (618, 402), (660, 420), (672, 510), (564, 510)], fill=(127, 95, 70))
+    d.line([(174, 446), (250, 462)], fill=(228, 186, 139), width=11)
+    d.line([(582, 446), (510, 462)], fill=(230, 188, 142), width=11)
+    band(d, ["家を探す前に、", "暮らしの条件を相談する"], "森町ライフハック／移住・暮らし・データ")
+
+
 def scene_shodo_festa_2026(d):
     sky(d)
     mountains(d, 292)
@@ -4765,6 +4787,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260906-morimachi-iju-coordinator-2026": scene_iju_coordinator_2026,
     "20260905-morimachi-hatachi-tsudoi-kyosan": scene_hatachi_kyosan,
     "20260905-morimachi-9gatsu-event-2026": scene_9gatsu_event_2026,
     "20260905-morimachi-bunka-kaikan-riyo": scene_bunka_kaikan_riyo,

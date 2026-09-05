@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" data-illustration="mori-editorial">
+  <title>森町の暮らしを一枚の地図で相談する親子</title><desc>山、川、茶畑、集落を背景に、移住コーディネーターと親子が仕事、学校、病院、空き家を同じ地図上で確認している。</desc>
+  <rect width="1000" height="560" fill="#eef4df"/><path d="M0 230L145 95l95 92 122-138 138 158 129-126 141 142 110-95 120 105v327H0z" fill="#a8c58b"/>
+  <path d="M0 292c170-45 298 32 465-8 192-46 340 27 535-8v284H0z" fill="#dbe5bd"/><path d="M0 345c168-35 318 48 510 1 174-43 314 18 490-4" fill="none" stroke="#6da7b6" stroke-width="36" opacity=".9"/>
+  <g fill="#719957"><path d="M60 298l48-94 48 94z"/><path d="M116 303l42-82 42 82z"/><path d="M802 298l48-98 48 98z"/><path d="M864 304l39-76 39 76z"/></g>
+  <g stroke="#6b573f" stroke-width="6"><path d="M215 324v-76l76-48 78 48v76z" fill="#f2e5c8"/><path d="M207 251l84-57 86 57" fill="none"/><rect x="274" y="269" width="38" height="55" fill="#9d7450"/><rect x="226" y="266" width="30" height="27" fill="#b9d7df"/><rect x="329" y="266" width="27" height="27" fill="#b9d7df"/></g>
+  <rect x="175" y="355" width="650" height="150" rx="22" fill="#f7f0dc" stroke="#5e685f" stroke-width="5"/><rect x="316" y="373" width="368" height="112" rx="8" fill="#fff" stroke="#8b9a82" stroke-width="4"/>
+  <path d="M354 446c45-62 99-15 142-48 45-35 87 38 151-3" fill="none" stroke="#6aa2af" stroke-width="9"/><g fill="#c8794f"><circle cx="386" cy="412" r="10"/><circle cx="463" cy="445" r="10"/><circle cx="560" cy="405" r="10"/><circle cx="630" cy="448" r="10"/></g>
+  <g stroke="#4b5b55" stroke-width="5"><circle cx="237" cy="376" r="28" fill="#e1b484"/><path d="M202 476l12-78h48l16 78" fill="#4d7784"/><path d="M268 425l78 8"/><circle cx="755" cy="381" r="27" fill="#e5b987"/><path d="M716 480l14-76h50l15 76" fill="#8c6b53"/><path d="M724 431l-72 10"/></g>
+  <g fill="#244a55" font-family="sans-serif" font-size="22" font-weight="700"><text x="346" y="395">仕事</text><text x="420" y="474">学校</text><text x="530" y="391">病院</text><text x="596" y="477">空き家</text></g>
+</svg>

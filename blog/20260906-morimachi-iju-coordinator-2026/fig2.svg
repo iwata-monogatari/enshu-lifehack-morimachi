@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" data-illustration="mori-editorial">
+  <title>条件整理から空き家見学までの移住相談の道筋</title><desc>森町の山並みと茶畑の前で、家族が条件カード、オンライン相談、現地訪問、空き家見学の順に進んでいる。</desc>
+  <rect width="1000" height="560" fill="#eef4df"/><path d="M0 232L130 105l88 82L334 62l127 143L580 91l122 122 139-116 159 135v328H0z" fill="#acc88e"/>
+  <path d="M0 318h1000v242H0z" fill="#d9e3bd"/><path d="M76 463c126-117 221 56 352-52 126-104 242 55 455-82" fill="none" stroke="#d1a45f" stroke-width="30" stroke-linecap="round"/>
+  <g fill="#fff" stroke="#536b68" stroke-width="4"><rect x="55" y="330" width="190" height="125" rx="16"/><rect x="285" y="260" width="190" height="125" rx="16"/><rect x="525" y="322" width="190" height="125" rx="16"/><rect x="755" y="222" width="190" height="125" rx="16"/></g>
+  <g fill="#244a55" font-family="sans-serif" font-size="24" font-weight="700" text-anchor="middle"><text x="150" y="372">条件を一枚に</text><text x="380" y="302">オンライン相談</text><text x="620" y="364">森町を歩く</text><text x="850" y="264">空き家見学</text></g>
+  <g stroke="#698178" stroke-width="5" fill="none"><path d="M87 397h125M87 419h92"/><rect x="341" y="321" width="78" height="43" rx="4"/><path d="M354 339l17 13 34-30"/><path d="M575 403l22-22 20 16 28-36 24 42"/><path d="M791 318v-58l58-38 60 38v58z"/><path d="M785 262l64-45 66 45"/></g>
+  <g fill="#c86d45"><circle cx="259" cy="426" r="10"/><circle cx="492" cy="354" r="10"/><circle cx="730" cy="405" r="10"/></g>
+  <g stroke="#4b5b55" stroke-width="5"><circle cx="125" cy="489" r="24" fill="#e3b584"/><path d="M95 555l10-47h42l12 47" fill="#4d7784"/><circle cx="173" cy="493" r="21" fill="#e6b887"/><path d="M148 555l9-44h37l10 44" fill="#8b6c53"/></g>
+</svg>
