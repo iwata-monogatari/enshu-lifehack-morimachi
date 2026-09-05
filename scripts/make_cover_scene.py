@@ -4684,6 +4684,24 @@ def scene_hotei_sozoku_joho_koseki(d):
     band(d, ["戸籍を集めるのは最初の一度。", "一覧図を必要通数もらう"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_9gatsu_event_2026(d):
+    sky(d)
+    mountains(d, 278)
+    cedars(d, [22, 62, 696, 734], 286)
+    d.rectangle([0, 292, 760, BAND_TOP], fill=(230, 235, 213))
+    d.rectangle([52, 334, 352, 536], fill=(245, 237, 210), outline=(45, 83, 96), width=5)
+    d.ellipse([116, 372, 214, 470], fill=(220, 132, 75), outline=(109, 69, 42), width=4)
+    d.ellipse([142, 398, 164, 420], fill=(255, 249, 231))
+    d.ellipse([178, 398, 200, 420], fill=(255, 249, 231))
+    d.arc([145, 415, 197, 450], 15, 165, fill=(73, 62, 53), width=4)
+    d.rectangle([392, 334, 708, 536], fill=(246, 242, 229), outline=(105, 79, 64), width=5)
+    d.polygon([(550, 352), (432, 432), (668, 432)], fill=(150, 92, 71))
+    d.rectangle([462, 432, 638, 514], fill=(188, 164, 119))
+    for x, y in [(420, 372), (452, 388), (486, 366), (620, 376), (650, 400)]:
+        d.ellipse([x, y, x + 34, y + 34], fill=(170, 78, 104))
+    band(d, ["同じ日に見えても、情報量が違う。", "確定と未確認を分けて選ぶ"], "森町ライフハック／祭礼・イベント")
+
+
 def scene_bunka_kaikan_riyo(d):
     sky(d)
     mountains(d, 280)
@@ -4728,6 +4746,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260905-morimachi-9gatsu-event-2026": scene_9gatsu_event_2026,
     "20260905-morimachi-bunka-kaikan-riyo": scene_bunka_kaikan_riyo,
     "20260905-morimachi-shodo-festa-2026": scene_shodo_festa_2026,
     "20260902-morimachi-jirogaki-genboku-mamoruhito": scene_jirogaki_genboku_mamoruhito,
