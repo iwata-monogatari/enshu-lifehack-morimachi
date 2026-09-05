@@ -4740,6 +4740,24 @@ def scene_bunka_kaikan_riyo(d):
     band(d, ["本番だけ借りることはできない。", "準備と撤去まで時間に入れる"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_byoji_hoiku_9gatsu_5nin(d):
+    sky(d)
+    mountains(d, 284)
+    cedars(d, [20, 64, 696, 740], 292)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(222, 232, 207))
+    d.rectangle([116, 326, 644, 520], fill=(247, 243, 226), outline=(64, 86, 82), width=5)
+    d.rectangle([148, 356, 318, 486], fill=(255, 255, 250), outline=(70, 107, 101), width=4)
+    d.text((183, 374), "定員", font=ImageFont.truetype(FONT_BOLD, 27), fill=(42, 83, 79))
+    d.text((203, 414), "5人", font=ImageFont.truetype(FONT_BOLD, 38), fill=(42, 83, 79))
+    d.rectangle([360, 356, 606, 486], fill=(255, 255, 250), outline=(70, 107, 101), width=4)
+    d.ellipse([392, 383, 442, 433], fill=(229, 183, 133))
+    d.polygon([(376, 486), (417, 430), (458, 486)], fill=(83, 122, 115))
+    d.rectangle([476, 386, 568, 450], fill=(242, 231, 214), outline=(158, 96, 61), width=4)
+    d.line([(522, 398), (522, 438)], fill=(185, 79, 54), width=8)
+    d.line([(501, 418), (543, 418)], fill=(185, 79, 54), width=8)
+    band(d, ["定員5人は入口。", "登録・受診・送迎まで見る"], "森町ライフハック／移住・暮らし・データ")
+
+
 def scene_jutaku_loan_rishi_hokyu_06(d):
     sky(d)
     mountains(d, 284)
@@ -4823,6 +4841,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260906-morimachi-byoji-hoiku-9gatsu-5nin": scene_byoji_hoiku_9gatsu_5nin,
     "20260906-morimachi-jutaku-loan-rishi-hokyu-06": scene_jutaku_loan_rishi_hokyu_06,
     "20260906-morimachi-iju-shugyo-hojokin-2026": scene_iju_shugyo_hojokin_2026,
     "20260906-morimachi-iju-coordinator-2026": scene_iju_coordinator_2026,
