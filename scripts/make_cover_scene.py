@@ -4740,6 +4740,23 @@ def scene_bunka_kaikan_riyo(d):
     band(d, ["本番だけ借りることはできない。", "準備と撤去まで時間に入れる"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_jutaku_loan_rishi_hokyu_06(d):
+    sky(d)
+    mountains(d, 284)
+    cedars(d, [20, 64, 696, 740], 292)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(222, 232, 207))
+    d.polygon([(208, 386), (380, 278), (552, 386)], fill=(119, 82, 58))
+    d.rectangle([244, 386, 516, 520], fill=(242, 231, 207), outline=(69, 83, 77), width=5)
+    d.rectangle([340, 432, 420, 520], fill=(132, 94, 65))
+    d.rectangle([92, 328, 270, 408], fill=(255, 255, 250), outline=(63, 98, 91), width=4)
+    d.text((125, 345), "0.6%", font=ImageFont.truetype(FONT_BOLD, 34), fill=(42, 83, 79))
+    d.rectangle([490, 328, 668, 408], fill=(255, 247, 226), outline=(185, 102, 58), width=4)
+    d.text((521, 345), "1.0%", font=ImageFont.truetype(FONT_BOLD, 34), fill=(164, 81, 44))
+    d.line([(326, 347), (434, 391)], fill=(188, 91, 51), width=8)
+    d.line([(326, 391), (434, 347)], fill=(188, 91, 51), width=8)
+    band(d, ["0.6％と1.0％は、", "そのまま引かない"], "森町ライフハック／移住・暮らし・データ")
+
+
 def scene_iju_shugyo_hojokin_2026(d):
     sky(d)
     mountains(d, 284)
@@ -4806,6 +4823,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260906-morimachi-jutaku-loan-rishi-hokyu-06": scene_jutaku_loan_rishi_hokyu_06,
     "20260906-morimachi-iju-shugyo-hojokin-2026": scene_iju_shugyo_hojokin_2026,
     "20260906-morimachi-iju-coordinator-2026": scene_iju_coordinator_2026,
     "20260905-morimachi-hatachi-tsudoi-kyosan": scene_hatachi_kyosan,
