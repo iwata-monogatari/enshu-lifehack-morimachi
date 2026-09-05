@@ -4740,6 +4740,25 @@ def scene_bunka_kaikan_riyo(d):
     band(d, ["本番だけ借りることはできない。", "準備と撤去まで時間に入れる"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_iju_shugyo_hojokin_2026(d):
+    sky(d)
+    mountains(d, 284)
+    cedars(d, [18, 62, 698, 742], 292)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(222, 232, 207))
+    d.rectangle([78, 360, 682, 532], fill=(247, 243, 226), outline=(64, 86, 82), width=5)
+    d.rectangle([122, 391, 292, 500], fill=(255, 255, 250), outline=(80, 112, 104), width=4)
+    d.text((148, 410), "60万", font=ImageFont.truetype(FONT_BOLD, 38), fill=(42, 83, 79))
+    d.rectangle([316, 391, 486, 500], fill=(255, 255, 250), outline=(80, 112, 104), width=4)
+    d.text((333, 410), "100万", font=ImageFont.truetype(FONT_BOLD, 38), fill=(42, 83, 79))
+    d.rectangle([510, 391, 638, 500], fill=(255, 247, 226), outline=(189, 104, 58), width=4)
+    d.text((531, 410), "+子", font=ImageFont.truetype(FONT_BOLD, 38), fill=(166, 83, 45))
+    d.rectangle([280, 300, 480, 354], fill=(255, 255, 250), outline=(86, 94, 88), width=4)
+    for x in (305, 345, 385, 425):
+        d.line([(x, 300), (x, 322)], fill=(71, 88, 80), width=5)
+    d.text((304, 320), "1/29", font=ImageFont.truetype(FONT_BOLD, 25), fill=(58, 81, 77))
+    band(d, ["金額を見る前に、", "転入前の順番を見る"], "森町ライフハック／移住・暮らし・データ")
+
+
 def scene_iju_coordinator_2026(d):
     sky(d)
     mountains(d, 284)
@@ -4787,6 +4806,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260906-morimachi-iju-shugyo-hojokin-2026": scene_iju_shugyo_hojokin_2026,
     "20260906-morimachi-iju-coordinator-2026": scene_iju_coordinator_2026,
     "20260905-morimachi-hatachi-tsudoi-kyosan": scene_hatachi_kyosan,
     "20260905-morimachi-9gatsu-event-2026": scene_9gatsu_event_2026,
