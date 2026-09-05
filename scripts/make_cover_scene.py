@@ -4684,6 +4684,25 @@ def scene_hotei_sozoku_joho_koseki(d):
     band(d, ["戸籍を集めるのは最初の一度。", "一覧図を必要通数もらう"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_hatachi_kyosan(d):
+    sky(d)
+    mountains(d, 278)
+    cedars(d, [20, 60, 690, 730], 286)
+    d.rectangle([0, 292, 760, BAND_TOP], fill=(232, 235, 216))
+    d.rectangle([54, 330, 706, 540], fill=(246, 242, 231), outline=(46, 79, 93), width=6)
+    d.polygon([(380, 342), (260, 442), (500, 442)], fill=(165, 98, 70))
+    d.rectangle([284, 442, 476, 526], fill=(194, 169, 121))
+    d.rectangle([104, 400, 236, 506], fill=(222, 174, 93), outline=(118, 81, 44), width=4)
+    d.line([(170, 400), (170, 506)], fill=(118, 81, 44), width=4)
+    d.line([(104, 432), (236, 432)], fill=(118, 81, 44), width=4)
+    d.rectangle([524, 398, 654, 510], fill=(103, 143, 125), outline=(49, 86, 76), width=4)
+    d.line([(589, 398), (589, 510)], fill=(49, 86, 76), width=4)
+    d.line([(524, 432), (654, 432)], fill=(49, 86, 76), width=4)
+    d.ellipse([352, 446, 408, 502], fill=(226, 183, 137))
+    d.polygon([(326, 560), (380, 490), (434, 560)], fill=(63, 91, 111))
+    band(d, ["協賛は広告枠ではない。", "品物と包装と納品まで数える"], "森町ライフハック／祭礼・イベント")
+
+
 def scene_9gatsu_event_2026(d):
     sky(d)
     mountains(d, 278)
@@ -4746,6 +4765,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260905-morimachi-hatachi-tsudoi-kyosan": scene_hatachi_kyosan,
     "20260905-morimachi-9gatsu-event-2026": scene_9gatsu_event_2026,
     "20260905-morimachi-bunka-kaikan-riyo": scene_bunka_kaikan_riyo,
     "20260905-morimachi-shodo-festa-2026": scene_shodo_festa_2026,
