@@ -4883,6 +4883,39 @@ def scene_iju_coordinator_2026(d):
     band(d, ["家を探す前に、", "暮らしの条件を相談する"], "森町ライフハック／移住・暮らし・データ")
 
 
+def scene_akiya_muryo_sodankai_2026(d):
+    sky(d)
+    mountains(d, 282)
+    cedars(d, [18, 60, 700, 742], 292)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(221, 232, 207))
+    # 森町の空き家
+    d.polygon([(46, 394), (142, 320), (238, 394)], fill=(126, 87, 62))
+    d.rectangle([70, 392, 214, 518], fill=(239, 228, 204), outline=(72, 85, 78), width=5)
+    d.rectangle([96, 418, 136, 461], fill=(183, 211, 217), outline=(72, 85, 78), width=3)
+    d.rectangle([159, 432, 194, 518], fill=(137, 98, 69))
+    # 相談机と四分野の資料
+    d.rectangle([284, 394, 706, 535], fill=(181, 139, 96), outline=(89, 73, 56), width=5)
+    labels = [(306, "登記", (231, 241, 228)), (400, "税", (255, 238, 205)),
+              (494, "建物", (222, 237, 242)), (588, "売却", (245, 226, 217))]
+    for x, label, color in labels:
+        d.rounded_rectangle([x, 414, x + 80, 474], radius=7, fill=color, outline=(73, 96, 89), width=3)
+        tw = d.textbbox((0, 0), label, font=ImageFont.truetype(FONT_BOLD, 22))[2]
+        d.text((x + (80 - tw) / 2, 430), label, font=ImageFont.truetype(FONT_BOLD, 22), fill=(42, 77, 73))
+        d.ellipse([x + 24, 350, x + 56, 382], fill=(226, 179, 127), outline=(91, 72, 57), width=2)
+        d.polygon([(x + 12, 414), (x + 40, 380), (x + 68, 414)], fill=(73, 108, 101))
+    # 予定表と25名
+    d.rounded_rectangle([274, 302, 474, 382], radius=9, fill=(255, 254, 246), outline=(67, 96, 88), width=4)
+    d.text((294, 314), "11月28日", font=ImageFont.truetype(FONT_BOLD, 27), fill=(42, 83, 79))
+    d.text((306, 346), "先着25名", font=ImageFont.truetype(FONT_BOLD, 24), fill=(174, 79, 48))
+    # 資料を持つ家族
+    d.ellipse([222, 420, 266, 464], fill=(228, 183, 130), outline=(91, 72, 57), width=2)
+    d.polygon([(196, 536), (244, 462), (288, 536)], fill=(111, 89, 67))
+    d.rectangle([244, 468, 302, 528], fill=(255, 252, 241), outline=(71, 94, 87), width=3)
+    d.line([(254, 485), (290, 485)], fill=(104, 128, 120), width=3)
+    d.line([(254, 500), (286, 500)], fill=(104, 128, 120), width=3)
+    band(d, ["30分で決めない。", "次の確認先を持ち帰る"], "森町ライフハック／空き家・実家・相続")
+
+
 def scene_shodo_festa_2026(d):
     sky(d)
     mountains(d, 292)
@@ -4908,6 +4941,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260908-morimachi-akiya-muryo-sodankai-2026": scene_akiya_muryo_sodankai_2026,
     "20260907-morimachi-tokutei-kenshin-2026": scene_tokutei_kenshin_2026,
     "20260907-morimachi-chozei-nohu-6shudan": scene_chozei_nohu_6shudan,
     "20260907-morimachi-mynumber-card-koshin-10nen": scene_mynumber_card_koshin_10nen,
