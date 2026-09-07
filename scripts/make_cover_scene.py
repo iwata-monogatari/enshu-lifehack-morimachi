@@ -4940,6 +4940,32 @@ def scene_akiya_sozokumae_junbi_23pct(d):
     band(d, ["家の行き先より先に、", "分かる事実を一枚に"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_akiya_jokaso_kyushi_keizoku(d):
+    sky(d)
+    mountains(d, 282)
+    cedars(d, [18, 62, 698, 742], 294)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(222, 233, 208))
+    # 空き家と地中の浄化槽
+    d.polygon([(34, 405), (126, 334), (218, 405)], fill=(132, 87, 62))
+    d.rectangle([55, 403, 197, 520], fill=(242, 231, 207), outline=(69, 87, 80), width=5)
+    d.rectangle([79, 427, 120, 469], fill=(183, 211, 217), outline=(69, 87, 80), width=3)
+    d.rectangle([151, 438, 179, 520], fill=(137, 98, 69))
+    d.line([(180, 487), (275, 487), (275, 510)], fill=(76, 102, 95), width=7)
+    d.rounded_rectangle([236, 492, 375, 548], radius=18, fill=(187, 208, 198), outline=(69, 94, 87), width=4)
+    d.line([(256, 510), (354, 510)], fill=(102, 130, 119), width=3)
+    # 家族と比較札
+    d.ellipse([330, 366, 372, 408], fill=(228, 182, 129), outline=(91, 72, 57), width=2)
+    d.polygon([(318, 484), (351, 410), (385, 484)], fill=(103, 126, 112))
+    d.rounded_rectangle([405, 340, 710, 524], radius=12, fill=(255, 253, 244), outline=(66, 98, 89), width=4)
+    d.text((426, 359), "浄化槽", font=ImageFont.truetype(FONT_BOLD, 25), fill=(42, 79, 74))
+    d.rounded_rectangle([428, 408, 548, 474], radius=8, fill=(225, 240, 230), outline=(78, 121, 98), width=2)
+    d.text((457, 425), "継続", font=ImageFont.truetype(FONT_BOLD, 25), fill=(47, 98, 75))
+    d.rounded_rectangle([568, 408, 688, 474], radius=8, fill=(229, 238, 245), outline=(76, 105, 124), width=2)
+    d.text((597, 425), "休止", font=ImageFont.truetype(FONT_BOLD, 25), fill=(49, 83, 105))
+    d.text((437, 488), "清掃記録＋届出", font=ImageFont.truetype(FONT_BOLD, 18), fill=(128, 75, 48))
+    band(d, ["電源を抜くだけでは、", "浄化槽の休止にならない"], "森町ライフハック／空き家・実家・相続")
+
+
 def scene_shodo_festa_2026(d):
     sky(d)
     mountains(d, 292)
@@ -4965,6 +4991,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260908-akiya-jokaso-kyushi-keizoku": scene_akiya_jokaso_kyushi_keizoku,
     "20260908-akiya-sozokumae-junbi-23pct": scene_akiya_sozokumae_junbi_23pct,
     "20260908-morimachi-akiya-muryo-sodankai-2026": scene_akiya_muryo_sodankai_2026,
     "20260907-morimachi-tokutei-kenshin-2026": scene_tokutei_kenshin_2026,

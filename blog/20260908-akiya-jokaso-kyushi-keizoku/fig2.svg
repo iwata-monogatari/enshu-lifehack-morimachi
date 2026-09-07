@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" data-illustration="mori-editorial" role="img" aria-labelledby="title desc">
+  <title id="title">浄化槽を休止か継続か決める前に一枚へ集める情報</title>
+  <desc id="desc">銘板、保守点検、清掃、法定検査、次の使用日、現地担当を確認し、窓口と業者へ相談する流れ。</desc>
+  <rect width="1000" height="560" rx="20" fill="#eef3eb"/>
+  <path d="M0 117L121 51l124 63 137-82 149 87 136-69 151 67 122-57v96H0z" fill="#abc7c3"/>
+  <path d="M0 139l147-54 139 67 160-59 141 64 169-60 144 51 100-32v70H0z" fill="#78a08a"/>
+  <rect x="40" y="24" width="920" height="76" rx="14" fill="#fffdf7" stroke="#315f5a" stroke-width="3"/>
+  <text x="70" y="73" font-family="sans-serif" font-size="32" font-weight="700" fill="#214b48">決める前に、六つの事実を一枚へ</text>
+  <rect x="54" y="145" width="892" height="292" rx="18" fill="#fffdf7" stroke="#5a776e" stroke-width="3"/>
+  <g font-family="sans-serif">
+    <rect x="84" y="180" width="244" height="88" rx="12" fill="#e5f0ea" stroke="#5c8371" stroke-width="2"/>
+    <text x="110" y="214" font-size="19" fill="#49685c">設備</text>
+    <text x="110" y="247" font-size="24" font-weight="700" fill="#294d42">銘板・人槽・型式</text>
+    <rect x="378" y="180" width="244" height="88" rx="12" fill="#e8eef4" stroke="#648099" stroke-width="2"/>
+    <text x="404" y="214" font-size="19" fill="#536c82">直近の記録</text>
+    <text x="404" y="247" font-size="24" font-weight="700" fill="#344f67">保守点検・清掃・検査</text>
+    <rect x="672" y="180" width="244" height="88" rx="12" fill="#f5ead8" stroke="#a57b49" stroke-width="2"/>
+    <text x="698" y="214" font-size="19" fill="#80623f">家の利用</text>
+    <text x="698" y="247" font-size="24" font-weight="700" fill="#6e5031">最後と次の使用日</text>
+    <rect x="84" y="304" width="244" height="88" rx="12" fill="#f1e8e2" stroke="#946d58" stroke-width="2"/>
+    <text x="110" y="338" font-size="19" fill="#755b4e">担い手</text>
+    <text x="110" y="371" font-size="24" font-weight="700" fill="#60453a">鍵・立会い・支払者</text>
+    <rect x="378" y="304" width="244" height="88" rx="12" fill="#edf0dc" stroke="#84915b" stroke-width="2"/>
+    <text x="404" y="338" font-size="19" fill="#687348">費用</text>
+    <text x="404" y="371" font-size="24" font-weight="700" fill="#59623c">継続・休止・再開</text>
+    <rect x="672" y="304" width="244" height="88" rx="12" fill="#ece6f2" stroke="#806b95" stroke-width="2"/>
+    <text x="698" y="338" font-size="19" fill="#685a78">保留</text>
+    <text x="698" y="371" font-size="24" font-weight="700" fill="#574966">次に見直す日</text>
+  </g>
+  <path d="M500 437v38" stroke="#315f5a" stroke-width="5"/>
+  <path d="M486 464l14 18 14-18" fill="none" stroke="#315f5a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="188" y="480" width="624" height="58" rx="14" fill="#315f5a"/>
+  <text x="500" y="517" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#fff">西部健康福祉センターと業者へ確認</text>
+</svg>
