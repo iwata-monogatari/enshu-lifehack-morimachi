@@ -4781,6 +4781,32 @@ def scene_chozei_nohu_6shudan(d):
     band(d, ["納付書を開いたら、", "6手段を期限前に比べる"], "森町ライフハック／手続き・制度")
 
 
+def scene_tokutei_kenshin_2026(d):
+    sky(d)
+    mountains(d, 284)
+    cedars(d, [18, 58, 700, 742], 292)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(222, 232, 207))
+    d.rectangle([74, 330, 296, 516], fill=(255, 253, 243), outline=(64, 86, 82), width=5)
+    d.rectangle([96, 350, 190, 446], fill=(248, 244, 224), outline=(70, 107, 101), width=4)
+    d.rectangle([96, 350, 190, 380], fill=(181, 125, 65))
+    d.text((119, 390), "9月", font=ImageFont.truetype(FONT_BOLD, 31), fill=(42, 83, 79))
+    d.rectangle([206, 358, 274, 466], fill=(255, 255, 250), outline=(70, 107, 101), width=4)
+    d.text((216, 374), "受", font=ImageFont.truetype(FONT_BOLD, 25), fill=(42, 83, 79))
+    d.text((216, 410), "診", font=ImageFont.truetype(FONT_BOLD, 25), fill=(42, 83, 79))
+    d.text((216, 446), "券", font=ImageFont.truetype(FONT_BOLD, 25), fill=(42, 83, 79))
+    d.ellipse([354, 342, 428, 416], fill=(229, 183, 133), outline=(64, 86, 82), width=3)
+    d.polygon([(330, 512), (391, 407), (452, 512)], fill=(83, 122, 115))
+    d.arc([420, 350, 524, 454], 300, 60, fill=(164, 91, 50), width=8)
+    d.arc([444, 374, 500, 430], 300, 60, fill=(164, 91, 50), width=7)
+    d.rectangle([552, 360, 704, 508], fill=(247, 243, 226), outline=(64, 86, 82), width=5)
+    d.polygon([(574, 416), (628, 374), (682, 416)], fill=(104, 145, 133))
+    d.rectangle([582, 416, 674, 488], fill=(255, 255, 250), outline=(70, 107, 101), width=3)
+    d.line([(628, 430), (628, 476)], fill=(185, 79, 54), width=8)
+    d.line([(605, 453), (651, 453)], fill=(185, 79, 54), width=8)
+    d.text((551, 326), "予約", font=ImageFont.truetype(FONT_BOLD, 26), fill=(42, 83, 79))
+    band(d, ["受診券を出したら、", "10月前に予約を一本"], "森町ライフハック／健康・家族の段取り")
+
+
 def scene_byoji_hoiku_9gatsu_5nin(d):
     sky(d)
     mountains(d, 284)
@@ -4882,6 +4908,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260907-morimachi-tokutei-kenshin-2026": scene_tokutei_kenshin_2026,
     "20260907-morimachi-chozei-nohu-6shudan": scene_chozei_nohu_6shudan,
     "20260907-morimachi-mynumber-card-koshin-10nen": scene_mynumber_card_koshin_10nen,
     "20260906-morimachi-byoji-hoiku-9gatsu-5nin": scene_byoji_hoiku_9gatsu_5nin,
