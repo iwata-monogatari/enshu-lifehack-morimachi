@@ -4740,6 +4740,27 @@ def scene_bunka_kaikan_riyo(d):
     band(d, ["本番だけ借りることはできない。", "準備と撤去まで時間に入れる"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_mynumber_card_koshin_10nen(d):
+    sky(d)
+    mountains(d, 284)
+    cedars(d, [18, 60, 696, 740], 292)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(222, 232, 207))
+    d.rectangle([84, 330, 676, 520], fill=(247, 243, 226), outline=(64, 86, 82), width=5)
+    d.rectangle([118, 360, 308, 486], fill=(201, 232, 241), outline=(70, 107, 101), width=4)
+    d.line([(130, 374), (213, 430), (296, 374)], fill=(70, 107, 101), width=5)
+    d.text((158, 445), "封筒", font=ImageFont.truetype(FONT_BOLD, 27), fill=(42, 83, 79))
+    d.rectangle([372, 352, 612, 436], fill=(255, 255, 250), outline=(70, 107, 101), width=4)
+    d.ellipse([390, 372, 440, 422], fill=(229, 183, 133))
+    d.rectangle([458, 372, 582, 387], fill=(116, 151, 138))
+    d.rectangle([458, 401, 548, 414], fill=(172, 193, 180))
+    d.rectangle([428, 452, 546, 516], fill=(224, 201, 151), outline=(126, 101, 61), width=4)
+    for x in (457, 487, 517):
+        d.line([(x, 452), (x, 516)], fill=(151, 119, 72), width=3)
+    d.line([(428, 474), (546, 474)], fill=(151, 119, 72), width=3)
+    d.line([(428, 495), (546, 495)], fill=(151, 119, 72), width=3)
+    band(d, ["『更新』は一つではない。", "通知書を見てから動く"], "森町ライフハック／手続き・制度")
+
+
 def scene_byoji_hoiku_9gatsu_5nin(d):
     sky(d)
     mountains(d, 284)
@@ -4841,6 +4862,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260907-morimachi-mynumber-card-koshin-10nen": scene_mynumber_card_koshin_10nen,
     "20260906-morimachi-byoji-hoiku-9gatsu-5nin": scene_byoji_hoiku_9gatsu_5nin,
     "20260906-morimachi-jutaku-loan-rishi-hokyu-06": scene_jutaku_loan_rishi_hokyu_06,
     "20260906-morimachi-iju-shugyo-hojokin-2026": scene_iju_shugyo_hojokin_2026,
