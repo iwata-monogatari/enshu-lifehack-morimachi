@@ -4761,6 +4761,26 @@ def scene_mynumber_card_koshin_10nen(d):
     band(d, ["『更新』は一つではない。", "通知書を見てから動く"], "森町ライフハック／手続き・制度")
 
 
+def scene_chozei_nohu_6shudan(d):
+    sky(d)
+    mountains(d, 284)
+    cedars(d, [18, 58, 700, 742], 292)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(222, 232, 207))
+    d.rectangle([72, 332, 318, 514], fill=(255, 253, 243), outline=(64, 86, 82), width=5)
+    d.text((118, 350), "町税納付書", font=ImageFont.truetype(FONT_BOLD, 27), fill=(42, 83, 79))
+    d.line([(98, 402), (292, 402)], fill=(168, 183, 165), width=4)
+    d.text((118, 420), "9月30日", font=ImageFont.truetype(FONT_BOLD, 34), fill=(164, 91, 50))
+    d.rectangle([190, 466, 270, 500], fill=(215, 233, 237), outline=(84, 129, 122), width=3)
+    d.text((203, 470), "eL", font=ImageFont.truetype(FONT_BOLD, 22), fill=(42, 83, 79))
+    centers = [(410, 354), (515, 348), (620, 364), (420, 470), (530, 486), (638, 470)]
+    labels = ["口座", "店", "スマホ", "QR", "銀行", "役場"]
+    for (x, y), label in zip(centers, labels):
+        d.line([(318, 424), (x, y)], fill=(181, 125, 65), width=5)
+        d.ellipse([x - 42, y - 34, x + 42, y + 34], fill=(248, 244, 224), outline=(70, 107, 101), width=4)
+        d.text((x - 30, y - 15), label, font=ImageFont.truetype(FONT_BOLD, 20), fill=(42, 83, 79))
+    band(d, ["納付書を開いたら、", "6手段を期限前に比べる"], "森町ライフハック／手続き・制度")
+
+
 def scene_byoji_hoiku_9gatsu_5nin(d):
     sky(d)
     mountains(d, 284)
@@ -4862,6 +4882,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260907-morimachi-chozei-nohu-6shudan": scene_chozei_nohu_6shudan,
     "20260907-morimachi-mynumber-card-koshin-10nen": scene_mynumber_card_koshin_10nen,
     "20260906-morimachi-byoji-hoiku-9gatsu-5nin": scene_byoji_hoiku_9gatsu_5nin,
     "20260906-morimachi-jutaku-loan-rishi-hokyu-06": scene_jutaku_loan_rishi_hokyu_06,

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">森町の町税納付書から六つの納付経路へ分かれる情景</title>
+  <desc id="desc">森町の山並みと茶畑の前で、中央の町税納付書から口座、コンビニ、スマートフォン、eL-QR、金融機関、役場へ六本の道が伸びる挿絵。</desc>
+  <rect width="1000" height="560" fill="#edf6f5"/>
+  <path d="M0 175L130 70 260 158 395 58 530 155 675 78 815 166 920 94 1000 150V260H0Z" fill="#9cbcae"/>
+  <path d="M0 213L155 125 295 205 455 112 610 205 760 132 900 218 1000 160V275H0Z" fill="#bdd0ad"/>
+  <path d="M0 260Q170 220 340 265T680 255T1000 260V560H0Z" fill="#dce8c8"/>
+  <g fill="none" stroke="#b37a3f" stroke-width="9" stroke-linecap="round">
+    <path d="M500 350C420 380 270 390 150 445"/><path d="M500 350C430 330 300 286 180 255"/><path d="M500 350C470 300 430 235 390 185"/>
+    <path d="M500 350C555 302 605 235 650 185"/><path d="M500 350C590 332 720 290 825 250"/><path d="M500 350C610 385 740 400 870 445"/>
+  </g>
+  <g fill="#fffdf3" stroke="#405e59" stroke-width="4">
+    <rect x="405" y="235" width="190" height="205" rx="12"/>
+    <rect x="55" y="402" width="190" height="96" rx="18"/><rect x="78" y="207" width="205" height="96" rx="18"/>
+    <rect x="307" y="112" width="166" height="88" rx="18"/><rect x="570" y="112" width="166" height="88" rx="18"/>
+    <rect x="730" y="202" width="205" height="96" rx="18"/><rect x="755" y="402" width="190" height="96" rx="18"/>
+  </g>
+  <g fill="#294f4a" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="500" y="273" font-size="24">町税納付書</text><text x="500" y="313" font-size="18">税目・期別・9月30日</text>
+    <rect x="448" y="335" width="104" height="62" fill="#d7e9ed" stroke="#54817a" stroke-width="3"/><text x="500" y="373" font-size="20">eL-QR</text>
+    <text x="150" y="442" font-size="23">口座振替</text><text x="150" y="474" font-size="17">事前登録</text>
+    <text x="180" y="247" font-size="23">コンビニ</text><text x="180" y="279" font-size="17">現金・バーコード</text>
+    <text x="390" y="149" font-size="23">スマホ</text><text x="390" y="178" font-size="17">残高払い</text>
+    <text x="653" y="149" font-size="23">eL-QR</text><text x="653" y="178" font-size="17">カード等</text>
+    <text x="832" y="240" font-size="23">金融機関</text><text x="832" y="272" font-size="17">窓口</text>
+    <text x="850" y="442" font-size="23">森町役場</text><text x="850" y="474" font-size="17">会計課</text>
+  </g>
+  <text x="32" y="42" fill="#214b45" font-family="system-ui, sans-serif" font-size="28" font-weight="800">六つの入口は、領収証・費用・印字条件で選ぶ</text>
+  <text x="968" y="535" text-anchor="end" fill="#526c67" font-family="system-ui, sans-serif" font-size="16">記事内容をもとに作成した説明用イラスト</text>
+</svg>
