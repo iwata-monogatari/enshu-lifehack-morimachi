@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">相続前に家族で作る一枚</title>
+  <desc id="desc">森町の実家を前に、親子が名義、鍵、税通知、連絡先を一枚へ書き、未確認と保留を残して次の確認先を決める図。</desc>
+  <rect width="1000" height="560" fill="#eaf4f5"/>
+  <path d="M0 174 L116 86 L236 176 L365 70 L505 179 L646 96 L768 176 L892 88 L1000 160 V238 H0Z" fill="#718f81"/>
+  <path d="M0 214 Q180 168 350 206 T690 198 T1000 214 V292 H0Z" fill="#a9c886"/>
+  <g transform="translate(62 240)"><polygon points="0,84 92,14 184,84" fill="#965f43"/><rect x="20" y="84" width="144" height="142" fill="#f3e7cc" stroke="#425e57" stroke-width="4"/><rect x="46" y="112" width="42" height="46" fill="#b7d4d8" stroke="#425e57" stroke-width="3"/><rect x="112" y="128" width="30" height="98" fill="#8b644a"/></g>
+  <rect x="300" y="185" width="625" height="288" rx="18" fill="#fffdf6" stroke="#466b62" stroke-width="4"/>
+  <text x="612" y="228" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="700" fill="#254e49">家の行き先より先に、一枚へ残す</text>
+  <g font-family="sans-serif" font-size="22" font-weight="700" fill="#304f49">
+    <rect x="340" y="262" width="245" height="58" rx="10" fill="#deebe4"/><text x="365" y="299">1　登記名義</text>
+    <rect x="640" y="262" width="245" height="58" rx="10" fill="#f5e6c9"/><text x="665" y="299">2　鍵の所在</text>
+    <rect x="340" y="338" width="245" height="58" rx="10" fill="#dfecef"/><text x="365" y="375">3　税通知</text>
+    <rect x="640" y="338" width="245" height="58" rx="10" fill="#eaded5"/><text x="665" y="375">4　連絡先</text>
+  </g>
+  <rect x="340" y="420" width="245" height="36" rx="8" fill="#fff" stroke="#d56543" stroke-width="3"/><text x="462" y="446" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#b95136">未確認を残す</text>
+  <rect x="640" y="420" width="245" height="36" rx="8" fill="#fff" stroke="#d49d38" stroke-width="3"/><text x="762" y="446" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#8b671f">まだ決めない</text>
+  <path d="M215 484 Q470 524 850 486" fill="none" stroke="#d1a358" stroke-width="16" stroke-linecap="round" stroke-dasharray="18 16"/>
+  <text x="500" y="535" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#244a46">今日の一歩：固定資産税通知の宛名と保管場所を確認</text>
+</svg>

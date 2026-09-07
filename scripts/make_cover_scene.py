@@ -4916,6 +4916,30 @@ def scene_akiya_muryo_sodankai_2026(d):
     band(d, ["30分で決めない。", "次の確認先を持ち帰る"], "森町ライフハック／空き家・実家・相続")
 
 
+def scene_akiya_sozokumae_junbi_23pct(d):
+    sky(d)
+    mountains(d, 282)
+    cedars(d, [18, 62, 698, 742], 294)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(222, 233, 208))
+    # 森町の実家
+    d.polygon([(38, 418), (132, 342), (226, 418)], fill=(133, 87, 62))
+    d.rectangle([60, 416, 204, 536], fill=(242, 231, 207), outline=(69, 87, 80), width=5)
+    d.rectangle([84, 440, 125, 482], fill=(183, 211, 217), outline=(69, 87, 80), width=3)
+    d.rectangle([154, 452, 184, 536], fill=(137, 98, 69))
+    # 親子と一枚の確認表
+    for x, color in [(258, (96, 124, 112)), (334, (117, 91, 70))]:
+        d.ellipse([x, 376, x + 42, 418], fill=(228, 182, 129), outline=(91, 72, 57), width=2)
+        d.polygon([(x - 10, 492), (x + 21, 420), (x + 54, 492)], fill=color)
+    d.rounded_rectangle([404, 350, 710, 520], radius=12, fill=(255, 253, 244), outline=(66, 98, 89), width=4)
+    d.text((420, 368), "相続前の対策", font=ImageFont.truetype(FONT_BOLD, 24), fill=(42, 79, 74))
+    d.text((610, 362), "23%", font=ImageFont.truetype(FONT_BOLD, 36), fill=(181, 79, 48))
+    labels = [(430, 420, "名義"), (542, 420, "鍵"), (430, 468, "税通知"), (542, 468, "連絡先")]
+    for x, y, label in labels:
+        d.rounded_rectangle([x, y, x + 94, y + 38], radius=6, fill=(226, 239, 232), outline=(88, 117, 107), width=2)
+        d.text((x + 12, y + 7), label, font=ImageFont.truetype(FONT_BOLD, 18), fill=(43, 77, 72))
+    band(d, ["家の行き先より先に、", "分かる事実を一枚に"], "森町ライフハック／空き家・実家・相続")
+
+
 def scene_shodo_festa_2026(d):
     sky(d)
     mountains(d, 292)
@@ -4941,6 +4965,7 @@ def scene_shodo_festa_2026(d):
 
 
 SCENES = {
+    "20260908-akiya-sozokumae-junbi-23pct": scene_akiya_sozokumae_junbi_23pct,
     "20260908-morimachi-akiya-muryo-sodankai-2026": scene_akiya_muryo_sodankai_2026,
     "20260907-morimachi-tokutei-kenshin-2026": scene_tokutei_kenshin_2026,
     "20260907-morimachi-chozei-nohu-6shudan": scene_chozei_nohu_6shudan,
