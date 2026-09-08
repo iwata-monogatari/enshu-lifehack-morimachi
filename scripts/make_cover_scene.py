@@ -4990,7 +4990,60 @@ def scene_shodo_festa_2026(d):
     band(d, ["展示と体験は同じ日ではない。", "9月19日の順番を決める"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_block_wall_tekkyo_hojo_266k(d):
+    """古い塀を安全な位置から記録し、撤去前相談へつなぐ場面。"""
+    d.rectangle([0, 0, 760, 760], fill=(218, 238, 243))
+    d.ellipse([620, 54, 704, 138], fill=(244, 203, 106))
+    d.polygon([(0, 286), (102, 166), (194, 251), (302, 119), (421, 260),
+               (532, 155), (640, 251), (760, 132), (760, 362), (0, 362)],
+              fill=(101, 143, 116))
+    d.polygon([(0, 336), (126, 226), (218, 301), (340, 201), (457, 319),
+               (579, 220), (688, 308), (760, 249), (760, 412), (0, 412)],
+              fill=(69, 111, 91))
+    d.rectangle([0, 358, 760, 604], fill=(151, 183, 116))
+    for y in range(382, 570, 34):
+        d.arc([-90, y - 60, 430, y + 80], 195, 342, fill=(92, 139, 78), width=9)
+        d.arc([350, y - 52, 900, y + 86], 196, 344, fill=(92, 139, 78), width=9)
+    d.polygon([(0, 553), (225, 526), (475, 558), (760, 520), (760, 760), (0, 760)],
+              fill=(190, 184, 170))
+    d.line([(0, 586), (226, 558), (478, 590), (760, 551)],
+           fill=(245, 236, 211), width=8)
+    d.polygon([(66, 388), (176, 299), (292, 388)], fill=(112, 79, 65))
+    d.rectangle([86, 383, 274, 522], fill=(233, 216, 184))
+    d.rectangle([112, 430, 160, 522], fill=(121, 89, 69))
+    d.rectangle([201, 419, 248, 465], fill=(174, 213, 220))
+    wall_colors = ((184, 180, 169), (201, 196, 183))
+    for row, y in enumerate((468, 510, 552)):
+        for col, x in enumerate(range(266, 602, 56)):
+            d.rectangle([x, y, x + 53, y + 39], fill=wall_colors[(row + col) % 2],
+                        outline=(101, 99, 92), width=2)
+    d.line([(432, 469), (441, 504), (430, 531), (446, 590)],
+           fill=(126, 76, 70), width=6)
+    d.line([(504, 469), (496, 508), (510, 548), (500, 590)],
+           fill=(126, 76, 70), width=5)
+    d.line([(259, 608), (604, 608)], fill=(207, 133, 53), width=7)
+    d.line([(266, 596), (266, 620)], fill=(207, 133, 53), width=7)
+    d.line([(599, 596), (599, 620)], fill=(207, 133, 53), width=7)
+    d.rounded_rectangle([397, 591, 471, 624], radius=15, fill=(255, 249, 230),
+                        outline=(185, 116, 43), width=2)
+    d.line([(624, 469), (624, 590)], fill=(178, 72, 65), width=6)
+    d.line([(612, 469), (636, 469)], fill=(178, 72, 65), width=6)
+    d.line([(612, 590), (636, 590)], fill=(178, 72, 65), width=6)
+    d.rounded_rectangle([632, 512, 696, 546], radius=15, fill=(255, 249, 230),
+                        outline=(157, 65, 60), width=2)
+    d.ellipse([648, 398, 688, 438], fill=(221, 171, 121))
+    d.polygon([(631, 433), (688, 433), (710, 542), (617, 542)], fill=(50, 108, 111))
+    d.line([(640, 453), (603, 493)], fill=(221, 171, 121), width=13)
+    d.rounded_rectangle([572, 472, 611, 525], radius=5, fill=(48, 67, 79))
+    d.ellipse([585, 484, 598, 497], fill=(164, 215, 222))
+    d.line([(642, 536), (632, 615)], fill=(50, 65, 73), width=15)
+    d.line([(681, 536), (697, 615)], fill=(50, 65, 73), width=15)
+    band(d, ["高さだけで決めない", "写真と位置図を持って着工前相談"],
+         "森町ライフハック／空き家・実家・相続")
+
+
 SCENES = {
+    "20260908-morimachi-block-wall-tekkyo-hojo-266k": scene_block_wall_tekkyo_hojo_266k,
     "20260908-akiya-jokaso-kyushi-keizoku": scene_akiya_jokaso_kyushi_keizoku,
     "20260908-akiya-sozokumae-junbi-23pct": scene_akiya_sozokumae_junbi_23pct,
     "20260908-morimachi-akiya-muryo-sodankai-2026": scene_akiya_muryo_sodankai_2026,
