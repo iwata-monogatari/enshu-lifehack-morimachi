@@ -5042,7 +5042,38 @@ def scene_block_wall_tekkyo_hojo_266k(d):
          "森町ライフハック／空き家・実家・相続")
 
 
+def scene_chika_koji_2026_3points(d):
+    """地価公示3地点と実家の土地資料を家族が照合する場面。"""
+    sky(d)
+    mountains(d, 278)
+    cedars(d, [42, 104, 646, 704], 302, h=64)
+    d.rectangle([0, 304, 760, 592], fill=(171, 197, 139))
+    for y in [330, 365, 402, 442]:
+        d.arc([-80, y - 54, 840, y + 70], 190, 350, fill=(82, 133, 88), width=7)
+    d.polygon([(73, 454), (267, 365), (529, 403), (682, 510), (506, 568), (229, 548)], fill=(242, 238, 216), outline=(70, 101, 99))
+    d.line([(267, 365), (229, 548)], fill=(149, 132, 98), width=5)
+    d.line([(529, 403), (506, 568)], fill=(149, 132, 98), width=5)
+    d.line([(73, 454), (682, 510)], fill=(149, 132, 98), width=5)
+    for x, y, color in [(233, 411, (211, 130, 62)), (399, 468, (91, 139, 108)), (555, 444, (55, 101, 116))]:
+        d.ellipse([x - 24, y - 24, x + 24, y + 24], fill=color, outline=(255, 255, 255), width=5)
+        d.polygon([(x - 12, y + 16), (x + 12, y + 16), (x, y + 48)], fill=color)
+        d.ellipse([x - 7, y - 7, x + 7, y + 7], fill=(248, 241, 213))
+    d.rectangle([70, 396, 203, 506], fill=(244, 231, 201), outline=(90, 75, 58), width=4)
+    d.polygon([(58, 398), (136, 340), (216, 398)], fill=(112, 73, 57))
+    d.rectangle([94, 430, 126, 506], fill=(124, 87, 67))
+    d.rectangle([151, 424, 185, 455], fill=(155, 210, 217))
+    d.rounded_rectangle([531, 350, 687, 461], radius=10, fill=(250, 249, 242), outline=(49, 75, 82), width=4)
+    d.line([(552, 382), (662, 382)], fill=(105, 126, 126), width=4)
+    d.line([(552, 407), (662, 407)], fill=(105, 126, 126), width=4)
+    d.line([(552, 432), (626, 432)], fill=(105, 126, 126), width=4)
+    d.ellipse([461, 394, 497, 430], fill=(224, 177, 118))
+    d.polygon([(439, 443), (480, 421), (518, 450), (500, 548), (447, 548)], fill=(54, 103, 111))
+    d.line([(486, 445), (551, 420)], fill=(224, 177, 118), width=12)
+    band(d, ["3地点は実家の値札ではない", "地番・用途・接道へ戻す"], "森町ライフハック／土地・実家")
+
+
 SCENES = {
+    "20260908-morimachi-chika-koji-2026-3points": scene_chika_koji_2026_3points,
     "20260908-morimachi-block-wall-tekkyo-hojo-266k": scene_block_wall_tekkyo_hojo_266k,
     "20260908-akiya-jokaso-kyushi-keizoku": scene_akiya_jokaso_kyushi_keizoku,
     "20260908-akiya-sozokumae-junbi-23pct": scene_akiya_sozokumae_junbi_23pct,

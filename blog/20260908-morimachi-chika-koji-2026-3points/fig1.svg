@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">森町の2026年地価公示3地点</title>
+  <desc id="desc">森字中曽根、睦実字甚六屋敷、森字横町の価格と前年比を三つのカードで比較するイラスト</desc>
+  <rect width="1000" height="560" rx="24" fill="#eef5f2"/>
+  <path d="M0 178L116 70l94 83 123-119 132 137 118-93 109 97 132-122 176 138v78H0z" fill="#739c82"/>
+  <path d="M0 230c150-55 262-6 390-35 155-36 257 31 395-8 86-24 149-17 215 3v98H0z" fill="#a9c989"/>
+  <path d="M0 258c177-37 320 30 497-9 191-42 333 15 503-6" fill="none" stroke="#5b8f65" stroke-width="9"/>
+  <rect x="55" y="292" width="280" height="205" rx="18" fill="#fff" stroke="#38656a" stroke-width="4"/>
+  <rect x="360" y="292" width="280" height="205" rx="18" fill="#fff" stroke="#38656a" stroke-width="4"/>
+  <rect x="665" y="292" width="280" height="205" rx="18" fill="#fff" stroke="#38656a" stroke-width="4"/>
+  <circle cx="195" cy="265" r="25" fill="#d58a45"/><circle cx="500" cy="265" r="25" fill="#6d9677"/><circle cx="805" cy="265" r="25" fill="#436f7a"/>
+  <path d="M195 291l-15-28h30zM500 291l-15-28h30zM805 291l-15-28h30z" fill="#314c55"/>
+  <g font-family="system-ui, sans-serif" fill="#173d49" text-anchor="middle">
+    <text x="195" y="338" font-size="25" font-weight="700">静岡森-1</text>
+    <text x="195" y="373" font-size="18">森字中曽根</text>
+    <text x="195" y="418" font-size="32" font-weight="800">36,700円/㎡</text>
+    <text x="195" y="461" font-size="23" fill="#587167">0.0％・横ばい</text>
+    <text x="500" y="338" font-size="25" font-weight="700">静岡森-2</text>
+    <text x="500" y="373" font-size="18">睦実字甚六屋敷</text>
+    <text x="500" y="418" font-size="32" font-weight="800">23,400円/㎡</text>
+    <text x="500" y="461" font-size="23" fill="#9b5c3e">-0.4％</text>
+    <text x="805" y="338" font-size="25" font-weight="700">静岡森5-1</text>
+    <text x="805" y="373" font-size="18">森字横町</text>
+    <text x="805" y="418" font-size="32" font-weight="800">26,900円/㎡</text>
+    <text x="805" y="461" font-size="23" fill="#9b5c3e">-0.7％</text>
+  </g>
+  <text x="500" y="535" font-family="system-ui, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#314c55">価格時点 2026年1月1日　｜　3地点は実家の値札ではない</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" role="img" aria-labelledby="title desc" data-illustration="mori-editorial">
+  <title id="title">地価公示から実家の確認へ進む順番</title>
+  <desc id="desc">地価公示3地点を見た後、地番と地積、用途、接道、境界と名義、個別査定へ進む順番を示すイラスト</desc>
+  <rect width="1000" height="560" rx="24" fill="#f4f0e5"/>
+  <path d="M0 138L115 54l91 74 121-101 129 112 103-76 111 91 123-107 207 118v90H0z" fill="#7d9d83"/>
+  <rect x="60" y="198" width="880" height="285" rx="24" fill="#fff" stroke="#d3c9ad" stroke-width="4"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <g fill="#edf5f2" stroke="#4f7775" stroke-width="3">
+      <rect x="80" y="267" width="150" height="126" rx="15"/><rect x="252" y="267" width="150" height="126" rx="15"/><rect x="424" y="267" width="150" height="126" rx="15"/><rect x="596" y="267" width="150" height="126" rx="15"/><rect x="768" y="267" width="150" height="126" rx="15"/>
+    </g>
+    <g fill="#244b55" font-weight="700">
+      <text x="155" y="306" font-size="19">公示3地点</text><text x="155" y="338" font-size="17">価格・変動率</text><text x="155" y="370" font-size="16">2026年1月1日</text>
+      <text x="327" y="306" font-size="19">実家の筆</text><text x="327" y="338" font-size="17">地番・地目</text><text x="327" y="370" font-size="17">地積</text>
+      <text x="499" y="306" font-size="19">用途</text><text x="499" y="338" font-size="17">用途地域図</text><text x="499" y="370" font-size="17">建設課確認</text>
+      <text x="671" y="306" font-size="19">接道</text><text x="671" y="338" font-size="17">幅・種類</text><text x="671" y="370" font-size="17">進入状態</text>
+      <text x="843" y="306" font-size="19">境界・名義</text><text x="843" y="338" font-size="17">資料をそろえ</text><text x="843" y="370" font-size="17">個別査定へ</text>
+    </g>
+    <g fill="#c77d3c" font-size="34" font-weight="800"><text x="241" y="342">›</text><text x="413" y="342">›</text><text x="585" y="342">›</text><text x="757" y="342">›</text></g>
+    <text x="500" y="235" font-size="27" font-weight="800" fill="#173d49">数字を見たら、実家の条件へ戻る</text>
+    <text x="500" y="448" font-size="20" font-weight="700" fill="#7b5c34">今日の一歩：大字・地番・地目・地積を一行に写す</text>
+  </g>
+</svg>
