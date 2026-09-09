@@ -4990,6 +4990,39 @@ def scene_shodo_festa_2026(d):
     band(d, ["展示と体験は同じ日ではない。", "9月19日の順番を決める"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_aki_higan_hakamairi_junbi(d):
+    """秋彼岸の墓参りを、清掃・供花・記録・次回担当まで描く。"""
+    sky(d)
+    mountains(d, 280)
+    cedars(d, [24, 68, 682, 726], 294)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(221, 224, 198))
+    for y in (322, 352, 382):
+        d.arc([-80, y - 42, 840, y + 72], 190, 350, fill=(104, 143, 83), width=7)
+    # 墓石と供花
+    d.rectangle([286, 344, 474, 520], fill=(194, 198, 190), outline=(83, 96, 92), width=5)
+    d.rectangle([322, 294, 438, 350], fill=(210, 213, 205), outline=(83, 96, 92), width=5)
+    d.rectangle([264, 516, 496, 544], fill=(164, 169, 161), outline=(83, 96, 92), width=4)
+    for x, color in ((254, (220, 119, 91)), (486, (235, 177, 66))):
+        d.line([(x, 382), (x, 456)], fill=(72, 111, 70), width=6)
+        d.ellipse([x - 18, 354, x + 18, 392], fill=color)
+    # 清掃する家族
+    d.ellipse([112, 388, 158, 434], fill=(226, 182, 130), outline=(91, 72, 57), width=2)
+    d.polygon([(88, 530), (136, 432), (184, 530)], fill=(67, 107, 116))
+    d.line([(158, 458), (260, 412)], fill=(226, 182, 130), width=13)
+    d.rectangle([228, 390, 274, 424], fill=(247, 243, 224), outline=(81, 105, 96), width=3)
+    # 持ち帰り袋
+    d.polygon([(84, 524), (206, 524), (220, 580), (68, 580)], fill=(101, 143, 93), outline=(66, 102, 67), width=4)
+    d.line([(98, 524), (116, 498), (142, 524), (168, 498), (194, 524)], fill=(66, 102, 67), width=4)
+    # 右：準備表と次回担当
+    d.rounded_rectangle([520, 350, 730, 548], radius=12, fill=(255, 253, 242), outline=(54, 88, 91), width=4)
+    d.text((548, 366), "墓参り準備", font=ImageFont.truetype(FONT_BOLD, 25), fill=(36, 71, 82))
+    for y, label in ((414, "清掃"), (454, "写真"), (494, "次回担当")):
+        d.rectangle([544, y, 572, y + 28], fill=(225, 239, 229), outline=(75, 119, 91), width=2)
+        d.line([(550, y + 14), (558, y + 22), (570, y + 4)], fill=(70, 124, 78), width=4)
+        d.text((586, y - 1), label, font=ImageFont.truetype(FONT_BOLD, 20), fill=(53, 79, 77))
+    band(d, ["参っただけで終えない。", "次回担当まで一枚に"], "森町ライフハック／寺社・歴史")
+
+
 def scene_block_wall_tekkyo_hojo_266k(d):
     """古い塀を安全な位置から記録し、撤去前相談へつなぐ場面。"""
     d.rectangle([0, 0, 760, 760], fill=(218, 238, 243))
@@ -5073,6 +5106,7 @@ def scene_chika_koji_2026_3points(d):
 
 
 SCENES = {
+    "20260909-morimachi-aki-higan-hakamairi-junbi": scene_aki_higan_hakamairi_junbi,
     "20260908-morimachi-chika-koji-2026-3points": scene_chika_koji_2026_3points,
     "20260908-morimachi-block-wall-tekkyo-hojo-266k": scene_block_wall_tekkyo_hojo_266k,
     "20260908-akiya-jokaso-kyushi-keizoku": scene_akiya_jokaso_kyushi_keizoku,

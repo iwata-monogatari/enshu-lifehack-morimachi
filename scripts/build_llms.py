@@ -88,7 +88,30 @@ def main():
 
     out = ROOT / 'llms.txt'
     out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
-    print(f'生成完了: {out}（ハブ{len(hubs)}件）')
+
+    full_lines = [
+        '# 森町ライフハック 全記事索引',
+        '',
+        '> 静岡県周智郡森町の暮らし、手続き、空き家、寺社を扱う記事の詳細索引。',
+        '> 日付、見出し、要約、正規URLを台帳から生成している。',
+        '',
+        '## ブログ記事',
+        '',
+    ]
+    for post in sorted(blog, key=lambda row: (row['date'], row['slug']), reverse=True):
+        url = f"{SITE}/blog/{post['slug']}/"
+        full_lines.append(f"- {post['date']} [{post['title']}]({url}): {post['description']}")
+    full_lines += [
+        '',
+        '## サイト全体',
+        '',
+        f'- [全ページ一覧]({SITE}/sitemap.xml)',
+        f'- [執筆者と編集方針]({SITE}/about/author/)',
+        f'- [利用条件・免責・誤りのご連絡]({SITE}/terms/)',
+    ]
+    full_out = ROOT / 'llms-full.txt'
+    full_out.write_text('\n'.join(full_lines) + '\n', encoding='utf-8')
+    print(f'生成完了: {out} / {full_out}（ハブ{len(hubs)}件・ブログ{len(blog)}本）')
     return 0
 
 
