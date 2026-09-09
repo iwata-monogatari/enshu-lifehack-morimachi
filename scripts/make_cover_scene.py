@@ -4990,6 +4990,33 @@ def scene_shodo_festa_2026(d):
     band(d, ["展示と体験は同じ日ではない。", "9月19日の順番を決める"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_bunkazai_toshin_toroku_chigai(d):
+    """古民家所有者が答申と登録原簿、基準日付き件数を分ける場面。"""
+    sky(d)
+    mountains(d, 276)
+    cedars(d, [22, 64, 694, 732], 292)
+    d.rectangle([0, 300, 760, BAND_TOP], fill=(223, 221, 194))
+    # 左に特定物件を再現しない古民家。
+    d.polygon([(48, 392), (168, 306), (288, 392)], fill=(90, 65, 48), outline=(58, 47, 39))
+    d.rectangle([74, 388, 262, 548], fill=(218, 202, 158), outline=(83, 66, 49), width=5)
+    d.rectangle([110, 420, 164, 548], fill=(111, 78, 54))
+    d.rectangle([188, 426, 238, 492], fill=(151, 184, 177), outline=(78, 103, 96), width=4)
+    # 中央に二段の書類。
+    d.rounded_rectangle([316, 344, 498, 448], radius=12, fill=(255, 252, 233), outline=(157, 112, 52), width=4)
+    d.text((354, 372), "答 申", font=ImageFont.truetype(FONT_BOLD, 29), fill=(126, 82, 33))
+    d.line([(408, 450), (408, 472)], fill=(66, 96, 88), width=7)
+    d.polygon([(392, 468), (424, 468), (408, 488)], fill=(66, 96, 88))
+    d.rounded_rectangle([316, 486, 498, 580], radius=12, fill=(244, 250, 244), outline=(67, 112, 99), width=4)
+    d.text((354, 510), "登 録", font=ImageFont.truetype(FONT_BOLD, 29), fill=(43, 88, 77))
+    # 右に基準日付き件数メモ。
+    d.rounded_rectangle([526, 350, 732, 546], radius=12, fill=(255, 253, 242), outline=(70, 96, 91), width=4)
+    d.text((548, 368), "9月1日現在", font=ImageFont.truetype(FONT_BOLD, 23), fill=(56, 82, 78))
+    d.text((548, 414), "14,884", font=ImageFont.truetype(FONT_BOLD, 34), fill=(42, 90, 82))
+    d.text((548, 468), "段階と日付", font=ImageFont.truetype(FONT_BOLD, 23), fill=(151, 76, 54))
+    d.text((548, 504), "を分ける", font=ImageFont.truetype(FONT_BOLD, 23), fill=(151, 76, 54))
+    band(d, ["答申は一段目。", "登録日を別欄にする"], "森町ライフハック／寺社・歴史")
+
+
 def scene_mikura_hachiman_honden_1552_nonpublic(d):
     """三倉の古社殿を、年代資料と公開境界を確認して訪ねる場面。"""
     sky(d)
@@ -5136,6 +5163,7 @@ def scene_chika_koji_2026_3points(d):
 
 
 SCENES = {
+    "20260909-bunkazai-toshin-toroku-chigai": scene_bunkazai_toshin_toroku_chigai,
     "20260909-mikura-hachiman-honden-1552-nonpublic": scene_mikura_hachiman_honden_1552_nonpublic,
     "20260909-morimachi-aki-higan-hakamairi-junbi": scene_aki_higan_hakamairi_junbi,
     "20260908-morimachi-chika-koji-2026-3points": scene_chika_koji_2026_3points,
