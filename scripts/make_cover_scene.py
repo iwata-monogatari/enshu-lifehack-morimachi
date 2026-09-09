@@ -4990,6 +4990,36 @@ def scene_shodo_festa_2026(d):
     band(d, ["展示と体験は同じ日ではない。", "9月19日の順番を決める"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_mikura_hachiman_honden_1552_nonpublic(d):
+    """三倉の古社殿を、年代資料と公開境界を確認して訪ねる場面。"""
+    sky(d)
+    mountains(d, 265)
+    cedars(d, [30, 74, 650, 704], 286)
+    d.rectangle([0, 292, 760, BAND_TOP], fill=(211, 218, 191))
+    # 本殿は特定の現況を再現せず、古社殿の象徴として描く。
+    d.polygon([(250, 330), (380, 236), (510, 330)], fill=(97, 71, 51), outline=(61, 49, 39))
+    d.polygon([(278, 326), (380, 258), (482, 326)], fill=(161, 92, 58))
+    d.rectangle([292, 326, 468, 526], fill=(173, 117, 74), outline=(72, 55, 42), width=5)
+    for x in (310, 358, 406, 450):
+        d.rectangle([x, 346, x + 14, 520], fill=(106, 72, 49))
+    d.rectangle([340, 382, 420, 526], fill=(78, 57, 43), outline=(47, 39, 33), width=4)
+    d.line([(212, 374), (548, 374)], fill=(215, 205, 169), width=9)
+    for x in (230, 530):
+        d.rectangle([x, 354, x + 12, 466], fill=(116, 93, 60))
+    # 離れた位置で資料を照合する訪問者。
+    d.ellipse([92, 390, 140, 438], fill=(225, 181, 132), outline=(83, 67, 54), width=2)
+    d.polygon([(68, 548), (116, 438), (168, 548)], fill=(66, 103, 112))
+    d.rectangle([152, 420, 270, 500], fill=(255, 251, 230), outline=(63, 83, 79), width=4)
+    d.text((164, 430), "1552", font=ImageFont.truetype(FONT_BOLD, 23), fill=(70, 77, 72))
+    d.text((164, 463), "1684", font=ImageFont.truetype(FONT_BOLD, 23), fill=(70, 77, 72))
+    d.line([(140, 458), (160, 454)], fill=(225, 181, 132), width=10)
+    # 公開範囲を示す控えめな境界札。
+    d.rounded_rectangle([532, 402, 714, 512], radius=10, fill=(248, 244, 221), outline=(87, 104, 91), width=4)
+    d.text((555, 422), "公開範囲", font=ImageFont.truetype(FONT_BOLD, 25), fill=(47, 78, 73))
+    d.text((555, 462), "要確認", font=ImageFont.truetype(FONT_BOLD, 25), fill=(153, 79, 57))
+    band(d, ["1552年は棟札。", "公開範囲は先に確認"], "森町ライフハック／寺社・歴史")
+
+
 def scene_aki_higan_hakamairi_junbi(d):
     """秋彼岸の墓参りを、清掃・供花・記録・次回担当まで描く。"""
     sky(d)
@@ -5106,6 +5136,7 @@ def scene_chika_koji_2026_3points(d):
 
 
 SCENES = {
+    "20260909-mikura-hachiman-honden-1552-nonpublic": scene_mikura_hachiman_honden_1552_nonpublic,
     "20260909-morimachi-aki-higan-hakamairi-junbi": scene_aki_higan_hakamairi_junbi,
     "20260908-morimachi-chika-koji-2026-3points": scene_chika_koji_2026_3points,
     "20260908-morimachi-block-wall-tekkyo-hojo-266k": scene_block_wall_tekkyo_hojo_266k,
