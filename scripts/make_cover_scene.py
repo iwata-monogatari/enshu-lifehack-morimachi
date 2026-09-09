@@ -4990,6 +4990,28 @@ def scene_shodo_festa_2026(d):
     band(d, ["展示と体験は同じ日ではない。", "9月19日の順番を決める"], "森町ライフハック／祭礼・イベント")
 
 
+def scene_bunkazai_bosai_5kanen_morimachi(d):
+    """木造社寺の防災5年計画を、点検日・担当・修理費へ落とす場面。"""
+    sky(d)
+    mountains(d, 270)
+    cedars(d, [24, 68, 672, 716], 290)
+    d.rectangle([0, 294, 760, BAND_TOP], fill=(218, 220, 191))
+    # 左に特定の実在社寺を再現しない木造社殿。
+    d.polygon([(44, 390), (168, 306), (292, 390)], fill=(86, 60, 43), outline=(55, 45, 36))
+    d.rectangle([72, 386, 264, 552], fill=(205, 185, 132), outline=(75, 60, 45), width=5)
+    d.rectangle([132, 432, 204, 552], fill=(105, 72, 48))
+    d.line([(102, 410), (234, 410)], fill=(122, 83, 51), width=6)
+    # 右に三欄の点検表。
+    d.rounded_rectangle([326, 330, 728, 570], radius=14, fill=(255, 253, 241), outline=(57, 91, 94), width=5)
+    d.text((350, 350), "5年計画を一枚に", font=ImageFont.truetype(FONT_BOLD, 27), fill=(39, 78, 86))
+    rows = [(404, "最終点検日", (151, 76, 54)), (456, "次の担当", (52, 104, 74)), (508, "修理・更新費", (126, 92, 35))]
+    for y, label, color in rows:
+        d.rounded_rectangle([348, y, 704, y + 42], radius=8, fill=(245, 247, 238), outline=color, width=3)
+        d.text((368, y + 7), label, font=ImageFont.truetype(FONT_BOLD, 22), fill=color)
+        d.line([(555, y + 21), (680, y + 21)], fill=(127, 137, 126), width=2)
+    band(d, ["防災は三欄から", "点検日・担当・修理費"], "森町ライフハック／寺社・歴史")
+
+
 def scene_bunkazai_toshin_toroku_chigai(d):
     """古民家所有者が答申と登録原簿、基準日付き件数を分ける場面。"""
     sky(d)
@@ -5163,6 +5185,7 @@ def scene_chika_koji_2026_3points(d):
 
 
 SCENES = {
+    "20260909-bunkazai-bosai-5kanen-morimachi": scene_bunkazai_bosai_5kanen_morimachi,
     "20260909-bunkazai-toshin-toroku-chigai": scene_bunkazai_toshin_toroku_chigai,
     "20260909-mikura-hachiman-honden-1552-nonpublic": scene_mikura_hachiman_honden_1552_nonpublic,
     "20260909-morimachi-aki-higan-hakamairi-junbi": scene_aki_higan_hakamairi_junbi,
