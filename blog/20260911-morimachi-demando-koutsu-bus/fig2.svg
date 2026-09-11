@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title_fig desc_fig" data-illustration="mori-editorial">
+<title id="title_fig">免許返納から移動手段を切り替える3ステップ</title>
+<desc id="desc_fig">親の運転卒業を見据えて家族が事前に確認・準備しておくべき実務フロー</desc>
+<rect width="1000" height="560" rx="20" fill="#f4f1df"/>
+<path d="M0 250 Q150 120 300 235 T600 210 T1000 185 V560 H0Z" fill="#b7cfb3"/>
+<path d="M0 330 Q190 240 360 330 T700 300 T1000 320 V560 H0Z" fill="#d9e8d0"/>
+<text x="50" y="52" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">免許返納から移動手段を切り替える3ステップ</text>
+<g>
+  <rect x="50" y="85" width="285" height="340" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <rect x="50" y="85" width="285" height="46" rx="10" fill="#1e40af"/>
+  <text x="192" y="115" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">ステップ1：事前登録と確認</text>
+  <text x="68" y="155" font-family="sans-serif" font-size="14" fill="#334155">・役場窓口で利用対象者登録を申請</text>
+<text x="68" y="183" font-family="sans-serif" font-size="14" fill="#334155">・最寄りの町民バス停と時刻表の確認</text>
+<text x="68" y="211" font-family="sans-serif" font-size="14" fill="#334155">・デマンドタクシーの登録証受取</text>
+<text x="68" y="239" font-family="sans-serif" font-size="14" fill="#334155">・利用可能エリアと運行曜日の把握</text>
+<text x="68" y="267" font-family="sans-serif" font-size="14" fill="#334155">・家族の緊急連絡先と連携</text>
+
+</g><g>
+  <rect x="355" y="85" width="285" height="340" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <rect x="355" y="85" width="285" height="46" rx="10" fill="#1e40af"/>
+  <text x="497" y="115" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">ステップ2：電話予約の練習</text>
+  <text x="373" y="155" font-family="sans-serif" font-size="14" fill="#334155">・利用前日までの予約受付締め切り確認</text>
+<text x="373" y="183" font-family="sans-serif" font-size="14" fill="#334155">・行きの乗車時刻と帰りの希望時刻指定</text>
+<text x="373" y="211" font-family="sans-serif" font-size="14" fill="#334155">・公立森町病院などの主要目的地指定</text>
+<text x="373" y="239" font-family="sans-serif" font-size="14" fill="#334155">・親と一緒に最初の予約を試走</text>
+<text x="373" y="267" font-family="sans-serif" font-size="14" fill="#334155">・オペレーターとのやり取りに慣れる</text>
+
+</g><g>
+  <rect x="660" y="85" width="285" height="340" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <rect x="660" y="85" width="285" height="46" rx="10" fill="#1e40af"/>
+  <text x="802" y="115" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">ステップ3：生活動線の固定化</text>
+  <text x="678" y="155" font-family="sans-serif" font-size="14" fill="#334155">・週1〜2回の通院・買物ルーチン確立</text>
+<text x="678" y="183" font-family="sans-serif" font-size="14" fill="#334155">・小銭や乗車券の準備とポーチ管理</text>
+<text x="678" y="211" font-family="sans-serif" font-size="14" fill="#334155">・運休時（土日祝・年末年始）の代替手配</text>
+<text x="678" y="239" font-family="sans-serif" font-size="14" fill="#334155">・近隣の利用仲間との情報交換</text>
+<text x="678" y="267" font-family="sans-serif" font-size="14" fill="#334155">・無理のない移動習慣の定着</text>
+
+</g>
+<rect x="50" y="465" width="900" height="60" rx="10" fill="#ffffff" opacity="0.95"/>
+<text x="500" y="502" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">親の運転卒業を見据えて家族が事前に確認・準備しておくべき実務フロー</text>
+</svg>
