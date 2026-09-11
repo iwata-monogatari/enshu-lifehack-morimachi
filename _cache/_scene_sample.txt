@@ -1,0 +1,151 @@
+def scene_yatai_storage(d):
+    sky(d)
+    mountains(d, 300)
+    cedars(d, [18, 62, 700, 742], 300)
+    # 段になった茶畑
+    d.polygon([(0, 292), (760, 284), (760, 336), (0, 346)], fill=(126, 168, 92))
+    for i in range(3):
+        d.line([(0, 300 + i * 14), (760, 292 + i * 14)], fill=(94, 132, 70), width=3)
+    d.polygon([(0, 340), (760, 330), (760, BAND_TOP), (0, BAND_TOP)], fill=(213, 227, 200))
+    # 右奥：神社の境内
+    d.polygon([(452, 340), (760, 330), (760, 380), (452, 390)], fill=(184, 200, 164))
+    for i in range(3):
+        d.rectangle([470 + i * 5, 356 - i * 12, 556 + i * 5, 366 - i * 12],
+                    fill=(203, 198, 182), outline=(169, 164, 147), width=2)
+    d.rectangle([566, 250, 578, 340], fill=(184, 80, 58))
+    d.rectangle([640, 248, 652, 338], fill=(184, 80, 58))
+    d.rectangle([552, 234, 666, 248], fill=(184, 80, 58))
+    d.rectangle([560, 266, 658, 276], fill=(184, 80, 58))
+    d.polygon([(660, 300), (704, 272), (748, 300)], fill=(125, 106, 83))
+    d.rectangle([668, 300, 742, 344], fill=(239, 231, 213), outline=(181, 164, 135), width=3)
+    d.rectangle([692, 314, 718, 344], fill=(194, 160, 116), outline=(157, 127, 87), width=2)
+    cedars(d, [452, 740], 344, h=44, color=(79, 122, 82))
+    # 中央奥：集会所と掲示板
+    d.polygon([(292, 302), (356, 270), (420, 302)], fill=(141, 148, 154))
+    d.rectangle([302, 302, 410, 352], fill=(239, 241, 236), outline=(174, 180, 174), width=3)
+    d.rectangle([316, 316, 344, 340], fill=(195, 217, 227), outline=(150, 177, 189), width=2)
+    d.rectangle([356, 316, 384, 340], fill=(195, 217, 227), outline=(150, 177, 189), width=2)
+    d.rectangle([392, 322, 406, 352], fill=(194, 160, 116), outline=(157, 127, 87), width=2)
+    d.rectangle([236, 308, 288, 314], fill=(140, 133, 120))
+    d.rectangle([240, 314, 248, 358], fill=(140, 133, 120))
+    d.rectangle([276, 314, 284, 358], fill=(140, 133, 120))
+    d.rectangle([236, 316, 288, 350], fill=(246, 244, 234), outline=(179, 172, 154), width=3)
+    for i in range(3):
+        d.line([(244, 326 + i * 8), (280 - i * 8, 326 + i * 8)], fill=(168, 85, 26), width=3)
+    # 左：屋台蔵（主役）
+    d.polygon([(10, 356), (146, 288), (282, 356)], fill=(111, 91, 69))
+    d.rectangle([10, 352, 282, 364], fill=(84, 69, 47))
+    d.rectangle([28, 362, 266, 506], fill=(239, 233, 218), outline=(176, 166, 142), width=4)
+    d.rectangle([58, 386, 238, 506], fill=(201, 171, 119), outline=(150, 117, 75), width=4)
+    d.line([(148, 386), (148, 506)], fill=(150, 117, 75), width=5)
+    # 開いたすきまから見える屋台
+    d.rectangle([130, 394, 174, 506], fill=(61, 52, 40))
+    d.ellipse([122, 428, 182, 488], outline=(211, 180, 111), width=7)
+    d.ellipse([148, 454, 156, 462], fill=(211, 180, 111))
+    d.line([(152, 430), (152, 486)], fill=(211, 180, 111), width=3)
+    d.line([(124, 458), (180, 458)], fill=(211, 180, 111), width=3)
+    d.line([(132, 438), (172, 478)], fill=(211, 180, 111), width=3)
+    d.line([(172, 438), (132, 478)], fill=(211, 180, 111), width=3)
+    d.rounded_rectangle([138, 400, 166, 424], radius=11, fill=(240, 214, 142),
+                        outline=(195, 154, 60), width=3)
+    d.line([(140, 412), (164, 412)], fill=(184, 80, 58), width=3)
+    # 蔵の札
+    d.rectangle([190, 398, 246, 432], fill=(255, 255, 255), outline=(141, 154, 160), width=3)
+    d.line([(198, 410), (238, 410)], fill=(141, 154, 160), width=3)
+    d.line([(198, 420), (228, 420)], fill=(141, 154, 160), width=3)
+    # 太鼓蔵
+    d.polygon([(288, 408), (340, 378), (392, 408)], fill=(125, 106, 83))
+    d.rectangle([298, 408, 382, 492], fill=(239, 233, 218), outline=(176, 166, 142), width=4)
+    d.rectangle([316, 428, 364, 492], fill=(201, 171, 119), outline=(150, 117, 75), width=3)
+    d.line([(400, 470), (386, 500)], fill=(140, 116, 84), width=8)
+    d.line([(444, 470), (458, 500)], fill=(140, 116, 84), width=8)
+    d.ellipse([392, 424, 452, 476], fill=(184, 80, 58), outline=(140, 58, 41), width=3)
+    d.ellipse([404, 434, 440, 466], fill=(240, 224, 194), outline=(201, 181, 142), width=3)
+    d.line([(398, 418), (450, 438)], fill=(214, 186, 140), width=7)
+    d.line([(450, 418), (398, 438)], fill=(214, 186, 140), width=7)
+    # 境界杭と敷地の線
+    for x, y in ((478, 486), (700, 462)):
+        d.rectangle([x, y, x + 16, y + 38], fill=(244, 242, 234), outline=(154, 148, 132), width=3)
+        d.line([(x + 2, y + 14), (x + 14, y + 14)], fill=(192, 68, 44), width=4)
+    for i in range(9):
+        x0 = 494 + i * 24
+        d.line([(x0, 486 - i * 3), (x0 + 14, 484 - i * 3)], fill=(168, 85, 26), width=5)
+    # 手前の道
+    d.polygon([(0, 520), (760, 502), (760, BAND_TOP), (0, BAND_TOP)], fill=(205, 197, 176))
+    for i in range(2):
+        d.line([(0, 548 + i * 26), (760, 530 + i * 26)], fill=(255, 255, 255), width=4)
+    # 図面を広げて確かめる二人
+    d.rectangle([516, 522, 664, 566], fill=(253, 251, 243), outline=(124, 138, 144), width=3)
+    for i in range(1, 4):
+        d.line([(516 + i * 37, 522), (516 + i * 37, 566)], fill=(199, 192, 172), width=2)
+    d.line([(516, 544), (664, 544)], fill=(199, 192, 172), width=2)
+    d.polygon([(552, 530), (620, 528), (624, 558), (556, 560)], fill=(226, 236, 214),
+              outline=(143, 174, 125), width=3)
+    for cx, body in ((492, (92, 127, 87)), (688, (63, 111, 134))):
+        d.ellipse([cx - 17, 496, cx + 17, 530], fill=(227, 195, 157), outline=(185, 146, 107), width=3)
+        d.rounded_rectangle([cx - 15, 530, cx + 15, 572], radius=13, fill=body)
+        d.line([(cx - 7, 572), (cx - 12, BAND_TOP)], fill=(67, 80, 90), width=10)
+        d.line([(cx + 7, 572), (cx + 12, BAND_TOP)], fill=(67, 80, 90), width=10)
+    band(d, ["屋台をしまう建物は、", "誰の名義で建っているか"], "森町ライフハック／祭礼・イベント")
+
+
+=====
+def scene_festival_stall_permit(d):
+    """祭りの広場に焼きそばのテントとわた菓子のテントが並ぶ場面。"""
+    sky(d)
+    mountains(d)
+    cedars(d, [16, 60, 104, 668, 716], 300)
+    d.polygon([(0, 292), (760, 284), (760, 326), (0, 336)], fill=(123, 169, 84))
+    for i in range(2):
+        d.line([(0, 300 + i * 14), (760, 292 + i * 14)], fill=(95, 138, 66), width=3)
+    d.polygon([(0, 330), (760, 320), (760, BAND_TOP), (0, BAND_TOP)], fill=(222, 233, 210))
+    # 奥：引き回される屋台と提灯（左右の立て札の間に置く）
+    d.line([(272, 338), (496, 334)], fill=(138, 127, 108), width=3)
+    for x in (294, 340, 386, 432, 478):
+        d.ellipse([x - 11, 336, x + 11, 366], fill=(232, 88, 63), outline=(176, 64, 45), width=2)
+    d.polygon([(288, 376), (382, 376), (392, 392), (278, 392)], fill=(138, 106, 68))
+    d.rectangle([292, 392, 378, 428], fill=(200, 168, 119), outline=(138, 106, 68), width=3)
+    d.rectangle([304, 402, 324, 426], fill=(232, 215, 174))
+    d.rectangle([346, 402, 366, 426], fill=(232, 215, 174))
+    d.ellipse([300, 422, 318, 440], fill=(92, 80, 69))
+    d.ellipse([352, 422, 370, 440], fill=(92, 80, 69))
+    # 左：焼きそばのテント（許可）
+    d.polygon([(24, 396), (228, 396), (256, 440), (-4, 440)], fill=(248, 250, 246),
+              outline=(154, 168, 160), width=4)
+    d.rectangle([-4, 440, 256, 452], fill=(75, 122, 99))
+    d.rectangle([10, 452, 20, 556], fill=(154, 168, 160))
+    d.rectangle([232, 452, 242, 556], fill=(154, 168, 160))
+    d.rectangle([44, 500, 216, 516], fill=(77, 83, 88))
+    d.rectangle([52, 516, 208, 552], fill=(231, 226, 214), outline=(183, 176, 161), width=3)
+    d.rounded_rectangle([62, 486, 116, 500], radius=6, fill=(200, 138, 74))
+    d.rounded_rectangle([128, 488, 186, 500], radius=6, fill=(200, 138, 74))
+    d.ellipse([258, 502, 294, 554], fill=(188, 214, 226), outline=(125, 154, 168), width=4)
+    d.rounded_rectangle([300, 508, 326, 556], radius=8, fill=(200, 72, 60), outline=(143, 49, 40), width=4)
+    # 右：わた菓子のテント（届出）
+    d.polygon([(520, 396), (724, 396), (752, 440), (492, 440)], fill=(248, 250, 246),
+              outline=(154, 168, 160), width=4)
+    d.rectangle([492, 440, 752, 452], fill=(63, 127, 160))
+    d.rectangle([506, 452, 516, 556], fill=(154, 168, 160))
+    d.rectangle([728, 452, 738, 556], fill=(154, 168, 160))
+    d.rectangle([540, 508, 646, 556], fill=(231, 226, 214), outline=(183, 176, 161), width=3)
+    d.ellipse([534, 490, 652, 526], fill=(207, 216, 214), outline=(147, 160, 157), width=4)
+    d.ellipse([562, 452, 624, 508], fill=(246, 219, 230), outline=(217, 169, 192), width=4)
+    d.polygon([(664, 512), (720, 512), (712, 556), (674, 556)], fill=(242, 231, 201),
+              outline=(201, 181, 138), width=4)
+    # 立て札
+    d.rounded_rectangle([24, 314, 268, 392], radius=8, fill=(255, 255, 255),
+                        outline=(184, 68, 58), width=5)
+    d.text((42, 320), "焼きそば＝許可", font=ImageFont.truetype(FONT_BOLD, 28), fill=(166, 59, 49))
+    d.text((42, 354), "16,100円", font=ImageFont.truetype(FONT_REGULAR, 22), fill=(125, 75, 68))
+    d.rounded_rectangle([500, 314, 748, 392], radius=8, fill=(255, 255, 255),
+                        outline=(47, 127, 95), width=5)
+    d.text((516, 320), "わた菓子＝届出", font=ImageFont.truetype(FONT_BOLD, 28), fill=(43, 111, 84))
+    d.text((516, 354), "手数料なし", font=ImageFont.truetype(FONT_REGULAR, 22), fill=(65, 112, 93))
+    # 中央：品書きの紙
+    d.rounded_rectangle([334, 474, 480, 558], radius=6, fill=(255, 255, 255),
+                        outline=(125, 138, 128), width=5)
+    for y0 in (502, 522, 542):
+        d.line([(352, y0), (462, y0)], fill=(154, 168, 160), width=4)
+    d.text((326, 444), "品名から決まる", font=ImageFont.truetype(FONT_BOLD, 26), fill=(59, 74, 66))
+    band(d, ["模擬店の線は、", "品名の側にある"], "森町ライフハック／祭礼・イベント")
+
