@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title2 desc2" data-illustration="mori-editorial">
+<title id="title2">地区交流センターの利用予約・地域相談の手順フロー</title>
+<desc id="desc2">利用目的の確認から予約、地域相談へのつなげ方を3つの段階で示した手順フロー図。</desc>
+<rect width="1000" height="560" rx="24" fill="#f8fafc"/>
+<rect x="40" y="30" width="920" height="500" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+
+<text x="70" y="80" font-family="sans-serif" font-size="24" font-weight="700" fill="#0f172a">地区交流センターの活用と相談の進め方</text>
+<text x="70" y="110" font-family="sans-serif" font-size="16" fill="#64748b">施設の利用予約だけでなく、実家管理や地域連携の足がかりとして活用する</text>
+
+<!-- 3ステップのカード -->
+<g font-family="sans-serif">
+  <!-- ステップ1 -->
+  <rect x="70" y="140" width="260" height="280" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="85" y="155" width="230" height="36" rx="6" fill="#3b82f6"/>
+  <text x="200" y="180" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">ステップ1：目的の確認</text>
+  <text x="85" y="225" font-size="14" font-weight="700" fill="#1e40af">■ 利用種別の判定</text>
+  <text x="95" y="255" font-size="13" fill="#334155">• 非営利の学習・文化会合</text>
+  <text x="95" y="280" font-size="13" fill="#334155">• 自治会・親族の集まり</text>
+  <text x="95" y="305" font-size="13" fill="#334155">• 営利・販売目的は制限あり</text>
+  <rect x="85" y="340" width="230" height="60" rx="6" fill="#dbeafe"/>
+  <text x="200" y="375" text-anchor="middle" font-size="13" fill="#1e3a8a">森町文化会館または</text>
+  <text x="200" y="392" text-anchor="middle" font-size="13" fill="#1e3a8a">社会教育課へ事前確認</text>
+
+  <!-- ステップ2 -->
+  <rect x="370" y="140" width="260" height="280" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <rect x="385" y="155" width="230" height="36" rx="6" fill="#22c55e"/>
+  <text x="500" y="180" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">ステップ2：空き確認・予約</text>
+  <text x="385" y="225" font-size="14" font-weight="700" fill="#166534">■ 電話または窓口申請</text>
+  <text x="395" y="255" font-size="13" fill="#334155">• 利用希望日の空きを押さえる</text>
+  <text x="395" y="280" font-size="13" fill="#334155">• 減免対象団体か確認</text>
+  <text x="395" y="305" font-size="13" fill="#334155">• 使用料納付と鍵の受渡確認</text>
+  <rect x="385" y="340" width="230" height="60" rx="6" fill="#dcfce7"/>
+  <text x="500" y="375" text-anchor="middle" font-size="13" fill="#14532d">地区行事と重ならないよう</text>
+  <text x="500" y="392" text-anchor="middle" font-size="13" fill="#14532d">余裕を持って日程調整</text>
+
+  <!-- ステップ3 -->
+  <rect x="670" y="140" width="260" height="280" rx="12" fill="#fefce8" stroke="#eab308" stroke-width="2"/>
+  <rect x="685" y="155" width="230" height="36" rx="6" fill="#eab308"/>
+  <text x="800" y="180" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">ステップ3：地域との連携</text>
+  <text x="685" y="225" font-size="14" font-weight="700" fill="#854d0e">■ 実家管理・自治会相談</text>
+  <text x="695" y="255" font-size="13" fill="#334155">• 地区役員・組長への連絡</text>
+  <text x="695" y="280" font-size="13" fill="#334155">• 草刈り・ゴミ出しルールの把握</text>
+  <text x="695" y="305" font-size="13" fill="#334155">• 空き家見守りの協力依頼</text>
+  <rect x="685" y="340" width="230" height="60" rx="6" fill="#fef9c3"/>
+  <text x="800" y="375" text-anchor="middle" font-size="13" fill="#713f12">「地元の顔」を知ることが</text>
+  <text x="800" y="392" text-anchor="middle" font-size="13" fill="#713f12">実家管理の最大の安心策</text>
+</g>
+
+<text x="500" y="475" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#475569">公共のルールを守り、地域社会に敬意を払って施設と付き合うことが大切</text>
+</svg>

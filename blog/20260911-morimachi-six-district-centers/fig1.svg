@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title1 desc1" data-illustration="mori-editorial">
+<title id="title1">森町6地区の交流センター配置と主な役割</title>
+<desc id="desc1">森・飯田・園田・一宮・天方・三倉の6地区における交流センターの位置づけと機能を整理した模式図。</desc>
+<rect width="1000" height="560" rx="24" fill="#f4f1df"/>
+<path d="M0 250 Q150 120 300 235 T600 210 T1000 185 V560 H0Z" fill="#b7cfb3"/>
+<path d="M0 330 Q190 240 360 330 T700 300 T1000 320 V560 H0Z" fill="#d9e8d0"/>
+<path d="M0 430 C230 350 390 455 560 390 S820 350 1000 410" fill="none" stroke="#d19a56" stroke-width="18"/>
+
+<!-- 6地区のカード -->
+<g font-family="sans-serif">
+  <!-- 北部山間：三倉・天方 -->
+  <rect x="70" y="60" width="410" height="130" rx="12" fill="#ffffff" stroke="#3b7a57" stroke-width="3"/>
+  <text x="90" y="95" font-size="20" font-weight="700" fill="#1b4d3e">北部山間：三倉・天方地区</text>
+  <text x="90" y="125" font-size="15" fill="#334155">• 集落が点在する中山間地域の交流・健康拠点</text>
+  <text x="90" y="150" font-size="15" fill="#334155">• 移動手段（町営バス・自家用車）の確認が必須</text>
+  <text x="90" y="175" font-size="14" fill="#64748b">三倉地区交流センター ／ 天方地区交流センター</text>
+
+  <!-- 西部歴史：一宮 -->
+  <rect x="520" y="60" width="410" height="130" rx="12" fill="#ffffff" stroke="#c27ba0" stroke-width="3"/>
+  <text x="540" y="95" font-size="20" font-weight="700" fill="#7a2e5c">門前町・歴史：一宮地区</text>
+  <text x="540" y="125" font-size="15" fill="#334155">• 小國神社の門前町・伝統文化と舞楽の伝承</text>
+  <text x="540" y="150" font-size="15" fill="#334155">• 地域タクシーの運行エリア・観光と生活の共存</text>
+  <text x="540" y="175" font-size="14" fill="#64748b">一宮地区交流センター（遠江一宮駅周辺）</text>
+
+  <!-- 中核中心：森地区 -->
+  <rect x="70" y="215" width="410" height="130" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+  <text x="90" y="250" font-size="20" font-weight="700" fill="#1e40af">中心市街地：森地区</text>
+  <text x="90" y="280" font-size="15" fill="#334155">• 役場・文化会館・図書館に近接する全町の中枢</text>
+  <text x="90" y="305" font-size="15" fill="#334155">• 商店街や自治会連合・文化団体の集会利用</text>
+  <text x="90" y="330" font-size="14" fill="#64748b">森地区交流センター（ミキホール周辺）</text>
+
+  <!-- 南部平野：飯田・園田 -->
+  <rect x="520" y="215" width="410" height="130" rx="12" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
+  <text x="540" y="250" font-size="20" font-weight="700" fill="#92400e">平野部・住宅地：飯田・園田地区</text>
+  <text x="540" y="280" font-size="15" fill="#334155">• 袋井・磐田への通勤圏・農業と新興住宅の混在</text>
+  <text x="540" y="305" font-size="15" fill="#334155">• 子育て世代のサークルやシニア健康サロン</text>
+  <text x="540" y="330" font-size="14" fill="#64748b">飯田地区交流センター ／ 園田地区交流センター</text>
+</g>
+
+<!-- 下部キャプション -->
+<rect x="70" y="470" width="860" height="60" rx="10" fill="#ffffff" opacity="0.92"/>
+<text x="500" y="508" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#304c50">各地区の交流センターは、単なる貸し部屋ではなく「地域の生活と自治の重心」</text>
+</svg>
