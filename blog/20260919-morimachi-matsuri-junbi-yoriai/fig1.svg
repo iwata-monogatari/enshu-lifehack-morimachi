@@ -1,0 +1,50 @@
+<svg data-illustration="mori-editorial" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="1000" height="450">
+  <rect width="1000" height="450" fill="#fcfaf7" rx="12"/>
+  <text x="50" y="45" font-family="'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#8c2d19">遠州森のまつり 9月〜11月の準備ロードマップ</text>
+  
+  <g transform="translate(60, 80)">
+    <rect width="260" height="300" rx="12" fill="#ffffff" stroke="#8c2d19" stroke-width="2"/>
+    <rect x="15" y="15" width="80" height="30" rx="6" fill="#8c2d19"/>
+    <text x="55" y="36" font-family="'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">9月中旬〜</text>
+    <text x="15" y="80" font-family="'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#3a1c14">寄り合いと役割分担</text>
+    <text x="15" y="120" font-family="'Noto Sans JP', sans-serif" font-size="13.5" fill="#4a2e22">
+      <tspan x="15" dy="0">• 町内会・若衆の初寄り合い</tspan>
+      <tspan x="15" dy="26">• 役員（頭取・係長等）の決定</tspan>
+      <tspan x="15" dy="26">• 屋台小屋の開放と基本点検</tspan>
+      <tspan x="15" dy="26">• 囃子練習日程の決定</tspan>
+      <tspan x="15" dy="26">• 町外出身者への連絡</tspan>
+    </text>
+  </g>
+
+  <path d="M 335 230 L 365 230" stroke="#8c2d19" stroke-width="4" fill="none"/>
+
+  <g transform="translate(370, 80)">
+    <rect width="260" height="300" rx="12" fill="#ffffff" stroke="#8c2d19" stroke-width="2"/>
+    <rect x="15" y="15" width="80" height="30" rx="6" fill="#8c2d19"/>
+    <text x="55" y="36" font-family="'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">10月中〜</text>
+    <text x="15" y="80" font-family="'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#3a1c14">屋台整備・囃子仕上げ</text>
+    <text x="15" y="120" font-family="'Noto Sans JP', sans-serif" font-size="13.5" fill="#4a2e22">
+      <tspan x="15" dy="0">• 車軸・車輪（木製）の油差し</tspan>
+      <tspan x="15" dy="26">• 漆・彫刻金具の磨き上げ</tspan>
+      <tspan x="15" dy="26">• 提灯・電装配線の通電試験</tspan>
+      <tspan x="15" dy="26">• 連日夜間の太鼓・笛の猛稽古</tspan>
+      <tspan x="15" dy="26">• 運行路の電線・街路樹点検</tspan>
+    </text>
+  </g>
+
+  <path d="M 645 230 L 675 230" stroke="#8c2d19" stroke-width="4" fill="none"/>
+
+  <g transform="translate(680, 80)">
+    <rect width="260" height="300" rx="12" fill="#ffffff" stroke="#8c2d19" stroke-width="2"/>
+    <rect x="15" y="15" width="80" height="30" rx="6" fill="#8c2d19"/>
+    <text x="55" y="36" font-family="'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">11月本番</text>
+    <text x="15" y="80" font-family="'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#3a1c14">14町屋台運行・宮入り</text>
+    <text x="15" y="120" font-family="'Noto Sans JP', sans-serif" font-size="13.5" fill="#4a2e22">
+      <tspan x="15" dy="0">• 第1金・土・日の3日間運行</tspan>
+      <tspan x="15" dy="26">• 三嶋神社への屋台集結</tspan>
+      <tspan x="15" dy="26">• 伝統の手木合わせと練り</tspan>
+      <tspan x="15" dy="26">• 家族・親族の帰省ともてなし</tspan>
+      <tspan x="15" dy="26">• 事故なき安全運行の達成</tspan>
+    </text>
+  </g>
+</svg>

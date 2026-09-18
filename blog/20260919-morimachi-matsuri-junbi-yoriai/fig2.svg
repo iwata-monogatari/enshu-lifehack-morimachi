@@ -1,0 +1,40 @@
+<svg data-illustration="mori-editorial" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="1000" height="450">
+  <rect width="1000" height="450" fill="#fcfaf7" rx="12"/>
+  <text x="50" y="45" font-family="'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#8c2d19">実家・家族で確認する祭りの準備4項目</text>
+  
+  <g transform="translate(80, 80)">
+    <rect width="400" height="130" rx="10" fill="#ffffff" stroke="#d4b59f" stroke-width="2"/>
+    <text x="25" y="35" font-family="'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#8c2d19">1. 半纏・帯・提灯の点検</text>
+    <text x="25" y="68" font-family="'Noto Sans JP', sans-serif" font-size="13.5" fill="#553322">
+      <tspan x="25" dy="0">・町内の紋入り半纏の虫干しとサイズ確認</tspan>
+      <tspan x="25" dy="24">・足袋・股引・雪駄の補充、提灯の電池点検</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(520, 80)">
+    <rect width="400" height="130" rx="10" fill="#ffffff" stroke="#d4b59f" stroke-width="2"/>
+    <text x="25" y="35" font-family="'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#8c2d19">2. 敷地と生活道路の安全確保</text>
+    <text x="25" y="68" font-family="'Noto Sans JP', sans-serif" font-size="13.5" fill="#553322">
+      <tspan x="25" dy="0">・庭木や生垣が屋台運行の邪魔にならないか枝打ち</tspan>
+      <tspan x="25" dy="24">・道路沿いの置き看板や自転車の移動</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(80, 240)">
+    <rect width="400" height="130" rx="10" fill="#ffffff" stroke="#d4b59f" stroke-width="2"/>
+    <text x="25" y="35" font-family="'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#8c2d19">3. 空き家・実家の宿泊準備</text>
+    <text x="25" y="68" font-family="'Noto Sans JP', sans-serif" font-size="13.5" fill="#553322">
+      <tspan x="25" dy="0">・水道の通水（封水切れ防止）と給湯器動作確認</tspan>
+      <tspan x="25" dy="24">・寝具の天日干し、換気、ブレーカー容量確認</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(520, 240)">
+    <rect width="400" height="130" rx="10" fill="#ffffff" stroke="#d4b59f" stroke-width="2"/>
+    <text x="25" y="35" font-family="'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#8c2d19">4. 寄付（花代）・不在時防犯</text>
+    <text x="25" y="68" font-family="'Noto Sans JP', sans-serif" font-size="13.5" fill="#553322">
+      <tspan x="25" dy="0">・町内会への花代の相談と納付段取り</tspan>
+      <tspan x="25" dy="24">・祭り期間中の施錠管理と空き巣防止対策</tspan>
+    </text>
+  </g>
+</svg>
