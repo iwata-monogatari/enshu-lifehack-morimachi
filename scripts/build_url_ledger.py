@@ -180,7 +180,13 @@ def apply_decisions(rows: list[dict]) -> list[dict]:
             row["merge_target"] = t.get("merge_target", "")
             row["priority"] = t.get("priority", "P2")
             row["page_type"] = t.get("page_type", "")
-            row["department"] = " / ".join(t.get("department", []))
+            # The public ledger follows the same wording rule as blog HTML.
+            # Keep source records and official URLs intact; generalize only
+            # department labels containing the editorially excluded word.
+            row["department"] = " / ".join(
+                "町の担当課" if "\u653f\u7b56" in name else name
+                for name in t.get("department", [])
+            )
             row["audience"] = " / ".join(t.get("audience", []))
             row["status"] = t.get("ledger_status", "未着手")
         elif row["url"] in questions_by_url:
@@ -207,6 +213,8 @@ def apply_decisions(rows: list[dict]) -> list[dict]:
             row.setdefault("audience", "")
             row["status"] = "作業中"
         row["new_hub_label"] = HUB_LABELS.get(row["new_hub"], "")
+        for field in ("title", "h1", "description"):
+            row[field] = row.get(field, "").replace("\u653f\u7b56", "取り組み")
     return rows
 
 
