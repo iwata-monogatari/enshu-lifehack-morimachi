@@ -1,0 +1,50 @@
+<svg data-illustration="mori-editorial" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="1000" height="450">
+  <rect width="1000" height="450" fill="#fcfaf7" rx="12"/>
+  <text x="50" y="45" font-family="'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#8c2d19">森町の秋雨期・土砂警戒レベルと避難行動フロー</text>
+  
+  <g transform="translate(60, 80)">
+    <rect width="260" height="300" rx="12" fill="#ffffff" stroke="#8c2d19" stroke-width="2"/>
+    <rect x="15" y="15" width="80" height="30" rx="6" fill="#8c2d19"/>
+    <text x="55" y="36" font-family="'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">レベル2</text>
+    <text x="15" y="80" font-family="'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#3a1c14">大雨注意報・情報収集</text>
+    <text x="15" y="120" font-family="'Noto Sans JP', sans-serif" font-size="13.5" fill="#4a2e22">
+      <tspan x="15" dy="0">• 太田川・吉川の水位確認</tspan>
+      <tspan x="15" dy="26">• ハザードマップ警戒区域確認</tspan>
+      <tspan x="15" dy="26">• 非常持ち出し袋の点検</tspan>
+      <tspan x="15" dy="26">• 家族での安否連絡網の再確認</tspan>
+      <tspan x="15" dy="26">• 雨樋や排水溝の清掃</tspan>
+    </text>
+  </g>
+
+  <path d="M 335 230 L 365 230" stroke="#8c2d19" stroke-width="4" fill="none"/>
+
+  <g transform="translate(370, 80)">
+    <rect width="260" height="300" rx="12" fill="#ffffff" stroke="#8c2d19" stroke-width="2"/>
+    <rect x="15" y="15" width="80" height="30" rx="6" fill="#8c2d19"/>
+    <text x="55" y="36" font-family="'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">レベル3</text>
+    <text x="15" y="80" font-family="'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#3a1c14">高齢者等避難・予防移動</text>
+    <text x="15" y="120" font-family="'Noto Sans JP', sans-serif" font-size="13.5" fill="#4a2e22">
+      <tspan x="15" dy="0">• 高齢者・要介護者は避難開始</tspan>
+      <tspan x="15" dy="26">• 森町文化会館等の避難所開設</tspan>
+      <tspan x="15" dy="26">• 暗くなる前の日中に移動完了</tspan>
+      <tspan x="15" dy="26">• 親戚宅や地区集会所への分散</tspan>
+      <tspan x="15" dy="26">• 車両を高台へ退避</tspan>
+    </text>
+  </g>
+
+  <path d="M 645 230 L 675 230" stroke="#8c2d19" stroke-width="4" fill="none"/>
+
+  <g transform="translate(680, 80)">
+    <rect width="260" height="300" rx="12" fill="#ffffff" stroke="#8c2d19" stroke-width="2"/>
+    <rect x="15" y="15" width="80" height="30" rx="6" fill="#8c2d19"/>
+    <text x="55" y="36" font-family="'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">レベル4</text>
+    <text x="15" y="80" font-family="'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#3a1c14">避難指示・命を守る行動</text>
+    <text x="15" y="120" font-family="'Noto Sans JP', sans-serif" font-size="13.5" fill="#4a2e22">
+      <tspan x="15" dy="0">• 危険地域の全員が避難完了</tspan>
+      <tspan x="15" dy="26">• 道路冠水時は無理な外出禁止</tspan>
+      <tspan x="15" dy="26">• 崖から離れた2階へ垂直避難</tspan>
+      <tspan x="15" dy="26">• 同報無線・町の広報を注視</tspan>
+      <tspan x="15" dy="26">• 近隣住民同士で声かけ</tspan>
+    </text>
+  </g>
+</svg>

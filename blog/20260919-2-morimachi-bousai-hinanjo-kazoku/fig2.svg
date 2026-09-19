@@ -1,0 +1,28 @@
+<svg data-illustration="mori-editorial" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="1000" height="450">
+  <rect width="1000" height="450" fill="#fcfaf7" rx="12"/>
+  <text x="50" y="45" font-family="'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#8c2d19">森町の山間部・集落で家族が共有する避難合流ポイント</text>
+
+  <g transform="translate(60, 80)">
+    <rect width="420" height="300" rx="12" fill="#ffffff" stroke="#8c2d19" stroke-width="2"/>
+    <text x="25" y="40" font-family="'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#8c2d19">第1合流点：指定一般避難所</text>
+    <text x="25" y="80" font-family="'Noto Sans JP', sans-serif" font-size="14" fill="#3a1c14">
+      <tspan x="25" dy="0">• 森町文化会館（ミキホール）</tspan>
+      <tspan x="25" dy="28">• 森町町民体育館・森中学校体育館</tspan>
+      <tspan x="25" dy="28">• 宮園小学校・泉陽中学校体育館</tspan>
+      <tspan x="25" dy="28">• 特徴：頑丈な鉄筋構造、食料備蓄あり</tspan>
+      <tspan x="25" dy="28">• 留意点：開設発表を同報無線で確認後に出発</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(520, 80)">
+    <rect width="420" height="300" rx="12" fill="#ffffff" stroke="#8c2d19" stroke-width="2"/>
+    <text x="25" y="40" font-family="'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#8c2d19">第2合流点：地区拠点・親戚宅</text>
+    <text x="25" y="80" font-family="'Noto Sans JP', sans-serif" font-size="14" fill="#3a1c14">
+      <tspan x="25" dy="0">• 各地区の自治会館・コミュニティセンター</tspan>
+      <tspan x="25" dy="28">• 浸水や土砂崩れリスクのない平野部の親戚宅</tspan>
+      <tspan x="25" dy="28">• 特徴：移動距離が短く、孤立道路を避けられる</tspan>
+      <tspan x="25" dy="28">• 留意点：三倉・アクティ森方面は道路寸断に警戒</tspan>
+      <tspan x="25" dy="28">• 事前に「誰が誰と車に乗るか」を決めておく</tspan>
+    </text>
+  </g>
+</svg>
