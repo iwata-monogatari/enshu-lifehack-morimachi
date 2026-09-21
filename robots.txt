@@ -1,9 +1,8 @@
 # 森町ライフハック robots.txt
 #
-# 方針: 「検索と引用には出したい。モデルの学習には使わせない。」
-#   02戦略編のKPI「主要AIに質問した際に自社が言及される状態」を満たすため、
-#   AI検索・ユーザー起点のクローラーは明示的に許可する。
-#   一方、モデル学習用のクローラーは拒否する。
+# 方針: 編集憲章 §6.4 に従い、指定のAIクローラーを明示的に許可する。
+#   GPTBot / ClaudeBot / PerplexityBot / Google-Extended は許可する。
+#   その他の個別拒否設定と /admin/ の制限は維持する。
 #
 # 注意: robots.txt は user-agent ごとに「最も限定的な1グループだけ」が適用され、
 #   自分専用のグループがあると User-agent: * のルールは無視される。
@@ -54,12 +53,14 @@ User-agent: PerplexityBot
 Allow: /
 Disallow: /admin/
 
-# --- モデル学習用クローラーは拒否 -----------------------------------------
+# --- 編集憲章で指定されたクローラー ---------------------------------------
 User-agent: GPTBot
-Disallow: /
+Allow: /
+Disallow: /admin/
 
 User-agent: ClaudeBot
-Disallow: /
+Allow: /
+Disallow: /admin/
 
 # 現在Anthropicの公式ドキュメントには記載が無い旧トークン。念のため残す。
 User-agent: anthropic-ai
@@ -89,16 +90,17 @@ Disallow: /
 User-agent: Timpibot
 Disallow: /
 
-# --- 要判断: Google-Extended ----------------------------------------------
+# --- 編集憲章に基づく Google-Extended の許可 ------------------------------
 # Google-Extended は「Geminiの学習」と「Geminiのグラウンディング(回答時の参照)」を
 # まとめて制御するトークンで、両者を分けられない。
 #   拒否したまま  -> 学習に使われない代わりに、Geminiの回答で引用されない
 #   許可に変える  -> Geminiに引用され得るが、学習にも使われる
 # Google検索の順位・インデックスには**どちらでも影響しない**
 # (出典: developers.google.com/search/docs/crawling-indexing/google-common-crawlers)
-# 現状は「学習に使わせない」を優先して拒否のまま。方針変更時はここを消すこと。
+# 2026-09-21: 編集憲章 §6.4 の指定に合わせて許可。
 User-agent: Google-Extended
-Disallow: /
+Allow: /
+Disallow: /admin/
 
 # --- SNSのリンクプレビュー用は上の * で許可済み ---------------------------
 # facebookexternalhit / Twitterbot / LinkedInBot / Slackbot は
