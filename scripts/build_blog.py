@@ -28,6 +28,9 @@ import sys
 from datetime import datetime, timezone
 from email.utils import format_datetime
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import author_profile  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "data", "blog-posts.json")
 PARTS_DIR = os.path.join(ROOT, "parts")
@@ -226,6 +229,12 @@ def main():
             f.write(html_out)
         with open(os.path.join(ROOT, "feed.xml"), "w", encoding="utf-8", newline="") as f:
             f.write(build_feed(posts))
+        # 著者欄・JSON-LD author を人物情報の正本（oishi-hiroyuki.org）へそろえる（冪等）
+        n_author, author_errors = author_profile.apply_all(
+            ROOT, extra_paths=[os.path.join(ROOT, "about", "author", "index.html")])
+        for e in author_errors:
+            print("  [著者欄] " + e)
+        print("著者欄・JSON-LD 更新: %d ファイル" % n_author)
     print("記事 %d 件 / 品質ゲート未達 0 / 一覧: blog/index.html%s" % (len(posts), "（未書き込み:--check）" if args.check else ""))
     return 0
 
