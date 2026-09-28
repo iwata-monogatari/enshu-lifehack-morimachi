@@ -56,6 +56,7 @@ def _element_end(src, tag, start):
 
 
 def _fix_html(src):
+    photo_profile = 'data-author-photo="true"' in src
     out, pos = [], 0
     while True:
         m = _OPEN.search(src, pos)
@@ -84,7 +85,12 @@ def _fix_html(src):
         i = new.rfind("</main>")
     if i < 0:
         return src
-    return new[:i] + AUTHOR_BOX + new[i:]
+    box = AUTHOR_BOX
+    if photo_profile:
+        box = box.replace(MARK, MARK + ' data-author-photo="true"')
+        box = box.replace('<p style="margin:0;', '<img src="/assets/author-oishi.jpg" alt="著者・大石浩之（磐田市／不動産業・宅地建物取引士）の顔写真" width="76" height="76" style="float:left;margin:0 16px 8px 0;border-radius:50%"><p style="margin:0;', 1)
+        box = box.replace('編集・運営／富士ヶ丘サービス株式会社 代表', '磐田市／不動産業・宅地建物取引士')
+    return new[:i] + box + new[i:]
 
 
 def _is_org_self(d):
@@ -104,7 +110,7 @@ def _walk(node, key=None):
     nid = str(node.get("@id", ""))
     is_oishi = "大石" in str(node.get("name", "")) or nid == PERSON_ID or nid.endswith("/author/oishi-hiroyuki/#person") or nid.endswith("/about/author/#person")
     if is_oishi and t in (None, "Person"):
-        return dict(PERSON)
+        return {**PERSON, **{k: node[k] for k in ("image", "sameAs") if k in node}}
     if _is_org_self(node) or nid == ORG_ID:
         return dict(ORG)
     return {k: _walk(v, k) for k, v in node.items()}
