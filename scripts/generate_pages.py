@@ -107,7 +107,7 @@ def real_cards_html(cards):
     parts = []
     for c in cards:
         parts.append(
-            f'<div class="card real-card"><h3>{esc(c.get("icon",""))} {esc(c.get("title",""))}</h3>'
+            f'<div class="card real-card"><h3><span aria-hidden="true">{esc(c.get("icon",""))}</span> {esc(c.get("title",""))}</h3>'
             f'<p>{esc(c.get("body",""))}</p></div>'
         )
     return f'<h2 class="sec">先に知っておきたいこと</h2><div class="grid">{"".join(parts)}</div>'

@@ -25309,7 +25309,7 @@
   "has_faq_jsonld": false,
   "has_breadcrumb_jsonld": true,
   "exposes_raw_keys": false,
-  "bytes": 32639,
+  "bytes": 32735,
   "action": "keep",
   "merge_target": "",
   "priority": "P2",
