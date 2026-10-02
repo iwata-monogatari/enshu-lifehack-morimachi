@@ -1011,11 +1011,11 @@
   "href": "/questions/work-life-subsidies/",
   "slug": "work-life-subsidies",
   "parent_href": "/life/work-life/subsidies/",
-  "parent_title": "森町の補助金｜住宅・子育て・移住の制度を探す",
+  "parent_title": "森町の補助金・助成一覧｜対象・受付状況・担当窓口",
   "title": "森町の補助金｜森町の補助金を一覧で確認できるページはありますか",
-  "description": "担当課・係ごとに補助金制度が分散しており、全体をまとめた一覧ページは確認できていません。暮らしに関する補助は住民生活課生活環境係、事業者向けの補助は産業課へ、目的別に問い合わせるのが確実です。",
+  "description": "このページでは、森町公式の個別案内を目的別の一覧に整理しています。申請期間内、受付状況が未確認、掲載分の期限経過を区別しました。条件や予算残額は、各行の公式リンクと担当窓口で確認してください。",
   "question": "森町の補助金を一覧で確認できるページはありますか",
-  "answer": "担当課・係ごとに補助金制度が分散しており、全体をまとめた一覧ページは確認できていません。暮らしに関する補助は住民生活課生活環境係、事業者向けの補助は産業課へ、目的別に問い合わせるのが確実です。",
+  "answer": "このページでは、森町公式の個別案内を目的別の一覧に整理しています。申請期間内、受付状況が未確認、掲載分の期限経過を区別しました。条件や予算残額は、各行の公式リンクと担当窓口で確認してください。",
   "hub": "procedures",
   "hub_label": "手続き",
   "category": "働く・暮らす",
@@ -1032,12 +1032,22 @@
   ],
   "sources": [
    {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/index.html",
-    "label": "令和6年度森町中小企業等コスト削減支援事業補助金／静岡県森町",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/4392.html",
+    "label": "結婚新生活支援補助金（森町公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1_1/index.html",
+    "label": "こども医療費助成（森町公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/2128.html",
+    "label": "移住就業支援補助金（森町公式）",
     "confidence": "high"
    }
   ],
-  "verified_date": "2026-08-06"
+  "verified_date": "2026-10-03"
  },
  {
   "number": 28,

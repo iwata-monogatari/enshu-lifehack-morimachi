@@ -11163,21 +11163,46 @@
   ],
   "sources_morimachi": [
    {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/index.html",
-    "label": "令和6年度森町中小企業等コスト削減支援事業補助金／静岡県森町",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/4392.html",
+    "label": "結婚新生活支援補助金（森町公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1_1/index.html",
+    "label": "こども医療費助成（森町公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/2128.html",
+    "label": "移住就業支援補助金（森町公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4447.html",
+    "label": "電動アシスト自転車購入費補助金（森町公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/3/6704.html",
+    "label": "小口資金利子補給制度（融資支援）（森町公式）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/2/20251215.pdf",
+    "label": "省エネ家電買替購入費補助金（過年度分）（森町公式）",
     "confidence": "high"
    }
   ],
   "facts": {
-   "note": "住民生活課生活環境係扱い（電動アシスト自転車購入費補助・省エネ家電買替補助・新エネルギー機器導入補助・耐震化補助等）、産業課扱い（中小企業等コスト削減支援・事業継続強化補助・ジャンボタニシ捕獲器購入費補助等）など、担当課・係ごとに補助金制度が分散している。全体一覧の単一ページは未確認のため、目的別に各課へ要問合せ"
+   "note": "結婚・移住は定住推進課移住交流係（0538-85-6321）、こども医療費は健康こども課こども家庭係（0538-86-6330）、自転車・家電は住民生活課生活環境係（0538-85-6314）、事業支援は産業振興係（0538-85-6319）へ。受付可否・予算残額は個別に確認してください。"
   },
   "status": "machine-verified",
-  "verified_date": "2026-08-06",
-  "content_updated": "2026-08-06",
-  "ai_checked_date": null,
-  "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
+  "verified_date": "2026-10-03",
+  "content_updated": "2026-10-03",
+  "ai_checked_date": "2026-10-03",
+  "ai_notes": "2026-10-03に町公式の制度本文と受付期限を照合。予算残額と2026年度移住支援の受付は未確認として明示。",
   "verified_by": "machine",
-  "title": "森町の補助金｜住宅・子育て・移住の制度を探す",
+  "title": "森町の補助金・助成一覧｜対象・受付状況・担当窓口",
   "hub": "procedures",
   "hub_label": "手続きしたい",
   "page_type": "detail",

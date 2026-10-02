@@ -61,17 +61,17 @@ TOOLS = {
 </section>""",
     "/life/work-life/subsidies/": """
 <section class="search-tool" id="migration-support-check" aria-labelledby="migration-tool-title">
-<h2 id="migration-tool-title">移住就業支援金の対象候補を確認</h2>
-<p class="search-tool-intro">主な条件だけを確認する簡易チェックです。最終判定や申請受付ではありません。</p>
+<h2 id="migration-tool-title">移住就業支援金を相談する前の確認</h2>
+<p class="search-tool-intro">過去の制度にある主な条件を整理する相談準備用チェックです。2026年度の受付・詳細要件は未確認のため、この結果で対象や申請可否は判定できません。</p>
 <form class="search-tool-form" data-migration-tool>
 <div class="search-tool-field"><label for="migration-move">森町へ転入した・転入予定</label><select id="migration-move" name="move"><option value="yes">はい</option><option value="no">いいえ・未定</option></select></div>
 <div class="search-tool-field"><label for="migration-tokyo">東京23区に在住、または東京圏から23区へ通勤した期間の条件を満たす</label><select id="migration-tokyo" name="tokyo"><option value="yes">はい</option><option value="unsure">分からない</option><option value="no">いいえ</option></select></div>
 <div class="search-tool-field"><label for="migration-year">転入後1年以内に申請する</label><select id="migration-year" name="withinYear"><option value="yes">はい</option><option value="unsure">分からない</option><option value="no">いいえ</option></select></div>
 <div class="search-tool-field"><label for="migration-five">森町に5年以上住む意思がある</label><select id="migration-five" name="fiveYears"><option value="yes">はい</option><option value="no">いいえ・未定</option></select></div>
 <div class="search-tool-field"><label for="migration-route">移住後の仕事など</label><select id="migration-route" name="route"><option value="job">対象求人への就業</option><option value="telework">以前の仕事をテレワークで継続</option><option value="professional">専門人材制度を利用</option><option value="relationship">森町の関係人口要件に該当</option><option value="startup">起業支援を利用</option><option value="unknown">未定・分からない</option></select></div>
-<button type="submit">対象候補を確認</button>
+<button type="submit">窓口に相談する内容を確認</button>
 </form><div class="search-tool-result" data-tool-result aria-live="polite"></div>
-<p class="search-tool-note">最終確認：2026年8月6日。世帯100万円・単身60万円を基本とする制度ですが、時期・世帯・就業等の要件があります。<a href="https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/2128.html" target="_blank" rel="noopener">森町公式の移住就業支援金案内</a>で必ず確認してください。</p>
+<p class="search-tool-note">確認日：2026年10月3日。町公式には世帯100万円・単身60万円の概要がありますが、2026年度の個人向け受付期限・予算残額・詳細要件は確認できていません。<a href="https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/2128.html" target="_blank" rel="noopener">森町公式の移住就業支援金案内</a>で必ず確認してください。</p>
 </section>""",
 }
 
@@ -87,9 +87,12 @@ def inject(href: str, tool: str) -> None:
         re.escape(ASSET_START) + r".*?" + re.escape(ASSET_END),
         "", html, flags=re.S)
     html = re.sub(re.escape(START) + r".*?" + re.escape(END), "", html, flags=re.S)
-    html = html.replace("</head>", ASSETS + "</head>", 1)
+    assets = ASSETS.replace("search-tools.mjs?v=20260806a", "search-tools.mjs?v=20261003") if href == "/life/work-life/subsidies/" else ASSETS
+    html = html.replace("</head>", assets + "</head>", 1)
     block = START + tool.strip() + END
-    if "<!-- BRANCH-BLOCK:END -->" in html:
+    if href == "/life/work-life/subsidies/" and "<!-- PROGRAM-TABLE:END -->" in html:
+        html = html.replace("<!-- PROGRAM-TABLE:END -->", "<!-- PROGRAM-TABLE:END -->" + block, 1)
+    elif "<!-- BRANCH-BLOCK:END -->" in html:
         html = html.replace("<!-- BRANCH-BLOCK:END -->", "<!-- BRANCH-BLOCK:END -->" + block, 1)
     else:
         hero = re.search(r'<section class="hero".*?</section>', html, flags=re.S)

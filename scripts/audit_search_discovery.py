@@ -31,6 +31,7 @@ def main() -> None:
     questions = json.loads((ROOT / "data" / "questions.json").read_text(encoding="utf-8"))
     topics = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
     home = (ROOT / "index.html").read_text(encoding="utf-8")
+    verified_dates = {row["href"]: row.get("verified_date") for row in topics}
 
     if len(priority) != 11:
         errors.append(f"重要ページ数が11ではない: {len(priority)}")
@@ -39,9 +40,10 @@ def main() -> None:
         html = page(href).read_text(encoding="utf-8")
         if f'href="{href}"' not in home:
             errors.append(f"トップから直接リンクなし: {href}")
-        if f"最終確認日：{EXPECTED_DATE}" not in html:
+        expected_date = verified_dates.get(href) or EXPECTED_DATE
+        if f"最終確認日：{expected_date}" not in html:
             errors.append(f"画面の最終確認日が不一致: {href}")
-        if f'"dateModified":"{EXPECTED_DATE}"' not in html:
+        if f'"dateModified":"{expected_date}"' not in html:
             errors.append(f"dateModifiedが不一致: {href}")
         cluster = re.search(
             r"<!-- PRIORITY-QUESTIONS:START -->(.*?)<!-- PRIORITY-QUESTIONS:END -->",

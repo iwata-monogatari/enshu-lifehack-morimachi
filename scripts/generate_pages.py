@@ -80,6 +80,27 @@ def load_content_map():
     return content
 
 
+def program_table_html(rows):
+    """出典と確認日を持つ制度の比較表。データがあるページだけに表示する。"""
+    if not rows:
+        return ""
+    body = "".join(
+        f'<tr><th scope="row">{esc(row["purpose"])}<br>{esc(row["name"])}</th>'
+        f'<td>{esc(row["target"])}</td><td>{esc(row["status"])}</td>'
+        f'<td>{esc(row["department"])}<br><a href="tel:{esc(row["phone"])}">{esc(row["phone"])}</a></td>'
+        f'<td><a href="{esc(row["url"])}" target="_blank" rel="noopener">{esc(row["source"])}</a>'
+        f'<br>確認日：<time datetime="{esc(row["checked"])}">{esc(row["checked"])}</time></td></tr>'
+        for row in rows
+    )
+    return ('<section class="support-programs" id="support-programs" aria-labelledby="support-title">'
+            '<style>.support-programs .table-scroll{overflow-x:auto;margin:16px 0}.support-programs table{border-collapse:collapse;width:100%;min-width:760px;line-height:1.75;font-size:15px}.support-programs th,.support-programs td{border:1px solid #d6dfda;padding:14px;vertical-align:top;text-align:left}.support-programs thead th{background:#e8f0e8}.support-programs tbody th{width:17%;background:#f6f8f4}.support-programs td:nth-child(2){width:25%}.support-programs td:nth-child(3){width:28%}.support-programs caption{text-align:left;font-weight:700;margin-bottom:12px}.support-programs a{overflow-wrap:anywhere}</style>'
+            '<h2 class="sec" id="support-title">目的別・補助金と助成の比較一覧</h2>'
+            '<p>補助金のほか、医療費助成と融資支援も含めています。小口資金は返済が必要です。表は横にスクロールできます。</p>'
+            '<div class="table-scroll" role="region" aria-label="制度の対象・受付状況・担当窓口の比較" tabindex="0">'
+            '<table><caption>公式情報の確認日：2026年10月3日</caption><thead><tr><th scope="col">目的・制度名</th><th scope="col">主な対象</th><th scope="col">受付状況・申請時期</th><th scope="col">担当窓口</th><th scope="col">公式情報・確認日</th></tr></thead>'
+            f'<tbody>{body}</tbody></table></div></section><!-- PROGRAM-TABLE:END -->')
+
+
 def real_cards_html(cards):
     if not cards:
         return ""
@@ -289,6 +310,7 @@ def render_page(item, city, category_items, content_map):
     rich_html = ""
     if content:
         rich_html = "".join([
+            program_table_html(content.get("program_table")),
             real_cards_html(content.get("real_cards")),
             qa_html(content.get("qa")),
             tabs_html(content.get("tabs")),

@@ -1166,98 +1166,172 @@
  },
  {
   "href": "/life/work-life/subsidies/",
-  "lead": "森町の補助金は、住民生活課や産業課など担当課ごとに制度が分かれています。全体をまとめた一覧ページはないため、目的に応じて担当課へ確認するのが近道です。",
-  "note": "住民生活課生活環境係は電動アシスト自転車購入費補助・省エネ家電買替補助・新エネルギー機器導入補助・耐震化補助等、産業課は中小企業等コスト削減支援・事業継続強化補助・ジャンボタニシ捕獲器購入費補助等を扱っています。",
+  "lead": "静岡県森町で使える補助金・助成を、結婚と住まい、子育て、移住、暮らし、事業の目的別に整理しました。対象と申請時期を公式ページで照合し、期限が過ぎた制度や受付状況が未確認のものも分けて表示しています。",
+  "note": "確認日：2026年10月3日。掲載した制度は代表例です。予算残額は確認できていないため、「期間内」「案内あり」は受付や交付を保証しません。購入・契約・転入の前に、該当制度の担当窓口へ相談してください。",
   "real_cards": [
    {
     "icon": "🚲",
-    "title": "暮らしの補助は住民生活課",
-    "body": "電動アシスト自転車購入費補助・省エネ家電買替補助・新エネルギー機器導入補助・耐震化補助などが住民生活課生活環境係の扱いです。"
+    "title": "購入日・申請日を先に確認",
+    "body": "自転車は購入後3か月以内の申請ですが、制度によっては契約・工事より先の申請が必要です。共通の順番と思い込まず、対象経費と手続きの時点を担当窓口で確認します。"
    },
    {
     "icon": "🏭",
-    "title": "事業者向けは産業課",
-    "body": "中小企業等コスト削減支援事業補助金・事業継続強化補助・ジャンボタニシ捕獲器購入費補助など、事業者・農業者向けの補助金は産業課が扱っています。"
+    "title": "事業の支援は制度名と年度で照合",
+    "body": "以前掲載していた令和6年度のコスト削減支援について、2026年度の募集は確認できていません。現在の企業支援一覧から目的に合う制度を探し、産業振興係に確認してください。"
    },
    {
     "icon": "🔍",
-    "title": "一覧ページはなく個別確認が必要",
-    "body": "補助金制度をまとめた単一の一覧ページは確認できていないため、目的別に各課へ問い合わせるのが確実です。"
+    "title": "家族の状況で相談先を選ぶ",
+    "body": "結婚・移住は定住推進課、こどもの医療費は健康こども課、自転車などの暮らしの補助は住民生活課が確認先です。制度をまたぐ費用の重複申請にも注意します。"
    }
   ],
   "qa": [
    {
     "question": "森町の補助金を一覧で確認できるページはありますか",
-    "answer": "担当課・係ごとに補助金制度が分散しており、<b>全体をまとめた一覧ページは確認できていません</b>。暮らしに関する補助は住民生活課生活環境係、事業者向けの補助は産業課へ、目的別に問い合わせるのが確実です。"
+    "answer": "このページでは、森町公式の個別案内を目的別の一覧に整理しています。<b>申請期間内、受付状況が未確認、掲載分の期限経過</b>を区別しました。条件や予算残額は、各行の公式リンクと担当窓口で確認してください。"
    },
    {
     "question": "中小企業向けの補助金にはどんなものがありますか",
-    "answer": "たとえば「森町中小企業等コスト削減支援事業補助金」があります。年度によって募集内容が変わるため、最新の募集状況は産業課商工観光係へ確認してください。"
+    "answer": "募集は年度ごとに確認が必要です。令和6年度のコスト削減支援を現在の募集として案内することはできません。<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/index.html\" target=\"_blank\" rel=\"noopener\">町公式の企業立地・企業支援一覧</a>から確認してください。一覧中の小口資金利子補給制度は、補助金の直接給付ではなく融資の支援です。"
    }
   ],
   "tabs": [
    {
     "id": "type-life",
-    "label": "暮らしの補助を探したい",
-    "heading": "住民生活課生活環境係に確認",
+    "label": "暮らし・家族の補助を探したい",
+    "heading": "目的別一覧の担当窓口へ相談",
     "bullets": [
-     "電動アシスト自転車・省エネ家電・新エネルギー機器の補助がある",
-     "耐震化補助の案内もある",
-     "対象条件・申請時期は年度により異なる"
+     "結婚・住まい、こどもの医療費、移住、自転車から目的を選ぶ",
+     "期限が過ぎた家電補助を、今使える制度と取り違えない",
+     "住民登録・所得・購入日など自分の条件を確認する"
     ],
     "actions": [
      {
+      "label": "目的別一覧へ戻る",
+      "href": "#support-programs"
+     },
+     {
       "label": "森町役場に電話する",
       "href": "tel:0538-85-2111",
-      "source": "0538-85-2111"
+      "source": "担当が分からないとき"
      }
     ]
    },
    {
     "id": "type-business",
-    "label": "事業者向けの補助を探したい",
-    "heading": "産業課に確認",
+    "label": "事業者向けの支援を探したい",
+    "heading": "産業振興係と取扱金融機関に確認",
     "bullets": [
-     "中小企業等コスト削減支援事業補助金がある",
-     "事業継続強化補助やジャンボタニシ捕獲器購入費補助等もある",
-     "起業・就農関連の補助もあわせて相談できる"
+     "補助金と融資・利子補給の違いを確認する",
+     "制度名・年度・設備導入前の申請要否を確認する",
+     "2026年度の募集を確認できない過年度情報だけで購入を決めない"
     ],
     "actions": [
      {
-      "label": "中小企業等コスト削減支援事業補助金を見る",
-      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/index.html",
+      "label": "町公式の企業支援一覧を見る",
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/index.html",
       "source": "森町公式"
      },
      {
-      "label": "起業・創業を見る",
-      "href": "/life/work-life/start-business/"
+      "label": "産業振興係へ電話する",
+      "href": "tel:0538-85-6319",
+      "source": "0538-85-6319"
      }
     ]
    }
   ],
   "steps": {
    "today": [
-    "利用したい補助金の分野（暮らし／事業）を整理する"
+    "目的別一覧で制度と期限を確認し、住所・家族構成・購入予定日などをメモする"
    ],
    "this_week": [
-    "該当する担当課に電話し、対象条件・申請時期を確認する"
+    "担当窓口へ受付可否、予算残額、対象条件、必要書類、他制度との併用を確認する"
    ],
    "outside": [
-    "補助対象商品の購入・工事業者との契約手続き"
+    "窓口で申請順序を確認してから、購入・契約・工事・融資の手続きを進める"
    ]
   },
   "action_grid": [
    {
-    "label": "中小企業等コスト削減支援事業補助金を見る（森町公式）",
-    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/index.html"
+    "label": "結婚新生活支援の公式案内",
+    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/4392.html"
    },
    {
-    "label": "起業・創業を見る",
-    "href": "/life/work-life/start-business/"
+    "label": "こども医療費の公式案内",
+    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1_1/index.html"
    },
    {
-    "label": "森町役場に電話する",
-    "href": "tel:0538-85-2111"
+    "label": "町公式の企業支援一覧",
+    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/kigyoshien/index.html"
+   }
+  ],
+  "seo_description": "静岡県森町の補助金・助成を目的別一覧で確認。結婚新生活、こども医療費、移住、自転車、事業の対象・受付状況・担当窓口・公式リンクを整理しました。2026年10月3日確認。期限経過と受付未確認を区別して案内します。",
+  "program_table": [
+   {
+    "purpose": "結婚・住まい",
+    "name": "結婚新生活支援補助金",
+    "target": "婚姻日が2026年1月1日〜2027年3月31日、夫婦とも39歳以下、合計所得500万円未満などの条件を満たす新婚世帯。森町内の新居・引越し・リフォーム費用。",
+    "status": "公表された申請期間は2026年7月1日〜2027年2月26日。期間内でも予算上限で終了する場合があるため、申請前に相談。",
+    "department": "定住推進課 移住交流係",
+    "phone": "0538-85-6321",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/4392.html",
+    "source": "町公式・制度案内",
+    "checked": "2026-10-03"
+   },
+   {
+    "purpose": "子育て・医療費",
+    "name": "こども医療費助成",
+    "target": "町内に住所があり健康保険に加入する高校生世代までの子ども。婚姻している人や就職して自分の保険に加入する人は対象外。保険診療の自己負担分等を助成。",
+    "status": "受給者証の交付申請案内あり。出生・転入時は窓口へ。払い戻しの申請期限は受診日・入院日から1年以内。",
+    "department": "健康こども課 こども家庭係",
+    "phone": "0538-86-6330",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1_1/index.html",
+    "source": "町公式・医療費助成",
+    "checked": "2026-10-03"
+   },
+   {
+    "purpose": "移住・仕事",
+    "name": "移住就業支援補助金",
+    "target": "東京23区の在住者、または東京圏から23区へ通勤していた人が森町へ移住し、対象となる就業等を行う場合。世帯100万円・単身60万円の概要掲載あり。",
+    "status": "町の概要は確認できましたが、2026年度の個人向け受付期限・予算残額・詳細要件は確認できていません。転入や就業前に窓口で確認。",
+    "department": "定住推進課 移住交流係",
+    "phone": "0538-85-6321",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/izyusankouzyohou/2128.html",
+    "source": "町公式・移住定住手続き",
+    "checked": "2026-10-03"
+   },
+   {
+    "purpose": "暮らし・移動",
+    "name": "電動アシスト自転車購入費補助金",
+    "target": "町内在住の18歳以上の本人または同一世帯の人が使う新品の電動アシスト自転車。町税の滞納がないこと等の条件あり。",
+    "status": "購入日から3か月以内に申請する制度案内あり。予算の範囲内で交付。2026年度の残額・受付可否は購入前に確認。",
+    "department": "住民生活課 生活環境係",
+    "phone": "0538-85-6314",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4447.html",
+    "source": "町公式・制度案内",
+    "checked": "2026-10-03"
+   },
+   {
+    "purpose": "事業・資金繰り",
+    "name": "小口資金利子補給制度（融資支援）",
+    "target": "町内で6か月以上同一事業を営む中小企業者など。従業員数・納税・信用保証等の条件あり。利子補給金の交付先は取扱金融機関です。",
+    "status": "2026年3月31日更新の案内あり。町内の取扱金融機関へ申込み。返済が必要な融資で、事業者への直接の補助金とは異なります。",
+    "department": "産業振興係",
+    "phone": "0538-85-6319",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/3/6704.html",
+    "source": "町公式・小口資金",
+    "checked": "2026-10-03"
+   },
+   {
+    "purpose": "家電の買替え",
+    "name": "省エネ家電買替購入費補助金（過年度分）",
+    "target": "2025年12月15日の町のお知らせに掲載された、町内在住で町税等の滞納がない世帯向けの家電買替え支援。",
+    "status": "掲載分は買替期限2025年12月31日・申請期限2026年1月30日で期限経過。新たな募集はこの資料から確認できません。受付中として扱わず窓口へ確認。",
+    "department": "住民生活課 生活環境係",
+    "phone": "0538-85-6314",
+    "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/2/20251215.pdf",
+    "source": "町のお知らせ・2025年12月15日（PDF）",
+    "checked": "2026-10-03"
    }
   ]
  },
