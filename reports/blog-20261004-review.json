@@ -1,0 +1,251 @@
+{
+  "published_date": "2026-10-04",
+  "reviewer": "self",
+  "batch_size": 4,
+  "editorial_characters": {
+    "min": 6138,
+    "median": 6478.0,
+    "max": 6617
+  },
+  "build_all": "pass",
+  "preflight": "pass",
+  "desktop_width": 1365,
+  "mobile_width": 390,
+  "overflow": "none",
+  "illustrations": 8,
+  "covers": 4,
+  "experience_stock": "no usable experiences; all first-person passages are opinions",
+  "banned_word_scope": "four new article directories, backlink article HTML, blog ledger, blog index, sitemap and feed; legacy non-blog source labels outside this batch retain pre-existing occurrences",
+  "source_checks": [
+    {
+      "url": "https://shizuoka-mori.comp-re.com/",
+      "status": 200,
+      "sha256": "155ddbb78b5a039ea159796de46a8f954b96b8d25ff8fa05ed441f96096ff425"
+    },
+    {
+      "url": "https://www.caa.go.jp/policies/policy/consumer_policy/information/food_loss/efforts/assets/consumer_education_cms201_260929_01.pdf",
+      "status": 200,
+      "sha256": "ede35bb0907749ab0f52c634c3906fa930dfac46c81f1742eb5ad6ab36de3c51"
+    },
+    {
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/904.html",
+      "status": 200,
+      "sha256": "077f09ffbf097eabc8967a1f866bca47ca22f932c1f4c3351ffd3d3c55efb8b5"
+    },
+    {
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4264.html",
+      "status": 200,
+      "sha256": "6356ea27769311f5183fb7551e1390fc348eb7ea19e7aeea395c2d083e4b06e8"
+    },
+    {
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/3/6879.html",
+      "status": 200,
+      "sha256": "38aed9d2c11c417a445dea1c78351d8e2383b13ccabca4b8414918dd79651ca2"
+    },
+    {
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/3/6915.html",
+      "status": 200,
+      "sha256": "662e8c70fbf84fada0ae2e19ccbae0bf26e5a8923406283a48c4c28b579bb1ca"
+    },
+    {
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/1/kyoryokutai/2153.html",
+      "status": 200,
+      "sha256": "79c7d2178dfaaaf4b8b1260cebc286b246a5b8cf9fbc886266babeb20f81383a"
+    },
+    {
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/1/kyoryokutai/2472.html",
+      "status": 200,
+      "sha256": "4ff5dfb8bea3c6089a50ddc2cc920fb50f0fb91a848f263988aade321ce9ee2c"
+    },
+    {
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/7014.html",
+      "status": 200,
+      "sha256": "524dde3841b5e34cdb93bce0538b7ba87cb3a51084691e399f519d0279c92018"
+    },
+    {
+      "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/10/kyouryokutai_youkou.pdf",
+      "status": 200,
+      "sha256": "082ade147b69ff4c75359fbfe9bb0b446ce59af253af4f9b396dce16a47723ee"
+    },
+    {
+      "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/6/tyousahoukokusho.pdf",
+      "status": 200,
+      "sha256": "0d0876feaf9975f45261f9a7ec435258854b65d84537a34a257074a8548ff02d"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "20261004-morimachi-kyoryokutai-boshu",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261004-morimachi-kyoryokutai-boshu/",
+      "visible_chars": 6138,
+      "paragraphs": 46,
+      "answer_chars": 144,
+      "internal_links": [
+        "/blog/20260906-morimachi-iju-coordinator-2026/",
+        "/blog/20260823-tokutei-kyoju-plan-coordinator/",
+        "/blog/20260927-morimachi-iju-chintai-kounyu/"
+      ],
+      "structural_gate": "pass",
+      "query": "森町 地域おこし協力隊 募集",
+      "principle": 1,
+      "memo": "空欄のため持論原則を選択",
+      "experience": "なし・意見として記述",
+      "backlink": "/blog/20260906-morimachi-iju-coordinator-2026/",
+      "review_gate": "pass",
+      "source_differences_and_unknowns": [
+        "募集要綱の選考欄は2029年3月末、概要は年度更新・最長3年。初年度と最終年度は担当課確認と明記。",
+        "本文の地域要件よりPDFが詳細。住所区分を自己判断しない。",
+        "締切時刻・提出方法・支給時期・活動時間帯は未確認。"
+      ],
+      "images": [
+        {
+          "kind": "cover",
+          "source": "cover.jpg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "kind": "illustration",
+          "source": "fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "kind": "illustration",
+          "source": "fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ]
+    },
+    {
+      "slug": "20261004-morimachi-yochien-azukari",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261004-morimachi-yochien-azukari/",
+      "visible_chars": 6434,
+      "paragraphs": 47,
+      "answer_chars": 156,
+      "internal_links": [
+        "/blog/20260913-morimachi-yochien-moshikomi-2027/",
+        "/blog/20260816-moving-in-timing-for-children/",
+        "/blog/20260927-morimachi-narashi-hoiku-fukushoku/"
+      ],
+      "structural_gate": "pass",
+      "query": "森町 幼稚園 預かり保育 時間",
+      "principle": 1,
+      "memo": "空欄のため持論原則を選択",
+      "experience": "なし・意見として記述",
+      "backlink": "/blog/20260913-morimachi-yochien-moshikomi-2027/",
+      "review_gate": "pass",
+      "source_differences_and_unknowns": [
+        "通常入園は電子申請可だが預かりは窓口申請。",
+        "個別受入開始日・実施園・16時終了日は園確認。"
+      ],
+      "images": [
+        {
+          "kind": "cover",
+          "source": "cover.jpg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "kind": "illustration",
+          "source": "fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "kind": "illustration",
+          "source": "fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ]
+    },
+    {
+      "slug": "20261004-morimachi-shisetsu-yoyaku",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261004-morimachi-shisetsu-yoyaku/",
+      "visible_chars": 6522,
+      "paragraphs": 48,
+      "answer_chars": 147,
+      "internal_links": [
+        "/blog/20260905-morimachi-bunka-kaikan-riyo/",
+        "/blog/20260809-nothing-special-sunday/",
+        "/blog/20260911-morimachi-six-district-centers/"
+      ],
+      "structural_gate": "pass",
+      "query": "森町 公共施設予約システム 登録",
+      "principle": 4,
+      "memo": "空欄のため持論原則を選択",
+      "experience": "なし・意見として記述",
+      "backlink": "/blog/20260905-morimachi-bunka-kaikan-riyo/",
+      "review_gate": "pass",
+      "source_differences_and_unknowns": [
+        "文化会館ページは直接取得時2026年10月1日更新。提供メモの2023年表示から変更。",
+        "登録審査所要日数・町外利用者の個別条件は未確認。"
+      ],
+      "images": [
+        {
+          "kind": "cover",
+          "source": "cover.jpg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "kind": "illustration",
+          "source": "fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "kind": "illustration",
+          "source": "fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ]
+    },
+    {
+      "slug": "20261004-morimachi-nikyoten-food-loss",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261004-morimachi-nikyoten-food-loss/",
+      "visible_chars": 6617,
+      "paragraphs": 49,
+      "answer_chars": 157,
+      "internal_links": [
+        "/blog/20260726-dual-location/",
+        "/blog/20260804-gomi-bunbetsu-kaitei/",
+        "/blog/20260913-morimachi-nikyoten-seikatsuhi-201/"
+      ],
+      "structural_gate": "pass",
+      "query": "二拠点生活 食品ロス 対策",
+      "principle": 1,
+      "memo": "空欄のため持論原則を選択",
+      "experience": "なし・意見として記述",
+      "backlink": "/blog/20260726-dual-location/",
+      "review_gate": "pass",
+      "source_differences_and_unknowns": [
+        "2025年回覧PDFは直接取得404のため記事で不使用。",
+        "2021年の調査試料を2026年や二拠点世帯へ一般化せず、在庫記録は筆者提案。"
+      ],
+      "images": [
+        {
+          "kind": "cover",
+          "source": "cover.jpg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "kind": "illustration",
+          "source": "fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "kind": "illustration",
+          "source": "fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ]
+    }
+  ]
+}
