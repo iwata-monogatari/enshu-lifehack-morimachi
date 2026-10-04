@@ -717,297 +717,6 @@
  },
  {
   "number": 19,
-  "href": "/questions/moving-out-bulk-garbage-cleaning/",
-  "slug": "moving-out-bulk-garbage-cleaning",
-  "parent_href": "/life/moving-out/bulk-garbage-cleaning/",
-  "parent_title": "転出前の片付けは、粗大ごみは中遠広域施設へ・家電は家電リサイクル法対応で",
-  "title": "森町の引っ越し・ごみ・処分｜粗大ごみが大量に出るときはどうすればいいですか",
-  "description": "「中遠広域粗大ごみ処理施設」への持ち込みが基本です（有料）。持ち込み方法や料金は事前に住民生活課生活環境係（0538-85-6314）へ確認してください。",
-  "question": "粗大ごみが大量に出るときはどうすればいいですか",
-  "answer": "「中遠広域粗大ごみ処理施設」への持ち込みが基本です（有料）。持ち込み方法や料金は事前に住民生活課生活環境係（0538-85-6314）へ確認してください。",
-  "hub": "procedures",
-  "hub_label": "手続き",
-  "category": "新しい場所へ",
-  "icon": "📦",
-  "priority": "P2",
-  "context": "転出前の不用品・粗大ごみを処分する",
-  "keyword": "森町 引っ越し ごみ 処分",
-  "needs": [
-   "家具を処分したい",
-   "家電を捨てたい"
-  ],
-  "audience": [
-   "転出者"
-  ],
-  "sources": [
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/688.html",
-    "label": "町では収集できないごみ／静岡県森町",
-    "confidence": "high"
-   },
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html",
-    "label": "ごみの出し方／静岡県森町",
-    "confidence": "high"
-   }
-  ],
-  "verified_date": "2026-07-04"
- },
- {
-  "number": 20,
-  "href": "/questions/start-living-pets-lost-animals/",
-  "slug": "start-living-pets-lost-animals",
-  "parent_href": "/life/start-living/pets-lost-animals/",
-  "parent_title": "森町で犬や猫がいなくなったら、住民生活課・保健所・警察の3か所へ連絡する。",
-  "title": "森町の迷い犬・迷い猫｜猫がいなくなった場合も同じ連絡先でいいですか",
-  "description": "はい、同様に住民生活課生活環境係・静岡県西部保健所・袋井警察署森分庁舎へ連絡してください。猫の飼い方については森町公式ページもご参照ください。",
-  "question": "猫がいなくなった場合も同じ連絡先でいいですか",
-  "answer": "はい、同様に住民生活課生活環境係・静岡県西部保健所・袋井警察署森分庁舎へ連絡してください。猫の飼い方については森町公式ページもご参照ください。",
-  "hub": "procedures",
-  "hub_label": "手続き",
-  "category": "暮らし始めた",
-  "icon": "🧭",
-  "priority": "P2",
-  "context": "いなくなった犬・猫を探す連絡先を知る",
-  "keyword": "森町 迷い犬 迷い猫",
-  "needs": [
-   "犬がいなくなった",
-   "猫を保護した"
-  ],
-  "audience": [
-   "飼い主",
-   "発見者"
-  ],
-  "sources": [
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/693.html",
-    "label": "犬の飼い方について（迷い犬の連絡先）／静岡県森町",
-    "confidence": "high"
-   },
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4304.html",
-    "label": "猫の飼い方について／静岡県森町",
-    "confidence": "high"
-   }
-  ],
-  "verified_date": "2026-07-04"
- },
- {
-  "number": 21,
-  "href": "/questions/start-living-water-sewer/",
-  "slug": "start-living-water-sewer",
-  "parent_href": "/life/start-living/water-sewer/",
-  "parent_title": "森町の水道料金・下水道料金｜計算方法と問い合わせ先",
-  "title": "森町の水道料金｜水道の使用量が急に増えました。漏水でしょうか",
-  "description": "すべての蛇口を閉めた状態で水道メーターのパイロット（小さな回転部分）が動いていれば漏水の可能性があります。詳しくは森町公式の漏水確認ページをご覧のうえ、上水道管理係（0538-85-6326）にご相談ください。",
-  "question": "水道の使用量が急に増えました。漏水でしょうか",
-  "answer": "すべての蛇口を閉めた状態で水道メーターのパイロット（小さな回転部分）が動いていれば漏水の可能性があります。詳しくは森町公式の漏水確認ページをご覧のうえ、上水道管理係（0538-85-6326）にご相談ください。",
-  "hub": "procedures",
-  "hub_label": "手続き",
-  "category": "暮らし始めた",
-  "icon": "🧭",
-  "priority": "P2",
-  "context": "水道・下水道料金の仕組みと金額を知る",
-  "keyword": "森町 水道料金",
-  "needs": [
-   "水道代はいくら",
-   "下水道料金の計算"
-  ],
-  "audience": [
-   "住民"
-  ],
-  "sources": [
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html",
-    "label": "漏水のみつけ方と水道料金の減免について／静岡県森町",
-    "confidence": "high"
-   },
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/gesuidokanrigakari/1/1/394.html",
-    "label": "下水道使用料について／静岡県森町",
-    "confidence": "high"
-   }
-  ],
-  "verified_date": "2026-08-06"
- },
- {
-  "number": 22,
-  "href": "/questions/work-life-light-vehicle-tax/",
-  "slug": "work-life-light-vehicle-tax",
-  "parent_href": "/life/work-life/light-vehicle-tax/",
-  "parent_title": "森町の軽自動車税は、排気量・車種ごとの税額を町民税係で確認する",
-  "title": "森町の軽自動車税｜車を手放したのに納税通知が届きました",
-  "description": "軽自動車税は毎年4月1日時点の所有者に課税されます。名義変更や廃車の手続きが完了していないと、実際に手放していても課税が続くことがあります。速やかに手続き状況を税務課町民税係（0538-85-6308）に確認してください。",
-  "question": "車を手放したのに納税通知が届きました",
-  "answer": "軽自動車税は毎年4月1日時点の所有者に課税されます。名義変更や廃車の手続きが完了していないと、実際に手放していても課税が続くことがあります。速やかに手続き状況を税務課町民税係（0538-85-6308）に確認してください。",
-  "hub": "procedures",
-  "hub_label": "手続き",
-  "category": "働く・暮らす",
-  "icon": "💴",
-  "priority": "P2",
-  "context": "軽自動車税の税額と手続きを確認する",
-  "keyword": "森町 軽自動車税",
-  "needs": [
-   "軽自動車の税金はいくら",
-   "廃車の手続き"
-  ],
-  "audience": [
-   "車両所有者"
-  ],
-  "sources": [
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/index.html",
-    "label": "軽自動車税／静岡県森町",
-    "confidence": "high"
-   },
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/715.html",
-    "label": "軽自動車税について／静岡県森町",
-    "confidence": "high"
-   }
-  ],
-  "verified_date": "2026-07-04"
- },
- {
-  "number": 23,
-  "href": "/questions/work-life-national-health-insurance-tax/",
-  "slug": "work-life-national-health-insurance-tax",
-  "parent_href": "/life/work-life/national-health-insurance-tax/",
-  "parent_title": "森町の国民健康保険税は、税務課町民税係で税率・減免を確認する",
-  "title": "森町の国民健康保険税｜国民健康保険税の税率はどこで確認できますか",
-  "description": "本ページには具体的な税率の記載がないため、公式サイトの「国民健康保険税とは」等の関連リンク先を確認するか、税務課（役場代表 0538-85-2111）へ問い合わせるのが確実です。",
-  "question": "国民健康保険税の税率はどこで確認できますか",
-  "answer": "本ページには具体的な税率の記載がないため、公式サイトの「国民健康保険税とは」等の関連リンク先を確認するか、税務課（役場代表 0538-85-2111）へ問い合わせるのが確実です。",
-  "hub": "procedures",
-  "hub_label": "手続き",
-  "category": "働く・暮らす",
-  "icon": "💴",
-  "priority": "P2",
-  "context": "国民健康保険税の税率・減免を確認する",
-  "keyword": "森町 国民健康保険税",
-  "needs": [
-   "保険税が高い",
-   "減免はある"
-  ],
-  "audience": [
-   "国保加入者"
-  ],
-  "sources": [
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/2/1/index.html",
-    "label": "国民健康保険税／静岡県森町",
-    "confidence": "high"
-   },
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/1/4711.html",
-    "label": "災害による被害を受けた場合の町・県民税、国民健康保険税の軽減免除について／静岡県森町",
-    "confidence": "high"
-   }
-  ],
-  "verified_date": "2026-07-03"
- },
- {
-  "number": 24,
-  "href": "/questions/moving-out-school-nursery-procedures/",
-  "slug": "moving-out-school-nursery-procedures",
-  "parent_href": "/life/moving-out/school-nursery-procedures/",
-  "parent_title": "子どもの転出は、保育所は健康こども課、学校は在学校へそれぞれ確認する",
-  "title": "森町の転校・手続き｜保育所に通っている子どもがいる場合、どこに相談すればいいですか",
-  "description": "健康こども課幼稚園保育園係（0538-86-6300）へ相談してください。退所・転園の手続きの案内が受けられます。転出先で保育施設の利用を希望する場合は、転出先自治体ごとに申込手続きが異なるため、あわせて転出先にも確認しておくと安心です。",
-  "question": "保育所に通っている子どもがいる場合、どこに相談すればいいですか",
-  "answer": "健康こども課幼稚園保育園係（0538-86-6300）へ相談してください。退所・転園の手続きの案内が受けられます。転出先で保育施設の利用を希望する場合は、転出先自治体ごとに申込手続きが異なるため、あわせて転出先にも確認しておくと安心です。",
-  "hub": "procedures",
-  "hub_label": "手続き",
-  "category": "新しい場所へ",
-  "icon": "📦",
-  "priority": "P2",
-  "context": "子どもの転園・転校の手続きをする",
-  "keyword": "森町 転校 手続き",
-  "needs": [
-   "子どもが転校する",
-   "保育園を退園する"
-  ],
-  "audience": [
-   "保護者"
-  ],
-  "sources": [
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/1/4614.html",
-    "label": "保育所について／静岡県森町",
-    "confidence": "high"
-   }
-  ],
-  "verified_date": "2026-07-04"
- },
- {
-  "number": 25,
-  "href": "/questions/work-life-job-change/",
-  "slug": "work-life-job-change",
-  "parent_href": "/life/work-life/job-change/",
-  "parent_title": "森町の就職・転職は、求人検索はハローワーク磐田、支援情報は町の就職支援ページを確認する",
-  "title": "森町の求人｜森町で求人を探すにはどこに行けばいいですか",
-  "description": "森町を含む2市1町の求人はハローワーク磐田が管轄です。町の公式サイトには個別の求人情報は掲載されていないため、ハローワーク磐田の窓口やインターネットサービスで求人検索をしてください。",
-  "question": "森町で求人を探すにはどこに行けばいいですか",
-  "answer": "森町を含む2市1町の求人はハローワーク磐田が管轄です。町の公式サイトには個別の求人情報は掲載されていないため、ハローワーク磐田の窓口やインターネットサービスで求人検索をしてください。",
-  "hub": "procedures",
-  "hub_label": "手続き",
-  "category": "働く・暮らす",
-  "icon": "💴",
-  "priority": "P2",
-  "context": "森町で仕事を探す入口を知る",
-  "keyword": "森町 求人",
-  "needs": [
-   "仕事を探している",
-   "転職したい"
-  ],
-  "audience": [
-   "求職者"
-  ],
-  "sources": [
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/shushokushien/index.html",
-    "label": "就職支援／静岡県森町",
-    "confidence": "high"
-   }
-  ],
-  "verified_date": "2026-07-03"
- },
- {
-  "number": 26,
-  "href": "/questions/work-life-nhk-pension/",
-  "slug": "work-life-nhk-pension",
-  "parent_href": "/life/work-life/nhk-pension/",
-  "parent_title": "森町の国民健康保険・国民年金は、住民生活課国保年金係で手続きする",
-  "title": "森町の国民年金・手続き｜転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか",
-  "description": "住民生活課国保年金係が窓口です。必要書類や期限は個々の状況によって異なるため、詳細はページに明記されていません。事前に役場代表（0538-85-2111）へ問い合わせて確認することをおすすめします。",
-  "question": "転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか",
-  "answer": "住民生活課国保年金係が窓口です。必要書類や期限は個々の状況によって異なるため、詳細はページに明記されていません。事前に役場代表（0538-85-2111）へ問い合わせて確認することをおすすめします。",
-  "hub": "procedures",
-  "hub_label": "手続き",
-  "category": "働く・暮らす",
-  "icon": "💴",
-  "priority": "P2",
-  "context": "国民健康保険・国民年金の加入と喪失を手続きする",
-  "keyword": "森町 国民年金 手続き",
-  "needs": [
-   "会社を辞めた",
-   "扶養から外れた"
-  ],
-  "audience": [
-   "退職者",
-   "住民"
-  ],
-  "sources": [
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html",
-    "label": "国民健康保険／静岡県森町",
-    "confidence": "high"
-   }
-  ],
-  "verified_date": "2026-07-03"
- },
- {
-  "number": 27,
   "href": "/questions/work-life-subsidies/",
   "slug": "work-life-subsidies",
   "parent_href": "/life/work-life/subsidies/",
@@ -1048,6 +757,297 @@
    }
   ],
   "verified_date": "2026-10-03"
+ },
+ {
+  "number": 20,
+  "href": "/questions/moving-out-bulk-garbage-cleaning/",
+  "slug": "moving-out-bulk-garbage-cleaning",
+  "parent_href": "/life/moving-out/bulk-garbage-cleaning/",
+  "parent_title": "転出前の片付けは、粗大ごみは中遠広域施設へ・家電は家電リサイクル法対応で",
+  "title": "森町の引っ越し・ごみ・処分｜粗大ごみが大量に出るときはどうすればいいですか",
+  "description": "「中遠広域粗大ごみ処理施設」への持ち込みが基本です（有料）。持ち込み方法や料金は事前に住民生活課生活環境係（0538-85-6314）へ確認してください。",
+  "question": "粗大ごみが大量に出るときはどうすればいいですか",
+  "answer": "「中遠広域粗大ごみ処理施設」への持ち込みが基本です（有料）。持ち込み方法や料金は事前に住民生活課生活環境係（0538-85-6314）へ確認してください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "新しい場所へ",
+  "icon": "📦",
+  "priority": "P2",
+  "context": "転出前の不用品・粗大ごみを処分する",
+  "keyword": "森町 引っ越し ごみ 処分",
+  "needs": [
+   "家具を処分したい",
+   "家電を捨てたい"
+  ],
+  "audience": [
+   "転出者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/688.html",
+    "label": "町では収集できないごみ／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html",
+    "label": "ごみの出し方／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 21,
+  "href": "/questions/start-living-pets-lost-animals/",
+  "slug": "start-living-pets-lost-animals",
+  "parent_href": "/life/start-living/pets-lost-animals/",
+  "parent_title": "森町で犬や猫がいなくなったら、住民生活課・保健所・警察の3か所へ連絡する。",
+  "title": "森町の迷い犬・迷い猫｜猫がいなくなった場合も同じ連絡先でいいですか",
+  "description": "はい、同様に住民生活課生活環境係・静岡県西部保健所・袋井警察署森分庁舎へ連絡してください。猫の飼い方については森町公式ページもご参照ください。",
+  "question": "猫がいなくなった場合も同じ連絡先でいいですか",
+  "answer": "はい、同様に住民生活課生活環境係・静岡県西部保健所・袋井警察署森分庁舎へ連絡してください。猫の飼い方については森町公式ページもご参照ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P2",
+  "context": "いなくなった犬・猫を探す連絡先を知る",
+  "keyword": "森町 迷い犬 迷い猫",
+  "needs": [
+   "犬がいなくなった",
+   "猫を保護した"
+  ],
+  "audience": [
+   "飼い主",
+   "発見者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/693.html",
+    "label": "犬の飼い方について（迷い犬の連絡先）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4304.html",
+    "label": "猫の飼い方について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 22,
+  "href": "/questions/start-living-water-sewer/",
+  "slug": "start-living-water-sewer",
+  "parent_href": "/life/start-living/water-sewer/",
+  "parent_title": "森町の水道料金・下水道料金｜計算方法と問い合わせ先",
+  "title": "森町の水道料金｜水道の使用量が急に増えました。漏水でしょうか",
+  "description": "すべての蛇口を閉めた状態で水道メーターのパイロット（小さな回転部分）が動いていれば漏水の可能性があります。詳しくは森町公式の漏水確認ページをご覧のうえ、上水道管理係（0538-85-6326）にご相談ください。",
+  "question": "水道の使用量が急に増えました。漏水でしょうか",
+  "answer": "すべての蛇口を閉めた状態で水道メーターのパイロット（小さな回転部分）が動いていれば漏水の可能性があります。詳しくは森町公式の漏水確認ページをご覧のうえ、上水道管理係（0538-85-6326）にご相談ください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "暮らし始めた",
+  "icon": "🧭",
+  "priority": "P2",
+  "context": "水道・下水道料金の仕組みと金額を知る",
+  "keyword": "森町 水道料金",
+  "needs": [
+   "水道代はいくら",
+   "下水道料金の計算"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/669.html",
+    "label": "漏水のみつけ方と水道料金の減免について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/gesuidokanrigakari/1/1/394.html",
+    "label": "下水道使用料について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-08-06"
+ },
+ {
+  "number": 23,
+  "href": "/questions/work-life-light-vehicle-tax/",
+  "slug": "work-life-light-vehicle-tax",
+  "parent_href": "/life/work-life/light-vehicle-tax/",
+  "parent_title": "森町の軽自動車税は、排気量・車種ごとの税額を町民税係で確認する",
+  "title": "森町の軽自動車税｜車を手放したのに納税通知が届きました",
+  "description": "軽自動車税は毎年4月1日時点の所有者に課税されます。名義変更や廃車の手続きが完了していないと、実際に手放していても課税が続くことがあります。速やかに手続き状況を税務課町民税係（0538-85-6308）に確認してください。",
+  "question": "車を手放したのに納税通知が届きました",
+  "answer": "軽自動車税は毎年4月1日時点の所有者に課税されます。名義変更や廃車の手続きが完了していないと、実際に手放していても課税が続くことがあります。速やかに手続き状況を税務課町民税係（0538-85-6308）に確認してください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P2",
+  "context": "軽自動車税の税額と手続きを確認する",
+  "keyword": "森町 軽自動車税",
+  "needs": [
+   "軽自動車の税金はいくら",
+   "廃車の手続き"
+  ],
+  "audience": [
+   "車両所有者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/index.html",
+    "label": "軽自動車税／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/715.html",
+    "label": "軽自動車税について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 24,
+  "href": "/questions/work-life-national-health-insurance-tax/",
+  "slug": "work-life-national-health-insurance-tax",
+  "parent_href": "/life/work-life/national-health-insurance-tax/",
+  "parent_title": "森町の国民健康保険税は、税務課町民税係で税率・減免を確認する",
+  "title": "森町の国民健康保険税｜国民健康保険税の税率はどこで確認できますか",
+  "description": "本ページには具体的な税率の記載がないため、公式サイトの「国民健康保険税とは」等の関連リンク先を確認するか、税務課（役場代表 0538-85-2111）へ問い合わせるのが確実です。",
+  "question": "国民健康保険税の税率はどこで確認できますか",
+  "answer": "本ページには具体的な税率の記載がないため、公式サイトの「国民健康保険税とは」等の関連リンク先を確認するか、税務課（役場代表 0538-85-2111）へ問い合わせるのが確実です。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P2",
+  "context": "国民健康保険税の税率・減免を確認する",
+  "keyword": "森町 国民健康保険税",
+  "needs": [
+   "保険税が高い",
+   "減免はある"
+  ],
+  "audience": [
+   "国保加入者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/2/1/index.html",
+    "label": "国民健康保険税／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/1/4711.html",
+    "label": "災害による被害を受けた場合の町・県民税、国民健康保険税の軽減免除について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 25,
+  "href": "/questions/moving-out-school-nursery-procedures/",
+  "slug": "moving-out-school-nursery-procedures",
+  "parent_href": "/life/moving-out/school-nursery-procedures/",
+  "parent_title": "子どもの転出は、保育所は健康こども課、学校は在学校へそれぞれ確認する",
+  "title": "森町の転校・手続き｜保育所に通っている子どもがいる場合、どこに相談すればいいですか",
+  "description": "健康こども課幼稚園保育園係（0538-86-6300）へ相談してください。退所・転園の手続きの案内が受けられます。転出先で保育施設の利用を希望する場合は、転出先自治体ごとに申込手続きが異なるため、あわせて転出先にも確認しておくと安心です。",
+  "question": "保育所に通っている子どもがいる場合、どこに相談すればいいですか",
+  "answer": "健康こども課幼稚園保育園係（0538-86-6300）へ相談してください。退所・転園の手続きの案内が受けられます。転出先で保育施設の利用を希望する場合は、転出先自治体ごとに申込手続きが異なるため、あわせて転出先にも確認しておくと安心です。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "新しい場所へ",
+  "icon": "📦",
+  "priority": "P2",
+  "context": "子どもの転園・転校の手続きをする",
+  "keyword": "森町 転校 手続き",
+  "needs": [
+   "子どもが転校する",
+   "保育園を退園する"
+  ],
+  "audience": [
+   "保護者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/1/4614.html",
+    "label": "保育所について／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-04"
+ },
+ {
+  "number": 26,
+  "href": "/questions/work-life-job-change/",
+  "slug": "work-life-job-change",
+  "parent_href": "/life/work-life/job-change/",
+  "parent_title": "森町の就職・転職は、求人検索はハローワーク磐田、支援情報は町の就職支援ページを確認する",
+  "title": "森町の求人｜森町で求人を探すにはどこに行けばいいですか",
+  "description": "森町を含む2市1町の求人はハローワーク磐田が管轄です。町の公式サイトには個別の求人情報は掲載されていないため、ハローワーク磐田の窓口やインターネットサービスで求人検索をしてください。",
+  "question": "森町で求人を探すにはどこに行けばいいですか",
+  "answer": "森町を含む2市1町の求人はハローワーク磐田が管轄です。町の公式サイトには個別の求人情報は掲載されていないため、ハローワーク磐田の窓口やインターネットサービスで求人検索をしてください。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P2",
+  "context": "森町で仕事を探す入口を知る",
+  "keyword": "森町 求人",
+  "needs": [
+   "仕事を探している",
+   "転職したい"
+  ],
+  "audience": [
+   "求職者"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/shushokushien/index.html",
+    "label": "就職支援／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
+ },
+ {
+  "number": 27,
+  "href": "/questions/work-life-nhk-pension/",
+  "slug": "work-life-nhk-pension",
+  "parent_href": "/life/work-life/nhk-pension/",
+  "parent_title": "森町の国民健康保険・国民年金は、住民生活課国保年金係で手続きする",
+  "title": "森町の国民年金・手続き｜転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか",
+  "description": "住民生活課国保年金係が窓口です。必要書類や期限は個々の状況によって異なるため、詳細はページに明記されていません。事前に役場代表（0538-85-2111）へ問い合わせて確認することをおすすめします。",
+  "question": "転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか",
+  "answer": "住民生活課国保年金係が窓口です。必要書類や期限は個々の状況によって異なるため、詳細はページに明記されていません。事前に役場代表（0538-85-2111）へ問い合わせて確認することをおすすめします。",
+  "hub": "procedures",
+  "hub_label": "手続き",
+  "category": "働く・暮らす",
+  "icon": "💴",
+  "priority": "P2",
+  "context": "国民健康保険・国民年金の加入と喪失を手続きする",
+  "keyword": "森町 国民年金 手続き",
+  "needs": [
+   "会社を辞めた",
+   "扶養から外れた"
+  ],
+  "audience": [
+   "退職者",
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html",
+    "label": "国民健康保険／静岡県森町",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-07-03"
  },
  {
   "number": 28,
