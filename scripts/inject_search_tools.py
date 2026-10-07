@@ -12,7 +12,7 @@ ASSET_START = "<!-- SEARCH-TOOL-ASSETS:START -->"
 ASSET_END = "<!-- SEARCH-TOOL-ASSETS:END -->"
 ASSETS = (
     f'{ASSET_START}<link rel="stylesheet" href="/assets/search-tools.css?v=20260806a">'
-    '<script type="module" src="/assets/search-tools.mjs?v=20260806a"></script>'
+    '<script type="module" src="/assets/search-tools.mjs?v=20261008a"></script>'
     f'{ASSET_END}'
 )
 
@@ -30,12 +30,12 @@ TOOLS = {
     "/life/family-grow/nursery-school/": """
 <section class="search-tool" id="nursery-vacancy" aria-labelledby="nursery-tool-title">
 <h2 id="nursery-tool-title">年齢から保育園の受入れ見込みを確認</h2>
-<p class="search-tool-intro">森町が公表した令和8年度入所可能数見込みを、子どもの年齢ごとに並べます。</p>
+<p class="search-tool-intro">森町が公表した令和9年度（2027年度）入所可能数見込みを、子どもの年齢ごとに並べます。現在すぐ入所できる人数ではありません。</p>
 <form class="search-tool-form" data-nursery-tool>
 <div class="search-tool-field"><label for="nursery-age">入所年度の4月1日時点の年齢</label><select id="nursery-age" name="age" required><option value="0">0歳</option><option value="1">1歳</option><option value="2">2歳</option><option value="3">3歳</option><option value="4">4歳</option><option value="5">5歳</option></select></div>
 <button type="submit">施設別の見込みを表示</button>
 </form><div class="search-tool-result" data-tool-result aria-live="polite"></div>
-<p class="search-tool-note">最終確認：2026年8月6日。受入れ数は随時変わり、申込み後の選考があります。<a href="https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/4624.html" target="_blank" rel="noopener">森町公式の保育園案内</a>で最新状況を確認してください。</p>
+<p class="search-tool-note">最終確認：2026年10月8日。受入れ数は随時変わり、申込み後の選考があります。<a href="https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6917.html" target="_blank" rel="noopener">森町公式の令和9年度入所案内</a>で最新状況を確認してください。</p>
 </section>""",
     "/life/start-living/water-sewer/": """
 <section class="search-tool" id="water-fee-estimate" aria-labelledby="water-tool-title">

@@ -42,9 +42,12 @@ def main() -> int:
                 if not row.get(field):
                     errors.append(f"{index}: 取得済み行に{field}がありません")
             if row.get("content_type") in {"text/html", "application/xhtml+xml"}:
-                for field in ("title", "headings", "visible_chars", "visible_sha256"):
+                for field in ("title", "visible_chars", "visible_sha256"):
                     if not row.get(field):
                         errors.append(f"{index}: HTML行に{field}がありません")
+                # The official home page uses image headings with no text.
+                if not isinstance(row.get("headings"), list):
+                    errors.append(f"{index}: HTML行にheadings配列がありません")
 
     fetched = [row for row in rows if row.get("status") == "http-200"]
     if len(fetched) < args.require_fetched:

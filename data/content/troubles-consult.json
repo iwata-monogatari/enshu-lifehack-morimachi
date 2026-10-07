@@ -37,26 +37,26 @@
    {"icon": "📅", "title": "納期限は月末が基本", "body": "町県民税・固定資産税・軽自動車税・国民健康保険税など、税目ごとに納期が決まっています。12月は25日など例外もあるため確認が必要です。"},
    {"icon": "💳", "title": "納付方法はいろいろ選べる", "body": "口座振替、コンビニ、スマホアプリ、クレジットカード、金融機関窓口など複数の方法があります。口座振替が最も手間がかからないとされています。"},
    {"icon": "☎️", "title": "払えないときこそ早めの連絡", "body": "支払いが難しい事情があるときは、滞納のまま放置せず税務課納税係に相談してください。分割納付などの相談に応じてもらえます。"},
-   {"icon": "🏥", "title": "国保税も窓口が別にある", "body": "国民健康保険税については住民生活課 国保年金係が担当です。税と保険で窓口が分かれている点に注意してください。"}
+   {"icon": "🏥", "title": "国保税も窓口が別にある", "body": "国民健康保険税の納付方法・支払いの相談は税務課納税係へ確認します。保険の加入・資格の手続きとは窓口が異なります。"}
   ],
   "qa": [
-   {"question": "今月の町税が払えそうにありません。どうすればいいですか", "answer": "滞納のまま放置せず、早めに税務課納税係（電話0538-85-2111）へ相談してください。分割納付など状況に応じた対応を相談できます。"},
+   {"question": "今月の町税が払えそうにありません。どうすればいいですか", "answer": "滞納のまま放置せず、早めに税務課納税係（電話0538-85-6310）へ相談してください。分割納付など状況に応じた対応を相談できます。"},
    {"question": "納期限を過ぎてしまいました。コンビニで払えますか", "answer": "納期限を過ぎると、手元の納付書ではコンビニ納付ができなくなる場合があります。まずは税務課納税係に連絡し、納付方法を確認してください。"},
-   {"question": "国民健康保険税の支払いはどこに相談すればいいですか", "answer": "国民健康保険税については住民生活課 国保年金係が窓口です。税務課とあわせて、状況を伝えて相談してください。"}
+   {"question": "国民健康保険税の支払いはどこに相談すればいいですか", "answer": "国民健康保険税の納付相談は税務課納税係（0538-85-6310）へ連絡してください。保険加入等の手続きは国保年金係です。"}
   ],
   "tabs": [
-   {"id": "type-tax", "label": "町税が払えない", "heading": "町県民税・固定資産税などの相談", "bullets": ["納期限と税目ごとの納付スケジュールを確認する", "口座振替・コンビニ・アプリなど納付方法を確認する", "支払いが難しい場合は税務課納税係に早めに相談する"], "actions": [{"label": "納期限と納付方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html", "source": "森町公式"}, {"label": "税務課納税係に電話する", "href": "tel:0538-85-2111", "source": "0538-85-2111"}]},
-   {"id": "type-kokuho", "label": "国保税が払えない", "heading": "国民健康保険税の相談", "bullets": ["国民健康保険税は住民生活課 国保年金係が窓口", "納付が難しい場合は早めに相談する", "税務課とあわせて状況を伝えておくと安心"], "actions": [{"label": "国民健康保険のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html", "source": "森町公式"}, {"label": "住民生活課に電話する", "href": "tel:0538-85-2111", "source": "0538-85-2111"}]}
+   {"id": "type-tax", "label": "町税が払えない", "heading": "町県民税・固定資産税などの相談", "bullets": ["納期限と税目ごとの納付スケジュールを確認する", "口座振替・コンビニ・アプリなど納付方法を確認する", "支払いが難しい場合は税務課納税係に早めに相談する"], "actions": [{"label": "納期限と納付方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html", "source": "森町公式"}, {"label": "税務課納税係に電話する", "href": "tel:0538-85-6310", "source": "0538-85-6310"}]},
+   {"id": "type-kokuho", "label": "国保税が払えない", "heading": "国民健康保険税の相談", "bullets": ["国民健康保険税の納付相談は税務課納税係", "納付が難しい場合は早めに相談する", "税務課とあわせて状況を伝えておくと安心"], "actions": [{"label": "国民健康保険のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html", "source": "森町公式"}, {"label": "税務課納税係に電話する", "href": "tel:0538-85-6310", "source": "0538-85-6310"}]}
   ],
   "steps": {
    "today": ["納付書や督促状を手元に用意する", "税務課納税係へ電話し、支払いが難しい旨を伝える"],
-   "this_week": ["分割納付など可能な対応を相談する", "国保税については国保年金係にもあわせて確認する"],
+   "this_week": ["分割納付など可能な対応を相談する", "国保税の納付相談と、保険加入等の手続きを分けて確認する"],
    "outside": []
   },
   "action_grid": [
    {"label": "納期限と納付方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html"},
    {"label": "国民健康保険のページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html"},
-   {"label": "税務課に電話する", "href": "tel:0538-85-2111"},
+   {"label": "税務課に電話する", "href": "tel:0538-85-6310"},
    {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
   ]
  },

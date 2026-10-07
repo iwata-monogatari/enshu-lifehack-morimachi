@@ -31,31 +31,20 @@
   ],
   "sources_morimachi": [
    {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/houkagozidou/index.html",
-    "label": "放課後児童クラブ／静岡県森町",
-    "confidence": "high"
-   },
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6230.html",
-    "label": "令和8年度放課後児童クラブの利用申込みについて／静岡県森町",
-    "confidence": "high"
-   },
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6616.html",
-    "label": "放課後児童クラブ利用料の変更について／静岡県森町",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6882.html",
+    "label": "令和9年度放課後児童クラブの利用申込み／静岡県森町",
     "confidence": "high"
    }
   ],
   "facts": {
    "window": "健康こども課 幼稚園保育園係",
    "tel": "0538-86-6300",
-   "address": "〒437-0215 静岡県周智郡森町森50-1",
-   "application_period_r8": "令和7年9月16日（火）～10月17日（金）、平日8:30～12:00、13:00～17:00",
-   "fee_r8": "通年利用：月5,500円（8月は8,250円）、土曜利用：月1,000円、延長利用：月1,000円、長期休業期間のみ利用：2,750円～8,250円（期間による）",
-   "note": "対象学年はページに明記なし。申込書に「在学している小学校」の記載があり、小学生が対象と推定"
+   "address": "静岡県周智郡森町森50-1",
+   "hours": "申込受付：平日8:30〜12:00、13:00〜17:00",
+   "note": "令和9年度一斉申込：2026年9月14日〜10月16日。通年基本利用は通常月5,500円・8月8,250円。土曜・延長は各月1,000円追加。おやつ代等別途。"
   },
   "status": "machine-verified",
-  "verified_date": "2026-07-04",
+  "verified_date": "2026-10-08",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -79,7 +68,8 @@
   ],
   "action": "keep",
   "merge_target": "",
-  "ledger_status": "作業中"
+  "ledger_status": "作業中",
+  "content_updated": "2026-10-08"
  },
  {
   "href": "/life/education/educational-consulting/",
@@ -682,6 +672,16 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/904.html",
     "label": "ご利用案内（森町文化会館）",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/7022.html",
+    "label": "公共施設予約システムが10月1日に運用開始",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
+    "label": "文化会館の申請期限・支払時期を更新",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -692,7 +692,7 @@
    "library_study_use": "公式ページに「いつでも自由に閲覧できるほか、学習や研究の場としても利用できます」との記載あり。専用の「自習室」という名称や座席数の記載は確認できず、窓際の閲覧コーナーが静かな学習スペースとして案内されている",
    "bunkakaikan_tel": "0538-85-1111",
    "bunkakaikan_hours": "9時～21時30分",
-   "bunkakaikan_note": "研修室等の貸室あり（有料・要予約、申込は使用日の3か月前から5日前まで、大ホール・小ホールは別ルール）",
+   "bunkakaikan_note": "研修室等は有料・要予約。その他施設の申請締切は前日。受付開始は公式ページ間に3か月前と6か月前の相違があるため文化会館へ確認。",
    "note": "確認できた事実のみ記載。座席数・自習専用スペースの詳細は図書館へ直接確認が必要"
   },
   "status": "machine-verified",
@@ -3102,12 +3102,22 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kosodateshien_sodammadoguchi/3111.html",
     "label": "病児・病後児保育事業について／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6917.html",
+    "label": "令和9年度 保育所等入所の申込み／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/kodomodaredemotsuuennseido/6609.html",
+    "label": "こども誰でも通園制度の利用方法を確認",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "健康こども課 幼稚園保育園係",
    "tel": "0538-86-6300",
-   "note": "認可保育園3園・小規模保育所2園。募集は毎年9月中旬～10月中旬、入所決定は2月上旬まで。病児・病後児保育は生後6か月～就学前で回復期の子が対象"
+   "note": "令和9年度一斉申込は2026年9月14日〜10月16日。期間内申込みの内定は2027年1月末頃、正式決定は希望月の約1か月前頃の予定。病児・病後児保育は別制度です。"
   },
   "status": "machine-verified",
   "verified_date": "2026-07-04",
@@ -3163,19 +3173,29 @@
   ],
   "sources_morimachi": [
    {
-    "url": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4785.html",
-    "label": "幼稚園・保育園／静岡県森町",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6917.html",
+    "label": "令和9年度 保育所等入所の申込み／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/7003.html",
+    "label": "令和9年度 森町立幼稚園入園の申込み／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/7004.html",
+    "label": "令和9年度 森町立幼稚園預かり保育の申込み／静岡県森町",
     "confidence": "high"
    }
   ],
   "facts": {
    "window": "健康こども課 幼稚園保育園係",
    "tel": "0538-86-6300",
-   "note": "町立幼稚園5園（飯田・園田・一宮・森・天方）、認可保育園3園、小規模保育所2園。幼稚園は直接各園へ問い合わせ、保育園は9月中旬～10月中旬募集"
+   "note": "令和9年度一斉申込み：2026年9月14日〜10月16日。窓口は平日8:30〜12:00・13:00〜17:00。保育所等・幼稚園入園の電子申請は最終日17:15まで。町立幼稚園は飯田・園田・森の3園。"
   },
   "status": "machine-verified",
-  "verified_date": "2026-08-06",
-  "content_updated": "2026-08-06",
+  "verified_date": "2026-10-08",
+  "content_updated": "2026-10-08",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。森町には『こども園』の名称施設は確認できず、タイトルを幼稚園・保育園に修正。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -3313,6 +3333,11 @@
    {
     "url": "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4811.html",
     "label": "妊娠したら(母子健康手帳の交付)／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/3/5914.html",
+    "label": "妊婦のための支援給付の案内を追加",
     "confidence": "high"
    }
   ],
@@ -3457,6 +3482,16 @@
    {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html",
     "label": "風しん予防接種の費用を助成します／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/4656.html",
+    "label": "高齢者インフルエンザ助成は自己負担1,600円",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/3822.html",
+    "label": "新型コロナ定期接種助成は自己負担8,000円",
     "confidence": "high"
    }
   ],
@@ -4315,6 +4350,16 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html",
     "label": "令和8年度高齢者肺炎球菌定期予防接種費用一部助成について／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/4656.html",
+    "label": "高齢者インフルエンザ助成は自己負担1,600円",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/3822.html",
+    "label": "新型コロナ定期接種助成は自己負担8,000円",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -5104,6 +5149,16 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
     "label": "固定資産税・都市計画税の納付について／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/7028.html",
+    "label": "11月3日「我が家の終活セミナー」",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/2/6470.html",
+    "label": "11月28日の空き家無料相談会は予約制",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -5175,6 +5230,11 @@
    {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/1/index.html",
     "label": "移住定住相談（オンライン相談）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/tokei/1249.html",
+    "label": "10月1日現在の人口・世帯数",
     "confidence": "high"
    }
   ],
@@ -5749,6 +5809,11 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html",
     "label": "ごみの出し方／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
+    "label": "一宮の最終処分場への家庭ごみ直接搬入は終了",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -6055,6 +6120,11 @@
    {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/1/4614.html",
     "label": "保育所について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6917.html",
+    "label": "令和9年度の保育所等申込みは10月16日まで",
     "confidence": "high"
    }
   ],
@@ -6870,6 +6940,11 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/4189.html",
     "label": "要介護認定申請・介護保険サービスの利用等について／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/3/4836.html",
+    "label": "介護保険書類の送付先は届出で変更可能",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -6953,6 +7028,16 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
     "label": "施設の予約方法及び申請書ダウンロード／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/7022.html",
+    "label": "公共施設予約システムが10月1日に運用開始",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/bunka/usageguidance/2125.html",
+    "label": "森町文化会館施設予約（その他施設の受付開始に記載差あり）",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -6963,7 +7048,7 @@
    "hours": "9時～17時",
    "closed": "月曜休館（月曜が祝日の場合は翌日以降の平日）",
    "parking": "270台完備",
-   "yoyaku": "大ホールは使用日の12か月前～30日前、小ホールは6か月前～5日前、その他施設は3か月前～5日前に申請書提出。仮予約は電話またはHPで空き状況確認後、申請書提出と使用料支払いで正式予約"
+   "yoyaku": "大ホール：12か月前〜30日前、小ホール：6か月前〜15日前。その他施設：前日まで（受付開始は公式ページに3か月前・6か月前の相違があり要確認）。使用後の納付書は使用月翌月末までに支払う。"
   },
   "status": "machine-verified",
   "verified_date": "2026-07-04",
@@ -7024,6 +7109,11 @@
    {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html",
     "label": "公共施設の予約情報確認について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/7022.html",
+    "label": "公共施設予約システムが10月1日に運用開始",
     "confidence": "high"
    }
   ],
@@ -7363,25 +7453,23 @@
   ],
   "sources_morimachi": [
    {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html",
-    "label": "公共施設の予約情報確認について／静岡県森町",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/7022.html",
+    "label": "公共施設予約システムの運用開始／静岡県森町",
     "confidence": "high"
    },
    {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
-    "label": "施設の予約方法及び申請書ダウンロード／静岡県森町",
+    "label": "文化会館の予約方法／静岡県森町",
     "confidence": "high"
    }
   ],
   "facts": {
-   "window": "財政課 契約管財係",
+   "window": "財政課 契約管財係（町民生活センター）",
    "tel": "0538-85-6306",
-   "taiikushisetsu_tel": "体育施設（森アリーナ等）は社会教育課 社会体育係 0538-85-4191",
-   "juumin_center_tel": "町民生活センターは住民生活課住民係 0538-85-6312",
-   "note": "予約方法は施設ごとに異なり「各施設にお問い合わせください」と案内。空き状況確認は外部サイト（task-asp.net）"
+   "note": "体育施設：0538-85-4191、文化会館：0538-85-1111。2026年10月1日から公共施設予約システムを導入。ユーザ登録と施設ごとの利用申請が必要。"
   },
   "status": "machine-verified",
-  "verified_date": "2026-07-04",
+  "verified_date": "2026-10-08",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
@@ -7403,7 +7491,8 @@
   ],
   "action": "keep",
   "merge_target": "",
-  "ledger_status": "作業中"
+  "ledger_status": "作業中",
+  "content_updated": "2026-10-08"
  },
  {
   "href": "/life/play-out/sports-facilities/",
@@ -7440,6 +7529,11 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/shakaitaiikugakari/1/1072.html",
     "label": "森町の体育施設／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/7022.html",
+    "label": "公共施設予約システムが10月1日に運用開始",
+    "confidence": "high"
    }
   ],
   "facts": {
@@ -7450,7 +7544,7 @@
    "hours": "8:30～21:30",
    "closed": "火曜日（祝日の場合は翌日）、年末年始（12/28～1/4）",
    "parking": "100台（無料）",
-   "yoyaku": "予約受付は使用日前5日から2か月前（夜間照明は1か月前）",
+   "yoyaku": "体育館・町営グラウンドの団体予約：2か月前の月初〜前日、取消しは前日まで。学校夜間照明：1か月前〜5日前、取消しは3日前まで。",
    "ryokin": "アマチュアスポーツ・入場無料の専用利用で1650円～4950円、町外利用者は1.5倍（一部の番号は公式ページ本文で再確認できていません）"
   },
   "status": "ai-checked",
@@ -7664,6 +7758,11 @@
    {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html",
     "label": "中遠クリーンセンターリユーズ事業について（不用品の無料譲渡）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
+    "label": "一宮の最終処分場への家庭ごみ直接搬入は終了",
     "confidence": "high"
    }
   ],
@@ -9091,11 +9190,16 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html",
     "label": "国民健康保険／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1373.html",
+    "label": "町税の納付方法と納税係の連絡先を再確認",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "税務課 納税係",
-   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）"
+   "tel": "0538-85-6310"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",

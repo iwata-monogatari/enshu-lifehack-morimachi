@@ -19,7 +19,9 @@ assert.equal(garbage.burnable, '2026-08-06');
 assert.deepEqual(calculateWater(40, 13, true), {water: 5324, sewer: 4400, total: 9724});
 assert.deepEqual(calculateWater(16, 13, false), {water: 2420, sewer: 0, total: 2420});
 
-assert.deepEqual(nurseryForAge(3).map(row => row.status), ['×', '○', '△', '—', '—']);
+// Confirmed against Mori Town's r9nyusyokanou.pdf on 2026-10-08.
+assert.deepEqual(nurseryForAge(3).map(row => row.status), ['○', '○', '○', '—', '—']);
+assert.deepEqual(nurseryForAge(2).map(row => row.status), ['○', '△', '△', '△', '○']);
 
 assert.equal(migrationCandidate({
   move: 'yes', tokyo: 'yes', withinYear: 'yes', fiveYears: 'yes', route: 'telework'

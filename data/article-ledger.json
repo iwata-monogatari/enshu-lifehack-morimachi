@@ -8,14 +8,14 @@
   "risk_level": "B",
   "review_status": "verified",
   "content_owner": "大石浩之",
-  "last_verified_at": "2026-07-03",
-  "municipality_page_checked_at": "2026-07-03",
+  "last_verified_at": "2026-10-08",
+  "municipality_page_checked_at": "2026-10-08",
   "national_system_checked_at": "",
   "phone_verified_at": "",
-  "next_review_at": "2027-01-03",
+  "next_review_at": "2027-04-08",
   "review_overdue": "いいえ",
-  "source_count": 3,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/houkagozidou/index.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6230.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6616.html",
+  "source_count": 1,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6882.html",
   "notes": ""
  },
  {
@@ -166,7 +166,7 @@
   "phone_verified_at": "",
   "next_review_at": "2027-01-04",
   "review_overdue": "いいえ",
-  "source_count": 3,
+  "source_count": 5,
   "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/909.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/904.html",
   "notes": ""
  },
@@ -616,14 +616,14 @@
   "risk_level": "B",
   "review_status": "verified",
   "content_owner": "大石浩之",
-  "last_verified_at": "2026-07-03",
-  "municipality_page_checked_at": "2026-07-03",
+  "last_verified_at": "2026-07-04",
+  "municipality_page_checked_at": "2026-07-04",
   "national_system_checked_at": "",
   "phone_verified_at": "",
-  "next_review_at": "2027-01-03",
+  "next_review_at": "2027-01-04",
   "review_overdue": "いいえ",
-  "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4785.html / https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kosodateshien_sodammadoguchi/3111.html",
+  "source_count": 4,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4785.html / https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kosodateshien_sodammadoguchi/3111.html / https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6917.html",
   "notes": ""
  },
  {
@@ -635,14 +635,14 @@
   "risk_level": "B",
   "review_status": "verified",
   "content_owner": "大石浩之",
-  "last_verified_at": "2026-08-06",
-  "municipality_page_checked_at": "2026-08-06",
+  "last_verified_at": "2026-10-08",
+  "municipality_page_checked_at": "2026-10-08",
   "national_system_checked_at": "",
   "phone_verified_at": "",
-  "next_review_at": "2027-02-06",
+  "next_review_at": "2027-04-08",
   "review_overdue": "いいえ",
-  "source_count": 1,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/morikko/sodachi/4785.html",
+  "source_count": 3,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6917.html / https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/7003.html / https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/7004.html",
   "notes": ""
  },
  {
@@ -679,8 +679,8 @@
   "phone_verified_at": "",
   "next_review_at": "2027-01-03",
   "review_overdue": "いいえ",
-  "source_count": 1,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4811.html",
+  "source_count": 2,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4811.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/3/5914.html",
   "notes": ""
  },
  {
@@ -711,14 +711,14 @@
   "risk_level": "A",
   "review_status": "verified",
   "content_owner": "大石浩之",
-  "last_verified_at": "2026-07-03",
-  "municipality_page_checked_at": "2026-07-03",
+  "last_verified_at": "2026-07-04",
+  "municipality_page_checked_at": "2026-07-04",
   "national_system_checked_at": "",
   "phone_verified_at": "",
-  "next_review_at": "2026-10-03",
+  "next_review_at": "2026-10-04",
   "review_overdue": "いいえ",
-  "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html",
+  "source_count": 4,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html / https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/4656.html",
   "notes": ""
  },
  {
@@ -901,14 +901,14 @@
   "risk_level": "A",
   "review_status": "verified",
   "content_owner": "大石浩之",
-  "last_verified_at": "2026-07-03",
-  "municipality_page_checked_at": "2026-07-03",
+  "last_verified_at": "2026-07-04",
+  "municipality_page_checked_at": "2026-07-04",
   "national_system_checked_at": "",
   "phone_verified_at": "",
-  "next_review_at": "2026-10-03",
+  "next_review_at": "2026-10-04",
   "review_overdue": "いいえ",
-  "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html / https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html",
+  "source_count": 4,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/6737.html / https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/5438.html / https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenkoukanri_kansennshou/4656.html",
   "notes": ""
  },
  {
@@ -1116,7 +1116,7 @@
   "phone_verified_at": "",
   "next_review_at": "2027-02-06",
   "review_overdue": "いいえ",
-  "source_count": 3,
+  "source_count": 5,
   "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/2/2222.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/2/379.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
   "notes": ""
  },
@@ -1135,8 +1135,8 @@
   "phone_verified_at": "",
   "next_review_at": "2027-08-06",
   "review_overdue": "いいえ",
-  "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/ijyu/index.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/1/index.html",
+  "source_count": 3,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/ijyu/index.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/1/index.html / https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/tokei/1249.html",
   "notes": ""
  },
  {
@@ -1230,8 +1230,8 @@
   "phone_verified_at": "",
   "next_review_at": "2027-01-04",
   "review_overdue": "いいえ",
-  "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/688.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html",
+  "source_count": 3,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/688.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
   "notes": ""
  },
  {
@@ -1325,8 +1325,8 @@
   "phone_verified_at": "",
   "next_review_at": "2027-01-03",
   "review_overdue": "いいえ",
-  "source_count": 1,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/1/4614.html",
+  "source_count": 2,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/1/4614.html / https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6917.html",
   "notes": ""
  },
  {
@@ -1496,8 +1496,8 @@
   "phone_verified_at": "",
   "next_review_at": "2026-11-06",
   "review_overdue": "いいえ",
-  "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kaigohoken/4204.html / https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/4189.html",
+  "source_count": 3,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kaigohoken/4204.html / https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kaigoyobo/4189.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/kaigohokengakari/4/3/4836.html",
   "notes": ""
  },
  {
@@ -1509,13 +1509,13 @@
   "risk_level": "C",
   "review_status": "verified",
   "content_owner": "大石浩之",
-  "last_verified_at": "2026-07-03",
-  "municipality_page_checked_at": "2026-07-03",
+  "last_verified_at": "2026-07-04",
+  "municipality_page_checked_at": "2026-07-04",
   "national_system_checked_at": "",
   "phone_verified_at": "",
-  "next_review_at": "2027-07-03",
+  "next_review_at": "2027-07-04",
   "review_overdue": "いいえ",
-  "source_count": 3,
+  "source_count": 5,
   "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/901.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/912.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
   "notes": ""
  },
@@ -1534,8 +1534,8 @@
   "phone_verified_at": "",
   "next_review_at": "2027-07-03",
   "review_overdue": "いいえ",
-  "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1164.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html",
+  "source_count": 3,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/1164.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html / https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/7022.html",
   "notes": ""
  },
  {
@@ -1604,14 +1604,14 @@
   "risk_level": "C",
   "review_status": "verified",
   "content_owner": "大石浩之",
-  "last_verified_at": "2026-07-03",
-  "municipality_page_checked_at": "2026-07-03",
+  "last_verified_at": "2026-10-08",
+  "municipality_page_checked_at": "2026-10-08",
   "national_system_checked_at": "",
   "phone_verified_at": "",
-  "next_review_at": "2027-07-03",
+  "next_review_at": "2027-10-08",
   "review_overdue": "いいえ",
   "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/681.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/7022.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
   "notes": ""
  },
  {
@@ -1629,8 +1629,8 @@
   "phone_verified_at": "",
   "next_review_at": "2027-07-03",
   "review_overdue": "いいえ",
-  "source_count": 1,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/shakaitaiikugakari/1/1072.html",
+  "source_count": 2,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/shakaitaiikugakari/1/1072.html / https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinogaiyo/machinoshisetsu/7022.html",
   "notes": ""
  },
  {
@@ -1686,8 +1686,8 @@
   "phone_verified_at": "",
   "next_review_at": "2027-01-03",
   "review_overdue": "いいえ",
-  "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html",
+  "source_count": 3,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
   "notes": ""
  },
  {
@@ -1952,8 +1952,8 @@
   "phone_verified_at": "",
   "next_review_at": "2026-10-03",
   "review_overdue": "いいえ",
-  "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html",
+  "source_count": 3,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/761.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html / https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1373.html",
   "notes": ""
  },
  {

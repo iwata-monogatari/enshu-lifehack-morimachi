@@ -57,6 +57,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("リンクの重複表示", [sys.executable, "scripts/fix_duplicate_labels.py"]),
     ("301経由の内部リンクを統合先へ直結", [sys.executable, "scripts/fix_internal_redirect_links.py"]),
     ("台帳の facts を公式窓口ブロックへ反映", [sys.executable, "scripts/sync_facts_to_html.py"]),
+    ("確認した公式更新を一覧と関連ページへ反映", [sys.executable, "scripts/build_official_updates.py"]),
     ("シェア文の再生成", [sys.executable, "scripts/inject_share_box.py"]),
     ("CTAの出し分け", [sys.executable, "scripts/inject_cta.py"]),
     ("見出しidの付与", [sys.executable, "scripts/add_section_ids.py"]),
@@ -77,6 +78,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("検索インデックスの生成", ["node", "scripts/build-search-index.mjs"]),
     ("検索テスト", ["node", "scripts/test-search.mjs"]),
     ("検索支援機能の計算テスト", ["node", "scripts/test-search-tools.mjs"]),
+    ("公式更新の出典・対象年度・掲載整合を検査", [sys.executable, "scripts/audit_official_updates.py"]),
     # 第4期300ページは品質監査不合格を理由に撤回済み。公開対象として
     # 再監査せず、preflightでnoindex・検索・sitemap隔離だけを検証する。
     ("静岡県森町200ガイドの品質監査", [sys.executable, "scripts/audit_discover.py"]),
