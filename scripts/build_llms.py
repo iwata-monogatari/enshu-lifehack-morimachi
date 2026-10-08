@@ -86,6 +86,13 @@ def main():
         f'- [運営会社: 富士ヶ丘サービス株式会社](https://www.fujigaoka-service.co.jp/)',
     ]
 
+    latest = sorted(blog, key=lambda row: (row['date'], row['slug']), reverse=True)[:12]
+    at = lines.index('## 運営情報')
+    lines[at:at] = ['### 新着記事', ''] + [
+        f"- {post['date']} [{post['title']}]({SITE}/blog/{post['slug']}/)"
+        for post in latest
+    ] + ['', f'- [全記事索引]({SITE}/llms-full.txt)', '']
+
     out = ROOT / 'llms.txt'
     out.write_text('\n'.join(lines) + '\n', encoding='utf-8')
 

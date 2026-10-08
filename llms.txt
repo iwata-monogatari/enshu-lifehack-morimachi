@@ -43,7 +43,24 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（298本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（302本）
+
+### 新着記事
+
+- 2026-10-08 [森町の竹等粉砕機貸出し｜申請前の準備](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-take-funsaiki/)
+- 2026-10-08 [森町森林整備計画｜持ち山の整備方針を知る](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-shinrin-seibi-keikaku/)
+- 2026-10-08 [森町のクビアカツヤカミキリ｜発見時の連絡](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-kubiaka-renraku/)
+- 2026-10-08 [茶の輸出生産拠点｜森町の茶工場の参加条件](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-cha-yushutsu/)
+- 2026-10-07 [富永謙太郎展｜森町城下で挿絵画家を知る](https://morimachi.enshu-lifehack.com/blog/20261007-tominaga-kentaro-ten/)
+- 2026-10-07 [文化財修復助成2026｜森町の仏像を守る費用](https://morimachi.enshu-lifehack.com/blog/20261007-sumitomo-bunkazai-josei/)
+- 2026-10-07 [小國神社の七五三｜森町で予約と受付を確認](https://morimachi.enshu-lifehack.com/blog/20261007-okuni-shichigosan-uketsuke/)
+- 2026-10-07 [森町マインドフルツーリズムと社寺の負担](https://morimachi.enshu-lifehack.com/blog/20261007-mindful-tourism-ninaite/)
+- 2026-10-06 [相続登記の免税｜森町の土地100万円以下](https://morimachi.enshu-lifehack.com/blog/20261006-sozoku-toki-menzei/)
+- 2026-10-06 [森町の実家の家電処分｜2026年料金で確認](https://morimachi.enshu-lifehack.com/blog/20261006-morimachi-kaden-shobun/)
+- 2026-10-06 [居住サポート住宅とは｜森町の空き家を貸す前に](https://morimachi.enshu-lifehack.com/blog/20261006-kyoju-support-jutaku-owner/)
+- 2026-10-06 [空き家の管理命令2制度｜森町の隣家で困ったら](https://morimachi.enshu-lifehack.com/blog/20261006-akiya-kanri-meirei-hikaku/)
+
+- [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
 ## 運営情報
 
