@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（310本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（314本）
 
 ### 新着記事
 
+- 2026-10-11 [森町の就学時健診｜10・11月の入学準備](https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-shugakuji-kenshin/)
+- 2026-10-11 [森町の学生Uターン支援｜2026年度の確認先](https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-gakusei-uturn-shien/)
+- 2026-10-11 [森町の電動自転車補助｜町内外の購入を比較](https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-dendo-jitensha-hojo/)
+- 2026-10-11 [森町の蓄電池補助｜太陽光との併用条件](https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-chikudenchi-hojo/)
 - 2026-10-10 [森町の職場体験講座｜冬の開催と受入企業](https://morimachi.enshu-lifehack.com/blog/20261010-shokubataiken-ukeire/)
 - 2026-10-10 [新春森町寄席のチケット｜第30回の購入手順](https://morimachi.enshu-lifehack.com/blog/20261010-shinshun-yose-ticket/)
 - 2026-10-10 [森町の秋祭り｜10月10・11日の開催地区](https://morimachi.enshu-lifehack.com/blog/20261010-morimachi-akimatsuri-chiku/)
@@ -55,10 +59,6 @@
 - 2026-10-09 [森町・中川下の工業用地｜造成予定を読む](https://morimachi.enshu-lifehack.com/blog/20261009-nakagawashimo-kogyo-yotei/)
 - 2026-10-09 [森町の光クロス｜住所別に提供可否を確認](https://morimachi.enshu-lifehack.com/blog/20261009-morimachi-hikari-cross-area/)
 - 2026-10-09 [森町フォレッチャ｜パークと貸自転車を比較](https://morimachi.enshu-lifehack.com/blog/20261009-forecha-park-rental-hikaku/)
-- 2026-10-08 [森町の竹等粉砕機貸出し｜申請前の準備](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-take-funsaiki/)
-- 2026-10-08 [森町森林整備計画｜持ち山の整備方針を知る](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-shinrin-seibi-keikaku/)
-- 2026-10-08 [森町のクビアカツヤカミキリ｜発見時の連絡](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-kubiaka-renraku/)
-- 2026-10-08 [茶の輸出生産拠点｜森町の茶工場の参加条件](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-cha-yushutsu/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
