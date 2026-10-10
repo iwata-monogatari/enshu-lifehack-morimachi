@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（306本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（310本）
 
 ### 新着記事
 
+- 2026-10-10 [森町の職場体験講座｜冬の開催と受入企業](https://morimachi.enshu-lifehack.com/blog/20261010-shokubataiken-ukeire/)
+- 2026-10-10 [新春森町寄席のチケット｜第30回の購入手順](https://morimachi.enshu-lifehack.com/blog/20261010-shinshun-yose-ticket/)
+- 2026-10-10 [森町の秋祭り｜10月10・11日の開催地区](https://morimachi.enshu-lifehack.com/blog/20261010-morimachi-akimatsuri-chiku/)
+- 2026-10-10 [森町文化会館の車いす席｜観覧前の相談先](https://morimachi.enshu-lifehack.com/blog/20261010-bunka-kaikan-wheelchair/)
 - 2026-10-09 [小國神社開運線の迂回｜森駅の乗り場変更](https://morimachi.enshu-lifehack.com/blog/20261009-okuni-jinja-bus-ukai/)
 - 2026-10-09 [森町・中川下の工業用地｜造成予定を読む](https://morimachi.enshu-lifehack.com/blog/20261009-nakagawashimo-kogyo-yotei/)
 - 2026-10-09 [森町の光クロス｜住所別に提供可否を確認](https://morimachi.enshu-lifehack.com/blog/20261009-morimachi-hikari-cross-area/)
@@ -55,10 +59,6 @@
 - 2026-10-08 [森町森林整備計画｜持ち山の整備方針を知る](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-shinrin-seibi-keikaku/)
 - 2026-10-08 [森町のクビアカツヤカミキリ｜発見時の連絡](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-kubiaka-renraku/)
 - 2026-10-08 [茶の輸出生産拠点｜森町の茶工場の参加条件](https://morimachi.enshu-lifehack.com/blog/20261008-morimachi-cha-yushutsu/)
-- 2026-10-07 [富永謙太郎展｜森町城下で挿絵画家を知る](https://morimachi.enshu-lifehack.com/blog/20261007-tominaga-kentaro-ten/)
-- 2026-10-07 [文化財修復助成2026｜森町の仏像を守る費用](https://morimachi.enshu-lifehack.com/blog/20261007-sumitomo-bunkazai-josei/)
-- 2026-10-07 [小國神社の七五三｜森町で予約と受付を確認](https://morimachi.enshu-lifehack.com/blog/20261007-okuni-shichigosan-uketsuke/)
-- 2026-10-07 [森町マインドフルツーリズムと社寺の負担](https://morimachi.enshu-lifehack.com/blog/20261007-mindful-tourism-ninaite/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
