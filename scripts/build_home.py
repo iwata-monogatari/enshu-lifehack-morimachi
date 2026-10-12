@@ -267,6 +267,7 @@ def build() -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="msvalidate.01" content="89725CAEB5FB57CDD61BB0739FB47025">
 <title>静岡県森町ライフハック｜手続き・介護・空き家を困りごとから探す</title>
 <meta name="description" content="{esc(DESCRIPTION)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
