@@ -9,6 +9,11 @@
 /iwata/  /  301
 /iwata/*  /:splat  301
 
+# Search Console 404: retired author URL now lives at /about/author/.
+/author/oishi-hiroyuki/  /about/author/  301
+/author/oishi-hiroyuki  /about/author/  301
+/author/oishi-hiroyuki/index.html  /about/author/  301
+
 # 2026-08 統合（抜本改修指示書 5.3 / 5.4）: 重複していたページを統合先へ301
 /life/education/school-attendance-support/  /life/education/educational-consulting/  301
 /life/emergency/emergency-medical/  /life/health-medical/night-holiday-medical/  301

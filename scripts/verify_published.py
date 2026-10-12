@@ -69,6 +69,9 @@ def main() -> None:
     urls = re.findall(r"<loc>([^<]+)</loc>", xml)
     topics = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
     merges = {t["href"]: t["merge_target"] for t in topics if t.get("action") == "merge"}
+    # The old blog author URL was discovered as a 404 in Search Console.
+    for path in ("/author/oishi-hiroyuki/", "/author/oishi-hiroyuki", "/author/oishi-hiroyuki/index.html"):
+        merges[path] = "/about/author/"
 
     print(f"1. sitemap.xml の全URL（{len(urls)}件）が200を返すか")
     bad_pages = []
