@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（322本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（326本）
 
 ### 新着記事
 
+- 2026-10-15 [森町の有機茶転換｜栽培より先に経営体制を確認](https://morimachi.enshu-lifehack.com/blog/20261015-morimachi-yukicha-tenkan/)
+- 2026-10-15 [森町の農業データ活用｜92経営体の中身を読む](https://morimachi.enshu-lifehack.com/blog/20261015-morimachi-nogyo-data/)
+- 2026-10-15 [森町の保安林｜落ち葉を採る前の確認](https://morimachi.enshu-lifehack.com/blog/20261015-morimachi-hoanrin-ochiba/)
+- 2026-10-15 [森掛川IC周辺の土地開発｜町が難しいとした理由](https://morimachi.enshu-lifehack.com/blog/20261015-morikakegawa-ic-kaihatsu/)
 - 2026-10-14 [小國神社の福神像頒布式｜10月18日の意味](https://morimachi.enshu-lifehack.com/blog/20261014-oguni-fukushinzo-hanpushiki/)
 - 2026-10-14 [小國神社の土鈴館｜約900点と八角形の建築](https://morimachi.enshu-lifehack.com/blog/20261014-oguni-doreikan/)
 - 2026-10-14 [森町の歴史調べ｜図説と資料館を比較](https://morimachi.enshu-lifehack.com/blog/20261014-morimachi-rekishi-shirabekata/)
@@ -55,10 +59,6 @@
 - 2026-10-12 [森町の業務改善助成金｜10月14日前の確認](https://morimachi.enshu-lifehack.com/blog/20261012-morimachi-gyomu-kaizen-joseikin/)
 - 2026-10-12 [国民年金の控除証明書2026｜電子と郵送の違い](https://morimachi.enshu-lifehack.com/blog/20261012-kokuminnenkin-kojo-shomeisho/)
 - 2026-10-12 [地震保険料控除2026｜森町の家の書類整理](https://morimachi.enshu-lifehack.com/blog/20261012-jishin-hokenryo-kojo/)
-- 2026-10-11 [森町の就学時健診｜10・11月の入学準備](https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-shugakuji-kenshin/)
-- 2026-10-11 [森町の学生Uターン支援｜2026年度の確認先](https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-gakusei-uturn-shien/)
-- 2026-10-11 [森町の電動自転車補助｜町内外の購入を比較](https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-dendo-jitensha-hojo/)
-- 2026-10-11 [森町の蓄電池補助｜太陽光との併用条件](https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-chikudenchi-hojo/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
