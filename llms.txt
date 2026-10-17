@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（330本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（334本）
 
 ### 新着記事
 
+- 2026-10-17 [森町消防団車両展示会｜11月・12月の参加案内](https://morimachi.enshu-lifehack.com/blog/20261017-morimachi-shobodan-tenjikai/)
+- 2026-10-17 [森のまつりポスター｜森町の店で掲示するには](https://morimachi.enshu-lifehack.com/blog/20261017-mori-matsuri-poster/)
+- 2026-10-17 [祭りの音楽利用｜森町の主催者が確認する3条件](https://morimachi.enshu-lifehack.com/blog/20261017-matsuri-ongaku-tetsuzuki/)
+- 2026-10-17 [コテージ・アクティ休業｜森町の秋の宿泊確認](https://morimachi.enshu-lifehack.com/blog/20261017-cottage-acty-kyugyo/)
 - 2026-10-16 [森町の通行止め情報｜県道と町道の調べ分け](https://morimachi.enshu-lifehack.com/blog/20261016-morimachi-road-closure-check/)
 - 2026-10-16 [森町の出産交通費助成｜片道60分の事前相談](https://morimachi.enshu-lifehack.com/blog/20261016-morimachi-maternity-travel-address/)
 - 2026-10-16 [森町病院の患者バス｜三倉方面の通院準備](https://morimachi.enshu-lifehack.com/blog/20261016-morimachi-hospital-patient-bus/)
@@ -55,10 +59,6 @@
 - 2026-10-15 [森町の農業データ活用｜92経営体の中身を読む](https://morimachi.enshu-lifehack.com/blog/20261015-morimachi-nogyo-data/)
 - 2026-10-15 [森町の保安林｜落ち葉を採る前の確認](https://morimachi.enshu-lifehack.com/blog/20261015-morimachi-hoanrin-ochiba/)
 - 2026-10-15 [森掛川IC周辺の土地開発｜町が難しいとした理由](https://morimachi.enshu-lifehack.com/blog/20261015-morikakegawa-ic-kaihatsu/)
-- 2026-10-14 [小國神社の福神像頒布式｜10月18日の意味](https://morimachi.enshu-lifehack.com/blog/20261014-oguni-fukushinzo-hanpushiki/)
-- 2026-10-14 [小國神社の土鈴館｜約900点と八角形の建築](https://morimachi.enshu-lifehack.com/blog/20261014-oguni-doreikan/)
-- 2026-10-14 [森町の歴史調べ｜図説と資料館を比較](https://morimachi.enshu-lifehack.com/blog/20261014-morimachi-rekishi-shirabekata/)
-- 2026-10-14 [森町の景観届出｜建築前の30日を確認](https://morimachi.enshu-lifehack.com/blog/20261014-morimachi-keikan-todokede/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
