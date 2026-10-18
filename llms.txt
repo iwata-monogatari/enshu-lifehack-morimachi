@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（334本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（338本）
 
 ### 新着記事
 
+- 2026-10-18 [森町の就学援助｜給食以外の学校費用を確認](https://morimachi.enshu-lifehack.com/blog/20261018-morimachi-shugaku-enjo/)
+- 2026-10-18 [森町のリユースマーケット｜物品提供前の確認](https://morimachi.enshu-lifehack.com/blog/20261018-morimachi-reuse-market/)
+- 2026-10-18 [森町の住民税改正2027｜子育て家計への影響](https://morimachi.enshu-lifehack.com/blog/20261018-morimachi-juminzei-2027/)
+- 2026-10-18 [森町のファミサポ｜送迎を頼む前の会員登録](https://morimachi.enshu-lifehack.com/blog/20261018-morimachi-famisapo-toroku/)
 - 2026-10-17 [森町消防団車両展示会｜11月・12月の参加案内](https://morimachi.enshu-lifehack.com/blog/20261017-morimachi-shobodan-tenjikai/)
 - 2026-10-17 [森のまつりポスター｜森町の店で掲示するには](https://morimachi.enshu-lifehack.com/blog/20261017-mori-matsuri-poster/)
 - 2026-10-17 [祭りの音楽利用｜森町の主催者が確認する3条件](https://morimachi.enshu-lifehack.com/blog/20261017-matsuri-ongaku-tetsuzuki/)
@@ -55,10 +59,6 @@
 - 2026-10-16 [森町の出産交通費助成｜片道60分の事前相談](https://morimachi.enshu-lifehack.com/blog/20261016-morimachi-maternity-travel-address/)
 - 2026-10-16 [森町病院の患者バス｜三倉方面の通院準備](https://morimachi.enshu-lifehack.com/blog/20261016-morimachi-hospital-patient-bus/)
 - 2026-10-16 [遠州森町スマートIC｜乗る前の買い物と休憩](https://morimachi.enshu-lifehack.com/blog/20261016-enshumorimachi-smartic-pa/)
-- 2026-10-15 [森町の有機茶転換｜栽培より先に経営体制を確認](https://morimachi.enshu-lifehack.com/blog/20261015-morimachi-yukicha-tenkan/)
-- 2026-10-15 [森町の農業データ活用｜92経営体の中身を読む](https://morimachi.enshu-lifehack.com/blog/20261015-morimachi-nogyo-data/)
-- 2026-10-15 [森町の保安林｜落ち葉を採る前の確認](https://morimachi.enshu-lifehack.com/blog/20261015-morimachi-hoanrin-ochiba/)
-- 2026-10-15 [森掛川IC周辺の土地開発｜町が難しいとした理由](https://morimachi.enshu-lifehack.com/blog/20261015-morikakegawa-ic-kaihatsu/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="家庭の洗濯物から畳んだ衣類、児童館での受渡し、袋を持つ次の家族へ続く情景図。準備と確認を経て物をつなぐ流れを示し、個別の品の受入れを保証する図ではない。" data-illustration="mori-editorial">
+<rect x="0" y="0" width="1000" height="560" fill="#f4f0e5"/>
+<ellipse cx="853.0" cy="65.0" rx="29.0" ry="29.0" fill="#ead79c"/>
+<polygon points="0,244 154,115 288,213 440,95 626,237 792,137 1000,241 1000,400 0,400" fill="#c9d6c2"/>
+<polygon points="0,295 206,220 366,294 609,209 811,285 1000,222 1000,560 0,560" fill="#a4bd9c"/>
+<polygon points="0,405 300,349 630,397 1000,351 1000,560 0,560" fill="#e0e2c5"/>
+<polygon points="720,560 815,560 648,367 591,349 551,355" fill="#abcbd0"/>
+<rect x="70" y="270" width="82.5" height="60.50000000000001" fill="#fbf5df"/>
+<polygon points="64.5,270 111.25,234.25 158.0,270" fill="#526e60"/>
+<rect x="83.75" y="286.5" width="20.900000000000002" height="19.25" fill="#a5c5cb"/>
+<rect x="120.6" y="289.25" width="16.5" height="41.25" fill="#b7976b"/>
+<rect x="880" y="278" width="82.5" height="60.50000000000001" fill="#fbf5df"/>
+<polygon points="874.5,278 921.25,242.25 968.0,278" fill="#526e60"/>
+<rect x="893.75" y="294.5" width="20.900000000000002" height="19.25" fill="#a5c5cb"/>
+<rect x="930.6" y="297.25" width="16.5" height="41.25" fill="#b7976b"/>
+<rect x="28" y="25" width="690" height="72" fill="#f4f0e5"/>
+<text x="50" y="69" font-family="Yu Gothic, sans-serif" font-size="29" fill="#294c43">選ぶ・洗う・確かめる・手渡す</text>
+<polygon points="110,286 129.2,276.4 139.6,286 156.4,276.4 175.60000000000002,286 192.4,313.2 171.6,323.6 167.6,310.0 167.6,368.4 117.2,368.4 117.2,310.0 111.6,323.6 94.0,313.2" fill="#d3a16b"/>
+<polyline points="268,275 268,392" fill="none" stroke="#779181" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="268,280 421,280" fill="none" stroke="#779181" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="310,291 325.6,283.2 334.05,291 347.7,283.2 363.3,291 376.95,313.1 360.05,321.55 356.8,310.5 356.8,357.95 315.85,357.95 315.85,310.5 311.3,321.55 297.0,313.1" fill="#81a6a3"/>
+<rect x="506" y="288" width="127.5" height="93.5" fill="#fbf5df"/>
+<polygon points="497.5,288 569.75,232.75 642.0,288" fill="#526e60"/>
+<rect x="527.25" y="313.5" width="32.3" height="29.75" fill="#a5c5cb"/>
+<rect x="584.2" y="317.75" width="25.5" height="63.75" fill="#b7976b"/>
+<ellipse cx="785.0" cy="276.8" rx="15.3" ry="17.1" fill="#d2a980"/>
+<polygon points="765.2,294.8 803.9,294.8 812.0,361.4 758.0,361.4" fill="#486c78"/>
+<polyline points="774.2,361.4 771.5,401.0" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="795.8,361.4 803.0,401.0" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="763.4,310.1 745.4,340.7" fill="none" stroke="#486c78" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="806.6,310.1 824.6,332.6" fill="none" stroke="#486c78" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="836" y="362" width="56" height="67" fill="#b89b65"/>
+<polyline points="846,364 846,346 882,346 882,364" fill="none" stroke="#8d795a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="160,458 450,458 690,458 865,458" fill="none" stroke="#739a80" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="382,450 397,458 382,466" fill="#739a80"/>
+<polygon points="640,450 655,458 640,466" fill="#739a80"/>
+<polygon points="860,450 875,458 860,466" fill="#739a80"/>
+<text x="44" y="539" font-family="Yu Gothic, sans-serif" font-size="19" fill="#294c43">森町の暮らしと、家族の確認をつなぐ概念図</text>
+</svg>

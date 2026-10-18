@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="家庭で学校の集金案内を整理し、学校へ相談してから認定と支給時期を確認する道筋を描く図。学校と暦を離して配置し、相談した日と入金日は同じではないことを示す。" data-illustration="mori-editorial">
+<rect x="0" y="0" width="1000" height="560" fill="#f4f0e5"/>
+<ellipse cx="853.0" cy="65.0" rx="29.0" ry="29.0" fill="#ead79c"/>
+<polygon points="0,244 154,115 288,213 440,95 626,237 792,137 1000,241 1000,400 0,400" fill="#c9d6c2"/>
+<polygon points="0,295 206,220 366,294 609,209 811,285 1000,222 1000,560 0,560" fill="#a4bd9c"/>
+<polygon points="0,405 300,349 630,397 1000,351 1000,560 0,560" fill="#e0e2c5"/>
+<polygon points="720,560 815,560 648,367 591,349 551,355" fill="#abcbd0"/>
+<rect x="70" y="270" width="82.5" height="60.50000000000001" fill="#fbf5df"/>
+<polygon points="64.5,270 111.25,234.25 158.0,270" fill="#526e60"/>
+<rect x="83.75" y="286.5" width="20.900000000000002" height="19.25" fill="#a5c5cb"/>
+<rect x="120.6" y="289.25" width="16.5" height="41.25" fill="#b7976b"/>
+<rect x="880" y="278" width="82.5" height="60.50000000000001" fill="#fbf5df"/>
+<polygon points="874.5,278 921.25,242.25 968.0,278" fill="#526e60"/>
+<rect x="893.75" y="294.5" width="20.900000000000002" height="19.25" fill="#a5c5cb"/>
+<rect x="930.6" y="297.25" width="16.5" height="41.25" fill="#b7976b"/>
+<rect x="28" y="25" width="690" height="72" fill="#f4f0e5"/>
+<text x="50" y="69" font-family="Yu Gothic, sans-serif" font-size="29" fill="#294c43">集金案内から、学校への相談へ</text>
+<rect x="105" y="279" width="150" height="125" fill="#fffdf5"/>
+<polyline points="122,302 238,302" fill="none" stroke="#7c9b8b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="122,322 230,322" fill="none" stroke="#b4beaf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="122,340 220,340" fill="none" stroke="#b4beaf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="392" y="273" width="165.0" height="121.00000000000001" fill="#fbf5df"/>
+<polygon points="381.0,273 474.5,201.5 568.0,273" fill="#526e60"/>
+<rect x="419.5" y="306.0" width="41.800000000000004" height="38.5" fill="#a5c5cb"/>
+<rect x="493.2" y="311.5" width="33.0" height="82.5" fill="#b7976b"/>
+<text x="429" y="330" font-family="Yu Gothic, sans-serif" font-size="25" fill="#294c43">学校</text>
+<rect x="724" y="268" width="150" height="136" fill="#fffdf3"/>
+<rect x="724" y="268" width="150" height="35" fill="#597e6b"/>
+<text x="744" y="295" font-family="Yu Gothic, sans-serif" font-size="24" fill="#ffffff">確認</text>
+<rect x="747" y="321" width="12" height="10" fill="#b7c9b1"/>
+<rect x="747" y="344" width="12" height="10" fill="#b7c9b1"/>
+<rect x="747" y="367" width="12" height="10" fill="#b7c9b1"/>
+<rect x="776" y="321" width="12" height="10" fill="#b7c9b1"/>
+<rect x="776" y="344" width="12" height="10" fill="#b7c9b1"/>
+<rect x="776" y="367" width="12" height="10" fill="#b7c9b1"/>
+<rect x="805" y="321" width="12" height="10" fill="#b7c9b1"/>
+<rect x="805" y="344" width="12" height="10" fill="#b7c9b1"/>
+<rect x="805" y="367" width="12" height="10" fill="#b7c9b1"/>
+<rect x="834" y="321" width="12" height="10" fill="#b7c9b1"/>
+<rect x="834" y="344" width="12" height="10" fill="#b7c9b1"/>
+<rect x="834" y="367" width="12" height="10" fill="#b7c9b1"/>
+<polyline points="160,458 450,458 690,458 865,458" fill="none" stroke="#739a80" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="382,450 397,458 382,466" fill="#739a80"/>
+<polygon points="640,450 655,458 640,466" fill="#739a80"/>
+<polygon points="860,450 875,458 860,466" fill="#739a80"/>
+<text x="44" y="539" font-family="Yu Gothic, sans-serif" font-size="19" fill="#294c43">森町の暮らしと、家族の確認をつなぐ概念図</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="家庭の予定表から事務所での登録、親子と援助者の顔合わせへ道が続く図。時計と送迎車を添え、会員登録の後にも時間と移動の調整があることを表す。" data-illustration="mori-editorial">
+<rect x="0" y="0" width="1000" height="560" fill="#f4f0e5"/>
+<ellipse cx="853.0" cy="65.0" rx="29.0" ry="29.0" fill="#ead79c"/>
+<polygon points="0,244 154,115 288,213 440,95 626,237 792,137 1000,241 1000,400 0,400" fill="#c9d6c2"/>
+<polygon points="0,295 206,220 366,294 609,209 811,285 1000,222 1000,560 0,560" fill="#a4bd9c"/>
+<polygon points="0,405 300,349 630,397 1000,351 1000,560 0,560" fill="#e0e2c5"/>
+<polygon points="720,560 815,560 648,367 591,349 551,355" fill="#abcbd0"/>
+<rect x="70" y="270" width="82.5" height="60.50000000000001" fill="#fbf5df"/>
+<polygon points="64.5,270 111.25,234.25 158.0,270" fill="#526e60"/>
+<rect x="83.75" y="286.5" width="20.900000000000002" height="19.25" fill="#a5c5cb"/>
+<rect x="120.6" y="289.25" width="16.5" height="41.25" fill="#b7976b"/>
+<rect x="880" y="278" width="82.5" height="60.50000000000001" fill="#fbf5df"/>
+<polygon points="874.5,278 921.25,242.25 968.0,278" fill="#526e60"/>
+<rect x="893.75" y="294.5" width="20.900000000000002" height="19.25" fill="#a5c5cb"/>
+<rect x="930.6" y="297.25" width="16.5" height="41.25" fill="#b7976b"/>
+<rect x="28" y="25" width="690" height="72" fill="#f4f0e5"/>
+<text x="50" y="69" font-family="Yu Gothic, sans-serif" font-size="29" fill="#294c43">登録から、具体的な受渡しの相談へ</text>
+<rect x="95" y="256" width="150" height="136" fill="#fffdf3"/>
+<rect x="95" y="256" width="150" height="35" fill="#597e6b"/>
+<text x="115" y="283" font-family="Yu Gothic, sans-serif" font-size="24" fill="#ffffff">予定</text>
+<rect x="118" y="309" width="12" height="10" fill="#b7c9b1"/>
+<rect x="118" y="332" width="12" height="10" fill="#b7c9b1"/>
+<rect x="118" y="355" width="12" height="10" fill="#b7c9b1"/>
+<rect x="147" y="309" width="12" height="10" fill="#b7c9b1"/>
+<rect x="147" y="332" width="12" height="10" fill="#b7c9b1"/>
+<rect x="147" y="355" width="12" height="10" fill="#b7c9b1"/>
+<rect x="176" y="309" width="12" height="10" fill="#b7c9b1"/>
+<rect x="176" y="332" width="12" height="10" fill="#b7c9b1"/>
+<rect x="176" y="355" width="12" height="10" fill="#b7c9b1"/>
+<rect x="205" y="309" width="12" height="10" fill="#b7c9b1"/>
+<rect x="205" y="332" width="12" height="10" fill="#b7c9b1"/>
+<rect x="205" y="355" width="12" height="10" fill="#b7c9b1"/>
+<rect x="360" y="286" width="127.5" height="93.5" fill="#fbf5df"/>
+<polygon points="351.5,286 423.75,230.75 496.0,286" fill="#526e60"/>
+<rect x="381.25" y="311.5" width="32.3" height="29.75" fill="#a5c5cb"/>
+<rect x="438.2" y="315.75" width="25.5" height="63.75" fill="#b7976b"/>
+<text x="391" y="325" font-family="Yu Gothic, sans-serif" font-size="21" fill="#294c43">登録</text>
+<ellipse cx="682.0" cy="276.8" rx="15.3" ry="17.1" fill="#d2a980"/>
+<polygon points="662.2,294.8 700.9,294.8 709.0,361.4 655.0,361.4" fill="#486c78"/>
+<polyline points="671.2,361.4 668.5,401.0" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="692.8,361.4 700.0,401.0" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="660.4,310.1 642.4,340.7" fill="none" stroke="#486c78" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="703.6,310.1 721.6,332.6" fill="none" stroke="#486c78" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="776.0" cy="307.8" rx="11.05" ry="12.35" fill="#d2a980"/>
+<polygon points="761.7,320.8 789.65,320.8 795.5,368.9 756.5,368.9" fill="#bf9958"/>
+<polyline points="768.2,368.9 766.25,397.5" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="783.8,368.9 789.0,397.5" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="760.4,331.85 747.4,353.95" fill="none" stroke="#bf9958" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="791.6,331.85 804.6,348.1" fill="none" stroke="#bf9958" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="890.0" cy="276.8" rx="15.3" ry="17.1" fill="#d2a980"/>
+<polygon points="870.2,294.8 908.9,294.8 917.0,361.4 863.0,361.4" fill="#b57860"/>
+<polyline points="879.2,361.4 876.5,401.0" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="900.8,361.4 908.0,401.0" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="868.4,310.1 850.4,340.7" fill="none" stroke="#b57860" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="911.6,310.1 929.6,332.6" fill="none" stroke="#b57860" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="160,458 450,458 690,458 865,458" fill="none" stroke="#739a80" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="382,450 397,458 382,466" fill="#739a80"/>
+<polygon points="640,450 655,458 640,466" fill="#739a80"/>
+<polygon points="860,450 875,458 860,466" fill="#739a80"/>
+<text x="44" y="539" font-family="Yu Gothic, sans-serif" font-size="19" fill="#294c43">森町の暮らしと、家族の確認をつなぐ概念図</text>
+</svg>

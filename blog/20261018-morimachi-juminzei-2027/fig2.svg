@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="二つの暦と書類を机に並べ、収入を得た2026年から課税される2027年度へ矢印を渡す図。控除額を現金の給付と取り違えず、家族別の資料で窓口へ確認する順序を表す。" data-illustration="mori-editorial">
+<rect x="0" y="0" width="1000" height="560" fill="#f4f0e5"/>
+<ellipse cx="853.0" cy="65.0" rx="29.0" ry="29.0" fill="#ead79c"/>
+<polygon points="0,244 154,115 288,213 440,95 626,237 792,137 1000,241 1000,400 0,400" fill="#c9d6c2"/>
+<polygon points="0,295 206,220 366,294 609,209 811,285 1000,222 1000,560 0,560" fill="#a4bd9c"/>
+<polygon points="0,405 300,349 630,397 1000,351 1000,560 0,560" fill="#e0e2c5"/>
+<polygon points="720,560 815,560 648,367 591,349 551,355" fill="#abcbd0"/>
+<rect x="70" y="270" width="82.5" height="60.50000000000001" fill="#fbf5df"/>
+<polygon points="64.5,270 111.25,234.25 158.0,270" fill="#526e60"/>
+<rect x="83.75" y="286.5" width="20.900000000000002" height="19.25" fill="#a5c5cb"/>
+<rect x="120.6" y="289.25" width="16.5" height="41.25" fill="#b7976b"/>
+<rect x="880" y="278" width="82.5" height="60.50000000000001" fill="#fbf5df"/>
+<polygon points="874.5,278 921.25,242.25 968.0,278" fill="#526e60"/>
+<rect x="893.75" y="294.5" width="20.900000000000002" height="19.25" fill="#a5c5cb"/>
+<rect x="930.6" y="297.25" width="16.5" height="41.25" fill="#b7976b"/>
+<rect x="28" y="25" width="690" height="72" fill="#f4f0e5"/>
+<text x="50" y="69" font-family="Yu Gothic, sans-serif" font-size="29" fill="#294c43">2026年の収入 → 2027年度の住民税</text>
+<rect x="142" y="250" width="150" height="136" fill="#fffdf3"/>
+<rect x="142" y="250" width="150" height="35" fill="#597e6b"/>
+<text x="162" y="277" font-family="Yu Gothic, sans-serif" font-size="24" fill="#ffffff">2026</text>
+<rect x="165" y="303" width="12" height="10" fill="#b7c9b1"/>
+<rect x="165" y="326" width="12" height="10" fill="#b7c9b1"/>
+<rect x="165" y="349" width="12" height="10" fill="#b7c9b1"/>
+<rect x="194" y="303" width="12" height="10" fill="#b7c9b1"/>
+<rect x="194" y="326" width="12" height="10" fill="#b7c9b1"/>
+<rect x="194" y="349" width="12" height="10" fill="#b7c9b1"/>
+<rect x="223" y="303" width="12" height="10" fill="#b7c9b1"/>
+<rect x="223" y="326" width="12" height="10" fill="#b7c9b1"/>
+<rect x="223" y="349" width="12" height="10" fill="#b7c9b1"/>
+<rect x="252" y="303" width="12" height="10" fill="#b7c9b1"/>
+<rect x="252" y="326" width="12" height="10" fill="#b7c9b1"/>
+<rect x="252" y="349" width="12" height="10" fill="#b7c9b1"/>
+<rect x="430" y="250" width="150" height="136" fill="#fffdf3"/>
+<rect x="430" y="250" width="150" height="35" fill="#597e6b"/>
+<text x="450" y="277" font-family="Yu Gothic, sans-serif" font-size="24" fill="#ffffff">2027</text>
+<rect x="453" y="303" width="12" height="10" fill="#b7c9b1"/>
+<rect x="453" y="326" width="12" height="10" fill="#b7c9b1"/>
+<rect x="453" y="349" width="12" height="10" fill="#b7c9b1"/>
+<rect x="482" y="303" width="12" height="10" fill="#b7c9b1"/>
+<rect x="482" y="326" width="12" height="10" fill="#b7c9b1"/>
+<rect x="482" y="349" width="12" height="10" fill="#b7c9b1"/>
+<rect x="511" y="303" width="12" height="10" fill="#b7c9b1"/>
+<rect x="511" y="326" width="12" height="10" fill="#b7c9b1"/>
+<rect x="511" y="349" width="12" height="10" fill="#b7c9b1"/>
+<rect x="540" y="303" width="12" height="10" fill="#b7c9b1"/>
+<rect x="540" y="326" width="12" height="10" fill="#b7c9b1"/>
+<rect x="540" y="349" width="12" height="10" fill="#b7c9b1"/>
+<ellipse cx="710.0" cy="258.36" rx="14.96" ry="16.72" fill="#d2a980"/>
+<polygon points="690.64,275.96 728.48,275.96 736.4,341.08 683.6,341.08" fill="#486c78"/>
+<polyline points="699.44,341.08 696.8,379.8" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="720.56,341.08 727.6,379.8" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="688.88,290.92 671.28,320.84000000000003" fill="none" stroke="#486c78" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="731.12,290.92 748.72,312.92" fill="none" stroke="#486c78" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="784" y="304" width="105" height="88" fill="#fffdf5"/>
+<polyline points="801,327 872,327" fill="none" stroke="#7c9b8b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="801,347 864,347" fill="none" stroke="#b4beaf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="801,365 854,365" fill="none" stroke="#b4beaf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="160,458 450,458 690,458 865,458" fill="none" stroke="#739a80" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="382,450 397,458 382,466" fill="#739a80"/>
+<polygon points="640,450 655,458 640,466" fill="#739a80"/>
+<polygon points="860,450 875,458 860,466" fill="#739a80"/>
+<text x="44" y="539" font-family="Yu Gothic, sans-serif" font-size="19" fill="#294c43">森町の暮らしと、家族の確認をつなぐ概念図</text>
+</svg>

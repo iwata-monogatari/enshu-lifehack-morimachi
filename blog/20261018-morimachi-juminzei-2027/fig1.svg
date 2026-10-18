@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="山並みと住宅を背景に、家族が食卓で給与の書類を人ごとに分ける情景。家計の確認を表す概念図で、実在の世帯や相談場面の再現ではない。" data-illustration="mori-editorial">
+<rect x="0" y="0" width="1000" height="560" fill="#f4f0e5"/>
+<ellipse cx="853.0" cy="65.0" rx="29.0" ry="29.0" fill="#ead79c"/>
+<polygon points="0,244 154,115 288,213 440,95 626,237 792,137 1000,241 1000,400 0,400" fill="#c9d6c2"/>
+<polygon points="0,295 206,220 366,294 609,209 811,285 1000,222 1000,560 0,560" fill="#a4bd9c"/>
+<polygon points="0,405 300,349 630,397 1000,351 1000,560 0,560" fill="#e0e2c5"/>
+<polygon points="720,560 815,560 648,367 591,349 551,355" fill="#abcbd0"/>
+<rect x="70" y="270" width="82.5" height="60.50000000000001" fill="#fbf5df"/>
+<polygon points="64.5,270 111.25,234.25 158.0,270" fill="#526e60"/>
+<rect x="83.75" y="286.5" width="20.900000000000002" height="19.25" fill="#a5c5cb"/>
+<rect x="120.6" y="289.25" width="16.5" height="41.25" fill="#b7976b"/>
+<rect x="880" y="278" width="82.5" height="60.50000000000001" fill="#fbf5df"/>
+<polygon points="874.5,278 921.25,242.25 968.0,278" fill="#526e60"/>
+<rect x="893.75" y="294.5" width="20.900000000000002" height="19.25" fill="#a5c5cb"/>
+<rect x="930.6" y="297.25" width="16.5" height="41.25" fill="#b7976b"/>
+<rect x="28" y="25" width="690" height="72" fill="#f4f0e5"/>
+<text x="50" y="69" font-family="Yu Gothic, sans-serif" font-size="29" fill="#294c43">家族ごとに、給与を確認</text>
+<rect x="242" y="353" width="514" height="26" fill="#b39363"/>
+<rect x="272" y="379" width="20" height="126" fill="#8c795a"/>
+<rect x="699" y="379" width="20" height="126" fill="#8c795a"/>
+<ellipse cx="235.0" cy="272.91999999999996" rx="14.62" ry="16.34" fill="#d2a980"/>
+<polygon points="216.08,290.12 253.06,290.12 260.8,353.76 209.2,353.76" fill="#486c78"/>
+<polyline points="224.68,353.76 222.1,391.6" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="245.32,353.76 252.2,391.6" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="214.36,304.74 197.16,333.98" fill="none" stroke="#486c78" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="255.64,304.74 272.84,326.24" fill="none" stroke="#486c78" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="770.0" cy="269.8" rx="15.3" ry="17.1" fill="#d2a980"/>
+<polygon points="750.2,287.8 788.9,287.8 797.0,354.4 743.0,354.4" fill="#b57860"/>
+<polyline points="759.2,354.4 756.5,394.0" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="780.8,354.4 788.0,394.0" fill="none" stroke="#405451" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="748.4,303.1 730.4,333.7" fill="none" stroke="#b57860" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="791.6,303.1 809.6,325.6" fill="none" stroke="#b57860" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="314" y="278" width="115" height="85" fill="#fffdf5"/>
+<polyline points="331,301 412,301" fill="none" stroke="#7c9b8b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="331,321 404,321" fill="none" stroke="#b4beaf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="331,339 394,339" fill="none" stroke="#b4beaf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="470" y="267" width="115" height="85" fill="#fffdf5"/>
+<polyline points="487,290 568,290" fill="none" stroke="#7c9b8b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="487,310 560,310" fill="none" stroke="#b4beaf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="487,328 550,328" fill="none" stroke="#b4beaf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="625" y="292" width="72" height="55" fill="#698578"/>
+<text x="634" y="322" font-family="Yu Gothic, sans-serif" font-size="21" fill="#fffdf5">確認</text>
+<text x="44" y="539" font-family="Yu Gothic, sans-serif" font-size="19" fill="#294c43">森町の暮らしと、家族の確認をつなぐ概念図</text>
+</svg>
