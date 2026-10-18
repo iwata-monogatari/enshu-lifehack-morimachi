@@ -66,19 +66,13 @@ def esc(value: str) -> str:
 
 
 def form_url(content: str, placement: str) -> str:
-    return (
-        "https://fudosan.atawi.link/karte/?area=%E6%A3%AE%E7%94%BA"
-        "&utm_source=morimachi_lifehack&utm_medium=referral"
-        f"&utm_campaign=morimachi_karte&utm_content={content}_{placement}#apply"
-    )
+    from mori_jikka import url
+    return url(f"{content}_{placement}")
 
 
 def sample_url(content: str, placement: str) -> str:
-    return (
-        "https://fudosan.atawi.link/karte/sample/"
-        "?utm_source=morimachi_lifehack&utm_medium=referral"
-        f"&utm_campaign=morimachi_karte&utm_content={content}_{placement}_sample"
-    )
+    from mori_jikka import url
+    return url(f"{content}_{placement}_sample", sample=True)
 
 
 def sale_url(content: str, placement: str) -> str:
@@ -87,11 +81,8 @@ def sale_url(content: str, placement: str) -> str:
     カルテCTAはこの2ページで通常の不動産CTAを上書きするため、
     上書きしたままだと売却意欲が最も高い層の出口が無くなる。
     """
-    return (
-        "https://fudosan.atawi.link/areas/mori/"
-        "?utm_source=morimachi_lifehack&utm_medium=referral"
-        f"&utm_campaign=morimachi_sale&utm_content={content}_{placement}_sale"
-    )
+    from mori_jikka import url
+    return url(f"{content}_{placement}_sale", intent="sale")
 
 
 def render_card(content: str, placement: str) -> str:

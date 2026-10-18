@@ -261,6 +261,7 @@ def stats() -> dict:
 
 
 def build() -> str:
+    from mori_jikka import home_entry
     st = stats()
     return f"""<!doctype html>
 <html lang="ja">
@@ -273,11 +274,13 @@ def build() -> str:
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
 <link rel="stylesheet" href="/assets/home-blog.css?v=20260805a">
+<link rel="stylesheet" href="/assets/mori-jikka.css?v=20261018">
 <link rel="stylesheet" href="/assets/search-tools.css?v=20260806a">
 </head>
 <body class="hub home">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
 <main><div class="wrap">
+{home_entry()}
 <section class="hero">
 <figure class="hero-visual">
 <picture>

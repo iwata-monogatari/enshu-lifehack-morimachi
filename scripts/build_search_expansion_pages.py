@@ -29,6 +29,9 @@ def list_html(values: list[str]) -> str:
 
 def render(item: dict) -> str:
     href = item["href"]
+    if href == "/life/housing/close-parents-house/":
+        from mori_jikka import render as render_jikka
+        return render_jikka(item)
     if href.startswith("/life/housing/"):
         hub_href, hub_label = "/hub/property/", "家・土地"
     elif href.startswith(("/life/start-living/", "/life/living-soon/")):
