@@ -17,9 +17,6 @@ def link(entry, label, intent='organize', sample=False, secondary=False):
 def disclosure():
     return '<p class="mj-note">富士ヶ丘サービス株式会社の民間サービスです。森町役場の窓口ではありません。申込みだけで売却依頼・媒介契約にはなりません。</p>'
 
-def home_entry():
-    return f'''<section class="mj-home" aria-labelledby="mj-home-title"><p class="mj-eyebrow"><span aria-hidden="true">🏡</span> 森町に実家がある、町外のご家族へ</p><h2 id="mj-home-title">遠くにある実家。帰省前から、次の一歩を整理できます。</h2><p>家財が残っている・相続がまだ・農地もある。今の状況から進め方を確認できます。</p><div class="mj-actions"><a class="mj-button" href="{HUB}" data-track-click="mori_jikka_hub_click">実家じまいの進め方を見る</a>{link('home_sale', '売却を相談したい方はこちら', 'sale', secondary=True)}</div><p class="mj-note">相談対応：富士ヶ丘サービス株式会社（磐田市見付・森町へ出張対応）</p></section>'''
-
 def sale_entry():
     return f'''<section class="mj-panel" aria-labelledby="mj-sale-title"><p class="mj-eyebrow">森町の家・土地を売りたい方へ</p><h2 id="mj-sale-title">売却相談・現地確認の希望を、そのまま担当者へ。</h2><p>家財あり・相続登記前・遠方在住でも相談できます。まず町名と連絡先で受け付け、現地確認の方法や日程は初回連絡で相談します。</p><div class="mj-actions">{link('sell_top', '森町の実家・土地の売却を相談する', 'sale')}<a class="mj-button mj-secondary" href="tel:0538313308" data-track-click="mori_jikka_phone_click">電話で相談する</a></div><p class="mj-note">受付9〜18時（水曜・日曜は予約制）／仲介専門・自社買取なし</p>{disclosure()}</section>'''
 

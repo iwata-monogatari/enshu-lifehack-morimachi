@@ -212,21 +212,23 @@ def publisher_section() -> str:
 def consult_section() -> str:
     """事業相談導線（指示書 6.1-10 / 11.1 / 修正指示書21）。
 
-    到達先は森町専用の相談ページ1つに統一する。複数サイトへ分散させない。
+    暮らしの情報を読み終えた方へ、ページ下部で控えめに案内する。
+    解説は実家じまいガイド、相談は森町専用ページへ案内する。
     """
     return (
         '<section class="company-strip cta-weak" aria-labelledby="consult-title">'
-        '<h2 id="consult-title">森町の空き家・親の家を、売る前に整理したい方へ</h2>'
-        "<p>まずは各ページの森町公式窓口をご確認ください。そのうえで、相続した実家や空き家、"
-        "介護と住まいが同時に動く場合に、状況を整理するところから相談できます。"
-        "富士ヶ丘サービス株式会社が磐田本社から森町へ出張対応します。</p>"
+        '<h2 id="consult-title">実家・空き家のことも調べたい方へ</h2>'
+        "<p>森町にある実家の片付けや相続、これからの管理について、確認する順番をまとめています。"
+        "まずはガイドを読み、必要に応じて個別の相談窓口をご利用ください。</p>"
         '<div class="pub-links">'
-        '<a class="btn btn-main" href="'
+        '<a class="btn" href="/life/housing/close-parents-house/" '
+        'data-track-click="mori_jikka_hub_click">実家じまいの進め方を読む</a>'
+        '<a class="btn" href="'
         + MORI_LP
         + "?utm_source=morimachi_lifehack&amp;utm_medium=referral"
         + '&amp;utm_campaign=morimachi_support&amp;utm_content=home" '
         + 'target="_blank" rel="noopener" data-track-click="cta_real_estate">'
-        "森町の相談窓口を見る</a>"
+        "実家・空き家の相談窓口を見る</a>"
         "</div>"
         '<p class="cta-disclosure">※このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）の'
         "民間サービスです。ご利用は任意で、森町の制度利用には影響しません。"
@@ -261,7 +263,6 @@ def stats() -> dict:
 
 
 def build() -> str:
-    from mori_jikka import home_entry
     st = stats()
     return f"""<!doctype html>
 <html lang="ja">
@@ -274,13 +275,11 @@ def build() -> str:
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
 <link rel="stylesheet" href="/assets/home-blog.css?v=20260805a">
-<link rel="stylesheet" href="/assets/mori-jikka.css?v=20261018">
 <link rel="stylesheet" href="/assets/search-tools.css?v=20260806a">
 </head>
 <body class="hub home">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
 <main><div class="wrap">
-{home_entry()}
 <section class="hero">
 <figure class="hero-visual">
 <picture>
