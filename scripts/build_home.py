@@ -274,12 +274,21 @@ def build() -> str:
 <meta name="description" content="{esc(DESCRIPTION)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
-<link rel="stylesheet" href="/assets/home-blog.css?v=20260805a">
+<link rel="stylesheet" href="/assets/home-blog.css?v=20261019a">
 <link rel="stylesheet" href="/assets/search-tools.css?v=20260806a">
 </head>
 <body class="hub home">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
 <main><div class="wrap">
+<aside class="home-jirogaki" aria-label="秋のおすすめ・次郎柿直売所ガイド">
+<a class="home-jirogaki-link" href="/blog/20261001-morimachi-jirogaki-chokubaijo/" data-track-click="home_jirogaki_feature">
+<span class="home-jirogaki-copy"><span class="home-jirogaki-kicker">2026年 秋の買いものガイド</span>
+<strong>森町の次郎柿、<br>どこで買う？</strong>
+<span class="home-jirogaki-desc">直売所3件の販売時期・場所・電話を比較。<br>店頭予約と地方発送の案内も。</span>
+<span class="home-jirogaki-button">直売所・販売時期を見る <span aria-hidden="true">→</span></span>
+<small>10月19日更新 ／ 販売日・在庫は各店へご確認ください</small></span>
+<img src="/assets/img/jirogaki-feature.svg" width="1000" height="560" decoding="async" alt="柿畑と直売所を描いた秋のイラスト">
+</a></aside>
 <section class="hero">
 <figure class="hero-visual">
 <picture>
