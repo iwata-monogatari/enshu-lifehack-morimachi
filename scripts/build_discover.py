@@ -187,6 +187,9 @@ def motif_art(row: dict, dark: str, accent: str) -> str:
 
 
 def cover_svg(row: dict) -> str:
+    if row['slug'] == 'mori-festival':
+        from mori_festival_feature import illustration
+        return illustration(0)
     dark, pale, accent, paper = palette(row["slug"])
     title = e(row["title"])
     category = e(row["category_label"])
@@ -206,6 +209,9 @@ def cover_svg(row: dict) -> str:
 
 
 def diagram_svg(row: dict, number: int) -> str:
+    if row['slug'] == 'mori-festival':
+        from mori_festival_feature import illustration
+        return illustration(number)
     dark, pale, accent, paper = palette(row["slug"] + str(number))
     item = row["illustrations"][number - 1]
     title = e(item["title"])
@@ -247,6 +253,9 @@ def hero_media(row: dict, *, card: bool = False) -> tuple[str, str]:
 
 
 def article_html(row: dict, rows_by_slug: dict[str, dict], published_count: int) -> str:
+    if row['slug'] == 'mori-festival':
+        from mori_festival_feature import render
+        return render(row, PARTS, published_count)
     canonical = f'https://morimachi.enshu-lifehack.com/discover/{row["slug"]}/'
     robots = '' if released(row) else '<meta name="robots" content="noindex,nofollow" data-discover-pending>'
     keywords = "、".join([row["primary_keyword"], *row["secondary_keywords"]])

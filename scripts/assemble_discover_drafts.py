@@ -134,8 +134,8 @@ def normalize(row: dict, released: bool) -> dict:
         "hero_photo": hero_photo,
         "media_type": "photo" if hero_photo else "illustration",
         "fact_checked_at": checked,
-        "published_at": "2026-08-10",
-        "updated_at": "2026-08-10",
+        "published_at": row.get("published_at", "2026-08-10"),
+        "updated_at": row.get("updated_at", "2026-08-10"),
         "editorial_rewrite_complete": bool(
             row.get("publication", {}).get("editorial_rewrite_complete")
         ),
