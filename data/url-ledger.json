@@ -19,7 +19,7 @@
   "has_faq_jsonld": false,
   "has_breadcrumb_jsonld": true,
   "exposes_raw_keys": false,
-  "bytes": 12455,
+  "bytes": 13460,
   "action": "keep",
   "merge_target": "",
   "priority": "P1",

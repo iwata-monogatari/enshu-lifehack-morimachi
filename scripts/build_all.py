@@ -97,8 +97,11 @@ CHECK = ("公開前検査", [sys.executable, "scripts/preflight_check.py"])
 RELEASE_STEPS = [
     # 第4期は human_reviewed=true の記事だけを別工程で公開する。
     # 全件を機械監査だけで一括公開する処理は再発防止のため置かない。
-    ("公開状態の sitemap.xml を再生成", [sys.executable, "scripts/build_sitemap.py"]),
     ("トップページの公開件数をsitemapへ同期", [sys.executable, "scripts/sync_home_page_count.py"]),
+    # STEPSで確定した公開URL件数を先にHTMLへ反映する。途中の件数表示を
+    # dirty_html_filesが内容更新と判定すると、変更のない再ビルドでも
+    # トップのlastmodが今日へ進んでしまう。最終HTMLから日付を判定する。
+    ("公開状態の sitemap.xml を再生成", [sys.executable, "scripts/build_sitemap.py"]),
 ]
 WITHDRAW = ("第4期の公開状態を解除", [sys.executable, "scripts/audit_seo_phase4.py", "--withdraw"])
 
