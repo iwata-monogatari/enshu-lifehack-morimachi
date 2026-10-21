@@ -30,6 +30,7 @@ from email.utils import format_datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import author_profile  # noqa: E402
+from growth_routes import group, index_intro
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "data", "blog-posts.json")
@@ -135,7 +136,7 @@ def build_index(posts, parts):
         axis = AXIS_LABEL.get(p.get("axis"), "")
         badge = '<span class="post-axis">%s</span>' % html.escape(axis) if axis else ""
         items.append(
-            '<li class="post-item">'
+            ('<li class="post-item" data-topic="' + group(p) + '">') +
             '<a class="post-item-link" href="/blog/%s/">'
             '<span class="post-item-date"><time datetime="%s">%s</time></span>'
             "%s"
@@ -155,7 +156,11 @@ def build_index(posts, parts):
     lead = "静岡県周智郡森町（遠州森町）の暮らし・手続き・空き家・寺社について、公表情報を確認しながら書いています。"
     index_title = "森町ブログ｜暮らし・空き家・交通・文化を一次情報で解説"
     index_image = SITE + "/blog/20260823-koko-tsugaku-shugaku-shienkin/cover.jpg"
-    body = '<ul class="post-list">%s</ul>' % "".join(items) if items else '<p class="lead">記事はまだありません。</p>'
+    controls = '''<section id="mg-controls" class="mg-controls" aria-label="ブログを絞り込む" hidden>
+<label for="mg-search">記事を言葉で探す</label><input id="mg-search" type="search" placeholder="例：次郎柿、移住、実家" autocomplete="off">
+<div class="mg-filters" aria-label="記事のテーマ"><button type="button" data-filter="all" aria-pressed="true">すべて</button><button type="button" data-filter="outings" aria-pressed="false">季節のお出かけ</button><button type="button" data-filter="living" aria-pressed="false">森町で暮らす</button><button type="button" data-filter="family" aria-pressed="false">親・実家・空き家</button></div><p id="mg-count" class="mg-count" role="status" aria-live="polite"></p></section>'''
+    body = index_intro() + controls + '<h2 id="articles">記事一覧</h2><ul class="post-list">%s</ul>' % "".join(items)
+    body += '<p id="mg-empty" class="mg-empty" hidden>該当する記事がありません。言葉を短くするか、テーマを「すべて」にしてお探しください。</p><button type="button" id="mg-more" class="mg-more" hidden>次の24件を見る</button>'
 
     return (
         '<!doctype html><html lang="ja"><head>\n'

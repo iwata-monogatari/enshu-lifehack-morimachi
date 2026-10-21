@@ -64,6 +64,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("親ページの分岐カード", [sys.executable, "scripts/apply_parent_pages.py"]),
     ("実家カルテ申込み導線", [sys.executable, "scripts/inject_karte_cta.py"]),
     ("遠方家族の実家じまい・売却相談導線", [sys.executable, "scripts/inject_mori_jikka.py"]),
+    ("記事の目的に合う次の一歩・相談先の集約", [sys.executable, "scripts/apply_growth_routes.py"]),
     ("最終確認日の表現をそろえる", [sys.executable, "scripts/fix_verified_dates.py"]),
     ("県名の付与（北海道森町との区別）", [sys.executable, "scripts/add_prefecture_to_seo.py"]),
     ("検索対象ページの説明文を90〜130字へ最終同期", [sys.executable, "scripts/sync_content_descriptions.py"]),
