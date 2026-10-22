@@ -37,7 +37,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 SITE = "https://morimachi.enshu-lifehack.com"
 SKIP = {".git", "_cache", "node_modules", "reports", "parts", "scripts",
-        "data", ".github", ".claude"}
+        "data", ".github", ".claude", "scratchpad", "work-records"}
 
 errors: list[str] = []
 warnings: list[str] = []
@@ -55,6 +55,11 @@ def pages() -> list[Path]:
     out = []
     for p in sorted(ROOT.rglob("*.html")):
         if SKIP & set(p.relative_to(ROOT).parts):
+            continue
+        # Keep real /work/<guide>/ pages in the audit, but not dated release
+        # copies saved under work/YYYYMMDD/ for publication recovery.
+        relative = p.relative_to(ROOT).parts
+        if len(relative) > 1 and relative[0] == "work" and re.fullmatch(r"\d{8}", relative[1]):
             continue
         if p.name == "404.html":
             continue

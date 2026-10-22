@@ -35,3 +35,7 @@ tests/**
 tmp
 tmp/**
 **/__pycache__/**
+scratchpad
+scratchpad/**
+work-records
+work-records/**
