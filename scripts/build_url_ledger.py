@@ -24,7 +24,7 @@ SITE = "https://morimachi.enshu-lifehack.com"
 
 # parts/ と data/ は公開URLではない断片・素材なので台帳の対象外
 SKIP_DIRS = {".git", ".github", ".claude", "_cache", "node_modules",
-             "reports", "scripts", "parts", "data"}
+             "reports", "scripts", "parts", "data", "work-records", "scratchpad"}
 
 # 13カテゴリ → 6ハブの既定マッピング（指示書 4.1）
 CATEGORY_TO_HUB = {
@@ -141,6 +141,9 @@ def collect() -> list[dict]:
     for path in sorted(ROOT.rglob("*.html")):
         parts = set(path.relative_to(ROOT).parts)
         if parts & SKIP_DIRS:
+            continue
+        relative = path.relative_to(ROOT).parts
+        if len(relative) > 1 and relative[0] == "work" and re.fullmatch(r"\d{8}", relative[1]):
             continue
         if path.name == "404.html":
             continue
