@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（354本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（358本）
 
 ### 新着記事
 
+- 2026-10-24 [森町の多文化交流サロン｜祭り見学の申込み](https://morimachi.enshu-lifehack.com/blog/20261024-morimachi-tabunka-salon/)
+- 2026-10-24 [森町文化会館の座席の見え方｜公式写真で比較](https://morimachi.enshu-lifehack.com/blog/20261024-morimachi-hall-seat-view/)
+- 2026-10-24 [森町文化芸術大会出場激励金｜対象と申請書類](https://morimachi.enshu-lifehack.com/blog/20261024-morimachi-bunka-geijutsu-gekireikin/)
+- 2026-10-24 [大洞院の紅葉まつり2026｜昼と夜の日程比較](https://morimachi.enshu-lifehack.com/blog/20261024-daitoin-momiji-festival/)
 - 2026-10-23 [森町の防災訓練2026｜地区別会場を比較](https://morimachi.enshu-lifehack.com/blog/20261023-morimachi-bosai-kaijo/)
 - 2026-10-23 [森のまつり交通規制2026｜車で行く前の確認](https://morimachi.enshu-lifehack.com/blog/20261023-mori-matsuri-kisei-car/)
 - 2026-10-23 [秋葉バスのQR決済｜森町で乗る前の準備](https://morimachi.enshu-lifehack.com/blog/20261023-akiha-bus-qr/)
@@ -55,10 +59,6 @@
 - 2026-10-21 [小國神社の新嘗祭｜11月23日の神事を知る](https://morimachi.enshu-lifehack.com/blog/20261021-okuni-niinamesai/)
 - 2026-10-21 [森町の仏像防犯｜写真台帳から始める備え](https://morimachi.enshu-lifehack.com/blog/20261021-morimachi-butsuzo-bouhan/)
 - 2026-10-21 [文化財建築の耐震診断｜森町で知る3段階](https://morimachi.enshu-lifehack.com/blog/20261021-bunkazai-taishin-3steps/)
-- 2026-10-20 [省エネ部位ラベル｜森町の実家売却前に残す資料](https://morimachi.enshu-lifehack.com/blog/20261020-shoene-bui-label-jikka/)
-- 2026-10-20 [森町の水道料金改定案｜空き家の固定費を読む](https://morimachi.enshu-lifehack.com/blog/20261020-morimachi-suido-kaiteian/)
-- 2026-10-20 [森町の空き家防火｜空き店舗も管理の対象](https://morimachi.enshu-lifehack.com/blog/20261020-morimachi-akiya-tenpo-bouka/)
-- 2026-10-20 [保管証書遺言とは｜森町の実家相続と2026年改正](https://morimachi.enshu-lifehack.com/blog/20261020-hokan-shosho-yuigon/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
