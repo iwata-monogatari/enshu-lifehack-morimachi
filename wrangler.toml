@@ -3,6 +3,8 @@
 # GitHub 連携の Workers Builds が `npx wrangler deploy` でこの設定を読みデプロイする。
 name = "enshu-lifehack-morimachi"
 compatibility_date = "2025-06-01"
+workers_dev = false
+preview_urls = true
 
 # カスタムドメイン（Cloudflare管理ゾーン enshu-lifehack.com 配下）
 # deploy 時に DNS レコードと SSL を自動作成する。
