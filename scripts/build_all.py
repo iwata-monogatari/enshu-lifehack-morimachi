@@ -65,6 +65,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("実家カルテ申込み導線", [sys.executable, "scripts/inject_karte_cta.py"]),
     ("遠方家族の実家じまい・売却相談導線", [sys.executable, "scripts/inject_mori_jikka.py"]),
     ("記事の目的に合う次の一歩・相談先の集約", [sys.executable, "scripts/apply_growth_routes.py"]),
+    ("町外向け3入口と既存記事の早見案内", [sys.executable, "scripts/build_outside_routes.py"]),
     ("最終確認日の表現をそろえる", [sys.executable, "scripts/fix_verified_dates.py"]),
     ("県名の付与（北海道森町との区別）", [sys.executable, "scripts/add_prefecture_to_seo.py"]),
     ("検索対象ページの説明文を90〜130字へ最終同期", [sys.executable, "scripts/sync_content_descriptions.py"]),
@@ -91,6 +92,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("自然検索向け100問の監査", [sys.executable, "scripts/audit_organic_search.py"]),
     ("llms.txt の生成", [sys.executable, "scripts/build_llms.py"]),
     ("URL台帳の生成", [sys.executable, "scripts/build_url_ledger.py"]),
+    ("町外向け入口・記事の導線検証", [sys.executable, "scripts/verify_outside_routes.py"]),
 ]
 
 CHECK = ("公開前検査", [sys.executable, "scripts/preflight_check.py"])

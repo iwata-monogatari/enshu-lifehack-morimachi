@@ -59,6 +59,7 @@ function extractMeta(html, pattern) {
 // 検索結果に出す種別ラベル（改修指示書 9.2）
 function kindOf(topic) {
   const href = topic.href;
+  if (href.startsWith('/for/')) return '目的別ガイド';
   if (href.startsWith('/shrine/') || href.startsWith('/temple/')) return '地域情報';
   if (href.startsWith('/tools/') || href.startsWith('/checklist/')) return 'ツール';
   if (href.startsWith('/questions/')) return 'よくある質問';

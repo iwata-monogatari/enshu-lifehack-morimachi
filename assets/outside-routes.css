@@ -1,0 +1,23 @@
+.outside-entry,.outside-quick{margin:28px 0;padding:26px;border:1px solid #ccd9ca;border-radius:16px;background:#f3f6ed;color:#243d32}
+.outside-kicker{font-size:1rem;font-weight:700;letter-spacing:.06em;color:#426147;margin:0 0 10px}
+.outside-entry h2,.outside-quick h2,.outside-summary-title{margin:0 0 18px;line-height:1.5;font-size:1.45rem}
+.outside-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+a.outside-card{display:flex;flex-direction:column;gap:12px;min-width:0;padding:22px;background:#fff;color:#243d32;border:1px solid #cbd6c7;border-radius:12px;text-decoration:none;line-height:1.75;overflow-wrap:anywhere}
+a.outside-card strong{font-size:1.12rem;line-height:1.5}
+a.outside-card span{display:block;font-size:1rem}
+a.outside-card strong span{display:inline}
+a.outside-card small{font-size:1rem;font-weight:700;margin-top:auto;color:#365b43}
+a.outside-card:hover{background:#edf3e6;border-color:#426147}
+a.outside-card:focus-visible,.outside-quick a:focus-visible{outline:3px solid #9b4c1a;outline-offset:4px}
+.outside-page{max-width:1080px;padding-bottom:36px}
+.outside-hero{padding:28px 0;border-bottom:2px solid #ccd9ca}
+.outside-page section{margin:36px 0}
+.outside-page h1{line-height:1.45}
+.outside-page h2{font-size:1.4rem;line-height:1.5;margin-bottom:18px}
+.outside-check{padding:24px;border-radius:14px;background:#f3f6ed;border-left:4px solid #547548}
+.outside-check li{margin:12px 0;line-height:1.9}
+.outside-note{font-size:1rem;line-height:1.8;color:#536056;margin:18px 0 0}
+.outside-quick dl{margin:0 0 16px;display:grid;gap:12px}
+.outside-quick dl>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;padding-bottom:12px;border-bottom:1px solid #d6dfd1}
+.outside-quick dt{font-weight:700}.outside-quick dd{margin:0;line-height:1.8}
+@media(max-width:700px){.outside-grid{grid-template-columns:1fr}.outside-entry,.outside-quick{padding:18px;margin:22px 0}.outside-entry h2,.outside-quick h2{font-size:1.25rem}a.outside-card{padding:18px;gap:8px}.outside-quick dl>div{grid-template-columns:1fr;gap:4px}.outside-hero{padding:18px 0}.outside-check{padding:18px}}

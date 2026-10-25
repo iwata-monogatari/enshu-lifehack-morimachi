@@ -21,6 +21,7 @@ import re
 import sys
 from html import escape
 from pathlib import Path
+from build_outside_routes import home_section, CSS
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.stdout.reconfigure(encoding="utf-8")
@@ -275,6 +276,7 @@ def build() -> str:
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
 <link rel="stylesheet" href="/assets/home-blog.css?v=20261019a">
+{CSS}
 <link rel="stylesheet" href="/assets/search-tools.css?v=20260806a">
 </head>
 <body class="hub home">
@@ -303,6 +305,7 @@ def build() -> str:
 <p class="lead">住民票、税金、ごみ、子育て、介護、空き家、おくやみ、防災。
 森町ライフハックは、<b>静岡県周智郡森町（遠州森町）</b>の暮らしと手続きを整理する案内サイトです。
 <b>森町公式サイトではありません</b>。公式情報を整理し、最後は必ず公式ページへご案内します。</p>
+{home_section()}
 <div class="home-shortcuts" aria-label="読み物とよくある質問">
 <a class="home-blog-shortcut" href="/discover/mori-festival/" data-track-click="home_mori_festival">
 <span class="home-blog-shortcut-icon" aria-hidden="true">🏮</span>
