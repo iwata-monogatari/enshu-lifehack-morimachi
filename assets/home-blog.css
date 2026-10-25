@@ -21,27 +21,26 @@ body.home .home-question-shortcut{border-color:#216b81;background:#eff8fb;color:
 body.home .home-question-shortcut:hover{background:#e1f1f6}
 
 /* Seasonal guide placed before the general homepage illustration. */
-body.home .home-jirogaki{margin:18px 0 24px;border:2px solid #b75b27;border-radius:16px;background:#fff3dd;overflow:hidden;box-shadow:0 5px 18px #713c1010}
-body.home .home-jirogaki-link{display:grid;grid-template-columns:1.15fr 1fr;align-items:center;color:#633417;text-decoration:none}
-body.home .home-jirogaki-copy{display:block;padding:24px 28px}
-body.home .home-jirogaki-kicker{display:block;font-size:13px;font-weight:700;letter-spacing:.08em;color:#8b461d}
-body.home .home-jirogaki strong{display:block;margin:8px 0 12px;font-size:clamp(25px,3.2vw,36px);line-height:1.35;letter-spacing:.02em}
-body.home .home-jirogaki-desc{display:block;font-size:15px;line-height:1.8;color:#644e37}
-body.home .home-jirogaki-button{display:inline-flex;align-items:center;gap:16px;min-height:46px;margin-top:17px;padding:10px 18px;background:#994017;border-radius:8px;color:#fff;font-weight:700;font-size:15px}
-body.home .home-jirogaki small{display:block;margin-top:10px;font-size:11px;line-height:1.6;color:#785a3f}
-body.home .home-jirogaki img{display:block;width:100%;height:auto;max-height:300px;object-fit:cover}
-body.home .home-jirogaki-link:hover{background:#ffebca;text-decoration:none}
-body.home .home-jirogaki-link:hover .home-jirogaki-button{background:#7c3111}
-body.home .home-jirogaki-link:focus-visible{outline:4px solid #245942;outline-offset:-5px}
+body.home .home-festival{margin:18px 0 24px;border:2px solid #843c32;border-radius:16px;background:#fff5e2;overflow:hidden;box-shadow:0 5px 18px #713c1010}
+body.home .home-festival-link{display:grid;grid-template-columns:1.15fr 1fr;align-items:center;color:#263f3c;text-decoration:none}
+body.home .home-festival-copy{display:block;padding:24px 28px}
+body.home .home-festival-kicker{display:block;font-size:13px;font-weight:700;letter-spacing:.08em;color:#843c32}
+body.home .home-festival strong{display:block;margin:8px 0 12px;font-size:clamp(34px,4.5vw,52px);line-height:1.35;letter-spacing:.02em}
+body.home .home-festival-desc{display:block;font-size:15px;line-height:1.8;color:#644e37}
+body.home .home-festival-button{display:inline-flex;align-items:center;gap:16px;min-height:46px;margin-top:17px;padding:10px 18px;background:#843c32;border-radius:8px;color:#fff;font-weight:700;font-size:15px}
+body.home .home-festival small{display:block;margin-top:10px;font-size:11px;line-height:1.6;color:#785a3f}
+body.home .home-festival img{display:block;width:100%;height:auto;max-height:300px;object-fit:cover}
+body.home .home-festival-link:hover{background:#f6e9ce;text-decoration:none}
+body.home .home-festival-link:hover .home-festival-button{background:#652d26}
+body.home .home-festival-link:focus-visible{outline:4px solid #245942;outline-offset:-5px}
 @media(max-width:600px){
-  body.home .home-jirogaki{margin:12px 0 18px}
-  body.home .home-jirogaki-link{grid-template-columns:minmax(0,1fr) 100px}
-  body.home .home-jirogaki-copy{padding:19px 0 19px 17px}
-  body.home .home-jirogaki strong{font-size:26px}
-  body.home .home-jirogaki-kicker{font-size:11px;letter-spacing:.03em}
-  body.home .home-jirogaki-desc{font-size:13px}
-  body.home .home-jirogaki-desc br{display:none}
-  body.home .home-jirogaki-button{font-size:13px;padding:10px 12px;gap:8px}
-  body.home .home-jirogaki small{font-size:10px}
-  body.home .home-jirogaki img{height:190px;object-fit:cover;object-position:13% center;align-self:start;margin-top:45px;border-radius:40px 0 0 40px}
+  body.home .home-festival{margin:12px 0 18px}
+  body.home .home-festival-link{grid-template-columns:minmax(0,1fr) 100px}
+  body.home .home-festival-copy{padding:19px 0 19px 17px}
+  body.home .home-festival strong{font-size:36px}
+  body.home .home-festival-kicker{font-size:11px;letter-spacing:.03em}
+  body.home .home-festival-desc{font-size:13px}
+  body.home .home-festival-button{font-size:13px;padding:10px 12px;gap:8px}
+  body.home .home-festival small{font-size:10px}
+  body.home .home-festival img{height:190px;object-fit:cover;object-position:53% center;align-self:start;margin-top:45px;border-radius:40px 0 0 40px}
 }

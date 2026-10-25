@@ -97,7 +97,8 @@ def main():
     matches = []
     if args.live:
         assets = ['/assets/outside-routes.css', '/assets/site.css', '/assets/search-app.js',
-                  '/assets/img/hero-morimachi.svg', '/assets/img/jirogaki-feature.svg']
+                  '/assets/img/hero-morimachi.svg', '/assets/img/jirogaki-feature.svg',
+                  '/assets/home-blog.css', '/discover/mori-festival/cover.svg']
         stamp = str(int(time.time()))
         for route in PAGES + assets:
             path = page_path(route) if route in PAGES else ROOT/route.lstrip('/')

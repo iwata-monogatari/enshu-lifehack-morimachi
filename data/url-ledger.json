@@ -20179,7 +20179,7 @@
   "has_faq_jsonld": false,
   "has_breadcrumb_jsonld": false,
   "exposes_raw_keys": false,
-  "bytes": 31652,
+  "bytes": 31700,
   "action": "rewrite",
   "merge_target": "",
   "priority": "P0",

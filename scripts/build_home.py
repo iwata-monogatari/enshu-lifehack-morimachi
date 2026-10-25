@@ -275,21 +275,21 @@ def build() -> str:
 <meta name="description" content="{esc(DESCRIPTION)}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END -->
-<link rel="stylesheet" href="/assets/home-blog.css?v=20261019a">
+<link rel="stylesheet" href="/assets/home-blog.css?v=20261026festival">
 {CSS}
 <link rel="stylesheet" href="/assets/search-tools.css?v=20260806a">
 </head>
 <body class="hub home">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
 <main><div class="wrap">
-<aside class="home-jirogaki" aria-label="秋のおすすめ・次郎柿直売所ガイド">
-<a class="home-jirogaki-link" href="/blog/20261001-morimachi-jirogaki-chokubaijo/" data-track-click="home_jirogaki_feature">
-<span class="home-jirogaki-copy"><span class="home-jirogaki-kicker">2026年 秋の買いものガイド</span>
-<strong>森町の次郎柿、<br>どこで買う？</strong>
-<span class="home-jirogaki-desc">直売所3件の販売時期・場所・電話を比較。<br>店頭予約と地方発送の案内も。</span>
-<span class="home-jirogaki-button">直売所・販売時期を見る <span aria-hidden="true">→</span></span>
-<small>10月19日更新 ／ 販売日・在庫は各店へご確認ください</small></span>
-<img src="/assets/img/jirogaki-feature.svg" width="1000" height="560" decoding="async" alt="柿畑と直売所を描いた秋のイラスト">
+<aside class="home-festival" aria-label="森町の祭り特集">
+<a class="home-festival-link" href="/discover/mori-festival/" data-track-click="home_mori_festival_feature">
+<span class="home-festival-copy"><span class="home-festival-kicker"><span aria-hidden="true">🏮</span> 森町の祭り特集</span>
+<strong>森のまつり<br>2026</strong>
+<span class="home-festival-desc"><b>11月6日（金）〜8日（日）</b><br>屋台・見どころ・交通・子連れ見学の準備をひとまとめに。</span>
+<span class="home-festival-button">祭り特集を見る <span aria-hidden="true">→</span></span>
+<small>当日の進行・交通規制は公式の最新案内をご確認ください</small></span>
+<img src="/discover/mori-festival/cover.svg" width="1200" height="630" fetchpriority="high" decoding="async" alt="屋台と提灯を描いた森のまつりの編集イラスト">
 </a></aside>
 <section class="hero">
 <figure class="hero-visual">
@@ -307,9 +307,9 @@ def build() -> str:
 <b>森町公式サイトではありません</b>。公式情報を整理し、最後は必ず公式ページへご案内します。</p>
 {home_section()}
 <div class="home-shortcuts" aria-label="読み物とよくある質問">
-<a class="home-blog-shortcut" href="/discover/mori-festival/" data-track-click="home_mori_festival">
+<a class="home-blog-shortcut" href="/blog/20261001-morimachi-jirogaki-chokubaijo/" data-track-click="home_jirogaki">
 <span class="home-blog-shortcut-icon" aria-hidden="true">🏮</span>
-<span><strong>森のまつり 2026 特集</strong><small>11月6日（金）〜8日（日）／屋台・交通・子連れ見学の案内</small></span>
+<span><strong>森町の次郎柿、どこで買う？</strong><small>直売所3件の販売時期・場所・電話、予約と地方発送の案内</small></span>
 <span class="home-blog-shortcut-arrow" aria-hidden="true">→</span>
 </a>
 <a class="home-blog-shortcut" href="/discover/">
