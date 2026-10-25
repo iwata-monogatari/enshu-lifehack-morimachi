@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（362本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（366本）
 
 ### 新着記事
 
+- 2026-10-26 [森町社協の弁護士相談｜親の財産管理を相談する](https://morimachi.enshu-lifehack.com/blog/20261026-morimachi-shakyo-bengoshi/)
+- 2026-10-26 [森町の企業立地サイト停止｜土地相談の確認先](https://morimachi.enshu-lifehack.com/blog/20261026-morimachi-kigyo-site-stop/)
+- 2026-10-26 [森町の人権相談｜11月12日に話せる困りごと](https://morimachi.enshu-lifehack.com/blog/20261026-morimachi-jinken-sodan/)
+- 2026-10-26 [森町のふるさとチョイス利用者へ｜不審連絡への備え](https://morimachi.enshu-lifehack.com/blog/20261026-morimachi-furusato-choice-security/)
 - 2026-10-25 [森町の窓断熱補助2026｜冬支度前の確認](https://morimachi.enshu-lifehack.com/blog/20261025-morimachi-mado-dannetsu-2026/)
 - 2026-10-25 [森町の公園比較｜駐車場と遊具で選ぶ休日](https://morimachi.enshu-lifehack.com/blog/20261025-morimachi-koen-hikaku/)
 - 2026-10-25 [森町の地域クラブ費用｜月会費以外の負担](https://morimachi.enshu-lifehack.com/blog/20261025-morimachi-chiiki-club-hiyo/)
@@ -55,10 +59,6 @@
 - 2026-10-24 [森町文化会館の座席の見え方｜公式写真で比較](https://morimachi.enshu-lifehack.com/blog/20261024-morimachi-hall-seat-view/)
 - 2026-10-24 [森町文化芸術大会出場激励金｜対象と申請書類](https://morimachi.enshu-lifehack.com/blog/20261024-morimachi-bunka-geijutsu-gekireikin/)
 - 2026-10-24 [大洞院の紅葉まつり2026｜昼と夜の日程比較](https://morimachi.enshu-lifehack.com/blog/20261024-daitoin-momiji-festival/)
-- 2026-10-23 [森町の防災訓練2026｜地区別会場を比較](https://morimachi.enshu-lifehack.com/blog/20261023-morimachi-bosai-kaijo/)
-- 2026-10-23 [森のまつり交通規制2026｜車で行く前の確認](https://morimachi.enshu-lifehack.com/blog/20261023-mori-matsuri-kisei-car/)
-- 2026-10-23 [秋葉バスのQR決済｜森町で乗る前の準備](https://morimachi.enshu-lifehack.com/blog/20261023-akiha-bus-qr/)
-- 2026-10-23 [秋葉バスロケの使い方｜森町で現在地を確認](https://morimachi.enshu-lifehack.com/blog/20261023-akiha-bus-location/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
