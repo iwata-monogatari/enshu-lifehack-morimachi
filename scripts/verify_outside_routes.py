@@ -42,6 +42,15 @@ def page_path(route):
 def normalized(data):
     return data.replace(b'\r\n', b'\n')
 
+def origin_html(data):
+    """Ignore only observed Cloudflare-injected scripts; compare all authored HTML."""
+    def strip_injected(match):
+        script = match[0]
+        beacon = re.match(rb'<script\b[^>]*\bsrc="https://static\.cloudflareinsights\.com/beacon\.min\.js/', script)
+        challenge = script.startswith(b'<script>(function(){function c(){var b=a.contentDocument') and b'/cdn-cgi/challenge-platform/scripts/jsd/main.js' in script
+        return b'' if beacon or challenge else script
+    return re.sub(rb'<script\b[^>]*>.*?</script>\n?', strip_injected, data, flags=re.S)
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--live', action='store_true')
@@ -98,9 +107,13 @@ def main():
                 with urllib.request.urlopen(req, timeout=30) as response:
                     remote = normalized(response.read())
                     local = normalized(path.read_bytes())
-                    matched = remote == local
+                    compared = origin_html(remote) if route in PAGES else remote
+                    matched = compared == local
                     matches.append({'url':SITE+route,'status':response.status,'match':matched,
-                                    'sha256':hashlib.sha256(remote).hexdigest()})
+                                    'sha256':hashlib.sha256(remote).hexdigest(),
+                                    'authored_sha256':hashlib.sha256(compared).hexdigest(),
+                                    'local_sha256':hashlib.sha256(local).hexdigest(),
+                                    'cloudflare_scripts_removed':compared != remote})
                     if not matched:
                         errors.append(route+': live artifact mismatch')
             except Exception as e:
