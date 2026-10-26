@@ -40,21 +40,35 @@ def illustration(number):
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" data-illustration="mori-editorial"><title>森のまつりの編集イラスト</title><desc>実在の屋台・場所・運行経路を再現したものではありません。</desc>{scene}</svg>'
 
 
+
+TRAFFIC_GUIDE = '''<section class="editorial-section" id="traffic-guide"><h2>当年の交通規制図を読む</h2>
+<p><a href="https://www.mori-kanko.jp/newsdetail/maturi2026kisei.html" target="_blank" rel="noopener" data-track-click="mori_festival_official">観光協会の2026年交通規制・駐車場案内を開く</a>。10月21日公表、10月23日取得の保存資料を10月26日に確認しました。</p>
+<p>下の一覧は、公式図のピンク色・水色の区間について、車両通行禁止の時間を抜粋したものです。規制区域はリンク先の地図で確認してください。その他の色・区間にも別の規制があり、この一覧だけで通行可否を判断できません。</p>
+<dl><dt><b>11月6日（金）</b></dt><dd>ピンク色の区間：10:00〜22:00／水色の区間：17:00〜22:00</dd>
+<dt><b>11月7日（土）</b></dt><dd>ピンク色の区間：8:00〜22:00／水色の区間：12:00〜22:00</dd>
+<dt><b>11月8日（日）</b></dt><dd>ピンク色の区間：8:00〜22:30／水色の区間：11:00〜22:30</dd></dl>
+<p>これは駐車場の開放時間や屋台の通過時刻ではありません。青いPは無料駐車場、丸数字は概算台数の表示です。無料でも空きは保証されません。利用する場所と入出庫条件、駐車後の徒歩経路を確かめてください。</p>
+<h3>11月8日の舞児還しは、立入制限にも注意</h3>
+<p>公式図では、三島神社下の黄色で示された指定区域について、17:00から19:30頃の最後の屋台が出終わるまで、正装以外の一般観客の立入りを遠慮するよう案内しています。舞児還し出発の18:00より前からの制限です。区域は拡大図で確認し、当日の誘導を優先してください。</p>
+<p>送迎・駐車後の歩き方は<a href="/blog/20261023-mori-matsuri-kisei-car/">既存の交通規制確認記事</a>でも整理しています。<a href="#source-10">公式出典・確認時点</a></p></section>'''
+
 def render(row, parts, count):
     links = ''.join(f'<li id="source-{n}"><a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["title"])}</a><small>{e(s["publisher"])}</small></li>' for n,s in enumerate(row['sources'],1))
-    source_map={1:[1,8,9],2:[2,3,4],3:[5,6],4:[7],5:[2,5],8:[4]}
+    source_map={1:[1,8,9],2:[2,3,4],3:[5,6],4:[10],5:[2,5],8:[4],9:[10]}
     contents=[]
     for i,section in enumerate(row['body_sections']):
         ps=''.join(f'<p>{e(p)}</p>' for p in section['paragraphs'])
         refs=''.join(f'<a href="#source-{n}">出典 {n}</a> ' for n in source_map.get(i,[]))
         contents.append(f'<section class="editorial-section" id="{IDS[i]}"><span class="section-no" aria-hidden="true">{i+1:02}</span><h2>{e(section["heading"])}</h2>{ps}<div class="source-ref">{refs}</div></section>')
+        if i == 4:
+            contents.append(TRAFFIC_GUIDE)
         if i in (2,10):
             n=1 if i==2 else 2
             item=row['illustrations'][n-1]
             contents.append(f'<figure class="feature-figure"><img src="fig{n}.svg" width="1200" height="630" loading="lazy" alt="{e(item["alt"])}"><figcaption>{e(item["caption"])}</figcaption></figure>')
     checks=['2026年の公式案内で見たい日の進行を確認した','帰りの列車・接続、または当年の駐車条件を確認した','休憩・トイレ・家族の集合場所を決めた','天候と交通機関の運行情報を出発前に確認する']
     checklist=''.join(f'<label><input type="checkbox"><span>{e(t)}</span></label>' for t in checks)
-    faqs=[('2026年はいつ開催？','11月6日（金）〜8日（日）です。森町観光協会の2026年10月1日のお知らせで確認しています。'),('見物心得帳はどこでもらえる？','観光協会は、森町役場や観光案内所での無料配布を案内しています。受取時間と在庫は問い合わせ先へ確認してください。'),('無料駐車場はある？','本特集では、2026年の祭り用駐車場の開放条件を確認できていません。通常の施設駐車場や他の催しの駐車場図を流用せず、当年の案内をご確認ください。'),('舞児還しは何時から？','神前で舞を奉納した舞児を家まで送る行事です。2026年11月8日（日）16時30分に舞児還し式、18時に三島神社から出発の予定です。式と出発は別の時刻です。変更は公式・現地案内で確認してください。'),('雨でも見学できる？','今年の雨天変更基準は本特集では未確認です。主催者側の案内と鉄道の運行情報を出発前に確認してください。')]
+    faqs=[('2026年はいつ開催？','11月6日（金）〜8日（日）です。森町観光協会の2026年10月1日のお知らせで確認しています。'),('見物心得帳はどこでもらえる？','観光協会は、森町役場や観光案内所での無料配布を案内しています。受取時間と在庫は問い合わせ先へ確認してください。'),('無料駐車場はある？','観光協会の2026年交通規制図には無料駐車場の位置が示されています。青いPと丸数字（概算台数）を公式図で確認してください。無料でも空きは保証されず、道路の規制時間は駐車場の開放時間ではありません。個別の入出庫条件と当日の案内も確認してください。'),('舞児還しは何時から？','神前で舞を奉納した舞児を家まで送る行事です。2026年11月8日（日）16時30分に舞児還し式、18時に三島神社から出発の予定です。式と出発は別の時刻です。変更は公式・現地案内で確認してください。'),('雨でも見学できる？','今年の雨天変更基準は本特集では未確認です。主催者側の案内と鉄道の運行情報を出発前に確認してください。')]
     faqhtml=''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in faqs)
     schema={'@context':'https://schema.org','@type':'Article','headline':row['title'],'description':row['description'],'mainEntityOfPage':URL,'datePublished':row['published_at'],'dateModified':row['updated_at'],'author':{'@type':'Person','name':'大石浩之','url':'https://morimachi.enshu-lifehack.com/about/author/'},'publisher':{'@type':'Organization','name':'森町ライフハック'},'image':URL+'cover.svg'}
     schema = {'@context': 'https://schema.org', '@graph': [
@@ -75,7 +89,7 @@ def render(row, parts, count):
 <main><article class="festival-wrap"><nav class="breadcrumb" aria-label="パンくず"><a href="/">森町ライフハック</a> ／ <a href="/discover/">森町のガイド</a> ／ 森のまつり</nav>
 <header class="festival-hero"><div class="hero-copy"><p class="feature-kicker">遠州の秋、町が祭りになる。</p><h1>{e(row['title'])}</h1><p class="festival-date"><span>2026</span>11.6 <small>金</small> — 11.8 <small>日</small></p><p class="feature-lead">{e(row['lead'])}</p><a class="feature-button" href="#essentials">日程と訪問のポイントへ <span aria-hidden="true">↓</span></a><p class="feature-note">静岡県周智郡森町／非公式の見学特集<br>情報確認・特集更新：2026年10月26日</p></div><figure><img src="cover.svg" width="1200" height="630" fetchpriority="high" alt="{e(row['cover_alt'])}"><figcaption>{e(row['cover_caption'])}</figcaption></figure></header>
 <nav class="feature-nav" aria-label="特集の目次"><a href="#essentials">日程・公式案内</a><a href="#schedule">行事予定</a><a href="#highlights">見どころ</a><a href="#train">電車</a><a href="#parking">駐車・規制</a><a href="#family">子連れ</a><a href="#plan">行程案</a><a href="#faq">よくある質問</a></nav>
-<section id="essentials" class="feature-essentials"><p class="feature-kicker">まず押さえたいこと</p><h2>秋の3日間を、自分たちのペースで。</h2><div class="date-grid"><div><span>11月</span><strong>6 <small>金</small></strong><p>開催1日目</p></div><div><span>11月</span><strong>7 <small>土</small></strong><p>開催2日目</p></div><div><span>11月</span><strong>8 <small>日</small></strong><p>開催3日目</p></div></div><p class="date-source">日程の出典：<a href="{NOTICE}" target="_blank" rel="noopener" data-track-click="mori_festival_official">森町観光協会・2026年10月1日のお知らせ</a></p><div class="info-grid"><div class="confirmed"><span class="status-label">公式案内で確認済み</span><h3>無料の「見物心得帳」を手に入れる</h3><p>主な屋台の動きや見どころを載せた公式ガイド。森町役場・観光案内所で配布と案内されています。受取時間・在庫は事前にご確認ください。</p><a href="tel:0538856316">観光協会へ：0538-85-6316</a></div><div class="unconfirmed"><span class="status-label">本特集では当年の詳細未確認</span><h3>駐車場・交通規制の詳細</h3><p>開放場所、料金、規制時間は当年の公式ガイド・現地案内で確認を。主要行事の出発時刻は下表に掲載しています。過去の情報を2026年の予定として掲載していません。</p><a href="#parking">車で行く前の確認事項へ →</a></div></div></section>
+<section id="essentials" class="feature-essentials"><p class="feature-kicker">まず押さえたいこと</p><h2>秋の3日間を、自分たちのペースで。</h2><div class="date-grid"><div><span>11月</span><strong>6 <small>金</small></strong><p>開催1日目</p></div><div><span>11月</span><strong>7 <small>土</small></strong><p>開催2日目</p></div><div><span>11月</span><strong>8 <small>日</small></strong><p>開催3日目</p></div></div><p class="date-source">日程の出典：<a href="{NOTICE}" target="_blank" rel="noopener" data-track-click="mori_festival_official">森町観光協会・2026年10月1日のお知らせ</a></p><div class="info-grid"><div class="confirmed"><span class="status-label">公式案内で確認済み</span><h3>無料の「見物心得帳」を手に入れる</h3><p>主な屋台の動きや見どころを載せた公式ガイド。森町役場・観光案内所で配布と案内されています。受取時間・在庫は事前にご確認ください。</p><a href="tel:0538856316">観光協会へ：0538-85-6316</a></div><div class="confirmed"><span class="status-label">当年の公式図を保存資料で確認</span><h3>駐車場・交通規制の確認先</h3><p>10月21日付の観光協会の図に、規制区域・時間と無料駐車場の位置があります。行事の出発時刻とは別です。10月23日取得資料を10月26日に照合。出発前に最新案内を確認してください。</p><a href="#traffic-guide">公式図の読み方・確認した注意事項へ →</a></div></div></section>
 <section class="feature-essentials" id="schedule"><h2>2026年・主要行事の予定</h2><p>10月26日確認。観光協会の10月21日現在の案内と三島神社の当年行事表によります。時刻は変更される場合があります。</p><dl><dt><b>11月6日（金）</b></dt><dd>12:00 祭典開始宣言式・安全祈願祭（三島神社）／12:30頃 屋台清祓い</dd><dt><b>11月7日（土）</b></dt><dd>9:30 本祭／13:00 神幸祭／13:40 渡御出発（三島神社→金守神社）</dd><dt><b>11月8日（日）</b></dt><dd>12:00 還幸祭（金守神社）／12:30 還御出発／14:00頃 終祭／16:30 舞児還し式／18:00 舞児還し出発（三島神社）</dd></dl><p>到着目安は観光協会と神社で異なります。7日金守神社着は15:00／14:50頃、8日三島神社着は14:10／13:50頃。到着を確約する時刻ではありません。現地の進行を優先し、帰路に余裕を取ってください。</p><p>各屋台の経路・通過時刻や交通規制の時間割を示す表ではありません。<a href="#source-8">観光協会の予定</a>・<a href="#source-9">三島神社の詳細表</a>を出発前に確認してください。</p></section><div class="feature-reading"><div class="post-editorial-body">{''.join(contents)}</div>
 <section class="visit-checklist" id="checklist"><p class="feature-kicker">出発前に、さっと確認</p><h2>家族で確認する4項目</h2><p>チェックはこの画面での確認用です。個人情報は入力しません。</p>{checklist}</section>
 <section class="festival-faq" id="faq"><p class="feature-kicker">Q &amp; A</p><h2>よくある質問</h2>{faqhtml}</section>
