@@ -23,6 +23,7 @@ SITE_NAME = "森町ライフハック"
 START = "<!-- OGP-META:START -->"
 END = "<!-- OGP-META:END -->"
 MARKER_RE = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
+CANONICAL_RE = re.compile(r'<link\b(?=[^>]*\brel\s*=\s*["\']canonical["\'])[^>]*>', re.I)
 
 
 def page_key(relpath):
@@ -32,7 +33,7 @@ def page_key(relpath):
     return cat, slug
 
 
-def build_meta(title, desc, image_url, page_url):
+def build_meta(title, desc, image_url, page_url, include_canonical=True):
     t = html.escape(title, quote=True)
     d = html.escape(desc, quote=True)
     return "".join(
@@ -50,7 +51,7 @@ def build_meta(title, desc, image_url, page_url):
             '<meta name="twitter:title" content="%s">' % t,
             '<meta name="twitter:description" content="%s">' % d,
             '<meta name="twitter:image" content="%s">' % image_url,
-            '<link rel="canonical" href="%s">' % page_url,
+            '<link rel="canonical" href="%s">' % page_url if include_canonical else "",
         ]
     )
 
@@ -84,7 +85,12 @@ def main():
             continue
         desc = html.unescape(dm.group(1))
 
-        block = START + build_meta(title, desc, image_url, page_url) + END
+        # Ignore our previous block when checking for a canonical. A canonical
+        # owned by the page generator must not be duplicated in the OGP block;
+        # pages without one still need the managed canonical on every run.
+        outside_block = MARKER_RE.sub("", src)
+        include_canonical = not CANONICAL_RE.search(outside_block)
+        block = START + build_meta(title, desc, image_url, page_url, include_canonical) + END
 
         if MARKER_RE.search(src):
             new = MARKER_RE.sub(lambda mm: block, src, count=1)

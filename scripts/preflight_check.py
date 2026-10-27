@@ -134,6 +134,9 @@ def check_head() -> None:
     titles: dict[str, list[str]] = {}
     descs: dict[str, list[str]] = {}
     for url, html in ALL.items():
+        canonical_links = re.findall(r'<link\b(?=[^>]*\brel\s*=\s*["\']canonical["\'])[^>]*>', html, re.I)
+        if len(canonical_links) > 1:
+            err(f"canonical が {len(canonical_links)} 個: {url}")
         if 'rel="canonical"' not in html:
             err(f"canonical が無い: {url}")
         else:
