@@ -368,7 +368,7 @@ def main():
         if t.get("main_deity") and t["main_deity"] != "未確認":
             body.append('<p>本尊は、参照資料で「%s」と確認できました。寺院へ問い合わせる際は、資料名と表記をそのまま伝えると行き違いを減らせます。</p>' % esc(t["main_deity"]))
         else:
-            body.append('<p>本尊については、今回参照した公開資料から確かな案内を得られませんでした。宗派や寺名から推し量らず、公開されている所在地と宗派だけを掲載しています。</p>')
+            body.append('<p>法人名簿は、名称・宗派・所在地を確認する資料です。本尊や由緒については、下記の個別資料で説明できる範囲を紹介し、宗派や寺名から推測して補うことはしません。</p>')
         body.append('</section>')
 
         research_sources = []
@@ -391,7 +391,7 @@ def main():
                         '<p>文化財の指定は、建物すべての公開や自由な見学を意味しません。見学できる範囲と撮影の可否は、現地掲示や寺院の案内に従ってください。</p></section>' % esc(t["history_summary"]))
         else:
             body.append('<section><h2 class="sec">由緒や建物について</h2>'
-                        '<p>%sについて今回参照した名簿は、法人名、宗派、所在地を確認するための資料です。創建年、建物の年代、由緒、文化財の有無を説明する資料ではないため、このページでは付け加えていません。</p>'
+                        '<p>%sについて今回参照した名簿は、法人名、宗派、所在地を確認するための資料です。創建年、建物の年代、由緒、文化財の有無は、法人名簿とは別の資料で確認する必要があります。このページで紹介する個別の記録は、それぞれの出典の説明と区別してお読みください。</p>'
                         '<p>由緒を知りたいときは、境内の説明板、寺院自身の案内、森町や文化財担当機関の資料を優先してください。地域の言い伝えは、公的な指定や年代記録と分けて読む必要があります。</p></section>'
                         % esc(t["name"]))
 
@@ -440,7 +440,7 @@ def main():
         prefecture_registry_url = "https://www.pref.shizuoka.jp/kensei/gyoseikaikaku/1083643/1083669/1083677.html"
         if prefecture_registry_url not in source_urls:
             body.append('<li><a href="%s" target="_blank" rel="noopener">静岡県「宗教法人名簿」</a>（県知事所轄の宗教法人名簿と資料の確認先）</li>' % prefecture_registry_url)
-        body.append('</ul><p>基本情報の確認日は%sです。公開資料にない本尊、御朱印、拝観条件、連絡先は補っていません。寺院関係者から訂正の連絡をいただいた場合は、根拠を確認して更新します。</p></section></div>' % esc(t["last_verified_at"]))
+        body.append('</ul><p>基本情報の確認日は%sです。由緒・建築・本尊の説明は、掲載した個別資料の範囲に限ります。御朱印や拝観条件などの最新の対応は寺院の案内で確認してください。寺院関係者から訂正の連絡をいただいた場合は、根拠を確認して更新します。</p></section></div>' % esc(t["last_verified_at"]))
 
         addr_short = address_label.replace("静岡県周智郡森町", "森町") or (
             "森町%s" % (t.get("area") or ""))

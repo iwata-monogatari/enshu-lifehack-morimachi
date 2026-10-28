@@ -942,7 +942,7 @@
       "cultural_property": null,
       "history_summary": null,
       "oldest_building": false,
-      "main_deity": "未確認",
+      "main_deity": "白龍頭観音",
       "manned_status": "未確認",
       "goshuin_status": "未確認",
       "visit_status": "未訪問",
@@ -956,6 +956,12 @@
           "type": "行政・公的資料",
           "url": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/083/677/meibo4.pdf",
           "note": "参照: p72 L17（法人名・包括団体・所在地）"
+        },
+        {
+          "title": "森町観光協会 鹿苑山 香勝寺",
+          "type": "観光協会",
+          "url": "https://www.mori-kanko.jp/touristdetail/5002.html",
+          "note": "1545年の開山、崇信寺八世仙応全忠、本尊の白龍頭観音。2026-10-28確認"
         }
       ]
     },
