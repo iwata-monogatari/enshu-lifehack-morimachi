@@ -43,11 +43,12 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（376本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（377本）
 
 ### 新着記事
 
 - 2026-10-29 [旧城下学校の建築｜森町に残る一室の校舎](https://morimachi.enshu-lifehack.com/blog/20261029-shiroshita-school-architecture/)
+- 2026-10-29 [藤江勝太郎とは｜森町から伝えた烏龍茶の技術](https://morimachi.enshu-lifehack.com/blog/20261029-fujie-katsutaro-oolong/)
 - 2026-10-28 [小國神社の紅葉｜森町で宮川沿いを歩く準備](https://morimachi.enshu-lifehack.com/blog/20261028-okuni-miyagawa-koyo-sansaku/)
 - 2026-10-28 [森町の町並みと蔵展2026秋｜古い建物を訪ねる準備](https://morimachi.enshu-lifehack.com/blog/20261028-morimachi-machinami-kuraten-aki/)
 - 2026-10-28 [森町で県指定文化財を継ぐ｜変更届の確認順](https://morimachi.enshu-lifehack.com/blog/20261028-morimachi-ken-bunkazai-henko/)
@@ -58,7 +59,6 @@
 - 2026-10-27 [森町の実家のデジタル遺品｜契約を残す準備](https://morimachi.enshu-lifehack.com/blog/20261027-morimachi-digital-ihin-junbi/)
 - 2026-10-27 [森町の空き家管理｜自分で通うか委託するか](https://morimachi.enshu-lifehack.com/blog/20261027-morimachi-akiya-kanri-itaku/)
 - 2026-10-26 [森町社協の弁護士相談｜親の財産管理を相談する](https://morimachi.enshu-lifehack.com/blog/20261026-morimachi-shakyo-bengoshi/)
-- 2026-10-26 [森町の企業立地サイト停止｜土地相談の確認先](https://morimachi.enshu-lifehack.com/blog/20261026-morimachi-kigyo-site-stop/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
