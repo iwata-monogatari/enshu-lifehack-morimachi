@@ -39058,5 +39058,35 @@
   "page_type": "detail",
   "department": "",
   "audience": ""
- }
+ },
+{
+  "url": "/blog/20261029-momiji-goshuincho/",
+  "title": "もみじめぐり御朱印帳｜小國神社から4社寺へ｜静岡県森町ライフハック",
+  "h1": "もみじめぐり御朱印帳｜小國神社から4社寺へ",
+  "description": "もみじめぐり御朱印帳は小國神社・普門寺・尊永寺・龍潭寺の4社寺をつなぐ屏風型の専用帳です。公式案内の初穂料は1,200円、御朱印代は別。現在の在庫や受付は訪問先へ確認し、今日は一か所の頒布条件から家族の巡拝準備を始めます。",
+  "section": "blog",
+  "category": "blog",
+  "slug": "20261029-momiji-goshuincho",
+  "new_hub": "",
+  "new_hub_label": "",
+  "intent": "森町の暮らしの読み物を読む",
+  "primary_keyword": "森町 ブログ",
+  "official_source": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/2/776.html",
+  "official_source_count": 2,
+  "tel": "",
+  "verified_at": "",
+  "canonical": "",
+  "has_faq_jsonld": true,
+  "has_breadcrumb_jsonld": true,
+  "exposes_raw_keys": false,
+  "bytes": 33213,
+  "action": "keep",
+  "merge_target": "",
+  "priority": "P3",
+  "owner": "大石浩之",
+  "status": "作業中",
+  "page_type": "detail",
+  "department": "",
+  "audience": ""
+}
 ]
