@@ -39059,7 +39059,7 @@
   "department": "",
   "audience": ""
  },
-{
+ {
   "url": "/blog/20261029-momiji-goshuincho/",
   "title": "もみじめぐり御朱印帳｜小國神社から4社寺へ｜静岡県森町ライフハック",
   "h1": "もみじめぐり御朱印帳｜小國神社から4社寺へ",
@@ -39088,8 +39088,8 @@
   "page_type": "detail",
   "department": "",
   "audience": ""
-},
-{
+ },
+ {
   "url": "/blog/20261030-tenhama-parking/",
   "title": "森町の天浜線駐車場｜3駅の台数を比べる｜静岡県森町ライフハック",
   "h1": "森町の天浜線駐車場｜3駅の台数を比べる",
@@ -39118,5 +39118,35 @@
   "page_type": "detail",
   "department": "",
   "audience": ""
-}
+ },
+ {
+  "url": "/blog/20261030-gesuido-kuiki/",
+  "title": "森町の下水道区域｜家の住所で確かめる｜静岡県森町ライフハック",
+  "h1": "森町の下水道区域｜家の住所で確かめる",
+  "description": "静岡県周智郡森町の公共下水道は地区名だけで利用可否を判断できません。2025年4月現在の区域を出発点に、家の住所での窓口照会、接続状況、工事と費用の確認順を整理します。",
+  "section": "blog",
+  "category": "blog",
+  "slug": "20261030-gesuido-kuiki",
+  "new_hub": "",
+  "new_hub_label": "",
+  "intent": "森町の暮らしの読み物を読む",
+  "primary_keyword": "森町 ブログ",
+  "official_source": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/gesuidokanrigakari/1/1/398.html",
+  "official_source_count": 3,
+  "tel": "",
+  "verified_at": "",
+  "canonical": "https://morimachi.enshu-lifehack.com/blog/20261030-gesuido-kuiki/",
+  "has_faq_jsonld": true,
+  "has_breadcrumb_jsonld": true,
+  "exposes_raw_keys": false,
+  "bytes": 28676,
+  "action": "keep",
+  "merge_target": "",
+  "priority": "P3",
+  "owner": "大石浩之",
+  "status": "作業中",
+  "page_type": "detail",
+  "department": "",
+  "audience": ""
+ }
 ]
