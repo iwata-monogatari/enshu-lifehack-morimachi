@@ -43,11 +43,12 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（385本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（386本）
 
 ### 新着記事
 
 - 2026-10-31 [森町の令和学級｜11月の文化講座と参加確認](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-reiwa-gakkyu/)
+- 2026-10-31 [森町文化会館で物販｜開催前の許可確認](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-kaikan-sales/)
 - 2026-10-31 [森町で映画上映会｜家庭用DVDとの違い](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-film-screening/)
 - 2026-10-31 [森町の催しの食器｜使い捨てと再使用を比較](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-event-tableware/)
 - 2026-10-30 [森町の天浜線駐車場｜3駅の台数を比べる](https://morimachi.enshu-lifehack.com/blog/20261030-tenhama-parking/)
@@ -58,7 +59,6 @@
 - 2026-10-29 [もみじめぐり御朱印帳｜小國神社から4社寺へ](https://morimachi.enshu-lifehack.com/blog/20261029-momiji-goshuincho/)
 - 2026-10-29 [藤江勝太郎とは｜森町から伝えた烏龍茶の技術](https://morimachi.enshu-lifehack.com/blog/20261029-fujie-katsutaro-oolong/)
 - 2026-10-28 [小國神社の紅葉｜森町で宮川沿いを歩く準備](https://morimachi.enshu-lifehack.com/blog/20261028-okuni-miyagawa-koyo-sansaku/)
-- 2026-10-28 [森町の町並みと蔵展2026秋｜古い建物を訪ねる準備](https://morimachi.enshu-lifehack.com/blog/20261028-morimachi-machinami-kuraten-aki/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
