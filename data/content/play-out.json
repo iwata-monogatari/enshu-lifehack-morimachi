@@ -407,40 +407,146 @@
   "lead": "森町立図書館は9時～17時（水曜日のみ19時まで）の開館で、児童図書コーナーや絵本コーナーもあり、子どもとゆっくり本を楽しめます。蔵書検索や予約は図書館専用ホームページから利用できます。",
   "note": "本の貸出は原則、森町に在住・在勤・在学する人が対象です。館内での利用はどなたでもできるので、詳しい貸出条件は図書館へお問い合わせください。",
   "real_cards": [
-    {"icon": "📚", "title": "水曜日は19時まで開館", "body": "通常は9時～17時ですが、水曜日のみ19時まで開館しています。仕事帰りにも立ち寄りやすい曜日です。"},
-    {"icon": "👶", "title": "児童図書・絵本コーナーあり", "body": "児童図書コーナーと絵本コーナーが用意されているので、お子さんと一緒にゆっくり絵本を楽しめます。子どものお出かけ先としてもおすすめです。"},
-    {"icon": "💻", "title": "蔵書検索・予約はネットで", "body": "図書館専用ホームページ（toshosv.town.morimachi.shizuoka.jp）で蔵書検索や予約ができます。事前に調べてから来館するとスムーズです。"},
-    {"icon": "🪪", "title": "貸出は在住・在勤・在学が対象", "body": "館内利用はどなたでも可能ですが、本の持ち出し（貸出）は原則として森町に在住・在勤・在学する人が対象です。詳細は図書館へご確認ください。"}
+    {
+      "icon": "📚",
+      "title": "水曜日は19時まで開館",
+      "body": "通常は9時～17時ですが、水曜日のみ19時まで開館しています。仕事帰りにも立ち寄りやすい曜日です。"
+    },
+    {
+      "icon": "👶",
+      "title": "児童図書・絵本コーナーあり",
+      "body": "児童図書コーナーと絵本コーナーが用意されているので、お子さんと一緒にゆっくり絵本を楽しめます。子どものお出かけ先としてもおすすめです。"
+    },
+    {
+      "icon": "💻",
+      "title": "蔵書検索・予約はネットで",
+      "body": "図書館専用ホームページ（toshosv.town.morimachi.shizuoka.jp）で蔵書検索や予約ができます。事前に調べてから来館するとスムーズです。"
+    },
+    {
+      "icon": "🪪",
+      "title": "貸出は在住・在勤・在学が対象",
+      "body": "館内利用はどなたでも可能ですが、本の持ち出し（貸出）は原則として森町に在住・在勤・在学する人が対象です。詳細は図書館へご確認ください。"
+    }
   ],
   "qa": [
-    {"question": "開館時間と休館日を教えてください", "answer": "開館時間は<b>9時～17時</b>（水曜日のみ19時まで）です。休館日は<b>月曜日</b>（祝日の場合は翌日）、<b>年末年始（12月28日～1月4日）</b>、特別整理期間です。"},
-    {"question": "町外に住んでいても本を借りられますか", "answer": "館内での利用はどなたでも可能ですが、本の貸出（持ち出し）は原則として森町に在住・在勤・在学する人が対象です。詳しい条件は図書館（0538-85-1113）へお問い合わせください。"},
-    {"question": "読みたい本を事前に予約できますか", "answer": "はい、蔵書検索・予約は図書館専用ホームページから可能です。事前にオンラインで確認しておくと、来館時にスムーズに借りられます。"}
+    {
+      "question": "開館時間と休館日を教えてください",
+      "answer": "開館時間は<b>9時～17時</b>（水曜日のみ19時まで）です。休館日は<b>月曜日</b>（祝日の場合は翌日）、<b>年末年始（12月28日～1月4日）</b>、特別整理期間です。"
+    },
+    {
+      "question": "町外に住んでいても本を借りられますか",
+      "answer": "館内での利用はどなたでも可能ですが、本の貸出（持ち出し）は原則として森町に在住・在勤・在学する人が対象です。詳しい条件は図書館（0538-85-1113）へお問い合わせください。"
+    },
+    {
+      "question": "読みたい本を事前に予約できますか",
+      "answer": "蔵書検索・予約は<a href=\"https://toshosv.town.morimachi.shizuoka.jp/\" target=\"_blank\" rel=\"noopener\">森町立図書館公式サイト</a>から確認できます。「本のかんたん検索」にタイトル・著者名等を入力して探してください。予約の利用条件は公式サイトで確認してください。"
+    }
   ],
   "tabs": [
-    {"id": "type-kids2", "label": "子どもと利用したい", "heading": "児童図書・絵本コーナーを活用", "bullets": ["児童図書コーナーと絵本コーナーがある", "館内利用はどなたでも可能", "雨の日のお出かけ先としてもおすすめ"], "actions": [
-      {"label": "森町立図書館(施設案内)を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html", "source": "森町公式"},
-      {"label": "子どもの遊び場を見る", "href": "/life/play-out/kids-playgrounds/", "source": "森町ライフハック"}
-    ]},
-    {"id": "type-borrow", "label": "本を借りたい", "heading": "在住・在勤・在学が貸出対象", "bullets": ["貸出は原則、森町に在住・在勤・在学する人が対象", "詳しい条件は図書館へ直接確認", "蔵書検索・予約はネットで事前にできる"], "actions": [
-      {"label": "図書館ページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/index.html", "source": "森町公式"},
-      {"label": "図書館に電話する", "href": "tel:0538-85-1113", "source": "0538-85-1113"}
-    ]},
-    {"id": "type-evening", "label": "仕事帰りに寄りたい", "heading": "水曜日は19時まで開館", "bullets": ["水曜日のみ19時まで開館している", "その他の曜日は17時閉館", "月曜・祝日翌日・年末年始は休館"], "actions": [
-      {"label": "森町立図書館(施設案内)を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html", "source": "森町公式"}
-    ]}
+    {
+      "id": "type-kids2",
+      "label": "子どもと利用したい",
+      "heading": "児童図書・絵本コーナーを活用",
+      "bullets": [
+        "児童図書コーナーと絵本コーナーがある",
+        "館内利用はどなたでも可能",
+        "雨の日のお出かけ先としてもおすすめ"
+      ],
+      "actions": [
+        {
+          "label": "森町立図書館(施設案内)を見る",
+          "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html",
+          "source": "森町公式"
+        },
+        {
+          "label": "子どもの遊び場を見る",
+          "href": "/life/play-out/kids-playgrounds/",
+          "source": "森町ライフハック"
+        }
+      ]
+    },
+    {
+      "id": "type-borrow",
+      "label": "本を借りたい",
+      "heading": "在住・在勤・在学が貸出対象",
+      "bullets": [
+        "貸出は原則、森町に在住・在勤・在学する人が対象",
+        "詳しい条件は図書館へ直接確認",
+        "蔵書検索・予約はネットで事前にできる"
+      ],
+      "actions": [
+        {
+          "label": "本を検索する（図書館公式）",
+          "href": "https://toshosv.town.morimachi.shizuoka.jp/",
+          "source": "森町公式"
+        },
+        {
+          "label": "図書館に電話する",
+          "href": "tel:0538-85-1113",
+          "source": "0538-85-1113"
+        }
+      ]
+    },
+    {
+      "id": "type-evening",
+      "label": "仕事帰りに寄りたい",
+      "heading": "水曜日は19時まで開館",
+      "bullets": [
+        "水曜日のみ19時まで開館している",
+        "その他の曜日は17時閉館",
+        "月曜・祝日翌日・年末年始は休館"
+      ],
+      "actions": [
+        {
+          "label": "森町立図書館(施設案内)を見る",
+          "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html",
+          "source": "森町公式"
+        }
+      ]
+    }
   ],
   "steps": {
-    "today": ["開館時間（9時～17時、水曜は19時まで）を確認する", "休館日でないか（月曜・祝日翌日・年末年始）確認する"],
-    "this_week": ["読みたい本があれば専用ホームページで蔵書検索する", "必要に応じてオンラインで予約する"],
-    "outside": ["貸出条件（在住・在勤・在学）を図書館へ確認する", "子ども連れの場合は児童図書コーナーもあわせて利用する"]
+    "today": [
+      "開館時間（9時～17時、水曜は19時まで）を確認する",
+      "休館日でないか（月曜・祝日翌日・年末年始）確認する"
+    ],
+    "this_week": [
+      "読みたい本があれば専用ホームページで蔵書検索する",
+      "必要に応じてオンラインで予約する"
+    ],
+    "outside": [
+      "貸出条件（在住・在勤・在学）を図書館へ確認する",
+      "子ども連れの場合は児童図書コーナーもあわせて利用する"
+    ]
   },
   "action_grid": [
-    {"label": "森町立図書館(施設案内)を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html"},
-    {"label": "図書館ページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/index.html"},
-    {"label": "図書館に電話する", "href": "tel:0538-85-1113"},
-    {"label": "子どもの遊び場を見る", "href": "/life/play-out/kids-playgrounds/"},
-    {"label": "遊ぶ・使う・出かけるトップに戻る", "href": "/life/play-out/"}
-  ]
- }
+    {
+      "label": "森町立図書館(施設案内)を見る",
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html"
+    },
+    {
+      "label": "本を検索する（図書館公式）",
+      "href": "https://toshosv.town.morimachi.shizuoka.jp/"
+    },
+    {
+      "label": "図書館に電話する",
+      "href": "tel:0538-85-1113"
+    },
+    {
+      "label": "子どもの遊び場を見る",
+      "href": "/life/play-out/kids-playgrounds/"
+    },
+    {
+      "label": "遊ぶ・使う・出かけるトップに戻る",
+      "href": "/life/play-out/"
+    }
+  ],
+  "lead_actions": [
+    {
+      "label": "本を検索する（森町立図書館公式）",
+      "href": "https://toshosv.town.morimachi.shizuoka.jp/"
+    }
+  ],
+  "lead_action_note": "公式サイトの「本のかんたん検索」にタイトル・著者名等を入力して探せます。検索先の案内を2026年10月31日に確認しました。"
+}
 ]

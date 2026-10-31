@@ -91,6 +91,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("重要11ページと検索発見基盤の監査", [sys.executable, "scripts/audit_search_discovery.py"]),
     ("自然検索向け100問の監査", [sys.executable, "scripts/audit_organic_search.py"]),
     ("寺社ページの出典説明と本文の整合性", [sys.executable, "scripts/audit_sacred_consistency.py"]),
+    ("公式情報源の一時停止を対象ページへ注記", [sys.executable, "scripts/inject_verified_source_notices.py"]),
     ("llms.txt の生成", [sys.executable, "scripts/build_llms.py"]),
     ("URL台帳の生成", [sys.executable, "scripts/build_url_ledger.py"]),
     ("町外向け入口・記事の導線検証", [sys.executable, "scripts/verify_outside_routes.py"]),

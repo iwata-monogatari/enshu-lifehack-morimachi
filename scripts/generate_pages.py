@@ -306,6 +306,10 @@ def render_page(item, city, category_items, content_map):
         else:
             lead = f"{esc(city_name)}の{esc(category)}に関する「{esc(title)}」について、公式ページの情報を整理しています。"
 
+    lead_actions = content.get("lead_actions", []) if content else []
+    lead_links = "".join(f'<a class="btn" href="{esc(a["href"])}" target="_blank" rel="noopener">{esc(a["label"])}</a>' for a in lead_actions)
+    lead_action_html = (f'<div class="action-grid">{lead_links}</div><p class="mini">{esc(content.get("lead_action_note", ""))}</p>' if lead_actions else "")
+
     note_html = f'<div class="note">{esc(content["note"])}</div>' if content and content.get("note") else ""
     rich_html = ""
     if content:
@@ -334,7 +338,7 @@ def render_page(item, city, category_items, content_map):
 <!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">{esc(site_name)}は{esc(city_name)}公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END -->
 <main><div class="wrap">
 {breadcrumb}
-<section class="hero"><div class="hero-visual"><h1>{esc(title)}</h1></div><div class="hero-body"><p class="lead">{lead}</p></div></section>
+<section class="hero"><div class="hero-visual"><h1>{esc(title)}</h1></div><div class="hero-body"><p class="lead">{lead}</p>{lead_action_html}</div></section>
 {note_html}
 {rich_html}
 <h2 class="sec">公式窓口・確認先</h2><div class="official">{facts_html(item.get('facts'))}{sources_html(item.get('sources_morimachi'), city_name)}</div>
