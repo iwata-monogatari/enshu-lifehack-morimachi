@@ -8959,7 +8959,7 @@
   "has_faq_jsonld": true,
   "has_breadcrumb_jsonld": true,
   "exposes_raw_keys": false,
-  "bytes": 35012,
+  "bytes": 35032,
   "action": "keep",
   "merge_target": "",
   "priority": "P3",
