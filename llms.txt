@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（386本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（390本）
 
 ### 新着記事
 
+- 2026-11-01 [森町の読み聞かせ｜親子で通える場所を知る](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-yomikikase/)
+- 2026-11-01 [森町の冬支度｜電気と石油ストーブの管理比較](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-stove-kanri/)
+- 2026-11-01 [森町の二拠点生活｜宅配を留守宅に残さない準備](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-nikyoten-takuhai/)
+- 2026-11-01 [森町の育児免除｜自営業の親も年金負担を軽く](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-ikuji-nenkin/)
 - 2026-10-31 [森町の令和学級｜11月の文化講座と参加確認](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-reiwa-gakkyu/)
 - 2026-10-31 [森町文化会館で物販｜開催前の許可確認](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-kaikan-sales/)
 - 2026-10-31 [森町で映画上映会｜家庭用DVDとの違い](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-film-screening/)
@@ -55,10 +59,6 @@
 - 2026-10-30 [森町の下水道区域｜家の住所で確かめる](https://morimachi.enshu-lifehack.com/blog/20261030-gesuido-kuiki/)
 - 2026-10-30 [森町で冠水した道路は通れる？車の避難判断](https://morimachi.enshu-lifehack.com/blog/20261030-flooded-road-car/)
 - 2026-10-30 [森町・天方地区の買い物｜生活圏をどう見る](https://morimachi.enshu-lifehack.com/blog/20261030-amagata-shopping/)
-- 2026-10-29 [旧城下学校の建築｜森町に残る一室の校舎](https://morimachi.enshu-lifehack.com/blog/20261029-shiroshita-school-architecture/)
-- 2026-10-29 [もみじめぐり御朱印帳｜小國神社から4社寺へ](https://morimachi.enshu-lifehack.com/blog/20261029-momiji-goshuincho/)
-- 2026-10-29 [藤江勝太郎とは｜森町から伝えた烏龍茶の技術](https://morimachi.enshu-lifehack.com/blog/20261029-fujie-katsutaro-oolong/)
-- 2026-10-28 [小國神社の紅葉｜森町で宮川沿いを歩く準備](https://morimachi.enshu-lifehack.com/blog/20261028-okuni-miyagawa-koyo-sansaku/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
