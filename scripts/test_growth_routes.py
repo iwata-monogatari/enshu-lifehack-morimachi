@@ -1,8 +1,11 @@
 import json
 import re
 import unittest
+import tempfile
+from unittest.mock import patch
 from pathlib import Path
 from growth_routes import group, next_reading
+import apply_growth_routes
 from apply_growth_routes import apply, FORBIDDEN
 
 ROOT=Path(__file__).resolve().parent.parent
@@ -18,15 +21,24 @@ class RoutesTest(unittest.TestCase):
     def test_generated_routes_and_idempotence(self):
         posts={'/blog/'+p['slug']+'/':p for p in json.loads((ROOT/'data/blog-posts.json').read_text(encoding='utf-8'))['posts']}
         types={p['url']:p['cta_type'] for p in json.loads((ROOT/'data/pages.json').read_text(encoding='utf-8-sig'))}
-        for route in list(posts)+['/life/housing/vacant-house/','/life/housing/sell-house/','/housing/districts/']:
-            path=ROOT/route.strip('/')/'index.html'
-            src=path.read_text(encoding='utf-8')
-            self.assertFalse(apply(path,posts,types),route)
-            if route in posts:
-                self.assertEqual(src.count('class="mg-next"'),1,route)
-            if route=='/life/housing/vacant-house/':
-                self.assertNotIn('company-strip',src)
-                self.assertEqual(src.count('class="mg-next"'),1)
+        # A failed assertion must not rewrite the checked-out site. Check copies,
+        # retaining the real route relative to the temporary root.
+        with tempfile.TemporaryDirectory() as temporary:
+            check_root=Path(temporary)
+            with patch.object(apply_growth_routes, 'ROOT', check_root):
+                for route in list(posts)+['/life/housing/vacant-house/','/life/housing/sell-house/','/housing/districts/']:
+                    with self.subTest(route=route):
+                        source=ROOT/route.strip('/')/'index.html'
+                        path=check_root/route.strip('/')/'index.html'
+                        path.parent.mkdir(parents=True, exist_ok=True)
+                        path.write_bytes(source.read_bytes())
+                        src=source.read_text(encoding='utf-8')
+                        self.assertFalse(apply(path,posts,types),route)
+                        if route in posts:
+                            self.assertEqual(src.count('class="mg-next"'),1,route)
+                        if route=='/life/housing/vacant-house/':
+                            self.assertNotIn('company-strip',src)
+                            self.assertEqual(src.count('class="mg-next"'),1)
         for prefix in FORBIDDEN:
             path=ROOT/prefix.strip('/')/'index.html'
             if path.exists():

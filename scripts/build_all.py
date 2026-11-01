@@ -95,6 +95,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("llms.txt の生成", [sys.executable, "scripts/build_llms.py"]),
     ("URL台帳の生成", [sys.executable, "scripts/build_url_ledger.py"]),
     ("町外向け入口・記事の導線検証", [sys.executable, "scripts/verify_outside_routes.py"]),
+    ("目的別回遊の分類・冪等性・JSなし導線を検証", [sys.executable, "scripts/test_growth_routes.py"]),
 ]
 
 CHECK = ("公開前検査", [sys.executable, "scripts/preflight_check.py"])
