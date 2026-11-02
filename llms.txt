@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（390本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（394本）
 
 ### 新着記事
 
+- 2026-11-02 [森町の労働保険加入｜人を雇った店の確認順](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-rodo-hoken/)
+- 2026-11-02 [年金記録の空白とは｜森町で11月に確かめる](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-nenkin-kiroku/)
+- 2026-11-02 [森町の高額療養費｜月額と年間上限の違い](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-kogaku-nenkan/)
+- 2026-11-02 [森町のDV相談｜町と県の相談先を知る](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-dv-sodan/)
 - 2026-11-01 [森町の読み聞かせ｜親子で通える場所を知る](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-yomikikase/)
 - 2026-11-01 [森町の冬支度｜電気と石油ストーブの管理比較](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-stove-kanri/)
 - 2026-11-01 [森町の二拠点生活｜宅配を留守宅に残さない準備](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-nikyoten-takuhai/)
@@ -55,10 +59,6 @@
 - 2026-10-31 [森町文化会館で物販｜開催前の許可確認](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-kaikan-sales/)
 - 2026-10-31 [森町で映画上映会｜家庭用DVDとの違い](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-film-screening/)
 - 2026-10-31 [森町の催しの食器｜使い捨てと再使用を比較](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-event-tableware/)
-- 2026-10-30 [森町の天浜線駐車場｜3駅の台数を比べる](https://morimachi.enshu-lifehack.com/blog/20261030-tenhama-parking/)
-- 2026-10-30 [森町の下水道区域｜家の住所で確かめる](https://morimachi.enshu-lifehack.com/blog/20261030-gesuido-kuiki/)
-- 2026-10-30 [森町で冠水した道路は通れる？車の避難判断](https://morimachi.enshu-lifehack.com/blog/20261030-flooded-road-car/)
-- 2026-10-30 [森町・天方地区の買い物｜生活圏をどう見る](https://morimachi.enshu-lifehack.com/blog/20261030-amagata-shopping/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 

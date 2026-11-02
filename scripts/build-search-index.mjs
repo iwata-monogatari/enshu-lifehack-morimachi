@@ -262,7 +262,21 @@ function main() {
     verified: page.fact_checked_at,
     lead: page.lead.slice(0, LEAD_MAX_CHARS),
   }));
-  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex, ...phase1Index, ...fullIndex, ...phase4Index, ...discoverIndex];
+  // Editorial entries opt in through their ledger so existing guide records stay unchanged.
+  const blogPosts = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/blog-posts.json'), 'utf8')).posts;
+  const blogIndex = blogPosts.filter((post) => post.search_index === true).map((post) => {
+    const href = `/blog/${post.slug}/`;
+    const html = readPage(href);
+    if (!html || /<meta\b[^>]*name="robots"[^>]*content="[^"]*noindex/i.test(html)) return null;
+    return {
+      href, icon: '✍️', title: post.title, category: '暮らしの読み物',
+      hub: 'enjoy', kind: '読み物', summary: post.description.slice(0, 90),
+      keyword: post.query || post.title.split('｜')[0], aliases: post.search_aliases || [],
+      needs: [post.query || post.title], department: [], audience: [],
+      verified: post.modified || post.date, lead: post.description.slice(0, LEAD_MAX_CHARS),
+    };
+  }).filter(Boolean);
+  const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex, ...phase1Index, ...fullIndex, ...phase4Index, ...discoverIndex, ...blogIndex];
 
   const outPath = path.join(ROOT, 'search-index.json');
   const json = JSON.stringify(searchIndex);
