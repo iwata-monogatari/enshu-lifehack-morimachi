@@ -1,0 +1,4 @@
+/* Keep the task label readable when enlarged text needs the link on another row. */
+body:not(.hub) .checklist-item,body.hub .checklist-item{flex-wrap:wrap}
+body:not(.hub) .checklist-label,body.hub .checklist-label{flex:1 1 16em}
+body:not(.hub) .checklist-link,body.hub .checklist-link{white-space:normal;overflow-wrap:anywhere}

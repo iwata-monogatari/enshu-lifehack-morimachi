@@ -106,6 +106,7 @@ def build_page(checklist, parts):
         '<meta property="og:url" content="%s"><meta name="twitter:card" content="summary">\n'
         '<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n'
         "%s\n"
+        '<link rel="stylesheet" href="/assets/checklists.css?v=20261102">\n'
         "</head><body>\n"
         "%s\n"
         "%s\n"
