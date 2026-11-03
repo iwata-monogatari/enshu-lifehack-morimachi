@@ -43,22 +43,22 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（398本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（402本）
 
 ### 新着記事
 
+- 2026-11-03 [遺言書の検認は必要？森町の実家で発見したら](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-yuigon-kennin/)
 - 2026-11-03 [森町の消火器処分｜実家で見つけた古い1本](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-shokaki-shobun/)
+- 2026-11-03 [亡くなった親の郵便転送｜森町の実家整理](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-oyano-yubin/)
 - 2026-11-03 [権利証を紛失したら｜森町の実家売却前に確認](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-kenrisho-funshitsu/)
+- 2026-11-03 [契約不適合責任の免責｜森町の実家売却前に](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-keiyaku-menseki/)
 - 2026-11-03 [媒介契約3種類の違い｜森町の実家を売る前に](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-baikai-keiyaku/)
+- 2026-11-03 [空き家の水道凍結｜森町の実家で冬前に確認](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-akiya-suido-toketsu/)
 - 2026-11-03 [空き家の火災保険｜森町の実家の契約確認](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-akiya-kasaihoken/)
 - 2026-11-02 [森町の労働保険加入｜人を雇った店の確認順](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-rodo-hoken/)
 - 2026-11-02 [年金記録の空白とは｜森町で11月に確かめる](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-nenkin-kiroku/)
 - 2026-11-02 [森町の高額療養費｜月額と年間上限の違い](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-kogaku-nenkan/)
 - 2026-11-02 [森町のDV相談｜町と県の相談先を知る](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-dv-sodan/)
-- 2026-11-01 [森町の読み聞かせ｜親子で通える場所を知る](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-yomikikase/)
-- 2026-11-01 [森町の冬支度｜電気と石油ストーブの管理比較](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-stove-kanri/)
-- 2026-11-01 [森町の二拠点生活｜宅配を留守宅に残さない準備](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-nikyoten-takuhai/)
-- 2026-11-01 [森町の育児免除｜自営業の親も年金負担を軽く](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-ikuji-nenkin/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
