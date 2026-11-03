@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（394本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（398本）
 
 ### 新着記事
 
+- 2026-11-03 [森町の消火器処分｜実家で見つけた古い1本](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-shokaki-shobun/)
+- 2026-11-03 [権利証を紛失したら｜森町の実家売却前に確認](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-kenrisho-funshitsu/)
+- 2026-11-03 [媒介契約3種類の違い｜森町の実家を売る前に](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-baikai-keiyaku/)
+- 2026-11-03 [空き家の火災保険｜森町の実家の契約確認](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-akiya-kasaihoken/)
 - 2026-11-02 [森町の労働保険加入｜人を雇った店の確認順](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-rodo-hoken/)
 - 2026-11-02 [年金記録の空白とは｜森町で11月に確かめる](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-nenkin-kiroku/)
 - 2026-11-02 [森町の高額療養費｜月額と年間上限の違い](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-kogaku-nenkan/)
@@ -55,10 +59,6 @@
 - 2026-11-01 [森町の冬支度｜電気と石油ストーブの管理比較](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-stove-kanri/)
 - 2026-11-01 [森町の二拠点生活｜宅配を留守宅に残さない準備](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-nikyoten-takuhai/)
 - 2026-11-01 [森町の育児免除｜自営業の親も年金負担を軽く](https://morimachi.enshu-lifehack.com/blog/20261101-morimachi-ikuji-nenkin/)
-- 2026-10-31 [森町の令和学級｜11月の文化講座と参加確認](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-reiwa-gakkyu/)
-- 2026-10-31 [森町文化会館で物販｜開催前の許可確認](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-kaikan-sales/)
-- 2026-10-31 [森町で映画上映会｜家庭用DVDとの違い](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-film-screening/)
-- 2026-10-31 [森町の催しの食器｜使い捨てと再使用を比較](https://morimachi.enshu-lifehack.com/blog/20261031-morimachi-event-tableware/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 

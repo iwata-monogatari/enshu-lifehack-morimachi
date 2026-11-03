@@ -1,0 +1,17 @@
+{
+  "run_id":"31296751ebb14836b2a38d5fa1005a8b",
+  "date":"2026-11-03",
+  "date_observation":"Get-Date: 2026-11-03 火曜日 09:05:35",
+  "baseline":"54f3a718d68baadb2f8a1019f3cb8e10126d1c79",
+  "duplicate_check":"data/blog-posts.json 394件、対象主題のタイトル・概要とblogフォルダ照合。11月3日記事なし。作業開始時git status空。",
+  "experience":"全件なし。本人の実話を創作せず意見として明示。共有台帳は読み取り専用。",
+  "articles":[
+    {"slug":"20261103-morimachi-kenrisho-funshitsu","title":"権利証を紛失したら｜森町の実家売却前に確認","query":"権利証 紛失 売却","principle":5,"memo":"空欄","stance_section":"大石の視点","question":"権利証が見つからない実家は、もう売れませんか？","answer":"権利証や登記識別情報を紛失しても、直ちに売却できなくなるわけではありません。再発行はできませんが、司法書士の本人確認情報などによる手続きを相談できます。まず書類の名称、対象の土地・建物、名義を整理し、売買の日程を決める前に司法書士へ確認してください。","links":["20260728-before-selling-house","20260929-morimachi-wagaya-shukatsu-seminar","20260714-clean-parents-house"],"reverse":"20260728-before-selling-house","faq":["権利証は再発行できますか？","権利証がなければ所有権も失いますか？","家族だけで本人確認を済ませられますか？"],"images":["書類箱と家族、家と地図","書類確認から専門家相談へ進む場面"]},
+    {"slug":"20261103-morimachi-baikai-keiyaku","title":"媒介契約3種類の違い｜森町の実家を売る前に","query":"媒介契約 3種類 違い","principle":1,"memo":"空欄","stance_section":"大石の視点","question":"実家を売るとき、3種類の媒介契約をどう選びますか？","answer":"一般媒介は複数社へ依頼でき、専任・専属専任は依頼先を1社に絞ります。自分で見つけた相手と直接契約できるか、業務報告やレインズ登録の扱いも異なります。遠方の家族は、契約名だけで決めず、連絡担当、報告方法、鍵の管理を契約前に確認してください。","links":["20260922-morimachi-akiya-chukai-33man","20260707-vacant-house-bank-owner","20260922-morimachi-jikka-tatemono-chosa"],"reverse":"20260922-morimachi-akiya-chukai-33man","faq":["一般媒介なら何社にでも依頼できますか？","専任と専属専任の違いは何ですか？","レインズに登録すれば売却は保証されますか？"],"images":["家族の机から三つの依頼先へ分かれる道","契約書と売主画面を一緒に見る場面"]},
+    {"slug":"20261103-morimachi-akiya-kasaihoken","title":"空き家の火災保険｜森町の実家の契約確認","query":"空き家 火災保険 通知","principle":1,"memo":"空欄","stance_section":"大石の視点","question":"親が住まなくなった実家の火災保険は、そのままで大丈夫ですか？","answer":"住まなくなった実家の火災保険は、契約先へ居住状況の変化を伝えて取扱いを確認します。通知が必要な事項や補償は商品・約款で異なります。証券、住まなくなった日、今の利用状況をそろえ、確認前に自己判断で解約せず、必要な変更手続きを聞いてください。","links":["20261020-morimachi-akiya-tenpo-bouka","20261027-morimachi-akiya-kanri-itaku","20260901-morimachi-akiya-typhoon-sangenten"],"reverse":"20261020-morimachi-akiya-tenpo-bouka","faq":["空き家になると保険は必ず無効ですか？","週末に通っていれば通知は不要ですか？","保険料を払っていれば補償されますか？"],"images":["留守宅と証券、家族の確認","暮らしの変更を電話で伝え記録する場面"]},
+    {"slug":"20261103-morimachi-shokaki-shobun","title":"森町の消火器処分｜実家で見つけた古い1本","query":"森町 消火器 処分","principle":1,"memo":"空欄","stance_section":"大石の視点","question":"実家で見つけた古い消火器は、森町のごみ収集に出せますか？","answer":"消火器は森町のごみ収集に出せません。国内メーカー製の消火器は、消火器リサイクル推進センターの案内で引取先を探します。スプレー式消火具などは別扱いです。分解や試し噴射をせず、表示と状態を伝え、受入可否・費用・運び方を確認してください。","links":["20260714-clean-parents-house","20260825-akiya-zanchibutsu-hojo","20261006-morimachi-kaden-shobun"],"reverse":"20260714-clean-parents-house","faq":["中身が空なら金属ごみに出せますか？","スプレー式消火具も同じ回収先ですか？","処分料金はいくらですか？"],"images":["実家の物置で古い消火器を見つけた場面","表示確認と電話相談、引取りへの道"]}
+  ],
+  "h2_structure":["導入・事実整理","書類または対象の区別","森町での負担","良い点","注文したい点","対案・結論","家族に残す記録","大石の視点","FAQ"],
+  "checks_required":["各5000字以上・35段落以上","町公式2件以上・出典HTTP200","構造化データ4種・FAQ3問・日付一致","内部リンク3本と逆リンク","cover.jpgとfig1.svgとfig2.svg","独立禁止語検査","全体build_all.py","専任PC狭幅全4記事・補助導線","固定runner公開後verify_published.py・本番一致確認"],
+  "coordination_error":"workflow_cli preview: sandbox WinError10013; authorized escalated retry HTTP400。原因診断中、工程成功とは記録しない。"
+}
