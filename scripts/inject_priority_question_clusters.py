@@ -17,6 +17,13 @@ def esc(value: object) -> str:
 
 
 def select_questions(item: dict, rows: list[dict], index: int) -> list[dict]:
+    # Broad hubs can mix unrelated topics. A page may pin its reviewed questions.
+    if "question_hrefs" in item:
+        by_href = {row["href"]: row for row in rows}
+        hrefs = item["question_hrefs"]
+        if len(hrefs) != len(set(hrefs)) or any(href not in by_href for href in hrefs):
+            raise ValueError(f"関連質問の指定が不正です: {item['href']}")
+        return [by_href[href] for href in hrefs][:5]
     pool = [row for row in rows if row.get("hub") in item["question_hubs"]]
     exact = [row for row in pool if row.get("parent_href") == item["href"]]
     others = [row for row in pool if row.get("parent_href") != item["href"]]

@@ -45,7 +45,8 @@
     "description": "自宅周辺の災害リスクと避難先を確認",
     "emoji": "⚠️",
     "updated": "2026-08-06",
-    "question_hubs": ["trouble"]
+    "question_hubs": ["trouble"],
+    "question_hrefs": ["/questions/emergency-evacuation-hazard-map/", "/questions/emergency-evacuation-centers/", "/questions/emergency-overview/", "/questions/emergency-earthquake/", "/questions/emergency-disaster-certificates-procedures/"]
   },
   {
     "href": "/life/housing/vacant-house/",

@@ -654,7 +654,38 @@
     "label": "危機管理課 危機管理係に電話する",
     "href": "tel:0538-85-6302"
    }
-  ]
+  ],
+  "lead_actions": [
+   {
+    "label": "森町全図のハザードマップ（公式PDF）",
+    "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/3/morimachi3.pdf"
+   },
+   {
+    "label": "三倉地区のハザードマップ（公式PDF）",
+    "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/3/mmikrachiku3.pdf"
+   },
+   {
+    "label": "天方地区のハザードマップ（公式PDF）",
+    "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/3/amagaat3.pdf"
+   },
+   {
+    "label": "森地区のハザードマップ（公式PDF）",
+    "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/3/morichi3.pdf"
+   },
+   {
+    "label": "一宮地区のハザードマップ（公式PDF）",
+    "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/3/ichimiya3.pdf"
+   },
+   {
+    "label": "園田地区のハザードマップ（公式PDF）",
+    "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/3/sonodachiku3.pdf"
+   },
+   {
+    "label": "飯田地区のハザードマップ（公式PDF）",
+    "href": "https://www.town.morimachi.shizuoka.jp/material/files/group/3/iiidachiku3.pdf"
+   }
+  ],
+  "lead_action_note": "自宅や勤務先のある地区を選んでください。全図と地区別6種は町公式の防災ハザードマップです。ため池ハザードマップは別資料のため、このページ下部の公式確認先からご覧ください。地区別PDFのリンク確認：2026年11月4日。"
  },
  {
   "href": "/life/emergency/fire-ambulance/",
