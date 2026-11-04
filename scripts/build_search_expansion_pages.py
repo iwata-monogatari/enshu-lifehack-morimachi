@@ -43,10 +43,18 @@ def render(item: dict) -> str:
         f'{e(source["label"])} <span>公式情報</span></a>'
         for source in item["sources"]
     )
+    labels = item.get("related_labels", {})
     related = "".join(
-        f'<a class="official-link" href="{e(url)}">関連ガイドを確認する <span>{e(url)}</span></a>'
+        (f'<a class="official-link" href="{e(url)}">{e(labels[url])}</a>' if url in labels
+         else f'<a class="official-link" href="{e(url)}">関連ガイドを確認する <span>{e(url)}</span></a>')
         for url in item["related"]
     )
+    lead_links = "".join(
+        f'<a class="btn" href="{e(link["href"])}" target="_blank" rel="noopener">{e(link["label"])}</a>'
+        for link in item.get("lead_actions", [])
+    )
+    lead_actions = f'<div class="action-grid">{lead_links}</div>' if lead_links else ""
+    revision_note = f'<p class="mini">{e(item["revision_note"])}</p>' if item.get("revision_note") else ""
     faq = "".join(
         f'<details><summary>{e(row["q"])}</summary><p>{e(row["a"])}</p></details>'
         for row in item["faq"]
@@ -63,7 +71,7 @@ def render(item: dict) -> str:
 <!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">森町ライフハックは森町公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END -->
 <main><div class="wrap">
 <p class="breadcrumb"><a href="/">森町ライフハック</a> ／ <a href="{hub_href}">{hub_label}</a> ／ {e(item["title"])}</p>
-<section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(item["title"])}</h1></div><div class="hero-body"><p class="lead">{e(item["conclusion"])}</p></div></section>
+<section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(item["title"])}</h1></div><div class="hero-body"><p class="lead">{e(item["conclusion"])}</p>{lead_actions}{revision_note}</div></section>
 <section><h2 class="sec">対象になる人</h2><p>{e(item["audience"])}</p></section>
 <section><h2 class="sec">最初にすること</h2><ol>{list_html(item["steps"])}</ol></section>
 <section><h2 class="sec">用意しておくもの</h2><ul>{list_html(item["documents"])}</ul></section>

@@ -66,10 +66,13 @@
     "window": "中部電力パワーグリッド 停電・設備窓口",
     "tel": "公式ページで最新窓口を確認",
     "cautions": ["ぬれた手で分電盤に触れません", "復旧時の事故を避けるため熱を出す機器のスイッチを切ります", "在宅医療機器は平時に予備電源と連絡手順を確認します"],
-    "faq": [{"q": "家だけ停電しています", "a": "周囲に停電がなければ、使い過ぎや漏電の可能性があります。安全を確保し、公式の対処案内を確認してください。"}, {"q": "町へ電話すれば復旧時刻が分かりますか", "a": "電力設備の停電情報は中部電力パワーグリッドが案内します。災害情報は森町の防災案内も併せて確認します。"}],
-    "sources": [{"url": "https://powergrid.chuden.co.jp/faq/inquiry/", "label": "中部電力パワーグリッド 停電の問い合わせ"}, {"url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/index.html", "label": "森町の防災情報"}],
+    "faq": [{"q": "家だけ停電しています", "a": "周囲に停電がなければ、使い過ぎや漏電の可能性があります。安全を確保し、公式の対処案内を確認してください。"}, {"q": "町へ電話すれば復旧時刻が分かりますか", "a": "電力設備の停電情報は中部電力パワーグリッドが案内します。災害情報は森町の防災案内も併せて確認します。"}, {"q": "停電情報に表示がなければ、停電していませんか", "a": "表示がないことだけでは判断できません。中部電力パワーグリッドは、低圧（100ボルトや200ボルト）設備が起因となる停電、および瞬間的な電圧低下や数秒の停電は掲載しないと案内しています。家だけの停電か地域の停電かを安全な場所から確認し、公式の対処案内や問い合わせ窓口も確認してください。切れた電線などには近づかないでください。"}],
+    "sources": [{"url": "https://powergrid.chuden.co.jp/faq/inquiry/", "label": "中部電力パワーグリッド 停電の問い合わせ"}, {"url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/index.html", "label": "森町の防災情報"}, {"url": "https://powergrid.chuden.co.jp/goannai/ippan/safety/taishoho/", "label": "中部電力パワーグリッド 停電情報の掲載範囲・対処方法"}],
     "related": ["/life/emergency/disaster-mail-line/", "/life/emergency/road-river-info/", "/life/emergency/earthquake/", "/life/emergency/evacuation-centers/"],
-    "inbound_from": ["/life/emergency/", "/life/emergency/disaster-mail-line/", "/life/emergency/earthquake/"]
+    "inbound_from": ["/life/emergency/", "/life/emergency/disaster-mail-line/", "/life/emergency/earthquake/"],
+    "lead_actions": [{"label": "静岡県の停電情報を見る（公式）", "href": "https://teiden.powergrid.chuden.co.jp/p/sizuoka.html"}],
+    "revision_note": "2026年11月4日：公式停電情報への入口、掲載対象外の説明、関連記事の表示名を更新しました。",
+    "related_labels": {"/life/emergency/disaster-mail-line/": "災害情報を受け取る（LINE・ちゃっとメール）", "/life/emergency/road-river-info/": "道路の通行止め・川の水位を確認する", "/life/emergency/earthquake/": "地震への備えと耐震補助を確認する", "/life/emergency/evacuation-centers/": "指定避難所と避難経路を確認する"}
   },
   {
     "href": "/life/emergency/water-outage/",
