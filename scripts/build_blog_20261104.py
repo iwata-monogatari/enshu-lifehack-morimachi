@@ -13,7 +13,9 @@ POSTS=json.loads(META.read_text(encoding='utf8'))
 SOURCES=json.loads((ROOT/'data/blog-20261104-sources.json').read_text(encoding='utf8'))
 def read(path):return (ROOT/path).read_text(encoding='utf8')
 def save(path,obj):path.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-def page(p,folder,sources_by_key=None):
+def page(p,folder,sources_by_key=None, *, date=DATE):
+    day = int(date[-2:])
+    date_label = f"{int(date[:4])}年{int(date[5:7])}月{day}日"
     if sources_by_key is None:
         sources_by_key = SOURCES
     template=read('blog/20261101-morimachi-ikuji-nenkin/index.html')
@@ -21,21 +23,21 @@ def page(p,folder,sources_by_key=None):
     author=re.search(r'<aside class="post-author.*?</aside>',template,re.S)[0]
     def part(n):return '<!-- PART:'+n+':START -->'+read('parts/'+n+'.html')+'<!-- PART:'+n+':END -->'
     slug=p['slug']; title=p['title']; url=SITE+'/blog/'+slug+'/';desc=p['description']
-    body=read('data/content/blog-20261104-'+p['key']+'.html')
+    body=read('data/content/blog-'+date.replace('-','')+'-'+p['key']+'.html')
     soup=BeautifulSoup(body,'html.parser');faq=[]
     for h in soup.find_all('h3'):
         if h.find_previous('h2')==soup.find_all('h2')[-1]:
             faq.append({'@type':'Question','name':h.get_text(strip=True),'acceptedAnswer':{'@type':'Answer','text':h.find_next_sibling('p').get_text(strip=True)}})
     assert len(faq)==3
     person={'@type':'Person','@id':'https://oishi-hiroyuki.org/#person','name':'大石浩之','image':SITE+'/assets/author-oishi.jpg','url':'https://oishi-hiroyuki.org/profile','sameAs':['https://oishi-hiroyuki.org/profile','https://fudosan.atawi.link/']}
-    graph=[{'@type':'BlogPosting','headline':title,'datePublished':DATE,'dateModified':DATE,'image':url+'cover.jpg','mainEntityOfPage':url,'author':{'@id':person['@id']},'description':desc},person,{'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i,'item':u,'name':name} for i,(u,name) in enumerate([(SITE+'/','森町ライフハック'),(SITE+'/blog/','ブログ'),(url,title)],1)]},{'@type':'FAQPage','mainEntity':faq}]
+    graph=[{'@type':'BlogPosting','headline':title,'datePublished':date,'dateModified':date,'image':url+'cover.jpg','mainEntityOfPage':url,'author':{'@id':person['@id']},'description':desc},person,{'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i,'item':u,'name':name} for i,(u,name) in enumerate([(SITE+'/','森町ライフハック'),(SITE+'/blog/','ブログ'),(url,title)],1)]},{'@type':'FAQPage','mainEntity':faq}]
     def fig(file,motif,caption):
         return f'<figure><img src="/blog/{slug}/{file}" width="1000" height="560" alt="{motif}。森町の地形と記事の資料を主題にした概念イラスト。"><figcaption>{caption}</figcaption></figure>'
     for n,idx,motif,caption in [(2,7,p['method'],p['method']+'。調べた事実と自分の覚え書きを区別する手順を描いた。'),(1,3,p['scene'],p['scene']+'。実物の形状・配置を復元した図ではない。')]:
         pos=list(re.finditer(r'<h2(?:\s|>)',body))[idx].start()
         body=body[:pos]+fig(f'fig{n}.svg',motif,caption)+body[pos:]
-    sources=''.join(f'<li><a href="{sources_by_key[k][1]}">{sources_by_key[k][0]}</a>（2026年11月4日確認）</li>' for k in p['sources'])
-    html=f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}｜森町ライフハック</title><meta name="description" content="{desc}"><link rel="canonical" href="{url}"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" href="/feed.xml" title="森町ライフハック ブログ"><meta property="og:type" content="article"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:url" content="{url}"><meta property="og:image" content="{url}cover.jpg"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">{json.dumps({"@context":"https://schema.org","@graph":graph},ensure_ascii=False)}</script>{part('head-css')}<style>{style}</style></head><body>{part('header')}<main><article class="post"><nav aria-label="パンくず"><a href="/">ホーム</a> / <a href="/blog/">ブログ</a></nav><h1>{title}</h1><p class="post-meta"><time datetime="{DATE}">2026年11月4日</time> ／ 大石浩之（磐田市／不動産業）</p>{fig('cover.jpg',p['scene'],'記事の内容をもとに描いたイメージ。')}<section class="post-answer" aria-label="結論"><p><strong>Q. {p['question']}</strong></p><p>A. {p['answer']}</p></section><div class="post-editorial-body">{body}</div><div class="action-grid"><a href="/life/housing/close-parents-house/">実家の所在地や家族への引継ぎを整理する</a></div>{author}<h2>出典・確認日</h2><p>2026年11月4日確認。史資料の記述と、家族での調べ方についての筆者の提案を分けて掲載しました。</p><ul class="post-sources">{sources}</ul><p class="post-disclaimer">公開状況や案内は変わる場合があります。現地を訪れる前に管理者の最新案内をご確認ください。土地や権利に関する個別の判断は、関係窓口や専門家にご相談ください。</p></article></main>{part('footer')}</body></html>'''
+    sources=''.join(f'<li><a href="{sources_by_key[k][1]}">{sources_by_key[k][0]}</a>（{date_label}確認）</li>' for k in p['sources'])
+    html=f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}｜森町ライフハック</title><meta name="description" content="{desc}"><link rel="canonical" href="{url}"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" href="/feed.xml" title="森町ライフハック ブログ"><meta property="og:type" content="article"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:url" content="{url}"><meta property="og:image" content="{url}cover.jpg"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">{json.dumps({"@context":"https://schema.org","@graph":graph},ensure_ascii=False)}</script>{part('head-css')}<style>{style}</style></head><body>{part('header')}<main><article class="post"><nav aria-label="パンくず"><a href="/">ホーム</a> / <a href="/blog/">ブログ</a></nav><h1>{title}</h1><p class="post-meta"><time datetime="{date}">{date_label}</time> ／ 大石浩之（磐田市／不動産業）</p>{fig('cover.jpg',p.get('cover_description',p['scene']),'記事の内容をもとに描いたイメージ。')}<section class="post-answer" aria-label="結論"><p><strong>Q. {p['question']}</strong></p><p>A. {p['answer']}</p></section><div class="post-editorial-body">{body}</div><div class="action-grid"><a href="/life/housing/close-parents-house/">実家の所在地や家族への引継ぎを整理する</a></div>{author}<h2>出典・確認日</h2><p>{date_label}確認。資料の記述と、家族での調べ方についての筆者の提案を分けて掲載しました。</p><ul class="post-sources">{sources}</ul><p class="post-disclaimer">公開状況や案内は変わる場合があります。現地を訪れる前に管理者の最新案内をご確認ください。土地や権利に関する個別の判断は、関係窓口や専門家にご相談ください。</p></article></main>{part('footer')}</body></html>'''
     (folder/'index.html').write_text(html,encoding='utf8')
 
 def main():

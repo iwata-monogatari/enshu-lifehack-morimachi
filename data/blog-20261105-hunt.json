@@ -1,0 +1,35 @@
+{
+  "key": "hunt",
+  "slug": "20261105-morimachi-hunting-season",
+  "title": "森町の山に入る前に｜11月の狩猟期間と服装",
+  "query": "森町 狩猟期間 入山時の服装",
+  "question": "11月最初の週末、森町の実家の山には普段の作業着で入っていい？",
+  "answer": "静岡県では2026年11月1日からイノシシとニホンジカの猟期です。森町の山を見回るときは、外からよく見える色の上着を選び、白いタオルや迷彩柄は避けます。音で人の存在を伝え、わなの標識には近づかないでください。個々の山の当日の実施状況は県の日程からは分かりません。",
+  "description": "静岡県ではイノシシとニホンジカの猟期が11月1日に始まります。森町の実家の山を見回る家族へ、白い首タオルを避ける理由、雨具を重ねたときの服の見え方、わなの標識に出会ったときの戻り方を整理します。",
+  "cover_description": "森の入口を一人で歩く人の上着が木立を背景に橙色に見える様子",
+  "scene": "重なる森の尾根を背に、曲がった山道の入口に立つ橙色の上着の人",
+  "method": "玄関に置いた上着、音を出す鈴、立ち入らずに引き返す標識のある道",
+  "reverse": "20260924-morimachi-shinrin-cloud",
+  "sources": [
+    [
+      "静岡県・令和8年度の狩猟期間と入山の注意",
+      "https://www.pref.shizuoka.jp/sangyoshigoto/norinjimusho/shidahaibaranorin/1077159.html"
+    ],
+    [
+      "森町・森林整備計画の変更",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/1/5939.html"
+    ],
+    [
+      "森町・森林の土地の所有者届出制度",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1307.html"
+    ]
+  ],
+  "links": [
+    "20260924-morimachi-shinrin-cloud",
+    "20261008-morimachi-shinrin-seibi-keikaku",
+    "20260917-morimachi-bassaitodoke"
+  ],
+  "principle": 1,
+  "exp": "",
+  "memo": ""
+}

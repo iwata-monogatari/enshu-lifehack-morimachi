@@ -1,0 +1,35 @@
+{
+  "key": "water",
+  "slug": "20261105-morimachi-waterways",
+  "title": "森町の水路と農道は誰が守る？集落協定の記録",
+  "query": "森町 集落協定 水路管理",
+  "question": "親の田の脇を流れる水路、誰に手入れのことを聞けばいい？",
+  "answer": "静岡県の2024年度集計では、森町で水路管理を協定に位置づけた集落協定は1件、農道管理も1件です。町内の全施設の管理者を示す表ではありません。親御さんか耕作者に、該当区間の作業案内がどこから届くかを聞き、連絡先を一つ控えてください。",
+  "description": "森町で水路・農道の管理を掲げた集落協定は、2024年度の静岡県集計で各1件です。実家の田の作業を引き継ぐ家族に向けて、泥上げの連絡先、補修の相談先、町有水路との境界を調べる窓口を分け、場所と用件の伝え方を紹介します。",
+  "cover_description": "水路と農道が続く田の入口を歩く人と、場所を控える地図と電話",
+  "scene": "田の畦を挟んで農道と用水路が延び、泥を上げる人と道を空けて待つ人が役割を分ける場面",
+  "method": "田の出入口と水路の曲がり角を地図に記し、作業案内の差出人を見ながら家族が電話をかける場面",
+  "reverse": "20260813-tanbo-lease-contract",
+  "sources": [
+    [
+      "静岡県「令和6年度中山間地域等直接支払制度の実施状況」12頁・森町行",
+      "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/027/249/r6shosai.pdf"
+    ],
+    [
+      "森町「公共用地の境界確定申請について」",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/yochikakari/1/5251.html"
+    ],
+    [
+      "森町「法定外公共物の用途廃止について」",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/yochikakari/1/5255.html"
+    ]
+  ],
+  "links": [
+    "20260813-tanbo-lease-contract",
+    "20260924-morimachi-nouki-dorootoshi",
+    "20260709-farmland-inheritance"
+  ],
+  "principle": 1,
+  "exp": "",
+  "memo": ""
+}

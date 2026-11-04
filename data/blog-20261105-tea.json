@@ -1,0 +1,40 @@
+{
+  "key": "tea",
+  "slug": "20261105-morimachi-chagusaba",
+  "title": "森町は茶草場農法の世界農業遺産に含まれる？",
+  "query": "森町 茶草場農法 世界農業遺産 認定地域",
+  "question": "森町で買ったお茶を「世界農業遺産の産地のお茶」と紹介していいの？",
+  "answer": "森町は、世界農業遺産「静岡の茶草場農法」の認定地域に含まれません。認定地域は掛川市・菊川市・島田市・牧之原市・川根本町です。買った店の住所だけでは茶葉の産地も農法も分かりません。個別の商品は、原料の産地と生産者が示す表示を確認してください。",
+  "description": "森町は世界農業遺産「静岡の茶草場農法」の認定地域に含まれません。農林水産省が挙げる4市1町を確かめ、森の茶の歴史、秋冬に草を刈って敷く仕事、実践者の認定と商品表示を分けて読みます。贈答や店頭でその一袋を紹介するための確認例も掲載します。",
+  "cover_description": "秋の草地から茶畑へ束ねた草を運ぶ人",
+  "scene": "秋の草地でススキを刈る人と、束を隣の茶畑の畝間へ運ぶ人",
+  "method": "店頭の茶袋、原料産地の控え、認定地域の一覧を照らし合わせる手元",
+  "reverse": "20260917-shizuokacha-shinbrand-joken",
+  "sources": [
+    [
+      "農林水産省「静岡県 掛川周辺地域」",
+      "https://www.maff.go.jp/j/nousin/kantai/giahs_3_030.html"
+    ],
+    [
+      "島田市「静岡の茶草場農法実践者認定制度」",
+      "https://www.city.shimada.shizuoka.jp/gyosei-docs/tyakusa_ninntei.html"
+    ],
+    [
+      "森町『図説森町史』「24 森町の産業」",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunka/zusetsumorichoushi/1740.html"
+    ],
+    [
+      "森町「『遠州森の茶業史』販売について」",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/rekishi/5783.html"
+    ]
+  ],
+  "links": [
+    "20260917-shizuokacha-shinbrand-joken",
+    "20260716-mori-tea-history",
+    "20260924-morimachi-aki-cha-jukusei",
+    "20260806-tea-garden-conditions"
+  ],
+  "principle": "1",
+  "exp": "",
+  "memo": ""
+}

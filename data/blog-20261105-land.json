@@ -1,0 +1,16 @@
+{
+  "key":"land",
+  "slug":"20261105-morimachi-land-deal",
+  "title":"森町の土地取引届出｜5000㎡と1万㎡の境目",
+  "query":"森町 土地取引 届出 面積",
+  "question":"森町で6,000㎡を買うとき、土地取引の届出はいるの？",
+  "answer":"森町で6,000㎡の土地を売買する例では、全体が都市計画区域内なら面積基準に達し、全体が区域外なら届きません。買主が一団として取得する土地を含めて判断します。対象なら、買主が契約締結日から2週間以内に森町役場へ届け出ます。",
+  "description":"森町の土地取引届出は都市計画区域内で5,000㎡以上、区域外で1万㎡以上が面積の目安です。6,000㎡を買う例、複数の筆を一団で買う例を比べ、買主が地番で区域を確かめ、契約日から2週間以内に届出をする段取りを解説します。",
+  "cover_description": "左右の土地に同じ6,000平方メートルを記し、手元の地図と資料で区域を確かめる場面",
+  "scene":"畑と山際の土地を描いた二つの見取図に同じ6,000㎡の区画を置き、都市計画区域の内外で届出の面積基準が変わる様子",
+  "method":"机の上で二筆の地番と面積を足したメモ、区域を確かめる地図、契約日を記したカレンダーを並べる手順",
+  "reverse":"20261001-morimachi-youtochiiki",
+  "sources":[["森町・国土利用計画法に基づく土地の取引きの届け出について","https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/8/kokudoriyo/437.html"],["森町・都市計画図（用途図）について","https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kensetsuka/toshikeikakukakari/2/752.html"],["静岡県・国土利用計画法に基づく土地取引の届出","https://www.pref.shizuoka.jp/machizukuri/tochiriyou/1044625/1029747.html"]],
+  "links":["20261001-morimachi-youtochiiki","20260811-nayosecho-all-parcels","20260723-farmland-conversion"],
+  "principle":2,"exp":"","memo":""
+}
