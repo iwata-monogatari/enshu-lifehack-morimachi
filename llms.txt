@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（402本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（406本）
 
 ### 新着記事
 
+- 2026-11-04 [小國神社の山神社例祭｜11月7日の祭場はどこか](https://morimachi.enshu-lifehack.com/blog/20261104-okuni-yamajinja-reisai/)
+- 2026-11-04 [山中豊平とは｜森町の古着商が書き残した村の暮らし](https://morimachi.enshu-lifehack.com/blog/20261104-mori-yamanaka-toyohei/)
+- 2026-11-04 [森町の鰐口を比べる｜賀茂神社・自得院・天宮神社](https://morimachi.enshu-lifehack.com/blog/20261104-mori-waniguchi-hikaku/)
+- 2026-11-04 [森町学校はどこにあった？三島神社でたどる校舎跡](https://morimachi.enshu-lifehack.com/blog/20261104-mori-gakko-mishima-ato/)
 - 2026-11-03 [遺言書の検認は必要？森町の実家で発見したら](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-yuigon-kennin/)
 - 2026-11-03 [森町の消火器処分｜実家で見つけた古い1本](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-shokaki-shobun/)
 - 2026-11-03 [亡くなった親の郵便転送｜森町の実家整理](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-oyano-yubin/)
@@ -55,10 +59,6 @@
 - 2026-11-03 [媒介契約3種類の違い｜森町の実家を売る前に](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-baikai-keiyaku/)
 - 2026-11-03 [空き家の水道凍結｜森町の実家で冬前に確認](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-akiya-suido-toketsu/)
 - 2026-11-03 [空き家の火災保険｜森町の実家の契約確認](https://morimachi.enshu-lifehack.com/blog/20261103-morimachi-akiya-kasaihoken/)
-- 2026-11-02 [森町の労働保険加入｜人を雇った店の確認順](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-rodo-hoken/)
-- 2026-11-02 [年金記録の空白とは｜森町で11月に確かめる](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-nenkin-kiroku/)
-- 2026-11-02 [森町の高額療養費｜月額と年間上限の違い](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-kogaku-nenkan/)
-- 2026-11-02 [森町のDV相談｜町と県の相談先を知る](https://morimachi.enshu-lifehack.com/blog/20261102-morimachi-dv-sodan/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 

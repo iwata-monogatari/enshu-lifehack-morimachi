@@ -1,0 +1,50 @@
+{
+  "events": [
+    "小國神社「祭典・神事」",
+    "https://okunijinja.or.jp/event/"
+  ],
+  "sub": [
+    "小國神社「摂社・末社」",
+    "https://okunijinja.or.jp/facilities/subordinate/"
+  ],
+  "map": [
+    "小國神社「境内・施設」",
+    "https://okunijinja.or.jp/facilities/"
+  ],
+  "roads": [
+    "森町『図説森町史』交通・信仰",
+    "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunka/zusetsumorichoushi/1725.html"
+  ],
+  "objects": [
+    "森町「文化財」",
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/1096.html"
+  ],
+  "craft": [
+    "森町『図説森町史』森町の工芸品・書跡・古文書",
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/2/773.html"
+  ],
+  "formerly": [
+    "森町『図説森町史』森町の産業",
+    "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunka/zusetsumorichoushi/1740.html"
+  ],
+  "names": [
+    "森町「森町の由来」",
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/rekishi/5590.html"
+  ],
+  "plan": [
+    "森町「文化財保存活用地域計画の認定について」",
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/6915.html"
+  ],
+  "final": [
+    "森町「文化財保存活用地域計画」",
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/15/morimachibunkazaihozonnkatsuyouchiikikeikaku.pdf"
+  ],
+  "land": [
+    "掛川市公開資料「本郷西区の古地名」",
+    "https://www.city.kakegawa.shizuoka.jp/fs/6/9/1/1/1/_/harayanodaichi2.pdf"
+  ],
+  "school": [
+    "森町『図説森町史』森町の近代のはじまり",
+    "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunka/zusetsumorichoushi/1736.html"
+  ]
+}
