@@ -1121,7 +1121,22 @@
     "label": "台風・大雨への備えを見る",
     "href": "/life/emergency/storm-heavy-rain/"
    }
-  ]
+  ],
+  "lead_actions": [
+   {
+    "label": "雨量・河川水位を確認する（静岡県）",
+    "href": "https://sipos.pref.shizuoka.jp/"
+   },
+   {
+    "label": "道路の通行規制を確認する（静岡県）",
+    "href": "https://douro.pref.shizuoka.jp/kisei/program/"
+   },
+   {
+    "label": "休止中の道路交通情報を見る（JARTIC）",
+    "href": "https://www.jartic.or.jp/"
+   }
+  ],
+  "lead_action_note": "リンク先確認：2026年11月5日。県の道路通行規制情報提供システムは、同日の確認時点でメンテナンスによる一時停止中（11月中旬の再開見込み）と案内されています。休止中の確認先として県が案内する日本道路交通情報センター（JARTIC）も掲載しています。再開状況は県のリンク先でご確認ください。雨量・水位の欠測や未掲載を、安全の確認とみなさないでください。"
  },
  {
   "href": "/life/emergency/storm-heavy-rain/",
