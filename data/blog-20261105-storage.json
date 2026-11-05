@@ -1,0 +1,43 @@
+{
+  "key": "storage",
+  "slug": "20261105-morimachi-tea-storage",
+  "title": "森町のお茶の保存方法｜暖房を入れる前の茶缶の置き場",
+  "query": "森町のお茶 保存方法",
+  "question": "森町で買ったお茶、冬も台所に置いたままでいい？",
+  "answer": "乾いた煎茶の茶葉は密閉し、火や暖房、湯気、日の光から離れた冷暗所へ。毎日使う分だけを手の届く場所に置きます。未開封の予備を冷蔵・冷凍した場合は、袋を閉じたまま室温に戻してから開けます。袋に個別の保存表示があれば、その指示に従ってください。",
+  "description": "森町で買った乾いた煎茶は、普段使う分を密閉し、暖房の風やこんろの熱、やかんの湯気が届かない冷暗所へ。静岡県の案内と森町のお茶屋の説明を照らして、未開封の予備を冷やす場合の開け方、小分けする量、実家への贈り方まで紹介します。",
+  "cover_description": "里山の茶畑を望む冬の台所。湯気の立つやかんから離れた戸棚の手前に、ふたを閉じた茶筒、茶袋と煎茶を注いだ湯飲みが並ぶ様子",
+  "scene": "冬の台所の断面で、窓辺の日差し、やかんの湯気、暖房の温風から離れた戸棚に茶筒が収まる様子",
+  "method": "未開封の予備袋を閉じたまま室温に戻し、乾いた茶さじで当面飲む分を小さな缶に移し、袋と缶を閉じる手順",
+  "reverse": "20260924-morimachi-aki-cha-jukusei",
+  "sources": [
+    [
+      "静岡県「おいしいお茶の入れ方」中の『お茶の保存』",
+      "https://www.pref.shizuoka.jp/kensei/introduction/soshiki/1002123/1041029/chanomiyako/1040637/1027281.html"
+    ],
+    [
+      "森町「24 森町の産業」",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/2/793.html"
+    ],
+    [
+      "森町「『遠州森の茶業史』販売について」",
+      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/rekishi/5783.html"
+    ],
+    [
+      "森町・おさだ苑本店「よくある質問」中のお茶の保存方法",
+      "https://www.osadaenhonten.com/apps/note/qa/"
+    ],
+    [
+      "農林水産省『aff』2022年4月号「茶畑から美味しいお茶が届くまで」",
+      "https://www.maff.go.jp/j/pr/aff/2204/spe1_02.html"
+    ]
+  ],
+  "links": [
+    "20260924-morimachi-aki-cha-jukusei",
+    "20260716-mori-tea-history",
+    "20260806-tea-garden-conditions"
+  ],
+  "principle": 1,
+  "exp": "",
+  "memo": ""
+}

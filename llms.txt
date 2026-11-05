@@ -43,11 +43,15 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（414本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（418本）
 
 ### 新着記事
 
 - 2026-11-05 [森町の水路と農道は誰が守る？集落協定の記録](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-waterways/)
+- 2026-11-05 [森町のお茶の保存方法｜暖房を入れる前の茶缶の置き場](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-tea-storage/)
+- 2026-11-05 [森町の事業用太陽光｜500㎡の基準と撤去時の届出](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-solar-site/)
+- 2026-11-05 [森町のため池マップ｜同じ「昭和新池」を地図で見分ける](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-showa-shinike/)
+- 2026-11-05 [森町の山でナラ枯れを疑ったら｜秋に残す観察記録](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-naragare/)
 - 2026-11-05 [森町の土地取引届出｜5000㎡と1万㎡の境目](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-land-deal/)
 - 2026-11-05 [森町の山に入る前に｜11月の狩猟期間と服装](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-hunting-season/)
 - 2026-11-05 [森町は茶草場農法の世界農業遺産に含まれる？](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-chagusaba/)
@@ -55,10 +59,6 @@
 - 2026-11-04 [小國神社の駐車場マップ｜森町で親と歩く距離を読む](https://morimachi.enshu-lifehack.com/blog/20261104-okuni-parking-walk/)
 - 2026-11-04 [小國神社の疫神齋とは｜11月19日に何を祈るか](https://morimachi.enshu-lifehack.com/blog/20261104-okuni-ekijinsai/)
 - 2026-11-04 [森町村の旅籠は何軒？秋葉街道の宿場を数字で読む](https://morimachi.enshu-lifehack.com/blog/20261104-morimachimura-hatago-1830/)
-- 2026-11-04 [山中豊平とは｜森町の古着商が書き残した村の暮らし](https://morimachi.enshu-lifehack.com/blog/20261104-mori-yamanaka-toyohei/)
-- 2026-11-04 [森町の鰐口を比べる｜賀茂神社・自得院・天宮神社](https://morimachi.enshu-lifehack.com/blog/20261104-mori-waniguchi-hikaku/)
-- 2026-11-04 [森町学校はどこにあった？三島神社でたどる校舎跡](https://morimachi.enshu-lifehack.com/blog/20261104-mori-gakko-mishima-ato/)
-- 2026-11-04 [森町の秋葉山常夜灯｜大門と北戸綿はどこが違う](https://morimachi.enshu-lifehack.com/blog/20261104-mori-daimon-kitatogawata-joyato/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 

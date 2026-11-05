@@ -1,0 +1,23 @@
+{
+  "key": "oak",
+  "slug": "20261105-morimachi-naragare",
+  "title": "森町の山でナラ枯れを疑ったら｜秋に残す観察記録",
+  "query": "森町 ナラ枯れ 見分け方",
+  "question": "森町の山に赤茶色の木が見えるけれど、ナラ枯れかどうか家族でどう見分ければいい？",
+  "answer": "夏から秋、周りに先んじて葉が急に赤茶色になるのはナラ枯れを疑う手掛かりです。11月の葉色だけでは判定できません。気づいた日、眺めた場所、木の方向を控えましょう。静岡県は、特徴に合う木や虫を見つけた場合、県農林事務所か森林・林業研究センターへの連絡を案内しています。幹の穴を探すために斜面へ入る必要はありません。",
+  "description": "夏から秋に急に赤くなった葉や幹の小穴、根元の木くずはナラ枯れを疑う手掛かりです。森町の山を家族で見守る方へ、紅葉の季節に葉色だけで判定せず、写真の日付と撮影方向を残し、県の相談先に状況を伝えるまでの段取りを紹介します。",
+  "cover_description": "緑の尾根の中に赤茶けた樹冠が見え、手前の安全な道から山を眺める家族。見た場所から木のある方向を記録する場面のイメージ",
+  "scene": "道から見える木々と一部だけ赤茶色の樹冠を描き、拡大した幹の小穴と根元に出た木くずを別枠に並べた観察の模式図",
+  "method": "開いた山の略図に撮影地点と見た方向を鉛筆で記し、同じ方向を写した二枚の写真と撮影日をそばに置いて照らし合わせる机上の場面",
+  "reverse": "20261008-morimachi-shinrin-seibi-keikaku",
+  "sources": [
+    ["静岡県「カシノナガキクイムシによるナラ枯れ被害」", "https://www.pref.shizuoka.jp/sangyoshigoto/ringyo/shinrinseibi/1026930.html"],
+    ["静岡県「静岡県ナラ枯れ被害対策ガイド」第2版、2〜6・11〜13ページ", "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/057/438/naragaregaido.pdf"],
+    ["森町「森町森林整備計画について（変更）」", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/1/5939.html"],
+    ["森町「森林を伐採する時には届出･許可が必要です」", "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/1250.html"]
+  ],
+  "links": ["20260924-morimachi-shinrin-cloud", "20261008-morimachi-shinrin-seibi-keikaku", "20260917-morimachi-bassaitodoke"],
+  "principle": 1,
+  "exp": "",
+  "memo": ""
+}

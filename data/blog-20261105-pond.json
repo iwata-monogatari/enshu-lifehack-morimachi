@@ -1,0 +1,24 @@
+{
+  "key": "pond",
+  "slug": "20261105-morimachi-showa-shinike",
+  "title": "森町のため池マップ｜同じ「昭和新池」を地図で見分ける",
+  "query": "森町 ため池マップ 昭和新池",
+  "question": "親が話す「昭和新池」は、町の地図のどちらを開けばいい？",
+  "answer": "森町のため池ハザードマップには、薄場と一宮の米倉に「昭和新池」があります。町の配布ページで薄場なら「1．昭和新池（薄場）」、米倉なら「8．昭和新池（一宮）」を開きます。地区が分からないときは、実家・田のどちらの話かを聞き、地図上の目印を一つ照合してください。",
+  "description": "森町の昭和新池は薄場と一宮の米倉にあります。町のため池マップで場所を確かめ、個別のハザードマップで自宅や通り道との位置関係を読む手順を紹介します。離れて暮らす家族にも伝わるよう、池の地区名と目印を一行で残せます。",
+  "cover_description": "里山の麓のため池と水田を背景に、地区を示す印のついた折り地図を広げた様子",
+  "scene": "秋の水田の奥で青い水面を囲む土手と山並み。用水が田へ延び、集落から池まで距離がある様子",
+  "method": "卓上に開いた二つの地図で別々の池に印を付け、鉛筆で地区名を手帳に写す場面",
+  "reverse": "20261105-morimachi-waterways",
+  "sources": [
+    ["森町「森町ため池マップ」位置・貯水量・連絡先を調べる地図の配布ページ", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/3070.html"],
+    ["森町「ため池ハザードマップ」池別の配布一覧・問い合わせ先", "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/4528.html"],
+    ["森町「昭和新池（薄場）」位置図・池別図", "https://www.town.morimachi.shizuoka.jp/material/files/group/30/1syouwausuba.pdf"],
+    ["森町「昭和新池（一宮［米倉］）」位置図・池別図", "https://www.town.morimachi.shizuoka.jp/material/files/group/30/8syouwasinntiitimiya.pdf"],
+    ["森町地域防災計画 資料編149ページ「資料5-5-9 ため池一覧表」", "https://www.town.morimachi.shizuoka.jp/material/files/group/3/chiikibousaishiryou.pdf"]
+  ],
+  "links": ["20261105-morimachi-waterways", "20260813-tanbo-lease-contract", "20260821-ota-river-hazard-map"],
+  "principle": 1,
+  "exp": "",
+  "memo": ""
+}
