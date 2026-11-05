@@ -8,12 +8,13 @@ eligible for search/sitemap registration.
 """
 from __future__ import annotations
 
+import argparse
 import hashlib
 import html
 import json
 import re
 from collections import Counter
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -138,10 +139,23 @@ def released(row: dict) -> bool:
     )
 
 
+def jst_today() -> date:
+    """Host timezone must not move the selection and label across different days."""
+    return datetime.now(timezone(timedelta(hours=9))).date()
+
+
+def seasonal_pickup(target: date) -> tuple[str, str]:
+    # These dates apply only to the confirmed 2026 festival. A static page
+    # changes on regeneration, not automatically when the calendar advances.
+    if date(2026, 11, 1) <= target <= date(2026, 11, 8):
+        return "mori-festival", "2026年11月6〜8日の催し"
+    return SEASONAL_PICKUP_BY_MONTH[target.month], f"{target.month}月の1本"
+
+
 def pickup_slugs(today: date | None = None) -> list[str]:
     """季節記事を先頭にし、通年ガイドを続ける8件を返す。"""
-    target = today or date.today()
-    seasonal = SEASONAL_PICKUP_BY_MONTH[target.month]
+    target = today or jst_today()
+    seasonal, _ = seasonal_pickup(target)
     candidates = [seasonal, *PICKUP_SLUGS]
     unique: list[str] = []
     for slug in candidates:
@@ -288,7 +302,9 @@ def article_html(row: dict, rows_by_slug: dict[str, dict], published_count: int)
     return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{robots}<title>{e(row["title"])}</title><meta name="description" content="{e(row["description"])}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="article"><meta property="og:title" content="{e(row["title"])}"><meta property="og:description" content="{e(row["description"])}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{canonical}cover.svg"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END --><link rel="stylesheet" href="/assets/discover.css?v=20260823a"><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-article"><!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END --><!-- PART:disclaimer:START -->{PARTS['disclaimer']}<!-- PART:disclaimer:END --><main><article class="wrap editorial"><nav class="breadcrumb" aria-label="パンくず"><a href="/">静岡県森町ライフハック</a> ／ <a href="/discover/">静岡県森町{published_count}ガイド</a> ／ {e(row["category_label"])}</nav><header class="article-header"><p class="eyebrow">{e(row["category_label"])}｜最終確認 {e(row["fact_checked_at"])}</p><h1>{e(row["title"])}</h1><p class="lead">{e(row["lead"])}</p><figure class="hero-media">{hero}<figcaption>{e(row.get("cover_caption", "記事内容を整理した編集イラスト"))}</figcaption></figure><aside class="answer-box"><h2>先に結論</h2><p>{e(row["direct_answer"])}</p></aside></header>{provenance}{''.join(body)}<section class="official-sources"><h2>公式情報・確認先</h2><p>掲載内容は次の一次情報を基礎に整理しました。営業、料金、催し、交通は変わるため、出発前または手続き前にリンク先で最新情報を確認してください。</p><ul>{source_list(row)}</ul></section><section class="related-guides"><h2>静岡県森町の関連ガイド</h2><ul>{''.join(related)}</ul><p><a class="btn" href="/discover/">{published_count}ガイドの検索・分類へ戻る</a></p></section></article></main><!-- PART:footer:START -->{PARTS['footer']}<!-- PART:footer:END --></body></html>'''
 
 
-def index_html(rows: list[dict]) -> str:
+def index_html(rows: list[dict], today: date | None = None) -> str:
+    target = today or jst_today()
+    _, pickup_label = seasonal_pickup(target)
     published = [row for row in rows if released(row)]
     published_count = len(published)
     keyword_count = published_count * 3
@@ -319,7 +335,7 @@ def index_html(rows: list[dict]) -> str:
         })
     listing_json = json.dumps(listing_rows, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
-    selected_pickup_slugs = pickup_slugs()
+    selected_pickup_slugs = pickup_slugs(target)
     pickup_rows = [by_slug[slug] for slug in selected_pickup_slugs if slug in by_slug]
     if len(pickup_rows) != 8:
         missing = sorted(set(selected_pickup_slugs) - set(by_slug))
@@ -327,7 +343,7 @@ def index_html(rows: list[dict]) -> str:
     pickup_main = pickup_rows[0]
     pickup_src, pickup_media = hero_media(pickup_main, card=True)
     pickup_hero = f'''<a class="pickup-feature" href="/discover/{e(pickup_main["slug"])}/">
-        <span class="pickup-image">{pickup_media}</span><span class="pickup-copy"><small>{date.today().month}月の1本</small>
+        <span class="pickup-image">{pickup_media}</span><span class="pickup-copy"><small>{e(pickup_label)}</small>
         <strong>{e(short_title(pickup_main))}</strong><span>{e(pickup_main["description"])}</span></span></a>'''
     pickup_links = "".join(
         f'<li><a href="/discover/{e(row["slug"])}/"><small>{e(listing_tab(row)[1])}</small><span>{e(short_title(row))}</span></a></li>'
@@ -356,13 +372,17 @@ def index_html(rows: list[dict]) -> str:
     schema = {"@context": "https://schema.org", "@graph": [collection, breadcrumb]}
     return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>静岡県森町を深く知る{published_count}ガイド｜検索・8分類対応</title><meta name="description" content="静岡県周智郡森町の観光、食、交通、子育て、健康、防災、行政手続、住まいを検索と8分類から探せる{published_count}本の長文ガイドです。{keyword_count}の固有キーワードを一次情報と判断順に沿って解説します。"><link rel="canonical" href="https://morimachi.enshu-lifehack.com/discover/"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><!-- PART:head-css:START -->{PARTS['head-css']}<!-- PART:head-css:END --><link rel="stylesheet" href="/assets/discover.css?v=20260823a"><script defer src="/assets/discover.js?v=20260810b"></script><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-index"><!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END --><!-- PART:disclaimer:START -->{PARTS['disclaimer']}<!-- PART:disclaimer:END --><main><div class="wrap"><nav class="breadcrumb"><a href="/">静岡県森町ライフハック</a> ／ {published_count}ガイド</nav><header class="discover-hero"><p class="eyebrow">公式情報を、暮らしと訪問の判断順に</p><h1>静岡県森町の実用ガイド</h1><p>知りたいことを検索するか、8つの分類から選んでください。記事本文とURLはそのままに、{published_count}本を探しやすく整理しました。</p><p class="publication-count"><strong>{published_count}本</strong>公開中／固有キーワード <strong>{keyword_count}語</strong></p></header>
 <section class="discover-tools" aria-labelledby="guide-search-title"><h2 id="guide-search-title">目的のガイドを探す</h2><label for="discover-search">キーワード検索</label><div class="search-row"><input id="discover-search" type="search" autocomplete="off" inputmode="search" placeholder="例：小國神社、保育料、バス、防災"><button id="discover-clear" type="button">クリア</button></div><div class="popular-keywords" aria-label="よく探されるキーワード"><span>人気の検索</span>{keyword_buttons}</div><div class="guide-tabs" role="tablist" aria-label="8分類で絞り込む">{''.join(tabs)}</div></section>
-<section class="pickup" data-pickup-month="{date.today().month}" aria-labelledby="pickup-title"><div class="section-heading"><p>季節に合う入口</p><h2 id="pickup-title">今月のピックアップ</h2></div><div class="pickup-grid">{pickup_hero}<ul class="pickup-list">{pickup_links}</ul></div></section>
+<section class="pickup" data-pickup-month="{target.month}" data-pickup-date="{target.isoformat()}" aria-labelledby="pickup-title"><div class="section-heading"><p>季節に合う入口</p><h2 id="pickup-title">今月のピックアップ</h2></div><div class="pickup-grid">{pickup_hero}<ul class="pickup-list">{pickup_links}</ul></div></section>
 <div class="discover-layout"><div class="discover-main"><div class="list-heading"><div><p id="discover-current-tab">すべての分類</p><h2>ガイド一覧</h2></div><p id="discover-result" class="result-count" aria-live="polite">{published_count}件中10件を表示</p></div><ul id="discover-list" class="guide-list" aria-live="polite"></ul><div id="discover-empty" class="discover-empty" hidden><h2>該当するガイドがありません</h2><p>別の言葉で探すか、下の候補から選んでください。</p><ul id="discover-suggestions"></ul><button id="discover-reset" type="button">すべてのガイドへ戻る</button></div><button id="discover-more" class="load-more" type="button">もっと見る <span>次の20件</span></button></div>
 <aside class="discover-sidebar" aria-label="人気と新着のガイド"><section><h2>人気ガイド TOP5</h2><ol class="ranking-list">{popular_links}</ol></section><section><h2>新着ガイド</h2><ul class="newest-list">{newest_links}</ul></section><p class="sidebar-note">料金・日程・制度は更新されることがあります。各記事の公式確認先で最新情報をご確認ください。</p></aside></div>
 <noscript><section class="noscript-guides"><h2>全{published_count}ガイド</h2><p>一覧の検索・絞り込みにはJavaScriptを使用します。無効の場合はこちらから選べます。</p><ul>{noscript_links}</ul></section></noscript><script id="discover-data" type="application/json">{listing_json}</script></div></main><!-- PART:footer:START -->{PARTS['footer']}<!-- PART:footer:END --></body></html>'''
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--index-only", action="store_true", help="一覧だけを生成し、記事本文・画像は書き込まない")
+    args = parser.parse_args()
+    target = jst_today()
     data = json.loads(DATA.read_text(encoding="utf-8"))
     rows = data["pages"]
     by_slug = {row["slug"]: row for row in rows}
@@ -371,7 +391,10 @@ def main() -> None:
     orphaned = sorted(path.name for path in OUT.iterdir() if path.is_dir() and path.name not in expected)
     if orphaned:
         raise RuntimeError(f"台帳にないdiscoverディレクトリがあります: {orphaned[:10]}")
-    (OUT / "index.html").write_text(index_html(rows), encoding="utf-8", newline="\n")
+    (OUT / "index.html").write_text(index_html(rows, target), encoding="utf-8", newline="\n")
+    if args.index_only:
+        print(f"discover一覧のみ生成: {target.isoformat()} JST")
+        return
     for row in rows:
         dest = OUT / row["slug"]
         dest.mkdir(parents=True, exist_ok=True)
