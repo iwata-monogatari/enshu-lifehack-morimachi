@@ -15,7 +15,10 @@ assert page.select_one('link[rel=canonical]')['href'] == 'https://morimachi.ensh
 for entry in doc['entries']:
     source = sources[entry['source_url']]
     assert source['status'] == 'http-200', entry['source_url']
-    assert source['checked_at'] == entry['checked_at'] == doc['checked_at']
+    assert source['checked_at'] == entry['checked_at']
+    assert doc['checked_at'] <= entry['checked_at']
+    if entry['checked_at'] > doc['checked_at']:
+        assert page.select_one('#update-'+entry['id']).select_one('time[datetime="'+entry['checked_at']+'"]')
     assert entry['source_updated'] <= entry['checked_at']
     assert page.select_one('#update-'+entry['id']), entry['id']
     for href in entry['pages']:

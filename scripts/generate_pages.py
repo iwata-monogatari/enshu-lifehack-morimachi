@@ -101,6 +101,20 @@ def program_table_html(rows):
             f'<tbody>{body}</tbody></table></div></section><!-- PROGRAM-TABLE:END -->')
 
 
+def payment_table_html(rows):
+    """料金の種類で支払期限が異なるページだけに表示する。"""
+    if not rows:
+        return ""
+    cell_style = 'padding:10px 8px;text-align:left;vertical-align:top;border-bottom:1px solid #ccd9df'
+    body = "".join(f'<tr><th scope="row" style="{cell_style}">{esc(row["item"])}</th><td style="{cell_style}">{esc(row["deadline"])}</td></tr>' for row in rows)
+    return ('<section class="payment-deadlines" aria-labelledby="payment-deadlines-title">'
+            '<h2 class="sec" id="payment-deadlines-title">文化会館の支払期限を料金別に確認</h2>'
+            '<table style="width:100%;border-collapse:collapse;table-layout:fixed;overflow-wrap:anywhere"><caption>予約・支払条件のみ2026年11月6日確認</caption><thead><tr><th scope="col">料金の種類</th><th scope="col">支払期限</th></tr></thead>'
+            f'<tbody>{body}</tbody></table>'
+            '<p>クレジットカード・PayPayなどのオンライン決済、または納付書を使った指定金融機関等の窓口での現金払いを選べます。ホールの備品・空調は使用後に納付書を発行して精算します。</p>'
+            '<p><a href="https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html" target="_blank" rel="noopener">部屋別の申請期間・支払方法を町公式で確認</a></p></section>')
+
+
 def real_cards_html(cards):
     if not cards:
         return ""
@@ -315,6 +329,7 @@ def render_page(item, city, category_items, content_map):
     if content:
         rich_html = "".join([
             program_table_html(content.get("program_table")),
+            payment_table_html(content.get("payment_table")),
             real_cards_html(content.get("real_cards")),
             qa_html(content.get("qa")),
             tabs_html(content.get("tabs")),

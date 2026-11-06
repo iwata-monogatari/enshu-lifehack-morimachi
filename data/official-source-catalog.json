@@ -219,23 +219,23 @@
     {
       "url": "https://www.town.morimachi.shizuoka.jp/bunka/usageguidance/2125.html",
       "sitemap_lastmod": "2023-05-17T10:00:00+09:00",
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-11-06",
       "status": "http-200",
       "content_type": "text/html",
       "final_url": "https://www.town.morimachi.shizuoka.jp/bunka/usageguidance/2125.html",
-      "payload_bytes": 35689,
-      "payload_sha256": "46168326f3f119baef12eebc81eeb0545682c673489732bf3f5621b605fdedee",
+      "payload_bytes": 35822,
+      "payload_sha256": "a42511ec5b92550bc35762d0b37ab2d7cfef76aed56f71416ba8ce6d20cecae6",
       "title": "森町文化会館施設予約について／静岡県森町",
       "headings": [
         "森町文化会館施設予約について",
         "ご予約について",
         "使用の申込みについて",
-        "このページに関するお問い合わせ先Inquiry"
+        "このページに関する お問い合わせ先 Inquiry"
       ],
       "canonical": "https://www.town.morimachi.shizuoka.jp/bunka/usageguidance/2125.html",
-      "visible_chars": 1045,
-      "visible_sha256": "63576563b7548e8b57f2f11cf1c17acaa2d30998c0b20b84e24dbd70860ab50f",
-      "main_sha256": "3e10a4ab3ddebe292393099e35959790276e867b07c535eb6dd500a0308ed649"
+      "visible_chars": 1146,
+      "visible_sha256": "782687628c86e970731016da6bd5f38da45dcc9dacab898196f370f36dcb2799",
+      "main_sha256": "61b970668d3c35bf56b8923907089026da755655111708b60b953f53af52df42"
     },
     {
       "url": "https://www.town.morimachi.shizuoka.jp/bunka/usageguidance/index.html",
@@ -23238,29 +23238,29 @@
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
       "sitemap_lastmod": "2026-10-02T08:57:28+09:00",
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-11-06",
       "status": "http-200",
       "content_type": "text/html",
       "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
-      "payload_bytes": 45409,
-      "payload_sha256": "ca16cf8ffb507aa39c858a7d4c06a2e34f2ad7f7f11e405fb57b5653aff8a034",
+      "payload_bytes": 46350,
+      "payload_sha256": "38b49c0acd1209c7ee5ee1aac01ff9addc8f90d7c4fa3ae56ca626756ceba77d",
       "title": "施設の予約方法及び申請書ダウンロード／静岡県森町",
       "headings": [
         "施設の予約方法及び申請書ダウンロード",
         "申請書提出の流れ",
-        "1 お問合せと仮予約",
-        "2 使用許可申請書の提出",
+        "1 利用手続き",
+        "2 申請期間",
         "3 使用料のお支払い",
         "4 備品・空調使用料の請求について（大・小ホール使用時のみ）",
         "5 申請書の記入の仕方",
         "6 申請書様式",
         "7 注意事項",
-        "このページに関するお問い合わせ先Inquiry"
+        "このページに関する お問い合わせ先 Inquiry"
       ],
       "canonical": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
-      "visible_chars": 1981,
-      "visible_sha256": "7c9623e930760ef624aa0f6cc7a5099ebd57738cdb561afdb72f00f625c83f8d",
-      "main_sha256": "091b584ebbc6efdf7c6fb3f53387eb6444c7f1395b4030f8553ef6406a563abd"
+      "visible_chars": 2288,
+      "visible_sha256": "998850b7ccd2a58b5a4aee4bb2caff4b011b0990afc15b1baa1efbb0cd9b172f",
+      "main_sha256": "f0b566eb6bd4bb029b1a396929285a38c06b27803609ec633ed58e7cbd310e4c"
     },
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/5136.html",

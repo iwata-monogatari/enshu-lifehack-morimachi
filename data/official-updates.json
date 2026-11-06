@@ -76,10 +76,10 @@
     {
       "id": "hall",
       "title": "文化会館の申請期限・支払時期を更新",
-      "summary": "小ホールは使用日の15日前、その他施設は前日までに申請します。大ホールは30日前までです。使用後に発行される納付書の支払期限は使用月の翌月末。ホールの備品・空調は別途精算です。その他施設の受付開始時期は、公式2ページに3か月前・6か月前の相違があるため、文化会館へ確認してください。",
+      "summary": "大ホールは30日前、小ホールは15日前、その他施設は前日までに申請します。その他施設の受付開始は3か月前です。予約システム、または電話で空きを確認して窓口へ申請します。大・小ホールの施設使用料は使用日前日まで、その他施設の使用料は使用月翌月末まで。ホール備品・空調は使用後精算で使用月翌月末までに支払います。オンライン決済と納付書払いを選べます。",
       "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/3943.html",
-      "source_updated": "2026-10-02",
-      "checked_at": "2026-10-08",
+      "source_updated": "2026-10-21",
+      "checked_at": "2026-11-06",
       "pages": [
         "/life/play-out/cultural-facilities/",
         "/life/play-out/rent-public-facilities/",

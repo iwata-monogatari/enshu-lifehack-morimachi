@@ -10,13 +10,14 @@ START, END = '<!-- OFFICIAL-UPDATES:START -->', '<!-- OFFICIAL-UPDATES:END -->'
 STYLE = '<link rel="stylesheet" href="/assets/official-updates.css?v=20261008">'
 
 
-def item(e, related=False):
+def item(e, related=False, collection_date=None):
     more = f'<p><a href="{esc(e["pages"][0])}">関連ガイドで手順を確認する →</a></p>' if related and e['pages'] else ''
     heading = f'<h3>{esc(e["title"])}</h3>' if related else f'<p class="official-update-label"><strong>{esc(e["title"])}</strong></p>'
+    recheck = (f'<p class="mini">この項目の追加確認日：<time datetime="{esc(e["checked_at"])}">{esc(e["checked_at"])}</time>（他の項目・ページ全体の確認日とは別です）</p>' if collection_date and e["checked_at"] != collection_date else "")
     return (f'<section class="official-update-item" id="update-{esc(e["id"])}">'
             f'{heading}<p>{esc(e["summary"])}</p>'
             f'<p class="mini">公式更新日：<time datetime="{e["source_updated"]}">{e["source_updated"]}</time> ／ '
-            f'<a href="{esc(e["source_url"])}" target="_blank" rel="noopener" data-track-click="official_link_click">森町公式の案内を確認</a></p>{more}</section>')
+            f'<a href="{esc(e["source_url"])}" target="_blank" rel="noopener" data-track-click="official_link_click">森町公式の案内を確認</a></p>{recheck}{more}</section>')
 
 
 def main():
@@ -32,7 +33,7 @@ def main():
         block = (START + '<section class="official-updates" aria-labelledby="official-update-title">'
                  f'<p id="official-update-title" class="official-update-heading"><strong>公式情報の更新を確認しました（{date}）</strong></p>'
                  '<p class="mini">以下は今回確認した更新事項です。ページ末尾の最終確認日は、既存情報全体を確認した日を示しています。</p>'
-                 + ''.join(item(e) for e in rows)
+                 + ''.join(item(e, collection_date=date) for e in rows)
                  + '<p><a href="/updates/">今回確認した更新情報の一覧 →</a></p></section>' + END)
         if START in html:
             html = re.sub(re.escape(START)+'.*?'+re.escape(END), lambda _: block, html, flags=re.S)
@@ -43,7 +44,7 @@ def main():
         path.write_text(html, encoding='utf-8')
     parts = {k:(ROOT/'parts'/f'{k}.html').read_text(encoding='utf-8') for k in ['head-css','header','footer']}
     desc = '静岡県森町公式サイトの更新を確認し、保育所・幼稚園・学童の申込み、公共施設予約、文化会館の申請期限、予防接種助成など暮らしに関わる変更を出典付きで整理します。'
-    cards = ''.join(item(e, True) for e in entries)
+    cards = ''.join(item(e, True, collection_date=date) for e in entries)
     html = f'''<!doctype html><html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>森町公式情報の更新まとめ｜2026年10月確認 | 森町ライフハック</title>
