@@ -5,3 +5,9 @@
 /*
   Strict-Transport-Security: max-age=31536000
   X-Content-Type-Options: nosniff
+
+# Japanese plain-text indexes are UTF-8; declare it explicitly.
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8
