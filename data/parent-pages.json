@@ -18,13 +18,13 @@
     {
      "case": "救急車を呼ぶか判断に迷う",
      "action": "♯7119（救急安心電話相談）にかける",
-     "href": "tel:7119",
+     "href": "tel:%237119",
      "emoji": "📞"
     },
     {
      "case": "子どもが夜中に熱を出した",
      "action": "静岡こども救急電話相談 #8000（24時間）にかける",
-     "href": "tel:8000",
+     "href": "tel:%238000",
      "emoji": "👶"
     },
     {
@@ -271,8 +271,8 @@
     },
     {
      "case": "日本語以外の案内がほしい",
-     "action": "多言語ガイドブックの場所を確認する",
-     "href": "/life/troubles-consult/foreign-resident-consultation/",
+     "action": "多言語の分別表・公開状況を確認する",
+     "href": "/life/start-living/how-to-garbage/#type-foreign",
      "emoji": "🌐"
     }
    ]

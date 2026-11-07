@@ -48,7 +48,12 @@ def main() -> None:
         cluster = re.search(
             r"<!-- PRIORITY-QUESTIONS:START -->(.*?)<!-- PRIORITY-QUESTIONS:END -->",
             html, re.S)
-        if not cluster or len(re.findall(r'href="/questions/', cluster.group(1))) < 5:
+        links = re.findall(r'href="(/questions/[^"/]+/)"', cluster.group(1)) if cluster else []
+        pinned = item.get("question_hrefs")
+        if pinned is not None:
+            if not pinned or links != pinned[:5]:
+                errors.append(f"明示指定した関連質問と不一致: {href}")
+        elif len(links) < 5:
             errors.append(f"関連質問が5件未満: {href}")
 
     for href, marker in TOOLS.items():

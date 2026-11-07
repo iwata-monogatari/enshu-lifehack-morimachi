@@ -171,11 +171,10 @@
   {
     "url": "/life/emergency/emergency-medical/",
     "channels": [
-      "counter",
       "phone"
     ],
-    "window": "静岡県危機管理部消防保安課（制度所管）／森町側の案内窓口は危機管理課 危機管理係",
-    "tel": "054-221-2073",
+    "window": "救急安心電話相談窓口（#7119）",
+    "tel": "#7119 ／ 054-204-7119（ダイヤル回線・IP電話等）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",

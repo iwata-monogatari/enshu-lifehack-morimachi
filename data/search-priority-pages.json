@@ -5,7 +5,14 @@
     "description": "町内会別の次回収集日と、分別・持ち込み先を確認",
     "emoji": "🗑️",
     "updated": "2026-08-06",
-    "question_hubs": ["procedures", "property"]
+    "question_hubs": [
+      "procedures",
+      "property"
+    ],
+    "question_hrefs": [
+      "/questions/start-living-how-to-garbage/",
+      "/questions/moving-out-bulk-garbage-cleaning/"
+    ]
   },
   {
     "href": "/life/family-grow/nursery-school/",
