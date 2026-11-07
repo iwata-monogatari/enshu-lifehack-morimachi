@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（422本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（426本）
 
 ### 新着記事
 
+- 2026-11-07 [森町の露店の消防届出｜発電機も確認対象](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-stall-fire-notification/)
+- 2026-11-07 [森町の祭り囃子｜2020年の配信が残す記録](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-hayashi-2020-record/)
+- 2026-11-07 [森町文化会館のピアノ料金｜調律料は別](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-hall-piano-fee/)
+- 2026-11-07 [森町観光ボランティア｜月1回の学びと参加条件](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-guide-volunteer/)
 - 2026-11-06 [森町の天浜線5駅｜車いすで使う前の確認](https://morimachi.enshu-lifehack.com/blog/20261106-tenhama-wheelchair/)
 - 2026-11-06 [天浜線フリーきっぷ比較｜森町へ行く区間で選ぶ](https://morimachi.enshu-lifehack.com/blog/20261106-tenhama-free-ticket/)
 - 2026-11-06 [森町の通学路安全点検｜公開地図に載らない理由](https://morimachi.enshu-lifehack.com/blog/20261106-morimachi-school-route/)
@@ -55,10 +59,6 @@
 - 2026-11-05 [森町のお茶の保存方法｜暖房を入れる前の茶缶の置き場](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-tea-storage/)
 - 2026-11-05 [森町の事業用太陽光｜500㎡の基準と撤去時の届出](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-solar-site/)
 - 2026-11-05 [森町のため池マップ｜同じ「昭和新池」を地図で見分ける](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-showa-shinike/)
-- 2026-11-05 [森町の山でナラ枯れを疑ったら｜秋に残す観察記録](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-naragare/)
-- 2026-11-05 [森町の土地取引届出｜5000㎡と1万㎡の境目](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-land-deal/)
-- 2026-11-05 [森町の山に入る前に｜11月の狩猟期間と服装](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-hunting-season/)
-- 2026-11-05 [森町は茶草場農法の世界農業遺産に含まれる？](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-chagusaba/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 

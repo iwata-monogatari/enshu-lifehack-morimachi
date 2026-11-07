@@ -273,7 +273,7 @@ function main() {
       hub: 'enjoy', kind: '読み物', summary: post.description.slice(0, 90),
       keyword: post.query || post.title.split('｜')[0], aliases: post.search_aliases || [],
       needs: [post.query || post.title], department: [], audience: [],
-      verified: post.modified || post.date, lead: post.description.slice(0, LEAD_MAX_CHARS),
+      date: post.date, verified: post.modified || post.date, lead: post.description.slice(0, LEAD_MAX_CHARS),
     };
   }).filter(Boolean);
   const searchIndex = [...baseIndex, ...questionIndex, ...expansionIndex, ...phase1Index, ...fullIndex, ...phase4Index, ...discoverIndex, ...blogIndex];
