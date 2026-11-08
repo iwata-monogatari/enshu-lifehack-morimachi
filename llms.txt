@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（426本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（430本）
 
 ### 新着記事
 
+- 2026-11-08 [森町のLEBER｜24時間相談を使える家庭](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-leber-taisho/)
+- 2026-11-08 [森町子育てアプリ移行｜11月30日終了前の確認](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-kosodate-app-iko/)
+- 2026-11-08 [森町のこども医療費｜県内と県外の受診を比較](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-kodomo-iryo-kengai/)
+- 2026-11-08 [森町の移住相談｜11月29日に聞く暮らしの条件](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-iju-sodan-1129/)
 - 2026-11-07 [森町の露店の消防届出｜発電機も確認対象](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-stall-fire-notification/)
 - 2026-11-07 [森町の祭り囃子｜2020年の配信が残す記録](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-hayashi-2020-record/)
 - 2026-11-07 [森町文化会館のピアノ料金｜調律料は別](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-hall-piano-fee/)
@@ -55,10 +59,6 @@
 - 2026-11-06 [天浜線フリーきっぷ比較｜森町へ行く区間で選ぶ](https://morimachi.enshu-lifehack.com/blog/20261106-tenhama-free-ticket/)
 - 2026-11-06 [森町の通学路安全点検｜公開地図に載らない理由](https://morimachi.enshu-lifehack.com/blog/20261106-morimachi-school-route/)
 - 2026-11-06 [遠州森駅の輪行バッグ｜借りる前の条件確認](https://morimachi.enshu-lifehack.com/blog/20261106-enshumori-cycle-bag/)
-- 2026-11-05 [森町の水路と農道は誰が守る？集落協定の記録](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-waterways/)
-- 2026-11-05 [森町のお茶の保存方法｜暖房を入れる前の茶缶の置き場](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-tea-storage/)
-- 2026-11-05 [森町の事業用太陽光｜500㎡の基準と撤去時の届出](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-solar-site/)
-- 2026-11-05 [森町のため池マップ｜同じ「昭和新池」を地図で見分ける](https://morimachi.enshu-lifehack.com/blog/20261105-morimachi-showa-shinike/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
