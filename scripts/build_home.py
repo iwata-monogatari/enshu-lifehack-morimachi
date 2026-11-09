@@ -295,8 +295,8 @@ def build() -> str:
 <strong>森町の紅葉<br>2026</strong>
 <span class="home-festival-desc"><b>11月下旬が見頃の目安</b><br>小國神社と大洞院、町全体の色づきを比べて選ぶ。</span>
 <span class="home-festival-button">紅葉特集を見る <span aria-hidden="true">→</span></span>
-<small>色づきは年によって変わります。撮影日と公式の最新案内をご確認ください</small></span>
-<img src="/discover/morimachi-autumn-leaves-townwide-guide/cover.svg" width="1200" height="630" fetchpriority="high" decoding="async" alt="小國神社と大洞院の紅葉を描いた編集イラスト">
+<small>色づきは年によって変わります。撮影日と公式の最新案内をご確認ください<br>写真：nubobo（CC BY 2.0）</small></span>
+<img src="/discover/morimachi-autumn-leaves-townwide-guide/cover.svg" width="1200" height="630" fetchpriority="high" decoding="async" alt="紅葉に囲まれた小國神社の宮川と朱色の橋（写真）">
 </a></aside>
 <section class="hero">
 <figure class="hero-visual">
