@@ -289,14 +289,23 @@ def build() -> str:
 <body class="hub home">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
 <main><div class="wrap">
+<aside class="home-festival" aria-label="森町の紅葉特集">
+<a class="home-festival-link" href="/discover/morimachi-autumn-leaves-townwide-guide/" data-track-click="home_morimachi_autumn_feature">
+<span class="home-festival-copy"><span class="home-festival-kicker"><span aria-hidden="true">🍁</span> 森町の秋特集</span>
+<strong>森町の紅葉<br>2026</strong>
+<span class="home-festival-desc"><b>11月下旬が見頃の目安</b><br>小國神社と大洞院、町全体の色づきを比べて選ぶ。</span>
+<span class="home-festival-button">紅葉特集を見る <span aria-hidden="true">→</span></span>
+<small>色づきは年によって変わります。撮影日と公式の最新案内をご確認ください</small></span>
+<img src="/discover/morimachi-autumn-leaves-townwide-guide/cover.svg" width="1200" height="630" fetchpriority="high" decoding="async" alt="小國神社と大洞院の紅葉を描いた編集イラスト">
+</a></aside>
 <section class="hero">
 <figure class="hero-visual">
 <picture>
 <source srcset="/assets/img/hero-morimachi.svg" type="image/svg+xml">
 <img src="/assets/img/hero-morimachi.svg" width="1600" height="460" fetchpriority="high" decoding="async"
- alt="静岡県周智郡森町の里山のイラスト。奥に山並み、中景に鎮守の森と鳥居、手前に太田川と茶畑の畝。">
+ alt="静岡県周智郡森町の小國神社、事待池にかかる朱色の橋と鎮守の森の写真">
 </picture>
-<figcaption>静岡県周智郡森町（遠州森町）／イラスト</figcaption>
+<figcaption>静岡県周智郡森町（遠州森町）・小國神社の事待池／写真</figcaption>
 </figure>
 <p class="eyebrow">森町の暮らしと手続きが、すぐわかる</p>
 <h1>静岡県森町の手続き・相談先を、困りごとから探せます</h1>
