@@ -52,6 +52,20 @@ def _chips(items: list[tuple[str, str]]) -> str:
     return f'<ul class="al-chips">{lis}</ul>'
 
 
+FAQS = [
+    ("森町の紅葉の見頃はいつですか？",
+     "年によって変わるため、固定日では案内していません。小國神社・大洞院とも11月下旬の名所ですが、その年の色づきは、町公式の地点別写真に付いた「撮影日」と、神社・寺院の公式発信で確認してください。"),
+    ("小國神社と大洞院は、どちらがおすすめですか？",
+     "参拝と宮川沿いの散策、ことまち横丁での食事まで楽しみたいなら小國神社。静かな禅寺の境内と「森の石松」の伝承に触れたいなら大洞院です。初めてなら、一日一地点に絞るのがおすすめです。"),
+    ("車がなくても行けますか？",
+     "行けますが、二地点の周遊より一地点の往復が現実的です。帰りのバスや列車の時刻と、駅からの徒歩区間、タクシーの手配を先に確認してください。"),
+    ("紅葉祭やライトアップはありますか？",
+     "当年の公式告知がある年だけ計画してください。過去の写真や記事から今年の実施を推測せず、寺社や主催者の当年の案内を確認しましょう。"),
+    ("雨の日でも楽しめますか？",
+     "葉の色は濃く見えますが、石や苔、落ち葉で足元が滑りやすくなります。無理をせず、参拝を中心に短く切り上げるのがおすすめです。"),
+]
+
+
 def render(row: dict, parts: dict, count: int) -> str:
     canonical = URL
     keywords = row["primary_keyword"] + "、" + "、".join(row["secondary_keywords"])
@@ -73,6 +87,13 @@ def render(row: dict, parts: dict, count: int) -> str:
                 "publisher": {"@type": "Organization", "name": "森町ライフハック"},
                 "image": canonical + "cover.svg",
                 "keywords": keywords,
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+                    for q, a in FAQS
+                ],
             },
             {
                 "@type": "BreadcrumbList",
@@ -200,4 +221,12 @@ def render(row: dict, parts: dict, count: int) -> str:
 <a href="/discover/morimachi-wagashi-guide/">森町の和菓子<span>散策とお土産の楽しみ →</span></a>
 </div></section>'''
 
-    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(row["title"])}</title><meta name="description" content="{e(row["description"])}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="article"><meta property="og:title" content="{e(row["title"])}"><meta property="og:description" content="{e(row["description"])}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{canonical}cover.svg"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><!-- PART:head-css:START -->{parts['head-css']}<!-- PART:head-css:END --><link rel="stylesheet" href="/assets/discover.css?v=20260823a"><link rel="stylesheet" href="/assets/autumn-leaves.css?v=20261109b"><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-article"><!-- PART:header:START -->{parts['header']}<!-- PART:header:END --><!-- PART:disclaimer:START -->{parts['disclaimer']}<!-- PART:disclaimer:END --><main><article class="wrap editorial al-feature"><nav class="breadcrumb" aria-label="パンくず"><a href="/">静岡県森町ライフハック</a> ／ <a href="/discover/">静岡県森町{count}ガイド</a> ／ {e(row["category_label"])}</nav><header class="article-header"><p class="eyebrow">{e(row["category_label"])}｜最終確認 {e(row["fact_checked_at"])}</p><h1>{e(row["title"])}</h1><p class="lead">{e(row["lead"])}</p><figure class="hero-media">{hero_img}<figcaption>{e(row.get("cover_caption", ""))}</figcaption></figure></header>{conclusion}{nav}{provenance}{g1}{g2}{g3}{photo_break}{g4}{g5}{g6}{g7}{g8}{g9}{g10}{author_sec}{related}<section class="official-sources"><h2>公式情報・確認先</h2><p>掲載内容は次の一次情報を基礎に整理しました。営業、料金、催し、交通は変わるため、出発前または手続き前にリンク先で最新情報を確認してください。</p><ul>{sources}</ul></section><section class="related-guides"><h2>静岡県森町の関連ガイド</h2><p><a class="btn" href="/discover/">{count}ガイドの検索・分類へ戻る</a></p></section></article></main><!-- PART:footer:START -->{parts['footer']}<!-- PART:footer:END --></body></html>'''
+    faq_items = "".join(
+        f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in FAQS
+    )
+    faq_sec = (
+        f'<section class="al-faq" id="al-faq"><p class="al-kicker">Q &amp; A</p>'
+        f'<h2>よくある質問</h2>{faq_items}</section>'
+    )
+
+    return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(row["title"])}</title><meta name="description" content="{e(row["description"])}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="article"><meta property="og:title" content="{e(row["title"])}"><meta property="og:description" content="{e(row["description"])}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{canonical}cover.svg"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><!-- PART:head-css:START -->{parts['head-css']}<!-- PART:head-css:END --><link rel="stylesheet" href="/assets/discover.css?v=20260823a"><link rel="stylesheet" href="/assets/autumn-leaves.css?v=20261109c"><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(',', ':'))}</script></head><body class="discover-article"><!-- PART:header:START -->{parts['header']}<!-- PART:header:END --><!-- PART:disclaimer:START -->{parts['disclaimer']}<!-- PART:disclaimer:END --><main><article class="wrap editorial al-feature"><nav class="breadcrumb" aria-label="パンくず"><a href="/">静岡県森町ライフハック</a> ／ <a href="/discover/">静岡県森町{count}ガイド</a> ／ {e(row["category_label"])}</nav><header class="article-header"><p class="eyebrow">{e(row["category_label"])}｜最終確認 {e(row["fact_checked_at"])}</p><h1>{e(row["title"])}</h1><p class="lead">{e(row["lead"])}</p><figure class="hero-media">{hero_img}<figcaption>{e(row.get("cover_caption", ""))}</figcaption></figure></header>{conclusion}{nav}{provenance}{g1}{g2}{g3}{photo_break}{g4}{g5}{g6}{g7}{g8}{g9}{g10}{faq_sec}{author_sec}{related}<section class="official-sources"><h2>公式情報・確認先</h2><p>掲載内容は次の一次情報を基礎に整理しました。営業、料金、催し、交通は変わるため、出発前または手続き前にリンク先で最新情報を確認してください。</p><ul>{sources}</ul></section><section class="related-guides"><h2>静岡県森町の関連ガイド</h2><p><a class="btn" href="/discover/">{count}ガイドの検索・分類へ戻る</a></p></section></article></main><!-- PART:footer:START -->{parts['footer']}<!-- PART:footer:END --></body></html>'''

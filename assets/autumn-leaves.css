@@ -77,3 +77,10 @@
 
 /* 早見案内（outside-quick）は横幅いっぱいに広げず、中央の読み幅に収める */
 .al-feature .outside-quick{max-width:760px;margin-left:auto;margin-right:auto}
+
+/* FAQ */
+.al-feature .al-faq{margin:2.6rem 0 0}
+.al-feature .al-faq h2{margin:.1rem 0 .8rem;font-size:1.3rem}
+.al-feature .al-faq details{border:1px solid var(--al-line);border-radius:12px;padding:.85rem 1rem;margin:.6rem 0;background:#fff}
+.al-feature .al-faq summary{font-weight:700;cursor:pointer;line-height:1.6}
+.al-feature .al-faq details p{line-height:1.85;margin:.6rem 0 .2rem}

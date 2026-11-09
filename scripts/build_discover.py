@@ -59,7 +59,7 @@ SEASONAL_PICKUP_BY_MONTH = {
     8: "acty-mori-river-play-summer",
     9: "morimachi-events-calendar",
     10: "mori-festival",
-    11: "oguni-shrine-autumn-leaves",
+    11: "morimachi-autumn-leaves-townwide-guide",
     12: "morimachi-souvenir-guide",
 }
 
