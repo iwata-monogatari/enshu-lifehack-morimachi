@@ -289,15 +289,6 @@ def build() -> str:
 <body class="hub home">
 <!-- PART:header:START -->{PARTS['header']}<!-- PART:header:END -->
 <main><div class="wrap">
-<aside class="home-festival" aria-label="森町の祭り特集">
-<a class="home-festival-link" href="/discover/mori-festival/" data-track-click="home_mori_festival_feature">
-<span class="home-festival-copy"><span class="home-festival-kicker"><span aria-hidden="true">🏮</span> 森町の祭り特集</span>
-<strong>森のまつり<br>2026</strong>
-<span class="home-festival-desc"><b>11月6日（金）〜8日（日）</b><br>屋台・見どころ・交通・子連れ見学の準備をひとまとめに。</span>
-<span class="home-festival-button">祭り特集を見る <span aria-hidden="true">→</span></span>
-<small>当日の進行・交通規制は公式の最新案内をご確認ください</small></span>
-<img src="/discover/mori-festival/cover.svg" width="1200" height="630" fetchpriority="high" decoding="async" alt="屋台と提灯を描いた森のまつりの編集イラスト">
-</a></aside>
 <section class="hero">
 <figure class="hero-visual">
 <picture>
