@@ -247,9 +247,13 @@
     "acty-mori-complete-guide",
     "acty-mori-pottery-experience",
     "acty-mori-restaurant-lunch"
-   ]
+   ],
+   "hero_photo": "/discover/oguni-shrine-autumn-leaves/cover.svg",
+   "cover_alt": "紅葉に包まれた小國神社の宮川と朱色の橋、参道を歩く人々（写真）",
+   "cover_caption": "色づくもみじに囲まれた宮川と朱い橋。参拝と散策が一緒になった、小國神社の秋です。写真：nubobo（CC BY 2.0）"
   },
-  "_note": "2026-11-09: 町全体の紅葉INDEXへの内部リンク追加のため related_slugs のみ上書き。台帳側に反映できたらこのエントリは削除可。"
+  "_note": "2026-11-09: 町全体の紅葉INDEXへの内部リンク追加のため related_slugs のみ上書き。台帳側に反映できたらこのエントリは削除可。",
+  "preserve_media": true
  },
  "daitoin-autumn-ishimatsu": {
   "fields": {
