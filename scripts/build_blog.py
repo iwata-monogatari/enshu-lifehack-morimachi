@@ -157,7 +157,7 @@ def build_index(posts, parts):
     index_title = "森町ブログ｜暮らし・空き家・交通・文化を一次情報で解説"
     index_image = SITE + "/blog/20260823-koko-tsugaku-shugaku-shienkin/cover.jpg"
     controls = '''<section id="mg-controls" class="mg-controls" aria-label="ブログを絞り込む" hidden>
-<label for="mg-search">記事を言葉で探す</label><input id="mg-search" type="search" placeholder="例：次郎柿、移住、実家" autocomplete="off">
+<label for="mg-search">記事を言葉で探す</label><input id="mg-search" type="search" placeholder="例：次郎柿、移住、実家" autocomplete="off"><button type="button" id="mg-clear">検索を解除</button>
 <div class="mg-filters" aria-label="記事のテーマ"><button type="button" data-filter="all" aria-pressed="true">すべて</button><button type="button" data-filter="outings" aria-pressed="false">季節のお出かけ</button><button type="button" data-filter="living" aria-pressed="false">森町で暮らす</button><button type="button" data-filter="family" aria-pressed="false">親・実家・空き家</button></div><p id="mg-count" class="mg-count" role="status" aria-live="polite"></p></section>'''
     body = index_intro() + controls + '<h2 id="articles">記事一覧</h2><ul class="post-list">%s</ul>' % "".join(items)
     body += '<p id="mg-empty" class="mg-empty" hidden>該当する記事がありません。言葉を短くするか、テーマを「すべて」にしてお探しください。</p><button type="button" id="mg-more" class="mg-more" hidden>次の24件を見る</button>'

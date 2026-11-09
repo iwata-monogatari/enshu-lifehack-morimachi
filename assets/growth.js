@@ -37,6 +37,7 @@
     history.replaceState(null, '', location.pathname + location.search + '#' + selected);
   }); });
   input.addEventListener('input', function () { limit = 24; render(); });
+  document.getElementById('mg-clear')?.addEventListener('click', function () { input.value = ''; selected = 'all'; limit = 24; render(); input.focus(); });
   more.addEventListener('click', function () { limit += 24; render(); });
   window.addEventListener('hashchange', function () { fromHash(true); });
   controls.hidden = false; fromHash(false); render();

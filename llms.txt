@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（430本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（434本）
 
 ### 新着記事
 
+- 2026-11-09 [退職後の健康保険｜森町で3つを比較](https://morimachi.enshu-lifehack.com/blog/20261109-taishoku-kenkohoken-hikaku/)
+- 2026-11-09 [森町の介護保険料｜スマホ納付前の確認](https://morimachi.enshu-lifehack.com/blog/20261109-morimachi-kaigo-hokenryo-smartphone/)
+- 2026-11-09 [森町の児童虐待相談｜189へ伝えること](https://morimachi.enshu-lifehack.com/blog/20261109-morimachi-jido-gyakutai-189/)
+- 2026-11-09 [Govbotとは｜森町の手続き前に使う](https://morimachi.enshu-lifehack.com/blog/20261109-morimachi-govbot/)
 - 2026-11-08 [森町のLEBER｜24時間相談を使える家庭](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-leber-taisho/)
 - 2026-11-08 [森町子育てアプリ移行｜11月30日終了前の確認](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-kosodate-app-iko/)
 - 2026-11-08 [森町のこども医療費｜県内と県外の受診を比較](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-kodomo-iryo-kengai/)
@@ -55,10 +59,6 @@
 - 2026-11-07 [森町の祭り囃子｜2020年の配信が残す記録](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-hayashi-2020-record/)
 - 2026-11-07 [森町文化会館のピアノ料金｜調律料は別](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-hall-piano-fee/)
 - 2026-11-07 [森町観光ボランティア｜月1回の学びと参加条件](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-guide-volunteer/)
-- 2026-11-06 [森町の天浜線5駅｜車いすで使う前の確認](https://morimachi.enshu-lifehack.com/blog/20261106-tenhama-wheelchair/)
-- 2026-11-06 [天浜線フリーきっぷ比較｜森町へ行く区間で選ぶ](https://morimachi.enshu-lifehack.com/blog/20261106-tenhama-free-ticket/)
-- 2026-11-06 [森町の通学路安全点検｜公開地図に載らない理由](https://morimachi.enshu-lifehack.com/blog/20261106-morimachi-school-route/)
-- 2026-11-06 [遠州森駅の輪行バッグ｜借りる前の条件確認](https://morimachi.enshu-lifehack.com/blog/20261106-enshumori-cycle-bag/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
