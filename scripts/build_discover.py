@@ -270,6 +270,9 @@ def article_html(row: dict, rows_by_slug: dict[str, dict], published_count: int)
     if row['slug'] == 'mori-festival':
         from mori_festival_feature import render
         return render(row, PARTS, published_count)
+    if row['slug'] == 'morimachi-autumn-leaves-townwide-guide':
+        from autumn_leaves_feature import render
+        return render(row, PARTS, published_count)
     canonical = f'https://morimachi.enshu-lifehack.com/discover/{row["slug"]}/'
     robots = '' if released(row) else '<meta name="robots" content="noindex,nofollow" data-discover-pending>'
     keywords = "、".join([row["primary_keyword"], *row["secondary_keywords"]])

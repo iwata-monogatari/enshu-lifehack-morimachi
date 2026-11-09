@@ -1,0 +1,76 @@
+/* 森町の紅葉特集（morimachi-autumn-leaves-townwide-guide）専用スタイル。
+   通常の discover 記事部品（hero-media / answer-box / official-sources 等）は
+   discover.css に任せ、特集の構造部品だけを .al-feature 配下に定義する。 */
+.al-feature{--al-red:#b3402a;--al-green:#2f5d3a;--al-line:#e2ddcf;--al-paper:#faf6ee;--al-amber:#fdf3e0}
+.al-feature .al-kicker{margin:0 0 .35rem;color:var(--al-red);font-weight:700;letter-spacing:.08em;font-size:.86rem}
+.al-feature .al-group{margin:2.6rem 0 0}
+.al-feature .al-group-head{border-left:6px solid var(--al-red);padding:.1rem 0 .1rem .8rem;margin:0 0 1rem}
+.al-feature .al-group-head h2{margin:0;font-size:1.45rem;line-height:1.4}
+.al-feature .al-sec{margin:1.4rem 0}
+.al-feature .al-sec h3{font-size:1.14rem;line-height:1.5;margin:0 0 .55rem;padding-bottom:.35rem;border-bottom:2px solid var(--al-line)}
+.al-feature .al-sec p{margin:.55rem 0;line-height:1.9}
+/* 結論とスポットカード */
+.al-feature .al-conclusion{margin:2rem 0 0;background:var(--al-paper);border:1px solid var(--al-line);border-radius:18px;padding:1.3rem 1.2rem 1.2rem}
+.al-feature .al-conclusion>h2{margin:.1rem 0 1rem;font-size:1.4rem}
+.al-feature .al-spots{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.al-feature .al-spot{background:#fff;border:1px solid var(--al-line);border-radius:14px;overflow:hidden}
+.al-feature .al-spot img{display:block;width:100%;height:auto}
+.al-feature .al-spot-banner{display:flex;align-items:flex-end;min-height:120px;padding:.8rem 1rem;color:#fff;font-weight:700;letter-spacing:.14em;background:linear-gradient(135deg,#37503c,#5d7a52 55%,#8a6f3c)}
+.al-feature .al-spot-body{padding:.9rem 1rem 1rem}
+.al-feature .al-spot-body h3{margin:0 0 .2rem;font-size:1.25rem}
+.al-feature .al-spot-key{margin:0 0 .5rem;color:var(--al-green);font-weight:700}
+.al-feature .al-points{margin:.6rem 0 0;padding:0;list-style:none}
+.al-feature .al-points li{padding:.28rem 0 .28rem 1.4em;position:relative;line-height:1.6}
+.al-feature .al-points li::before{content:"🍁";position:absolute;left:0;font-size:.8em;top:.5em}
+.al-feature .al-answer{margin:1.1rem 0 0}
+/* 目次 */
+.al-feature .al-nav{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.6rem 0 .4rem}
+.al-feature .al-nav a{border:1px solid var(--al-line);background:#fff;border-radius:999px;padding:.42rem .9rem;text-decoration:none;font-size:.92rem}
+.al-feature .al-nav a:hover{border-color:var(--al-red);color:var(--al-red)}
+/* チップ */
+.al-feature .al-chips{display:flex;gap:.7rem;flex-wrap:wrap;margin:1rem 0;padding:0;list-style:none}
+.al-feature .al-chips li{flex:1 1 150px;background:var(--al-paper);border:1px solid var(--al-line);border-radius:12px;padding:.6rem .8rem;display:flex;flex-direction:column;gap:.15rem}
+.al-feature .al-chips strong{color:var(--al-green)}
+.al-feature .al-chips span{font-size:.9rem;color:#55534a}
+/* 写真 */
+.al-feature .al-photo{margin:1.6rem 0}
+.al-feature .al-photo img{display:block;width:100%;height:auto;border-radius:16px;box-shadow:0 12px 30px rgba(28,46,36,.16)}
+.al-feature .al-photo figcaption{margin:.6rem .25rem 0;color:#526058;line-height:1.75;font-size:.94rem}
+/* チェックリスト */
+.al-feature .al-check{background:#fff;border:1px dashed var(--al-green);border-radius:14px;padding:1rem 1.1rem;margin:1.4rem 0}
+.al-feature .al-check h3{margin:0 0 .3rem}
+.al-feature .al-check label{display:flex;gap:.6rem;align-items:flex-start;padding:.45rem 0;border-top:1px solid #eee9da;line-height:1.6;cursor:pointer}
+.al-feature .al-check input{width:1.15rem;height:1.15rem;margin-top:.25rem;accent-color:var(--al-green)}
+/* 2カラムカード */
+.al-feature .al-two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.al-feature .al-card{background:#fff;border:1px solid var(--al-line);border-radius:14px;padding:.4rem 1.1rem 1rem}
+.al-feature .al-card .al-sec h3{border-bottom:none;color:var(--al-green)}
+/* 注意セクション */
+.al-feature .al-caution{background:var(--al-amber);border-radius:14px;padding:.6rem 1.1rem 1rem}
+.al-feature .al-caution h3{border-bottom-color:#ecd9ac}
+/* 評価パネル */
+.al-feature .al-panel-good{background:#eef6ee;border-radius:14px;padding:.6rem 1.1rem 1rem;margin-top:2.2rem}
+.al-feature .al-panel-note{background:var(--al-amber);border-radius:14px;padding:.6rem 1.1rem 1rem}
+.al-feature .al-panel-good h3,.al-feature .al-panel-note h3{border-bottom:none}
+/* ステップ */
+.al-feature .al-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin:1rem 0;padding:0;list-style:none;counter-reset:alstep}
+.al-feature .al-steps li{background:#fff;border:1px solid var(--al-line);border-radius:12px;padding:.8rem .9rem .8rem 3.2rem;position:relative;display:flex;flex-direction:column;gap:.2rem}
+.al-feature .al-steps li::before{counter-increment:alstep;content:counter(alstep);position:absolute;left:.85rem;top:.8rem;width:1.7rem;height:1.7rem;border-radius:50%;background:var(--al-red);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.al-feature .al-steps span{font-size:.92rem;color:#55534a;line-height:1.6}
+/* 筆者パネル */
+.al-feature .al-author{display:flex;gap:1.1rem;background:var(--al-paper);border:1px solid var(--al-line);border-radius:16px;padding:1.2rem;margin:2.6rem 0 0}
+.al-feature .al-author img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex:none}
+.al-feature .al-author h2{margin:.1rem 0 .6rem;font-size:1.2rem}
+.al-feature .al-author p{line-height:1.9;margin:.5rem 0}
+/* 関連 */
+.al-feature .al-related{margin:2.4rem 0 0}
+.al-feature .al-related-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:.8rem}
+.al-feature .al-related-grid a{display:block;background:#fff;border:1px solid var(--al-line);border-radius:12px;padding:.9rem 1rem;text-decoration:none;font-weight:700}
+.al-feature .al-related-grid a span{display:block;margin-top:.25rem;font-weight:400;font-size:.9rem;color:#55534a}
+.al-feature .al-related-grid a:hover{border-color:var(--al-red)}
+@media(max-width:760px){
+.al-feature .al-spots,.al-feature .al-two-col,.al-feature .al-related-grid{grid-template-columns:1fr}
+.al-feature .al-steps{grid-template-columns:1fr}
+.al-feature .al-author{flex-direction:column}
+.al-feature .al-spot-banner{min-height:84px}
+}
