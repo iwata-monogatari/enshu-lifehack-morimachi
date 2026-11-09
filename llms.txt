@@ -43,22 +43,22 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（434本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（438本）
 
 ### 新着記事
 
 - 2026-11-09 [退職後の健康保険｜森町で3つを比較](https://morimachi.enshu-lifehack.com/blog/20261109-taishoku-kenkohoken-hikaku/)
+- 2026-11-09 [森町の要介護認定｜申請から結果までの流れ](https://morimachi.enshu-lifehack.com/blog/20261109-morimachi-kaigo-nintei-nagare/)
 - 2026-11-09 [森町の介護保険料｜スマホ納付前の確認](https://morimachi.enshu-lifehack.com/blog/20261109-morimachi-kaigo-hokenryo-smartphone/)
+- 2026-11-09 [森町の児童手当｜異動から15日以内の申請](https://morimachi.enshu-lifehack.com/blog/20261109-morimachi-jido-teate-15days/)
 - 2026-11-09 [森町の児童虐待相談｜189へ伝えること](https://morimachi.enshu-lifehack.com/blog/20261109-morimachi-jido-gyakutai-189/)
 - 2026-11-09 [Govbotとは｜森町の手続き前に使う](https://morimachi.enshu-lifehack.com/blog/20261109-morimachi-govbot/)
+- 2026-11-09 [医療費控除の準備｜森町で領収書を分ける冬](https://morimachi.enshu-lifehack.com/blog/20261109-iryohi-kojo-ledger/)
+- 2026-11-09 [ふるさと納税ワンストップ｜申請は1月10日まで](https://morimachi.enshu-lifehack.com/blog/20261109-furusato-onestop-jan10/)
 - 2026-11-08 [森町のLEBER｜24時間相談を使える家庭](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-leber-taisho/)
 - 2026-11-08 [森町子育てアプリ移行｜11月30日終了前の確認](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-kosodate-app-iko/)
 - 2026-11-08 [森町のこども医療費｜県内と県外の受診を比較](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-kodomo-iryo-kengai/)
 - 2026-11-08 [森町の移住相談｜11月29日に聞く暮らしの条件](https://morimachi.enshu-lifehack.com/blog/20261108-morimachi-iju-sodan-1129/)
-- 2026-11-07 [森町の露店の消防届出｜発電機も確認対象](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-stall-fire-notification/)
-- 2026-11-07 [森町の祭り囃子｜2020年の配信が残す記録](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-hayashi-2020-record/)
-- 2026-11-07 [森町文化会館のピアノ料金｜調律料は別](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-hall-piano-fee/)
-- 2026-11-07 [森町観光ボランティア｜月1回の学びと参加条件](https://morimachi.enshu-lifehack.com/blog/20261107-morimachi-guide-volunteer/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
