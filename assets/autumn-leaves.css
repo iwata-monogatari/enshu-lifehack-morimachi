@@ -74,3 +74,6 @@
 .al-feature .al-author{flex-direction:column}
 .al-feature .al-spot-banner{min-height:84px}
 }
+
+/* 早見案内（outside-quick）は横幅いっぱいに広げず、中央の読み幅に収める */
+.al-feature .outside-quick{max-width:760px;margin-left:auto;margin-right:auto}
