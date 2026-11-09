@@ -264,8 +264,98 @@
     "acty-mori-complete-guide",
     "acty-mori-pottery-experience",
     "acty-mori-restaurant-lunch"
+   ],
+   "illustrations": [
+    {
+     "alt": "森の石松まつりの様子（写真）",
+     "caption": "森の石松まつり（春）の様子。石松の伝承は大洞院ゆかりです。写真：gundam2345（CC BY 3.0）"
+    },
+    {
+     "title": "雨と混雑で短くする大洞院ルート",
+     "caption": "奥へ足すより、山道を安全に帰る余白を残します。歴史の散歩道は条件が良い別日に分けます。",
+     "alt": "山道から駐車場、石松墓所、本堂、橋、歴史の散歩道へ続く経路を描き、雨・濡れた落葉・満車・日没で本堂と墓所だけに短縮する図解",
+     "labels": [
+      "山道",
+      "駐車確認",
+      "墓所",
+      "本堂参拝"
+     ]
+    }
    ]
   },
-  "_note": "2026-11-09: 町全体の紅葉INDEXへの内部リンク追加のため related_slugs のみ上書き。台帳側に反映できたらこのエントリは削除可。"
+  "_note": "2026-11-09: 町全体の紅葉INDEXへの内部リンク追加のため related_slugs のみ上書き。台帳側に反映できたらこのエントリは削除可。",
+  "preserve_media": true
+ },
+ "enshu-mori-station": {
+  "fields": {
+   "hero_photo": "/discover/enshu-mori-station/cover.svg",
+   "cover_alt": "天竜浜名湖鉄道・遠州森駅の駅舎（写真）",
+   "cover_caption": "遠州森駅の駅舎。ここから町歩きが始まります。写真：Asturio Cantabrio（CC BY-SA 4.0）"
+  },
+  "preserve_media": true
+ },
+ "morimachi-moving-in-procedures": {
+  "fields": {
+   "hero_photo": "/discover/morimachi-moving-in-procedures/cover.svg",
+   "cover_alt": "森町役場の庁舎（写真）",
+   "cover_caption": "転入・転居の手続き窓口になる森町役場。写真：Asturio Cantabrio（CC BY-SA 4.0）"
+  },
+  "preserve_media": true
+ },
+ "oguni-shrine-access-parking": {
+  "fields": {
+   "hero_photo": "/discover/oguni-shrine-access-parking/cover.svg",
+   "cover_alt": "小國神社の大鳥居と参道（写真）",
+   "cover_caption": "小國神社の大鳥居。参道の先に社殿が見えます。写真：Saigen Jiro（CC0）"
+  },
+  "preserve_media": true
+ },
+ "oguni-shrine-prayer-shichigosan": {
+  "fields": {
+   "hero_photo": "/discover/oguni-shrine-prayer-shichigosan/cover.svg",
+   "cover_alt": "小國神社の拝殿（写真）",
+   "cover_caption": "小國神社の拝殿。祈祷や七五三の参拝の中心です。写真：Saigen Jiro（CC0）"
+  },
+  "preserve_media": true
+ },
+ "oguni-kotomachi-half-day": {
+  "fields": {
+   "hero_photo": "/discover/oguni-kotomachi-half-day/cover.svg",
+   "cover_alt": "小國神社の社殿と境内（写真）",
+   "cover_caption": "小國神社の社殿と広々とした境内。写真：Saigen Jiro（CC0）"
+  },
+  "preserve_media": true
+ },
+ "oguni-shrine-river-walk": {
+  "fields": {
+   "hero_photo": "/discover/oguni-shrine-river-walk/cover.svg",
+   "cover_alt": "小國神社境内の杉並木（写真）",
+   "cover_caption": "境内に続く杉並木。川沿いの散策とあわせて歩きたい参道です。写真：Saigen Jiro（CC0）"
+  },
+  "preserve_media": true
+ },
+ "morimachi-live-cameras-river-level": {
+  "fields": {
+   "hero_photo": "/discover/morimachi-live-cameras-river-level/cover.svg",
+   "cover_alt": "森町を流れる太田川（写真）",
+   "cover_caption": "森町を流れる太田川。水位やライブカメラで様子を確認する川です。写真：Halowand（CC BY-SA 4.0）"
+  },
+  "preserve_media": true
+ },
+ "morimachi-day-trip-model-course": {
+  "fields": {
+   "hero_photo": "/discover/morimachi-day-trip-model-course/cover.svg",
+   "cover_alt": "森町の中心商店街（写真）",
+   "cover_caption": "森町の町なか。日帰り観光の歩き始めに。写真：gundam2345（CC BY 3.0）"
+  },
+  "preserve_media": true
+ },
+ "rengeji-bush-clover": {
+  "fields": {
+   "hero_photo": "/discover/rengeji-bush-clover/cover.svg",
+   "cover_alt": "蓮華寺の山門（写真）",
+   "cover_caption": "蓮華寺の山門。萩の名所として知られる古刹です。写真：先従隗始（CC0）"
+  },
+  "preserve_media": true
  }
 }
