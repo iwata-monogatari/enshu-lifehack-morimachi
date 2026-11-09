@@ -281,7 +281,10 @@
       "本堂参拝"
      ]
     }
-   ]
+   ],
+   "hero_photo": "/discover/daitoin-autumn-ishimatsu/cover.svg",
+   "cover_alt": "大洞院の境内に広がる紅葉（写真）",
+   "cover_caption": "池のほとりまで色づく、大洞院の秋。写真：nubobo（CC BY 2.0）"
   },
   "_note": "2026-11-09: 町全体の紅葉INDEXへの内部リンク追加のため related_slugs のみ上書き。台帳側に反映できたらこのエントリは削除可。",
   "preserve_media": true
