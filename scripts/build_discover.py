@@ -385,6 +385,18 @@ def main() -> None:
     target = jst_today()
     data = json.loads(DATA.read_text(encoding="utf-8"))
     rows = data["pages"]
+    # data/discover-overrides.json があれば、台帳の行へ上書き適用する。
+    # 大きな台帳を直接編集できない環境からの差分反映と、写真など
+    # リポジトリ内のファイルを画像に使うページの保持（preserve_media）に使う。
+    overrides_path = ROOT / "data" / "discover-overrides.json"
+    if overrides_path.exists():
+        overrides = json.loads(overrides_path.read_text(encoding="utf-8"))
+        for row in rows:
+            entry = overrides.get(row["slug"])
+            if entry:
+                row.update(entry.get("fields", {}))
+                if entry.get("preserve_media"):
+                    row["_preserve_media"] = True
     by_slug = {row["slug"]: row for row in rows}
     OUT.mkdir(exist_ok=True)
     expected = set(by_slug)
@@ -400,6 +412,8 @@ def main() -> None:
         dest.mkdir(parents=True, exist_ok=True)
         page_html = article_html(row, by_slug, sum(1 for item in rows if released(item)))
         (dest / "index.html").write_text(page_html, encoding="utf-8", newline="\n")
+        if row.get("_preserve_media"):
+            continue
         (dest / "cover.svg").write_text(cover_svg(row), encoding="utf-8", newline="\n")
         for number in (1, 2):
             (dest / f"fig{number}.svg").write_text(diagram_svg(row, number), encoding="utf-8", newline="\n")
