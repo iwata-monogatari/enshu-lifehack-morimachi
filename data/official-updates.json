@@ -3,11 +3,11 @@
   "entries": [
     {
       "id": "nursery",
-      "title": "令和9年度の保育所等申込みは10月16日まで",
-      "summary": "2027年度の年度途中入所も一斉申込みの対象。窓口は平日17時まで、電子申請は2026年10月16日17時15分までです。入所可能数見込みも令和9年度の公式表へ更新しました。",
+      "title": "保育所等の一斉申込終了・期限後も書類受付",
+      "summary": "2026年9月14日〜10月16日の一斉申込は終了しました。保育所等は期限後も提出を受け付けますが、期間内提出分を先に選考し、定員に達すると期限後分を選考しない場合があります。期限後の提出方法は健康こども課0538-86-6300へ確認してください。",
       "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6917.html",
       "source_updated": "2026-09-14",
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-11-11",
       "pages": [
         "/life/family-grow/nursery-school/",
         "/life/family-grow/nursery-childcare/",
@@ -16,33 +16,33 @@
     },
     {
       "id": "kindergarten",
-      "title": "町立幼稚園は飯田・園田・森の3園を募集",
-      "summary": "令和9年度の一斉申込みは2026年9月14日〜10月16日。町立幼稚園への入園申込みは健康こども課へ提出し、期間中は電子申請も利用できます。",
+      "title": "町立幼稚園の一斉申込期間は終了",
+      "summary": "令和9年度の飯田・園田・森幼稚園の一斉申込期間は2026年9月14日〜10月16日でした。電子申請の受付期間も終了しています。期限後の申込み方法と受入れ状況は健康こども課0538-86-6300へ確認してください。",
       "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/7003.html",
       "source_updated": "2026-09-14",
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-11-11",
       "pages": [
         "/life/family-grow/nursery-school/"
       ]
     },
     {
       "id": "extended",
-      "title": "幼稚園の預かり保育は窓口で別申請",
-      "summary": "一斉申込は10月16日17時までで、電子申請はありません。飯田幼稚園の長期休業中は園田幼稚園で受入れ。無償化には保育の必要性認定と別途手続きが必要です。",
+      "title": "幼稚園預かり保育の一斉申込期間は終了",
+      "summary": "2026年10月16日17時までの一斉申込期間は終了しました。電子申請はありません。期限後の取扱いは健康こども課0538-86-6300へ確認してください。飯田幼稚園の長期休業中は園田幼稚園で受入れ、無償化には保育の必要性認定と別手続きが必要です。",
       "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/7004.html",
       "source_updated": "2026-09-01",
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-11-11",
       "pages": [
         "/life/family-grow/nursery-school/"
       ]
     },
     {
       "id": "club",
-      "title": "放課後児童クラブも10月16日までに申込み",
-      "summary": "令和9年度の継続利用・年度途中利用・長期休業のみの利用も毎年度申込みが必要です。窓口は平日8時30分〜12時、13時〜17時。希望者多数の場合は待機となることがあります。",
+      "title": "放課後児童クラブの一斉申込期間は終了",
+      "summary": "令和9年度の一斉申込期間（2026年9月14日〜10月16日）は終了しました。継続・年度途中・長期休業のみの利用も毎年度申込みが必要です。期限後の申込み方法と受入れ状況は健康こども課0538-86-6300へ確認してください。",
       "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6882.html",
       "source_updated": "2026-09-01",
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-11-11",
       "pages": [
         "/life/education/after-school-club/"
       ]
@@ -210,14 +210,15 @@
     },
     {
       "id": "house-seminar",
-      "title": "11月3日「我が家の終活セミナー」",
-      "summary": "森町文化会館小ホールで2026年11月3日10時〜11時30分に開催予定。定員30人、予約制で、満員になり次第締切です。申込みは公式フォームまたは定住推進課0538-85-6321へ。",
+      "title": "11月3日の終活セミナーは予定日を経過",
+      "summary": "2026年11月3日10時〜11時30分に森町文化会館小ホールで開催予定として掲載した案内の記録です。予定日は過ぎており、現在の募集案内ではありません。実際の開催結果や追加募集は確認していません。当時の公式ページは11月11日の確認時点で削除されているため、現在の空き家相談は関連ガイドの別の相談会・相談窓口を確認してください。",
+      "source_unavailable": true,
       "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/7028.html",
       "pages": [
         "/life/housing/vacant-house/"
       ],
       "source_updated": "2026-10-01",
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-11-11"
     },
     {
       "id": "house-consult",

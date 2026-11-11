@@ -519,18 +519,23 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gakkokyoikuka/index.html",
     "label": "学校教育課／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/chochonoheya/6651.html",
+    "label": "町長のお知らせ・令和8年度予算の給食費支援（町公式）",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "学校教育課",
-   "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
+   "tel": "0538-85-2111（森町役場代表）",
    "address": "〒437-0293 静岡県周智郡森町森2101-1（森町役場）",
-   "note": "学校給食の献立表・給食費の金額・アレルギー対応の具体的な案内ページは森町公式サイト内（学校教育課／学校管理係／学校教育係の各ページ、もりっこサイトを含む）で確認できなかった。国は2026年度から公立小学校の給食費支援を進めているが、森町独自の実施状況（対象範囲・自己負担の有無）は確認中。担当課・電話番号のみ確認済み。"
+   "note": "令和8年度予算の町公式案内は、国の施策に基づく小学校給食費の無償化と、幼稚園児・中学生の給食費の一部補助を説明しています。実際の徴収額、対象、献立・アレルギー対応は学校・学校教育課へ確認してください。予算案内部分のみ2026年11月11日確認。"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-04",
   "ai_checked_date": "2026-07-04",
-  "ai_notes": "WebSearch/WebFetchで学校教育課・学校管理係・学校教育係・教育委員会・小中学校ページ・もりっこサイトを確認したが、給食の献立表/給食費金額/アレルギー対応の専用ページは見つからなかった。担当課（学校教育課、0538-85-2111）のみ確定事実として記載し、その他は「確認中」と明記した。大石による追加確認・専用ページの有無の再調査を推奨。",
+  "ai_notes": "WebSearch/WebFetchで学校教育課・学校管理係・学校教育係・教育委員会・小中学校ページ・もりっこサイトを確認したが、給食の献立表/給食費金額/アレルギー対応の専用ページは見つからなかった。担当課（学校教育課、0538-85-2111）のみ確定事実として記載し、その他は「確認中」と明記した。大石による追加確認・専用ページの有無の再調査を推奨。 【2026年11月11日追補】町長のお知らせ内の令和8年度予算説明で、小学校給食費の無償化と幼稚園・中学校の一部補助を確認。予算部分を本文・FAQ・案内先へ反映。個別の徴収額・献立・アレルギー対応は未確認のまま区別。",
   "verified_by": "machine",
   "title": "学校給食は、献立・費用・アレルギー対応を学校教育課に分けて確認する",
   "hub": "family",
@@ -8599,8 +8604,8 @@
     "confidence": "high"
    },
    {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/3600.html",
-    "label": "マイナンバーカードの日曜交付について／静岡県森町",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html",
+    "label": "水曜日時間外窓口業務・日曜開庁終了について／静岡県森町",
     "confidence": "high"
    }
   ],
@@ -8608,7 +8613,7 @@
    "window": "住民生活課 住民係",
    "tel": "0538-85-6312",
    "hours": "窓口は月・火・木・金 8:30-17:15、水曜は8:30-19:00",
-   "note": "申請方法は郵送・オンライン・窓口タブレットの3種類。受け取りは交付通知書（ハガキ）と本人確認書類を持参して来庁（原則本人、特別な事由があれば代理人可）。日曜交付日も設定あり"
+   "note": "申請方法は郵送・オンライン・窓口タブレットの3種類。受け取りは交付通知書（ハガキ）と本人確認書類を持参して来庁（原則本人、特別な事由があれば代理人可）。日曜交付は2024年3月末で終了。水曜の時間外窓口は祝日・年末年始を除く17:15〜19:00（窓口運用のみ2026年11月11日確認）"
   },
   "status": "machine-verified",
   "verified_date": "2026-07-04",
@@ -11228,19 +11233,24 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/index.html",
     "label": "農地管理係／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/3814.html",
+    "label": "空き家付き農地の取得・下限面積撤廃（町公式）",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "農林政策課 農政係・農地管理係（農業委員会事務局）",
    "tel": "0538-85-6315",
-   "note": "2026年4月時点の組織は「農林政策課」。旧「産業課」名称のページURLは404になっている。空き家付き農地の取得制度（新規就農者向けに下限面積を緩和。三倉・天方・森地区20a、一宮・園田・飯田地区40a）の担当も農林政策課。"
+   "note": "下限面積は2023年4月1日に撤廃。地区別20a・40aの旧条件は現在の取得要件ではありません。全部効率利用・農作業常時従事等の許可要件は残ります。2026年11月11日に制度部分のみ確認。"
   },
   "status": "human-verified",
   "verified_date": "2026-08-05",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": null,
-  "title": "森町の就農準備は、産業課農政係で農地情報・空き家付き農地制度を確認する",
+  "title": "森町の就農準備は、農林政策課で農地取得の条件と相談先を確認する",
   "hub": "procedures",
   "hub_label": "手続きしたい",
   "page_type": "detail",

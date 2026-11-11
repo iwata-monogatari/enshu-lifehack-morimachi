@@ -8,8 +8,8 @@
   出典B: 各ページ本文の <div class="official"> 内 <b>window</b>／<b>tel</b> 表記
 
 重要な設計判断（01計画書§5「未確認項目は推測せず未確認と明記」への対応）:
-  オンライン申請の可否は、森町の手元資料では155ページ中8ページ分しか根拠が取れない。
-  「online が無い＝オンライン不可」と解釈されると147ページで誤情報になるため、
+  オンライン申請の可否は、森町の手元資料では対象手続きごとの根拠を個別に確認する必要がある。
+  「online が無い＝オンライン不可」と解釈されると他の手続きで誤情報になるため、
   **陽性の根拠があるチャネルだけを記録し、"不可" は一切記録しない。**
   表示側も「確認できた手続き方法」という肯定形の見出しにして、
   非表示のチャネルについては何も主張しない。
@@ -33,9 +33,8 @@ TEL_LINK_RE = re.compile(r'href="tel:([0-9\-]+)"')
 VERIFIED_RE = re.compile(r"最終確認日：(\d{4}-\d{2}-\d{2})")
 TAG_RE = re.compile(r"<[^>]+>")
 
-# オンライン／コンビニは陽性語句がある場合のみ。誤検出を避けるため語句を絞る。
-ONLINE_RE = re.compile(r"電子申請|マイナポータル|ぴったりサービス|オンライン申請|オンラインで申請|インターネットで申請")
-KONBINI_RE = re.compile(r"コンビニ交付|コンビニでの交付|コンビニで取得")
+# Remote channels require data/channel-evidence.json, scoped to this procedure.
+
 
 
 def clean(s):
@@ -46,13 +45,17 @@ def main():
     with open(os.path.join(ROOT, "data", "topics_master.json"), encoding="utf-8-sig") as f:
         topics = {t["href"]: t for t in json.load(f)}
 
+    with open(os.path.join(ROOT, 'data', 'channel-evidence.json'), encoding='utf-8') as f:
+        evidence = json.load(f)
+
     records = []
     stats = {"counter": 0, "phone": 0, "online": 0, "konbini": 0, "no_channel": 0}
 
     for filepath in sorted(glob.glob(os.path.join(ROOT, "life", "**", "index.html"), recursive=True)):
         rel = os.path.relpath(filepath, ROOT).replace(os.sep, "/")
         url = "/" + rel[: -len("index.html")]
-        src = open(filepath, encoding="utf-8").read()
+        with open(filepath, encoding="utf-8") as source_file:
+            src = source_file.read()
 
         topic = topics.get(url, {})
         facts = topic.get("facts") or {}
@@ -73,7 +76,7 @@ def main():
             if m:
                 tel = clean(m.group(1))
             else:
-                links = TEL_LINK_RE.findall(src)
+                links = TEL_LINK_RE.findall(official_html)
                 tel = links[0] if links else None
 
         channels = []
@@ -83,12 +86,13 @@ def main():
         if tel:
             channels.append("phone")
             stats["phone"] += 1
-        if ONLINE_RE.search(src):
-            channels.append("online")
-            stats["online"] += 1
-        if KONBINI_RE.search(src):
-            channels.append("konbini")
-            stats["konbini"] += 1
+        # Only a reviewed statement about THIS procedure may establish a remote
+        # channel. Related links, footer text and negative statements are not proof.
+        for channel in evidence.get(url, {}).get('channels', []):
+            if channel not in ('online', 'konbini'):
+                raise ValueError((url, channel))
+            channels.append(channel)
+            stats[channel] += 1
         if not channels:
             stats["no_channel"] += 1
 
@@ -105,6 +109,7 @@ def main():
                 "hours": facts.get("hours") or facts.get("jikan") or None,
                 "last_checked": vm.group(1) if vm else topic.get("verified_date"),
                 "source": "topics_master.facts" if facts.get("window") or facts.get("tel") else "page_html",
+                "remote_channel_evidence": evidence.get(url),
             }
         )
 

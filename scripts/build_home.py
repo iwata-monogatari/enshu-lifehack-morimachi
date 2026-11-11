@@ -266,12 +266,8 @@ def stats() -> dict:
 def build() -> str:
     st = stats()
     posts = json.loads((ROOT / 'data' / 'blog-posts.json').read_text(encoding='utf-8'))['posts']
-    latest_posts = sorted(posts, key=lambda post: (post['date'], post['slug']), reverse=True)[:4]
-    latest_links = ''.join(
-        f'<li><a href="/blog/{escape(post["slug"], quote=True)}/">{escape(post["title"])}</a>'
-        f' <time datetime="{escape(post["date"], quote=True)}">{escape(post["date"])}</time></li>'
-        for post in latest_posts
-    )
+    from home_latest_posts import latest_links as render_latest_links
+    latest_links = render_latest_links(posts)
     return f"""<!doctype html>
 <html lang="ja">
 <head>

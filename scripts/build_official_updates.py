@@ -10,6 +10,12 @@ START, END = '<!-- OFFICIAL-UPDATES:START -->', '<!-- OFFICIAL-UPDATES:END -->'
 STYLE = '<link rel="stylesheet" href="/assets/official-updates.css?v=20261008">'
 
 
+def source_link(e):
+    if e.get('source_unavailable'):
+        return '<span>当時の公式ページは削除されています（2026年11月11日確認）</span>'
+    return f'<a href="{esc(e["source_url"])}" target="_blank" rel="noopener" data-track-click="official_link_click">森町公式の案内を確認</a>'
+
+
 def item(e, related=False, collection_date=None):
     more = f'<p><a href="{esc(e["pages"][0])}">関連ガイドで手順を確認する →</a></p>' if related and e['pages'] else ''
     heading = f'<h3>{esc(e["title"])}</h3>' if related else f'<p class="official-update-label"><strong>{esc(e["title"])}</strong></p>'
@@ -17,7 +23,7 @@ def item(e, related=False, collection_date=None):
     return (f'<section class="official-update-item" id="update-{esc(e["id"])}">'
             f'{heading}<p>{esc(e["summary"])}</p>'
             f'<p class="mini">公式更新日：<time datetime="{e["source_updated"]}">{e["source_updated"]}</time> ／ '
-            f'<a href="{esc(e["source_url"])}" target="_blank" rel="noopener" data-track-click="official_link_click">森町公式の案内を確認</a></p>{recheck}{more}</section>')
+            f'{source_link(e)}</p>{recheck}{more}</section>')
 
 
 def main():

@@ -13127,18 +13127,17 @@
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6917.html",
       "sitemap_lastmod": "2026-09-14T08:20:00+09:00",
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-11-11",
       "status": "http-200",
       "content_type": "text/html",
       "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/6917.html",
-      "payload_bytes": 65828,
-      "payload_sha256": "ad6ebfe40e2af66e0eb33780a80451102718705bb0c85e92537a2b23aede62ab",
+      "payload_bytes": 65376,
+      "payload_sha256": "9fef316db28493b4e33e71d7998939b57d61c4dd8682a2b742dc74aff3ef2739",
       "title": "令和9年度 保育所等入所の申込みについて／静岡県森町",
       "headings": [
         "令和9年度 保育所等入所の申込みについて",
         "年度初めの4月からの入所も、年度途中からの入所希望も、以下の期間内に、申請書類を提出してください",
         "申込期間",
-        "令和9年度新規入所可能状況(ご参考)",
         "保育所等に入所申込みができる方",
         "教育・保育給付認定申請について",
         "入所申込みについて",
@@ -13152,9 +13151,10 @@
         "このページに関するお問い合わせ先Inquiry"
       ],
       "canonical": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/1/6805.html",
-      "visible_chars": 6345,
-      "visible_sha256": "522017cc12daf409645fe319311fe61c9420cf89fe5ac85894e22c7303c8a655",
-      "main_sha256": "f1603a549a19987f9734706d62a979a5cb57f5aec97e0379fdd26568d60787ce"
+      "visible_chars": 6660,
+      "visible_sha256": "eefb36af3e097dee10a95ae05cbefeee4e55a6f7fb8395bb63c6a7e9d2c9698e",
+      "main_sha256": "5adb1b6a726e2dd9ecbed6b841076e6497a99f88534a041ae78d94c3dcdb8759",
+      "review_scope": "期限後の取扱い・リンク先の確認。ページ全体の制度再審査ではありません。"
     },
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/hoikuen/index.html",
@@ -14786,12 +14786,12 @@
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/7003.html",
       "sitemap_lastmod": "2026-09-14T08:20:00+09:00",
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-11-11",
       "status": "http-200",
       "content_type": "text/html",
       "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/7003.html",
-      "payload_bytes": 45072,
-      "payload_sha256": "c84394546aacee74b76304845292d4d7cbca5f86f7da76a174c8c5c8836afc56",
+      "payload_bytes": 44807,
+      "payload_sha256": "882d27ba918d70356440d690d3379f07df08f4d87feb955d741401cca8a68786",
       "title": "令和9年度 森町立幼稚園入園の申込みについて／静岡県森町",
       "headings": [
         "令和9年度 森町立幼稚園入園の申込みについて",
@@ -14804,14 +14804,15 @@
         "このページに関するお問い合わせ先Inquiry"
       ],
       "canonical": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/3/6879.html",
-      "visible_chars": 1828,
-      "visible_sha256": "f3d0c4e2bcde21202d58298ad61156c9e6bc4e0ee3b1f57451edae1c499f1c91",
-      "main_sha256": "aa29e8906ba4beee5d875af20b5b001f21432a7ac63121b678cb02c46d622503"
+      "visible_chars": 1930,
+      "visible_sha256": "30631707b0503d509ba3685124756b4cc808516be8982ffad939523be99a705b",
+      "main_sha256": "28833e91ed0b0bba113520ef5890aff9be5404942a003569554780a7e0fd74ed",
+      "review_scope": "期限後の取扱い・リンク先の確認。ページ全体の制度再審査ではありません。"
     },
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/7004.html",
       "sitemap_lastmod": "2026-09-01T08:20:00+09:00",
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-11-11",
       "status": "http-200",
       "content_type": "text/html",
       "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/7004.html",
@@ -14828,9 +14829,10 @@
         "このページに関するお問い合わせ先Inquiry"
       ],
       "canonical": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/3/6915.html",
-      "visible_chars": 3033,
-      "visible_sha256": "5efd862574669a76ae6dd46cd83c957f0e3f9721dbac8ca17c914cc0b4593afd",
-      "main_sha256": "ac59add0072abe2c6e0a3eef0461807bc534f3176c9ab5c883c092fd6348aee7"
+      "visible_chars": 3232,
+      "visible_sha256": "95ca8d00d82dae2bd0c83fa76e911d84eb2727a52fa113f591c23b4f15edd227",
+      "main_sha256": "f31ae675722e487304ae4f9471d525b63b80233c3dde582cd210d96d0a4e9e35",
+      "review_scope": "期限後の取扱い・リンク先の確認。ページ全体の制度再審査ではありません。"
     },
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/hoikuen_yochiento/yochien/index.html",
@@ -34977,7 +34979,7 @@
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6882.html",
       "sitemap_lastmod": "2026-09-01T08:20:00+09:00",
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-11-11",
       "status": "http-200",
       "content_type": "text/html",
       "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6882.html",
@@ -35009,9 +35011,10 @@
         "このページに関するお問い合わせ先Inquiry"
       ],
       "canonical": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6882.html",
-      "visible_chars": 4118,
-      "visible_sha256": "0d8ad6cf90ca9921eddd77cabdb295e8511bdd8560ed719637dcdb5577dc1ba9",
-      "main_sha256": "38fe7a0de43525f9ef67091dad595c2a860116e22b03b530b4ddfbdcf3728722"
+      "visible_chars": 4373,
+      "visible_sha256": "9c0d0ca7e3c47c41c9d4bb1fd27b32dd016a174a1a4339e907086efb7292efca",
+      "main_sha256": "e221836636c8f7f9273b39f0a636de0e6dcb77b1d9076659da75d16a4c6ea4b3",
+      "review_scope": "期限後の取扱い・リンク先の確認。ページ全体の制度再審査ではありません。"
     },
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/index.html",
@@ -55251,26 +55254,21 @@
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/7028.html",
       "sitemap_lastmod": "2026-10-01T08:30:00+09:00",
-      "checked_at": "2026-10-08",
-      "status": "http-200",
+      "checked_at": "2026-11-11",
+      "status": "http-404",
       "content_type": "text/html",
       "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/7028.html",
-      "payload_bytes": 40956,
-      "payload_sha256": "42dcdb857d9aaf500723da33e1ad1e234c701691b668500883345f52d2f51d1c",
-      "title": "我が家の終活セミナー開催／静岡県森町",
+      "payload_bytes": 38123,
+      "payload_sha256": "32d833c81fd63f755b0f4a2b140abea478f213d95420722cb8ee56d16cecb1c4",
+      "title": "ページが見つかりませんでした／静岡県森町",
       "headings": [
-        "我が家の終活セミナー開催",
-        "日時",
-        "会場",
-        "定員",
-        "講師",
-        "申込み方法",
-        "このページに関するお問い合わせ先Inquiry"
+        "ページが見つかりませんでした"
       ],
       "canonical": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/7028.html",
-      "visible_chars": 911,
-      "visible_sha256": "f3d8d066b862f96782883787beee29729ea1605f6227b1213adca544fcbcbc93",
-      "main_sha256": "73108625ce9ec89719445f184a8badfb58f6b3bba0f836b300b422712f9f0bba"
+      "visible_chars": 629,
+      "visible_sha256": "d62c6f68716c84e1aae88d55e54c85b9c6b7880b85b1c8bddff9c996af034ddb",
+      "main_sha256": "ecf3a95207984ca7d987e3141d6455f52135d64378f28ebcef6360ed2a79425d",
+      "review_scope": "期限後の取扱い・リンク先の確認。ページ全体の制度再審査ではありません。"
     },
     {
       "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/index.html",

@@ -80,6 +80,10 @@ def main():
                 continue
             new = src[: m.end()] + marker_block + src[m.end() :]
 
+        style = '<link rel="stylesheet" href="/assets/channel-hero.css?v=20261111">'
+        if block and 'hero-visual' in new and style not in new:
+            new = new.replace('</head>', style + '</head>', 1)
+
         if new != src:
             changed.append(rec["url"])
             if not args.check:

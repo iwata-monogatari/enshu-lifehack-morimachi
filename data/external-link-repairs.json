@@ -1,0 +1,476 @@
+{
+  "checked_at": "2026-11-11",
+  "repairs": {
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/7028.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+      "label": "現在の移住・住まいの相談先（町公式）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/3600.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html",
+      "label": "水曜日時間外窓口・日曜開庁終了の町公式案内",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "http://www.cottage-acty.net/index.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/2/5685.html",
+      "label": "コテージ・アクティの町公式案内",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/bunkazai/index.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/1096.html",
+      "label": "森町の文化財（町公式）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://cottage-acty.net/contact/": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/2/5685.html",
+      "label": "コテージ・アクティの町公式案内",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://cottage-acty.net/cottage/8/": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/2/5685.html",
+      "label": "コテージ・アクティの町公式案内",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://cottage-acty.net/camp/129/": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/kanko/1770.html",
+      "label": "吉川キャンプ場の町公式案内",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://cottage-acty.net/camp/124/": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/kanko/1770.html",
+      "label": "吉川キャンプ場の町公式案内",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://cottage-acty.net/access/": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/2/5685.html",
+      "label": "コテージ・アクティの町公式案内",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kenko_iryo/index.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html",
+      "label": "健康・福祉（町公式）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/2600.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/index.html",
+      "label": "町公式の観光・特産品案内",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/8/HPtoumorokoshimap.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/index.html",
+      "label": "町公式の観光・特産品案内",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato.html": {
+      "replacement_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/mechanism/procedure.html",
+      "label": "ふるさと納税の流れ（総務省）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/4/624.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/4/6419.html",
+      "label": "町民の森の現行利用規制（町公式・旧マップとは別資料）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kyoiku_gakko/sho_chugakko/6555.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/shakaikyoikukakari/bukatsudo_chiikiikou/6510.html",
+      "label": "中学校部活動の地域展開（町公式）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/shogaigakushu/6672.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/morimachichiikikurabukatsudou/6908.html",
+      "label": "地域クラブ活動の案内（町公式・対象期間を確認）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/27/2025shinkinyusyo2.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/1/6133.html",
+      "label": "令和8年度保育所等入所の町公式案内（現在の空き人数ではありません）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/10/izyuusyuugyousiennhozyokinnyoukou.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+      "label": "移住支援の最新確認先（町公式）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/kotsu/choeibus/index.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/kokyokotsu/1431.html",
+      "label": "森町営バスの町公式案内",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/ijuteiju/index.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+      "label": "森町の移住・定住情報（町公式）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.edu.pref.shizuoka.jp/totomisogo-h/about/nyuushikannkei.html": {
+      "replacement_url": "https://www.edu.pref.shizuoka.jp/totomisogo-h/",
+      "label": "遠江総合高校公式・最新の入試案内を確認",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://cottage-acty.net/camp/": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/kanko/1770.html",
+      "label": "吉川キャンプ場の町公式案内",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.mlit.go.jp/jutakukentiku/house/content/001732456.pdf": {
+      "replacement_url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000035.html",
+      "label": "空家等対策の現行資料一覧（国土交通省）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/3/siryou06-03.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1501.html",
+      "label": "森町地域防災計画・資料一覧（町公式）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/029/862/2-2-13.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/index.html",
+      "label": "町の防災・安全の確認先",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/032/072/kiki_manual_tebiki/kikimanual_tebiki_r8-2.pdf": {
+      "replacement_url": "https://www.pref.shizuoka.jp/kodomokyoiku/school/kyoiku/1003777/1032072.html",
+      "label": "学校の危機管理・安全の現行資料（静岡県）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/15/keikakuann.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/6915.html",
+      "label": "認定された森町文化財保存活用地域計画（町公式・旧計画案とは区別）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/15/toshokanrisiyou.pdf": {
+      "replacement_url": "https://toshosv.town.morimachi.shizuoka.jp/",
+      "label": "森町立図書館の現行利用案内",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/mynumber/3604.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html",
+      "label": "水曜日時間外窓口・日曜開庁終了の町公式案内",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.meti.go.jp/policy/safety_security/industrial_safety/sangyo/citygas/aikotobademinaoshitai/know/index.html": {
+      "replacement_url": "https://www.nite.go.jp/jiko/chuikanki/press/index.html",
+      "label": "製品事故の現行注意喚起（NITE）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.meti.go.jp/press/2023/02/20240229001/20240229001.html": {
+      "replacement_url": "https://www.nite.go.jp/jiko/chuikanki/press/index.html",
+      "label": "製品事故の現行注意喚起（NITE）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.kanto.meti.go.jp/press/20240229seihinanzen_bousai_press.html": {
+      "replacement_url": "https://www.nite.go.jp/jiko/chuikanki/press/index.html",
+      "label": "製品事故の現行注意喚起（NITE）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/072/279/r8anatahe2-1.pdf": {
+      "replacement_url": "https://www.edu.pref.shizuoka.jp/totomisogo-h/",
+      "label": "遠江総合高校公式・最新の入試案内を確認",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.mext.go.jp/ijime/detail/dial.htm?iref=pc_rellink": {
+      "replacement_url": "https://www.mext.go.jp/a_menu/h30gouu7/1407291.htm",
+      "label": "24時間子供SOSダイヤル（文部科学省）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.mext.go.jp/content/20200630-mxt_syoto02-000006216_02.pdf": {
+      "replacement_url": "https://www.mext.go.jp/a_menu/shotou/seitoshidou/index.htm",
+      "label": "生徒指導の現行資料（文部科学省）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/10/kyouryokutai_youkou.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/1/kyoryokutai/2153.html",
+      "label": "地域おこし協力隊の現行募集要綱・応募用紙（町公式）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/6162.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/1096.html",
+      "label": "現在の文化財の確認先（町公式・旧見学不可告知の終了を意味しません）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/1/6764.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/index.html",
+      "label": "町公式の現在の観光案内（当時の催しの参加受付ではありません）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/10/pubuhunohi_25.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/index.html",
+      "label": "町公式の現在の観光案内（当時の催しの参加受付ではありません）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/kurashi_tetsuzuki/suido_gesuido/suido/355.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/668.html",
+      "label": "水道の開始・廃止・名義変更等の届出（町公式）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/kurashi_tetsuzuki/bosai_anzen/bosai/1001712.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/1255.html",
+      "label": "森町防災ハザードマップ（町公式・危機管理課）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/kurashi_tetsuzuki/bosai_anzen/bosai/1001713.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/index.html",
+      "label": "避難場所・避難所の現行確認先（町公式・危機管理課）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/kikikanrikakari/1/745.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/hazardmap/1255.html",
+      "label": "森町防災ハザードマップ（町公式・危機管理課）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/kikikanrikakari/1/744.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/index.html",
+      "label": "避難場所・避難所の現行確認先（町公式・危機管理課）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/1/818.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html",
+      "label": "町公式の現在の健康案内（旧熱中症案内とは別）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/6/5520.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html",
+      "label": "町公式の現在の健康案内（過去のシェルター開設情報とは別）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/kanko_bunka/matsuri_event/1281.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/index.html",
+      "label": "町公式の観光・祭り情報",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/kanko_bunka/shitei_bunkazai/index.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/1096.html",
+      "label": "森町の文化財（町公式）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinokotsu/bus/1182.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/kokyokotsu/1431.html",
+      "label": "森町営バスの町公式案内",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinokotsu/1181.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/kokyokotsu/index.html",
+      "label": "公共交通（町公式）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuido/suido/1036.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/670.html",
+      "label": "水道事業の実施体制（町公式）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuido/suido/1037.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/jogesuidoka/josuidokanrigakari/1/1/668.html",
+      "label": "水道の開始・廃止・名義変更等の届出（町公式）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/10/127_ikedatei2.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/ijuteiju/akiyabank/1465.html",
+      "label": "現在掲載されている空き家バンク物件（町公式・旧物件の募集継続は未確認）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/020/621/01010.pdf": {
+      "replacement_url": "https://www.pref.shizuoka.jp/kankosports/bunkageijutsu/bunkazai/index.html",
+      "label": "静岡県の文化財の現行情報（当時の入札公告ではありません）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/020/621/0818koukoku.pdf": {
+      "replacement_url": "https://www.pref.shizuoka.jp/kankosports/bunkageijutsu/bunkazai/index.html",
+      "label": "静岡県の文化財の現行情報（当時の入札公告ではありません）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kenkozukurikakari/2/819.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html",
+      "label": "町公式の現在の健康案内（当時の健診案内とは別）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/6/gyouseikubetu93.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/tokei/1249.html",
+      "label": "町公式の月別人口資料（当時の数値とは基準日を区別）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.town.morimachi.shizuoka.jp/material/files/group/6/morijinkou105.pdf": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/tokei/1249.html",
+      "label": "町公式の月別人口資料（当時の数値とは基準日を区別）",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "https://actymori.jp/": {
+      "replacement_url": "http://actymori.jp/",
+      "label": "アクティ森公式サイト（町公式掲載のURL）",
+      "mode": "direct",
+      "checked_at": "2026-11-11"
+    },
+    "https://www.athome.co.jp/kodate/6992450809/": {
+      "replacement_url": "tel:0538313308",
+      "label": "外部掲載は11月11日に表示されませんでした。販売状況を取扱会社に電話で確認",
+      "mode": "archive",
+      "checked_at": "2026-11-11"
+    },
+    "http://mori-nakajimaya.com": {
+      "replacement_url": "tel:0538852310",
+      "label": "中島屋へ電話で営業・案内先を確認",
+      "mode": "archive",
+      "reason": "connection_unconfirmed",
+      "checked_at": "2026-11-11"
+    },
+    "http://mimoroyaki.com/": {
+      "replacement_url": "tel:0538896031",
+      "label": "別所窯へ電話で営業・案内先を確認",
+      "mode": "archive",
+      "reason": "connection_unconfirmed",
+      "checked_at": "2026-11-11"
+    },
+    "http://bairinin.net/index.html": {
+      "replacement_url": "tel:0538852921",
+      "label": "梅林院へ電話で見学・案内先を確認",
+      "mode": "archive",
+      "reason": "connection_unconfirmed",
+      "checked_at": "2026-11-11"
+    },
+    "https://merci0001.xsrv.jp/": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/index.html",
+      "label": "町公式の観光・店舗案内を確認",
+      "mode": "archive",
+      "reason": "connection_unconfirmed",
+      "checked_at": "2026-11-11"
+    },
+    "http://www.cottage-acty.net": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/kanko/7072.html",
+      "label": "コテージ・アクティの休業案内（町公式）",
+      "mode": "archive",
+      "reason": "connection_unconfirmed",
+      "checked_at": "2026-11-11"
+    },
+    "https://cottage-acty.net/": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/kanko/7072.html",
+      "label": "コテージ・アクティの休業案内（町公式）",
+      "mode": "archive",
+      "reason": "connection_unconfirmed",
+      "checked_at": "2026-11-11"
+    },
+    "https://iju.pref.shizuoka.jp/390/mori.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+      "label": "現在の森町公式の移住・相談案内（県の旧資料とは別）",
+      "mode": "archive",
+      "reason": "connection_unconfirmed",
+      "checked_at": "2026-11-11"
+    },
+    "https://iju.pref.shizuoka.jp/lp/support.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+      "label": "現在の森町公式の移住・相談案内（県の旧資料とは別）",
+      "mode": "archive",
+      "reason": "connection_unconfirmed",
+      "checked_at": "2026-11-11"
+    },
+    "https://iju.pref.shizuoka.jp/news/R6research.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+      "label": "現在の森町公式の移住・相談案内（県の旧資料とは別）",
+      "mode": "archive",
+      "reason": "connection_unconfirmed",
+      "checked_at": "2026-11-11"
+    },
+    "https://iju.pref.shizuoka.jp/measure/503.html": {
+      "replacement_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+      "label": "現在の森町公式の移住・相談案内（県の旧資料とは別）",
+      "mode": "archive",
+      "reason": "connection_unconfirmed",
+      "checked_at": "2026-11-11"
+    },
+    "https://okunijinja.or.jp/information/4015.html/": {
+      "replacement_url": "https://okunijinja.or.jp/information/",
+      "label": "小國神社公式の現在のお知らせ（当時の個別募集記事とは別）",
+      "mode": "archive",
+      "reason": "redirects_to_home",
+      "checked_at": "2026-11-11"
+    }
+  },
+  "availability_notes": [
+    {
+      "id": "road",
+      "urls": [
+        "https://douro.pref.shizuoka.jp/kisei/program/",
+        "https://douro.pref.shizuoka.jp/kisei/program/index.php",
+        "https://douro.pref.shizuoka.jp/kisei/program/about.html"
+      ],
+      "already_explained": "メンテナンス",
+      "message": "2026年11月11日確認：県の道路通行規制情報システムはメンテナンスによる一時休止の画面です。11月中旬の再開見込みと、実際の再開は別です。道路管理者やJARTICの案内も使い、情報が表示されないことを通行可能の意味には扱わないでください。",
+      "url": "https://www.jartic.or.jp/",
+      "label": "JARTICの交通情報の入口（対象道路・最新時刻を確認）"
+    },
+    {
+      "id": "lawson",
+      "urls": [
+        "https://www.e-map.ne.jp/smt/lawson/inf/147306/"
+      ],
+      "already_explained": "店舗検索の一時停止",
+      "message": "2026年11月11日確認：リンク先のローソン店舗検索は、メンテナンスによりサービス一時停止・復旧時刻未定と表示されています。店舗の閉店を意味するものではありません。営業時間・取扱サービスはローソン公式の案内先で確認してください。",
+      "url": "https://www.lawson.co.jp/",
+      "label": "ローソン公式サイトで現在の案内を確認"
+    },
+    {
+      "id": "industry",
+      "urls": [
+        "https://morimachi.kigyorich.jp/"
+      ],
+      "already_explained": "7107.html",
+      "message": "2026年11月11日確認：森町企業立地・雇用促進特設サイトは接続先が一時利用不可の表示でした。町公式にも特設サイトの一時停止案内があります。企業立地の相談は町公式の産業・仕事の案内から担当窓口へ確認してください。",
+      "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/9/7107.html",
+      "label": "町公式の特設サイト一時停止案内・確認先"
+    }
+  ]
+}

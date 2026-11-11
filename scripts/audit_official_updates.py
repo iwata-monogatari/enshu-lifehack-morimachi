@@ -14,7 +14,7 @@ assert len(page.select('.official-update-item')) == len(doc['entries'])
 assert page.select_one('link[rel=canonical]')['href'] == 'https://morimachi.enshu-lifehack.com/updates/'
 for entry in doc['entries']:
     source = sources[entry['source_url']]
-    assert source['status'] == 'http-200', entry['source_url']
+    assert source['status'] == ('http-404' if entry.get('source_unavailable') else 'http-200'), entry['source_url']
     assert source['checked_at'] == entry['checked_at']
     assert doc['checked_at'] <= entry['checked_at']
     if entry['checked_at'] > doc['checked_at']:
@@ -26,7 +26,10 @@ for entry in doc['entries']:
         soup = BeautifulSoup(html, 'html.parser')
         assert len(soup.select('#update-'+entry['id'])) == 1, href
         assert entry['summary'] in soup.get_text(), href
-        assert soup.select_one('a[href="'+entry['source_url']+'"]'), href
+        if entry.get('source_unavailable'):
+            assert not soup.select_one('a[href="'+entry['source_url']+'"]'), href
+        else:
+            assert soup.select_one('a[href="'+entry['source_url']+'"]'), href
         ids = [el['id'] for el in soup.select('[id]')]
         assert len(ids) == len(set(ids)), href+' has duplicate ids'
 nursery = (ROOT/'life/family-grow/nursery-school/index.html').read_text(encoding='utf-8')

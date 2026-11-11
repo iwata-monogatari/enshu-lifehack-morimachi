@@ -8,9 +8,21 @@
     "window": "健康こども課 幼稚園保育園係",
     "tel": "0538-86-6300",
     "deadline": null,
+    "hours": "申込受付：平日8:30〜12:00、13:00〜17:00",
+    "last_checked": "2026-10-08",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/annual-school-cost-planning/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/education/educational-consulting/",
@@ -23,7 +35,8 @@
     "deadline": null,
     "hours": "月曜日～金曜日 午前9時～午後3時（弁当持参）、水曜日は午前12時まで（弁当不要）。体調や個々のペースに合わせて通級時間・参加日数を決定",
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/education/elementary-middle-school/",
@@ -32,50 +45,146 @@
       "phone"
     ],
     "window": "学校教育課",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/elementary-school-enrollment-notice/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/family-internet-rules-for-children/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/family-school-disaster-card/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/in-town-move-school-checklist/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/education/",
-    "channels": [
-      "phone"
-    ],
+    "channels": [],
     "window": null,
-    "tel": "0538-85-2111",
+    "tel": null,
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "page_html"
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/education/school-attendance-support/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "学校教育課",
-    "tel": "0538-85-1112（学校教育係）／0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "url": "/life/education/library-local-history-research/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/library-research-for-children/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/reading-school-management-information/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/school-allergy-information-preparation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/school-choice-research-notes/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/school-commute-burden-record/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/education/school-district-transfer/",
     "channels": [
-      "counter",
-      "phone",
-      "online"
+      "counter"
     ],
     "window": "住民生活課 住民係（転出届）／学校教育課（転校手続き）",
-    "tel": "0538-85-2111",
+    "tel": null,
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/education/school-expense-support/",
@@ -84,11 +193,45 @@
       "phone"
     ],
     "window": "学校教育課",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/school-family-communications/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/school-health-information-handover/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/school-lunch-home-planning/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/education/school-meals/",
@@ -97,11 +240,34 @@
       "phone"
     ],
     "window": "学校教育課",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（森町役場代表）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/school-meeting-preparation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/school-route-family-walk/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/education/school-zones/",
@@ -113,21 +279,55 @@
     "tel": "0538-85-1112",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/special-needs-education-consultation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/education/student-commute-route-trial/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/education/study-facilities/",
     "channels": [
-      "counter",
       "phone"
     ],
-    "window": "森町立図書館（森町文化会館ミキホール内）／貸室相談は森町文化会館",
-    "tel": "図書館 0538-85-1113／文化会館 0538-85-1111",
+    "window": null,
+    "tel": "0538-85-1113",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "page_html"
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/child-emergency-care/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/emergency/disaster-certificates-procedures/",
@@ -140,7 +340,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/emergency/disaster-mail-line/",
@@ -153,7 +354,19 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/earthquake-furniture-securing/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/emergency/earthquake/",
@@ -166,19 +379,30 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/emergency/emergency-medical/",
-    "channels": [
-      "phone"
-    ],
-    "window": "救急安心電話相談窓口（#7119）",
-    "tel": "#7119 ／ 054-204-7119（ダイヤル回線・IP電話等）",
+    "url": "/life/emergency/emergency-toilet-preparation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/evacuation-by-car-risks/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/emergency/evacuation-centers/",
@@ -191,7 +415,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/emergency/evacuation-hazard-map/",
@@ -203,8 +428,31 @@
     "tel": "0538-85-6302",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/family-annotated-hazard-map/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/family-disaster-communication-plan/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/emergency/fire-ambulance/",
@@ -213,24 +461,45 @@
       "phone"
     ],
     "window": "袋井市森町広域行政組合 袋井消防本部（予防課）",
-    "tel": "119",
+    "tel": "0538-42-0119",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/emergency/hazard-maps/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "危機管理課 危機管理係（防災ハザードマップ）／農林政策課 農地管理係（ため池ハザードマップ）",
-    "tel": "0538-85-6302",
+    "url": "/life/emergency/home-drainage-before-heavy-rain/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/home-fire-alarm-inspection/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/household-emergency-stockpile/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/emergency/",
@@ -243,7 +512,41 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/landslide-alert-actions/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/multiple-disaster-information-channels/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/neighborhood-disaster-contact-notes/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/emergency/pet-disaster-prevention/",
@@ -256,7 +559,52 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/pet-evacuation-preparation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/post-earthquake-home-safety-record/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/power-outage-home-preparation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/power-outage/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/emergency/road-river-info/",
@@ -269,46 +617,63 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/emergency/storm-heavy-rain/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "危機管理課 危機管理係",
-    "tel": "0538-85-6302",
+    "url": "/life/emergency/shelter-at-home-readiness/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/end-of-life/after-death-procedures/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "住民生活課 住民係（死亡届・火葬場予約）／住民生活課 国保年金係（葬祭費）",
-    "tel": "0538-85-6312（住民係）／0538-85-6313（国保年金係）",
-    "deadline": "死亡した事実を知った日から7日以内に死亡届",
-    "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/end-of-life/bereavement-procedures/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "住民生活課 住民係（死亡届・火葬場予約）／住民生活課 国保年金係（葬祭費）",
-    "tel": "0538-85-6312／0538-85-6313",
+    "url": "/life/emergency/typhoon-home-check/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/visitor-disaster-readiness/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/water-outage/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/emergency/wildfire-prevention-reporting/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/end-of-life/bereavement/",
@@ -321,7 +686,8 @@
     "deadline": "死亡した事実を知った日から7日以内に死亡届",
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/end-of-life/grave-memorial/",
@@ -330,24 +696,12 @@
       "phone"
     ],
     "window": "住民生活課 生活環境係（改葬許可の申請窓口）／住民生活課 住民係（許可証交付・手数料支払い、死亡届・火葬場予約）",
-    "tel": "0538-85-6314（生活環境係・改葬許可）／0538-85-6312（住民係・死亡届）／0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-6314（生活環境係・改葬許可）／0538-85-6312（住民係・死亡届）／0538-85-2111（役場代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/end-of-life/house-became-vacant/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "定住推進課 移住交流係（空き家バンク・補助金）／税務課 資産税係（被相続人居住用家屋等確認書）",
-    "tel": "0538-85-6321（定住推進課移住交流係）／0538-85-6309（税務課資産税係）",
-    "deadline": null,
-    "hours": null,
-    "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/end-of-life/",
@@ -356,11 +710,12 @@
       "phone"
     ],
     "window": "住民生活課（死亡届・葬祭費）／税務課（固定資産税・相続関連）／定住推進課（空き家）",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
-    "last_checked": null,
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/end-of-life/inheritance/",
@@ -373,7 +728,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/end-of-life/inherited-house/",
@@ -386,20 +742,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/end-of-life/inherited-vacant-house/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "定住推進課 移住交流係",
-    "tel": "0538-85-6321",
-    "deadline": null,
-    "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/end-of-life/pension-inheritance/",
@@ -412,7 +756,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/end-of-life/property-tax-inheritance/",
@@ -425,20 +770,30 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/family-grow/child-allowance-medical/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "健康こども課",
-    "tel": "0538-86-6330（こども家庭係。ページ内表記は代表(0538)85-2111の場合あり、要現地確認）",
+    "url": "/life/family-grow/annual-parenting-information-review/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/child-allowance-change-notification/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/child-allowance/",
@@ -451,8 +806,40 @@
     "tel": "0538-86-6330",
     "deadline": "転入・出生などの異動があった場合は15日以内に申請",
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": {
+      "channels": [
+        "online"
+      ],
+      "checked_at": "2026-11-11",
+      "scope": "児童手当は電子申請と窓口・郵送申請。",
+      "sources": [
+        "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/5316.html"
+      ]
+    }
+  },
+  {
+    "url": "/life/family-grow/child-dental-checkups/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/child-vaccination-record-transfer/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/child-vaccination/",
@@ -465,21 +852,55 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/childbirth/",
     "channels": [
       "counter",
-      "phone",
-      "online"
+      "phone"
     ],
     "window": "出生届は住民生活課 住民係（電話0538-85-6312）／児童手当・新生児出生通知は健康こども課 こども家庭係（電話0538-86-6330）",
     "tel": "0538-85-6312（住民生活課）／0538-86-6330（健康こども課）",
     "deadline": "児童手当は出生日の翌日から15日以内に申請。新生児出生通知は生後4か月までの間にスマートフォン申請可",
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/childcare-employment-certificate/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/childcare-fees/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/childcare-transfer-in/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/developmental-support/",
@@ -492,7 +913,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/",
@@ -501,8 +923,20 @@
     "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-04",
-    "source": "page_html"
+    "last_checked": "2026-07-03",
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/infant-checkup-preparation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/infant-health-check/",
@@ -515,7 +949,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/marriage/",
@@ -528,7 +963,41 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/maternal-child-health-handbook-lost/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/newborn-health-insurance-enrollment/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/newborn-home-visit/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/nursery-childcare/",
@@ -540,8 +1009,31 @@
     "tel": "0538-86-6300",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/nursery-enrollment-changes/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/nursery-preference-planning/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/nursery-school/",
@@ -553,8 +1045,9 @@
     "tel": "0538-86-6300",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-10-08",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/parenting-support/",
@@ -566,8 +1059,42 @@
     "tel": "0538-86-6330（児童館直通は0538-85-2839）",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/postnatal-health-checkups/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/pregnancy-family-information-sharing/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/pregnancy-transfer-in-checklist/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/pregnancy/",
@@ -580,7 +1107,30 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/prenatal-health-checkups/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/family-grow/return-to-work-childcare-documents/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/family-grow/single-parent-support/",
@@ -593,7 +1143,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/adult-vaccination/",
@@ -605,8 +1156,9 @@
     "tel": "0538-85-6330",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/cancer-specific-checkups/",
@@ -618,8 +1170,9 @@
     "tel": "0538-85-6330",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/dental-care/",
@@ -632,20 +1185,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/health-medical/disability-services/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "福祉課 地域福祉係",
-    "tel": "0538-85-1800",
-    "deadline": null,
-    "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/disability-welfare/",
@@ -658,7 +1199,19 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/family-medication-information-record/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/find-hospitals/",
@@ -671,7 +1224,19 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/health-check-result-recordkeeping/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/health-checkups/",
@@ -684,7 +1249,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/health-promotion/",
@@ -697,20 +1263,19 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/health-medical/holiday-night-emergency-care/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "健康こども課 健康づくり係（救急受診そのものは公立森町病院）",
-    "tel": "公立森町病院 0538-85-2181（代表）",
+    "url": "/life/health-medical/hepatitis-virus-screening/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
-    "hours": "平日6-8時・17-22時、休日（土日祝・年末年始）6-22時。深夜22時-翌6時は原則救急受診不可（症状により他医療機関へ案内・トリアージあり）",
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/",
@@ -719,11 +1284,56 @@
       "phone"
     ],
     "window": "健康こども課 健康づくり係",
-    "tel": "0538-85-6330（確認中: 本文未確認 0538-85-6330）",
+    "tel": "0538-85-6330（一部の番号は公式ページ本文で再確認できていません）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/late-elderly-medical-system/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
     "last_checked": null,
-    "source": "topics_master.facts"
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/leaving-national-health-insurance/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/medical-expense-tax-deduction/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/mental-disability-certificate/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/mental-health-consulting/",
@@ -736,7 +1346,96 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/national-health-insurance-childbirth-lump-sum/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/national-health-insurance-eligibility-document/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/national-health-insurance-funeral-benefit/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/national-health-insurance-high-cost-medical/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/national-health-insurance-medical-expense-reimbursement/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/national-health-insurance-payment-limit/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/national-health-insurance-prenatal-postnatal-reduction/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/national-health-insurance-third-party-injury/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/night-holiday-medical/",
@@ -749,7 +1448,19 @@
     "deadline": null,
     "hours": "平日6-8時・17-22時、休日（土日祝・年末年始）6-22時。深夜22時-翌6時は原則救急受診不可（トリアージあり）",
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/health-medical/specific-health-guidance/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/health-medical/vaccinations/",
@@ -761,8 +1472,9 @@
     "tel": "0538-85-6330",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/build-house/",
@@ -775,7 +1487,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/buy-house/",
@@ -788,7 +1501,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/clean-parents-house/",
@@ -801,7 +1515,19 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/housing/close-parents-house/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-10-18",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/earthquake-demolition/",
@@ -814,19 +1540,19 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/",
-    "channels": [
-      "phone"
-    ],
+    "channels": [],
     "window": null,
-    "tel": "0538-85-6321",
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-04",
-    "source": "page_html"
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/municipal-housing/",
@@ -839,7 +1565,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/property-tax/",
@@ -852,7 +1579,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/public-housing-consultation/",
@@ -861,11 +1589,12 @@
       "phone"
     ],
     "window": "定住推進課 住まい支援係（町営住宅）／定住推進課 移住交流係（空き家バンク）／住民生活課 住民係（暮らし全般の相談）",
-    "tel": "0538-85-6321（定住推進課）／0538-85-6312（住民生活課 住民係）／0538-85-1800（保健福祉課保健係）／0538-85-2111（森町役場代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-6321（定住推進課）／0538-85-6312（住民生活課 住民係）／0538-85-1800（保健福祉課保健係）／0538-85-2111（森町役場代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/rent-house/",
@@ -878,7 +1607,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/sell-house/",
@@ -891,7 +1621,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/housing/vacant-house/",
@@ -903,8 +1634,9 @@
     "tel": "0538-85-6321（定住推進課）／0538-85-6309（税務課）",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/living-soon/about-morimachi/",
@@ -913,24 +1645,78 @@
       "phone"
     ],
     "window": "定住推進課 移住交流係",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/living-soon/bus-license-return/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "福祉課 地域福祉係（公共交通利用券助成）／政策企画課 政策企画係（地域タクシー）",
-    "tel": "0538-85-1800（福祉課）／0538-85-6305（政策企画課）",
+    "url": "/life/living-soon/areas/amagata/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/living-soon/areas/ichinomiya/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/living-soon/areas/iida/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/living-soon/areas/mikura/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/living-soon/areas/mori/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/living-soon/areas/sonoda/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/living-soon/disaster-risk/",
@@ -943,7 +1729,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/living-soon/",
@@ -952,52 +1739,37 @@
       "phone"
     ],
     "window": "定住推進課",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
-    "last_checked": null,
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/living-soon/moving-decided/",
     "channels": [
       "counter",
-      "phone",
-      "online",
-      "konbini"
+      "phone"
     ],
     "window": "住民生活課 住民係",
-    "tel": "0538-85-2111（代表）／0538-85-6312（住民係直通）（確認中: 本文未確認 0538-85-2111）（確認中: 本文未確認 0538-85-6312）",
+    "tel": "0538-85-2111（代表）／0538-85-6312（住民係直通）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": "月曜日〜金曜日 8時30分〜17時15分（土日祝・年末年始を除く）",
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/living-soon/school-districts/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "教育委員会 学校教育課",
-    "tel": "0538-85-1112",
+    "url": "/life/living-soon/shopping/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/living-soon/transportation/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "政策企画課 政策企画係",
-    "tel": "0538-85-6305",
-    "deadline": null,
-    "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/living-soon/want-to-live/",
@@ -1006,11 +1778,12 @@
       "phone"
     ],
     "window": "産業政策課 産業振興係（移住・就業支援金）／定住推進課 移住交流係（移住相談全般）",
-    "tel": "0538-85-6319（産業政策課）／0538-85-2111（定住推進課代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-6319（産業政策課）／0538-85-2111（定住推進課代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/moving-out/bulk-garbage-cleaning/",
@@ -1023,7 +1796,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/moving-out/dog-ownership-change/",
@@ -1036,7 +1810,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/moving-out/",
@@ -1045,8 +1820,9 @@
     "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-04",
-    "source": "page_html"
+    "last_checked": "2026-07-03",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/moving-out/move-out-notice/",
@@ -1060,7 +1836,17 @@
     "deadline": null,
     "hours": "月曜日から金曜日8時30分から17時15分まで（土日祝・年末年始を除く）",
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": {
+      "channels": [
+        "online"
+      ],
+      "checked_at": "2026-11-11",
+      "scope": "マイナンバーカード所持者はマイナポータルで転出届。転入・転居は窓口。",
+      "sources": [
+        "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html"
+      ]
+    }
   },
   {
     "url": "/life/moving-out/moving-away/",
@@ -1073,7 +1859,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/moving-out/school-nursery-procedures/",
@@ -1086,20 +1873,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/moving-out/stop-water/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "上下水道課 上水道管理係",
-    "tel": "0538-85-6326",
-    "deadline": null,
-    "hours": "月曜日から金曜日8時30分から17時15分まで（土曜日・日曜日・祝日・年末年始を除く）",
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/parents-care/adult-guardianship/",
@@ -1112,20 +1887,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/parents-care/care-certification-support-center/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "福祉課 介護保険係",
-    "tel": "0538-86-6341",
-    "deadline": null,
-    "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/parents-care/care-started/",
@@ -1138,7 +1901,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/parents-care/check-parents/",
@@ -1151,7 +1915,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/parents-care/community-support-center/",
@@ -1160,11 +1925,12 @@
       "phone"
     ],
     "window": "福祉課 地域包括支援センター係（町直営）",
-    "tel": "0538-85-6341（確認中: 本文未確認 0538-85-6341）",
+    "tel": "0538-85-6341（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/parents-care/dementia-consultation/",
@@ -1177,7 +1943,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/parents-care/elderly-transportation/",
@@ -1190,7 +1957,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/parents-care/find-nursing-home/",
@@ -1203,7 +1971,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/parents-care/",
@@ -1212,11 +1981,12 @@
       "phone"
     ],
     "window": "福祉課 地域包括支援センター係（総合相談）、福祉課 介護保険係（要介護認定・保険給付）",
-    "tel": "0538-85-6341（地域包括支援センター係）／0538-86-6341（介護保険係）（確認中: 本文未確認 0538-85-6341）（確認中: 本文未確認 0538-86-6341）",
+    "tel": "0538-85-6341（地域包括支援センター係）／0538-86-6341（介護保険係）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
-    "last_checked": null,
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/parents-care/long-term-care-insurance/",
@@ -1228,8 +1998,9 @@
     "tel": "0538-86-6341",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/play-out/cultural-facilities/",
@@ -1241,8 +2012,9 @@
     "tel": "0538-85-1111",
     "deadline": null,
     "hours": "9時～17時",
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/play-out/facilities-library-parks/",
@@ -1255,7 +2027,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/play-out/find-parks/",
@@ -1268,7 +2041,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/play-out/",
@@ -1277,20 +2051,9 @@
     "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-04",
-    "source": "page_html"
-  },
-  {
-    "url": "/life/play-out/kids-playgrounds/",
-    "channels": [
-      "phone"
-    ],
-    "window": null,
-    "tel": "0538-85-2839",
-    "deadline": null,
-    "hours": "9時～13時、13時30分～17時（11月～1月は16時30分閉館）",
-    "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "last_checked": "2026-07-03",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/play-out/parking-access/",
@@ -1303,7 +2066,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/play-out/rent-public-facilities/",
@@ -1311,12 +2075,13 @@
       "counter",
       "phone"
     ],
-    "window": "財政課 契約管財係",
+    "window": "財政課 契約管財係（町民生活センター）",
     "tel": "0538-85-6306",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-10-08",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/play-out/sports-facilities/",
@@ -1329,20 +2094,21 @@
     "deadline": null,
     "hours": "8:30～21:30",
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/play-out/swimming-pools/",
     "channels": [
-      "counter",
       "phone"
     ],
-    "window": "社会教育課 社会体育係",
+    "window": null,
     "tel": "0538-85-4191",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "page_html"
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/play-out/visit-library/",
@@ -1353,22 +2119,23 @@
     "tel": "0538-85-1113",
     "deadline": null,
     "hours": "9時～17時（水曜日のみ19時まで）",
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/bulky-garbage-dropoff/",
     "channels": [
       "counter",
-      "phone",
-      "konbini"
+      "phone"
     ],
     "window": "住民生活課 生活環境係",
     "tel": "0538-85-6314",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/certificates/",
@@ -1382,205 +2149,416 @@
     "deadline": null,
     "hours": "月～金 8:30-17:15（土日祝・年末年始を除く）、水曜は時間外窓口で17:15-19:00も対応",
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": {
+      "channels": [
+        "konbini"
+      ],
+      "checked_at": "2026-11-11",
+      "scope": "住民票・印鑑証明等のコンビニ交付。戸籍は対象外。",
+      "sources": [
+        "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
+        "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html",
+        "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/4817.html"
+      ]
+    }
   },
   {
     "url": "/life/start-living/city-hall-branches/",
     "channels": [
       "counter",
-      "phone",
-      "konbini"
+      "phone"
     ],
     "window": "森町役場（本庁舎、他に支所・出張所の記載なし）",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": "月～金 8:30-17:15、水曜のみ17:15-19:00も時間外窓口あり（本庁舎1階住民生活課住民係）",
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/start-living/dog-registration-rabies/",
-    "channels": [
-      "counter",
-      "phone",
-      "konbini"
-    ],
-    "window": "住民生活課 生活環境係",
-    "tel": "0538-85-6314",
+    "url": "/life/start-living/divorce-notification-checklist/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/dog-registration/",
     "channels": [
       "counter",
-      "phone",
-      "konbini"
+      "phone"
     ],
     "window": "住民生活課 生活環境係",
     "tel": "0538-85-6314",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/start-living/garbage-sorting-calendar/",
-    "channels": [
-      "counter",
-      "phone",
-      "konbini"
-    ],
-    "window": "住民生活課 生活環境係",
-    "tel": "0538-85-6314",
+    "url": "/life/start-living/family-register-address-history/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/family-register-name-furigana/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/family-register-nonacceptance-request/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/family-register-wide-area-issuance/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/former-surname-on-resident-record/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/household-head-change-notification/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/household-separation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/how-to-garbage/",
     "channels": [
       "counter",
-      "phone",
-      "konbini"
+      "phone"
     ],
     "window": "住民生活課 生活環境係",
     "tel": "0538-85-6314",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/",
     "channels": [
       "counter",
-      "phone",
-      "konbini"
+      "phone"
     ],
     "window": "住民生活課（総合案内は「暮らし・手続き」ページ、引っ越し関連特集は「引越・新生活」ページ）",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/lost-seal-registration-card/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
     "last_checked": null,
-    "source": "topics_master.facts"
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/moved-in/",
     "channels": [
       "counter",
-      "phone",
-      "online",
-      "konbini"
+      "phone"
     ],
     "window": "住民生活課 住民係",
     "tel": "0538-85-6312",
     "deadline": "引っ越しが完了した日から14日以内",
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/start-living/moving-address-change/",
-    "channels": [
-      "counter",
-      "phone",
-      "online",
-      "konbini"
-    ],
-    "window": "住民生活課 住民係",
-    "tel": "0538-85-6312",
-    "deadline": "町内異動（転居）は異動日から14日以内、他市区町村への転出はあらかじめ転出日までに届出",
+    "url": "/life/start-living/moving-notification-by-proxy/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/municipal-tax-refund/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/my-number-card-lost/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/my-number-card-name-address-change/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/my-number-card-overseas-move/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/my-number-electronic-certificate-renewal/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/my-number-pin-reset/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/mynumber/",
     "channels": [
       "counter",
       "phone",
-      "konbini"
+      "online"
     ],
     "window": "住民生活課 住民係",
     "tel": "0538-85-6312",
     "deadline": null,
     "hours": "窓口は月・火・木・金 8:30-17:15、水曜は8:30-19:00",
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-07-04",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": {
+      "channels": [
+        "online"
+      ],
+      "checked_at": "2026-11-11",
+      "scope": "カードの申請方法。受取りは窓口であり、コンビニでカード申請・交付はできません。",
+      "sources": [
+        "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/572.html",
+        "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/4286.html",
+        "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html"
+      ]
+    }
   },
   {
     "url": "/life/start-living/pets-lost-animals/",
     "channels": [
       "counter",
-      "phone",
-      "konbini"
+      "phone"
     ],
     "window": "住民生活課 生活環境係",
     "tel": "0538-85-6314",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/property-tax-house-demolition-notice/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/public-transit/",
     "channels": [
       "counter",
-      "phone",
-      "konbini"
+      "phone"
     ],
     "window": "政策企画課 政策企画係",
     "tel": "0538-85-6305",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/resident-record-code-confirmation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/resident-record-items-certificate/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/resident-registration/",
     "channels": [
       "counter",
-      "phone",
-      "konbini"
+      "phone"
     ],
     "window": "住民生活課 住民係",
     "tel": "0538-85-6312",
     "deadline": null,
     "hours": "窓口は月～金8:30-17:15、水曜は17:15-19:00の時間外窓口でも交付可",
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/transfer-registered-domicile/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/start-living/two-digital-certificates/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": null,
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/water-sewer/",
     "channels": [
       "counter",
-      "phone",
-      "konbini"
+      "phone"
     ],
     "window": "上下水道課（水道は上水道管理係、下水道は下水道管理係）",
     "tel": "上水道管理係 0538-85-6326／下水道管理係 0538-85-6327",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-06",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/start-living/water-start-stop-fees/",
     "channels": [
       "counter",
-      "phone",
-      "konbini"
+      "phone"
     ],
     "window": "上下水道課 上水道管理係",
     "tel": "0538-85-6326",
     "deadline": "閉開栓日の前日まで（土曜・日曜・祝日・年末年始を除く）",
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/animal-pet-consultation/",
@@ -1589,11 +2567,12 @@
       "phone"
     ],
     "window": "住民生活課 生活環境係",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/cannot-pay-tax/",
@@ -1602,24 +2581,12 @@
       "phone"
     ],
     "window": "税務課 納税係",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-6310",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/troubles-consult/care-consultation/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "保健福祉課 地域包括支援センター係",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
-    "deadline": null,
-    "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/child-consultation/",
@@ -1628,11 +2595,12 @@
       "phone"
     ],
     "window": "健康こども課 こども家庭係（森町こども家庭センター）",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/consumer-fraud/",
@@ -1641,24 +2609,34 @@
       "phone"
     ],
     "window": "森町町民生活センター（消費生活相談）",
-    "tel": "0538-85-2111（代表・つなぎ）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（代表・つなぎ）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
-    "url": "/life/troubles-consult/disability-consultation/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "保健福祉課 障害福祉係",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
+    "url": "/life/troubles-consult/dv-consultation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
+  },
+  {
+    "url": "/life/troubles-consult/elder-abuse-consultation/",
+    "channels": [],
+    "window": null,
+    "tel": null,
+    "deadline": null,
+    "hours": null,
+    "last_checked": "2026-08-09",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/farmland/certificates/",
@@ -1671,20 +2649,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/troubles-consult/farmland/change-use/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "農林政策課 農地管理係（森町農業委員会事務局）",
-    "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
-    "deadline": null,
-    "hours": null,
-    "last_checked": null,
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/farmland/conversion/",
@@ -1693,11 +2659,12 @@
       "phone"
     ],
     "window": "農林政策課 農地管理係（森町農業委員会事務局）",
-    "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+    "tel": "0538-85-6315（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/farmland/",
@@ -1710,7 +2677,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/farmland/inheritance/",
@@ -1723,7 +2691,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/farmland/noshin-exclusion/",
@@ -1731,12 +2700,13 @@
       "counter",
       "phone"
     ],
-    "window": "農林政策課 農地管理係",
-    "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+    "window": "農林政策課 農地管理係（農業委員会事務局）",
+    "tel": "0538-85-6315",
     "deadline": null,
     "hours": null,
-    "last_checked": null,
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-05",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/farmland/sell-or-rent/",
@@ -1745,11 +2715,12 @@
       "phone"
     ],
     "window": "農林政策課 農地管理係（森町農業委員会事務局）",
-    "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+    "tel": "0538-85-6315（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/foreign-resident-consultation/",
@@ -1758,11 +2729,12 @@
       "phone"
     ],
     "window": "住民生活課 住民係",
-    "tel": "0538-85-6312（確認中: 本文未確認 0538-85-6312）",
+    "tel": "0538-85-6312（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/",
@@ -1775,7 +2747,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/legal-general-consultation/",
@@ -1788,46 +2761,32 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/living-costs-trouble/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "生活支援・相談センター（森町社会福祉協議会・森町保健福祉センター内）",
-    "tel": "0538-85-5769",
+    "channels": [],
+    "window": null,
+    "tel": null,
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "page_html"
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/troubles-consult/road-repair-mirror/",
     "channels": [
-      "counter",
       "phone"
     ],
-    "window": "建設課 管理係（町道の維持・補修、交通安全施設の管理）",
-    "tel": "0538-85-6325",
+    "window": null,
+    "tel": "0538-85-2111",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
-    "source": "page_html"
-  },
-  {
-    "url": "/life/troubles-consult/vacant-house-consultation/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "税務課 資産税係",
-    "tel": "0538-85-2111（代表）（確認中: 本文未確認 0538-85-2111）",
-    "deadline": null,
-    "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/city-tax-payment/",
@@ -1840,7 +2799,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/",
@@ -1849,21 +2809,22 @@
     "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-04",
-    "source": "page_html"
+    "last_checked": "2026-07-03",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/job-change/",
     "channels": [
-      "counter",
-      "phone"
+      "counter"
     ],
     "window": "ハローワーク磐田（森町の求人・雇用保険手続きの管轄）",
-    "tel": "0538-85-2111",
+    "tel": null,
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/job-recruitment/",
@@ -1876,7 +2837,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/light-vehicle-tax/",
@@ -1889,34 +2851,21 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/work-life/my-number-card/",
-    "channels": [
-      "counter",
-      "phone",
-      "online"
-    ],
-    "window": "住民生活課 住民係",
-    "tel": "0538-85-6312",
-    "deadline": null,
-    "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/national-health-insurance-tax/",
     "channels": [
-      "counter",
-      "phone"
+      "counter"
     ],
-    "window": "税務課（役場代表 0538-85-2111、開庁時間 月～金8:30-17:15）（確認中: 本文未確認 0538-85-2111）",
-    "tel": "0538-85-2111",
+    "window": "税務課（役場代表 0538-85-2111、開庁時間 月～金8:30-17:15）（一部の番号は公式ページ本文で再確認できていません）",
+    "tel": null,
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/nhk-pension/",
@@ -1925,11 +2874,12 @@
       "phone"
     ],
     "window": "住民生活課 国保年金係",
-    "tel": "0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-2111（役場代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/resident-tax/",
@@ -1942,7 +2892,8 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/start-business/",
@@ -1951,11 +2902,12 @@
       "phone"
     ],
     "window": "産業課 商工観光係",
-    "tel": "0538-85-6319（推定・電話帳情報のため要確認）／0538-85-2111（役場代表）（確認中: 本文未確認 0538-85-6319）（確認中: 本文未確認 0538-85-2111）",
+    "tel": "0538-85-6319（推定・電話帳情報のため要確認）／0538-85-2111（役場代表）（一部の番号は公式ページ本文で再確認できていません）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/start-farming/",
@@ -1963,24 +2915,24 @@
       "counter",
       "phone"
     ],
-    "window": "産業課 農政係・農業委員会事務局",
-    "tel": "0538-85-6315（確認中: 本文未確認 0538-85-6315）",
+    "window": "農林政策課 農政係・農地管理係（農業委員会事務局）",
+    "tel": "0538-85-6315",
     "deadline": null,
     "hours": null,
-    "last_checked": null,
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-05",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/subsidies/",
-    "channels": [
-      "phone"
-    ],
+    "channels": [],
     "window": null,
-    "tel": "0538-85-2111",
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-04",
-    "source": "page_html"
+    "last_checked": "2026-10-03",
+    "source": "page_html",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/tax-certificates/",
@@ -1993,32 +2945,20 @@
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
-  },
-  {
-    "url": "/life/work-life/tax-guide/",
-    "channels": [
-      "counter",
-      "phone"
-    ],
-    "window": "税務課 納税係",
-    "tel": "0538-85-6310",
-    "deadline": null,
-    "hours": null,
-    "last_checked": "2026-07-04",
-    "source": "topics_master.facts"
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   },
   {
     "url": "/life/work-life/tax/",
     "channels": [
-      "counter",
-      "phone"
+      "counter"
     ],
-    "window": "税務課（納税係0538-85-6310／町民税係0538-85-6308）（確認中: 本文未確認 0538-85-6308）",
-    "tel": "0538-85-6310",
+    "window": "税務課（納税係0538-85-6310／町民税係0538-85-6308）（一部の番号は公式ページ本文で再確認できていません）",
+    "tel": null,
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
-    "source": "topics_master.facts"
+    "last_checked": "2026-08-09",
+    "source": "topics_master.facts",
+    "remote_channel_evidence": null
   }
 ]

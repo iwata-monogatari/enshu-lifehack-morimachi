@@ -13,8 +13,74 @@
   },
   {
     "path": "/discover/acty-mori-camping-cottages/",
-    "message": "2026年11月7日確認：運営者サイトの旧利用案内URLはNot Found表示でした。町公式の施設案内から設備・利用時間・予約窓口を確認できます。料金・空室・最新の利用条件は0538-85-9800へ確認してください。本文全体の確認日を更新したものではありません。",
-    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/2/5685.html",
-    "label": "町公式でコテージの設備・利用時間・予約窓口を確認"
+    "message": "2026年11月11日確認：コテージ・アクティは施設改修に伴い2026年10月1日〜2027年3月31日（予定）まで臨時休業と町公式が案内しています。下の設備・料金の説明は通常時の参考で、この期間に宿泊できるという意味ではありません。吉川キャンプ場は別施設であり、この休業期間をそのまま適用しません。運営者サイトの旧リンクにも到達できなかったため、現在の利用可否は町公式の案内・窓口へ確認してください。本文全体の確認日を更新したものではありません。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/kanko/7072.html",
+    "label": "町公式のコテージ・アクティ臨時休業案内"
+  },
+  {
+    "path": "/discover/morimachi-hiking-walking/",
+    "message": "2026年11月11日確認：町公式（2026年4月6日更新）は地すべりに伴う安全確保のため南北両ゲートを封鎖し、町民の森全体に入れないと案内しています。下の通常時の散策案内や旧マップを入山許可と扱わず、規制解除の公式発表を確認するまで立ち入らないでください。他の散策先まで一括して通行可能と確認したものではありません。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/4/6419.html",
+    "label": "町民の森全体の利用規制（町公式）"
+  },
+  {
+    "path": "/blog/20260917-nosagyo-hitorishigoto-renraku/",
+    "message": "2026年11月11日リンク先確認：本文は9月17日時点の農作業・暑さ対策の記録です。当時参照した町の熱中症・クーリングシェルターの個別ページは現在到達できず、下の出典欄に旧資料として区別しています。現在のシェルター開設や受付状況は確認できていません。最新の取扱いは町の健康・福祉の案内から担当窓口へ確認してください。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/index.html",
+    "label": "現在の町の健康・福祉の確認先"
+  },
+  {
+    "path": "/blog/20260930-tomodake-kengaku-kyushi/",
+    "message": "2026年11月11日リンク先確認：この記事は9月30日に確認した、10月5日までの見学休止告知の記録です。予定期間は過ぎていますが、旧告知の削除を見学再開の証拠とは扱っていません。現在の公開・見学可否は町の文化財担当へ確認してください。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/1096.html",
+    "label": "現在の文化財の確認先（町公式）"
+  },
+  {
+    "path": "/blog/20261023-mori-matsuri-kisei-car/",
+    "message": "2026年11月11日・日付経過の確認：2026年11月6〜8日の祭礼・交通規制の予定期間は過ぎています。以下は当時の案内の記録であり、現在の交通規制や次回の開催日を示すものではありません。次回日程を2027年へ推定して引き継がず、新しい公式発表を確認してください。 元の公開日・当時の本文を保持しています。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/index.html",
+    "label": "現在の町公式の観光・催し案内"
+  },
+  {
+    "path": "/blog/20260930-pubufu-kominka-2026/",
+    "message": "2026年11月11日・日付経過の確認：掲載した2026年10月31日・11月1日の開催予定日は過ぎています。以下は当時の訪問案内の記録であり、今から同じ家屋を見学できる案内ではありません。実際の開催結果や次回の公開日・会場は確認していません。 元の公開日・当時の本文を保持しています。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/index.html",
+    "label": "現在の町公式の観光案内"
+  },
+  {
+    "path": "/blog/20261024-morimachi-tabunka-salon/",
+    "message": "2026年11月11日・日付経過の確認：掲載した2026年11月7日の特別回の予定日は過ぎています。以下は当時の申込み・集合案内の記録で、現在の追加募集や次回開催を示すものではありません。 元の公開日・当時の本文を保持しています。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/tabunkakyousei/6821.html",
+    "label": "町公式の多文化共生・生活案内"
+  },
+  {
+    "path": "/blog/20260929-morimachi-wagaya-shukatsu-seminar/",
+    "message": "2026年11月11日・日付経過の確認：掲載した2026年11月3日の開催予定日は過ぎています。以下は当時の予約・会場案内の記録です。今から申し込める募集として扱わないでください。実際の開催結果・追加募集は確認しておらず、旧公式ページは現在到達できません。 元の公開日・当時の本文を保持しています。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/ijukoryugakari/2/381.html",
+    "label": "現在の町公式の移住・住まい相談の確認先"
+  },
+  {
+    "path": "/blog/20260829-morimori-2man-matsuri-sasaeru/",
+    "message": "2026年11月11日・日付経過の確認：この記事の出店者募集期間（2026年8月14日〜9月11日）は過ぎています。11月22日の催しの開催予定と、出店申込みの受付は別です。追加募集・延長や現在の出店可否は確認していません。 元の公開日・当時の本文を保持しています。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/eventjoho/6981.html",
+    "label": "町公式の産業祭案内"
+  },
+  {
+    "path": "/blog/20261005-morimachi-hatachi-shusseki/",
+    "message": "2026年11月11日・日付経過の確認：2027年1月10日の開催予定と、出席届の2026年11月8日の提出期限は別です。提出期限は過ぎています。期限後の届出可否や延長は確認していないため、今から出席を希望する方は町の担当窓口へ確認してください。 元の公開日・当時の本文を保持しています。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/seijin/6823.html",
+    "label": "町公式の当該案内・現在の確認先"
+  },
+  {
+    "path": "/blog/20260904-morimachi-idou-kosodate-9gatsu/",
+    "message": "2026年11月11日・日付経過の確認：本文で案内した2026年9月30日の回の予定日は過ぎています。現在の開催日時・会場は公式の年間予定で確認してください。実際の開催結果や次回の空き状況を確認したものではありません。 元の公開日・当時の本文を保持しています。",
+    "source": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kosodateshien_sodammadoguchi/1158.html",
+    "label": "町公式の当該案内・現在の確認先"
+  },
+  {
+    "path": "/blog/20260930-okuni-miko-boshu/",
+    "message": "2026年11月11日リンク先確認：当時参照した巫女の正職員募集の個別URLは、元の記事ではなく公式トップへ転送されています。本文の応募条件・申込み先は9月30日時点の案内の記録であり、現在の募集継続や採用枠を確認したものではありません。応募を考える方は、小國神社の現在のお知らせと窓口で確認してください。",
+    "source": "https://okunijinja.or.jp/information/",
+    "label": "小國神社の現在のお知らせ・確認先"
   }
 ]

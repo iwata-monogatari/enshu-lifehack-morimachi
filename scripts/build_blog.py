@@ -95,7 +95,16 @@ def audit(posts):
             if paragraph_count < 35:
                 problems.append((slug, "編集本文の段落が %d。35段落未満" % paragraph_count))
         m = re.search(r'<ul class="post-sources">(.*?)</ul>', src, re.S)
-        official_links = re.findall(r'href="https://www\.town\.morimachi\.shizuoka\.jp/[^\"]+"', m.group(1) if m else "")
+        source_html = m.group(1) if m else ""
+        official_links = re.findall(r'href="(https://www\.town\.morimachi\.shizuoka\.jp/[^\"]+)"', source_html)
+        # Reviewed retired citations are retained as text, with the original URL
+        # and an explicit unavailable date. They remain historical citations,
+        # never evidence that the current replacement supports the old claim.
+        review_path = os.path.join(ROOT, "data", "external-link-repairs.json")
+        with open(review_path, encoding="utf-8") as f:
+            reviewed = json.load(f)["repairs"]
+        retired = re.findall(r'data-retired-url="(https://www\.town\.morimachi\.shizuoka\.jp/[^\"]+)"', source_html)
+        official_links += [u for u in retired if reviewed.get(u, {}).get('mode') == 'archive']
         if len(set(official_links)) < 2:
             problems.append((slug, "森町公式の出典が2本未満"))
         if "post-author" not in src:
@@ -234,6 +243,15 @@ def main():
             f.write(html_out)
         with open(os.path.join(ROOT, "feed.xml"), "w", encoding="utf-8", newline="") as f:
             f.write(build_feed(posts))
+        # Update only the latest-posts list; preserve the rest of the home page.
+        from home_latest_posts import sync
+        home_path = os.path.join(ROOT, "index.html")
+        with open(home_path, "rb") as f:
+            home_before = f.read()
+        home_after = sync(home_before.decode("utf-8"), posts).encode("utf-8")
+        if home_after != home_before:
+            with open(home_path, "wb") as f:
+                f.write(home_after)
         # 著者欄・JSON-LD author を人物情報の正本（oishi-hiroyuki.org）へそろえる（冪等）
         n_author, author_errors = author_profile.apply_all(
             ROOT, extra_paths=[os.path.join(ROOT, "about", "author", "index.html")])

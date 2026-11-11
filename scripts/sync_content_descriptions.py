@@ -25,7 +25,12 @@ def plain_text(value: str) -> str:
 def shorten(value: str) -> str:
     if len(value) <= MAX_LENGTH:
         return value
-    return value[: MAX_LENGTH - 1].rstrip("、。 ") + "。"
+    # Do not manufacture a complete sentence by attaching a full stop to a
+    # cut word (for example, "確認してくだ。" -> "確認してください。").
+    boundary = value.rfind("。", 0, MAX_LENGTH)
+    if boundary + 1 >= MIN_LENGTH:
+        return value[:boundary + 1]
+    return value[: MAX_LENGTH - 1].rstrip("、。 ") + "…"
 
 
 def fit_standard(value: str) -> str:
