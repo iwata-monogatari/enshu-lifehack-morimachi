@@ -1244,11 +1244,11 @@
       "counter",
       "phone"
     ],
-    "window": "健康こども課 健康づくり係（特定健診は住民生活課 国保年金係）",
-    "tel": "0538-85-6330（住民生活課 国保年金係：0538-85-6313）",
+    "window": "健康こども課 健康づくり係（受診方法・受診券）。国保資格は住民生活課 国保年金係",
+    "tel": "0538-85-6330（受診方法・受診券。国保資格：0538-85-6313）",
     "deadline": null,
     "hours": null,
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "source": "topics_master.facts",
     "remote_channel_evidence": null
   },
