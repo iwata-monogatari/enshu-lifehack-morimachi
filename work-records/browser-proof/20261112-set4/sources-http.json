@@ -1,0 +1,83 @@
+[
+  {
+    "key": "rosui-genmen",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/1407.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/1407.html",
+    "sha256": "3be2535ee4afeb8488c39158e36d77cf89bd97303e3b414621567bd0ee4348a9",
+    "bytes": 43697,
+    "checked_at": "2026-11-11T20:40:46.810416"
+  },
+  {
+    "key": "kenshin-ryokin",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/josuido/1402.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/josuido/1402.html",
+    "sha256": "2a4c94ece9e29f1850a03c3ea5f0bc6e8deb5f1f098ecedd13500d3e21d2e287",
+    "bytes": 53643,
+    "checked_at": "2026-11-11T20:40:46.811017"
+  },
+  {
+    "key": "kokuhozei-kaitei",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/5943.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/5943.html",
+    "sha256": "0cb467996730358c152b96d709c8022f7062eb9d5a9ada21271a975b5b9ed0cc",
+    "bytes": 47830,
+    "checked_at": "2026-11-11T20:40:47.221933"
+  },
+  {
+    "key": "kokuhozei-toha",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/1364.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/1364.html",
+    "sha256": "c0dc6e8031cf22d1f701bc5130093f1ba445d23b2b97a03d19dbe035006bc16d",
+    "bytes": 52339,
+    "checked_at": "2026-11-11T20:40:46.809954"
+  },
+  {
+    "key": "kokuhozei-shisan",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/kokuminkenkohokenzei/5171.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/kokuminkenkohokenzei/5171.html",
+    "sha256": "2481d22bf83986ffc43e8d9a64423c010e4ff6e28d4c7bc9356e255de5287506",
+    "bytes": 42653,
+    "checked_at": "2026-11-11T20:40:46.956399"
+  },
+  {
+    "key": "suido-shiharai",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/josuido/2885.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/josuido/2885.html",
+    "sha256": "8178b4b04de7120f06fed2ef1b733c724bdda2bedcc166b49fc9e372c3666931",
+    "bytes": 41487,
+    "checked_at": "2026-11-11T20:40:47.759218"
+  },
+  {
+    "key": "koza-chushi",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/5743.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/5743.html",
+    "sha256": "304ccc77096b28292077cc425cb7761f2c8fde39d2b6a0b97ba0724643528884",
+    "bytes": 42193,
+    "checked_at": "2026-11-11T20:40:47.832063"
+  },
+  {
+    "key": "jokaso-hojo",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/3698.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/3698.html",
+    "sha256": "8ec5cbebdbec73cc176980d86263f56ee2f03918eeebe7b7563e204b61e6b0ce",
+    "bytes": 48392,
+    "checked_at": "2026-11-11T20:40:48.834927"
+  },
+  {
+    "key": "gesuido-riyo",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1242.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/1242.html",
+    "sha256": "4872c1f504fb1f36b9485a7b4dc9edd7254e6eaf66c6084969e70d2f70300c3f",
+    "bytes": 43628,
+    "checked_at": "2026-11-11T20:40:48.128022"
+  }
+]

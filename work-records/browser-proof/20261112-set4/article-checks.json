@@ -1,0 +1,178 @@
+{
+  "status": "pass",
+  "articles": [
+    {
+      "slug": "20261112-morimachi-rosui-genmen",
+      "title": "森町の漏水減免｜パイロット確認と申請",
+      "requested_title": "森町の漏水減免｜パイロット確認と申請",
+      "html_title": "森町の漏水減免｜パイロット確認と申請｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261112-morimachi-rosui-genmen/",
+      "characters": 5182,
+      "paragraphs": 36,
+      "answer_length": 141,
+      "faq_lengths": [
+        107,
+        129,
+        131
+      ],
+      "links": [
+        "/blog/20261103-morimachi-akiya-suido-toketsu/",
+        "/blog/20260920-morimachi-inu-tennyu/",
+        "/blog/20260911-morimachi-suidou-kasen-infrastruct/",
+        "/blog/20261112-morimachi-suido-conveni-app/"
+      ],
+      "reverse": "20261103-morimachi-akiya-suido-toketsu",
+      "images": [
+        {
+          "source": "/blog/20261112-morimachi-rosui-genmen/cover.svg",
+          "local_path": "blog/20261112-morimachi-rosui-genmen/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261112-morimachi-rosui-genmen/fig1.svg",
+          "local_path": "blog/20261112-morimachi-rosui-genmen/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261112-morimachi-rosui-genmen/fig2.svg",
+          "local_path": "blog/20261112-morimachi-rosui-genmen/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261112-morimachi-kokuhozei-ritsu-kaitei",
+      "title": "森町の国保税率改定｜令和7年度からの税率",
+      "requested_title": "森町の国保税率改定｜令和7年度からの税率",
+      "html_title": "森町の国保税率改定｜令和7年度からの税率｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261112-morimachi-kokuhozei-ritsu-kaitei/",
+      "characters": 5438,
+      "paragraphs": 36,
+      "answer_length": 131,
+      "faq_lengths": [
+        150,
+        129,
+        115
+      ],
+      "links": [
+        "/blog/20261109-taishoku-kenkohoken-hikaku/",
+        "/blog/20261108-morimachi-kodomo-iryo-kengai/",
+        "/blog/20261101-morimachi-ikuji-nenkin/",
+        "/blog/20261109-morimachi-kaigo-hokenryo-smartphone/"
+      ],
+      "reverse": "20261109-taishoku-kenkohoken-hikaku",
+      "images": [
+        {
+          "source": "/blog/20261112-morimachi-kokuhozei-ritsu-kaitei/cover.svg",
+          "local_path": "blog/20261112-morimachi-kokuhozei-ritsu-kaitei/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261112-morimachi-kokuhozei-ritsu-kaitei/fig1.svg",
+          "local_path": "blog/20261112-morimachi-kokuhozei-ritsu-kaitei/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261112-morimachi-kokuhozei-ritsu-kaitei/fig2.svg",
+          "local_path": "blog/20261112-morimachi-kokuhozei-ritsu-kaitei/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261112-morimachi-suido-conveni-app",
+      "title": "森町の水道料金｜コンビニとアプリ決済",
+      "requested_title": "森町の水道料金｜コンビニとアプリ決済",
+      "html_title": "森町の水道料金｜コンビニとアプリ決済｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261112-morimachi-suido-conveni-app/",
+      "characters": 5285,
+      "paragraphs": 36,
+      "answer_length": 137,
+      "faq_lengths": [
+        110,
+        165,
+        112
+      ],
+      "links": [
+        "/blog/20261020-morimachi-suido-kaiteian/",
+        "/blog/20261112-morimachi-rosui-genmen/",
+        "/blog/20261103-morimachi-akiya-suido-toketsu/",
+        "/blog/20260804-gomi-bunbetsu-kaitei/"
+      ],
+      "reverse": "20261020-morimachi-suido-kaiteian",
+      "images": [
+        {
+          "source": "/blog/20261112-morimachi-suido-conveni-app/cover.svg",
+          "local_path": "blog/20261112-morimachi-suido-conveni-app/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261112-morimachi-suido-conveni-app/fig1.svg",
+          "local_path": "blog/20261112-morimachi-suido-conveni-app/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261112-morimachi-suido-conveni-app/fig2.svg",
+          "local_path": "blog/20261112-morimachi-suido-conveni-app/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261112-morimachi-jokaso-hojo-r8",
+      "title": "森町の浄化槽補助｜令和8年度の金額と条件",
+      "requested_title": "森町の浄化槽補助｜令和8年度の金額と条件",
+      "html_title": "森町の浄化槽補助｜令和8年度の金額と条件｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261112-morimachi-jokaso-hojo-r8/",
+      "characters": 5549,
+      "paragraphs": 36,
+      "answer_length": 136,
+      "faq_lengths": [
+        149,
+        108,
+        131
+      ],
+      "links": [
+        "/blog/20261030-gesuido-kuiki/",
+        "/blog/20260908-akiya-jokaso-kyushi-keizoku/",
+        "/blog/20261020-morimachi-suido-kaiteian/",
+        "/blog/20261112-morimachi-suido-conveni-app/"
+      ],
+      "reverse": "20261030-gesuido-kuiki",
+      "images": [
+        {
+          "source": "/blog/20261112-morimachi-jokaso-hojo-r8/cover.svg",
+          "local_path": "blog/20261112-morimachi-jokaso-hojo-r8/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261112-morimachi-jokaso-hojo-r8/fig1.svg",
+          "local_path": "blog/20261112-morimachi-jokaso-hojo-r8/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261112-morimachi-jokaso-hojo-r8/fig2.svg",
+          "local_path": "blog/20261112-morimachi-jokaso-hojo-r8/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}
