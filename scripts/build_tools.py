@@ -107,10 +107,10 @@ def body_gomi_search():
         "<p>分別表と収集日カレンダーはPDFで公開されているほか、全戸配布や役場での配架もあります。</p>"
         '<a class="official-link" href="https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html" target="_blank" rel="noopener" data-track-click="tool_gomi_calendar">分別表・カレンダーを見る <span>森町公式</span></a></div></div>\n'
         '<h2 class="sec"><span aria-hidden="true">🌐</span> 多言語で確認する</h2>\n'
-        '<p class="lead">森町の分別ガイドブックは英語・中国語・ポルトガル語・ベトナム語・クメール語に対応しています。'
-        "外国籍のご家族・ご近所の方にはこちらを案内してください。</p>\n"
+        '<p class="lead">町公式の多言語の分別表には、英語版などの資料リンクと「それ以外の言語は準備でき次第公開」の注記が併記されています。'
+        "分別ガイドブックは改訂作業中です。資料ごとの掲載状況と現行ルールを確認してから案内してください（資料案内のみ2026年11月11日確認）。</p>\n"
         '<div class="official">'
-        '<a class="official-link" href="https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html" target="_blank" rel="noopener">分別ガイドブック（多言語版を含む） <span>森町公式</span></a>'
+        '<a class="official-link" href="https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html" target="_blank" rel="noopener">分別表・多言語資料とガイドブックの改訂案内 <span>森町公式</span></a>'
         '<a class="official-link" href="https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/somuka/gyoseigakari/tabunkakyousei/6821.html" target="_blank" rel="noopener">外国人町民のための生活ガイドブック <span>森町公式</span></a>'
         "</div>\n"
         '<h2 class="sec">大きいもの・特別なものを捨てる</h2>\n'
@@ -217,6 +217,13 @@ def main():
         "life-timeline": body_life_timeline(timeline),
         "": body_index(),
     }
+
+    # Honor the existing permanent merge routes before validating generated links.
+    with open(os.path.join(ROOT, "_redirects"), encoding="utf-8") as redirects:
+        for line in redirects:
+            fields = line.split()
+            if len(fields) == 3 and fields[2] == "301" and fields[0].startswith("/") and fields[1].startswith("/"):
+                bodies = {key: value.replace('href="' + fields[0] + '"', 'href="' + fields[1] + '"') for key, value in bodies.items()}
 
     # 内部リンクの実在確認(/tools/ と /checklist/ は本スクリプト実行後に存在する前提で許容)
     allowed_prefix = ("/tools/", "/checklist/")
