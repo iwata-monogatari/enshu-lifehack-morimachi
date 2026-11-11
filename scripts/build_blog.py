@@ -71,9 +71,26 @@ def visible_chars(fragment):
     return len(re.sub(r"\s+", "", text))
 
 
+HISTORICAL_RETIRED_CITATION_POSTS = frozenset({
+    "20260917-nosagyo-hitorishigoto-renraku",
+    "20260930-tomodake-kengaku-kyushi",
+})
+
+
+def official_source_urls(source_html, slug, reviewed):
+    """Count archived evidence only for the two explicitly reviewed old records."""
+    links = set(re.findall(r'href="(https://www\.town\.morimachi\.shizuoka\.jp/[^\"]+)"', source_html))
+    if slug in HISTORICAL_RETIRED_CITATION_POSTS:
+        retired = re.findall(r'data-retired-url="(https://www\.town\.morimachi\.shizuoka\.jp/[^\"]+)"', source_html)
+        links.update(u for u in retired if reviewed.get(u, {}).get("mode") == "archive")
+    return links
+
+
 def audit(posts):
     """記事ごとの品質ゲート。問題があれば (slug, 理由) のリストを返す。"""
     problems = []
+    with open(os.path.join(ROOT, "data", "external-link-repairs.json"), encoding="utf-8") as f:
+        reviewed = json.load(f)["repairs"]
     seen_titles = {}
     for p in posts:
         slug = p["slug"]
@@ -96,15 +113,7 @@ def audit(posts):
                 problems.append((slug, "編集本文の段落が %d。35段落未満" % paragraph_count))
         m = re.search(r'<ul class="post-sources">(.*?)</ul>', src, re.S)
         source_html = m.group(1) if m else ""
-        official_links = re.findall(r'href="(https://www\.town\.morimachi\.shizuoka\.jp/[^\"]+)"', source_html)
-        # Reviewed retired citations are retained as text, with the original URL
-        # and an explicit unavailable date. They remain historical citations,
-        # never evidence that the current replacement supports the old claim.
-        review_path = os.path.join(ROOT, "data", "external-link-repairs.json")
-        with open(review_path, encoding="utf-8") as f:
-            reviewed = json.load(f)["repairs"]
-        retired = re.findall(r'data-retired-url="(https://www\.town\.morimachi\.shizuoka\.jp/[^\"]+)"', source_html)
-        official_links += [u for u in retired if reviewed.get(u, {}).get('mode') == 'archive']
+        official_links = official_source_urls(source_html, slug, reviewed)
         if len(set(official_links)) < 2:
             problems.append((slug, "森町公式の出典が2本未満"))
         if "post-author" not in src:

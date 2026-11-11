@@ -83,6 +83,16 @@ class ReviewedNavigationTests(unittest.TestCase):
         self.assertNotIn('実施状況は公式サイトで未確認',json.dumps(row,ensure_ascii=False))
         self.assertTrue(all(x['icon'] for x in row['real_cards']))
 
+    def test_retired_citations_do_not_qualify_a_new_article(self):
+        from build_blog import official_source_urls
+        live = "https://www.town.morimachi.shizuoka.jp/current.html"
+        retired = "https://www.town.morimachi.shizuoka.jp/retired.html"
+        markup = f'<a href="{live}">current</a><span data-retired-url="{retired}">archive</span>'
+        reviewed = {retired: {"mode": "archive"}}
+        self.assertEqual(official_source_urls(markup, "20261112-new-article", reviewed), {live})
+        self.assertEqual(official_source_urls(markup, "20260917-nosagyo-hitorishigoto-renraku", reviewed), {live, retired})
+        self.assertEqual(official_source_urls(markup, "20260917-nosagyo-hitorishigoto-renraku", {}), {live})
+
     def test_related_links_cannot_create_a_procedure_channel(self):
         import tempfile
         from unittest.mock import patch
