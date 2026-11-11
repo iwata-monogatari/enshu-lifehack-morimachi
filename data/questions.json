@@ -1884,6 +1884,52 @@
  },
  {
   "number": 49,
+  "href": "/questions/emergency-evacuation-hazard-map/",
+  "slug": "emergency-evacuation-hazard-map",
+  "parent_href": "/life/emergency/evacuation-hazard-map/",
+  "parent_title": "森町のハザードマップ｜洪水・土砂災害・避難所を確認",
+  "title": "森町のハザードマップ・避難｜警戒レベルはどこで知ることができますか",
+  "description": "避難情報は同報無線・森町公式LINE・森町防災メールで確認します。森町防災メールは防災情報のみを配信し、同じ防災情報は公式LINEでも配信されます。通信や端末の状況で受信できない場合もあるため、複数の確認方法を家族で決めておきましょう。",
+  "question": "警戒レベルはどこで知ることができますか",
+  "answer": "避難情報は同報無線・森町公式LINE・森町防災メールで確認します。森町防災メールは防災情報のみを配信し、同じ防災情報は公式LINEでも配信されます。通信や端末の状況で受信できない場合もあるため、複数の確認方法を家族で決めておきましょう。",
+  "hub": "trouble",
+  "hub_label": "困った・緊急",
+  "category": "もしもの時",
+  "icon": "⚠️",
+  "priority": "P0",
+  "context": "いつ・どこへ逃げるかを決めておく",
+  "keyword": "森町 ハザードマップ 避難",
+  "needs": [
+   "どこに逃げればいい",
+   "いつ避難する",
+   "大雨で不安",
+   "家は安全か",
+   "台風が来る"
+  ],
+  "audience": [
+   "住民"
+  ],
+  "sources": [
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1130.html",
+    "label": "自然災害(台風・集中豪雨・地震)／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
+    "label": "森町防災ハザードマップ／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/10/679.html",
+    "label": "森町防災メール（防災情報のみ）",
+    "confidence": "high"
+   }
+  ],
+  "verified_date": "2026-08-06"
+ },
+ {
+  "number": 50,
   "href": "/questions/troubles-consult-cannot-pay-tax/",
   "slug": "troubles-consult-cannot-pay-tax",
   "parent_href": "/life/troubles-consult/cannot-pay-tax/",
@@ -1929,7 +1975,7 @@
   "verified_date": "2026-07-03"
  },
  {
-  "number": 50,
+  "number": 51,
   "href": "/questions/emergency-earthquake/",
   "slug": "emergency-earthquake",
   "parent_href": "/life/emergency/earthquake/",
@@ -1965,47 +2011,6 @@
    }
   ],
   "verified_date": "2026-07-04"
- },
- {
-  "number": 51,
-  "href": "/questions/emergency-evacuation-hazard-map/",
-  "slug": "emergency-evacuation-hazard-map",
-  "parent_href": "/life/emergency/evacuation-hazard-map/",
-  "parent_title": "森町のハザードマップ｜洪水・土砂災害・避難所を確認",
-  "title": "森町のハザードマップ・避難｜警戒レベルはどこで知ることができますか",
-  "description": "同報無線のほか、森町LINE公式アカウントやちゃっとメールで発信されます。停電時にも情報を受け取れるよう、事前にLINEの登録をしておくと安心です。",
-  "question": "警戒レベルはどこで知ることができますか",
-  "answer": "同報無線のほか、森町LINE公式アカウントやちゃっとメールで発信されます。停電時にも情報を受け取れるよう、事前にLINEの登録をしておくと安心です。",
-  "hub": "trouble",
-  "hub_label": "困った・緊急",
-  "category": "もしもの時",
-  "icon": "⚠️",
-  "priority": "P0",
-  "context": "いつ・どこへ逃げるかを決めておく",
-  "keyword": "森町 ハザードマップ 避難",
-  "needs": [
-   "どこに逃げればいい",
-   "いつ避難する",
-   "大雨で不安",
-   "家は安全か",
-   "台風が来る"
-  ],
-  "audience": [
-   "住民"
-  ],
-  "sources": [
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1130.html",
-    "label": "自然災害(台風・集中豪雨・地震)／静岡県森町",
-    "confidence": "high"
-   },
-   {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
-    "label": "森町防災ハザードマップ／静岡県森町",
-    "confidence": "high"
-   }
-  ],
-  "verified_date": "2026-08-06"
  },
  {
   "number": 52,

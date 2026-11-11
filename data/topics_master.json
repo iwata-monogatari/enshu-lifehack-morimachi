@@ -836,22 +836,22 @@
   ],
   "sources_morimachi": [
    {
-    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/8/3750.html",
-    "label": "森町LINE公式アカウント／静岡県森町",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/10/679.html",
+    "label": "森町防災メール（防災情報のみ・登録手順書）",
     "confidence": "high"
    }
   ],
   "facts": {
    "window": "政策企画課 プロモーション戦略係",
    "tel": "0538-85-6305",
-   "content": "森町LINE公式アカウント（ID: @shizuoka-mori、QRコードまたはhttps://lin.ee/TWGdCFK から登録）から、総合配信サービス「森町ちゃっとメール」の内容を受け取れる。避難情報等は同報無線・LINE・ちゃっとメールで発信される。"
+   "content": "森町ちゃっとメールは2026年3月で終了。森町防災メールは防災情報のみを配信し、同じ防災情報は森町公式LINEでも配信。受信先のみ2026年11月11日確認。LINEはID @shizuoka-mori、QRコードまたはhttps://lin.ee/TWGdCFK から登録。防災メールの問い合わせは危機管理課 危機管理係（0538-85-6302）、LINEは政策企画課 プロモーション戦略係（0538-85-6305）。"
   },
   "status": "machine-verified",
-  "verified_date": "2026-07-04",
+  "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "災害の知らせを取りこぼさないよう、森町LINE公式アカウント・ちゃっとメールで平常時から備える。",
+  "title": "災害の知らせを取りこぼさないよう、森町LINE公式アカウント・森町防災メールで平常時から備える。",
   "hub": "trouble",
   "hub_label": "困った・緊急",
   "page_type": "detail",
@@ -1169,12 +1169,22 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
     "label": "森町防災ハザードマップ／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/10/679.html",
+    "label": "森町防災メール（防災情報のみ）",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/4528.html",
+    "label": "ため池ハザードマップ／静岡県森町",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "危機管理課 危機管理係",
    "tel": "0538-85-6302",
-   "content": "森町は警戒レベルに応じて避難情報を同報無線・LINE・ちゃっとメールで発信。過去には令和5年台風2号で町内全域に土砂災害の危険から警戒レベル4「避難指示」を発令し、三倉総合センター・天方小学校（旧）・森町総合体育館・一宮総合センター・園田総合センター・飯田総合センターを避難所として開設した実績がある。台風・大雨・地震それぞれの事前準備の心得は「自然災害」ページに掲載。"
+   "content": "森町は警戒レベルに応じて避難情報を同報無線・LINE・森町防災メールで発信。過去には令和5年台風2号で町内全域に土砂災害の危険から警戒レベル4「避難指示」を発令し、三倉総合センター・天方小学校（旧）・森町総合体育館・一宮総合センター・園田総合センター・飯田総合センターを避難所として開設した実績がある。台風・大雨・地震それぞれの事前準備の心得は「自然災害」ページに掲載。 防災情報の受信先のみ2026年11月11日確認。"
   },
   "status": "machine-verified",
   "verified_date": "2026-08-06",
@@ -1674,12 +1684,17 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
     "label": "森町防災ハザードマップ／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/10/679.html",
+    "label": "森町防災メール（防災情報のみ）",
+    "confidence": "high"
    }
   ],
   "facts": {
    "window": "危機管理課 危機管理係",
    "tel": "0538-85-6302",
-   "content": "台風・大雨に備え、気象情報の早期収集と食料・飲料水の準備、家具の固定などを呼びかけ。避難情報（警戒レベル）は同報無線・森町LINE公式アカウント・ちゃっとメールで発信される。過去には令和5年台風2号で警戒レベル4「避難指示」を町内全域に発令した実績がある。"
+   "content": "台風・大雨に備え、気象情報の早期収集と食料・飲料水の準備、家具の固定などを呼びかけ。避難情報（警戒レベル）は同報無線・森町LINE公式アカウント・森町防災メールで発信される。過去には令和5年台風2号で警戒レベル4「避難指示」を町内全域に発令した実績がある。 防災情報の受信先のみ2026年11月11日確認。"
   },
   "status": "machine-verified",
   "verified_date": "2026-07-04",

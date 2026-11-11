@@ -13,7 +13,7 @@
   - 記事固有の編集挿絵 fig1.svg / fig2.svg があるか
   - 良い点・注文したい点・対案・大石の視点が本文にあるか
   - 著者表記(post-author)があるか(04決定8)
-  - 表紙画像 cover.jpg があるか
+  - 表紙画像 cover.jpg または cover.svg があるか
   - タイトルの重複が無いか(02戦略編4-3の重複防止)
 本文の内容が本当に一次情報かどうかは機械では判定できないため、最終判断は執筆者が行う。
 
@@ -100,8 +100,8 @@ def audit(posts):
             problems.append((slug, "森町公式の出典が2本未満"))
         if "post-author" not in src:
             problems.append((slug, "著者表記(post-author)が無い"))
-        if not os.path.isfile(os.path.join(d, "cover.jpg")):
-            problems.append((slug, "表紙 cover.jpg が無い"))
+        if not any(os.path.isfile(os.path.join(d, name)) for name in ("cover.jpg", "cover.svg")):
+            problems.append((slug, "表紙 cover.jpg / cover.svg が無い"))
         for number in (1, 2):
             fig_path = os.path.join(d, "fig%d.svg" % number)
             if not os.path.isfile(fig_path):

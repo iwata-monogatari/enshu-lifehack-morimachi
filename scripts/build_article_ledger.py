@@ -64,10 +64,10 @@ NATIONAL_CHECKED = {
         "status": "verified",
     },
     "/life/emergency/disaster-mail-line/": {
-        "municipality_page_checked_at": "2026-08-05",
-        "notes": "森町公式（更新日2021-02-01）に「令和8年3月で終了」の記載。"
-                 "その時期は経過しているが、実際に終了したかはページから確認できないため partial。",
-        "status": "partial",
+        "municipality_page_checked_at": "2026-11-11",
+        "notes": "受信先のみ2026-11-11に町公式の終了案内・森町防災メール案内を照合。"
+                 "旧ちゃっとメールは2026年3月で終了。新メールは防災情報のみ、同じ防災情報は公式LINEでも配信。実送信・到達は未検証。",
+        "status": "verified",
     },
 }
 

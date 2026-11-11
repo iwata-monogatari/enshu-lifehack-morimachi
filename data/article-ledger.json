@@ -192,21 +192,21 @@
  {
   "id": "mori-life-emergency-disaster-mail-line",
   "url": "/life/emergency/disaster-mail-line/",
-  "title": "災害の知らせを取りこぼさないよう、森町LINE公式アカウント・ちゃっとメールで平常時から備える。",
+  "title": "災害の知らせを取りこぼさないよう、森町LINE公式アカウント・森町防災メールで平常時から備える。",
   "category": "もしもの時",
   "hub": "trouble",
   "risk_level": "A",
-  "review_status": "partial",
+  "review_status": "verified",
   "content_owner": "大石浩之",
   "last_verified_at": "2026-07-03",
-  "municipality_page_checked_at": "2026-08-05",
+  "municipality_page_checked_at": "2026-11-11",
   "national_system_checked_at": "",
   "phone_verified_at": "",
   "next_review_at": "2026-10-03",
   "review_overdue": "いいえ",
   "source_count": 1,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/8/3750.html",
-  "notes": "森町公式（更新日2021-02-01）に「令和8年3月で終了」の記載。その時期は経過しているが、実際に終了したかはページから確認できないため partial。"
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/10/679.html",
+  "notes": "受信先のみ2026-11-11に町公式の終了案内・森町防災メール案内を照合。旧ちゃっとメールは2026年3月で終了。新メールは防災情報のみ、同じ防災情報は公式LINEでも配信。実送信・到達は未検証。"
  },
  {
   "id": "mori-life-emergency-earthquake",
@@ -261,8 +261,8 @@
   "phone_verified_at": "",
   "next_review_at": "2026-11-06",
   "review_overdue": "いいえ",
-  "source_count": 2,
-  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1130.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html",
+  "source_count": 4,
+  "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1130.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kikikanrika/kikikanrikakari/4/854.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/promotionsenryakugakari/10/679.html",
   "notes": ""
  },
  {

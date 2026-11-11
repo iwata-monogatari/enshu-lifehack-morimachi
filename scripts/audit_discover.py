@@ -2,6 +2,7 @@
 """Fail closed quality audit for the 200 Discover guides."""
 from __future__ import annotations
 
+import base64
 import json
 import argparse
 import re
@@ -25,6 +26,24 @@ BANNED = (
 TITLE_PREFIX = ("静岡県森町", "静岡県周智郡森町", "遠州森町")
 MIN_CHARS = 5000
 MIN_PARAGRAPHS = 35
+
+
+def is_local_photo(asset: Path, page: Path) -> bool:
+    """Accept an existing photograph wrapper without claiming it is a diagram."""
+    try:
+        images = ET.parse(asset).getroot().findall(".//{http://www.w3.org/2000/svg}image")
+        if not images:
+            return False
+        for image in images:
+            href = image.get("href") or image.get("{http://www.w3.org/1999/xlink}href", "")
+            if href.startswith("data:image/jpeg;base64,"):
+                if not base64.b64decode(href.split(",", 1)[1], validate=True).startswith(bytes.fromhex("ffd8ff")):
+                    return False
+            elif not (Path(href).suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"} and not Path(href).is_absolute() and (page / href).resolve().is_relative_to(page.resolve()) and (page / href).is_file()):
+                return False
+        return True
+    except (ValueError, ET.ParseError):
+        return False
 
 
 def compact(text: str) -> str:
@@ -127,7 +146,8 @@ def main() -> None:
         for filename in ("fig1.svg", "fig2.svg"):
             asset = page / filename
             if asset.exists() and 'data-illustration="mori-editorial"' not in asset.read_text(encoding="utf-8"):
-                fail(errors, f"{prefix} {filename} 固有図解markerなし")
+                if not is_local_photo(asset, page):
+                    fail(errors, f"{prefix} {filename} 固有図解markerなし")
         editorial_fields = {
             "title": row.get("title", ""),
             "description": row.get("description", ""),

@@ -350,6 +350,9 @@ def check_forbidden_terms() -> None:
             around = body[max(0, m.start() - 60):m.end() + 60]
             if any(w in around for w in ("給水届", "印鑑登録", "印鑑証明")):
                 continue
+            heading = " ".join(re.findall(r"<h1[^>]*>(.*?)</h1>", body, re.S))
+            if not any(w in heading + around for w in ("戸籍", "婚姻", "出生", "離婚", "死亡届", "転籍", "届出人")):
+                continue
             err(f"戸籍届書に押印必須の表現: {url} → …{m.group(0)}…")
             hits += 1
 

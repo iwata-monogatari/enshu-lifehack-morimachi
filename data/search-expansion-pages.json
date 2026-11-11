@@ -72,7 +72,7 @@
     "inbound_from": ["/life/emergency/", "/life/emergency/disaster-mail-line/", "/life/emergency/earthquake/"],
     "lead_actions": [{"label": "静岡県の停電情報を見る（公式）", "href": "https://teiden.powergrid.chuden.co.jp/p/sizuoka.html"}],
     "revision_note": "2026年11月4日：公式停電情報への入口、掲載対象外の説明、関連記事の表示名を更新しました。",
-    "related_labels": {"/life/emergency/disaster-mail-line/": "災害情報を受け取る（LINE・ちゃっとメール）", "/life/emergency/road-river-info/": "道路の通行止め・川の水位を確認する", "/life/emergency/earthquake/": "地震への備えと耐震補助を確認する", "/life/emergency/evacuation-centers/": "指定避難所と避難経路を確認する"}
+    "related_labels": {"/life/emergency/disaster-mail-line/": "災害情報を受け取る（LINE・森町防災メール）", "/life/emergency/road-river-info/": "道路の通行止め・川の水位を確認する", "/life/emergency/earthquake/": "地震への備えと耐震補助を確認する", "/life/emergency/evacuation-centers/": "指定避難所と避難経路を確認する"}
   },
   {
     "href": "/life/emergency/water-outage/",
