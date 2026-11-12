@@ -1,30 +1,50 @@
 [
  {
   "href": "/life/start-living/bulky-garbage-dropoff/",
-  "lead": "森町では粗大ごみの戸別収集は行っておらず、中遠広域粗大ごみ処理施設（磐田市新貝）への直接搬入が基本です。事前に品目と搬入時間を確認してから運びましょう。",
-  "note": "手数料は車両の最大積載量により520円～2,090円です。処分に迷う不用品は、ジモティー経由の中遠クリーンセンターリユーズ事業（無料）も検討できます。",
+  "lead": "大きい家庭ごみは、品目・材質で搬入先が分かれます。木製家具などの燃やせるごみは中遠クリーンセンター（袋井市岡崎）、金属類・小型家電などの不燃ごみは中遠広域粗大ごみ処理施設（磐田市新貝）へ。家電リサイクル対象品等は別扱いです。積む前に公式案内で受入可否を確認してください。",
+  "note": "搬入先・料金・リユースの区別のみ2026年11月12日確認。中遠広域粗大ごみ処理施設は車両の区分に応じ520円～2,090円、中遠クリーンセンターは重量による別料金です。リユース事業はセンターの出品物を希望者へ無料で引き渡す制度で、不要品の無料回収・搬入を案内するものではありません。",
   "real_cards": [
-    {"icon": "🚗", "title": "直接搬入が基本", "body": "戸別収集の案内は見当たらず、中遠広域粗大ごみ処理施設（磐田市新貝59-1）へ自分で運び込むのが基本の流れです。平日9:00-12:00・13:00-16:30の受付時間に注意してください。"},
-    {"icon": "💰", "title": "料金は積載量で決まる", "body": "手数料は車両の最大積載量に応じて520円～2,090円です。事前に電話（0538-37-4854）で搬入可能な品目と料金を確認しておくと当日慌てません。"},
-    {"icon": "♻️", "title": "無料で譲る手も", "body": "まだ使える家具や家電は、中遠クリーンセンターがジモティーに出品するリユーズ事業で無料譲渡できる場合があります。捨てる前に一度検討してみましょう。"}
+    {"icon": "🚗", "title": "材質で搬入先を選ぶ", "body": "木製家具などの燃やせるごみは中遠クリーンセンター（袋井市岡崎6635-192・0538-30-0530）、金属類・小型家電などの不燃ごみは中遠広域粗大ごみ処理施設（磐田市新貝59-1・0538-37-4854）が確認先です。大きさだけで搬入先を決めず、分別区分を先に確認してください。"},
+    {"icon": "💰", "title": "料金は施設ごとに異なる", "body": "不燃ごみの中遠広域粗大ごみ処理施設は車両区分に応じ520円～2,090円。燃やせるごみの中遠クリーンセンターは10kg未満80円、10kg以上は10kgにつき163円（計算後10円未満切捨て）です。料金を二つの施設で共通にせず、受入条件と合わせて確認してください。"},
+    {"icon": "♻️", "title": "無料の対象を確認する", "body": "中遠クリーンセンターのリユース事業は、センターが出品した物を希望者へ無料で引き渡す仕組みです。自分の不要品の引取・搬入料金が無料になる制度とは区別してください。個人間で譲る場合は別の取引です。"}
   ],
   "qa": [
-    {"question": "軽トラックが無くても持ち込めますか", "answer": "自家用車でも搬入できますが、積める量には限りがあります。量が多い場合は複数回に分けるか、レンタカーの利用も検討してください。詳しくは<a href=\"tel:0538-37-4854\">中遠広域粗大ごみ処理施設（0538-37-4854）</a>にご確認ください。"},
-    {"question": "戸別収集はしてもらえませんか", "answer": "森町公式サイトには戸別収集の案内が見当たらず、直接搬入が案内の中心です。個別の事情がある場合は住民生活課生活環境係（0538-85-6314）にご相談ください。"}
+    {"question": "軽トラックが無くても持ち込めますか", "answer": "自家用車でも搬入できますが、先に品目・材質で搬入先を確認してください。木製家具などは中遠クリーンセンター、金属類・小型家電などは中遠広域粗大ごみ処理施設です。車両・寸法の制限や荷下ろしの方法は各施設に確認します。分別に迷う場合は<a href=\"tel:0538-85-6314\">住民生活課生活環境係（0538-85-6314）</a>に確認してください。"},
+    {"question": "戸別収集はしてもらえませんか", "answer": "町公式は品目に応じた施設への直接搬入を案内しています。運べない場合や搬出が難しい場合は、住民生活課生活環境係（0538-85-6314）へ適切な処理方法を相談してください。リユース品を無料で受け取る制度を、戸別回収の代わりにはできません。"}
   ],
   "tabs": [
-    {"id": "type-first", "label": "初めて出す", "heading": "まず搬入先と時間を確認", "bullets": ["中遠広域粗大ごみ処理施設（磐田市新貝59-1）へ直接搬入する", "受付時間は平日9:00-12:00・13:00-16:30", "手数料は積載量に応じて520円～2,090円"], "actions": [{"label": "粗大ごみの出し方を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html", "source": "森町公式"}, {"label": "施設に電話で確認する", "href": "tel:0538-37-4854", "source": "0538-37-4854"}]},
-    {"id": "type-reuse", "label": "無料で譲りたい", "heading": "リユーズ事業も検討する", "bullets": ["中遠クリーンセンターがジモティーに不用品を出品", "無料で希望者に譲渡できる仕組み", "受け取りは平日9:00-12:00・13:00-17:00に施設で"], "actions": [{"label": "リユーズ事業を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html", "source": "森町公式"}, {"label": "ごみの分別を確認する", "href": "/life/start-living/how-to-garbage/", "source": "森町ライフハック"}]}
+    {"id": "type-first", "label": "初めて出す", "heading": "先に可燃・不燃を分ける", "bullets": ["木製家具等の可燃物は中遠クリーンセンター、不燃物は中遠広域粗大ごみ処理施設へ確認", "クリーンセンター：月～金9～12時・13～17時、土曜9～12時（祝日・年末年始等を除く）", "粗大ごみ処理施設：平日9～12時・13～16時30分（土日祝・年末年始等は休業）。料金は施設ごとに確認"], "actions": [{"label": "粗大ごみの出し方を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html", "source": "森町公式"}, {"label": "品目と搬入先を電話で確認する", "href": "tel:0538-85-6314", "source": "住民生活課生活環境係"}]},
+    {"id": "type-reuse", "label": "リユース品を受け取りたい", "heading": "処分する側の搬入とは別の制度", "bullets": ["中遠クリーンセンターがジモティーに不用品を出品", "センターの出品物を希望者が無料で受け取る仕組み", "受け取りは平日9:00-12:00・13:00-17:00に施設で"], "actions": [{"label": "リユーズ事業を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html", "source": "森町公式"}, {"label": "ごみの分別を確認する", "href": "/life/start-living/how-to-garbage/", "source": "森町ライフハック"}]}
   ],
   "steps": {
-    "today": ["処分したい粗大ごみの品目をリストアップする", "中遠広域粗大ごみ処理施設に電話して受入可否と料金を確認する"], "this_week": ["搬入日時を決めて車を用意する", "平日9:00-12:00・13:00-16:30の間に施設へ搬入する"], "outside": ["まだ使えるものはジモティーでの無料譲渡を検討する", "分別に迷うものは住民生活課生活環境係に相談する"]
+    "today": ["処分したい粗大ごみの品目をリストアップする", "品目・材質で選んだ施設に電話して、受入可否・料金・寸法制限を確認する"], "this_week": ["搬入日時を決めて車を用意する", "選んだ施設の受入時間・寸法制限・本人確認書類を確かめてから搬入する"], "outside": ["個人間で譲る方法と、施設へごみとして搬入する方法を分けて検討する", "分別に迷うものは住民生活課生活環境係に相談する"]
   },
   "action_grid": [
-    {"label": "粗大ごみの出し方を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html"},
-    {"label": "リユーズ事業を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html"},
-    {"label": "住民生活課に電話する", "href": "tel:0538-85-6314"},
-    {"label": "ごみの出し方全体を見る", "href": "/life/start-living/how-to-garbage/"}
-  ]
+  {
+    "label": "粗大ごみの出し方を確認する",
+    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html"
+  },
+  {
+    "label": "燃やせるごみの搬入先・料金を見る",
+    "href": "https://www.city.fukuroi.shizuoka.jp/soshiki/29/tyuuen/1422535435428.html"
+  },
+  {
+    "label": "不燃ごみの搬入先・料金を見る",
+    "href": "https://www.chuen.net/syorishisetsu/syorishisetsu_000.html"
+  },
+  {
+    "label": "リユース品の受取制度を確認する",
+    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html"
+  },
+  {
+    "label": "住民生活課に電話する",
+    "href": "tel:0538-85-6314"
+  },
+  {
+    "label": "ごみの出し方全体を見る",
+    "href": "/life/start-living/how-to-garbage/"
+  }
+]
  },
  {
   "href": "/life/start-living/certificates/",
@@ -37,7 +57,7 @@
   ],
   "qa": [
     {"question": "平日に役場へ行けません。どうすればいいですか", "answer": "マイナンバーカードがあればコンビニ交付が使えます。カードがない、または戸籍が必要な場合は、水曜17:15-19:00の時間外窓口をご利用ください。ただし住所異動の手続きはできないのでご注意ください。"},
-    {"question": "本人確認書類は何が必要ですか", "answer": "運転免許証やマイナンバーカードなどA群書類1点、または健康保険証などB群書類2点が必要です。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html\" target=\"_blank\" rel=\"noopener\">森町公式の住民票申請ページ</a>でご確認ください。"}
+    {"question": "本人確認書類は何が必要ですか", "answer": "有効な運転免許証やマイナンバーカードなどA群書類1点、または介護保険被保険者証・年金証書などB群書類2点を準備します。従来の健康保険証は2025年12月1日で有効期限が終了しているため、現在の持参書類の例にはしていません。書類の組合せは住民生活課住民係（0538-85-6312）へ事前に確認してください。本人確認書類の案内のみ2026年11月12日確認。厚生労働省「<a href=\"https://www.mhlw.go.jp/stf/newpage_50657.html\" target=\"_blank\" rel=\"noopener\">資格確認方法について</a>」で期限終了を確認できます。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html\" target=\"_blank\" rel=\"noopener\">森町公式の住民票申請ページ</a>でご確認ください。"}
   ],
   "tabs": [
     {"id": "type-mynumber", "label": "マイナンバーカードがある", "heading": "コンビニ交付が便利", "bullets": ["住民票・印鑑証明が1通200円で取得できる", "毎日6:30-23:00利用可（年末年始・メンテナンス日除く）", "戸籍証明書はコンビニ交付の対象外"], "actions": [{"label": "コンビニ交付を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html", "source": "森町公式"}]},
@@ -360,7 +380,7 @@
   "real_cards": [
     {"icon": "🏪", "title": "コンビニなら朝早くから夜遅くまで", "body": "マイナンバーカード（利用者証明用電子証明書搭載）と暗証番号があれば、全国のコンビニで毎日6:30-23:00に住民票を取得できます。料金は200円です。"},
     {"icon": "🕖", "title": "水曜は19時まで窓口対応", "body": "窓口交付は月～金8:30-17:15が基本ですが、水曜のみ17:15-19:00の時間外窓口でも交付を受けられます。料金は300円です。"},
-    {"icon": "🪪", "title": "本人確認書類を忘れずに", "body": "窓口での申請にはA群書類（運転免許証・マイナンバーカード等）1点、またはB群書類（健康保険証等）2点の本人確認書類が必要です。"}
+    {"icon": "🪪", "title": "本人確認書類を忘れずに", "body": "窓口での申請には、有効なA群書類（運転免許証・マイナンバーカード等）1点、またはB群書類（介護保険被保険者証・年金証書等）2点を準備します。従来の健康保険証は2025年12月1日で有効期限が終了しています。現在の書類の組合せは住民生活課住民係（0538-85-6312）へ事前に確認してください。本人確認書類の案内のみ2026年11月12日確認。厚生労働省「<a href=\"https://www.mhlw.go.jp/stf/newpage_50657.html\" target=\"_blank\" rel=\"noopener\">資格確認方法について</a>」で期限終了を確認できます。"}
   ],
   "qa": [
     {"question": "今すぐ住民票が必要です。どうすればいいですか", "answer": "マイナンバーカードがあれば、最寄りのコンビニで毎日6:30-23:00（年末年始・メンテナンス日除く）に200円で取得できます。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html\" target=\"_blank\" rel=\"noopener\">森町公式のコンビニ交付ページ</a>をご確認ください。"},

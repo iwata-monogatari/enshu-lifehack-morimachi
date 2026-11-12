@@ -1218,7 +1218,7 @@
  {
   "id": "mori-life-moving-out-bulk-garbage-cleaning",
   "url": "/life/moving-out/bulk-garbage-cleaning/",
-  "title": "転出前の片付けは、粗大ごみは中遠広域施設へ・家電は家電リサイクル法対応で",
+  "title": "転出前の片付けは、材質別の持ち込み先と家電の処分方法を確認する",
   "category": "新しい場所へ",
   "hub": "procedures",
   "risk_level": "B",
@@ -1230,7 +1230,7 @@
   "phone_verified_at": "",
   "next_review_at": "2027-01-04",
   "review_overdue": "いいえ",
-  "source_count": 3,
+  "source_count": 5,
   "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/688.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
   "notes": ""
  },
@@ -1674,7 +1674,7 @@
  {
   "id": "mori-life-start-living-bulky-garbage-dropoff",
   "url": "/life/start-living/bulky-garbage-dropoff/",
-  "title": "森町で粗大ごみを出す。持ち込み先は中遠広域粗大ごみ処理施設（磐田市）。",
+  "title": "森町の大きなごみ｜可燃・不燃で持ち込み先と費用を確認",
   "category": "暮らし始めた",
   "hub": "procedures",
   "risk_level": "B",
@@ -1686,7 +1686,7 @@
   "phone_verified_at": "",
   "next_review_at": "2027-01-03",
   "review_overdue": "いいえ",
-  "source_count": 3,
+  "source_count": 5,
   "source_urls": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html / https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
   "notes": ""
  },

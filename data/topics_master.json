@@ -5838,19 +5838,29 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
     "label": "一宮の最終処分場への家庭ごみ直接搬入は終了",
     "confidence": "high"
-   }
+   },
+ {
+  "url": "https://www.chuen.net/syorishisetsu/syorishisetsu_000.html",
+  "label": "中遠広域粗大ごみ処理施設の搬入条件・料金",
+  "confidence": "high"
+},
+ {
+  "url": "https://www.city.fukuroi.shizuoka.jp/soshiki/29/tyuuen/1422535435428.html",
+  "label": "中遠クリーンセンターの搬入条件・料金",
+  "confidence": "high"
+}
   ],
   "facts": {
    "window": "住民生活課 生活環境係",
    "tel": "0538-85-6314",
-   "note": "多量の粗大ごみは「中遠広域粗大ごみ処理施設」へ持ち込み（有料）。テレビ・エアコン・冷蔵庫・洗濯機は家電リサイクル法対象で町では収集不可。タイヤ・バッテリー・石こうボード・塗料・農業資材・自動車部品・産業廃棄物なども収集不可品で、販売店・専門業者等へ相談が必要。"
+   "note": "木製家具などの可燃ごみは中遠クリーンセンター（袋井市岡崎6635-192）、金属類・小型電化製品などの家庭の不燃ごみは中遠広域粗大ごみ処理施設（磐田市新貝59-1）へ分けて持ち込みます。家電リサイクル法対象品は別の処分方法です。搬入先の区分のみ2026年11月12日確認。タイヤ・バッテリー・塗料・農業資材などは販売店・専門業者等へ相談してください。"
   },
   "status": "machine-verified",
   "verified_date": "2026-07-04",
   "ai_checked_date": null,
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "転出前の片付けは、粗大ごみは中遠広域施設へ・家電は家電リサイクル法対応で",
+  "title": "転出前の片付けは、材質別の持ち込み先と家電の処分方法を確認する",
   "hub": "procedures",
   "hub_label": "手続きしたい",
   "page_type": "detail",
@@ -7774,35 +7784,45 @@
    }
   ],
   "sources_morimachi": [
-   {
+  {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/1063.html",
     "label": "ごみの出し方（粗大ごみの直接搬入について）／静岡県森町",
     "confidence": "high"
-   },
-   {
+  },
+  {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/4520.html",
-    "label": "中遠クリーンセンターリユーズ事業について（不用品の無料譲渡）／静岡県森町",
+    "label": "中遠クリーンセンターのリユース品を受け取る制度／静岡県森町",
     "confidence": "high"
-   },
-   {
+  },
+  {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html",
     "label": "一宮の最終処分場への家庭ごみ直接搬入は終了",
     "confidence": "high"
-   }
-  ],
+  },
+  {
+    "url": "https://www.chuen.net/syorishisetsu/syorishisetsu_000.html",
+    "label": "中遠広域粗大ごみ処理施設の搬入条件・料金",
+    "confidence": "high"
+  },
+  {
+    "url": "https://www.city.fukuroi.shizuoka.jp/soshiki/29/tyuuen/1422535435428.html",
+    "label": "中遠クリーンセンターの搬入条件・料金",
+    "confidence": "high"
+  }
+],
   "facts": {
    "window": "住民生活課 生活環境係",
    "tel": "0538-85-6314",
-   "dropoff_location": "中遠広域粗大ごみ処理施設（磐田市新貝59-1、電話0538-37-4854、平日9:00-12:00・13:00-16:30）（一部の番号は公式ページ本文で再確認できていません）",
-   "fee": "車両の最大積載量により520円～2,090円",
-   "note": "戸別収集の記載は確認できず、直接搬入が案内の中心。不用品はジモティー経由の中遠クリーンセンターリユーズ事業（無料）も利用可"
+   "dropoff_location": "木製家具などの可燃ごみは中遠クリーンセンター（袋井市岡崎6635-192）、金属類・小型電化製品などの家庭の不燃ごみは中遠広域粗大ごみ処理施設（磐田市新貝59-1）へ分けて持ち込みます。家電リサイクル法対象品は別の処分方法です。",
+   "fee": "可燃ごみは10kg未満80円、10kg以上は10kgにつき163円（合計の10円未満切捨て）。不燃ごみは車両の最大積載量により520円～2,090円。",
+   "note": "品目・材質で搬入先と料金が分かれる。中遠クリーンセンターのリユース事業は出品物の無料引渡しで、不要品の無料搬入制度ではない。搬入先・料金・リユース区分のみ2026年11月12日確認"
   },
   "status": "ai-checked",
   "verified_date": "2026-07-03",
   "ai_checked_date": "2026-07-03",
   "ai_notes": "WebSearch/WebFetchで個別に再調査・出典を精選済み。大石による最終確認待ち。",
   "verified_by": "machine",
-  "title": "森町で粗大ごみを出す。持ち込み先は中遠広域粗大ごみ処理施設（磐田市）。",
+  "title": "森町の大きなごみ｜可燃・不燃で持ち込み先と費用を確認",
   "hub": "procedures",
   "hub_label": "手続きしたい",
   "page_type": "detail",
@@ -7892,7 +7912,7 @@
    "hours": "月～金 8:30-17:15（土日祝・年末年始を除く）、水曜は時間外窓口で17:15-19:00も対応",
    "fee": "窓口交付は住民票1通300円、コンビニ交付は200円（100円割引）",
    "convenience_store": "マイナンバーカード（利用者証明用電子証明書搭載・暗証番号必要）で毎日6:30-23:00利用可（12/29-1/3・メンテナンス日除く）",
-   "required": "本人確認書類（A群1点：運転免許証・マイナンバーカード等、またはB群2点：健康保険証等）"
+   "required": "本人確認書類（有効なA群1点：運転免許証・マイナンバーカード等、またはB群2点：介護保険被保険者証・年金証書等。組合せは住民係へ事前確認）"
   },
   "status": "machine-verified",
   "verified_date": "2026-07-04",
