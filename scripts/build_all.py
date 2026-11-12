@@ -55,6 +55,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("自治体表現（市役所→役場）と空セクション", [sys.executable, "scripts/fix_municipality_wording.py"]),
     ("経過した予定表現", [sys.executable, "scripts/fix_temporal_claims.py"]),
     ("リンクの重複表示", [sys.executable, "scripts/fix_duplicate_labels.py"]),
+    ("確認済みのごみ搬入案内のリンク名を同期", [sys.executable, "scripts/sync_reviewed_link_titles.py"]),
     ("301経由の内部リンクを統合先へ直結", [sys.executable, "scripts/fix_internal_redirect_links.py"]),
     ("台帳の facts を公式窓口ブロックへ反映", [sys.executable, "scripts/sync_facts_to_html.py"]),
     ("確認した公式更新を一覧と関連ページへ反映", [sys.executable, "scripts/build_official_updates.py"]),
