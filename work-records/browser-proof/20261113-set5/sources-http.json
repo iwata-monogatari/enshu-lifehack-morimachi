@@ -1,0 +1,74 @@
+[
+  {
+    "key": "suido-todoke",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/1405.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/1405.html",
+    "sha256": "a943c4b2c87a3c45710e0bddf1294411f536898dd6a777b5131c703f1836e80c",
+    "bytes": 47779,
+    "checked_at": "2026-11-13T00:31:50.516627"
+  },
+  {
+    "key": "kenshin-ryokin",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/josuido/1402.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jogesuido/josuido/1402.html",
+    "sha256": "f81a474ea7f697036c3a74a7a33a887724c4d85dc3e809cca606dc14930e5a87",
+    "bytes": 53644,
+    "checked_at": "2026-11-13T00:31:50.687422"
+  },
+  {
+    "key": "gomi-dasikata",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/gomi/1138.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/gomi/1138.html",
+    "sha256": "9618e5c42f9e6ad554445d73d45a363337c2e2c87ee8af9240abf702ea249557",
+    "bytes": 67242,
+    "checked_at": "2026-11-13T00:31:50.521931"
+  },
+  {
+    "key": "sodai-shisetsu",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/6837.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/6837.html",
+    "sha256": "118b589802a498bfdc77466bb8982cdd665eada5b34bd17ce44d4edc16b52b5f",
+    "bytes": 41671,
+    "checked_at": "2026-11-13T00:31:50.801957"
+  },
+  {
+    "key": "inkan-toroku",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/1/565.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/1/565.html",
+    "sha256": "2d2162f11938ea5f871630a81e517733aeab03716d8210ae083bd9c06ed51804",
+    "bytes": 49894,
+    "checked_at": "2026-11-13T00:31:50.522406"
+  },
+  {
+    "key": "shinsei-yoshiki",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/shinsei_todokede_gyoseiservice/2612.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/shinsei_todokede_gyoseiservice/2612.html",
+    "sha256": "fc86f4c731f1ed784cbf0b823fd032bac59322056fc7eeef5cdb5d88322431ed",
+    "bytes": 48066,
+    "checked_at": "2026-11-13T00:31:51.648750"
+  },
+  {
+    "key": "entai",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1375.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/nofu/1375.html",
+    "sha256": "502eea11a92de6a85b8e1a7be69c64d88a64f4c395ba4d3c83fbd0480be41d3a",
+    "bytes": 42831,
+    "checked_at": "2026-11-13T00:31:51.771005"
+  },
+  {
+    "key": "kotei-nofu",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/shisanzeigakari/1/koteitosikeizenpan/539.html",
+    "sha256": "ce40092d8f33c1de052b1a096848a5ff75de22801f0cd88f42d1ce3b83a39456",
+    "bytes": 42653,
+    "checked_at": "2026-11-13T00:31:51.982741"
+  }
+]

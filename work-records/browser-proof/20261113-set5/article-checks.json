@@ -1,0 +1,175 @@
+{
+  "status": "pass",
+  "articles": [
+    {
+      "slug": "20261113-morimachi-suido-todoke",
+      "title": "森町の水道届出｜開始・廃止・名義変更",
+      "requested_title": "森町の水道届出｜開始・廃止・名義変更",
+      "html_title": "森町の水道届出｜開始・廃止・名義変更｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-suido-todoke/",
+      "characters": 6014,
+      "paragraphs": 43,
+      "answer_length": 132,
+      "faq_lengths": [
+        112,
+        99,
+        112
+      ],
+      "links": [
+        "/blog/20261112-morimachi-suido-conveni-app/",
+        "/blog/20261103-morimachi-akiya-suido-toketsu/",
+        "/blog/20261112-morimachi-rosui-genmen/",
+        "/blog/20261112-morimachi-jokaso-hojo-r8/"
+      ],
+      "reverse": "20261112-morimachi-suido-conveni-app",
+      "images": [
+        {
+          "source": "/blog/20261113-morimachi-suido-todoke/cover.svg",
+          "local_path": "blog/20261113-morimachi-suido-todoke/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261113-morimachi-suido-todoke/fig1.svg",
+          "local_path": "blog/20261113-morimachi-suido-todoke/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261113-morimachi-suido-todoke/fig2.svg",
+          "local_path": "blog/20261113-morimachi-suido-todoke/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261113-morimachi-sodai-gomi-chokusetsu",
+      "title": "森町の粗大ごみ｜直接搬入と施設の料金",
+      "requested_title": "森町の粗大ごみ｜直接搬入と施設の料金",
+      "html_title": "森町の粗大ごみ｜直接搬入と施設の料金｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-sodai-gomi-chokusetsu/",
+      "characters": 5894,
+      "paragraphs": 42,
+      "answer_length": 139,
+      "faq_lengths": [
+        116,
+        134,
+        114
+      ],
+      "links": [
+        "/blog/20260804-gomi-bunbetsu-kaitei/",
+        "/blog/20260714-clean-parents-house/",
+        "/blog/20260728-before-selling-house/"
+      ],
+      "reverse": "20260804-gomi-bunbetsu-kaitei",
+      "images": [
+        {
+          "source": "/blog/20261113-morimachi-sodai-gomi-chokusetsu/cover.svg",
+          "local_path": "blog/20261113-morimachi-sodai-gomi-chokusetsu/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261113-morimachi-sodai-gomi-chokusetsu/fig1.svg",
+          "local_path": "blog/20261113-morimachi-sodai-gomi-chokusetsu/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261113-morimachi-sodai-gomi-chokusetsu/fig2.svg",
+          "local_path": "blog/20261113-morimachi-sodai-gomi-chokusetsu/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261113-morimachi-inkan-toroku",
+      "title": "森町の印鑑登録｜本人の進め方と再交付",
+      "requested_title": "森町の印鑑登録｜本人の進め方と再交付",
+      "html_title": "森町の印鑑登録｜本人の進め方と再交付｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-inkan-toroku/",
+      "characters": 5444,
+      "paragraphs": 42,
+      "answer_length": 132,
+      "faq_lengths": [
+        94,
+        117,
+        98
+      ],
+      "links": [
+        "/blog/20260713-resident-certificate/",
+        "/blog/20261110-morimachi-koseki-koiki-kofu/",
+        "/blog/20260727-bereavement-order/"
+      ],
+      "reverse": "20260713-resident-certificate",
+      "images": [
+        {
+          "source": "/blog/20261113-morimachi-inkan-toroku/cover.svg",
+          "local_path": "blog/20261113-morimachi-inkan-toroku/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261113-morimachi-inkan-toroku/fig1.svg",
+          "local_path": "blog/20261113-morimachi-inkan-toroku/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261113-morimachi-inkan-toroku/fig2.svg",
+          "local_path": "blog/20261113-morimachi-inkan-toroku/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261113-morimachi-zeikin-entai-kin",
+      "title": "森町の町税延滞金｜令和8年は年2.8％から",
+      "requested_title": "森町の町税延滞金｜令和8年は年2.8％から",
+      "html_title": "森町の町税延滞金｜令和8年は年2.8％から｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-zeikin-entai-kin/",
+      "characters": 5638,
+      "paragraphs": 42,
+      "answer_length": 147,
+      "faq_lengths": [
+        90,
+        101,
+        116
+      ],
+      "links": [
+        "/blog/20261112-morimachi-kokuhozei-ritsu-kaitei/",
+        "/blog/20261109-furusato-onestop-jan10/",
+        "/blog/20260709-farmland-inheritance/"
+      ],
+      "reverse": "20261112-morimachi-kokuhozei-ritsu-kaitei",
+      "images": [
+        {
+          "source": "/blog/20261113-morimachi-zeikin-entai-kin/cover.svg",
+          "local_path": "blog/20261113-morimachi-zeikin-entai-kin/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261113-morimachi-zeikin-entai-kin/fig1.svg",
+          "local_path": "blog/20261113-morimachi-zeikin-entai-kin/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261113-morimachi-zeikin-entai-kin/fig2.svg",
+          "local_path": "blog/20261113-morimachi-zeikin-entai-kin/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}
