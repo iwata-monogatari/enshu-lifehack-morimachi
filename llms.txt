@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（454本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（458本）
 
 ### 新着記事
 
+- 2026-11-14 [森町の運転経歴証明書助成｜手数料全額](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-unten-keireki-josei/)
+- 2026-11-14 [森町の歯周病検診｜節目年齢は500円](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-shishu-kenshin/)
+- 2026-11-14 [森町の狂犬病予防注射｜済票は550円](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-kyokenbyo-chusha/)
+- 2026-11-14 [森町の国保異動届｜14日以内の届出](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-kokuho-idou/)
 - 2026-11-13 [森町の町税延滞金｜令和8年は年2.8％から](https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-zeikin-entai-kin/)
 - 2026-11-13 [森町の水道届出｜開始・廃止・名義変更](https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-suido-todoke/)
 - 2026-11-13 [森町の粗大ごみ｜直接搬入と施設の料金](https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-sodai-gomi-chokusetsu/)
@@ -55,10 +59,6 @@
 - 2026-11-12 [森町の漏水減免｜パイロット確認と申請](https://morimachi.enshu-lifehack.com/blog/20261112-morimachi-rosui-genmen/)
 - 2026-11-12 [森町の国保税率改定｜令和7年度からの税率](https://morimachi.enshu-lifehack.com/blog/20261112-morimachi-kokuhozei-ritsu-kaitei/)
 - 2026-11-12 [森町の浄化槽補助｜令和8年度の金額と条件](https://morimachi.enshu-lifehack.com/blog/20261112-morimachi-jokaso-hojo-r8/)
-- 2026-11-11 [森町の高齢者インフル｜自己負担1600円の受け方](https://morimachi.enshu-lifehack.com/blog/20261111-morimachi-koureisha-flu-josei/)
-- 2026-11-11 [75歳の医療｜森町の後期高齢者医療の切替](https://morimachi.enshu-lifehack.com/blog/20261111-morimachi-kouki-koureisha-iryo/)
-- 2026-11-11 [森町のがん検診｜申込期限後の随時受付](https://morimachi.enshu-lifehack.com/blog/20261111-morimachi-gankenshin-tsuika/)
-- 2026-11-11 [森町の電気柵補助｜材料費の3分の2・上限6万円](https://morimachi.enshu-lifehack.com/blog/20261111-morimachi-denkisaku-hojo/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 

@@ -1,0 +1,74 @@
+[
+  {
+    "key": "kokuho-main",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/1146.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/1146.html",
+    "sha256": "dd48712c8cfdb39f7cbb3c3abc501006c140e4bb9882cfee430223b0c62c0c23",
+    "bytes": 80562,
+    "checked_at": "2026-11-13T18:16:14.164969"
+  },
+  {
+    "key": "kokuho-faq",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/1383.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/1383.html",
+    "sha256": "f02419a50af123e67d0cc5bce5c849c7b10c9c0c80d61f70445a2b69211466b4",
+    "bytes": 72444,
+    "checked_at": "2026-11-13T18:16:14.231090"
+  },
+  {
+    "key": "shishu",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/2937.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/2937.html",
+    "sha256": "b4bad46ea60e31637f46327fad82ce362cb84ca8ab816ddcb9bc77a9ef625a53",
+    "bytes": 42705,
+    "checked_at": "2026-11-13T18:16:14.136018"
+  },
+  {
+    "key": "sogo-kenshin",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/1489.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/otonanokenko_kenshin_sodan_kenkozukuri/1489.html",
+    "sha256": "e3138a6b87c235f55de1580065e6479c08fd6816fcba367921e4d34d49a0465b",
+    "bytes": 43730,
+    "checked_at": "2026-11-13T18:16:14.361864"
+  },
+  {
+    "key": "unten-josei",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/kotsuanzen/2439.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/kotsuanzen/2439.html",
+    "sha256": "d5e22425110684e74ec5f8c0cf29770744bf7ecbf07cc8df49d2a6b8046ad053",
+    "bytes": 45295,
+    "checked_at": "2026-11-13T18:16:14.153151"
+  },
+  {
+    "key": "kotsu-ken",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/8/2533.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/hokenfukushika/shogaifukushikakari/8/2533.html",
+    "sha256": "3dd40e4a46be26d5c099d572caacc69dffd395be174d0d09ca373e6cd05fa945",
+    "bytes": 45352,
+    "checked_at": "2026-11-13T18:16:15.272399"
+  },
+  {
+    "key": "kyoken",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/4303.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/4303.html",
+    "sha256": "6ebeb9b07870b0403f6e06b9298a970e4307e3df1dfe630a9d5d892caff0e4f7",
+    "bytes": 43091,
+    "checked_at": "2026-11-13T18:16:15.272806"
+  },
+  {
+    "key": "inu-kaikata",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/1140.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/jutaku_pet_seikatsu/1140.html",
+    "sha256": "cba9933d7608da02995adf3d806ba7c680d287b6f268f65ae2d46322bdf94df8",
+    "bytes": 50397,
+    "checked_at": "2026-11-13T18:16:15.233792"
+  }
+]
