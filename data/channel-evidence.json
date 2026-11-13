@@ -1,46 +1,56 @@
 {
-  "/life/family-grow/child-allowance/": {
-    "channels": [
-      "online"
-    ],
-    "checked_at": "2026-11-11",
-    "scope": "児童手当は電子申請と窓口・郵送申請。",
-    "sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/5316.html"
-    ]
-  },
-  "/life/moving-out/move-out-notice/": {
-    "channels": [
-      "online"
-    ],
-    "checked_at": "2026-11-11",
-    "scope": "マイナンバーカード所持者はマイナポータルで転出届。転入・転居は窓口。",
-    "sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html"
-    ]
-  },
-  "/life/start-living/certificates/": {
-    "channels": [
-      "konbini"
-    ],
-    "checked_at": "2026-11-11",
-    "scope": "住民票・印鑑証明等のコンビニ交付。戸籍は対象外。",
-    "sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/4817.html"
-    ]
-  },
-  "/life/start-living/mynumber/": {
-    "channels": [
-      "online"
-    ],
-    "checked_at": "2026-11-11",
-    "scope": "カードの申請方法。受取りは窓口であり、コンビニでカード申請・交付はできません。",
-    "sources": [
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/572.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/4286.html",
-      "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html"
-    ]
-  }
+ "/life/family-grow/child-allowance/": {
+  "channels": [
+   "online"
+  ],
+  "checked_at": "2026-11-11",
+  "scope": "児童手当は電子申請と窓口・郵送申請。",
+  "sources": [
+   "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/5316.html"
+  ]
+ },
+ "/life/moving-out/move-out-notice/": {
+  "channels": [
+   "online"
+  ],
+  "checked_at": "2026-11-11",
+  "scope": "マイナンバーカード所持者はマイナポータルで転出届。転入・転居は窓口。",
+  "sources": [
+   "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/3/2902.html"
+  ]
+ },
+ "/life/start-living/certificates/": {
+  "channels": [
+   "konbini"
+  ],
+  "checked_at": "2026-11-11",
+  "scope": "住民票・印鑑証明等のコンビニ交付。戸籍は対象外。",
+  "sources": [
+   "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
+   "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html",
+   "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/4817.html"
+  ]
+ },
+ "/life/start-living/mynumber/": {
+  "channels": [
+   "online"
+  ],
+  "checked_at": "2026-11-11",
+  "scope": "カードの申請方法。受取りは窓口であり、コンビニでカード申請・交付はできません。",
+  "sources": [
+   "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/572.html",
+   "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/1/4286.html",
+   "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html"
+  ]
+ },
+ "/life/work-life/tax-certificates/": {
+  "channels": [
+   "konbini"
+  ],
+  "checked_at": "2026-11-13",
+  "scope": "本人の所得・（非）課税証明書のみ。最新年度と過去2年度。住民登録・課税情報・15歳以上等の条件がある。納税証明書等すべての証明書を対象としない。",
+  "sources": [
+   "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/4817.html"
+  ]
+ }
 }

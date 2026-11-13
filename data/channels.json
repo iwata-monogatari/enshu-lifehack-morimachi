@@ -45,7 +45,7 @@
       "phone"
     ],
     "window": "学校教育課",
-    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
+    "tel": "0538-85-1112（学校教育課）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
@@ -193,7 +193,7 @@
       "phone"
     ],
     "window": "学校教育課",
-    "tel": "0538-85-2111（代表）（一部の番号は公式ページ本文で再確認できていません）",
+    "tel": "0538-85-1112（学校教育課）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
@@ -240,7 +240,7 @@
       "phone"
     ],
     "window": "学校教育課",
-    "tel": "0538-85-2111（森町役場代表）",
+    "tel": "0538-85-1112（学校教育課）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-04",
@@ -1341,8 +1341,8 @@
       "counter",
       "phone"
     ],
-    "window": "住民生活課（暮らしの相談窓口の取りまとめ）／健康相談は健康こども課",
-    "tel": "健康相談（保健師・栄養士）0538-85-1800",
+    "window": "健康こども課 健康づくり係（県担当課一覧で照合）",
+    "tel": "町の健康づくり相談：0538-85-6330",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
@@ -2148,7 +2148,7 @@
     "tel": "0538-85-6312",
     "deadline": null,
     "hours": "月～金 8:30-17:15（土日祝・年末年始を除く）、水曜は時間外窓口で17:15-19:00も対応",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "source": "topics_master.facts",
     "remote_channel_evidence": {
       "channels": [
@@ -2506,7 +2506,7 @@
     "tel": "0538-85-6312",
     "deadline": null,
     "hours": "窓口は月～金8:30-17:15、水曜は17:15-19:00の時間外窓口でも交付可",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "source": "topics_master.facts",
     "remote_channel_evidence": null
   },
@@ -2608,8 +2608,8 @@
       "counter",
       "phone"
     ],
-    "window": "森町町民生活センター（消費生活相談）",
-    "tel": "0538-85-2111（代表・つなぎ）（一部の番号は公式ページ本文で再確認できていません）",
+    "window": "森町消費者相談窓口（町公式の相談本文に記載）",
+    "tel": "0538-85-6319",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
@@ -2816,10 +2816,11 @@
   {
     "url": "/life/work-life/job-change/",
     "channels": [
-      "counter"
+      "counter",
+      "phone"
     ],
-    "window": "ハローワーク磐田（森町の求人・雇用保険手続きの管轄）",
-    "tel": null,
+    "window": "求人・雇用保険：ハローワーク磐田／町の支援制度は担当課",
+    "tel": "0538-32-6181（ハローワーク磐田）",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
@@ -2874,7 +2875,7 @@
       "phone"
     ],
     "window": "住民生活課 国保年金係",
-    "tel": "0538-85-2111（役場代表）（一部の番号は公式ページ本文で再確認できていません）",
+    "tel": "0538-85-6313",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
@@ -2901,8 +2902,8 @@
       "counter",
       "phone"
     ],
-    "window": "産業課 商工観光係",
-    "tel": "0538-85-6319（推定・電話帳情報のため要確認）／0538-85-2111（役場代表）（一部の番号は公式ページ本文で再確認できていません）",
+    "window": "町の創業支援担当（公式問い合わせ欄：産業政策課 産業振興係）",
+    "tel": "0538-85-6319",
     "deadline": null,
     "hours": null,
     "last_checked": "2026-07-03",
@@ -2938,7 +2939,8 @@
     "url": "/life/work-life/tax-certificates/",
     "channels": [
       "counter",
-      "phone"
+      "phone",
+      "konbini"
     ],
     "window": "税務課 町民税係",
     "tel": "0538-85-6308",
@@ -2946,7 +2948,16 @@
     "hours": null,
     "last_checked": "2026-07-03",
     "source": "topics_master.facts",
-    "remote_channel_evidence": null
+    "remote_channel_evidence": {
+      "channels": [
+        "konbini"
+      ],
+      "checked_at": "2026-11-13",
+      "scope": "本人の所得・（非）課税証明書のみ。最新年度と過去2年度。住民登録・課税情報・15歳以上等の条件がある。納税証明書等すべての証明書を対象としない。",
+      "sources": [
+        "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/4817.html"
+      ]
+    }
   },
   {
     "url": "/life/work-life/tax/",

@@ -133,6 +133,10 @@ def slug_for(parent_href: str) -> str:
 def candidates() -> list[dict]:
     topics = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
     content = load_content()
+    selection_path = ROOT / "data" / "question-selection.json"
+    selection = (json.loads(selection_path.read_text(encoding="utf-8"))
+                 if selection_path.exists() else {})
+    pinned = selection.get("question_by_parent", {})
     rows: list[dict] = []
     for topic in topics:
         href = topic.get("href", "")
@@ -148,7 +152,12 @@ def candidates() -> list[dict]:
         ]
         if not valid:
             continue
-        qa_index, qa = min(valid, key=lambda pair: question_rank(pair[1], pair[0]))
+        preferred = [pair for pair in valid
+                     if plain(pair[1].get("question", "")) == pinned.get(href)]
+        if href in pinned and not preferred:
+            raise RuntimeError(f"公開質問の原文が生成元にありません: {href}")
+        qa_index, qa = preferred[0] if preferred else min(
+            valid, key=lambda pair: question_rank(pair[1], pair[0]))
         context = topic.get("intent") or plain(topic.get("title", ""))
         rows.append({
             "parent_href": href,
@@ -169,7 +178,8 @@ def candidates() -> list[dict]:
             "real_cards": body.get("real_cards", [])[:3],
             "steps": body.get("steps", {}),
             "sources": topic.get("sources_morimachi", [])[:3],
-            "verified_date": topic.get("verified_date") or topic.get("ai_checked_date") or "確認中",
+            "verified_date": selection.get("verified_date_by_parent", {}).get(href)
+            or topic.get("verified_date") or topic.get("ai_checked_date") or "確認中",
             "keyword": topic.get("primary_keyword", ""),
             "needs": topic.get("needs", []),
             "audience": topic.get("audience", []),
@@ -180,15 +190,28 @@ def candidates() -> list[dict]:
 def select_questions() -> list[dict]:
     rows = candidates()
     selected: list[dict] = []
+    # Source additions must update answers without silently replacing published URLs.
+    # Editorial selection changes are explicit edits to the reviewed manifest.
+    selection_path = ROOT / "data" / "question-selection.json"
+    if selection_path.exists():
+        hrefs = json.loads(selection_path.read_text(encoding="utf-8"))["parent_hrefs"]
+        by_parent = {row["parent_href"]: row for row in rows}
+        if len(hrefs) != 100 or len(set(hrefs)) != 100:
+            raise RuntimeError("公開質問の選定台帳は重複のない100件が必要です")
+        missing = [href for href in hrefs if href not in by_parent]
+        if missing:
+            raise RuntimeError(f"公開質問の生成元が不足しています: {missing}")
+        rows = [by_parent[href] for href in hrefs]
     for hub, meta in HUBS.items():
         pool = [row for row in rows if row["hub"] == hub]
-        pool.sort(key=lambda row: (
+        if not selection_path.exists():
+            pool.sort(key=lambda row: (
             PRIORITY.get(row["priority"], 9),
             1 if row["question"] in GENERIC_QUESTIONS else 0,
             1 if row.get("parent_href", "").count("/") <= 3 else 0,
             -len(row["sources"]),
             row["parent_href"],
-        ))
+            ))
         if len(pool) < meta["quota"]:
             raise RuntimeError(f"{hub} の質問候補が不足: {len(pool)} < {meta['quota']}")
         selected.extend(pool[:meta["quota"]])
@@ -209,6 +232,7 @@ def select_questions() -> list[dict]:
 
 
 def official_links(row: dict) -> str:
+    from generate_pages import source_authority
     links = []
     seen = set()
     for source in row["sources"]:
@@ -219,7 +243,7 @@ def official_links(row: dict) -> str:
         links.append(
             f'<a class="official-link" href="{esc(url)}" target="_blank" rel="noopener" '
             f'data-track-click="question_official">{esc(source.get("label", "森町公式ページ"))} '
-            '<span>森町公式</span></a>'
+            f'<span>{esc(source_authority(url, "森町"))}</span></a>'
         )
     return "".join(links)
 

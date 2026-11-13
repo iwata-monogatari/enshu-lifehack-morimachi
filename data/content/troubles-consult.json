@@ -124,22 +124,25 @@
  },
  {
   "href": "/life/troubles-consult/consumer-fraud/",
-  "lead": "身に覚えのない請求や、契約してしまってから不安になった契約トラブルは、森町「町民生活センター」の消費生活相談へ早めに相談してください。特にインターネット関連の架空請求は、慌てて連絡・支払いをしないことが大切です。",
-  "note": "利用した覚えのない請求メールが届いても、相手に連絡せず支払わずに放置し、まず消費生活相談窓口に確認するのが基本です。",
+  "lead": "身に覚えのない請求や、契約してしまってから不安になった契約トラブルは、森町の消費生活相談窓口へ早めに相談してください。特にインターネット関連の架空請求は、慌てて連絡・支払いをしないことが大切です。",
+  "note": "利用した覚えのない請求メールが届いても、相手に連絡せず支払わずに放置し、まず消費生活相談窓口に確認するのが基本です。 消費生活相談と町民生活センターの施設利用を分け、相談先の導線のみ2026年11月13日確認。",
   "real_cards": [
    {"icon": "📧", "title": "身に覚えのない請求メール", "body": "インターネット運営者や通信会社、債権回収業者などを名乗り、有料サイト利用料金を請求するメールが報告されています。連絡せず放置し、まず相談してください。"},
    {"icon": "⚠️", "title": "法的手段をちらつかせる脅し文句", "body": "「連絡がなければ法的手段をとる」といった文言で不安をあおる手口があります。慌てて振込んだり連絡したりせず、落ち着いて窓口に相談してください。"},
    {"icon": "📝", "title": "契約してしまった後でも相談できる", "body": "すでに契約してしまった、支払ってしまった場合でも、消費生活相談窓口に相談することで対応の可能性があります。早めの相談が肝心です。"},
-   {"icon": "☎️", "title": "消費者相談窓口に直接連絡", "body": "森町消費者相談窓口（産業課内）で相談を受け付けています。不安を感じたらまず電話してみてください。"}
+   {"icon": "☎️", "title": "消費者相談窓口に直接連絡", "body": "町公式が案内する森町消費者相談窓口（0538-85-6319）で相談を受け付けています。不安を感じたらまず電話してみてください。"}
   ],
   "qa": [
    {"question": "身に覚えのない請求メールが届きました。どうすればいいですか", "answer": "相手に連絡せず、支払わずに放置してください。不安な場合は森町消費者相談窓口（電話0538-85-6319）に相談できます。"},
-   {"question": "うっかり契約してしまいました。もう遅いですか", "answer": "契約後でも相談は可能です。早めに町民生活センターの消費生活相談へ連絡し、状況を伝えてください。"},
+   {"question": "うっかり契約してしまいました。もう遅いですか", "answer": "契約後でも相談は可能です。早めに森町消費者相談窓口へ連絡し、状況を伝えてください。"},
    {"question": "相談すると個人情報や費用がかかりますか", "answer": "詳しい取り扱いは窓口に確認する必要がありますが、まずは電話で相談することから始められます。"}
   ],
   "tabs": [
    {"id": "type-mail", "label": "身に覚えのない請求が来た", "heading": "架空請求への対処", "bullets": ["相手に連絡せず、支払わずに放置する", "メールの内容や送信元をメモしておく", "不安な場合は消費者相談窓口に相談する"], "actions": [{"label": "インターネット消費者トラブルの防止を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/655.html", "source": "森町公式"}, {"label": "消費者相談窓口に電話する", "href": "tel:0538-85-6319", "source": "0538-85-6319"}]},
-   {"id": "type-contract", "label": "契約してしまった・支払った", "heading": "契約トラブルの相談", "bullets": ["契約書や領収書など関係書類を手元に用意する", "町民生活センターの消費生活相談に連絡する", "早めの相談が対応の選択肢を広げる"], "actions": [{"label": "森町町民生活センターのページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/1066.html", "source": "森町公式"}, {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/", "source": "森町ライフハック"}]}
+   {"id": "type-contract", "label": "契約してしまった・支払った", "heading": "契約トラブルの相談", "bullets": ["契約書や領収書など関係書類を手元に用意する", "森町消費者相談窓口に連絡する", "早めの相談が対応の選択肢を広げる"], "actions": [{
+ "label": "森町の消費者相談案内を見る",
+ "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/655.html"
+}, {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/", "source": "森町ライフハック"}]}
   ],
   "steps": {
    "today": ["請求メールや契約書などの証拠を保存する", "相手に連絡・支払いをせず様子を見る"],
@@ -148,7 +151,7 @@
   },
   "action_grid": [
    {"label": "インターネット消費者トラブルの防止を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1_1/655.html"},
-   {"label": "森町町民生活センターのページを見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zaiseika/keiyakukanzaikakari/3/1066.html"},
+   {"label": "森町消費者相談窓口に電話する", "href": "tel:0538-85-6319"},
    {"label": "消費者相談窓口に電話する", "href": "tel:0538-85-6319"},
    {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
   ]
@@ -309,19 +312,34 @@
  {
   "href": "/life/troubles-consult/farmland/inheritance/",
   "lead": "農地を相続したら、森町「農林政策課 農地管理係」（農業委員会）への届出から整理を始めてください。相続後は農業委員会への相続届出（農地法第3条の3）が必要で、その後の活用方法もあわせて相談できます。",
-  "note": "相続届出の様式が掲載された専用ページは確認できていません。まずは電話で相続した旨を伝え、必要な書類を案内してもらってください。",
+  "note": "町公式「農地の相続について」に届出書（Word）と記載例（PDF）が公開されています。町の案内は相続発生後10か月以内です。農業委員会への届出と法務局の相続登記は別の手続きです。様式・届出時期のみ2026年11月13日確認。",
   "real_cards": [
-   {"icon": "📋", "title": "相続届出（農地法第3条の3）が必要", "body": "農地を相続した場合、農業委員会への届出が法律で定められています。相続を知った日から一定期間内の届出が必要とされているため、早めに動いてください。"},
-   {"icon": "📞", "title": "まず農地管理係へ連絡", "body": "届出の様式や必要書類は農地管理係で案内してもらえます。相続が発生したら、まず電話で状況を伝えてください。"},
+   {"icon": "📋", "title": "相続届出（農地法第3条の3）が必要", "body": "町公式は、相続により農地の権利を取得した相続人に、相続発生後10か月以内の届出を案内しています。農地法第3条の3の届出書と記載例を公式ページから取得できます。"},
+   {"icon": "📞", "title": "公式様式を取り、農地管理係へ", "body": "町公式の届出書と記載例を確認し、土地の所在・面積等を整理します。必要な添付資料や個別事情は農地管理係0538-85-6315へ確認してください。"},
    {"icon": "🌾", "title": "相続後の活用も相談できる", "body": "届出だけでなく、相続した農地を今後どうするか（耕作・貸す・売る等）についても同じ窓口で相談できます。"}
   ],
   "qa": [
-   {"question": "農地を相続しました。まず何をすればいいですか", "answer": "農林政策課 農地管理係へ連絡し、相続届出（農地法第3条の3）に必要な書類を確認してください。"},
+   {"question": "農地を相続しました。まず何をすればいいですか", "answer": "町公式の「農地の相続について」から届出書と記載例を取得し、農林政策課農地管理係（0538-85-6315）へ確認します。町が案内する届出時期は相続発生後10か月以内です。法務局への相続登記とは別に必要です。"},
    {"question": "届出をしないとどうなりますか", "answer": "法律で定められた届出のため、忘れずに行う必要があります。詳しい取り扱いは農地管理係に確認してください。"},
    {"question": "相続した農地は耕作しなければいけませんか", "answer": "必ずしも自分で耕作する必要はありません。貸す・売る・転用するなどの選択肢もあるため、農地管理係に相談してください。"}
   ],
   "tabs": [
-   {"id": "type-notify", "label": "相続の届出をしたい", "heading": "相続届出の相談", "bullets": ["相続が発生したら早めに農地管理係へ連絡する", "農地法第3条の3の届出に必要な書類を確認する", "相続した土地の場所・面積を整理しておく"], "actions": [{"label": "農業委員会事務の実施状況を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html", "source": "森町公式"}, {"label": "農地管理係に電話する", "href": "tel:0538-85-6315", "source": "0538-85-6315"}]},
+   {"id": "type-notify", "label": "相続の届出をしたい", "heading": "相続届出の相談", "bullets": ["町公式の届出書・記載例を取得し、相続発生後10か月以内の届出を確認する", "農地法第3条の3の届出に必要な書類を確認する", "相続した土地の場所・面積を整理しておく"], "actions": [
+ {
+  "label": "農地相続の届出書・記載例（町公式）",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/6756.html"
+ },
+ {
+  "label": "農業委員会事務の実施状況を見る",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html",
+  "source": "森町公式"
+ },
+ {
+  "label": "農地管理係に電話する",
+  "href": "tel:0538-85-6315",
+  "source": "0538-85-6315"
+ }
+]},
    {"id": "type-after", "label": "相続後どうするか決めたい", "heading": "耕作・売却・貸借の検討", "bullets": ["自分で耕作を続けるかを検討する", "使わない場合は売る・貸すことも相談できる", "農地全体の相談まとめもあわせて確認する"], "actions": [{"label": "農地の売買・貸借の相談を見る", "href": "/life/troubles-consult/farmland/sell-or-rent/", "source": "森町ライフハック"}, {"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/", "source": "森町ライフハック"}]}
   ],
   "steps": {
@@ -330,11 +348,27 @@
    "outside": ["相続登記や遺産分割は司法書士等の専門家に相談する場合がある"]
   },
   "action_grid": [
-   {"label": "農業委員会事務の実施状況を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html"},
-   {"label": "農地管理係に電話する", "href": "tel:0538-85-6315"},
-   {"label": "農地の相談まとめを見る", "href": "/life/troubles-consult/farmland/"},
-   {"label": "困った・相談したいの一覧を見る", "href": "/life/troubles-consult/"}
-  ]
+ {
+  "label": "農地相続の届出書・記載例（町公式）",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/6756.html"
+ },
+ {
+  "label": "農業委員会事務の実施状況を見る",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/nochikanrikakari/766.html"
+ },
+ {
+  "label": "農地管理係に電話する",
+  "href": "tel:0538-85-6315"
+ },
+ {
+  "label": "農地の相談まとめを見る",
+  "href": "/life/troubles-consult/farmland/"
+ },
+ {
+  "label": "困った・相談したいの一覧を見る",
+  "href": "/life/troubles-consult/"
+ }
+]
  },
  {
   "href": "/life/troubles-consult/farmland/noshin-exclusion/",

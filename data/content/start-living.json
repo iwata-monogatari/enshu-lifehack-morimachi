@@ -49,29 +49,106 @@
  {
   "href": "/life/start-living/certificates/",
   "lead": "森町の住民票・印鑑登録証明書は、条件を満たせばマイナンバーカードでコンビニ交付を利用できます。戸籍証明書はコンビニ交付の対象外です。必要な証明書を選び、取得方法と手数料を確認してください。",
-  "note": "戸籍証明書はコンビニ交付の対象外です。戸籍が必要な場合は窓口での申請が必要になります。",
+  "note": "戸籍はコンビニ交付の対象外ですが、森町に本籍がある戸籍等は郵送請求も可能です。本籍地以外の窓口で請求する「広域交付」は、郵送・代理人請求ができません。取得経路のみ2026年11月13日確認。",
   "real_cards": [
     {"icon": "🏪", "title": "コンビニなら200円", "body": "マイナンバーカード（利用者証明用電子証明書搭載）と暗証番号があれば、住民票・印鑑証明を全国のコンビニで6:30-23:00に取得できます（12月29日～1月3日・メンテナンス日を除く）。窓口より100円安い200円です。"},
     {"icon": "🏢", "title": "住民票・印鑑証明の窓口交付は300円", "body": "住民票・印鑑登録証明書は、住民生活課住民係の窓口で1通300円です。平日8:30-17:15のほか、水曜は17:15-19:00の時間外窓口でも交付を受けられます。"},
-    {"icon": "📕", "title": "戸籍は窓口のみ", "body": "戸籍謄本等はコンビニ交付の対象外です。窓口または水曜の時間外窓口で申請してください。本人確認書類を忘れずに持参しましょう。"}
+    {"icon": "📕", "title": "戸籍は窓口・郵送を選ぶ", "body": "森町の戸籍等は窓口のほか郵送でも請求できます。郵送は請求書、現住所の分かる本人確認書類の写し、手数料分の定額小為替、切手付き返信用封筒などを準備します。広域交付とは条件が異なります。"}
   ],
   "qa": [
-    {"question": "平日に役場へ行けません。どうすればいいですか", "answer": "マイナンバーカードがあればコンビニ交付が使えます。利用時間は6:30-23:00で、12月29日～1月3日・メンテナンス日は利用できません。停止予定は町公式のコンビニ交付案内で確認してください。カードがない、または戸籍が必要な場合は、水曜17:15-19:00の時間外窓口をご利用ください。ただし住所異動の手続きはできないのでご注意ください。"},
+    {"question": "平日に役場へ行けません。どうすればいいですか", "answer": "マイナンバーカードがあればコンビニ交付が使えます。利用時間は6:30-23:00で、12月29日～1月3日・メンテナンス日は利用できません。停止予定は町公式のコンビニ交付案内で確認してください。カードがない、または戸籍が必要な場合は、水曜17:15-19:00の時間外窓口をご利用ください。ただし住所異動の手続きはできないのでご注意ください。 戸籍等は<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/4261.html\" target=\"_blank\" rel=\"noopener\">郵送請求</a>もできます。広域交付は郵送・代理人請求の対象外です。"},
     {"question": "本人確認書類は何が必要ですか", "answer": "有効な運転免許証やマイナンバーカードなどA群書類1点、または介護保険被保険者証・年金証書などB群書類2点を準備します。従来の健康保険証は2025年12月1日で有効期限が終了しているため、現在の持参書類の例にはしていません。書類の組合せは住民生活課住民係（0538-85-6312）へ事前に確認してください。本人確認書類の案内のみ2026年11月12日確認。厚生労働省「<a href=\"https://www.mhlw.go.jp/stf/newpage_50657.html\" target=\"_blank\" rel=\"noopener\">資格確認方法について</a>」で期限終了を確認できます。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html\" target=\"_blank\" rel=\"noopener\">森町公式の住民票申請ページ</a>でご確認ください。"}
   ],
   "tabs": [
-    {"id": "type-mynumber", "label": "マイナンバーカードがある", "heading": "コンビニ交付が便利", "bullets": ["住民票・印鑑証明が1通200円で取得できる", "毎日6:30-23:00利用可（年末年始・メンテナンス日除く）", "戸籍証明書はコンビニ交付の対象外"], "actions": [{"label": "コンビニ交付を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html", "source": "森町公式"}]},
-    {"id": "type-nocard", "label": "カードがない・戸籍が必要", "heading": "窓口か時間外窓口へ", "bullets": ["平日8:30-17:15は住民生活課住民係の窓口へ", "水曜のみ17:15-19:00の時間外窓口も利用可", "本人確認書類を忘れずに持参する"], "actions": [{"label": "住民票の申請方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html", "source": "森町公式"}, {"label": "水曜時間外窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html", "source": "森町公式"}]}
+ {
+  "id": "type-mynumber",
+  "label": "マイナンバーカードがある",
+  "heading": "コンビニ交付が便利",
+  "bullets": [
+   "住民票・印鑑証明が1通200円で取得できる",
+   "毎日6:30-23:00利用可（年末年始・メンテナンス日除く）",
+   "戸籍証明書はコンビニ交付の対象外"
   ],
+  "actions": [
+   {
+    "label": "コンビニ交付を見る",
+    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html",
+    "source": "森町公式"
+   }
+  ]
+ },
+ {
+  "id": "type-nocard",
+  "label": "カードがない・戸籍が必要",
+  "heading": "窓口か時間外窓口へ",
+  "bullets": [
+   "平日8:30-17:15は住民生活課住民係の窓口へ",
+   "水曜のみ17:15-19:00の時間外窓口も利用可",
+   "本人確認書類を忘れずに持参する"
+  ],
+  "actions": [
+   {
+    "label": "住民票の申請方法を見る",
+    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html",
+    "source": "森町公式"
+   },
+   {
+    "label": "水曜時間外窓口を見る",
+    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html",
+    "source": "森町公式"
+   }
+  ]
+ },
+ {
+  "id": "type-koseki",
+  "label": "戸籍を郵送で取りたい",
+  "heading": "本籍地への郵送と広域交付を区別",
+  "bullets": [
+   "請求書・現住所の分かる本人確認書類の写し・定額小為替・返信用封筒等を準備",
+   "関係確認資料や委任状が必要な場合は公式案内を確認",
+   "広域交付は請求できる親族・証明書に制限があり、郵送・代理人請求は不可"
+  ],
+  "actions": [
+   {
+    "label": "戸籍等の郵送請求（町公式）",
+    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/4261.html"
+   },
+   {
+    "label": "広域交付の条件（町公式）",
+    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/5291.html"
+   },
+   {
+    "label": "戸籍の広域交付を詳しく読む",
+    "href": "/blog/20261110-morimachi-koseki-koiki-kofu/"
+   }
+  ]
+ }
+],
   "steps": {
-    "today": ["マイナンバーカードと暗証番号を確認する", "必要な証明書がコンビニ交付の対象か確認する"], "this_week": ["コンビニのマルチコピー機で交付を受ける、または窓口へ行く", "戸籍が必要な場合は窓口・時間外窓口で申請する"], "outside": ["本人確認書類（運転免許証等）を用意しておく"]
+    "today": ["マイナンバーカードと暗証番号を確認する", "必要な証明書がコンビニ交付の対象か確認する"], "this_week": ["コンビニのマルチコピー機で交付を受ける、または窓口へ行く", "戸籍は窓口・郵送の条件を確認して請求する"], "outside": ["本人確認書類（運転免許証等）を用意しておく"]
   },
   "action_grid": [
-    {"label": "コンビニ交付を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html"},
-    {"label": "住民票の申請方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html"},
-    {"label": "水曜時間外窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html"},
-    {"label": "住民生活課に電話する", "href": "tel:0538-85-6312"}
-  ]
+ {
+  "label": "コンビニ交付を確認する",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html"
+ },
+ {
+  "label": "住民票の申請方法を見る",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html"
+ },
+ {
+  "label": "水曜時間外窓口を見る",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html"
+ },
+ {
+  "label": "住民生活課に電話する",
+  "href": "tel:0538-85-6312"
+ },
+ {
+  "label": "戸籍等の郵送請求を見る",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/4261.html"
+ }
+]
  },
  {
   "href": "/life/start-living/city-hall-branches/",
@@ -380,7 +457,7 @@
   "real_cards": [
     {"icon": "🏪", "title": "コンビニなら朝早くから夜遅くまで", "body": "マイナンバーカード（利用者証明用電子証明書搭載）と暗証番号があれば、全国のコンビニで毎日6:30-23:00に住民票を取得できます。料金は200円です。"},
     {"icon": "🕖", "title": "水曜は19時まで窓口対応", "body": "窓口交付は月～金8:30-17:15が基本ですが、水曜のみ17:15-19:00の時間外窓口でも交付を受けられます。料金は300円です。"},
-    {"icon": "🪪", "title": "本人確認書類を忘れずに", "body": "窓口での申請には、有効なA群書類（運転免許証・マイナンバーカード等）1点、またはB群書類（介護保険被保険者証・年金証書等）2点を準備します。従来の健康保険証は2025年12月1日で有効期限が終了しています。現在の書類の組合せは住民生活課住民係（0538-85-6312）へ事前に確認してください。本人確認書類の案内のみ2026年11月12日確認。厚生労働省「<a href=\"https://www.mhlw.go.jp/stf/newpage_50657.html\" target=\"_blank\" rel=\"noopener\">資格確認方法について</a>」で期限終了を確認できます。"}
+    {"icon": "🪪", "title": "本人確認書類を忘れずに", "body": "窓口での申請には、有効なA群書類（運転免許証・マイナンバーカード等）1点、またはB群書類（介護保険被保険者証・年金証書等）2点を準備します。従来の健康保険証は2025年12月1日で有効期限が終了しています。現在の書類の組合せは住民生活課住民係（0538-85-6312）へ事前に確認してください。本人確認書類の案内のみ2026年11月12日確認。厚生労働省の資格確認方法の案内で期限終了を確認できます。"}
   ],
   "qa": [
     {"question": "今すぐ住民票が必要です。どうすればいいですか", "answer": "マイナンバーカードがあれば、最寄りのコンビニで毎日6:30-23:00（年末年始・メンテナンス日除く）に200円で取得できます。詳しくは<a href=\"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html\" target=\"_blank\" rel=\"noopener\">森町公式のコンビニ交付ページ</a>をご確認ください。"},
@@ -394,11 +471,27 @@
     "today": ["マイナンバーカードの有無を確認する"], "this_week": ["コンビニまたは窓口・時間外窓口で住民票を取得する"], "outside": []
   },
   "action_grid": [
-    {"label": "コンビニ交付を確認する", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html"},
-    {"label": "住民票の申請方法を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html"},
-    {"label": "水曜時間外窓口を見る", "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html"},
-    {"label": "住民生活課に電話する", "href": "tel:0538-85-6312"}
-  ]
+ {
+  "label": "コンビニ交付を確認する",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/4826.html"
+ },
+ {
+  "label": "住民票の申請方法を見る",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/2/2_1/2914.html"
+ },
+ {
+  "label": "水曜時間外窓口を見る",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/juminkakari/581.html"
+ },
+ {
+  "label": "住民生活課に電話する",
+  "href": "tel:0538-85-6312"
+ },
+ {
+  "label": "旧保険証の期限と資格確認方法（厚生労働省）",
+  "href": "https://www.mhlw.go.jp/stf/newpage_50657.html"
+ }
+]
  },
  {
   "href": "/life/start-living/water-sewer/",

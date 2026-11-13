@@ -1409,12 +1409,12 @@
  {
   "href": "/life/family-grow/single-parent-support/",
   "lead": "ひとり親家庭には、児童扶養手当とひとり親家庭等医療費助成という2つの経済的な支援があります。どちらも健康こども課こども家庭係が窓口なので、まとめて確認しておくと安心です。",
-  "note": "児童扶養手当（令和7年4月分から）は1人目全部支給46,690円（一部支給11,010円〜46,680円）、2人目57,720円などです。ひとり親家庭等医療費助成は所得税課税世帯を除き自己負担分を助成し、お子さんは20歳到達月末まで対象です。",
+  "note": "児童扶養手当は令和8年4月分から第1子全部支給48,050円、一部支給11,340〜48,040円、第2子以降は全部支給で1人11,350円加算です。県の現行案内を採用し、旧年度額が残る町ページと区別しました。金額・支払日のみ2026年11月13日確認。医療費助成は別制度です。",
   "real_cards": [
    {
     "icon": "💴",
     "title": "児童扶養手当を確認する",
-    "body": "対象児童数に応じて支給額が変わります。1人目は全部支給46,690円、一部支給は所得により11,010円から46,680円の間で10円単位で決まります。支払いは奇数月の11日です。"
+    "body": "令和8年4月分から第1子の全部支給は月48,050円、一部支給は月11,340〜48,040円。第2子以降は全部支給で1人11,350円加算です。所得等で停止・減額されます。奇数月11日（金融機関休業日は直前営業日）に支払われます。"
    },
    {
     "icon": "🏥",
@@ -1430,7 +1430,7 @@
   "qa": [
    {
     "question": "児童扶養手当はいつ振り込まれますか",
-    "answer": "1月・3月・5月・7月・9月・11月の11日に支払われます。審査を経て承認されると、申請の翌月分から支給が始まります。"
+    "answer": "奇数月の11日、金融機関休業日と重なる場合は直前の金融機関営業日に支払われます。認定されると申請の翌月分からが対象となり、前月までの2か月分がまとめて支払われます。"
    },
    {
     "question": "ひとり親家庭等医療費助成の対象になる子どもの範囲は？",
@@ -1447,22 +1447,26 @@
     "label": "児童扶養手当を申請したい",
     "heading": "支給額と申請書類を確認",
     "bullets": [
-     "1人目全部支給46,690円、一部支給は所得に応じて変動",
+     "1人目全部支給48,050円、一部支給は所得に応じて変動",
      "戸籍謄本・個人番号確認書類・口座情報などが必要",
-     "支払いは奇数月11日"
+     "支払いは奇数月11日（金融機関休業日は直前営業日）"
     ],
     "actions": [
-     {
-      "label": "児童扶養手当について（森町公式）を見る",
-      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3031.html",
-      "source": ""
-     },
-     {
-      "label": "健康こども課に電話する",
-      "href": "tel:0538-86-6330",
-      "source": "0538-86-6330"
-     }
-    ]
+ {
+  "label": "令和8年4月分からの手当額（県公式）",
+  "href": "https://www.pref.shizuoka.jp/kodomokyoiku/kodomokosodate/kosodateservice/1040720/1022293.html"
+ },
+ {
+  "label": "児童扶養手当について（森町公式）を見る",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3031.html",
+  "source": ""
+ },
+ {
+  "label": "健康こども課に電話する",
+  "href": "tel:0538-86-6330",
+  "source": "0538-86-6330"
+ }
+]
    },
    {
     "id": "type-medical",
@@ -1492,7 +1496,7 @@
     ],
     "actions": [
      {
-      "label": "子育て相談の窓口を見るを見る",
+      "label": "子育て相談の窓口を見る",
       "href": "/life/family-grow/parenting-support/"
      }
     ]
@@ -1510,22 +1514,26 @@
    ]
   },
   "action_grid": [
-   {
-    "label": "児童扶養手当について（森町公式）を見る",
-    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3031.html"
-   },
-   {
-    "label": "ひとり親家庭等医療費助成事業（森町公式）を見る",
-    "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3034.html"
-   },
-   {
-    "label": "健康こども課に電話する",
-    "href": "tel:0538-86-6330"
-   },
-   {
-    "label": "子育て相談の窓口を見るを見る",
-    "href": "/life/family-grow/parenting-support/"
-   }
-  ]
+ {
+  "label": "現行の児童扶養手当額（県公式）",
+  "href": "https://www.pref.shizuoka.jp/kodomokyoiku/kodomokosodate/kosodateservice/1040720/1022293.html"
+ },
+ {
+  "label": "児童扶養手当について（森町公式）を見る",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3031.html"
+ },
+ {
+  "label": "ひとり親家庭等医療費助成事業（森町公式）を見る",
+  "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3034.html"
+ },
+ {
+  "label": "健康こども課に電話する",
+  "href": "tel:0538-86-6330"
+ },
+ {
+  "label": "子育て相談の窓口を見る",
+  "href": "/life/family-grow/parenting-support/"
+ }
+]
  }
 ]

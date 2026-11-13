@@ -8,7 +8,7 @@
   "title": "森町の住民票・取り方｜平日に役場へ行けません。どうすればいいですか",
   "description": "マイナンバーカードがあればコンビニ交付が使えます。利用時間は6:30-23:00で、12月29日～1月3日・メンテナンス日は利用できません。停止予定は町公式のコンビニ交付案内で確認してください。カードがない、または戸籍が必要な場合は、水曜17:15-19:00の時…",
   "question": "平日に役場へ行けません。どうすればいいですか",
-  "answer": "マイナンバーカードがあればコンビニ交付が使えます。利用時間は6:30-23:00で、12月29日～1月3日・メンテナンス日は利用できません。停止予定は町公式のコンビニ交付案内で確認してください。カードがない、または戸籍が必要な場合は、水曜17:15-19:00の時間外窓口をご利用ください。ただし住所異動の手続きはできないのでご注意ください。",
+  "answer": "マイナンバーカードがあればコンビニ交付が使えます。利用時間は6:30-23:00で、12月29日～1月3日・メンテナンス日は利用できません。停止予定は町公式のコンビニ交付案内で確認してください。カードがない、または戸籍が必要な場合は、水曜17:15-19:00の時間外窓口をご利用ください。ただし住所異動の手続きはできないのでご注意ください。 戸籍等は郵送請求もできます。広域交付は郵送・代理人請求の対象外です。",
   "hub": "procedures",
   "hub_label": "手続き",
   "category": "暮らし始めた",
@@ -578,6 +578,11 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/nozeigakari/1/4860.html",
     "label": "車検用の納税証明書は原則不要です／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/6/4817.html",
+    "label": "税証明のコンビニ交付サービス",
+    "confidence": "high"
    }
   ],
   "verified_date": "2026-07-04"
@@ -589,9 +594,9 @@
   "parent_href": "/life/moving-out/move-out-notice/",
   "parent_title": "転出届は引っ越し予定日の14日前から住民生活課住民係で",
   "title": "森町の転出届｜必要な持ち物は何ですか",
-  "description": "本人確認書類（顔写真付き1点、または健康保険証など2点）が必要です。委任状は本人・同一世帯員・二親等以内が届け出る場合は不要です。国民健康保険証や介護保険証、印鑑登録証など該当するものがあれば持参してください。",
+  "description": "本人確認書類（顔写真付き1点、または資格確認書・介護保険証・年金証書などB群の書類2点）が必要です。委任状は本人・同一世帯員・二親等以内が届け出る場合は不要です。資格確認書や介護保険証、印鑑登録証など該当するものがあれば持参してください。",
   "question": "必要な持ち物は何ですか",
-  "answer": "本人確認書類（顔写真付き1点、または健康保険証など2点）が必要です。委任状は本人・同一世帯員・二親等以内が届け出る場合は不要です。国民健康保険証や介護保険証、印鑑登録証など該当するものがあれば持参してください。",
+  "answer": "本人確認書類（顔写真付き1点、または資格確認書・介護保険証・年金証書などB群の書類2点）が必要です。委任状は本人・同一世帯員・二親等以内が届け出る場合は不要です。資格確認書や介護保険証、印鑑登録証など該当するものがあれば持参してください。",
   "hub": "procedures",
   "hub_label": "手続き",
   "category": "新しい場所へ",
@@ -955,6 +960,11 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/zeimuka/chominzeigakari/1/3/715.html",
     "label": "軽自動車税について／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/keijidoshazei/1224.html",
+    "label": "軽自動車税と現行税額表",
+    "confidence": "high"
    }
   ],
   "verified_date": "2026-07-04"
@@ -1026,6 +1036,11 @@
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/shushokushien/index.html",
     "label": "就職支援／静岡県森町",
     "confidence": "high"
+   },
+   {
+    "url": "https://jsite.mhlw.go.jp/shizuoka-roudoukyoku/hw/hw-annai/map_iwata.html",
+    "label": "ハローワーク磐田：所在地・開庁時間・管轄・部門",
+    "confidence": "high"
    }
   ],
   "verified_date": "2026-07-03"
@@ -1037,9 +1052,9 @@
   "parent_href": "/life/work-life/nhk-pension/",
   "parent_title": "森町の国民健康保険・国民年金は、住民生活課国保年金係で手続きする",
   "title": "森町の国民年金・手続き｜転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか",
-  "description": "住民生活課国保年金係が窓口です。必要書類や期限は個々の状況によって異なるため、詳細はページに明記されていません。事前に役場代表（0538-85-2111）へ問い合わせて確認することをおすすめします。",
+  "description": "国保の異動は14日以内に住民生活課国保年金係（0538-85-6313）へ届け出ます。勤務先の保険をやめたときは脱退連絡票等、加入したときは加入連絡票・資格確認書等を確認してください。マイナ保険証の利用登録があっても国保の届出が必要です。情報連携により添付不要とな…",
   "question": "転職や退職で国民健康保険に加入・喪失する手続きはどうすればいいですか",
-  "answer": "住民生活課国保年金係が窓口です。必要書類や期限は個々の状況によって異なるため、詳細はページに明記されていません。事前に役場代表（0538-85-2111）へ問い合わせて確認することをおすすめします。",
+  "answer": "国保の異動は14日以内に住民生活課国保年金係（0538-85-6313）へ届け出ます。勤務先の保険をやめたときは脱退連絡票等、加入したときは加入連絡票・資格確認書等を確認してください。マイナ保険証の利用登録があっても国保の届出が必要です。情報連携により添付不要となる場合があります。",
   "hub": "procedures",
   "hub_label": "手続き",
   "category": "働く・暮らす",
@@ -1059,6 +1074,11 @@
    {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/index.html",
     "label": "国民健康保険／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/528.html",
+    "label": "国民健康保険：14日以内の異動届・資格確認",
     "confidence": "high"
    }
   ],
@@ -1592,9 +1612,9 @@
   "parent_href": "/life/troubles-consult/farmland/inheritance/",
   "parent_title": "農地を相続したら、森町「農林政策課 農地管理係」（農業委員会）への届出から整理する。",
   "title": "農地・相続・届出｜農地を相続しました。まず何をすればいいですか",
-  "description": "農林政策課 農地管理係へ連絡し、相続届出（農地法第3条の3）に必要な書類を確認してください。",
+  "description": "町公式の「農地の相続について」から届出書と記載例を取得し、農林政策課農地管理係（0538-85-6315）へ確認します。町が案内する届出時期は相続発生後10か月以内です。法務局への相続登記とは別に必要です。",
   "question": "農地を相続しました。まず何をすればいいですか",
-  "answer": "農林政策課 農地管理係へ連絡し、相続届出（農地法第3条の3）に必要な書類を確認してください。",
+  "answer": "町公式の「農地の相続について」から届出書と記載例を取得し、農林政策課農地管理係（0538-85-6315）へ確認します。町が案内する届出時期は相続発生後10か月以内です。法務局への相続登記とは別に必要です。",
   "hub": "property",
   "hub_label": "家・土地",
   "category": "困った・相談したい",
@@ -1617,6 +1637,11 @@
    {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/index.html",
     "label": "農林業（農地の相続について）／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/6756.html",
+    "label": "農地の相続について：届出書・記載例・届出時期",
     "confidence": "high"
    }
   ],
@@ -3049,9 +3074,9 @@
   "parent_href": "/life/family-grow/single-parent-support/",
   "parent_title": "ひとり親家庭の児童扶養手当・医療費助成を、最初に見る順番で整理する。",
   "title": "森町の児童扶養手当｜児童扶養手当はいつ振り込まれますか",
-  "description": "1月・3月・5月・7月・9月・11月の11日に支払われます。審査を経て承認されると、申請の翌月分から支給が始まります。",
+  "description": "奇数月の11日、金融機関休業日と重なる場合は直前の金融機関営業日に支払われます。認定されると申請の翌月分からが対象となり、前月までの2か月分がまとめて支払われます。",
   "question": "児童扶養手当はいつ振り込まれますか",
-  "answer": "1月・3月・5月・7月・9月・11月の11日に支払われます。審査を経て承認されると、申請の翌月分から支給が始まります。",
+  "answer": "奇数月の11日、金融機関休業日と重なる場合は直前の金融機関営業日に支払われます。認定されると申請の翌月分からが対象となり、前月までの2か月分がまとめて支払われます。",
   "hub": "family",
   "hub_label": "子ども・家族",
   "category": "家族が増える",
@@ -3075,6 +3100,11 @@
    {
     "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3031.html",
     "label": "児童扶養手当について／静岡県森町",
+    "confidence": "high"
+   },
+   {
+    "url": "https://www.pref.shizuoka.jp/kodomokyoiku/kodomokosodate/kosodateservice/1040720/1022293.html",
+    "label": "児童扶養手当：令和8年4月分からの額",
     "confidence": "high"
    }
   ],

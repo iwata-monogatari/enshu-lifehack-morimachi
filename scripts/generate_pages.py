@@ -243,6 +243,20 @@ def facts_html(facts):
     return "".join(rows)
 
 
+def source_authority(url, city_name):
+    from urllib.parse import urlparse
+    host = (urlparse(url).hostname or "").removeprefix("www.")
+    if host == "town.morimachi.shizuoka.jp":
+        return f"{city_name}公式"
+    if host == "pref.shizuoka.jp":
+        return "静岡県公式"
+    if host == "jsite.mhlw.go.jp":
+        return "厚生労働省・労働局"
+    if host == "mhlw.go.jp":
+        return "厚生労働省公式"
+    return "参照先"
+
+
 def sources_html(sources, city_name):
     if not sources:
         return f"<p class=\"mini\">出典URL未確定（{esc(city_name)}公式サイトでの個別確認が必要）</p>"
@@ -250,7 +264,7 @@ def sources_html(sources, city_name):
     for s in sources:
         links.append(
             f'<a class="official-link" href="{esc(s["url"])}" target="_blank" rel="noopener">'
-            f'{esc(s["label"])} <span>{esc(city_name)}公式</span></a>'
+            f'{esc(s["label"])} <span>{esc(source_authority(s["url"], city_name))}</span></a>'
         )
     return "".join(links)
 
@@ -286,6 +300,18 @@ def cv_block_html(city):
         '<div class="company-strip"><h2 class="sec" style="margin-top:0">迷ったときの相談先</h2>'
         f'<div class="company-grid">{"".join(cards)}</div></div>'
     )
+
+
+def retained_instant_header(item):
+    """Keep an existing summary on explicit regeneration, with current facts."""
+    from inject_instant_header import START, END, build
+    path = ROOT / item["href"].strip("/") / "index.html"
+    if not path.exists() or START not in path.read_text(encoding="utf-8"):
+        return ""
+    facts = item.get("facts") or {}
+    rec = {key: facts.get(key) for key in ("window", "tel", "hours", "deadline")}
+    rec["last_checked"] = item.get("verified_date") or item.get("ai_checked_date")
+    return START + build(rec) + END
 
 
 def render_page(item, city, category_items, content_map):
@@ -354,6 +380,7 @@ def render_page(item, city, category_items, content_map):
 <main><div class="wrap">
 {breadcrumb}
 <section class="hero"><div class="hero-visual"><h1>{esc(title)}</h1></div><div class="hero-body"><p class="lead">{lead}</p>{lead_action_html}</div></section>
+{retained_instant_header(item)}
 {note_html}
 {rich_html}
 <h2 class="sec">公式窓口・確認先</h2><div class="official">{facts_html(item.get('facts'))}{sources_html(item.get('sources_morimachi'), city_name)}</div>
