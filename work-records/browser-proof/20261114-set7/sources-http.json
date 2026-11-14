@@ -1,0 +1,74 @@
+[
+  {
+    "key": "hitorioya",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3034.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/3034.html",
+    "sha256": "2ab091799ec4b3609b2e0fe674ad6361a2ae8bc471fe829b5d13b148abe75fa3",
+    "bytes": 45726,
+    "checked_at": "2026-11-14T13:59:48.531823"
+  },
+  {
+    "key": "kodomo-iryo",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1_1/2637.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/2/1_1/2637.html",
+    "sha256": "512378bb3bd9599eedf92d1f110af6d234f8172701c7d56dfeedac4a9c7149b1",
+    "bytes": 48887,
+    "checked_at": "2026-11-14T13:59:48.556586"
+  },
+  {
+    "key": "gakudo-r9",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6882.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6882.html",
+    "sha256": "6737bf064e94fe4d6bb15d3337e00ee2f2b8753237442dc6c62f98353b384aa1",
+    "bytes": 57855,
+    "checked_at": "2026-11-14T13:59:48.534950"
+  },
+  {
+    "key": "gakudo-ryokin",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6616.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/yochienhoikuenkakari/2/6616.html",
+    "sha256": "8f838917bca610f097889d2d0616d3cf6f9fa1c398564c7ece6855b049a4d0a8",
+    "bytes": 42723,
+    "checked_at": "2026-11-14T13:59:48.550917"
+  },
+  {
+    "key": "neko-josei",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/3554.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/3554.html",
+    "sha256": "c48a6a6e3dc16b113f6add2c00dec0184f78330b0246f0bb09712e8df5d4cefa",
+    "bytes": 43927,
+    "checked_at": "2026-11-14T13:59:48.563891"
+  },
+  {
+    "key": "neko-kaikata",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4304.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4304.html",
+    "sha256": "11c18a8974f64d2004672daf73e596871aa9297b6b3895db73ee0da575e2dddd",
+    "bytes": 45131,
+    "checked_at": "2026-11-14T13:59:50.279377"
+  },
+  {
+    "key": "choju-keikaku",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/3/2689.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/3/2689.html",
+    "sha256": "92f4d9bd55596d4804c25a7bde12326b4edcc16fdaf31a40cbb60e9d46d5328d",
+    "bytes": 41683,
+    "checked_at": "2026-11-14T13:59:50.006493"
+  },
+  {
+    "key": "choju-hokaku",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/3/887.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/3/887.html",
+    "sha256": "c055035bce4ce6636946ae494f34f18b8649eeb12f7cf546dc74fdfa7ec5bcc5",
+    "bytes": 39572,
+    "checked_at": "2026-11-14T13:59:49.625112"
+  }
+]
