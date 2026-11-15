@@ -1,0 +1,176 @@
+{
+  "status": "pass",
+  "articles": [
+    {
+      "slug": "20261116-morimachi-mynumber-shinsei",
+      "title": "森町のマイナンバーカード申請｜初回",
+      "requested_title": "森町のマイナンバーカード申請｜初回",
+      "html_title": "静岡県森町のマイナンバーカード申請｜初回｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-mynumber-shinsei/",
+      "characters": 5371,
+      "paragraphs": 49,
+      "answer_length": 138,
+      "faq_lengths": [
+        97,
+        83,
+        95
+      ],
+      "links": [
+        "/blog/20260803-mynumber-support/",
+        "/blog/20260907-morimachi-mynumber-card-koshin-10nen/",
+        "/blog/20260820-morimachi-mynumber-emergency-prep/",
+        "/blog/20261113-morimachi-inkan-toroku/"
+      ],
+      "reverse": "20260803-mynumber-support",
+      "images": [
+        {
+          "source": "/blog/20261116-morimachi-mynumber-shinsei/cover.svg",
+          "local_path": "blog/20261116-morimachi-mynumber-shinsei/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261116-morimachi-mynumber-shinsei/fig1.svg",
+          "local_path": "blog/20261116-morimachi-mynumber-shinsei/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261116-morimachi-mynumber-shinsei/fig2.svg",
+          "local_path": "blog/20261116-morimachi-mynumber-shinsei/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261116-morimachi-kokuho-kyufu",
+      "title": "森町の国保の給付｜一時金・葬祭費",
+      "requested_title": "森町の国保の給付｜一時金・葬祭費",
+      "html_title": "静岡県森町の国保の給付｜一時金・葬祭費｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-kokuho-kyufu/",
+      "characters": 5022,
+      "paragraphs": 46,
+      "answer_length": 122,
+      "faq_lengths": [
+        86,
+        83,
+        87
+      ],
+      "links": [
+        "/blog/20261114-morimachi-kokuho-idou/",
+        "/blog/20261111-morimachi-kouki-koureisha-iryo/",
+        "/blog/20261102-morimachi-kogaku-nenkan/",
+        "/blog/20261109-taishoku-kenkohoken-hikaku/"
+      ],
+      "reverse": "20261114-morimachi-kokuho-idou",
+      "images": [
+        {
+          "source": "/blog/20261116-morimachi-kokuho-kyufu/cover.svg",
+          "local_path": "blog/20261116-morimachi-kokuho-kyufu/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261116-morimachi-kokuho-kyufu/fig1.svg",
+          "local_path": "blog/20261116-morimachi-kokuho-kyufu/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261116-morimachi-kokuho-kyufu/fig2.svg",
+          "local_path": "blog/20261116-morimachi-kokuho-kyufu/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261116-morimachi-jido-teate-genkyo",
+      "title": "森町の児童手当の現況届｜必要な人",
+      "requested_title": "森町の児童手当の現況届｜必要な人",
+      "html_title": "静岡県森町の児童手当の現況届｜必要な人｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-jido-teate-genkyo/",
+      "characters": 5095,
+      "paragraphs": 48,
+      "answer_length": 122,
+      "faq_lengths": [
+        89,
+        85,
+        94
+      ],
+      "links": [
+        "/blog/20261109-morimachi-jido-teate-15days/",
+        "/blog/20260831-morimachi-jido-fuyo-teate-genkyotodoke/",
+        "/blog/20261114-morimachi-hitorioya-iryo/"
+      ],
+      "reverse": "20261109-morimachi-jido-teate-15days",
+      "images": [
+        {
+          "source": "/blog/20261116-morimachi-jido-teate-genkyo/cover.svg",
+          "local_path": "blog/20261116-morimachi-jido-teate-genkyo/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261116-morimachi-jido-teate-genkyo/fig1.svg",
+          "local_path": "blog/20261116-morimachi-jido-teate-genkyo/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261116-morimachi-jido-teate-genkyo/fig2.svg",
+          "local_path": "blog/20261116-morimachi-jido-teate-genkyo/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261116-morimachi-choei-boshu",
+      "title": "森町の町営住宅の入居募集｜申込資格",
+      "requested_title": "森町の町営住宅の入居募集｜申込資格",
+      "html_title": "静岡県森町の町営住宅の入居募集｜申込資格｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-choei-boshu/",
+      "characters": 5012,
+      "paragraphs": 46,
+      "answer_length": 128,
+      "faq_lengths": [
+        90,
+        80,
+        93
+      ],
+      "links": [
+        "/blog/20260824-morimachi-choei-jutaku-121/",
+        "/blog/20260828-morimachi-akiya-bank-chiku-kakakusa/",
+        "/blog/20261006-kyoju-support-jutaku-owner/"
+      ],
+      "reverse": "20260824-morimachi-choei-jutaku-121",
+      "images": [
+        {
+          "source": "/blog/20261116-morimachi-choei-boshu/cover.svg",
+          "local_path": "blog/20261116-morimachi-choei-boshu/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261116-morimachi-choei-boshu/fig1.svg",
+          "local_path": "blog/20261116-morimachi-choei-boshu/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261116-morimachi-choei-boshu/fig2.svg",
+          "local_path": "blog/20261116-morimachi-choei-boshu/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

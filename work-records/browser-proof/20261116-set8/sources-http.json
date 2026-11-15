@@ -1,0 +1,92 @@
+[
+  {
+    "key": "mynumber-kofu",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/mynumber/1284.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/mynumber/1284.html",
+    "sha256": "65d5c8bfd92a279fb2fe047d5718309c70ef9f10b427e0da97ee8c28b5ab20bf",
+    "bytes": 49667,
+    "checked_at": "2026-11-15T17:50:12.201828"
+  },
+  {
+    "key": "mynumber-card",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/mynumber/1280.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/mynumber/1280.html",
+    "sha256": "bcc9e407c1d136d66887bbfea2ec2c60a8d808f153200457ca3939f9ce13621b",
+    "bytes": 45839,
+    "checked_at": "2026-11-15T17:50:12.351399"
+  },
+  {
+    "key": "kokuho",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/1146.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/1146.html",
+    "sha256": "18877258e5b0b8773af5612ba32c7214284fa8edafc6ce61bc88ac6382cbf722",
+    "bytes": 80562,
+    "checked_at": "2026-11-15T17:50:12.203515"
+  },
+  {
+    "key": "kokuho-myna",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/5811.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminkenkohoken/5811.html",
+    "sha256": "0e2087b077ef5edc71a27b973a34ae87e40443259e0fdd627fa1f3e5d1c84a8f",
+    "bytes": 47098,
+    "checked_at": "2026-11-15T17:50:12.162765"
+  },
+  {
+    "key": "jido-teate",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/5316.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/5316.html",
+    "sha256": "ad301d59a6bf15a00efe10a3b1b133aaacfa0af45acfd2bc5b4c41d1892cd3b7",
+    "bytes": 45535,
+    "checked_at": "2026-11-15T17:50:12.201124"
+  },
+  {
+    "key": "jido-denshi",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/2538.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/2538.html",
+    "sha256": "25ca3d26eba76dc09ab7e4f182284cb5f9c7a338ae40cadaef4c7349625821c0",
+    "bytes": 48058,
+    "checked_at": "2026-11-15T17:50:13.701555"
+  },
+  {
+    "key": "jido-kaisei",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/5467.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/teate_josei/jidoteateto/5467.html",
+    "sha256": "1654697ef7b303585d2887617b7b1106bcfd98659daa2229fe5fcce8550e7797",
+    "bytes": 57694,
+    "checked_at": "2026-11-15T17:50:13.716543"
+  },
+  {
+    "key": "choei",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/4/412.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/4/412.html",
+    "sha256": "1fb63c8fd4e6b2a9a5f5eb8f5ad3c353ae784c360003a393b3b28905d257405c",
+    "bytes": 43880,
+    "checked_at": "2026-11-15T17:50:13.211784"
+  },
+  {
+    "key": "choei-amamiya",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/4/406.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/4/406.html",
+    "sha256": "20933e2aee510ad83799dc5ae44a5358803636e705058a3f3f5884df934baa78",
+    "bytes": 41742,
+    "checked_at": "2026-11-15T17:50:13.621145"
+  },
+  {
+    "key": "choei-yazaki",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/4/411.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/teijusuishinka/sumaishiengakari/4/411.html",
+    "sha256": "ddb3a0b356926e89280c4a9971ae6e8a358151b3bbbac81e121220e0f65a5d6f",
+    "bytes": 41992,
+    "checked_at": "2026-11-15T17:50:13.701868"
+  }
+]

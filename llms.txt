@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（462本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（466本）
 
 ### 新着記事
 
+- 2026-11-16 [森町のマイナンバーカード申請｜初回](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-mynumber-shinsei/)
+- 2026-11-16 [森町の国保の給付｜一時金・葬祭費](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-kokuho-kyufu/)
+- 2026-11-16 [森町の児童手当の現況届｜必要な人](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-jido-teate-genkyo/)
+- 2026-11-16 [森町の町営住宅の入居募集｜申込資格](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-choei-boshu/)
 - 2026-11-14 [森町の運転経歴証明書助成｜手数料全額](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-unten-keireki-josei/)
 - 2026-11-14 [森町の歯周病検診｜節目年齢は500円](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-shishu-kenshin/)
 - 2026-11-14 [森町の飼い主のいない猫｜手術費補助](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-neko-josei/)
@@ -55,10 +59,6 @@
 - 2026-11-14 [森町のひとり親家庭等医療費助成｜受給者証](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-hitorioya-iryo/)
 - 2026-11-14 [森町の放課後児童クラブ｜令和9年度申込](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-gakudo-r9/)
 - 2026-11-14 [森町の鳥獣被害防止計画｜捕獲と対策](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-choju-higai/)
-- 2026-11-13 [森町の町税延滞金｜令和8年は年2.8％から](https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-zeikin-entai-kin/)
-- 2026-11-13 [森町の水道届出｜開始・廃止・名義変更](https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-suido-todoke/)
-- 2026-11-13 [森町の粗大ごみ｜直接搬入と施設の料金](https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-sodai-gomi-chokusetsu/)
-- 2026-11-13 [森町の印鑑登録｜本人の進め方と再交付](https://morimachi.enshu-lifehack.com/blog/20261113-morimachi-inkan-toroku/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
