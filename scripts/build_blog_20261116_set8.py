@@ -58,6 +58,8 @@ def assemble():
   raw=re.sub(r'(src="/blog/[^\"]+/fig[12]\.svg") width="1000" height="560"',r'\1 width="600" height="800"',raw)
   raw=raw.replace('公開状況や案内は変わる場合があります。現地を訪れる前に管理者の最新案内をご確認ください。','サービスや手続きの案内は変わる場合があります。利用・申請前に公式の最新案内をご確認ください。')
   raw=raw.replace('/blog/'+p['slug']+'/cover.jpg','/blog/'+p['slug']+'/cover.svg')
+  if p.get('partial_update_date'):
+   raw=re.sub(r'("dateModified"\s*:\s*")[^"]+',lambda m:m.group(1)+p['partial_update_date'],raw)
   f.write_text(raw,encoding='utf8')
   rev=ROOT/'blog'/p['reverse']/'index.html';old=rev.read_text(encoding='utf8');href='/blog/'+p['slug']+'/'
   if href not in old:
