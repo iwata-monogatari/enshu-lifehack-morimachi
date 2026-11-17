@@ -1,0 +1,110 @@
+[
+  {
+    "key": "nenkin",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminnenkin/1148.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminnenkin/1148.html",
+    "sha256": "fd9135488fe697af86f0cd24b79baeb8f0bed274686f63e68852b0b47505aa21",
+    "bytes": 48324,
+    "checked_at": "2026-11-17T09:17:27.960100"
+  },
+  {
+    "key": "nenkin-index",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/index.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/index.html",
+    "sha256": "ed45266b6d5a823df90c1edfd8d237655e872d8cd4394f80c218761e46cc4704",
+    "bytes": 38345,
+    "checked_at": "2026-11-17T09:17:29.201335"
+  },
+  {
+    "key": "tsuino-pdf",
+    "url": "https://www.nenkin.go.jp/service/pamphlet/kokuminnenkin.files/tuino2.pdf",
+    "status": 200,
+    "final_url": "https://www.nenkin.go.jp/service/pamphlet/kokuminnenkin.files/tuino2.pdf",
+    "sha256": "d151ee8c70f31c96556b899dd3256440cf0344353ce0ba962e82f653a2613b7f",
+    "bytes": 622976,
+    "checked_at": "2026-11-17T09:17:29.046305"
+  },
+  {
+    "key": "ninpu",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/ninshin_shussan/nimpunokenkoshinsa/index.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/ninshin_shussan/nimpunokenkoshinsa/index.html",
+    "sha256": "f03ee20fd113139fc40cb86072d680d2f4c72e1dde5a89d101310dd5d8ba8593",
+    "bytes": 37258,
+    "checked_at": "2026-11-17T09:17:28.836441"
+  },
+  {
+    "key": "boshi",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/ninshin_shussan/boshikenkotecho/index.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/ninshin_shussan/boshikenkotecho/index.html",
+    "sha256": "4374bb684caef1393d4d7dce445df260e1f288ee237fa1db20d5a0cb996722e0",
+    "bytes": 37239,
+    "checked_at": "2026-11-17T09:17:28.313365"
+  },
+  {
+    "key": "ninshin",
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4805.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/morikko/ninshin_shussan/4805.html",
+    "sha256": "780769d346a1e101f30fe6aa76d5289a06bd6d0a48a55501a6416cf190de1072",
+    "bytes": 33361,
+    "checked_at": "2026-11-17T09:17:28.722060"
+  },
+  {
+    "key": "kyoten",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/recycle/4252.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/recycle/4252.html",
+    "sha256": "4fadf05c4c0fb6df614aab55ef6622210a6519eb22860a5aaa740b68e5a9ec90",
+    "bytes": 43104,
+    "checked_at": "2026-11-17T09:17:29.756507"
+  },
+  {
+    "key": "gomi-dashikata",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/gomi/1138.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/gomi/1138.html",
+    "sha256": "5584a1a939da9b25101a068fab78ca58a4dca46176fd5bdcdcb2b6b6fe3c33d1",
+    "bytes": 67242,
+    "checked_at": "2026-11-17T09:17:30.945289"
+  },
+  {
+    "key": "bunbetsu",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/gomi/1491.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/gomi_risaikuru/gomi/1491.html",
+    "sha256": "3a8277dd458fd3f37e29b9d6f251b5c194a2cc84a5be58f6b2592f8a81e6623b",
+    "bytes": 42395,
+    "checked_at": "2026-11-17T09:17:29.666967"
+  },
+  {
+    "key": "hinanjo",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1195.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1195.html",
+    "sha256": "2e67b7055977218abeaf846d475b95cbe0ed842a38414ab4757c47c99ff753db",
+    "bytes": 47269,
+    "checked_at": "2026-11-17T09:17:31.052975"
+  },
+  {
+    "key": "bichiku",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1196.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1196.html",
+    "sha256": "b7b5907ab4417ca727a1dd8e991c789e76099ab258c103e49e4b294b3eddf755",
+    "bytes": 65689,
+    "checked_at": "2026-11-17T09:17:34.426389"
+  },
+  {
+    "key": "bosai-info",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1129.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/bosai/1129.html",
+    "sha256": "3713f13880bf252612035d4367478c74c5ba0d6e262701ba19383992d52dbe4a",
+    "bytes": 51390,
+    "checked_at": "2026-11-17T09:17:31.608616"
+  }
+]
