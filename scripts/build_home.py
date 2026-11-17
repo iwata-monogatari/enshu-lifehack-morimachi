@@ -206,6 +206,7 @@ def publisher_section() -> str:
         "各ページに出典と最終確認日を表示しています。医療・法律・税務の専門判断は行いません。</p>"
         '<div class="pub-links">'
         '<a class="btn" href="/about/author/">執筆者と編集方針を見る</a>'
+        '<a class="btn" href="https://morimachialb.atawi.link/creator/">森町懐かし写真館の作成者・大石浩之を知る</a>'
         '<a class="btn" href="/terms/">利用条件・免責・誤りのご連絡</a>'
         "</div></section>")
 

@@ -197,6 +197,7 @@
   }
  ],
  "databases": [
+    {"href": "https://morimachialb.atawi.link/", "label": "森町懐かし写真館", "emoji": "📷", "note": "地名と年代から、森町の古写真・空中写真を探す"},
   {
    "href": "/mori-directory/",
    "emoji": "🗺️",

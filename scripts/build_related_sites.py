@@ -43,6 +43,7 @@ GROUPS = [
     ]),
     ("大石ひろゆきの他のサイト", "森町の手続きとは直接関係のない、個人の制作物です。", [
         ("https://oishi-hiroyuki.org/", "大石ひろゆき公式サイト", ""),
+        ("https://morimachialb.atawi.link/", "森町懐かし写真館", "古写真と空中写真でたどる森町"),
         ("https://iwata-monogatari.net/", "磐田物語", "磐田の歴史・地域史"),
         ("https://atawimusic.link/", "ATAWI MUSIC", "音楽"),
         ("https://atawicomedy.link/", "ATAWI COMEDY", "お笑い"),

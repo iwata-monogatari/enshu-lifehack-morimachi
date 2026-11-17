@@ -286,6 +286,43 @@ def article_html(row: dict, rows_by_slug: dict[str, dict], published_count: int)
             item = row["illustrations"][ill_no - 1]
             body.append(f'<figure class="article-figure"><img src="fig{ill_no}.svg" width="960" height="560" loading="lazy" alt="{e(item["alt"])}"><figcaption>{e(item["caption"])}</figcaption></figure>')
     related = []
+    album_photos = {
+        "oguni-shrine-access-parking": [
+            "okuni-torii-1921",
+            "大正10年刊の資料で小國神社の参道を見る"
+        ],
+        "oguni-shrine-river-walk": [
+            "miyagawa-mizube",
+            "宮川の紅葉を記録した写真を見る"
+        ],
+        "oguni-shrine-autumn-leaves": [
+            "maple-2013",
+            "平成25年の小國神社の紅葉を見る"
+        ],
+        "daitoin-autumn-ishimatsu": [
+            "fl-8268992232",
+            "平成24年の大洞院の池を見る"
+        ],
+        "enshu-mori-station": [
+            "mori-station-gazo1",
+            "昭和の空中写真で遠江森駅周辺を見る"
+        ],
+        "enshu-mori-tea-guide": [
+            "fl-4123062481",
+            "平成21年に茶を手揉みする様子を見る"
+        ],
+        "morimachi-history-folklore-museum": [
+            "shuchi-school-view",
+            "明治42年刊の資料で周智農林学校を見る"
+        ],
+        "guide-library-local-history-research": [
+            "shuchi-first-graduates",
+            "周智農林学校の第1回卒業生の写真と出典を見る"
+        ]
+    }
+    if row["slug"] in album_photos:
+        photo, label = album_photos[row["slug"]]
+        related.append(f'<li><a href="https://morimachialb.atawi.link/photos/{e(photo)}/">森町懐かし写真館で{e(label)}</a></li>')
     for slug in row.get("related_slugs", [])[:5]:
         other = rows_by_slug.get(slug)
         if other:
