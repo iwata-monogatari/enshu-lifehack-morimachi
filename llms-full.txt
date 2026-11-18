@@ -485,3 +485,7 @@
 - [全ページ一覧](https://morimachi.enshu-lifehack.com/sitemap.xml)
 - [執筆者と編集方針](https://morimachi.enshu-lifehack.com/about/author/)
 - [利用条件・免責・誤りのご連絡](https://morimachi.enshu-lifehack.com/terms/)
+- 2026-11-18 [森町の子育て支援センター｜行事と相談](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kosodate-center/): 森町子育て支援センターの年齢別クラブ（すくすく・のびのび）、子育てセミナーとリトミックランド、森のくまさん広場と「赤ちゃんと一緒」、毎月第2水曜の相談日と随時の電話相談を、町の公式案内で確認します。
+- 2026-11-18 [森町の国保限度額適用認定証｜申請と期限](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kokuho-gendogaku/): 森町国保の限度額適用認定証が必要な所得区分、マイナ保険証で申請が不要になる場合、有効期限7月31日と再申請、入院時の食事代の減額、長期入院の届出を、町の国保ページで確認します。高額療養費の月額上限そのものとは分けて整理します。
+- 2026-11-18 [森町国保の人間ドック助成｜16,000円](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kokuho-dock/): 森町国保の人間ドック助成16,000円の対象年齢と、特定健診1,500円との使い分け、健診実施期間と申込の流れ、個人的に受けた場合の結果提供の協力を、町の健康診査案内で確認します。
+- 2026-11-18 [森町の軽自動車｜登録・名義変更・廃車](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-keijidosha-toroku/): 森町の軽自動車等の登録・名義変更・廃車の手続き先を車種別に確認します。役場税務課で扱う原付・ミニカー・小型特殊の必要書類、浜松の二つの窓口の電話、4月1日課税と月割なしの注意、排気量変更の申告を町の公式案内で整理します。
