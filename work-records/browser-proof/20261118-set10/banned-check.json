@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "batch_hits": [],
+  "preexisting_shared_hits": [
+    {
+      "path": "search-index.json",
+      "before": 32,
+      "after": 32
+    }
+  ]
+}

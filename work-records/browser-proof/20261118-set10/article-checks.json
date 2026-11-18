@@ -1,0 +1,178 @@
+{
+  "status": "pass",
+  "articles": [
+    {
+      "slug": "20261118-morimachi-keijidosha-toroku",
+      "title": "森町の軽自動車｜登録・名義変更・廃車",
+      "requested_title": "森町の軽自動車｜登録・名義変更・廃車",
+      "html_title": "森町の軽自動車｜登録・名義変更・廃車｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-keijidosha-toroku/",
+      "characters": 5346,
+      "paragraphs": 54,
+      "answer_length": 136,
+      "faq_lengths": [
+        110,
+        120,
+        72
+      ],
+      "links": [
+        "/blog/20260820-morimachi-light-vehicle-tax-reduction-file/",
+        "/blog/20260907-morimachi-chozei-nohu-6shudan/",
+        "/blog/20261113-morimachi-zeikin-entai-kin/"
+      ],
+      "reverse": "20260820-morimachi-light-vehicle-tax-reduction-file",
+      "images": [
+        {
+          "source": "/blog/20261118-morimachi-keijidosha-toroku/cover.svg",
+          "local_path": "blog/20261118-morimachi-keijidosha-toroku/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261118-morimachi-keijidosha-toroku/fig1.svg",
+          "local_path": "blog/20261118-morimachi-keijidosha-toroku/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261118-morimachi-keijidosha-toroku/fig2.svg",
+          "local_path": "blog/20261118-morimachi-keijidosha-toroku/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261118-morimachi-kokuho-gendogaku",
+      "title": "森町の国保限度額適用認定証｜申請と期限",
+      "requested_title": "森町の国保限度額適用認定証｜申請と期限",
+      "html_title": "森町の国保限度額適用認定証｜申請と期限｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kokuho-gendogaku/",
+      "characters": 5003,
+      "paragraphs": 49,
+      "answer_length": 149,
+      "faq_lengths": [
+        122,
+        90,
+        108
+      ],
+      "links": [
+        "/blog/20261102-morimachi-kogaku-nenkan/",
+        "/blog/20261116-morimachi-kokuho-kyufu/",
+        "/blog/20261114-morimachi-kokuho-idou/",
+        "/blog/20261112-morimachi-kokuhozei-ritsu-kaitei/"
+      ],
+      "reverse": "20261116-morimachi-kokuho-kyufu",
+      "images": [
+        {
+          "source": "/blog/20261118-morimachi-kokuho-gendogaku/cover.svg",
+          "local_path": "blog/20261118-morimachi-kokuho-gendogaku/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261118-morimachi-kokuho-gendogaku/fig1.svg",
+          "local_path": "blog/20261118-morimachi-kokuho-gendogaku/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261118-morimachi-kokuho-gendogaku/fig2.svg",
+          "local_path": "blog/20261118-morimachi-kokuho-gendogaku/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261118-morimachi-kokuho-dock",
+      "title": "森町国保の人間ドック助成｜16,000円",
+      "requested_title": "森町国保の人間ドック助成｜16,000円",
+      "html_title": "森町国保の人間ドック助成｜16,000円｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kokuho-dock/",
+      "characters": 5016,
+      "paragraphs": 48,
+      "answer_length": 148,
+      "faq_lengths": [
+        95,
+        135,
+        107
+      ],
+      "links": [
+        "/blog/20260907-morimachi-tokutei-kenshin-2026/",
+        "/blog/20261111-morimachi-gankenshin-tsuika/",
+        "/blog/20261114-morimachi-shishu-kenshin/",
+        "/blog/20261111-morimachi-kouki-koureisha-iryo/"
+      ],
+      "reverse": "20260907-morimachi-tokutei-kenshin-2026",
+      "images": [
+        {
+          "source": "/blog/20261118-morimachi-kokuho-dock/cover.svg",
+          "local_path": "blog/20261118-morimachi-kokuho-dock/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261118-morimachi-kokuho-dock/fig1.svg",
+          "local_path": "blog/20261118-morimachi-kokuho-dock/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261118-morimachi-kokuho-dock/fig2.svg",
+          "local_path": "blog/20261118-morimachi-kokuho-dock/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "slug": "20261118-morimachi-kosodate-center",
+      "title": "森町の子育て支援センター｜行事と相談",
+      "requested_title": "森町の子育て支援センター｜行事と相談",
+      "html_title": "森町の子育て支援センター｜行事と相談｜森町ライフハック",
+      "url": "https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kosodate-center/",
+      "characters": 5017,
+      "paragraphs": 55,
+      "answer_length": 136,
+      "faq_lengths": [
+        94,
+        111,
+        134
+      ],
+      "links": [
+        "/blog/20260830-morimachi-nichiyo-toshokan-kosodate/",
+        "/blog/20261101-morimachi-yomikikase/",
+        "/blog/20261018-morimachi-famisapo-toroku/",
+        "/blog/20260904-morimachi-idou-kosodate-9gatsu/",
+        "/blog/20261108-morimachi-kosodate-app-iko/"
+      ],
+      "reverse": "20260904-morimachi-idou-kosodate-9gatsu",
+      "images": [
+        {
+          "source": "/blog/20261118-morimachi-kosodate-center/cover.svg",
+          "local_path": "blog/20261118-morimachi-kosodate-center/cover.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261118-morimachi-kosodate-center/fig1.svg",
+          "local_path": "blog/20261118-morimachi-kosodate-center/fig1.svg",
+          "local_exists": true,
+          "page_reference": true
+        },
+        {
+          "source": "/blog/20261118-morimachi-kosodate-center/fig2.svg",
+          "local_path": "blog/20261118-morimachi-kosodate-center/fig2.svg",
+          "local_exists": true,
+          "page_reference": true
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

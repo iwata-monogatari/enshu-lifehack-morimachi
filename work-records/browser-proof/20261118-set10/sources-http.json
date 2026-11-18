@@ -1,0 +1,110 @@
+[
+  {
+    "key": "keijidosha",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/keijidoshazei/1224.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/keijidoshazei/1224.html",
+    "sha256": "ea9ea4b12e840a142b4a18f8dfe420bd495d28ff1c63b6d1a82d2abfb91923ab",
+    "bytes": 45560,
+    "checked_at": "2026-11-18T05:21:14.886119"
+  },
+  {
+    "key": "keijidosha-index",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/keijidoshazei/index.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/zeikin/keijidoshazei/index.html",
+    "sha256": "74b5976fb022efbfb3df2fe9a0e2b994e6b33d5aff5b18f084bf32f8baead2b6",
+    "bytes": 39828,
+    "checked_at": "2026-11-18T05:21:14.888984"
+  },
+  {
+    "key": "touroku-pdf",
+    "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/5/tourokuhaisyahouhou.pdf",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/material/files/group/5/tourokuhaisyahouhou.pdf",
+    "sha256": "c8796de61eb9d713b4291911dcc6d79c4faec4183eb65bb9866445f86461ec69",
+    "bytes": 32040,
+    "checked_at": "2026-11-18T05:21:14.378903"
+  },
+  {
+    "key": "zeigaku-pdf",
+    "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/5/KEIJIDOUSYAZEIZEIGAKUHYOU.pdf",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/material/files/group/5/KEIJIDOUSYAZEIZEIGAKUHYOU.pdf",
+    "sha256": "6442617e42f5ba2e8dbe9d7f527fab3ba2255289613cf2d5848c3d93ff022409",
+    "bytes": 106167,
+    "checked_at": "2026-11-18T05:21:13.069271"
+  },
+  {
+    "key": "kokuho",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/2173.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/2173.html",
+    "sha256": "68531c3068765c375060588f0564f4762a03954c6e63185f8674ac418d6e036e",
+    "bytes": 80315,
+    "checked_at": "2026-11-18T05:21:14.891144"
+  },
+  {
+    "key": "kokuho-index",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/index.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kenko_fukushi/kokuminkenkohoken_kokikoreishairyoseido/index.html",
+    "sha256": "9c4330e3810b202d5ba0844d4761620531d78612c0e504405be60c1482a5f94a",
+    "bytes": 39619,
+    "checked_at": "2026-11-18T05:21:14.885443"
+  },
+  {
+    "key": "nenkin-index",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/index.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/index.html",
+    "sha256": "4f05b77601a36ab2d8cbcd3d3d9327de29f54048b9619c09902c8ce27e814cb6",
+    "bytes": 38345,
+    "checked_at": "2026-11-18T05:21:15.955601"
+  },
+  {
+    "key": "kenshin",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/5697.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/kokuhonenkinkakari/2/1/5697.html",
+    "sha256": "f1337b002ed3b08cbf16e8993b053bda5845f32ba4a2168fe6ca183dd7a64ba3",
+    "bytes": 43180,
+    "checked_at": "2026-11-18T05:21:17.483941"
+  },
+  {
+    "key": "kenshin-annai",
+    "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/6/kenshin-annai.pdf",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/material/files/group/6/kenshin-annai.pdf",
+    "sha256": "127d95c18f3cc00648aef9d49782293d5974da9a332f6c4c38cf43292e634de2",
+    "bytes": 757744,
+    "checked_at": "2026-11-18T05:21:19.357083"
+  },
+  {
+    "key": "center",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/1068.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/1068.html",
+    "sha256": "4b306b99046ce4b830bbf1ae8dafe3f0bab0fe0bb13c14e35e7bb36a5bcce965",
+    "bytes": 52240,
+    "checked_at": "2026-11-18T05:21:16.492214"
+  },
+  {
+    "key": "kodomo-index",
+    "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/index.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/index.html",
+    "sha256": "15a94d72347249d2ac30868e4592c2b7efdc601c8ae77c868c0125799d417827",
+    "bytes": 41084,
+    "checked_at": "2026-11-18T05:21:16.891276"
+  },
+  {
+    "key": "morikko-sodan",
+    "url": "https://www.town.morimachi.shizuoka.jp/morikko/sodan/index.html",
+    "status": 200,
+    "final_url": "https://www.town.morimachi.shizuoka.jp/morikko/sodan/index.html",
+    "sha256": "2c67bc0dd221defffa011d1cb9410983be16a74773bcab4bd667ed816edf7930",
+    "bytes": 26124,
+    "checked_at": "2026-11-18T05:21:17.175249"
+  }
+]
