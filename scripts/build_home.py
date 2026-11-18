@@ -212,29 +212,9 @@ def publisher_section() -> str:
 
 
 def consult_section() -> str:
-    """事業相談導線（指示書 6.1-10 / 11.1 / 修正指示書21）。
-
-    暮らしの情報を読み終えた方へ、ページ下部で控えめに案内する。
-    解説は実家じまいガイド、相談は森町専用ページへ案内する。
-    """
-    return (
-        '<section class="company-strip cta-weak" aria-labelledby="consult-title">'
-        '<h2 id="consult-title">実家・空き家のことも調べたい方へ</h2>'
-        "<p>森町にある実家の片付けや相続、これからの管理について、確認する順番をまとめています。"
-        "まずはガイドを読み、必要に応じて個別の相談窓口をご利用ください。</p>"
-        '<div class="pub-links">'
-        '<a class="btn" href="/life/housing/close-parents-house/" '
-        'data-track-click="mori_jikka_hub_click">実家じまいの進め方を読む</a>'
-        '<a class="btn" href="'
-        + MORI_LP
-        + "?utm_source=morimachi_lifehack&amp;utm_medium=referral"
-        + '&amp;utm_campaign=morimachi_support&amp;utm_content=home" '
-        + 'target="_blank" rel="noopener" data-track-click="cta_real_estate">'
-        "実家・空き家の相談窓口を見る</a>"
-        "</div>"
-        '<p class="cta-disclosure">※このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）の'
-        "民間サービスです。ご利用は任意で、森町の制度利用には影響しません。"
-        "森町役場とは関係ありません。</p></section>")
+    """運営会社の相談先と、森町だけの懐かし写真館を案内する。"""
+    content = (ROOT / "parts/community-links.html").read_text(encoding="utf-8").strip()
+    return "<!-- PART:community-links:START -->" + content + "<!-- PART:community-links:END -->"
 
 
 def stats() -> dict:
