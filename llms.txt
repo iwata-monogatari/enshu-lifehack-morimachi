@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（470本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（474本）
 
 ### 新着記事
 
+- 2026-11-18 [森町立図書館の利用案内｜10冊・2週間](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-toshokan-riyo-annai/)
+- 2026-11-18 [森町の浄化槽と汲み取り｜年3つの義務](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-jokaso-ijikanri/)
+- 2026-11-18 [森町の保育認定と利用調整｜2号・3号](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-hoiku-nintei-chosei/)
+- 2026-11-18 [森町の下水道使用料｜負担金20万円と計算](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-gesuido-shiyoriyo/)
 - 2026-11-17 [森町の資源ごみ拠点回収｜第2・4土曜](https://morimachi.enshu-lifehack.com/blog/20261117-morimachi-shigen-kyoten/)
 - 2026-11-17 [森町の妊婦健康診査｜受診票16回分](https://morimachi.enshu-lifehack.com/blog/20261117-morimachi-ninpu-kenshin/)
 - 2026-11-17 [森町の国民年金｜免除した保険料の追納](https://morimachi.enshu-lifehack.com/blog/20261117-morimachi-nenkin-tsuino/)
@@ -55,10 +59,6 @@
 - 2026-11-16 [森町の国保の給付｜一時金・葬祭費](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-kokuho-kyufu/)
 - 2026-11-16 [森町の児童手当の現況届｜必要な人](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-jido-teate-genkyo/)
 - 2026-11-16 [森町の町営住宅の入居募集｜申込資格](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-choei-boshu/)
-- 2026-11-14 [森町の運転経歴証明書助成｜手数料全額](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-unten-keireki-josei/)
-- 2026-11-14 [森町の歯周病検診｜節目年齢は500円](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-shishu-kenshin/)
-- 2026-11-14 [森町の飼い主のいない猫｜手術費補助](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-neko-josei/)
-- 2026-11-14 [森町の狂犬病予防注射｜済票は550円](https://morimachi.enshu-lifehack.com/blog/20261114-morimachi-kyokenbyo-chusha/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
