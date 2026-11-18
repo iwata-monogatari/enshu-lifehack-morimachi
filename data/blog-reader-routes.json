@@ -1,0 +1,285 @@
+{
+  "scope": "Reviewed end-of-article routes only; blog index groups and article content/dates are unchanged.",
+  "routes": {
+    "20260819-morimachi-radio-receiver-care-ledger": {
+      "href": "/life/emergency/",
+      "label": "森町の防災・緊急時の案内を見る",
+      "destination_kind": "related_guide"
+    },
+    "20260819-morimachi-lifesaving-course-plan": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/bosai_anzen/kyukyu/3811.html",
+      "label": "町公式の救命講習案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20260819-morimachi-passport-application-receipt-calendar": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/passport/1145.html",
+      "label": "町公式の旅券申請・受取案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20260819-morimachi-sewer-contractor-designation-file": {
+      "href": "/life/start-living/water-sewer/",
+      "label": "水道・下水道の確認先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20260819-morimachi-farmer-pension-eligibility-sheet": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kurashi_tetsuzuki/nenkin_kenkohoken/kokuminnenkin/1282.html",
+      "label": "農業者年金についての案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20260819-morimachi-advanced-equipment-plan-file": {
+      "href": "/life/work-life/start-business/",
+      "label": "事業・設備の相談先を探す",
+      "destination_kind": "related_guide"
+    },
+    "20260819-morimachi-fertility-preservation-aid-file": {
+      "href": "/life/health-medical/",
+      "label": "医療・助成の相談先を探す",
+      "destination_kind": "related_guide"
+    },
+    "20260819-morimachi-young-cancer-home-care-claim": {
+      "href": "/life/health-medical/",
+      "label": "医療・助成の相談先を探す",
+      "destination_kind": "related_guide"
+    },
+    "20260819-morimachi-shingles-vaccine-choice-sheet": {
+      "href": "/life/health-medical/adult-vaccination/",
+      "label": "おとなの予防接種の対象・相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20260822-festival-stall-permit-notification": {
+      "href": "https://www.pref.shizuoka.jp/kenkofukushi/fukushicenter/1046799/1049628/1071928.html",
+      "label": "バザー・イベントで食品を提供する際の届出／静岡県の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20260826-toroku-yukei-bunkazai-kominka": {
+      "href": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/yukei_kenzobutsu/toroku_yukei.html",
+      "label": "登録有形文化財（建造物）／文化庁の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20260826-morimachi-hakajimai-kaiso": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/2/4437.html",
+      "label": "改葬許可について／静岡県森町の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20260826-morimachi-maizo-bunkazai": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/1/5598.html",
+      "label": "埋蔵文化財の取り扱いについて／静岡県森町の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20260826-morimachi-pregnant-support-benefit-two-payments": {
+      "href": "/life/family-grow/pregnancy/",
+      "label": "妊娠・出産の手続きと相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20260826-morimachi-newborn-hearing-screening-file": {
+      "href": "/life/family-grow/childbirth/",
+      "label": "出生後の手続き・確認先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20260826-morimachi-postpartum-care-use-plan": {
+      "href": "/life/family-grow/pregnancy/",
+      "label": "妊娠・出産の手続きと相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20260826-morimachi-first-prenatal-visit-aid-file": {
+      "href": "/life/family-grow/pregnancy/",
+      "label": "妊娠・出産の手続きと相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20260826-morimachi-distant-maternity-travel-aid-calendar": {
+      "href": "/life/family-grow/pregnancy/",
+      "label": "妊娠・出産の手続きと相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20260905-morimachi-bunka-kaikan-riyo": {
+      "href": "/life/play-out/cultural-facilities/",
+      "label": "文化会館の予約・申請案内を見る",
+      "destination_kind": "related_guide"
+    },
+    "20260905-morimachi-hatachi-tsudoi-kyosan": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/lifeevent/seijin/6827.html",
+      "label": "町公式の協賛募集案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20260923-morimachi-komonjo-sodan": {
+      "href": "/discover/guide-library-local-history-research/",
+      "label": "古い資料・写真を調べる入口を見る",
+      "destination_kind": "related_guide"
+    },
+    "20260926-volunteer-activity-event-insurance": {
+      "href": "https://www.shizuoka-shakyo.or.jp/about/volunteer/active",
+      "label": "保険の仕組みを読む（静岡市社協）",
+      "destination_kind": "existing_official_source"
+    },
+    "20260930-okuni-miko-boshu": {
+      "href": "https://okunijinja.or.jp/information/",
+      "label": "小國神社の現在のお知らせを見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261003-mori-yume-professor": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/shakaikyoikukakari/2/4118.html",
+      "label": "町公式の教授募集案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261007-sumitomo-bunkazai-josei": {
+      "href": "https://sumitomo.or.jp/html/culja/cultuja_.htm",
+      "label": "住友財団の助成案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261010-shokubataiken-ukeire": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/sangyoshinkokakari/3/6181.html",
+      "label": "町公式の職場体験案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261014-morimachi-keikan-todokede": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/choseijoho/machinokeikaku_torikumi/4899.html",
+      "label": "森町：森町景観条例に基づく届出についての案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261017-matsuri-ongaku-tetsuzuki": {
+      "href": "https://secure.okbiz.jp/faq-jasrac/faq/show/822?site_domain=jp",
+      "label": "JASRAC：地域の祭りで音楽を流す場合のFAQの案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261021-bunkazai-taishin-3steps": {
+      "href": "https://www.bunka.go.jp/seisaku/bunkazai/hogofukyu/pdf/kokko_hojyo_taisin11.pdf",
+      "label": "文化庁の耐震診断指針を読む（PDF）",
+      "destination_kind": "existing_official_source"
+    },
+    "20261021-toroku-bijutsuhin": {
+      "href": "https://www.bunka.go.jp/seisaku/bijutsukan_hakubutsukan/torokubijutsuseido/gaiyo/index.html",
+      "label": "文化庁：登録美術品制度の概要の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261024-morimachi-bunka-geijutsu-gekireikin": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/shakaikyoikuka/bunkashinkogakari/2/6668.html",
+      "label": "森町：文化芸術大会出場激励金の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261028-morimachi-furui-shashin-hozon": {
+      "href": "/discover/guide-library-local-history-research/",
+      "label": "古い資料・写真を調べる入口を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261028-morimachi-ken-bunkazai-henko": {
+      "href": "https://www.pref.shizuoka.jp/kankosports/bunkageijutsu/bunkazai/1002115/1073395.html",
+      "label": "静岡県：県指定文化財等各種届出書、申請書の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261028-morimachi-kanko-shashin-riyo": {
+      "href": "/discover/guide-library-local-history-research/",
+      "label": "写真・資料の利用前に確認することを読む",
+      "destination_kind": "related_guide"
+    },
+    "20261031-morimachi-event-tableware": {
+      "href": "https://www.city.osaka.lg.jp/kankyo/page/0000687593.html",
+      "label": "再使用食器の導入資料を読む（大阪市）",
+      "destination_kind": "existing_official_source"
+    },
+    "20261031-morimachi-film-screening": {
+      "href": "https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/94383901_01.pdf",
+      "label": "文化庁の著作権テキストを読む（PDF）",
+      "destination_kind": "existing_official_source"
+    },
+    "20261031-morimachi-kaikan-sales": {
+      "href": "/life/play-out/cultural-facilities/",
+      "label": "文化会館の予約・申請案内を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261107-morimachi-guide-volunteer": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/kanko/1473.html",
+      "label": "森町「森町観光ボランティアの募集について」の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261107-morimachi-stall-fire-notification": {
+      "href": "https://www.city.fukuroi.shizuoka.jp/soshiki/38/1/shobo/1422535067729.html",
+      "label": "袋井消防本部「イベント等における露店等の開設届出と消火器の準備について」の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261107-morimachi-hall-piano-fee": {
+      "href": "/life/play-out/cultural-facilities/",
+      "label": "文化会館の予約・申請案内を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261111-morimachi-gankenshin-tsuika": {
+      "href": "/life/health-medical/cancer-specific-checkups/",
+      "label": "がん検診の申込み・確認先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261111-morimachi-denkisaku-hojo": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/3/5293.html",
+      "label": "森町「有害鳥獣被害防止対策事業費補助金について（電気柵等）」の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261111-morimachi-koureisha-flu-josei": {
+      "href": "/life/health-medical/adult-vaccination/",
+      "label": "おとなの予防接種の対象・相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261114-morimachi-kokuho-idou": {
+      "href": "/life/work-life/nhk-pension/",
+      "label": "国保・国民年金の窓口と手続きを確認する",
+      "destination_kind": "related_guide"
+    },
+    "20261114-morimachi-shishu-kenshin": {
+      "href": "/life/health-medical/health-checkups/",
+      "label": "健診の申込み・相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261114-morimachi-unten-keireki-josei": {
+      "href": "/discover/guide-drivers-license-return-mobility/",
+      "label": "免許返納後の移動・確認先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261114-morimachi-kyokenbyo-chusha": {
+      "href": "/life/troubles-consult/animal-pet-consultation/",
+      "label": "犬・猫の手続きや相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261114-morimachi-gakudo-r9": {
+      "href": "/life/education/after-school-club/",
+      "label": "放課後児童クラブの申込みを確認する",
+      "destination_kind": "related_guide"
+    },
+    "20261114-morimachi-neko-josei": {
+      "href": "/life/troubles-consult/animal-pet-consultation/",
+      "label": "犬・猫の手続きや相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261114-morimachi-choju-higai": {
+      "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/norinseisakuka/rinseikakari/3/2689.html",
+      "label": "森町「森町鳥獣被害防止計画について」の案内を見る",
+      "destination_kind": "existing_official_source"
+    },
+    "20261116-morimachi-mynumber-shinsei": {
+      "href": "/life/start-living/mynumber/",
+      "label": "マイナンバーカードの申請・受取を確認する",
+      "destination_kind": "related_guide"
+    },
+    "20261116-morimachi-kokuho-kyufu": {
+      "href": "/life/work-life/nhk-pension/",
+      "label": "国保・国民年金の窓口と手続きを確認する",
+      "destination_kind": "related_guide"
+    },
+    "20261116-morimachi-jido-teate-genkyo": {
+      "href": "/life/family-grow/child-allowance/",
+      "label": "児童手当の申請・相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261116-morimachi-choei-boshu": {
+      "href": "/life/housing/public-housing-consultation/",
+      "label": "公営住宅・住まいの相談先を見る",
+      "destination_kind": "related_guide"
+    },
+    "20261117-morimachi-nenkin-tsuino": {
+      "href": "/life/work-life/nhk-pension/",
+      "label": "国保・国民年金の窓口と手続きを確認する",
+      "destination_kind": "related_guide"
+    },
+    "20261117-morimachi-shigen-kyoten": {
+      "href": "/life/start-living/how-to-garbage/",
+      "label": "ごみの分別・回収方法を調べる",
+      "destination_kind": "related_guide"
+    }
+  }
+}

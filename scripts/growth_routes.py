@@ -1,10 +1,15 @@
 """Reader-first routes shared by the blog index and the final build pass."""
+import json
 import re
 from html import escape
+from pathlib import Path
 from mori_jikka import url
 
 LABELS = {'outings': '季節のお出かけ', 'living': '森町で暮らす', 'family': '親・実家・空き家'}
 SAFE = re.compile(r'救急|避難|警報|熱中症|防火|防犯|生活困窮|納税.*困|患者|健診|医療|健康|予防接種|認知症|障害|就学援助')
+READER_ROUTES = json.loads(
+    (Path(__file__).resolve().parents[1] / 'data/blog-reader-routes.json').read_text(encoding='utf-8')
+)['routes']
 
 def group(post):
     title = post['title']
@@ -28,6 +33,17 @@ def owner_card(entry='growth_owner'):
 
 def next_reading(post):
     kind, title = group(post), post['title']
+    # End routes are reviewed separately from the weekday-based index groups.
+    # A cultural/event organiser's application is not another sightseeing trip.
+    if route := READER_ROUTES.get(post.get('slug')):
+        note = ('掲載期間・対象・受付状況は、記事本文とリンク先を照合してください。'
+                if route['destination_kind'] == 'existing_official_source'
+                else '記事に関連する案内から、手続きや相談先を確認できます。')
+        return ('<aside class="mg-next" data-mori-topic="living" data-reader-route="procedure">'
+                '<h3>関連する手続き・確認先へ</h3><p>' + note + '</p><div class="mg-actions">'
+                + link(route['href'], route['label'], 'mori_growth_related_living', True)
+                + link('/#search-title', 'ほかの手続き・窓口を探す', 'mori_growth_related_living')
+                + '</div></aside>')
     if SAFE.search(title):
         return ('<aside class="mg-next" data-mori-topic="living"><h3>必要な手続き・相談先を確認する</h3>'
                 '<p>状況に近い項目から、公的な窓口と確認する順番を探せます。</p>'
