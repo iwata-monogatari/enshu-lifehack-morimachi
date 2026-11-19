@@ -43,22 +43,22 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（474本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（482本）
 
 ### 新着記事
 
+- 2026-11-19 [森町の申告の要否｜確定申告と町県民税](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-shinkoku-hantei/)
+- 2026-11-19 [森町のり災証明と被災証明｜申請の違い](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-risai-shomei/)
+- 2026-11-19 [森町の移住支援金｜法人が登録する手順](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-iju-hojin-toroku/)
+- 2026-11-19 [森町の学生納付特例｜所得128万円が基準](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-gakusei-nofu-tokurei/)
 - 2026-11-18 [森町立図書館の利用案内｜10冊・2週間](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-toshokan-riyo-annai/)
+- 2026-11-18 [森町の子育て支援センター｜行事と相談](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kosodate-center/)
+- 2026-11-18 [森町の国保限度額適用認定証｜申請と期限](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kokuho-gendogaku/)
+- 2026-11-18 [森町国保の人間ドック助成｜16,000円](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kokuho-dock/)
+- 2026-11-18 [森町の軽自動車｜登録・名義変更・廃車](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-keijidosha-toroku/)
 - 2026-11-18 [森町の浄化槽と汲み取り｜年3つの義務](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-jokaso-ijikanri/)
 - 2026-11-18 [森町の保育認定と利用調整｜2号・3号](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-hoiku-nintei-chosei/)
 - 2026-11-18 [森町の下水道使用料｜負担金20万円と計算](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-gesuido-shiyoriyo/)
-- 2026-11-17 [森町の資源ごみ拠点回収｜第2・4土曜](https://morimachi.enshu-lifehack.com/blog/20261117-morimachi-shigen-kyoten/)
-- 2026-11-17 [森町の妊婦健康診査｜受診票16回分](https://morimachi.enshu-lifehack.com/blog/20261117-morimachi-ninpu-kenshin/)
-- 2026-11-17 [森町の国民年金｜免除した保険料の追納](https://morimachi.enshu-lifehack.com/blog/20261117-morimachi-nenkin-tsuino/)
-- 2026-11-17 [森町の指定避難所15か所｜備蓄の置き場](https://morimachi.enshu-lifehack.com/blog/20261117-morimachi-hinanjo-bichiku/)
-- 2026-11-16 [森町のマイナンバーカード申請｜初回](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-mynumber-shinsei/)
-- 2026-11-16 [森町の国保の給付｜一時金・葬祭費](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-kokuho-kyufu/)
-- 2026-11-16 [森町の児童手当の現況届｜必要な人](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-jido-teate-genkyo/)
-- 2026-11-16 [森町の町営住宅の入居募集｜申込資格](https://morimachi.enshu-lifehack.com/blog/20261116-morimachi-choei-boshu/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
@@ -67,7 +67,3 @@
 - [執筆者と編集方針](https://morimachi.enshu-lifehack.com/about/author/)
 - [利用条件・免責・誤りのご連絡](https://morimachi.enshu-lifehack.com/terms/)
 - [運営会社: 富士ヶ丘サービス株式会社](https://www.fujigaoka-service.co.jp/)
-- 2026-11-18 [森町の子育て支援センター｜行事と相談](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kosodate-center/)
-- 2026-11-18 [森町の国保限度額適用認定証｜申請と期限](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kokuho-gendogaku/)
-- 2026-11-18 [森町国保の人間ドック助成｜16,000円](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kokuho-dock/)
-- 2026-11-18 [森町の軽自動車｜登録・名義変更・廃車](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-keijidosha-toroku/)
