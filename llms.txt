@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（482本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（486本）
 
 ### 新着記事
 
+- 2026-11-20 [森町の水道メーター交換｜8年期限と無料](https://morimachi.enshu-lifehack.com/blog/20261120-morimachi-suido-meter-kokan/)
+- 2026-11-20 [森町の公共交通利用券助成｜年3,000円](https://morimachi.enshu-lifehack.com/blog/20261120-morimachi-kotsu-riyoken-josei/)
+- 2026-11-20 [森町のひとり親学童支援｜月3,000円助成](https://morimachi.enshu-lifehack.com/blog/20261120-morimachi-hitorioya-gakudo-shien/)
+- 2026-11-20 [森町の空き家バンクVR内覧｜画面で下見](https://morimachi.enshu-lifehack.com/blog/20261120-morimachi-akiya-vr-nairan/)
 - 2026-11-19 [森町の申告の要否｜確定申告と町県民税](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-shinkoku-hantei/)
 - 2026-11-19 [森町のり災証明と被災証明｜申請の違い](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-risai-shomei/)
 - 2026-11-19 [森町の移住支援金｜法人が登録する手順](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-iju-hojin-toroku/)
@@ -55,10 +59,6 @@
 - 2026-11-18 [森町の子育て支援センター｜行事と相談](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kosodate-center/)
 - 2026-11-18 [森町の国保限度額適用認定証｜申請と期限](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kokuho-gendogaku/)
 - 2026-11-18 [森町国保の人間ドック助成｜16,000円](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-kokuho-dock/)
-- 2026-11-18 [森町の軽自動車｜登録・名義変更・廃車](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-keijidosha-toroku/)
-- 2026-11-18 [森町の浄化槽と汲み取り｜年3つの義務](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-jokaso-ijikanri/)
-- 2026-11-18 [森町の保育認定と利用調整｜2号・3号](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-hoiku-nintei-chosei/)
-- 2026-11-18 [森町の下水道使用料｜負担金20万円と計算](https://morimachi.enshu-lifehack.com/blog/20261118-morimachi-gesuido-shiyoriyo/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
