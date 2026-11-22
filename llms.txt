@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（490本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（494本）
 
 ### 新着記事
 
+- 2026-11-22 [森町のRSウイルスワクチン｜妊婦は無料](https://morimachi.enshu-lifehack.com/blog/20261122-morimachi-rs-vaccine/)
+- 2026-11-22 [森町の国保税の試算｜Excelシートと窓口](https://morimachi.enshu-lifehack.com/blog/20261122-morimachi-kokuho-shisan/)
+- 2026-11-22 [森町の同報無線戸別受信機｜貸与と電池交換](https://morimachi.enshu-lifehack.com/blog/20261122-morimachi-kobetsu-jushinki/)
+- 2026-11-22 [森町の家具固定事業｜1台600円・5台まで](https://morimachi.enshu-lifehack.com/blog/20261122-morimachi-kagu-kotei/)
 - 2026-11-21 [森町の診療所開設支援｜最大5,000万円助成](https://morimachi.enshu-lifehack.com/blog/20261121-morimachi-shinryojo-kaigyo-shien/)
 - 2026-11-21 [森町の国保税の産前産後免除｜4か月分](https://morimachi.enshu-lifehack.com/blog/20261121-morimachi-kokuho-sanzen-sango-menjo/)
 - 2026-11-21 [森町の緊急通報システム｜一人暮らしの備え](https://morimachi.enshu-lifehack.com/blog/20261121-morimachi-kinkyu-tsuho-system/)
@@ -55,10 +59,6 @@
 - 2026-11-20 [森町の公共交通利用券助成｜年3,000円](https://morimachi.enshu-lifehack.com/blog/20261120-morimachi-kotsu-riyoken-josei/)
 - 2026-11-20 [森町のひとり親学童支援｜月3,000円助成](https://morimachi.enshu-lifehack.com/blog/20261120-morimachi-hitorioya-gakudo-shien/)
 - 2026-11-20 [森町の空き家バンクVR内覧｜画面で下見](https://morimachi.enshu-lifehack.com/blog/20261120-morimachi-akiya-vr-nairan/)
-- 2026-11-19 [森町の申告の要否｜確定申告と町県民税](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-shinkoku-hantei/)
-- 2026-11-19 [森町のり災証明と被災証明｜申請の違い](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-risai-shomei/)
-- 2026-11-19 [森町の移住支援金｜法人が登録する手順](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-iju-hojin-toroku/)
-- 2026-11-19 [森町の学生納付特例｜所得128万円が基準](https://morimachi.enshu-lifehack.com/blog/20261119-morimachi-gakusei-nofu-tokurei/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
