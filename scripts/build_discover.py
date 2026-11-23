@@ -249,7 +249,7 @@ def diagram_svg(row: dict, number: int) -> str:
 def source_list(row: dict) -> str:
     items = []
     for source in row["sources"]:
-        items.append(f'<li><a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["title"])}</a><span>（{e(source["publisher"])}、{e(row["fact_checked_at"])}確認）</span></li>')
+        items.append(f'<li><a href="{e(source["url"])}" target="_blank" rel="noopener noreferrer">{e(source["title"])}</a><span>（{e(source["publisher"])}、{e(source.get("checked_at") or row["fact_checked_at"])}確認）</span></li>')
     return "".join(items)
 
 

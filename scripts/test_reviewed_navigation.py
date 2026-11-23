@@ -10,6 +10,22 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class ReviewedNavigationTests(unittest.TestCase):
+    def test_partial_source_review_survives_assembly_without_redating_old_sources(self):
+        from assemble_discover_drafts import source_object
+        from build_discover import source_list
+        from bs4 import BeautifulSoup
+        sources = [
+            {"title": "Existing source", "publisher": "Town", "url": "https://example.test/old"},
+            {"title": "New notice", "publisher": "Town", "url": "https://example.test/new", "checked_at": "2026-11-23"},
+        ]
+        row = {"fact_checked_at": "2026-08-10", "sources": [source_object(s) for s in sources]}
+        items = BeautifulSoup(source_list(row), "html.parser").select("li")
+        self.assertIn("2026-08-10確認", items[0].get_text())
+        self.assertNotIn("2026-11-23", items[0].get_text())
+        self.assertIn("2026-11-23確認", items[1].get_text())
+        self.assertNotIn("2026-08-10", items[1].get_text())
+        self.assertEqual(row["fact_checked_at"], "2026-08-10")
+
     def test_new_blog_enters_home_without_rebuilding_other_sections(self):
         html = '<header>keep</header><section class="home-blog-latest"><h2>新着</h2><ul>old</ul></section><footer>keep</footer>'
         posts = [{'slug':str(i),'date':f'2026-11-{i:02}','title':'<&'+str(i)} for i in range(1,7)]

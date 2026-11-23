@@ -41,6 +41,7 @@ def source_object(value: object) -> dict:
             "title": value.get("title") or value.get("name") or value.get("label") or fallback["title"],
             "publisher": value.get("publisher") or fallback["publisher"],
             "url": url,
+            **({"checked_at": value["checked_at"]} if value.get("checked_at") else {}),
         }
     url = str(value)
     domain = urlparse(url).netloc

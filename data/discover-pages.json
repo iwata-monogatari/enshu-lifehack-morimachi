@@ -9099,7 +9099,8 @@
             "転用審査では、農用地区域内農地、甲種、第1種、第2種、第3種など、立地条件による区分が関わると県公式が説明しています。",
             "区分名は登記事項証明書の地目欄には書かれていません。地番を示し、農業委員会や関係窓口へ現在の扱いを照会します。",
             "農用地区域からの除外が関わる場合、農地転用とは別の確認や期間が必要なことがあります。二つを同じ許可と誤解しません。",
-            "周囲が住宅、道路沿い、長年休耕という見た目だけでは区分と許可可否を判断できません。公式資料と個別相談を優先します。"
+            "周囲が住宅、道路沿い、長年休耕という見た目だけでは区分と許可可否を判断できません。公式資料と個別相談を優先します。",
+            "2026年11月23日時点。町は睦実C-2の奥戸綿・善正庵の一覧20筆を農用地区域へ編入する案を縦覧しています。町民の意見書は11月25日まで。公告が定める農用地区域内の土地の所有者・その土地に関し権利を有する方による異議申出は11月26日から12月10日までです。まず地番を町の変更案PDFと照合してください。編入はまだ案で、地区全体の変更や個々の転用可否を示すものではありません。"
           ]
         },
         {
@@ -9305,6 +9306,24 @@
           "title": "静岡地方法務局",
           "publisher": "houmukyoku.moj.go.jp",
           "url": "https://houmukyoku.moj.go.jp/shizuoka/"
+        },
+        {
+          "title": "森町農業振興地域整備計画の変更について（公告縦覧・意見書・異議申出）",
+          "publisher": "静岡県森町",
+          "url": "https://www.town.morimachi.shizuoka.jp/gyosei/sangyo_shigoto/noringyo/3796.html",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "title": "森町農業振興地域整備計画の変更（案）｜睦実C-2の対象地番一覧",
+          "publisher": "静岡県森町",
+          "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/30/02_morimachinougyousinnkouseibikeikakuann081026.pdf",
+          "checked_at": "2026-11-23"
+        },
+        {
+          "title": "森町農業振興地域整備計画変更理由書（2026年10月26日）",
+          "publisher": "静岡県森町",
+          "url": "https://www.town.morimachi.shizuoka.jp/material/files/group/30/03_hennkouriyuusyo081026.pdf",
+          "checked_at": "2026-11-23"
         }
       ],
       "related_slugs": [
@@ -9349,7 +9368,7 @@
       "media_type": "illustration",
       "fact_checked_at": "2026-08-10",
       "published_at": "2026-08-10",
-      "updated_at": "2026-08-10",
+      "updated_at": "2026-11-23",
       "editorial_rewrite_complete": false,
       "status": "published",
       "editor_reviewed": true,
