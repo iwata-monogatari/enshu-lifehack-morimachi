@@ -1,14 +1,19 @@
 {
   "/history/districts/": [
     {
-      "heading": "地区史の基本情報をそろえる",
-      "target": "/areas/mukaiamagata/",
-      "text": "天方地区のうち、{向天方の丘陵と集落を写した写真}を地名別に見られます。"
+      "heading": "天方の歴史",
+      "target": "/areas/ootorii/",
+      "text": "天方地区の谷あいの集落は、{大鳥居を写した空中写真}で川筋とあわせて見られます。"
     },
     {
-      "heading": "地区史の基本情報をそろえる",
+      "heading": "園田の歴史",
       "target": "/areas/enden/",
       "text": "園田地区では、{円田の空中写真と駅の記録}が、集落と鉄道の位置関係を読み取る入口になります。"
+    },
+    {
+      "heading": "森地区の歴史",
+      "target": "/areas/mukaiamagata/",
+      "text": "森地区にある{向天方の丘陵と集落を写した写真}も、地名別に見られます。"
     }
   ],
   "/history/cultural-heritage/": [
