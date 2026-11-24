@@ -82,6 +82,7 @@ STEPS: list[tuple[str, list[str]]] = [
     ("社寺写真をWebPとsrcsetへ最適化", [sys.executable, "scripts/optimize_sacred_place_photos.py"]),
     ("神社・寺院74個別ページの人向け本文監査", [sys.executable, "scripts/audit_sacred_place_pages.py"]),
     ("統合元の検索辞書の引き継ぎ", [sys.executable, "scripts/merge_search_dictionary.py"]),
+    ("関連する森町の写真・原典への案内を反映", [sys.executable, "scripts/inject_album_context_links.py"]),
     ("検索インデックスの生成", ["node", "scripts/build-search-index.mjs"]),
     ("検索テスト", ["node", "scripts/test-search.mjs"]),
     ("検索支援機能の計算テスト", ["node", "scripts/test-search-tools.mjs"]),

@@ -1,0 +1,332 @@
+{
+  "/history/districts/": [
+    {
+      "heading": "地区史の基本情報をそろえる",
+      "target": "/areas/mukaiamagata/",
+      "text": "天方地区のうち、{向天方の丘陵と集落を写した写真}を地名別に見られます。"
+    },
+    {
+      "heading": "地区史の基本情報をそろえる",
+      "target": "/areas/enden/",
+      "text": "園田地区では、{円田の空中写真と駅の記録}が、集落と鉄道の位置関係を読み取る入口になります。"
+    }
+  ],
+  "/history/cultural-heritage/": [
+    {
+      "heading": "文化財の基本情報をそろえる",
+      "target": "/photos/wm-2957598/",
+      "text": "現地の対象を見分ける一例として、{2007年に撮影された次郎柿原木}では、住宅と木の位置関係まで確認できます。"
+    }
+  ],
+  "/history/little-kyoto/": [
+    {
+      "heading": "山、太田川、森市場、城下の町並みを読む",
+      "target": "/photos/wm-3432539/",
+      "text": "川と町の位置関係から景観を読みたいときは、{2006年に森川橋から南を望んだ太田川の写真}も手掛かりになります。"
+    },
+    {
+      "heading": "山、太田川、森市場、城下の町並みを読む",
+      "target": "/areas/shiroshita/",
+      "text": "城下の道と斜面の位置は、{城下を撮影した空中写真}で地上とは別の角度から確認できます。"
+    }
+  ],
+  "/history/mori-no-ishimatsu/": [
+    {
+      "heading": "森町との結びつきを三つの資料層で読む",
+      "target": "/photos/wm-53120323/",
+      "text": "今日に伝わる石松像を考える資料として、{2010年の森の石松まつりで川辺を進む行列}が写真に残っています。"
+    }
+  ],
+  "/history/morimachi-timeline/": [
+    {
+      "heading": "歴史年表の基本情報をそろえる",
+      "target": "/eras/",
+      "text": "年表で拾った時期の風景を見たいときは、{明治・大正から平成までの年代別写真}を手掛かりにできます。"
+    }
+  ],
+  "/history/place-names/": [
+    {
+      "heading": "地名の基本情報をそろえる",
+      "target": "/areas/",
+      "text": "地名を決めてから、{森町の地名別アルバム}で、その地名が付いた写真と撮影時期を確かめられます。"
+    }
+  ],
+  "/history/roads/": [
+    {
+      "heading": "一次資料と地図を照合する",
+      "target": "/exhibits/aerial-photos/",
+      "text": "街道の現在の位置を考えるときは、{昭和・平成の空中写真で道と川の位置を見比べる}と、地図に記された目印を探しやすくなります。"
+    }
+  ],
+  "/discover/little-kyoto-history-walk/": [
+    {
+      "heading": "遠州森駅から始める——登録有形文化財の駅を交通施設として見る",
+      "target": "/photos/wm-4410356/",
+      "text": "出発点の変化を見比べるなら、{2006年の遠州森駅舎と入口に並ぶ赤いポストの写真}が残っています。"
+    }
+  ],
+  "/discover/morimachi-cultural-properties-guide/": [
+    {
+      "heading": "建造物を訪ねる——外観、内部、敷地の三つを分ける",
+      "target": "/exhibits/tenhama-stations/",
+      "text": "建物の外観や敷地との関係を読む例として、{遠州森駅と遠江一宮駅の写真}で駅舎・駅前・線路を見比べられます。"
+    }
+  ],
+  "/discover/morimachi-cherry-blossoms/": [
+    {
+      "heading": "太田川桜堤 川沿いを歩く花見",
+      "target": "/photos/wm-52869781/",
+      "text": "太田川の春の景観は、{2010年3月28日に撮影された堤の桜並木}にも残っています。"
+    }
+  ],
+  "/discover/morimachi-library-guide/": [
+    {
+      "heading": "最初に確認する——静岡県周智郡森町森1485の図書館",
+      "target": "/photos/wm-45082468/",
+      "text": "建物の記録として、{2015年に撮影された森町立図書館の外観}も見られます。"
+    }
+  ],
+  "/discover/morimachi-autumn-leaves-townwide-guide/": [
+    {
+      "heading": "大洞院は禅寺参拝と山あいの境内を一組にする",
+      "target": "/photos/fl-8268992232/",
+      "text": "大洞院では、{2012年に撮影された池と水面に映る紅葉}から、山あいの境内らしい秋の景色を見られます。"
+    }
+  ],
+  "/discover/tenhama-morimachi-day-trip/": [
+    {
+      "heading": "円田駅を加えるなら降りる理由と戻る列車をセットにする",
+      "target": "/photos/wm-4410466/",
+      "text": "円田駅に寄るなら、{2006年の円田駅ホームと待合所の写真}を現在の風景と見比べる楽しみもあります。"
+    }
+  ],
+  "/discover/morimachi-cycling/": [
+    {
+      "heading": "初心者は町なかの短い往復から",
+      "target": "/photos/wm-150822177/",
+      "text": "町なかと川沿いの景観を知る手掛かりに、{2009年に太田川の河原から撮られた森川橋の写真}もあります。"
+    }
+  ],
+  "/discover/morimori-festival/": [
+    {
+      "heading": "森町産業祭と森のまつりを分ける",
+      "target": "/photos/fl-5193835960/",
+      "text": "二つの行事を見分ける手掛かりに、{2010年に撮影された第23回森町産業祭の会場}があります。"
+    }
+  ],
+  "/discover/morimachi-car-free-day-trip/": [
+    {
+      "heading": "コースA 遠州森駅と町なかを歩く",
+      "target": "/photos/wm-53120355/",
+      "text": "駅から町なかを歩く前に、{2010年に撮影された森の通りの写真}を見ておくと、町並みを見比べる楽しみが増えます。"
+    }
+  ],
+  "/discover/oguni-kotomachi-half-day/": [
+    {
+      "heading": "基本順は参拝から宮川、最後に横丁",
+      "target": "/photos/fl-8237227681/",
+      "text": "宮川に足を延ばすなら、{2012年に撮影された宮川と朱塗りの橋}で、川と橋の位置関係を見られます。"
+    }
+  ],
+  "/shrine/shrines/s4410001/": [
+    {
+      "heading": "3. 社殿と歴史：火災、再建、現在の境内を一続きに見る",
+      "target": "/photos/okuni-shaden-1922/",
+      "text": "社殿を時代の違いから読む資料として、{1922年刊の資料に残る木立の中の小國神社社殿}があります。"
+    }
+  ],
+  "/shrine/shrines/s4410002/": [
+    {
+      "heading": "天宮神社について",
+      "target": "/photos/amamiya-gazo1/",
+      "text": "神社と川沿いの町並みの関係は、{昭和期の天宮神社周辺の空中写真}で上空から見られます。"
+    }
+  ],
+  "/shrine/shrines/s4410004/": [
+    {
+      "heading": "三島神社について",
+      "target": "/photos/wm-56722441/",
+      "text": "境内の記録には、{2013年に撮影された三島神社の玉垣と社殿}があります。"
+    }
+  ],
+  "/shrine/shrines/s4410031/": [
+    {
+      "heading": "金山神社について",
+      "target": "/photos/wm-56722455/",
+      "text": "社殿の周囲を知る記録として、{2013年に撮影された金山神社の石灯籠と社殿}が残っています。"
+    }
+  ],
+  "/shrine/festivals/": [
+    {
+      "heading": "季節ごとの祭礼を、固定日ではなく確認入口で整理する",
+      "target": "/exhibits/mori-festival/",
+      "text": "秋の森のまつりで屋台が動く様子は、{過去の祭りを撮影した写真と出典}で振り返れます。"
+    }
+  ],
+  "/temple/temples/t07/": [
+    {
+      "heading": "大洞院を訪ねる前の調べ方",
+      "target": "/photos/fl-8268992232/",
+      "text": "参拝と合わせて境内の景観を知りたいときは、{2012年に撮影された池と紅葉の写真}も参考になります。"
+    }
+  ],
+  "/temple/temples/t28/": [
+    {
+      "heading": "雲林寺について",
+      "target": "/photos/wm-56464277/",
+      "text": "建物の記録には、{2013年に撮影された雲林寺の朱塗りの門}があります。"
+    }
+  ],
+  "/transport/tenhama-stations/": [
+    {
+      "heading": "天浜線の基本情報をそろえる",
+      "target": "/photos/wm-4410355/",
+      "text": "駅ごとの風景の違いは、たとえば{2006年に撮影された戸綿駅のホーム}にも表れています。"
+    },
+    {
+      "heading": "天浜線の基本情報をそろえる",
+      "target": "/photos/wm-4410466/",
+      "text": "円田駅にも、{2006年のホームと待合所を記録した写真}が残っています。"
+    }
+  ],
+  "/blog/20260704-festival-and-life/": [
+    {
+      "heading": "森町の暮らしに置き換える",
+      "target": "/exhibits/mori-festival/",
+      "text": "実際に町なかでどんな風景が生まれるのかは、{森の祭りの屋台と夜の練りの写真}にも残っています。"
+    }
+  ],
+  "/blog/20260715-oguni-amemiya-bugaku/": [
+    {
+      "heading": "まず、公式資料から事実を整理する",
+      "target": "/photos/fl-27455169467/",
+      "text": "演目を調べる際に場の造りも知りたい方は、{2014年に撮影された小國神社の舞殿}を見られます。"
+    }
+  ],
+  "/blog/20260716-mori-tea-history/": [
+    {
+      "heading": "森町の暮らしに置き換える",
+      "target": "/photos/fl-4123062481/",
+      "text": "製茶の手仕事は、{2009年に森町で茶を手揉みする人たちの写真}にも記録されています。"
+    }
+  ],
+  "/blog/20260724-three-eastern-districts/": [
+    {
+      "heading": "森町の暮らしに置き換える",
+      "target": "/areas/enden/",
+      "text": "園田地区の一地点として、{円田の集落・田畑を写した空中写真と円田駅の記録}があります。"
+    }
+  ],
+  "/blog/20260805-cultural-assets/": [
+    {
+      "heading": "まず、公式資料から事実を整理する",
+      "target": "/photos/wm-2957598/",
+      "text": "このうち次郎柿原木は、{2007年の写真で木と住宅の位置関係}を見られます。"
+    }
+  ],
+  "/blog/20260808-hanabi-river-area/": [
+    {
+      "heading": "森町での暮らしに置き換えると、どこが効くのか",
+      "target": "/photos/wm-150822177/",
+      "text": "ふだんの河原と橋の様子は、{2009年に河原から望んだ森川橋の写真}にも残っています。"
+    }
+  ],
+  "/blog/20260812-amenomiya-nagi-garden-tree/": [
+    {
+      "heading": "公式情報から確定できること",
+      "target": "/photos/amamiya-gazo1/",
+      "text": "神社が川沿いの町並みのどこに位置するかは、{昭和期の天宮神社周辺の空中写真}で眺められます。"
+    }
+  ],
+  "/blog/20260812-ishimatsu-grave-rebuilt/": [
+    {
+      "heading": "公式情報から確定できること",
+      "target": "/photos/wm-53120323/",
+      "text": "墓所の記録とは別に、伝承が地域で親しまれてきた様子を{2010年の森の石松まつりの行列写真}から知ることができます。"
+    }
+  ],
+  "/blog/20260817-ichinomiya-bugaku-document-history/": [
+    {
+      "heading": "三枚目の史料——祭礼図は観客席まで記録する",
+      "target": "/photos/fl-27455169467/",
+      "text": "後年の建物を参照する資料には、{2014年に撮影された小國神社の舞殿}があります。"
+    }
+  ],
+  "/blog/20260818-morimachi-amagata-michishige-source-timeline/": [
+    {
+      "heading": "場所・所蔵・公開条件を混同しない",
+      "target": "/photos/wm-33999737/",
+      "text": "城跡の地形を知る手掛かりとして、{2010年に撮影された天方城跡の内堀}を見ることができます。"
+    }
+  ],
+  "/blog/20260818-morimachi-daitoin-six-lineages-table/": [
+    {
+      "heading": "場所・所蔵・公開条件を混同しない",
+      "target": "/photos/fl-11414332263/",
+      "text": "後年の境内の姿は、{2013年に撮影された大洞院の境内}で確認できます。"
+    }
+  ],
+  "/blog/20260909-mikura-hachiman-honden-1552-nonpublic/": [
+    {
+      "heading": "訪問前は、名称・公開範囲・移動の3点を確認する",
+      "target": "/areas/mikura/",
+      "text": "三倉の地形や集落の位置関係を知りたいときは、{三倉の空中写真}を自宅から見ておけます。"
+    }
+  ],
+  "/blog/20260912-morimachi-matsuri-yatai-dentou/": [
+    {
+      "heading": "遠州森のまつりと屋台文化の歴史・暮らしへの影響",
+      "target": "/photos/wm-126945844/",
+      "text": "二輪屋台の形を確かめる資料に、{2002年の森の祭りで北街社の屋台を撮影した写真}があります。"
+    }
+  ],
+  "/blog/20260916-okuni-jinja-shashinten-2026/": [
+    {
+      "heading": "写真から森町の建築と祭事を知る",
+      "target": "/photos/okuni-shaden-1922/",
+      "text": "この写真展とは別に、{1922年刊の資料に収められた小國神社の社殿}を公開する写真館があり、古い記録と見比べられます。"
+    }
+  ],
+  "/blog/20261014-morimachi-rekishi-shirabekata/": [
+    {
+      "heading": "図説と資料館の比較｜答えたい問いで選ぶ",
+      "target": "/eras/meiji-taisho/",
+      "text": "建物や学校の姿を知りたいときは、{明治・大正の刊行物に残る写真とその原典}も調べられます。"
+    }
+  ],
+  "/blog/20261024-daitoin-momiji-festival/": [
+    {
+      "heading": "例年の見頃と、今年の開催日を混ぜない",
+      "target": "/photos/fl-8267574695/",
+      "text": "過去の色づきを見る資料に、{2012年12月1日の大洞院の境内写真}があります。"
+    }
+  ],
+  "/blog/20261028-morimachi-kanko-shashin-riyo/": [
+    {
+      "heading": "町史の所蔵者表示は、転載の許可証ではない",
+      "target": "/about/#usage",
+      "text": "写真を探す先ごとに条件を確認する例として、{森町懐かし写真館の収蔵写真の利用案内}も参照できます。"
+    }
+  ],
+  "/blog/20261028-okuni-miyagawa-koyo-sansaku/": [
+    {
+      "heading": "宮川沿いの散策を、参拝の時間と一緒に考える",
+      "target": "/photos/fl-11205132585/",
+      "text": "川と橋の取り合わせは、{2013年に撮影された秋の宮川と赤い橋}でも見られます。"
+    }
+  ],
+  "/blog/20261107-morimachi-hayashi-2020-record/": [
+    {
+      "heading": "対案・結論：家庭の記録にも、年と出典を添える",
+      "target": "/photos/wm-130279664/",
+      "text": "年の違う記録を残す例として、{2002年の森の祭りの夜の練りを写した写真}も参照できます。"
+    }
+  ],
+  "/blog/20260905-morimachi-bunka-kaikan-riyo/": [
+    {
+      "heading": "大ホールは約1か月前の打合せで現場を数字にする",
+      "target": "/photos/wm-45082472/",
+      "text": "文化会館の建物は、{2015年に撮影された森町文化会館の入口}にも記録されています。"
+    }
+  ]
+}
