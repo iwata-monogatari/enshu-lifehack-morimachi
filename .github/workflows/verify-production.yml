@@ -1,0 +1,42 @@
+name: Verify production URLs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/verify_published.py
+      - .github/workflows/verify-production.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-mori-production
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check sitemap URLs, redirects, and custom 404
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 -u scripts/verify_published.py | tee "$RUNNER_TEMP/production-url-check.txt"
+      - name: Publish verification summary
+        if: always()
+        shell: bash
+        run: |
+          if [[ -f "$RUNNER_TEMP/production-url-check.txt" ]]; then
+            {
+              printf '## Mori Lifehack production verification\n\n'
+              printf '~~~text\n'
+              cat "$RUNNER_TEMP/production-url-check.txt"
+              printf '~~~\n'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi

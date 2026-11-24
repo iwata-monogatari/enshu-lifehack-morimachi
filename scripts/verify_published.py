@@ -1,112 +1,201 @@
-# -*- coding: utf-8 -*-
-"""公開後の実地検証（抜本改修指示書 18 フェーズ7）。
-
-本番URLへ実際にHTTPリクエストを送り、以下を確認する。
-
-  1. sitemap.xml の全URLが 200 を返すか
-  2. 統合した旧URLが 301 で、正しい統合先へ飛ぶか
-  3. 存在しないURLがカスタム404を返すか
-
-ローカルのファイル存在チェックでは、配信側（Cloudflare）の挙動は検証できない。
-公開のたびにこれを走らせる。
-
-実行: python scripts/verify_published.py
-"""
+#!/usr/bin/env python3
+"""Verify the live Mori sitemap, permanent redirects, and custom 404."""
 from __future__ import annotations
 
-import json
-import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass
+from email.utils import parsedate_to_datetime
+from pathlib import Path
+from threading import Lock
+from urllib.error import HTTPError, URLError
+from urllib.parse import urljoin, urlsplit
+from urllib.request import HTTPRedirectHandler, Request, build_opener
 import sys
 import time
-import urllib.error
-import urllib.request
-from concurrent.futures import ThreadPoolExecutor
-from pathlib import Path
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
-sys.stdout.reconfigure(encoding="utf-8")
-
 SITE = "https://morimachi.enshu-lifehack.com"
-UA = "morimachi-lifehack-deploy-check/1.0"
+UA = "morimachi-lifehack-deploy-check/2.0"
+SITEMAP_NAMESPACE = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+NOT_FOUND_PATH = "/this-page-should-not-exist-20260804/"
+TIMEOUT = 20
+MAX_ATTEMPTS = 5
+WORKERS = 4
 
 
-class NoRedirect(urllib.request.HTTPRedirectHandler):
-    def redirect_request(self, *args, **kwargs):
+class NoRedirect(HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
         return None
 
 
-OPENER = urllib.request.build_opener(NoRedirect)
+OPENER = build_opener(NoRedirect)
 
 
-def fetch_once(url: str) -> tuple[int, str]:
-    req = urllib.request.Request(url, headers={"User-Agent": UA}, method="GET")
+@dataclass(frozen=True)
+class Response:
+    status: int
+    location: str = ""
+    retry_after: str = ""
+    body: bytes = b""
+    error: str = ""
+
+
+class RequestPacer:
+    """Space requests to production and share any cooldown across workers."""
+
+    def __init__(self) -> None:
+        self.lock = Lock()
+        self.interval = 0.2
+        self.next_request = 0.0
+        self.cooldown_end = 0.0
+        self.rate_limit_count = 0
+        self.retry_count = 0
+
+    def wait(self) -> None:
+        while True:
+            with self.lock:
+                now = time.monotonic()
+                remaining = max(self.cooldown_end, self.next_request) - now
+                if remaining <= 0:
+                    self.next_request = now + self.interval
+                    return
+            time.sleep(remaining)
+
+    def defer(self, delay: float, rate_limited: bool) -> None:
+        with self.lock:
+            self.retry_count += 1
+            if rate_limited:
+                self.rate_limit_count += 1
+                if time.monotonic() >= self.cooldown_end:
+                    self.interval = min(self.interval * 2, 2.0)
+                    print(f"Rate limited. Pausing for {delay:.0f}s, then spacing requests by {self.interval:g}s.")
+            self.cooldown_end = max(self.cooldown_end, time.monotonic() + delay)
+
+
+def request_once(url: str, *, read_body: bool) -> Response:
+    request = Request(url, headers={"User-Agent": UA}, method="GET")
     try:
-        with OPENER.open(req, timeout=25) as res:
-            return res.status, res.headers.get("Location", "")
-    except urllib.error.HTTPError as e:
-        return e.code, e.headers.get("Location", "") if e.headers else ""
-    except Exception as e:  # ネットワーク断など
-        return 0, str(e)
+        with OPENER.open(request, timeout=TIMEOUT) as result:
+            return Response(result.status, body=result.read() if read_body else b"")
+    except HTTPError as result:
+        with result:
+            return Response(
+                result.code,
+                location=result.headers.get("Location", ""),
+                retry_after=result.headers.get("Retry-After", ""),
+                body=result.read() if read_body and result.code == 404 else b"",
+            )
+    except (OSError, URLError) as error:
+        return Response(0, error=str(error))
 
 
-def fetch(url: str) -> tuple[int, str]:
-    """429（レート制限）は待って数回やり直す。
-
-    まとめて叩くと Cloudflare 側で 429 が返り、実際の配信の問題と区別できなくなる。
-    """
-    delay = 2.0
-    for attempt in range(5):
-        status, loc = fetch_once(url)
-        if status != 429:
-            return status, loc
-        time.sleep(delay)
-        delay *= 2
-    return 429, "レート制限が解除されませんでした"
+def retry_delay(value: str, fallback: float) -> float:
+    if not value:
+        return fallback
+    try:
+        seconds = int(value)
+    except ValueError:
+        try:
+            seconds = parsedate_to_datetime(value).timestamp() - time.time()
+        except (ValueError, TypeError, OverflowError):
+            return fallback
+    return max(1.0, seconds)
 
 
-def main() -> None:
-    xml = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
-    urls = re.findall(r"<loc>([^<]+)</loc>", xml)
-    topics = json.loads((ROOT / "data" / "topics_master.json").read_text(encoding="utf-8"))
-    merges = {t["href"]: t["merge_target"] for t in topics if t.get("action") == "merge"}
-    # The old blog author URL was discovered as a 404 in Search Console.
-    for path in ("/author/oishi-hiroyuki/", "/author/oishi-hiroyuki", "/author/oishi-hiroyuki/index.html"):
-        merges[path] = "/about/author/"
+def fetch(url: str, pacer: RequestPacer, *, read_body: bool = False) -> Response:
+    for attempt in range(MAX_ATTEMPTS):
+        pacer.wait()
+        response = request_once(url, read_body=read_body)
+        if response.status not in (0, 429, 500, 502, 503, 504, 520, 521, 522, 523, 524):
+            return response
+        if attempt == MAX_ATTEMPTS - 1:
+            return response
+        limited = response.status == 429
+        pacer.defer(retry_delay(response.retry_after, 30 if limited else 2 ** attempt), limited)
+    raise AssertionError("Retry loop did not return a response")
 
-    print(f"1. sitemap.xml の全URL（{len(urls)}件）が200を返すか")
-    bad_pages = []
-    with ThreadPoolExecutor(max_workers=3) as pool:
-        for url, (status, loc) in zip(urls, pool.map(fetch, urls)):
-            if status != 200:
-                bad_pages.append((url, status, loc))
-    print(f"   200以外: {len(bad_pages)} 件")
-    for url, status, loc in bad_pages[:20]:
-        print(f"   x {status} {url} {loc}")
 
-    print(f"\n2. 統合した旧URL（{len(merges)}件）が301で統合先へ飛ぶか")
-    bad_redirects = []
-    targets = [SITE + src for src in merges]
-    with ThreadPoolExecutor(max_workers=3) as pool:
-        for src, (status, loc) in zip(merges, pool.map(fetch, targets)):
-            expected = merges[src]
-            ok = status == 301 and loc.rstrip("/").endswith(expected.rstrip("/"))
-            if not ok:
-                bad_redirects.append((src, status, loc, expected))
-    print(f"   期待どおりでない: {len(bad_redirects)} 件")
-    for src, status, loc, expected in bad_redirects[:20]:
-        print(f"   x {src} → {status} {loc}（期待: 301 {expected}）")
+def sitemap_urls(content: bytes) -> list[str]:
+    root = ET.fromstring(content)
+    if root.tag != SITEMAP_NAMESPACE + "urlset":
+        raise ValueError("The production sitemap is not a sitemap urlset.")
+    urls = [node.text for node in root.findall(f"{SITEMAP_NAMESPACE}url/{SITEMAP_NAMESPACE}loc")]
+    if not urls or len(set(urls)) != len(urls):
+        raise ValueError("The production sitemap is empty or contains duplicate URLs.")
+    for url in urls:
+        if not url or not url.startswith(SITE + "/") or urlsplit(url).query or urlsplit(url).fragment:
+            raise ValueError(f"Unexpected public sitemap URL: {url!r}")
+    return urls
 
-    print("\n3. 存在しないURLがカスタム404を返すか")
-    status, _ = fetch(SITE + "/this-page-should-not-exist-20260804/")
-    print(f"   {status}（404が正しい）")
-    not_found_ok = status == 404
 
-    print("\n" + "=" * 60)
-    if bad_pages or bad_redirects or not not_found_ok:
-        print("公開後の検証で不整合があります。上の一覧を確認してください。")
-        sys.exit(1)
-    print("公開後の検証: すべて期待どおりです。")
+def permanent_redirects() -> dict[str, str]:
+    redirects = {}
+    for line in (ROOT / "_redirects").read_text(encoding="utf-8").splitlines():
+        fields = line.split()
+        if len(fields) != 3 or fields[2] != "301" or line.lstrip().startswith("#"):
+            continue
+        source, target, _ = fields
+        if "*" in source:
+            # Probe the /iwata/* wildcard with an existing public page.
+            source, target = source.replace("*", "terms/"), target.replace(":splat", "terms/")
+        redirects[source] = target
+    return redirects
+
+
+def matches_redirect(url: str, response: Response, target: str) -> bool:
+    return response.status == 301 and urljoin(url, response.location) == urljoin(SITE, target)
+
+
+def check_pages(urls: list[str], pacer: RequestPacer) -> list[str]:
+    problems = []
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        pending = {pool.submit(fetch, url, pacer): url for url in urls}
+        for checked, job in enumerate(as_completed(pending), 1):
+            response = job.result()
+            url = pending[job]
+            if response.status != 200:
+                problems.append(f"{url} returned {response.status or response.error}, expected 200")
+            if checked % 100 == 0 or checked == len(urls):
+                print(f"Public pages checked: {checked}/{len(urls)}")
+    return problems
+
+
+def main() -> int:
+    pacer = RequestPacer()
+    print(f"Checking production: {SITE}")
+    sitemap = fetch(SITE + "/sitemap.xml", pacer, read_body=True)
+    if sitemap.status != 200:
+        print(f"Could not read production sitemap: {sitemap.status or sitemap.error}")
+        return 2
+    try:
+        urls = sitemap_urls(sitemap.body)
+    except (ET.ParseError, ValueError) as error:
+        print(f"Invalid production sitemap: {error}")
+        return 2
+
+    print(f"Production sitemap URLs: {len(urls)}")
+    page_problems = check_pages(urls, pacer)
+    redirect_problems = []
+    redirects = permanent_redirects()
+    for source, target in redirects.items():
+        url = SITE + source
+        response = fetch(url, pacer)
+        if not matches_redirect(url, response, target):
+            actual = response.status or response.error
+            redirect_problems.append(f"{source} returned {actual} {response.location}, expected 301 {target}")
+
+    not_found = fetch(SITE + NOT_FOUND_PATH, pacer, read_body=True)
+    custom_404 = not_found.status == 404 and "ページが見つかりません".encode() in not_found.body
+    print(f"Public URLs (HTTP 200): {len(urls) - len(page_problems)}/{len(urls)}")
+    print(f"Permanent redirects (HTTP 301): {len(redirects) - len(redirect_problems)}/{len(redirects)}")
+    print(f"Custom 404: {'OK' if custom_404 else f'failed ({not_found.status or not_found.error})'}")
+    print(f"Retries: {pacer.retry_count} ({pacer.rate_limit_count} rate-limited)")
+    for problem in sorted(page_problems + redirect_problems):
+        print(f"FAIL: {problem}")
+
+    return int(bool(page_problems or redirect_problems or not custom_404))
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
