@@ -175,6 +175,7 @@ def render(spec: tuple) -> str:
         archive_link = f'<p><a href="https://morimachialb.atawi.link/exhibits/{e(exhibit)}/">{e(link_label)}</a></p>'
     if url == "/history/districts/":
         archive_link += '<p>森町懐かし写真館で、<a href="https://morimachialb.atawi.link/areas/mori/">森</a>、<a href="https://morimachialb.atawi.link/areas/ichinomiya/">一宮</a>、<a href="https://morimachialb.atawi.link/areas/iida/">飯田</a>、<a href="https://morimachialb.atawi.link/areas/mikura/">三倉</a>の収蔵写真を地名別に見られます。<a href="https://morimachialb.atawi.link/areas/">ほかの地名の写真を探す</a></p>'
+        archive_link += '<p>撮影年代から探す方は、森町懐かし写真館の<a href="https://morimachialb.atawi.link/eras/showa/">昭和の空中写真</a>と<a href="https://morimachialb.atawi.link/eras/heisei/">平成の地上写真・空中写真</a>をご覧ください。</p>'
     cat = category(url)
     sources = OFFICIAL[cat]
     imgdir = ROOT / url.strip("/")
