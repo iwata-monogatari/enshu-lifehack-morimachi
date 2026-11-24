@@ -161,8 +161,18 @@ def depth_block(title: str, label: str, angle: str, caution: str, fieldwork: tup
 <p><strong>判断へつなげる方法：</strong>{e(d)}。そのうえで「{e(angle)}」という目的へ戻り、安全、期限、権利・利用条件、費用、利便性の順に並べ直します。最後に、誰が次の確認を行うか、いつまでに行うか、どの一次情報を使うかを一行で決めれば、情報収集だけで止まりません。</p></div>'''
 
 
+ALBUM_EXHIBITS = {
+    "/transport/tenhama-stations/": ("tenhama-stations", "遠州森駅と遠江一宮駅の駅舎・列車を昔の写真で見比べる"),
+    "/history/districts/": ("aerial-photos", "昭和・平成の空中写真で森町の川・駅・町並みを見る"),
+}
+
+
 def render(spec: tuple) -> str:
     url, title, label, angle, ids, cautions = spec
+    archive_link = ""
+    if url in ALBUM_EXHIBITS:
+        exhibit, link_label = ALBUM_EXHIBITS[url]
+        archive_link = f'<p><a href="https://morimachialb.atawi.link/exhibits/{e(exhibit)}/">{e(link_label)}</a></p>'
     cat = category(url)
     sources = OFFICIAL[cat]
     imgdir = ROOT / url.strip("/")
@@ -220,7 +230,7 @@ def render(spec: tuple) -> str:
     html = f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)} | 森町ライフハック</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE}{url}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}{url}figure-1.svg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css?v=20260702"><script type="application/ld+json">{json.dumps(breadcrumb, ensure_ascii=False)}</script><script type="application/ld+json">{json.dumps(webpage, ensure_ascii=False)}</script><script type="application/ld+json">{json.dumps(faq_json, ensure_ascii=False)}</script></head><body>
 <!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">森町ライフハック</a></div></header><!-- PART:header:END --><!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">森町ライフハックは森町公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END -->
-<main><div class="wrap"><p class="breadcrumb"><a href="/">森町ライフハック</a> ／ {e(title)}</p><section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(title)}</h1></div><div class="hero-body"><p class="lead">{e(angle)}ための確認順を、森町の地域条件に合わせてまとめました。</p></div></section>{''.join(body)}
+<main><div class="wrap"><p class="breadcrumb"><a href="/">森町ライフハック</a> ／ {e(title)}</p><section class="hero"><div class="hero-visual"><span aria-hidden="true">🧭</span><h1>{e(title)}</h1></div><div class="hero-body"><p class="lead">{e(angle)}ための確認順を、森町の地域条件に合わせてまとめました。</p>{archive_link}</div></section>{''.join(body)}
 <section><h3>更新確認ノート</h3><p>{e(title)}の情報を使った日には、参照した公式ページ、確認した地点、担当者へ聞いた内容を短く記録してください。次に{e(label)}を調べる人が同じ前提から始められ、制度や運行、地域の状況が変わったときも差分を確認できます。公開情報を引用する場合は、意味を変えず、出典名と確認日を添えます。</p><p>半年後や実行直前には、今回の結論をそのまま使わず、期限、安全、権利、費用の順に再点検します。森町の地域情報は暮らしに近いからこそ、古い案内でも検索上位に残ることがあります。{e(angle)}という当初の目的に照らし、現在も必要な条件だけを更新してください。</p></section>
 <section><h2 class="sec">このページに統合した検索意図</h2><p>次の疑問は、内容を薄く分割せず、{e(title)}でまとめて確認できます。</p>{intent_html}</section>
 <section><h2 class="sec">よくある質問</h2><div class="qa">{faq}</div></section><section><h3>関連記事</h3><div class="official">{related_html}</div></section><section><h3>公式情報・出典</h3><div class="official">{source_html}</div></section><p class="verified">最終確認日：{TODAY} ／ 変動する情報は公式ページと当事者へ再確認してください。</p></div></main><!-- PART:footer:START --><!-- PART:footer:END --></body></html>'''
