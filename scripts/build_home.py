@@ -193,6 +193,7 @@ def freshness_section(stats: dict) -> str:
         "各ページの公式リンクで最終確認してください。</p>"
         '<a class="btn" href="https://www.town.morimachi.shizuoka.jp/" target="_blank" '
         'rel="noopener" data-track-click="official_link_click">森町公式サイトの新着を見る</a>'
+        '<p><a href="/updates/#winter-2026">森町のクリスマス・年末年始のお知らせ（2026〜2027年） →</a></p>'
         '<p><a href="/updates/">2026年10月8日確認：申込み・施設予約などの更新情報を見る →</a></p>'
         "</section>")
 

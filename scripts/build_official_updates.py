@@ -26,6 +26,26 @@ def item(e, related=False, collection_date=None):
             f'{source_link(e)}</p>{recheck}{more}</section>')
 
 
+def seasonal_section(doc):
+    seasonal = doc.get('seasonal')
+    if not seasonal:
+        return ''
+    def seasonal_link(label, href):
+        return f'<a href="{esc(href, quote=True)}">{esc(label)}</a>'
+    groups = []
+    for group in seasonal['groups']:
+        rows = []
+        for row in group['entries']:
+            links = ' ／ '.join(seasonal_link(label, href) for label, href in row['links'])
+            rows.append(f'<li id="{esc(row["id"])}"><strong>{esc(row["title"])}</strong><p>{esc(row["summary"])}</p><p class="mini">{links}</p></li>')
+        groups.append(f'<h3 id="{esc(group["id"])}">{esc(group["title"])}</h3><ul>{"".join(rows)}</ul>')
+    date = esc(seasonal['checked_at'])
+    return (f'<section id="winter-2026" aria-labelledby="winter-2026-title">'
+            f'<h2 id="winter-2026-title">{esc(seasonal["title"])}</h2><p>{esc(seasonal["intro"])}</p>'
+            + ''.join(groups)
+            + f'<p class="mini">この欄の公式情報確認：<time datetime="{date}">{date}</time>。変更・空き状況は各公式案内でご確認ください。</p></section>')
+
+
 def main():
     doc = json.loads((ROOT/'data/official-updates.json').read_text(encoding='utf-8'))
     date, entries = doc['checked_at'], doc['entries']
@@ -51,9 +71,12 @@ def main():
     parts = {k:(ROOT/'parts'/f'{k}.html').read_text(encoding='utf-8') for k in ['head-css','header','footer']}
     desc = '静岡県森町公式サイトの更新を確認し、保育所・幼稚園・学童の申込み、公共施設予約、文化会館の申請期限、予防接種助成など暮らしに関わる変更を出典付きで整理します。'
     cards = ''.join(item(e, True, collection_date=date) for e in entries)
+    seasonal = seasonal_section(doc)
+    if seasonal:
+        desc = '静岡県森町の2026年クリスマス行事と2026〜2027年末年始の休館・ごみ搬入、町の手続きに関わる公式情報を出典付きで整理します。'
     html = f'''<!doctype html><html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>森町公式情報の更新まとめ｜2026年10月確認 | 森町ライフハック</title>
+<title>{esc(doc["seasonal"]["title"]) if seasonal else "森町公式情報の更新まとめ｜2026年10月確認"} | 森町ライフハック</title>
 <meta name="description" content="{desc}"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://morimachi.enshu-lifehack.com/updates/">
 <!-- PART:head-css:START -->{parts['head-css']}<!-- PART:head-css:END -->{STYLE}</head>
@@ -63,6 +86,7 @@ def main():
 <p class="lead">2026年10月8日に確認した、暮らしと手続きに関わる{len(entries)}件の更新情報です。</p>
 <p>森町公式サイトを出典とする非公式の案内です。対象年度・申込期限・利用条件は、各項目の公式ページで最終確認してください。</p>
 <p>確認日：<time datetime="{date}">{date}</time> ／ 終了した募集や催しも、確認時点の記録として掲載しています。</p></section>
+{seasonal}
 <section aria-labelledby="reviewed-updates"><h2 id="reviewed-updates">今回確認した変更と新しい案内</h2><div class="official-update-list">{cards}</div></section>
 <section><h2>確認の範囲</h2><p>公式サイトのサイトマップと前回の取得台帳を比較し、新しいページや更新候補から掲載内容に関わる情報を読み直しました。上の{len(entries)}項目を今回の掲載更新に反映しています。全公式ページの制度内容を一括して確認済みにしたものではありません。</p>
 <p>同じ案内が複数のURLに掲載される場合があります。公開日・更新日と申込期間は別のものなので、期限は本文の記載を確認してください。</p></section>

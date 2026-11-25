@@ -231,5 +231,106 @@
       "source_updated": "2026-10-01",
       "checked_at": "2026-10-08"
     }
-  ]
+  ],
+  "seasonal": {
+    "checked_at": "2026-11-25",
+    "title": "静岡県森町のクリスマスイベント・年末年始のお知らせ（2026〜2027年）",
+    "intro": "町や主催者の資料で確認できた親子向けクリスマス行事と、年末年始の休館・ごみ持ち込みをまとめました。年間予定は変更される場合があります。2027年の初詣専用交通・町全体の年末年始業務表は未確認です。",
+    "groups": [
+      {
+        "id": "winter-christmas",
+        "title": "2026年12月のクリスマスイベント（町の年間予定）",
+        "entries": [
+          {
+            "id": "winter-sukusuku",
+            "title": "12月3日（木）10:00〜11:00：すくすくクラブ「サンタクロースがやってくる」",
+            "summary": "森町在住の2025年4月2日〜2026年4月1日生まれのお子さんと保護者が対象。森町保健福祉センター2階・機能回復訓練室。初参加は支援センターに事前に電話するとスムーズです。",
+            "links": [
+              [
+                "町子育て支援センターの年間予定（PDF）",
+                "https://www.town.morimachi.shizuoka.jp/material/files/group/27/r8nenkangyoujiyotei.pdf"
+              ]
+            ]
+          },
+          {
+            "id": "winter-nobinobi",
+            "title": "12月10日（木）10:00〜11:00：のびのびクラブ「お友達とクリスマス会」",
+            "summary": "森町在住の2024年4月2日〜2025年4月1日生まれのお子さんと保護者が対象。会場は森町保健福祉センター2階・機能回復訓練室です。",
+            "links": [
+              [
+                "町子育て支援センターの年間予定（PDF）",
+                "https://www.town.morimachi.shizuoka.jp/material/files/group/27/r8nenkangyoujiyotei.pdf"
+              ]
+            ]
+          },
+          {
+            "id": "winter-koala",
+            "title": "12月15日（火）10:00〜11:20：森のコアラ広場「楽しいクリスマス」",
+            "summary": "園田総合センター。申込み不要。町の未就学児と保護者向けです。町内に実家がある方や祖父母の参加についても、年間予定をご確認ください。",
+            "links": [
+              [
+                "町子育て支援センターの年間予定（PDF）",
+                "https://www.town.morimachi.shizuoka.jp/material/files/group/27/r8nenkangyoujiyotei.pdf"
+              ],
+              [
+                "町の子育て支援センター案内",
+                "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kosodateshien_sodammadoguchi/1158.html"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "winter-year-end",
+        "title": "2026年末〜2027年始のお出かけ・暮らし",
+        "entries": [
+          {
+            "id": "winter-oguni",
+            "title": "大晦日の小國神社：師走大祓式と除夜祭",
+            "summary": "神社の恒例案内では、毎年12月31日15時に師走大祓式が始まり、事前申込みなしで参列できます。引き続き拝殿で除夜祭が行われます。最新の集合場所や変更は神社でご確認ください。",
+            "links": [
+              [
+                "小國神社公式の大祓案内",
+                "https://www.okunijinja.or.jp/ooharae/"
+              ],
+              [
+                "初詣で出かける前の確認事項",
+                "/guide/okuni-jinja-hatsumode/"
+              ]
+            ]
+          },
+          {
+            "id": "winter-closures",
+            "title": "森町立図書館と森町文化会館：12月28日〜翌年1月4日休館",
+            "summary": "両施設の通常の年末年始休館日です。臨時変更や休館後の開館日は、それぞれの施設の案内をご確認ください。町役場の業務日程ではありません。",
+            "links": [
+              [
+                "森町立図書館の利用案内",
+                "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/toshokan/916.html"
+              ],
+              [
+                "森町文化会館の利用案内",
+                "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/bunkakaikan/bunka/904.html"
+              ]
+            ]
+          },
+          {
+            "id": "winter-waste",
+            "title": "中遠クリーンセンター・中遠広域粗大ごみ処理施設：12月29日〜翌年1月3日は直接搬入不可",
+            "summary": "共用する2施設について、袋井市の2026年末年始搬入表で確認しました。森町の地区集積所の収集日とは別です。集積所に出す場合は町の地区別カレンダーをご確認ください。",
+            "links": [
+              [
+                "袋井市のごみ処理施設・年末年始搬入表",
+                "https://www.city.fukuroi.shizuoka.jp/soshiki/31/gomi/11394.html"
+              ],
+              [
+                "森町の収集日カレンダー",
+                "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/juminseikatsuka/seikatsukankyokakari/1/1/692.html"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
