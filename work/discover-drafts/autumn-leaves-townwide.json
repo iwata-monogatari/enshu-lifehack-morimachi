@@ -245,6 +245,13 @@
         }
       ],
       "sources": [
+        {
+          "title": "森町紅葉情報2026（11月25日撮影）",
+          "publisher": "静岡県森町",
+          "url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1/7146.html",
+          "role": "両地点の撮影日別色づきと2026年ライトアップ予定",
+          "checked_at": "2026-11-27"
+        },
         {"title":"小國神社・大洞院の青もみじ","publisher":"静岡県森町","url":"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/sangyoseisakuka/kankoshinkokakari/1/4472.html","role":"町が二地点を区別して紹介する公式資料"},
         {"title":"森町紅葉情報2024","publisher":"静岡県森町","url":"https://www.town.morimachi.shizuoka.jp/gyosei/kanko_bunka/eventjoho/5778.html","role":"地点別写真と撮影日を読む過年度の形式確認"},
         {"title":"森町の公共交通について","publisher":"静岡県森町","url":"https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/seisakukikakuka/seisakukikakugakari/4/422.html","role":"鉄道、バス、タクシーの確認入口"},

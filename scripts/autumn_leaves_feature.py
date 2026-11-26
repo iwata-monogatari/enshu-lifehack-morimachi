@@ -124,7 +124,7 @@ def render(row: dict, parts: dict, count: int) -> str:
 
     sources = "".join(
         f'<li><a href="{e(s["url"])}" target="_blank" rel="noopener noreferrer">{e(s["title"])}</a>'
-        f'<span>（{e(s["publisher"])}、{e(row["fact_checked_at"])}確認）</span></li>'
+        f'<span>（{e(s["publisher"])}、{e(s.get("checked_at") or row["fact_checked_at"])}確認）</span></li>'
         for s in row["sources"]
     )
 

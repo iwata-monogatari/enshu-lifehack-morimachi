@@ -1300,6 +1300,10 @@
    }
   ],
   "qa": [
+      {
+        "question": "森町の「こども健康相談」は自宅からオンラインで受けられますか",
+        "answer": "3歳までのお子さんがいる家庭は、森町のオンライン「こども健康相談」（Zoom）を利用できます。町公式の入力フォームは仮予約で、日時や参加方法は健康こども課からのメールで確定します。保健福祉センターでの対面相談とは日程が別です。最新のオンライン相談日は町の案内をご確認ください。"
+      },
    {
     "question": "何を相談したいか、まだはっきりしていません",
     "answer": "その場合はこども家庭センター（健康こども課こども家庭係内、電話0538-86-6330）へご相談ください。妊娠期から学齢期以降まで幅広く対応しており、内容に応じて専門職やサービスを紹介してもらえます。"
@@ -1324,6 +1328,11 @@
      "電話0538-86-6330（健康こども課こども家庭係内）"
     ],
     "actions": [
+          {
+            "label": "自宅からのオンライン「こども健康相談」の申込みを見る",
+            "href": "https://www.town.morimachi.shizuoka.jp/gyosei/kosodate_kyoiku/kosodateshien_sodammadoguchi/4649.html",
+            "source": "森町公式"
+          },
      {
       "label": "森町こども家庭センターをご利用くださいを見る",
       "href": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/kenkokodomoka/kodomokateikakari/1/837.html",
