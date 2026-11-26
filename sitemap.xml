@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://morimachi.enshu-lifehack.com/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/</loc></url>
 <url><loc>https://morimachi.enshu-lifehack.com/terms/</loc></url>
 <url><loc>https://morimachi.enshu-lifehack.com/hub/procedures/</loc></url>
 <url><loc>https://morimachi.enshu-lifehack.com/hub/family/</loc></url>
@@ -163,7 +163,7 @@
 <url><loc>https://morimachi.enshu-lifehack.com/fudosan/buy/otorii-6dk/</loc></url>
 <url><loc>https://morimachi.enshu-lifehack.com/fudosan/buy/mikura-7dk/</loc></url>
 <url><loc>https://morimachi.enshu-lifehack.com/fudosan/sell/</loc></url>
-<url><loc>https://morimachi.enshu-lifehack.com/updates/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/updates/</loc></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-shugakuji-kenshin/</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-dendo-jitensha-hojo/</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20261011-morimachi-chikudenchi-hojo/</loc><lastmod>2026-10-11</lastmod></url>
@@ -533,6 +533,10 @@
 <url><loc>https://morimachi.enshu-lifehack.com/discover/guide-visitor-disaster-readiness/</loc><lastmod>2026-08-10</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/discover/guide-walk-to-bus-stop-check/</loc><lastmod>2026-08-10</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/discover/guide-wildfire-prevention-reporting/</loc><lastmod>2026-08-10</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-tasedai-koryu/</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-jirogaki-kenjo/</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-sogokeikaku-10/</loc><lastmod>2026-11-26</lastmod></url>
+<url><loc>https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-corn-map/</loc><lastmod>2026-11-26</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20261125-morimachi-bukka-seikatsu/</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20261125-morimachi-fushin-kotai/</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://morimachi.enshu-lifehack.com/blog/20261125-morimachi-sangyo-shorei/</loc><lastmod>2026-11-25</lastmod></url>
