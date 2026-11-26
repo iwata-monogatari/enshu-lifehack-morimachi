@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（506本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（514本）
 
 ### 新着記事
 
+- 2026-11-27 [森町の省エネ家電買替補助｜対象7品目と予算増額の経過](https://morimachi.enshu-lifehack.com/blog/20261127-morimachi-shoene-kaden/)
+- 2026-11-27 [森町の子育て応援手当｜児童1人2万円は申請不要が原則](https://morimachi.enshu-lifehack.com/blog/20261127-morimachi-kosodate-ouen/)
+- 2026-11-27 [森町の茶の改植費用助成｜碾茶と有機に適した品種へ](https://morimachi.enshu-lifehack.com/blog/20261127-morimachi-cha-kaishoku/)
+- 2026-11-27 [森町の防災士資格取得助成｜令和8年度に新設の制度](https://morimachi.enshu-lifehack.com/blog/20261127-morimachi-bosaisi-josei/)
 - 2026-11-26 [森町の多世代交流拠点｜郡役所移築を見送り公園内に新施設](https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-tasedai-koryu/)
 - 2026-11-26 [森町の第10次総合計画｜将来像は共に創る森町](https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-sogokeikaku-10/)
 - 2026-11-26 [森町の次郎柿の皇室献上｜1908年から113回目](https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-jirogaki-kenjo/)
@@ -55,10 +59,6 @@
 - 2026-11-25 [森町の風しん対策｜県の無料抗体検査と町の接種助成](https://morimachi.enshu-lifehack.com/blog/20261125-morimachi-fushin-kotai/)
 - 2026-11-25 [森町の中小企業賃上げ環境整備補助金｜2/3・上限100万円](https://morimachi.enshu-lifehack.com/blog/20261125-morimachi-chinage-kankyo/)
 - 2026-11-25 [森町の物価高騰対応生活支援給付金｜1人7,000円](https://morimachi.enshu-lifehack.com/blog/20261125-morimachi-bukka-seikatsu/)
-- 2026-11-24 [森町の妊孕性温存支援｜凍結費用を最大40万円補助](https://morimachi.enshu-lifehack.com/blog/20261124-morimachi-ninyosei-onzon/)
-- 2026-11-24 [森町の骨髄ドナー助成｜1日2万円・上限14万円](https://morimachi.enshu-lifehack.com/blog/20261124-morimachi-kotsuzui-donor/)
-- 2026-11-24 [森町の不育症治療費助成｜7割・上限241,500円](https://morimachi.enshu-lifehack.com/blog/20261124-morimachi-fuikusho-josei/)
-- 2026-11-24 [森町のがん患者の補整具支援｜ウィッグ購入を補助](https://morimachi.enshu-lifehack.com/blog/20261124-morimachi-appearance-care/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
