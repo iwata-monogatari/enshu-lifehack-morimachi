@@ -315,6 +315,14 @@ def build() -> str:
 </div>
 </section>
 
+<section class="outside-entry" id="weekend-events" data-weekend-events="morimachi" aria-labelledby="weekend-events-title">
+<h2 id="weekend-events-title">今週末のイベント</h2>
+<p data-weekend-status aria-live="polite">公式情報を確認しています。</p>
+<ul data-weekend-list></ul>
+<noscript><p>催しの一覧は「遠州の週末イベント」でご覧いただけます。</p></noscript>
+<p><a href="https://enshu-lifehack.com/weekend-events/#morimachi">遠州の週末イベント</a> ／ <a href="/events/annual-calendar/">森町の年間イベントカレンダー</a></p>
+</section>
+<script defer src="https://enshu-lifehack.com/weekend-events.js"></script>
 <section class="home-blog-latest" aria-labelledby="home-blog-latest-title">
 <h2 id="home-blog-latest-title">ブログの新着記事</h2>
 <ul>{latest_links}</ul>
