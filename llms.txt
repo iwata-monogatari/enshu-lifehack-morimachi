@@ -43,10 +43,14 @@
 
 ## ブログ
 
-- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（518本）
+- [森町ブログ](https://morimachi.enshu-lifehack.com/blog/): 運営者・大石浩之が公表情報を確認しながら書く森町の暮らしの記事（522本）
 
 ### 新着記事
 
+- 2026-11-28 [静岡県市町対抗駅伝の森町代表｜12人がタスキをつなぐ](https://morimachi.enshu-lifehack.com/blog/20261128-morimachi-shichou-ekiden/)
+- 2026-11-28 [森町の戦没者追悼式と平和祈念式｜8月に次世代へつなぐ](https://morimachi.enshu-lifehack.com/blog/20261128-morimachi-senbotsu-heiwa/)
+- 2026-11-28 [森町の江東区民まつり出展とふるさと交流会｜東京で伝える小京都](https://morimachi.enshu-lifehack.com/blog/20261128-morimachi-koto-koryu/)
+- 2026-11-28 [森町合併70周年の記念行事｜式典と松井冬子の記念講演](https://morimachi.enshu-lifehack.com/blog/20261128-morimachi-gappei-70/)
 - 2026-11-27 [森町の省エネ家電買替補助｜対象7品目と予算増額の経過](https://morimachi.enshu-lifehack.com/blog/20261127-morimachi-shoene-kaden/)
 - 2026-11-27 [森町の民間連携｜静岡産業大学の包括連携とドローン協定](https://morimachi.enshu-lifehack.com/blog/20261127-morimachi-minkatsu-renkei/)
 - 2026-11-27 [森町の子育て応援手当｜児童1人2万円は申請不要が原則](https://morimachi.enshu-lifehack.com/blog/20261127-morimachi-kosodate-ouen/)
@@ -55,10 +59,6 @@
 - 2026-11-27 [森町議会の定例会と傍聴｜年4回の本会議の追い方](https://morimachi.enshu-lifehack.com/blog/20261127-morimachi-gikai-bocho/)
 - 2026-11-27 [森町の茶の改植費用助成｜碾茶と有機に適した品種へ](https://morimachi.enshu-lifehack.com/blog/20261127-morimachi-cha-kaishoku/)
 - 2026-11-27 [森町の防災士資格取得助成｜令和8年度に新設の制度](https://morimachi.enshu-lifehack.com/blog/20261127-morimachi-bosaisi-josei/)
-- 2026-11-26 [森町の多世代交流拠点｜郡役所移築を見送り公園内に新施設](https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-tasedai-koryu/)
-- 2026-11-26 [森町の第10次総合計画｜将来像は共に創る森町](https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-sogokeikaku-10/)
-- 2026-11-26 [森町の次郎柿の皇室献上｜1908年から113回目](https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-jirogaki-kenjo/)
-- 2026-11-26 [森のとうもろこし直売所マップ｜町内30か所以上](https://morimachi.enshu-lifehack.com/blog/20261126-morimachi-corn-map/)
 
 - [全記事索引](https://morimachi.enshu-lifehack.com/llms-full.txt)
 
